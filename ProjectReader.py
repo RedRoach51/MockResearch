@@ -136,7 +136,9 @@ def main():
     releases_stats = getReleaseStatistics(releases);
     print("\n{userRepo} Releases: {numReleases}".format(userRepo=user_repo, numReleases=releases_stats[0]))
     print("Avg time between releases: " + str(releases_stats[1]) + "\n")
-
+    
+    if input("Repeat? (Y/N)").lower() == "y":
+        main()
     
 
 if __name__ == '__main__':
