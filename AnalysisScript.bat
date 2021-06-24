@@ -42,9 +42,17 @@ for /D %%X in ("*.und") do (
 	und analyze -changed %%X
 	und settings -metricFileNameDisplayMode RelativePath %%X
 	und settings -metrics %Metrics% %%X
+	echo Generating Metrics...
 	und metrics %%X
+	echo Metrics Generated
 	echo.
 ) 
 
+cd ..
+Echo Running 'CSVReader.py'.
+Echo.
+python CSVReader.py
+Echo.
+
 :skip
-Echo -- AnalysisScript.bat complete --
+Echo -- AnalysisScript.bat Complete --
