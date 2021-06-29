@@ -28,6 +28,7 @@ for /D %%X in ("*") DO (
 			und create -languages java UndProjects\%%X.und 
 		)
 		und add %%X UndProjects\%%X.und
+		call GitLogWriter.bat %%X
 		echo.
 	)
 )
