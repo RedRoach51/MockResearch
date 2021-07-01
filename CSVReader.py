@@ -8,7 +8,8 @@ import csv
 print('-- CSVReader.py loaded --')
 
 Projects = []
-#2D Array, project[0] = Project name, Project[1] = All files, Project[2] = Test files, Project[3] = Git files
+#2D Array of project[] objects, project[0] = Project name, project[1] = All files, 
+#   project[2] = Test files, project[3] = Git Author commits, project[4] = Git Tag files
 
 
 for file in os.listdir('UndProjects'):
@@ -38,23 +39,36 @@ for project in Projects:
     project.append(ProjectFiles)
     project.append(TestFiles)
     
-    #Read Git metrics
+    #Read Git commit log metrics
     reader = open('UndProjects/' + project[0] + '.log', encoding='utf-8')
-    validLine = ['Aut']
+    validLines = ['Aut']
     authors = {}
     for line in reader:
-        if line[0:3] in validLine:
+        if line[0:3] in validLines:
             author = line[8:line.index('<')-1]
             if author not in authors:
                 authors[author] = 0
             authors[author] += 1
         
     reader.close()
-
-
     authors = dict(sorted(authors.items(),key=lambda item: item[1],reverse=True))
     project.append(authors)
+    
+    #Read Git release/tag log metrics
+    reader = open('UndProjects/' + project[0] + '2.log', encoding='utf-8')
+    validLines = ['tag:']
+    tags = []
+    for line in reader:
+        valid = False
+        for validLine in validLines:
+            if validLine in line:
+                valid = True
+        if valid:
+            tags.append(line)
         
+    reader.close()
+    project.append(tags)
+      
 #    print("\nProject: " + project[0])
 #    print("Number of .java files: " + str(len(project[1])))
 #    print("Number of test files: " + str(len(project[2])))
@@ -63,7 +77,7 @@ print('Writing to "UndProjects/AllMetrics.csv"...')
 reader = open('UndProjects/AllMetrics.csv','w', newline = '')
 
 csvOutput = csv.writer(reader)
-csvOutput.writerow(['Project Name', 'commits', 'contributors', '.java Files', 'LOC', 'test Files', 'test LOC',])
+csvOutput.writerow(['Project Name', 'commits', 'contributors', 'releases', '.java Files', 'LOC', 'test Files', 'test LOC',])
 
 LOCColumn = metricHeaders.index('CountLineCode')
 
@@ -79,8 +93,8 @@ for project in Projects:
         testLOC += int(file[LOCColumn])
     commits = sum(project[3].values())
     contributors = len((project[3].keys()))
-    
-    csvOutput.writerow([name, commits, contributors, totalFiles, LOC, totalTestFiles, testLOC])
+    releases = len((project[4]))
+    csvOutput.writerow([name, commits, contributors, releases, totalFiles, LOC, totalTestFiles, testLOC])
 
 reader.close()
 
