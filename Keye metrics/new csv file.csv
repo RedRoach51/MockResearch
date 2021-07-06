@@ -1,0 +1,26 @@
+Name,# of .java files,LOC of java files,# of test files,LOC of test files
+any23.csv,438,28862,99,8475
+apex-core.csv,474,75250,130,24797
+archiva.csv,972,121425,282,47344
+aries.csv,2065,164187,757,58504
+avro.csv,666,80587,299,44892
+axis-axis2-java-core.csv,2988,298148,1272,96226
+beam.csv,4882,625585,1910,317942
+bigtop.csv,215,11276,82,5657
+bookkeeper.csv,2162,244339,633,105753
+brooklyn.csv,3279,352360,1414,159650
+bval.csv,319,22558,112,5545
+calcite.csv,2134,332969,311,141461
+camel.csv,20443,1560921,10847,616234
+carbondata.csv,1135,140776,138,24812
+cassandra.csv,3014,474884,1010,203585
+cayenne.csv,4165,293783,1702,115732
+chainsaw.csv,189,26358,8,621
+chemistry-opencmis.csv,1045,130288,177,29805
+chukwa.csv,469,43078,117,9727
+clerezza.csv,249,14877,50,4909
+click.csv,461,47903,106,7477
+cloudstack.csv,5761,670821,675,92242
+cocoon.csv,2531,196034,166,9753
+commons-bcel.csv,515,41394,86,4168
+ws-axiom.csv,1944,72680,1183,40696
