@@ -1,4 +1,4 @@
-::
+:: This script should be placed in the same directory as AnalysisScript.bat.
 @Echo off
 Echo Creating git logs...
 cd %1
