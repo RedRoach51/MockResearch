@@ -10,8 +10,10 @@ print('-- CSVReader.py loaded --')
 Projects = []
 #2D Array of project[] objects, project[0] = Project name, project[1] = All files, 
 #   project[2] = Test files, project[3] = Git Author commits, project[4] = Git Tag files
-#   project[5] = Git 
+#   project[5] = Mock importsr in Test files
 
+nonProjectFiles = ['AllMetrics.csv','AllMockImports.csv']
+# Set files that CSVReader should ignore here.
 
 metricHeaders = []
 # Used by 'AllMetrics' to search for specific metrics listed in UndProject CSV files.
@@ -55,6 +57,7 @@ def GitCommitMetrics(projectName, validLines):
         
     reader.close()
     authors = dict(sorted(authors.items(),key=lambda item: item[1],reverse=True))
+
     return authors
 
 def GitReleaseMetrics(projectName):
@@ -100,33 +103,44 @@ def TestFileMetrics(projectName, testFiles):
             else:
                 raise FileNotFoundError(projectName + '\\' + testFiles[0][1])
         else:
+            reader.close()
             validPath = True
             
         
-    numMock = 0        
+    numMock = 0
+    
+    mockImports = {}
+    # MockImports is a dict where the key is filePath, and the value is 
+    # a list of validMock lines in the file.
+
+    
     for file in testFiles:
-        reader = open(projectName + pathExtensions[path] + '\\' + file[1],encoding='utf-8')
+        filePath = projectName + pathExtensions[path] + '\\' + file[1]
+        reader = open(filePath,encoding='utf-8')
         fileName = file[1][(file[1].rindex('\\') + 1):-5]
         for line in reader:
-            if line[0:6] == "import" and 'mock' in line.lower():
-                numMock+= 1
+            if line.strip()[0:6] == "import" and 'mock' in line.lower():
 #debug                print(projectName + "," + fileName + ": " + line)
-                break
+                if filePath not in mockImports:
+                    mockImports[filePath]=[]
+                mockImports[filePath].append(line.strip()[7:-2])
             if 'class' in line and fileName in line:
                 break
         reader.close()
-    return numMock
+    return mockImports
         
     
 
 for file in os.listdir('UndProjects'):
-    if '.csv' in file and file != 'AllMetrics.csv':
+    if '.csv' in file and file not in nonProjectFiles:
         Projects.append([file[:-4]])
 
 
 print('Reading Projects...')
+
+mockImports = {}
 for project in Projects:
-    
+    print('   Reading ' + project[0] + '...')
     #Read CSV metrics
     Files = CSVMetrics(project[0])
     project.append(Files[0])
@@ -139,8 +153,10 @@ for project in Projects:
     project.append(GitReleaseMetrics(project[0]))
       
     #Read Test file import metrics
-    project.append(TestFileMetrics(project[0], project[2]))
-    
+    TestMetrics = TestFileMetrics(project[0], project[2])
+    project.append(TestMetrics)
+
+
 #    print("\nProject: " + project[0])
 #    print("Number of .java files: " + str(len(project[1])))
 #    print("Number of test files: " + str(len(project[2])))
@@ -152,6 +168,7 @@ csvOutput = csv.writer(reader)
 csvOutput.writerow(['Project Name', 'commits', 'contributors', 'releases', '.java Files', 'LOC', 'test Files', 'test LOC','\'Mock\' imports'])
 
 LOCColumn = metricHeaders.index('CountLineCode')
+mockImports = dict(sorted(mockImports.items(),key=lambda item: item[1],reverse=True))
 
 for project in Projects:
     name = project[0]
@@ -166,10 +183,26 @@ for project in Projects:
     commits = sum(project[3].values())
     contributors = len((project[3].keys()))
     releases = len((project[4]))
-    mockImports = project[5]
-    csvOutput.writerow([name, commits, contributors, releases, totalFiles, LOC, totalTestFiles, testLOC, project[5]])
+    mockedTests = len(project[5])
+    csvOutput.writerow([name, commits, contributors, releases, totalFiles, LOC, totalTestFiles, testLOC, mockedTests])
 
 reader.close()
 
+print('Writing to "UndProjects/AllMockImports.csv"...')
+reader = open('UndProjects/AllMockImports.csv','w', newline = '')
+
+csvOutput = csv.writer(reader)
+csvOutput.writerow(['Project Name', 'File Path', 'Imported Mock Line'])
+
+for project in Projects:
+    name = project[0]
+    for file in project[5].keys():
+        filePath = file
+        for importLine in project[5][filePath]:
+            csvOutput.writerow([name,filePath,importLine])
+            
+reader.close()
+
 print ('-- CSVReader.py Complete --')
+
 
