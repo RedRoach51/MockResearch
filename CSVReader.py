@@ -9,10 +9,10 @@ print('-- CSVReader.py loaded --')
 
 Projects = []
 #2D Array of project[] objects, project[0] = Project name, project[1] = All files, 
-#   project[2] = Test files, project[3] = Git Author commits, project[4] = Git Tag files
-#   project[5] = Mock importsr in Test files
+#   project[2] = Test files, project[3] = Git Author commits, project[4] = Git Tag files,
+#   project[5] = Mock imports in Test files, project[6] = Mock frameworks in Test files
 
-nonProjectFiles = ['AllMetrics.csv','AllMockImports.csv']
+nonProjectFiles = ['AllMetrics.csv','AllMockImports.csv','AllMockFrameworks.csv']
 # Set files that CSVReader should ignore here.
 
 metricHeaders = []
@@ -20,7 +20,7 @@ metricHeaders = []
 
 def CSVMetrics(projectName):
     ''' Reads CSV metrics of a java project. Returns info gathered from UND metrics in
-            a 2d array consisting of projectFiles and testFiles.
+            a 2D array consisting of projectFiles and testFiles.
         projectName(string): Name of Java project.
     
     '''
@@ -79,7 +79,8 @@ def GitReleaseMetrics(projectName):
     return tags
 
 def TestFileMetrics(projectName, testFiles):
-    ''' Reads metrics of a java project's test files. Returns info about mock imports.
+    ''' Reads metrics of a java project's test files. Returns info about mock imports
+            in a 2D array consisting of mockImports and mockFrameworks.
         projectName (string): Name of Java project.    
         testFiles (string): List of test files obtained from CSVMetrics.
     '''
@@ -106,31 +107,83 @@ def TestFileMetrics(projectName, testFiles):
             reader.close()
             validPath = True
             
-        
-    numMock = 0
-    
     mockImports = {}
     # MockImports is a dict where the key is filePath, and the value is 
     # a list of validMock lines in the file.
 
+    mockFrameworks = {}
+    # mockFrameworks is a dict where the key is the framework, and the value
+    # is a list of files where the framework is called.
     
     for file in testFiles:
         filePath = projectName + pathExtensions[path] + '\\' + file[1]
         reader = open(filePath,encoding='utf-8')
         fileName = file[1][(file[1].rindex('\\') + 1):-5]
+        fileFrameworks = []
+        
         for line in reader:
-            if line.strip()[0:6] == "import" and 'mock' in line.lower():
+            if line.strip()[0:6] == "import" and 'mock' in line.lower() and "apache" not in line.lower():
 #debug                print(projectName + "," + fileName + ": " + line)
+                framework = IdentifyMockFramework(line)
+                
                 if filePath not in mockImports:
-                    mockImports[filePath]=[]
-                mockImports[filePath].append(line.strip()[7:-2])
+                    mockImports[filePath]=[]    
+                mockImports[filePath].append([line.strip()[7:-1],framework])
+                
+
+                if framework not in fileFrameworks:
+                    fileFrameworks.append(framework)
             if 'class' in line and fileName in line:
                 break
         reader.close()
-    return mockImports
         
+        for framework in fileFrameworks:
+            if framework not in mockFrameworks:
+                mockFrameworks[framework]=[]
+            mockFrameworks[framework].append(filePath)
+            
+    return [mockImports,mockFrameworks]
+        
+def IdentifyMockFramework(importLine):
+    ''' Trims/reads a line that is importing an outside mocking 
+        framework to identify the framework used.
+        importLine (string): Raw line of code that imports a mocking tool.
+    '''
+    importLine = importLine.strip().lower()
     
+    #Check/Handling for if 'import' still remains in import line.
+    if importLine[0:6] == 'import':
+        importLine = importLine[7:]
+    
+    #Check/Handling for Static, which does not follow the "xxx.xxxx.xxxx." format.
+    if importLine[0:6].lower() == 'static':
+        importLine = importLine[7:]
+    
+    #If a 'xxx.' section matches one of these, it is a prefix to the framework import and can be removed.
+    nonFrameworkPrefixes = ['okhttp3','org','io','com','compile','google','api','net','jvnet','javacrumbs']
+    #Important question to ask later: What is 'compile.scomp.common.mockobj'? Notably used in Xmlbeans for something related 
+    #to mock objects but can't find any online frameworks discussing scomp and mocking.
+    
+    validLine = False
+    while not validLine:
+        validLine = True
+        nextPeriod = importLine.index(".")
+        
+        #Check/Handling for Github imports, which include the name of the repo owner afterwards.
+        if importLine[:nextPeriod] == "github":
+            importLine = importLine[nextPeriod + 1:]
+            nextPeriod = importLine.index(".")
+            importLine = importLine[nextPeriod + 1:]
+            validLine = False
 
+        if importLine[:nextPeriod] in nonFrameworkPrefixes:
+            importLine = importLine[nextPeriod + 1:]
+            validLine = False
+
+    return importLine[:nextPeriod]
+            
+            
+        
 for file in os.listdir('UndProjects'):
     if '.csv' in file and file not in nonProjectFiles:
         Projects.append([file[:-4]])
@@ -138,7 +191,6 @@ for file in os.listdir('UndProjects'):
 
 print('Reading Projects...')
 
-mockImports = {}
 for project in Projects:
     print('   Reading ' + project[0] + '...')
     #Read CSV metrics
@@ -154,7 +206,8 @@ for project in Projects:
       
     #Read Test file import metrics
     TestMetrics = TestFileMetrics(project[0], project[2])
-    project.append(TestMetrics)
+    project.append(TestMetrics[0])
+    project.append(TestMetrics[1])
 
 
 #    print("\nProject: " + project[0])
@@ -165,10 +218,10 @@ print('Writing to "UndProjects/AllMetrics.csv"...')
 reader = open('UndProjects/AllMetrics.csv','w', newline = '')
 
 csvOutput = csv.writer(reader)
-csvOutput.writerow(['Project Name', 'commits', 'contributors', 'releases', '.java Files', 'LOC', 'test Files', 'test LOC','\'Mock\' imports'])
+csvOutput.writerow(['Project Name', 'commits', 'contributors', 'releases', '.java Files', 'LOC',
+                        'test Files', 'test LOC','\'Mock\' imports', 'Mocking frameworks'])
 
 LOCColumn = metricHeaders.index('CountLineCode')
-mockImports = dict(sorted(mockImports.items(),key=lambda item: item[1],reverse=True))
 
 for project in Projects:
     name = project[0]
@@ -184,7 +237,8 @@ for project in Projects:
     contributors = len((project[3].keys()))
     releases = len((project[4]))
     mockedTests = len(project[5])
-    csvOutput.writerow([name, commits, contributors, releases, totalFiles, LOC, totalTestFiles, testLOC, mockedTests])
+    mockingFrameworks = len(project[6])
+    csvOutput.writerow([name, commits, contributors, releases, totalFiles, LOC, totalTestFiles, testLOC, mockedTests, mockingFrameworks])
 
 reader.close()
 
@@ -192,17 +246,32 @@ print('Writing to "UndProjects/AllMockImports.csv"...')
 reader = open('UndProjects/AllMockImports.csv','w', newline = '')
 
 csvOutput = csv.writer(reader)
-csvOutput.writerow(['Project Name', 'File Path', 'Imported Mock Line'])
+csvOutput.writerow(['Project Name', 'File Path', 'Mocking Framework', 'Imported Mock Line'])
 
 for project in Projects:
     name = project[0]
     for file in project[5].keys():
         filePath = file
-        for importLine in project[5][filePath]:
-            csvOutput.writerow([name,filePath,importLine])
+        for mockImport in project[5][filePath]:
+            importLine = mockImport[0]
+            framework = mockImport[1]
+            csvOutput.writerow([name,filePath,framework,importLine])
             
 reader.close()
 
+print('Writing to "UndProjects/AllMockFrameworks.csv"...')
+reader = open('UndProjects/AllMockFrameworks.csv','w', newline = '')
+
+csvOutput = csv.writer(reader)
+csvOutput.writerow(['Project Name','Mocking Framework','Used in # of Files'])
+
+for project in Projects:
+    name = project[0]
+    for framework in project[6].keys():
+        numUses = len(project[6][framework])
+        csvOutput.writerow([name,framework,numUses])
+
+reader.close()
 print ('-- CSVReader.py Complete --')
 
 
