@@ -92,7 +92,7 @@ def TestFileMetrics(projectName, testFiles):
     
     #For some reason certain Und projects don't start their file paths at the actual project folder.
     #The path extensions help navigate to the corresponding test folder if necessary and can be added to.
-    pathExtensions = ['','\\src']
+    pathExtensions = ['','\\src','\\core']
     path = 0
     validPath = False
     while validPath == False:
