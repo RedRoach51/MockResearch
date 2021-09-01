@@ -1,0 +1,2123 @@
+/bookkeeper-common/src/test/java/org/apache/bookkeeper/common/component/TestLifecycleComponentStack.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 13
+ 
+/bookkeeper-common/src/test/java/org/apache/bookkeeper/common/component/TestComponentStarter.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 3
+ 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<java.lang.String>
+	Count: 3
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 3
+ 
+	Method name: verify
+	Class origin: org.mockito.Mockito
+	Count: 6
+ 
+	Method name: any
+	Class origin: org.mockito.ArgumentMatchers
+	Count: 2
+ 
+/bookkeeper-common/src/test/java/org/apache/bookkeeper/common/concurrent/TestFutureUtils.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 7
+ 
+	Method name: verify
+	Class origin: org.mockito.Mockito
+	Count: 6
+ 
+	Method name: times
+	Class origin: org.mockito.Mockito
+	Count: 6
+ 
+	Method name: eq
+	Class origin: org.mockito.ArgumentMatchers
+	Count: 9
+ 
+	Method name: isA
+	Class origin: org.mockito.ArgumentMatchers
+	Count: 2
+ 
+/bookkeeper-common/src/test/java/org/apache/bookkeeper/common/conf/ConfigKeyTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 2
+ 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<java.lang.Boolean>
+	Count: 2
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 2
+ 
+	Method name: anyString
+	Class origin: org.mockito.ArgumentMatchers
+	Count: 2
+ 
+	Method name: any
+	Class origin: org.mockito.ArgumentMatchers
+	Count: 2
+ 
+	Method name: verify
+	Class origin: org.mockito.Mockito
+	Count: 2
+ 
+	Method name: times
+	Class origin: org.mockito.Mockito
+	Count: 2
+ 
+	Method name: eq
+	Class origin: org.mockito.ArgumentMatchers
+	Count: 4
+ 
+/bookkeeper-common/src/test/java/org/apache/bookkeeper/common/testing/executors/MockExecutorControllerTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 5
+ 
+/bookkeeper-common/src/test/java/org/apache/bookkeeper/common/testing/executors/MockExecutorController.java
+Methods Invoked: 
+	Method name: when
+	Class origin: org.mockito.stubbing.Stubber
+	Count: 4
+ 
+	Method name: doAnswer
+	Class origin: org.mockito.Mockito
+	Count: 4
+ 
+	Method name: any
+	Class origin: org.mockito.ArgumentMatchers
+	Count: 6
+ 
+/bookkeeper-common/src/test/java/org/apache/bookkeeper/common/util/TestWatchable.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 7
+ 
+	Method name: verify
+	Class origin: org.mockito.Mockito
+	Count: 7
+ 
+	Method name: times
+	Class origin: org.mockito.Mockito
+	Count: 7
+ 
+	Method name: eq
+	Class origin: org.mockito.ArgumentMatchers
+	Count: 4
+ 
+/bookkeeper-common/src/test/java/org/apache/bookkeeper/common/util/TestSharedResourceManager.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+	Method name: thenAnswer
+	Class origin: org.mockito.stubbing.OngoingStubbing<java.util.concurrent.ScheduledFuture<>>
+	Count: 1
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+	Method name: any
+	Class origin: org.mockito.ArgumentMatchers
+	Count: 2
+ 
+	Method name: anyLong
+	Class origin: org.mockito.ArgumentMatchers
+	Count: 1
+ 
+/bookkeeper-common/src/test/java/org/apache/bookkeeper/common/util/TestOrderedExecutorDecorators.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<java.lang.String>
+	Count: 1
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+	Method name: when
+	Class origin: org.mockito.stubbing.Stubber
+	Count: 1
+ 
+	Method name: doAnswer
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+	Method name: answerVoid
+	Class origin: org.mockito.AdditionalAnswers
+	Count: 1
+ 
+	Method name: any
+	Class origin: org.mockito.ArgumentMatchers
+	Count: 1
+ 
+/bookkeeper-common-allocator/src/test/java/org/apache/bookkeeper/common/allocator/impl/ByteBufAllocatorBuilderTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 6
+ 
+	Method name: thenThrow
+	Class origin: org.mockito.stubbing.OngoingStubbing<io.netty.buffer.ByteBuf>
+	Count: 6
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 6
+ 
+	Method name: anyInt
+	Class origin: org.mockito.ArgumentMatchers
+	Count: 12
+ 
+/bookkeeper-server/src/test/java/org/apache/bookkeeper/bookie/BookieWriteToJournalTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+	Method name: when
+	Class origin: org.mockito.stubbing.Stubber
+	Count: 2
+ 
+	Method name: doAnswer
+	Class origin: org.mockito.Mockito
+	Count: 2
+ 
+	Method name: getArgument
+	Class origin: org.mockito.invocation.InvocationOnMock
+	Count: 4
+ 
+/bookkeeper-server/src/test/java/org/apache/bookkeeper/bookie/BookieShellTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 2
+ 
+	Method name: whenNew
+	Class origin: org.powermock.api.mockito.PowerMockito
+	Count: 6
+ 
+	Method name: spy
+	Class origin: org.powermock.api.mockito.PowerMockito
+	Count: 4
+ 
+/bookkeeper-server/src/test/java/org/apache/bookkeeper/bookie/LedgerDirsManagerTest.java
+Methods Invoked: 
+	Method name: mockStatic
+	Class origin: org.powermock.api.mockito.PowerMockito
+	Count: 1
+ 
+	Method name: mock
+	Class origin: org.powermock.api.mockito.PowerMockito
+	Count: 1
+ 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<java.util.concurrent.ScheduledExecutorService>
+	Count: 1
+ 
+	Method name: when
+	Class origin: org.powermock.api.mockito.PowerMockito
+	Count: 1
+ 
+	Method name: any
+	Class origin: org.mockito.ArgumentMatchers
+	Count: 1
+ 
+/bookkeeper-server/src/test/java/org/apache/bookkeeper/bookie/GarbageCollectorThreadTest.java
+Methods Invoked: 
+	Method name: spy
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 3
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 2
+ 
+/bookkeeper-server/src/test/java/org/apache/bookkeeper/bookie/BookieJournalMaxMemoryTest.java
+Methods Invoked: 
+	Method name: spy
+	Class origin: org.mockito.Mockito
+	Count: 3
+ 
+	Method name: whenNew
+	Class origin: org.powermock.api.mockito.PowerMockito
+	Count: 1
+ 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+/bookkeeper-server/src/test/java/org/apache/bookkeeper/bookie/BookieJournalForceTest.java
+Methods Invoked: 
+	Method name: spy
+	Class origin: org.mockito.Mockito
+	Count: 5
+ 
+	Method name: whenNew
+	Class origin: org.powermock.api.mockito.PowerMockito
+	Count: 5
+ 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 6
+ 
+	Method name: verify
+	Class origin: org.mockito.Mockito
+	Count: 10
+ 
+	Method name: times
+	Class origin: org.mockito.Mockito
+	Count: 7
+ 
+/bookkeeper-server/src/test/java/org/apache/bookkeeper/bookie/BookieInitializationTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+	Method name: when
+	Class origin: org.mockito.stubbing.Stubber
+	Count: 1
+ 
+	Method name: doThrow
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+	Method name: any
+	Class origin: org.mockito.ArgumentMatchers
+	Count: 2
+ 
+	Method name: anyBoolean
+	Class origin: org.mockito.ArgumentMatchers
+	Count: 1
+ 
+/bookkeeper-server/src/test/java/org/apache/bookkeeper/bookie/BookieJournalTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.powermock.api.mockito.PowerMockito
+	Count: 1
+ 
+	Method name: thenThrow
+	Class origin: org.mockito.stubbing.OngoingStubbing<java.nio.channels.FileChannel>
+	Count: 1
+ 
+	Method name: when
+	Class origin: org.powermock.api.mockito.PowerMockito
+	Count: 2
+ 
+	Method name: anyLong
+	Class origin: org.mockito.ArgumentMatchers
+	Count: 1
+ 
+	Method name: mockStatic
+	Class origin: org.powermock.api.mockito.PowerMockito
+	Count: 1
+ 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<java.nio.channels.FileChannel>
+	Count: 1
+ 
+/bookkeeper-server/src/test/java/org/apache/bookkeeper/bookie/BookieJournalPageCacheFlushTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 4
+ 
+	Method name: when
+	Class origin: org.mockito.stubbing.Stubber
+	Count: 1
+ 
+	Method name: doAnswer
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+	Method name: getArgument
+	Class origin: org.mockito.invocation.InvocationOnMock
+	Count: 1
+ 
+	Method name: any
+	Class origin: org.mockito.ArgumentMatchers
+	Count: 1
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+	Method name: setInternalState
+	Class origin: org.powermock.reflect.Whitebox
+	Count: 1
+ 
+	Method name: spy
+	Class origin: org.mockito.Mockito
+	Count: 3
+ 
+	Method name: whenNew
+	Class origin: org.powermock.api.mockito.PowerMockito
+	Count: 3
+ 
+/bookkeeper-server/src/test/java/org/apache/bookkeeper/bookie/SortedLedgerStorageCheckpointTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+/bookkeeper-server/src/test/java/org/apache/bookkeeper/bookie/LedgerStorageCheckpointTest.java
+Methods Invoked: 
+	Method name: mockStatic
+	Class origin: org.powermock.api.mockito.PowerMockito
+	Count: 1
+ 
+	Method name: mock
+	Class origin: org.powermock.api.mockito.PowerMockito
+	Count: 1
+ 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<java.lang.Boolean>
+	Count: 1
+ 
+	Method name: when
+	Class origin: org.powermock.api.mockito.PowerMockito
+	Count: 2
+ 
+	Method name: anyLong
+	Class origin: org.mockito.ArgumentMatchers
+	Count: 1
+ 
+	Method name: any
+	Class origin: org.mockito.ArgumentMatchers
+	Count: 2
+ 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<java.util.concurrent.ScheduledExecutorService>
+	Count: 1
+ 
+/bookkeeper-server/src/test/java/org/apache/bookkeeper/bookie/CheckpointOnNewLedgersTest.java
+Methods Invoked: 
+	Method name: spy
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+	Method name: when
+	Class origin: org.mockito.stubbing.Stubber
+	Count: 1
+ 
+	Method name: doAnswer
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+	Method name: getArgument
+	Class origin: org.mockito.invocation.InvocationOnMock
+	Count: 1
+ 
+	Method name: callRealMethod
+	Class origin: org.mockito.invocation.InvocationOnMock
+	Count: 1
+ 
+	Method name: any
+	Class origin: org.mockito.ArgumentMatchers
+	Count: 2
+ 
+/bookkeeper-server/src/test/java/org/apache/bookkeeper/client/MockClientContext.java
+Methods Invoked: 
+	Method name: isSpy
+	Class origin: org.mockito.MockingDetails
+	Count: 1
+ 
+	Method name: mockingDetails
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+	Method name: spy
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+/bookkeeper-server/src/test/java/org/apache/bookkeeper/client/MetadataUpdateLoopTest.java
+Methods Invoked: 
+	Method name: spy
+	Class origin: org.mockito.Mockito
+	Count: 4
+ 
+	Method name: verify
+	Class origin: org.mockito.Mockito
+	Count: 4
+ 
+	Method name: times
+	Class origin: org.mockito.Mockito
+	Count: 4
+ 
+	Method name: anyLong
+	Class origin: org.mockito.ArgumentMatchers
+	Count: 4
+ 
+	Method name: any
+	Class origin: org.mockito.ArgumentMatchers
+	Count: 8
+ 
+/bookkeeper-server/src/test/java/org/apache/bookkeeper/client/BookieWriteLedgerTest.java
+Methods Invoked: 
+	Method name: getInternalState
+	Class origin: org.powermock.reflect.Whitebox
+	Count: 1
+ 
+/bookkeeper-server/src/test/java/org/apache/bookkeeper/client/MdcContextTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<java.lang.String>
+	Count: 1
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+	Method name: when
+	Class origin: org.mockito.stubbing.Stubber
+	Count: 1
+ 
+	Method name: doAnswer
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+	Method name: answerVoid
+	Class origin: org.mockito.AdditionalAnswers
+	Count: 1
+ 
+	Method name: any
+	Class origin: org.mockito.ArgumentMatchers
+	Count: 1
+ 
+/bookkeeper-server/src/test/java/org/apache/bookkeeper/client/MockBookKeeperTestCase.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 5
+ 
+/bookkeeper-server/src/test/java/org/apache/bookkeeper/client/HandleFailuresTest.java
+Methods Invoked: 
+	Method name: verify
+	Class origin: org.mockito.Mockito
+	Count: 2
+ 
+	Method name: times
+	Class origin: org.mockito.Mockito
+	Count: 2
+ 
+	Method name: anyLong
+	Class origin: org.mockito.ArgumentMatchers
+	Count: 2
+ 
+	Method name: any
+	Class origin: org.mockito.ArgumentMatchers
+	Count: 4
+ 
+/bookkeeper-server/src/test/java/org/apache/bookkeeper/client/ReadLastConfirmedAndEntryOpTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 4
+ 
+/bookkeeper-server/src/test/java/org/apache/bookkeeper/client/PendingAddOpTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 4
+ 
+/bookkeeper-server/src/test/java/org/apache/bookkeeper/client/TestLedgerChecker.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<java.lang.Boolean>
+	Count: 1
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+	Method name: any
+	Class origin: org.mockito.ArgumentMatchers
+	Count: 2
+ 
+	Method name: verify
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+	Method name: times
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+/bookkeeper-server/src/test/java/org/apache/bookkeeper/client/api/WriteAdvHandleTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+	Method name: when
+	Class origin: org.mockito.stubbing.Stubber
+	Count: 1
+ 
+	Method name: doAnswer
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+	Method name: getArgument
+	Class origin: org.mockito.invocation.InvocationOnMock
+	Count: 1
+ 
+	Method name: anyLong
+	Class origin: org.mockito.ArgumentMatchers
+	Count: 4
+ 
+	Method name: any
+	Class origin: org.mockito.ArgumentMatchers
+	Count: 7
+ 
+	Method name: thenCallRealMethod
+	Class origin: org.mockito.stubbing.OngoingStubbing<java.util.concurrent.CompletableFuture<java.lang.Long>>
+	Count: 3
+ 
+	Method name: when
+	Class origin: org.powermock.api.mockito.PowerMockito
+	Count: 3
+ 
+/bookkeeper-server/src/test/java/org/apache/bookkeeper/client/api/WriteHandleTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+	Method name: when
+	Class origin: org.mockito.stubbing.Stubber
+	Count: 1
+ 
+	Method name: doAnswer
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+	Method name: getArgument
+	Class origin: org.mockito.invocation.InvocationOnMock
+	Count: 1
+ 
+	Method name: any
+	Class origin: org.mockito.ArgumentMatchers
+	Count: 7
+ 
+	Method name: thenCallRealMethod
+	Class origin: org.mockito.stubbing.OngoingStubbing<java.lang.Long>
+	Count: 3
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 3
+ 
+/bookkeeper-server/src/test/java/org/apache/bookkeeper/conf/AbstractConfigurationTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 2
+ 
+/bookkeeper-server/src/test/java/org/apache/bookkeeper/discover/AbstractTestZkRegistrationClient.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 8
+ 
+/bookkeeper-server/src/test/java/org/apache/bookkeeper/meta/MetadataDriversTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 8
+ 
+/bookkeeper-server/src/test/java/org/apache/bookkeeper/meta/AbstractZkLedgerManagerTest.java
+Methods Invoked: 
+	Method name: mockStatic
+	Class origin: org.powermock.api.mockito.PowerMockito
+	Count: 1
+ 
+	Method name: mock
+	Class origin: org.powermock.api.mockito.PowerMockito
+	Count: 1
+ 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<java.util.concurrent.ScheduledExecutorService>
+	Count: 1
+ 
+	Method name: when
+	Class origin: org.powermock.api.mockito.PowerMockito
+	Count: 1
+ 
+	Method name: any
+	Class origin: org.mockito.ArgumentMatchers
+	Count: 69
+ 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 13
+ 
+	Method name: defaultAnswer
+	Class origin: org.mockito.MockSettings
+	Count: 1
+ 
+	Method name: useConstructor
+	Class origin: org.mockito.MockSettings
+	Count: 1
+ 
+	Method name: withSettings
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+	Method name: when
+	Class origin: org.mockito.stubbing.Stubber
+	Count: 2
+ 
+	Method name: doAnswer
+	Class origin: org.mockito.Mockito
+	Count: 2
+ 
+	Method name: getArgument
+	Class origin: org.mockito.invocation.InvocationOnMock
+	Count: 2
+ 
+	Method name: anyLong
+	Class origin: org.mockito.ArgumentMatchers
+	Count: 4
+ 
+/bookkeeper-server/src/test/java/org/apache/bookkeeper/meta/TestZkLayoutManager.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<byte[]>
+	Count: 1
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+	Method name: eq
+	Class origin: org.mockito.ArgumentMatchers
+	Count: 9
+ 
+/bookkeeper-server/src/test/java/org/apache/bookkeeper/meta/zk/ZKMetadataDriverTestBase.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 2
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 7
+ 
+	Method name: eq
+	Class origin: org.mockito.ArgumentMatchers
+	Count: 2
+ 
+/bookkeeper-server/src/test/java/org/apache/bookkeeper/meta/zk/ZKMetadataBookieDriverTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+	Method name: mock
+	Class origin: org.powermock.api.mockito.PowerMockito
+	Count: 1
+ 
+	Method name: whenNew
+	Class origin: org.powermock.api.mockito.PowerMockito
+	Count: 1
+ 
+	Method name: any
+	Class origin: org.mockito.ArgumentMatchers
+	Count: 3
+ 
+/bookkeeper-server/src/test/java/org/apache/bookkeeper/meta/zk/ZKMetadataClientDriverTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+	Method name: mock
+	Class origin: org.powermock.api.mockito.PowerMockito
+	Count: 1
+ 
+	Method name: whenNew
+	Class origin: org.powermock.api.mockito.PowerMockito
+	Count: 1
+ 
+	Method name: any
+	Class origin: org.mockito.ArgumentMatchers
+	Count: 2
+ 
+	Method name: anyString
+	Class origin: org.mockito.ArgumentMatchers
+	Count: 1
+ 
+/bookkeeper-server/src/test/java/org/apache/bookkeeper/meta/zk/ZKMetadataDriverBaseTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 4
+ 
+/bookkeeper-server/src/test/java/org/apache/bookkeeper/proto/BookieProtoEncodingTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+	Method name: thenAnswer
+	Class origin: org.mockito.stubbing.OngoingStubbing<io.netty.channel.ChannelHandlerContext>
+	Count: 1
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+	Method name: any
+	Class origin: org.mockito.ArgumentMatchers
+	Count: 1
+ 
+	Method name: getArgument
+	Class origin: org.mockito.invocation.InvocationOnMock
+	Count: 1
+ 
+/bookkeeper-server/src/test/java/org/apache/bookkeeper/proto/LongPollReadEntryProcessorV3Test.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 3
+ 
+/bookkeeper-server/src/test/java/org/apache/bookkeeper/proto/WriteEntryProcessorTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 7
+ 
+/bookkeeper-server/src/test/java/org/apache/bookkeeper/proto/TestBookieRequestProcessor.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 4
+ 
+/bookkeeper-server/src/test/java/org/apache/bookkeeper/proto/BookieBackpressureTest.java
+Methods Invoked: 
+	Method name: spy
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+/bookkeeper-server/src/test/java/org/apache/bookkeeper/proto/ForceLedgerProcessorV3Test.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 5
+ 
+/bookkeeper-server/src/test/java/org/apache/bookkeeper/proto/WriteEntryProcessorV3Test.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 10
+ 
+/bookkeeper-server/src/test/java/org/apache/bookkeeper/proto/ReadEntryProcessorTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 6
+ 
+/bookkeeper-server/src/test/java/org/apache/bookkeeper/server/TestMain.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.powermock.api.mockito.PowerMockito
+	Count: 3
+ 
+	Method name: whenNew
+	Class origin: org.powermock.api.mockito.PowerMockito
+	Count: 3
+ 
+	Method name: any
+	Class origin: org.mockito.ArgumentMatchers
+	Count: 9
+ 
+/bookkeeper-server/src/test/java/org/apache/bookkeeper/server/http/service/MetricsServiceTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 2
+ 
+	Method name: when
+	Class origin: org.mockito.stubbing.Stubber
+	Count: 2
+ 
+	Method name: doAnswer
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+	Method name: getArgument
+	Class origin: org.mockito.invocation.InvocationOnMock
+	Count: 1
+ 
+	Method name: any
+	Class origin: org.mockito.ArgumentMatchers
+	Count: 2
+ 
+/bookkeeper-server/src/test/java/org/apache/bookkeeper/util/LoggerOutput.java
+Methods Invoked: 
+	Method name: forClass
+	Class origin: org.mockito.ArgumentCaptor
+	Count: 1
+ 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+	Method name: verify
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+	Method name: atLeastOnce
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+/bookkeeper-server/src/test/java/org/apache/bookkeeper/zookeeper/MockZooKeeperTestCase.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 2
+ 
+	Method name: mockStatic
+	Class origin: org.powermock.api.mockito.PowerMockito
+	Count: 1
+ 
+/bookkeeper-tools-ledger/src/test/java/org/apache/bookkeeper/tools/cli/commands/autorecovery/AutoRecoveryCommandTest.java
+Methods Invoked: 
+	Method name: whenNew
+	Class origin: org.powermock.api.mockito.PowerMockito
+	Count: 1
+ 
+	Method name: mock
+	Class origin: org.powermock.api.mockito.PowerMockito
+	Count: 2
+ 
+	Method name: mockStatic
+	Class origin: org.powermock.api.mockito.PowerMockito
+	Count: 1
+ 
+	Method name: when
+	Class origin: org.powermock.api.mockito.expectation.PowerMockitoStubber
+	Count: 1
+ 
+	Method name: doAnswer
+	Class origin: org.powermock.api.mockito.PowerMockito
+	Count: 1
+ 
+	Method name: getArgument
+	Class origin: org.mockito.invocation.InvocationOnMock
+	Count: 1
+ 
+	Method name: any
+	Class origin: org.mockito.ArgumentMatchers
+	Count: 2
+ 
+/bookkeeper-tools-ledger/src/test/java/org/apache/bookkeeper/tools/cli/commands/autorecovery/LostBookieRecoveryDelayCommandTets.java
+Methods Invoked: 
+	Method name: whenNew
+	Class origin: org.powermock.api.mockito.PowerMockito
+	Count: 3
+ 
+	Method name: mock
+	Class origin: org.powermock.api.mockito.PowerMockito
+	Count: 2
+ 
+/bookkeeper-tools-ledger/src/test/java/org/apache/bookkeeper/tools/cli/commands/autorecovery/TriggerAuditCommandTest.java
+Methods Invoked: 
+	Method name: whenNew
+	Class origin: org.powermock.api.mockito.PowerMockito
+	Count: 3
+ 
+	Method name: mock
+	Class origin: org.powermock.api.mockito.PowerMockito
+	Count: 2
+ 
+/bookkeeper-tools-ledger/src/test/java/org/apache/bookkeeper/tools/cli/commands/autorecovery/WhoIsAuditorCommandTest.java
+Methods Invoked: 
+	Method name: whenNew
+	Class origin: org.powermock.api.mockito.PowerMockito
+	Count: 1
+ 
+	Method name: mockStatic
+	Class origin: org.powermock.api.mockito.PowerMockito
+	Count: 4
+ 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<java.lang.String>
+	Count: 2
+ 
+	Method name: when
+	Class origin: org.powermock.api.mockito.PowerMockito
+	Count: 7
+ 
+	Method name: eq
+	Class origin: org.mockito.ArgumentMatchers
+	Count: 4
+ 
+	Method name: mock
+	Class origin: org.powermock.api.mockito.PowerMockito
+	Count: 2
+ 
+/bookkeeper-tools-ledger/src/test/java/org/apache/bookkeeper/tools/cli/commands/autorecovery/ListUnderReplicatedCommandTest.java
+Methods Invoked: 
+	Method name: whenNew
+	Class origin: org.powermock.api.mockito.PowerMockito
+	Count: 1
+ 
+	Method name: mockStatic
+	Class origin: org.powermock.api.mockito.PowerMockito
+	Count: 1
+ 
+	Method name: mock
+	Class origin: org.powermock.api.mockito.PowerMockito
+	Count: 3
+ 
+	Method name: when
+	Class origin: org.powermock.api.mockito.expectation.PowerMockitoStubber
+	Count: 1
+ 
+	Method name: doAnswer
+	Class origin: org.powermock.api.mockito.PowerMockito
+	Count: 1
+ 
+	Method name: getArgument
+	Class origin: org.mockito.invocation.InvocationOnMock
+	Count: 1
+ 
+	Method name: any
+	Class origin: org.mockito.ArgumentMatchers
+	Count: 8
+ 
+/bookkeeper-tools-ledger/src/test/java/org/apache/bookkeeper/tools/cli/commands/bookie/RebuildDBLedgerLocationsIndexCommandTest.java
+Methods Invoked: 
+	Method name: whenNew
+	Class origin: org.powermock.api.mockito.PowerMockito
+	Count: 3
+ 
+/bookkeeper-tools-ledger/src/test/java/org/apache/bookkeeper/tools/cli/commands/bookie/ReadLedgerCommandTest.java
+Methods Invoked: 
+	Method name: whenNew
+	Class origin: org.powermock.api.mockito.PowerMockito
+	Count: 6
+ 
+/bookkeeper-tools-ledger/src/test/java/org/apache/bookkeeper/tools/cli/commands/bookie/RegenerateInterleavedStorageIndexFileCommandTest.java
+Methods Invoked: 
+	Method name: whenNew
+	Class origin: org.powermock.api.mockito.PowerMockito
+	Count: 3
+ 
+/bookkeeper-tools-ledger/src/test/java/org/apache/bookkeeper/tools/cli/commands/bookie/ConvertToInterleavedStorageCommandTest.java
+Methods Invoked: 
+	Method name: whenNew
+	Class origin: org.powermock.api.mockito.PowerMockito
+	Count: 6
+ 
+/bookkeeper-tools-ledger/src/test/java/org/apache/bookkeeper/tools/cli/commands/bookie/ConvertToDBStorageCommandTest.java
+Methods Invoked: 
+	Method name: whenNew
+	Class origin: org.powermock.api.mockito.PowerMockito
+	Count: 4
+ 
+/bookkeeper-tools-ledger/src/test/java/org/apache/bookkeeper/tools/cli/commands/bookie/ListFilesOnDiscCommandTest.java
+Methods Invoked: 
+	Method name: whenNew
+	Class origin: org.powermock.api.mockito.PowerMockito
+	Count: 1
+ 
+/bookkeeper-tools-ledger/src/test/java/org/apache/bookkeeper/tools/cli/commands/bookie/ReadLogCommandTest.java
+Methods Invoked: 
+	Method name: whenNew
+	Class origin: org.powermock.api.mockito.PowerMockito
+	Count: 2
+ 
+/bookkeeper-tools-ledger/src/test/java/org/apache/bookkeeper/tools/cli/commands/bookie/LastMarkCommandTest.java
+Methods Invoked: 
+	Method name: whenNew
+	Class origin: org.powermock.api.mockito.PowerMockito
+	Count: 3
+ 
+/bookkeeper-tools-ledger/src/test/java/org/apache/bookkeeper/tools/cli/commands/bookie/FlipBookieIdCommandTest.java
+Methods Invoked: 
+	Method name: whenNew
+	Class origin: org.powermock.api.mockito.PowerMockito
+	Count: 6
+ 
+/bookkeeper-tools-ledger/src/test/java/org/apache/bookkeeper/tools/cli/commands/bookie/ReadLogMetadataCommandTest.java
+Methods Invoked: 
+	Method name: whenNew
+	Class origin: org.powermock.api.mockito.PowerMockito
+	Count: 2
+ 
+/bookkeeper-tools-ledger/src/test/java/org/apache/bookkeeper/tools/cli/commands/bookie/SanityTestCommandTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 4
+ 
+	Method name: whenNew
+	Class origin: org.powermock.api.mockito.PowerMockito
+	Count: 2
+ 
+/bookkeeper-tools-ledger/src/test/java/org/apache/bookkeeper/tools/cli/commands/bookie/InitCommandTest.java
+Methods Invoked: 
+	Method name: whenNew
+	Class origin: org.powermock.api.mockito.PowerMockito
+	Count: 1
+ 
+	Method name: mockStatic
+	Class origin: org.powermock.api.mockito.PowerMockito
+	Count: 1
+ 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<java.lang.Boolean>
+	Count: 1
+ 
+	Method name: when
+	Class origin: org.powermock.api.mockito.PowerMockito
+	Count: 1
+ 
+/bookkeeper-tools-ledger/src/test/java/org/apache/bookkeeper/tools/cli/commands/bookie/LocalConsistencyCheckCommandTest.java
+Methods Invoked: 
+	Method name: whenNew
+	Class origin: org.powermock.api.mockito.PowerMockito
+	Count: 2
+ 
+/bookkeeper-tools-ledger/src/test/java/org/apache/bookkeeper/tools/cli/commands/bookie/FormatCommandTest.java
+Methods Invoked: 
+	Method name: whenNew
+	Class origin: org.powermock.api.mockito.PowerMockito
+	Count: 3
+ 
+/bookkeeper-tools-ledger/src/test/java/org/apache/bookkeeper/tools/cli/commands/bookie/LedgerCommandTest.java
+Methods Invoked: 
+	Method name: whenNew
+	Class origin: org.powermock.api.mockito.PowerMockito
+	Count: 4
+ 
+	Method name: mockStatic
+	Class origin: org.powermock.api.mockito.PowerMockito
+	Count: 2
+ 
+	Method name: when
+	Class origin: org.powermock.api.mockito.expectation.PowerMockitoStubber
+	Count: 1
+ 
+	Method name: doAnswer
+	Class origin: org.powermock.api.mockito.PowerMockito
+	Count: 1
+ 
+	Method name: getArgument
+	Class origin: org.mockito.invocation.InvocationOnMock
+	Count: 1
+ 
+	Method name: anyLong
+	Class origin: org.mockito.ArgumentMatchers
+	Count: 3
+ 
+	Method name: any
+	Class origin: org.mockito.ArgumentMatchers
+	Count: 2
+ 
+/bookkeeper-tools-ledger/src/test/java/org/apache/bookkeeper/tools/cli/commands/bookie/ListLedgersCommandTest.java
+Methods Invoked: 
+	Method name: whenNew
+	Class origin: org.powermock.api.mockito.PowerMockito
+	Count: 3
+ 
+/bookkeeper-tools-ledger/src/test/java/org/apache/bookkeeper/tools/cli/commands/bookie/ReadJournalCommandTest.java
+Methods Invoked: 
+	Method name: whenNew
+	Class origin: org.powermock.api.mockito.PowerMockito
+	Count: 4
+ 
+	Method name: mock
+	Class origin: org.powermock.api.mockito.PowerMockito
+	Count: 3
+ 
+/bookkeeper-tools-ledger/src/test/java/org/apache/bookkeeper/tools/cli/commands/bookies/ListBookiesCommandTest.java
+Methods Invoked: 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 6
+ 
+/bookkeeper-tools-ledger/src/test/java/org/apache/bookkeeper/tools/cli/commands/bookies/NukeExistingClusterCommandTest.java
+Methods Invoked: 
+	Method name: mockStatic
+	Class origin: org.powermock.api.mockito.PowerMockito
+	Count: 1
+ 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<java.lang.Boolean>
+	Count: 1
+ 
+	Method name: when
+	Class origin: org.powermock.api.mockito.PowerMockito
+	Count: 1
+ 
+	Method name: any
+	Class origin: org.mockito.ArgumentMatchers
+	Count: 1
+ 
+	Method name: anyString
+	Class origin: org.mockito.ArgumentMatchers
+	Count: 2
+ 
+/bookkeeper-tools-ledger/src/test/java/org/apache/bookkeeper/tools/cli/commands/bookies/InfoCommandTest.java
+Methods Invoked: 
+	Method name: whenNew
+	Class origin: org.powermock.api.mockito.PowerMockito
+	Count: 3
+ 
+/bookkeeper-tools-ledger/src/test/java/org/apache/bookkeeper/tools/cli/commands/bookies/MetaFormatCommandTest.java
+Methods Invoked: 
+	Method name: mockStatic
+	Class origin: org.powermock.api.mockito.PowerMockito
+	Count: 1
+ 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<java.lang.Object>
+	Count: 1
+ 
+	Method name: when
+	Class origin: org.powermock.api.mockito.PowerMockito
+	Count: 1
+ 
+	Method name: any
+	Class origin: org.mockito.ArgumentMatchers
+	Count: 1
+ 
+	Method name: anyBoolean
+	Class origin: org.mockito.ArgumentMatchers
+	Count: 2
+ 
+/bookkeeper-tools-ledger/src/test/java/org/apache/bookkeeper/tools/cli/commands/bookies/DecommissionCommandTest.java
+Methods Invoked: 
+	Method name: whenNew
+	Class origin: org.powermock.api.mockito.PowerMockito
+	Count: 4
+ 
+/bookkeeper-tools-ledger/src/test/java/org/apache/bookkeeper/tools/cli/commands/bookies/InstanceIdCommandTest.java
+Methods Invoked: 
+	Method name: mockStatic
+	Class origin: org.powermock.api.mockito.PowerMockito
+	Count: 1
+ 
+	Method name: mock
+	Class origin: org.powermock.api.mockito.PowerMockito
+	Count: 1
+ 
+	Method name: when
+	Class origin: org.powermock.api.mockito.expectation.PowerMockitoStubber
+	Count: 1
+ 
+	Method name: doAnswer
+	Class origin: org.powermock.api.mockito.PowerMockito
+	Count: 1
+ 
+	Method name: getArgument
+	Class origin: org.mockito.invocation.InvocationOnMock
+	Count: 1
+ 
+	Method name: any
+	Class origin: org.mockito.ArgumentMatchers
+	Count: 2
+ 
+/bookkeeper-tools-ledger/src/test/java/org/apache/bookkeeper/tools/cli/commands/bookies/RecoverCommandTest.java
+Methods Invoked: 
+	Method name: whenNew
+	Class origin: org.powermock.api.mockito.PowerMockito
+	Count: 4
+ 
+/bookkeeper-tools-ledger/src/test/java/org/apache/bookkeeper/tools/cli/commands/bookies/InitCommandTest.java
+Methods Invoked: 
+	Method name: whenNew
+	Class origin: org.powermock.api.mockito.PowerMockito
+	Count: 1
+ 
+	Method name: mockStatic
+	Class origin: org.powermock.api.mockito.PowerMockito
+	Count: 1
+ 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<java.lang.Boolean>
+	Count: 1
+ 
+	Method name: when
+	Class origin: org.powermock.api.mockito.PowerMockito
+	Count: 1
+ 
+	Method name: eq
+	Class origin: org.mockito.ArgumentMatchers
+	Count: 1
+ 
+/bookkeeper-tools-ledger/src/test/java/org/apache/bookkeeper/tools/cli/commands/client/DeleteLedgerCommandTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 2
+ 
+	Method name: whenNew
+	Class origin: org.powermock.api.mockito.PowerMockito
+	Count: 2
+ 
+	Method name: when
+	Class origin: org.mockito.stubbing.Stubber
+	Count: 3
+ 
+	Method name: doNothing
+	Class origin: org.powermock.api.mockito.PowerMockito
+	Count: 3
+ 
+	Method name: eq
+	Class origin: org.mockito.ArgumentMatchers
+	Count: 4
+ 
+/bookkeeper-tools-ledger/src/test/java/org/apache/bookkeeper/tools/cli/commands/client/LedgerMetaDataCommandTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.powermock.api.mockito.PowerMockito
+	Count: 4
+ 
+	Method name: mockStatic
+	Class origin: org.powermock.api.mockito.PowerMockito
+	Count: 1
+ 
+	Method name: when
+	Class origin: org.powermock.api.mockito.expectation.PowerMockitoStubber
+	Count: 1
+ 
+	Method name: doAnswer
+	Class origin: org.powermock.api.mockito.PowerMockito
+	Count: 1
+ 
+	Method name: getArgument
+	Class origin: org.mockito.invocation.InvocationOnMock
+	Count: 1
+ 
+	Method name: any
+	Class origin: org.mockito.ArgumentMatchers
+	Count: 4
+ 
+/bookkeeper-tools-ledger/src/test/java/org/apache/bookkeeper/tools/cli/commands/client/SimpleTestCommandTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 2
+ 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<java.lang.Long>
+	Count: 1
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 8
+ 
+	Method name: any
+	Class origin: org.mockito.ArgumentMatchers
+	Count: 3
+ 
+/bookkeeper-tools-ledger/src/test/java/org/apache/bookkeeper/tools/cli/commands/cookie/UpdateCookieCommandTest.java
+Methods Invoked: 
+	Method name: verify
+	Class origin: org.mockito.Mockito
+	Count: 3
+ 
+	Method name: times
+	Class origin: org.mockito.Mockito
+	Count: 3
+ 
+	Method name: eq
+	Class origin: org.mockito.ArgumentMatchers
+	Count: 5
+ 
+	Method name: any
+	Class origin: org.mockito.ArgumentMatchers
+	Count: 5
+ 
+	Method name: when
+	Class origin: org.mockito.stubbing.Stubber
+	Count: 2
+ 
+	Method name: doThrow
+	Class origin: org.mockito.Mockito
+	Count: 2
+ 
+/bookkeeper-tools-ledger/src/test/java/org/apache/bookkeeper/tools/cli/commands/cookie/GenerateCookieCommandTest.java
+Methods Invoked: 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<java.lang.String>
+	Count: 3
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 3
+ 
+	Method name: verify
+	Class origin: org.mockito.Mockito
+	Count: 3
+ 
+	Method name: times
+	Class origin: org.mockito.Mockito
+	Count: 3
+ 
+/bookkeeper-tools-ledger/src/test/java/org/apache/bookkeeper/tools/cli/commands/cookie/CreateCookieCommandTest.java
+Methods Invoked: 
+	Method name: verify
+	Class origin: org.mockito.Mockito
+	Count: 3
+ 
+	Method name: times
+	Class origin: org.mockito.Mockito
+	Count: 3
+ 
+	Method name: eq
+	Class origin: org.mockito.ArgumentMatchers
+	Count: 5
+ 
+	Method name: any
+	Class origin: org.mockito.ArgumentMatchers
+	Count: 5
+ 
+	Method name: when
+	Class origin: org.mockito.stubbing.Stubber
+	Count: 2
+ 
+	Method name: doThrow
+	Class origin: org.mockito.Mockito
+	Count: 2
+ 
+/bookkeeper-tools-ledger/src/test/java/org/apache/bookkeeper/tools/cli/commands/cookie/GetCookieCommandTest.java
+Methods Invoked: 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+	Method name: eq
+	Class origin: org.mockito.ArgumentMatchers
+	Count: 6
+ 
+	Method name: verify
+	Class origin: org.mockito.Mockito
+	Count: 3
+ 
+	Method name: times
+	Class origin: org.mockito.Mockito
+	Count: 3
+ 
+/bookkeeper-tools-ledger/src/test/java/org/apache/bookkeeper/tools/cli/commands/cookie/DeleteCookieCommandTest.java
+Methods Invoked: 
+	Method name: verify
+	Class origin: org.mockito.Mockito
+	Count: 3
+ 
+	Method name: times
+	Class origin: org.mockito.Mockito
+	Count: 3
+ 
+	Method name: eq
+	Class origin: org.mockito.ArgumentMatchers
+	Count: 10
+ 
+/bookkeeper-tools-ledger/src/test/java/org/apache/bookkeeper/tools/cli/commands/cookie/AdminCommandTest.java
+Methods Invoked: 
+	Method name: whenNew
+	Class origin: org.powermock.api.mockito.PowerMockito
+	Count: 2
+ 
+	Method name: mockStatic
+	Class origin: org.powermock.api.mockito.PowerMockito
+	Count: 5
+ 
+/bookkeeper-tools-ledger/src/test/java/org/apache/bookkeeper/tools/cli/helpers/DiscoveryCommandTest.java
+Methods Invoked: 
+	Method name: mockStatic
+	Class origin: org.powermock.api.mockito.PowerMockito
+	Count: 2
+ 
+/bookkeeper-tools-ledger/src/test/java/org/apache/bookkeeper/tools/cli/helpers/BookieShellCommandTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+	Method name: verify
+	Class origin: org.mockito.Mockito
+	Count: 2
+ 
+	Method name: times
+	Class origin: org.mockito.Mockito
+	Count: 2
+ 
+/bookkeeper-tools-ledger/src/test/java/org/apache/bookkeeper/tools/cli/helpers/ClientCommandTestBase.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 4
+ 
+	Method name: spy
+	Class origin: org.powermock.api.mockito.PowerMockito
+	Count: 1
+ 
+	Method name: whenNew
+	Class origin: org.powermock.api.mockito.PowerMockito
+	Count: 2
+ 
+/bookkeeper-tools-ledger/src/test/java/org/apache/bookkeeper/tools/cli/helpers/CookieCommandTestBase.java
+Methods Invoked: 
+	Method name: mockStatic
+	Class origin: org.powermock.api.mockito.PowerMockito
+	Count: 1
+ 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+	Method name: when
+	Class origin: org.powermock.api.mockito.expectation.PowerMockitoStubber
+	Count: 1
+ 
+	Method name: doAnswer
+	Class origin: org.powermock.api.mockito.PowerMockito
+	Count: 1
+ 
+	Method name: getArgument
+	Class origin: org.mockito.invocation.InvocationOnMock
+	Count: 1
+ 
+	Method name: any
+	Class origin: org.mockito.ArgumentMatchers
+	Count: 2
+ 
+/bookkeeper-tools-ledger/src/test/java/org/apache/bookkeeper/tools/cli/helpers/DiscoveryCommandTestBase.java
+Methods Invoked: 
+	Method name: mockStatic
+	Class origin: org.powermock.api.mockito.PowerMockito
+	Count: 1
+ 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 2
+ 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<java.util.concurrent.ScheduledExecutorService>
+	Count: 1
+ 
+	Method name: when
+	Class origin: org.powermock.api.mockito.PowerMockito
+	Count: 2
+ 
+/bookkeeper-tools-ledger/src/test/java/org/apache/bookkeeper/tools/cli/helpers/ClientCommandTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 3
+ 
+	Method name: whenNew
+	Class origin: org.powermock.api.mockito.PowerMockito
+	Count: 1
+ 
+	Method name: eq
+	Class origin: org.mockito.ArgumentMatchers
+	Count: 4
+ 
+	Method name: mockStatic
+	Class origin: org.powermock.api.mockito.PowerMockito
+	Count: 1
+ 
+/circe-checksum/src/test/java/com/scurrilous/circe/impl/AbstractStatelessLongHashTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+	Method name: verify
+	Class origin: org.mockito.Mockito
+	Count: 4
+ 
+	Method name: times
+	Class origin: org.mockito.Mockito
+	Count: 4
+ 
+	Method name: eq
+	Class origin: org.mockito.ArgumentMatchers
+	Count: 11
+ 
+/circe-checksum/src/test/java/com/scurrilous/circe/impl/AbstractIncrementalLongHashTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<java.lang.Long>
+	Count: 5
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 5
+ 
+/circe-checksum/src/test/java/com/scurrilous/circe/impl/AbstractStatelessIntHashTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+	Method name: verify
+	Class origin: org.mockito.Mockito
+	Count: 4
+ 
+	Method name: times
+	Class origin: org.mockito.Mockito
+	Count: 4
+ 
+	Method name: eq
+	Class origin: org.mockito.ArgumentMatchers
+	Count: 11
+ 
+/circe-checksum/src/test/java/com/scurrilous/circe/impl/AbstractIncrementalIntHashTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<java.lang.Integer>
+	Count: 5
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 5
+ 
+/circe-checksum/src/test/java/com/scurrilous/circe/impl/AbstractStatefulHashTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+	Method name: verify
+	Class origin: org.mockito.Mockito
+	Count: 6
+ 
+	Method name: times
+	Class origin: org.mockito.Mockito
+	Count: 5
+ 
+	Method name: eq
+	Class origin: org.mockito.ArgumentMatchers
+	Count: 16
+ 
+/distributedlog-common/src/test/java/org/apache/distributedlog/common/config/TestConfigurationSubscription.java
+Methods Invoked: 
+	Method name: tick
+	Class origin: org.jmock.lib.concurrent.DeterministicScheduler
+	Count: 3
+ 
+/distributedlog-core/src/test/java/org/apache/distributedlog/impl/TestZKLogSegmentMetadataStore.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 6
+ 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<java.lang.String>
+	Count: 6
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 6
+ 
+/distributedlog-core/src/test/java/org/apache/distributedlog/impl/metadata/TestZKLogStreamMetadataStore.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 4
+ 
+/distributedlog-core/src/test/java/org/apache/distributedlog/zk/TestZKTransaction.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 3
+ 
+/distributedlog-core/src/test/java/org/apache/distributedlog/zk/TestZKVersionedSetOp.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 2
+ 
+/distributedlog-core-shaded-test/src/test/java/org/apache/bookkeeper/tests/shaded/DistributedLogCoreShadedJarTest.java
+Methods Invoked: 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 3
+ 
+/statelib/src/test/java/org/apache/bookkeeper/statelib/impl/kv/TestRocksdbKVAsyncStoreWithCheckpoints.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+/statelib/src/test/java/org/apache/bookkeeper/statelib/impl/rocksdb/RocksUtilsTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+	Method name: verify
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+	Method name: times
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+/statelib/src/test/java/org/apache/bookkeeper/statelib/testing/executors/MockExecutorController.java
+Methods Invoked: 
+	Method name: when
+	Class origin: org.mockito.stubbing.Stubber
+	Count: 4
+ 
+	Method name: doAnswer
+	Class origin: org.mockito.Mockito
+	Count: 4
+ 
+	Method name: any
+	Class origin: org.mockito.ArgumentMatchers
+	Count: 6
+ 
+/statelib/src/test/java/org/apache/bookkeeper/statelib/testing/executors/MockExecutorControllerTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 5
+ 
+/statelib/src/test/java/org/apache/bookkeeper/statelib/testing/executors/MockExecutorControllerWithSchedulerTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 5
+ 
+/stream-storage-common/src/test/java/org/apache/bookkeeper/common/grpc/netty/IdentityInputStreamMarshallerTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 2
+ 
+/stream-storage-common/src/test/java/org/apache/bookkeeper/common/reslover/TestSimpleNameResolver.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+/stream-storage-java-client/src/test/java/org/apache/bookkeeper/clients/TestStorageClientBuilder.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+/stream-storage-java-client/src/test/java/org/apache/bookkeeper/clients/StorageClientImplTest.java
+Methods Invoked: 
+	Method name: spy
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+	Method name: anyString
+	Class origin: org.mockito.ArgumentMatchers
+	Count: 6
+ 
+/stream-storage-java-client/src/test/java/org/apache/bookkeeper/clients/admin/TestStorageAdminClientImpl.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 2
+ 
+/stream-storage-java-client-base/src/test/java/org/apache/bookkeeper/clients/impl/channel/TestStorageServerChannelManager.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 10
+ 
+/stream-storage-java-client-base/src/test/java/org/apache/bookkeeper/clients/impl/channel/TestStorageServerChannel.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+	Method name: verify
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+	Method name: times
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+/stream-storage-java-client-base/src/test/java/org/apache/bookkeeper/clients/impl/container/TestStorageContainerChannelManager.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 5
+ 
+/stream-storage-java-client-base/src/test/java/org/apache/bookkeeper/clients/impl/container/TestStorageContainerChannel.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 2
+ 
+/stream-storage-java-client-base/src/test/java/org/apache/bookkeeper/clients/impl/internal/TestMetaRangeClientImpl.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 2
+ 
+/stream-storage-java-client-base/src/test/java/org/apache/bookkeeper/clients/impl/internal/TestStreamMetadataCache.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+	Method name: anyLong
+	Class origin: org.mockito.ArgumentMatchers
+	Count: 1
+ 
+	Method name: verify
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+	Method name: times
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+	Method name: eq
+	Class origin: org.mockito.ArgumentMatchers
+	Count: 1
+ 
+/stream-storage-java-client-base/src/test/java/org/apache/bookkeeper/clients/impl/internal/RootRangeClientImplTestBase.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 4
+ 
+/stream-storage-java-client-base/src/test/java/org/apache/bookkeeper/clients/impl/internal/RootRangeClientImplWithRetriesTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 4
+ 
+	Method name: anyString
+	Class origin: org.mockito.ArgumentMatchers
+	Count: 9
+ 
+	Method name: thenAnswer
+	Class origin: org.mockito.stubbing.OngoingStubbing<java.util.concurrent.CompletableFuture<java.lang.Boolean>>
+	Count: 2
+ 
+/stream-storage-java-client-base/src/test/java/org/apache/bookkeeper/clients/utils/ListenableFutureRpcProcessorTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 5
+ 
+	Method name: spy
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 17
+ 
+	Method name: verify
+	Class origin: org.mockito.Mockito
+	Count: 5
+ 
+	Method name: times
+	Class origin: org.mockito.Mockito
+	Count: 5
+ 
+/stream-storage-java-kv-client/src/test/java/org/apache/bookkeeper/clients/impl/kv/RangeRequestProcessorTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+/stream-storage-java-kv-client/src/test/java/org/apache/bookkeeper/clients/impl/kv/ByteBufTableImplTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+	Method name: verify
+	Class origin: org.mockito.Mockito
+	Count: 7
+ 
+	Method name: times
+	Class origin: org.mockito.Mockito
+	Count: 7
+ 
+	Method name: same
+	Class origin: org.mockito.ArgumentMatchers
+	Count: 14
+ 
+/stream-storage-java-kv-client/src/test/java/org/apache/bookkeeper/clients/impl/kv/IncrementRequestProcessorTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+/stream-storage-java-kv-client/src/test/java/org/apache/bookkeeper/clients/impl/kv/PutRequestProcessorTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+/stream-storage-java-kv-client/src/test/java/org/apache/bookkeeper/clients/impl/kv/TestPByteBufTableImpl.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 4
+ 
+/stream-storage-java-kv-client/src/test/java/org/apache/bookkeeper/clients/impl/kv/DeleteRequestProcessorTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+/stream-storage-java-kv-client/src/test/java/org/apache/bookkeeper/clients/impl/kv/TxnRequestProcessorTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+/stream-storage-server/src/test/java/org/apache/bookkeeper/stream/server/grpc/TestGrpcServer.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 2
+ 
+/stream-storage-service-impl/src/test/java/org/apache/bookkeeper/stream/storage/TestStorageContainerStoreBuilder.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 19
+ 
+/stream-storage-service-impl/src/test/java/org/apache/bookkeeper/stream/storage/impl/TestStorageContainerStoreImpl.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 4
+ 
+/stream-storage-service-impl/src/test/java/org/apache/bookkeeper/stream/storage/impl/cluster/ZkClusterControllerLeaderSelectorListenerTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 2
+ 
+/stream-storage-service-impl/src/test/java/org/apache/bookkeeper/stream/storage/impl/cluster/ClusterControllerImplTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 4
+ 
+/stream-storage-service-impl/src/test/java/org/apache/bookkeeper/stream/storage/impl/cluster/ClusterControllerLeaderImplTest.java
+Methods Invoked: 
+	Method name: spy
+	Class origin: org.mockito.Mockito
+	Count: 2
+ 
+/stream-storage-service-impl/src/test/java/org/apache/bookkeeper/stream/storage/impl/grpc/TestGrpcMetaRangeService.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 3
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 3
+ 
+	Method name: verify
+	Class origin: org.mockito.Mockito
+	Count: 3
+ 
+	Method name: times
+	Class origin: org.mockito.Mockito
+	Count: 3
+ 
+/stream-storage-service-impl/src/test/java/org/apache/bookkeeper/stream/storage/impl/grpc/TestGrpcRootRangeService.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 12
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 12
+ 
+	Method name: verify
+	Class origin: org.mockito.Mockito
+	Count: 12
+ 
+	Method name: times
+	Class origin: org.mockito.Mockito
+	Count: 12
+ 
+/stream-storage-service-impl/src/test/java/org/apache/bookkeeper/stream/storage/impl/grpc/TestGrpcTableService.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 9
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 9
+ 
+	Method name: verify
+	Class origin: org.mockito.Mockito
+	Count: 9
+ 
+	Method name: times
+	Class origin: org.mockito.Mockito
+	Count: 9
+ 
+/stream-storage-service-impl/src/test/java/org/apache/bookkeeper/stream/storage/impl/kv/TableStoreCacheTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 5
+ 
+/stream-storage-service-impl/src/test/java/org/apache/bookkeeper/stream/storage/impl/kv/TableStoreUtilsTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<byte[]>
+	Count: 2
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 5
+ 
+/stream-storage-service-impl/src/test/java/org/apache/bookkeeper/stream/storage/impl/metadata/MetaRangeStoreImplTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+	Method name: eq
+	Class origin: org.mockito.ArgumentMatchers
+	Count: 1
+ 
+/stream-storage-service-impl/src/test/java/org/apache/bookkeeper/stream/storage/impl/sc/TestStorageContainerRegistryImpl.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 2
+ 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<java.util.concurrent.CompletableFuture<java.lang.Void>>
+	Count: 1
+ 
+/stream-storage-service-impl/src/test/java/org/apache/bookkeeper/stream/storage/impl/sc/TestDefaultStorageContainerFactory.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 2
+ 
+/stream-storage-service-impl/src/test/java/org/apache/bookkeeper/stream/storage/impl/sc/ZkStorageContainerManagerTest.java
+Methods Invoked: 
+	Method name: spy
+	Class origin: org.mockito.Mockito
+	Count: 3
+ 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 2
+ 
+/stream-storage-service-impl/src/test/java/org/apache/bookkeeper/stream/storage/impl/service/RangeStoreServiceImplTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 10
+ 
+/stream-storage-service-impl/src/test/java/org/apache/bookkeeper/stream/storage/impl/store/MVCCAsyncStoreTestBase.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 4
+ 
+/stream-storage-service-impl/src/test/java/org/apache/bookkeeper/stream/storage/impl/store/MVCCStoreFactoryImplTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 4

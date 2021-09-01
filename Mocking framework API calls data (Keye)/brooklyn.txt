@@ -1,0 +1,193 @@
+/brooklyn-locations-jclouds/src/test/java/org/apache/brooklyn/location/jclouds/JcloudsStubTemplateBuilder.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 3
+ 
+/brooklyn-locations-jclouds/src/test/java/org/apache/brooklyn/location/jclouds/JcloudsLocationTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 4
+ 
+/brooklyn-locations-jclouds/src/test/java/org/apache/brooklyn/location/jclouds/JcloudsLocationReleasePortForwardingDefaultTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<java.lang.String>
+	Count: 1
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+/brooklyn-locations-jclouds/src/test/java/org/apache/brooklyn/location/jclouds/networking/SharedLocationSecurityGroupCustomizerTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 11
+ 
+/brooklyn-locations-jclouds/src/test/java/org/apache/brooklyn/location/jclouds/networking/JcloudsLocationSecurityGroupCustomizerTest.java
+Methods Invoked: 
+	Method name: initMocks
+	Class origin: org.mockito.MockitoAnnotations
+	Count: 1
+ 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<com.google.common.base.Optional<org.jclouds.compute.extensions.SecurityGroupExtension>>
+	Count: 1
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 54
+ 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<org.jclouds.domain.Location>
+	Count: 5
+ 
+/brooklyn-locations-jclouds/src/test/java/org/apache/brooklyn/location/jclouds/networking/creator/DefaultAzureArmNetworkCreatorTest.java
+Methods Invoked: 
+	Method name: initMocks
+	Class origin: org.mockito.MockitoAnnotations
+	Count: 1
+ 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<org.jclouds.compute.ComputeServiceContext>
+	Count: 1
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 17
+ 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<org.jclouds.azurecompute.arm.AzureComputeApi>
+	Count: 1
+ 
+/brooklyn-policy/src/test/java/org/apache/brooklyn/policy/enricher/HttpLatencyDetectorTest.java
+Methods Invoked: 
+	Method name: setBody
+	Class origin: com.google.mockwebserver.MockResponse
+	Count: 1
+ 
+	Method name: addHeader
+	Class origin: com.google.mockwebserver.MockResponse
+	Count: 1
+ 
+	Method name: setResponseCode
+	Class origin: com.google.mockwebserver.MockResponse
+	Count: 1
+ 
+/brooklyn-policy/src/test/java/org/apache/brooklyn/policy/enricher/RebindEnricherTest.java
+Methods Invoked: 
+	Method name: setBody
+	Class origin: com.google.mockwebserver.MockResponse
+	Count: 1
+ 
+	Method name: addHeader
+	Class origin: com.google.mockwebserver.MockResponse
+	Count: 1
+ 
+	Method name: setResponseCode
+	Class origin: com.google.mockwebserver.MockResponse
+	Count: 1
+ 
+/brooklyn-rest-client/src/test/java/org/apache/brooklyn/rest/client/BrooklynApiUtilTest.java
+Methods Invoked: 
+	Method name: getPath
+	Class origin: com.google.mockwebserver.RecordedRequest
+	Count: 1
+ 
+	Method name: getMethod
+	Class origin: com.google.mockwebserver.RecordedRequest
+	Count: 1
+ 
+	Method name: getBody
+	Class origin: com.google.mockwebserver.RecordedRequest
+	Count: 1
+ 
+	Method name: setHeader
+	Class origin: com.google.mockwebserver.MockResponse
+	Count: 1
+ 
+	Method name: setBody
+	Class origin: com.google.mockwebserver.MockResponse
+	Count: 2
+ 
+/brooklyn-rest-resources/src/test/java/org/apache/brooklyn/rest/security/provider/LdapSecurityProviderLiveTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+/brooklyn-software-base/src/test/java/org/apache/brooklyn/entity/software/base/SoftwareProcessEntityHttpFeedRebindTest.java
+Methods Invoked: 
+	Method name: setBody
+	Class origin: com.google.mockwebserver.MockResponse
+	Count: 1
+ 
+	Method name: addHeader
+	Class origin: com.google.mockwebserver.MockResponse
+	Count: 1
+ 
+	Method name: setResponseCode
+	Class origin: com.google.mockwebserver.MockResponse
+	Count: 1
+ 
+/brooklyn-software-base/src/test/java/org/apache/brooklyn/entity/software/base/lifecycle/ScriptHelperUnitTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 4
+ 
+/brooklyn-software-base/src/test/java/org/apache/brooklyn/entity/software/base/lifecycle/WinRmExecuteHelperUnitTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 3
+ 
+/brooklyn-ui-proxy/src/test/java/org/apache/brooklyn/ui/proxy/UIProxyTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+	Method name: willReturn
+	Class origin: org.mockito.BDDMockito.BDDMyOngoingStubbing<java.lang.String>
+	Count: 2
+ 
+	Method name: given
+	Class origin: org.mockito.BDDMockito
+	Count: 2
+ 
+/brooklyn-utils-common/src/test/java/org/apache/brooklyn/util/stream/LoggingOutputStreamTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<java.lang.Boolean>
+	Count: 1
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+	Method name: when
+	Class origin: org.mockito.stubbing.Stubber
+	Count: 1
+ 
+	Method name: doAnswer
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+	Method name: getArguments
+	Class origin: org.mockito.invocation.InvocationOnMock
+	Count: 1
+ 
+	Method name: anyString
+	Class origin: org.mockito.ArgumentMatchers
+	Count: 1

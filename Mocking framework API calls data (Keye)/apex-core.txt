@@ -1,0 +1,165 @@
+/apex-engine/src/main/java/com/datatorrent/stram/StramLocalCluster.java
+Methods Invoked: 
+	Method name: setupWindowGenerator
+	Class origin: com.datatorrent.stram.StramLocalCluster.MockComponentFactory
+	Count: 1
+ 
+/apex-engine/src/test/java/com/datatorrent/stram/CheckpointTest.java
+Methods Invoked: 
+	Method name: getTime
+	Class origin: com.datatorrent.stram.CheckpointTest.MockClock
+	Count: 1
+ 
+	Method name: put
+	Class origin: java.util.Map<com.datatorrent.stram.plan.physical.PTContainer,com.datatorrent.stram.MockContainer>
+	Count: 1
+ 
+	Method name: values
+	Class origin: java.util.Map<com.datatorrent.stram.plan.physical.PTContainer,com.datatorrent.stram.MockContainer>
+	Count: 1
+ 
+	Method name: deploy
+	Class origin: com.datatorrent.stram.MockContainer
+	Count: 1
+ 
+	Method name: get
+	Class origin: java.util.Map<com.datatorrent.stram.plan.physical.PTContainer,com.datatorrent.stram.MockContainer>
+	Count: 2
+ 
+	Method name: stats
+	Class origin: com.datatorrent.stram.MockContainer
+	Count: 1
+ 
+/apex-engine/src/test/java/com/datatorrent/stram/StramRecoveryTest.java
+Methods Invoked: 
+	Method name: checkpointWindowId
+	Class origin: com.datatorrent.stram.MockContainer.MockOperatorStats
+	Count: 1
+ 
+	Method name: currentWindowId
+	Class origin: com.datatorrent.stram.MockContainer.MockOperatorStats
+	Count: 1
+ 
+	Method name: deployState
+	Class origin: com.datatorrent.stram.MockContainer.MockOperatorStats
+	Count: 1
+ 
+	Method name: stats
+	Class origin: com.datatorrent.stram.MockContainer
+	Count: 1
+ 
+	Method name: sendHeartbeat
+	Class origin: com.datatorrent.stram.MockContainer
+	Count: 1
+ 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+	Method name: extraInterfaces
+	Class origin: org.mockito.MockSettings
+	Count: 1
+ 
+	Method name: withSettings
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+	Method name: getMethod
+	Class origin: org.mockito.invocation.InvocationOnMock
+	Count: 1
+ 
+	Method name: when
+	Class origin: org.mockito.stubbing.Stubber
+	Count: 2
+ 
+	Method name: doAnswer
+	Class origin: org.mockito.Mockito
+	Count: 2
+ 
+/apex-engine/src/test/java/com/datatorrent/stram/MockContainer.java
+Methods Invoked: 
+	Method name: assignContainer
+	Class origin: com.datatorrent.stram.MockContainer
+	Count: 1
+ 
+	Method name: entrySet
+	Class origin: java.util.Map<java.lang.Integer,com.datatorrent.stram.MockContainer.MockOperatorStats>
+	Count: 1
+ 
+	Method name: getKey
+	Class origin: java.util.Map.Entry<java.lang.Integer,com.datatorrent.stram.MockContainer.MockOperatorStats>
+	Count: 1
+ 
+	Method name: getValue
+	Class origin: java.util.Map.Entry<java.lang.Integer,com.datatorrent.stram.MockContainer.MockOperatorStats>
+	Count: 3
+ 
+/apex-engine/src/test/java/com/datatorrent/stram/StreamingContainerManagerTest.java
+Methods Invoked: 
+	Method name: put
+	Class origin: java.util.Map<com.datatorrent.stram.plan.physical.PTContainer,com.datatorrent.stram.MockContainer>
+	Count: 1
+ 
+	Method name: entrySet
+	Class origin: java.util.Map<com.datatorrent.stram.plan.physical.PTContainer,com.datatorrent.stram.MockContainer>
+	Count: 2
+ 
+	Method name: deploy
+	Class origin: com.datatorrent.stram.MockContainer
+	Count: 1
+ 
+	Method name: getValue
+	Class origin: java.util.Map.Entry<com.datatorrent.stram.plan.physical.PTContainer,com.datatorrent.stram.MockContainer>
+	Count: 1
+ 
+/apex-engine/src/test/java/com/datatorrent/stram/cli/ApexCliShutdownCommandTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.powermock.api.mockito.PowerMockito
+	Count: 4
+ 
+/apex-engine/src/test/java/com/datatorrent/stram/client/StramAppLauncherTest.java
+Methods Invoked: 
+	Method name: suppress
+	Class origin: org.powermock.api.support.membermodification.MemberModifier
+	Count: 2
+ 
+	Method name: method
+	Class origin: org.powermock.api.support.membermodification.MemberMatcher
+	Count: 2
+ 
+	Method name: setInternalState
+	Class origin: org.powermock.reflect.Whitebox
+	Count: 4
+ 
+/apex-engine/src/test/java/com/datatorrent/stram/plan/logical/MockStorageAgent.java
+Methods Invoked: 
+	Method name: getCanonicalName
+	Class origin: java.lang.Class<com.datatorrent.stram.plan.logical.MockStorageAgent>
+	Count: 1
+ 
+/apex-engine/src/test/java/com/datatorrent/stram/plan/logical/LogicalPlanTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 2
+ 
+/apex-engine/src/test/java/com/datatorrent/stram/plan/physical/PhysicalPlanTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.powermock.api.mockito.PowerMockito
+	Count: 2
+ 
+/apex-engine/src/test/java/org/apache/apex/engine/events/grouping/GroupingManagerTest.java
+Methods Invoked: 
+	Method name: initMocks
+	Class origin: org.mockito.MockitoAnnotations
+	Count: 1
+ 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<java.lang.Integer>
+	Count: 2
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 5

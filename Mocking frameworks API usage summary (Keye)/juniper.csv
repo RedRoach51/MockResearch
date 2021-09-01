@@ -1,0 +1,6 @@
+method, origin, count
+initConfig,net.juniper.contrail.api.ApiConnectorMock,1
+find,net.juniper.contrail.api.ApiConnectorMock,1
+findByFQN,net.juniper.contrail.api.ApiConnectorMock,1
+findById,net.juniper.contrail.api.ApiConnectorMock,2
+findByName,net.juniper.contrail.api.ApiConnectorMock,2

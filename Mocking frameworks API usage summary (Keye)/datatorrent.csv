@@ -1,0 +1,17 @@
+method, origin, count
+setupWindowGenerator,com.datatorrent.stram.StramLocalCluster.MockComponentFactory,1
+getTime,com.datatorrent.stram.CheckpointTest.MockClock,1
+put,java.util.Map<com.datatorrent.stram.plan.physical.PTContainer|com.datatorrent.stram.MockContainer>,2
+values,java.util.Map<com.datatorrent.stram.plan.physical.PTContainer|com.datatorrent.stram.MockContainer>,1
+deploy,com.datatorrent.stram.MockContainer,2
+get,java.util.Map<com.datatorrent.stram.plan.physical.PTContainer|com.datatorrent.stram.MockContainer>,2
+stats,com.datatorrent.stram.MockContainer,2
+checkpointWindowId,com.datatorrent.stram.MockContainer.MockOperatorStats,1
+currentWindowId,com.datatorrent.stram.MockContainer.MockOperatorStats,1
+deployState,com.datatorrent.stram.MockContainer.MockOperatorStats,1
+sendHeartbeat,com.datatorrent.stram.MockContainer,1
+assignContainer,com.datatorrent.stram.MockContainer,1
+entrySet,java.util.Map<java.lang.Integer|com.datatorrent.stram.MockContainer.MockOperatorStats>,3
+getKey,java.util.Map.Entry<java.lang.Integer|com.datatorrent.stram.MockContainer.MockOperatorStats>,1
+getValue,java.util.Map.Entry<java.lang.Integer|com.datatorrent.stram.MockContainer.MockOperatorStats>,4
+getCanonicalName,java.lang.Class<com.datatorrent.stram.plan.logical.MockStorageAgent>,1

@@ -1,0 +1,16 @@
+mock,org.mockito.Mockito,29
+thenReturn,org.mockito.stubbing.OngoingStubbing<java.lang.String>,10
+when,org.mockito.Mockito,74
+initMocks,org.mockito.MockitoAnnotations,2
+setBody,com.google.mockwebserver.MockResponse,5
+addHeader,com.google.mockwebserver.MockResponse,3
+setResponseCode,com.google.mockwebserver.MockResponse,3
+getPath,com.google.mockwebserver.RecordedRequest,1
+getMethod,com.google.mockwebserver.RecordedRequest,1
+getBody,com.google.mockwebserver.RecordedRequest,1
+setHeader,com.google.mockwebserver.MockResponse,1
+willReturn,org.mockito.BDDMockito.BDDMyOngoingStubbing<java.lang.String>,2
+given,org.mockito.BDDMockito,2
+doAnswer,org.mockito.Mockito,1
+getArguments,org.mockito.invocation.InvocationOnMock,1
+anyString,org.mockito.ArgumentMatchers,1

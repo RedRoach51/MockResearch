@@ -1,0 +1,4947 @@
+/cloud-agent/src/main/java/com/cloud/agent/mockvm/MockVmMgr.java
+Methods Invoked: 
+	Method name: keySet
+	Class origin: java.util.Map<java.lang.String,com.cloud.agent.mockvm.MockVm>
+	Count: 1
+ 
+	Method name: get
+	Class origin: java.util.Map<java.lang.String,com.cloud.agent.mockvm.MockVm>
+	Count: 9
+ 
+	Method name: getHostFreeMemory
+	Class origin: com.cloud.agent.mockvm.MockVmMgr
+	Count: 2
+ 
+	Method name: allocVncPort
+	Class origin: com.cloud.agent.mockvm.MockVmMgr
+	Count: 2
+ 
+	Method name: put
+	Class origin: java.util.Map<java.lang.String,com.cloud.agent.mockvm.MockVm>
+	Count: 2
+ 
+/cloud-api/src/test/java/org/apache/cloudstack/acl/RoleTypeTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 2
+ 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<java.lang.Long>
+	Count: 1
+ 
+/cloud-api/src/test/java/org/apache/cloudstack/api/command/admin/account/CreateAccountCmdTest.java
+Methods Invoked: 
+	Method name: initMocks
+	Class origin: org.mockito.MockitoAnnotations
+	Count: 1
+ 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 2
+ 
+/cloud-api/src/test/java/org/apache/cloudstack/api/command/admin/annotation/AddAnnotationCmdTest.java
+Methods Invoked: 
+	Method name: initMocks
+	Class origin: org.mockito.MockitoAnnotations
+	Count: 1
+ 
+/cloud-api/src/test/java/org/apache/cloudstack/api/command/admin/user/CreateUserCmdTest.java
+Methods Invoked: 
+	Method name: initMocks
+	Class origin: org.mockito.MockitoAnnotations
+	Count: 1
+ 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 2
+ 
+/cloud-api/src/test/java/org/apache/cloudstack/api/command/test/AddHostCmdTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 4
+ 
+/cloud-api/src/test/java/org/apache/cloudstack/api/command/test/UpdateCfgCmdTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 3
+ 
+/cloud-api/src/test/java/org/apache/cloudstack/api/command/test/AddNetworkServiceProviderCmdTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 3
+ 
+/cloud-api/src/test/java/org/apache/cloudstack/api/command/test/CreateRoleCmdTest.java
+Methods Invoked: 
+	Method name: spy
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 2
+ 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<java.lang.Long>
+	Count: 2
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 14
+ 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<java.lang.String>
+	Count: 6
+ 
+/cloud-api/src/test/java/org/apache/cloudstack/api/command/test/UpdateVmNicIpTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 7
+ 
+/cloud-api/src/test/java/org/apache/cloudstack/api/command/test/ImportRoleCmdTest.java
+Methods Invoked: 
+	Method name: spy
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<java.lang.String>
+	Count: 3
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 5
+ 
+/cloud-api/src/test/java/org/apache/cloudstack/api/command/test/AddAccountToProjectCmdTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 3
+ 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<java.lang.Long>
+	Count: 2
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 4
+ 
+/cloud-api/src/test/java/org/apache/cloudstack/api/command/test/UsageCmdTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 2
+ 
+/cloud-api/src/test/java/org/apache/cloudstack/api/command/test/UpdateRoleCmdTest.java
+Methods Invoked: 
+	Method name: spy
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 10
+ 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<java.lang.Long>
+	Count: 2
+ 
+/cloud-api/src/test/java/org/apache/cloudstack/api/command/test/AddSecondaryStorageCmdTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 4
+ 
+/cloud-api/src/test/java/org/apache/cloudstack/api/command/test/AddVpnUserCmdTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 7
+ 
+/cloud-api/src/test/java/org/apache/cloudstack/api/command/test/CreateSnapshotCmdTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 9
+ 
+/cloud-api/src/test/java/org/apache/cloudstack/api/command/test/AddClusterCmdTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 5
+ 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<java.util.List<>>
+	Count: 1
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+/cloud-api/src/test/java/org/apache/cloudstack/api/command/test/ScaleVMCmdTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 5
+ 
+/cloud-api/src/test/java/org/apache/cloudstack/api/command/test/UpdateHostPasswordCmdTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 3
+ 
+/cloud-api/src/test/java/org/apache/cloudstack/api/command/test/RegionCmdTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 6
+ 
+/cloud-api/src/test/java/org/apache/cloudstack/api/command/test/ActivateProjectCmdTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 4
+ 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<com.cloud.projects.Project>
+	Count: 2
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 5
+ 
+	Method name: anyLong
+	Class origin: org.mockito.ArgumentMatchers
+	Count: 3
+ 
+/cloud-api/src/test/java/org/apache/cloudstack/api/command/test/ListCfgCmdTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 3
+ 
+/cloud-api/src/test/java/org/apache/cloudstack/api/command/test/AddIpToVmNicTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 12
+ 
+/cloud-api/src/test/java/org/apache/cloudstack/context/CallContextTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 2
+ 
+/cloud-controller-secondary-storage/src/test/java/org/apache/cloudstack/secondarystorage/SecondaryStorageManagerTest.java
+Methods Invoked: 
+	Method name: initMocks
+	Class origin: org.mockito.MockitoAnnotations
+	Count: 1
+ 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 21
+ 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<com.cloud.dc.DataCenter.NetworkType>
+	Count: 6
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 31
+ 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<java.lang.Boolean>
+	Count: 6
+ 
+/cloud-core/src/test/java/com/cloud/agent/transport/RequestTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<java.lang.Long>
+	Count: 1
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 7
+ 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<com.cloud.storage.Storage.ImageFormat>
+	Count: 1
+ 
+/cloud-core/src/test/java/com/cloud/storage/template/QCOW2ProcessorTest.java
+Methods Invoked: 
+	Method name: spy
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<java.lang.Boolean>
+	Count: 2
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 8
+ 
+	Method name: anyString
+	Class origin: org.mockito.ArgumentMatchers
+	Count: 6
+ 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 4
+ 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<java.io.File>
+	Count: 2
+ 
+/cloud-core/src/test/java/com/cloud/storage/template/OVAProcessorTest.java
+Methods Invoked: 
+	Method name: spy
+	Class origin: org.powermock.api.mockito.PowerMockito
+	Count: 1
+ 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<java.lang.Boolean>
+	Count: 3
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 11
+ 
+	Method name: anyString
+	Class origin: org.mockito.ArgumentMatchers
+	Count: 9
+ 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 5
+ 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<com.cloud.utils.script.Script>
+	Count: 3
+ 
+	Method name: withAnyArguments
+	Class origin: org.powermock.api.mockito.expectation.WithAnyArguments<com.cloud.utils.script.Script>
+	Count: 3
+ 
+	Method name: whenNew
+	Class origin: org.powermock.api.mockito.PowerMockito
+	Count: 3
+ 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<java.lang.String>
+	Count: 7
+ 
+	Method name: when
+	Class origin: org.powermock.api.mockito.PowerMockito
+	Count: 3
+ 
+/cloud-core/src/test/java/com/cloud/storage/template/VhdProcessorTest.java
+Methods Invoked: 
+	Method name: spy
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<java.lang.Boolean>
+	Count: 2
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 8
+ 
+	Method name: anyString
+	Class origin: org.mockito.ArgumentMatchers
+	Count: 6
+ 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 4
+ 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<java.io.File>
+	Count: 2
+ 
+/cloud-core/src/test/java/org/apache/cloudstack/api/agent/test/BackupSnapshotAnswerTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+/cloud-core/src/test/java/org/apache/cloudstack/api/agent/test/CheckNetworkAnswerTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+/cloud-core/src/test/java/org/apache/cloudstack/api/agent/test/CheckNetworkCommandTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+/cloud-engine-orchestration/src/test/java/com/cloud/agent/manager/DirectAgentAttacheTest.java
+Methods Invoked: 
+	Method name: initMocks
+	Class origin: org.mockito.MockitoAnnotations
+	Count: 1
+ 
+	Method name: when
+	Class origin: org.mockito.stubbing.Stubber
+	Count: 1
+ 
+	Method name: doReturn
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+	Method name: verify
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+	Method name: times
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+/cloud-engine-orchestration/src/test/java/com/cloud/agent/manager/AgentManagerImplTest.java
+Methods Invoked: 
+	Method name: spy
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 3
+ 
+/cloud-engine-orchestration/src/test/java/com/cloud/agent/manager/ConnectedAgentAttacheTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 6
+ 
+/cloud-engine-orchestration/src/test/java/com/cloud/vm/VirtualMachineManagerImplTest.java
+Methods Invoked: 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<java.lang.Long>
+	Count: 11
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 30
+ 
+/cloud-engine-orchestration/src/test/java/org/apache/cloudstack/engine/orchestration/NetworkOrchestratorTest.java
+Methods Invoked: 
+	Method name: spy
+	Class origin: org.mockito.Mockito
+	Count: 14
+ 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 29
+ 
+/cloud-engine-orchestration/src/test/java/org/apache/cloudstack/engine/provisioning/test/ChildTestConfiguration.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 4
+ 
+/cloud-engine-orchestration/src/test/java/org/apache/cloudstack/engine/provisioning/test/ProvisioningTest.java
+Methods Invoked: 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 8
+ 
+	Method name: anyString
+	Class origin: org.mockito.ArgumentMatchers
+	Count: 4
+ 
+/cloud-engine-schema/src/test/java/com/cloud/storage/dao/StoragePoolTagsDaoImplTest.java
+Methods Invoked: 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<java.lang.String>
+	Count: 3
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 3
+ 
+	Method name: when
+	Class origin: org.mockito.stubbing.Stubber
+	Count: 4
+ 
+	Method name: doReturn
+	Class origin: org.mockito.Mockito
+	Count: 2
+ 
+	Method name: any
+	Class origin: org.mockito.ArgumentMatchers
+	Count: 9
+ 
+	Method name: isNull
+	Class origin: org.mockito.ArgumentMatchers
+	Count: 8
+ 
+/cloud-engine-schema/src/test/java/com/cloud/upgrade/dao/DbUpgradeUtilsTest.java
+Methods Invoked: 
+	Method name: setInternalState
+	Class origin: org.powermock.reflect.Whitebox
+	Count: 1
+ 
+	Method name: verify
+	Class origin: org.mockito.Mockito
+	Count: 17
+ 
+	Method name: times
+	Class origin: org.mockito.Mockito
+	Count: 17
+ 
+	Method name: eq
+	Class origin: org.mockito.ArgumentMatchers
+	Count: 7
+ 
+/cloud-engine-schema/src/test/java/com/cloud/upgrade/dao/DatabaseAccessObjectTest.java
+Methods Invoked: 
+	Method name: setInternalState
+	Class origin: org.powermock.reflect.Whitebox
+	Count: 1
+ 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<java.sql.PreparedStatement>
+	Count: 15
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 28
+ 
+	Method name: contains
+	Class origin: org.mockito.ArgumentMatchers
+	Count: 24
+ 
+	Method name: verify
+	Class origin: org.mockito.Mockito
+	Count: 83
+ 
+	Method name: times
+	Class origin: org.mockito.Mockito
+	Count: 83
+ 
+	Method name: anyString
+	Class origin: org.mockito.ArgumentMatchers
+	Count: 36
+ 
+/cloud-engine-schema/src/test/java/com/cloud/usage/dao/UsageStorageDaoImplTest.java
+Methods Invoked: 
+	Method name: mockStatic
+	Class origin: org.powermock.api.mockito.PowerMockito
+	Count: 1
+ 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<com.cloud.utils.db.TransactionLegacy>
+	Count: 1
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 7
+ 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<java.sql.PreparedStatement>
+	Count: 1
+ 
+/cloud-engine-schema/src/test/java/com/cloud/vm/dao/VMInstanceDaoImplTest.java
+Methods Invoked: 
+	Method name: initMocks
+	Class origin: org.mockito.MockitoAnnotations
+	Count: 1
+ 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<java.lang.Long>
+	Count: 2
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 3
+ 
+/cloud-engine-schema/src/test/java/org/apache/cloudstack/storage/datastore/db/PrimaryDataStoreDaoImplTest.java
+Methods Invoked: 
+	Method name: when
+	Class origin: org.mockito.stubbing.Stubber
+	Count: 1
+ 
+	Method name: doReturn
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+	Method name: nullable
+	Class origin: org.mockito.ArgumentMatchers
+	Count: 6
+ 
+/cloud-engine-storage/src/test/java/org/apache/cloudstack/engine/subsystem/api/storage/StrategyPriorityTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 36
+ 
+/cloud-engine-storage-configdrive/src/test/java/org/apache/cloudstack/storage/configdrive/ConfigDriveBuilderTest.java
+Methods Invoked: 
+	Method name: mockStatic
+	Class origin: org.powermock.api.mockito.PowerMockito
+	Count: 19
+ 
+	Method name: verifyStatic
+	Class origin: org.powermock.api.mockito.PowerMockito
+	Count: 6
+ 
+	Method name: any
+	Class origin: org.mockito.ArgumentMatchers
+	Count: 16
+ 
+	Method name: anyString
+	Class origin: org.mockito.ArgumentMatchers
+	Count: 18
+ 
+/cloud-engine-storage-datamotion/src/test/java/org/apache/cloudstack/storage/motion/AncientDataMotionStrategyTest.java
+Methods Invoked: 
+	Method name: initMocks
+	Class origin: org.mockito.MockitoAnnotations
+	Count: 1
+ 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<java.lang.Boolean>
+	Count: 1
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 5
+ 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<com.cloud.hypervisor.Hypervisor.HypervisorType>
+	Count: 2
+ 
+/cloud-engine-storage-datamotion/src/test/java/org/apache/cloudstack/storage/motion/KvmNonManagedStorageSystemDataMotionTest.java
+Methods Invoked: 
+	Method name: when
+	Class origin: org.mockito.stubbing.Stubber
+	Count: 14
+ 
+	Method name: doReturn
+	Class origin: org.mockito.Mockito
+	Count: 11
+ 
+	Method name: verify
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+	Method name: times
+	Class origin: org.mockito.Mockito
+	Count: 6
+ 
+	Method name: spy
+	Class origin: org.mockito.Mockito
+	Count: 5
+ 
+/cloud-engine-storage-datamotion/src/test/java/org/apache/cloudstack/storage/motion/StorageSystemDataMotionStrategyTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 11
+ 
+/cloud-engine-storage-integration-test/src/test/java/org/apache/cloudstack/storage/allocator/StorageAllocatorTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 9
+ 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<java.lang.Boolean>
+	Count: 10
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 14
+ 
+	Method name: anyListOf
+	Class origin: org.mockito.ArgumentMatchers
+	Count: 10
+ 
+	Method name: any
+	Class origin: org.mockito.ArgumentMatchers
+	Count: 10
+ 
+/cloud-engine-storage-integration-test/src/test/java/org/apache/cloudstack/storage/allocator/StorageAllocatorTestConfiguration.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 2
+ 
+/cloud-engine-storage-integration-test/src/test/java/org/apache/cloudstack/storage/test/VolumeTestVmware.java
+Methods Invoked: 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<java.util.List<com.cloud.host.HostVO>>
+	Count: 1
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 4
+ 
+	Method name: any
+	Class origin: org.mockito.ArgumentMatchers
+	Count: 5
+ 
+	Method name: anyLong
+	Class origin: org.mockito.ArgumentMatchers
+	Count: 3
+ 
+/cloud-engine-storage-integration-test/src/test/java/org/apache/cloudstack/storage/test/VolumeServiceTest.java
+Methods Invoked: 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<java.util.List<com.cloud.host.HostVO>>
+	Count: 2
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 6
+ 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<com.cloud.host.HostVO>
+	Count: 1
+ 
+/cloud-engine-storage-integration-test/src/test/java/org/apache/cloudstack/storage/test/DirectAgentTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 4
+ 
+/cloud-engine-storage-integration-test/src/test/java/org/apache/cloudstack/storage/test/ChildTestConfiguration.java
+Methods Invoked: 
+	Method name: spy
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 17
+ 
+/cloud-engine-storage-integration-test/src/test/java/org/apache/cloudstack/storage/test/EndpointSelectorTest.java
+Methods Invoked: 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<java.lang.Boolean>
+	Count: 1
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 23
+ 
+	Method name: anyMap
+	Class origin: org.mockito.ArgumentMatchers
+	Count: 1
+ 
+/cloud-engine-storage-integration-test/src/test/java/org/apache/cloudstack/storage/test/S3TemplateTest.java
+Methods Invoked: 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 3
+ 
+	Method name: any
+	Class origin: org.mockito.ArgumentMatchers
+	Count: 4
+ 
+/cloud-engine-storage-integration-test/src/test/java/org/apache/cloudstack/storage/test/SnapshotTest.java
+Methods Invoked: 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<java.util.List<com.cloud.host.HostVO>>
+	Count: 1
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 9
+ 
+	Method name: any
+	Class origin: org.mockito.ArgumentMatchers
+	Count: 12
+ 
+	Method name: anyLong
+	Class origin: org.mockito.ArgumentMatchers
+	Count: 4
+ 
+/cloud-engine-storage-integration-test/src/test/java/org/apache/cloudstack/storage/test/TemplateTest.java
+Methods Invoked: 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 2
+ 
+	Method name: any
+	Class origin: org.mockito.ArgumentMatchers
+	Count: 2
+ 
+/cloud-engine-storage-integration-test/src/test/java/org/apache/cloudstack/storage/test/StorageFactoryBean.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+/cloud-engine-storage-integration-test/src/test/java/org/apache/cloudstack/storage/test/FakeDriverTestConfiguration.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 3
+ 
+/cloud-engine-storage-integration-test/src/test/java/org/apache/cloudstack/storage/test/SnapshotTestWithFakeData.java
+Methods Invoked: 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<java.lang.Boolean>
+	Count: 1
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 12
+ 
+	Method name: anyMap
+	Class origin: org.mockito.ArgumentMatchers
+	Count: 1
+ 
+/cloud-engine-storage-integration-test/src/test/java/org/apache/cloudstack/storage/test/VolumeTest.java
+Methods Invoked: 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<java.util.List<com.cloud.host.HostVO>>
+	Count: 1
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 5
+ 
+	Method name: any
+	Class origin: org.mockito.ArgumentMatchers
+	Count: 6
+ 
+	Method name: anyLong
+	Class origin: org.mockito.ArgumentMatchers
+	Count: 4
+ 
+/cloud-engine-storage-snapshot/src/test/java/org/apache/cloudstack/storage/snapshot/CephSnapshotStrategyTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 4
+ 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<java.lang.Long>
+	Count: 1
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 5
+ 
+/cloud-engine-storage-snapshot/src/test/java/org/apache/cloudstack/storage/snapshot/SnapshotDataFactoryImplTest.java
+Methods Invoked: 
+	Method name: when
+	Class origin: org.mockito.stubbing.Stubber
+	Count: 10
+ 
+	Method name: doReturn
+	Class origin: org.mockito.Mockito
+	Count: 10
+ 
+	Method name: mockStatic
+	Class origin: org.powermock.api.mockito.PowerMockito
+	Count: 1
+ 
+	Method name: when
+	Class origin: org.powermock.api.mockito.PowerMockito
+	Count: 1
+ 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 3
+ 
+/cloud-engine-storage-snapshot/src/test/java/org/apache/cloudstack/storage/vmsnapshot/VMSnapshotStrategyTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 30
+ 
+/cloud-engine-storage-volume/src/test/java/org/apache/cloudstack/storage/volume/VolumeObjectTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+/cloud-engine-storage-volume/src/test/java/org/apache/cloudstack/storage/volume/test/TestConfiguration.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 2
+ 
+/cloud-framework-config/src/test/java/org/apache/cloudstack/framework/config/impl/ConfigDepotAdminTest.java
+Methods Invoked: 
+	Method name: initMocks
+	Class origin: org.mockito.MockitoAnnotations
+	Count: 1
+ 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<java.lang.String>
+	Count: 1
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 6
+ 
+/cloud-framework-db/src/test/java/com/cloud/utils/DbUtilTest.java
+Methods Invoked: 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<java.sql.Connection>
+	Count: 2
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 14
+ 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<java.sql.PreparedStatement>
+	Count: 3
+ 
+/cloud-framework-db/src/test/java/com/cloud/utils/db/GenericDaoBaseTest.java
+Methods Invoked: 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<java.lang.Object>
+	Count: 6
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 23
+ 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<java.lang.Boolean>
+	Count: 1
+ 
+/cloud-framework-db/src/test/java/com/cloud/utils/db/TestTransaction.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+	Method name: verify
+	Class origin: org.mockito.Mockito
+	Count: 16
+ 
+/cloud-framework-ipc/src/test/java/org/apache/cloudstack/messagebus/TestMessageBus.java
+Methods Invoked: 
+	Method name: spy
+	Class origin: org.mockito.Mockito
+	Count: 2
+ 
+/cloud-framework-quota/src/test/java/org/apache/cloudstack/quota/QuotaStatementTest.java
+Methods Invoked: 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<com.cloud.user.AccountVO>
+	Count: 1
+ 
+	Method name: when
+	Class origin: org.mockito.stubbing.LenientStubber
+	Count: 3
+ 
+	Method name: lenient
+	Class origin: org.mockito.Mockito
+	Count: 3
+ 
+	Method name: anyLong
+	Class origin: org.mockito.ArgumentMatchers
+	Count: 3
+ 
+/cloud-framework-quota/src/test/java/org/apache/cloudstack/quota/QuotaAlertManagerImplTest.java
+Methods Invoked: 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<com.cloud.user.AccountVO>
+	Count: 3
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 9
+ 
+	Method name: anyLong
+	Class origin: org.mockito.ArgumentMatchers
+	Count: 5
+ 
+/cloud-framework-quota/src/test/java/org/apache/cloudstack/quota/QuotaManagerImplTest.java
+Methods Invoked: 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<java.util.Map<java.lang.String,java.lang.String>>
+	Count: 1
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 4
+ 
+	Method name: anyMapOf
+	Class origin: org.mockito.ArgumentMatchers
+	Count: 1
+ 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<java.util.List<com.cloud.user.AccountVO>>
+	Count: 1
+ 
+/cloud-mom-inmemory/src/test/java/org/apache/cloudstack/mom/inmemory/InMemoryEventBusTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 12
+ 
+/cloud-plugin-acl-dynamic-role-based/src/test/java/org/apache/cloudstack/acl/DynamicRoleBasedAPIAccessCheckerTest.java
+Methods Invoked: 
+	Method name: spy
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<com.cloud.user.Account>
+	Count: 3
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 11
+ 
+	Method name: anyLong
+	Class origin: org.mockito.ArgumentMatchers
+	Count: 11
+ 
+/cloud-plugin-api-discovery/src/test/java/org/apache/cloudstack/discovery/ApiDiscoveryTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 4
+ 
+/cloud-plugin-api-limit-account-based/src/test/java/org/apache/cloudstack/ratelimit/ApiRateLimitTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 2
+ 
+/cloud-plugin-backup-veeam/src/test/java/org/apache/cloudstack/backup/veeam/VeeamClientTest.java
+Methods Invoked: 
+	Method name: stubFor
+	Class origin: com.github.tomakehurst.wiremock.WireMockServer
+	Count: 2
+ 
+	Method name: willReturn
+	Class origin: com.github.tomakehurst.wiremock.client.MappingBuilder
+	Count: 2
+ 
+	Method name: post
+	Class origin: com.github.tomakehurst.wiremock.client.WireMock
+	Count: 1
+ 
+	Method name: urlMatching
+	Class origin: com.github.tomakehurst.wiremock.client.WireMock
+	Count: 4
+ 
+	Method name: withBody
+	Class origin: com.github.tomakehurst.wiremock.client.ResponseDefinitionBuilder
+	Count: 2
+ 
+	Method name: withHeader
+	Class origin: com.github.tomakehurst.wiremock.client.ResponseDefinitionBuilder
+	Count: 2
+ 
+	Method name: withStatus
+	Class origin: com.github.tomakehurst.wiremock.client.ResponseDefinitionBuilder
+	Count: 2
+ 
+	Method name: aResponse
+	Class origin: com.github.tomakehurst.wiremock.client.WireMock
+	Count: 2
+ 
+	Method name: verify
+	Class origin: com.github.tomakehurst.wiremock.client.WireMock
+	Count: 2
+ 
+	Method name: withBasicAuth
+	Class origin: com.github.tomakehurst.wiremock.matching.RequestPatternBuilder
+	Count: 1
+ 
+	Method name: postRequestedFor
+	Class origin: com.github.tomakehurst.wiremock.client.WireMock
+	Count: 1
+ 
+/cloud-plugin-ca-rootca/src/test/java/org/apache/cloudstack/ca/provider/RootCAProviderTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 2
+ 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<java.lang.Boolean>
+	Count: 2
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 2
+ 
+/cloud-plugin-ca-rootca/src/test/java/org/apache/cloudstack/ca/provider/RootCACustomTrustManagerTest.java
+Methods Invoked: 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<com.cloud.certificate.CrlVO>
+	Count: 4
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 4
+ 
+	Method name: any
+	Class origin: org.mockito.ArgumentMatchers
+	Count: 4
+ 
+/cloud-plugin-database-quota/src/test/java/org/apache/cloudstack/api/command/QuotaEmailTemplateListCmdTest.java
+Methods Invoked: 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+	Method name: eq
+	Class origin: org.mockito.ArgumentMatchers
+	Count: 1
+ 
+	Method name: verify
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+	Method name: times
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+/cloud-plugin-database-quota/src/test/java/org/apache/cloudstack/api/command/QuotaTariffListCmdTest.java
+Methods Invoked: 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 2
+ 
+	Method name: eq
+	Class origin: org.mockito.ArgumentMatchers
+	Count: 1
+ 
+/cloud-plugin-database-quota/src/test/java/org/apache/cloudstack/api/command/QuotaTariffUpdateCmdTest.java
+Methods Invoked: 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 3
+ 
+	Method name: eq
+	Class origin: org.mockito.ArgumentMatchers
+	Count: 4
+ 
+/cloud-plugin-database-quota/src/test/java/org/apache/cloudstack/api/command/QuotaStatementCmdTest.java
+Methods Invoked: 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 2
+ 
+	Method name: eq
+	Class origin: org.mockito.ArgumentMatchers
+	Count: 3
+ 
+/cloud-plugin-database-quota/src/test/java/org/apache/cloudstack/api/command/QuotaCreditsCmdTest.java
+Methods Invoked: 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<com.cloud.user.Account>
+	Count: 1
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 2
+ 
+	Method name: nullable
+	Class origin: org.mockito.ArgumentMatchers
+	Count: 12
+ 
+/cloud-plugin-database-quota/src/test/java/org/apache/cloudstack/api/command/QuotaEmailTemplateUpdateCmdTest.java
+Methods Invoked: 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<java.lang.Boolean>
+	Count: 1
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+	Method name: eq
+	Class origin: org.mockito.ArgumentMatchers
+	Count: 2
+ 
+	Method name: verify
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+	Method name: times
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+/cloud-plugin-database-quota/src/test/java/org/apache/cloudstack/api/command/QuotaBalanceCmdTest.java
+Methods Invoked: 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 3
+ 
+	Method name: any
+	Class origin: org.mockito.ArgumentMatchers
+	Count: 10
+ 
+/cloud-plugin-database-quota/src/test/java/org/apache/cloudstack/api/response/QuotaResponseBuilderImplTest.java
+Methods Invoked: 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 7
+ 
+	Method name: any
+	Class origin: org.mockito.ArgumentMatchers
+	Count: 5
+ 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<java.math.BigDecimal>
+	Count: 1
+ 
+/cloud-plugin-database-quota/src/test/java/org/apache/cloudstack/quota/QuotaServiceImplTest.java
+Methods Invoked: 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<java.lang.String>
+	Count: 2
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 11
+ 
+	Method name: eq
+	Class origin: org.mockito.ArgumentMatchers
+	Count: 9
+ 
+/cloud-plugin-dedicated-resources/src/test/java/org/apache/cloudstack/dedicated/manager/DedicatedApiUnitTest.java
+Methods Invoked: 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<com.cloud.user.Account>
+	Count: 1
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 12
+ 
+	Method name: any
+	Class origin: org.mockito.ArgumentMatchers
+	Count: 1
+ 
+	Method name: nullable
+	Class origin: org.mockito.ArgumentMatchers
+	Count: 3
+ 
+/cloud-plugin-host-affinity/src/test/java/org/apache/cloudstack/affinity/HostAffinityProcessorTest.java
+Methods Invoked: 
+	Method name: initMocks
+	Class origin: org.mockito.MockitoAnnotations
+	Count: 1
+ 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<java.lang.Long>
+	Count: 7
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 16
+ 
+/cloud-plugin-hypervisor-kvm/src/test/java/com/cloud/hypervisor/kvm/dpdk/DpdkDriverTest.java
+Methods Invoked: 
+	Method name: initMocks
+	Class origin: org.mockito.MockitoAnnotations
+	Count: 1
+ 
+	Method name: mockStatic
+	Class origin: org.powermock.api.mockito.PowerMockito
+	Count: 1
+ 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<java.lang.String>
+	Count: 4
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 4
+ 
+	Method name: anyString
+	Class origin: org.mockito.ArgumentMatchers
+	Count: 4
+ 
+/cloud-plugin-hypervisor-kvm/src/test/java/com/cloud/hypervisor/kvm/resource/LibvirtVifDriverTest.java
+Methods Invoked: 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<java.util.Scanner>
+	Count: 1
+ 
+	Method name: withAnyArguments
+	Class origin: org.powermock.api.mockito.expectation.WithAnyArguments<java.util.Scanner>
+	Count: 1
+ 
+	Method name: whenNew
+	Class origin: org.powermock.api.mockito.PowerMockito
+	Count: 1
+ 
+	Method name: spy
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+	Method name: when
+	Class origin: org.mockito.stubbing.Stubber
+	Count: 3
+ 
+	Method name: doReturn
+	Class origin: org.mockito.Mockito
+	Count: 3
+ 
+	Method name: eq
+	Class origin: org.mockito.ArgumentMatchers
+	Count: 3
+ 
+	Method name: anyMap
+	Class origin: org.mockito.ArgumentMatchers
+	Count: 3
+ 
+/cloud-plugin-hypervisor-kvm/src/test/java/com/cloud/hypervisor/kvm/resource/LibvirtVMDefTest.java
+Methods Invoked: 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<java.util.Scanner>
+	Count: 1
+ 
+	Method name: withAnyArguments
+	Class origin: org.powermock.api.mockito.expectation.WithAnyArguments<java.util.Scanner>
+	Count: 1
+ 
+	Method name: whenNew
+	Class origin: org.powermock.api.mockito.PowerMockito
+	Count: 1
+ 
+/cloud-plugin-hypervisor-kvm/src/test/java/com/cloud/hypervisor/kvm/resource/LibvirtComputingResourceTest.java
+Methods Invoked: 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<java.util.Scanner>
+	Count: 1
+ 
+	Method name: withAnyArguments
+	Class origin: org.powermock.api.mockito.expectation.WithAnyArguments<java.util.Scanner>
+	Count: 1
+ 
+	Method name: whenNew
+	Class origin: org.powermock.api.mockito.PowerMockito
+	Count: 1
+ 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 392
+ 
+/cloud-plugin-hypervisor-kvm/src/test/java/com/cloud/hypervisor/kvm/resource/wrapper/LibvirtMigrateCommandWrapperTest.java
+Methods Invoked: 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<java.util.Scanner>
+	Count: 1
+ 
+	Method name: withAnyArguments
+	Class origin: org.powermock.api.mockito.expectation.WithAnyArguments<java.util.Scanner>
+	Count: 1
+ 
+	Method name: whenNew
+	Class origin: org.powermock.api.mockito.PowerMockito
+	Count: 1
+ 
+	Method name: mockStatic
+	Class origin: org.powermock.api.mockito.PowerMockito
+	Count: 1
+ 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 2
+ 
+	Method name: when
+	Class origin: org.powermock.api.mockito.expectation.PowerMockitoStubber
+	Count: 1
+ 
+	Method name: doReturn
+	Class origin: org.powermock.api.mockito.PowerMockito
+	Count: 1
+ 
+/cloud-plugin-hypervisor-kvm/src/test/java/com/cloud/hypervisor/kvm/resource/wrapper/LibvirtNetworkElementCommandWrapperTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 3
+ 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<java.util.Scanner>
+	Count: 1
+ 
+	Method name: withAnyArguments
+	Class origin: org.powermock.api.mockito.expectation.WithAnyArguments<java.util.Scanner>
+	Count: 1
+ 
+	Method name: whenNew
+	Class origin: org.powermock.api.mockito.PowerMockito
+	Count: 1
+ 
+	Method name: spy
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+/cloud-plugin-hypervisor-kvm/src/test/java/com/cloud/hypervisor/kvm/resource/wrapper/LibvirtReplugNicCommandWrapperTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 5
+ 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<java.util.Scanner>
+	Count: 1
+ 
+	Method name: withAnyArguments
+	Class origin: org.powermock.api.mockito.expectation.WithAnyArguments<java.util.Scanner>
+	Count: 1
+ 
+	Method name: whenNew
+	Class origin: org.powermock.api.mockito.PowerMockito
+	Count: 1
+ 
+	Method name: spy
+	Class origin: org.mockito.Mockito
+	Count: 3
+ 
+/cloud-plugin-hypervisor-kvm/src/test/java/com/cloud/hypervisor/kvm/storage/ScaleIOStoragePoolTest.java
+Methods Invoked: 
+	Method name: spy
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+	Method name: mock
+	Class origin: org.powermock.api.mockito.PowerMockito
+	Count: 2
+ 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<java.io.File>
+	Count: 2
+ 
+	Method name: withAnyArguments
+	Class origin: org.powermock.api.mockito.expectation.WithAnyArguments<java.io.File>
+	Count: 2
+ 
+	Method name: whenNew
+	Class origin: org.powermock.api.mockito.PowerMockito
+	Count: 2
+ 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<java.io.File[]>
+	Count: 1
+ 
+	Method name: when
+	Class origin: org.powermock.api.mockito.PowerMockito
+	Count: 2
+ 
+	Method name: any
+	Class origin: org.mockito.ArgumentMatchers
+	Count: 1
+ 
+	Method name: mockStatic
+	Class origin: org.powermock.api.mockito.PowerMockito
+	Count: 1
+ 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<java.lang.String>
+	Count: 1
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 2
+ 
+/cloud-plugin-hypervisor-kvm/src/test/java/com/cloud/hypervisor/kvm/storage/KVMPhysicalDiskTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+/cloud-plugin-hypervisor-kvm/src/test/java/com/cloud/hypervisor/kvm/storage/KVMStorageProcessorTest.java
+Methods Invoked: 
+	Method name: initMocks
+	Class origin: org.mockito.MockitoAnnotations
+	Count: 1
+ 
+	Method name: mockStatic
+	Class origin: org.powermock.api.mockito.PowerMockito
+	Count: 1
+ 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<java.lang.String>
+	Count: 4
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 4
+ 
+/cloud-plugin-hypervisor-kvm/src/test/java/com/cloud/hypervisor/kvm/storage/LibvirtStoragePoolTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 6
+ 
+/cloud-plugin-hypervisor-kvm/src/test/java/org/apache/cloudstack/kvm/ha/KVMHostHATest.java
+Methods Invoked: 
+	Method name: initMocks
+	Class origin: org.mockito.MockitoAnnotations
+	Count: 1
+ 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<com.cloud.hypervisor.Hypervisor.HypervisorType>
+	Count: 4
+ 
+	Method name: when
+	Class origin: org.mockito.stubbing.LenientStubber
+	Count: 4
+ 
+	Method name: lenient
+	Class origin: org.mockito.Mockito
+	Count: 4
+ 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<java.lang.Boolean>
+	Count: 4
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 4
+ 
+/cloud-plugin-hypervisor-kvm/src/test/java/org/apache/cloudstack/utils/linux/KVMHostInfoTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+/cloud-plugin-hypervisor-kvm/src/test/java/org/apache/cloudstack/utils/linux/MemStatTest.java
+Methods Invoked: 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<java.util.Scanner>
+	Count: 1
+ 
+	Method name: withAnyArguments
+	Class origin: org.powermock.api.mockito.expectation.WithAnyArguments<java.util.Scanner>
+	Count: 1
+ 
+	Method name: whenNew
+	Class origin: org.powermock.api.mockito.PowerMockito
+	Count: 1
+ 
+/cloud-plugin-hypervisor-ovm3/src/test/java/com/cloud/hypervisor/ovm3/resources/Ovm3HypervisorResourceTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<java.lang.String>
+	Count: 1
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+/cloud-plugin-hypervisor-simulator/src/main/java/com/cloud/agent/manager/MockStorageManagerImpl.java
+Methods Invoked: 
+	Method name: findByUrl
+	Class origin: com.cloud.simulator.dao.MockSecStorageDao
+	Count: 12
+ 
+	Method name: getMountPoint
+	Class origin: com.cloud.simulator.MockSecStorageVO
+	Count: 13
+ 
+	Method name: findByStoragePathAndType
+	Class origin: com.cloud.simulator.dao.MockVolumeDao
+	Count: 8
+ 
+	Method name: findVolumeFromSecondary
+	Class origin: com.cloud.agent.manager.MockStorageManagerImpl
+	Count: 2
+ 
+	Method name: findByUuid
+	Class origin: com.cloud.simulator.dao.MockStoragePoolDao
+	Count: 8
+ 
+	Method name: setName
+	Class origin: com.cloud.simulator.MockVolumeVO
+	Count: 13
+ 
+	Method name: setPath
+	Class origin: com.cloud.simulator.MockVolumeVO
+	Count: 13
+ 
+	Method name: getMountPoint
+	Class origin: com.cloud.simulator.MockStoragePoolVO
+	Count: 11
+ 
+	Method name: setPoolId
+	Class origin: com.cloud.simulator.MockVolumeVO
+	Count: 13
+ 
+	Method name: getId
+	Class origin: com.cloud.simulator.MockStoragePoolVO
+	Count: 7
+ 
+	Method name: setSize
+	Class origin: com.cloud.simulator.MockVolumeVO
+	Count: 14
+ 
+	Method name: getSize
+	Class origin: com.cloud.simulator.MockVolumeVO
+	Count: 24
+ 
+	Method name: setType
+	Class origin: com.cloud.simulator.MockVolumeVO
+	Count: 13
+ 
+	Method name: persist
+	Class origin: com.cloud.utils.db.GenericDao<com.cloud.simulator.MockVolumeVO,java.lang.Long>
+	Count: 13
+ 
+	Method name: getPath
+	Class origin: com.cloud.simulator.MockVolumeVO
+	Count: 10
+ 
+/cloud-plugin-hypervisor-simulator/src/main/java/com/cloud/agent/manager/MockVmManagerImpl.java
+Methods Invoked: 
+	Method name: findByGuid
+	Class origin: com.cloud.simulator.dao.MockHostDao
+	Count: 2
+ 
+	Method name: findByVmName
+	Class origin: com.cloud.simulator.dao.MockVMDao
+	Count: 7
+ 
+	Method name: setCpu
+	Class origin: com.cloud.simulator.MockVm
+	Count: 1
+ 
+	Method name: setMemory
+	Class origin: com.cloud.simulator.MockVm
+	Count: 1
+ 
+	Method name: setPowerState
+	Class origin: com.cloud.simulator.MockVm
+	Count: 3
+ 
+	Method name: setName
+	Class origin: com.cloud.simulator.MockVm
+	Count: 1
+ 
+	Method name: setVncPort
+	Class origin: com.cloud.simulator.MockVm
+	Count: 1
+ 
+	Method name: setHostId
+	Class origin: com.cloud.simulator.MockVm
+	Count: 1
+ 
+	Method name: getId
+	Class origin: com.cloud.simulator.MockHost
+	Count: 2
+ 
+	Method name: setBootargs
+	Class origin: com.cloud.simulator.MockVm
+	Count: 1
+ 
+	Method name: setType
+	Class origin: com.cloud.simulator.MockVm
+	Count: 4
+ 
+/cloud-plugin-hypervisor-simulator/src/main/java/com/cloud/agent/manager/MockAgentManagerImpl.java
+Methods Invoked: 
+	Method name: getPodCidr
+	Class origin: com.cloud.agent.manager.MockAgentManagerImpl
+	Count: 2
+ 
+/cloud-plugin-hypervisor-simulator/src/main/java/com/cloud/agent/manager/MockNetworkManagerImpl.java
+Methods Invoked: 
+	Method name: findByVmName
+	Class origin: com.cloud.simulator.dao.MockVMDao
+	Count: 4
+ 
+/cloud-plugin-hypervisor-simulator/src/main/java/com/cloud/agent/manager/SimulatorManagerImpl.java
+Methods Invoked: 
+	Method name: findByGuid
+	Class origin: com.cloud.simulator.dao.MockHostDao
+	Count: 1
+ 
+	Method name: findByNameBottomUP
+	Class origin: com.cloud.simulator.dao.MockConfigurationDao
+	Count: 1
+ 
+	Method name: getDataCenterId
+	Class origin: com.cloud.simulator.MockHost
+	Count: 1
+ 
+	Method name: getPodId
+	Class origin: com.cloud.simulator.MockHost
+	Count: 1
+ 
+	Method name: getClusterId
+	Class origin: com.cloud.simulator.MockHost
+	Count: 1
+ 
+	Method name: getId
+	Class origin: com.cloud.simulator.MockHost
+	Count: 1
+ 
+	Method name: getCount
+	Class origin: com.cloud.simulator.MockConfigurationVO
+	Count: 5
+ 
+/cloud-plugin-hypervisor-simulator/src/main/java/com/cloud/api/commands/ConfigureSimulatorCmd.java
+Methods Invoked: 
+	Method name: setId
+	Class origin: com.cloud.api.response.MockResponse
+	Count: 1
+ 
+	Method name: getId
+	Class origin: com.cloud.simulator.MockConfigurationVO
+	Count: 1
+ 
+	Method name: setZoneId
+	Class origin: com.cloud.api.response.MockResponse
+	Count: 1
+ 
+	Method name: getDataCenterId
+	Class origin: com.cloud.simulator.MockConfigurationVO
+	Count: 1
+ 
+	Method name: setPodId
+	Class origin: com.cloud.api.response.MockResponse
+	Count: 1
+ 
+	Method name: getPodId
+	Class origin: com.cloud.simulator.MockConfigurationVO
+	Count: 1
+ 
+	Method name: setClusterId
+	Class origin: com.cloud.api.response.MockResponse
+	Count: 1
+ 
+	Method name: getClusterId
+	Class origin: com.cloud.simulator.MockConfigurationVO
+	Count: 1
+ 
+	Method name: setHostId
+	Class origin: com.cloud.api.response.MockResponse
+	Count: 1
+ 
+	Method name: getHostId
+	Class origin: com.cloud.simulator.MockConfigurationVO
+	Count: 1
+ 
+	Method name: setName
+	Class origin: com.cloud.api.response.MockResponse
+	Count: 1
+ 
+	Method name: getName
+	Class origin: com.cloud.simulator.MockConfigurationVO
+	Count: 1
+ 
+	Method name: setCount
+	Class origin: com.cloud.api.response.MockResponse
+	Count: 1
+ 
+	Method name: getCount
+	Class origin: com.cloud.simulator.MockConfigurationVO
+	Count: 1
+ 
+/cloud-plugin-hypervisor-simulator/src/main/java/com/cloud/api/commands/QuerySimulatorMockCmd.java
+Methods Invoked: 
+	Method name: getName
+	Class origin: java.lang.Class<com.cloud.api.commands.QuerySimulatorMockCmd>
+	Count: 1
+ 
+	Method name: setId
+	Class origin: com.cloud.api.response.MockResponse
+	Count: 1
+ 
+	Method name: getId
+	Class origin: com.cloud.simulator.MockConfigurationVO
+	Count: 1
+ 
+	Method name: setZoneId
+	Class origin: com.cloud.api.response.MockResponse
+	Count: 1
+ 
+	Method name: getDataCenterId
+	Class origin: com.cloud.simulator.MockConfigurationVO
+	Count: 1
+ 
+	Method name: setPodId
+	Class origin: com.cloud.api.response.MockResponse
+	Count: 1
+ 
+	Method name: getPodId
+	Class origin: com.cloud.simulator.MockConfigurationVO
+	Count: 1
+ 
+	Method name: setClusterId
+	Class origin: com.cloud.api.response.MockResponse
+	Count: 1
+ 
+	Method name: getClusterId
+	Class origin: com.cloud.simulator.MockConfigurationVO
+	Count: 1
+ 
+	Method name: setHostId
+	Class origin: com.cloud.api.response.MockResponse
+	Count: 1
+ 
+	Method name: getHostId
+	Class origin: com.cloud.simulator.MockConfigurationVO
+	Count: 1
+ 
+	Method name: setName
+	Class origin: com.cloud.api.response.MockResponse
+	Count: 1
+ 
+	Method name: getName
+	Class origin: com.cloud.simulator.MockConfigurationVO
+	Count: 1
+ 
+	Method name: setCount
+	Class origin: com.cloud.api.response.MockResponse
+	Count: 1
+ 
+	Method name: getCount
+	Class origin: com.cloud.simulator.MockConfigurationVO
+	Count: 1
+ 
+/cloud-plugin-hypervisor-simulator/src/main/java/com/cloud/api/commands/CleanupSimulatorMockCmd.java
+Methods Invoked: 
+	Method name: getName
+	Class origin: java.lang.Class<com.cloud.api.commands.CleanupSimulatorMockCmd>
+	Count: 1
+ 
+	Method name: getCommandName
+	Class origin: com.cloud.api.commands.CleanupSimulatorMockCmd
+	Count: 1
+ 
+/cloud-plugin-hypervisor-simulator/src/main/java/com/cloud/resource/AgentResourceBase.java
+Methods Invoked: 
+	Method name: getHost
+	Class origin: com.cloud.agent.manager.MockAgentManager
+	Count: 1
+ 
+	Method name: getName
+	Class origin: com.cloud.simulator.MockHost
+	Count: 1
+ 
+	Method name: getGuid
+	Class origin: com.cloud.simulator.MockHost
+	Count: 1
+ 
+/cloud-plugin-hypervisor-simulator/src/main/java/com/cloud/resource/AgentStorageResource.java
+Methods Invoked: 
+	Method name: getPrivateIpAddress
+	Class origin: com.cloud.simulator.MockHost
+	Count: 1
+ 
+	Method name: getPrivateNetMask
+	Class origin: com.cloud.simulator.MockHost
+	Count: 1
+ 
+	Method name: getPrivateMacAddress
+	Class origin: com.cloud.simulator.MockHost
+	Count: 1
+ 
+	Method name: getStorageIpAddress
+	Class origin: com.cloud.simulator.MockHost
+	Count: 1
+ 
+	Method name: getStorageNetMask
+	Class origin: com.cloud.simulator.MockHost
+	Count: 1
+ 
+	Method name: getStorageMacAddress
+	Class origin: com.cloud.simulator.MockHost
+	Count: 1
+ 
+	Method name: getPublicIpAddress
+	Class origin: com.cloud.simulator.MockHost
+	Count: 1
+ 
+	Method name: getName
+	Class origin: com.cloud.simulator.MockHost
+	Count: 1
+ 
+	Method name: getVersion
+	Class origin: com.cloud.simulator.MockHost
+	Count: 1
+ 
+	Method name: getDataCenterId
+	Class origin: com.cloud.simulator.MockHost
+	Count: 1
+ 
+	Method name: getPodId
+	Class origin: com.cloud.simulator.MockHost
+	Count: 1
+ 
+	Method name: getGuid
+	Class origin: com.cloud.simulator.MockHost
+	Count: 1
+ 
+/cloud-plugin-hypervisor-simulator/src/main/java/com/cloud/resource/AgentRoutingResource.java
+Methods Invoked: 
+	Method name: findByNameBottomUP
+	Class origin: com.cloud.simulator.dao.MockConfigurationDao
+	Count: 2
+ 
+	Method name: getDataCenterId
+	Class origin: com.cloud.simulator.MockHost
+	Count: 3
+ 
+	Method name: getPodId
+	Class origin: com.cloud.simulator.MockHost
+	Count: 3
+ 
+	Method name: getClusterId
+	Class origin: com.cloud.simulator.MockHost
+	Count: 3
+ 
+	Method name: getId
+	Class origin: com.cloud.simulator.MockHost
+	Count: 2
+ 
+	Method name: getParameters
+	Class origin: com.cloud.simulator.MockConfigurationVO
+	Count: 1
+ 
+/cloud-plugin-hypervisor-simulator/src/main/java/com/cloud/resource/SimulatorSecondaryDiscoverer.java
+Methods Invoked: 
+	Method name: preinstallTemplates
+	Class origin: com.cloud.agent.manager.MockStorageManager
+	Count: 1
+ 
+/cloud-plugin-hypervisor-simulator/src/main/java/com/cloud/resource/SimulatorDiscoverer.java
+Methods Invoked: 
+	Method name: createServerResources
+	Class origin: com.cloud.agent.manager.MockAgentManager
+	Count: 1
+ 
+/cloud-plugin-hypervisor-simulator/src/main/java/com/cloud/simulator/dao/MockHostDaoImpl.java
+Methods Invoked: 
+	Method name: createSearchBuilder
+	Class origin: com.cloud.utils.db.GenericDaoBase<com.cloud.simulator.MockHostVO,java.lang.Long>
+	Count: 1
+ 
+	Method name: and
+	Class origin: com.cloud.utils.db.GenericSearchBuilder<com.cloud.simulator.MockHostVO,com.cloud.simulator.MockHostVO>
+	Count: 1
+ 
+	Method name: getGuid
+	Class origin: com.cloud.simulator.MockHostVO
+	Count: 1
+ 
+	Method name: entity
+	Class origin: com.cloud.utils.db.SearchBase<com.cloud.utils.db.GenericSearchBuilder<com.cloud.simulator.MockHostVO,com.cloud.simulator.MockHostVO>,com.cloud.simulator.MockHostVO,com.cloud.simulator.MockHostVO>
+	Count: 1
+ 
+	Method name: done
+	Class origin: com.cloud.utils.db.GenericSearchBuilder<com.cloud.simulator.MockHostVO,com.cloud.simulator.MockHostVO>
+	Count: 1
+ 
+	Method name: create
+	Class origin: com.cloud.utils.db.SearchBase<com.cloud.utils.db.GenericSearchBuilder<com.cloud.simulator.MockHostVO,com.cloud.simulator.MockHostVO>,com.cloud.simulator.MockHostVO,com.cloud.simulator.MockHostVO>
+	Count: 1
+ 
+	Method name: setParameters
+	Class origin: com.cloud.utils.db.SearchCriteria<com.cloud.simulator.MockHostVO>
+	Count: 1
+ 
+	Method name: findOneBy
+	Class origin: com.cloud.utils.db.GenericDaoBase<com.cloud.simulator.MockHostVO,java.lang.Long>
+	Count: 1
+ 
+	Method name: findByGuid
+	Class origin: com.cloud.simulator.dao.MockHostDaoImpl
+	Count: 1
+ 
+	Method name: remove
+	Class origin: com.cloud.utils.db.GenericDaoBase<com.cloud.simulator.MockHostVO,java.lang.Long>
+	Count: 1
+ 
+	Method name: getId
+	Class origin: com.cloud.simulator.MockHost
+	Count: 1
+ 
+/cloud-plugin-hypervisor-simulator/src/main/java/com/cloud/simulator/dao/MockVMDaoImpl.java
+Methods Invoked: 
+	Method name: create
+	Class origin: com.cloud.utils.db.SearchBase<com.cloud.utils.db.GenericSearchBuilder<com.cloud.simulator.MockVMVO,com.cloud.simulator.MockVMVO>,com.cloud.simulator.MockVMVO,com.cloud.simulator.MockVMVO>
+	Count: 3
+ 
+	Method name: setParameters
+	Class origin: com.cloud.utils.db.SearchCriteria<com.cloud.simulator.MockVMVO>
+	Count: 3
+ 
+	Method name: findOneBy
+	Class origin: com.cloud.utils.db.GenericDaoBase<com.cloud.simulator.MockVMVO,java.lang.Long>
+	Count: 2
+ 
+/cloud-plugin-hypervisor-simulator/src/main/java/com/cloud/simulator/dao/MockStoragePoolDaoImpl.java
+Methods Invoked: 
+	Method name: create
+	Class origin: com.cloud.utils.db.SearchBase<com.cloud.utils.db.GenericSearchBuilder<com.cloud.simulator.MockStoragePoolVO,com.cloud.simulator.MockStoragePoolVO>,com.cloud.simulator.MockStoragePoolVO,com.cloud.simulator.MockStoragePoolVO>
+	Count: 2
+ 
+	Method name: setParameters
+	Class origin: com.cloud.utils.db.SearchCriteria<com.cloud.simulator.MockStoragePoolVO>
+	Count: 3
+ 
+	Method name: findOneBy
+	Class origin: com.cloud.utils.db.GenericDaoBase<com.cloud.simulator.MockStoragePoolVO,java.lang.Long>
+	Count: 2
+ 
+	Method name: createSearchBuilder
+	Class origin: com.cloud.utils.db.GenericDaoBase<com.cloud.simulator.MockStoragePoolVO,java.lang.Long>
+	Count: 2
+ 
+	Method name: and
+	Class origin: com.cloud.utils.db.GenericSearchBuilder<com.cloud.simulator.MockStoragePoolVO,com.cloud.simulator.MockStoragePoolVO>
+	Count: 3
+ 
+	Method name: getUuid
+	Class origin: com.cloud.simulator.MockStoragePoolVO
+	Count: 1
+ 
+	Method name: entity
+	Class origin: com.cloud.utils.db.SearchBase<com.cloud.utils.db.GenericSearchBuilder<com.cloud.simulator.MockStoragePoolVO,com.cloud.simulator.MockStoragePoolVO>,com.cloud.simulator.MockStoragePoolVO,com.cloud.simulator.MockStoragePoolVO>
+	Count: 3
+ 
+	Method name: done
+	Class origin: com.cloud.utils.db.GenericSearchBuilder<com.cloud.simulator.MockStoragePoolVO,com.cloud.simulator.MockStoragePoolVO>
+	Count: 2
+ 
+/cloud-plugin-hypervisor-simulator/src/main/java/com/cloud/simulator/dao/MockConfigurationDaoImpl.java
+Methods Invoked: 
+	Method name: createSearchBuilder
+	Class origin: com.cloud.utils.db.GenericDaoBase<com.cloud.simulator.MockConfigurationVO,java.lang.Long>
+	Count: 5
+ 
+	Method name: and
+	Class origin: com.cloud.utils.db.GenericSearchBuilder<com.cloud.simulator.MockConfigurationVO,com.cloud.simulator.MockConfigurationVO>
+	Count: 25
+ 
+	Method name: getDataCenterId
+	Class origin: com.cloud.simulator.MockConfigurationVO
+	Count: 5
+ 
+	Method name: entity
+	Class origin: com.cloud.utils.db.SearchBase<com.cloud.utils.db.GenericSearchBuilder<com.cloud.simulator.MockConfigurationVO,com.cloud.simulator.MockConfigurationVO>,com.cloud.simulator.MockConfigurationVO,com.cloud.simulator.MockConfigurationVO>
+	Count: 25
+ 
+/cloud-plugin-hypervisor-simulator/src/main/java/com/cloud/simulator/dao/MockSecStorageDaoImpl.java
+Methods Invoked: 
+	Method name: create
+	Class origin: com.cloud.utils.db.SearchBase<com.cloud.utils.db.GenericSearchBuilder<com.cloud.simulator.MockSecStorageVO,com.cloud.simulator.MockSecStorageVO>,com.cloud.simulator.MockSecStorageVO,com.cloud.simulator.MockSecStorageVO>
+	Count: 1
+ 
+	Method name: setParameters
+	Class origin: com.cloud.utils.db.SearchCriteria<com.cloud.simulator.MockSecStorageVO>
+	Count: 1
+ 
+	Method name: findOneBy
+	Class origin: com.cloud.utils.db.GenericDaoBase<com.cloud.simulator.MockSecStorageVO,java.lang.Long>
+	Count: 1
+ 
+	Method name: createSearchBuilder
+	Class origin: com.cloud.utils.db.GenericDaoBase<com.cloud.simulator.MockSecStorageVO,java.lang.Long>
+	Count: 1
+ 
+	Method name: and
+	Class origin: com.cloud.utils.db.GenericSearchBuilder<com.cloud.simulator.MockSecStorageVO,com.cloud.simulator.MockSecStorageVO>
+	Count: 1
+ 
+	Method name: getUrl
+	Class origin: com.cloud.simulator.MockSecStorageVO
+	Count: 1
+ 
+	Method name: entity
+	Class origin: com.cloud.utils.db.SearchBase<com.cloud.utils.db.GenericSearchBuilder<com.cloud.simulator.MockSecStorageVO,com.cloud.simulator.MockSecStorageVO>,com.cloud.simulator.MockSecStorageVO,com.cloud.simulator.MockSecStorageVO>
+	Count: 1
+ 
+	Method name: done
+	Class origin: com.cloud.utils.db.GenericSearchBuilder<com.cloud.simulator.MockSecStorageVO,com.cloud.simulator.MockSecStorageVO>
+	Count: 1
+ 
+/cloud-plugin-hypervisor-simulator/src/main/java/com/cloud/simulator/dao/MockSecurityRulesDaoImpl.java
+Methods Invoked: 
+	Method name: create
+	Class origin: com.cloud.utils.db.SearchBase<com.cloud.utils.db.GenericSearchBuilder<com.cloud.simulator.MockSecurityRulesVO,com.cloud.simulator.MockSecurityRulesVO>,com.cloud.simulator.MockSecurityRulesVO,com.cloud.simulator.MockSecurityRulesVO>
+	Count: 2
+ 
+	Method name: setParameters
+	Class origin: com.cloud.utils.db.SearchCriteria<com.cloud.simulator.MockSecurityRulesVO>
+	Count: 2
+ 
+	Method name: findOneBy
+	Class origin: com.cloud.utils.db.GenericDaoBase<com.cloud.simulator.MockSecurityRulesVO,java.lang.Long>
+	Count: 1
+ 
+/cloud-plugin-hypervisor-simulator/src/main/java/com/cloud/simulator/dao/MockVolumeDaoImpl.java
+Methods Invoked: 
+	Method name: create
+	Class origin: com.cloud.utils.db.SearchBase<com.cloud.utils.db.GenericSearchBuilder<com.cloud.simulator.MockVolumeVO,com.cloud.simulator.MockVolumeVO>,com.cloud.simulator.MockVolumeVO,com.cloud.simulator.MockVolumeVO>
+	Count: 4
+ 
+	Method name: setParameters
+	Class origin: com.cloud.utils.db.SearchCriteria<com.cloud.simulator.MockVolumeVO>
+	Count: 6
+ 
+/cloud-plugin-hypervisor-vmware/src/test/java/com/cloud/hypervisor/guru/VmwareVmImplementerTest.java
+Methods Invoked: 
+	Method name: initMocks
+	Class origin: org.mockito.MockitoAnnotations
+	Count: 1
+ 
+	Method name: spy
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+	Method name: verify
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+/cloud-plugin-hypervisor-vmware/src/test/java/com/cloud/hypervisor/vmware/VmwareDatacenterApiUnitTest.java
+Methods Invoked: 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<java.lang.Boolean>
+	Count: 5
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 36
+ 
+	Method name: initMocks
+	Class origin: org.mockito.MockitoAnnotations
+	Count: 1
+ 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<com.cloud.user.AccountVO>
+	Count: 1
+ 
+/cloud-plugin-hypervisor-vmware/src/test/java/com/cloud/hypervisor/vmware/manager/VmwareManagerImplTest.java
+Methods Invoked: 
+	Method name: when
+	Class origin: org.mockito.stubbing.Stubber
+	Count: 15
+ 
+	Method name: doReturn
+	Class origin: org.mockito.Mockito
+	Count: 14
+ 
+	Method name: anyLong
+	Class origin: org.mockito.ArgumentMatchers
+	Count: 12
+ 
+/cloud-plugin-hypervisor-vmware/src/test/java/com/cloud/hypervisor/vmware/resource/VmwareResourceTest.java
+Methods Invoked: 
+	Method name: initMocks
+	Class origin: org.mockito.MockitoAnnotations
+	Count: 1
+ 
+	Method name: mock
+	Class origin: org.powermock.api.mockito.PowerMockito
+	Count: 1
+ 
+	Method name: when
+	Class origin: org.mockito.stubbing.Stubber
+	Count: 9
+ 
+	Method name: doReturn
+	Class origin: org.mockito.Mockito
+	Count: 9
+ 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<com.cloud.agent.api.to.VirtualMachineTO>
+	Count: 1
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 35
+ 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<com.cloud.agent.api.to.DataTO>
+	Count: 2
+ 
+/cloud-plugin-hypervisor-vmware/src/test/java/org/apache/cloudstack/storage/motion/VmwareStorageMotionStrategyTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 31
+ 
+/cloud-plugin-hypervisor-xenserver/src/test/java/com/cloud/hypervisor/XenServerGuruTest.java
+Methods Invoked: 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<com.cloud.hypervisor.Hypervisor.HypervisorType>
+	Count: 6
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 31
+ 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<com.cloud.agent.api.to.DataTO>
+	Count: 2
+ 
+/cloud-plugin-hypervisor-xenserver/src/test/java/com/cloud/hypervisor/xenserver/discoverer/XcpServerDiscovererTest.java
+Methods Invoked: 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<com.cloud.storage.VMTemplateVO>
+	Count: 2
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 4
+ 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<java.lang.Long>
+	Count: 2
+ 
+/cloud-plugin-hypervisor-xenserver/src/test/java/com/cloud/hypervisor/xenserver/resource/XenServer600ResourceTest.java
+Methods Invoked: 
+	Method name: spy
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+/cloud-plugin-hypervisor-xenserver/src/test/java/com/cloud/hypervisor/xenserver/resource/XenServer650ResourceTest.java
+Methods Invoked: 
+	Method name: spy
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+/cloud-plugin-hypervisor-xenserver/src/test/java/com/cloud/hypervisor/xenserver/resource/Xenserver625StorageProcessorTest.java
+Methods Invoked: 
+	Method name: spy
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 24
+ 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<com.cloud.hypervisor.xenserver.resource.XsHost>
+	Count: 1
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 6
+ 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<java.lang.String>
+	Count: 4
+ 
+/cloud-plugin-hypervisor-xenserver/src/test/java/com/cloud/hypervisor/xenserver/resource/CitrixResourceBaseTest.java
+Methods Invoked: 
+	Method name: mockStatic
+	Class origin: org.powermock.api.mockito.PowerMockito
+	Count: 5
+ 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<com.xensource.xenapi.Host>
+	Count: 3
+ 
+	Method name: when
+	Class origin: org.powermock.api.mockito.PowerMockito
+	Count: 2
+ 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<com.xensource.xenapi.Host.Record>
+	Count: 1
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 15
+ 
+/cloud-plugin-hypervisor-xenserver/src/test/java/com/cloud/hypervisor/xenserver/resource/XcpServerResourceTest.java
+Methods Invoked: 
+	Method name: spy
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+/cloud-plugin-hypervisor-xenserver/src/test/java/com/cloud/hypervisor/xenserver/resource/XenServer56FP1ResourceTest.java
+Methods Invoked: 
+	Method name: spy
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+/cloud-plugin-hypervisor-xenserver/src/test/java/com/cloud/hypervisor/xenserver/resource/XenServerStorageProcessorTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 4
+ 
+/cloud-plugin-hypervisor-xenserver/src/test/java/com/cloud/hypervisor/xenserver/resource/XenServer56ResourceTest.java
+Methods Invoked: 
+	Method name: spy
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+/cloud-plugin-hypervisor-xenserver/src/test/java/com/cloud/hypervisor/xenserver/resource/XenServer625ResourceTest.java
+Methods Invoked: 
+	Method name: spy
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+/cloud-plugin-hypervisor-xenserver/src/test/java/com/cloud/hypervisor/xenserver/resource/XcpOssResourceTest.java
+Methods Invoked: 
+	Method name: spy
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+/cloud-plugin-hypervisor-xenserver/src/test/java/com/cloud/hypervisor/xenserver/resource/XenServer56SP2ResourceTest.java
+Methods Invoked: 
+	Method name: spy
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+/cloud-plugin-hypervisor-xenserver/src/test/java/com/cloud/hypervisor/xenserver/resource/wrapper/xenbase/CitrixRequestWrapperTest.java
+Methods Invoked: 
+	Method name: verify
+	Class origin: org.mockito.Mockito
+	Count: 88
+ 
+	Method name: times
+	Class origin: org.mockito.Mockito
+	Count: 88
+ 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 117
+ 
+/cloud-plugin-hypervisor-xenserver/src/test/java/com/cloud/hypervisor/xenserver/resource/wrapper/xenbase/XcpServerWrapperTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 3
+ 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<com.xensource.xenapi.Connection>
+	Count: 3
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 6
+ 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<java.lang.String>
+	Count: 1
+ 
+/cloud-plugin-hypervisor-xenserver/src/test/java/com/cloud/hypervisor/xenserver/resource/wrapper/xenbase/XenServer610WrapperTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 70
+ 
+/cloud-plugin-hypervisor-xenserver/src/test/java/com/cloud/hypervisor/xenserver/resource/wrapper/xenbase/CitrixMigrateCommandWrapperTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 3
+ 
+/cloud-plugin-hypervisor-xenserver/src/test/java/com/cloud/hypervisor/xenserver/resource/wrapper/xenbase/XenServer56FP1WrapperTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 3
+ 
+/cloud-plugin-hypervisor-xenserver/src/test/java/com/cloud/hypervisor/xenserver/resource/wrapper/xenbase/XenServer620SP1WrapperTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 2
+ 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<com.xensource.xenapi.Connection>
+	Count: 2
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 4
+ 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<java.util.HashMap<java.lang.String,java.util.HashMap<java.lang.String,com.cloud.agent.api.VgpuTypesInfo>>>
+	Count: 1
+ 
+/cloud-plugin-hypervisor-xenserver/src/test/java/com/cloud/hypervisor/xenserver/resource/wrapper/xenbase/XenServer56WrapperTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 10
+ 
+/cloud-plugin-integrations-cloudian-connector/src/test/java/org/apache/cloudstack/cloudian/CloudianClientTest.java
+Methods Invoked: 
+	Method name: stubFor
+	Class origin: com.github.tomakehurst.wiremock.WireMockServer
+	Count: 27
+ 
+	Method name: willReturn
+	Class origin: com.github.tomakehurst.wiremock.client.MappingBuilder
+	Count: 27
+ 
+	Method name: get
+	Class origin: com.github.tomakehurst.wiremock.client.WireMock
+	Count: 15
+ 
+	Method name: urlEqualTo
+	Class origin: com.github.tomakehurst.wiremock.client.WireMock
+	Count: 18
+ 
+	Method name: withBody
+	Class origin: com.github.tomakehurst.wiremock.client.ResponseDefinitionBuilder
+	Count: 27
+ 
+	Method name: withFixedDelay
+	Class origin: com.github.tomakehurst.wiremock.client.ResponseDefinitionBuilder
+	Count: 1
+ 
+	Method name: withStatus
+	Class origin: com.github.tomakehurst.wiremock.client.ResponseDefinitionBuilder
+	Count: 19
+ 
+	Method name: withHeader
+	Class origin: com.github.tomakehurst.wiremock.client.ResponseDefinitionBuilder
+	Count: 13
+ 
+	Method name: aResponse
+	Class origin: com.github.tomakehurst.wiremock.client.WireMock
+	Count: 27
+ 
+/cloud-plugin-integrations-kubernetes-service/src/test/java/com/cloud/kubernetes/version/KubernetesVersionServiceTest.java
+Methods Invoked: 
+	Method name: initMocks
+	Class origin: org.mockito.MockitoAnnotations
+	Count: 1
+ 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 24
+ 
+/cloud-plugin-network-bigswitch/src/test/java/com/cloud/network/bigswitch/BigSwitchApiTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 24
+ 
+/cloud-plugin-network-bigswitch/src/test/java/com/cloud/network/bigswitch/BigSwitchBcfUtilsTest.java
+Methods Invoked: 
+	Method name: initMocks
+	Class origin: org.mockito.MockitoAnnotations
+	Count: 1
+ 
+/cloud-plugin-network-bigswitch/src/test/java/com/cloud/network/resource/BigSwitchBcfResourceTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 13
+ 
+	Method name: verify
+	Class origin: org.mockito.Mockito
+	Count: 13
+ 
+/cloud-plugin-network-cisco-vnmc/src/test/java/com/cloud/network/element/CiscoVnmcElementTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 66
+ 
+/cloud-plugin-network-cisco-vnmc/src/test/java/com/cloud/network/resource/CiscoVnmcResourceTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<java.lang.Boolean>
+	Count: 49
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 49
+ 
+/cloud-plugin-network-contrail/src/test/java/org/apache/cloudstack/network/contrail/management/NetworkProviderTest.java
+Methods Invoked: 
+	Method name: initConfig
+	Class origin: net.juniper.contrail.api.ApiConnectorMock
+	Count: 1
+ 
+/cloud-plugin-network-contrail/src/test/java/org/apache/cloudstack/network/contrail/management/PublicNetworkTest.java
+Methods Invoked: 
+	Method name: forClass
+	Class origin: org.mockito.ArgumentCaptor
+	Count: 1
+ 
+	Method name: verify
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+	Method name: times
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+	Method name: capture
+	Class origin: org.mockito.ArgumentCaptor<net.juniper.contrail.api.ApiObjectBase>
+	Count: 1
+ 
+	Method name: getAllValues
+	Class origin: org.mockito.ArgumentCaptor<net.juniper.contrail.api.ApiObjectBase>
+	Count: 1
+ 
+/cloud-plugin-network-contrail/src/test/java/org/apache/cloudstack/network/contrail/management/ManagementServerMock.java
+Methods Invoked: 
+	Method name: getArguments
+	Class origin: org.mockito.invocation.InvocationOnMock
+	Count: 2
+ 
+	Method name: thenAnswer
+	Class origin: org.mockito.stubbing.OngoingStubbing<com.cloud.agent.api.Answer[]>
+	Count: 2
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 2
+ 
+	Method name: anyLong
+	Class origin: org.mockito.ArgumentMatchers
+	Count: 2
+ 
+	Method name: any
+	Class origin: org.mockito.ArgumentMatchers
+	Count: 2
+ 
+/cloud-plugin-network-contrail/src/test/java/org/apache/cloudstack/network/contrail/management/IntegrationTestConfiguration.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 67
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 7
+ 
+	Method name: any
+	Class origin: org.mockito.ArgumentMatchers
+	Count: 11
+ 
+/cloud-plugin-network-contrail/src/test/java/org/apache/cloudstack/network/contrail/management/PublicNetworkTestConfiguration.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+/cloud-plugin-network-contrail/src/test/java/org/apache/cloudstack/network/contrail/management/ApiConnectorMockito.java
+Methods Invoked: 
+	Method name: spy
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+	Method name: find
+	Class origin: net.juniper.contrail.api.ApiConnectorMock
+	Count: 1
+ 
+	Method name: findByFQN
+	Class origin: net.juniper.contrail.api.ApiConnectorMock
+	Count: 1
+ 
+	Method name: findById
+	Class origin: net.juniper.contrail.api.ApiConnectorMock
+	Count: 1
+ 
+	Method name: findByName
+	Class origin: net.juniper.contrail.api.ApiConnectorMock
+	Count: 2
+ 
+/cloud-plugin-network-contrail/src/test/java/org/apache/cloudstack/network/contrail/model/VirtualNetworkModelTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 15
+ 
+/cloud-plugin-network-contrail/src/test/java/org/apache/cloudstack/network/contrail/model/InstanceIpModelTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 7
+ 
+/cloud-plugin-network-contrail/src/test/java/org/apache/cloudstack/network/contrail/model/VirtualMachineModelTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 6
+ 
+/cloud-plugin-network-contrail/src/test/java/org/apache/cloudstack/network/contrail/model/VMInterfaceModelTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 7
+ 
+/cloud-plugin-network-elb/src/test/java/com/cloud/network/lb/LoadBalanceRuleHandlerTest.java
+Methods Invoked: 
+	Method name: setInternalState
+	Class origin: org.powermock.reflect.Whitebox
+	Count: 4
+ 
+/cloud-plugin-network-elb/src/test/java/com/cloud/network/lb/ElasticLoadBalancerManagerImplTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 12
+ 
+/cloud-plugin-network-globodns/src/test/java/com/globo/globodns/cloudstack/element/GloboDnsElementTest.java
+Methods Invoked: 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<com.cloud.user.Account>
+	Count: 1
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 25
+ 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<com.cloud.user.User>
+	Count: 1
+ 
+/cloud-plugin-network-globodns/src/test/java/com/globo/globodns/cloudstack/resource/GloboDnsResourceTest.java
+Methods Invoked: 
+	Method name: spy
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 3
+ 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<com.globo.globodns.client.api.DomainAPI>
+	Count: 1
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 22
+ 
+/cloud-plugin-network-internallb/src/test/java/org/apache/cloudstack/internallbelement/InternalLbElementServiceTest.java
+Methods Invoked: 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<com.cloud.network.element.VirtualRouterProviderVO>
+	Count: 5
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 7
+ 
+/cloud-plugin-network-internallb/src/test/java/org/apache/cloudstack/internallbelement/ElementChildTestConfiguration.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 14
+ 
+/cloud-plugin-network-internallb/src/test/java/org/apache/cloudstack/internallbelement/InternalLbElementTest.java
+Methods Invoked: 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<com.cloud.network.element.VirtualRouterProviderVO>
+	Count: 6
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 9
+ 
+/cloud-plugin-network-internallb/src/test/java/org/apache/cloudstack/internallbvmmgr/InternalLBVMServiceTest.java
+Methods Invoked: 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<com.cloud.user.Account>
+	Count: 2
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 8
+ 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<java.util.List<com.cloud.service.ServiceOfferingVO>>
+	Count: 1
+ 
+/cloud-plugin-network-internallb/src/test/java/org/apache/cloudstack/internallbvmmgr/InternalLBVMManagerTest.java
+Methods Invoked: 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<com.cloud.user.Account>
+	Count: 1
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 14
+ 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<java.util.List<com.cloud.service.ServiceOfferingVO>>
+	Count: 1
+ 
+/cloud-plugin-network-internallb/src/test/java/org/apache/cloudstack/internallbvmmgr/LbChildTestConfiguration.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 21
+ 
+/cloud-plugin-network-nvp/src/test/java/com/cloud/network/element/NiciraNvpElementTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 59
+ 
+/cloud-plugin-network-nvp/src/test/java/com/cloud/network/guru/NiciraNvpGuestNetworkGuruTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 85
+ 
+/cloud-plugin-network-nvp/src/test/java/com/cloud/network/nicira/NiciraRestClientTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 2
+ 
+/cloud-plugin-network-nvp/src/test/java/com/cloud/network/nicira/NiciraNvpApiTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 5
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 10
+ 
+/cloud-plugin-network-nvp/src/test/java/com/cloud/network/resource/NiciraNvpRequestWrapperTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 12
+ 
+/cloud-plugin-network-nvp/src/test/java/com/cloud/network/resource/NiciraNvpResourceTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 28
+ 
+/cloud-plugin-network-nvp/src/test/java/com/cloud/network/resource/wrapper/NiciraCheckHealthCommandWrapperTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 3
+ 
+/cloud-plugin-network-opendaylight/src/test/java/org/apache/cloudstack/network/opendaylight/api/test/NeutronRestApiTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+/cloud-plugin-network-palo-alto/src/test/java/com/cloud/network/resource/PaloAltoResourceTest.java
+Methods Invoked: 
+	Method name: setMockContext
+	Class origin: com.cloud.network.resource.MockablePaloAltoResource
+	Count: 13
+ 
+/cloud-plugin-network-ssp/src/test/java/org/apache/cloudstack/network/element/SspElementTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 17
+ 
+/cloud-plugin-network-ssp/src/test/java/org/apache/cloudstack/network/element/SspClientTest.java
+Methods Invoked: 
+	Method name: spy
+	Class origin: org.mockito.Mockito
+	Count: 3
+ 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 3
+ 
+	Method name: when
+	Class origin: org.mockito.stubbing.Stubber
+	Count: 3
+ 
+	Method name: doReturn
+	Class origin: org.mockito.Mockito
+	Count: 3
+ 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<java.lang.String>
+	Count: 3
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 3
+ 
+	Method name: any
+	Class origin: org.mockito.ArgumentMatchers
+	Count: 6
+ 
+/cloud-plugin-network-vcs/src/test/java/com/cloud/network/brocade/BrocadeVcsApiTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 16
+ 
+/cloud-plugin-network-vcs/src/test/java/com/cloud/network/guru/BrocadeVcsGuestNetworkGuruTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 102
+ 
+/cloud-plugin-network-vcs/src/test/java/com/cloud/network/resource/BrocadeVcsResourceTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 7
+ 
+/cloud-plugin-network-vxlan/src/test/java/com/cloud/network/guru/VxlanGuestNetworkGuruTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 40
+ 
+/cloud-plugin-planner-implicit-dedication/src/test/java/org/apache/cloudstack/implicitplanner/ImplicitPlannerTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 54
+ 
+/cloud-plugin-snmp-alerts/src/test/java/org/apache/cloudstack/alert/snmp/SnmpTrapAppenderTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 2
+ 
+/cloud-plugin-snmp-alerts/src/test/java/org/apache/cloudstack/alert/snmp/SnmpEnhancedPatternLayoutTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 4
+ 
+/cloud-plugin-storage-volume-default/src/test/java/org/apache/cloudstack/storage/datastore/lifecycle/CloudStackPrimaryDataStoreLifeCycleImplTest.java
+Methods Invoked: 
+	Method name: initMocks
+	Class origin: org.mockito.MockitoAnnotations
+	Count: 1
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 17
+ 
+	Method name: anyLong
+	Class origin: org.mockito.ArgumentMatchers
+	Count: 9
+ 
+	Method name: eq
+	Class origin: org.mockito.ArgumentMatchers
+	Count: 2
+ 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<com.cloud.storage.Storage.StoragePoolType>
+	Count: 1
+ 
+/cloud-plugin-storage-volume-nexenta/src/test/java/org/apache/cloudstack/storage/datastore/util/NexentaStorApplianceTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 34
+ 
+/cloud-plugin-storage-volume-scaleio/src/test/java/org/apache/cloudstack/storage/datastore/client/ScaleIOGatewayClientImplTest.java
+Methods Invoked: 
+	Method name: bindAddress
+	Class origin: com.github.tomakehurst.wiremock.core.WireMockConfiguration
+	Count: 1
+ 
+	Method name: basicAdminAuthenticator
+	Class origin: com.github.tomakehurst.wiremock.core.WireMockConfiguration
+	Count: 1
+ 
+	Method name: needClientAuth
+	Class origin: com.github.tomakehurst.wiremock.core.WireMockConfiguration
+	Count: 1
+ 
+	Method name: httpsPort
+	Class origin: com.github.tomakehurst.wiremock.core.WireMockConfiguration
+	Count: 1
+ 
+	Method name: wireMockConfig
+	Class origin: com.github.tomakehurst.wiremock.core.WireMockConfiguration
+	Count: 1
+ 
+	Method name: stubFor
+	Class origin: com.github.tomakehurst.wiremock.WireMockServer
+	Count: 6
+ 
+	Method name: willReturn
+	Class origin: com.github.tomakehurst.wiremock.client.MappingBuilder
+	Count: 6
+ 
+	Method name: get
+	Class origin: com.github.tomakehurst.wiremock.client.WireMock
+	Count: 5
+ 
+	Method name: withBody
+	Class origin: com.github.tomakehurst.wiremock.client.ResponseDefinitionBuilder
+	Count: 6
+ 
+	Method name: withHeader
+	Class origin: com.github.tomakehurst.wiremock.client.ResponseDefinitionBuilder
+	Count: 6
+ 
+	Method name: ok
+	Class origin: com.github.tomakehurst.wiremock.client.WireMock
+	Count: 1
+ 
+/cloud-plugin-storage-volume-scaleio/src/test/java/org/apache/cloudstack/storage/datastore/lifecycle/ScaleIOPrimaryDataStoreLifeCycleTest.java
+Methods Invoked: 
+	Method name: initMocks
+	Class origin: org.mockito.MockitoAnnotations
+	Count: 1
+ 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 10
+ 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<java.lang.Long>
+	Count: 2
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 31
+ 
+	Method name: mockStatic
+	Class origin: org.powermock.api.mockito.PowerMockito
+	Count: 1
+ 
+/cloud-plugin-storage-volume-solidfire/src/test/java/org/apache/cloudstack/storage/test/ChildTestConfiguration.java
+Methods Invoked: 
+	Method name: spy
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 2
+ 
+/cloud-plugin-storage-volume-solidfire/src/test/java/org/apache/cloudstack/storage/test/VolumeTest.java
+Methods Invoked: 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<java.util.List<com.cloud.host.HostVO>>
+	Count: 2
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 2
+ 
+/cloud-plugin-user-authenticator-ldap/src/test/java/org/apache/cloudstack/api/command/LdapCreateAccountCmdTest.java
+Methods Invoked: 
+	Method name: spy
+	Class origin: org.powermock.api.mockito.PowerMockito
+	Count: 1
+ 
+	Method name: when
+	Class origin: org.powermock.api.mockito.PowerMockito
+	Count: 2
+ 
+	Method name: nullable
+	Class origin: org.mockito.ArgumentMatchers
+	Count: 2
+ 
+	Method name: isNull
+	Class origin: org.mockito.ArgumentMatchers
+	Count: 2
+ 
+/cloud-plugin-user-authenticator-ldap/src/test/java/org/apache/cloudstack/api/command/LinkAccountToLdapCmdTest.java
+Methods Invoked: 
+	Method name: when
+	Class origin: org.powermock.api.mockito.PowerMockito
+	Count: 4
+ 
+/cloud-plugin-user-authenticator-ldap/src/test/java/org/apache/cloudstack/api/command/LdapListUsersCmdTest.java
+Methods Invoked: 
+	Method name: spy
+	Class origin: org.powermock.api.mockito.PowerMockito
+	Count: 1
+ 
+	Method name: mockStatic
+	Class origin: org.powermock.api.mockito.PowerMockito
+	Count: 1
+ 
+	Method name: mock
+	Class origin: org.powermock.api.mockito.PowerMockito
+	Count: 2
+ 
+	Method name: when
+	Class origin: org.powermock.api.mockito.PowerMockito
+	Count: 8
+ 
+/cloud-plugin-user-authenticator-ldap/src/test/java/org/apache/cloudstack/api/command/LdapImportUsersCmdTest.java
+Methods Invoked: 
+	Method name: spy
+	Class origin: org.powermock.api.mockito.PowerMockito
+	Count: 1
+ 
+	Method name: when
+	Class origin: org.powermock.api.mockito.PowerMockito
+	Count: 4
+ 
+/cloud-plugin-user-authenticator-ldap/src/test/java/org/apache/cloudstack/api/command/LinkDomainToLdapCmdTest.java
+Methods Invoked: 
+	Method name: when
+	Class origin: org.powermock.api.mockito.PowerMockito
+	Count: 4
+ 
+/cloud-plugin-user-authenticator-ldap/src/test/java/org/apache/cloudstack/ldap/LdapDirectoryServerConnectionTest.java
+Methods Invoked: 
+	Method name: when
+	Class origin: org.mockito.stubbing.LenientStubber
+	Count: 3
+ 
+	Method name: lenient
+	Class origin: org.mockito.Mockito
+	Count: 3
+ 
+/cloud-plugin-user-authenticator-ldap/src/test/java/org/apache/cloudstack/ldap/LdapAuthenticatorTest.java
+Methods Invoked: 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<com.cloud.user.UserAccount>
+	Count: 1
+ 
+	Method name: when
+	Class origin: org.mockito.stubbing.LenientStubber
+	Count: 1
+ 
+	Method name: lenient
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 8
+ 
+	Method name: spy
+	Class origin: org.mockito.Mockito
+	Count: 2
+ 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<java.util.List<java.lang.String>>
+	Count: 2
+ 
+/cloud-plugin-user-authenticator-ldap/src/test/java/org/apache/cloudstack/ldap/ADLdapUserManagerImplTest.java
+Methods Invoked: 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<java.lang.String>
+	Count: 9
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 8
+ 
+	Method name: any
+	Class origin: org.mockito.ArgumentMatchers
+	Count: 7
+ 
+/cloud-plugin-user-authenticator-md5/src/test/java/com/cloud/server/auth/MD5UserAuthenticatorTest.java
+Methods Invoked: 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<com.cloud.user.UserAccount>
+	Count: 3
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 3
+ 
+	Method name: anyString
+	Class origin: org.mockito.ArgumentMatchers
+	Count: 3
+ 
+	Method name: anyLong
+	Class origin: org.mockito.ArgumentMatchers
+	Count: 3
+ 
+/cloud-plugin-user-authenticator-pbkdf2/src/test/java/org/apache/cloudstack/server/auth/PBKD2UserAuthenticatorTest.java
+Methods Invoked: 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<com.cloud.user.UserAccount>
+	Count: 2
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 2
+ 
+	Method name: anyString
+	Class origin: org.mockito.ArgumentMatchers
+	Count: 2
+ 
+	Method name: anyLong
+	Class origin: org.mockito.ArgumentMatchers
+	Count: 2
+ 
+/cloud-plugin-user-authenticator-saml2/src/test/java/org/apache/cloudstack/SAML2UserAuthenticatorTest.java
+Methods Invoked: 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<com.cloud.user.UserAccount>
+	Count: 1
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+	Method name: anyString
+	Class origin: org.mockito.ArgumentMatchers
+	Count: 1
+ 
+	Method name: anyLong
+	Class origin: org.mockito.ArgumentMatchers
+	Count: 2
+ 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<com.cloud.user.UserVO>
+	Count: 1
+ 
+	Method name: when
+	Class origin: org.mockito.stubbing.LenientStubber
+	Count: 1
+ 
+	Method name: lenient
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+/cloud-plugin-user-authenticator-saml2/src/test/java/org/apache/cloudstack/GetServiceProviderMetaDataCmdTest.java
+Methods Invoked: 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+/cloud-plugin-user-authenticator-saml2/src/test/java/org/apache/cloudstack/SAML2AuthManagerImplTest.java
+Methods Invoked: 
+	Method name: spy
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+	Method name: when
+	Class origin: org.mockito.stubbing.Stubber
+	Count: 3
+ 
+	Method name: doReturn
+	Class origin: org.mockito.Mockito
+	Count: 2
+ 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<com.cloud.user.UserVO>
+	Count: 5
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 8
+ 
+	Method name: anyLong
+	Class origin: org.mockito.ArgumentMatchers
+	Count: 6
+ 
+/cloud-plugin-user-authenticator-saml2/src/test/java/org/apache/cloudstack/api/command/SAML2LoginAPIAuthenticatorCmdTest.java
+Methods Invoked: 
+	Method name: spy
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<java.lang.Object>
+	Count: 1
+ 
+	Method name: when
+	Class origin: org.mockito.stubbing.LenientStubber
+	Count: 5
+ 
+	Method name: lenient
+	Class origin: org.mockito.Mockito
+	Count: 5
+ 
+	Method name: anyString
+	Class origin: org.mockito.ArgumentMatchers
+	Count: 7
+ 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<java.lang.Long>
+	Count: 1
+ 
+/cloud-plugin-user-authenticator-saml2/src/test/java/org/apache/cloudstack/api/command/SAML2LogoutAPIAuthenticatorCmdTest.java
+Methods Invoked: 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<java.lang.Object>
+	Count: 1
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+	Method name: anyString
+	Class origin: org.mockito.ArgumentMatchers
+	Count: 3
+ 
+	Method name: verify
+	Class origin: org.mockito.Mockito
+	Count: 2
+ 
+	Method name: times
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+/cloud-plugin-user-authenticator-saml2/src/test/java/org/apache/cloudstack/api/command/ListAndSwitchSAMLAccountCmdTest.java
+Methods Invoked: 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<java.lang.Object>
+	Count: 2
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 9
+ 
+/cloud-plugin-user-authenticator-saml2/src/test/java/org/apache/cloudstack/saml/SAML2AuthManagerImplTest.java
+Methods Invoked: 
+	Method name: when
+	Class origin: org.mockito.stubbing.Stubber
+	Count: 2
+ 
+	Method name: doReturn
+	Class origin: org.mockito.Mockito
+	Count: 2
+ 
+/cloud-plugin-user-authenticator-sha256salted/src/test/java/com/cloud/server/auth/test/AuthenticatorTest.java
+Methods Invoked: 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<com.cloud.user.UserAccount>
+	Count: 3
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 5
+ 
+/cloud-secondary-storage/src/test/java/org/apache/cloudstack/storage/resource/NfsSecondaryStorageResourceTest.java
+Methods Invoked: 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<java.io.BufferedWriter>
+	Count: 1
+ 
+	Method name: withArguments
+	Class origin: org.powermock.api.mockito.expectation.WithExpectedArguments<java.io.BufferedWriter>
+	Count: 1
+ 
+	Method name: whenNew
+	Class origin: org.powermock.api.mockito.PowerMockito
+	Count: 1
+ 
+	Method name: any
+	Class origin: org.mockito.ArgumentMatchers
+	Count: 2
+ 
+	Method name: spy
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+	Method name: when
+	Class origin: org.mockito.stubbing.Stubber
+	Count: 1
+ 
+	Method name: doThrow
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+/cloud-secondary-storage/src/test/java/org/apache/cloudstack/storage/resource/LocalNfsSecondaryStorageResourceTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 4
+ 
+/cloud-server/src/test/java/com/cloud/alert/AlertControlsUnitTest.java
+Methods Invoked: 
+	Method name: initMocks
+	Class origin: org.mockito.MockitoAnnotations
+	Count: 1
+ 
+	Method name: when
+	Class origin: org.mockito.stubbing.Stubber
+	Count: 1
+ 
+	Method name: doReturn
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+	Method name: any
+	Class origin: org.mockito.ArgumentMatchers
+	Count: 5
+ 
+	Method name: anyLong
+	Class origin: org.mockito.ArgumentMatchers
+	Count: 3
+ 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<java.lang.Boolean>
+	Count: 2
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 2
+ 
+	Method name: anyList
+	Class origin: org.mockito.ArgumentMatchers
+	Count: 2
+ 
+	Method name: anyString
+	Class origin: org.mockito.ArgumentMatchers
+	Count: 2
+ 
+/cloud-server/src/test/java/com/cloud/api/ApiServletTest.java
+Methods Invoked: 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<java.io.PrintWriter>
+	Count: 1
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 26
+ 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<java.lang.String>
+	Count: 16
+ 
+/cloud-server/src/test/java/com/cloud/api/ApiResponseHelperTest.java
+Methods Invoked: 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<java.util.TimeZone>
+	Count: 1
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 5
+ 
+	Method name: mockStatic
+	Class origin: org.powermock.api.mockito.PowerMockito
+	Count: 1
+ 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<com.cloud.user.Account>
+	Count: 1
+ 
+/cloud-server/src/test/java/com/cloud/api/dispatch/ParamGenericValidationWorkerTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<java.lang.Short>
+	Count: 1
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+/cloud-server/src/test/java/com/cloud/api/dispatch/CommandCreationWorkerTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+	Method name: verify
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+	Method name: times
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+/cloud-server/src/test/java/com/cloud/api/dispatch/SpecificCmdValidationWorkerTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+	Method name: verify
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+	Method name: times
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+/cloud-server/src/test/java/com/cloud/api/dispatch/ParamProcessWorkerTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 2
+ 
+/cloud-server/src/test/java/com/cloud/api/query/MutualExclusiveIdsManagerBaseTest.java
+Methods Invoked: 
+	Method name: verify
+	Class origin: org.mockito.Mockito
+	Count: 2
+ 
+	Method name: same
+	Class origin: org.mockito.ArgumentMatchers
+	Count: 3
+ 
+/cloud-server/src/test/java/com/cloud/api/query/dao/SecurityGroupJoinDaoImplTest.java
+Methods Invoked: 
+	Method name: initMocks
+	Class origin: org.mockito.MockitoAnnotations
+	Count: 1
+ 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<java.util.List<com.cloud.network.security.SecurityGroupVMMapVO>>
+	Count: 3
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 15
+ 
+/cloud-server/src/test/java/com/cloud/api/query/dao/GenericDaoBaseWithTagInformationBaseTest.java
+Methods Invoked: 
+	Method name: spy
+	Class origin: org.powermock.api.mockito.PowerMockito
+	Count: 1
+ 
+	Method name: toReturn
+	Class origin: org.powermock.api.support.membermodification.strategy.MethodStubStrategy<java.lang.Object>
+	Count: 1
+ 
+	Method name: stub
+	Class origin: org.powermock.api.support.membermodification.MemberModifier
+	Count: 1
+ 
+	Method name: method
+	Class origin: org.powermock.api.support.membermodification.MemberMatcher
+	Count: 1
+ 
+/cloud-server/src/test/java/com/cloud/capacity/CapacityManagerTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 9
+ 
+/cloud-server/src/test/java/com/cloud/configuration/ValidateIpRangeTest.java
+Methods Invoked: 
+	Method name: initMocks
+	Class origin: org.mockito.MockitoAnnotations
+	Count: 1
+ 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<java.lang.String>
+	Count: 2
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 2
+ 
+/cloud-server/src/test/java/com/cloud/configuration/ConfigurationManagerTest.java
+Methods Invoked: 
+	Method name: initMocks
+	Class origin: org.mockito.MockitoAnnotations
+	Count: 1
+ 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<com.cloud.user.Account>
+	Count: 3
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 151
+ 
+	Method name: anyLong
+	Class origin: org.mockito.ArgumentMatchers
+	Count: 163
+ 
+/cloud-server/src/test/java/com/cloud/consoleproxy/ConsoleProxyManagerTest.java
+Methods Invoked: 
+	Method name: initMocks
+	Class origin: org.mockito.MockitoAnnotations
+	Count: 1
+ 
+	Method name: when
+	Class origin: org.mockito.stubbing.Stubber
+	Count: 4
+ 
+	Method name: doCallRealMethod
+	Class origin: org.mockito.Mockito
+	Count: 4
+ 
+	Method name: anyLong
+	Class origin: org.mockito.ArgumentMatchers
+	Count: 28
+ 
+	Method name: anyObject
+	Class origin: org.mockito.ArgumentMatchers
+	Count: 1
+ 
+/cloud-server/src/test/java/com/cloud/deploy/DeploymentPlanningManagerImplTest.java
+Methods Invoked: 
+	Method name: initMocks
+	Class origin: org.mockito.MockitoAnnotations
+	Count: 1
+ 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<com.cloud.deploy.PlannerHostReservationVO>
+	Count: 2
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 32
+ 
+	Method name: any
+	Class origin: org.mockito.ArgumentMatchers
+	Count: 1
+ 
+/cloud-server/src/test/java/com/cloud/event/EventControlsUnitTest.java
+Methods Invoked: 
+	Method name: initMocks
+	Class origin: org.mockito.MockitoAnnotations
+	Count: 1
+ 
+	Method name: when
+	Class origin: org.mockito.stubbing.Stubber
+	Count: 2
+ 
+	Method name: doNothing
+	Class origin: org.mockito.Mockito
+	Count: 2
+ 
+	Method name: any
+	Class origin: org.mockito.ArgumentMatchers
+	Count: 6
+ 
+/cloud-server/src/test/java/com/cloud/event/ActionEventUtilsTest.java
+Methods Invoked: 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<java.lang.String>
+	Count: 1
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 5
+ 
+	Method name: mockStatic
+	Class origin: org.powermock.api.mockito.PowerMockito
+	Count: 1
+ 
+/cloud-server/src/test/java/com/cloud/ha/HighAvailabilityManagerImplTest.java
+Methods Invoked: 
+	Method name: spy
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<com.cloud.host.Host.Type>
+	Count: 3
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 27
+ 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<com.cloud.hypervisor.Hypervisor.HypervisorType>
+	Count: 3
+ 
+/cloud-server/src/test/java/com/cloud/ha/KVMFencerTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 15
+ 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<java.lang.Long>
+	Count: 36
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 46
+ 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<com.cloud.hypervisor.Hypervisor.HypervisorType>
+	Count: 9
+ 
+/cloud-server/src/test/java/com/cloud/hypervisor/KVMGuruTest.java
+Methods Invoked: 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<java.lang.Boolean>
+	Count: 2
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 10
+ 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<com.cloud.vm.VirtualMachine>
+	Count: 1
+ 
+/cloud-server/src/test/java/com/cloud/hypervisor/kvm/dpdk/DpdkHelperImplTest.java
+Methods Invoked: 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<java.lang.String>
+	Count: 17
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 34
+ 
+/cloud-server/src/test/java/com/cloud/metadata/ResourceMetaDataManagerTest.java
+Methods Invoked: 
+	Method name: initMocks
+	Class origin: org.mockito.MockitoAnnotations
+	Count: 1
+ 
+	Method name: when
+	Class origin: org.mockito.stubbing.Stubber
+	Count: 6
+ 
+	Method name: doReturn
+	Class origin: org.mockito.Mockito
+	Count: 2
+ 
+	Method name: anyString
+	Class origin: org.mockito.ArgumentMatchers
+	Count: 7
+ 
+	Method name: eq
+	Class origin: org.mockito.ArgumentMatchers
+	Count: 2
+ 
+/cloud-server/src/test/java/com/cloud/network/ExternalLoadBalancerDeviceManagerImplTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 5
+ 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<java.util.List<com.cloud.agent.api.to.LoadBalancerTO>>
+	Count: 1
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 14
+ 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<com.cloud.agent.api.Answer>
+	Count: 2
+ 
+/cloud-server/src/test/java/com/cloud/network/NetworkModelTest.java
+Methods Invoked: 
+	Method name: initMocks
+	Class origin: org.mockito.MockitoAnnotations
+	Count: 1
+ 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<java.util.List<com.cloud.dc.DataCenterVO>>
+	Count: 3
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 22
+ 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<java.util.List<com.cloud.network.dao.PhysicalNetworkVO>>
+	Count: 2
+ 
+/cloud-server/src/test/java/com/cloud/network/UpdatePhysicalNetworkTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 5
+ 
+/cloud-server/src/test/java/com/cloud/network/CreatePrivateNetworkTest.java
+Methods Invoked: 
+	Method name: initMocks
+	Class origin: org.mockito.MockitoAnnotations
+	Count: 1
+ 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<com.cloud.user.Account>
+	Count: 1
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 10
+ 
+	Method name: anyLong
+	Class origin: org.mockito.ArgumentMatchers
+	Count: 6
+ 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<com.cloud.offerings.NetworkOfferingVO>
+	Count: 1
+ 
+/cloud-server/src/test/java/com/cloud/network/DedicateGuestVlanRangesTest.java
+Methods Invoked: 
+	Method name: initMocks
+	Class origin: org.mockito.MockitoAnnotations
+	Count: 1
+ 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<com.cloud.user.Account>
+	Count: 2
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 21
+ 
+	Method name: anyLong
+	Class origin: org.mockito.ArgumentMatchers
+	Count: 25
+ 
+/cloud-server/src/test/java/com/cloud/network/Ipv6AddressManagerTest.java
+Methods Invoked: 
+	Method name: spy
+	Class origin: org.mockito.Mockito
+	Count: 5
+ 
+/cloud-server/src/test/java/com/cloud/network/IpAddressManagerTest.java
+Methods Invoked: 
+	Method name: spy
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 6
+ 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<com.cloud.offerings.NetworkOfferingVO>
+	Count: 1
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 16
+ 
+	Method name: anyLong
+	Class origin: org.mockito.ArgumentMatchers
+	Count: 8
+ 
+/cloud-server/src/test/java/com/cloud/network/element/VirtualRouterElementTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 8
+ 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<java.lang.Boolean>
+	Count: 9
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 27
+ 
+	Method name: any
+	Class origin: org.mockito.ArgumentMatchers
+	Count: 9
+ 
+	Method name: anyList
+	Class origin: org.mockito.ArgumentMatchers
+	Count: 1
+ 
+	Method name: thenAnswer
+	Class origin: org.mockito.stubbing.OngoingStubbing<com.cloud.vm.DomainRouterVO>
+	Count: 1
+ 
+/cloud-server/src/test/java/com/cloud/network/element/ConfigDriveNetworkElementTest.java
+Methods Invoked: 
+	Method name: initMocks
+	Class origin: org.mockito.MockitoAnnotations
+	Count: 1
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 53
+ 
+/cloud-server/src/test/java/com/cloud/network/element/VpcVirtualRouterElementTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 15
+ 
+/cloud-server/src/test/java/com/cloud/network/firewall/FirewallManagerTest.java
+Methods Invoked: 
+	Method name: initMocks
+	Class origin: org.mockito.MockitoAnnotations
+	Count: 1
+ 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 5
+ 
+/cloud-server/src/test/java/com/cloud/network/guru/DirectNetworkGuruTest.java
+Methods Invoked: 
+	Method name: initMocks
+	Class origin: org.mockito.MockitoAnnotations
+	Count: 1
+ 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<java.lang.Long>
+	Count: 5
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 14
+ 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<java.util.List<java.lang.String>>
+	Count: 1
+ 
+/cloud-server/src/test/java/com/cloud/network/lb/AssignLoadBalancerTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 19
+ 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<com.cloud.network.dao.LoadBalancerVO>
+	Count: 4
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 12
+ 
+	Method name: anyLong
+	Class origin: org.mockito.ArgumentMatchers
+	Count: 12
+ 
+/cloud-server/src/test/java/com/cloud/network/lb/UpdateLoadBalancerTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 13
+ 
+/cloud-server/src/test/java/com/cloud/network/router/NetworkHelperImplTest.java
+Methods Invoked: 
+	Method name: spy
+	Class origin: org.mockito.Mockito
+	Count: 4
+ 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 15
+ 
+	Method name: when
+	Class origin: org.mockito.stubbing.Stubber
+	Count: 4
+ 
+	Method name: doReturn
+	Class origin: org.mockito.Mockito
+	Count: 4
+ 
+	Method name: verify
+	Class origin: org.mockito.Mockito
+	Count: 11
+ 
+	Method name: times
+	Class origin: org.mockito.Mockito
+	Count: 11
+ 
+	Method name: anyObject
+	Class origin: org.mockito.ArgumentMatchers
+	Count: 2
+ 
+/cloud-server/src/test/java/com/cloud/network/router/VirtualNetworkApplianceManagerImplTest.java
+Methods Invoked: 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<java.util.List<com.cloud.network.dao.Site2SiteVpnConnectionVO>>
+	Count: 1
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 9
+ 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<com.cloud.network.dao.Site2SiteVpnConnectionVO>
+	Count: 2
+ 
+/cloud-server/src/test/java/com/cloud/network/router/RouterControlHelperTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 9
+ 
+/cloud-server/src/test/java/com/cloud/network/security/SecurityGroupManagerImpl2Test.java
+Methods Invoked: 
+	Method name: when
+	Class origin: org.mockito.stubbing.Stubber
+	Count: 1
+ 
+	Method name: doReturn
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+/cloud-server/src/test/java/com/cloud/network/security/SecurityGroupManagerTestConfiguration.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 8
+ 
+/cloud-server/src/test/java/com/cloud/network/vpc/NetworkACLManagerImplTest.java
+Methods Invoked: 
+	Method name: when
+	Class origin: org.mockito.stubbing.Stubber
+	Count: 5
+ 
+	Method name: doReturn
+	Class origin: org.mockito.Mockito
+	Count: 5
+ 
+/cloud-server/src/test/java/com/cloud/network/vpc/VpcManagerImplTest.java
+Methods Invoked: 
+	Method name: initMocks
+	Class origin: org.mockito.MockitoAnnotations
+	Count: 1
+ 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 3
+ 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<java.util.List<com.cloud.network.vpc.VpcOfferingServiceMapVO>>
+	Count: 1
+ 
+	Method name: when
+	Class origin: org.powermock.api.mockito.PowerMockito
+	Count: 3
+ 
+	Method name: invokeMethod
+	Class origin: org.powermock.reflect.Whitebox
+	Count: 2
+ 
+/cloud-server/src/test/java/com/cloud/network/vpc/NetworkACLServiceImplTest.java
+Methods Invoked: 
+	Method name: mockStatic
+	Class origin: org.powermock.api.mockito.PowerMockito
+	Count: 3
+ 
+	Method name: when
+	Class origin: org.powermock.api.mockito.PowerMockito
+	Count: 3
+ 
+	Method name: when
+	Class origin: org.mockito.stubbing.Stubber
+	Count: 98
+ 
+	Method name: doReturn
+	Class origin: org.mockito.Mockito
+	Count: 73
+ 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 20
+ 
+/cloud-server/src/test/java/com/cloud/network/vpn/RemoteAccessVpnManagerImplTest.java
+Methods Invoked: 
+	Method name: mockStatic
+	Class origin: org.powermock.api.mockito.PowerMockito
+	Count: 5
+ 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<java.lang.Boolean>
+	Count: 12
+ 
+	Method name: when
+	Class origin: org.powermock.api.mockito.PowerMockito
+	Count: 12
+ 
+/cloud-server/src/test/java/com/cloud/resource/ResourceManagerImplTest.java
+Methods Invoked: 
+	Method name: initMocks
+	Class origin: org.mockito.MockitoAnnotations
+	Count: 1
+ 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<com.cloud.host.Host.Type>
+	Count: 1
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 51
+ 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<java.lang.Long>
+	Count: 4
+ 
+/cloud-server/src/test/java/com/cloud/resource/RollingMaintenanceManagerImplTest.java
+Methods Invoked: 
+	Method name: initMocks
+	Class origin: org.mockito.MockitoAnnotations
+	Count: 1
+ 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<java.util.List<com.cloud.host.HostVO>>
+	Count: 4
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 21
+ 
+/cloud-server/src/test/java/com/cloud/resourcelimit/ResourceLimitManagerImplTest.java
+Methods Invoked: 
+	Method name: recalculateResourceCount
+	Class origin: com.cloud.vpc.MockResourceLimitManagerImpl
+	Count: 2
+ 
+/cloud-server/src/test/java/com/cloud/server/ConfigurationServerImplTest.java
+Methods Invoked: 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<java.lang.String>
+	Count: 2
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 2
+ 
+/cloud-server/src/test/java/com/cloud/server/StatsCollectorTest.java
+Methods Invoked: 
+	Method name: spy
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 4
+ 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<java.lang.Boolean>
+	Count: 1
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 3
+ 
+	Method name: mockStatic
+	Class origin: org.powermock.api.mockito.PowerMockito
+	Count: 2
+ 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<org.influxdb.InfluxDB>
+	Count: 1
+ 
+	Method name: when
+	Class origin: org.powermock.api.mockito.PowerMockito
+	Count: 2
+ 
+/cloud-server/src/test/java/com/cloud/server/ManagementServerImplTest.java
+Methods Invoked: 
+	Method name: when
+	Class origin: org.mockito.stubbing.Stubber
+	Count: 17
+ 
+	Method name: doReturn
+	Class origin: org.mockito.stubbing.BaseStubber
+	Count: 6
+ 
+	Method name: lenient
+	Class origin: org.mockito.Mockito
+	Count: 7
+ 
+/cloud-server/src/test/java/com/cloud/storage/VolumeApiServiceImplTest.java
+Methods Invoked: 
+	Method name: when
+	Class origin: org.mockito.stubbing.Stubber
+	Count: 129
+ 
+	Method name: doReturn
+	Class origin: org.mockito.stubbing.BaseStubber
+	Count: 22
+ 
+	Method name: lenient
+	Class origin: org.mockito.Mockito
+	Count: 45
+ 
+/cloud-server/src/test/java/com/cloud/storage/ImageStoreDetailsUtilTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 5
+ 
+/cloud-server/src/test/java/com/cloud/storage/StorageManagerImplTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 2
+ 
+/cloud-server/src/test/java/com/cloud/storage/listener/StoragePoolMonitorTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 2
+ 
+/cloud-server/src/test/java/com/cloud/storage/snapshot/SnapshotManagerTest.java
+Methods Invoked: 
+	Method name: initMocks
+	Class origin: org.mockito.MockitoAnnotations
+	Count: 1
+ 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<com.cloud.storage.SnapshotVO>
+	Count: 2
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 86
+ 
+	Method name: anyLong
+	Class origin: org.mockito.ArgumentMatchers
+	Count: 24
+ 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<java.lang.Long>
+	Count: 12
+ 
+/cloud-server/src/test/java/com/cloud/template/TemplateManagerImplTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 74
+ 
+/cloud-server/src/test/java/com/cloud/template/HypervisorTemplateAdapterTest.java
+Methods Invoked: 
+	Method name: initMocks
+	Class origin: org.mockito.MockitoAnnotations
+	Count: 1
+ 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<java.lang.String>
+	Count: 4
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 28
+ 
+	Method name: eq
+	Class origin: org.mockito.ArgumentMatchers
+	Count: 2
+ 
+	Method name: then
+	Class origin: org.mockito.stubbing.OngoingStubbing<com.cloud.event.UsageEventVO>
+	Count: 1
+ 
+/cloud-server/src/test/java/com/cloud/user/AccountManagerImplTest.java
+Methods Invoked: 
+	Method name: when
+	Class origin: org.mockito.stubbing.Stubber
+	Count: 110
+ 
+	Method name: doReturn
+	Class origin: org.mockito.Mockito
+	Count: 84
+ 
+/cloud-server/src/test/java/com/cloud/user/DomainManagerImplTest.java
+Methods Invoked: 
+	Method name: when
+	Class origin: org.mockito.stubbing.Stubber
+	Count: 4
+ 
+	Method name: doReturn
+	Class origin: org.mockito.Mockito
+	Count: 2
+ 
+/cloud-server/src/test/java/com/cloud/user/AccountManagerImplVolumeDeleteEventTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 3
+ 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<java.lang.Boolean>
+	Count: 3
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 10
+ 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<com.cloud.user.AccountVO>
+	Count: 1
+ 
+/cloud-server/src/test/java/com/cloud/vm/UserVmManagerImplTest.java
+Methods Invoked: 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<java.lang.Long>
+	Count: 13
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 31
+ 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<com.cloud.dc.DataCenterVO>
+	Count: 1
+ 
+/cloud-server/src/test/java/com/cloud/vm/FirstFitPlannerTest.java
+Methods Invoked: 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<java.lang.String>
+	Count: 4
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 46
+ 
+	Method name: anyString
+	Class origin: org.mockito.ArgumentMatchers
+	Count: 3
+ 
+/cloud-server/src/test/java/com/cloud/vm/UserVmManagerTest.java
+Methods Invoked: 
+	Method name: when
+	Class origin: org.mockito.stubbing.Stubber
+	Count: 29
+ 
+	Method name: doReturn
+	Class origin: org.mockito.Mockito
+	Count: 17
+ 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<com.cloud.user.UserVO>
+	Count: 1
+ 
+	Method name: when
+	Class origin: org.mockito.stubbing.LenientStubber
+	Count: 13
+ 
+	Method name: lenient
+	Class origin: org.mockito.Mockito
+	Count: 23
+ 
+	Method name: anyLong
+	Class origin: org.mockito.ArgumentMatchers
+	Count: 56
+ 
+/cloud-server/src/test/java/com/cloud/vm/snapshot/VMSnapshotManagerTest.java
+Methods Invoked: 
+	Method name: initMocks
+	Class origin: org.mockito.MockitoAnnotations
+	Count: 1
+ 
+	Method name: when
+	Class origin: org.mockito.stubbing.Stubber
+	Count: 2
+ 
+	Method name: doReturn
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+/cloud-server/src/test/java/com/cloud/vpc/NetworkACLManagerTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 26
+ 
+/cloud-server/src/test/java/com/cloud/vpc/VpcTestConfiguration.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 11
+ 
+/cloud-server/src/test/java/com/cloud/vpc/NetworkACLServiceTest.java
+Methods Invoked: 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<com.cloud.network.vpc.NetworkACLVO>
+	Count: 1
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 6
+ 
+	Method name: anyLong
+	Class origin: org.mockito.ArgumentMatchers
+	Count: 5
+ 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<java.lang.Boolean>
+	Count: 2
+ 
+/cloud-server/src/test/java/com/cloud/vpc/dao/MockVpcDaoImpl.java
+Methods Invoked: 
+	Method name: findById
+	Class origin: com.cloud.vpc.dao.MockVpcDaoImpl
+	Count: 1
+ 
+	Method name: setId
+	Class origin: com.cloud.vpc.dao.MockVpcDaoImpl
+	Count: 1
+ 
+/cloud-server/src/test/java/com/cloud/vpc/dao/MockNetworkOfferingDaoImpl.java
+Methods Invoked: 
+	Method name: setId
+	Class origin: com.cloud.vpc.dao.MockNetworkOfferingDaoImpl
+	Count: 1
+ 
+/cloud-server/src/test/java/org/apache/cloudstack/acl/RoleManagerImplTest.java
+Methods Invoked: 
+	Method name: when
+	Class origin: org.mockito.stubbing.Stubber
+	Count: 35
+ 
+	Method name: doReturn
+	Class origin: org.mockito.Mockito
+	Count: 31
+ 
+/cloud-server/src/test/java/org/apache/cloudstack/affinity/AffinityGroupServiceImplTest.java
+Methods Invoked: 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<java.lang.String>
+	Count: 4
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 32
+ 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<com.cloud.user.AccountVO>
+	Count: 1
+ 
+/cloud-server/src/test/java/org/apache/cloudstack/affinity/AffinityApiUnitTest.java
+Methods Invoked: 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<com.cloud.user.Account>
+	Count: 1
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 15
+ 
+	Method name: any
+	Class origin: org.mockito.ArgumentMatchers
+	Count: 3
+ 
+	Method name: anyString
+	Class origin: org.mockito.ArgumentMatchers
+	Count: 2
+ 
+	Method name: anyLong
+	Class origin: org.mockito.ArgumentMatchers
+	Count: 9
+ 
+	Method name: nullable
+	Class origin: org.mockito.ArgumentMatchers
+	Count: 1
+ 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<java.lang.String>
+	Count: 1
+ 
+/cloud-server/src/test/java/org/apache/cloudstack/agent/lb/IndirectAgentLBServiceImplTest.java
+Methods Invoked: 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<java.lang.Long>
+	Count: 2
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 10
+ 
+/cloud-server/src/test/java/org/apache/cloudstack/ca/CABackgroundTaskTest.java
+Methods Invoked: 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<com.cloud.host.HostVO>
+	Count: 2
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 4
+ 
+	Method name: anyString
+	Class origin: org.mockito.ArgumentMatchers
+	Count: 12
+ 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<java.util.Map<java.lang.String,java.security.cert.X509Certificate>>
+	Count: 1
+ 
+/cloud-server/src/test/java/org/apache/cloudstack/ca/CAManagerImplTest.java
+Methods Invoked: 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<java.lang.String>
+	Count: 2
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 7
+ 
+	Method name: reset
+	Class origin: org.mockito.Mockito
+	Count: 3
+ 
+/cloud-server/src/test/java/org/apache/cloudstack/diagnostics/DiagnosticsFilesListFactoryTest.java
+Methods Invoked: 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<com.cloud.vm.VirtualMachine.Type>
+	Count: 1
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+	Method name: reset
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+/cloud-server/src/test/java/org/apache/cloudstack/diagnostics/DiagnosticsServiceImplTest.java
+Methods Invoked: 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<java.lang.Long>
+	Count: 1
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 13
+ 
+/cloud-server/src/test/java/org/apache/cloudstack/network/lb/ApplicationLoadBalancerTest.java
+Methods Invoked: 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 19
+ 
+/cloud-server/src/test/java/org/apache/cloudstack/network/ssl/CertServiceTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 54
+ 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<com.cloud.user.Account>
+	Count: 15
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 56
+ 
+	Method name: anyLong
+	Class origin: org.mockito.ArgumentMatchers
+	Count: 43
+ 
+/cloud-server/src/test/java/org/apache/cloudstack/networkoffering/CreateNetworkOfferingTest.java
+Methods Invoked: 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 6
+ 
+	Method name: anyString
+	Class origin: org.mockito.ArgumentMatchers
+	Count: 1
+ 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<com.cloud.offerings.NetworkOfferingVO>
+	Count: 2
+ 
+/cloud-server/src/test/java/org/apache/cloudstack/networkoffering/ChildTestConfiguration.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 41
+ 
+/cloud-server/src/test/java/org/apache/cloudstack/privategw/AclOnPrivateGwTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 29
+ 
+	Method name: anyLong
+	Class origin: org.mockito.ArgumentMatchers
+	Count: 2
+ 
+	Method name: anyBoolean
+	Class origin: org.mockito.ArgumentMatchers
+	Count: 2
+ 
+/cloud-server/src/test/java/org/apache/cloudstack/region/RegionManagerTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+	Method name: anyString
+	Class origin: org.mockito.ArgumentMatchers
+	Count: 1
+ 
+/cloud-server/src/test/java/org/apache/cloudstack/region/gslb/GlobalLoadBalancingRulesServiceImplTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 131
+ 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<com.cloud.user.Account>
+	Count: 13
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 48
+ 
+	Method name: anyLong
+	Class origin: org.mockito.ArgumentMatchers
+	Count: 13
+ 
+/cloud-server/src/test/java/org/apache/cloudstack/service/ServiceOfferingVOTest.java
+Methods Invoked: 
+	Method name: initMocks
+	Class origin: org.mockito.MockitoAnnotations
+	Count: 1
+ 
+/cloud-server/src/test/java/org/apache/cloudstack/vm/UnmanagedVMsManagerImplTest.java
+Methods Invoked: 
+	Method name: initMocks
+	Class origin: org.mockito.MockitoAnnotations
+	Count: 1
+ 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<com.cloud.dc.ClusterVO>
+	Count: 2
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 75
+ 
+	Method name: anyLong
+	Class origin: org.mockito.ArgumentMatchers
+	Count: 23
+ 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<java.lang.String>
+	Count: 12
+ 
+/cloud-server/src/test/java/org/cloud/network/router/deployment/RouterDeploymentDefinitionTest.java
+Methods Invoked: 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<com.cloud.dc.DataCenter>
+	Count: 1
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 76
+ 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<java.lang.Long>
+	Count: 19
+ 
+/cloud-server/src/test/java/org/cloud/network/router/deployment/RouterDeploymentDefinitionTestBase.java
+Methods Invoked: 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<com.cloud.dc.DataCenter>
+	Count: 1
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<java.lang.Long>
+	Count: 6
+ 
+	Method name: when
+	Class origin: org.mockito.stubbing.LenientStubber
+	Count: 6
+ 
+	Method name: lenient
+	Class origin: org.mockito.Mockito
+	Count: 6
+ 
+/cloud-server/src/test/java/org/cloud/network/router/deployment/VpcRouterDeploymentDefinitionTest.java
+Methods Invoked: 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<java.lang.Long>
+	Count: 6
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 14
+ 
+/cloud-usage/src/test/java/com/cloud/usage/UsageManagerTestConfiguration.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 2
+ 
+/cloud-usage/src/test/java/com/cloud/usage/UsageManagerImplTest.java
+Methods Invoked: 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<java.lang.Long>
+	Count: 2
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 8
+ 
+/cloud-usage/src/test/java/com/cloud/usage/UsageSanityCheckerTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 3
+ 
+/cloud-usage/src/test/java/com/cloud/usage/UsageSanityCheckerIT.java
+Methods Invoked: 
+	Method name: spy
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+	Method name: when
+	Class origin: org.mockito.stubbing.Stubber
+	Count: 3
+ 
+	Method name: doReturn
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+/cloud-utils/src/test/java/com/cloud/utils/SwiftUtilTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 10
+ 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<java.lang.String>
+	Count: 2
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 2
+ 
+/cloud-utils/src/test/java/com/cloud/utils/ScriptTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 2
+ 
+	Method name: when
+	Class origin: org.mockito.stubbing.Stubber
+	Count: 2
+ 
+	Method name: doNothing
+	Class origin: org.mockito.Mockito
+	Count: 2
+ 
+	Method name: any
+	Class origin: org.mockito.ArgumentMatchers
+	Count: 2
+ 
+/cloud-utils/src/test/java/com/cloud/utils/rest/HttpUriRequestPathMatcher.java
+Methods Invoked: 
+	Method name: argThat
+	Class origin: org.mockito.hamcrest.MockitoHamcrest
+	Count: 1
+ 
+/cloud-utils/src/test/java/com/cloud/utils/rest/RESTServiceConnectorTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 19
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 25
+ 
+/cloud-utils/src/test/java/com/cloud/utils/rest/HttpUriRequestQueryMatcher.java
+Methods Invoked: 
+	Method name: argThat
+	Class origin: org.mockito.hamcrest.MockitoHamcrest
+	Count: 2
+ 
+/cloud-utils/src/test/java/com/cloud/utils/rest/HttpUriRequestMethodMatcher.java
+Methods Invoked: 
+	Method name: argThat
+	Class origin: org.mockito.hamcrest.MockitoHamcrest
+	Count: 1
+ 
+/cloud-utils/src/test/java/com/cloud/utils/rest/HttpRequestMatcher.java
+Methods Invoked: 
+	Method name: argThat
+	Class origin: org.mockito.ArgumentMatchers
+	Count: 1
+ 
+/cloud-utils/src/test/java/com/cloud/utils/rest/BasicRestClientTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+	Method name: spy
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 2
+ 
+	Method name: when
+	Class origin: org.mockito.stubbing.Stubber
+	Count: 2
+ 
+	Method name: doReturn
+	Class origin: org.mockito.Mockito
+	Count: 2
+ 
+	Method name: any
+	Class origin: org.mockito.ArgumentMatchers
+	Count: 4
+ 
+/cloud-utils/src/test/java/com/cloud/utils/rest/HttpUriRequestPayloadMatcher.java
+Methods Invoked: 
+	Method name: argThat
+	Class origin: org.mockito.hamcrest.MockitoHamcrest
+	Count: 1
+ 
+/cloud-utils/src/test/java/com/cloud/utils/ssh/SshHelperTest.java
+Methods Invoked: 
+	Method name: spy
+	Class origin: org.powermock.api.mockito.PowerMockito
+	Count: 1
+ 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 3
+ 
+	Method name: when
+	Class origin: org.powermock.api.mockito.expectation.PowerMockitoStubber
+	Count: 2
+ 
+	Method name: doReturn
+	Class origin: org.powermock.api.mockito.PowerMockito
+	Count: 1
+ 
+	Method name: anyInt
+	Class origin: org.mockito.ArgumentMatchers
+	Count: 4
+ 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<java.lang.Integer>
+	Count: 1
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+/cloud-utils/src/test/java/org/apache/cloudstack/utils/mailing/SMTPMailSenderTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 6
+ 
+	Method name: spy
+	Class origin: org.mockito.Mockito
+	Count: 8
+ 
+	Method name: when
+	Class origin: org.mockito.stubbing.Stubber
+	Count: 7
+ 
+	Method name: doReturn
+	Class origin: org.mockito.Mockito
+	Count: 7
+ 
+	Method name: any
+	Class origin: org.mockito.ArgumentMatchers
+	Count: 13
+ 
+/cloud-utils/src/test/java/org/apache/cloudstack/utils/redfish/RedfishClientTest.java
+Methods Invoked: 
+	Method name: spy
+	Class origin: org.mockito.Mockito
+	Count: 6
+ 
+	Method name: when
+	Class origin: org.mockito.stubbing.Stubber
+	Count: 9
+ 
+	Method name: doReturn
+	Class origin: org.mockito.Mockito
+	Count: 9
+ 
+	Method name: anyString
+	Class origin: org.mockito.ArgumentMatchers
+	Count: 10
+ 
+/cloud-vmware-base/src/test/java/com/cloud/hypervisor/vmware/mo/HypervisorHostHelperTest.java
+Methods Invoked: 
+	Method name: initMocks
+	Class origin: org.mockito.MockitoAnnotations
+	Count: 1
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 55
+ 
+/cloud-vmware-base/src/test/java/com/cloud/hypervisor/vmware/mo/VirtualMachineMOTest.java
+Methods Invoked: 
+	Method name: initMocks
+	Class origin: org.mockito.MockitoAnnotations
+	Count: 1
+ 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<com.cloud.hypervisor.vmware.util.VmwareClient>
+	Count: 1
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 3
+ 
+/cloud-vmware-base/src/test/java/com/cloud/hypervisor/vmware/mo/DatastoreMOTest.java
+Methods Invoked: 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<com.cloud.hypervisor.vmware.mo.HostDatastoreBrowserMO>
+	Count: 1
+ 
+	Method name: withAnyArguments
+	Class origin: org.powermock.api.mockito.expectation.WithAnyArguments<com.cloud.hypervisor.vmware.mo.HostDatastoreBrowserMO>
+	Count: 1
+ 
+	Method name: whenNew
+	Class origin: org.powermock.api.mockito.PowerMockito
+	Count: 1
+ 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<com.cloud.hypervisor.vmware.util.VmwareClient>
+	Count: 1
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 3
+ 
+/cloud-vmware-base/src/test/java/com/cloud/hypervisor/vmware/util/VmwareContextTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 4
+ 
+	Method name: spy
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+/cloud-vmware-base/src/test/java/com/cloud/hypervisor/vmware/util/VmwareContextPoolTest.java
+Methods Invoked: 
+	Method name: spy
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+	Method name: verify
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+	Method name: atLeast
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+	Method name: any
+	Class origin: org.mockito.ArgumentMatchers
+	Count: 1
+ 
+/cloudstack-service-console-proxy-rdpclient/src/main/java/streamer/SocketWrapperImpl.java
+Methods Invoked: 
+	Method name: start
+	Class origin: streamer.debug.MockServer
+	Count: 1
+ 
+	Method name: getAddress
+	Class origin: streamer.debug.MockServer
+	Count: 1
+ 
+/cloudstack-service-console-proxy-rdpclient/src/main/java/streamer/apr/AprSocketWrapperImpl.java
+Methods Invoked: 
+	Method name: start
+	Class origin: streamer.debug.MockServer
+	Count: 1
+ 
+	Method name: getAddress
+	Class origin: streamer.debug.MockServer
+	Count: 1
+ 
+/cloudstack-service-console-proxy-rdpclient/src/main/java/streamer/debug/MockSink.java
+Methods Invoked: 
+	Method name: dump
+	Class origin: streamer.debug.MockSink
+	Count: 1
+ 
+/cloudstack-service-console-proxy-rdpclient/src/test/java/common/ClientTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<java.lang.String>
+	Count: 1
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+	Method name: setInternalState
+	Class origin: org.powermock.reflect.Whitebox
+	Count: 1
+ 
+/cloudstack-service-console-proxy-rdpclient/src/test/java/rdpclient/MockServerTest.java
+Methods Invoked: 
+	Method name: start
+	Class origin: streamer.debug.MockServer
+	Count: 2
+ 
+	Method name: getAddress
+	Class origin: streamer.debug.MockServer
+	Count: 2
+ 
+	Method name: waitUntilShutdowned
+	Class origin: streamer.debug.MockServer
+	Count: 2
+ 
+	Method name: getException
+	Class origin: streamer.debug.MockServer
+	Count: 2
+ 
+	Method name: isShutdowned
+	Class origin: streamer.debug.MockServer
+	Count: 2
+ 
+/cloudstack-service-console-proxy-rdpclient/src/test/java/streamer/BaseElementTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 2
+ 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<streamer.ByteBuffer>
+	Count: 2
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 2
+ 
+	Method name: anyBoolean
+	Class origin: org.mockito.ArgumentMatchers
+	Count: 2

@@ -1,0 +1,88 @@
+/axiom-testsuite/src/main/java/org/apache/axiom/ts/om/comment/TestSerialize.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+	Method name: verify
+	Class origin: org.mockito.Mockito
+	Count: 2
+ 
+/axiom-testsuite/src/main/java/org/apache/axiom/ts/om/doctype/TestSerialize.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+	Method name: verify
+	Class origin: org.mockito.Mockito
+	Count: 2
+ 
+/axiom-testsuite/src/main/java/org/apache/axiom/ts/om/entref/TestSerialize.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+	Method name: verify
+	Class origin: org.mockito.Mockito
+	Count: 2
+ 
+/axiom-testsuite/src/main/java/org/apache/axiom/ts/om/pi/TestSerialize.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+	Method name: verify
+	Class origin: org.mockito.Mockito
+	Count: 2
+ 
+/axiom-testsuite/src/main/java/org/apache/axiom/ts/om/text/TestSerialize.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+	Method name: verify
+	Class origin: org.mockito.Mockito
+	Count: 3
+ 
+/core-streams/src/test/java/org/apache/axiom/core/stream/dom/DOMReaderTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+	Method name: verify
+	Class origin: org.mockito.Mockito
+	Count: 6
+ 
+	Method name: verifyNoMoreInteractions
+	Class origin: org.mockito.Mockito
+	Count: 5
+ 
+/dom-testsuite/src/main/java/org/apache/axiom/ts/dom/document/TestAppendChildForeignImplementation.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+/dom-testsuite/src/main/java/org/apache/axiom/ts/dom/element/TestRemoveAttributeNodeForeignImplementation.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+/dom-testsuite/src/main/java/org/apache/axiom/ts/dom/element/TestSetAttributeNodeNSForeignImplementation.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+/spring-ws-testsuite/src/main/java/org/apache/axiom/ts/springws/scenario/ScenarioTestCase.java
+Methods Invoked: 
+	Method name: setProperty
+	Class origin: org.springframework.mock.env.MockPropertySource
+	Count: 1
+ 

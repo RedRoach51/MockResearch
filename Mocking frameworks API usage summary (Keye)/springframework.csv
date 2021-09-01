@@ -1,0 +1,15 @@
+method, origin, count
+setAttribute,org.springframework.mock.web.MockServletContext,2
+setRequestURI,org.springframework.mock.web.MockHttpServletRequest,13
+addHeader,org.springframework.mock.web.MockHttpServletRequest,24
+setMethod,org.springframework.mock.web.MockHttpServletRequest,14
+setContentType,org.springframework.mock.web.MockHttpServletRequest,1
+setContent,org.springframework.mock.web.MockHttpServletRequest,1
+getStatus,org.springframework.mock.web.MockHttpServletResponse,1
+getHeader,org.springframework.mock.web.MockHttpServletResponse,1
+sendRequest,org.springframework.ws.test.server.MockWebServiceClient,1
+setContextPath,org.springframework.mock.web.MockHttpServletRequest,1
+setServletPath,org.springframework.mock.web.MockHttpServletRequest,6
+getContextPath,org.springframework.mock.web.MockHttpServletRequest,6
+getServletPath,org.springframework.mock.web.MockHttpServletRequest,6
+setProperty,org.springframework.mock.env.MockPropertySource,1

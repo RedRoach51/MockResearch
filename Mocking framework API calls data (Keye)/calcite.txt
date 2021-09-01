@@ -1,0 +1,6 @@
+/druid/src/test/java/org/apache/calcite/adapter/druid/DruidQueryFilterTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 4
+ 
