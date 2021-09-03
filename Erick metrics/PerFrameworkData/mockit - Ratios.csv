@@ -1,0 +1,4 @@
+Mock Method,# of Invocations,% of Framework Invocations
+withSuffix,1,20.0
+withCapture,2,40.0
+proceed,2,40.0

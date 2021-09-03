@@ -1,0 +1,11 @@
+Mock Method,# of Invocations,% of Framework Invocations
+expectedBodiesReceived,4,10.26
+message,5,12.82
+assertIsSatisfied,10,25.64
+getReceivedExchanges,5,12.82
+expectedMessageCount,8,20.51
+assertIsNotSatisfied,2,5.13
+onException,2,5.13
+setFull,1,2.56
+install,1,2.56
+getNext,1,2.56

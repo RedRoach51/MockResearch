@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.4"?>
+<plugin>
+
+   <extension
+         point="org.eclipse.ui.commands">
+      <category
+            id="de.vogella.jdt.astsimple.commands.category"
+            name="Sample Category">
+      </category>
+      <command
+            categoryId="de.vogella.jdt.astsimple.commands.category"
+            name="Sample Command"
+            id="de.vogella.jdt.astsimple.commands.sampleCommand">
+      </command>
+      <command
+            id="de.vogella.jdt.astsimple.getInfo"
+            name="getInfo">
+      </command>
+   </extension>
+   <extension
+         point="org.eclipse.ui.handlers">
+      <handler
+            class="de.vogella.jdt.astsimple.handlers.SampleHandler"
+            commandId="de.vogella.jdt.astsimple.commands.sampleCommand">
+      </handler>
+      <handler
+            class="de.vogella.jdt.astsimple.handlers.GetInfo_Erick"
+            commandId="de.vogella.jdt.astsimple.getInfo">
+      </handler>
+   </extension>
+   <extension
+         point="org.eclipse.ui.bindings">
+      <key
+            commandId="de.vogella.jdt.astsimple.commands.sampleCommand"
+            schemeId="org.eclipse.ui.defaultAcceleratorConfiguration"
+            contextId="org.eclipse.ui.contexts.window"
+            sequence="M1+6">
+      </key>
+   </extension>
+   <extension
+         point="org.eclipse.ui.menus">
+      <menuContribution
+            locationURI="menu:org.eclipse.ui.main.menu?after=additions">
+         <menu
+               id="de.vogella.jdt.astsimple.menus.sampleMenu"
+               label="Sample Menu"
+               mnemonic="M">
+            <command
+                  commandId="de.vogella.jdt.astsimple.getInfo"
+                  id="de.vogella.jdt.astsimple.menus.getInfo"
+                  mnemonic="G">
+            </command>
+         </menu>
+      </menuContribution>
+      <menuContribution
+            locationURI="toolbar:org.eclipse.ui.main.toolbar?after=additions">
+         <toolbar
+               id="de.vogella.jdt.astsimple.toolbars.sampleToolbar">
+            <command
+                  id="de.vogella.jdt.astsimple.toolbars.sampleCommand"
+                  commandId="de.vogella.jdt.astsimple.commands.sampleCommand"
+                  icon="icons/sample.png"
+                  tooltip="Say hello world">
+            </command>
+         </toolbar>
+      </menuContribution>
+      <menuContribution
+            locationURI="popup:org.eclipse.jdt.ui.PackageExplorer?after=org.eclipse.jdt.ui.source.menu">
+         <visibleWhen
+               checkEnabled="false">
+            <iterate
+                  ifEmpty="false"
+                  operator="or">
+               <or>
+                  <instanceof
+                        value="org.eclipse.jdt.core.IJavaProject">
+                  </instanceof>
+                  <instanceof
+                        value="org.eclipse.jdt.core.IPackageFragment">
+                  </instanceof>
+                  <instanceof
+                        value="org.eclipse.jdt.core.ICompilationUnit">
+                  </instanceof>
+               </or>
+            </iterate>
+         </visibleWhen>
+         <menu
+               label="Mock Refactor">
+            <command
+                  commandId="mockrefactor.choose.fixedreturn"
+                  style="push">
+            </command>
+         </menu>
+      </menuContribution>
+   </extension>
+
+</plugin>
