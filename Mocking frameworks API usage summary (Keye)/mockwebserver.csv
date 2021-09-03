@@ -1,0 +1,10 @@
+method, origin, count
+setBody,com.google.mockwebserver.MockResponse,10
+addHeader,com.google.mockwebserver.MockResponse,3
+setResponseCode,com.google.mockwebserver.MockResponse,9
+getPath,com.google.mockwebserver.RecordedRequest,4
+getMethod,com.google.mockwebserver.RecordedRequest,2
+getBody,com.google.mockwebserver.RecordedRequest,1
+setHeader,com.google.mockwebserver.MockResponse,1
+shutdown,okhttp3.mockwebserver.MockWebServer,2
+setDispatcher,okhttp3.mockwebserver.MockWebServer,2

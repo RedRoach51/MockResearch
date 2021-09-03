@@ -1,0 +1,5 @@
+mock,org.mockito.Mockito,6
+verify,org.mockito.Mockito,3
+never,org.mockito.Mockito,1
+times,org.mockito.Mockito,1
+any,org.mockito.ArgumentMatchers,5

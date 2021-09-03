@@ -1,0 +1,2 @@
+method, origin, count
+setAsInitial,org.mockejb.jndi.MockContextFactory,1

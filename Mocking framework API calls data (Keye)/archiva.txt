@@ -1,0 +1,505 @@
+/archiva-configuration/src/test/java/org/apache/archiva/configuration/ArchivaConfigurationTest.java
+Methods Invoked: 
+	Method name: createMock
+	Class origin: org.easymock.EasyMock
+	Count: 2
+ 
+	Method name: replay
+	Class origin: org.easymock.EasyMock
+	Count: 2
+ 
+	Method name: verify
+	Class origin: org.easymock.EasyMock
+	Count: 2
+ 
+/archiva-core-consumers/src/test/java/org/apache/archiva/consumers/core/repository/AbstractRepositoryPurgeTest.java
+Methods Invoked: 
+	Method name: createControl
+	Class origin: org.easymock.EasyMock
+	Count: 3
+ 
+	Method name: createMock
+	Class origin: org.easymock.IMocksControl
+	Count: 3
+ 
+/archiva-core-consumers/src/test/java/org/apache/archiva/consumers/core/repository/DaysOldRepositoryPurgeTest.java
+Methods Invoked: 
+	Method name: reset
+	Class origin: org.easymock.IMocksControl
+	Count: 6
+ 
+/archiva-core-consumers/src/test/java/org/apache/archiva/consumers/core/repository/RetentionCountRepositoryPurgeTest.java
+Methods Invoked: 
+	Method name: reset
+	Class origin: org.easymock.IMocksControl
+	Count: 2
+ 
+/archiva-core-consumers/src/test/java/org/apache/archiva/consumers/core/repository/CleanupReleasedSnapshotsRepositoryPurgeTest.java
+Methods Invoked: 
+	Method name: createControl
+	Class origin: org.easymock.EasyMock
+	Count: 1
+ 
+	Method name: createMock
+	Class origin: org.easymock.IMocksControl
+	Count: 1
+ 
+	Method name: reset
+	Class origin: org.easymock.IMocksControl
+	Count: 2
+ 
+/archiva-core-consumers/src/test/java/org/apache/archiva/consumers/core/repository/RepositoryPurgeConsumerTest.java
+Methods Invoked: 
+	Method name: reset
+	Class origin: org.easymock.IMocksControl
+	Count: 6
+ 
+/archiva-maven-indexer/src/test/java/org/apache/archiva/indexer/maven/search/MavenRepositorySearchOSGITest.java
+Methods Invoked: 
+	Method name: expect
+	Class origin: org.easymock.EasyMock
+	Count: 1
+ 
+	Method name: replay
+	Class origin: org.easymock.IMocksControl
+	Count: 1
+ 
+	Method name: verify
+	Class origin: org.easymock.IMocksControl
+	Count: 1
+ 
+/archiva-maven-indexer/src/test/java/org/apache/archiva/indexer/maven/search/AbstractMavenRepositorySearch.java
+Methods Invoked: 
+	Method name: createControl
+	Class origin: org.easymock.EasyMock
+	Count: 1
+ 
+	Method name: createMock
+	Class origin: org.easymock.IMocksControl
+	Count: 1
+ 
+	Method name: anyObject
+	Class origin: org.easymock.EasyMock
+	Count: 5
+ 
+	Method name: anyTimes
+	Class origin: org.easymock.IExpectationSetters<java.util.Locale>
+	Count: 2
+ 
+	Method name: andReturn
+	Class origin: org.easymock.IExpectationSetters<java.util.Locale>
+	Count: 2
+ 
+	Method name: expect
+	Class origin: org.easymock.EasyMock
+	Count: 5
+ 
+/archiva-maven-indexer/src/test/java/org/apache/archiva/indexer/maven/search/MavenRepositorySearchTest.java
+Methods Invoked: 
+	Method name: anyTimes
+	Class origin: org.easymock.IExpectationSetters<java.util.Locale>
+	Count: 21
+ 
+	Method name: andReturn
+	Class origin: org.easymock.IExpectationSetters<java.util.Locale>
+	Count: 21
+ 
+	Method name: expect
+	Class origin: org.easymock.EasyMock
+	Count: 44
+ 
+/archiva-maven-proxy/src/test/java/org/apache/archiva/proxy/MetadataTransferTest.java
+Methods Invoked: 
+	Method name: eq
+	Class origin: org.easymock.EasyMock
+	Count: 1
+ 
+	Method name: anyObject
+	Class origin: org.easymock.EasyMock
+	Count: 1
+ 
+	Method name: andThrow
+	Class origin: org.easymock.IExpectationSetters<java.lang.Object>
+	Count: 1
+ 
+	Method name: expectLastCall
+	Class origin: org.easymock.EasyMock
+	Count: 1
+ 
+	Method name: replay
+	Class origin: org.easymock.IMocksControl
+	Count: 1
+ 
+	Method name: verify
+	Class origin: org.easymock.IMocksControl
+	Count: 1
+ 
+/archiva-maven-proxy/src/test/java/org/apache/archiva/proxy/ErrorHandlingTest.java
+Methods Invoked: 
+	Method name: eq
+	Class origin: org.easymock.EasyMock
+	Count: 3
+ 
+	Method name: anyObject
+	Class origin: org.easymock.EasyMock
+	Count: 2
+ 
+	Method name: andThrow
+	Class origin: org.easymock.IExpectationSetters<java.lang.Object>
+	Count: 2
+ 
+	Method name: expectLastCall
+	Class origin: org.easymock.EasyMock
+	Count: 2
+ 
+/archiva-maven-proxy/src/test/java/org/apache/archiva/proxy/ManagedDefaultTransferTest.java
+Methods Invoked: 
+	Method name: eq
+	Class origin: org.easymock.EasyMock
+	Count: 3
+ 
+	Method name: anyObject
+	Class origin: org.easymock.EasyMock
+	Count: 3
+ 
+	Method name: andThrow
+	Class origin: org.easymock.IExpectationSetters<java.lang.Object>
+	Count: 3
+ 
+	Method name: expectLastCall
+	Class origin: org.easymock.EasyMock
+	Count: 3
+ 
+	Method name: replay
+	Class origin: org.easymock.IMocksControl
+	Count: 2
+ 
+	Method name: verify
+	Class origin: org.easymock.IMocksControl
+	Count: 2
+ 
+/archiva-maven-proxy/src/test/java/org/apache/archiva/proxy/ChecksumTransferTest.java
+Methods Invoked: 
+	Method name: eq
+	Class origin: org.easymock.EasyMock
+	Count: 3
+ 
+	Method name: anyObject
+	Class origin: org.easymock.EasyMock
+	Count: 3
+ 
+	Method name: once
+	Class origin: org.easymock.IExpectationSetters<java.lang.Object>
+	Count: 3
+ 
+	Method name: expectLastCall
+	Class origin: org.easymock.EasyMock
+	Count: 3
+ 
+/archiva-maven-proxy/src/test/java/org/apache/archiva/proxy/AbstractProxyTestCase.java
+Methods Invoked: 
+	Method name: createNiceControl
+	Class origin: org.easymock.EasyMock
+	Count: 1
+ 
+	Method name: createMock
+	Class origin: org.easymock.IMocksControl
+	Count: 1
+ 
+/archiva-maven-proxy/src/test/java/org/apache/archiva/proxy/CacheFailuresTransferTest.java
+Methods Invoked: 
+	Method name: eq
+	Class origin: org.easymock.EasyMock
+	Count: 3
+ 
+	Method name: anyObject
+	Class origin: org.easymock.EasyMock
+	Count: 3
+ 
+	Method name: times
+	Class origin: org.easymock.IExpectationSetters<java.lang.Object>
+	Count: 3
+ 
+	Method name: andThrow
+	Class origin: org.easymock.IExpectationSetters<java.lang.Object>
+	Count: 3
+ 
+	Method name: expectLastCall
+	Class origin: org.easymock.EasyMock
+	Count: 3
+ 
+	Method name: replay
+	Class origin: org.easymock.IMocksControl
+	Count: 4
+ 
+	Method name: verify
+	Class origin: org.easymock.IMocksControl
+	Count: 4
+ 
+	Method name: reset
+	Class origin: org.easymock.IMocksControl
+	Count: 2
+ 
+/archiva-maven-proxy/src/test/java/org/apache/archiva/proxy/MockConfiguration.java
+Methods Invoked: 
+	Method name: createNiceControl
+	Class origin: org.easymock.EasyMock
+	Count: 1
+ 
+	Method name: createMock
+	Class origin: org.easymock.IMocksControl
+	Count: 1
+ 
+/archiva-maven-repository/src/test/java/org/apache/archiva/repository/maven/merge/Maven2RepositoryMergerTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 3
+ 
+/archiva-maven-repository/src/test/java/org/apache/archiva/repository/maven/metadata/storage/Maven2RepositoryMetadataResolverMRM1411RepoGroupTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+/archiva-maven-repository/src/test/java/org/apache/archiva/repository/maven/metadata/storage/Maven2RepositoryMetadataResolverMRM1411Test.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+/archiva-maven-repository/src/test/java/org/apache/archiva/repository/maven/metadata/storage/Maven2RepositoryMetadataResolverTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+/archiva-maven-repository/src/test/java/org/apache/archiva/repository/maven/metadata/storage/mock/MockConfiguration.java
+Methods Invoked: 
+	Method name: createNiceControl
+	Class origin: org.easymock.EasyMock
+	Count: 1
+ 
+	Method name: createMock
+	Class origin: org.easymock.IMocksControl
+	Count: 1
+ 
+/archiva-repository-admin-default/src/test/java/org/apache/archiva/admin/repository/admin/RepositoryTaskAdministrationTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 24
+ 
+/archiva-repository-scanner/src/test/java/org/apache/archiva/repository/scanner/RepositoryContentConsumersTest.java
+Methods Invoked: 
+	Method name: createNiceControl
+	Class origin: org.easymock.EasyMock
+	Count: 2
+ 
+	Method name: createMock
+	Class origin: org.easymock.IMocksControl
+	Count: 4
+ 
+/archiva-rss/src/test/java/org/apache/archiva/rss/processor/NewArtifactsRssFeedProcessorTest.java
+Methods Invoked: 
+	Method name: createControl
+	Class origin: org.easymock.EasyMock
+	Count: 2
+ 
+/archiva-rss/src/test/java/org/apache/archiva/rss/processor/NewVersionsOfArtifactRssFeedProcessorTest.java
+Methods Invoked: 
+	Method name: createControl
+	Class origin: org.easymock.EasyMock
+	Count: 4
+ 
+	Method name: createMock
+	Class origin: org.easymock.IMocksControl
+	Count: 4
+ 
+/archiva-scheduler-repository/src/test/java/org/apache/archiva/scheduler/repository/AbstractArchivaRepositoryScanningTaskExecutorTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+/archiva-security/src/test/java/org/apache/archiva/security/ArchivaServletAuthenticatorTest.java
+Methods Invoked: 
+	Method name: createControl
+	Class origin: org.easymock.EasyMock
+	Count: 1
+ 
+	Method name: createMock
+	Class origin: org.easymock.IMocksControl
+	Count: 1
+ 
+	Method name: andReturn
+	Class origin: org.easymock.IExpectationSetters<java.lang.String>
+	Count: 1
+ 
+	Method name: expect
+	Class origin: org.easymock.EasyMock
+	Count: 1
+ 
+	Method name: replay
+	Class origin: org.easymock.IMocksControl
+	Count: 1
+ 
+	Method name: verify
+	Class origin: org.easymock.IMocksControl
+	Count: 1
+ 
+/archiva-storage-api/src/test/java/org/apache/archiva/repository/storage/mock/MockAsset.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 4
+ 
+/archiva-web-common/src/test/java/org/apache/archiva/web/rss/RssFeedServletTest.java
+Methods Invoked: 
+	Method name: setAttribute
+	Class origin: org.springframework.mock.web.MockServletContext
+	Count: 1
+ 
+	Method name: setRequestURI
+	Class origin: org.springframework.mock.web.MockHttpServletRequest
+	Count: 5
+ 
+	Method name: addHeader
+	Class origin: org.springframework.mock.web.MockHttpServletRequest
+	Count: 9
+ 
+	Method name: setMethod
+	Class origin: org.springframework.mock.web.MockHttpServletRequest
+	Count: 5
+ 
+/archiva-webdav/src/test/java/org/apache/archiva/webdav/ArchivaDavResourceFactoryTest.java
+Methods Invoked: 
+	Method name: createControl
+	Class origin: org.easymock.EasyMock
+	Count: 5
+ 
+	Method name: createMock
+	Class origin: org.easymock.IMocksControl
+	Count: 5
+ 
+/archiva-webdav/src/test/java/org/apache/archiva/webdav/AbstractRepositoryServletTestCase.java
+Methods Invoked: 
+	Method name: setAttribute
+	Class origin: org.springframework.mock.web.MockServletContext
+	Count: 1
+ 
+	Method name: setRequestURI
+	Class origin: org.springframework.mock.web.MockHttpServletRequest
+	Count: 1
+ 
+	Method name: addHeader
+	Class origin: org.springframework.mock.web.MockHttpServletRequest
+	Count: 1
+ 
+	Method name: setMethod
+	Class origin: org.springframework.mock.web.MockHttpServletRequest
+	Count: 2
+ 
+	Method name: setContentType
+	Class origin: org.springframework.mock.web.MockHttpServletRequest
+	Count: 1
+ 
+	Method name: setContent
+	Class origin: org.springframework.mock.web.MockHttpServletRequest
+	Count: 1
+ 
+/archiva-webdav/src/test/java/org/apache/archiva/webdav/RepositoryServletSecurityTest.java
+Methods Invoked: 
+	Method name: createControl
+	Class origin: org.easymock.EasyMock
+	Count: 2
+ 
+	Method name: createMock
+	Class origin: org.easymock.IMocksControl
+	Count: 2
+ 
+/archiva-webdav/src/test/java/org/apache/archiva/webdav/RepositoryServletNoProxyTest.java
+Methods Invoked: 
+	Method name: setRequestURI
+	Class origin: org.springframework.mock.web.MockHttpServletRequest
+	Count: 1
+ 
+	Method name: addHeader
+	Class origin: org.springframework.mock.web.MockHttpServletRequest
+	Count: 1
+ 
+	Method name: setMethod
+	Class origin: org.springframework.mock.web.MockHttpServletRequest
+	Count: 1
+ 
+	Method name: getStatus
+	Class origin: org.springframework.mock.web.MockHttpServletResponse
+	Count: 1
+ 
+	Method name: getHeader
+	Class origin: org.springframework.mock.web.MockHttpServletResponse
+	Count: 1
+ 
+/audit/src/test/java/org/apache/archiva/audit/AuditManagerTest.java
+Methods Invoked: 
+	Method name: createControl
+	Class origin: org.easymock.EasyMock
+	Count: 3
+ 
+	Method name: createMock
+	Class origin: org.easymock.IMocksControl
+	Count: 3
+ 
+/metadata-store-cassandra/src/test/java/org/apache/archiva/metadata/repository/cassandra/CassandraMetadataRepositoryTest.java
+Methods Invoked: 
+	Method name: createControl
+	Class origin: org.easymock.EasyMock
+	Count: 2
+ 
+	Method name: createMock
+	Class origin: org.easymock.IMocksControl
+	Count: 2
+ 
+/metadata-store-file/src/test/java/org/apache/archiva/metadata/repository/file/FileMetadataRepositoryTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+/problem-reports/src/test/java/org/apache/archiva/reports/consumers/DuplicateArtifactsConsumerTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 3
+ 
+/problem-reports/src/test/java/org/apache/archiva/reports/consumers/MockitoFactory.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+/repository-statistics/src/test/java/org/apache/archiva/metadata/repository/stats/RepositoryStatisticsManagerTest.java
+Methods Invoked: 
+	Method name: createControl
+	Class origin: org.easymock.EasyMock
+	Count: 3
+ 
+	Method name: createMock
+	Class origin: org.easymock.IMocksControl
+	Count: 3

@@ -1,0 +1,23 @@
+method, origin, count
+createMock,org.easymock.EasyMock,143
+replay,org.easymock.EasyMock,77
+verify,org.easymock.EasyMock,17
+createControl,org.easymock.EasyMock,30
+reset,org.easymock.IMocksControl,18
+expect,org.easymock.EasyMock,197
+anyObject,org.easymock.EasyMock,21
+anyTimes,org.easymock.IExpectationSetters<java.util.Locale>,46
+andReturn,org.easymock.IExpectationSetters<java.util.Locale>,73
+eq,org.easymock.EasyMock,13
+andThrow,org.easymock.IExpectationSetters<java.lang.Object>,10
+expectLastCall,org.easymock.EasyMock,12
+once,org.easymock.IExpectationSetters<java.lang.Object>,3
+createNiceControl,org.easymock.EasyMock,5
+times,org.easymock.IExpectationSetters<java.lang.Object>,3
+createNiceMock,org.easymock.EasyMock,49
+newInstance,org.easymock.Capture,1
+andAnswer,org.easymock.IExpectationSetters<java.lang.Class>,1
+capture,org.easymock.EasyMock,1
+getValue,org.easymock.Capture<java.lang.String>,1
+getMock,org.easymock.MockControl,1
+createStrictControl,org.easymock.MockControl,1

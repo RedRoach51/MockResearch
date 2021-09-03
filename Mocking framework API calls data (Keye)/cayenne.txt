@@ -1,0 +1,973 @@
+/cayenne-ant/src/test/java/org/apache/cayenne/tools/DbGeneratorTaskTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 2
+ 
+/cayenne-cgen/src/test/java/org/apache/cayenne/gen/ClassGenerationActionTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 2
+ 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<java.lang.Long>
+	Count: 2
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 2
+ 
+/cayenne-cgen/src/test/java/org/apache/cayenne/gen/PropertyUtilsTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 11
+ 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<java.lang.String>
+	Count: 26
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 37
+ 
+/cayenne-client/src/test/java/org/apache/cayenne/CayenneContextIT.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 3
+ 
+/cayenne-client/src/test/java/org/apache/cayenne/CayenneContextMergeHandlerIT.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 2
+ 
+/cayenne-client/src/test/java/org/apache/cayenne/access/ClientServerChannelIT.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+/cayenne-client/src/test/java/org/apache/cayenne/configuration/rop/client/ClientRuntimeBuilderTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+/cayenne-client/src/test/java/org/apache/cayenne/configuration/rop/client/ClientLocalRuntimeTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+/cayenne-client/src/test/java/org/apache/cayenne/remote/ClientChannelTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+	Method name: thenAnswer
+	Class origin: org.mockito.stubbing.OngoingStubbing<java.lang.Object>
+	Count: 1
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+	Method name: any
+	Class origin: org.mockito.ArgumentMatchers
+	Count: 1
+ 
+	Method name: getArguments
+	Class origin: org.mockito.invocation.InvocationOnMock
+	Count: 1
+ 
+/cayenne-client/src/test/java/org/apache/cayenne/remote/SyncMessageTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 3
+ 
+/cayenne-commitlog/src/test/java/org/apache/cayenne/commitlog/CommitLogFilterIT.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+	Method name: forClass
+	Class origin: org.mockito.ArgumentCaptor
+	Count: 7
+ 
+	Method name: verify
+	Class origin: org.mockito.Mockito
+	Count: 7
+ 
+	Method name: any
+	Class origin: org.mockito.ArgumentMatchers
+	Count: 7
+ 
+/cayenne-commitlog/src/test/java/org/apache/cayenne/commitlog/CommitLogFilter_ListenerInducedChangesIT.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+	Method name: when
+	Class origin: org.mockito.stubbing.Stubber
+	Count: 3
+ 
+	Method name: doAnswer
+	Class origin: org.mockito.Mockito
+	Count: 3
+ 
+	Method name: any
+	Class origin: org.mockito.ArgumentMatchers
+	Count: 12
+ 
+/cayenne-commitlog/src/test/java/org/apache/cayenne/commitlog/CommitLogFilter_All_FlattenedIT.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+	Method name: when
+	Class origin: org.mockito.stubbing.Stubber
+	Count: 1
+ 
+	Method name: doAnswer
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+	Method name: getArguments
+	Class origin: org.mockito.invocation.InvocationOnMock
+	Count: 2
+ 
+/cayenne-commitlog/src/test/java/org/apache/cayenne/commitlog/CommitLogFilter_FilteredIT.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+	Method name: when
+	Class origin: org.mockito.stubbing.Stubber
+	Count: 7
+ 
+	Method name: doAnswer
+	Class origin: org.mockito.Mockito
+	Count: 7
+ 
+	Method name: getArguments
+	Class origin: org.mockito.invocation.InvocationOnMock
+	Count: 14
+ 
+/cayenne-dbsync/src/test/java/org/apache/cayenne/dbsync/reverse/configuration/ToolsModuleTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 4
+ 
+/cayenne-dbsync/src/test/java/org/apache/cayenne/dbsync/reverse/dbimport/DefaultDbImportActionTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 29
+ 
+/cayenne-dbsync/src/test/java/org/apache/cayenne/dbsync/reverse/dbimport/DbImportModuleTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+/cayenne-dbsync/src/test/java/org/apache/cayenne/dbsync/reverse/dbload/ExportedKeyTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 2
+ 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<java.lang.String>
+	Count: 20
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 22
+ 
+/cayenne-joda/src/test/java/org/apache/cayenne/joda/access/types/JodaTestCase.java
+Methods Invoked: 
+	Method name: addColumn
+	Class origin: com.mockrunner.mock.jdbc.MockResultSet
+	Count: 1
+ 
+	Method name: addRow
+	Class origin: com.mockrunner.mock.jdbc.MockResultSet
+	Count: 1
+ 
+	Method name: next
+	Class origin: com.mockrunner.mock.jdbc.MockResultSet
+	Count: 1
+ 
+/cayenne-joda/src/test/java/org/apache/cayenne/joda/access/types/DateTimeTypeTest.java
+Methods Invoked: 
+	Method name: getParameter
+	Class origin: com.mockrunner.mock.jdbc.MockPreparedStatement
+	Count: 2
+ 
+/cayenne-joda/src/test/java/org/apache/cayenne/joda/access/types/LocalTimeTypeTest.java
+Methods Invoked: 
+	Method name: getParameter
+	Class origin: com.mockrunner.mock.jdbc.MockPreparedStatement
+	Count: 3
+ 
+/cayenne-joda/src/test/java/org/apache/cayenne/joda/access/types/LocalDateTimeTypeTest.java
+Methods Invoked: 
+	Method name: getParameter
+	Class origin: com.mockrunner.mock.jdbc.MockPreparedStatement
+	Count: 2
+ 
+/cayenne-joda/src/test/java/org/apache/cayenne/joda/access/types/LocalDateTypeTest.java
+Methods Invoked: 
+	Method name: getParameter
+	Class origin: com.mockrunner.mock.jdbc.MockPreparedStatement
+	Count: 3
+ 
+/cayenne-lifecycle/src/test/java/org/apache/cayenne/lifecycle/id/EntityIdCoderTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 5
+ 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<java.lang.String>
+	Count: 10
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 15
+ 
+/cayenne-maven-plugin/src/test/java/org/apache/cayenne/tools/DbImporterMojoConfigurationTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 2
+ 
+/cayenne-maven-plugin/src/test/java/org/apache/cayenne/tools/DbImporterMojoTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 5
+ 
+/cayenne-osgi/src/test/java/org/apache/cayenne/configuration/osgi/OsgiClassLoaderManagerTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 3
+ 
+/cayenne-project/src/test/java/org/apache/cayenne/project/upgrade/DefaultUpgradeServiceTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 2
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 3
+ 
+	Method name: any
+	Class origin: org.mockito.ArgumentMatchers
+	Count: 4
+ 
+	Method name: anyList
+	Class origin: org.mockito.ArgumentMatchers
+	Count: 1
+ 
+/cayenne-project/src/test/java/org/apache/cayenne/project/upgrade/handlers/UpgradeHandler_V7Test.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+	Method name: verify
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+	Method name: verifyNoMoreInteractions
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+/cayenne-project/src/test/java/org/apache/cayenne/project/upgrade/handlers/UpgradeHandler_V9Test.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+	Method name: verifyZeroInteractions
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+/cayenne-project/src/test/java/org/apache/cayenne/project/upgrade/handlers/UpgradeHandler_V10Test.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+	Method name: verifyZeroInteractions
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+/cayenne-project/src/test/java/org/apache/cayenne/project/upgrade/handlers/UpgradeHandler_V8Test.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+	Method name: verifyZeroInteractions
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+/cayenne-project-compatibility/src/test/java/org/apache/cayenne/project/compatibility/CompatibilityTestModule.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 2
+ 
+/cayenne-rop-server/src/test/java/org/apache/cayenne/CayenneContextGraphManagerTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 3
+ 
+/cayenne-rop-server/src/test/java/org/apache/cayenne/configuration/rop/server/ROPServletTest.java
+Methods Invoked: 
+	Method name: setServletName
+	Class origin: com.mockrunner.mock.web.MockServletConfig
+	Count: 5
+ 
+	Method name: setServletContext
+	Class origin: com.mockrunner.mock.web.MockServletConfig
+	Count: 5
+ 
+/cayenne-rop-server/src/test/java/org/apache/cayenne/remote/hessian/service/HessianServiceTest.java
+Methods Invoked: 
+	Method name: setSession
+	Class origin: com.mockrunner.mock.web.MockHttpServletRequest
+	Count: 1
+ 
+	Method name: getSession
+	Class origin: com.mockrunner.mock.web.MockHttpServletRequest
+	Count: 1
+ 
+/cayenne-rop-server/src/test/java/org/apache/cayenne/remote/service/DispatchHelperTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+/cayenne-server/src/test/java/org/apache/cayenne/ContextStateRecorderTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<java.lang.Object>
+	Count: 3
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 3
+ 
+/cayenne-server/src/test/java/org/apache/cayenne/PersistentObjectIT.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+/cayenne-server/src/test/java/org/apache/cayenne/BaseContextTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 2
+ 
+/cayenne-server/src/test/java/org/apache/cayenne/access/ObjectStoreTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 3
+ 
+/cayenne-server/src/test/java/org/apache/cayenne/access/DataContextCommitIT.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 2
+ 
+	Method name: verify
+	Class origin: org.mockito.Mockito
+	Count: 2
+ 
+	Method name: verifyZeroInteractions
+	Class origin: org.mockito.Mockito
+	Count: 2
+ 
+/cayenne-server/src/test/java/org/apache/cayenne/access/DataContextIT.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 2
+ 
+/cayenne-server/src/test/java/org/apache/cayenne/access/dbsync/BaseSchemaUpdateStrategy_ConcurrencyTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+/cayenne-server/src/test/java/org/apache/cayenne/access/dbsync/ThrowOnPartialOrCreateSchemaStrategyIT.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 4
+ 
+/cayenne-server/src/test/java/org/apache/cayenne/access/flush/ArcValuesCreationHandlerTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 12
+ 
+/cayenne-server/src/test/java/org/apache/cayenne/access/flush/DefaultDbRowOpSorterTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 4
+ 
+/cayenne-server/src/test/java/org/apache/cayenne/access/flush/DefaultDataDomainFlushActionTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 3
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 4
+ 
+	Method name: any
+	Class origin: org.mockito.ArgumentMatchers
+	Count: 2
+ 
+/cayenne-server/src/test/java/org/apache/cayenne/access/flush/operation/ValuesTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 2
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 5
+ 
+/cayenne-server/src/test/java/org/apache/cayenne/access/flush/operation/BaseDbRowOpTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 2
+ 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<java.lang.Integer>
+	Count: 1
+ 
+/cayenne-server/src/test/java/org/apache/cayenne/access/flush/operation/DbRowOpMergerTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 2
+ 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<java.lang.Integer>
+	Count: 1
+ 
+/cayenne-server/src/test/java/org/apache/cayenne/access/flush/operation/QualifierTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 2
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 5
+ 
+/cayenne-server/src/test/java/org/apache/cayenne/access/jdbc/BatchActionLockingIT.java
+Methods Invoked: 
+	Method name: getPreparedStatementResultSetHandler
+	Class origin: com.mockrunner.mock.jdbc.MockConnection
+	Count: 2
+ 
+	Method name: setExactMatch
+	Class origin: com.mockrunner.jdbc.AbstractResultSetHandler
+	Count: 2
+ 
+	Method name: setCaseSensitive
+	Class origin: com.mockrunner.jdbc.AbstractResultSetHandler
+	Count: 2
+ 
+	Method name: prepareUpdateCount
+	Class origin: com.mockrunner.jdbc.AbstractParameterResultSetHandler
+	Count: 2
+ 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 2
+ 
+	Method name: getNumberCommits
+	Class origin: com.mockrunner.mock.jdbc.MockConnection
+	Count: 2
+ 
+	Method name: getNumberRollbacks
+	Class origin: com.mockrunner.mock.jdbc.MockConnection
+	Count: 2
+ 
+/cayenne-server/src/test/java/org/apache/cayenne/access/jdbc/JDBCResultIteratorTest.java
+Methods Invoked: 
+	Method name: addColumn
+	Class origin: com.mockrunner.mock.jdbc.MockResultSet
+	Count: 2
+ 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 2
+ 
+/cayenne-server/src/test/java/org/apache/cayenne/access/jdbc/BatchActionIT.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 2
+ 
+/cayenne-server/src/test/java/org/apache/cayenne/access/jdbc/BatchActionGeneratedIT.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 2
+ 
+/cayenne-server/src/test/java/org/apache/cayenne/access/translator/batch/DeleteBatchTranslatorIT.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+/cayenne-server/src/test/java/org/apache/cayenne/access/translator/batch/InsertBatchTranslatorIT.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+/cayenne-server/src/test/java/org/apache/cayenne/access/translator/batch/UpdateBatchTranslatorIT.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+/cayenne-server/src/test/java/org/apache/cayenne/access/translator/batch/legacy/UpdateBatchTranslatorIT.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+/cayenne-server/src/test/java/org/apache/cayenne/access/translator/batch/legacy/DeleteBatchTranslatorIT.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+/cayenne-server/src/test/java/org/apache/cayenne/access/translator/batch/legacy/InsertBatchTranslatorIT.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+/cayenne-server/src/test/java/org/apache/cayenne/access/translator/batch/legacy/DefaultBatchTranslatorIT.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 3
+ 
+/cayenne-server/src/test/java/org/apache/cayenne/access/translator/select/DescriptorColumnExtractorTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+/cayenne-server/src/test/java/org/apache/cayenne/access/translator/select/ObjPathProcessorIT4.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+/cayenne-server/src/test/java/org/apache/cayenne/access/translator/select/ObjPathProcessorIT2.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+/cayenne-server/src/test/java/org/apache/cayenne/access/translator/select/MockTranslatorContext.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 2
+ 
+/cayenne-server/src/test/java/org/apache/cayenne/access/translator/select/ObjPathProcessorIT3.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+/cayenne-server/src/test/java/org/apache/cayenne/access/translator/select/ObjPathProcessorIT.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+/cayenne-server/src/test/java/org/apache/cayenne/access/types/DefaultValueObjectTypeRegistryTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 2
+ 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<java.lang.Class>
+	Count: 4
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 4
+ 
+/cayenne-server/src/test/java/org/apache/cayenne/access/types/EnumTypeTest.java
+Methods Invoked: 
+	Method name: addColumn
+	Class origin: com.mockrunner.mock.jdbc.MockResultSet
+	Count: 4
+ 
+	Method name: addRow
+	Class origin: com.mockrunner.mock.jdbc.MockResultSet
+	Count: 4
+ 
+	Method name: next
+	Class origin: com.mockrunner.mock.jdbc.MockResultSet
+	Count: 4
+ 
+/cayenne-server/src/test/java/org/apache/cayenne/access/types/ValueObjectTypeFactoryTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 4
+ 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<java.lang.String>
+	Count: 2
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 6
+ 
+/cayenne-server/src/test/java/org/apache/cayenne/access/types/ValueObjectTypeFactoryOrderTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 2
+ 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<java.lang.String>
+	Count: 1
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 3
+ 
+/cayenne-server/src/test/java/org/apache/cayenne/configuration/CayenneRuntimeTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+/cayenne-server/src/test/java/org/apache/cayenne/configuration/server/DefaultDbAdapterFactoryTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 6
+ 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<java.lang.String>
+	Count: 2
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 4
+ 
+	Method name: any
+	Class origin: org.mockito.ArgumentMatchers
+	Count: 2
+ 
+/cayenne-server/src/test/java/org/apache/cayenne/configuration/server/ServerRuntimeTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 2
+ 
+/cayenne-server/src/test/java/org/apache/cayenne/configuration/server/SyntheticNodeDataDomainProviderTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<java.lang.String>
+	Count: 1
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+/cayenne-server/src/test/java/org/apache/cayenne/configuration/server/DataDomainProviderTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 5
+ 
+/cayenne-server/src/test/java/org/apache/cayenne/configuration/server/ServerRuntimeBuilderTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+/cayenne-server/src/test/java/org/apache/cayenne/configuration/server/ServerRuntimeIT.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 2
+ 
+	Method name: thenCallRealMethod
+	Class origin: org.mockito.stubbing.OngoingStubbing<java.sql.Connection>
+	Count: 2
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 2
+ 
+	Method name: any
+	Class origin: org.mockito.ArgumentMatchers
+	Count: 16
+ 
+/cayenne-server/src/test/java/org/apache/cayenne/configuration/server/DefaultDataSourceFactoryLoaderTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 3
+ 
+/cayenne-server/src/test/java/org/apache/cayenne/datasource/PoolDataSourceManagerTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+	Method name: when
+	Class origin: org.mockito.stubbing.Stubber
+	Count: 1
+ 
+	Method name: doAnswer
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+/cayenne-server/src/test/java/org/apache/cayenne/datasource/ManagedPoolingDataSourceTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 2
+ 
+/cayenne-server/src/test/java/org/apache/cayenne/datasource/ManagedPoolingDataSourceIT.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 4
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 4
+ 
+	Method name: thenAnswer
+	Class origin: org.mockito.stubbing.OngoingStubbing<java.sql.Connection>
+	Count: 2
+ 
+/cayenne-server/src/test/java/org/apache/cayenne/datasource/PoolingDataSourceTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 6
+ 
+	Method name: thenAnswer
+	Class origin: org.mockito.stubbing.OngoingStubbing<java.sql.Connection>
+	Count: 1
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 6
+ 
+/cayenne-server/src/test/java/org/apache/cayenne/datasource/PoolAwareConnectionTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 6
+ 
+/cayenne-server/src/test/java/org/apache/cayenne/dba/PerAdapterProviderTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 2
+ 
+/cayenne-server/src/test/java/org/apache/cayenne/exp/parser/ASTListTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 3
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 3
+ 
+/cayenne-server/src/test/java/org/apache/cayenne/exp/parser/EvaluatorTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 9
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 9
+ 
+/cayenne-server/src/test/java/org/apache/cayenne/map/EntityResolverClassDescriptorIT.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 2
+ 
+/cayenne-server/src/test/java/org/apache/cayenne/map/DataMapTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 2
+ 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<java.io.InputStream>
+	Count: 2
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 2
+ 
+/cayenne-server/src/test/java/org/apache/cayenne/query/SelectQueryMetadataCacheKeyTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 6
+ 
+/cayenne-server/src/test/java/org/apache/cayenne/query/SQLSelectTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 4
+ 
+/cayenne-server/src/test/java/org/apache/cayenne/reflect/BasePropertyTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 2
+ 
+/cayenne-server/src/test/java/org/apache/cayenne/reflect/LifecycleCallbackRegistryTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 5
+ 
+/cayenne-server/src/test/java/org/apache/cayenne/reflect/PersistentDescriptorTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+/cayenne-server/src/test/java/org/apache/cayenne/reflect/generic/DataObjectDescriptorFactory_InheritanceMapsIT.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+/cayenne-server/src/test/java/org/apache/cayenne/reflect/generic/DataObjectDescriptorFactoryIT.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 2
+ 
+/cayenne-server/src/test/java/org/apache/cayenne/tx/TransactionCustomConnectionIT.java
+Methods Invoked: 
+	Method name: verify
+	Class origin: org.mockito.Mockito
+	Count: 2
+ 
+	Method name: any
+	Class origin: org.mockito.ArgumentMatchers
+	Count: 4
+ 
+/cayenne-server/src/test/java/org/apache/cayenne/tx/DefaultTransactionManagerIT.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 10
+ 
+/cayenne-server/src/test/java/org/apache/cayenne/util/PersistentObjectHolderTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 2
+ 
+/cayenne-web/src/test/java/org/apache/cayenne/configuration/web/WebUtilTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 2
+ 
+/cayenne-web/src/test/java/org/apache/cayenne/configuration/web/ServletContextHandlerTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 2
+ 
+/cayenne-web/src/test/java/org/apache/cayenne/configuration/web/WebConfigurationTest.java
+Methods Invoked: 
+	Method name: setInitParameter
+	Class origin: com.mockrunner.mock.web.MockFilterConfig
+	Count: 7
+ 
+	Method name: setInitParameter
+	Class origin: com.mockrunner.mock.web.MockServletConfig
+	Count: 2
+ 
+	Method name: setFilterName
+	Class origin: com.mockrunner.mock.web.MockFilterConfig
+	Count: 6
+ 
+/cayenne-web/src/test/java/org/apache/cayenne/configuration/web/CayenneFilterTest.java
+Methods Invoked: 
+	Method name: setFilterName
+	Class origin: com.mockrunner.mock.web.MockFilterConfig
+	Count: 7
+ 
+	Method name: setupServletContext
+	Class origin: com.mockrunner.mock.web.MockFilterConfig
+	Count: 7

@@ -1,0 +1,1141 @@
+Project Name,File Path,Mocking Framework,Imported Mock Line
+hive,UndProjects/hive/accumulo-handler/src/test/org/apache/hadoop/hive/accumulo/TestAccumuloConnectionParameters.java,mockito,org.mockito.Mockito
+hive,UndProjects/hive/accumulo-handler/src/test/org/apache/hadoop/hive/accumulo/TestAccumuloDefaultIndexScanner.java,mockito,org.mockito.Mockito
+hive,UndProjects/hive/accumulo-handler/src/test/org/apache/hadoop/hive/accumulo/TestAccumuloStorageHandler.java,mockito,org.mockito.Mockito
+hive,UndProjects/hive/accumulo-handler/src/test/org/apache/hadoop/hive/accumulo/TestHiveAccumuloHelper.java,mockito,org.mockito.Mockito
+hive,UndProjects/hive/accumulo-handler/src/test/org/apache/hadoop/hive/accumulo/mr/TestHiveAccumuloTableInputFormat.java,mockito,org.mockito.Mockito
+hive,UndProjects/hive/accumulo-handler/src/test/org/apache/hadoop/hive/accumulo/mr/TestHiveAccumuloTableOutputFormat.java,mockito,org.mockito.Mockito
+hive,UndProjects/hive/accumulo-handler/src/test/org/apache/hadoop/hive/accumulo/predicate/TestAccumuloPredicateHandler.java,mockito,org.mockito.Mockito
+hive,UndProjects/hive/accumulo-handler/src/test/org/apache/hadoop/hive/accumulo/serde/TestAccumuloRowSerializer.java,mockito,org.mockito.Mockito
+hive,UndProjects/hive/beeline/src/test/org/apache/hive/beeline/TestBeeLineOpts.java,mockito,static org.mockito.Mockito.*
+hive,UndProjects/hive/beeline/src/test/org/apache/hive/beeline/TestBufferedRows.java,mockito,static org.mockito.ArgumentMatchers.anyInt
+hive,UndProjects/hive/beeline/src/test/org/apache/hive/beeline/TestBufferedRows.java,mockito,static org.mockito.Mockito.mock
+hive,UndProjects/hive/beeline/src/test/org/apache/hive/beeline/TestBufferedRows.java,mockito,static org.mockito.Mockito.when
+hive,UndProjects/hive/beeline/src/test/org/apache/hive/beeline/TestBufferedRows.java,mockito,org.mockito.invocation.InvocationOnMock
+hive,UndProjects/hive/beeline/src/test/org/apache/hive/beeline/TestBufferedRows.java,mockito,org.mockito.stubbing.Answer
+hive,UndProjects/hive/beeline/src/test/org/apache/hive/beeline/TestClientCommandHookFactory.java,mockito,static org.mockito.Mockito.mock
+hive,UndProjects/hive/beeline/src/test/org/apache/hive/beeline/TestClientCommandHookFactory.java,mockito,static org.mockito.Mockito.when
+hive,UndProjects/hive/beeline/src/test/org/apache/hive/beeline/TestClientCommandHookFactory.java,mockito,static org.mockito.Mockito.verify
+hive,UndProjects/hive/beeline/src/test/org/apache/hive/beeline/TestClientCommandHookFactory.java,mockito,org.mockito.ArgumentCaptor
+hive,UndProjects/hive/beeline/src/test/org/apache/hive/beeline/TestIncrementalRows.java,mockito,static org.mockito.Mockito.mock
+hive,UndProjects/hive/beeline/src/test/org/apache/hive/beeline/TestIncrementalRows.java,mockito,static org.mockito.Mockito.times
+hive,UndProjects/hive/beeline/src/test/org/apache/hive/beeline/TestIncrementalRows.java,mockito,static org.mockito.Mockito.verify
+hive,UndProjects/hive/beeline/src/test/org/apache/hive/beeline/TestIncrementalRows.java,mockito,static org.mockito.Mockito.when
+hive,UndProjects/hive/beeline/src/test/org/apache/hive/beeline/TestIncrementalRows.java,mockito,org.mockito.invocation.InvocationOnMock
+hive,UndProjects/hive/beeline/src/test/org/apache/hive/beeline/TestIncrementalRows.java,mockito,org.mockito.stubbing.Answer
+hive,UndProjects/hive/beeline/src/test/org/apache/hive/beeline/TestJSONFileOutputFormat.java,mockito,static org.mockito.ArgumentMatchers.anyInt
+hive,UndProjects/hive/beeline/src/test/org/apache/hive/beeline/TestJSONFileOutputFormat.java,mockito,org.mockito.ArgumentCaptor
+hive,UndProjects/hive/beeline/src/test/org/apache/hive/beeline/TestJSONFileOutputFormat.java,mockito,org.mockito.Mockito
+hive,UndProjects/hive/beeline/src/test/org/apache/hive/beeline/TestJSONFileOutputFormat.java,mockito,org.mockito.invocation.InvocationOnMock
+hive,UndProjects/hive/beeline/src/test/org/apache/hive/beeline/TestJSONFileOutputFormat.java,mockito,org.mockito.stubbing.Answer
+hive,UndProjects/hive/beeline/src/test/org/apache/hive/beeline/TestJSONFileOutputFormat.java,mockito,static org.mockito.Mockito.mock
+hive,UndProjects/hive/beeline/src/test/org/apache/hive/beeline/TestJSONFileOutputFormat.java,mockito,static org.mockito.Mockito.spy
+hive,UndProjects/hive/beeline/src/test/org/apache/hive/beeline/TestJSONFileOutputFormat.java,mockito,static org.mockito.Mockito.when
+hive,UndProjects/hive/beeline/src/test/org/apache/hive/beeline/TestJSONOutputFormat.java,mockito,static org.mockito.ArgumentMatchers.anyInt
+hive,UndProjects/hive/beeline/src/test/org/apache/hive/beeline/TestJSONOutputFormat.java,mockito,org.mockito.ArgumentCaptor
+hive,UndProjects/hive/beeline/src/test/org/apache/hive/beeline/TestJSONOutputFormat.java,mockito,org.mockito.Mockito
+hive,UndProjects/hive/beeline/src/test/org/apache/hive/beeline/TestJSONOutputFormat.java,mockito,org.mockito.invocation.InvocationOnMock
+hive,UndProjects/hive/beeline/src/test/org/apache/hive/beeline/TestJSONOutputFormat.java,mockito,org.mockito.stubbing.Answer
+hive,UndProjects/hive/beeline/src/test/org/apache/hive/beeline/TestJSONOutputFormat.java,mockito,static org.mockito.Mockito.mock
+hive,UndProjects/hive/beeline/src/test/org/apache/hive/beeline/TestJSONOutputFormat.java,mockito,static org.mockito.Mockito.spy
+hive,UndProjects/hive/beeline/src/test/org/apache/hive/beeline/TestJSONOutputFormat.java,mockito,static org.mockito.Mockito.when
+hive,UndProjects/hive/beeline/src/test/org/apache/hive/beeline/TestTableOutputFormat.java,mockito,static org.mockito.ArgumentMatchers.anyInt
+hive,UndProjects/hive/beeline/src/test/org/apache/hive/beeline/TestTableOutputFormat.java,mockito,static org.mockito.Mockito.when
+hive,UndProjects/hive/beeline/src/test/org/apache/hive/beeline/TestTableOutputFormat.java,mockito,org.mockito.invocation.InvocationOnMock
+hive,UndProjects/hive/beeline/src/test/org/apache/hive/beeline/TestTableOutputFormat.java,mockito,org.mockito.stubbing.Answer
+hive,UndProjects/hive/beeline/src/test/org/apache/hive/beeline/TestTableOutputFormat.java,mockito,static org.mockito.Mockito.mock
+hive,UndProjects/hive/beeline/src/test/org/apache/hive/beeline/schematool/TestHiveSchemaTool.java,mockito,org.mockito.Mock
+hive,UndProjects/hive/beeline/src/test/org/apache/hive/beeline/schematool/TestHiveSchemaTool.java,powermock,org.powermock.core.classloader.annotations.PowerMockIgnore
+hive,UndProjects/hive/beeline/src/test/org/apache/hive/beeline/schematool/TestHiveSchemaTool.java,powermock,org.powermock.core.classloader.annotations.PrepareForTest
+hive,UndProjects/hive/beeline/src/test/org/apache/hive/beeline/schematool/TestHiveSchemaTool.java,powermock,org.powermock.modules.junit4.PowerMockRunner
+hive,UndProjects/hive/beeline/src/test/org/apache/hive/beeline/schematool/TestHiveSchemaTool.java,mockito,static org.mockito.ArgumentMatchers.eq
+hive,UndProjects/hive/beeline/src/test/org/apache/hive/beeline/schematool/TestHiveSchemaTool.java,mockito,static org.mockito.ArgumentMatchers.same
+hive,UndProjects/hive/beeline/src/test/org/apache/hive/beeline/schematool/TestHiveSchemaTool.java,mockito,static org.mockito.Mockito.when
+hive,UndProjects/hive/beeline/src/test/org/apache/hive/beeline/schematool/TestHiveSchemaTool.java,powermock,static org.powermock.api.mockito.PowerMockito.mockStatic
+hive,UndProjects/hive/cli/src/test/org/apache/hadoop/hive/cli/TestCliDriverMethods.java,mockito,static org.mockito.ArgumentMatchers.anyBoolean
+hive,UndProjects/hive/cli/src/test/org/apache/hadoop/hive/cli/TestCliDriverMethods.java,mockito,static org.mockito.ArgumentMatchers.anyString
+hive,UndProjects/hive/cli/src/test/org/apache/hadoop/hive/cli/TestCliDriverMethods.java,mockito,static org.mockito.ArgumentMatchers.eq
+hive,UndProjects/hive/cli/src/test/org/apache/hadoop/hive/cli/TestCliDriverMethods.java,mockito,static org.mockito.Mockito.mock
+hive,UndProjects/hive/cli/src/test/org/apache/hadoop/hive/cli/TestCliDriverMethods.java,mockito,static org.mockito.Mockito.never
+hive,UndProjects/hive/cli/src/test/org/apache/hadoop/hive/cli/TestCliDriverMethods.java,mockito,static org.mockito.Mockito.times
+hive,UndProjects/hive/cli/src/test/org/apache/hadoop/hive/cli/TestCliDriverMethods.java,mockito,static org.mockito.Mockito.verify
+hive,UndProjects/hive/cli/src/test/org/apache/hadoop/hive/cli/TestCliDriverMethods.java,mockito,static org.mockito.Mockito.when
+hive,UndProjects/hive/common/src/test/org/apache/hadoop/hive/common/TestBlobStorageUtils.java,mockito,static org.mockito.Mockito.doReturn
+hive,UndProjects/hive/common/src/test/org/apache/hadoop/hive/common/TestBlobStorageUtils.java,mockito,static org.mockito.Mockito.mock
+hive,UndProjects/hive/common/src/test/org/apache/hadoop/hive/common/TestFileUtils.java,mockito,static org.mockito.ArgumentMatchers.any
+hive,UndProjects/hive/common/src/test/org/apache/hadoop/hive/common/TestFileUtils.java,mockito,static org.mockito.Mockito.mock
+hive,UndProjects/hive/common/src/test/org/apache/hadoop/hive/common/TestFileUtils.java,mockito,static org.mockito.Mockito.verify
+hive,UndProjects/hive/common/src/test/org/apache/hadoop/hive/common/TestFileUtils.java,mockito,static org.mockito.Mockito.when
+hive,UndProjects/hive/druid-handler/src/test/org/apache/hadoop/hive/druid/TestDruidStorageHandler.java,mockito,org.mockito.Mockito
+hive,UndProjects/hive/druid-handler/src/test/org/apache/hadoop/hive/druid/serde/TestDruidSerDe.java,mockito,static org.mockito.ArgumentMatchers.any
+hive,UndProjects/hive/druid-handler/src/test/org/apache/hadoop/hive/druid/serde/TestDruidSerDe.java,mockito,static org.mockito.ArgumentMatchers.anyObject
+hive,UndProjects/hive/druid-handler/src/test/org/apache/hadoop/hive/druid/serde/TestDruidSerDe.java,mockito,static org.mockito.Mockito.mock
+hive,UndProjects/hive/druid-handler/src/test/org/apache/hadoop/hive/druid/serde/TestDruidSerDe.java,mockito,static org.mockito.Mockito.when
+hive,UndProjects/hive/hbase-handler/src/test/org/apache/hadoop/hive/hbase/TestHiveHBaseTableOutputFormat.java,mockito,org.mockito.Mockito
+hive,UndProjects/hive/hcatalog/core/src/test/java/org/apache/hive/hcatalog/cli/SemanticAnalysis/TestHCatAuthUtil.java,mockito,org.mockito.Mockito
+hive,UndProjects/hive/hcatalog/webhcat/java-client/src/test/java/org/apache/hive/hcatalog/api/repl/ReplicationV1CompatRule.java,mockito,static org.mockito.Mockito.mock
+hive,UndProjects/hive/hcatalog/webhcat/java-client/src/test/java/org/apache/hive/hcatalog/api/repl/ReplicationV1CompatRule.java,mockito,static org.mockito.Mockito.when
+hive,UndProjects/hive/hcatalog/webhcat/svr/src/test/java/org/apache/hive/hcatalog/templeton/ConcurrentJobRequestsTestBase.java,mockito,org.mockito.Mockito
+hive,UndProjects/hive/hcatalog/webhcat/svr/src/test/java/org/apache/hive/hcatalog/templeton/ConcurrentJobRequestsTestBase.java,mockito,org.mockito.stubbing.Answer
+hive,UndProjects/hive/hcatalog/webhcat/svr/src/test/java/org/apache/hive/hcatalog/templeton/ConcurrentJobRequestsTestBase.java,mockito,static org.mockito.ArgumentMatchers.any
+hive,UndProjects/hive/hcatalog/webhcat/svr/src/test/java/org/apache/hive/hcatalog/templeton/ConcurrentJobRequestsTestBase.java,mockito,static org.mockito.Mockito.doAnswer
+hive,UndProjects/hive/hcatalog/webhcat/svr/src/test/java/org/apache/hive/hcatalog/templeton/ConcurrentJobRequestsTestBase.java,mockito,static org.mockito.Mockito.doNothing
+hive,UndProjects/hive/hcatalog/webhcat/svr/src/test/java/org/apache/hive/hcatalog/templeton/ConcurrentJobRequestsTestBase.java,mockito,static org.mockito.Mockito.doReturn
+hive,UndProjects/hive/hcatalog/webhcat/svr/src/test/java/org/apache/hive/hcatalog/templeton/MockAnswerTestHelper.java,mockito,org.mockito.invocation.InvocationOnMock
+hive,UndProjects/hive/hcatalog/webhcat/svr/src/test/java/org/apache/hive/hcatalog/templeton/MockAnswerTestHelper.java,mockito,org.mockito.stubbing.Answer
+hive,UndProjects/hive/iceberg/iceberg-catalog/src/test/java/org/apache/iceberg/hive/TestClientPoolImpl.java,mockito,org.mockito.Mockito
+hive,UndProjects/hive/iceberg/iceberg-catalog/src/test/java/org/apache/iceberg/hive/TestHiveCommitLocks.java,mockito,static org.mockito.Matchers.any
+hive,UndProjects/hive/iceberg/iceberg-catalog/src/test/java/org/apache/iceberg/hive/TestHiveCommitLocks.java,mockito,static org.mockito.Matchers.eq
+hive,UndProjects/hive/iceberg/iceberg-catalog/src/test/java/org/apache/iceberg/hive/TestHiveCommitLocks.java,mockito,static org.mockito.Mockito.doNothing
+hive,UndProjects/hive/iceberg/iceberg-catalog/src/test/java/org/apache/iceberg/hive/TestHiveCommitLocks.java,mockito,static org.mockito.Mockito.doReturn
+hive,UndProjects/hive/iceberg/iceberg-catalog/src/test/java/org/apache/iceberg/hive/TestHiveCommitLocks.java,mockito,static org.mockito.Mockito.spy
+hive,UndProjects/hive/iceberg/iceberg-catalog/src/test/java/org/apache/iceberg/hive/TestHiveCommitLocks.java,mockito,static org.mockito.Mockito.when
+hive,UndProjects/hive/iceberg/iceberg-catalog/src/test/java/org/apache/iceberg/hive/TestHiveCommits.java,mockito,org.mockito.ArgumentCaptor
+hive,UndProjects/hive/iceberg/iceberg-catalog/src/test/java/org/apache/iceberg/hive/TestHiveCommits.java,mockito,static org.mockito.Matchers.any
+hive,UndProjects/hive/iceberg/iceberg-catalog/src/test/java/org/apache/iceberg/hive/TestHiveCommits.java,mockito,static org.mockito.Matchers.anyBoolean
+hive,UndProjects/hive/iceberg/iceberg-catalog/src/test/java/org/apache/iceberg/hive/TestHiveCommits.java,mockito,static org.mockito.Mockito.doAnswer
+hive,UndProjects/hive/iceberg/iceberg-catalog/src/test/java/org/apache/iceberg/hive/TestHiveCommits.java,mockito,static org.mockito.Mockito.doThrow
+hive,UndProjects/hive/iceberg/iceberg-catalog/src/test/java/org/apache/iceberg/hive/TestHiveCommits.java,mockito,static org.mockito.Mockito.spy
+hive,UndProjects/hive/iceberg/iceberg-catalog/src/test/java/org/apache/iceberg/hive/TestHiveCommits.java,mockito,static org.mockito.Mockito.when
+hive,UndProjects/hive/iceberg/iceberg-handler/src/test/java/org/apache/iceberg/mr/hive/TestHiveIcebergMigration.java,mockito,org.mockito.ArgumentMatchers
+hive,UndProjects/hive/iceberg/iceberg-handler/src/test/java/org/apache/iceberg/mr/hive/TestHiveIcebergMigration.java,mockito,org.mockito.MockedStatic
+hive,UndProjects/hive/iceberg/iceberg-handler/src/test/java/org/apache/iceberg/mr/hive/TestHiveIcebergMigration.java,mockito,org.mockito.Mockito
+hive,UndProjects/hive/iceberg/iceberg-handler/src/test/java/org/apache/iceberg/mr/hive/TestHiveIcebergOutputCommitter.java,mockito,org.mockito.ArgumentCaptor
+hive,UndProjects/hive/iceberg/iceberg-handler/src/test/java/org/apache/iceberg/mr/hive/TestHiveIcebergOutputCommitter.java,mockito,org.mockito.Mockito
+hive,UndProjects/hive/itests/hive-unit/src/test/java/org/apache/hadoop/hive/io/TestHadoopFileStatus.java,mockito,org.mockito.Mockito
+hive,UndProjects/hive/itests/hive-unit/src/test/java/org/apache/hadoop/hive/ql/security/authorization/plugin/TestHiveAuthorizerCheckInvocation.java,mockito,static org.mockito.ArgumentMatchers.any
+hive,UndProjects/hive/itests/hive-unit/src/test/java/org/apache/hadoop/hive/ql/security/authorization/plugin/TestHiveAuthorizerCheckInvocation.java,mockito,static org.mockito.Mockito.reset
+hive,UndProjects/hive/itests/hive-unit/src/test/java/org/apache/hadoop/hive/ql/security/authorization/plugin/TestHiveAuthorizerCheckInvocation.java,mockito,static org.mockito.Mockito.verify
+hive,UndProjects/hive/itests/hive-unit/src/test/java/org/apache/hadoop/hive/ql/security/authorization/plugin/TestHiveAuthorizerCheckInvocation.java,mockito,static org.mockito.Mockito.when
+hive,UndProjects/hive/itests/hive-unit/src/test/java/org/apache/hadoop/hive/ql/security/authorization/plugin/TestHiveAuthorizerCheckInvocation.java,mockito,org.mockito.ArgumentCaptor
+hive,UndProjects/hive/itests/hive-unit/src/test/java/org/apache/hadoop/hive/ql/security/authorization/plugin/TestHiveAuthorizerCheckInvocation.java,mockito,org.mockito.Mockito
+hive,UndProjects/hive/itests/hive-unit/src/test/java/org/apache/hadoop/hive/ql/security/authorization/plugin/TestHiveAuthorizerCheckInvocation.java,mockito,org.mockito.invocation.InvocationOnMock
+hive,UndProjects/hive/itests/hive-unit/src/test/java/org/apache/hadoop/hive/ql/security/authorization/plugin/TestHiveAuthorizerCheckInvocation.java,mockito,org.mockito.stubbing.Answer
+hive,UndProjects/hive/itests/hive-unit/src/test/java/org/apache/hadoop/hive/ql/security/authorization/plugin/TestHiveAuthorizerShowFilters.java,mockito,static org.mockito.ArgumentMatchers.any
+hive,UndProjects/hive/itests/hive-unit/src/test/java/org/apache/hadoop/hive/ql/security/authorization/plugin/TestHiveAuthorizerShowFilters.java,mockito,org.mockito.Mockito
+hive,UndProjects/hive/itests/hive-unit/src/test/java/org/apache/hadoop/hive/ql/txn/compactor/TestCrudCompactorOnTez.java,mockito,static org.mockito.Mockito.doAnswer
+hive,UndProjects/hive/itests/hive-unit/src/test/java/org/apache/hadoop/hive/ql/txn/compactor/TestCrudCompactorOnTez.java,mockito,static org.mockito.Mockito.mock
+hive,UndProjects/hive/itests/hive-unit/src/test/java/org/apache/hadoop/hive/serde2/TestSerdeWithFieldComments.java,mockito,static org.mockito.Mockito.mock
+hive,UndProjects/hive/itests/hive-unit/src/test/java/org/apache/hadoop/hive/serde2/TestSerdeWithFieldComments.java,mockito,static org.mockito.Mockito.when
+hive,UndProjects/hive/itests/hive-unit/src/test/java/org/apache/hive/jdbc/authorization/TestCLIAuthzSessionContext.java,mockito,org.mockito.Mockito
+hive,UndProjects/hive/itests/hive-unit/src/test/java/org/apache/hive/jdbc/authorization/TestHS2AuthzContext.java,mockito,org.mockito.ArgumentCaptor
+hive,UndProjects/hive/itests/hive-unit/src/test/java/org/apache/hive/jdbc/authorization/TestHS2AuthzContext.java,mockito,org.mockito.Mockito
+hive,UndProjects/hive/itests/hive-unit/src/test/java/org/apache/hive/jdbc/authorization/TestHS2AuthzContext.java,mockito,static org.mockito.ArgumentMatchers.any
+hive,UndProjects/hive/itests/hive-unit/src/test/java/org/apache/hive/jdbc/authorization/TestHS2AuthzContext.java,mockito,static org.mockito.ArgumentMatchers.anyList
+hive,UndProjects/hive/itests/hive-unit/src/test/java/org/apache/hive/jdbc/authorization/TestHS2AuthzContext.java,mockito,static org.mockito.Mockito.verify
+hive,UndProjects/hive/itests/hive-unit/src/test/java/org/apache/hive/jdbc/authorization/TestHS2AuthzSessionContext.java,mockito,org.mockito.Mockito
+hive,UndProjects/hive/itests/hive-unit/src/test/java/org/apache/hive/service/cli/session/TestHiveSessionImpl.java,mockito,static org.mockito.ArgumentMatchers.eq
+hive,UndProjects/hive/itests/hive-unit/src/test/java/org/apache/hive/service/cli/session/TestHiveSessionImpl.java,mockito,static org.mockito.ArgumentMatchers.same
+hive,UndProjects/hive/itests/hive-unit/src/test/java/org/apache/hive/service/cli/session/TestHiveSessionImpl.java,mockito,org.mockito.Mockito
+hive,UndProjects/hive/itests/hive-unit/src/test/java/org/apache/hive/service/cli/thrift/TestThriftHttpCLIServiceFeatures.java,mockito,static org.mockito.ArgumentMatchers.any
+hive,UndProjects/hive/itests/hive-unit/src/test/java/org/apache/hive/service/cli/thrift/TestThriftHttpCLIServiceFeatures.java,mockito,static org.mockito.Mockito.verify
+hive,UndProjects/hive/itests/hive-unit/src/test/java/org/apache/hive/service/cli/thrift/TestThriftHttpCLIServiceFeatures.java,mockito,org.mockito.ArgumentCaptor
+hive,UndProjects/hive/itests/hive-unit/src/test/java/org/apache/hive/service/cli/thrift/TestThriftHttpCLIServiceFeatures.java,mockito,org.mockito.Matchers
+hive,UndProjects/hive/itests/hive-unit/src/test/java/org/apache/hive/service/cli/thrift/TestThriftHttpCLIServiceFeatures.java,mockito,org.mockito.Mockito
+hive,UndProjects/hive/jdbc-handler/src/test/java/org/apache/hive/storage/jdbc/TestJdbcInputFormat.java,mockito,org.mockito.BDDMockito
+hive,UndProjects/hive/jdbc-handler/src/test/java/org/apache/hive/storage/jdbc/TestJdbcInputFormat.java,mockito,org.mockito.Mock
+hive,UndProjects/hive/jdbc-handler/src/test/java/org/apache/hive/storage/jdbc/TestJdbcInputFormat.java,powermock,org.powermock.api.mockito.PowerMockito
+hive,UndProjects/hive/jdbc-handler/src/test/java/org/apache/hive/storage/jdbc/TestJdbcInputFormat.java,powermock,org.powermock.core.classloader.annotations.PrepareForTest
+hive,UndProjects/hive/jdbc-handler/src/test/java/org/apache/hive/storage/jdbc/TestJdbcInputFormat.java,powermock,org.powermock.modules.junit4.PowerMockRunner
+hive,UndProjects/hive/jdbc-handler/src/test/java/org/apache/hive/storage/jdbc/TestJdbcInputFormat.java,mockito,static org.mockito.ArgumentMatchers.any
+hive,UndProjects/hive/jdbc-handler/src/test/java/org/apache/hive/storage/jdbc/TestJdbcInputFormat.java,mockito,static org.mockito.ArgumentMatchers.anyBoolean
+hive,UndProjects/hive/jdbc-handler/src/test/java/org/apache/hive/storage/jdbc/TestJdbcInputFormat.java,mockito,static org.mockito.Mockito.when
+hive,UndProjects/hive/jdbc/src/test/org/apache/hive/jdbc/TestHiveBaseResultSet.java,mockito,static org.mockito.Mockito.when
+hive,UndProjects/hive/jdbc/src/test/org/apache/hive/jdbc/TestHiveBaseResultSet.java,mockito,org.mockito.Mockito
+hive,UndProjects/hive/jdbc/src/test/org/apache/hive/jdbc/TestHiveBaseResultSet.java,mockito,org.mockito.internal.util.reflection.FieldSetter
+hive,UndProjects/hive/jdbc/src/test/org/apache/hive/jdbc/TestHivePreparedStatement.java,mockito,static org.mockito.ArgumentMatchers.any
+hive,UndProjects/hive/jdbc/src/test/org/apache/hive/jdbc/TestHivePreparedStatement.java,mockito,static org.mockito.Mockito.verify
+hive,UndProjects/hive/jdbc/src/test/org/apache/hive/jdbc/TestHivePreparedStatement.java,mockito,static org.mockito.Mockito.when
+hive,UndProjects/hive/jdbc/src/test/org/apache/hive/jdbc/TestHivePreparedStatement.java,mockito,static org.mockito.Mockito.times
+hive,UndProjects/hive/jdbc/src/test/org/apache/hive/jdbc/TestHivePreparedStatement.java,mockito,org.mockito.ArgumentCaptor
+hive,UndProjects/hive/jdbc/src/test/org/apache/hive/jdbc/TestHivePreparedStatement.java,mockito,org.mockito.Mock
+hive,UndProjects/hive/jdbc/src/test/org/apache/hive/jdbc/TestHivePreparedStatement.java,mockito,org.mockito.MockitoAnnotations
+hive,UndProjects/hive/jdbc/src/test/org/apache/hive/jdbc/TestHiveStatement.java,mockito,static org.mockito.Mockito.mock
+hive,UndProjects/hive/kafka-handler/src/test/org/apache/hadoop/hive/kafka/AvroBytesConverterTest.java,confluent,io.confluent.kafka.schemaregistry.client.MockSchemaRegistryClient
+hive,UndProjects/hive/kafka-handler/src/test/org/apache/hadoop/hive/kafka/KafkaStorageHandlerTest.java,mockito,org.mockito.Mockito
+hive,UndProjects/hive/kafka-handler/src/test/org/apache/hadoop/hive/kafka/TransactionalKafkaWriterTest.java,mockito,org.mockito.Mockito
+hive,UndProjects/hive/llap-client/src/test/org/apache/hadoop/hive/llap/TestAsyncPbRpcProxy.java,mockito,static org.mockito.Mockito.mock
+hive,UndProjects/hive/llap-client/src/test/org/apache/hadoop/hive/llap/registry/impl/TestLlapZookeeperRegistryImpl.java,mockito,org.mockito.internal.util.reflection.Fields
+hive,UndProjects/hive/llap-client/src/test/org/apache/hadoop/hive/llap/registry/impl/TestLlapZookeeperRegistryImpl.java,mockito,org.mockito.internal.util.reflection.InstanceField
+hive,UndProjects/hive/llap-client/src/test/org/apache/hadoop/hive/registry/impl/TestZookeeperUtils.java,mockito,org.mockito.BDDMockito
+hive,UndProjects/hive/llap-client/src/test/org/apache/hadoop/hive/registry/impl/TestZookeeperUtils.java,mockito,org.mockito.Mockito
+hive,UndProjects/hive/llap-client/src/test/org/apache/hadoop/hive/registry/impl/TestZookeeperUtils.java,powermock,org.powermock.api.mockito.PowerMockito
+hive,UndProjects/hive/llap-client/src/test/org/apache/hadoop/hive/registry/impl/TestZookeeperUtils.java,powermock,org.powermock.core.classloader.annotations.PrepareForTest
+hive,UndProjects/hive/llap-client/src/test/org/apache/hadoop/hive/registry/impl/TestZookeeperUtils.java,powermock,org.powermock.modules.junit4.PowerMockRunner
+hive,UndProjects/hive/llap-common/src/test/org/apache/hadoop/hive/llap/AsyncResponseHandlerTest.java,mockito,static org.mockito.Matchers.any
+hive,UndProjects/hive/llap-common/src/test/org/apache/hadoop/hive/llap/AsyncResponseHandlerTest.java,mockito,static org.mockito.Mockito.mock
+hive,UndProjects/hive/llap-common/src/test/org/apache/hadoop/hive/llap/AsyncResponseHandlerTest.java,mockito,static org.mockito.Mockito.times
+hive,UndProjects/hive/llap-common/src/test/org/apache/hadoop/hive/llap/AsyncResponseHandlerTest.java,mockito,static org.mockito.Mockito.verify
+hive,UndProjects/hive/llap-server/src/test/org/apache/hadoop/hive/llap/cache/TestBasicLlapCacheHydration.java,mockito,org.mockito.ArgumentCaptor
+hive,UndProjects/hive/llap-server/src/test/org/apache/hadoop/hive/llap/cache/TestBasicLlapCacheHydration.java,mockito,static org.mockito.ArgumentCaptor.forClass
+hive,UndProjects/hive/llap-server/src/test/org/apache/hadoop/hive/llap/cache/TestBasicLlapCacheHydration.java,mockito,static org.mockito.Mockito.mock
+hive,UndProjects/hive/llap-server/src/test/org/apache/hadoop/hive/llap/cache/TestBasicLlapCacheHydration.java,mockito,static org.mockito.Mockito.verify
+hive,UndProjects/hive/llap-server/src/test/org/apache/hadoop/hive/llap/cache/TestBasicLlapCacheHydration.java,mockito,static org.mockito.Mockito.when
+hive,UndProjects/hive/llap-server/src/test/org/apache/hadoop/hive/llap/cache/TestCacheAllocationsEvictionsCycles.java,mockito,org.mockito.Mockito
+hive,UndProjects/hive/llap-server/src/test/org/apache/hadoop/hive/llap/cache/TestCacheContentsTracker.java,mockito,static org.mockito.Mockito.doAnswer
+hive,UndProjects/hive/llap-server/src/test/org/apache/hadoop/hive/llap/cache/TestCacheContentsTracker.java,mockito,static org.mockito.Mockito.mock
+hive,UndProjects/hive/llap-server/src/test/org/apache/hadoop/hive/llap/cache/TestLowLevelLrfuCachePolicy.java,mockito,static org.mockito.ArgumentMatchers.anyLong
+hive,UndProjects/hive/llap-server/src/test/org/apache/hadoop/hive/llap/cache/TestLowLevelLrfuCachePolicy.java,mockito,static org.mockito.Mockito.doAnswer
+hive,UndProjects/hive/llap-server/src/test/org/apache/hadoop/hive/llap/cache/TestLowLevelLrfuCachePolicy.java,mockito,static org.mockito.Mockito.mock
+hive,UndProjects/hive/llap-server/src/test/org/apache/hadoop/hive/llap/cache/TestLowLevelLrfuCachePolicy.java,mockito,org.mockito.invocation.InvocationOnMock
+hive,UndProjects/hive/llap-server/src/test/org/apache/hadoop/hive/llap/cache/TestLowLevelLrfuCachePolicy.java,mockito,org.mockito.stubbing.Answer
+hive,UndProjects/hive/llap-server/src/test/org/apache/hadoop/hive/llap/daemon/impl/TaskExecutorTestHelpers.java,mockito,static org.mockito.Mockito.mock
+hive,UndProjects/hive/llap-server/src/test/org/apache/hadoop/hive/llap/daemon/impl/TestContainerRunnerImpl.java,mockito,static org.mockito.Mockito.mock
+hive,UndProjects/hive/llap-server/src/test/org/apache/hadoop/hive/llap/daemon/impl/TestLlapDaemon.java,mockito,org.mockito.ArgumentCaptor
+hive,UndProjects/hive/llap-server/src/test/org/apache/hadoop/hive/llap/daemon/impl/TestLlapDaemon.java,mockito,org.mockito.Captor
+hive,UndProjects/hive/llap-server/src/test/org/apache/hadoop/hive/llap/daemon/impl/TestLlapDaemon.java,mockito,org.mockito.Mock
+hive,UndProjects/hive/llap-server/src/test/org/apache/hadoop/hive/llap/daemon/impl/TestLlapDaemon.java,mockito,org.mockito.internal.util.reflection.Fields
+hive,UndProjects/hive/llap-server/src/test/org/apache/hadoop/hive/llap/daemon/impl/TestLlapDaemon.java,mockito,org.mockito.internal.util.reflection.InstanceField
+hive,UndProjects/hive/llap-server/src/test/org/apache/hadoop/hive/llap/daemon/impl/TestLlapDaemon.java,mockito,static org.mockito.Mockito.verify
+hive,UndProjects/hive/llap-server/src/test/org/apache/hadoop/hive/llap/daemon/impl/TestLlapDaemon.java,mockito,static org.mockito.MockitoAnnotations.initMocks
+hive,UndProjects/hive/llap-server/src/test/org/apache/hadoop/hive/llap/daemon/impl/TestLlapDaemonProtocolServerImpl.java,mockito,static org.mockito.Mockito.*
+hive,UndProjects/hive/llap-server/src/test/org/apache/hadoop/hive/llap/daemon/impl/TestTaskExecutorService.java,mockito,static org.mockito.Mockito.reset
+hive,UndProjects/hive/llap-server/src/test/org/apache/hadoop/hive/llap/daemon/impl/TestTaskExecutorService.java,mockito,static org.mockito.Mockito.verify
+hive,UndProjects/hive/llap-server/src/test/org/apache/hadoop/hive/llap/daemon/impl/TestTaskExecutorService.java,mockito,static org.mockito.MockitoAnnotations.initMocks
+hive,UndProjects/hive/llap-server/src/test/org/apache/hadoop/hive/llap/daemon/impl/TestTaskExecutorService.java,mockito,org.mockito.Mock
+hive,UndProjects/hive/llap-server/src/test/org/apache/hadoop/hive/llap/daemon/impl/comparator/TestAMReporter.java,mockito,org.mockito.invocation.InvocationOnMock
+hive,UndProjects/hive/llap-server/src/test/org/apache/hadoop/hive/llap/daemon/impl/comparator/TestAMReporter.java,mockito,org.mockito.stubbing.Answer
+hive,UndProjects/hive/llap-server/src/test/org/apache/hadoop/hive/llap/daemon/impl/comparator/TestAMReporter.java,mockito,static org.mockito.ArgumentMatchers.any
+hive,UndProjects/hive/llap-server/src/test/org/apache/hadoop/hive/llap/daemon/impl/comparator/TestAMReporter.java,mockito,static org.mockito.ArgumentMatchers.anyInt
+hive,UndProjects/hive/llap-server/src/test/org/apache/hadoop/hive/llap/daemon/impl/comparator/TestAMReporter.java,mockito,static org.mockito.Mockito.doAnswer
+hive,UndProjects/hive/llap-server/src/test/org/apache/hadoop/hive/llap/daemon/impl/comparator/TestAMReporter.java,mockito,static org.mockito.Mockito.mock
+hive,UndProjects/hive/llap-server/src/test/org/apache/hadoop/hive/llap/daemon/impl/comparator/TestAMReporter.java,mockito,static org.mockito.Mockito.when
+hive,UndProjects/hive/llap-server/src/test/org/apache/hadoop/hive/llap/io/encoded/TestVectorDeserializeOrcWriter.java,mockito,static org.mockito.Mockito.CALLS_REAL_METHODS
+hive,UndProjects/hive/llap-server/src/test/org/apache/hadoop/hive/llap/io/encoded/TestVectorDeserializeOrcWriter.java,mockito,static org.mockito.Mockito.mock
+hive,UndProjects/hive/llap-server/src/test/org/apache/hadoop/hive/llap/io/encoded/TestVectorDeserializeOrcWriter.java,mockito,static org.mockito.Mockito.withSettings
+hive,UndProjects/hive/llap-tez/src/test/org/apache/hadoop/hive/llap/tezplugins/TestLlapTaskCommunicator.java,mockito,static org.mockito.ArgumentMatchers.any
+hive,UndProjects/hive/llap-tez/src/test/org/apache/hadoop/hive/llap/tezplugins/TestLlapTaskCommunicator.java,mockito,static org.mockito.ArgumentMatchers.eq
+hive,UndProjects/hive/llap-tez/src/test/org/apache/hadoop/hive/llap/tezplugins/TestLlapTaskCommunicator.java,mockito,static org.mockito.Mockito.doReturn
+hive,UndProjects/hive/llap-tez/src/test/org/apache/hadoop/hive/llap/tezplugins/TestLlapTaskCommunicator.java,mockito,static org.mockito.Mockito.mock
+hive,UndProjects/hive/llap-tez/src/test/org/apache/hadoop/hive/llap/tezplugins/TestLlapTaskCommunicator.java,mockito,static org.mockito.Mockito.times
+hive,UndProjects/hive/llap-tez/src/test/org/apache/hadoop/hive/llap/tezplugins/TestLlapTaskCommunicator.java,mockito,static org.mockito.Mockito.verify
+hive,UndProjects/hive/llap-tez/src/test/org/apache/hadoop/hive/llap/tezplugins/TestLlapTaskCommunicator.java,mockito,org.mockito.invocation.InvocationOnMock
+hive,UndProjects/hive/llap-tez/src/test/org/apache/hadoop/hive/llap/tezplugins/TestLlapTaskCommunicator.java,mockito,org.mockito.stubbing.Answer
+hive,UndProjects/hive/llap-tez/src/test/org/apache/hadoop/hive/llap/tezplugins/TestLlapTaskSchedulerService.java,mockito,static org.mockito.ArgumentMatchers.any
+hive,UndProjects/hive/llap-tez/src/test/org/apache/hadoop/hive/llap/tezplugins/TestLlapTaskSchedulerService.java,mockito,static org.mockito.ArgumentMatchers.eq
+hive,UndProjects/hive/llap-tez/src/test/org/apache/hadoop/hive/llap/tezplugins/TestLlapTaskSchedulerService.java,mockito,static org.mockito.Mockito.atLeast
+hive,UndProjects/hive/llap-tez/src/test/org/apache/hadoop/hive/llap/tezplugins/TestLlapTaskSchedulerService.java,mockito,static org.mockito.Mockito.doReturn
+hive,UndProjects/hive/llap-tez/src/test/org/apache/hadoop/hive/llap/tezplugins/TestLlapTaskSchedulerService.java,mockito,static org.mockito.Mockito.mock
+hive,UndProjects/hive/llap-tez/src/test/org/apache/hadoop/hive/llap/tezplugins/TestLlapTaskSchedulerService.java,mockito,static org.mockito.Mockito.never
+hive,UndProjects/hive/llap-tez/src/test/org/apache/hadoop/hive/llap/tezplugins/TestLlapTaskSchedulerService.java,mockito,static org.mockito.Mockito.reset
+hive,UndProjects/hive/llap-tez/src/test/org/apache/hadoop/hive/llap/tezplugins/TestLlapTaskSchedulerService.java,mockito,static org.mockito.Mockito.times
+hive,UndProjects/hive/llap-tez/src/test/org/apache/hadoop/hive/llap/tezplugins/TestLlapTaskSchedulerService.java,mockito,static org.mockito.Mockito.verify
+hive,UndProjects/hive/llap-tez/src/test/org/apache/hadoop/hive/llap/tezplugins/TestLlapTaskSchedulerService.java,mockito,org.mockito.ArgumentCaptor
+hive,UndProjects/hive/llap-tez/src/test/org/apache/hadoop/hive/llap/tezplugins/metrics/TestBlacklistingLlapMetricsListener.java,mockito,org.mockito.ArgumentCaptor
+hive,UndProjects/hive/llap-tez/src/test/org/apache/hadoop/hive/llap/tezplugins/metrics/TestBlacklistingLlapMetricsListener.java,mockito,org.mockito.Mock
+hive,UndProjects/hive/llap-tez/src/test/org/apache/hadoop/hive/llap/tezplugins/metrics/TestBlacklistingLlapMetricsListener.java,mockito,static org.mockito.ArgumentMatchers.any
+hive,UndProjects/hive/llap-tez/src/test/org/apache/hadoop/hive/llap/tezplugins/metrics/TestBlacklistingLlapMetricsListener.java,mockito,static org.mockito.ArgumentMatchers.anyLong
+hive,UndProjects/hive/llap-tez/src/test/org/apache/hadoop/hive/llap/tezplugins/metrics/TestBlacklistingLlapMetricsListener.java,mockito,static org.mockito.ArgumentMatchers.anyString
+hive,UndProjects/hive/llap-tez/src/test/org/apache/hadoop/hive/llap/tezplugins/metrics/TestBlacklistingLlapMetricsListener.java,mockito,static org.mockito.Mockito.never
+hive,UndProjects/hive/llap-tez/src/test/org/apache/hadoop/hive/llap/tezplugins/metrics/TestBlacklistingLlapMetricsListener.java,mockito,static org.mockito.Mockito.reset
+hive,UndProjects/hive/llap-tez/src/test/org/apache/hadoop/hive/llap/tezplugins/metrics/TestBlacklistingLlapMetricsListener.java,mockito,static org.mockito.Mockito.times
+hive,UndProjects/hive/llap-tez/src/test/org/apache/hadoop/hive/llap/tezplugins/metrics/TestBlacklistingLlapMetricsListener.java,mockito,static org.mockito.Mockito.verify
+hive,UndProjects/hive/llap-tez/src/test/org/apache/hadoop/hive/llap/tezplugins/metrics/TestBlacklistingLlapMetricsListener.java,mockito,static org.mockito.Mockito.when
+hive,UndProjects/hive/llap-tez/src/test/org/apache/hadoop/hive/llap/tezplugins/metrics/TestBlacklistingLlapMetricsListener.java,mockito,static org.mockito.MockitoAnnotations.initMocks
+hive,UndProjects/hive/llap-tez/src/test/org/apache/hadoop/hive/llap/tezplugins/metrics/TestLlapMetricsCollector.java,mockito,org.mockito.Mock
+hive,UndProjects/hive/llap-tez/src/test/org/apache/hadoop/hive/llap/tezplugins/metrics/TestLlapMetricsCollector.java,mockito,static org.mockito.ArgumentMatchers.anyLong
+hive,UndProjects/hive/llap-tez/src/test/org/apache/hadoop/hive/llap/tezplugins/metrics/TestLlapMetricsCollector.java,mockito,static org.mockito.Mockito.any
+hive,UndProjects/hive/llap-tez/src/test/org/apache/hadoop/hive/llap/tezplugins/metrics/TestLlapMetricsCollector.java,mockito,static org.mockito.Mockito.mock
+hive,UndProjects/hive/llap-tez/src/test/org/apache/hadoop/hive/llap/tezplugins/metrics/TestLlapMetricsCollector.java,mockito,static org.mockito.Mockito.never
+hive,UndProjects/hive/llap-tez/src/test/org/apache/hadoop/hive/llap/tezplugins/metrics/TestLlapMetricsCollector.java,mockito,static org.mockito.Mockito.times
+hive,UndProjects/hive/llap-tez/src/test/org/apache/hadoop/hive/llap/tezplugins/metrics/TestLlapMetricsCollector.java,mockito,static org.mockito.Mockito.verify
+hive,UndProjects/hive/llap-tez/src/test/org/apache/hadoop/hive/llap/tezplugins/metrics/TestLlapMetricsCollector.java,mockito,static org.mockito.Mockito.when
+hive,UndProjects/hive/llap-tez/src/test/org/apache/hadoop/hive/llap/tezplugins/metrics/TestLlapMetricsCollector.java,mockito,static org.mockito.MockitoAnnotations.initMocks
+hive,UndProjects/hive/ql/src/test/org/apache/hadoop/hive/ql/TestCompileLock.java,mockito,org.mockito.Mockito
+hive,UndProjects/hive/ql/src/test/org/apache/hadoop/hive/ql/TestCompileLock.java,mockito,static org.mockito.ArgumentMatchers.eq
+hive,UndProjects/hive/ql/src/test/org/apache/hadoop/hive/ql/TestTxnCommands3.java,mockito,org.mockito.Mockito
+hive,UndProjects/hive/ql/src/test/org/apache/hadoop/hive/ql/TestTxnCommands3.java,mockito,static org.mockito.Matchers.any
+hive,UndProjects/hive/ql/src/test/org/apache/hadoop/hive/ql/exec/TestContext.java,mockito,static org.mockito.Mockito.*
+hive,UndProjects/hive/ql/src/test/org/apache/hadoop/hive/ql/exec/TestExplainTask.java,mockito,static org.mockito.Mockito.mock
+hive,UndProjects/hive/ql/src/test/org/apache/hadoop/hive/ql/exec/TestExplainTask.java,mockito,static org.mockito.Mockito.when
+hive,UndProjects/hive/ql/src/test/org/apache/hadoop/hive/ql/exec/TestFileSinkOperator.java,mockito,org.mockito.Mockito
+hive,UndProjects/hive/ql/src/test/org/apache/hadoop/hive/ql/exec/TestGetInputSummary.java,mockito,static org.mockito.ArgumentMatchers.any
+hive,UndProjects/hive/ql/src/test/org/apache/hadoop/hive/ql/exec/TestGetInputSummary.java,mockito,static org.mockito.Mockito.mock
+hive,UndProjects/hive/ql/src/test/org/apache/hadoop/hive/ql/exec/TestGetInputSummary.java,mockito,static org.mockito.Mockito.times
+hive,UndProjects/hive/ql/src/test/org/apache/hadoop/hive/ql/exec/TestGetInputSummary.java,mockito,static org.mockito.Mockito.verify
+hive,UndProjects/hive/ql/src/test/org/apache/hadoop/hive/ql/exec/TestGetInputSummary.java,mockito,static org.mockito.Mockito.when
+hive,UndProjects/hive/ql/src/test/org/apache/hadoop/hive/ql/exec/TestMsckCreatePartitionsInBatches.java,mockito,org.mockito.ArgumentCaptor
+hive,UndProjects/hive/ql/src/test/org/apache/hadoop/hive/ql/exec/TestMsckCreatePartitionsInBatches.java,mockito,org.mockito.Mockito
+hive,UndProjects/hive/ql/src/test/org/apache/hadoop/hive/ql/exec/TestMsckCreatePartitionsInBatches.java,mockito,static org.mockito.ArgumentMatchers.any
+hive,UndProjects/hive/ql/src/test/org/apache/hadoop/hive/ql/exec/TestMsckCreatePartitionsInBatches.java,mockito,static org.mockito.ArgumentMatchers.anyBoolean
+hive,UndProjects/hive/ql/src/test/org/apache/hadoop/hive/ql/exec/TestMsckCreatePartitionsInBatches.java,mockito,static org.mockito.Mockito.doThrow
+hive,UndProjects/hive/ql/src/test/org/apache/hadoop/hive/ql/exec/TestMsckCreatePartitionsInBatches.java,mockito,static org.mockito.Mockito.spy
+hive,UndProjects/hive/ql/src/test/org/apache/hadoop/hive/ql/exec/TestMsckCreatePartitionsInBatches.java,mockito,static org.mockito.Mockito.times
+hive,UndProjects/hive/ql/src/test/org/apache/hadoop/hive/ql/exec/TestMsckCreatePartitionsInBatches.java,mockito,static org.mockito.Mockito.verify
+hive,UndProjects/hive/ql/src/test/org/apache/hadoop/hive/ql/exec/TestMsckDropPartitionsInBatches.java,mockito,org.mockito.ArgumentCaptor
+hive,UndProjects/hive/ql/src/test/org/apache/hadoop/hive/ql/exec/TestMsckDropPartitionsInBatches.java,mockito,static org.mockito.ArgumentMatchers.any
+hive,UndProjects/hive/ql/src/test/org/apache/hadoop/hive/ql/exec/TestMsckDropPartitionsInBatches.java,mockito,static org.mockito.ArgumentMatchers.anyList
+hive,UndProjects/hive/ql/src/test/org/apache/hadoop/hive/ql/exec/TestMsckDropPartitionsInBatches.java,mockito,static org.mockito.ArgumentMatchers.eq
+hive,UndProjects/hive/ql/src/test/org/apache/hadoop/hive/ql/exec/TestMsckDropPartitionsInBatches.java,mockito,static org.mockito.Mockito.doThrow
+hive,UndProjects/hive/ql/src/test/org/apache/hadoop/hive/ql/exec/TestMsckDropPartitionsInBatches.java,mockito,static org.mockito.Mockito.spy
+hive,UndProjects/hive/ql/src/test/org/apache/hadoop/hive/ql/exec/TestMsckDropPartitionsInBatches.java,mockito,static org.mockito.Mockito.times
+hive,UndProjects/hive/ql/src/test/org/apache/hadoop/hive/ql/exec/TestMsckDropPartitionsInBatches.java,mockito,static org.mockito.Mockito.verify
+hive,UndProjects/hive/ql/src/test/org/apache/hadoop/hive/ql/exec/TestOperators.java,mockito,org.mockito.Mockito
+hive,UndProjects/hive/ql/src/test/org/apache/hadoop/hive/ql/exec/TestOperators.java,mockito,static org.mockito.Mockito.when
+hive,UndProjects/hive/ql/src/test/org/apache/hadoop/hive/ql/exec/TestUtilities.java,mockito,static org.mockito.ArgumentMatchers.any
+hive,UndProjects/hive/ql/src/test/org/apache/hadoop/hive/ql/exec/TestUtilities.java,mockito,static org.mockito.Mockito.doReturn
+hive,UndProjects/hive/ql/src/test/org/apache/hadoop/hive/ql/exec/TestUtilities.java,mockito,static org.mockito.Mockito.mock
+hive,UndProjects/hive/ql/src/test/org/apache/hadoop/hive/ql/exec/TestUtilities.java,mockito,static org.mockito.Mockito.times
+hive,UndProjects/hive/ql/src/test/org/apache/hadoop/hive/ql/exec/TestUtilities.java,mockito,static org.mockito.Mockito.verify
+hive,UndProjects/hive/ql/src/test/org/apache/hadoop/hive/ql/exec/TestUtilities.java,mockito,static org.mockito.Mockito.when
+hive,UndProjects/hive/ql/src/test/org/apache/hadoop/hive/ql/exec/mr/TestMapRedTask.java,mockito,static org.mockito.Mockito.never
+hive,UndProjects/hive/ql/src/test/org/apache/hadoop/hive/ql/exec/mr/TestMapRedTask.java,mockito,static org.mockito.Mockito.times
+hive,UndProjects/hive/ql/src/test/org/apache/hadoop/hive/ql/exec/mr/TestMapRedTask.java,mockito,static org.mockito.Mockito.verify
+hive,UndProjects/hive/ql/src/test/org/apache/hadoop/hive/ql/exec/mr/TestMapRedTask.java,mockito,static org.mockito.Mockito.when
+hive,UndProjects/hive/ql/src/test/org/apache/hadoop/hive/ql/exec/mr/TestMapRedTask.java,mockito,org.mockito.ArgumentCaptor
+hive,UndProjects/hive/ql/src/test/org/apache/hadoop/hive/ql/exec/mr/TestMapRedTask.java,mockito,org.mockito.Mockito
+hive,UndProjects/hive/ql/src/test/org/apache/hadoop/hive/ql/exec/mr/TestMapredLocalTask.java,mockito,static org.mockito.Mockito.never
+hive,UndProjects/hive/ql/src/test/org/apache/hadoop/hive/ql/exec/mr/TestMapredLocalTask.java,mockito,static org.mockito.Mockito.times
+hive,UndProjects/hive/ql/src/test/org/apache/hadoop/hive/ql/exec/mr/TestMapredLocalTask.java,mockito,static org.mockito.Mockito.verify
+hive,UndProjects/hive/ql/src/test/org/apache/hadoop/hive/ql/exec/mr/TestMapredLocalTask.java,mockito,org.mockito.Mockito
+hive,UndProjects/hive/ql/src/test/org/apache/hadoop/hive/ql/exec/repl/TestAtlasDumpTask.java,mockito,org.mockito.ArgumentCaptor
+hive,UndProjects/hive/ql/src/test/org/apache/hadoop/hive/ql/exec/repl/TestAtlasDumpTask.java,mockito,org.mockito.Mock
+hive,UndProjects/hive/ql/src/test/org/apache/hadoop/hive/ql/exec/repl/TestAtlasDumpTask.java,mockito,org.mockito.Mockito
+hive,UndProjects/hive/ql/src/test/org/apache/hadoop/hive/ql/exec/repl/TestAtlasDumpTask.java,powermock,org.powermock.api.mockito.PowerMockito
+hive,UndProjects/hive/ql/src/test/org/apache/hadoop/hive/ql/exec/repl/TestAtlasDumpTask.java,powermock,org.powermock.core.classloader.annotations.PrepareForTest
+hive,UndProjects/hive/ql/src/test/org/apache/hadoop/hive/ql/exec/repl/TestAtlasDumpTask.java,powermock,org.powermock.modules.junit4.PowerMockRunner
+hive,UndProjects/hive/ql/src/test/org/apache/hadoop/hive/ql/exec/repl/TestAtlasDumpTask.java,powermock,org.powermock.reflect.Whitebox
+hive,UndProjects/hive/ql/src/test/org/apache/hadoop/hive/ql/exec/repl/TestAtlasDumpTask.java,mockito,static org.mockito.Mockito.mock
+hive,UndProjects/hive/ql/src/test/org/apache/hadoop/hive/ql/exec/repl/TestAtlasDumpTask.java,powermock,static org.powermock.api.mockito.PowerMockito.mockStatic
+hive,UndProjects/hive/ql/src/test/org/apache/hadoop/hive/ql/exec/repl/TestAtlasDumpTask.java,powermock,static org.powermock.api.mockito.PowerMockito.when
+hive,UndProjects/hive/ql/src/test/org/apache/hadoop/hive/ql/exec/repl/TestAtlasLoadTask.java,mockito,org.mockito.ArgumentCaptor
+hive,UndProjects/hive/ql/src/test/org/apache/hadoop/hive/ql/exec/repl/TestAtlasLoadTask.java,mockito,org.mockito.Mock
+hive,UndProjects/hive/ql/src/test/org/apache/hadoop/hive/ql/exec/repl/TestAtlasLoadTask.java,mockito,org.mockito.Mockito
+hive,UndProjects/hive/ql/src/test/org/apache/hadoop/hive/ql/exec/repl/TestAtlasLoadTask.java,mockito,org.mockito.junit.MockitoJUnitRunner
+hive,UndProjects/hive/ql/src/test/org/apache/hadoop/hive/ql/exec/repl/TestAtlasLoadTask.java,powermock,org.powermock.reflect.Whitebox
+hive,UndProjects/hive/ql/src/test/org/apache/hadoop/hive/ql/exec/repl/TestRangerDumpTask.java,mockito,org.mockito.ArgumentCaptor
+hive,UndProjects/hive/ql/src/test/org/apache/hadoop/hive/ql/exec/repl/TestRangerDumpTask.java,mockito,org.mockito.Mock
+hive,UndProjects/hive/ql/src/test/org/apache/hadoop/hive/ql/exec/repl/TestRangerDumpTask.java,mockito,org.mockito.Mockito
+hive,UndProjects/hive/ql/src/test/org/apache/hadoop/hive/ql/exec/repl/TestRangerDumpTask.java,powermock,org.powermock.core.classloader.annotations.PrepareForTest
+hive,UndProjects/hive/ql/src/test/org/apache/hadoop/hive/ql/exec/repl/TestRangerDumpTask.java,powermock,org.powermock.modules.junit4.PowerMockRunner
+hive,UndProjects/hive/ql/src/test/org/apache/hadoop/hive/ql/exec/repl/TestRangerDumpTask.java,powermock,org.powermock.reflect.Whitebox
+hive,UndProjects/hive/ql/src/test/org/apache/hadoop/hive/ql/exec/repl/TestRangerLoadTask.java,mockito,org.mockito.ArgumentCaptor
+hive,UndProjects/hive/ql/src/test/org/apache/hadoop/hive/ql/exec/repl/TestRangerLoadTask.java,mockito,org.mockito.Mock
+hive,UndProjects/hive/ql/src/test/org/apache/hadoop/hive/ql/exec/repl/TestRangerLoadTask.java,mockito,org.mockito.Mockito
+hive,UndProjects/hive/ql/src/test/org/apache/hadoop/hive/ql/exec/repl/TestRangerLoadTask.java,mockito,org.mockito.junit.MockitoJUnitRunner
+hive,UndProjects/hive/ql/src/test/org/apache/hadoop/hive/ql/exec/repl/TestRangerLoadTask.java,powermock,org.powermock.reflect.Whitebox
+hive,UndProjects/hive/ql/src/test/org/apache/hadoop/hive/ql/exec/repl/TestReplDumpTask.java,mockito,org.mockito.Mock
+hive,UndProjects/hive/ql/src/test/org/apache/hadoop/hive/ql/exec/repl/TestReplDumpTask.java,mockito,org.mockito.Mockito
+hive,UndProjects/hive/ql/src/test/org/apache/hadoop/hive/ql/exec/repl/TestReplDumpTask.java,powermock,org.powermock.core.classloader.annotations.PowerMockIgnore
+hive,UndProjects/hive/ql/src/test/org/apache/hadoop/hive/ql/exec/repl/TestReplDumpTask.java,powermock,org.powermock.core.classloader.annotations.PrepareForTest
+hive,UndProjects/hive/ql/src/test/org/apache/hadoop/hive/ql/exec/repl/TestReplDumpTask.java,powermock,org.powermock.modules.junit4.PowerMockRunner
+hive,UndProjects/hive/ql/src/test/org/apache/hadoop/hive/ql/exec/repl/TestReplDumpTask.java,mockito,static org.mockito.ArgumentMatchers.eq
+hive,UndProjects/hive/ql/src/test/org/apache/hadoop/hive/ql/exec/repl/TestReplDumpTask.java,mockito,static org.mockito.ArgumentMatchers.same
+hive,UndProjects/hive/ql/src/test/org/apache/hadoop/hive/ql/exec/repl/TestReplDumpTask.java,mockito,static org.mockito.Mockito.mock
+hive,UndProjects/hive/ql/src/test/org/apache/hadoop/hive/ql/exec/repl/TestReplDumpTask.java,powermock,static org.powermock.api.mockito.PowerMockito.mockStatic
+hive,UndProjects/hive/ql/src/test/org/apache/hadoop/hive/ql/exec/repl/TestReplDumpTask.java,powermock,static org.powermock.api.mockito.PowerMockito.when
+hive,UndProjects/hive/ql/src/test/org/apache/hadoop/hive/ql/exec/repl/TestReplDumpTask.java,powermock,static org.powermock.api.mockito.PowerMockito.whenNew
+hive,UndProjects/hive/ql/src/test/org/apache/hadoop/hive/ql/exec/repl/bootstrap/AddDependencyToLeavesTest.java,mockito,org.mockito.Mock
+hive,UndProjects/hive/ql/src/test/org/apache/hadoop/hive/ql/exec/repl/bootstrap/AddDependencyToLeavesTest.java,mockito,org.mockito.junit.MockitoJUnitRunner
+hive,UndProjects/hive/ql/src/test/org/apache/hadoop/hive/ql/exec/repl/bootstrap/AddDependencyToLeavesTest.java,mockito,static org.mockito.Mockito.mock
+hive,UndProjects/hive/ql/src/test/org/apache/hadoop/hive/ql/exec/repl/bootstrap/AddDependencyToLeavesTest.java,mockito,static org.mockito.Mockito.when
+hive,UndProjects/hive/ql/src/test/org/apache/hadoop/hive/ql/exec/repl/bootstrap/load/TestTaskTracker.java,mockito,org.mockito.Mock
+hive,UndProjects/hive/ql/src/test/org/apache/hadoop/hive/ql/exec/repl/bootstrap/load/TestTaskTracker.java,powermock,org.powermock.modules.junit4.PowerMockRunner
+hive,UndProjects/hive/ql/src/test/org/apache/hadoop/hive/ql/exec/repl/dump/TestUtils.java,mockito,org.mockito.Mock
+hive,UndProjects/hive/ql/src/test/org/apache/hadoop/hive/ql/exec/repl/dump/TestUtils.java,mockito,org.mockito.Mockito
+hive,UndProjects/hive/ql/src/test/org/apache/hadoop/hive/ql/exec/repl/dump/TestUtils.java,mockito,org.mockito.junit.MockitoJUnitRunner
+hive,UndProjects/hive/ql/src/test/org/apache/hadoop/hive/ql/exec/repl/dump/TestUtils.java,mockito,static org.mockito.Mockito.times
+hive,UndProjects/hive/ql/src/test/org/apache/hadoop/hive/ql/exec/repl/ranger/TestRangerRestClient.java,mockito,org.mockito.ArgumentCaptor
+hive,UndProjects/hive/ql/src/test/org/apache/hadoop/hive/ql/exec/repl/ranger/TestRangerRestClient.java,mockito,org.mockito.Mock
+hive,UndProjects/hive/ql/src/test/org/apache/hadoop/hive/ql/exec/repl/ranger/TestRangerRestClient.java,mockito,org.mockito.Mockito
+hive,UndProjects/hive/ql/src/test/org/apache/hadoop/hive/ql/exec/repl/ranger/TestRangerRestClient.java,powermock,org.powermock.api.mockito.PowerMockito
+hive,UndProjects/hive/ql/src/test/org/apache/hadoop/hive/ql/exec/repl/ranger/TestRangerRestClient.java,powermock,org.powermock.core.classloader.annotations.PrepareForTest
+hive,UndProjects/hive/ql/src/test/org/apache/hadoop/hive/ql/exec/repl/ranger/TestRangerRestClient.java,powermock,org.powermock.modules.junit4.PowerMockRunner
+hive,UndProjects/hive/ql/src/test/org/apache/hadoop/hive/ql/exec/repl/util/TestFileList.java,mockito,org.mockito.ArgumentCaptor
+hive,UndProjects/hive/ql/src/test/org/apache/hadoop/hive/ql/exec/repl/util/TestFileList.java,mockito,org.mockito.Mockito
+hive,UndProjects/hive/ql/src/test/org/apache/hadoop/hive/ql/exec/repl/util/TestFileList.java,mockito,org.mockito.junit.MockitoJUnitRunner
+hive,UndProjects/hive/ql/src/test/org/apache/hadoop/hive/ql/exec/repl/util/TestFileList.java,powermock,org.powermock.core.classloader.annotations.PrepareForTest
+hive,UndProjects/hive/ql/src/test/org/apache/hadoop/hive/ql/exec/spark/TestHiveSparkClient.java,mockito,static org.mockito.Mockito.mock
+hive,UndProjects/hive/ql/src/test/org/apache/hadoop/hive/ql/exec/spark/TestHiveSparkClient.java,mockito,static org.mockito.Mockito.when
+hive,UndProjects/hive/ql/src/test/org/apache/hadoop/hive/ql/exec/spark/TestSparkTask.java,mockito,static org.mockito.ArgumentMatchers.any
+hive,UndProjects/hive/ql/src/test/org/apache/hadoop/hive/ql/exec/spark/TestSparkTask.java,mockito,static org.mockito.Mockito.atLeastOnce
+hive,UndProjects/hive/ql/src/test/org/apache/hadoop/hive/ql/exec/spark/TestSparkTask.java,mockito,static org.mockito.Mockito.mock
+hive,UndProjects/hive/ql/src/test/org/apache/hadoop/hive/ql/exec/spark/TestSparkTask.java,mockito,static org.mockito.Mockito.never
+hive,UndProjects/hive/ql/src/test/org/apache/hadoop/hive/ql/exec/spark/TestSparkTask.java,mockito,static org.mockito.Mockito.times
+hive,UndProjects/hive/ql/src/test/org/apache/hadoop/hive/ql/exec/spark/TestSparkTask.java,mockito,static org.mockito.Mockito.verify
+hive,UndProjects/hive/ql/src/test/org/apache/hadoop/hive/ql/exec/spark/TestSparkTask.java,mockito,static org.mockito.Mockito.when
+hive,UndProjects/hive/ql/src/test/org/apache/hadoop/hive/ql/exec/spark/TestSparkUtilities.java,mockito,static org.mockito.ArgumentMatchers.any
+hive,UndProjects/hive/ql/src/test/org/apache/hadoop/hive/ql/exec/spark/TestSparkUtilities.java,mockito,static org.mockito.Mockito.doAnswer
+hive,UndProjects/hive/ql/src/test/org/apache/hadoop/hive/ql/exec/spark/TestSparkUtilities.java,mockito,static org.mockito.Mockito.eq
+hive,UndProjects/hive/ql/src/test/org/apache/hadoop/hive/ql/exec/spark/TestSparkUtilities.java,mockito,static org.mockito.Mockito.mock
+hive,UndProjects/hive/ql/src/test/org/apache/hadoop/hive/ql/exec/spark/TestSparkUtilities.java,mockito,static org.mockito.Mockito.spy
+hive,UndProjects/hive/ql/src/test/org/apache/hadoop/hive/ql/exec/spark/TestSparkUtilities.java,mockito,static org.mockito.Mockito.when
+hive,UndProjects/hive/ql/src/test/org/apache/hadoop/hive/ql/exec/tez/TestCustomPartitionVertex.java,mockito,static org.mockito.Mockito.mock
+hive,UndProjects/hive/ql/src/test/org/apache/hadoop/hive/ql/exec/tez/TestCustomPartitionVertex.java,mockito,static org.mockito.Mockito.when
+hive,UndProjects/hive/ql/src/test/org/apache/hadoop/hive/ql/exec/tez/TestDagUtils.java,mockito,static org.mockito.Mockito.mock
+hive,UndProjects/hive/ql/src/test/org/apache/hadoop/hive/ql/exec/tez/TestDynamicPartitionPruner.java,mockito,static org.mockito.Mockito.doReturn
+hive,UndProjects/hive/ql/src/test/org/apache/hadoop/hive/ql/exec/tez/TestDynamicPartitionPruner.java,mockito,static org.mockito.Mockito.mock
+hive,UndProjects/hive/ql/src/test/org/apache/hadoop/hive/ql/exec/tez/TestHostAffinitySplitLocationProvider.java,mockito,static org.mockito.Mockito.doReturn
+hive,UndProjects/hive/ql/src/test/org/apache/hadoop/hive/ql/exec/tez/TestHostAffinitySplitLocationProvider.java,mockito,static org.mockito.Mockito.mock
+hive,UndProjects/hive/ql/src/test/org/apache/hadoop/hive/ql/exec/tez/TestHostAffinitySplitLocationProvider.java,mockito,org.mockito.Mockito
+hive,UndProjects/hive/ql/src/test/org/apache/hadoop/hive/ql/exec/tez/TestHostAffinitySplitLocationProvider.java,mockito,org.mockito.invocation.InvocationOnMock
+hive,UndProjects/hive/ql/src/test/org/apache/hadoop/hive/ql/exec/tez/TestHostAffinitySplitLocationProvider.java,mockito,org.mockito.stubbing.Answer
+hive,UndProjects/hive/ql/src/test/org/apache/hadoop/hive/ql/exec/tez/TestTezSessionPool.java,mockito,org.mockito.Mockito
+hive,UndProjects/hive/ql/src/test/org/apache/hadoop/hive/ql/exec/tez/TestTezTask.java,mockito,org.mockito.Mockito
+hive,UndProjects/hive/ql/src/test/org/apache/hadoop/hive/ql/exec/tez/TestTezTask.java,mockito,org.mockito.invocation.InvocationOnMock
+hive,UndProjects/hive/ql/src/test/org/apache/hadoop/hive/ql/exec/tez/TestTezTask.java,mockito,org.mockito.stubbing.Answer
+hive,UndProjects/hive/ql/src/test/org/apache/hadoop/hive/ql/exec/tez/TestTezTask.java,mockito,static org.mockito.Mockito.any
+hive,UndProjects/hive/ql/src/test/org/apache/hadoop/hive/ql/exec/tez/TestTezTask.java,mockito,static org.mockito.Mockito.anyMap
+hive,UndProjects/hive/ql/src/test/org/apache/hadoop/hive/ql/exec/tez/TestTezTask.java,mockito,static org.mockito.Mockito.anyString
+hive,UndProjects/hive/ql/src/test/org/apache/hadoop/hive/ql/exec/tez/TestTezTask.java,mockito,static org.mockito.Mockito.doNothing
+hive,UndProjects/hive/ql/src/test/org/apache/hadoop/hive/ql/exec/tez/TestTezTask.java,mockito,static org.mockito.Mockito.doReturn
+hive,UndProjects/hive/ql/src/test/org/apache/hadoop/hive/ql/exec/tez/TestTezTask.java,mockito,static org.mockito.Mockito.eq
+hive,UndProjects/hive/ql/src/test/org/apache/hadoop/hive/ql/exec/tez/TestTezTask.java,mockito,static org.mockito.Mockito.mock
+hive,UndProjects/hive/ql/src/test/org/apache/hadoop/hive/ql/exec/tez/TestTezTask.java,mockito,static org.mockito.Mockito.never
+hive,UndProjects/hive/ql/src/test/org/apache/hadoop/hive/ql/exec/tez/TestTezTask.java,mockito,static org.mockito.Mockito.times
+hive,UndProjects/hive/ql/src/test/org/apache/hadoop/hive/ql/exec/tez/TestTezTask.java,mockito,static org.mockito.Mockito.verify
+hive,UndProjects/hive/ql/src/test/org/apache/hadoop/hive/ql/exec/tez/TestTezTask.java,mockito,static org.mockito.Mockito.when
+hive,UndProjects/hive/ql/src/test/org/apache/hadoop/hive/ql/exec/tez/TestUtils.java,mockito,org.mockito.Mock
+hive,UndProjects/hive/ql/src/test/org/apache/hadoop/hive/ql/exec/tez/TestUtils.java,mockito,static org.mockito.ArgumentMatchers.anyBoolean
+hive,UndProjects/hive/ql/src/test/org/apache/hadoop/hive/ql/exec/tez/TestUtils.java,mockito,static org.mockito.Mockito.when
+hive,UndProjects/hive/ql/src/test/org/apache/hadoop/hive/ql/exec/tez/TestUtils.java,mockito,static org.mockito.MockitoAnnotations.initMocks
+hive,UndProjects/hive/ql/src/test/org/apache/hadoop/hive/ql/exec/tez/TestWorkloadManager.java,mockito,static org.mockito.ArgumentMatchers.anyBoolean
+hive,UndProjects/hive/ql/src/test/org/apache/hadoop/hive/ql/exec/tez/TestWorkloadManager.java,mockito,static org.mockito.Mockito.doNothing
+hive,UndProjects/hive/ql/src/test/org/apache/hadoop/hive/ql/exec/tez/TestWorkloadManager.java,mockito,static org.mockito.Mockito.mock
+hive,UndProjects/hive/ql/src/test/org/apache/hadoop/hive/ql/exec/tez/TestWorkloadManager.java,mockito,static org.mockito.Mockito.verify
+hive,UndProjects/hive/ql/src/test/org/apache/hadoop/hive/ql/exec/tez/TestWorkloadManager.java,mockito,static org.mockito.Mockito.when
+hive,UndProjects/hive/ql/src/test/org/apache/hadoop/hive/ql/exec/tez/monitoring/TestTezProgressMonitor.java,mockito,org.mockito.Mock
+hive,UndProjects/hive/ql/src/test/org/apache/hadoop/hive/ql/exec/tez/monitoring/TestTezProgressMonitor.java,mockito,org.mockito.junit.MockitoJUnitRunner
+hive,UndProjects/hive/ql/src/test/org/apache/hadoop/hive/ql/exec/tez/monitoring/TestTezProgressMonitor.java,mockito,static org.mockito.ArgumentMatchers.any
+hive,UndProjects/hive/ql/src/test/org/apache/hadoop/hive/ql/exec/tez/monitoring/TestTezProgressMonitor.java,mockito,static org.mockito.ArgumentMatchers.eq
+hive,UndProjects/hive/ql/src/test/org/apache/hadoop/hive/ql/exec/tez/monitoring/TestTezProgressMonitor.java,mockito,static org.mockito.ArgumentMatchers.isNull
+hive,UndProjects/hive/ql/src/test/org/apache/hadoop/hive/ql/exec/tez/monitoring/TestTezProgressMonitor.java,mockito,static org.mockito.Mockito.verify
+hive,UndProjects/hive/ql/src/test/org/apache/hadoop/hive/ql/exec/tez/monitoring/TestTezProgressMonitor.java,mockito,static org.mockito.Mockito.verifyNoMoreInteractions
+hive,UndProjects/hive/ql/src/test/org/apache/hadoop/hive/ql/exec/tez/monitoring/TestTezProgressMonitor.java,mockito,static org.mockito.Mockito.when
+hive,UndProjects/hive/ql/src/test/org/apache/hadoop/hive/ql/exec/util/DAGTraversalTest.java,mockito,org.mockito.junit.MockitoJUnitRunner
+hive,UndProjects/hive/ql/src/test/org/apache/hadoop/hive/ql/exec/util/DAGTraversalTest.java,mockito,static org.mockito.Mockito.mock
+hive,UndProjects/hive/ql/src/test/org/apache/hadoop/hive/ql/exec/util/DAGTraversalTest.java,mockito,static org.mockito.Mockito.when
+hive,UndProjects/hive/ql/src/test/org/apache/hadoop/hive/ql/exec/util/TestRetryable.java,mockito,org.mockito.ArgumentCaptor
+hive,UndProjects/hive/ql/src/test/org/apache/hadoop/hive/ql/exec/util/TestRetryable.java,mockito,org.mockito.Mock
+hive,UndProjects/hive/ql/src/test/org/apache/hadoop/hive/ql/exec/util/TestRetryable.java,mockito,org.mockito.Mockito
+hive,UndProjects/hive/ql/src/test/org/apache/hadoop/hive/ql/exec/util/TestRetryable.java,powermock,org.powermock.api.mockito.PowerMockito
+hive,UndProjects/hive/ql/src/test/org/apache/hadoop/hive/ql/exec/util/TestRetryable.java,powermock,org.powermock.core.classloader.annotations.PrepareForTest
+hive,UndProjects/hive/ql/src/test/org/apache/hadoop/hive/ql/exec/util/TestRetryable.java,powermock,org.powermock.modules.junit4.PowerMockRunner
+hive,UndProjects/hive/ql/src/test/org/apache/hadoop/hive/ql/exec/vector/TestVectorGroupByOperator.java,mockito,static org.mockito.Mockito.spy
+hive,UndProjects/hive/ql/src/test/org/apache/hadoop/hive/ql/exec/vector/TestVectorGroupByOperator.java,mockito,static org.mockito.Mockito.times
+hive,UndProjects/hive/ql/src/test/org/apache/hadoop/hive/ql/exec/vector/TestVectorGroupByOperator.java,mockito,static org.mockito.Mockito.verify
+hive,UndProjects/hive/ql/src/test/org/apache/hadoop/hive/ql/exec/vector/TestVectorGroupByOperator.java,mockito,org.mockito.Mockito
+hive,UndProjects/hive/ql/src/test/org/apache/hadoop/hive/ql/hooks/TestQueryHooks.java,mockito,org.mockito.ArgumentMatcher
+hive,UndProjects/hive/ql/src/test/org/apache/hadoop/hive/ql/hooks/TestQueryHooks.java,mockito,static org.mockito.ArgumentMatchers.any
+hive,UndProjects/hive/ql/src/test/org/apache/hadoop/hive/ql/hooks/TestQueryHooks.java,mockito,static org.mockito.ArgumentMatchers.anyBoolean
+hive,UndProjects/hive/ql/src/test/org/apache/hadoop/hive/ql/hooks/TestQueryHooks.java,mockito,static org.mockito.ArgumentMatchers.argThat
+hive,UndProjects/hive/ql/src/test/org/apache/hadoop/hive/ql/hooks/TestQueryHooks.java,mockito,static org.mockito.ArgumentMatchers.eq
+hive,UndProjects/hive/ql/src/test/org/apache/hadoop/hive/ql/hooks/TestQueryHooks.java,mockito,static org.mockito.Mockito.mock
+hive,UndProjects/hive/ql/src/test/org/apache/hadoop/hive/ql/hooks/TestQueryHooks.java,mockito,static org.mockito.Mockito.never
+hive,UndProjects/hive/ql/src/test/org/apache/hadoop/hive/ql/hooks/TestQueryHooks.java,mockito,static org.mockito.Mockito.verify
+hive,UndProjects/hive/ql/src/test/org/apache/hadoop/hive/ql/io/TestAcidInputFormat.java,mockito,static org.mockito.Mockito.times
+hive,UndProjects/hive/ql/src/test/org/apache/hadoop/hive/ql/io/TestAcidInputFormat.java,mockito,static org.mockito.Mockito.verify
+hive,UndProjects/hive/ql/src/test/org/apache/hadoop/hive/ql/io/TestAcidInputFormat.java,mockito,static org.mockito.Mockito.when
+hive,UndProjects/hive/ql/src/test/org/apache/hadoop/hive/ql/io/TestAcidInputFormat.java,mockito,org.mockito.Mock
+hive,UndProjects/hive/ql/src/test/org/apache/hadoop/hive/ql/io/TestAcidInputFormat.java,mockito,org.mockito.junit.MockitoJUnitRunner
+hive,UndProjects/hive/ql/src/test/org/apache/hadoop/hive/ql/io/TestHiveBinarySearchRecordReader.java,mockito,static org.mockito.ArgumentMatchers.anyObject
+hive,UndProjects/hive/ql/src/test/org/apache/hadoop/hive/ql/io/TestHiveBinarySearchRecordReader.java,mockito,static org.mockito.Mockito.inOrder
+hive,UndProjects/hive/ql/src/test/org/apache/hadoop/hive/ql/io/TestHiveBinarySearchRecordReader.java,mockito,static org.mockito.Mockito.mock
+hive,UndProjects/hive/ql/src/test/org/apache/hadoop/hive/ql/io/TestHiveBinarySearchRecordReader.java,mockito,static org.mockito.Mockito.verify
+hive,UndProjects/hive/ql/src/test/org/apache/hadoop/hive/ql/io/TestHiveBinarySearchRecordReader.java,mockito,static org.mockito.Mockito.when
+hive,UndProjects/hive/ql/src/test/org/apache/hadoop/hive/ql/io/TestHiveBinarySearchRecordReader.java,mockito,org.mockito.InOrder
+hive,UndProjects/hive/ql/src/test/org/apache/hadoop/hive/ql/io/avro/TestAvroGenericRecordReader.java,mockito,org.mockito.Mock
+hive,UndProjects/hive/ql/src/test/org/apache/hadoop/hive/ql/io/avro/TestAvroGenericRecordReader.java,mockito,org.mockito.MockitoAnnotations
+hive,UndProjects/hive/ql/src/test/org/apache/hadoop/hive/ql/io/avro/TestAvroGenericRecordReader.java,mockito,static org.mockito.Mockito.when
+hive,UndProjects/hive/ql/src/test/org/apache/hadoop/hive/ql/io/orc/TestInputOutputFormat.java,mockito,static org.mockito.Mockito.mock
+hive,UndProjects/hive/ql/src/test/org/apache/hadoop/hive/ql/io/orc/TestInputOutputFormat.java,mockito,static org.mockito.Mockito.when
+hive,UndProjects/hive/ql/src/test/org/apache/hadoop/hive/ql/io/orc/TestOrcRawRecordMerger.java,mockito,org.mockito.MockSettings
+hive,UndProjects/hive/ql/src/test/org/apache/hadoop/hive/ql/io/orc/TestOrcRawRecordMerger.java,mockito,org.mockito.Mockito
+hive,UndProjects/hive/ql/src/test/org/apache/hadoop/hive/ql/io/orc/TestOrcRawRecordMerger.java,mockito,static org.mockito.ArgumentMatchers.any
+hive,UndProjects/hive/ql/src/test/org/apache/hadoop/hive/ql/io/orc/TestOrcRawRecordMerger.java,mockito,static org.mockito.Mockito.when
+hive,UndProjects/hive/ql/src/test/org/apache/hadoop/hive/ql/io/orc/TestOrcRecordUpdater.java,mockito,static org.mockito.Mockito.mock
+hive,UndProjects/hive/ql/src/test/org/apache/hadoop/hive/ql/io/orc/TestOrcRecordUpdater.java,mockito,static org.mockito.Mockito.when
+hive,UndProjects/hive/ql/src/test/org/apache/hadoop/hive/ql/io/orc/encoded/TestEncodedOrcFile.java,mockito,static org.mockito.Mockito.mock
+hive,UndProjects/hive/ql/src/test/org/apache/hadoop/hive/ql/io/orc/encoded/TestEncodedOrcFile.java,mockito,static org.mockito.Mockito.when
+hive,UndProjects/hive/ql/src/test/org/apache/hadoop/hive/ql/io/parquet/TestDataWritableWriter.java,mockito,org.mockito.InOrder
+hive,UndProjects/hive/ql/src/test/org/apache/hadoop/hive/ql/io/parquet/TestDataWritableWriter.java,mockito,org.mockito.Mock
+hive,UndProjects/hive/ql/src/test/org/apache/hadoop/hive/ql/io/parquet/TestDataWritableWriter.java,mockito,org.mockito.MockitoAnnotations
+hive,UndProjects/hive/ql/src/test/org/apache/hadoop/hive/ql/io/parquet/TestDataWritableWriter.java,mockito,static org.mockito.Mockito.*
+hive,UndProjects/hive/ql/src/test/org/apache/hadoop/hive/ql/io/parquet/TestMapredParquetInputFormat.java,mockito,static org.mockito.Mockito.mock
+hive,UndProjects/hive/ql/src/test/org/apache/hadoop/hive/ql/io/parquet/TestMapredParquetOutputFormat.java,mockito,static org.mockito.Mockito.mock
+hive,UndProjects/hive/ql/src/test/org/apache/hadoop/hive/ql/lockmgr/TestDummyTxnManager.java,mockito,static org.mockito.Mockito.*
+hive,UndProjects/hive/ql/src/test/org/apache/hadoop/hive/ql/lockmgr/TestDummyTxnManager.java,mockito,org.mockito.ArgumentCaptor
+hive,UndProjects/hive/ql/src/test/org/apache/hadoop/hive/ql/lockmgr/TestDummyTxnManager.java,mockito,org.mockito.Mock
+hive,UndProjects/hive/ql/src/test/org/apache/hadoop/hive/ql/lockmgr/TestDummyTxnManager.java,mockito,org.mockito.junit.MockitoJUnitRunner
+hive,UndProjects/hive/ql/src/test/org/apache/hadoop/hive/ql/metadata/TestHiveCopyFiles.java,mockito,org.mockito.Mockito
+hive,UndProjects/hive/ql/src/test/org/apache/hadoop/hive/ql/optimizer/TestColumnPrunerProcCtx.java,mockito,static org.mockito.Mockito.mock
+hive,UndProjects/hive/ql/src/test/org/apache/hadoop/hive/ql/optimizer/TestColumnPrunerProcCtx.java,mockito,static org.mockito.Mockito.when
+hive,UndProjects/hive/ql/src/test/org/apache/hadoop/hive/ql/optimizer/TestGenMapRedUtilsCreateConditionalTask.java,mockito,static org.mockito.Mockito.mock
+hive,UndProjects/hive/ql/src/test/org/apache/hadoop/hive/ql/optimizer/TestGenMapRedUtilsCreateConditionalTask.java,mockito,static org.mockito.Mockito.reset
+hive,UndProjects/hive/ql/src/test/org/apache/hadoop/hive/ql/optimizer/TestGenMapRedUtilsCreateConditionalTask.java,mockito,static org.mockito.Mockito.when
+hive,UndProjects/hive/ql/src/test/org/apache/hadoop/hive/ql/optimizer/calcite/rules/TestHivePointLookupOptimizerRule.java,mockito,org.mockito.ArgumentMatchers
+hive,UndProjects/hive/ql/src/test/org/apache/hadoop/hive/ql/optimizer/calcite/rules/TestHivePointLookupOptimizerRule.java,mockito,org.mockito.Mock
+hive,UndProjects/hive/ql/src/test/org/apache/hadoop/hive/ql/optimizer/calcite/rules/TestHivePointLookupOptimizerRule.java,mockito,org.mockito.junit.MockitoJUnitRunner
+hive,UndProjects/hive/ql/src/test/org/apache/hadoop/hive/ql/optimizer/calcite/rules/TestHivePointLookupOptimizerRule.java,mockito,static org.mockito.ArgumentMatchers.any
+hive,UndProjects/hive/ql/src/test/org/apache/hadoop/hive/ql/optimizer/calcite/rules/TestHivePointLookupOptimizerRule.java,mockito,static org.mockito.Mockito.doReturn
+hive,UndProjects/hive/ql/src/test/org/apache/hadoop/hive/ql/optimizer/calcite/rules/TestHivePointLookupOptimizerRule.java,mockito,static org.mockito.Mockito.lenient
+hive,UndProjects/hive/ql/src/test/org/apache/hadoop/hive/ql/optimizer/calcite/rules/TestHiveReduceExpressionsWithStatsRule.java,mockito,static org.mockito.Mockito.doReturn
+hive,UndProjects/hive/ql/src/test/org/apache/hadoop/hive/ql/optimizer/calcite/rules/TestHiveReduceExpressionsWithStatsRule.java,mockito,org.mockito.ArgumentMatchers
+hive,UndProjects/hive/ql/src/test/org/apache/hadoop/hive/ql/optimizer/calcite/rules/TestHiveReduceExpressionsWithStatsRule.java,mockito,org.mockito.Matchers
+hive,UndProjects/hive/ql/src/test/org/apache/hadoop/hive/ql/optimizer/calcite/rules/TestHiveReduceExpressionsWithStatsRule.java,mockito,org.mockito.Mock
+hive,UndProjects/hive/ql/src/test/org/apache/hadoop/hive/ql/optimizer/calcite/rules/TestHiveReduceExpressionsWithStatsRule.java,mockito,org.mockito.Mockito
+hive,UndProjects/hive/ql/src/test/org/apache/hadoop/hive/ql/optimizer/calcite/rules/TestHiveReduceExpressionsWithStatsRule.java,mockito,org.mockito.junit.MockitoJUnitRunner
+hive,UndProjects/hive/ql/src/test/org/apache/hadoop/hive/ql/optimizer/physical/TestNullScanTaskDispatcher.java,mockito,static org.mockito.ArgumentMatchers.any
+hive,UndProjects/hive/ql/src/test/org/apache/hadoop/hive/ql/optimizer/physical/TestNullScanTaskDispatcher.java,mockito,static org.mockito.ArgumentMatchers.startsWith
+hive,UndProjects/hive/ql/src/test/org/apache/hadoop/hive/ql/optimizer/physical/TestNullScanTaskDispatcher.java,mockito,static org.mockito.Mockito.doReturn
+hive,UndProjects/hive/ql/src/test/org/apache/hadoop/hive/ql/optimizer/physical/TestNullScanTaskDispatcher.java,mockito,static org.mockito.Mockito.mock
+hive,UndProjects/hive/ql/src/test/org/apache/hadoop/hive/ql/optimizer/physical/TestNullScanTaskDispatcher.java,mockito,static org.mockito.Mockito.spy
+hive,UndProjects/hive/ql/src/test/org/apache/hadoop/hive/ql/optimizer/physical/TestNullScanTaskDispatcher.java,mockito,static org.mockito.Mockito.when
+hive,UndProjects/hive/ql/src/test/org/apache/hadoop/hive/ql/optimizer/signature/TestOpSigFactory.java,mockito,static org.mockito.Mockito.times
+hive,UndProjects/hive/ql/src/test/org/apache/hadoop/hive/ql/optimizer/signature/TestOpSigFactory.java,mockito,static org.mockito.Mockito.verify
+hive,UndProjects/hive/ql/src/test/org/apache/hadoop/hive/ql/optimizer/signature/TestOpSigFactory.java,mockito,org.mockito.Mockito
+hive,UndProjects/hive/ql/src/test/org/apache/hadoop/hive/ql/optimizer/signature/TestOpSigFactory.java,mockito,org.mockito.Spy
+hive,UndProjects/hive/ql/src/test/org/apache/hadoop/hive/ql/optimizer/signature/TestOpSigFactory.java,mockito,org.mockito.junit.MockitoJUnit
+hive,UndProjects/hive/ql/src/test/org/apache/hadoop/hive/ql/optimizer/signature/TestOpSigFactory.java,mockito,org.mockito.junit.MockitoRule
+hive,UndProjects/hive/ql/src/test/org/apache/hadoop/hive/ql/optimizer/signature/TestRelSignature.java,mockito,static org.mockito.Mockito.doReturn
+hive,UndProjects/hive/ql/src/test/org/apache/hadoop/hive/ql/optimizer/signature/TestRelSignature.java,mockito,static org.mockito.Mockito.lenient
+hive,UndProjects/hive/ql/src/test/org/apache/hadoop/hive/ql/optimizer/signature/TestRelSignature.java,mockito,org.mockito.ArgumentMatchers
+hive,UndProjects/hive/ql/src/test/org/apache/hadoop/hive/ql/optimizer/signature/TestRelSignature.java,mockito,org.mockito.Matchers
+hive,UndProjects/hive/ql/src/test/org/apache/hadoop/hive/ql/optimizer/signature/TestRelSignature.java,mockito,org.mockito.Mock
+hive,UndProjects/hive/ql/src/test/org/apache/hadoop/hive/ql/optimizer/signature/TestRelSignature.java,mockito,org.mockito.junit.MockitoJUnitRunner
+hive,UndProjects/hive/ql/src/test/org/apache/hadoop/hive/ql/parse/authorization/TestHiveAuthorizationTaskFactory.java,mockito,org.mockito.Mockito
+hive,UndProjects/hive/ql/src/test/org/apache/hadoop/hive/ql/parse/authorization/TestPrivilegesV1.java,mockito,org.mockito.Mockito
+hive,UndProjects/hive/ql/src/test/org/apache/hadoop/hive/ql/parse/authorization/TestPrivilegesV2.java,mockito,org.mockito.Mockito
+hive,UndProjects/hive/ql/src/test/org/apache/hadoop/hive/ql/parse/authorization/TestSessionUserName.java,mockito,org.mockito.Mockito
+hive,UndProjects/hive/ql/src/test/org/apache/hadoop/hive/ql/parse/repl/TestCopyUtils.java,mockito,org.mockito.ArgumentCaptor
+hive,UndProjects/hive/ql/src/test/org/apache/hadoop/hive/ql/parse/repl/TestCopyUtils.java,mockito,org.mockito.Mockito
+hive,UndProjects/hive/ql/src/test/org/apache/hadoop/hive/ql/parse/repl/TestCopyUtils.java,powermock,org.powermock.core.classloader.annotations.PowerMockIgnore
+hive,UndProjects/hive/ql/src/test/org/apache/hadoop/hive/ql/parse/repl/TestCopyUtils.java,powermock,org.powermock.core.classloader.annotations.PrepareForTest
+hive,UndProjects/hive/ql/src/test/org/apache/hadoop/hive/ql/parse/repl/TestCopyUtils.java,powermock,org.powermock.modules.junit4.PowerMockRunner
+hive,UndProjects/hive/ql/src/test/org/apache/hadoop/hive/ql/parse/repl/TestCopyUtils.java,mockito,static org.mockito.ArgumentMatchers.anyBoolean
+hive,UndProjects/hive/ql/src/test/org/apache/hadoop/hive/ql/parse/repl/TestCopyUtils.java,mockito,static org.mockito.ArgumentMatchers.anyListOf
+hive,UndProjects/hive/ql/src/test/org/apache/hadoop/hive/ql/parse/repl/TestCopyUtils.java,mockito,static org.mockito.ArgumentMatchers.eq
+hive,UndProjects/hive/ql/src/test/org/apache/hadoop/hive/ql/parse/repl/TestCopyUtils.java,mockito,static org.mockito.ArgumentMatchers.same
+hive,UndProjects/hive/ql/src/test/org/apache/hadoop/hive/ql/parse/repl/TestCopyUtils.java,mockito,static org.mockito.Mockito.doReturn
+hive,UndProjects/hive/ql/src/test/org/apache/hadoop/hive/ql/parse/repl/TestCopyUtils.java,mockito,static org.mockito.Mockito.doNothing
+hive,UndProjects/hive/ql/src/test/org/apache/hadoop/hive/ql/parse/repl/TestCopyUtils.java,mockito,static org.mockito.Mockito.mock
+hive,UndProjects/hive/ql/src/test/org/apache/hadoop/hive/ql/parse/repl/TestCopyUtils.java,powermock,static org.powermock.api.mockito.PowerMockito.mockStatic
+hive,UndProjects/hive/ql/src/test/org/apache/hadoop/hive/ql/parse/repl/TestCopyUtils.java,powermock,static org.powermock.api.mockito.PowerMockito.when
+hive,UndProjects/hive/ql/src/test/org/apache/hadoop/hive/ql/parse/repl/dump/TestHiveWrapper.java,mockito,org.mockito.InOrder
+hive,UndProjects/hive/ql/src/test/org/apache/hadoop/hive/ql/parse/repl/dump/TestHiveWrapper.java,mockito,org.mockito.Mock
+hive,UndProjects/hive/ql/src/test/org/apache/hadoop/hive/ql/parse/repl/dump/TestHiveWrapper.java,mockito,org.mockito.Mockito
+hive,UndProjects/hive/ql/src/test/org/apache/hadoop/hive/ql/parse/repl/dump/TestHiveWrapper.java,mockito,org.mockito.junit.MockitoJUnitRunner
+hive,UndProjects/hive/ql/src/test/org/apache/hadoop/hive/ql/parse/repl/load/message/TestPrimaryToReplicaResourceFunction.java,mockito,org.mockito.Mock
+hive,UndProjects/hive/ql/src/test/org/apache/hadoop/hive/ql/parse/repl/load/message/TestPrimaryToReplicaResourceFunction.java,powermock,org.powermock.core.classloader.annotations.PrepareForTest
+hive,UndProjects/hive/ql/src/test/org/apache/hadoop/hive/ql/parse/repl/load/message/TestPrimaryToReplicaResourceFunction.java,powermock,org.powermock.modules.junit4.PowerMockRunner
+hive,UndProjects/hive/ql/src/test/org/apache/hadoop/hive/ql/parse/repl/load/message/TestPrimaryToReplicaResourceFunction.java,mockito,static org.mockito.ArgumentMatchers.any
+hive,UndProjects/hive/ql/src/test/org/apache/hadoop/hive/ql/parse/repl/load/message/TestPrimaryToReplicaResourceFunction.java,mockito,static org.mockito.Mockito.mock
+hive,UndProjects/hive/ql/src/test/org/apache/hadoop/hive/ql/parse/repl/load/message/TestPrimaryToReplicaResourceFunction.java,powermock,static org.powermock.api.mockito.PowerMockito.mockStatic
+hive,UndProjects/hive/ql/src/test/org/apache/hadoop/hive/ql/parse/repl/load/message/TestPrimaryToReplicaResourceFunction.java,powermock,static org.powermock.api.mockito.PowerMockito.when
+hive,UndProjects/hive/ql/src/test/org/apache/hadoop/hive/ql/parse/repl/metric/TestReplicationMetricCollector.java,mockito,org.mockito.Mockito
+hive,UndProjects/hive/ql/src/test/org/apache/hadoop/hive/ql/parse/repl/metric/TestReplicationMetricCollector.java,mockito,org.mockito.Mock
+hive,UndProjects/hive/ql/src/test/org/apache/hadoop/hive/ql/parse/repl/metric/TestReplicationMetricCollector.java,mockito,org.mockito.junit.MockitoJUnitRunner
+hive,UndProjects/hive/ql/src/test/org/apache/hadoop/hive/ql/parse/repl/metric/TestReplicationMetricSink.java,mockito,org.mockito.Mockito
+hive,UndProjects/hive/ql/src/test/org/apache/hadoop/hive/ql/parse/repl/metric/TestReplicationMetricSink.java,mockito,org.mockito.Mock
+hive,UndProjects/hive/ql/src/test/org/apache/hadoop/hive/ql/parse/repl/metric/TestReplicationMetricSink.java,mockito,org.mockito.junit.MockitoJUnitRunner
+hive,UndProjects/hive/ql/src/test/org/apache/hadoop/hive/ql/parse/repl/metric/TestReplicationMetricUpdateOnFailure.java,mockito,org.mockito.Mockito
+hive,UndProjects/hive/ql/src/test/org/apache/hadoop/hive/ql/parse/repl/metric/TestReplicationMetricUpdateOnFailure.java,mockito,org.mockito.junit.MockitoJUnitRunner
+hive,UndProjects/hive/ql/src/test/org/apache/hadoop/hive/ql/parse/type/TestTypeCheckProcFactory.java,mockito,org.mockito.Mock
+hive,UndProjects/hive/ql/src/test/org/apache/hadoop/hive/ql/parse/type/TestTypeCheckProcFactory.java,mockito,org.mockito.Mockito
+hive,UndProjects/hive/ql/src/test/org/apache/hadoop/hive/ql/parse/type/TestTypeCheckProcFactory.java,mockito,org.mockito.MockitoAnnotations
+hive,UndProjects/hive/ql/src/test/org/apache/hadoop/hive/ql/plan/TestTezWork.java,mockito,org.mockito.Mockito
+hive,UndProjects/hive/ql/src/test/org/apache/hadoop/hive/ql/plan/TestTezWork.java,mockito,org.mockito.invocation.InvocationOnMock
+hive,UndProjects/hive/ql/src/test/org/apache/hadoop/hive/ql/plan/TestTezWork.java,mockito,org.mockito.stubbing.Answer
+hive,UndProjects/hive/ql/src/test/org/apache/hadoop/hive/ql/processors/TestResetProcessor.java,mockito,static org.mockito.Mockito.mock
+hive,UndProjects/hive/ql/src/test/org/apache/hadoop/hive/ql/processors/TestResetProcessor.java,mockito,static org.mockito.Mockito.verify
+hive,UndProjects/hive/ql/src/test/org/apache/hadoop/hive/ql/processors/TestResetProcessor.java,mockito,static org.mockito.Mockito.when
+hive,UndProjects/hive/ql/src/test/org/apache/hadoop/hive/ql/secrets/AWSSecretsManagerSecretSourceTest.java,mockito,org.mockito.Mockito
+hive,UndProjects/hive/ql/src/test/org/apache/hadoop/hive/ql/security/authorization/plugin/TestHivePrivilegeObjectOwnerNameAndType.java,mockito,org.mockito.ArgumentCaptor
+hive,UndProjects/hive/ql/src/test/org/apache/hadoop/hive/ql/security/authorization/plugin/TestHivePrivilegeObjectOwnerNameAndType.java,mockito,org.mockito.Mockito
+hive,UndProjects/hive/ql/src/test/org/apache/hadoop/hive/ql/security/authorization/plugin/TestHivePrivilegeObjectOwnerNameAndType.java,mockito,static org.mockito.ArgumentMatchers.any
+hive,UndProjects/hive/ql/src/test/org/apache/hadoop/hive/ql/security/authorization/plugin/TestHivePrivilegeObjectOwnerNameAndType.java,mockito,static org.mockito.Mockito.reset
+hive,UndProjects/hive/ql/src/test/org/apache/hadoop/hive/ql/security/authorization/plugin/TestHivePrivilegeObjectOwnerNameAndType.java,mockito,static org.mockito.Mockito.verify
+hive,UndProjects/hive/ql/src/test/org/apache/hadoop/hive/ql/session/TestAddResource.java,mockito,org.mockito.Mockito
+hive,UndProjects/hive/ql/src/test/org/apache/hadoop/hive/ql/stats/TestBasicStats.java,mockito,static org.mockito.Mockito.doReturn
+hive,UndProjects/hive/ql/src/test/org/apache/hadoop/hive/ql/stats/TestBasicStats.java,mockito,org.mockito.Mockito
+hive,UndProjects/hive/ql/src/test/org/apache/hadoop/hive/ql/txn/compactor/TestInitiator.java,mockito,static org.mockito.ArgumentMatchers.any
+hive,UndProjects/hive/ql/src/test/org/apache/hadoop/hive/ql/txn/compactor/TestInitiator.java,mockito,static org.mockito.Mockito.doReturn
+hive,UndProjects/hive/ql/src/test/org/apache/hadoop/hive/ql/txn/compactor/TestInitiator.java,mockito,static org.mockito.Mockito.doThrow
+hive,UndProjects/hive/ql/src/test/org/apache/hadoop/hive/ql/txn/compactor/TestInitiator.java,mockito,org.mockito.Mockito
+hive,UndProjects/hive/ql/src/test/org/apache/hadoop/hive/ql/txn/compactor/TestWorker.java,mockito,org.mockito.Mockito
+hive,UndProjects/hive/ql/src/test/org/apache/hadoop/hive/ql/txn/compactor/TestWorker.java,mockito,static org.mockito.Mockito.doReturn
+hive,UndProjects/hive/ql/src/test/org/apache/hadoop/hive/ql/udf/generic/TestGenericUDAFEvaluator.java,mockito,org.mockito.Answers
+hive,UndProjects/hive/ql/src/test/org/apache/hadoop/hive/ql/udf/generic/TestGenericUDAFEvaluator.java,mockito,org.mockito.Mock
+hive,UndProjects/hive/ql/src/test/org/apache/hadoop/hive/ql/udf/generic/TestGenericUDAFEvaluator.java,mockito,org.mockito.junit.MockitoJUnitRunner
+hive,UndProjects/hive/ql/src/test/org/apache/hadoop/hive/ql/udf/generic/TestGenericUDFExtractUnion.java,mockito,static org.mockito.Mockito.when
+hive,UndProjects/hive/ql/src/test/org/apache/hadoop/hive/ql/udf/generic/TestGenericUDFExtractUnion.java,mockito,org.mockito.Mock
+hive,UndProjects/hive/ql/src/test/org/apache/hadoop/hive/ql/udf/generic/TestGenericUDFExtractUnion.java,mockito,org.mockito.junit.MockitoJUnitRunner
+hive,UndProjects/hive/ql/src/test/org/apache/hadoop/hive/ql/udf/generic/TestGenericUDFFromUnixTime.java,mockito,static org.mockito.Mockito.when
+hive,UndProjects/hive/ql/src/test/org/apache/hadoop/hive/ql/udf/generic/TestGenericUDFFromUnixTime.java,mockito,org.mockito.Mockito
+hive,UndProjects/hive/ql/src/test/org/apache/hadoop/hive/ql/udf/generic/TestGenericUDFSurrogateKey.java,mockito,org.mockito.Mockito
+hive,UndProjects/hive/ql/src/test/org/apache/hadoop/hive/ql/udf/generic/TestGenericUDFSurrogateKey.java,mockito,static org.mockito.Mockito.when
+hive,UndProjects/hive/ql/src/test/org/apache/hadoop/hive/ql/udf/generic/TestGenericUDFToUnixTimestamp.java,mockito,static org.mockito.Mockito.when
+hive,UndProjects/hive/ql/src/test/org/apache/hadoop/hive/ql/udf/generic/TestGenericUDFToUnixTimestamp.java,mockito,org.mockito.Mockito
+hive,UndProjects/hive/ql/src/test/org/apache/hadoop/hive/ql/udf/ptf/TestBoundaryCache.java,mockito,static org.mockito.ArgumentMatchers.any
+hive,UndProjects/hive/ql/src/test/org/apache/hadoop/hive/ql/udf/ptf/TestBoundaryCache.java,mockito,static org.mockito.Mockito.doAnswer
+hive,UndProjects/hive/ql/src/test/org/apache/hadoop/hive/ql/udf/ptf/TestBoundaryCache.java,mockito,static org.mockito.Mockito.mock
+hive,UndProjects/hive/ql/src/test/org/apache/hadoop/hive/ql/udf/ptf/TestBoundaryCache.java,mockito,static org.mockito.Mockito.spy
+hive,UndProjects/hive/ql/src/test/org/apache/hadoop/hive/ql/udf/ptf/TestBoundaryCache.java,mockito,static org.mockito.Mockito.when
+hive,UndProjects/hive/service/src/test/org/apache/hive/http/TestJdbcJarDownloadServlet.java,mockito,static org.mockito.Mockito.mock
+hive,UndProjects/hive/service/src/test/org/apache/hive/http/TestJdbcJarDownloadServlet.java,mockito,static org.mockito.Mockito.times
+hive,UndProjects/hive/service/src/test/org/apache/hive/http/TestJdbcJarDownloadServlet.java,mockito,static org.mockito.Mockito.verify
+hive,UndProjects/hive/service/src/test/org/apache/hive/service/auth/TestLdapAuthenticationProviderImpl.java,mockito,org.mockito.Mock
+hive,UndProjects/hive/service/src/test/org/apache/hive/service/auth/TestLdapAuthenticationProviderImpl.java,mockito,org.mockito.junit.MockitoJUnitRunner
+hive,UndProjects/hive/service/src/test/org/apache/hive/service/auth/TestLdapAuthenticationProviderImpl.java,mockito,static org.mockito.Mockito.*
+hive,UndProjects/hive/service/src/test/org/apache/hive/service/auth/ldap/LdapTestUtils.java,mockito,static org.mockito.Mockito.mock
+hive,UndProjects/hive/service/src/test/org/apache/hive/service/auth/ldap/LdapTestUtils.java,mockito,static org.mockito.Mockito.when
+hive,UndProjects/hive/service/src/test/org/apache/hive/service/auth/ldap/LdapTestUtils.java,mockito,org.mockito.stubbing.OngoingStubbing
+hive,UndProjects/hive/service/src/test/org/apache/hive/service/auth/ldap/TestChainFilter.java,mockito,org.mockito.junit.MockitoJUnitRunner
+hive,UndProjects/hive/service/src/test/org/apache/hive/service/auth/ldap/TestChainFilter.java,mockito,org.mockito.Mock
+hive,UndProjects/hive/service/src/test/org/apache/hive/service/auth/ldap/TestChainFilter.java,mockito,static org.mockito.Mockito.*
+hive,UndProjects/hive/service/src/test/org/apache/hive/service/auth/ldap/TestCustomQueryFilter.java,mockito,org.mockito.junit.MockitoJUnitRunner
+hive,UndProjects/hive/service/src/test/org/apache/hive/service/auth/ldap/TestCustomQueryFilter.java,mockito,org.mockito.Mock
+hive,UndProjects/hive/service/src/test/org/apache/hive/service/auth/ldap/TestCustomQueryFilter.java,mockito,static org.mockito.Mockito.*
+hive,UndProjects/hive/service/src/test/org/apache/hive/service/auth/ldap/TestGroupFilter.java,mockito,org.mockito.junit.MockitoJUnitRunner
+hive,UndProjects/hive/service/src/test/org/apache/hive/service/auth/ldap/TestGroupFilter.java,mockito,org.mockito.Mock
+hive,UndProjects/hive/service/src/test/org/apache/hive/service/auth/ldap/TestGroupFilter.java,mockito,static org.mockito.Mockito.*
+hive,UndProjects/hive/service/src/test/org/apache/hive/service/auth/ldap/TestLdapSearch.java,mockito,org.mockito.Mock
+hive,UndProjects/hive/service/src/test/org/apache/hive/service/auth/ldap/TestLdapSearch.java,mockito,org.mockito.junit.MockitoJUnitRunner
+hive,UndProjects/hive/service/src/test/org/apache/hive/service/auth/ldap/TestLdapSearch.java,mockito,static org.mockito.Mockito.*
+hive,UndProjects/hive/service/src/test/org/apache/hive/service/auth/ldap/TestSearchResultHandler.java,mockito,org.mockito.junit.MockitoJUnitRunner
+hive,UndProjects/hive/service/src/test/org/apache/hive/service/auth/ldap/TestSearchResultHandler.java,mockito,static org.mockito.Mockito.*
+hive,UndProjects/hive/service/src/test/org/apache/hive/service/auth/ldap/TestUserFilter.java,mockito,org.mockito.junit.MockitoJUnitRunner
+hive,UndProjects/hive/service/src/test/org/apache/hive/service/auth/ldap/TestUserFilter.java,mockito,org.mockito.Mock
+hive,UndProjects/hive/service/src/test/org/apache/hive/service/auth/ldap/TestUserFilter.java,mockito,static org.mockito.Mockito.*
+hive,UndProjects/hive/service/src/test/org/apache/hive/service/auth/ldap/TestUserSearchFilter.java,mockito,org.mockito.Mock
+hive,UndProjects/hive/service/src/test/org/apache/hive/service/auth/ldap/TestUserSearchFilter.java,mockito,org.mockito.junit.MockitoJUnitRunner
+hive,UndProjects/hive/service/src/test/org/apache/hive/service/auth/ldap/TestUserSearchFilter.java,mockito,static org.mockito.Mockito.*
+hive,UndProjects/hive/service/src/test/org/apache/hive/service/cli/operation/TestQueryLifeTimeHooksWithSQLOperation.java,mockito,static org.mockito.Mockito.mock
+hive,UndProjects/hive/service/src/test/org/apache/hive/service/cli/operation/TestQueryLifeTimeHooksWithSQLOperation.java,mockito,static org.mockito.Mockito.when
+hive,UndProjects/hive/service/src/test/org/apache/hive/service/cli/operation/TestSQLOperationMetrics.java,mockito,static org.mockito.Mockito.mock
+hive,UndProjects/hive/service/src/test/org/apache/hive/service/cli/operation/TestSQLOperationMetrics.java,mockito,static org.mockito.Mockito.when
+hive,UndProjects/hive/service/src/test/org/apache/hive/service/cli/session/TestSessionManagerMetrics.java,mockito,static org.mockito.Mockito.mock
+hive,UndProjects/hive/service/src/test/org/apache/hive/service/cli/session/TestSessionManagerMetrics.java,mockito,static org.mockito.Mockito.when
+hive,UndProjects/hive/service/src/test/org/apache/hive/service/cli/thrift/ThriftHttpServletTest.java,mockito,org.mockito.Mockito
+hive,UndProjects/hive/service/src/test/org/apache/hive/service/cli/thrift/ThriftHttpServletTest.java,mockito,org.mockito.junit.MockitoJUnitRunner
+hive,UndProjects/hive/shims/0.23/src/main/test/org/apache/hadoop/hive/shims/TestHadoop23Shims.java,mockito,static org.mockito.Mockito.doAnswer
+hive,UndProjects/hive/shims/0.23/src/main/test/org/apache/hadoop/hive/shims/TestHadoop23Shims.java,mockito,static org.mockito.Mockito.mock
+hive,UndProjects/hive/shims/common/src/main/test/org/apache/hadoop/fs/TestProxyFileSystem.java,mockito,static org.mockito.ArgumentMatchers.any
+hive,UndProjects/hive/shims/common/src/main/test/org/apache/hadoop/fs/TestProxyFileSystem.java,mockito,static org.mockito.Mockito.mock
+hive,UndProjects/hive/shims/common/src/main/test/org/apache/hadoop/fs/TestProxyFileSystem.java,mockito,static org.mockito.Mockito.when
+hive,UndProjects/hive/shims/common/src/main/test/org/apache/hadoop/hive/io/TestHdfsUtils.java,mockito,static org.mockito.ArgumentMatchers.any
+hive,UndProjects/hive/shims/common/src/main/test/org/apache/hadoop/hive/io/TestHdfsUtils.java,mockito,static org.mockito.Mockito.doThrow
+hive,UndProjects/hive/shims/common/src/main/test/org/apache/hadoop/hive/io/TestHdfsUtils.java,mockito,static org.mockito.Mockito.mock
+hive,UndProjects/hive/shims/common/src/main/test/org/apache/hadoop/hive/io/TestHdfsUtils.java,mockito,static org.mockito.Mockito.verify
+hive,UndProjects/hive/shims/common/src/main/test/org/apache/hadoop/hive/io/TestHdfsUtils.java,mockito,static org.mockito.Mockito.when
+hive,UndProjects/hive/spark-client/src/test/java/org/apache/hive/spark/client/TestJobHandle.java,mockito,org.mockito.InOrder
+hive,UndProjects/hive/spark-client/src/test/java/org/apache/hive/spark/client/TestJobHandle.java,mockito,org.mockito.Mock
+hive,UndProjects/hive/spark-client/src/test/java/org/apache/hive/spark/client/TestJobHandle.java,mockito,org.mockito.junit.MockitoJUnitRunner
+hive,UndProjects/hive/spark-client/src/test/java/org/apache/hive/spark/client/TestJobHandle.java,mockito,static org.mockito.Mockito.*
+hive,UndProjects/hive/spark-client/src/test/java/org/apache/hive/spark/client/TestSparkClient.java,mockito,org.mockito.invocation.InvocationOnMock
+hive,UndProjects/hive/spark-client/src/test/java/org/apache/hive/spark/client/TestSparkClient.java,mockito,org.mockito.stubbing.Answer
+hive,UndProjects/hive/spark-client/src/test/java/org/apache/hive/spark/client/TestSparkClient.java,mockito,org.mockito.Mockito
+hive,UndProjects/hive/spark-client/src/test/java/org/apache/hive/spark/client/TestSparkClient.java,mockito,static org.mockito.Mockito.*
+hive,UndProjects/hive/spark-client/src/test/java/org/apache/hive/spark/client/TestSparkLauncherSparkClient.java,mockito,static org.mockito.Mockito.mock
+hive,UndProjects/hive/spark-client/src/test/java/org/apache/hive/spark/client/TestSparkLauncherSparkClient.java,mockito,static org.mockito.Mockito.verify
+hive,UndProjects/hive/spark-client/src/test/java/org/apache/hive/spark/client/TestSparkLauncherSparkClient.java,mockito,static org.mockito.Mockito.when
+hive,UndProjects/hive/standalone-metastore/metastore-server/src/test/java/org/apache/hadoop/hive/metastore/TestHiveAlterHandler.java,mockito,org.mockito.Mockito
+hive,UndProjects/hive/standalone-metastore/metastore-server/src/test/java/org/apache/hadoop/hive/metastore/TestHiveMetaStore.java,mockito,static org.mockito.Mockito.mock
+hive,UndProjects/hive/standalone-metastore/metastore-server/src/test/java/org/apache/hadoop/hive/metastore/TestHiveMetaStore.java,mockito,static org.mockito.Mockito.never
+hive,UndProjects/hive/standalone-metastore/metastore-server/src/test/java/org/apache/hadoop/hive/metastore/TestHiveMetaStore.java,mockito,static org.mockito.Mockito.verify
+hive,UndProjects/hive/standalone-metastore/metastore-server/src/test/java/org/apache/hadoop/hive/metastore/TestMetaStoreLdapAuthenticationProviderImpl.java,mockito,org.mockito.Mock
+hive,UndProjects/hive/standalone-metastore/metastore-server/src/test/java/org/apache/hadoop/hive/metastore/TestMetaStoreLdapAuthenticationProviderImpl.java,mockito,org.mockito.junit.MockitoJUnitRunner
+hive,UndProjects/hive/standalone-metastore/metastore-server/src/test/java/org/apache/hadoop/hive/metastore/TestMetaStoreLdapAuthenticationProviderImpl.java,mockito,static org.mockito.ArgumentMatchers.any
+hive,UndProjects/hive/standalone-metastore/metastore-server/src/test/java/org/apache/hadoop/hive/metastore/TestMetaStoreLdapAuthenticationProviderImpl.java,mockito,static org.mockito.ArgumentMatchers.anyString
+hive,UndProjects/hive/standalone-metastore/metastore-server/src/test/java/org/apache/hadoop/hive/metastore/TestMetaStoreLdapAuthenticationProviderImpl.java,mockito,static org.mockito.ArgumentMatchers.eq
+hive,UndProjects/hive/standalone-metastore/metastore-server/src/test/java/org/apache/hadoop/hive/metastore/TestMetaStoreLdapAuthenticationProviderImpl.java,mockito,static org.mockito.ArgumentMatchers.isA
+hive,UndProjects/hive/standalone-metastore/metastore-server/src/test/java/org/apache/hadoop/hive/metastore/TestMetaStoreLdapAuthenticationProviderImpl.java,mockito,static org.mockito.Mockito.atLeastOnce
+hive,UndProjects/hive/standalone-metastore/metastore-server/src/test/java/org/apache/hadoop/hive/metastore/TestMetaStoreLdapAuthenticationProviderImpl.java,mockito,static org.mockito.Mockito.lenient
+hive,UndProjects/hive/standalone-metastore/metastore-server/src/test/java/org/apache/hadoop/hive/metastore/TestMetaStoreLdapAuthenticationProviderImpl.java,mockito,static org.mockito.Mockito.mock
+hive,UndProjects/hive/standalone-metastore/metastore-server/src/test/java/org/apache/hadoop/hive/metastore/TestMetaStoreLdapAuthenticationProviderImpl.java,mockito,static org.mockito.Mockito.times
+hive,UndProjects/hive/standalone-metastore/metastore-server/src/test/java/org/apache/hadoop/hive/metastore/TestMetaStoreLdapAuthenticationProviderImpl.java,mockito,static org.mockito.Mockito.verify
+hive,UndProjects/hive/standalone-metastore/metastore-server/src/test/java/org/apache/hadoop/hive/metastore/TestMetaStoreLdapAuthenticationProviderImpl.java,mockito,static org.mockito.Mockito.when
+hive,UndProjects/hive/standalone-metastore/metastore-server/src/test/java/org/apache/hadoop/hive/metastore/TestMsckCheckPartitions.java,mockito,org.mockito.Mockito
+hive,UndProjects/hive/standalone-metastore/metastore-server/src/test/java/org/apache/hadoop/hive/metastore/TestMsckCheckPartitions.java,mockito,static org.mockito.ArgumentMatchers.any
+hive,UndProjects/hive/standalone-metastore/metastore-server/src/test/java/org/apache/hadoop/hive/metastore/TestMsckCheckPartitions.java,mockito,static org.mockito.Mockito.times
+hive,UndProjects/hive/standalone-metastore/metastore-server/src/test/java/org/apache/hadoop/hive/metastore/TestMsckCheckPartitions.java,mockito,static org.mockito.Mockito.verify
+hive,UndProjects/hive/standalone-metastore/metastore-server/src/test/java/org/apache/hadoop/hive/metastore/TestMsckCheckPartitions.java,mockito,static org.mockito.Mockito.when
+hive,UndProjects/hive/standalone-metastore/metastore-server/src/test/java/org/apache/hadoop/hive/metastore/TestObjectStore.java,mockito,org.mockito.Mockito
+hive,UndProjects/hive/standalone-metastore/metastore-server/src/test/java/org/apache/hadoop/hive/metastore/TestPartitionProjectionEvaluator.java,mockito,org.mockito.Mockito
+hive,UndProjects/hive/standalone-metastore/metastore-server/src/test/java/org/apache/hadoop/hive/metastore/TestRetriesInRetryingHMSHandler.java,mockito,org.mockito.Mockito
+hive,UndProjects/hive/standalone-metastore/metastore-server/src/test/java/org/apache/hadoop/hive/metastore/TestTableIterable.java,mockito,static org.mockito.ArgumentMatchers.anyListOf
+hive,UndProjects/hive/standalone-metastore/metastore-server/src/test/java/org/apache/hadoop/hive/metastore/TestTableIterable.java,mockito,static org.mockito.ArgumentMatchers.anyString
+hive,UndProjects/hive/standalone-metastore/metastore-server/src/test/java/org/apache/hadoop/hive/metastore/TestTableIterable.java,mockito,static org.mockito.Mockito.mock
+hive,UndProjects/hive/standalone-metastore/metastore-server/src/test/java/org/apache/hadoop/hive/metastore/TestTableIterable.java,mockito,static org.mockito.Mockito.verify
+hive,UndProjects/hive/standalone-metastore/metastore-server/src/test/java/org/apache/hadoop/hive/metastore/TestTableIterable.java,mockito,static org.mockito.Mockito.when
+hive,UndProjects/hive/standalone-metastore/metastore-server/src/test/java/org/apache/hadoop/hive/metastore/client/TestMetastoreScheduledQueries.java,mockito,org.mockito.Matchers
+hive,UndProjects/hive/standalone-metastore/metastore-server/src/test/java/org/apache/hadoop/hive/metastore/ldap/LdapTestUtils.java,mockito,static org.mockito.Mockito.mock
+hive,UndProjects/hive/standalone-metastore/metastore-server/src/test/java/org/apache/hadoop/hive/metastore/ldap/LdapTestUtils.java,mockito,static org.mockito.Mockito.when
+hive,UndProjects/hive/standalone-metastore/metastore-server/src/test/java/org/apache/hadoop/hive/metastore/ldap/LdapTestUtils.java,mockito,org.mockito.stubbing.OngoingStubbing
+hive,UndProjects/hive/standalone-metastore/metastore-server/src/test/java/org/apache/hadoop/hive/metastore/ldap/TestChainFilter.java,mockito,org.mockito.junit.MockitoJUnitRunner
+hive,UndProjects/hive/standalone-metastore/metastore-server/src/test/java/org/apache/hadoop/hive/metastore/ldap/TestChainFilter.java,mockito,org.mockito.Mock
+hive,UndProjects/hive/standalone-metastore/metastore-server/src/test/java/org/apache/hadoop/hive/metastore/ldap/TestChainFilter.java,mockito,static org.mockito.Mockito.*
+hive,UndProjects/hive/standalone-metastore/metastore-server/src/test/java/org/apache/hadoop/hive/metastore/ldap/TestCustomQueryFilter.java,mockito,org.mockito.junit.MockitoJUnitRunner
+hive,UndProjects/hive/standalone-metastore/metastore-server/src/test/java/org/apache/hadoop/hive/metastore/ldap/TestCustomQueryFilter.java,mockito,org.mockito.Mock
+hive,UndProjects/hive/standalone-metastore/metastore-server/src/test/java/org/apache/hadoop/hive/metastore/ldap/TestCustomQueryFilter.java,mockito,static org.mockito.Mockito.*
+hive,UndProjects/hive/standalone-metastore/metastore-server/src/test/java/org/apache/hadoop/hive/metastore/ldap/TestGroupFilter.java,mockito,org.mockito.junit.MockitoJUnitRunner
+hive,UndProjects/hive/standalone-metastore/metastore-server/src/test/java/org/apache/hadoop/hive/metastore/ldap/TestGroupFilter.java,mockito,org.mockito.Mock
+hive,UndProjects/hive/standalone-metastore/metastore-server/src/test/java/org/apache/hadoop/hive/metastore/ldap/TestGroupFilter.java,mockito,static org.mockito.Mockito.*
+hive,UndProjects/hive/standalone-metastore/metastore-server/src/test/java/org/apache/hadoop/hive/metastore/ldap/TestLdapSearch.java,mockito,org.mockito.Mock
+hive,UndProjects/hive/standalone-metastore/metastore-server/src/test/java/org/apache/hadoop/hive/metastore/ldap/TestLdapSearch.java,mockito,org.mockito.junit.MockitoJUnitRunner
+hive,UndProjects/hive/standalone-metastore/metastore-server/src/test/java/org/apache/hadoop/hive/metastore/ldap/TestLdapSearch.java,mockito,static org.mockito.Mockito.*
+hive,UndProjects/hive/standalone-metastore/metastore-server/src/test/java/org/apache/hadoop/hive/metastore/ldap/TestSearchResultHandler.java,mockito,org.mockito.junit.MockitoJUnitRunner
+hive,UndProjects/hive/standalone-metastore/metastore-server/src/test/java/org/apache/hadoop/hive/metastore/ldap/TestSearchResultHandler.java,mockito,static org.mockito.Mockito.*
+hive,UndProjects/hive/standalone-metastore/metastore-server/src/test/java/org/apache/hadoop/hive/metastore/ldap/TestUserFilter.java,mockito,org.mockito.junit.MockitoJUnitRunner
+hive,UndProjects/hive/standalone-metastore/metastore-server/src/test/java/org/apache/hadoop/hive/metastore/ldap/TestUserFilter.java,mockito,org.mockito.Mock
+hive,UndProjects/hive/standalone-metastore/metastore-server/src/test/java/org/apache/hadoop/hive/metastore/ldap/TestUserFilter.java,mockito,static org.mockito.Mockito.*
+hive,UndProjects/hive/standalone-metastore/metastore-server/src/test/java/org/apache/hadoop/hive/metastore/ldap/TestUserSearchFilter.java,mockito,org.mockito.Mock
+hive,UndProjects/hive/standalone-metastore/metastore-server/src/test/java/org/apache/hadoop/hive/metastore/ldap/TestUserSearchFilter.java,mockito,org.mockito.junit.MockitoJUnitRunner
+hive,UndProjects/hive/standalone-metastore/metastore-server/src/test/java/org/apache/hadoop/hive/metastore/ldap/TestUserSearchFilter.java,mockito,static org.mockito.Mockito.*
+hive,UndProjects/hive/standalone-metastore/metastore-server/src/test/java/org/apache/hadoop/hive/metastore/tools/metatool/TestMetaToolTaskExecuteJDOQLQuery.java,mockito,static org.mockito.Mockito.doReturn
+hive,UndProjects/hive/standalone-metastore/metastore-server/src/test/java/org/apache/hadoop/hive/metastore/tools/metatool/TestMetaToolTaskExecuteJDOQLQuery.java,mockito,static org.mockito.Mockito.eq
+hive,UndProjects/hive/standalone-metastore/metastore-server/src/test/java/org/apache/hadoop/hive/metastore/tools/metatool/TestMetaToolTaskExecuteJDOQLQuery.java,mockito,static org.mockito.Mockito.when
+hive,UndProjects/hive/standalone-metastore/metastore-server/src/test/java/org/apache/hadoop/hive/metastore/tools/metatool/TestMetaToolTaskExecuteJDOQLQuery.java,mockito,org.mockito.Mockito
+hive,UndProjects/hive/standalone-metastore/metastore-server/src/test/java/org/apache/hadoop/hive/metastore/tools/metatool/TestMetaToolTaskListFSRoot.java,mockito,static org.mockito.Mockito.when
+hive,UndProjects/hive/standalone-metastore/metastore-server/src/test/java/org/apache/hadoop/hive/metastore/tools/metatool/TestMetaToolTaskListFSRoot.java,mockito,org.mockito.Mockito
+hive,UndProjects/hive/standalone-metastore/metastore-server/src/test/java/org/apache/hadoop/hive/metastore/tools/metatool/TestMetaToolTaskUpdateLocation.java,mockito,static org.mockito.ArgumentMatchers.eq
+hive,UndProjects/hive/standalone-metastore/metastore-server/src/test/java/org/apache/hadoop/hive/metastore/tools/metatool/TestMetaToolTaskUpdateLocation.java,mockito,static org.mockito.Mockito.when
+hive,UndProjects/hive/standalone-metastore/metastore-server/src/test/java/org/apache/hadoop/hive/metastore/tools/metatool/TestMetaToolTaskUpdateLocation.java,mockito,org.mockito.Mockito
+hive,UndProjects/hive/standalone-metastore/metastore-server/src/test/java/org/apache/hadoop/hive/metastore/tools/schematool/TestMetastoreSchemaTool.java,mockito,org.mockito.Mock
+hive,UndProjects/hive/standalone-metastore/metastore-server/src/test/java/org/apache/hadoop/hive/metastore/tools/schematool/TestSchemaToolTaskDrop.java,mockito,org.mockito.Mockito
+hive,UndProjects/hive/standalone-metastore/metastore-server/src/test/java/org/apache/hadoop/hive/metastore/tools/schematool/TestSchemaToolTaskDrop.java,mockito,static org.mockito.ArgumentMatchers.anyBoolean
+hive,UndProjects/hive/standalone-metastore/metastore-server/src/test/java/org/apache/hadoop/hive/metastore/tools/schematool/TestSchemaToolTaskDrop.java,mockito,static org.mockito.ArgumentMatchers.anyInt
+hive,UndProjects/hive/standalone-metastore/metastore-server/src/test/java/org/apache/hadoop/hive/metastore/tools/schematool/TestSchemaToolTaskDrop.java,mockito,static org.mockito.ArgumentMatchers.anyString
+hive,UndProjects/hive/standalone-metastore/metastore-server/src/test/java/org/apache/hadoop/hive/metastore/tools/schematool/TestSchemaToolTaskDrop.java,mockito,static org.mockito.Mockito.mock
+hive,UndProjects/hive/standalone-metastore/metastore-server/src/test/java/org/apache/hadoop/hive/metastore/tools/schematool/TestSchemaToolTaskDrop.java,mockito,static org.mockito.Mockito.times
+hive,UndProjects/hive/standalone-metastore/metastore-server/src/test/java/org/apache/hadoop/hive/metastore/tools/schematool/TestSchemaToolTaskDrop.java,mockito,static org.mockito.Mockito.when
+hive,UndProjects/hive/standalone-metastore/metastore-server/src/test/java/org/apache/hadoop/hive/metastore/utils/TestHdfsUtils.java,mockito,org.mockito.Mockito
+hive,UndProjects/hive/standalone-metastore/metastore-server/src/test/java/org/apache/hadoop/hive/metastore/utils/TestHdfsUtils.java,mockito,static org.mockito.ArgumentMatchers.any
+hive,UndProjects/hive/standalone-metastore/metastore-server/src/test/java/org/apache/hadoop/hive/metastore/utils/TestHdfsUtils.java,mockito,static org.mockito.Mockito.doThrow
+hive,UndProjects/hive/standalone-metastore/metastore-server/src/test/java/org/apache/hadoop/hive/metastore/utils/TestHdfsUtils.java,mockito,static org.mockito.Mockito.mock
+hive,UndProjects/hive/standalone-metastore/metastore-server/src/test/java/org/apache/hadoop/hive/metastore/utils/TestHdfsUtils.java,mockito,static org.mockito.Mockito.verify
+hive,UndProjects/hive/standalone-metastore/metastore-server/src/test/java/org/apache/hadoop/hive/metastore/utils/TestHdfsUtils.java,mockito,static org.mockito.Mockito.when
+hive,UndProjects/hive/standalone-metastore/metastore-server/src/test/java/org/apache/hadoop/hive/metastore/utils/TestMetaStoreServerUtils.java,mockito,static org.mockito.Mockito.mock
+hive,UndProjects/hive/standalone-metastore/metastore-server/src/test/java/org/apache/hadoop/hive/metastore/utils/TestMetaStoreServerUtils.java,mockito,static org.mockito.Mockito.never
+hive,UndProjects/hive/standalone-metastore/metastore-server/src/test/java/org/apache/hadoop/hive/metastore/utils/TestMetaStoreServerUtils.java,mockito,static org.mockito.Mockito.verify
+hive,UndProjects/hive/standalone-metastore/metastore-server/src/test/java/org/apache/hadoop/hive/metastore/utils/TestMetaStoreServerUtils.java,mockito,static org.mockito.Mockito.when
+hive,UndProjects/hive/testutils/ptest2/src/test/java/org/apache/hive/ptest/api/server/TestTestExecutor.java,mockito,static org.mockito.Mockito.mock
+hive,UndProjects/hive/testutils/ptest2/src/test/java/org/apache/hive/ptest/api/server/TestTestExecutor.java,mockito,static org.mockito.Mockito.when
+hive,UndProjects/hive/testutils/ptest2/src/test/java/org/apache/hive/ptest/execution/AbstractTestPhase.java,mockito,static org.mockito.Mockito.mock
+hive,UndProjects/hive/testutils/ptest2/src/test/java/org/apache/hive/ptest/execution/AbstractTestPhase.java,mockito,static org.mockito.Mockito.spy
+hive,UndProjects/hive/testutils/ptest2/src/test/java/org/apache/hive/ptest/execution/TestHostExecutor.java,mockito,static org.mockito.Mockito.mock
+hive,UndProjects/hive/testutils/ptest2/src/test/java/org/apache/hive/ptest/execution/TestHostExecutor.java,mockito,static org.mockito.Mockito.spy
+hive,UndProjects/hive/testutils/ptest2/src/test/java/org/apache/hive/ptest/execution/TestPhase.java,mockito,static org.mockito.Mockito.when
+hive,UndProjects/hive/testutils/ptest2/src/test/java/org/apache/hive/ptest/execution/context/TestCloudComputeService.java,mockito,static org.mockito.Mockito.*
+hive,UndProjects/hive/testutils/ptest2/src/test/java/org/apache/hive/ptest/execution/context/TestCloudExecutionContextProvider.java,mockito,static org.mockito.ArgumentMatchers.anyInt
+hive,UndProjects/hive/testutils/ptest2/src/test/java/org/apache/hive/ptest/execution/context/TestCloudExecutionContextProvider.java,mockito,static org.mockito.Mockito.mock
+hive,UndProjects/hive/testutils/ptest2/src/test/java/org/apache/hive/ptest/execution/context/TestCloudExecutionContextProvider.java,mockito,static org.mockito.Mockito.when
+hive,UndProjects/hive/testutils/ptest2/src/test/java/org/apache/hive/ptest/execution/context/TestCloudExecutionContextProvider.java,mockito,org.mockito.invocation.InvocationOnMock
+hive,UndProjects/hive/testutils/ptest2/src/test/java/org/apache/hive/ptest/execution/context/TestCloudExecutionContextProvider.java,mockito,org.mockito.stubbing.Answer
+hive,UndProjects/hive/testutils/ptest2/src/test/java/org/apache/hive/ptest/execution/ssh/TestRSyncCommandExecutor.java,mockito,static org.mockito.Mockito.mock
+hive,UndProjects/hive/testutils/ptest2/src/test/java/org/apache/hive/ptest/execution/ssh/TestRSyncCommandExecutor.java,mockito,static org.mockito.Mockito.never
+hive,UndProjects/hive/testutils/ptest2/src/test/java/org/apache/hive/ptest/execution/ssh/TestRSyncCommandExecutor.java,mockito,static org.mockito.Mockito.times
+hive,UndProjects/hive/testutils/ptest2/src/test/java/org/apache/hive/ptest/execution/ssh/TestRSyncCommandExecutor.java,mockito,static org.mockito.Mockito.verify
+hive,UndProjects/hive/testutils/ptest2/src/test/java/org/apache/hive/ptest/execution/ssh/TestRSyncCommandExecutor.java,mockito,static org.mockito.Mockito.when
+hive,UndProjects/hive/testutils/ptest2/src/test/java/org/apache/hive/ptest/execution/ssh/TestRSyncCommandExecutor.java,mockito,org.mockito.invocation.InvocationOnMock
+hive,UndProjects/hive/testutils/ptest2/src/test/java/org/apache/hive/ptest/execution/ssh/TestRSyncCommandExecutor.java,mockito,org.mockito.stubbing.Answer
+hive,UndProjects/hive/testutils/ptest2/src/test/java/org/apache/hive/ptest/execution/ssh/TestSSHCommandExecutor.java,mockito,static org.mockito.Mockito.mock
+hive,UndProjects/hive/testutils/ptest2/src/test/java/org/apache/hive/ptest/execution/ssh/TestSSHCommandExecutor.java,mockito,static org.mockito.Mockito.never
+hive,UndProjects/hive/testutils/ptest2/src/test/java/org/apache/hive/ptest/execution/ssh/TestSSHCommandExecutor.java,mockito,static org.mockito.Mockito.times
+hive,UndProjects/hive/testutils/ptest2/src/test/java/org/apache/hive/ptest/execution/ssh/TestSSHCommandExecutor.java,mockito,static org.mockito.Mockito.verify
+hive,UndProjects/hive/testutils/ptest2/src/test/java/org/apache/hive/ptest/execution/ssh/TestSSHCommandExecutor.java,mockito,static org.mockito.Mockito.when
+hive,UndProjects/hive/testutils/ptest2/src/test/java/org/apache/hive/ptest/execution/ssh/TestSSHCommandExecutor.java,mockito,org.mockito.invocation.InvocationOnMock
+hive,UndProjects/hive/testutils/ptest2/src/test/java/org/apache/hive/ptest/execution/ssh/TestSSHCommandExecutor.java,mockito,org.mockito.stubbing.Answer
+commons-lang,UndProjects/commons-lang/src/test/java/org/apache/commons/lang3/concurrent/BasicThreadFactoryTest.java,easymock,org.easymock.EasyMock
+commons-lang,UndProjects/commons-lang/src/test/java/org/apache/commons/lang3/concurrent/ConcurrentUtilsTest.java,easymock,org.easymock.EasyMock
+commons-lang,UndProjects/commons-lang/src/test/java/org/apache/commons/lang3/concurrent/MemoizerTest.java,easymock,static org.easymock.EasyMock.expect
+commons-lang,UndProjects/commons-lang/src/test/java/org/apache/commons/lang3/concurrent/MemoizerTest.java,easymock,static org.easymock.EasyMock.replay
+commons-lang,UndProjects/commons-lang/src/test/java/org/apache/commons/lang3/concurrent/MemoizerTest.java,easymock,org.easymock.EasyMock
+commons-lang,UndProjects/commons-lang/src/test/java/org/apache/commons/lang3/concurrent/TimedSemaphoreTest.java,easymock,org.easymock.EasyMock
+commons-lang,UndProjects/commons-lang/src/test/java/org/apache/commons/lang3/event/EventListenerSupportTest.java,easymock,org.easymock.EasyMock
+pig,UndProjects/pig/contrib/piggybank/java/src/test/java/org/apache/pig/piggybank/test/evaluation/xml/XPathAllTest.java,mockito,static org.mockito.Mockito.mock
+pig,UndProjects/pig/contrib/piggybank/java/src/test/java/org/apache/pig/piggybank/test/evaluation/xml/XPathAllTest.java,mockito,static org.mockito.Mockito.when
+pig,UndProjects/pig/contrib/piggybank/java/src/test/java/org/apache/pig/piggybank/test/evaluation/xml/XPathTest.java,mockito,static org.mockito.Mockito.mock
+pig,UndProjects/pig/contrib/piggybank/java/src/test/java/org/apache/pig/piggybank/test/evaluation/xml/XPathTest.java,mockito,static org.mockito.Mockito.when
+pig,UndProjects/pig/test/org/apache/pig/test/TestBinInterSedes.java,mockito,org.mockito.internal.util.reflection.Whitebox
+pig,UndProjects/pig/test/org/apache/pig/test/TestMRJobStats.java,mockito,org.mockito.Mockito
+pig,UndProjects/pig/test/org/apache/pig/test/TestReadToEndLoader.java,mockito,org.mockito.Mockito
+pig,UndProjects/pig/test/org/apache/pig/test/TestReadToEndLoader.java,mockito,static org.mockito.Mockito.*
+pig,UndProjects/pig/test/org/apache/pig/test/TestRegisterParser.java,mockito,org.mockito.Mockito
+httpcomponents-client,UndProjects/httpcomponents-client/httpclient5-cache/src/test/java/org/apache/hc/client5/http/cache/TestHttpCacheEntry.java,mockito,static org.mockito.Mockito.mock
+httpcomponents-client,UndProjects/httpcomponents-client/httpclient5-cache/src/test/java/org/apache/hc/client5/http/impl/cache/RequestEquivalent.java,mockito,org.mockito.ArgumentMatcher
+httpcomponents-client,UndProjects/httpcomponents-client/httpclient5-cache/src/test/java/org/apache/hc/client5/http/impl/cache/RequestEquivalent.java,mockito,org.mockito.ArgumentMatchers
+httpcomponents-client,UndProjects/httpcomponents-client/httpclient5-cache/src/test/java/org/apache/hc/client5/http/impl/cache/ResponseEquivalent.java,mockito,org.mockito.ArgumentMatcher
+httpcomponents-client,UndProjects/httpcomponents-client/httpclient5-cache/src/test/java/org/apache/hc/client5/http/impl/cache/ResponseEquivalent.java,mockito,org.mockito.ArgumentMatchers
+httpcomponents-client,UndProjects/httpcomponents-client/httpclient5-cache/src/test/java/org/apache/hc/client5/http/impl/cache/TestAbstractSerializingAsyncCacheStorage.java,mockito,static org.mockito.Mockito.verify
+httpcomponents-client,UndProjects/httpcomponents-client/httpclient5-cache/src/test/java/org/apache/hc/client5/http/impl/cache/TestAbstractSerializingAsyncCacheStorage.java,mockito,static org.mockito.Mockito.when
+httpcomponents-client,UndProjects/httpcomponents-client/httpclient5-cache/src/test/java/org/apache/hc/client5/http/impl/cache/TestAbstractSerializingAsyncCacheStorage.java,mockito,org.mockito.Answers
+httpcomponents-client,UndProjects/httpcomponents-client/httpclient5-cache/src/test/java/org/apache/hc/client5/http/impl/cache/TestAbstractSerializingAsyncCacheStorage.java,mockito,org.mockito.ArgumentCaptor
+httpcomponents-client,UndProjects/httpcomponents-client/httpclient5-cache/src/test/java/org/apache/hc/client5/http/impl/cache/TestAbstractSerializingAsyncCacheStorage.java,mockito,org.mockito.ArgumentMatchers
+httpcomponents-client,UndProjects/httpcomponents-client/httpclient5-cache/src/test/java/org/apache/hc/client5/http/impl/cache/TestAbstractSerializingAsyncCacheStorage.java,mockito,org.mockito.Mock
+httpcomponents-client,UndProjects/httpcomponents-client/httpclient5-cache/src/test/java/org/apache/hc/client5/http/impl/cache/TestAbstractSerializingAsyncCacheStorage.java,mockito,org.mockito.Mockito
+httpcomponents-client,UndProjects/httpcomponents-client/httpclient5-cache/src/test/java/org/apache/hc/client5/http/impl/cache/TestAbstractSerializingAsyncCacheStorage.java,mockito,org.mockito.junit.MockitoJUnitRunner
+httpcomponents-client,UndProjects/httpcomponents-client/httpclient5-cache/src/test/java/org/apache/hc/client5/http/impl/cache/TestAbstractSerializingAsyncCacheStorage.java,mockito,org.mockito.stubbing.Answer
+httpcomponents-client,UndProjects/httpcomponents-client/httpclient5-cache/src/test/java/org/apache/hc/client5/http/impl/cache/TestAbstractSerializingCacheStorage.java,mockito,static org.mockito.ArgumentMatchers.eq
+httpcomponents-client,UndProjects/httpcomponents-client/httpclient5-cache/src/test/java/org/apache/hc/client5/http/impl/cache/TestAbstractSerializingCacheStorage.java,mockito,static org.mockito.Mockito.verify
+httpcomponents-client,UndProjects/httpcomponents-client/httpclient5-cache/src/test/java/org/apache/hc/client5/http/impl/cache/TestAbstractSerializingCacheStorage.java,mockito,static org.mockito.Mockito.when
+httpcomponents-client,UndProjects/httpcomponents-client/httpclient5-cache/src/test/java/org/apache/hc/client5/http/impl/cache/TestAbstractSerializingCacheStorage.java,mockito,org.mockito.Answers
+httpcomponents-client,UndProjects/httpcomponents-client/httpclient5-cache/src/test/java/org/apache/hc/client5/http/impl/cache/TestAbstractSerializingCacheStorage.java,mockito,org.mockito.ArgumentCaptor
+httpcomponents-client,UndProjects/httpcomponents-client/httpclient5-cache/src/test/java/org/apache/hc/client5/http/impl/cache/TestAbstractSerializingCacheStorage.java,mockito,org.mockito.ArgumentMatchers
+httpcomponents-client,UndProjects/httpcomponents-client/httpclient5-cache/src/test/java/org/apache/hc/client5/http/impl/cache/TestAbstractSerializingCacheStorage.java,mockito,org.mockito.Mockito
+httpcomponents-client,UndProjects/httpcomponents-client/httpclient5-cache/src/test/java/org/apache/hc/client5/http/impl/cache/TestAbstractSerializingCacheStorage.java,mockito,org.mockito.stubbing.Answer
+httpcomponents-client,UndProjects/httpcomponents-client/httpclient5-cache/src/test/java/org/apache/hc/client5/http/impl/cache/TestCacheKeyGenerator.java,mockito,static org.mockito.Mockito.mock
+httpcomponents-client,UndProjects/httpcomponents-client/httpclient5-cache/src/test/java/org/apache/hc/client5/http/impl/cache/TestCacheKeyGenerator.java,mockito,static org.mockito.Mockito.verify
+httpcomponents-client,UndProjects/httpcomponents-client/httpclient5-cache/src/test/java/org/apache/hc/client5/http/impl/cache/TestCacheKeyGenerator.java,mockito,static org.mockito.Mockito.when
+httpcomponents-client,UndProjects/httpcomponents-client/httpclient5-cache/src/test/java/org/apache/hc/client5/http/impl/cache/TestCacheRevalidatorBase.java,mockito,static org.mockito.Mockito.doThrow
+httpcomponents-client,UndProjects/httpcomponents-client/httpclient5-cache/src/test/java/org/apache/hc/client5/http/impl/cache/TestCacheRevalidatorBase.java,mockito,static org.mockito.Mockito.verify
+httpcomponents-client,UndProjects/httpcomponents-client/httpclient5-cache/src/test/java/org/apache/hc/client5/http/impl/cache/TestCacheRevalidatorBase.java,mockito,static org.mockito.Mockito.when
+httpcomponents-client,UndProjects/httpcomponents-client/httpclient5-cache/src/test/java/org/apache/hc/client5/http/impl/cache/TestCacheRevalidatorBase.java,mockito,org.mockito.ArgumentMatchers
+httpcomponents-client,UndProjects/httpcomponents-client/httpclient5-cache/src/test/java/org/apache/hc/client5/http/impl/cache/TestCacheRevalidatorBase.java,mockito,org.mockito.Mock
+httpcomponents-client,UndProjects/httpcomponents-client/httpclient5-cache/src/test/java/org/apache/hc/client5/http/impl/cache/TestCacheRevalidatorBase.java,mockito,org.mockito.junit.MockitoJUnitRunner
+httpcomponents-client,UndProjects/httpcomponents-client/httpclient5-cache/src/test/java/org/apache/hc/client5/http/impl/cache/TestCachedHttpResponseGenerator.java,mockito,static org.mockito.ArgumentMatchers.isA
+httpcomponents-client,UndProjects/httpcomponents-client/httpclient5-cache/src/test/java/org/apache/hc/client5/http/impl/cache/TestCachedHttpResponseGenerator.java,mockito,static org.mockito.ArgumentMatchers.same
+httpcomponents-client,UndProjects/httpcomponents-client/httpclient5-cache/src/test/java/org/apache/hc/client5/http/impl/cache/TestCachedHttpResponseGenerator.java,mockito,static org.mockito.Mockito.mock
+httpcomponents-client,UndProjects/httpcomponents-client/httpclient5-cache/src/test/java/org/apache/hc/client5/http/impl/cache/TestCachedHttpResponseGenerator.java,mockito,static org.mockito.Mockito.verify
+httpcomponents-client,UndProjects/httpcomponents-client/httpclient5-cache/src/test/java/org/apache/hc/client5/http/impl/cache/TestCachedHttpResponseGenerator.java,mockito,static org.mockito.Mockito.when
+httpcomponents-client,UndProjects/httpcomponents-client/httpclient5-cache/src/test/java/org/apache/hc/client5/http/impl/cache/TestCachingExecChain.java,mockito,org.mockito.ArgumentCaptor
+httpcomponents-client,UndProjects/httpcomponents-client/httpclient5-cache/src/test/java/org/apache/hc/client5/http/impl/cache/TestCachingExecChain.java,mockito,org.mockito.Mock
+httpcomponents-client,UndProjects/httpcomponents-client/httpclient5-cache/src/test/java/org/apache/hc/client5/http/impl/cache/TestCachingExecChain.java,mockito,org.mockito.Mockito
+httpcomponents-client,UndProjects/httpcomponents-client/httpclient5-cache/src/test/java/org/apache/hc/client5/http/impl/cache/TestCachingExecChain.java,mockito,org.mockito.Spy
+httpcomponents-client,UndProjects/httpcomponents-client/httpclient5-cache/src/test/java/org/apache/hc/client5/http/impl/cache/TestCachingExecChain.java,mockito,org.mockito.junit.MockitoJUnitRunner
+httpcomponents-client,UndProjects/httpcomponents-client/httpclient5-cache/src/test/java/org/apache/hc/client5/http/impl/cache/TestCombinedEntity.java,mockito,static org.mockito.Mockito.mock
+httpcomponents-client,UndProjects/httpcomponents-client/httpclient5-cache/src/test/java/org/apache/hc/client5/http/impl/cache/TestCombinedEntity.java,mockito,static org.mockito.Mockito.verify
+httpcomponents-client,UndProjects/httpcomponents-client/httpclient5-cache/src/test/java/org/apache/hc/client5/http/impl/cache/TestCombinedEntity.java,mockito,static org.mockito.Mockito.when
+httpcomponents-client,UndProjects/httpcomponents-client/httpclient5-cache/src/test/java/org/apache/hc/client5/http/impl/cache/TestDefaultAsyncCacheInvalidator.java,mockito,static org.mockito.Mockito.verify
+httpcomponents-client,UndProjects/httpcomponents-client/httpclient5-cache/src/test/java/org/apache/hc/client5/http/impl/cache/TestDefaultAsyncCacheInvalidator.java,mockito,static org.mockito.Mockito.verifyNoMoreInteractions
+httpcomponents-client,UndProjects/httpcomponents-client/httpclient5-cache/src/test/java/org/apache/hc/client5/http/impl/cache/TestDefaultAsyncCacheInvalidator.java,mockito,static org.mockito.Mockito.when
+httpcomponents-client,UndProjects/httpcomponents-client/httpclient5-cache/src/test/java/org/apache/hc/client5/http/impl/cache/TestDefaultAsyncCacheInvalidator.java,mockito,org.mockito.ArgumentMatchers
+httpcomponents-client,UndProjects/httpcomponents-client/httpclient5-cache/src/test/java/org/apache/hc/client5/http/impl/cache/TestDefaultAsyncCacheInvalidator.java,mockito,org.mockito.Mock
+httpcomponents-client,UndProjects/httpcomponents-client/httpclient5-cache/src/test/java/org/apache/hc/client5/http/impl/cache/TestDefaultAsyncCacheInvalidator.java,mockito,org.mockito.Mockito
+httpcomponents-client,UndProjects/httpcomponents-client/httpclient5-cache/src/test/java/org/apache/hc/client5/http/impl/cache/TestDefaultAsyncCacheInvalidator.java,mockito,org.mockito.junit.MockitoJUnitRunner
+httpcomponents-client,UndProjects/httpcomponents-client/httpclient5-cache/src/test/java/org/apache/hc/client5/http/impl/cache/TestDefaultAsyncCacheInvalidator.java,mockito,org.mockito.stubbing.Answer
+httpcomponents-client,UndProjects/httpcomponents-client/httpclient5-cache/src/test/java/org/apache/hc/client5/http/impl/cache/TestDefaultCacheInvalidator.java,mockito,static org.mockito.Mockito.verify
+httpcomponents-client,UndProjects/httpcomponents-client/httpclient5-cache/src/test/java/org/apache/hc/client5/http/impl/cache/TestDefaultCacheInvalidator.java,mockito,static org.mockito.Mockito.verifyNoMoreInteractions
+httpcomponents-client,UndProjects/httpcomponents-client/httpclient5-cache/src/test/java/org/apache/hc/client5/http/impl/cache/TestDefaultCacheInvalidator.java,mockito,static org.mockito.Mockito.when
+httpcomponents-client,UndProjects/httpcomponents-client/httpclient5-cache/src/test/java/org/apache/hc/client5/http/impl/cache/TestDefaultCacheInvalidator.java,mockito,org.mockito.ArgumentMatchers
+httpcomponents-client,UndProjects/httpcomponents-client/httpclient5-cache/src/test/java/org/apache/hc/client5/http/impl/cache/TestDefaultCacheInvalidator.java,mockito,org.mockito.Mock
+httpcomponents-client,UndProjects/httpcomponents-client/httpclient5-cache/src/test/java/org/apache/hc/client5/http/impl/cache/TestDefaultCacheInvalidator.java,mockito,org.mockito.junit.MockitoJUnitRunner
+httpcomponents-client,UndProjects/httpcomponents-client/httpclient5-cache/src/test/java/org/apache/hc/client5/http/impl/cache/TestDefaultCacheInvalidator.java,mockito,org.mockito.stubbing.Answer
+httpcomponents-client,UndProjects/httpcomponents-client/httpclient5-cache/src/test/java/org/apache/hc/client5/http/impl/cache/TestHttpByteArrayCacheEntrySerializer.java,mockito,org.mockito.Mockito
+httpcomponents-client,UndProjects/httpcomponents-client/httpclient5-cache/src/test/java/org/apache/hc/client5/http/impl/cache/TestHttpCacheJiraNumber1147.java,mockito,static org.mockito.ArgumentMatchers.isA
+httpcomponents-client,UndProjects/httpcomponents-client/httpclient5-cache/src/test/java/org/apache/hc/client5/http/impl/cache/TestHttpCacheJiraNumber1147.java,mockito,static org.mockito.Mockito.mock
+httpcomponents-client,UndProjects/httpcomponents-client/httpclient5-cache/src/test/java/org/apache/hc/client5/http/impl/cache/TestHttpCacheJiraNumber1147.java,mockito,static org.mockito.Mockito.reset
+httpcomponents-client,UndProjects/httpcomponents-client/httpclient5-cache/src/test/java/org/apache/hc/client5/http/impl/cache/TestHttpCacheJiraNumber1147.java,mockito,static org.mockito.Mockito.verify
+httpcomponents-client,UndProjects/httpcomponents-client/httpclient5-cache/src/test/java/org/apache/hc/client5/http/impl/cache/TestHttpCacheJiraNumber1147.java,mockito,static org.mockito.Mockito.when
+httpcomponents-client,UndProjects/httpcomponents-client/httpclient5-cache/src/test/java/org/apache/hc/client5/http/impl/cache/TestHttpCacheJiraNumber1147.java,mockito,org.mockito.Mockito
+httpcomponents-client,UndProjects/httpcomponents-client/httpclient5-cache/src/test/java/org/apache/hc/client5/http/impl/cache/TestProtocolAllowedBehavior.java,mockito,org.mockito.Mock
+httpcomponents-client,UndProjects/httpcomponents-client/httpclient5-cache/src/test/java/org/apache/hc/client5/http/impl/cache/TestProtocolAllowedBehavior.java,mockito,org.mockito.Mockito
+httpcomponents-client,UndProjects/httpcomponents-client/httpclient5-cache/src/test/java/org/apache/hc/client5/http/impl/cache/TestProtocolAllowedBehavior.java,mockito,org.mockito.junit.MockitoJUnitRunner
+httpcomponents-client,UndProjects/httpcomponents-client/httpclient5-cache/src/test/java/org/apache/hc/client5/http/impl/cache/TestProtocolDeviations.java,mockito,org.mockito.Mock
+httpcomponents-client,UndProjects/httpcomponents-client/httpclient5-cache/src/test/java/org/apache/hc/client5/http/impl/cache/TestProtocolDeviations.java,mockito,org.mockito.Mockito
+httpcomponents-client,UndProjects/httpcomponents-client/httpclient5-cache/src/test/java/org/apache/hc/client5/http/impl/cache/TestProtocolDeviations.java,mockito,org.mockito.junit.MockitoJUnitRunner
+httpcomponents-client,UndProjects/httpcomponents-client/httpclient5-cache/src/test/java/org/apache/hc/client5/http/impl/cache/TestProtocolRecommendations.java,mockito,org.mockito.ArgumentCaptor
+httpcomponents-client,UndProjects/httpcomponents-client/httpclient5-cache/src/test/java/org/apache/hc/client5/http/impl/cache/TestProtocolRecommendations.java,mockito,org.mockito.Mock
+httpcomponents-client,UndProjects/httpcomponents-client/httpclient5-cache/src/test/java/org/apache/hc/client5/http/impl/cache/TestProtocolRecommendations.java,mockito,org.mockito.Mockito
+httpcomponents-client,UndProjects/httpcomponents-client/httpclient5-cache/src/test/java/org/apache/hc/client5/http/impl/cache/TestProtocolRecommendations.java,mockito,org.mockito.junit.MockitoJUnitRunner
+httpcomponents-client,UndProjects/httpcomponents-client/httpclient5-cache/src/test/java/org/apache/hc/client5/http/impl/cache/TestProtocolRequirements.java,mockito,org.mockito.ArgumentCaptor
+httpcomponents-client,UndProjects/httpcomponents-client/httpclient5-cache/src/test/java/org/apache/hc/client5/http/impl/cache/TestProtocolRequirements.java,mockito,org.mockito.Mock
+httpcomponents-client,UndProjects/httpcomponents-client/httpclient5-cache/src/test/java/org/apache/hc/client5/http/impl/cache/TestProtocolRequirements.java,mockito,org.mockito.Mockito
+httpcomponents-client,UndProjects/httpcomponents-client/httpclient5-cache/src/test/java/org/apache/hc/client5/http/impl/cache/TestProtocolRequirements.java,mockito,org.mockito.junit.MockitoJUnitRunner
+httpcomponents-client,UndProjects/httpcomponents-client/httpclient5-cache/src/test/java/org/apache/hc/client5/http/impl/cache/TestRFC5861Compliance.java,mockito,org.mockito.Mock
+httpcomponents-client,UndProjects/httpcomponents-client/httpclient5-cache/src/test/java/org/apache/hc/client5/http/impl/cache/TestRFC5861Compliance.java,mockito,org.mockito.Mockito
+httpcomponents-client,UndProjects/httpcomponents-client/httpclient5-cache/src/test/java/org/apache/hc/client5/http/impl/cache/TestRFC5861Compliance.java,mockito,org.mockito.junit.MockitoJUnitRunner
+httpcomponents-client,UndProjects/httpcomponents-client/httpclient5-testing/src/test/java/org/apache/hc/client5/testing/sync/TestSPNegoScheme.java,mockito,org.mockito.ArgumentMatchers
+httpcomponents-client,UndProjects/httpcomponents-client/httpclient5-testing/src/test/java/org/apache/hc/client5/testing/sync/TestSPNegoScheme.java,mockito,org.mockito.Mockito
+httpcomponents-client,UndProjects/httpcomponents-client/httpclient5/src/test/java/org/apache/hc/client5/http/entity/TestEntityBuilder.java,mockito,org.mockito.Mockito
+httpcomponents-client,UndProjects/httpcomponents-client/httpclient5/src/test/java/org/apache/hc/client5/http/entity/TestGZip.java,mockito,org.mockito.ArgumentMatchers
+httpcomponents-client,UndProjects/httpcomponents-client/httpclient5/src/test/java/org/apache/hc/client5/http/entity/TestGZip.java,mockito,org.mockito.Mockito
+httpcomponents-client,UndProjects/httpcomponents-client/httpclient5/src/test/java/org/apache/hc/client5/http/impl/TestIdleConnectionEvictor.java,mockito,org.mockito.ArgumentMatchers
+httpcomponents-client,UndProjects/httpcomponents-client/httpclient5/src/test/java/org/apache/hc/client5/http/impl/TestIdleConnectionEvictor.java,mockito,org.mockito.Mockito
+httpcomponents-client,UndProjects/httpcomponents-client/httpclient5/src/test/java/org/apache/hc/client5/http/impl/auth/TestHttpAuthenticator.java,mockito,org.mockito.Answers
+httpcomponents-client,UndProjects/httpcomponents-client/httpclient5/src/test/java/org/apache/hc/client5/http/impl/auth/TestHttpAuthenticator.java,mockito,org.mockito.Mockito
+httpcomponents-client,UndProjects/httpcomponents-client/httpclient5/src/test/java/org/apache/hc/client5/http/impl/auth/TestSystemDefaultCredentialsProvider.java,mockito,org.mockito.ArgumentMatchers
+httpcomponents-client,UndProjects/httpcomponents-client/httpclient5/src/test/java/org/apache/hc/client5/http/impl/auth/TestSystemDefaultCredentialsProvider.java,mockito,org.mockito.Mockito
+httpcomponents-client,UndProjects/httpcomponents-client/httpclient5/src/test/java/org/apache/hc/client5/http/impl/classic/TestAbstractHttpClientResponseHandler.java,mockito,org.mockito.Mockito
+httpcomponents-client,UndProjects/httpcomponents-client/httpclient5/src/test/java/org/apache/hc/client5/http/impl/classic/TestBasicResponseHandler.java,mockito,org.mockito.Mockito
+httpcomponents-client,UndProjects/httpcomponents-client/httpclient5/src/test/java/org/apache/hc/client5/http/impl/classic/TestCloseableHttpClient.java,mockito,org.mockito.Mockito
+httpcomponents-client,UndProjects/httpcomponents-client/httpclient5/src/test/java/org/apache/hc/client5/http/impl/classic/TestConnectExec.java,mockito,org.mockito.ArgumentCaptor
+httpcomponents-client,UndProjects/httpcomponents-client/httpclient5/src/test/java/org/apache/hc/client5/http/impl/classic/TestConnectExec.java,mockito,org.mockito.Mock
+httpcomponents-client,UndProjects/httpcomponents-client/httpclient5/src/test/java/org/apache/hc/client5/http/impl/classic/TestConnectExec.java,mockito,org.mockito.Mockito
+httpcomponents-client,UndProjects/httpcomponents-client/httpclient5/src/test/java/org/apache/hc/client5/http/impl/classic/TestConnectExec.java,mockito,org.mockito.junit.MockitoJUnitRunner
+httpcomponents-client,UndProjects/httpcomponents-client/httpclient5/src/test/java/org/apache/hc/client5/http/impl/classic/TestConnectExec.java,mockito,org.mockito.stubbing.Answer
+httpcomponents-client,UndProjects/httpcomponents-client/httpclient5/src/test/java/org/apache/hc/client5/http/impl/classic/TestContentCompressionExec.java,mockito,org.mockito.Mock
+httpcomponents-client,UndProjects/httpcomponents-client/httpclient5/src/test/java/org/apache/hc/client5/http/impl/classic/TestContentCompressionExec.java,mockito,org.mockito.Mockito
+httpcomponents-client,UndProjects/httpcomponents-client/httpclient5/src/test/java/org/apache/hc/client5/http/impl/classic/TestContentCompressionExec.java,mockito,org.mockito.junit.MockitoJUnitRunner
+httpcomponents-client,UndProjects/httpcomponents-client/httpclient5/src/test/java/org/apache/hc/client5/http/impl/classic/TestHttpRequestRetryExec.java,mockito,org.mockito.Mock
+httpcomponents-client,UndProjects/httpcomponents-client/httpclient5/src/test/java/org/apache/hc/client5/http/impl/classic/TestHttpRequestRetryExec.java,mockito,org.mockito.Mockito
+httpcomponents-client,UndProjects/httpcomponents-client/httpclient5/src/test/java/org/apache/hc/client5/http/impl/classic/TestHttpRequestRetryExec.java,mockito,org.mockito.junit.MockitoJUnitRunner
+httpcomponents-client,UndProjects/httpcomponents-client/httpclient5/src/test/java/org/apache/hc/client5/http/impl/classic/TestInternalExecRuntime.java,mockito,org.mockito.Mock
+httpcomponents-client,UndProjects/httpcomponents-client/httpclient5/src/test/java/org/apache/hc/client5/http/impl/classic/TestInternalExecRuntime.java,mockito,org.mockito.Mockito
+httpcomponents-client,UndProjects/httpcomponents-client/httpclient5/src/test/java/org/apache/hc/client5/http/impl/classic/TestInternalExecRuntime.java,mockito,org.mockito.junit.MockitoJUnitRunner
+httpcomponents-client,UndProjects/httpcomponents-client/httpclient5/src/test/java/org/apache/hc/client5/http/impl/classic/TestInternalHttpClient.java,mockito,org.mockito.Mock
+httpcomponents-client,UndProjects/httpcomponents-client/httpclient5/src/test/java/org/apache/hc/client5/http/impl/classic/TestInternalHttpClient.java,mockito,org.mockito.Mockito
+httpcomponents-client,UndProjects/httpcomponents-client/httpclient5/src/test/java/org/apache/hc/client5/http/impl/classic/TestInternalHttpClient.java,mockito,org.mockito.junit.MockitoJUnitRunner
+httpcomponents-client,UndProjects/httpcomponents-client/httpclient5/src/test/java/org/apache/hc/client5/http/impl/classic/TestMainClientExec.java,mockito,org.mockito.Mock
+httpcomponents-client,UndProjects/httpcomponents-client/httpclient5/src/test/java/org/apache/hc/client5/http/impl/classic/TestMainClientExec.java,mockito,org.mockito.Mockito
+httpcomponents-client,UndProjects/httpcomponents-client/httpclient5/src/test/java/org/apache/hc/client5/http/impl/classic/TestMainClientExec.java,mockito,org.mockito.junit.MockitoJUnitRunner
+httpcomponents-client,UndProjects/httpcomponents-client/httpclient5/src/test/java/org/apache/hc/client5/http/impl/classic/TestMainClientExec.java,mockito,org.mockito.stubbing.Answer
+httpcomponents-client,UndProjects/httpcomponents-client/httpclient5/src/test/java/org/apache/hc/client5/http/impl/classic/TestProtocolExec.java,mockito,org.mockito.Mock
+httpcomponents-client,UndProjects/httpcomponents-client/httpclient5/src/test/java/org/apache/hc/client5/http/impl/classic/TestProtocolExec.java,mockito,org.mockito.Mockito
+httpcomponents-client,UndProjects/httpcomponents-client/httpclient5/src/test/java/org/apache/hc/client5/http/impl/classic/TestProtocolExec.java,mockito,org.mockito.junit.MockitoJUnitRunner
+httpcomponents-client,UndProjects/httpcomponents-client/httpclient5/src/test/java/org/apache/hc/client5/http/impl/classic/TestProtocolExec.java,mockito,org.mockito.stubbing.Answer
+httpcomponents-client,UndProjects/httpcomponents-client/httpclient5/src/test/java/org/apache/hc/client5/http/impl/classic/TestRedirectExec.java,mockito,org.mockito.ArgumentCaptor
+httpcomponents-client,UndProjects/httpcomponents-client/httpclient5/src/test/java/org/apache/hc/client5/http/impl/classic/TestRedirectExec.java,mockito,org.mockito.ArgumentMatcher
+httpcomponents-client,UndProjects/httpcomponents-client/httpclient5/src/test/java/org/apache/hc/client5/http/impl/classic/TestRedirectExec.java,mockito,org.mockito.ArgumentMatchers
+httpcomponents-client,UndProjects/httpcomponents-client/httpclient5/src/test/java/org/apache/hc/client5/http/impl/classic/TestRedirectExec.java,mockito,org.mockito.Mock
+httpcomponents-client,UndProjects/httpcomponents-client/httpclient5/src/test/java/org/apache/hc/client5/http/impl/classic/TestRedirectExec.java,mockito,org.mockito.Mockito
+httpcomponents-client,UndProjects/httpcomponents-client/httpclient5/src/test/java/org/apache/hc/client5/http/impl/classic/TestRedirectExec.java,mockito,org.mockito.junit.MockitoJUnitRunner
+httpcomponents-client,UndProjects/httpcomponents-client/httpclient5/src/test/java/org/apache/hc/client5/http/impl/classic/TestResponseEntityProxy.java,mockito,org.mockito.ArgumentCaptor
+httpcomponents-client,UndProjects/httpcomponents-client/httpclient5/src/test/java/org/apache/hc/client5/http/impl/classic/TestResponseEntityProxy.java,mockito,org.mockito.Mock
+httpcomponents-client,UndProjects/httpcomponents-client/httpclient5/src/test/java/org/apache/hc/client5/http/impl/classic/TestResponseEntityProxy.java,mockito,org.mockito.Mockito
+httpcomponents-client,UndProjects/httpcomponents-client/httpclient5/src/test/java/org/apache/hc/client5/http/impl/classic/TestResponseEntityProxy.java,mockito,org.mockito.junit.MockitoJUnitRunner
+httpcomponents-client,UndProjects/httpcomponents-client/httpclient5/src/test/java/org/apache/hc/client5/http/impl/classic/TestResponseEntityWrapper.java,mockito,org.mockito.Mockito
+httpcomponents-client,UndProjects/httpcomponents-client/httpclient5/src/test/java/org/apache/hc/client5/http/impl/cookie/TestRFC6265CookieSpec.java,mockito,org.mockito.ArgumentMatchers
+httpcomponents-client,UndProjects/httpcomponents-client/httpclient5/src/test/java/org/apache/hc/client5/http/impl/cookie/TestRFC6265CookieSpec.java,mockito,org.mockito.Mockito
+httpcomponents-client,UndProjects/httpcomponents-client/httpclient5/src/test/java/org/apache/hc/client5/http/impl/io/TestBasicHttpClientConnectionManager.java,mockito,org.mockito.Mock
+httpcomponents-client,UndProjects/httpcomponents-client/httpclient5/src/test/java/org/apache/hc/client5/http/impl/io/TestBasicHttpClientConnectionManager.java,mockito,org.mockito.Mockito
+httpcomponents-client,UndProjects/httpcomponents-client/httpclient5/src/test/java/org/apache/hc/client5/http/impl/io/TestBasicHttpClientConnectionManager.java,mockito,org.mockito.junit.MockitoJUnitRunner
+httpcomponents-client,UndProjects/httpcomponents-client/httpclient5/src/test/java/org/apache/hc/client5/http/impl/io/TestHttpClientConnectionOperator.java,mockito,org.mockito.Mockito
+httpcomponents-client,UndProjects/httpcomponents-client/httpclient5/src/test/java/org/apache/hc/client5/http/impl/io/TestPoolingHttpClientConnectionManager.java,mockito,org.mockito.Mock
+httpcomponents-client,UndProjects/httpcomponents-client/httpclient5/src/test/java/org/apache/hc/client5/http/impl/io/TestPoolingHttpClientConnectionManager.java,mockito,org.mockito.Mockito
+httpcomponents-client,UndProjects/httpcomponents-client/httpclient5/src/test/java/org/apache/hc/client5/http/impl/io/TestPoolingHttpClientConnectionManager.java,mockito,org.mockito.junit.MockitoJUnitRunner
+httpcomponents-client,UndProjects/httpcomponents-client/httpclient5/src/test/java/org/apache/hc/client5/http/impl/routing/TestDefaultProxyRoutePlanner.java,mockito,org.mockito.Mockito
+httpcomponents-client,UndProjects/httpcomponents-client/httpclient5/src/test/java/org/apache/hc/client5/http/impl/routing/TestDefaultRoutePlanner.java,mockito,org.mockito.Mockito
+httpcomponents-client,UndProjects/httpcomponents-client/httpclient5/src/test/java/org/apache/hc/client5/http/impl/routing/TestSystemDefaultRoutePlanner.java,mockito,org.mockito.ArgumentMatchers
+httpcomponents-client,UndProjects/httpcomponents-client/httpclient5/src/test/java/org/apache/hc/client5/http/impl/routing/TestSystemDefaultRoutePlanner.java,mockito,org.mockito.Mockito
+httpcomponents-client,UndProjects/httpcomponents-client/httpclient5/src/test/java/org/apache/hc/client5/http/protocol/TestRequestAddCookies.java,mockito,org.mockito.ArgumentMatchers
+httpcomponents-client,UndProjects/httpcomponents-client/httpclient5/src/test/java/org/apache/hc/client5/http/protocol/TestRequestAddCookies.java,mockito,org.mockito.Mockito
+knox,UndProjects/knox/gateway-adapter/src/test/java/org/apache/hadoop/gateway/shirorealm/KnoxPamRealmTest.java,easymock,static org.easymock.EasyMock.createMock
+knox,UndProjects/knox/gateway-adapter/src/test/java/org/apache/hadoop/gateway/shirorealm/KnoxPamRealmTest.java,easymock,static org.easymock.EasyMock.expect
+knox,UndProjects/knox/gateway-adapter/src/test/java/org/apache/hadoop/gateway/shirorealm/KnoxPamRealmTest.java,easymock,static org.easymock.EasyMock.replay
+knox,UndProjects/knox/gateway-discovery-ambari/src/test/java/org/apache/knox/gateway/topology/discovery/ambari/AmbariClusterTest.java,easymock,org.easymock.EasyMock
+knox,UndProjects/knox/gateway-discovery-ambari/src/test/java/org/apache/knox/gateway/topology/discovery/ambari/AmbariConfigurationMonitorTest.java,easymock,org.easymock.EasyMock
+knox,UndProjects/knox/gateway-discovery-ambari/src/test/java/org/apache/knox/gateway/topology/discovery/ambari/AmbariDynamicServiceURLCreatorTest.java,easymock,org.easymock.EasyMock
+knox,UndProjects/knox/gateway-discovery-ambari/src/test/java/org/apache/knox/gateway/topology/discovery/ambari/AmbariServiceDiscoveryTest.java,easymock,org.easymock.EasyMock
+knox,UndProjects/knox/gateway-discovery-ambari/src/test/java/org/apache/knox/gateway/topology/discovery/ambari/RMURLCreatorTestBase.java,easymock,org.easymock.EasyMock
+knox,UndProjects/knox/gateway-discovery-ambari/src/test/java/org/apache/knox/gateway/topology/discovery/ambari/SparkServiceURLCreatorTest.java,easymock,org.easymock.EasyMock
+knox,UndProjects/knox/gateway-discovery-ambari/src/test/java/org/apache/knox/gateway/topology/discovery/ambari/WebHdfsUrlCreatorTest.java,easymock,org.easymock.EasyMock
+knox,UndProjects/knox/gateway-discovery-cm/src/test/java/org/apache/knox/gateway/topology/discovery/cm/AbstractCMDiscoveryTest.java,easymock,org.easymock.EasyMock
+knox,UndProjects/knox/gateway-discovery-cm/src/test/java/org/apache/knox/gateway/topology/discovery/cm/ClouderaManagerServiceDiscoveryTest.java,easymock,org.easymock.EasyMock
+knox,UndProjects/knox/gateway-discovery-cm/src/test/java/org/apache/knox/gateway/topology/discovery/cm/collector/AbstractURLCollectorTest.java,easymock,org.easymock.EasyMock
+knox,UndProjects/knox/gateway-discovery-cm/src/test/java/org/apache/knox/gateway/topology/discovery/cm/monitor/AbstractConfigurationStoreTest.java,easymock,org.easymock.EasyMock
+knox,UndProjects/knox/gateway-discovery-cm/src/test/java/org/apache/knox/gateway/topology/discovery/cm/monitor/PollingConfigurationAnalyzerTest.java,easymock,org.easymock.EasyMock
+knox,UndProjects/knox/gateway-discovery-cm/src/test/java/org/apache/knox/gateway/topology/discovery/cm/monitor/PollingConfigurationAnalyzerTest.java,easymock,static org.easymock.EasyMock.getCurrentArguments
+knox,UndProjects/knox/gateway-provider-ha/src/test/java/org/apache/knox/gateway/ha/deploy/HaProviderDeploymentContributorTest.java,easymock,org.easymock.EasyMock
+knox,UndProjects/knox/gateway-provider-ha/src/test/java/org/apache/knox/gateway/ha/dispatch/ConfigurableHADispatchTest.java,easymock,static org.easymock.EasyMock.capture
+knox,UndProjects/knox/gateway-provider-ha/src/test/java/org/apache/knox/gateway/ha/dispatch/ConfigurableHADispatchTest.java,easymock,org.easymock.Capture
+knox,UndProjects/knox/gateway-provider-ha/src/test/java/org/apache/knox/gateway/ha/dispatch/ConfigurableHADispatchTest.java,easymock,org.easymock.EasyMock
+knox,UndProjects/knox/gateway-provider-ha/src/test/java/org/apache/knox/gateway/ha/dispatch/ConfigurableHADispatchTest.java,easymock,org.easymock.IAnswer
+knox,UndProjects/knox/gateway-provider-ha/src/test/java/org/apache/knox/gateway/ha/dispatch/DefaultHaDispatchTest.java,easymock,org.easymock.Capture
+knox,UndProjects/knox/gateway-provider-ha/src/test/java/org/apache/knox/gateway/ha/dispatch/DefaultHaDispatchTest.java,easymock,org.easymock.CaptureType
+knox,UndProjects/knox/gateway-provider-ha/src/test/java/org/apache/knox/gateway/ha/dispatch/DefaultHaDispatchTest.java,easymock,org.easymock.EasyMock
+knox,UndProjects/knox/gateway-provider-ha/src/test/java/org/apache/knox/gateway/ha/dispatch/DefaultHaDispatchTest.java,easymock,org.easymock.IAnswer
+knox,UndProjects/knox/gateway-provider-ha/src/test/java/org/apache/knox/gateway/ha/dispatch/DefaultHaDispatchTest.java,easymock,static org.easymock.EasyMock.anyString
+knox,UndProjects/knox/gateway-provider-identity-assertion-common/src/test/java/org/apache/knox/gateway/identityasserter/filter/CommonIdentityAssertionFilterTest.java,easymock,org.easymock.EasyMock
+knox,UndProjects/knox/gateway-provider-identity-assertion-concat/src/test/java/org/apache/knox/gateway/identityasserter/concat/filter/ConcatIdentityAssertionFilterTest.java,easymock,org.easymock.EasyMock
+knox,UndProjects/knox/gateway-provider-identity-assertion-hadoop-groups/src/test/java/org/apache/knox/gateway/identityasserter/hadoop/groups/filter/HadoopGroupProviderFilterTest.java,easymock,org.easymock.EasyMock
+knox,UndProjects/knox/gateway-provider-identity-assertion-pseudo/src/test/java/org/apache/knox/gateway/identityasserter/filter/DefaultIdentityAssertionFilterTest.java,easymock,org.easymock.EasyMock
+knox,UndProjects/knox/gateway-provider-identity-assertion-regex/src/test/java/org/apache/knox/gateway/identityasserter/regex/filter/RegexIdentityAssertionFilterTest.java,easymock,org.easymock.EasyMock
+knox,UndProjects/knox/gateway-provider-identity-assertion-switchcase/src/test/java/org/apache/knox/gateway/identityasserter/switchcase/SwitchCaseIdentityAssertionFilterTest.java,easymock,org.easymock.EasyMock
+knox,UndProjects/knox/gateway-provider-jersey/src/test/java/org/apache/knox/gateway/jersey/JerseyDeploymentContributorTest.java,easymock,org.easymock.EasyMock
+knox,UndProjects/knox/gateway-provider-rewrite-func-hostmap-static/src/test/java/org/apache/knox/gateway/hostmap/impl/HostmapDeploymentContributorTest.java,easymock,org.easymock.EasyMock
+knox,UndProjects/knox/gateway-provider-rewrite-func-hostmap-static/src/test/java/org/apache/knox/gateway/hostmap/impl/HostmapFunctionProcessorTest.java,easymock,org.easymock.EasyMock
+knox,UndProjects/knox/gateway-provider-rewrite-func-inbound-query-param/src/test/java/org/apache/knox/gateway/inboundurl/impl/InboundUrlFunctionProcessorTest.java,easymock,org.easymock.EasyMock
+knox,UndProjects/knox/gateway-provider-rewrite-func-service-registry/src/test/java/org/apache/knox/gateway/svcregfunc/impl/ServiceAddressFunctionProcessorTest.java,easymock,org.easymock.EasyMock
+knox,UndProjects/knox/gateway-provider-rewrite-func-service-registry/src/test/java/org/apache/knox/gateway/svcregfunc/impl/ServiceHostFunctionProcessorTest.java,easymock,org.easymock.EasyMock
+knox,UndProjects/knox/gateway-provider-rewrite-func-service-registry/src/test/java/org/apache/knox/gateway/svcregfunc/impl/ServiceMappedAddressFunctionProcessorTest.java,easymock,org.easymock.EasyMock
+knox,UndProjects/knox/gateway-provider-rewrite-func-service-registry/src/test/java/org/apache/knox/gateway/svcregfunc/impl/ServiceMappedHostFunctionProcessorTest.java,easymock,org.easymock.EasyMock
+knox,UndProjects/knox/gateway-provider-rewrite-func-service-registry/src/test/java/org/apache/knox/gateway/svcregfunc/impl/ServiceMappedUrlFunctionProcessorTest.java,easymock,org.easymock.EasyMock
+knox,UndProjects/knox/gateway-provider-rewrite-func-service-registry/src/test/java/org/apache/knox/gateway/svcregfunc/impl/ServicePathFunctionProcessorTest.java,easymock,org.easymock.EasyMock
+knox,UndProjects/knox/gateway-provider-rewrite-func-service-registry/src/test/java/org/apache/knox/gateway/svcregfunc/impl/ServicePortFunctionProcessorTest.java,easymock,org.easymock.EasyMock
+knox,UndProjects/knox/gateway-provider-rewrite-func-service-registry/src/test/java/org/apache/knox/gateway/svcregfunc/impl/ServiceRegistryFunctionsTest.java,easymock,org.easymock.EasyMock
+knox,UndProjects/knox/gateway-provider-rewrite-func-service-registry/src/test/java/org/apache/knox/gateway/svcregfunc/impl/ServiceSchemeFunctionProcessorTest.java,easymock,org.easymock.EasyMock
+knox,UndProjects/knox/gateway-provider-rewrite-func-service-registry/src/test/java/org/apache/knox/gateway/svcregfunc/impl/ServiceUrlFunctionProcessorTest.java,easymock,org.easymock.EasyMock
+knox,UndProjects/knox/gateway-provider-rewrite-step-encrypt-uri/src/test/java/org/apache/knox/gateway/encrypturi/impl/EncryptDecryptUriProcessorTest.java,easymock,org.easymock.Capture
+knox,UndProjects/knox/gateway-provider-rewrite-step-encrypt-uri/src/test/java/org/apache/knox/gateway/encrypturi/impl/EncryptDecryptUriProcessorTest.java,easymock,org.easymock.EasyMock
+knox,UndProjects/knox/gateway-provider-rewrite-step-encrypt-uri/src/test/java/org/apache/knox/gateway/encrypturi/impl/EncryptUriDeploymentContributorTest.java,easymock,org.easymock.EasyMock
+knox,UndProjects/knox/gateway-provider-rewrite-step-secure-query/src/test/java/org/apache/knox/gateway/securequery/SecureQueryDecodeProcessorTest.java,easymock,org.easymock.Capture
+knox,UndProjects/knox/gateway-provider-rewrite-step-secure-query/src/test/java/org/apache/knox/gateway/securequery/SecureQueryDecodeProcessorTest.java,easymock,org.easymock.EasyMock
+knox,UndProjects/knox/gateway-provider-rewrite-step-secure-query/src/test/java/org/apache/knox/gateway/securequery/SecureQueryDeploymentContributorTest.java,easymock,org.easymock.EasyMock
+knox,UndProjects/knox/gateway-provider-rewrite-step-secure-query/src/test/java/org/apache/knox/gateway/securequery/SecureQueryEncodeProcessorTest.java,easymock,org.easymock.Capture
+knox,UndProjects/knox/gateway-provider-rewrite-step-secure-query/src/test/java/org/apache/knox/gateway/securequery/SecureQueryEncodeProcessorTest.java,easymock,org.easymock.EasyMock
+knox,UndProjects/knox/gateway-provider-rewrite-step-secure-query/src/test/java/org/apache/knox/gateway/securequery/SecureQueryEncryptDecryptProcessorTest.java,easymock,org.easymock.Capture
+knox,UndProjects/knox/gateway-provider-rewrite-step-secure-query/src/test/java/org/apache/knox/gateway/securequery/SecureQueryEncryptDecryptProcessorTest.java,easymock,org.easymock.EasyMock
+knox,UndProjects/knox/gateway-provider-rewrite/src/test/java/org/apache/knox/gateway/filter/rewrite/api/UrlRewriteProcessorTest.java,easymock,org.easymock.EasyMock
+knox,UndProjects/knox/gateway-provider-rewrite/src/test/java/org/apache/knox/gateway/filter/rewrite/api/UrlRewriteServletEnvironmentTest.java,easymock,org.easymock.EasyMock
+knox,UndProjects/knox/gateway-provider-rewrite/src/test/java/org/apache/knox/gateway/filter/rewrite/impl/CookieScopeResponseWrapperTest.java,easymock,org.easymock.Capture
+knox,UndProjects/knox/gateway-provider-rewrite/src/test/java/org/apache/knox/gateway/filter/rewrite/impl/CookieScopeResponseWrapperTest.java,easymock,org.easymock.EasyMock
+knox,UndProjects/knox/gateway-provider-rewrite/src/test/java/org/apache/knox/gateway/filter/rewrite/impl/FrontendFunctionProcessorTest.java,easymock,org.easymock.EasyMock
+knox,UndProjects/knox/gateway-provider-rewrite/src/test/java/org/apache/knox/gateway/filter/rewrite/impl/UrlRewriteContextImplTest.java,easymock,org.easymock.EasyMock
+knox,UndProjects/knox/gateway-provider-rewrite/src/test/java/org/apache/knox/gateway/filter/rewrite/impl/UrlRewriteRequestTest.java,easymock,org.easymock.EasyMock
+knox,UndProjects/knox/gateway-provider-rewrite/src/test/java/org/apache/knox/gateway/filter/rewrite/impl/UrlRewriteResponseTest.java,easymock,org.easymock.EasyMock
+knox,UndProjects/knox/gateway-provider-security-authz-acls/src/test/java/org/apache/knox/gateway/filter/AclsAuthzFilterTest.java,easymock,org.easymock.EasyMock
+knox,UndProjects/knox/gateway-provider-security-authz-composite/src/test/java/org/apache/knox/gateway/deploy/impl/CompositeAuthzProviderTest.java,easymock,static org.easymock.EasyMock.createMock
+knox,UndProjects/knox/gateway-provider-security-authz-composite/src/test/java/org/apache/knox/gateway/deploy/impl/CompositeAuthzProviderTest.java,easymock,static org.easymock.EasyMock.expect
+knox,UndProjects/knox/gateway-provider-security-authz-composite/src/test/java/org/apache/knox/gateway/deploy/impl/CompositeAuthzProviderTest.java,easymock,static org.easymock.EasyMock.replay
+knox,UndProjects/knox/gateway-provider-security-clientcert/src/test/java/org/apache/knox/gateway/clientcert/ClientCertDeploymentContributorTest.java,easymock,org.easymock.EasyMock
+knox,UndProjects/knox/gateway-provider-security-hadoopauth/src/test/java/org/apache/knox/gateway/hadoopauth/HadoopAuthDeploymentContributorTest.java,easymock,org.easymock.EasyMock
+knox,UndProjects/knox/gateway-provider-security-hadoopauth/src/test/java/org/apache/knox/gateway/hadoopauth/filter/HadoopAuthFilterTest.java,easymock,static org.easymock.EasyMock.anyString
+knox,UndProjects/knox/gateway-provider-security-hadoopauth/src/test/java/org/apache/knox/gateway/hadoopauth/filter/HadoopAuthFilterTest.java,easymock,static org.easymock.EasyMock.capture
+knox,UndProjects/knox/gateway-provider-security-hadoopauth/src/test/java/org/apache/knox/gateway/hadoopauth/filter/HadoopAuthFilterTest.java,easymock,static org.easymock.EasyMock.captureInt
+knox,UndProjects/knox/gateway-provider-security-hadoopauth/src/test/java/org/apache/knox/gateway/hadoopauth/filter/HadoopAuthFilterTest.java,easymock,static org.easymock.EasyMock.createMock
+knox,UndProjects/knox/gateway-provider-security-hadoopauth/src/test/java/org/apache/knox/gateway/hadoopauth/filter/HadoopAuthFilterTest.java,easymock,static org.easymock.EasyMock.createMockBuilder
+knox,UndProjects/knox/gateway-provider-security-hadoopauth/src/test/java/org/apache/knox/gateway/hadoopauth/filter/HadoopAuthFilterTest.java,easymock,static org.easymock.EasyMock.eq
+knox,UndProjects/knox/gateway-provider-security-hadoopauth/src/test/java/org/apache/knox/gateway/hadoopauth/filter/HadoopAuthFilterTest.java,easymock,static org.easymock.EasyMock.expect
+knox,UndProjects/knox/gateway-provider-security-hadoopauth/src/test/java/org/apache/knox/gateway/hadoopauth/filter/HadoopAuthFilterTest.java,easymock,static org.easymock.EasyMock.expectLastCall
+knox,UndProjects/knox/gateway-provider-security-hadoopauth/src/test/java/org/apache/knox/gateway/hadoopauth/filter/HadoopAuthFilterTest.java,easymock,static org.easymock.EasyMock.getCurrentArguments
+knox,UndProjects/knox/gateway-provider-security-hadoopauth/src/test/java/org/apache/knox/gateway/hadoopauth/filter/HadoopAuthFilterTest.java,easymock,static org.easymock.EasyMock.replay
+knox,UndProjects/knox/gateway-provider-security-hadoopauth/src/test/java/org/apache/knox/gateway/hadoopauth/filter/HadoopAuthFilterTest.java,easymock,static org.easymock.EasyMock.verify
+knox,UndProjects/knox/gateway-provider-security-hadoopauth/src/test/java/org/apache/knox/gateway/hadoopauth/filter/HadoopAuthFilterTest.java,easymock,org.easymock.Capture
+knox,UndProjects/knox/gateway-provider-security-hadoopauth/src/test/java/org/apache/knox/gateway/hadoopauth/filter/HadoopAuthFilterTest.java,easymock,org.easymock.EasyMock
+knox,UndProjects/knox/gateway-provider-security-jwt/src/test/java/org/apache/knox/gateway/provider/federation/AbstractJWTFilterTest.java,easymock,org.easymock.EasyMock
+knox,UndProjects/knox/gateway-provider-security-jwt/src/test/java/org/apache/knox/gateway/provider/federation/CommonJWTFilterTest.java,easymock,org.easymock.EasyMock
+knox,UndProjects/knox/gateway-provider-security-jwt/src/test/java/org/apache/knox/gateway/provider/federation/CommonJWTFilterTest.java,easymock,static org.easymock.EasyMock.anyObject
+knox,UndProjects/knox/gateway-provider-security-jwt/src/test/java/org/apache/knox/gateway/provider/federation/JWTAsHTTPBasicCredsFederationFilterTest.java,easymock,org.easymock.EasyMock
+knox,UndProjects/knox/gateway-provider-security-jwt/src/test/java/org/apache/knox/gateway/provider/federation/JWTFederationFilterTest.java,easymock,org.easymock.EasyMock
+knox,UndProjects/knox/gateway-provider-security-jwt/src/test/java/org/apache/knox/gateway/provider/federation/SSOCookieProviderTest.java,easymock,org.easymock.EasyMock
+knox,UndProjects/knox/gateway-provider-security-jwt/src/test/java/org/apache/knox/gateway/provider/federation/TestFilterConfig.java,easymock,org.easymock.EasyMock
+knox,UndProjects/knox/gateway-provider-security-jwt/src/test/java/org/apache/knox/gateway/provider/federation/TokenIDAsHTTPBasicCredsFederationFilterTest.java,easymock,org.easymock.EasyMock
+knox,UndProjects/knox/gateway-provider-security-pac4j/src/test/java/org/apache/knox/gateway/pac4j/MockHttpServletRequest.java,easymock,org.easymock.EasyMock
+knox,UndProjects/knox/gateway-provider-security-pac4j/src/test/java/org/apache/knox/gateway/pac4j/MockHttpServletResponse.java,easymock,org.easymock.EasyMock
+knox,UndProjects/knox/gateway-provider-security-pac4j/src/test/java/org/apache/knox/gateway/pac4j/Pac4jProviderTest.java,easymock,org.easymock.EasyMock
+knox,UndProjects/knox/gateway-provider-security-pac4j/src/test/java/org/apache/knox/gateway/pac4j/config/Pac4jClientConfigurationDecoratorTest.java,easymock,org.easymock.EasyMock
+knox,UndProjects/knox/gateway-provider-security-preauth/src/test/java/org/apache/knox/gateway/provider/federation/DefaultValidatorTest.java,easymock,org.easymock.EasyMock
+knox,UndProjects/knox/gateway-provider-security-preauth/src/test/java/org/apache/knox/gateway/provider/federation/HeaderPreAuthFederationFilterTest.java,easymock,org.easymock.EasyMock
+knox,UndProjects/knox/gateway-provider-security-preauth/src/test/java/org/apache/knox/gateway/provider/federation/IPValidatorTest.java,easymock,org.easymock.EasyMock
+knox,UndProjects/knox/gateway-provider-security-preauth/src/test/java/org/apache/knox/gateway/provider/federation/PreAuthServiceTest.java,easymock,org.easymock.EasyMock
+knox,UndProjects/knox/gateway-provider-security-shiro/src/test/java/org/apache/knox/gateway/deploy/impl/ShiroDeploymentContributorTest.java,easymock,org.easymock.EasyMock
+knox,UndProjects/knox/gateway-provider-security-shiro/src/test/java/org/apache/knox/gateway/filter/RedirectToUrlFilterTest.java,easymock,org.easymock.EasyMock
+knox,UndProjects/knox/gateway-provider-security-shiro/src/test/java/org/apache/knox/gateway/shirorealm/KnoxPamRealmTest.java,easymock,static org.easymock.EasyMock.createMock
+knox,UndProjects/knox/gateway-provider-security-shiro/src/test/java/org/apache/knox/gateway/shirorealm/KnoxPamRealmTest.java,easymock,static org.easymock.EasyMock.expect
+knox,UndProjects/knox/gateway-provider-security-shiro/src/test/java/org/apache/knox/gateway/shirorealm/KnoxPamRealmTest.java,easymock,static org.easymock.EasyMock.replay
+knox,UndProjects/knox/gateway-provider-security-webappsec/src/test/java/org/apache/knox/gateway/webappsec/StrictTransportFilterTest.java,easymock,org.easymock.EasyMock
+knox,UndProjects/knox/gateway-provider-security-webappsec/src/test/java/org/apache/knox/gateway/webappsec/XContentTypeOptionsFilterTest.java,easymock,org.easymock.EasyMock
+knox,UndProjects/knox/gateway-provider-security-webappsec/src/test/java/org/apache/knox/gateway/webappsec/XFrameOptionsFilterTest.java,easymock,org.easymock.EasyMock
+knox,UndProjects/knox/gateway-provider-security-webappsec/src/test/java/org/apache/knox/gateway/webappsec/XSSProtectionFilterTest.java,easymock,org.easymock.EasyMock
+knox,UndProjects/knox/gateway-server-xforwarded-filter/src/test/java/org/apache/knox/gateway/filter/XForwardHeaderFilterTest.java,easymock,org.easymock.EasyMock
+knox,UndProjects/knox/gateway-server/src/test/java/org/apache/knox/gateway/AuditLoggingTest.java,easymock,org.easymock.EasyMock
+knox,UndProjects/knox/gateway-server/src/test/java/org/apache/knox/gateway/GatewayFilterTest.java,easymock,org.easymock.EasyMock
+knox,UndProjects/knox/gateway-server/src/test/java/org/apache/knox/gateway/GatewayForwardingServletTest.java,easymock,org.easymock.EasyMock
+knox,UndProjects/knox/gateway-server/src/test/java/org/apache/knox/gateway/GatewayForwardingServletTest.java,easymock,org.easymock.IMocksControl
+knox,UndProjects/knox/gateway-server/src/test/java/org/apache/knox/gateway/GatewayPortMappingConfigTest.java,easymock,org.easymock.EasyMock
+knox,UndProjects/knox/gateway-server/src/test/java/org/apache/knox/gateway/deploy/impl/ServiceDefinitionDeploymentContributorTest.java,easymock,org.easymock.EasyMock
+knox,UndProjects/knox/gateway-server/src/test/java/org/apache/knox/gateway/filter/ForwardedRequestTest.java,easymock,org.easymock.EasyMock
+knox,UndProjects/knox/gateway-server/src/test/java/org/apache/knox/gateway/services/AbstractGatewayServicesTest.java,easymock,static org.easymock.EasyMock.createMock
+knox,UndProjects/knox/gateway-server/src/test/java/org/apache/knox/gateway/services/AbstractGatewayServicesTest.java,easymock,static org.easymock.EasyMock.createMockBuilder
+knox,UndProjects/knox/gateway-server/src/test/java/org/apache/knox/gateway/services/factory/ServiceFactoryTest.java,easymock,static org.easymock.EasyMock.anyString
+knox,UndProjects/knox/gateway-server/src/test/java/org/apache/knox/gateway/services/factory/ServiceFactoryTest.java,easymock,static org.easymock.EasyMock.expect
+knox,UndProjects/knox/gateway-server/src/test/java/org/apache/knox/gateway/services/factory/ServiceFactoryTest.java,easymock,static org.easymock.EasyMock.replay
+knox,UndProjects/knox/gateway-server/src/test/java/org/apache/knox/gateway/services/factory/ServiceFactoryTest.java,easymock,org.easymock.EasyMock
+knox,UndProjects/knox/gateway-server/src/test/java/org/apache/knox/gateway/services/registry/DefaultServiceDefinitionRegistryTest.java,easymock,org.easymock.EasyMock
+knox,UndProjects/knox/gateway-server/src/test/java/org/apache/knox/gateway/services/security/CryptoServiceTest.java,easymock,org.easymock.EasyMock
+knox,UndProjects/knox/gateway-server/src/test/java/org/apache/knox/gateway/services/security/impl/DefaultKeystoreServiceTest.java,easymock,static org.easymock.EasyMock.createMock
+knox,UndProjects/knox/gateway-server/src/test/java/org/apache/knox/gateway/services/security/impl/DefaultKeystoreServiceTest.java,easymock,static org.easymock.EasyMock.createMockBuilder
+knox,UndProjects/knox/gateway-server/src/test/java/org/apache/knox/gateway/services/security/impl/DefaultKeystoreServiceTest.java,easymock,static org.easymock.EasyMock.createNiceMock
+knox,UndProjects/knox/gateway-server/src/test/java/org/apache/knox/gateway/services/security/impl/DefaultKeystoreServiceTest.java,easymock,static org.easymock.EasyMock.eq
+knox,UndProjects/knox/gateway-server/src/test/java/org/apache/knox/gateway/services/security/impl/DefaultKeystoreServiceTest.java,easymock,static org.easymock.EasyMock.expect
+knox,UndProjects/knox/gateway-server/src/test/java/org/apache/knox/gateway/services/security/impl/DefaultKeystoreServiceTest.java,easymock,static org.easymock.EasyMock.replay
+knox,UndProjects/knox/gateway-server/src/test/java/org/apache/knox/gateway/services/security/impl/DefaultKeystoreServiceTest.java,easymock,static org.easymock.EasyMock.verify
+knox,UndProjects/knox/gateway-server/src/test/java/org/apache/knox/gateway/services/security/impl/DefaultKeystoreServiceTest.java,easymock,org.easymock.IAnswer
+knox,UndProjects/knox/gateway-server/src/test/java/org/apache/knox/gateway/services/security/impl/JettySSLServiceTest.java,easymock,static org.easymock.EasyMock.createMock
+knox,UndProjects/knox/gateway-server/src/test/java/org/apache/knox/gateway/services/security/impl/JettySSLServiceTest.java,easymock,static org.easymock.EasyMock.eq
+knox,UndProjects/knox/gateway-server/src/test/java/org/apache/knox/gateway/services/security/impl/JettySSLServiceTest.java,easymock,static org.easymock.EasyMock.expect
+knox,UndProjects/knox/gateway-server/src/test/java/org/apache/knox/gateway/services/security/impl/JettySSLServiceTest.java,easymock,static org.easymock.EasyMock.replay
+knox,UndProjects/knox/gateway-server/src/test/java/org/apache/knox/gateway/services/security/impl/JettySSLServiceTest.java,easymock,static org.easymock.EasyMock.verify
+knox,UndProjects/knox/gateway-server/src/test/java/org/apache/knox/gateway/services/security/impl/RemoteAliasServiceTest.java,easymock,org.easymock.Capture
+knox,UndProjects/knox/gateway-server/src/test/java/org/apache/knox/gateway/services/security/impl/RemoteAliasServiceTest.java,easymock,org.easymock.EasyMock
+knox,UndProjects/knox/gateway-server/src/test/java/org/apache/knox/gateway/services/security/impl/RemoteAliasServiceTest.java,easymock,static org.easymock.EasyMock.capture
+knox,UndProjects/knox/gateway-server/src/test/java/org/apache/knox/gateway/services/security/impl/ZookeeperRemoteAliasMonitorTest.java,easymock,org.easymock.Capture
+knox,UndProjects/knox/gateway-server/src/test/java/org/apache/knox/gateway/services/security/impl/ZookeeperRemoteAliasMonitorTest.java,easymock,org.easymock.EasyMock
+knox,UndProjects/knox/gateway-server/src/test/java/org/apache/knox/gateway/services/security/impl/ZookeeperRemoteAliasMonitorTest.java,easymock,static org.easymock.EasyMock.capture
+knox,UndProjects/knox/gateway-server/src/test/java/org/apache/knox/gateway/services/security/impl/ZookeeperRemoteAliasServiceTest.java,easymock,org.easymock.Capture
+knox,UndProjects/knox/gateway-server/src/test/java/org/apache/knox/gateway/services/security/impl/ZookeeperRemoteAliasServiceTest.java,easymock,org.easymock.EasyMock
+knox,UndProjects/knox/gateway-server/src/test/java/org/apache/knox/gateway/services/security/impl/ZookeeperRemoteAliasServiceTest.java,easymock,static org.easymock.EasyMock.capture
+knox,UndProjects/knox/gateway-server/src/test/java/org/apache/knox/gateway/services/token/impl/AliasBasedTokenStateServiceTest.java,easymock,org.easymock.EasyMock
+knox,UndProjects/knox/gateway-server/src/test/java/org/apache/knox/gateway/services/token/impl/AliasBasedTokenStateServiceTest.java,easymock,static org.easymock.EasyMock.anyObject
+knox,UndProjects/knox/gateway-server/src/test/java/org/apache/knox/gateway/services/token/impl/AliasBasedTokenStateServiceTest.java,easymock,static org.easymock.EasyMock.anyString
+knox,UndProjects/knox/gateway-server/src/test/java/org/apache/knox/gateway/services/token/impl/DefaultTokenAuthorityServiceTest.java,easymock,org.easymock.EasyMock
+knox,UndProjects/knox/gateway-server/src/test/java/org/apache/knox/gateway/services/token/impl/DefaultTokenStateServiceTest.java,easymock,org.easymock.EasyMock
+knox,UndProjects/knox/gateway-server/src/test/java/org/apache/knox/gateway/services/token/impl/JDBCTokenStateServiceTest.java,easymock,org.easymock.EasyMock
+knox,UndProjects/knox/gateway-server/src/test/java/org/apache/knox/gateway/services/token/impl/ZookeeperTokenStateServiceTest.java,easymock,static org.easymock.EasyMock.expect
+knox,UndProjects/knox/gateway-server/src/test/java/org/apache/knox/gateway/services/token/impl/ZookeeperTokenStateServiceTest.java,easymock,static org.easymock.EasyMock.replay
+knox,UndProjects/knox/gateway-server/src/test/java/org/apache/knox/gateway/services/token/impl/ZookeeperTokenStateServiceTest.java,easymock,org.easymock.EasyMock
+knox,UndProjects/knox/gateway-server/src/test/java/org/apache/knox/gateway/services/topology/DefaultTopologyServiceTest.java,easymock,org.easymock.EasyMock
+knox,UndProjects/knox/gateway-server/src/test/java/org/apache/knox/gateway/services/topology/DefaultTopologyServiceTest.java,easymock,static org.easymock.EasyMock.anyObject
+knox,UndProjects/knox/gateway-server/src/test/java/org/apache/knox/gateway/topology/discovery/PropertiesFileServiceDiscoveryTest.java,easymock,org.easymock.EasyMock
+knox,UndProjects/knox/gateway-server/src/test/java/org/apache/knox/gateway/topology/monitor/DefaultRemoteConfigurationMonitorTest.java,easymock,org.easymock.EasyMock
+knox,UndProjects/knox/gateway-server/src/test/java/org/apache/knox/gateway/topology/monitor/ZooKeeperConfigurationMonitorTest.java,easymock,org.easymock.EasyMock
+knox,UndProjects/knox/gateway-server/src/test/java/org/apache/knox/gateway/topology/simple/SimpleDescriptorHandlerTest.java,easymock,org.easymock.EasyMock
+knox,UndProjects/knox/gateway-server/src/test/java/org/apache/knox/gateway/util/JDBCUtilsTest.java,easymock,org.easymock.EasyMock
+knox,UndProjects/knox/gateway-server/src/test/java/org/apache/knox/gateway/websockets/BadBackendTest.java,easymock,org.easymock.EasyMock
+knox,UndProjects/knox/gateway-server/src/test/java/org/apache/knox/gateway/websockets/BadUrlTest.java,easymock,org.easymock.EasyMock
+knox,UndProjects/knox/gateway-server/src/test/java/org/apache/knox/gateway/websockets/ConnectionDroppedTest.java,easymock,org.easymock.EasyMock
+knox,UndProjects/knox/gateway-server/src/test/java/org/apache/knox/gateway/websockets/MessageFailureTest.java,easymock,org.easymock.EasyMock
+knox,UndProjects/knox/gateway-server/src/test/java/org/apache/knox/gateway/websockets/WebsocketEchoTestBase.java,easymock,org.easymock.EasyMock
+knox,UndProjects/knox/gateway-server/src/test/java/org/apache/knox/gateway/websockets/WebsocketMultipleConnectionTest.java,easymock,org.easymock.EasyMock
+knox,UndProjects/knox/gateway-service-admin/src/test/java/org/apache/knox/gateway/service/admin/TopologyResourceTest.java,easymock,org.easymock.EasyMock
+knox,UndProjects/knox/gateway-service-hashicorp-vault/src/test/java/org/apache/knox/gateway/backend/hashicorp/vault/TestHashicorpVaultAliasService.java,easymock,org.easymock.EasyMock
+knox,UndProjects/knox/gateway-service-hbase/src/test/java/org/apache/knox/gateway/hbase/HBaseDispatchTest.java,easymock,org.easymock.EasyMock
+knox,UndProjects/knox/gateway-service-knoxsso/src/test/java/org/apache/knox/gateway/service/knoxsso/WebSSOResourceTest.java,easymock,org.easymock.EasyMock
+knox,UndProjects/knox/gateway-service-knoxssout/src/test/java/org/apache/knox/gateway/service/knoxsso/WebSSOutResourceTest.java,easymock,org.easymock.EasyMock
+knox,UndProjects/knox/gateway-service-knoxtoken/src/test/java/org/apache/knox/gateway/service/knoxtoken/JWKSResourceTest.java,easymock,org.easymock.EasyMock
+knox,UndProjects/knox/gateway-service-knoxtoken/src/test/java/org/apache/knox/gateway/service/knoxtoken/TokenServiceResourceTest.java,easymock,org.easymock.EasyMock
+knox,UndProjects/knox/gateway-service-metadata/src/test/java/org/apache/knox/gateway/service/metadata/ServiceModelTest.java,easymock,org.easymock.EasyMock
+knox,UndProjects/knox/gateway-service-remoteconfig/src/test/java/org/apache/knox/gateway/service/config/remote/config/DefaultRemoteConfigurationRegistriesTest.java,easymock,org.easymock.EasyMock
+knox,UndProjects/knox/gateway-service-remoteconfig/src/test/java/org/apache/knox/gateway/service/config/remote/zk/RemoteConfigurationRegistryClientServiceSecureTest.java,easymock,org.easymock.EasyMock
+knox,UndProjects/knox/gateway-service-remoteconfig/src/test/java/org/apache/knox/gateway/service/config/remote/zk/RemoteConfigurationRegistryClientServiceTestBase.java,easymock,org.easymock.EasyMock
+knox,UndProjects/knox/gateway-service-remoteconfig/src/test/java/org/apache/knox/gateway/service/config/remote/zk/RemoteConfigurationRegistryClientServiceUnsecureTest.java,easymock,org.easymock.EasyMock
+knox,UndProjects/knox/gateway-service-remoteconfig/src/test/java/org/apache/knox/gateway/service/config/remote/zk/RemoteConfigurationRegistryJAASConfigTest.java,easymock,org.easymock.EasyMock
+knox,UndProjects/knox/gateway-service-rm/src/test/java/org/apache/knox/gateway/rm/dispatch/RMHaDispatchTest.java,easymock,org.easymock.EasyMock
+knox,UndProjects/knox/gateway-service-rm/src/test/java/org/apache/knox/gateway/rm/dispatch/RMHaDispatchTest.java,easymock,org.easymock.IAnswer
+knox,UndProjects/knox/gateway-service-webhdfs/src/test/java/org/apache/knox/gateway/hdfs/dispatch/WebHdfsHaDispatchTest.java,easymock,org.easymock.EasyMock
+knox,UndProjects/knox/gateway-service-webhdfs/src/test/java/org/apache/knox/gateway/hdfs/dispatch/WebHdfsHaDispatchTest.java,easymock,org.easymock.IAnswer
+knox,UndProjects/knox/gateway-shell/src/test/java/org/apache/knox/gateway/shell/AbstractRequestTest.java,easymock,static org.easymock.EasyMock.createMock
+knox,UndProjects/knox/gateway-shell/src/test/java/org/apache/knox/gateway/shell/AbstractRequestTest.java,easymock,static org.easymock.EasyMock.createMockBuilder
+knox,UndProjects/knox/gateway-shell/src/test/java/org/apache/knox/gateway/shell/AbstractRequestTest.java,easymock,static org.easymock.EasyMock.expect
+knox,UndProjects/knox/gateway-shell/src/test/java/org/apache/knox/gateway/shell/AbstractRequestTest.java,easymock,static org.easymock.EasyMock.replay
+knox,UndProjects/knox/gateway-shell/src/test/java/org/apache/knox/gateway/shell/AbstractRequestTest.java,easymock,static org.easymock.EasyMock.verify
+knox,UndProjects/knox/gateway-shell/src/test/java/org/apache/knox/gateway/shell/AbstractRequestTest.java,easymock,org.easymock.IMockBuilder
+knox,UndProjects/knox/gateway-shell/src/test/java/org/apache/knox/gateway/shell/alias/AbstractResponseTest.java,easymock,org.easymock.EasyMock
+knox,UndProjects/knox/gateway-shell/src/test/java/org/apache/knox/gateway/shell/alias/AliasTest.java,easymock,static org.easymock.EasyMock.createMock
+knox,UndProjects/knox/gateway-shell/src/test/java/org/apache/knox/gateway/shell/alias/AliasTest.java,easymock,static org.easymock.EasyMock.expect
+knox,UndProjects/knox/gateway-shell/src/test/java/org/apache/knox/gateway/shell/alias/AliasTest.java,easymock,static org.easymock.EasyMock.isA
+knox,UndProjects/knox/gateway-shell/src/test/java/org/apache/knox/gateway/shell/alias/AliasTest.java,easymock,static org.easymock.EasyMock.replay
+knox,UndProjects/knox/gateway-shell/src/test/java/org/apache/knox/gateway/shell/knox/token/GetTest.java,easymock,static org.easymock.EasyMock.createMock
+knox,UndProjects/knox/gateway-shell/src/test/java/org/apache/knox/gateway/shell/knox/token/GetTest.java,easymock,static org.easymock.EasyMock.expect
+knox,UndProjects/knox/gateway-shell/src/test/java/org/apache/knox/gateway/shell/knox/token/GetTest.java,easymock,static org.easymock.EasyMock.replay
+knox,UndProjects/knox/gateway-shell/src/test/java/org/apache/knox/gateway/shell/knox/token/GetTest.java,easymock,static org.easymock.EasyMock.verify
+knox,UndProjects/knox/gateway-shell/src/test/java/org/apache/knox/gateway/shell/knox/token/TokenTest.java,easymock,static org.easymock.EasyMock.createMock
+knox,UndProjects/knox/gateway-shell/src/test/java/org/apache/knox/gateway/shell/knox/token/TokenTest.java,easymock,static org.easymock.EasyMock.expect
+knox,UndProjects/knox/gateway-shell/src/test/java/org/apache/knox/gateway/shell/knox/token/TokenTest.java,easymock,static org.easymock.EasyMock.isA
+knox,UndProjects/knox/gateway-shell/src/test/java/org/apache/knox/gateway/shell/knox/token/TokenTest.java,easymock,static org.easymock.EasyMock.replay
+knox,UndProjects/knox/gateway-shell/src/test/java/org/apache/knox/gateway/shell/knox/token/TokenTest.java,easymock,static org.easymock.EasyMock.verify
+knox,UndProjects/knox/gateway-shell/src/test/java/org/apache/knox/gateway/shell/table/KnoxShellTableTest.java,easymock,static org.easymock.EasyMock.createMock
+knox,UndProjects/knox/gateway-shell/src/test/java/org/apache/knox/gateway/shell/table/KnoxShellTableTest.java,easymock,static org.easymock.EasyMock.expect
+knox,UndProjects/knox/gateway-shell/src/test/java/org/apache/knox/gateway/shell/table/KnoxShellTableTest.java,easymock,static org.easymock.EasyMock.expectLastCall
+knox,UndProjects/knox/gateway-shell/src/test/java/org/apache/knox/gateway/shell/table/KnoxShellTableTest.java,easymock,static org.easymock.EasyMock.replay
+knox,UndProjects/knox/gateway-shell/src/test/java/org/apache/knox/gateway/shell/table/KnoxShellTableTest.java,easymock,static org.easymock.EasyMock.verify
+knox,UndProjects/knox/gateway-shell/src/test/java/org/apache/knox/gateway/shell/table/KnoxShellTableTest.java,easymock,org.easymock.IAnswer
+knox,UndProjects/knox/gateway-spi/src/test/java/org/apache/knox/gateway/dispatch/ConfigurableDispatchTest.java,easymock,org.easymock.Capture
+knox,UndProjects/knox/gateway-spi/src/test/java/org/apache/knox/gateway/dispatch/ConfigurableDispatchTest.java,easymock,org.easymock.EasyMock
+knox,UndProjects/knox/gateway-spi/src/test/java/org/apache/knox/gateway/dispatch/DefaultDispatchTest.java,easymock,org.easymock.EasyMock
+knox,UndProjects/knox/gateway-spi/src/test/java/org/apache/knox/gateway/dispatch/DefaultDispatchTest.java,easymock,org.easymock.IAnswer
+knox,UndProjects/knox/gateway-spi/src/test/java/org/apache/knox/gateway/dispatch/DefaultHttpClientFactoryTest.java,easymock,static org.easymock.EasyMock.createMock
+knox,UndProjects/knox/gateway-spi/src/test/java/org/apache/knox/gateway/dispatch/DefaultHttpClientFactoryTest.java,easymock,static org.easymock.EasyMock.expect
+knox,UndProjects/knox/gateway-spi/src/test/java/org/apache/knox/gateway/dispatch/DefaultHttpClientFactoryTest.java,easymock,static org.easymock.EasyMock.replay
+knox,UndProjects/knox/gateway-spi/src/test/java/org/apache/knox/gateway/dispatch/DefaultHttpClientFactoryTest.java,easymock,static org.easymock.EasyMock.verify
+knox,UndProjects/knox/gateway-spi/src/test/java/org/apache/knox/gateway/dispatch/GatewayDispatchFilterTest.java,easymock,org.easymock.EasyMock
+knox,UndProjects/knox/gateway-spi/src/test/java/org/apache/knox/gateway/dispatch/HadoopAuthCookieStoreTest.java,easymock,org.easymock.EasyMock
+knox,UndProjects/knox/gateway-spi/src/test/java/org/apache/knox/gateway/dispatch/PassAllHeadersNoEncodingDispatchTest.java,easymock,org.easymock.EasyMock
+knox,UndProjects/knox/gateway-spi/src/test/java/org/apache/knox/gateway/dispatch/URLDecodingDispatchTest.java,easymock,org.easymock.EasyMock
+knox,UndProjects/knox/gateway-spi/src/test/java/org/apache/knox/gateway/util/WhitelistUtilsTest.java,easymock,org.easymock.EasyMock
+knox,UndProjects/knox/gateway-test/src/test/java/org/apache/knox/gateway/OozieServiceDefinitionTest.java,easymock,org.easymock.EasyMock
+knox,UndProjects/knox/gateway-test/src/test/java/org/apache/knox/gateway/SimpleDescriptorHandlerFuncTest.java,easymock,org.easymock.Capture
+knox,UndProjects/knox/gateway-test/src/test/java/org/apache/knox/gateway/SimpleDescriptorHandlerFuncTest.java,easymock,org.easymock.EasyMock
+knox,UndProjects/knox/gateway-test/src/test/java/org/apache/knox/gateway/SimpleDescriptorHandlerFuncTest.java,easymock,static org.easymock.EasyMock.anyObject
+knox,UndProjects/knox/gateway-test/src/test/java/org/apache/knox/gateway/SimpleDescriptorHandlerFuncTest.java,easymock,static org.easymock.EasyMock.capture
+knox,UndProjects/knox/gateway-test/src/test/java/org/apache/knox/gateway/topology/monitor/RemoteConfigurationMonitorTest.java,easymock,org.easymock.EasyMock
+knox,UndProjects/knox/gateway-topology-hadoop-xml/src/test/java/org/apache/knox/gateway/topology/hadoop/xml/HadoopXmlResourceParserTest.java,easymock,org.easymock.EasyMock
+knox,UndProjects/knox/gateway-util-common/src/test/java/org/apache/knox/gateway/util/CookieUtilsTest.java,easymock,org.easymock.EasyMock
+knox,UndProjects/knox/gateway-util-urltemplate/src/test/java/org/apache/knox/gateway/util/urltemplate/RewriterTest.java,easymock,org.easymock.EasyMock
+jena,UndProjects/jena/jena-core/src/test/java/org/apache/jena/graph/GraphEventManagerContractTest.java,mockito,org.mockito.Mockito
+jena,UndProjects/jena/jena-core/src/test/java/org/apache/jena/mem/BunchMapContractTest.java,mockito,static org.mockito.Mockito.*
+jena,UndProjects/jena/jena-extras/jena-querybuilder/src/test/java/org/apache/jena/arq/querybuilder/ExprFactoryTest.java,mockito,static org.mockito.Mockito.mock
+jena,UndProjects/jena/jena-extras/jena-querybuilder/src/test/java/org/apache/jena/arq/querybuilder/ExprFactoryTest.java,mockito,static org.mockito.Mockito.when
+jena,UndProjects/jena/jena-permissions/src/test/java/org/apache/jena/permissions/impl/SecuredItemImplTest.java,mockito,org.mockito.ArgumentCaptor
+jena,UndProjects/jena/jena-permissions/src/test/java/org/apache/jena/permissions/impl/SecuredItemImplTest.java,mockito,static org.mockito.Mockito.*

@@ -1,0 +1,11 @@
+Project Name,commits,contributors,releases,.java Files,LOC,test Files,test LOC,'Mock' imports,Mocking frameworks
+commons-lang,6405,209,0,436,89871,190,55338,5,1
+ftpserver,977,13,0,362,22128,125,7819,0,0
+hive,15681,438,0,9620,1784241,2096,372591,201,3
+pig,3696,44,0,1861,385309,532,116047,6,1
+httpcomponents-client,3270,77,0,700,70920,249,35801,46,1
+openwebbeans,3976,31,0,1729,89796,1096,36688,0,0
+creadur-whisker,487,7,0,163,18490,48,2634,0,0
+knox,2532,72,0,2115,168463,621,78332,144,1
+chainsaw,934,9,0,226,27916,15,730,0,0
+jena,9179,96,0,6164,267807,1821,58992,4,1

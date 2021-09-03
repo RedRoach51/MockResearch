@@ -1,0 +1,29 @@
+/carbondata-common/src/test/java/org/apache/carbondata/common/logging/impl/AuditExtendedRollingFileAppenderTest_UT.java
+Methods Invoked: 
+	Method name: setField
+	Class origin: mockit.Deencapsulation
+	Count: 4
+ 
+/carbondata-common/src/test/java/org/apache/carbondata/common/logging/impl/ExtendedRollingFileAppenderTest_UT.java
+Methods Invoked: 
+	Method name: setField
+	Class origin: mockit.Deencapsulation
+	Count: 3
+ 
+/carbondata-core/src/test/java/org/apache/carbondata/core/indexstore/blockletindex/TestBlockletIndexFactory.java
+Methods Invoked: 
+	Method name: setField
+	Class origin: mockit.Deencapsulation
+	Count: 4
+ 
+/carbondata-core/src/test/java/org/apache/carbondata/core/util/RangeFilterProcessorTest.java
+Methods Invoked: 
+	Method name: setField
+	Class origin: mockit.Deencapsulation
+	Count: 24
+ 
+/carbondata-processing/src/test/java/org/apache/carbondata/core/keygenerator/directdictionary/timestamp/TimeStampDirectDictionaryGeneratorTest.java
+Methods Invoked: 
+	Method name: setField
+	Class origin: mockit.Deencapsulation
+	Count: 2

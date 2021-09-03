@@ -1,0 +1,44 @@
+/apache-any23-core/src/test/java/org/apache/any23/extractor/ExtractionResultImplTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+/apache-any23-core/src/test/java/org/apache/any23/extractor/rdfa/ExtractionExceptionTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 3
+ 
+/apache-any23-core/src/test/java/org/apache/any23/extractor/xpath/TemplateXPathExtractorRuleImplTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+	Method name: verify
+	Class origin: org.mockito.Mockito
+	Count: 2
+ 
+/apache-any23-core/src/test/java/org/apache/any23/filter/IgnoreAccidentalRDFaTest.java
+Methods Invoked: 
+	Method name: never
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+	Method name: times
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+	Method name: verify
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+	Method name: any
+	Class origin: org.mockito.ArgumentMatchers
+	Count: 5
+ 

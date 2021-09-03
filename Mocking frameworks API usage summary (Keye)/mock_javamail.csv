@@ -1,0 +1,5 @@
+method, origin, count
+clearAll,org.jvnet.mock_javamail.Mailbox,86
+getNewMessageCount,org.jvnet.mock_javamail.Mailbox,9
+resolve,org.jvnet.mock_javamail.Aliases,1
+getInstance,org.jvnet.mock_javamail.Aliases,1

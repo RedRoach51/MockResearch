@@ -1,0 +1,29 @@
+/chukwa-core/src/test/java/org/apache/hadoop/chukwa/datacollection/agent/rest/TestAdaptorController.java
+Methods Invoked: 
+	Method name: setContextPath
+	Class origin: org.springframework.mock.web.MockHttpServletRequest
+	Count: 1
+ 
+	Method name: setServletPath
+	Class origin: org.springframework.mock.web.MockHttpServletRequest
+	Count: 6
+ 
+	Method name: setRequestURI
+	Class origin: org.springframework.mock.web.MockHttpServletRequest
+	Count: 6
+ 
+	Method name: getContextPath
+	Class origin: org.springframework.mock.web.MockHttpServletRequest
+	Count: 6
+ 
+	Method name: getServletPath
+	Class origin: org.springframework.mock.web.MockHttpServletRequest
+	Count: 6
+ 
+	Method name: addHeader
+	Class origin: org.springframework.mock.web.MockHttpServletRequest
+	Count: 7
+ 
+	Method name: setMethod
+	Class origin: org.springframework.mock.web.MockHttpServletRequest
+	Count: 6
