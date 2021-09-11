@@ -1,4 +1,407 @@
 Project Name,File Path,Mocking Framework,Imported Mock Line
+commons-lang,UndProjects/commons-lang/src/test/java/org/apache/commons/lang3/concurrent/BasicThreadFactoryTest.java,easymock,org.easymock.EasyMock
+commons-lang,UndProjects/commons-lang/src/test/java/org/apache/commons/lang3/concurrent/ConcurrentUtilsTest.java,easymock,org.easymock.EasyMock
+commons-lang,UndProjects/commons-lang/src/test/java/org/apache/commons/lang3/concurrent/MemoizerTest.java,easymock,static org.easymock.EasyMock.expect
+commons-lang,UndProjects/commons-lang/src/test/java/org/apache/commons/lang3/concurrent/MemoizerTest.java,easymock,static org.easymock.EasyMock.replay
+commons-lang,UndProjects/commons-lang/src/test/java/org/apache/commons/lang3/concurrent/MemoizerTest.java,easymock,org.easymock.EasyMock
+commons-lang,UndProjects/commons-lang/src/test/java/org/apache/commons/lang3/concurrent/TimedSemaphoreTest.java,easymock,org.easymock.EasyMock
+commons-lang,UndProjects/commons-lang/src/test/java/org/apache/commons/lang3/event/EventListenerSupportTest.java,easymock,org.easymock.EasyMock
+pig,UndProjects/pig/contrib/piggybank/java/src/test/java/org/apache/pig/piggybank/test/evaluation/xml/XPathAllTest.java,mockito,static org.mockito.Mockito.mock
+pig,UndProjects/pig/contrib/piggybank/java/src/test/java/org/apache/pig/piggybank/test/evaluation/xml/XPathAllTest.java,mockito,static org.mockito.Mockito.when
+pig,UndProjects/pig/contrib/piggybank/java/src/test/java/org/apache/pig/piggybank/test/evaluation/xml/XPathTest.java,mockito,static org.mockito.Mockito.mock
+pig,UndProjects/pig/contrib/piggybank/java/src/test/java/org/apache/pig/piggybank/test/evaluation/xml/XPathTest.java,mockito,static org.mockito.Mockito.when
+pig,UndProjects/pig/test/org/apache/pig/test/TestBinInterSedes.java,mockito,org.mockito.internal.util.reflection.Whitebox
+pig,UndProjects/pig/test/org/apache/pig/test/TestMRJobStats.java,mockito,org.mockito.Mockito
+pig,UndProjects/pig/test/org/apache/pig/test/TestReadToEndLoader.java,mockito,org.mockito.Mockito
+pig,UndProjects/pig/test/org/apache/pig/test/TestReadToEndLoader.java,mockito,static org.mockito.Mockito.*
+pig,UndProjects/pig/test/org/apache/pig/test/TestRegisterParser.java,mockito,org.mockito.Mockito
+httpcomponents-client,UndProjects/httpcomponents-client/httpclient5-cache/src/test/java/org/apache/hc/client5/http/cache/TestHttpCacheEntry.java,mockito,static org.mockito.Mockito.mock
+httpcomponents-client,UndProjects/httpcomponents-client/httpclient5-cache/src/test/java/org/apache/hc/client5/http/impl/cache/RequestEquivalent.java,mockito,org.mockito.ArgumentMatcher
+httpcomponents-client,UndProjects/httpcomponents-client/httpclient5-cache/src/test/java/org/apache/hc/client5/http/impl/cache/RequestEquivalent.java,mockito,org.mockito.ArgumentMatchers
+httpcomponents-client,UndProjects/httpcomponents-client/httpclient5-cache/src/test/java/org/apache/hc/client5/http/impl/cache/ResponseEquivalent.java,mockito,org.mockito.ArgumentMatcher
+httpcomponents-client,UndProjects/httpcomponents-client/httpclient5-cache/src/test/java/org/apache/hc/client5/http/impl/cache/ResponseEquivalent.java,mockito,org.mockito.ArgumentMatchers
+httpcomponents-client,UndProjects/httpcomponents-client/httpclient5-cache/src/test/java/org/apache/hc/client5/http/impl/cache/TestAbstractSerializingAsyncCacheStorage.java,mockito,static org.mockito.Mockito.verify
+httpcomponents-client,UndProjects/httpcomponents-client/httpclient5-cache/src/test/java/org/apache/hc/client5/http/impl/cache/TestAbstractSerializingAsyncCacheStorage.java,mockito,static org.mockito.Mockito.when
+httpcomponents-client,UndProjects/httpcomponents-client/httpclient5-cache/src/test/java/org/apache/hc/client5/http/impl/cache/TestAbstractSerializingAsyncCacheStorage.java,mockito,org.mockito.Answers
+httpcomponents-client,UndProjects/httpcomponents-client/httpclient5-cache/src/test/java/org/apache/hc/client5/http/impl/cache/TestAbstractSerializingAsyncCacheStorage.java,mockito,org.mockito.ArgumentCaptor
+httpcomponents-client,UndProjects/httpcomponents-client/httpclient5-cache/src/test/java/org/apache/hc/client5/http/impl/cache/TestAbstractSerializingAsyncCacheStorage.java,mockito,org.mockito.ArgumentMatchers
+httpcomponents-client,UndProjects/httpcomponents-client/httpclient5-cache/src/test/java/org/apache/hc/client5/http/impl/cache/TestAbstractSerializingAsyncCacheStorage.java,mockito,org.mockito.Mock
+httpcomponents-client,UndProjects/httpcomponents-client/httpclient5-cache/src/test/java/org/apache/hc/client5/http/impl/cache/TestAbstractSerializingAsyncCacheStorage.java,mockito,org.mockito.Mockito
+httpcomponents-client,UndProjects/httpcomponents-client/httpclient5-cache/src/test/java/org/apache/hc/client5/http/impl/cache/TestAbstractSerializingAsyncCacheStorage.java,mockito,org.mockito.junit.MockitoJUnitRunner
+httpcomponents-client,UndProjects/httpcomponents-client/httpclient5-cache/src/test/java/org/apache/hc/client5/http/impl/cache/TestAbstractSerializingAsyncCacheStorage.java,mockito,org.mockito.stubbing.Answer
+httpcomponents-client,UndProjects/httpcomponents-client/httpclient5-cache/src/test/java/org/apache/hc/client5/http/impl/cache/TestAbstractSerializingCacheStorage.java,mockito,static org.mockito.ArgumentMatchers.eq
+httpcomponents-client,UndProjects/httpcomponents-client/httpclient5-cache/src/test/java/org/apache/hc/client5/http/impl/cache/TestAbstractSerializingCacheStorage.java,mockito,static org.mockito.Mockito.verify
+httpcomponents-client,UndProjects/httpcomponents-client/httpclient5-cache/src/test/java/org/apache/hc/client5/http/impl/cache/TestAbstractSerializingCacheStorage.java,mockito,static org.mockito.Mockito.when
+httpcomponents-client,UndProjects/httpcomponents-client/httpclient5-cache/src/test/java/org/apache/hc/client5/http/impl/cache/TestAbstractSerializingCacheStorage.java,mockito,org.mockito.Answers
+httpcomponents-client,UndProjects/httpcomponents-client/httpclient5-cache/src/test/java/org/apache/hc/client5/http/impl/cache/TestAbstractSerializingCacheStorage.java,mockito,org.mockito.ArgumentCaptor
+httpcomponents-client,UndProjects/httpcomponents-client/httpclient5-cache/src/test/java/org/apache/hc/client5/http/impl/cache/TestAbstractSerializingCacheStorage.java,mockito,org.mockito.ArgumentMatchers
+httpcomponents-client,UndProjects/httpcomponents-client/httpclient5-cache/src/test/java/org/apache/hc/client5/http/impl/cache/TestAbstractSerializingCacheStorage.java,mockito,org.mockito.Mockito
+httpcomponents-client,UndProjects/httpcomponents-client/httpclient5-cache/src/test/java/org/apache/hc/client5/http/impl/cache/TestAbstractSerializingCacheStorage.java,mockito,org.mockito.stubbing.Answer
+httpcomponents-client,UndProjects/httpcomponents-client/httpclient5-cache/src/test/java/org/apache/hc/client5/http/impl/cache/TestCacheKeyGenerator.java,mockito,static org.mockito.Mockito.mock
+httpcomponents-client,UndProjects/httpcomponents-client/httpclient5-cache/src/test/java/org/apache/hc/client5/http/impl/cache/TestCacheKeyGenerator.java,mockito,static org.mockito.Mockito.verify
+httpcomponents-client,UndProjects/httpcomponents-client/httpclient5-cache/src/test/java/org/apache/hc/client5/http/impl/cache/TestCacheKeyGenerator.java,mockito,static org.mockito.Mockito.when
+httpcomponents-client,UndProjects/httpcomponents-client/httpclient5-cache/src/test/java/org/apache/hc/client5/http/impl/cache/TestCacheRevalidatorBase.java,mockito,static org.mockito.Mockito.doThrow
+httpcomponents-client,UndProjects/httpcomponents-client/httpclient5-cache/src/test/java/org/apache/hc/client5/http/impl/cache/TestCacheRevalidatorBase.java,mockito,static org.mockito.Mockito.verify
+httpcomponents-client,UndProjects/httpcomponents-client/httpclient5-cache/src/test/java/org/apache/hc/client5/http/impl/cache/TestCacheRevalidatorBase.java,mockito,static org.mockito.Mockito.when
+httpcomponents-client,UndProjects/httpcomponents-client/httpclient5-cache/src/test/java/org/apache/hc/client5/http/impl/cache/TestCacheRevalidatorBase.java,mockito,org.mockito.ArgumentMatchers
+httpcomponents-client,UndProjects/httpcomponents-client/httpclient5-cache/src/test/java/org/apache/hc/client5/http/impl/cache/TestCacheRevalidatorBase.java,mockito,org.mockito.Mock
+httpcomponents-client,UndProjects/httpcomponents-client/httpclient5-cache/src/test/java/org/apache/hc/client5/http/impl/cache/TestCacheRevalidatorBase.java,mockito,org.mockito.junit.MockitoJUnitRunner
+httpcomponents-client,UndProjects/httpcomponents-client/httpclient5-cache/src/test/java/org/apache/hc/client5/http/impl/cache/TestCachedHttpResponseGenerator.java,mockito,static org.mockito.ArgumentMatchers.isA
+httpcomponents-client,UndProjects/httpcomponents-client/httpclient5-cache/src/test/java/org/apache/hc/client5/http/impl/cache/TestCachedHttpResponseGenerator.java,mockito,static org.mockito.ArgumentMatchers.same
+httpcomponents-client,UndProjects/httpcomponents-client/httpclient5-cache/src/test/java/org/apache/hc/client5/http/impl/cache/TestCachedHttpResponseGenerator.java,mockito,static org.mockito.Mockito.mock
+httpcomponents-client,UndProjects/httpcomponents-client/httpclient5-cache/src/test/java/org/apache/hc/client5/http/impl/cache/TestCachedHttpResponseGenerator.java,mockito,static org.mockito.Mockito.verify
+httpcomponents-client,UndProjects/httpcomponents-client/httpclient5-cache/src/test/java/org/apache/hc/client5/http/impl/cache/TestCachedHttpResponseGenerator.java,mockito,static org.mockito.Mockito.when
+httpcomponents-client,UndProjects/httpcomponents-client/httpclient5-cache/src/test/java/org/apache/hc/client5/http/impl/cache/TestCachingExecChain.java,mockito,org.mockito.ArgumentCaptor
+httpcomponents-client,UndProjects/httpcomponents-client/httpclient5-cache/src/test/java/org/apache/hc/client5/http/impl/cache/TestCachingExecChain.java,mockito,org.mockito.Mock
+httpcomponents-client,UndProjects/httpcomponents-client/httpclient5-cache/src/test/java/org/apache/hc/client5/http/impl/cache/TestCachingExecChain.java,mockito,org.mockito.Mockito
+httpcomponents-client,UndProjects/httpcomponents-client/httpclient5-cache/src/test/java/org/apache/hc/client5/http/impl/cache/TestCachingExecChain.java,mockito,org.mockito.Spy
+httpcomponents-client,UndProjects/httpcomponents-client/httpclient5-cache/src/test/java/org/apache/hc/client5/http/impl/cache/TestCachingExecChain.java,mockito,org.mockito.junit.MockitoJUnitRunner
+httpcomponents-client,UndProjects/httpcomponents-client/httpclient5-cache/src/test/java/org/apache/hc/client5/http/impl/cache/TestCombinedEntity.java,mockito,static org.mockito.Mockito.mock
+httpcomponents-client,UndProjects/httpcomponents-client/httpclient5-cache/src/test/java/org/apache/hc/client5/http/impl/cache/TestCombinedEntity.java,mockito,static org.mockito.Mockito.verify
+httpcomponents-client,UndProjects/httpcomponents-client/httpclient5-cache/src/test/java/org/apache/hc/client5/http/impl/cache/TestCombinedEntity.java,mockito,static org.mockito.Mockito.when
+httpcomponents-client,UndProjects/httpcomponents-client/httpclient5-cache/src/test/java/org/apache/hc/client5/http/impl/cache/TestDefaultAsyncCacheInvalidator.java,mockito,static org.mockito.Mockito.verify
+httpcomponents-client,UndProjects/httpcomponents-client/httpclient5-cache/src/test/java/org/apache/hc/client5/http/impl/cache/TestDefaultAsyncCacheInvalidator.java,mockito,static org.mockito.Mockito.verifyNoMoreInteractions
+httpcomponents-client,UndProjects/httpcomponents-client/httpclient5-cache/src/test/java/org/apache/hc/client5/http/impl/cache/TestDefaultAsyncCacheInvalidator.java,mockito,static org.mockito.Mockito.when
+httpcomponents-client,UndProjects/httpcomponents-client/httpclient5-cache/src/test/java/org/apache/hc/client5/http/impl/cache/TestDefaultAsyncCacheInvalidator.java,mockito,org.mockito.ArgumentMatchers
+httpcomponents-client,UndProjects/httpcomponents-client/httpclient5-cache/src/test/java/org/apache/hc/client5/http/impl/cache/TestDefaultAsyncCacheInvalidator.java,mockito,org.mockito.Mock
+httpcomponents-client,UndProjects/httpcomponents-client/httpclient5-cache/src/test/java/org/apache/hc/client5/http/impl/cache/TestDefaultAsyncCacheInvalidator.java,mockito,org.mockito.Mockito
+httpcomponents-client,UndProjects/httpcomponents-client/httpclient5-cache/src/test/java/org/apache/hc/client5/http/impl/cache/TestDefaultAsyncCacheInvalidator.java,mockito,org.mockito.junit.MockitoJUnitRunner
+httpcomponents-client,UndProjects/httpcomponents-client/httpclient5-cache/src/test/java/org/apache/hc/client5/http/impl/cache/TestDefaultAsyncCacheInvalidator.java,mockito,org.mockito.stubbing.Answer
+httpcomponents-client,UndProjects/httpcomponents-client/httpclient5-cache/src/test/java/org/apache/hc/client5/http/impl/cache/TestDefaultCacheInvalidator.java,mockito,static org.mockito.Mockito.verify
+httpcomponents-client,UndProjects/httpcomponents-client/httpclient5-cache/src/test/java/org/apache/hc/client5/http/impl/cache/TestDefaultCacheInvalidator.java,mockito,static org.mockito.Mockito.verifyNoMoreInteractions
+httpcomponents-client,UndProjects/httpcomponents-client/httpclient5-cache/src/test/java/org/apache/hc/client5/http/impl/cache/TestDefaultCacheInvalidator.java,mockito,static org.mockito.Mockito.when
+httpcomponents-client,UndProjects/httpcomponents-client/httpclient5-cache/src/test/java/org/apache/hc/client5/http/impl/cache/TestDefaultCacheInvalidator.java,mockito,org.mockito.ArgumentMatchers
+httpcomponents-client,UndProjects/httpcomponents-client/httpclient5-cache/src/test/java/org/apache/hc/client5/http/impl/cache/TestDefaultCacheInvalidator.java,mockito,org.mockito.Mock
+httpcomponents-client,UndProjects/httpcomponents-client/httpclient5-cache/src/test/java/org/apache/hc/client5/http/impl/cache/TestDefaultCacheInvalidator.java,mockito,org.mockito.junit.MockitoJUnitRunner
+httpcomponents-client,UndProjects/httpcomponents-client/httpclient5-cache/src/test/java/org/apache/hc/client5/http/impl/cache/TestDefaultCacheInvalidator.java,mockito,org.mockito.stubbing.Answer
+httpcomponents-client,UndProjects/httpcomponents-client/httpclient5-cache/src/test/java/org/apache/hc/client5/http/impl/cache/TestHttpByteArrayCacheEntrySerializer.java,mockito,org.mockito.Mockito
+httpcomponents-client,UndProjects/httpcomponents-client/httpclient5-cache/src/test/java/org/apache/hc/client5/http/impl/cache/TestHttpCacheJiraNumber1147.java,mockito,static org.mockito.ArgumentMatchers.isA
+httpcomponents-client,UndProjects/httpcomponents-client/httpclient5-cache/src/test/java/org/apache/hc/client5/http/impl/cache/TestHttpCacheJiraNumber1147.java,mockito,static org.mockito.Mockito.mock
+httpcomponents-client,UndProjects/httpcomponents-client/httpclient5-cache/src/test/java/org/apache/hc/client5/http/impl/cache/TestHttpCacheJiraNumber1147.java,mockito,static org.mockito.Mockito.reset
+httpcomponents-client,UndProjects/httpcomponents-client/httpclient5-cache/src/test/java/org/apache/hc/client5/http/impl/cache/TestHttpCacheJiraNumber1147.java,mockito,static org.mockito.Mockito.verify
+httpcomponents-client,UndProjects/httpcomponents-client/httpclient5-cache/src/test/java/org/apache/hc/client5/http/impl/cache/TestHttpCacheJiraNumber1147.java,mockito,static org.mockito.Mockito.when
+httpcomponents-client,UndProjects/httpcomponents-client/httpclient5-cache/src/test/java/org/apache/hc/client5/http/impl/cache/TestHttpCacheJiraNumber1147.java,mockito,org.mockito.Mockito
+httpcomponents-client,UndProjects/httpcomponents-client/httpclient5-cache/src/test/java/org/apache/hc/client5/http/impl/cache/TestProtocolAllowedBehavior.java,mockito,org.mockito.Mock
+httpcomponents-client,UndProjects/httpcomponents-client/httpclient5-cache/src/test/java/org/apache/hc/client5/http/impl/cache/TestProtocolAllowedBehavior.java,mockito,org.mockito.Mockito
+httpcomponents-client,UndProjects/httpcomponents-client/httpclient5-cache/src/test/java/org/apache/hc/client5/http/impl/cache/TestProtocolAllowedBehavior.java,mockito,org.mockito.junit.MockitoJUnitRunner
+httpcomponents-client,UndProjects/httpcomponents-client/httpclient5-cache/src/test/java/org/apache/hc/client5/http/impl/cache/TestProtocolDeviations.java,mockito,org.mockito.Mock
+httpcomponents-client,UndProjects/httpcomponents-client/httpclient5-cache/src/test/java/org/apache/hc/client5/http/impl/cache/TestProtocolDeviations.java,mockito,org.mockito.Mockito
+httpcomponents-client,UndProjects/httpcomponents-client/httpclient5-cache/src/test/java/org/apache/hc/client5/http/impl/cache/TestProtocolDeviations.java,mockito,org.mockito.junit.MockitoJUnitRunner
+httpcomponents-client,UndProjects/httpcomponents-client/httpclient5-cache/src/test/java/org/apache/hc/client5/http/impl/cache/TestProtocolRecommendations.java,mockito,org.mockito.ArgumentCaptor
+httpcomponents-client,UndProjects/httpcomponents-client/httpclient5-cache/src/test/java/org/apache/hc/client5/http/impl/cache/TestProtocolRecommendations.java,mockito,org.mockito.Mock
+httpcomponents-client,UndProjects/httpcomponents-client/httpclient5-cache/src/test/java/org/apache/hc/client5/http/impl/cache/TestProtocolRecommendations.java,mockito,org.mockito.Mockito
+httpcomponents-client,UndProjects/httpcomponents-client/httpclient5-cache/src/test/java/org/apache/hc/client5/http/impl/cache/TestProtocolRecommendations.java,mockito,org.mockito.junit.MockitoJUnitRunner
+httpcomponents-client,UndProjects/httpcomponents-client/httpclient5-cache/src/test/java/org/apache/hc/client5/http/impl/cache/TestProtocolRequirements.java,mockito,org.mockito.ArgumentCaptor
+httpcomponents-client,UndProjects/httpcomponents-client/httpclient5-cache/src/test/java/org/apache/hc/client5/http/impl/cache/TestProtocolRequirements.java,mockito,org.mockito.Mock
+httpcomponents-client,UndProjects/httpcomponents-client/httpclient5-cache/src/test/java/org/apache/hc/client5/http/impl/cache/TestProtocolRequirements.java,mockito,org.mockito.Mockito
+httpcomponents-client,UndProjects/httpcomponents-client/httpclient5-cache/src/test/java/org/apache/hc/client5/http/impl/cache/TestProtocolRequirements.java,mockito,org.mockito.junit.MockitoJUnitRunner
+httpcomponents-client,UndProjects/httpcomponents-client/httpclient5-cache/src/test/java/org/apache/hc/client5/http/impl/cache/TestRFC5861Compliance.java,mockito,org.mockito.Mock
+httpcomponents-client,UndProjects/httpcomponents-client/httpclient5-cache/src/test/java/org/apache/hc/client5/http/impl/cache/TestRFC5861Compliance.java,mockito,org.mockito.Mockito
+httpcomponents-client,UndProjects/httpcomponents-client/httpclient5-cache/src/test/java/org/apache/hc/client5/http/impl/cache/TestRFC5861Compliance.java,mockito,org.mockito.junit.MockitoJUnitRunner
+httpcomponents-client,UndProjects/httpcomponents-client/httpclient5-testing/src/test/java/org/apache/hc/client5/testing/sync/TestSPNegoScheme.java,mockito,org.mockito.ArgumentMatchers
+httpcomponents-client,UndProjects/httpcomponents-client/httpclient5-testing/src/test/java/org/apache/hc/client5/testing/sync/TestSPNegoScheme.java,mockito,org.mockito.Mockito
+httpcomponents-client,UndProjects/httpcomponents-client/httpclient5/src/test/java/org/apache/hc/client5/http/entity/TestEntityBuilder.java,mockito,org.mockito.Mockito
+httpcomponents-client,UndProjects/httpcomponents-client/httpclient5/src/test/java/org/apache/hc/client5/http/entity/TestGZip.java,mockito,org.mockito.ArgumentMatchers
+httpcomponents-client,UndProjects/httpcomponents-client/httpclient5/src/test/java/org/apache/hc/client5/http/entity/TestGZip.java,mockito,org.mockito.Mockito
+httpcomponents-client,UndProjects/httpcomponents-client/httpclient5/src/test/java/org/apache/hc/client5/http/impl/TestIdleConnectionEvictor.java,mockito,org.mockito.ArgumentMatchers
+httpcomponents-client,UndProjects/httpcomponents-client/httpclient5/src/test/java/org/apache/hc/client5/http/impl/TestIdleConnectionEvictor.java,mockito,org.mockito.Mockito
+httpcomponents-client,UndProjects/httpcomponents-client/httpclient5/src/test/java/org/apache/hc/client5/http/impl/auth/TestHttpAuthenticator.java,mockito,org.mockito.Answers
+httpcomponents-client,UndProjects/httpcomponents-client/httpclient5/src/test/java/org/apache/hc/client5/http/impl/auth/TestHttpAuthenticator.java,mockito,org.mockito.Mockito
+httpcomponents-client,UndProjects/httpcomponents-client/httpclient5/src/test/java/org/apache/hc/client5/http/impl/auth/TestSystemDefaultCredentialsProvider.java,mockito,org.mockito.ArgumentMatchers
+httpcomponents-client,UndProjects/httpcomponents-client/httpclient5/src/test/java/org/apache/hc/client5/http/impl/auth/TestSystemDefaultCredentialsProvider.java,mockito,org.mockito.Mockito
+httpcomponents-client,UndProjects/httpcomponents-client/httpclient5/src/test/java/org/apache/hc/client5/http/impl/classic/TestAbstractHttpClientResponseHandler.java,mockito,org.mockito.Mockito
+httpcomponents-client,UndProjects/httpcomponents-client/httpclient5/src/test/java/org/apache/hc/client5/http/impl/classic/TestBasicResponseHandler.java,mockito,org.mockito.Mockito
+httpcomponents-client,UndProjects/httpcomponents-client/httpclient5/src/test/java/org/apache/hc/client5/http/impl/classic/TestCloseableHttpClient.java,mockito,org.mockito.Mockito
+httpcomponents-client,UndProjects/httpcomponents-client/httpclient5/src/test/java/org/apache/hc/client5/http/impl/classic/TestConnectExec.java,mockito,org.mockito.ArgumentCaptor
+httpcomponents-client,UndProjects/httpcomponents-client/httpclient5/src/test/java/org/apache/hc/client5/http/impl/classic/TestConnectExec.java,mockito,org.mockito.Mock
+httpcomponents-client,UndProjects/httpcomponents-client/httpclient5/src/test/java/org/apache/hc/client5/http/impl/classic/TestConnectExec.java,mockito,org.mockito.Mockito
+httpcomponents-client,UndProjects/httpcomponents-client/httpclient5/src/test/java/org/apache/hc/client5/http/impl/classic/TestConnectExec.java,mockito,org.mockito.junit.MockitoJUnitRunner
+httpcomponents-client,UndProjects/httpcomponents-client/httpclient5/src/test/java/org/apache/hc/client5/http/impl/classic/TestConnectExec.java,mockito,org.mockito.stubbing.Answer
+httpcomponents-client,UndProjects/httpcomponents-client/httpclient5/src/test/java/org/apache/hc/client5/http/impl/classic/TestContentCompressionExec.java,mockito,org.mockito.Mock
+httpcomponents-client,UndProjects/httpcomponents-client/httpclient5/src/test/java/org/apache/hc/client5/http/impl/classic/TestContentCompressionExec.java,mockito,org.mockito.Mockito
+httpcomponents-client,UndProjects/httpcomponents-client/httpclient5/src/test/java/org/apache/hc/client5/http/impl/classic/TestContentCompressionExec.java,mockito,org.mockito.junit.MockitoJUnitRunner
+httpcomponents-client,UndProjects/httpcomponents-client/httpclient5/src/test/java/org/apache/hc/client5/http/impl/classic/TestHttpRequestRetryExec.java,mockito,org.mockito.Mock
+httpcomponents-client,UndProjects/httpcomponents-client/httpclient5/src/test/java/org/apache/hc/client5/http/impl/classic/TestHttpRequestRetryExec.java,mockito,org.mockito.Mockito
+httpcomponents-client,UndProjects/httpcomponents-client/httpclient5/src/test/java/org/apache/hc/client5/http/impl/classic/TestHttpRequestRetryExec.java,mockito,org.mockito.junit.MockitoJUnitRunner
+httpcomponents-client,UndProjects/httpcomponents-client/httpclient5/src/test/java/org/apache/hc/client5/http/impl/classic/TestInternalExecRuntime.java,mockito,org.mockito.Mock
+httpcomponents-client,UndProjects/httpcomponents-client/httpclient5/src/test/java/org/apache/hc/client5/http/impl/classic/TestInternalExecRuntime.java,mockito,org.mockito.Mockito
+httpcomponents-client,UndProjects/httpcomponents-client/httpclient5/src/test/java/org/apache/hc/client5/http/impl/classic/TestInternalExecRuntime.java,mockito,org.mockito.junit.MockitoJUnitRunner
+httpcomponents-client,UndProjects/httpcomponents-client/httpclient5/src/test/java/org/apache/hc/client5/http/impl/classic/TestInternalHttpClient.java,mockito,org.mockito.Mock
+httpcomponents-client,UndProjects/httpcomponents-client/httpclient5/src/test/java/org/apache/hc/client5/http/impl/classic/TestInternalHttpClient.java,mockito,org.mockito.Mockito
+httpcomponents-client,UndProjects/httpcomponents-client/httpclient5/src/test/java/org/apache/hc/client5/http/impl/classic/TestInternalHttpClient.java,mockito,org.mockito.junit.MockitoJUnitRunner
+httpcomponents-client,UndProjects/httpcomponents-client/httpclient5/src/test/java/org/apache/hc/client5/http/impl/classic/TestMainClientExec.java,mockito,org.mockito.Mock
+httpcomponents-client,UndProjects/httpcomponents-client/httpclient5/src/test/java/org/apache/hc/client5/http/impl/classic/TestMainClientExec.java,mockito,org.mockito.Mockito
+httpcomponents-client,UndProjects/httpcomponents-client/httpclient5/src/test/java/org/apache/hc/client5/http/impl/classic/TestMainClientExec.java,mockito,org.mockito.junit.MockitoJUnitRunner
+httpcomponents-client,UndProjects/httpcomponents-client/httpclient5/src/test/java/org/apache/hc/client5/http/impl/classic/TestMainClientExec.java,mockito,org.mockito.stubbing.Answer
+httpcomponents-client,UndProjects/httpcomponents-client/httpclient5/src/test/java/org/apache/hc/client5/http/impl/classic/TestProtocolExec.java,mockito,org.mockito.Mock
+httpcomponents-client,UndProjects/httpcomponents-client/httpclient5/src/test/java/org/apache/hc/client5/http/impl/classic/TestProtocolExec.java,mockito,org.mockito.Mockito
+httpcomponents-client,UndProjects/httpcomponents-client/httpclient5/src/test/java/org/apache/hc/client5/http/impl/classic/TestProtocolExec.java,mockito,org.mockito.junit.MockitoJUnitRunner
+httpcomponents-client,UndProjects/httpcomponents-client/httpclient5/src/test/java/org/apache/hc/client5/http/impl/classic/TestProtocolExec.java,mockito,org.mockito.stubbing.Answer
+httpcomponents-client,UndProjects/httpcomponents-client/httpclient5/src/test/java/org/apache/hc/client5/http/impl/classic/TestRedirectExec.java,mockito,org.mockito.ArgumentCaptor
+httpcomponents-client,UndProjects/httpcomponents-client/httpclient5/src/test/java/org/apache/hc/client5/http/impl/classic/TestRedirectExec.java,mockito,org.mockito.ArgumentMatcher
+httpcomponents-client,UndProjects/httpcomponents-client/httpclient5/src/test/java/org/apache/hc/client5/http/impl/classic/TestRedirectExec.java,mockito,org.mockito.ArgumentMatchers
+httpcomponents-client,UndProjects/httpcomponents-client/httpclient5/src/test/java/org/apache/hc/client5/http/impl/classic/TestRedirectExec.java,mockito,org.mockito.Mock
+httpcomponents-client,UndProjects/httpcomponents-client/httpclient5/src/test/java/org/apache/hc/client5/http/impl/classic/TestRedirectExec.java,mockito,org.mockito.Mockito
+httpcomponents-client,UndProjects/httpcomponents-client/httpclient5/src/test/java/org/apache/hc/client5/http/impl/classic/TestRedirectExec.java,mockito,org.mockito.junit.MockitoJUnitRunner
+httpcomponents-client,UndProjects/httpcomponents-client/httpclient5/src/test/java/org/apache/hc/client5/http/impl/classic/TestResponseEntityProxy.java,mockito,org.mockito.ArgumentCaptor
+httpcomponents-client,UndProjects/httpcomponents-client/httpclient5/src/test/java/org/apache/hc/client5/http/impl/classic/TestResponseEntityProxy.java,mockito,org.mockito.Mock
+httpcomponents-client,UndProjects/httpcomponents-client/httpclient5/src/test/java/org/apache/hc/client5/http/impl/classic/TestResponseEntityProxy.java,mockito,org.mockito.Mockito
+httpcomponents-client,UndProjects/httpcomponents-client/httpclient5/src/test/java/org/apache/hc/client5/http/impl/classic/TestResponseEntityProxy.java,mockito,org.mockito.junit.MockitoJUnitRunner
+httpcomponents-client,UndProjects/httpcomponents-client/httpclient5/src/test/java/org/apache/hc/client5/http/impl/classic/TestResponseEntityWrapper.java,mockito,org.mockito.Mockito
+httpcomponents-client,UndProjects/httpcomponents-client/httpclient5/src/test/java/org/apache/hc/client5/http/impl/cookie/TestRFC6265CookieSpec.java,mockito,org.mockito.ArgumentMatchers
+httpcomponents-client,UndProjects/httpcomponents-client/httpclient5/src/test/java/org/apache/hc/client5/http/impl/cookie/TestRFC6265CookieSpec.java,mockito,org.mockito.Mockito
+httpcomponents-client,UndProjects/httpcomponents-client/httpclient5/src/test/java/org/apache/hc/client5/http/impl/io/TestBasicHttpClientConnectionManager.java,mockito,org.mockito.Mock
+httpcomponents-client,UndProjects/httpcomponents-client/httpclient5/src/test/java/org/apache/hc/client5/http/impl/io/TestBasicHttpClientConnectionManager.java,mockito,org.mockito.Mockito
+httpcomponents-client,UndProjects/httpcomponents-client/httpclient5/src/test/java/org/apache/hc/client5/http/impl/io/TestBasicHttpClientConnectionManager.java,mockito,org.mockito.junit.MockitoJUnitRunner
+httpcomponents-client,UndProjects/httpcomponents-client/httpclient5/src/test/java/org/apache/hc/client5/http/impl/io/TestHttpClientConnectionOperator.java,mockito,org.mockito.Mockito
+httpcomponents-client,UndProjects/httpcomponents-client/httpclient5/src/test/java/org/apache/hc/client5/http/impl/io/TestPoolingHttpClientConnectionManager.java,mockito,org.mockito.Mock
+httpcomponents-client,UndProjects/httpcomponents-client/httpclient5/src/test/java/org/apache/hc/client5/http/impl/io/TestPoolingHttpClientConnectionManager.java,mockito,org.mockito.Mockito
+httpcomponents-client,UndProjects/httpcomponents-client/httpclient5/src/test/java/org/apache/hc/client5/http/impl/io/TestPoolingHttpClientConnectionManager.java,mockito,org.mockito.junit.MockitoJUnitRunner
+httpcomponents-client,UndProjects/httpcomponents-client/httpclient5/src/test/java/org/apache/hc/client5/http/impl/routing/TestDefaultProxyRoutePlanner.java,mockito,org.mockito.Mockito
+httpcomponents-client,UndProjects/httpcomponents-client/httpclient5/src/test/java/org/apache/hc/client5/http/impl/routing/TestDefaultRoutePlanner.java,mockito,org.mockito.Mockito
+httpcomponents-client,UndProjects/httpcomponents-client/httpclient5/src/test/java/org/apache/hc/client5/http/impl/routing/TestSystemDefaultRoutePlanner.java,mockito,org.mockito.ArgumentMatchers
+httpcomponents-client,UndProjects/httpcomponents-client/httpclient5/src/test/java/org/apache/hc/client5/http/impl/routing/TestSystemDefaultRoutePlanner.java,mockito,org.mockito.Mockito
+httpcomponents-client,UndProjects/httpcomponents-client/httpclient5/src/test/java/org/apache/hc/client5/http/protocol/TestRequestAddCookies.java,mockito,org.mockito.ArgumentMatchers
+httpcomponents-client,UndProjects/httpcomponents-client/httpclient5/src/test/java/org/apache/hc/client5/http/protocol/TestRequestAddCookies.java,mockito,org.mockito.Mockito
+jena,UndProjects/jena/jena-core/src/test/java/org/apache/jena/graph/GraphEventManagerContractTest.java,mockito,org.mockito.Mockito
+jena,UndProjects/jena/jena-core/src/test/java/org/apache/jena/mem/BunchMapContractTest.java,mockito,static org.mockito.Mockito.*
+jena,UndProjects/jena/jena-extras/jena-querybuilder/src/test/java/org/apache/jena/arq/querybuilder/ExprFactoryTest.java,mockito,static org.mockito.Mockito.mock
+jena,UndProjects/jena/jena-extras/jena-querybuilder/src/test/java/org/apache/jena/arq/querybuilder/ExprFactoryTest.java,mockito,static org.mockito.Mockito.when
+jena,UndProjects/jena/jena-permissions/src/test/java/org/apache/jena/permissions/impl/SecuredItemImplTest.java,mockito,org.mockito.ArgumentCaptor
+jena,UndProjects/jena/jena-permissions/src/test/java/org/apache/jena/permissions/impl/SecuredItemImplTest.java,mockito,static org.mockito.Mockito.*
+knox,UndProjects/knox/gateway-adapter/src/test/java/org/apache/hadoop/gateway/shirorealm/KnoxPamRealmTest.java,easymock,static org.easymock.EasyMock.createMock
+knox,UndProjects/knox/gateway-adapter/src/test/java/org/apache/hadoop/gateway/shirorealm/KnoxPamRealmTest.java,easymock,static org.easymock.EasyMock.expect
+knox,UndProjects/knox/gateway-adapter/src/test/java/org/apache/hadoop/gateway/shirorealm/KnoxPamRealmTest.java,easymock,static org.easymock.EasyMock.replay
+knox,UndProjects/knox/gateway-discovery-ambari/src/test/java/org/apache/knox/gateway/topology/discovery/ambari/AmbariClusterTest.java,easymock,org.easymock.EasyMock
+knox,UndProjects/knox/gateway-discovery-ambari/src/test/java/org/apache/knox/gateway/topology/discovery/ambari/AmbariConfigurationMonitorTest.java,easymock,org.easymock.EasyMock
+knox,UndProjects/knox/gateway-discovery-ambari/src/test/java/org/apache/knox/gateway/topology/discovery/ambari/AmbariDynamicServiceURLCreatorTest.java,easymock,org.easymock.EasyMock
+knox,UndProjects/knox/gateway-discovery-ambari/src/test/java/org/apache/knox/gateway/topology/discovery/ambari/AmbariServiceDiscoveryTest.java,easymock,org.easymock.EasyMock
+knox,UndProjects/knox/gateway-discovery-ambari/src/test/java/org/apache/knox/gateway/topology/discovery/ambari/RMURLCreatorTestBase.java,easymock,org.easymock.EasyMock
+knox,UndProjects/knox/gateway-discovery-ambari/src/test/java/org/apache/knox/gateway/topology/discovery/ambari/SparkServiceURLCreatorTest.java,easymock,org.easymock.EasyMock
+knox,UndProjects/knox/gateway-discovery-ambari/src/test/java/org/apache/knox/gateway/topology/discovery/ambari/WebHdfsUrlCreatorTest.java,easymock,org.easymock.EasyMock
+knox,UndProjects/knox/gateway-discovery-cm/src/test/java/org/apache/knox/gateway/topology/discovery/cm/AbstractCMDiscoveryTest.java,easymock,org.easymock.EasyMock
+knox,UndProjects/knox/gateway-discovery-cm/src/test/java/org/apache/knox/gateway/topology/discovery/cm/ClouderaManagerServiceDiscoveryTest.java,easymock,org.easymock.EasyMock
+knox,UndProjects/knox/gateway-discovery-cm/src/test/java/org/apache/knox/gateway/topology/discovery/cm/collector/AbstractURLCollectorTest.java,easymock,org.easymock.EasyMock
+knox,UndProjects/knox/gateway-discovery-cm/src/test/java/org/apache/knox/gateway/topology/discovery/cm/monitor/AbstractConfigurationStoreTest.java,easymock,org.easymock.EasyMock
+knox,UndProjects/knox/gateway-discovery-cm/src/test/java/org/apache/knox/gateway/topology/discovery/cm/monitor/PollingConfigurationAnalyzerTest.java,easymock,org.easymock.EasyMock
+knox,UndProjects/knox/gateway-discovery-cm/src/test/java/org/apache/knox/gateway/topology/discovery/cm/monitor/PollingConfigurationAnalyzerTest.java,easymock,static org.easymock.EasyMock.getCurrentArguments
+knox,UndProjects/knox/gateway-provider-ha/src/test/java/org/apache/knox/gateway/ha/deploy/HaProviderDeploymentContributorTest.java,easymock,org.easymock.EasyMock
+knox,UndProjects/knox/gateway-provider-ha/src/test/java/org/apache/knox/gateway/ha/dispatch/ConfigurableHADispatchTest.java,easymock,static org.easymock.EasyMock.capture
+knox,UndProjects/knox/gateway-provider-ha/src/test/java/org/apache/knox/gateway/ha/dispatch/ConfigurableHADispatchTest.java,easymock,org.easymock.Capture
+knox,UndProjects/knox/gateway-provider-ha/src/test/java/org/apache/knox/gateway/ha/dispatch/ConfigurableHADispatchTest.java,easymock,org.easymock.EasyMock
+knox,UndProjects/knox/gateway-provider-ha/src/test/java/org/apache/knox/gateway/ha/dispatch/ConfigurableHADispatchTest.java,easymock,org.easymock.IAnswer
+knox,UndProjects/knox/gateway-provider-ha/src/test/java/org/apache/knox/gateway/ha/dispatch/DefaultHaDispatchTest.java,easymock,org.easymock.Capture
+knox,UndProjects/knox/gateway-provider-ha/src/test/java/org/apache/knox/gateway/ha/dispatch/DefaultHaDispatchTest.java,easymock,org.easymock.CaptureType
+knox,UndProjects/knox/gateway-provider-ha/src/test/java/org/apache/knox/gateway/ha/dispatch/DefaultHaDispatchTest.java,easymock,org.easymock.EasyMock
+knox,UndProjects/knox/gateway-provider-ha/src/test/java/org/apache/knox/gateway/ha/dispatch/DefaultHaDispatchTest.java,easymock,org.easymock.IAnswer
+knox,UndProjects/knox/gateway-provider-ha/src/test/java/org/apache/knox/gateway/ha/dispatch/DefaultHaDispatchTest.java,easymock,static org.easymock.EasyMock.anyString
+knox,UndProjects/knox/gateway-provider-identity-assertion-common/src/test/java/org/apache/knox/gateway/identityasserter/filter/CommonIdentityAssertionFilterTest.java,easymock,org.easymock.EasyMock
+knox,UndProjects/knox/gateway-provider-identity-assertion-concat/src/test/java/org/apache/knox/gateway/identityasserter/concat/filter/ConcatIdentityAssertionFilterTest.java,easymock,org.easymock.EasyMock
+knox,UndProjects/knox/gateway-provider-identity-assertion-hadoop-groups/src/test/java/org/apache/knox/gateway/identityasserter/hadoop/groups/filter/HadoopGroupProviderFilterTest.java,easymock,org.easymock.EasyMock
+knox,UndProjects/knox/gateway-provider-identity-assertion-pseudo/src/test/java/org/apache/knox/gateway/identityasserter/filter/DefaultIdentityAssertionFilterTest.java,easymock,org.easymock.EasyMock
+knox,UndProjects/knox/gateway-provider-identity-assertion-regex/src/test/java/org/apache/knox/gateway/identityasserter/regex/filter/RegexIdentityAssertionFilterTest.java,easymock,org.easymock.EasyMock
+knox,UndProjects/knox/gateway-provider-identity-assertion-switchcase/src/test/java/org/apache/knox/gateway/identityasserter/switchcase/SwitchCaseIdentityAssertionFilterTest.java,easymock,org.easymock.EasyMock
+knox,UndProjects/knox/gateway-provider-jersey/src/test/java/org/apache/knox/gateway/jersey/JerseyDeploymentContributorTest.java,easymock,org.easymock.EasyMock
+knox,UndProjects/knox/gateway-provider-rewrite-func-hostmap-static/src/test/java/org/apache/knox/gateway/hostmap/impl/HostmapDeploymentContributorTest.java,easymock,org.easymock.EasyMock
+knox,UndProjects/knox/gateway-provider-rewrite-func-hostmap-static/src/test/java/org/apache/knox/gateway/hostmap/impl/HostmapFunctionProcessorTest.java,easymock,org.easymock.EasyMock
+knox,UndProjects/knox/gateway-provider-rewrite-func-inbound-query-param/src/test/java/org/apache/knox/gateway/inboundurl/impl/InboundUrlFunctionProcessorTest.java,easymock,org.easymock.EasyMock
+knox,UndProjects/knox/gateway-provider-rewrite-func-service-registry/src/test/java/org/apache/knox/gateway/svcregfunc/impl/ServiceAddressFunctionProcessorTest.java,easymock,org.easymock.EasyMock
+knox,UndProjects/knox/gateway-provider-rewrite-func-service-registry/src/test/java/org/apache/knox/gateway/svcregfunc/impl/ServiceHostFunctionProcessorTest.java,easymock,org.easymock.EasyMock
+knox,UndProjects/knox/gateway-provider-rewrite-func-service-registry/src/test/java/org/apache/knox/gateway/svcregfunc/impl/ServiceMappedAddressFunctionProcessorTest.java,easymock,org.easymock.EasyMock
+knox,UndProjects/knox/gateway-provider-rewrite-func-service-registry/src/test/java/org/apache/knox/gateway/svcregfunc/impl/ServiceMappedHostFunctionProcessorTest.java,easymock,org.easymock.EasyMock
+knox,UndProjects/knox/gateway-provider-rewrite-func-service-registry/src/test/java/org/apache/knox/gateway/svcregfunc/impl/ServiceMappedUrlFunctionProcessorTest.java,easymock,org.easymock.EasyMock
+knox,UndProjects/knox/gateway-provider-rewrite-func-service-registry/src/test/java/org/apache/knox/gateway/svcregfunc/impl/ServicePathFunctionProcessorTest.java,easymock,org.easymock.EasyMock
+knox,UndProjects/knox/gateway-provider-rewrite-func-service-registry/src/test/java/org/apache/knox/gateway/svcregfunc/impl/ServicePortFunctionProcessorTest.java,easymock,org.easymock.EasyMock
+knox,UndProjects/knox/gateway-provider-rewrite-func-service-registry/src/test/java/org/apache/knox/gateway/svcregfunc/impl/ServiceRegistryFunctionsTest.java,easymock,org.easymock.EasyMock
+knox,UndProjects/knox/gateway-provider-rewrite-func-service-registry/src/test/java/org/apache/knox/gateway/svcregfunc/impl/ServiceSchemeFunctionProcessorTest.java,easymock,org.easymock.EasyMock
+knox,UndProjects/knox/gateway-provider-rewrite-func-service-registry/src/test/java/org/apache/knox/gateway/svcregfunc/impl/ServiceUrlFunctionProcessorTest.java,easymock,org.easymock.EasyMock
+knox,UndProjects/knox/gateway-provider-rewrite-step-encrypt-uri/src/test/java/org/apache/knox/gateway/encrypturi/impl/EncryptDecryptUriProcessorTest.java,easymock,org.easymock.Capture
+knox,UndProjects/knox/gateway-provider-rewrite-step-encrypt-uri/src/test/java/org/apache/knox/gateway/encrypturi/impl/EncryptDecryptUriProcessorTest.java,easymock,org.easymock.EasyMock
+knox,UndProjects/knox/gateway-provider-rewrite-step-encrypt-uri/src/test/java/org/apache/knox/gateway/encrypturi/impl/EncryptUriDeploymentContributorTest.java,easymock,org.easymock.EasyMock
+knox,UndProjects/knox/gateway-provider-rewrite-step-secure-query/src/test/java/org/apache/knox/gateway/securequery/SecureQueryDecodeProcessorTest.java,easymock,org.easymock.Capture
+knox,UndProjects/knox/gateway-provider-rewrite-step-secure-query/src/test/java/org/apache/knox/gateway/securequery/SecureQueryDecodeProcessorTest.java,easymock,org.easymock.EasyMock
+knox,UndProjects/knox/gateway-provider-rewrite-step-secure-query/src/test/java/org/apache/knox/gateway/securequery/SecureQueryDeploymentContributorTest.java,easymock,org.easymock.EasyMock
+knox,UndProjects/knox/gateway-provider-rewrite-step-secure-query/src/test/java/org/apache/knox/gateway/securequery/SecureQueryEncodeProcessorTest.java,easymock,org.easymock.Capture
+knox,UndProjects/knox/gateway-provider-rewrite-step-secure-query/src/test/java/org/apache/knox/gateway/securequery/SecureQueryEncodeProcessorTest.java,easymock,org.easymock.EasyMock
+knox,UndProjects/knox/gateway-provider-rewrite-step-secure-query/src/test/java/org/apache/knox/gateway/securequery/SecureQueryEncryptDecryptProcessorTest.java,easymock,org.easymock.Capture
+knox,UndProjects/knox/gateway-provider-rewrite-step-secure-query/src/test/java/org/apache/knox/gateway/securequery/SecureQueryEncryptDecryptProcessorTest.java,easymock,org.easymock.EasyMock
+knox,UndProjects/knox/gateway-provider-rewrite/src/test/java/org/apache/knox/gateway/filter/rewrite/api/UrlRewriteProcessorTest.java,easymock,org.easymock.EasyMock
+knox,UndProjects/knox/gateway-provider-rewrite/src/test/java/org/apache/knox/gateway/filter/rewrite/api/UrlRewriteServletEnvironmentTest.java,easymock,org.easymock.EasyMock
+knox,UndProjects/knox/gateway-provider-rewrite/src/test/java/org/apache/knox/gateway/filter/rewrite/impl/CookieScopeResponseWrapperTest.java,easymock,org.easymock.Capture
+knox,UndProjects/knox/gateway-provider-rewrite/src/test/java/org/apache/knox/gateway/filter/rewrite/impl/CookieScopeResponseWrapperTest.java,easymock,org.easymock.EasyMock
+knox,UndProjects/knox/gateway-provider-rewrite/src/test/java/org/apache/knox/gateway/filter/rewrite/impl/FrontendFunctionProcessorTest.java,easymock,org.easymock.EasyMock
+knox,UndProjects/knox/gateway-provider-rewrite/src/test/java/org/apache/knox/gateway/filter/rewrite/impl/UrlRewriteContextImplTest.java,easymock,org.easymock.EasyMock
+knox,UndProjects/knox/gateway-provider-rewrite/src/test/java/org/apache/knox/gateway/filter/rewrite/impl/UrlRewriteRequestTest.java,easymock,org.easymock.EasyMock
+knox,UndProjects/knox/gateway-provider-rewrite/src/test/java/org/apache/knox/gateway/filter/rewrite/impl/UrlRewriteResponseTest.java,easymock,org.easymock.EasyMock
+knox,UndProjects/knox/gateway-provider-security-authz-acls/src/test/java/org/apache/knox/gateway/filter/AclsAuthzFilterTest.java,easymock,org.easymock.EasyMock
+knox,UndProjects/knox/gateway-provider-security-authz-composite/src/test/java/org/apache/knox/gateway/deploy/impl/CompositeAuthzProviderTest.java,easymock,static org.easymock.EasyMock.createMock
+knox,UndProjects/knox/gateway-provider-security-authz-composite/src/test/java/org/apache/knox/gateway/deploy/impl/CompositeAuthzProviderTest.java,easymock,static org.easymock.EasyMock.expect
+knox,UndProjects/knox/gateway-provider-security-authz-composite/src/test/java/org/apache/knox/gateway/deploy/impl/CompositeAuthzProviderTest.java,easymock,static org.easymock.EasyMock.replay
+knox,UndProjects/knox/gateway-provider-security-clientcert/src/test/java/org/apache/knox/gateway/clientcert/ClientCertDeploymentContributorTest.java,easymock,org.easymock.EasyMock
+knox,UndProjects/knox/gateway-provider-security-hadoopauth/src/test/java/org/apache/knox/gateway/hadoopauth/HadoopAuthDeploymentContributorTest.java,easymock,org.easymock.EasyMock
+knox,UndProjects/knox/gateway-provider-security-hadoopauth/src/test/java/org/apache/knox/gateway/hadoopauth/filter/HadoopAuthFilterTest.java,easymock,static org.easymock.EasyMock.anyString
+knox,UndProjects/knox/gateway-provider-security-hadoopauth/src/test/java/org/apache/knox/gateway/hadoopauth/filter/HadoopAuthFilterTest.java,easymock,static org.easymock.EasyMock.capture
+knox,UndProjects/knox/gateway-provider-security-hadoopauth/src/test/java/org/apache/knox/gateway/hadoopauth/filter/HadoopAuthFilterTest.java,easymock,static org.easymock.EasyMock.captureInt
+knox,UndProjects/knox/gateway-provider-security-hadoopauth/src/test/java/org/apache/knox/gateway/hadoopauth/filter/HadoopAuthFilterTest.java,easymock,static org.easymock.EasyMock.createMock
+knox,UndProjects/knox/gateway-provider-security-hadoopauth/src/test/java/org/apache/knox/gateway/hadoopauth/filter/HadoopAuthFilterTest.java,easymock,static org.easymock.EasyMock.createMockBuilder
+knox,UndProjects/knox/gateway-provider-security-hadoopauth/src/test/java/org/apache/knox/gateway/hadoopauth/filter/HadoopAuthFilterTest.java,easymock,static org.easymock.EasyMock.eq
+knox,UndProjects/knox/gateway-provider-security-hadoopauth/src/test/java/org/apache/knox/gateway/hadoopauth/filter/HadoopAuthFilterTest.java,easymock,static org.easymock.EasyMock.expect
+knox,UndProjects/knox/gateway-provider-security-hadoopauth/src/test/java/org/apache/knox/gateway/hadoopauth/filter/HadoopAuthFilterTest.java,easymock,static org.easymock.EasyMock.expectLastCall
+knox,UndProjects/knox/gateway-provider-security-hadoopauth/src/test/java/org/apache/knox/gateway/hadoopauth/filter/HadoopAuthFilterTest.java,easymock,static org.easymock.EasyMock.getCurrentArguments
+knox,UndProjects/knox/gateway-provider-security-hadoopauth/src/test/java/org/apache/knox/gateway/hadoopauth/filter/HadoopAuthFilterTest.java,easymock,static org.easymock.EasyMock.replay
+knox,UndProjects/knox/gateway-provider-security-hadoopauth/src/test/java/org/apache/knox/gateway/hadoopauth/filter/HadoopAuthFilterTest.java,easymock,static org.easymock.EasyMock.verify
+knox,UndProjects/knox/gateway-provider-security-hadoopauth/src/test/java/org/apache/knox/gateway/hadoopauth/filter/HadoopAuthFilterTest.java,easymock,org.easymock.Capture
+knox,UndProjects/knox/gateway-provider-security-hadoopauth/src/test/java/org/apache/knox/gateway/hadoopauth/filter/HadoopAuthFilterTest.java,easymock,org.easymock.EasyMock
+knox,UndProjects/knox/gateway-provider-security-jwt/src/test/java/org/apache/knox/gateway/provider/federation/AbstractJWTFilterTest.java,easymock,org.easymock.EasyMock
+knox,UndProjects/knox/gateway-provider-security-jwt/src/test/java/org/apache/knox/gateway/provider/federation/CommonJWTFilterTest.java,easymock,org.easymock.EasyMock
+knox,UndProjects/knox/gateway-provider-security-jwt/src/test/java/org/apache/knox/gateway/provider/federation/CommonJWTFilterTest.java,easymock,static org.easymock.EasyMock.anyObject
+knox,UndProjects/knox/gateway-provider-security-jwt/src/test/java/org/apache/knox/gateway/provider/federation/JWTAsHTTPBasicCredsFederationFilterTest.java,easymock,org.easymock.EasyMock
+knox,UndProjects/knox/gateway-provider-security-jwt/src/test/java/org/apache/knox/gateway/provider/federation/JWTFederationFilterTest.java,easymock,org.easymock.EasyMock
+knox,UndProjects/knox/gateway-provider-security-jwt/src/test/java/org/apache/knox/gateway/provider/federation/SSOCookieProviderTest.java,easymock,org.easymock.EasyMock
+knox,UndProjects/knox/gateway-provider-security-jwt/src/test/java/org/apache/knox/gateway/provider/federation/TestFilterConfig.java,easymock,org.easymock.EasyMock
+knox,UndProjects/knox/gateway-provider-security-jwt/src/test/java/org/apache/knox/gateway/provider/federation/TokenIDAsHTTPBasicCredsFederationFilterTest.java,easymock,org.easymock.EasyMock
+knox,UndProjects/knox/gateway-provider-security-pac4j/src/test/java/org/apache/knox/gateway/pac4j/MockHttpServletRequest.java,easymock,org.easymock.EasyMock
+knox,UndProjects/knox/gateway-provider-security-pac4j/src/test/java/org/apache/knox/gateway/pac4j/MockHttpServletResponse.java,easymock,org.easymock.EasyMock
+knox,UndProjects/knox/gateway-provider-security-pac4j/src/test/java/org/apache/knox/gateway/pac4j/Pac4jProviderTest.java,easymock,org.easymock.EasyMock
+knox,UndProjects/knox/gateway-provider-security-pac4j/src/test/java/org/apache/knox/gateway/pac4j/config/Pac4jClientConfigurationDecoratorTest.java,easymock,org.easymock.EasyMock
+knox,UndProjects/knox/gateway-provider-security-preauth/src/test/java/org/apache/knox/gateway/provider/federation/DefaultValidatorTest.java,easymock,org.easymock.EasyMock
+knox,UndProjects/knox/gateway-provider-security-preauth/src/test/java/org/apache/knox/gateway/provider/federation/HeaderPreAuthFederationFilterTest.java,easymock,org.easymock.EasyMock
+knox,UndProjects/knox/gateway-provider-security-preauth/src/test/java/org/apache/knox/gateway/provider/federation/IPValidatorTest.java,easymock,org.easymock.EasyMock
+knox,UndProjects/knox/gateway-provider-security-preauth/src/test/java/org/apache/knox/gateway/provider/federation/PreAuthServiceTest.java,easymock,org.easymock.EasyMock
+knox,UndProjects/knox/gateway-provider-security-shiro/src/test/java/org/apache/knox/gateway/deploy/impl/ShiroDeploymentContributorTest.java,easymock,org.easymock.EasyMock
+knox,UndProjects/knox/gateway-provider-security-shiro/src/test/java/org/apache/knox/gateway/filter/RedirectToUrlFilterTest.java,easymock,org.easymock.EasyMock
+knox,UndProjects/knox/gateway-provider-security-shiro/src/test/java/org/apache/knox/gateway/shirorealm/KnoxPamRealmTest.java,easymock,static org.easymock.EasyMock.createMock
+knox,UndProjects/knox/gateway-provider-security-shiro/src/test/java/org/apache/knox/gateway/shirorealm/KnoxPamRealmTest.java,easymock,static org.easymock.EasyMock.expect
+knox,UndProjects/knox/gateway-provider-security-shiro/src/test/java/org/apache/knox/gateway/shirorealm/KnoxPamRealmTest.java,easymock,static org.easymock.EasyMock.replay
+knox,UndProjects/knox/gateway-provider-security-webappsec/src/test/java/org/apache/knox/gateway/webappsec/StrictTransportFilterTest.java,easymock,org.easymock.EasyMock
+knox,UndProjects/knox/gateway-provider-security-webappsec/src/test/java/org/apache/knox/gateway/webappsec/XContentTypeOptionsFilterTest.java,easymock,org.easymock.EasyMock
+knox,UndProjects/knox/gateway-provider-security-webappsec/src/test/java/org/apache/knox/gateway/webappsec/XFrameOptionsFilterTest.java,easymock,org.easymock.EasyMock
+knox,UndProjects/knox/gateway-provider-security-webappsec/src/test/java/org/apache/knox/gateway/webappsec/XSSProtectionFilterTest.java,easymock,org.easymock.EasyMock
+knox,UndProjects/knox/gateway-server-xforwarded-filter/src/test/java/org/apache/knox/gateway/filter/XForwardHeaderFilterTest.java,easymock,org.easymock.EasyMock
+knox,UndProjects/knox/gateway-server/src/test/java/org/apache/knox/gateway/AuditLoggingTest.java,easymock,org.easymock.EasyMock
+knox,UndProjects/knox/gateway-server/src/test/java/org/apache/knox/gateway/GatewayFilterTest.java,easymock,org.easymock.EasyMock
+knox,UndProjects/knox/gateway-server/src/test/java/org/apache/knox/gateway/GatewayForwardingServletTest.java,easymock,org.easymock.EasyMock
+knox,UndProjects/knox/gateway-server/src/test/java/org/apache/knox/gateway/GatewayForwardingServletTest.java,easymock,org.easymock.IMocksControl
+knox,UndProjects/knox/gateway-server/src/test/java/org/apache/knox/gateway/GatewayPortMappingConfigTest.java,easymock,org.easymock.EasyMock
+knox,UndProjects/knox/gateway-server/src/test/java/org/apache/knox/gateway/deploy/impl/ServiceDefinitionDeploymentContributorTest.java,easymock,org.easymock.EasyMock
+knox,UndProjects/knox/gateway-server/src/test/java/org/apache/knox/gateway/filter/ForwardedRequestTest.java,easymock,org.easymock.EasyMock
+knox,UndProjects/knox/gateway-server/src/test/java/org/apache/knox/gateway/services/AbstractGatewayServicesTest.java,easymock,static org.easymock.EasyMock.createMock
+knox,UndProjects/knox/gateway-server/src/test/java/org/apache/knox/gateway/services/AbstractGatewayServicesTest.java,easymock,static org.easymock.EasyMock.createMockBuilder
+knox,UndProjects/knox/gateway-server/src/test/java/org/apache/knox/gateway/services/factory/ServiceFactoryTest.java,easymock,static org.easymock.EasyMock.anyString
+knox,UndProjects/knox/gateway-server/src/test/java/org/apache/knox/gateway/services/factory/ServiceFactoryTest.java,easymock,static org.easymock.EasyMock.expect
+knox,UndProjects/knox/gateway-server/src/test/java/org/apache/knox/gateway/services/factory/ServiceFactoryTest.java,easymock,static org.easymock.EasyMock.replay
+knox,UndProjects/knox/gateway-server/src/test/java/org/apache/knox/gateway/services/factory/ServiceFactoryTest.java,easymock,org.easymock.EasyMock
+knox,UndProjects/knox/gateway-server/src/test/java/org/apache/knox/gateway/services/registry/DefaultServiceDefinitionRegistryTest.java,easymock,org.easymock.EasyMock
+knox,UndProjects/knox/gateway-server/src/test/java/org/apache/knox/gateway/services/security/CryptoServiceTest.java,easymock,org.easymock.EasyMock
+knox,UndProjects/knox/gateway-server/src/test/java/org/apache/knox/gateway/services/security/impl/DefaultKeystoreServiceTest.java,easymock,static org.easymock.EasyMock.createMock
+knox,UndProjects/knox/gateway-server/src/test/java/org/apache/knox/gateway/services/security/impl/DefaultKeystoreServiceTest.java,easymock,static org.easymock.EasyMock.createMockBuilder
+knox,UndProjects/knox/gateway-server/src/test/java/org/apache/knox/gateway/services/security/impl/DefaultKeystoreServiceTest.java,easymock,static org.easymock.EasyMock.createNiceMock
+knox,UndProjects/knox/gateway-server/src/test/java/org/apache/knox/gateway/services/security/impl/DefaultKeystoreServiceTest.java,easymock,static org.easymock.EasyMock.eq
+knox,UndProjects/knox/gateway-server/src/test/java/org/apache/knox/gateway/services/security/impl/DefaultKeystoreServiceTest.java,easymock,static org.easymock.EasyMock.expect
+knox,UndProjects/knox/gateway-server/src/test/java/org/apache/knox/gateway/services/security/impl/DefaultKeystoreServiceTest.java,easymock,static org.easymock.EasyMock.replay
+knox,UndProjects/knox/gateway-server/src/test/java/org/apache/knox/gateway/services/security/impl/DefaultKeystoreServiceTest.java,easymock,static org.easymock.EasyMock.verify
+knox,UndProjects/knox/gateway-server/src/test/java/org/apache/knox/gateway/services/security/impl/DefaultKeystoreServiceTest.java,easymock,org.easymock.IAnswer
+knox,UndProjects/knox/gateway-server/src/test/java/org/apache/knox/gateway/services/security/impl/JettySSLServiceTest.java,easymock,static org.easymock.EasyMock.createMock
+knox,UndProjects/knox/gateway-server/src/test/java/org/apache/knox/gateway/services/security/impl/JettySSLServiceTest.java,easymock,static org.easymock.EasyMock.eq
+knox,UndProjects/knox/gateway-server/src/test/java/org/apache/knox/gateway/services/security/impl/JettySSLServiceTest.java,easymock,static org.easymock.EasyMock.expect
+knox,UndProjects/knox/gateway-server/src/test/java/org/apache/knox/gateway/services/security/impl/JettySSLServiceTest.java,easymock,static org.easymock.EasyMock.replay
+knox,UndProjects/knox/gateway-server/src/test/java/org/apache/knox/gateway/services/security/impl/JettySSLServiceTest.java,easymock,static org.easymock.EasyMock.verify
+knox,UndProjects/knox/gateway-server/src/test/java/org/apache/knox/gateway/services/security/impl/RemoteAliasServiceTest.java,easymock,org.easymock.Capture
+knox,UndProjects/knox/gateway-server/src/test/java/org/apache/knox/gateway/services/security/impl/RemoteAliasServiceTest.java,easymock,org.easymock.EasyMock
+knox,UndProjects/knox/gateway-server/src/test/java/org/apache/knox/gateway/services/security/impl/RemoteAliasServiceTest.java,easymock,static org.easymock.EasyMock.capture
+knox,UndProjects/knox/gateway-server/src/test/java/org/apache/knox/gateway/services/security/impl/ZookeeperRemoteAliasMonitorTest.java,easymock,org.easymock.Capture
+knox,UndProjects/knox/gateway-server/src/test/java/org/apache/knox/gateway/services/security/impl/ZookeeperRemoteAliasMonitorTest.java,easymock,org.easymock.EasyMock
+knox,UndProjects/knox/gateway-server/src/test/java/org/apache/knox/gateway/services/security/impl/ZookeeperRemoteAliasMonitorTest.java,easymock,static org.easymock.EasyMock.capture
+knox,UndProjects/knox/gateway-server/src/test/java/org/apache/knox/gateway/services/security/impl/ZookeeperRemoteAliasServiceTest.java,easymock,org.easymock.Capture
+knox,UndProjects/knox/gateway-server/src/test/java/org/apache/knox/gateway/services/security/impl/ZookeeperRemoteAliasServiceTest.java,easymock,org.easymock.EasyMock
+knox,UndProjects/knox/gateway-server/src/test/java/org/apache/knox/gateway/services/security/impl/ZookeeperRemoteAliasServiceTest.java,easymock,static org.easymock.EasyMock.capture
+knox,UndProjects/knox/gateway-server/src/test/java/org/apache/knox/gateway/services/token/impl/AliasBasedTokenStateServiceTest.java,easymock,org.easymock.EasyMock
+knox,UndProjects/knox/gateway-server/src/test/java/org/apache/knox/gateway/services/token/impl/AliasBasedTokenStateServiceTest.java,easymock,static org.easymock.EasyMock.anyObject
+knox,UndProjects/knox/gateway-server/src/test/java/org/apache/knox/gateway/services/token/impl/AliasBasedTokenStateServiceTest.java,easymock,static org.easymock.EasyMock.anyString
+knox,UndProjects/knox/gateway-server/src/test/java/org/apache/knox/gateway/services/token/impl/DefaultTokenAuthorityServiceTest.java,easymock,org.easymock.EasyMock
+knox,UndProjects/knox/gateway-server/src/test/java/org/apache/knox/gateway/services/token/impl/DefaultTokenStateServiceTest.java,easymock,org.easymock.EasyMock
+knox,UndProjects/knox/gateway-server/src/test/java/org/apache/knox/gateway/services/token/impl/JDBCTokenStateServiceTest.java,easymock,org.easymock.EasyMock
+knox,UndProjects/knox/gateway-server/src/test/java/org/apache/knox/gateway/services/token/impl/ZookeeperTokenStateServiceTest.java,easymock,static org.easymock.EasyMock.expect
+knox,UndProjects/knox/gateway-server/src/test/java/org/apache/knox/gateway/services/token/impl/ZookeeperTokenStateServiceTest.java,easymock,static org.easymock.EasyMock.replay
+knox,UndProjects/knox/gateway-server/src/test/java/org/apache/knox/gateway/services/token/impl/ZookeeperTokenStateServiceTest.java,easymock,org.easymock.EasyMock
+knox,UndProjects/knox/gateway-server/src/test/java/org/apache/knox/gateway/services/topology/DefaultTopologyServiceTest.java,easymock,org.easymock.EasyMock
+knox,UndProjects/knox/gateway-server/src/test/java/org/apache/knox/gateway/services/topology/DefaultTopologyServiceTest.java,easymock,static org.easymock.EasyMock.anyObject
+knox,UndProjects/knox/gateway-server/src/test/java/org/apache/knox/gateway/topology/discovery/PropertiesFileServiceDiscoveryTest.java,easymock,org.easymock.EasyMock
+knox,UndProjects/knox/gateway-server/src/test/java/org/apache/knox/gateway/topology/monitor/DefaultRemoteConfigurationMonitorTest.java,easymock,org.easymock.EasyMock
+knox,UndProjects/knox/gateway-server/src/test/java/org/apache/knox/gateway/topology/monitor/ZooKeeperConfigurationMonitorTest.java,easymock,org.easymock.EasyMock
+knox,UndProjects/knox/gateway-server/src/test/java/org/apache/knox/gateway/topology/simple/SimpleDescriptorHandlerTest.java,easymock,org.easymock.EasyMock
+knox,UndProjects/knox/gateway-server/src/test/java/org/apache/knox/gateway/util/JDBCUtilsTest.java,easymock,org.easymock.EasyMock
+knox,UndProjects/knox/gateway-server/src/test/java/org/apache/knox/gateway/websockets/BadBackendTest.java,easymock,org.easymock.EasyMock
+knox,UndProjects/knox/gateway-server/src/test/java/org/apache/knox/gateway/websockets/BadUrlTest.java,easymock,org.easymock.EasyMock
+knox,UndProjects/knox/gateway-server/src/test/java/org/apache/knox/gateway/websockets/ConnectionDroppedTest.java,easymock,org.easymock.EasyMock
+knox,UndProjects/knox/gateway-server/src/test/java/org/apache/knox/gateway/websockets/MessageFailureTest.java,easymock,org.easymock.EasyMock
+knox,UndProjects/knox/gateway-server/src/test/java/org/apache/knox/gateway/websockets/WebsocketEchoTestBase.java,easymock,org.easymock.EasyMock
+knox,UndProjects/knox/gateway-server/src/test/java/org/apache/knox/gateway/websockets/WebsocketMultipleConnectionTest.java,easymock,org.easymock.EasyMock
+knox,UndProjects/knox/gateway-service-admin/src/test/java/org/apache/knox/gateway/service/admin/TopologyResourceTest.java,easymock,org.easymock.EasyMock
+knox,UndProjects/knox/gateway-service-hashicorp-vault/src/test/java/org/apache/knox/gateway/backend/hashicorp/vault/TestHashicorpVaultAliasService.java,easymock,org.easymock.EasyMock
+knox,UndProjects/knox/gateway-service-hbase/src/test/java/org/apache/knox/gateway/hbase/HBaseDispatchTest.java,easymock,org.easymock.EasyMock
+knox,UndProjects/knox/gateway-service-knoxsso/src/test/java/org/apache/knox/gateway/service/knoxsso/WebSSOResourceTest.java,easymock,org.easymock.EasyMock
+knox,UndProjects/knox/gateway-service-knoxssout/src/test/java/org/apache/knox/gateway/service/knoxsso/WebSSOutResourceTest.java,easymock,org.easymock.EasyMock
+knox,UndProjects/knox/gateway-service-knoxtoken/src/test/java/org/apache/knox/gateway/service/knoxtoken/JWKSResourceTest.java,easymock,org.easymock.EasyMock
+knox,UndProjects/knox/gateway-service-knoxtoken/src/test/java/org/apache/knox/gateway/service/knoxtoken/TokenServiceResourceTest.java,easymock,org.easymock.EasyMock
+knox,UndProjects/knox/gateway-service-metadata/src/test/java/org/apache/knox/gateway/service/metadata/ServiceModelTest.java,easymock,org.easymock.EasyMock
+knox,UndProjects/knox/gateway-service-remoteconfig/src/test/java/org/apache/knox/gateway/service/config/remote/config/DefaultRemoteConfigurationRegistriesTest.java,easymock,org.easymock.EasyMock
+knox,UndProjects/knox/gateway-service-remoteconfig/src/test/java/org/apache/knox/gateway/service/config/remote/zk/RemoteConfigurationRegistryClientServiceSecureTest.java,easymock,org.easymock.EasyMock
+knox,UndProjects/knox/gateway-service-remoteconfig/src/test/java/org/apache/knox/gateway/service/config/remote/zk/RemoteConfigurationRegistryClientServiceTestBase.java,easymock,org.easymock.EasyMock
+knox,UndProjects/knox/gateway-service-remoteconfig/src/test/java/org/apache/knox/gateway/service/config/remote/zk/RemoteConfigurationRegistryClientServiceUnsecureTest.java,easymock,org.easymock.EasyMock
+knox,UndProjects/knox/gateway-service-remoteconfig/src/test/java/org/apache/knox/gateway/service/config/remote/zk/RemoteConfigurationRegistryJAASConfigTest.java,easymock,org.easymock.EasyMock
+knox,UndProjects/knox/gateway-service-rm/src/test/java/org/apache/knox/gateway/rm/dispatch/RMHaDispatchTest.java,easymock,org.easymock.EasyMock
+knox,UndProjects/knox/gateway-service-rm/src/test/java/org/apache/knox/gateway/rm/dispatch/RMHaDispatchTest.java,easymock,org.easymock.IAnswer
+knox,UndProjects/knox/gateway-service-webhdfs/src/test/java/org/apache/knox/gateway/hdfs/dispatch/WebHdfsHaDispatchTest.java,easymock,org.easymock.EasyMock
+knox,UndProjects/knox/gateway-service-webhdfs/src/test/java/org/apache/knox/gateway/hdfs/dispatch/WebHdfsHaDispatchTest.java,easymock,org.easymock.IAnswer
+knox,UndProjects/knox/gateway-shell/src/test/java/org/apache/knox/gateway/shell/AbstractRequestTest.java,easymock,static org.easymock.EasyMock.createMock
+knox,UndProjects/knox/gateway-shell/src/test/java/org/apache/knox/gateway/shell/AbstractRequestTest.java,easymock,static org.easymock.EasyMock.createMockBuilder
+knox,UndProjects/knox/gateway-shell/src/test/java/org/apache/knox/gateway/shell/AbstractRequestTest.java,easymock,static org.easymock.EasyMock.expect
+knox,UndProjects/knox/gateway-shell/src/test/java/org/apache/knox/gateway/shell/AbstractRequestTest.java,easymock,static org.easymock.EasyMock.replay
+knox,UndProjects/knox/gateway-shell/src/test/java/org/apache/knox/gateway/shell/AbstractRequestTest.java,easymock,static org.easymock.EasyMock.verify
+knox,UndProjects/knox/gateway-shell/src/test/java/org/apache/knox/gateway/shell/AbstractRequestTest.java,easymock,org.easymock.IMockBuilder
+knox,UndProjects/knox/gateway-shell/src/test/java/org/apache/knox/gateway/shell/alias/AbstractResponseTest.java,easymock,org.easymock.EasyMock
+knox,UndProjects/knox/gateway-shell/src/test/java/org/apache/knox/gateway/shell/alias/AliasTest.java,easymock,static org.easymock.EasyMock.createMock
+knox,UndProjects/knox/gateway-shell/src/test/java/org/apache/knox/gateway/shell/alias/AliasTest.java,easymock,static org.easymock.EasyMock.expect
+knox,UndProjects/knox/gateway-shell/src/test/java/org/apache/knox/gateway/shell/alias/AliasTest.java,easymock,static org.easymock.EasyMock.isA
+knox,UndProjects/knox/gateway-shell/src/test/java/org/apache/knox/gateway/shell/alias/AliasTest.java,easymock,static org.easymock.EasyMock.replay
+knox,UndProjects/knox/gateway-shell/src/test/java/org/apache/knox/gateway/shell/knox/token/GetTest.java,easymock,static org.easymock.EasyMock.createMock
+knox,UndProjects/knox/gateway-shell/src/test/java/org/apache/knox/gateway/shell/knox/token/GetTest.java,easymock,static org.easymock.EasyMock.expect
+knox,UndProjects/knox/gateway-shell/src/test/java/org/apache/knox/gateway/shell/knox/token/GetTest.java,easymock,static org.easymock.EasyMock.replay
+knox,UndProjects/knox/gateway-shell/src/test/java/org/apache/knox/gateway/shell/knox/token/GetTest.java,easymock,static org.easymock.EasyMock.verify
+knox,UndProjects/knox/gateway-shell/src/test/java/org/apache/knox/gateway/shell/knox/token/TokenTest.java,easymock,static org.easymock.EasyMock.createMock
+knox,UndProjects/knox/gateway-shell/src/test/java/org/apache/knox/gateway/shell/knox/token/TokenTest.java,easymock,static org.easymock.EasyMock.expect
+knox,UndProjects/knox/gateway-shell/src/test/java/org/apache/knox/gateway/shell/knox/token/TokenTest.java,easymock,static org.easymock.EasyMock.isA
+knox,UndProjects/knox/gateway-shell/src/test/java/org/apache/knox/gateway/shell/knox/token/TokenTest.java,easymock,static org.easymock.EasyMock.replay
+knox,UndProjects/knox/gateway-shell/src/test/java/org/apache/knox/gateway/shell/knox/token/TokenTest.java,easymock,static org.easymock.EasyMock.verify
+knox,UndProjects/knox/gateway-shell/src/test/java/org/apache/knox/gateway/shell/table/KnoxShellTableTest.java,easymock,static org.easymock.EasyMock.createMock
+knox,UndProjects/knox/gateway-shell/src/test/java/org/apache/knox/gateway/shell/table/KnoxShellTableTest.java,easymock,static org.easymock.EasyMock.expect
+knox,UndProjects/knox/gateway-shell/src/test/java/org/apache/knox/gateway/shell/table/KnoxShellTableTest.java,easymock,static org.easymock.EasyMock.expectLastCall
+knox,UndProjects/knox/gateway-shell/src/test/java/org/apache/knox/gateway/shell/table/KnoxShellTableTest.java,easymock,static org.easymock.EasyMock.replay
+knox,UndProjects/knox/gateway-shell/src/test/java/org/apache/knox/gateway/shell/table/KnoxShellTableTest.java,easymock,static org.easymock.EasyMock.verify
+knox,UndProjects/knox/gateway-shell/src/test/java/org/apache/knox/gateway/shell/table/KnoxShellTableTest.java,easymock,org.easymock.IAnswer
+knox,UndProjects/knox/gateway-spi/src/test/java/org/apache/knox/gateway/dispatch/ConfigurableDispatchTest.java,easymock,org.easymock.Capture
+knox,UndProjects/knox/gateway-spi/src/test/java/org/apache/knox/gateway/dispatch/ConfigurableDispatchTest.java,easymock,org.easymock.EasyMock
+knox,UndProjects/knox/gateway-spi/src/test/java/org/apache/knox/gateway/dispatch/DefaultDispatchTest.java,easymock,org.easymock.EasyMock
+knox,UndProjects/knox/gateway-spi/src/test/java/org/apache/knox/gateway/dispatch/DefaultDispatchTest.java,easymock,org.easymock.IAnswer
+knox,UndProjects/knox/gateway-spi/src/test/java/org/apache/knox/gateway/dispatch/DefaultHttpClientFactoryTest.java,easymock,static org.easymock.EasyMock.createMock
+knox,UndProjects/knox/gateway-spi/src/test/java/org/apache/knox/gateway/dispatch/DefaultHttpClientFactoryTest.java,easymock,static org.easymock.EasyMock.expect
+knox,UndProjects/knox/gateway-spi/src/test/java/org/apache/knox/gateway/dispatch/DefaultHttpClientFactoryTest.java,easymock,static org.easymock.EasyMock.replay
+knox,UndProjects/knox/gateway-spi/src/test/java/org/apache/knox/gateway/dispatch/DefaultHttpClientFactoryTest.java,easymock,static org.easymock.EasyMock.verify
+knox,UndProjects/knox/gateway-spi/src/test/java/org/apache/knox/gateway/dispatch/GatewayDispatchFilterTest.java,easymock,org.easymock.EasyMock
+knox,UndProjects/knox/gateway-spi/src/test/java/org/apache/knox/gateway/dispatch/HadoopAuthCookieStoreTest.java,easymock,org.easymock.EasyMock
+knox,UndProjects/knox/gateway-spi/src/test/java/org/apache/knox/gateway/dispatch/PassAllHeadersNoEncodingDispatchTest.java,easymock,org.easymock.EasyMock
+knox,UndProjects/knox/gateway-spi/src/test/java/org/apache/knox/gateway/dispatch/URLDecodingDispatchTest.java,easymock,org.easymock.EasyMock
+knox,UndProjects/knox/gateway-spi/src/test/java/org/apache/knox/gateway/util/WhitelistUtilsTest.java,easymock,org.easymock.EasyMock
+knox,UndProjects/knox/gateway-test/src/test/java/org/apache/knox/gateway/OozieServiceDefinitionTest.java,easymock,org.easymock.EasyMock
+knox,UndProjects/knox/gateway-test/src/test/java/org/apache/knox/gateway/SimpleDescriptorHandlerFuncTest.java,easymock,org.easymock.Capture
+knox,UndProjects/knox/gateway-test/src/test/java/org/apache/knox/gateway/SimpleDescriptorHandlerFuncTest.java,easymock,org.easymock.EasyMock
+knox,UndProjects/knox/gateway-test/src/test/java/org/apache/knox/gateway/SimpleDescriptorHandlerFuncTest.java,easymock,static org.easymock.EasyMock.anyObject
+knox,UndProjects/knox/gateway-test/src/test/java/org/apache/knox/gateway/SimpleDescriptorHandlerFuncTest.java,easymock,static org.easymock.EasyMock.capture
+knox,UndProjects/knox/gateway-test/src/test/java/org/apache/knox/gateway/topology/monitor/RemoteConfigurationMonitorTest.java,easymock,org.easymock.EasyMock
+knox,UndProjects/knox/gateway-topology-hadoop-xml/src/test/java/org/apache/knox/gateway/topology/hadoop/xml/HadoopXmlResourceParserTest.java,easymock,org.easymock.EasyMock
+knox,UndProjects/knox/gateway-util-common/src/test/java/org/apache/knox/gateway/util/CookieUtilsTest.java,easymock,org.easymock.EasyMock
+knox,UndProjects/knox/gateway-util-urltemplate/src/test/java/org/apache/knox/gateway/util/urltemplate/RewriterTest.java,easymock,org.easymock.EasyMock
 hive,UndProjects/hive/accumulo-handler/src/test/org/apache/hadoop/hive/accumulo/TestAccumuloConnectionParameters.java,mockito,org.mockito.Mockito
 hive,UndProjects/hive/accumulo-handler/src/test/org/apache/hadoop/hive/accumulo/TestAccumuloDefaultIndexScanner.java,mockito,org.mockito.Mockito
 hive,UndProjects/hive/accumulo-handler/src/test/org/apache/hadoop/hive/accumulo/TestAccumuloStorageHandler.java,mockito,org.mockito.Mockito
@@ -736,406 +1139,3 @@ hive,UndProjects/hive/testutils/ptest2/src/test/java/org/apache/hive/ptest/execu
 hive,UndProjects/hive/testutils/ptest2/src/test/java/org/apache/hive/ptest/execution/ssh/TestSSHCommandExecutor.java,mockito,static org.mockito.Mockito.when
 hive,UndProjects/hive/testutils/ptest2/src/test/java/org/apache/hive/ptest/execution/ssh/TestSSHCommandExecutor.java,mockito,org.mockito.invocation.InvocationOnMock
 hive,UndProjects/hive/testutils/ptest2/src/test/java/org/apache/hive/ptest/execution/ssh/TestSSHCommandExecutor.java,mockito,org.mockito.stubbing.Answer
-commons-lang,UndProjects/commons-lang/src/test/java/org/apache/commons/lang3/concurrent/BasicThreadFactoryTest.java,easymock,org.easymock.EasyMock
-commons-lang,UndProjects/commons-lang/src/test/java/org/apache/commons/lang3/concurrent/ConcurrentUtilsTest.java,easymock,org.easymock.EasyMock
-commons-lang,UndProjects/commons-lang/src/test/java/org/apache/commons/lang3/concurrent/MemoizerTest.java,easymock,static org.easymock.EasyMock.expect
-commons-lang,UndProjects/commons-lang/src/test/java/org/apache/commons/lang3/concurrent/MemoizerTest.java,easymock,static org.easymock.EasyMock.replay
-commons-lang,UndProjects/commons-lang/src/test/java/org/apache/commons/lang3/concurrent/MemoizerTest.java,easymock,org.easymock.EasyMock
-commons-lang,UndProjects/commons-lang/src/test/java/org/apache/commons/lang3/concurrent/TimedSemaphoreTest.java,easymock,org.easymock.EasyMock
-commons-lang,UndProjects/commons-lang/src/test/java/org/apache/commons/lang3/event/EventListenerSupportTest.java,easymock,org.easymock.EasyMock
-pig,UndProjects/pig/contrib/piggybank/java/src/test/java/org/apache/pig/piggybank/test/evaluation/xml/XPathAllTest.java,mockito,static org.mockito.Mockito.mock
-pig,UndProjects/pig/contrib/piggybank/java/src/test/java/org/apache/pig/piggybank/test/evaluation/xml/XPathAllTest.java,mockito,static org.mockito.Mockito.when
-pig,UndProjects/pig/contrib/piggybank/java/src/test/java/org/apache/pig/piggybank/test/evaluation/xml/XPathTest.java,mockito,static org.mockito.Mockito.mock
-pig,UndProjects/pig/contrib/piggybank/java/src/test/java/org/apache/pig/piggybank/test/evaluation/xml/XPathTest.java,mockito,static org.mockito.Mockito.when
-pig,UndProjects/pig/test/org/apache/pig/test/TestBinInterSedes.java,mockito,org.mockito.internal.util.reflection.Whitebox
-pig,UndProjects/pig/test/org/apache/pig/test/TestMRJobStats.java,mockito,org.mockito.Mockito
-pig,UndProjects/pig/test/org/apache/pig/test/TestReadToEndLoader.java,mockito,org.mockito.Mockito
-pig,UndProjects/pig/test/org/apache/pig/test/TestReadToEndLoader.java,mockito,static org.mockito.Mockito.*
-pig,UndProjects/pig/test/org/apache/pig/test/TestRegisterParser.java,mockito,org.mockito.Mockito
-httpcomponents-client,UndProjects/httpcomponents-client/httpclient5-cache/src/test/java/org/apache/hc/client5/http/cache/TestHttpCacheEntry.java,mockito,static org.mockito.Mockito.mock
-httpcomponents-client,UndProjects/httpcomponents-client/httpclient5-cache/src/test/java/org/apache/hc/client5/http/impl/cache/RequestEquivalent.java,mockito,org.mockito.ArgumentMatcher
-httpcomponents-client,UndProjects/httpcomponents-client/httpclient5-cache/src/test/java/org/apache/hc/client5/http/impl/cache/RequestEquivalent.java,mockito,org.mockito.ArgumentMatchers
-httpcomponents-client,UndProjects/httpcomponents-client/httpclient5-cache/src/test/java/org/apache/hc/client5/http/impl/cache/ResponseEquivalent.java,mockito,org.mockito.ArgumentMatcher
-httpcomponents-client,UndProjects/httpcomponents-client/httpclient5-cache/src/test/java/org/apache/hc/client5/http/impl/cache/ResponseEquivalent.java,mockito,org.mockito.ArgumentMatchers
-httpcomponents-client,UndProjects/httpcomponents-client/httpclient5-cache/src/test/java/org/apache/hc/client5/http/impl/cache/TestAbstractSerializingAsyncCacheStorage.java,mockito,static org.mockito.Mockito.verify
-httpcomponents-client,UndProjects/httpcomponents-client/httpclient5-cache/src/test/java/org/apache/hc/client5/http/impl/cache/TestAbstractSerializingAsyncCacheStorage.java,mockito,static org.mockito.Mockito.when
-httpcomponents-client,UndProjects/httpcomponents-client/httpclient5-cache/src/test/java/org/apache/hc/client5/http/impl/cache/TestAbstractSerializingAsyncCacheStorage.java,mockito,org.mockito.Answers
-httpcomponents-client,UndProjects/httpcomponents-client/httpclient5-cache/src/test/java/org/apache/hc/client5/http/impl/cache/TestAbstractSerializingAsyncCacheStorage.java,mockito,org.mockito.ArgumentCaptor
-httpcomponents-client,UndProjects/httpcomponents-client/httpclient5-cache/src/test/java/org/apache/hc/client5/http/impl/cache/TestAbstractSerializingAsyncCacheStorage.java,mockito,org.mockito.ArgumentMatchers
-httpcomponents-client,UndProjects/httpcomponents-client/httpclient5-cache/src/test/java/org/apache/hc/client5/http/impl/cache/TestAbstractSerializingAsyncCacheStorage.java,mockito,org.mockito.Mock
-httpcomponents-client,UndProjects/httpcomponents-client/httpclient5-cache/src/test/java/org/apache/hc/client5/http/impl/cache/TestAbstractSerializingAsyncCacheStorage.java,mockito,org.mockito.Mockito
-httpcomponents-client,UndProjects/httpcomponents-client/httpclient5-cache/src/test/java/org/apache/hc/client5/http/impl/cache/TestAbstractSerializingAsyncCacheStorage.java,mockito,org.mockito.junit.MockitoJUnitRunner
-httpcomponents-client,UndProjects/httpcomponents-client/httpclient5-cache/src/test/java/org/apache/hc/client5/http/impl/cache/TestAbstractSerializingAsyncCacheStorage.java,mockito,org.mockito.stubbing.Answer
-httpcomponents-client,UndProjects/httpcomponents-client/httpclient5-cache/src/test/java/org/apache/hc/client5/http/impl/cache/TestAbstractSerializingCacheStorage.java,mockito,static org.mockito.ArgumentMatchers.eq
-httpcomponents-client,UndProjects/httpcomponents-client/httpclient5-cache/src/test/java/org/apache/hc/client5/http/impl/cache/TestAbstractSerializingCacheStorage.java,mockito,static org.mockito.Mockito.verify
-httpcomponents-client,UndProjects/httpcomponents-client/httpclient5-cache/src/test/java/org/apache/hc/client5/http/impl/cache/TestAbstractSerializingCacheStorage.java,mockito,static org.mockito.Mockito.when
-httpcomponents-client,UndProjects/httpcomponents-client/httpclient5-cache/src/test/java/org/apache/hc/client5/http/impl/cache/TestAbstractSerializingCacheStorage.java,mockito,org.mockito.Answers
-httpcomponents-client,UndProjects/httpcomponents-client/httpclient5-cache/src/test/java/org/apache/hc/client5/http/impl/cache/TestAbstractSerializingCacheStorage.java,mockito,org.mockito.ArgumentCaptor
-httpcomponents-client,UndProjects/httpcomponents-client/httpclient5-cache/src/test/java/org/apache/hc/client5/http/impl/cache/TestAbstractSerializingCacheStorage.java,mockito,org.mockito.ArgumentMatchers
-httpcomponents-client,UndProjects/httpcomponents-client/httpclient5-cache/src/test/java/org/apache/hc/client5/http/impl/cache/TestAbstractSerializingCacheStorage.java,mockito,org.mockito.Mockito
-httpcomponents-client,UndProjects/httpcomponents-client/httpclient5-cache/src/test/java/org/apache/hc/client5/http/impl/cache/TestAbstractSerializingCacheStorage.java,mockito,org.mockito.stubbing.Answer
-httpcomponents-client,UndProjects/httpcomponents-client/httpclient5-cache/src/test/java/org/apache/hc/client5/http/impl/cache/TestCacheKeyGenerator.java,mockito,static org.mockito.Mockito.mock
-httpcomponents-client,UndProjects/httpcomponents-client/httpclient5-cache/src/test/java/org/apache/hc/client5/http/impl/cache/TestCacheKeyGenerator.java,mockito,static org.mockito.Mockito.verify
-httpcomponents-client,UndProjects/httpcomponents-client/httpclient5-cache/src/test/java/org/apache/hc/client5/http/impl/cache/TestCacheKeyGenerator.java,mockito,static org.mockito.Mockito.when
-httpcomponents-client,UndProjects/httpcomponents-client/httpclient5-cache/src/test/java/org/apache/hc/client5/http/impl/cache/TestCacheRevalidatorBase.java,mockito,static org.mockito.Mockito.doThrow
-httpcomponents-client,UndProjects/httpcomponents-client/httpclient5-cache/src/test/java/org/apache/hc/client5/http/impl/cache/TestCacheRevalidatorBase.java,mockito,static org.mockito.Mockito.verify
-httpcomponents-client,UndProjects/httpcomponents-client/httpclient5-cache/src/test/java/org/apache/hc/client5/http/impl/cache/TestCacheRevalidatorBase.java,mockito,static org.mockito.Mockito.when
-httpcomponents-client,UndProjects/httpcomponents-client/httpclient5-cache/src/test/java/org/apache/hc/client5/http/impl/cache/TestCacheRevalidatorBase.java,mockito,org.mockito.ArgumentMatchers
-httpcomponents-client,UndProjects/httpcomponents-client/httpclient5-cache/src/test/java/org/apache/hc/client5/http/impl/cache/TestCacheRevalidatorBase.java,mockito,org.mockito.Mock
-httpcomponents-client,UndProjects/httpcomponents-client/httpclient5-cache/src/test/java/org/apache/hc/client5/http/impl/cache/TestCacheRevalidatorBase.java,mockito,org.mockito.junit.MockitoJUnitRunner
-httpcomponents-client,UndProjects/httpcomponents-client/httpclient5-cache/src/test/java/org/apache/hc/client5/http/impl/cache/TestCachedHttpResponseGenerator.java,mockito,static org.mockito.ArgumentMatchers.isA
-httpcomponents-client,UndProjects/httpcomponents-client/httpclient5-cache/src/test/java/org/apache/hc/client5/http/impl/cache/TestCachedHttpResponseGenerator.java,mockito,static org.mockito.ArgumentMatchers.same
-httpcomponents-client,UndProjects/httpcomponents-client/httpclient5-cache/src/test/java/org/apache/hc/client5/http/impl/cache/TestCachedHttpResponseGenerator.java,mockito,static org.mockito.Mockito.mock
-httpcomponents-client,UndProjects/httpcomponents-client/httpclient5-cache/src/test/java/org/apache/hc/client5/http/impl/cache/TestCachedHttpResponseGenerator.java,mockito,static org.mockito.Mockito.verify
-httpcomponents-client,UndProjects/httpcomponents-client/httpclient5-cache/src/test/java/org/apache/hc/client5/http/impl/cache/TestCachedHttpResponseGenerator.java,mockito,static org.mockito.Mockito.when
-httpcomponents-client,UndProjects/httpcomponents-client/httpclient5-cache/src/test/java/org/apache/hc/client5/http/impl/cache/TestCachingExecChain.java,mockito,org.mockito.ArgumentCaptor
-httpcomponents-client,UndProjects/httpcomponents-client/httpclient5-cache/src/test/java/org/apache/hc/client5/http/impl/cache/TestCachingExecChain.java,mockito,org.mockito.Mock
-httpcomponents-client,UndProjects/httpcomponents-client/httpclient5-cache/src/test/java/org/apache/hc/client5/http/impl/cache/TestCachingExecChain.java,mockito,org.mockito.Mockito
-httpcomponents-client,UndProjects/httpcomponents-client/httpclient5-cache/src/test/java/org/apache/hc/client5/http/impl/cache/TestCachingExecChain.java,mockito,org.mockito.Spy
-httpcomponents-client,UndProjects/httpcomponents-client/httpclient5-cache/src/test/java/org/apache/hc/client5/http/impl/cache/TestCachingExecChain.java,mockito,org.mockito.junit.MockitoJUnitRunner
-httpcomponents-client,UndProjects/httpcomponents-client/httpclient5-cache/src/test/java/org/apache/hc/client5/http/impl/cache/TestCombinedEntity.java,mockito,static org.mockito.Mockito.mock
-httpcomponents-client,UndProjects/httpcomponents-client/httpclient5-cache/src/test/java/org/apache/hc/client5/http/impl/cache/TestCombinedEntity.java,mockito,static org.mockito.Mockito.verify
-httpcomponents-client,UndProjects/httpcomponents-client/httpclient5-cache/src/test/java/org/apache/hc/client5/http/impl/cache/TestCombinedEntity.java,mockito,static org.mockito.Mockito.when
-httpcomponents-client,UndProjects/httpcomponents-client/httpclient5-cache/src/test/java/org/apache/hc/client5/http/impl/cache/TestDefaultAsyncCacheInvalidator.java,mockito,static org.mockito.Mockito.verify
-httpcomponents-client,UndProjects/httpcomponents-client/httpclient5-cache/src/test/java/org/apache/hc/client5/http/impl/cache/TestDefaultAsyncCacheInvalidator.java,mockito,static org.mockito.Mockito.verifyNoMoreInteractions
-httpcomponents-client,UndProjects/httpcomponents-client/httpclient5-cache/src/test/java/org/apache/hc/client5/http/impl/cache/TestDefaultAsyncCacheInvalidator.java,mockito,static org.mockito.Mockito.when
-httpcomponents-client,UndProjects/httpcomponents-client/httpclient5-cache/src/test/java/org/apache/hc/client5/http/impl/cache/TestDefaultAsyncCacheInvalidator.java,mockito,org.mockito.ArgumentMatchers
-httpcomponents-client,UndProjects/httpcomponents-client/httpclient5-cache/src/test/java/org/apache/hc/client5/http/impl/cache/TestDefaultAsyncCacheInvalidator.java,mockito,org.mockito.Mock
-httpcomponents-client,UndProjects/httpcomponents-client/httpclient5-cache/src/test/java/org/apache/hc/client5/http/impl/cache/TestDefaultAsyncCacheInvalidator.java,mockito,org.mockito.Mockito
-httpcomponents-client,UndProjects/httpcomponents-client/httpclient5-cache/src/test/java/org/apache/hc/client5/http/impl/cache/TestDefaultAsyncCacheInvalidator.java,mockito,org.mockito.junit.MockitoJUnitRunner
-httpcomponents-client,UndProjects/httpcomponents-client/httpclient5-cache/src/test/java/org/apache/hc/client5/http/impl/cache/TestDefaultAsyncCacheInvalidator.java,mockito,org.mockito.stubbing.Answer
-httpcomponents-client,UndProjects/httpcomponents-client/httpclient5-cache/src/test/java/org/apache/hc/client5/http/impl/cache/TestDefaultCacheInvalidator.java,mockito,static org.mockito.Mockito.verify
-httpcomponents-client,UndProjects/httpcomponents-client/httpclient5-cache/src/test/java/org/apache/hc/client5/http/impl/cache/TestDefaultCacheInvalidator.java,mockito,static org.mockito.Mockito.verifyNoMoreInteractions
-httpcomponents-client,UndProjects/httpcomponents-client/httpclient5-cache/src/test/java/org/apache/hc/client5/http/impl/cache/TestDefaultCacheInvalidator.java,mockito,static org.mockito.Mockito.when
-httpcomponents-client,UndProjects/httpcomponents-client/httpclient5-cache/src/test/java/org/apache/hc/client5/http/impl/cache/TestDefaultCacheInvalidator.java,mockito,org.mockito.ArgumentMatchers
-httpcomponents-client,UndProjects/httpcomponents-client/httpclient5-cache/src/test/java/org/apache/hc/client5/http/impl/cache/TestDefaultCacheInvalidator.java,mockito,org.mockito.Mock
-httpcomponents-client,UndProjects/httpcomponents-client/httpclient5-cache/src/test/java/org/apache/hc/client5/http/impl/cache/TestDefaultCacheInvalidator.java,mockito,org.mockito.junit.MockitoJUnitRunner
-httpcomponents-client,UndProjects/httpcomponents-client/httpclient5-cache/src/test/java/org/apache/hc/client5/http/impl/cache/TestDefaultCacheInvalidator.java,mockito,org.mockito.stubbing.Answer
-httpcomponents-client,UndProjects/httpcomponents-client/httpclient5-cache/src/test/java/org/apache/hc/client5/http/impl/cache/TestHttpByteArrayCacheEntrySerializer.java,mockito,org.mockito.Mockito
-httpcomponents-client,UndProjects/httpcomponents-client/httpclient5-cache/src/test/java/org/apache/hc/client5/http/impl/cache/TestHttpCacheJiraNumber1147.java,mockito,static org.mockito.ArgumentMatchers.isA
-httpcomponents-client,UndProjects/httpcomponents-client/httpclient5-cache/src/test/java/org/apache/hc/client5/http/impl/cache/TestHttpCacheJiraNumber1147.java,mockito,static org.mockito.Mockito.mock
-httpcomponents-client,UndProjects/httpcomponents-client/httpclient5-cache/src/test/java/org/apache/hc/client5/http/impl/cache/TestHttpCacheJiraNumber1147.java,mockito,static org.mockito.Mockito.reset
-httpcomponents-client,UndProjects/httpcomponents-client/httpclient5-cache/src/test/java/org/apache/hc/client5/http/impl/cache/TestHttpCacheJiraNumber1147.java,mockito,static org.mockito.Mockito.verify
-httpcomponents-client,UndProjects/httpcomponents-client/httpclient5-cache/src/test/java/org/apache/hc/client5/http/impl/cache/TestHttpCacheJiraNumber1147.java,mockito,static org.mockito.Mockito.when
-httpcomponents-client,UndProjects/httpcomponents-client/httpclient5-cache/src/test/java/org/apache/hc/client5/http/impl/cache/TestHttpCacheJiraNumber1147.java,mockito,org.mockito.Mockito
-httpcomponents-client,UndProjects/httpcomponents-client/httpclient5-cache/src/test/java/org/apache/hc/client5/http/impl/cache/TestProtocolAllowedBehavior.java,mockito,org.mockito.Mock
-httpcomponents-client,UndProjects/httpcomponents-client/httpclient5-cache/src/test/java/org/apache/hc/client5/http/impl/cache/TestProtocolAllowedBehavior.java,mockito,org.mockito.Mockito
-httpcomponents-client,UndProjects/httpcomponents-client/httpclient5-cache/src/test/java/org/apache/hc/client5/http/impl/cache/TestProtocolAllowedBehavior.java,mockito,org.mockito.junit.MockitoJUnitRunner
-httpcomponents-client,UndProjects/httpcomponents-client/httpclient5-cache/src/test/java/org/apache/hc/client5/http/impl/cache/TestProtocolDeviations.java,mockito,org.mockito.Mock
-httpcomponents-client,UndProjects/httpcomponents-client/httpclient5-cache/src/test/java/org/apache/hc/client5/http/impl/cache/TestProtocolDeviations.java,mockito,org.mockito.Mockito
-httpcomponents-client,UndProjects/httpcomponents-client/httpclient5-cache/src/test/java/org/apache/hc/client5/http/impl/cache/TestProtocolDeviations.java,mockito,org.mockito.junit.MockitoJUnitRunner
-httpcomponents-client,UndProjects/httpcomponents-client/httpclient5-cache/src/test/java/org/apache/hc/client5/http/impl/cache/TestProtocolRecommendations.java,mockito,org.mockito.ArgumentCaptor
-httpcomponents-client,UndProjects/httpcomponents-client/httpclient5-cache/src/test/java/org/apache/hc/client5/http/impl/cache/TestProtocolRecommendations.java,mockito,org.mockito.Mock
-httpcomponents-client,UndProjects/httpcomponents-client/httpclient5-cache/src/test/java/org/apache/hc/client5/http/impl/cache/TestProtocolRecommendations.java,mockito,org.mockito.Mockito
-httpcomponents-client,UndProjects/httpcomponents-client/httpclient5-cache/src/test/java/org/apache/hc/client5/http/impl/cache/TestProtocolRecommendations.java,mockito,org.mockito.junit.MockitoJUnitRunner
-httpcomponents-client,UndProjects/httpcomponents-client/httpclient5-cache/src/test/java/org/apache/hc/client5/http/impl/cache/TestProtocolRequirements.java,mockito,org.mockito.ArgumentCaptor
-httpcomponents-client,UndProjects/httpcomponents-client/httpclient5-cache/src/test/java/org/apache/hc/client5/http/impl/cache/TestProtocolRequirements.java,mockito,org.mockito.Mock
-httpcomponents-client,UndProjects/httpcomponents-client/httpclient5-cache/src/test/java/org/apache/hc/client5/http/impl/cache/TestProtocolRequirements.java,mockito,org.mockito.Mockito
-httpcomponents-client,UndProjects/httpcomponents-client/httpclient5-cache/src/test/java/org/apache/hc/client5/http/impl/cache/TestProtocolRequirements.java,mockito,org.mockito.junit.MockitoJUnitRunner
-httpcomponents-client,UndProjects/httpcomponents-client/httpclient5-cache/src/test/java/org/apache/hc/client5/http/impl/cache/TestRFC5861Compliance.java,mockito,org.mockito.Mock
-httpcomponents-client,UndProjects/httpcomponents-client/httpclient5-cache/src/test/java/org/apache/hc/client5/http/impl/cache/TestRFC5861Compliance.java,mockito,org.mockito.Mockito
-httpcomponents-client,UndProjects/httpcomponents-client/httpclient5-cache/src/test/java/org/apache/hc/client5/http/impl/cache/TestRFC5861Compliance.java,mockito,org.mockito.junit.MockitoJUnitRunner
-httpcomponents-client,UndProjects/httpcomponents-client/httpclient5-testing/src/test/java/org/apache/hc/client5/testing/sync/TestSPNegoScheme.java,mockito,org.mockito.ArgumentMatchers
-httpcomponents-client,UndProjects/httpcomponents-client/httpclient5-testing/src/test/java/org/apache/hc/client5/testing/sync/TestSPNegoScheme.java,mockito,org.mockito.Mockito
-httpcomponents-client,UndProjects/httpcomponents-client/httpclient5/src/test/java/org/apache/hc/client5/http/entity/TestEntityBuilder.java,mockito,org.mockito.Mockito
-httpcomponents-client,UndProjects/httpcomponents-client/httpclient5/src/test/java/org/apache/hc/client5/http/entity/TestGZip.java,mockito,org.mockito.ArgumentMatchers
-httpcomponents-client,UndProjects/httpcomponents-client/httpclient5/src/test/java/org/apache/hc/client5/http/entity/TestGZip.java,mockito,org.mockito.Mockito
-httpcomponents-client,UndProjects/httpcomponents-client/httpclient5/src/test/java/org/apache/hc/client5/http/impl/TestIdleConnectionEvictor.java,mockito,org.mockito.ArgumentMatchers
-httpcomponents-client,UndProjects/httpcomponents-client/httpclient5/src/test/java/org/apache/hc/client5/http/impl/TestIdleConnectionEvictor.java,mockito,org.mockito.Mockito
-httpcomponents-client,UndProjects/httpcomponents-client/httpclient5/src/test/java/org/apache/hc/client5/http/impl/auth/TestHttpAuthenticator.java,mockito,org.mockito.Answers
-httpcomponents-client,UndProjects/httpcomponents-client/httpclient5/src/test/java/org/apache/hc/client5/http/impl/auth/TestHttpAuthenticator.java,mockito,org.mockito.Mockito
-httpcomponents-client,UndProjects/httpcomponents-client/httpclient5/src/test/java/org/apache/hc/client5/http/impl/auth/TestSystemDefaultCredentialsProvider.java,mockito,org.mockito.ArgumentMatchers
-httpcomponents-client,UndProjects/httpcomponents-client/httpclient5/src/test/java/org/apache/hc/client5/http/impl/auth/TestSystemDefaultCredentialsProvider.java,mockito,org.mockito.Mockito
-httpcomponents-client,UndProjects/httpcomponents-client/httpclient5/src/test/java/org/apache/hc/client5/http/impl/classic/TestAbstractHttpClientResponseHandler.java,mockito,org.mockito.Mockito
-httpcomponents-client,UndProjects/httpcomponents-client/httpclient5/src/test/java/org/apache/hc/client5/http/impl/classic/TestBasicResponseHandler.java,mockito,org.mockito.Mockito
-httpcomponents-client,UndProjects/httpcomponents-client/httpclient5/src/test/java/org/apache/hc/client5/http/impl/classic/TestCloseableHttpClient.java,mockito,org.mockito.Mockito
-httpcomponents-client,UndProjects/httpcomponents-client/httpclient5/src/test/java/org/apache/hc/client5/http/impl/classic/TestConnectExec.java,mockito,org.mockito.ArgumentCaptor
-httpcomponents-client,UndProjects/httpcomponents-client/httpclient5/src/test/java/org/apache/hc/client5/http/impl/classic/TestConnectExec.java,mockito,org.mockito.Mock
-httpcomponents-client,UndProjects/httpcomponents-client/httpclient5/src/test/java/org/apache/hc/client5/http/impl/classic/TestConnectExec.java,mockito,org.mockito.Mockito
-httpcomponents-client,UndProjects/httpcomponents-client/httpclient5/src/test/java/org/apache/hc/client5/http/impl/classic/TestConnectExec.java,mockito,org.mockito.junit.MockitoJUnitRunner
-httpcomponents-client,UndProjects/httpcomponents-client/httpclient5/src/test/java/org/apache/hc/client5/http/impl/classic/TestConnectExec.java,mockito,org.mockito.stubbing.Answer
-httpcomponents-client,UndProjects/httpcomponents-client/httpclient5/src/test/java/org/apache/hc/client5/http/impl/classic/TestContentCompressionExec.java,mockito,org.mockito.Mock
-httpcomponents-client,UndProjects/httpcomponents-client/httpclient5/src/test/java/org/apache/hc/client5/http/impl/classic/TestContentCompressionExec.java,mockito,org.mockito.Mockito
-httpcomponents-client,UndProjects/httpcomponents-client/httpclient5/src/test/java/org/apache/hc/client5/http/impl/classic/TestContentCompressionExec.java,mockito,org.mockito.junit.MockitoJUnitRunner
-httpcomponents-client,UndProjects/httpcomponents-client/httpclient5/src/test/java/org/apache/hc/client5/http/impl/classic/TestHttpRequestRetryExec.java,mockito,org.mockito.Mock
-httpcomponents-client,UndProjects/httpcomponents-client/httpclient5/src/test/java/org/apache/hc/client5/http/impl/classic/TestHttpRequestRetryExec.java,mockito,org.mockito.Mockito
-httpcomponents-client,UndProjects/httpcomponents-client/httpclient5/src/test/java/org/apache/hc/client5/http/impl/classic/TestHttpRequestRetryExec.java,mockito,org.mockito.junit.MockitoJUnitRunner
-httpcomponents-client,UndProjects/httpcomponents-client/httpclient5/src/test/java/org/apache/hc/client5/http/impl/classic/TestInternalExecRuntime.java,mockito,org.mockito.Mock
-httpcomponents-client,UndProjects/httpcomponents-client/httpclient5/src/test/java/org/apache/hc/client5/http/impl/classic/TestInternalExecRuntime.java,mockito,org.mockito.Mockito
-httpcomponents-client,UndProjects/httpcomponents-client/httpclient5/src/test/java/org/apache/hc/client5/http/impl/classic/TestInternalExecRuntime.java,mockito,org.mockito.junit.MockitoJUnitRunner
-httpcomponents-client,UndProjects/httpcomponents-client/httpclient5/src/test/java/org/apache/hc/client5/http/impl/classic/TestInternalHttpClient.java,mockito,org.mockito.Mock
-httpcomponents-client,UndProjects/httpcomponents-client/httpclient5/src/test/java/org/apache/hc/client5/http/impl/classic/TestInternalHttpClient.java,mockito,org.mockito.Mockito
-httpcomponents-client,UndProjects/httpcomponents-client/httpclient5/src/test/java/org/apache/hc/client5/http/impl/classic/TestInternalHttpClient.java,mockito,org.mockito.junit.MockitoJUnitRunner
-httpcomponents-client,UndProjects/httpcomponents-client/httpclient5/src/test/java/org/apache/hc/client5/http/impl/classic/TestMainClientExec.java,mockito,org.mockito.Mock
-httpcomponents-client,UndProjects/httpcomponents-client/httpclient5/src/test/java/org/apache/hc/client5/http/impl/classic/TestMainClientExec.java,mockito,org.mockito.Mockito
-httpcomponents-client,UndProjects/httpcomponents-client/httpclient5/src/test/java/org/apache/hc/client5/http/impl/classic/TestMainClientExec.java,mockito,org.mockito.junit.MockitoJUnitRunner
-httpcomponents-client,UndProjects/httpcomponents-client/httpclient5/src/test/java/org/apache/hc/client5/http/impl/classic/TestMainClientExec.java,mockito,org.mockito.stubbing.Answer
-httpcomponents-client,UndProjects/httpcomponents-client/httpclient5/src/test/java/org/apache/hc/client5/http/impl/classic/TestProtocolExec.java,mockito,org.mockito.Mock
-httpcomponents-client,UndProjects/httpcomponents-client/httpclient5/src/test/java/org/apache/hc/client5/http/impl/classic/TestProtocolExec.java,mockito,org.mockito.Mockito
-httpcomponents-client,UndProjects/httpcomponents-client/httpclient5/src/test/java/org/apache/hc/client5/http/impl/classic/TestProtocolExec.java,mockito,org.mockito.junit.MockitoJUnitRunner
-httpcomponents-client,UndProjects/httpcomponents-client/httpclient5/src/test/java/org/apache/hc/client5/http/impl/classic/TestProtocolExec.java,mockito,org.mockito.stubbing.Answer
-httpcomponents-client,UndProjects/httpcomponents-client/httpclient5/src/test/java/org/apache/hc/client5/http/impl/classic/TestRedirectExec.java,mockito,org.mockito.ArgumentCaptor
-httpcomponents-client,UndProjects/httpcomponents-client/httpclient5/src/test/java/org/apache/hc/client5/http/impl/classic/TestRedirectExec.java,mockito,org.mockito.ArgumentMatcher
-httpcomponents-client,UndProjects/httpcomponents-client/httpclient5/src/test/java/org/apache/hc/client5/http/impl/classic/TestRedirectExec.java,mockito,org.mockito.ArgumentMatchers
-httpcomponents-client,UndProjects/httpcomponents-client/httpclient5/src/test/java/org/apache/hc/client5/http/impl/classic/TestRedirectExec.java,mockito,org.mockito.Mock
-httpcomponents-client,UndProjects/httpcomponents-client/httpclient5/src/test/java/org/apache/hc/client5/http/impl/classic/TestRedirectExec.java,mockito,org.mockito.Mockito
-httpcomponents-client,UndProjects/httpcomponents-client/httpclient5/src/test/java/org/apache/hc/client5/http/impl/classic/TestRedirectExec.java,mockito,org.mockito.junit.MockitoJUnitRunner
-httpcomponents-client,UndProjects/httpcomponents-client/httpclient5/src/test/java/org/apache/hc/client5/http/impl/classic/TestResponseEntityProxy.java,mockito,org.mockito.ArgumentCaptor
-httpcomponents-client,UndProjects/httpcomponents-client/httpclient5/src/test/java/org/apache/hc/client5/http/impl/classic/TestResponseEntityProxy.java,mockito,org.mockito.Mock
-httpcomponents-client,UndProjects/httpcomponents-client/httpclient5/src/test/java/org/apache/hc/client5/http/impl/classic/TestResponseEntityProxy.java,mockito,org.mockito.Mockito
-httpcomponents-client,UndProjects/httpcomponents-client/httpclient5/src/test/java/org/apache/hc/client5/http/impl/classic/TestResponseEntityProxy.java,mockito,org.mockito.junit.MockitoJUnitRunner
-httpcomponents-client,UndProjects/httpcomponents-client/httpclient5/src/test/java/org/apache/hc/client5/http/impl/classic/TestResponseEntityWrapper.java,mockito,org.mockito.Mockito
-httpcomponents-client,UndProjects/httpcomponents-client/httpclient5/src/test/java/org/apache/hc/client5/http/impl/cookie/TestRFC6265CookieSpec.java,mockito,org.mockito.ArgumentMatchers
-httpcomponents-client,UndProjects/httpcomponents-client/httpclient5/src/test/java/org/apache/hc/client5/http/impl/cookie/TestRFC6265CookieSpec.java,mockito,org.mockito.Mockito
-httpcomponents-client,UndProjects/httpcomponents-client/httpclient5/src/test/java/org/apache/hc/client5/http/impl/io/TestBasicHttpClientConnectionManager.java,mockito,org.mockito.Mock
-httpcomponents-client,UndProjects/httpcomponents-client/httpclient5/src/test/java/org/apache/hc/client5/http/impl/io/TestBasicHttpClientConnectionManager.java,mockito,org.mockito.Mockito
-httpcomponents-client,UndProjects/httpcomponents-client/httpclient5/src/test/java/org/apache/hc/client5/http/impl/io/TestBasicHttpClientConnectionManager.java,mockito,org.mockito.junit.MockitoJUnitRunner
-httpcomponents-client,UndProjects/httpcomponents-client/httpclient5/src/test/java/org/apache/hc/client5/http/impl/io/TestHttpClientConnectionOperator.java,mockito,org.mockito.Mockito
-httpcomponents-client,UndProjects/httpcomponents-client/httpclient5/src/test/java/org/apache/hc/client5/http/impl/io/TestPoolingHttpClientConnectionManager.java,mockito,org.mockito.Mock
-httpcomponents-client,UndProjects/httpcomponents-client/httpclient5/src/test/java/org/apache/hc/client5/http/impl/io/TestPoolingHttpClientConnectionManager.java,mockito,org.mockito.Mockito
-httpcomponents-client,UndProjects/httpcomponents-client/httpclient5/src/test/java/org/apache/hc/client5/http/impl/io/TestPoolingHttpClientConnectionManager.java,mockito,org.mockito.junit.MockitoJUnitRunner
-httpcomponents-client,UndProjects/httpcomponents-client/httpclient5/src/test/java/org/apache/hc/client5/http/impl/routing/TestDefaultProxyRoutePlanner.java,mockito,org.mockito.Mockito
-httpcomponents-client,UndProjects/httpcomponents-client/httpclient5/src/test/java/org/apache/hc/client5/http/impl/routing/TestDefaultRoutePlanner.java,mockito,org.mockito.Mockito
-httpcomponents-client,UndProjects/httpcomponents-client/httpclient5/src/test/java/org/apache/hc/client5/http/impl/routing/TestSystemDefaultRoutePlanner.java,mockito,org.mockito.ArgumentMatchers
-httpcomponents-client,UndProjects/httpcomponents-client/httpclient5/src/test/java/org/apache/hc/client5/http/impl/routing/TestSystemDefaultRoutePlanner.java,mockito,org.mockito.Mockito
-httpcomponents-client,UndProjects/httpcomponents-client/httpclient5/src/test/java/org/apache/hc/client5/http/protocol/TestRequestAddCookies.java,mockito,org.mockito.ArgumentMatchers
-httpcomponents-client,UndProjects/httpcomponents-client/httpclient5/src/test/java/org/apache/hc/client5/http/protocol/TestRequestAddCookies.java,mockito,org.mockito.Mockito
-knox,UndProjects/knox/gateway-adapter/src/test/java/org/apache/hadoop/gateway/shirorealm/KnoxPamRealmTest.java,easymock,static org.easymock.EasyMock.createMock
-knox,UndProjects/knox/gateway-adapter/src/test/java/org/apache/hadoop/gateway/shirorealm/KnoxPamRealmTest.java,easymock,static org.easymock.EasyMock.expect
-knox,UndProjects/knox/gateway-adapter/src/test/java/org/apache/hadoop/gateway/shirorealm/KnoxPamRealmTest.java,easymock,static org.easymock.EasyMock.replay
-knox,UndProjects/knox/gateway-discovery-ambari/src/test/java/org/apache/knox/gateway/topology/discovery/ambari/AmbariClusterTest.java,easymock,org.easymock.EasyMock
-knox,UndProjects/knox/gateway-discovery-ambari/src/test/java/org/apache/knox/gateway/topology/discovery/ambari/AmbariConfigurationMonitorTest.java,easymock,org.easymock.EasyMock
-knox,UndProjects/knox/gateway-discovery-ambari/src/test/java/org/apache/knox/gateway/topology/discovery/ambari/AmbariDynamicServiceURLCreatorTest.java,easymock,org.easymock.EasyMock
-knox,UndProjects/knox/gateway-discovery-ambari/src/test/java/org/apache/knox/gateway/topology/discovery/ambari/AmbariServiceDiscoveryTest.java,easymock,org.easymock.EasyMock
-knox,UndProjects/knox/gateway-discovery-ambari/src/test/java/org/apache/knox/gateway/topology/discovery/ambari/RMURLCreatorTestBase.java,easymock,org.easymock.EasyMock
-knox,UndProjects/knox/gateway-discovery-ambari/src/test/java/org/apache/knox/gateway/topology/discovery/ambari/SparkServiceURLCreatorTest.java,easymock,org.easymock.EasyMock
-knox,UndProjects/knox/gateway-discovery-ambari/src/test/java/org/apache/knox/gateway/topology/discovery/ambari/WebHdfsUrlCreatorTest.java,easymock,org.easymock.EasyMock
-knox,UndProjects/knox/gateway-discovery-cm/src/test/java/org/apache/knox/gateway/topology/discovery/cm/AbstractCMDiscoveryTest.java,easymock,org.easymock.EasyMock
-knox,UndProjects/knox/gateway-discovery-cm/src/test/java/org/apache/knox/gateway/topology/discovery/cm/ClouderaManagerServiceDiscoveryTest.java,easymock,org.easymock.EasyMock
-knox,UndProjects/knox/gateway-discovery-cm/src/test/java/org/apache/knox/gateway/topology/discovery/cm/collector/AbstractURLCollectorTest.java,easymock,org.easymock.EasyMock
-knox,UndProjects/knox/gateway-discovery-cm/src/test/java/org/apache/knox/gateway/topology/discovery/cm/monitor/AbstractConfigurationStoreTest.java,easymock,org.easymock.EasyMock
-knox,UndProjects/knox/gateway-discovery-cm/src/test/java/org/apache/knox/gateway/topology/discovery/cm/monitor/PollingConfigurationAnalyzerTest.java,easymock,org.easymock.EasyMock
-knox,UndProjects/knox/gateway-discovery-cm/src/test/java/org/apache/knox/gateway/topology/discovery/cm/monitor/PollingConfigurationAnalyzerTest.java,easymock,static org.easymock.EasyMock.getCurrentArguments
-knox,UndProjects/knox/gateway-provider-ha/src/test/java/org/apache/knox/gateway/ha/deploy/HaProviderDeploymentContributorTest.java,easymock,org.easymock.EasyMock
-knox,UndProjects/knox/gateway-provider-ha/src/test/java/org/apache/knox/gateway/ha/dispatch/ConfigurableHADispatchTest.java,easymock,static org.easymock.EasyMock.capture
-knox,UndProjects/knox/gateway-provider-ha/src/test/java/org/apache/knox/gateway/ha/dispatch/ConfigurableHADispatchTest.java,easymock,org.easymock.Capture
-knox,UndProjects/knox/gateway-provider-ha/src/test/java/org/apache/knox/gateway/ha/dispatch/ConfigurableHADispatchTest.java,easymock,org.easymock.EasyMock
-knox,UndProjects/knox/gateway-provider-ha/src/test/java/org/apache/knox/gateway/ha/dispatch/ConfigurableHADispatchTest.java,easymock,org.easymock.IAnswer
-knox,UndProjects/knox/gateway-provider-ha/src/test/java/org/apache/knox/gateway/ha/dispatch/DefaultHaDispatchTest.java,easymock,org.easymock.Capture
-knox,UndProjects/knox/gateway-provider-ha/src/test/java/org/apache/knox/gateway/ha/dispatch/DefaultHaDispatchTest.java,easymock,org.easymock.CaptureType
-knox,UndProjects/knox/gateway-provider-ha/src/test/java/org/apache/knox/gateway/ha/dispatch/DefaultHaDispatchTest.java,easymock,org.easymock.EasyMock
-knox,UndProjects/knox/gateway-provider-ha/src/test/java/org/apache/knox/gateway/ha/dispatch/DefaultHaDispatchTest.java,easymock,org.easymock.IAnswer
-knox,UndProjects/knox/gateway-provider-ha/src/test/java/org/apache/knox/gateway/ha/dispatch/DefaultHaDispatchTest.java,easymock,static org.easymock.EasyMock.anyString
-knox,UndProjects/knox/gateway-provider-identity-assertion-common/src/test/java/org/apache/knox/gateway/identityasserter/filter/CommonIdentityAssertionFilterTest.java,easymock,org.easymock.EasyMock
-knox,UndProjects/knox/gateway-provider-identity-assertion-concat/src/test/java/org/apache/knox/gateway/identityasserter/concat/filter/ConcatIdentityAssertionFilterTest.java,easymock,org.easymock.EasyMock
-knox,UndProjects/knox/gateway-provider-identity-assertion-hadoop-groups/src/test/java/org/apache/knox/gateway/identityasserter/hadoop/groups/filter/HadoopGroupProviderFilterTest.java,easymock,org.easymock.EasyMock
-knox,UndProjects/knox/gateway-provider-identity-assertion-pseudo/src/test/java/org/apache/knox/gateway/identityasserter/filter/DefaultIdentityAssertionFilterTest.java,easymock,org.easymock.EasyMock
-knox,UndProjects/knox/gateway-provider-identity-assertion-regex/src/test/java/org/apache/knox/gateway/identityasserter/regex/filter/RegexIdentityAssertionFilterTest.java,easymock,org.easymock.EasyMock
-knox,UndProjects/knox/gateway-provider-identity-assertion-switchcase/src/test/java/org/apache/knox/gateway/identityasserter/switchcase/SwitchCaseIdentityAssertionFilterTest.java,easymock,org.easymock.EasyMock
-knox,UndProjects/knox/gateway-provider-jersey/src/test/java/org/apache/knox/gateway/jersey/JerseyDeploymentContributorTest.java,easymock,org.easymock.EasyMock
-knox,UndProjects/knox/gateway-provider-rewrite-func-hostmap-static/src/test/java/org/apache/knox/gateway/hostmap/impl/HostmapDeploymentContributorTest.java,easymock,org.easymock.EasyMock
-knox,UndProjects/knox/gateway-provider-rewrite-func-hostmap-static/src/test/java/org/apache/knox/gateway/hostmap/impl/HostmapFunctionProcessorTest.java,easymock,org.easymock.EasyMock
-knox,UndProjects/knox/gateway-provider-rewrite-func-inbound-query-param/src/test/java/org/apache/knox/gateway/inboundurl/impl/InboundUrlFunctionProcessorTest.java,easymock,org.easymock.EasyMock
-knox,UndProjects/knox/gateway-provider-rewrite-func-service-registry/src/test/java/org/apache/knox/gateway/svcregfunc/impl/ServiceAddressFunctionProcessorTest.java,easymock,org.easymock.EasyMock
-knox,UndProjects/knox/gateway-provider-rewrite-func-service-registry/src/test/java/org/apache/knox/gateway/svcregfunc/impl/ServiceHostFunctionProcessorTest.java,easymock,org.easymock.EasyMock
-knox,UndProjects/knox/gateway-provider-rewrite-func-service-registry/src/test/java/org/apache/knox/gateway/svcregfunc/impl/ServiceMappedAddressFunctionProcessorTest.java,easymock,org.easymock.EasyMock
-knox,UndProjects/knox/gateway-provider-rewrite-func-service-registry/src/test/java/org/apache/knox/gateway/svcregfunc/impl/ServiceMappedHostFunctionProcessorTest.java,easymock,org.easymock.EasyMock
-knox,UndProjects/knox/gateway-provider-rewrite-func-service-registry/src/test/java/org/apache/knox/gateway/svcregfunc/impl/ServiceMappedUrlFunctionProcessorTest.java,easymock,org.easymock.EasyMock
-knox,UndProjects/knox/gateway-provider-rewrite-func-service-registry/src/test/java/org/apache/knox/gateway/svcregfunc/impl/ServicePathFunctionProcessorTest.java,easymock,org.easymock.EasyMock
-knox,UndProjects/knox/gateway-provider-rewrite-func-service-registry/src/test/java/org/apache/knox/gateway/svcregfunc/impl/ServicePortFunctionProcessorTest.java,easymock,org.easymock.EasyMock
-knox,UndProjects/knox/gateway-provider-rewrite-func-service-registry/src/test/java/org/apache/knox/gateway/svcregfunc/impl/ServiceRegistryFunctionsTest.java,easymock,org.easymock.EasyMock
-knox,UndProjects/knox/gateway-provider-rewrite-func-service-registry/src/test/java/org/apache/knox/gateway/svcregfunc/impl/ServiceSchemeFunctionProcessorTest.java,easymock,org.easymock.EasyMock
-knox,UndProjects/knox/gateway-provider-rewrite-func-service-registry/src/test/java/org/apache/knox/gateway/svcregfunc/impl/ServiceUrlFunctionProcessorTest.java,easymock,org.easymock.EasyMock
-knox,UndProjects/knox/gateway-provider-rewrite-step-encrypt-uri/src/test/java/org/apache/knox/gateway/encrypturi/impl/EncryptDecryptUriProcessorTest.java,easymock,org.easymock.Capture
-knox,UndProjects/knox/gateway-provider-rewrite-step-encrypt-uri/src/test/java/org/apache/knox/gateway/encrypturi/impl/EncryptDecryptUriProcessorTest.java,easymock,org.easymock.EasyMock
-knox,UndProjects/knox/gateway-provider-rewrite-step-encrypt-uri/src/test/java/org/apache/knox/gateway/encrypturi/impl/EncryptUriDeploymentContributorTest.java,easymock,org.easymock.EasyMock
-knox,UndProjects/knox/gateway-provider-rewrite-step-secure-query/src/test/java/org/apache/knox/gateway/securequery/SecureQueryDecodeProcessorTest.java,easymock,org.easymock.Capture
-knox,UndProjects/knox/gateway-provider-rewrite-step-secure-query/src/test/java/org/apache/knox/gateway/securequery/SecureQueryDecodeProcessorTest.java,easymock,org.easymock.EasyMock
-knox,UndProjects/knox/gateway-provider-rewrite-step-secure-query/src/test/java/org/apache/knox/gateway/securequery/SecureQueryDeploymentContributorTest.java,easymock,org.easymock.EasyMock
-knox,UndProjects/knox/gateway-provider-rewrite-step-secure-query/src/test/java/org/apache/knox/gateway/securequery/SecureQueryEncodeProcessorTest.java,easymock,org.easymock.Capture
-knox,UndProjects/knox/gateway-provider-rewrite-step-secure-query/src/test/java/org/apache/knox/gateway/securequery/SecureQueryEncodeProcessorTest.java,easymock,org.easymock.EasyMock
-knox,UndProjects/knox/gateway-provider-rewrite-step-secure-query/src/test/java/org/apache/knox/gateway/securequery/SecureQueryEncryptDecryptProcessorTest.java,easymock,org.easymock.Capture
-knox,UndProjects/knox/gateway-provider-rewrite-step-secure-query/src/test/java/org/apache/knox/gateway/securequery/SecureQueryEncryptDecryptProcessorTest.java,easymock,org.easymock.EasyMock
-knox,UndProjects/knox/gateway-provider-rewrite/src/test/java/org/apache/knox/gateway/filter/rewrite/api/UrlRewriteProcessorTest.java,easymock,org.easymock.EasyMock
-knox,UndProjects/knox/gateway-provider-rewrite/src/test/java/org/apache/knox/gateway/filter/rewrite/api/UrlRewriteServletEnvironmentTest.java,easymock,org.easymock.EasyMock
-knox,UndProjects/knox/gateway-provider-rewrite/src/test/java/org/apache/knox/gateway/filter/rewrite/impl/CookieScopeResponseWrapperTest.java,easymock,org.easymock.Capture
-knox,UndProjects/knox/gateway-provider-rewrite/src/test/java/org/apache/knox/gateway/filter/rewrite/impl/CookieScopeResponseWrapperTest.java,easymock,org.easymock.EasyMock
-knox,UndProjects/knox/gateway-provider-rewrite/src/test/java/org/apache/knox/gateway/filter/rewrite/impl/FrontendFunctionProcessorTest.java,easymock,org.easymock.EasyMock
-knox,UndProjects/knox/gateway-provider-rewrite/src/test/java/org/apache/knox/gateway/filter/rewrite/impl/UrlRewriteContextImplTest.java,easymock,org.easymock.EasyMock
-knox,UndProjects/knox/gateway-provider-rewrite/src/test/java/org/apache/knox/gateway/filter/rewrite/impl/UrlRewriteRequestTest.java,easymock,org.easymock.EasyMock
-knox,UndProjects/knox/gateway-provider-rewrite/src/test/java/org/apache/knox/gateway/filter/rewrite/impl/UrlRewriteResponseTest.java,easymock,org.easymock.EasyMock
-knox,UndProjects/knox/gateway-provider-security-authz-acls/src/test/java/org/apache/knox/gateway/filter/AclsAuthzFilterTest.java,easymock,org.easymock.EasyMock
-knox,UndProjects/knox/gateway-provider-security-authz-composite/src/test/java/org/apache/knox/gateway/deploy/impl/CompositeAuthzProviderTest.java,easymock,static org.easymock.EasyMock.createMock
-knox,UndProjects/knox/gateway-provider-security-authz-composite/src/test/java/org/apache/knox/gateway/deploy/impl/CompositeAuthzProviderTest.java,easymock,static org.easymock.EasyMock.expect
-knox,UndProjects/knox/gateway-provider-security-authz-composite/src/test/java/org/apache/knox/gateway/deploy/impl/CompositeAuthzProviderTest.java,easymock,static org.easymock.EasyMock.replay
-knox,UndProjects/knox/gateway-provider-security-clientcert/src/test/java/org/apache/knox/gateway/clientcert/ClientCertDeploymentContributorTest.java,easymock,org.easymock.EasyMock
-knox,UndProjects/knox/gateway-provider-security-hadoopauth/src/test/java/org/apache/knox/gateway/hadoopauth/HadoopAuthDeploymentContributorTest.java,easymock,org.easymock.EasyMock
-knox,UndProjects/knox/gateway-provider-security-hadoopauth/src/test/java/org/apache/knox/gateway/hadoopauth/filter/HadoopAuthFilterTest.java,easymock,static org.easymock.EasyMock.anyString
-knox,UndProjects/knox/gateway-provider-security-hadoopauth/src/test/java/org/apache/knox/gateway/hadoopauth/filter/HadoopAuthFilterTest.java,easymock,static org.easymock.EasyMock.capture
-knox,UndProjects/knox/gateway-provider-security-hadoopauth/src/test/java/org/apache/knox/gateway/hadoopauth/filter/HadoopAuthFilterTest.java,easymock,static org.easymock.EasyMock.captureInt
-knox,UndProjects/knox/gateway-provider-security-hadoopauth/src/test/java/org/apache/knox/gateway/hadoopauth/filter/HadoopAuthFilterTest.java,easymock,static org.easymock.EasyMock.createMock
-knox,UndProjects/knox/gateway-provider-security-hadoopauth/src/test/java/org/apache/knox/gateway/hadoopauth/filter/HadoopAuthFilterTest.java,easymock,static org.easymock.EasyMock.createMockBuilder
-knox,UndProjects/knox/gateway-provider-security-hadoopauth/src/test/java/org/apache/knox/gateway/hadoopauth/filter/HadoopAuthFilterTest.java,easymock,static org.easymock.EasyMock.eq
-knox,UndProjects/knox/gateway-provider-security-hadoopauth/src/test/java/org/apache/knox/gateway/hadoopauth/filter/HadoopAuthFilterTest.java,easymock,static org.easymock.EasyMock.expect
-knox,UndProjects/knox/gateway-provider-security-hadoopauth/src/test/java/org/apache/knox/gateway/hadoopauth/filter/HadoopAuthFilterTest.java,easymock,static org.easymock.EasyMock.expectLastCall
-knox,UndProjects/knox/gateway-provider-security-hadoopauth/src/test/java/org/apache/knox/gateway/hadoopauth/filter/HadoopAuthFilterTest.java,easymock,static org.easymock.EasyMock.getCurrentArguments
-knox,UndProjects/knox/gateway-provider-security-hadoopauth/src/test/java/org/apache/knox/gateway/hadoopauth/filter/HadoopAuthFilterTest.java,easymock,static org.easymock.EasyMock.replay
-knox,UndProjects/knox/gateway-provider-security-hadoopauth/src/test/java/org/apache/knox/gateway/hadoopauth/filter/HadoopAuthFilterTest.java,easymock,static org.easymock.EasyMock.verify
-knox,UndProjects/knox/gateway-provider-security-hadoopauth/src/test/java/org/apache/knox/gateway/hadoopauth/filter/HadoopAuthFilterTest.java,easymock,org.easymock.Capture
-knox,UndProjects/knox/gateway-provider-security-hadoopauth/src/test/java/org/apache/knox/gateway/hadoopauth/filter/HadoopAuthFilterTest.java,easymock,org.easymock.EasyMock
-knox,UndProjects/knox/gateway-provider-security-jwt/src/test/java/org/apache/knox/gateway/provider/federation/AbstractJWTFilterTest.java,easymock,org.easymock.EasyMock
-knox,UndProjects/knox/gateway-provider-security-jwt/src/test/java/org/apache/knox/gateway/provider/federation/CommonJWTFilterTest.java,easymock,org.easymock.EasyMock
-knox,UndProjects/knox/gateway-provider-security-jwt/src/test/java/org/apache/knox/gateway/provider/federation/CommonJWTFilterTest.java,easymock,static org.easymock.EasyMock.anyObject
-knox,UndProjects/knox/gateway-provider-security-jwt/src/test/java/org/apache/knox/gateway/provider/federation/JWTAsHTTPBasicCredsFederationFilterTest.java,easymock,org.easymock.EasyMock
-knox,UndProjects/knox/gateway-provider-security-jwt/src/test/java/org/apache/knox/gateway/provider/federation/JWTFederationFilterTest.java,easymock,org.easymock.EasyMock
-knox,UndProjects/knox/gateway-provider-security-jwt/src/test/java/org/apache/knox/gateway/provider/federation/SSOCookieProviderTest.java,easymock,org.easymock.EasyMock
-knox,UndProjects/knox/gateway-provider-security-jwt/src/test/java/org/apache/knox/gateway/provider/federation/TestFilterConfig.java,easymock,org.easymock.EasyMock
-knox,UndProjects/knox/gateway-provider-security-jwt/src/test/java/org/apache/knox/gateway/provider/federation/TokenIDAsHTTPBasicCredsFederationFilterTest.java,easymock,org.easymock.EasyMock
-knox,UndProjects/knox/gateway-provider-security-pac4j/src/test/java/org/apache/knox/gateway/pac4j/MockHttpServletRequest.java,easymock,org.easymock.EasyMock
-knox,UndProjects/knox/gateway-provider-security-pac4j/src/test/java/org/apache/knox/gateway/pac4j/MockHttpServletResponse.java,easymock,org.easymock.EasyMock
-knox,UndProjects/knox/gateway-provider-security-pac4j/src/test/java/org/apache/knox/gateway/pac4j/Pac4jProviderTest.java,easymock,org.easymock.EasyMock
-knox,UndProjects/knox/gateway-provider-security-pac4j/src/test/java/org/apache/knox/gateway/pac4j/config/Pac4jClientConfigurationDecoratorTest.java,easymock,org.easymock.EasyMock
-knox,UndProjects/knox/gateway-provider-security-preauth/src/test/java/org/apache/knox/gateway/provider/federation/DefaultValidatorTest.java,easymock,org.easymock.EasyMock
-knox,UndProjects/knox/gateway-provider-security-preauth/src/test/java/org/apache/knox/gateway/provider/federation/HeaderPreAuthFederationFilterTest.java,easymock,org.easymock.EasyMock
-knox,UndProjects/knox/gateway-provider-security-preauth/src/test/java/org/apache/knox/gateway/provider/federation/IPValidatorTest.java,easymock,org.easymock.EasyMock
-knox,UndProjects/knox/gateway-provider-security-preauth/src/test/java/org/apache/knox/gateway/provider/federation/PreAuthServiceTest.java,easymock,org.easymock.EasyMock
-knox,UndProjects/knox/gateway-provider-security-shiro/src/test/java/org/apache/knox/gateway/deploy/impl/ShiroDeploymentContributorTest.java,easymock,org.easymock.EasyMock
-knox,UndProjects/knox/gateway-provider-security-shiro/src/test/java/org/apache/knox/gateway/filter/RedirectToUrlFilterTest.java,easymock,org.easymock.EasyMock
-knox,UndProjects/knox/gateway-provider-security-shiro/src/test/java/org/apache/knox/gateway/shirorealm/KnoxPamRealmTest.java,easymock,static org.easymock.EasyMock.createMock
-knox,UndProjects/knox/gateway-provider-security-shiro/src/test/java/org/apache/knox/gateway/shirorealm/KnoxPamRealmTest.java,easymock,static org.easymock.EasyMock.expect
-knox,UndProjects/knox/gateway-provider-security-shiro/src/test/java/org/apache/knox/gateway/shirorealm/KnoxPamRealmTest.java,easymock,static org.easymock.EasyMock.replay
-knox,UndProjects/knox/gateway-provider-security-webappsec/src/test/java/org/apache/knox/gateway/webappsec/StrictTransportFilterTest.java,easymock,org.easymock.EasyMock
-knox,UndProjects/knox/gateway-provider-security-webappsec/src/test/java/org/apache/knox/gateway/webappsec/XContentTypeOptionsFilterTest.java,easymock,org.easymock.EasyMock
-knox,UndProjects/knox/gateway-provider-security-webappsec/src/test/java/org/apache/knox/gateway/webappsec/XFrameOptionsFilterTest.java,easymock,org.easymock.EasyMock
-knox,UndProjects/knox/gateway-provider-security-webappsec/src/test/java/org/apache/knox/gateway/webappsec/XSSProtectionFilterTest.java,easymock,org.easymock.EasyMock
-knox,UndProjects/knox/gateway-server-xforwarded-filter/src/test/java/org/apache/knox/gateway/filter/XForwardHeaderFilterTest.java,easymock,org.easymock.EasyMock
-knox,UndProjects/knox/gateway-server/src/test/java/org/apache/knox/gateway/AuditLoggingTest.java,easymock,org.easymock.EasyMock
-knox,UndProjects/knox/gateway-server/src/test/java/org/apache/knox/gateway/GatewayFilterTest.java,easymock,org.easymock.EasyMock
-knox,UndProjects/knox/gateway-server/src/test/java/org/apache/knox/gateway/GatewayForwardingServletTest.java,easymock,org.easymock.EasyMock
-knox,UndProjects/knox/gateway-server/src/test/java/org/apache/knox/gateway/GatewayForwardingServletTest.java,easymock,org.easymock.IMocksControl
-knox,UndProjects/knox/gateway-server/src/test/java/org/apache/knox/gateway/GatewayPortMappingConfigTest.java,easymock,org.easymock.EasyMock
-knox,UndProjects/knox/gateway-server/src/test/java/org/apache/knox/gateway/deploy/impl/ServiceDefinitionDeploymentContributorTest.java,easymock,org.easymock.EasyMock
-knox,UndProjects/knox/gateway-server/src/test/java/org/apache/knox/gateway/filter/ForwardedRequestTest.java,easymock,org.easymock.EasyMock
-knox,UndProjects/knox/gateway-server/src/test/java/org/apache/knox/gateway/services/AbstractGatewayServicesTest.java,easymock,static org.easymock.EasyMock.createMock
-knox,UndProjects/knox/gateway-server/src/test/java/org/apache/knox/gateway/services/AbstractGatewayServicesTest.java,easymock,static org.easymock.EasyMock.createMockBuilder
-knox,UndProjects/knox/gateway-server/src/test/java/org/apache/knox/gateway/services/factory/ServiceFactoryTest.java,easymock,static org.easymock.EasyMock.anyString
-knox,UndProjects/knox/gateway-server/src/test/java/org/apache/knox/gateway/services/factory/ServiceFactoryTest.java,easymock,static org.easymock.EasyMock.expect
-knox,UndProjects/knox/gateway-server/src/test/java/org/apache/knox/gateway/services/factory/ServiceFactoryTest.java,easymock,static org.easymock.EasyMock.replay
-knox,UndProjects/knox/gateway-server/src/test/java/org/apache/knox/gateway/services/factory/ServiceFactoryTest.java,easymock,org.easymock.EasyMock
-knox,UndProjects/knox/gateway-server/src/test/java/org/apache/knox/gateway/services/registry/DefaultServiceDefinitionRegistryTest.java,easymock,org.easymock.EasyMock
-knox,UndProjects/knox/gateway-server/src/test/java/org/apache/knox/gateway/services/security/CryptoServiceTest.java,easymock,org.easymock.EasyMock
-knox,UndProjects/knox/gateway-server/src/test/java/org/apache/knox/gateway/services/security/impl/DefaultKeystoreServiceTest.java,easymock,static org.easymock.EasyMock.createMock
-knox,UndProjects/knox/gateway-server/src/test/java/org/apache/knox/gateway/services/security/impl/DefaultKeystoreServiceTest.java,easymock,static org.easymock.EasyMock.createMockBuilder
-knox,UndProjects/knox/gateway-server/src/test/java/org/apache/knox/gateway/services/security/impl/DefaultKeystoreServiceTest.java,easymock,static org.easymock.EasyMock.createNiceMock
-knox,UndProjects/knox/gateway-server/src/test/java/org/apache/knox/gateway/services/security/impl/DefaultKeystoreServiceTest.java,easymock,static org.easymock.EasyMock.eq
-knox,UndProjects/knox/gateway-server/src/test/java/org/apache/knox/gateway/services/security/impl/DefaultKeystoreServiceTest.java,easymock,static org.easymock.EasyMock.expect
-knox,UndProjects/knox/gateway-server/src/test/java/org/apache/knox/gateway/services/security/impl/DefaultKeystoreServiceTest.java,easymock,static org.easymock.EasyMock.replay
-knox,UndProjects/knox/gateway-server/src/test/java/org/apache/knox/gateway/services/security/impl/DefaultKeystoreServiceTest.java,easymock,static org.easymock.EasyMock.verify
-knox,UndProjects/knox/gateway-server/src/test/java/org/apache/knox/gateway/services/security/impl/DefaultKeystoreServiceTest.java,easymock,org.easymock.IAnswer
-knox,UndProjects/knox/gateway-server/src/test/java/org/apache/knox/gateway/services/security/impl/JettySSLServiceTest.java,easymock,static org.easymock.EasyMock.createMock
-knox,UndProjects/knox/gateway-server/src/test/java/org/apache/knox/gateway/services/security/impl/JettySSLServiceTest.java,easymock,static org.easymock.EasyMock.eq
-knox,UndProjects/knox/gateway-server/src/test/java/org/apache/knox/gateway/services/security/impl/JettySSLServiceTest.java,easymock,static org.easymock.EasyMock.expect
-knox,UndProjects/knox/gateway-server/src/test/java/org/apache/knox/gateway/services/security/impl/JettySSLServiceTest.java,easymock,static org.easymock.EasyMock.replay
-knox,UndProjects/knox/gateway-server/src/test/java/org/apache/knox/gateway/services/security/impl/JettySSLServiceTest.java,easymock,static org.easymock.EasyMock.verify
-knox,UndProjects/knox/gateway-server/src/test/java/org/apache/knox/gateway/services/security/impl/RemoteAliasServiceTest.java,easymock,org.easymock.Capture
-knox,UndProjects/knox/gateway-server/src/test/java/org/apache/knox/gateway/services/security/impl/RemoteAliasServiceTest.java,easymock,org.easymock.EasyMock
-knox,UndProjects/knox/gateway-server/src/test/java/org/apache/knox/gateway/services/security/impl/RemoteAliasServiceTest.java,easymock,static org.easymock.EasyMock.capture
-knox,UndProjects/knox/gateway-server/src/test/java/org/apache/knox/gateway/services/security/impl/ZookeeperRemoteAliasMonitorTest.java,easymock,org.easymock.Capture
-knox,UndProjects/knox/gateway-server/src/test/java/org/apache/knox/gateway/services/security/impl/ZookeeperRemoteAliasMonitorTest.java,easymock,org.easymock.EasyMock
-knox,UndProjects/knox/gateway-server/src/test/java/org/apache/knox/gateway/services/security/impl/ZookeeperRemoteAliasMonitorTest.java,easymock,static org.easymock.EasyMock.capture
-knox,UndProjects/knox/gateway-server/src/test/java/org/apache/knox/gateway/services/security/impl/ZookeeperRemoteAliasServiceTest.java,easymock,org.easymock.Capture
-knox,UndProjects/knox/gateway-server/src/test/java/org/apache/knox/gateway/services/security/impl/ZookeeperRemoteAliasServiceTest.java,easymock,org.easymock.EasyMock
-knox,UndProjects/knox/gateway-server/src/test/java/org/apache/knox/gateway/services/security/impl/ZookeeperRemoteAliasServiceTest.java,easymock,static org.easymock.EasyMock.capture
-knox,UndProjects/knox/gateway-server/src/test/java/org/apache/knox/gateway/services/token/impl/AliasBasedTokenStateServiceTest.java,easymock,org.easymock.EasyMock
-knox,UndProjects/knox/gateway-server/src/test/java/org/apache/knox/gateway/services/token/impl/AliasBasedTokenStateServiceTest.java,easymock,static org.easymock.EasyMock.anyObject
-knox,UndProjects/knox/gateway-server/src/test/java/org/apache/knox/gateway/services/token/impl/AliasBasedTokenStateServiceTest.java,easymock,static org.easymock.EasyMock.anyString
-knox,UndProjects/knox/gateway-server/src/test/java/org/apache/knox/gateway/services/token/impl/DefaultTokenAuthorityServiceTest.java,easymock,org.easymock.EasyMock
-knox,UndProjects/knox/gateway-server/src/test/java/org/apache/knox/gateway/services/token/impl/DefaultTokenStateServiceTest.java,easymock,org.easymock.EasyMock
-knox,UndProjects/knox/gateway-server/src/test/java/org/apache/knox/gateway/services/token/impl/JDBCTokenStateServiceTest.java,easymock,org.easymock.EasyMock
-knox,UndProjects/knox/gateway-server/src/test/java/org/apache/knox/gateway/services/token/impl/ZookeeperTokenStateServiceTest.java,easymock,static org.easymock.EasyMock.expect
-knox,UndProjects/knox/gateway-server/src/test/java/org/apache/knox/gateway/services/token/impl/ZookeeperTokenStateServiceTest.java,easymock,static org.easymock.EasyMock.replay
-knox,UndProjects/knox/gateway-server/src/test/java/org/apache/knox/gateway/services/token/impl/ZookeeperTokenStateServiceTest.java,easymock,org.easymock.EasyMock
-knox,UndProjects/knox/gateway-server/src/test/java/org/apache/knox/gateway/services/topology/DefaultTopologyServiceTest.java,easymock,org.easymock.EasyMock
-knox,UndProjects/knox/gateway-server/src/test/java/org/apache/knox/gateway/services/topology/DefaultTopologyServiceTest.java,easymock,static org.easymock.EasyMock.anyObject
-knox,UndProjects/knox/gateway-server/src/test/java/org/apache/knox/gateway/topology/discovery/PropertiesFileServiceDiscoveryTest.java,easymock,org.easymock.EasyMock
-knox,UndProjects/knox/gateway-server/src/test/java/org/apache/knox/gateway/topology/monitor/DefaultRemoteConfigurationMonitorTest.java,easymock,org.easymock.EasyMock
-knox,UndProjects/knox/gateway-server/src/test/java/org/apache/knox/gateway/topology/monitor/ZooKeeperConfigurationMonitorTest.java,easymock,org.easymock.EasyMock
-knox,UndProjects/knox/gateway-server/src/test/java/org/apache/knox/gateway/topology/simple/SimpleDescriptorHandlerTest.java,easymock,org.easymock.EasyMock
-knox,UndProjects/knox/gateway-server/src/test/java/org/apache/knox/gateway/util/JDBCUtilsTest.java,easymock,org.easymock.EasyMock
-knox,UndProjects/knox/gateway-server/src/test/java/org/apache/knox/gateway/websockets/BadBackendTest.java,easymock,org.easymock.EasyMock
-knox,UndProjects/knox/gateway-server/src/test/java/org/apache/knox/gateway/websockets/BadUrlTest.java,easymock,org.easymock.EasyMock
-knox,UndProjects/knox/gateway-server/src/test/java/org/apache/knox/gateway/websockets/ConnectionDroppedTest.java,easymock,org.easymock.EasyMock
-knox,UndProjects/knox/gateway-server/src/test/java/org/apache/knox/gateway/websockets/MessageFailureTest.java,easymock,org.easymock.EasyMock
-knox,UndProjects/knox/gateway-server/src/test/java/org/apache/knox/gateway/websockets/WebsocketEchoTestBase.java,easymock,org.easymock.EasyMock
-knox,UndProjects/knox/gateway-server/src/test/java/org/apache/knox/gateway/websockets/WebsocketMultipleConnectionTest.java,easymock,org.easymock.EasyMock
-knox,UndProjects/knox/gateway-service-admin/src/test/java/org/apache/knox/gateway/service/admin/TopologyResourceTest.java,easymock,org.easymock.EasyMock
-knox,UndProjects/knox/gateway-service-hashicorp-vault/src/test/java/org/apache/knox/gateway/backend/hashicorp/vault/TestHashicorpVaultAliasService.java,easymock,org.easymock.EasyMock
-knox,UndProjects/knox/gateway-service-hbase/src/test/java/org/apache/knox/gateway/hbase/HBaseDispatchTest.java,easymock,org.easymock.EasyMock
-knox,UndProjects/knox/gateway-service-knoxsso/src/test/java/org/apache/knox/gateway/service/knoxsso/WebSSOResourceTest.java,easymock,org.easymock.EasyMock
-knox,UndProjects/knox/gateway-service-knoxssout/src/test/java/org/apache/knox/gateway/service/knoxsso/WebSSOutResourceTest.java,easymock,org.easymock.EasyMock
-knox,UndProjects/knox/gateway-service-knoxtoken/src/test/java/org/apache/knox/gateway/service/knoxtoken/JWKSResourceTest.java,easymock,org.easymock.EasyMock
-knox,UndProjects/knox/gateway-service-knoxtoken/src/test/java/org/apache/knox/gateway/service/knoxtoken/TokenServiceResourceTest.java,easymock,org.easymock.EasyMock
-knox,UndProjects/knox/gateway-service-metadata/src/test/java/org/apache/knox/gateway/service/metadata/ServiceModelTest.java,easymock,org.easymock.EasyMock
-knox,UndProjects/knox/gateway-service-remoteconfig/src/test/java/org/apache/knox/gateway/service/config/remote/config/DefaultRemoteConfigurationRegistriesTest.java,easymock,org.easymock.EasyMock
-knox,UndProjects/knox/gateway-service-remoteconfig/src/test/java/org/apache/knox/gateway/service/config/remote/zk/RemoteConfigurationRegistryClientServiceSecureTest.java,easymock,org.easymock.EasyMock
-knox,UndProjects/knox/gateway-service-remoteconfig/src/test/java/org/apache/knox/gateway/service/config/remote/zk/RemoteConfigurationRegistryClientServiceTestBase.java,easymock,org.easymock.EasyMock
-knox,UndProjects/knox/gateway-service-remoteconfig/src/test/java/org/apache/knox/gateway/service/config/remote/zk/RemoteConfigurationRegistryClientServiceUnsecureTest.java,easymock,org.easymock.EasyMock
-knox,UndProjects/knox/gateway-service-remoteconfig/src/test/java/org/apache/knox/gateway/service/config/remote/zk/RemoteConfigurationRegistryJAASConfigTest.java,easymock,org.easymock.EasyMock
-knox,UndProjects/knox/gateway-service-rm/src/test/java/org/apache/knox/gateway/rm/dispatch/RMHaDispatchTest.java,easymock,org.easymock.EasyMock
-knox,UndProjects/knox/gateway-service-rm/src/test/java/org/apache/knox/gateway/rm/dispatch/RMHaDispatchTest.java,easymock,org.easymock.IAnswer
-knox,UndProjects/knox/gateway-service-webhdfs/src/test/java/org/apache/knox/gateway/hdfs/dispatch/WebHdfsHaDispatchTest.java,easymock,org.easymock.EasyMock
-knox,UndProjects/knox/gateway-service-webhdfs/src/test/java/org/apache/knox/gateway/hdfs/dispatch/WebHdfsHaDispatchTest.java,easymock,org.easymock.IAnswer
-knox,UndProjects/knox/gateway-shell/src/test/java/org/apache/knox/gateway/shell/AbstractRequestTest.java,easymock,static org.easymock.EasyMock.createMock
-knox,UndProjects/knox/gateway-shell/src/test/java/org/apache/knox/gateway/shell/AbstractRequestTest.java,easymock,static org.easymock.EasyMock.createMockBuilder
-knox,UndProjects/knox/gateway-shell/src/test/java/org/apache/knox/gateway/shell/AbstractRequestTest.java,easymock,static org.easymock.EasyMock.expect
-knox,UndProjects/knox/gateway-shell/src/test/java/org/apache/knox/gateway/shell/AbstractRequestTest.java,easymock,static org.easymock.EasyMock.replay
-knox,UndProjects/knox/gateway-shell/src/test/java/org/apache/knox/gateway/shell/AbstractRequestTest.java,easymock,static org.easymock.EasyMock.verify
-knox,UndProjects/knox/gateway-shell/src/test/java/org/apache/knox/gateway/shell/AbstractRequestTest.java,easymock,org.easymock.IMockBuilder
-knox,UndProjects/knox/gateway-shell/src/test/java/org/apache/knox/gateway/shell/alias/AbstractResponseTest.java,easymock,org.easymock.EasyMock
-knox,UndProjects/knox/gateway-shell/src/test/java/org/apache/knox/gateway/shell/alias/AliasTest.java,easymock,static org.easymock.EasyMock.createMock
-knox,UndProjects/knox/gateway-shell/src/test/java/org/apache/knox/gateway/shell/alias/AliasTest.java,easymock,static org.easymock.EasyMock.expect
-knox,UndProjects/knox/gateway-shell/src/test/java/org/apache/knox/gateway/shell/alias/AliasTest.java,easymock,static org.easymock.EasyMock.isA
-knox,UndProjects/knox/gateway-shell/src/test/java/org/apache/knox/gateway/shell/alias/AliasTest.java,easymock,static org.easymock.EasyMock.replay
-knox,UndProjects/knox/gateway-shell/src/test/java/org/apache/knox/gateway/shell/knox/token/GetTest.java,easymock,static org.easymock.EasyMock.createMock
-knox,UndProjects/knox/gateway-shell/src/test/java/org/apache/knox/gateway/shell/knox/token/GetTest.java,easymock,static org.easymock.EasyMock.expect
-knox,UndProjects/knox/gateway-shell/src/test/java/org/apache/knox/gateway/shell/knox/token/GetTest.java,easymock,static org.easymock.EasyMock.replay
-knox,UndProjects/knox/gateway-shell/src/test/java/org/apache/knox/gateway/shell/knox/token/GetTest.java,easymock,static org.easymock.EasyMock.verify
-knox,UndProjects/knox/gateway-shell/src/test/java/org/apache/knox/gateway/shell/knox/token/TokenTest.java,easymock,static org.easymock.EasyMock.createMock
-knox,UndProjects/knox/gateway-shell/src/test/java/org/apache/knox/gateway/shell/knox/token/TokenTest.java,easymock,static org.easymock.EasyMock.expect
-knox,UndProjects/knox/gateway-shell/src/test/java/org/apache/knox/gateway/shell/knox/token/TokenTest.java,easymock,static org.easymock.EasyMock.isA
-knox,UndProjects/knox/gateway-shell/src/test/java/org/apache/knox/gateway/shell/knox/token/TokenTest.java,easymock,static org.easymock.EasyMock.replay
-knox,UndProjects/knox/gateway-shell/src/test/java/org/apache/knox/gateway/shell/knox/token/TokenTest.java,easymock,static org.easymock.EasyMock.verify
-knox,UndProjects/knox/gateway-shell/src/test/java/org/apache/knox/gateway/shell/table/KnoxShellTableTest.java,easymock,static org.easymock.EasyMock.createMock
-knox,UndProjects/knox/gateway-shell/src/test/java/org/apache/knox/gateway/shell/table/KnoxShellTableTest.java,easymock,static org.easymock.EasyMock.expect
-knox,UndProjects/knox/gateway-shell/src/test/java/org/apache/knox/gateway/shell/table/KnoxShellTableTest.java,easymock,static org.easymock.EasyMock.expectLastCall
-knox,UndProjects/knox/gateway-shell/src/test/java/org/apache/knox/gateway/shell/table/KnoxShellTableTest.java,easymock,static org.easymock.EasyMock.replay
-knox,UndProjects/knox/gateway-shell/src/test/java/org/apache/knox/gateway/shell/table/KnoxShellTableTest.java,easymock,static org.easymock.EasyMock.verify
-knox,UndProjects/knox/gateway-shell/src/test/java/org/apache/knox/gateway/shell/table/KnoxShellTableTest.java,easymock,org.easymock.IAnswer
-knox,UndProjects/knox/gateway-spi/src/test/java/org/apache/knox/gateway/dispatch/ConfigurableDispatchTest.java,easymock,org.easymock.Capture
-knox,UndProjects/knox/gateway-spi/src/test/java/org/apache/knox/gateway/dispatch/ConfigurableDispatchTest.java,easymock,org.easymock.EasyMock
-knox,UndProjects/knox/gateway-spi/src/test/java/org/apache/knox/gateway/dispatch/DefaultDispatchTest.java,easymock,org.easymock.EasyMock
-knox,UndProjects/knox/gateway-spi/src/test/java/org/apache/knox/gateway/dispatch/DefaultDispatchTest.java,easymock,org.easymock.IAnswer
-knox,UndProjects/knox/gateway-spi/src/test/java/org/apache/knox/gateway/dispatch/DefaultHttpClientFactoryTest.java,easymock,static org.easymock.EasyMock.createMock
-knox,UndProjects/knox/gateway-spi/src/test/java/org/apache/knox/gateway/dispatch/DefaultHttpClientFactoryTest.java,easymock,static org.easymock.EasyMock.expect
-knox,UndProjects/knox/gateway-spi/src/test/java/org/apache/knox/gateway/dispatch/DefaultHttpClientFactoryTest.java,easymock,static org.easymock.EasyMock.replay
-knox,UndProjects/knox/gateway-spi/src/test/java/org/apache/knox/gateway/dispatch/DefaultHttpClientFactoryTest.java,easymock,static org.easymock.EasyMock.verify
-knox,UndProjects/knox/gateway-spi/src/test/java/org/apache/knox/gateway/dispatch/GatewayDispatchFilterTest.java,easymock,org.easymock.EasyMock
-knox,UndProjects/knox/gateway-spi/src/test/java/org/apache/knox/gateway/dispatch/HadoopAuthCookieStoreTest.java,easymock,org.easymock.EasyMock
-knox,UndProjects/knox/gateway-spi/src/test/java/org/apache/knox/gateway/dispatch/PassAllHeadersNoEncodingDispatchTest.java,easymock,org.easymock.EasyMock
-knox,UndProjects/knox/gateway-spi/src/test/java/org/apache/knox/gateway/dispatch/URLDecodingDispatchTest.java,easymock,org.easymock.EasyMock
-knox,UndProjects/knox/gateway-spi/src/test/java/org/apache/knox/gateway/util/WhitelistUtilsTest.java,easymock,org.easymock.EasyMock
-knox,UndProjects/knox/gateway-test/src/test/java/org/apache/knox/gateway/OozieServiceDefinitionTest.java,easymock,org.easymock.EasyMock
-knox,UndProjects/knox/gateway-test/src/test/java/org/apache/knox/gateway/SimpleDescriptorHandlerFuncTest.java,easymock,org.easymock.Capture
-knox,UndProjects/knox/gateway-test/src/test/java/org/apache/knox/gateway/SimpleDescriptorHandlerFuncTest.java,easymock,org.easymock.EasyMock
-knox,UndProjects/knox/gateway-test/src/test/java/org/apache/knox/gateway/SimpleDescriptorHandlerFuncTest.java,easymock,static org.easymock.EasyMock.anyObject
-knox,UndProjects/knox/gateway-test/src/test/java/org/apache/knox/gateway/SimpleDescriptorHandlerFuncTest.java,easymock,static org.easymock.EasyMock.capture
-knox,UndProjects/knox/gateway-test/src/test/java/org/apache/knox/gateway/topology/monitor/RemoteConfigurationMonitorTest.java,easymock,org.easymock.EasyMock
-knox,UndProjects/knox/gateway-topology-hadoop-xml/src/test/java/org/apache/knox/gateway/topology/hadoop/xml/HadoopXmlResourceParserTest.java,easymock,org.easymock.EasyMock
-knox,UndProjects/knox/gateway-util-common/src/test/java/org/apache/knox/gateway/util/CookieUtilsTest.java,easymock,org.easymock.EasyMock
-knox,UndProjects/knox/gateway-util-urltemplate/src/test/java/org/apache/knox/gateway/util/urltemplate/RewriterTest.java,easymock,org.easymock.EasyMock
-jena,UndProjects/jena/jena-core/src/test/java/org/apache/jena/graph/GraphEventManagerContractTest.java,mockito,org.mockito.Mockito
-jena,UndProjects/jena/jena-core/src/test/java/org/apache/jena/mem/BunchMapContractTest.java,mockito,static org.mockito.Mockito.*
-jena,UndProjects/jena/jena-extras/jena-querybuilder/src/test/java/org/apache/jena/arq/querybuilder/ExprFactoryTest.java,mockito,static org.mockito.Mockito.mock
-jena,UndProjects/jena/jena-extras/jena-querybuilder/src/test/java/org/apache/jena/arq/querybuilder/ExprFactoryTest.java,mockito,static org.mockito.Mockito.when
-jena,UndProjects/jena/jena-permissions/src/test/java/org/apache/jena/permissions/impl/SecuredItemImplTest.java,mockito,org.mockito.ArgumentCaptor
-jena,UndProjects/jena/jena-permissions/src/test/java/org/apache/jena/permissions/impl/SecuredItemImplTest.java,mockito,static org.mockito.Mockito.*
