@@ -1,0 +1,14 @@
+Mock Method,# of Invocations,% of Framework Invocations
+setBody,10,21.740000000000002
+setResponseCode,9,19.57
+addHeader,4,8.7
+getBody,2,4.35
+getPath,4,8.7
+setHeader,2,4.35
+getMethod,2,4.35
+getSequenceNumber,3,6.52
+url,2,4.35
+shutdown,2,4.35
+getHeader,2,4.35
+start,2,4.35
+setDispatcher,2,4.35

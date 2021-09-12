@@ -1,0 +1,9 @@
+Project Name,Mocking Framework,Used in # of Files
+commons-lang,easymock,5
+pig,mockito,6
+httpcomponents-client,mockito,46
+jena,mockito,4
+knox,easymock,144
+hive,mockito,200
+hive,powermock,14
+hive,confluent,1

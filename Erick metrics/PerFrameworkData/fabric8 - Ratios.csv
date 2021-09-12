@@ -1,0 +1,4 @@
+Mock Method,# of Invocations,% of Framework Invocations
+createClient,1,16.669999999999998
+destroy,1,16.669999999999998
+expect,4,66.67
