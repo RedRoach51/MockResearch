@@ -16,8 +16,14 @@ public class API_Analyzer {
 	static ArrayList<String> counts = new ArrayList<>();
 	static boolean method_added = false;
 	
+	static ArrayList<String> MockedObjectsCountForEachFile = new ArrayList<>();
 	
-	static ArrayList<String> exclude_names = new ArrayList<>(Arrays.asList("test.txt","limits(overall).txt"));
+	
+	static ArrayList<String> exclude_names = new ArrayList<>(Arrays.asList("test.txt","limits (overall).txt"));
+	
+	static ArrayList<String> MockedObject_identifier = new ArrayList<>(Arrays.asList("mock","createMock"));
+	
+	
 	
 	
 	
@@ -31,9 +37,11 @@ public class API_Analyzer {
 		for(final File entry : folder.listFiles()) {
 			
 			text.clear();
+			
 			methods.clear();
 			origins.clear();
 			counts.clear();
+			MockedObjectsCountForEachFile.clear();
 			
 			if(entry.getName().contains(".txt") && !exclude_names.contains(entry.getName())) {
 				Analyze(entry);
@@ -65,6 +73,10 @@ public class API_Analyzer {
 			
 			if(!text.get(i).equals(" ") && text.get(i).length()!=0) {
 				if(text.get(i).substring(1,7).equals("Method")) {
+					
+					if(MockedObject_identifier.contains(text.get(i).substring(14))) {
+						MockedObjectsCountForEachFile.add(text.get(i+2).substring(8));
+					}
 					
 					
 					
@@ -105,7 +117,7 @@ public class API_Analyzer {
 //		System.out.println(methods.size());
 		
 		output(file);
-		
+//		output2(file);
 	}
 	
 	
@@ -113,19 +125,41 @@ public class API_Analyzer {
 		
 		int positionOfDot = file.getName().indexOf(".");
 		
+		int MockedObject_count = 0;
+		
 		
 		try {
 			FileWriter newFile = new FileWriter("D:\\Stevens\\2021 summer general\\Mocking framework API calls data\\" + file.getName().substring(0,positionOfDot) +"Analysis.csv");
 			
-//			newFile.append("method, origin, count");
-//			newFile.append("\n");
+			newFile.append("method, origin, count");
+			newFile.append("\n");
 			
 			for(int i = 0; i< methods.size();i++) {
 				newFile.append(methods.get(i)+",");
 				newFile.append(origins.get(i)+",");
 				newFile.append(counts.get(i).toString());
 				newFile.append("\n");
+				
+				if(MockedObject_identifier.contains(methods.get(i))) {
+					MockedObject_count += Integer.parseInt(counts.get(i));
+				}
 			}
+			
+			newFile.append("\n");
+			newFile.append("MockedObjects: " + ","+ String.valueOf(MockedObject_count));
+			newFile.append("\n");
+			
+			newFile.append("\n");
+			StringBuilder SB = new StringBuilder();
+			
+			for(String num: MockedObjectsCountForEachFile) {
+				SB.append(num);
+				SB.append("|");
+			}
+			
+			newFile.append("# of Mocked objects each file:" +"," +SB);
+			newFile.append("\n");
+			
 			
 			newFile.flush();
 			
@@ -137,6 +171,20 @@ public class API_Analyzer {
 		
 	}
 	
+	
+//	public static void output2(final File file) {
+//		
+//		int positionOfDot = file.getName().indexOf(".");
+//		
+//		try {
+//			FileWriter newFile = new FileWriter("D:\\Stevens\\2021 summer general\\Mocking framework API calls data\\" + file.getName().substring(0,positionOfDot) +" ");
+//			
+//		}
+//		catch(IOException e) {
+//			System.out.println("failed");
+//		}
+//	}
+//	
 	
 	
 	
@@ -157,7 +205,7 @@ public class API_Analyzer {
 		
 		
 		
-		System.out.println(text.get(2).substring(1,7).equals("Method"));
+//		System.out.println(text.get(2).substring(1,7).equals("Method"));
 		System.out.println(origins);
 		
 		

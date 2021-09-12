@@ -4,6 +4,7 @@ import java.io.FileWriter;
 import java.io.IOException;
 import java.io.PrintWriter;
 import java.util.ArrayList;
+import java.util.Arrays;
 
 import org.eclipse.core.commands.AbstractHandler;
 import org.eclipse.core.commands.ExecutionEvent;
@@ -36,6 +37,10 @@ public class GetInfo extends AbstractHandler{
 	private ArrayList<Integer> method_count = new ArrayList<>();
 	
 	private ArrayList<String> ALL = new ArrayList<>();
+	private ArrayList<String> mock_methodnames = new ArrayList<>(Arrays.asList("mock","createMock"));
+	
+	private ArrayList<String> mocked_classes = new ArrayList<>();
+	
 	
 
     @Override
@@ -171,6 +176,13 @@ public class GetInfo extends AbstractHandler{
 //                	System.out.println("333333333" + method.resolveMethodBinding().getDeclaringClass().getQualifiedName());
 //                	System.out.println("333333333" + method.resolveTypeBinding().getQualifiedName());
 //                	System.out.println("333333333" + method.getParent().toString());
+                	
+                	
+                	if(mock_methodnames.contains(method.getName().toString())) {
+                		mocked_classes.add(method.resolveTypeBinding().getQualifiedName());
+                		
+                		
+                	}
             		
             		
                 	
@@ -235,6 +247,8 @@ public class GetInfo extends AbstractHandler{
     
     private void outputTXT(IProject project) throws IOException{
     	
+    	String target = "apex-core";
+    	
     	
 //    	PrintWriter writer = new PrintWriter("D:\\Stevens\\2021 summer general\\Mocking framework API calls data"
 //    				+ "\\test.txt", "UTF-8");
@@ -245,21 +259,33 @@ public class GetInfo extends AbstractHandler{
 //    	writer.close();
     	
     	PrintWriter writer = new PrintWriter("D:\\Stevens\\2021 summer general\\Mocking framework API calls data\\"
-				+ "any23" + ".txt", "UTF-8");
-    	
+				+ target + ".txt", "UTF-8");
     	
     	
     	for(String x: ALL) {
     		writer.println(x);
     	}
     	
-    	
-    	
     	writer.close();
+    	
+    	
+    	PrintWriter writer2 = new PrintWriter("D:\\Stevens\\2021 summer general\\RQ3 data\\" + target + 
+    			"Mocked classes.txt","UTF-8");
+    	
+    	for(String item: mocked_classes) {
+    		writer2.println(item);
+    	}
+    	
+    	writer2.close();
+    	
+    	
     	
     	System.out.println(ALL.size());
     	
     	ALL.clear();
+    	
+    	System.out.println(mocked_classes);
+    	mocked_classes.clear();
     }
     
 }  

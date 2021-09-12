@@ -16,6 +16,10 @@ public class API_summurize {
 	static ArrayList<String> origins = new ArrayList<String>();
 	static ArrayList<Integer> counts = new ArrayList<Integer>();
 	
+	static ArrayList<String> MockedObjectsInEachFile = new ArrayList<>();
+	static ArrayList<String> MockedObjectsCategory = new ArrayList<>();
+	static ArrayList<Integer> MockedObjectsCategory_counts = new ArrayList<>();
+	
 	
 	static ArrayList<ArrayList<String>> ALL = new ArrayList<>();
 	
@@ -54,11 +58,32 @@ public class API_summurize {
 		for(int i = 0; i< fileContent.size();i++) {
 			
 			
+			
+			
 			int firstComma = fileContent.get(i).indexOf(",");
 			
 			String sentence = fileContent.get(i).substring(firstComma + 1);
 			
 			String temp = GetFrameworks(sentence);
+			
+			if(fileContent.get(i).length()>0 && fileContent.get(i).charAt(0) == '#') {
+				while(sentence.contains("|")) {
+					
+//					if(sentence.length()<=2) {						
+//						MockedObjectsInEachFile.add(Character.toString(sentence.charAt(0)));
+//						break;
+//					}
+					int next_separator = sentence.indexOf("|");
+					MockedObjectsInEachFile.add(sentence.substring(0,next_separator));
+					if(sentence.length()<=2) {
+						break;
+					}
+					
+					sentence = sentence.substring(next_separator+1);					
+					
+					
+				}
+			}
 			
 			
 			
@@ -127,6 +152,62 @@ public class API_summurize {
 	}
 	
 	public static void output() {
+		
+		for(String num: MockedObjectsInEachFile) {//trying to separate the counts for 1 to 9 mocked objects for a single file, 10 or more will be counted together.
+			
+			if(Integer.parseInt(num)<10) {
+				if(MockedObjectsCategory.contains(num)) {
+					int temp = MockedObjectsCategory_counts.get(MockedObjectsCategory.indexOf(num)) + 1 ;
+					
+					MockedObjectsCategory_counts.set(MockedObjectsCategory.indexOf(num), temp);
+				}
+				else {
+					MockedObjectsCategory.add(num);
+					MockedObjectsCategory_counts.add(1);
+				}
+			}
+			else {
+				if(MockedObjectsCategory.contains("10 or greater")) {
+					int temp2 = MockedObjectsCategory_counts.get(MockedObjectsCategory.indexOf("10 or greater")) + 1;
+					MockedObjectsCategory_counts.set(MockedObjectsCategory.indexOf("10 or greater"), temp2);
+				}
+				else {
+					MockedObjectsCategory.add("10 or greater");
+					MockedObjectsCategory_counts.add(1);
+				}
+				
+			}
+			
+			
+			
+			
+		}
+		
+		try {
+			FileWriter newFile2 = new FileWriter("D:\\Stevens\\2021 summer general\\RQ2 needed data\\mocked objects in single file summary.csv");
+			
+			newFile2.append("# of Mocked objects in a single file, count");
+			newFile2.append("\n");
+			
+			for(int x = 0; x< MockedObjectsCategory.size();x++) {
+				newFile2.append(MockedObjectsCategory.get(x)+",");
+				
+				newFile2.append(MockedObjectsCategory_counts.get(x).toString());
+				newFile2.append("\n");
+			}
+			
+			newFile2.flush();
+			
+			System.out.println("succeed2");
+		}
+		catch(IOException e){
+			System.out.println("failed");
+		}
+		
+		
+		
+		
+		
 		for (int  i = 0; i < ALL.size();i++) {
 			
 			ArrayList<String> currentList = ALL.get(i);
@@ -222,9 +303,9 @@ public class API_summurize {
 		System.out.println(fileContent.size());
 		
 		
-		for (String item:fileContent) {
-			System.out.println(item);
-		}
+//		for (String item:MockedObjectsInEachFile) {
+//			System.out.println(item);
+//		}
 		
 //		System.out.println(fileContent.get(0).contains("."));
 		
@@ -232,9 +313,12 @@ public class API_summurize {
 		
 		System.out.println(ALL.get(0).size());
 		
-		for(String item : ALL.get(0)) {
-			System.out.println(item);
-		}
+//		for(String item : ALL.get(0)) {
+//			System.out.println(item);
+//		}
+		
+		System.out.println(MockedObjectsInEachFile);
+		System.out.println(MockedObjectsCategory_counts);
 		
 //		System.out.println(to_be_excluded.contains("mockito"));
 		
