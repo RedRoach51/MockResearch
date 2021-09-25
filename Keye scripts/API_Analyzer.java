@@ -21,11 +21,7 @@ public class API_Analyzer {
 	
 	static ArrayList<String> exclude_names = new ArrayList<>(Arrays.asList("test.txt","limits (overall).txt"));
 	
-	static ArrayList<String> MockedObject_identifier = new ArrayList<>(Arrays.asList("mock","createMock"));
-	
-	
-	
-	
+	static ArrayList<String> MockedObject_identifier = new ArrayList<>(Arrays.asList("mock","createMock","createNiceMock"));
 	
 	
 	
