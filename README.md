@@ -22,23 +22,23 @@ If you finished the process for all projects, you are close to the end. In your 
 <br></br>
 <h2> How the scripts are related to the research questions</h2>
 <h3> RQ1 </h3>
-How popular are mocking frameworks that are used in testing of open source Java software projects? How many projects use mocking frameworks? What kind of projects use mocking frameworks? What mocking frameworks are used?
-<br></br>
+<h4>How popular are mocking frameworks that are used in testing of open source Java software projects? How many projects use mocking frameworks? What kind of projects use mocking frameworks? What mocking frameworks are used?</h4>
+
 These questions could be answered after we run the "AnalysisScript.bat", with the data from 'AllMetrics.csv', 'AllMockImports.csv', and 'AllMockFrameworks.csv'.
 <br></br>
 <h3> RQ2 </h3>
-What features of mocking frameworks are most frequently used in the testing of open source software projects? What mocking framework methods are being used, and how much? How many objects are being mocked in a single file?
-<br></br>
+<h4>What features of mocking frameworks are most frequently used in the testing of open source software projects? What mocking framework methods are being used, and how much? How many objects are being mocked in a single file?</h4>
+
 These questions could be answered after we run "API_Analyzer.java", "API_summurize.java" and "MockFrameworkFrequencyCalculator.java", You will get the mocking framework usage data categorized by project or by framework, and those data can be used to answer RQ2.
 <br></br>
 <h3> RQ3 </h3>
-What types of dependencies developers tend to mock? Do developers tend to mock classes in their own project or the opposite? Which outside classes are mocked most frequently by all the developers?
-<br></br>
+<h4>What types of dependencies developers tend to mock? Do developers tend to mock classes in their own project or the opposite? Which outside classes are mocked most frequently by all the developers?</h4>
+
 These questions could be answered after we run "MockedClassesAnalysis.java". You will get the data of the name of internal and external classes by each project, and a few .csv files for summary.
 <br></br>
 <h3> RQ4 </h3>
-Are there any files that are completely not created for testing but still using mocking frameworks? Are there any files that does not have mocking framework imports but have "mock" included in their file path?
-<br></br>
+<h4>Are there any files that are completely not created for testing but still using mocking frameworks? Are there any files that does not have mocking framework imports but have "mock" included in their file path?</h4>
+
 The script for the first part is embedded in "API_Analyzer.java".
 
 
