@@ -140,6 +140,16 @@ public class API_summurize {
 			else {
 				String result = sentence.substring(0,nextPosition);
 				
+//				special handling for github
+				if (result.equals("github")) {
+					int nextPosition0 = sentence.indexOf(".");
+					sentence = sentence.substring(nextPosition0 + 1); //this will start from the github username.
+					int nextPosition2 = sentence.indexOf(".");
+					sentence = sentence.substring(nextPosition2+1);
+					int nextPosition3 = sentence.indexOf(".");
+					result = sentence.substring(0, nextPosition3);
+				}
+				
 //				System.out.println(result);
 				
 				return result;

@@ -37,7 +37,7 @@ public class GetInfo extends AbstractHandler{
 	private ArrayList<Integer> method_count = new ArrayList<>();
 	
 	private ArrayList<String> ALL = new ArrayList<>();
-	private ArrayList<String> mock_methodnames = new ArrayList<>(Arrays.asList("mock","createMock"));
+	private ArrayList<String> mock_methodnames = new ArrayList<>(Arrays.asList("mock","createMock","createNiceMock"));
 	
 	private ArrayList<String> mocked_classes = new ArrayList<>();
 	
@@ -247,7 +247,7 @@ public class GetInfo extends AbstractHandler{
     
     private void outputTXT(IProject project) throws IOException{
     	
-    	String target = "apex-core";
+    	String target = "credur-whisker";
     	
     	
 //    	PrintWriter writer = new PrintWriter("D:\\Stevens\\2021 summer general\\Mocking framework API calls data"

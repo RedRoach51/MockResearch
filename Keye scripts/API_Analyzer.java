@@ -14,6 +14,12 @@ public class API_Analyzer {
 	static ArrayList<String> methods = new ArrayList<>();
 	static ArrayList<String> origins = new ArrayList<>();
 	static ArrayList<String> counts = new ArrayList<>();
+	
+	static ArrayList<String> RQ4_dataFromImport = new ArrayList<>();
+	static ArrayList<String> RQ4_MockFileNotInTest = new ArrayList<>();
+	static ArrayList<String> RQ4_ProjectName = new ArrayList<>();
+	static ArrayList<String> RQ4_FrameworkUsed = new ArrayList<>();
+	
 	static boolean method_added = false;
 	
 	static ArrayList<String> MockedObjectsCountForEachFile = new ArrayList<>();
@@ -23,7 +29,21 @@ public class API_Analyzer {
 	
 	static ArrayList<String> MockedObject_identifier = new ArrayList<>(Arrays.asList("mock","createMock","createNiceMock"));
 	
-	
+	static ArrayList<String> verified_MockFrameworks = new ArrayList<>(Arrays.asList(
+			
+			"Powermock",
+			"Easymock",
+			"Wiremock",
+			"Mockwebserver",
+			"Mockito",
+			"Mockit",
+			"mockejb",
+			"mockserver",
+			"mockwebserver",
+			"mockftpserver",
+			"Mockrunner"
+			
+			));
 	
 	public static String target = "apex-core";
 	
@@ -43,6 +63,8 @@ public class API_Analyzer {
 				Analyze(entry);
 			}
 		}
+		
+		
 	}
 	
 	
@@ -51,7 +73,7 @@ public class API_Analyzer {
 	
 	public static void Analyze(final File file) throws FileNotFoundException {
 		
-		
+		int positionOfDot = file.getName().indexOf(".");
 		
 		
 		
@@ -63,6 +85,18 @@ public class API_Analyzer {
 			String line = Reader.nextLine();
 			text.add(line);
 		}
+		
+		
+//		for(String line : text) {
+////			if(!line.contains("Class origin") && line.contains(".java") && !line.toLowerCase().contains("src/test")){
+//			if(!line.contains("Class origin") && line.contains(".java") && !line.toLowerCase().contains("test")){
+//				RQ4_MockNotInTest.add(line);
+//				RQ4_ProjectName.add(file.getName().substring(0,positionOfDot));
+//			}
+//		}
+		
+		
+		
 		
 		for(int i = 0; i<text.size();i++) {
 			method_added = false;
@@ -168,6 +202,88 @@ public class API_Analyzer {
 	}
 	
 	
+	
+	
+	
+	public static void Analyze2(File file) throws FileNotFoundException {
+		/*
+		 * RQ4 analyze
+		 */
+		
+		Scanner RQ4reader = new Scanner(file);
+		
+		while(RQ4reader.hasNext()) {
+			RQ4_dataFromImport.add(RQ4reader.nextLine());
+		}
+		
+		RQ4reader.close();
+		
+//		String [] test = RQ4_dataFromImport.get(1).split(",");
+//		
+//		System.out.println(test [0]);
+//		System.out.println(test [1]);
+//		System.out.println(test [2]);
+//		System.out.println(test [3]);
+		
+		
+		for (String line : RQ4_dataFromImport) {
+			String [] splitted = line.split(",");
+			
+			if(!splitted[1].toLowerCase().contains("test") && verified_MockFrameworks.contains(splitted[2])) {
+				RQ4_MockFileNotInTest.add(splitted[1]);
+				RQ4_ProjectName.add(splitted[0]);
+				RQ4_FrameworkUsed.add(splitted[2]);
+			}
+		}
+		
+		
+		output2();
+		
+	}
+	
+	public static void output2() {
+		
+		
+		ArrayList<String> uniqueName = new ArrayList<>();
+		
+		for(String name : RQ4_ProjectName) {
+			if(!uniqueName.contains(name)) {
+				uniqueName.add(name);
+			}
+		}
+		
+		
+		
+		try {
+			FileWriter newFile = new FileWriter("D:\\Stevens\\2021 summer general\\RQ4\\" +"non-test files with mocking framework" +".csv");
+			
+			newFile.append("project name, file path");
+			newFile.append("\n");
+			
+			for (int i = 0; i< RQ4_MockFileNotInTest.size();i++) {
+				newFile.append(RQ4_ProjectName.get(i) + ",");
+				newFile.append(RQ4_MockFileNotInTest.get(i)+",");
+				newFile.append(RQ4_FrameworkUsed.get((i)));
+				newFile.append("\n");
+				
+				
+			}
+			
+			newFile.append("# of unique projects" + "," + uniqueName.size());
+			
+			newFile.flush();
+			
+			System.out.println("succeed");
+			
+			
+		}
+		catch(IOException e){
+			System.out.println("failed");
+		}
+		
+	}
+	
+	
 //	public static void output2(final File file) {
 //		
 //		int positionOfDot = file.getName().indexOf(".");
@@ -197,7 +313,9 @@ public class API_Analyzer {
 		
 		GoOverALLFiles(folder);
 		
+		File RQ4_needed = new File("D:\\Stevens\\2021_summer_project\\UndProjects\\AllMockImports.csv");
 		
+		Analyze2(RQ4_needed);
 		
 		
 		
