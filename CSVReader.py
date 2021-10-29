@@ -12,7 +12,8 @@ Projects = []
 #   project[2] = Test files, project[3] = Git Author commits, project[4] = Git Tag files,
 #   project[5] = Mock imports in Test files, project[6] = Mock frameworks in Test files
 
-nonProjectFiles = ['AllMetrics.csv','AllMockImports.csv','AllMockFrameworks.csv']
+
+nonProjectFiles = ['AllMetrics.csv','AllMockImports.csv','AllMockFrameworks.csv','AllMockRatios.csv', 'AllFrameworkRatios.csv']
 # Set files that CSVReader should ignore here.
 
 metricHeaders = []
@@ -46,8 +47,9 @@ def GitCommitMetrics(projectName, validLines):
         projectName (string): Name of Java project.
         validLines ([string]): List of 'keywords' searched for in the commits.
     '''
-    reader = open('UndProjects/' + projectName + '.log', encoding='utf-8')
+    reader = open('UndProjects/' + projectName + '.log', encoding="ANSI")
     authors = {}
+
     for line in reader:
         if line[0:3] in validLines:
             author = line[8:line.index('<')-1]
@@ -64,6 +66,7 @@ def GitReleaseMetrics(projectName):
     ''' Reads Git metrics of a java project. Returns info about releases. 
         projectName (string): Name of Java project.
     '''
+        
     reader = open('UndProjects/' + projectName + '2.log', encoding='utf-8')
     validLines = ['tag:']
     tags = []
@@ -92,7 +95,7 @@ def TestFileMetrics(projectName, testFiles):
     
     #For some reason certain Und projects don't start their file paths at the actual project folder.
     #The path extensions help navigate to the corresponding test folder if necessary and can be added to.
-    pathExtensions = ['','\\src','\\core']
+    pathExtensions = ['','\\src','\\modules']
     path = 0
     validPath = False
     while validPath == False:
@@ -115,17 +118,21 @@ def TestFileMetrics(projectName, testFiles):
     # mockFrameworks is a dict where the key is the framework, and the value
     # is a list of files where the framework is called.
     
+    mockNoImportFiles = 0
+    # mockNoImport files is a counter of all files that are related to mocking
+    # but do not import a mocking framework.
+    
     for file in testFiles:
         filePath = projectName + pathExtensions[path] + '\\' + file[1]
-        reader = open(filePath,encoding='utf-8')
+        reader = open(filePath,encoding='utf-8',errors="ignore")
         fileName = file[1][(file[1].rindex('\\') + 1):-5]
         fileFrameworks = []
-        
+        check_framework = False;
         for line in reader:
             if line.strip()[0:6] == "import" and 'mock' in line.lower() and "apache" not in line.lower():
 #debug                print(projectName + "," + fileName + ": " + line)
                 framework = IdentifyMockFramework(line)
-                
+                check_framework = True;
                 if filePath not in mockImports:
                     mockImports[filePath]=[]    
                 mockImports[filePath].append([line.strip()[7:-1],framework])
@@ -136,13 +143,14 @@ def TestFileMetrics(projectName, testFiles):
             if 'class' in line and fileName in line:
                 break
         reader.close()
-        
+        if check_framework and 'mock' in filePath.lower():
+            mockNoImportFiles += 1
         for framework in fileFrameworks:
             if framework not in mockFrameworks:
                 mockFrameworks[framework]=[]
             mockFrameworks[framework].append(filePath)
             
-    return [mockImports,mockFrameworks]
+    return [mockImports,mockFrameworks,mockNoImportFiles]
         
 def IdentifyMockFramework(importLine):
     ''' Trims/reads a line that is importing an outside mocking 
@@ -181,6 +189,35 @@ def IdentifyMockFramework(importLine):
             validLine = False
 
     return importLine[:nextPeriod]
+
+def MockInvocations(projectName):
+    
+    filePath ="UndProjects/" + projectName + " - MethodsInvoked.txt"
+    try:
+        print(filePath)
+        reader = open(filePath, encoding= 'utf-8')
+    except FileNotFoundError:
+        print(projectName + " does not have a list of MockInvocations.")
+        return []
+    else:
+        reader = open(filePath,encoding= 'utf-8')
+        
+    Invokes = []
+    currentFile = ""
+    totalInvokes = 0
+    for line in reader:
+        line = line.strip()
+        if line[0:4].lower() == "file":
+            currentFile = line[line.index(":") + 2:]
+        if line[0:6].lower() == "method":
+            totalInvokes = int(line[line.index("(") + 1:line.index(")")]);  
+        if line[0:7].lower() == "invoked":
+            method = line[line.index(":") + 2:];
+            invokes = int(line[line.index("(") + 1:line.index(")")]);
+#            print(invokes)
+            Invokes.append([currentFile,method,invokes,round((invokes/totalInvokes) * 100,3)])
+#    print(Invokes)
+    return Invokes
             
             
         
@@ -208,6 +245,10 @@ for project in Projects:
     TestMetrics = TestFileMetrics(project[0], project[2])
     project.append(TestMetrics[0])
     project.append(TestMetrics[1])
+    project.append(TestMetrics[2])
+    
+    #Read MethodsInvoked metrics
+    project.append(MockInvocations(project[0]))
 
 
 #    print("\nProject: " + project[0])
@@ -219,7 +260,7 @@ reader = open('UndProjects/AllMetrics.csv','w', newline = '')
 
 csvOutput = csv.writer(reader)
 csvOutput.writerow(['Project Name', 'commits', 'contributors', 'releases', '.java Files', 'LOC',
-                        'test Files', 'test LOC','\'Mock\' imports', 'Mocking frameworks'])
+                        'test Files', 'test LOC','\'Mock\' imports', 'Mocking frameworks', 'No Import Mock File'])
 
 LOCColumn = metricHeaders.index('CountLineCode')
 
@@ -238,7 +279,8 @@ for project in Projects:
     releases = len((project[4]))
     mockedTests = len(project[5])
     mockingFrameworks = len(project[6])
-    csvOutput.writerow([name, commits, contributors, releases, totalFiles, LOC, totalTestFiles, testLOC, mockedTests, mockingFrameworks])
+    mockNoImports = project[7]
+    csvOutput.writerow([name, commits, contributors, releases, totalFiles, LOC, totalTestFiles, testLOC, mockedTests, mockingFrameworks, mockNoImports])
 
 reader.close()
 
@@ -272,6 +314,24 @@ for project in Projects:
         csvOutput.writerow([name,framework,numUses])
 
 reader.close()
+
+print('Writing to "UndProjects/AllMockRatios')
+reader = open('UndProjects/AllMockRatios.csv','w',newline = '')
+
+csvOutput = csv.writer(reader)
+csvOutput.writerow(['Project Name','File Path','Mock Method','# of Invocations','% of Invocations'])
+
+for project in Projects:
+    name = project[0]
+    for methodInvokes in project[8]:
+        filePath = methodInvokes[0]
+        mockMethod = methodInvokes[1]
+        numInvo = methodInvokes[2]
+        perInvo = methodInvokes[3]
+        csvOutput.writerow([name,filePath,mockMethod,numInvo,perInvo])
+
+reader.close()
+
 print ('-- CSVReader.py Complete --')
 
 
