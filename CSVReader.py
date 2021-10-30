@@ -190,35 +190,6 @@ def IdentifyMockFramework(importLine):
 
     return importLine[:nextPeriod]
 
-def MockInvocations(projectName):
-    
-    filePath ="UndProjects/" + projectName + " - MethodsInvoked.txt"
-    try:
-        print(filePath)
-        reader = open(filePath, encoding= 'utf-8')
-    except FileNotFoundError:
-        print(projectName + " does not have a list of MockInvocations.")
-        return []
-    else:
-        reader = open(filePath,encoding= 'utf-8')
-        
-    Invokes = []
-    currentFile = ""
-    totalInvokes = 0
-    for line in reader:
-        line = line.strip()
-        if line[0:4].lower() == "file":
-            currentFile = line[line.index(":") + 2:]
-        if line[0:6].lower() == "method":
-            totalInvokes = int(line[line.index("(") + 1:line.index(")")]);  
-        if line[0:7].lower() == "invoked":
-            method = line[line.index(":") + 2:];
-            invokes = int(line[line.index("(") + 1:line.index(")")]);
-#            print(invokes)
-            Invokes.append([currentFile,method,invokes,round((invokes/totalInvokes) * 100,3)])
-#    print(Invokes)
-    return Invokes
-            
             
         
 for file in os.listdir('UndProjects'):
@@ -247,9 +218,6 @@ for project in Projects:
     project.append(TestMetrics[1])
     project.append(TestMetrics[2])
     
-    #Read MethodsInvoked metrics
-    project.append(MockInvocations(project[0]))
-
 
 #    print("\nProject: " + project[0])
 #    print("Number of .java files: " + str(len(project[1])))
@@ -315,22 +283,6 @@ for project in Projects:
 
 reader.close()
 
-print('Writing to "UndProjects/AllMockRatios')
-reader = open('UndProjects/AllMockRatios.csv','w',newline = '')
-
-csvOutput = csv.writer(reader)
-csvOutput.writerow(['Project Name','File Path','Mock Method','# of Invocations','% of Invocations'])
-
-for project in Projects:
-    name = project[0]
-    for methodInvokes in project[8]:
-        filePath = methodInvokes[0]
-        mockMethod = methodInvokes[1]
-        numInvo = methodInvokes[2]
-        perInvo = methodInvokes[3]
-        csvOutput.writerow([name,filePath,mockMethod,numInvo,perInvo])
-
-reader.close()
 
 print ('-- CSVReader.py Complete --')
 
