@@ -41,5 +41,8 @@ These questions could be answered after we run "MockedClassesAnalysis.java". You
 
 The script for the first part is embedded in "API_Analyzer.java".
 
-
-
+<h2> How to Run Refactored Eclipse Plugin? </h2>
+1. Import all projects that need to be analyzed into workspace in the running instance.
+2. Modify OUTPUT_DIECTORY variable to the directory that you want to store the output files.
+3. Modify PROJECT_REPOSITORY variable to the directory that contains all of your apache projects.
+4. Run the sample command and all outputs will be generated into OUTPUT_DIECTORY.
