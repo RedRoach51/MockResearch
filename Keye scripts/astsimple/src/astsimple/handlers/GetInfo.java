@@ -1,11 +1,5 @@
 package astsimple.handlers;
 
-import java.io.FileWriter;
-import java.io.IOException;
-import java.io.PrintWriter;
-import java.util.ArrayList;
-import java.util.Arrays;
-
 import org.eclipse.core.commands.AbstractHandler;
 import org.eclipse.core.commands.ExecutionEvent;
 import org.eclipse.core.commands.ExecutionException;
@@ -22,272 +16,236 @@ import org.eclipse.jdt.core.JavaModelException;
 import org.eclipse.jdt.core.dom.AST;
 import org.eclipse.jdt.core.dom.ASTParser;
 import org.eclipse.jdt.core.dom.CompilationUnit;
-import org.eclipse.jdt.core.dom.ITypeBinding;
-import org.eclipse.jdt.core.dom.MethodDeclaration;
 import org.eclipse.jdt.core.dom.MethodInvocation;
 
-public class GetInfo extends AbstractHandler{
-	private static final String JDT_NATURE = "org.eclipse.jdt.core.javanature";
-	
-	private boolean file_stated = false;
-	private boolean method_found = false;
-	
-	private ArrayList<String> method_names = new ArrayList<>();
-	private ArrayList<String> method_origin = new ArrayList<>();
-	private ArrayList<Integer> method_count = new ArrayList<>();
-	
-	private ArrayList<String> ALL = new ArrayList<>();
-	private ArrayList<String> mock_methodnames = new ArrayList<>(Arrays.asList("mock","createMock","createNiceMock"));
-	
-	private ArrayList<String> mocked_classes = new ArrayList<>();
-	
-	
+import java.io.File;
+import java.io.FileOutputStream;
+import java.io.IOException;
+import java.io.PrintWriter;
+import java.util.ArrayList;
+import java.util.Arrays;
 
-    @Override
-    public Object execute(ExecutionEvent event) throws ExecutionException {
-        IWorkspace workspace = ResourcesPlugin.getWorkspace();
-        IWorkspaceRoot root = workspace.getRoot();
-        // Get all projects in the workspace
-        IProject[] projects = root.getProjects();
-        // Loop over all projects
-        for (IProject project : projects) {
-            try {
-                if (project.isNatureEnabled(JDT_NATURE)) {
-                    analyseMethods(project);
-                }
-            } catch (CoreException e) {
-                e.printStackTrace();
-            }
+public class GetInfo extends AbstractHandler
+{
+
+  private static final File OUTPUT_DIRECTORY = new File("C:\\Users\\wx199\\mock-usage\\Data");
+
+  // Project Repository Folder
+  private static final String PROJECT_REPOSITORY = "C:/Users/wx199/mock-usage/project-repository/";
+
+  private static final String JDT_NATURE = "org.eclipse.jdt.core.javanature";
+
+  private boolean file_stated = false;
+  private boolean method_found = false;
+
+  private ArrayList<String> method_names = new ArrayList<>();
+  private ArrayList<String> method_origin = new ArrayList<>();
+  private ArrayList<Integer> method_count = new ArrayList<>();
+
+  private ArrayList<String> invokedMethods = new ArrayList<>();
+  private ArrayList<String> mock_methodnames = new ArrayList<>(Arrays.asList("mock", "createMock", "createNiceMock"));
+
+  private ArrayList<String> mockedClasses = new ArrayList<>();
+
+  @Override
+  public Object execute(ExecutionEvent event) throws ExecutionException
+  {
+    IWorkspace workspace = ResourcesPlugin.getWorkspace();
+    IWorkspaceRoot root = workspace.getRoot();
+    // Get all projects in the workspace
+    IProject[] projects = root.getProjects();
+    // Loop over all projects
+
+    for (IProject project : projects) {
+      try {
+        if (project.isNatureEnabled(JDT_NATURE)) {
+          analyseAndWriteMethods(project);
         }
-        
-        try {
-			outputTXT(projects[0]);
-		} catch (IOException e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
-		}
-        
-        
-        return null;
+      } catch (CoreException e) {
+        e.printStackTrace();
+      }
     }
 
-    private void analyseMethods(IProject project) throws JavaModelException {
-        IPackageFragment[] packages = JavaCore.create(project).getPackageFragments();
-        // parse(JavaCore.create(project));
-        for (IPackageFragment mypackage : packages) {
-            if (mypackage.getKind() == IPackageFragmentRoot.K_SOURCE) {
-            	
-                createAST(mypackage);
-            }
+    return null;
+  }
 
-        }
+  private void analyseAndWriteMethods(IProject project) throws JavaModelException
+  {
+    IPackageFragment[] packages = JavaCore.create(project).getPackageFragments();
+    for (IPackageFragment mypackage : packages) {
+      if (mypackage.getKind() == IPackageFragmentRoot.K_SOURCE) {
+        createAST(mypackage);
+      }
     }
+    write(project, OUTPUT_DIRECTORY);
+  }
 
-    private void createAST(IPackageFragment mypackage) throws JavaModelException {
-        for (ICompilationUnit unit : mypackage.getCompilationUnits()) {
-            // now create the AST for the ICompilationUnits
-            CompilationUnit parse = parse(unit);
-            MethodVisitor visitor = new MethodVisitor();
-            parse.accept(visitor);
-            
-            method_names.clear();
-        	method_origin.clear();
-        	method_count.clear();
-           
-//            System.out.println(unit.getPath().toString());
-//            System.out.println("Methods declared: ");
-//            for (MethodDeclaration method : visitor.getMethods()) {
-//            	
-//                System.out.println("	Method name: " + method.getName()
-//                        + " 	Return type: " + method.getReturnType2());
-//            }
-//            
-//            System.out.println("Methods Invoked: ");
-            for(MethodInvocation method: visitor.getMethodInvocations()) {
-            	
-            	
-            	
-            	
-//            	System.out.println("	Method Name: "+method.getName());
-            	if(method.resolveMethodBinding() != null && method.resolveMethodBinding().getDeclaringClass()!= null
-            			&& (method.resolveMethodBinding().getDeclaringClass().getQualifiedName()
-            			.toLowerCase().contains("mock")&&!method.resolveMethodBinding().getDeclaringClass().getQualifiedName()
-                    			.toLowerCase().contains("apache"))) {
-            		
-            		if(file_stated == false) {
-            			System.out.println(unit.getPath().toString());
-            			System.out.println("Methods Invoked: ");
-            			
-            			ALL.add(unit.getPath().toString());
-            			ALL.add("Methods Invoked: ");
-            			
-//            			try {
-//                  	      FileWriter myWriter = new FileWriter("D:\\Stevens\\2021 summer general\\Mocking framework API calls data\\camel.txt");
-//                  	      
-//                  	      
-//                  	      myWriter.write(unit.getPath().toString());
-//                  	      myWriter.write("Methods Invoked: ");
-//                  	      
-//                  	      myWriter.close();
-//                  	      
-//                  	    } catch (IOException e) {
-//                  	      
-//                  	      e.printStackTrace();
-//                  	    }
-              	      
-            			file_stated = true;
-            		}
-            		
-            		for(int i = 0;i < method_names.size(); i++) {
-            			if(method_names.get(i).equals(method.getName().toString()) && 
-            					method_origin.get(i).equals(method.resolveMethodBinding().getDeclaringClass().getQualifiedName().toString())) {
-            				method_count.set(i, method_count.get(i) + 1);
-            				method_found = true;
-            				break;
-            			}
-            		}
-            		
-            		if(!method_found) {
-            			method_names.add(method.getName().toString());
-                		method_origin.add(method.resolveMethodBinding().getDeclaringClass().getQualifiedName());
-                		method_count.add(1);
-            		}
-            		
-            		
-            		
-//            		System.out.println("	Method Name: " + method.getName());
-//            		
-//                	ITypeBinding binding = method.resolveMethodBinding().getDeclaringClass();
-//                	
-////                	ITypeBinding binding2 = method.resolveMethodBinding().getDeclaringClass();
-//                	
-//                	if(binding!=null) {
-//                		System.out.println("	Class origin: " + binding.getQualifiedName());
-//                	}
-            		
-            		
-            		
-            		
-            		
-//            		this part is what I use to test to get the dependency classes, which are the classes that are mocked, you can ignore this
-//            		so far.
-            		
-//            		System.out.println("333333333" + method.getName().toString());
-//                	System.out.println("333333333" + method.resolveMethodBinding().getDeclaringClass().getQualifiedName());
-//                	System.out.println("333333333" + method.resolveTypeBinding().getQualifiedName());
-//                	System.out.println("333333333" + method.getParent().toString());
-                	
-                	
-                	if(mock_methodnames.contains(method.getName().toString())) {
-                		mocked_classes.add(method.resolveTypeBinding().getQualifiedName());
-                		
-                		
-                	}
-            		
-            		
-                	
-                	
-            	}
-            	
-            	
-            	
-            	
+  private void createAST(IPackageFragment mypackage) throws JavaModelException
+  {
+    for (ICompilationUnit unit : mypackage.getCompilationUnits()) {
+      // now create the AST for the ICompilationUnits
+      CompilationUnit parse = parse(unit);
+      MethodVisitor visitor = new MethodVisitor();
+      parse.accept(visitor);
+
+      method_names.clear();
+      method_origin.clear();
+      method_count.clear();
+
+      for (MethodInvocation method : visitor.getMethodInvocations()) {
+
+        // System.out.println(" Method Name: "+method.getName());
+        if (method.resolveMethodBinding() != null && method.resolveMethodBinding().getDeclaringClass() != null
+            && (method.resolveMethodBinding().getDeclaringClass().getQualifiedName()
+                .toLowerCase().contains("mock")
+                && !method.resolveMethodBinding().getDeclaringClass().getQualifiedName()
+                    .toLowerCase().contains("apache"))) {
+
+          if (file_stated == false) {
+            // System.out.println(unit.getPath().toString());
+            // System.out.println("Methods Invoked: ");
+
+            // invokedMethods.add(unit.getPath().toString());
+            // invokedMethods.add("Methods Invoked: ");
+
+            file_stated = true;
+          }
+
+          for (int i = 0; i < method_names.size(); i++) {
+            if (method_names.get(i).equals(method.getName().toString()) &&
+                method_origin.get(i)
+                    .equals(method.resolveMethodBinding().getDeclaringClass().getQualifiedName().toString())) {
+              method_count.set(i, method_count.get(i) + 1);
+              method_found = true;
+              break;
             }
-            
-            for(int i = 0; i< method_names.size();i++) {
-            	System.out.println("	Method name: " + method_names.get(i));
-            	System.out.println("	Class origin: " + method_origin.get(i));
-            	System.out.println("	Count: " + method_count.get(i));
-            	System.out.println(" ");
-            	
-            	
-            	ALL.add("	Method name: " + method_names.get(i));
-            	ALL.add("	Class origin: " + method_origin.get(i));
-            	ALL.add("	Count: " + method_count.get(i));
-            	ALL.add(" ");
-            	
-//            	try {
-//            	      FileWriter myWriter = new FileWriter("D:\\Stevens\\2021 summer general\\Mocking framework API calls data\\camel.txt");
-//            	      
-//            	      myWriter.write("		Method name: " + method_names.get(i));
-//            	      myWriter.write("		Class origin: " + method_origin.get(i));
-//            	      myWriter.write("		Count: " + method_count.get(i));
-//            	      myWriter.write(" ");
-//            	      
-//            	      myWriter.close();
-//            	      System.out.println("Successfully wrote to the file.");
-//            	    } catch (IOException e) {
-//            	      System.out.println("An error occurred.");
-//            	      e.printStackTrace();
-//            	    }
-            }
-            
-            file_stated = false;
-            method_found = false;
+          }
+
+          if (!method_found) {
+            method_names.add(method.getName().toString());
+            method_origin.add(method.resolveMethodBinding().getDeclaringClass().getQualifiedName());
+            method_count.add(1);
+          }
+
+          if (mock_methodnames.contains(method.getName().toString())) {
+            mockedClasses.add(method.resolveTypeBinding().getQualifiedName());
+
+          }
 
         }
+
+      }
+
+      for (int i = 0; i < method_names.size(); i++) {
+        // System.out.println(" Method name: " + method_names.get(i));
+        // System.out.println(" Class origin: " + method_origin.get(i));
+        // System.out.println(" Count: " + method_count.get(i));
+        // System.out.println(" ");
+
+        invokedMethods.add("	Method name: " + method_names.get(i));
+        invokedMethods.add("	Class origin: " + method_origin.get(i));
+        invokedMethods.add("	Count: " + method_count.get(i));
+        invokedMethods.add(" ");
+
+      }
+
+      file_stated = false;
+      method_found = false;
+
+    }
+  }
+
+  /**
+   * Reads a ICompilationUnit and creates the AST DOM for manipulating the Java
+   * source file
+   *
+   * @param unit
+   * @return
+   */
+
+  private static CompilationUnit parse(ICompilationUnit unit)
+  {
+    ASTParser parser = ASTParser.newParser(AST.JLS14);
+    parser.setKind(ASTParser.K_COMPILATION_UNIT);
+    parser.setSource(unit);
+    parser.setResolveBindings(true);
+    return (CompilationUnit) parser.createAST(null); // parse
+  }
+
+  private void write(IProject project, File outputDir)
+  {
+    String projectLocation = project.getLocation().toString();
+    String relativePath = projectLocation.substring(PROJECT_REPOSITORY.length());
+    String projectName = relativePath.substring(0,
+        relativePath.contains("/") ? relativePath.indexOf("/") : relativePath.length());
+
+    try {
+      new File(
+          outputDir.getAbsolutePath() + File.separatorChar + "Mocking_framework_API_calls_data").mkdir();
+      File methodInvocationFile = new File(
+          outputDir.getAbsolutePath() + File.separatorChar + "Mocking_framework_API_calls_data", projectName + ".txt");
+      methodInvocationFile.createNewFile();
+      PrintWriter methodInvocationWriter = new PrintWriter(
+          new FileOutputStream(outputDir.getAbsolutePath() + File.separatorChar +
+              projectName + ".txt", true));
+      for (String invocation : invokedMethods) {
+        methodInvocationWriter.append(invocation + "\n");
+      }
+      methodInvocationWriter.flush();
+      methodInvocationWriter.close();
+
+      new File(
+          outputDir.getAbsolutePath() + File.separatorChar + "RQ3_data").mkdir();
+      File mockedClassFile = new File(outputDir.getAbsolutePath() + File.separatorChar + "RQ3_data",
+          projectName + "Mocked_classes.txt");
+      methodInvocationFile.createNewFile();
+      mockedClassFile.createNewFile();
+      PrintWriter mockClassWriter = new PrintWriter(new FileOutputStream(
+          outputDir.getAbsolutePath() + File.separatorChar + "RQ3_data" + File.separatorChar + projectName +
+              "Mocked_classes.txt",
+          true));
+      for (String item : mockedClasses) {
+        methodInvocationWriter.append(item + "\n");
+      }
+      mockClassWriter.flush();
+      mockClassWriter.close();
+
+      invokedMethods.clear();
+      mockedClasses.clear();
+    } catch (IOException e) {
+      e.printStackTrace();
+    }
+  }
+
+  private void outputTXT() throws IOException
+  {
+
+    String target = "credur-whisker";
+
+    PrintWriter writer = new PrintWriter("D:\\Stevens\\2021 summer general\\Mocking framework API calls data\\"
+        + target + ".txt", "UTF-8");
+
+    for (String x : invokedMethods) {
+      writer.println(x);
     }
 
-    /**
-     * Reads a ICompilationUnit and creates the AST DOM for manipulating the
-     * Java source file
-     *
-     * @param unit
-     * @return
-     */
+    writer.close();
 
-    private static CompilationUnit parse(ICompilationUnit unit) {
-        ASTParser parser = ASTParser.newParser(AST.JLS16);
-        parser.setKind(ASTParser.K_COMPILATION_UNIT);
-        parser.setSource(unit);
-        parser.setResolveBindings(true);
-        return (CompilationUnit) parser.createAST(null); // parse
-    }
-    
-    
-    private void outputTXT(IProject project) throws IOException{
-    	
-    	String target = "credur-whisker";
-    	
-    	
-//    	PrintWriter writer = new PrintWriter("D:\\Stevens\\2021 summer general\\Mocking framework API calls data"
-//    				+ "\\test.txt", "UTF-8");
-//    		
-//    	writer.println("line 3");
-//    	writer.println("line 4");
-//    	
-//    	writer.close();
-    	
-    	PrintWriter writer = new PrintWriter("D:\\Stevens\\2021 summer general\\Mocking framework API calls data\\"
-				+ target + ".txt", "UTF-8");
-    	
-    	
-    	for(String x: ALL) {
-    		writer.println(x);
-    	}
-    	
-    	writer.close();
-    	
-    	
-    	PrintWriter writer2 = new PrintWriter("D:\\Stevens\\2021 summer general\\RQ3 data\\" + target + 
-    			"Mocked classes.txt","UTF-8");
-    	
-    	for(String item: mocked_classes) {
-    		writer2.println(item);
-    	}
-    	
-    	writer2.close();
-    	
-    	
-    	
-    	System.out.println(ALL.size());
-    	
-    	ALL.clear();
-    	
-    	System.out.println(mocked_classes);
-    	mocked_classes.clear();
-    }
-    
-}  
-    
+    PrintWriter writer2 = new PrintWriter("D:\\Stevens\\2021 summer general\\RQ3 data\\" + target +
+        "Mocked classes.txt", "UTF-8");
 
+    for (String item : mockedClasses) {
+      writer2.println(item);
+    }
+
+    writer2.close();
+
+    // System.out.println(invokedMethods.size());
+
+    invokedMethods.clear();
+
+    // System.out.println(mockedClasses);
+    mockedClasses.clear();
+  }
+
+}
