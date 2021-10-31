@@ -129,7 +129,6 @@ public class GetInfo extends AbstractHandler
 
           if (mock_methodnames.contains(method.getName().toString())) {
             mockedClasses.add(method.resolveTypeBinding().getQualifiedName());
-
           }
 
         }
@@ -181,13 +180,14 @@ public class GetInfo extends AbstractHandler
 
     try {
       new File(
+          outputDir.getAbsolutePath() + File.separatorChar + "Mocking_framework_API_calls_data").deleteOnExit();
+      new File(
           outputDir.getAbsolutePath() + File.separatorChar + "Mocking_framework_API_calls_data").mkdir();
       File methodInvocationFile = new File(
           outputDir.getAbsolutePath() + File.separatorChar + "Mocking_framework_API_calls_data", projectName + ".txt");
       methodInvocationFile.createNewFile();
       PrintWriter methodInvocationWriter = new PrintWriter(
-          new FileOutputStream(outputDir.getAbsolutePath() + File.separatorChar +
-              projectName + ".txt", true));
+          new FileOutputStream(methodInvocationFile, true));
       for (String invocation : invokedMethods) {
         methodInvocationWriter.append(invocation + "\n");
       }
@@ -195,17 +195,17 @@ public class GetInfo extends AbstractHandler
       methodInvocationWriter.close();
 
       new File(
+          outputDir.getAbsolutePath() + File.separatorChar + "RQ3_data").deleteOnExit();
+      new File(
           outputDir.getAbsolutePath() + File.separatorChar + "RQ3_data").mkdir();
       File mockedClassFile = new File(outputDir.getAbsolutePath() + File.separatorChar + "RQ3_data",
           projectName + "Mocked_classes.txt");
-      methodInvocationFile.createNewFile();
       mockedClassFile.createNewFile();
-      PrintWriter mockClassWriter = new PrintWriter(new FileOutputStream(
-          outputDir.getAbsolutePath() + File.separatorChar + "RQ3_data" + File.separatorChar + projectName +
-              "Mocked_classes.txt",
+
+      PrintWriter mockClassWriter = new PrintWriter(new FileOutputStream(mockedClassFile,
           true));
       for (String item : mockedClasses) {
-        methodInvocationWriter.append(item + "\n");
+        mockClassWriter.append(item + "\n");
       }
       mockClassWriter.flush();
       mockClassWriter.close();
