@@ -1,0 +1,14 @@
+Inside classes: 
+ 
+ 
+ 
+ 
+Outside classes: 
+ 
+java.sql.ResultSet
+java.sql.ResultSetMetaData
+java.sql.Connection
+java.sql.Statement
+java.sql.Driver
+org.apache.commons.dbutils.QueryRunner
+org.apache.commons.dbutils.RowProcessor

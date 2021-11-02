@@ -1,0 +1,24 @@
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 5
+ 
+	Method name: verify
+	Class origin: org.mockito.Mockito
+	Count: 9
+ 
+	Method name: never
+	Class origin: org.mockito.Mockito
+	Count: 3
+ 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 5
+ 
+	Method name: verify
+	Class origin: org.mockito.Mockito
+	Count: 9
+ 
+	Method name: never
+	Class origin: org.mockito.Mockito
+	Count: 3
+ 

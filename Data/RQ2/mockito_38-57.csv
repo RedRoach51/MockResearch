@@ -1,0 +1,26 @@
+method, origin, count
+initMocks,org.mockito.MockitoAnnotations,6
+thenReturn,org.mockito.stubbing.OngoingStubbing<java.lang.Object>,131
+when,org.mockito.Mockito,847
+anyString,org.mockito.Matchers,10
+verify,org.mockito.Mockito,899
+times,org.mockito.Mockito,637
+mock,org.mockito.Mockito,146
+never,org.mockito.Mockito,5
+doThrow,org.mockito.Mockito,3
+any,org.mockito.ArgumentMatchers,1064
+atLeast,org.mockito.Mockito,3
+defaultAnswer,org.mockito.MockSettings,3
+withSettings,org.mockito.Mockito,3
+eq,org.mockito.ArgumentMatchers,53
+same,org.mockito.ArgumentMatchers,36
+spy,org.mockito.Mockito,13
+anyInt,org.mockito.ArgumentMatchers,5
+useConstructor,org.mockito.MockSettings,2
+argThat,org.mockito.ArgumentMatchers,2
+forClass,org.mockito.ArgumentCaptor,1
+capture,org.mockito.ArgumentCaptor<byte[]>,1
+getValue,org.mockito.ArgumentCaptor<byte[]>,1
+thenAnswer,org.mockito.stubbing.OngoingStubbing<java.lang.String>,2
+getArgument,org.mockito.invocation.InvocationOnMock,3
+isA,org.mockito.ArgumentMatchers,4

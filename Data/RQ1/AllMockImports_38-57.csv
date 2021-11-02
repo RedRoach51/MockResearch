@@ -1,0 +1,332 @@
+Project Name,File Path,Mocking Framework,Imported Mock Line
+commons-chain,commons-chain\apps\cookbook-examples\src\test\java\org\apache\commons\chain2\cookbook\mailreader\CatalogTest.java,mockito,org.mockito.Mock
+commons-chain,commons-chain\apps\cookbook-examples\src\test\java\org\apache\commons\chain2\cookbook\mailreader\CatalogTest.java,mockito,org.mockito.MockitoAnnotations
+commons-chain,commons-chain\apps\cookbook-examples\src\test\java\org\apache\commons\chain2\cookbook\mailreader\CatalogTest.java,mockito,static org.mockito.Matchers.anyString
+commons-chain,commons-chain\apps\cookbook-examples\src\test\java\org\apache\commons\chain2\cookbook\mailreader\CatalogTest.java,mockito,static org.mockito.Mockito.verify
+commons-chain,commons-chain\apps\cookbook-examples\src\test\java\org\apache\commons\chain2\cookbook\mailreader\CatalogTest.java,mockito,static org.mockito.Mockito.when
+commons-collections,commons-collections\src\test\java\org\apache\commons\collections4\IteratorUtilsTest.java,easymock,static org.easymock.EasyMock.createMock
+commons-collections,commons-collections\src\test\java\org\apache\commons\collections4\IteratorUtilsTest.java,easymock,static org.easymock.EasyMock.expect
+commons-collections,commons-collections\src\test\java\org\apache\commons\collections4\IteratorUtilsTest.java,easymock,static org.easymock.EasyMock.replay
+commons-collections,commons-collections\src\test\java\org\apache\commons\collections4\MockTestCase.java,easymock,org.easymock.EasyMock
+commons-collections,commons-collections\src\test\java\org\apache\commons\collections4\MockTestCase.java,easymock,org.easymock.IExpectationSetters
+commons-collections,commons-collections\src\test\java\org\apache\commons\collections4\functors\AbstractMockPredicateTest.java,easymock,static org.easymock.EasyMock.verify
+commons-collections,commons-collections\src\test\java\org\apache\commons\collections4\functors\AbstractMockPredicateTest.java,easymock,static org.easymock.EasyMock.replay
+commons-collections,commons-collections\src\test\java\org\apache\commons\collections4\functors\AbstractMockPredicateTest.java,easymock,org.easymock.EasyMock
+commons-collections,commons-collections\src\test\java\org\apache\commons\collections4\iterators\NodeListIteratorTest.java,easymock,static org.easymock.EasyMock.*
+commons-compress,commons-compress\src\test\java\org\apache\commons\compress\compressors\deflate64\Deflate64CompressorInputStreamTest.java,mockito,static org.mockito.Mockito.times
+commons-compress,commons-compress\src\test\java\org\apache\commons\compress\compressors\deflate64\Deflate64CompressorInputStreamTest.java,mockito,org.mockito.Mock
+commons-compress,commons-compress\src\test\java\org\apache\commons\compress\compressors\deflate64\Deflate64CompressorInputStreamTest.java,mockito,org.mockito.Mockito
+commons-compress,commons-compress\src\test\java\org\apache\commons\compress\compressors\deflate64\Deflate64CompressorInputStreamTest.java,mockito,org.mockito.junit.MockitoJUnitRunner
+commons-configuration,commons-configuration\src\test\java\org\apache\commons\configuration2\MockInitialContextFactory.java,mockobjects,com.mockobjects.dynamic.C
+commons-configuration,commons-configuration\src\test\java\org\apache\commons\configuration2\MockInitialContextFactory.java,mockobjects,com.mockobjects.dynamic.Mock
+commons-configuration,commons-configuration\src\test\java\org\apache\commons\configuration2\TestAbstractConfigurationBasicFeatures.java,easymock,org.easymock.EasyMock
+commons-configuration,commons-configuration\src\test\java\org\apache\commons\configuration2\TestAbstractConfigurationSynchronization.java,easymock,org.easymock.EasyMock
+commons-configuration,commons-configuration\src\test\java\org\apache\commons\configuration2\TestBaseConfiguration.java,easymock,org.easymock.EasyMock
+commons-configuration,commons-configuration\src\test\java\org\apache\commons\configuration2\TestCompositeConfiguration.java,easymock,org.easymock.EasyMock
+commons-configuration,commons-configuration\src\test\java\org\apache\commons\configuration2\TestConfigurationConverter.java,easymock,org.easymock.EasyMock
+commons-configuration,commons-configuration\src\test\java\org\apache\commons\configuration2\TestConfigurationUtils.java,easymock,org.easymock.EasyMock
+commons-configuration,commons-configuration\src\test\java\org\apache\commons\configuration2\TestDataConfiguration.java,easymock,org.easymock.EasyMock
+commons-configuration,commons-configuration\src\test\java\org\apache\commons\configuration2\TestDatabaseConfiguration.java,easymock,org.easymock.EasyMock
+commons-configuration,commons-configuration\src\test\java\org\apache\commons\configuration2\TestSubnodeConfiguration.java,easymock,org.easymock.EasyMock
+commons-configuration,commons-configuration\src\test\java\org\apache\commons\configuration2\TestSubsetConfiguration.java,easymock,org.easymock.EasyMock
+commons-configuration,commons-configuration\src\test\java\org\apache\commons\configuration2\TestXMLDocumentHelper.java,easymock,org.easymock.EasyMock
+commons-configuration,commons-configuration\src\test\java\org\apache\commons\configuration2\beanutils\TestBeanHelper.java,easymock,org.easymock.EasyMock
+commons-configuration,commons-configuration\src\test\java\org\apache\commons\configuration2\beanutils\TestCombinedBeanDeclaration.java,easymock,org.easymock.EasyMock
+commons-configuration,commons-configuration\src\test\java\org\apache\commons\configuration2\beanutils\TestConstructorArg.java,easymock,org.easymock.EasyMock
+commons-configuration,commons-configuration\src\test\java\org\apache\commons\configuration2\beanutils\TestDefaultBeanFactory.java,easymock,org.easymock.EasyMock
+commons-configuration,commons-configuration\src\test\java\org\apache\commons\configuration2\builder\TestAutoSaveListener.java,easymock,org.easymock.EasyMock
+commons-configuration,commons-configuration\src\test\java\org\apache\commons\configuration2\builder\TestBasicBuilderParameters.java,easymock,org.easymock.EasyMock
+commons-configuration,commons-configuration\src\test\java\org\apache\commons\configuration2\builder\TestBasicConfigurationBuilder.java,easymock,org.easymock.EasyMock
+commons-configuration,commons-configuration\src\test\java\org\apache\commons\configuration2\builder\TestBuilderConfigurationWrapperFactory.java,easymock,org.easymock.EasyMock
+commons-configuration,commons-configuration\src\test\java\org\apache\commons\configuration2\builder\TestCopyObjectDefaultHandler.java,easymock,org.easymock.EasyMock
+commons-configuration,commons-configuration\src\test\java\org\apache\commons\configuration2\builder\TestDatabaseBuilderParametersImpl.java,easymock,org.easymock.EasyMock
+commons-configuration,commons-configuration\src\test\java\org\apache\commons\configuration2\builder\TestDefaultParametersManager.java,easymock,org.easymock.EasyMock
+commons-configuration,commons-configuration\src\test\java\org\apache\commons\configuration2\builder\TestFileBasedBuilderParameters.java,easymock,org.easymock.EasyMock
+commons-configuration,commons-configuration\src\test\java\org\apache\commons\configuration2\builder\TestHierarchicalBuilderParametersImpl.java,easymock,org.easymock.EasyMock
+commons-configuration,commons-configuration\src\test\java\org\apache\commons\configuration2\builder\TestJndiBuilderParametersImpl.java,easymock,org.easymock.EasyMock
+commons-configuration,commons-configuration\src\test\java\org\apache\commons\configuration2\builder\TestPropertiesBuilderParametersImpl.java,easymock,org.easymock.EasyMock
+commons-configuration,commons-configuration\src\test\java\org\apache\commons\configuration2\builder\TestReloadingBuilderSupportListener.java,easymock,org.easymock.EasyMock
+commons-configuration,commons-configuration\src\test\java\org\apache\commons\configuration2\builder\TestReloadingFileBasedConfigurationBuilder.java,easymock,org.easymock.EasyMock
+commons-configuration,commons-configuration\src\test\java\org\apache\commons\configuration2\builder\TestXMLBuilderParametersImpl.java,easymock,org.easymock.EasyMock
+commons-configuration,commons-configuration\src\test\java\org\apache\commons\configuration2\builder\combined\TestCombinedBuilderParametersImpl.java,easymock,org.easymock.EasyMock
+commons-configuration,commons-configuration\src\test\java\org\apache\commons\configuration2\builder\combined\TestCombinedConfigurationBuilder.java,easymock,org.easymock.EasyMock
+commons-configuration,commons-configuration\src\test\java\org\apache\commons\configuration2\builder\combined\TestFileExtensionConfigurationBuilderProvider.java,easymock,org.easymock.EasyMock
+commons-configuration,commons-configuration\src\test\java\org\apache\commons\configuration2\builder\combined\TestMultiFileBuilderParametersImpl.java,easymock,org.easymock.EasyMock
+commons-configuration,commons-configuration\src\test\java\org\apache\commons\configuration2\builder\combined\TestMultiFileConfigurationBuilder.java,easymock,org.easymock.EasyMock
+commons-configuration,commons-configuration\src\test\java\org\apache\commons\configuration2\builder\combined\TestReloadingMultiFileConfigurationBuilder.java,easymock,org.easymock.EasyMock
+commons-configuration,commons-configuration\src\test\java\org\apache\commons\configuration2\builder\fluent\TestParameters.java,easymock,org.easymock.EasyMock
+commons-configuration,commons-configuration\src\test\java\org\apache\commons\configuration2\convert\TestDefaultListDelimiterHandler.java,easymock,org.easymock.EasyMock
+commons-configuration,commons-configuration\src\test\java\org\apache\commons\configuration2\convert\TestDisabledListDelimiterHandler.java,easymock,org.easymock.EasyMock
+commons-configuration,commons-configuration\src\test\java\org\apache\commons\configuration2\event\TestEventListenerList.java,easymock,org.easymock.EasyMock
+commons-configuration,commons-configuration\src\test\java\org\apache\commons\configuration2\interpol\TestConfigurationInterpolator.java,easymock,org.easymock.EasyMock
+commons-configuration,commons-configuration\src\test\java\org\apache\commons\configuration2\interpol\TestInterpolatorSpecification.java,easymock,org.easymock.EasyMock
+commons-configuration,commons-configuration\src\test\java\org\apache\commons\configuration2\io\TestAbsoluteNameLocationStrategy.java,easymock,org.easymock.EasyMock
+commons-configuration,commons-configuration\src\test\java\org\apache\commons\configuration2\io\TestBasePathLocationStrategy.java,easymock,org.easymock.EasyMock
+commons-configuration,commons-configuration\src\test\java\org\apache\commons\configuration2\io\TestClasspathLocationStrategy.java,easymock,org.easymock.EasyMock
+commons-configuration,commons-configuration\src\test\java\org\apache\commons\configuration2\io\TestCombinedLocationStrategy.java,easymock,org.easymock.EasyMock
+commons-configuration,commons-configuration\src\test\java\org\apache\commons\configuration2\io\TestConfigurationLogger.java,easymock,org.easymock.EasyMock
+commons-configuration,commons-configuration\src\test\java\org\apache\commons\configuration2\io\TestFileHandler.java,easymock,org.easymock.EasyMock
+commons-configuration,commons-configuration\src\test\java\org\apache\commons\configuration2\io\TestFileLocator.java,easymock,org.easymock.EasyMock
+commons-configuration,commons-configuration\src\test\java\org\apache\commons\configuration2\io\TestFileLocatorUtils.java,easymock,org.easymock.EasyMock
+commons-configuration,commons-configuration\src\test\java\org\apache\commons\configuration2\io\TestFileSystemLocationStrategy.java,easymock,org.easymock.EasyMock
+commons-configuration,commons-configuration\src\test\java\org\apache\commons\configuration2\io\TestHomeDirectoryLocationStrategy.java,easymock,org.easymock.EasyMock
+commons-configuration,commons-configuration\src\test\java\org\apache\commons\configuration2\io\TestProvidedURLLocationStrategy.java,easymock,org.easymock.EasyMock
+commons-configuration,commons-configuration\src\test\java\org\apache\commons\configuration2\reloading\TestCombinedReloadingController.java,easymock,org.easymock.EasyMock
+commons-configuration,commons-configuration\src\test\java\org\apache\commons\configuration2\reloading\TestFileHandlerReloadingDetector.java,easymock,org.easymock.EasyMock
+commons-configuration,commons-configuration\src\test\java\org\apache\commons\configuration2\reloading\TestPeriodicReloadingTrigger.java,easymock,org.easymock.EasyMock
+commons-configuration,commons-configuration\src\test\java\org\apache\commons\configuration2\reloading\TestReloadingController.java,easymock,org.easymock.EasyMock
+commons-configuration,commons-configuration\src\test\java\org\apache\commons\configuration2\reloading\TestVFSFileHandlerReloadingDetector.java,easymock,org.easymock.EasyMock
+commons-configuration,commons-configuration\src\test\java\org\apache\commons\configuration2\sync\TestReadWriteSynchronizer.java,easymock,org.easymock.EasyMock
+commons-configuration,commons-configuration\src\test\java\org\apache\commons\configuration2\tree\NodeStructureHelper.java,easymock,org.easymock.EasyMock
+commons-configuration,commons-configuration\src\test\java\org\apache\commons\configuration2\tree\TestInMemoryNodeModel.java,easymock,org.easymock.EasyMock
+commons-configuration,commons-configuration\src\test\java\org\apache\commons\configuration2\tree\TestInMemoryNodeModelReferences.java,easymock,org.easymock.EasyMock
+commons-configuration,commons-configuration\src\test\java\org\apache\commons\configuration2\tree\TestInMemoryNodeModelTrackedNodes.java,easymock,org.easymock.EasyMock
+commons-configuration,commons-configuration\src\test\java\org\apache\commons\configuration2\tree\TestNodeSelector.java,easymock,org.easymock.EasyMock
+commons-configuration,commons-configuration\src\test\java\org\apache\commons\configuration2\tree\TestNodeTreeWalker.java,easymock,org.easymock.EasyMock
+commons-configuration,commons-configuration\src\test\java\org\apache\commons\configuration2\tree\TestTrackedNodeHandler.java,easymock,org.easymock.EasyMock
+commons-configuration,commons-configuration\src\test\java\org\apache\commons\configuration2\tree\TestTrackedNodeModel.java,easymock,org.easymock.EasyMock
+commons-configuration,commons-configuration\src\test\java\org\apache\commons\configuration2\tree\xpath\TestXPathExpressionEngine.java,easymock,org.easymock.EasyMock
+commons-configuration,commons-configuration\src\test\java\org\apache\commons\configuration2\web\TestServletConfiguration.java,mockobjects,com.mockobjects.servlet.MockServletConfig
+commons-configuration,commons-configuration\src\test\java\org\apache\commons\configuration2\web\TestServletContextConfiguration.java,mockobjects,com.mockobjects.servlet.MockServletConfig
+commons-configuration,commons-configuration\src\test\java\org\apache\commons\configuration2\web\TestServletContextConfiguration.java,mockobjects,com.mockobjects.servlet.MockServletContext
+commons-configuration,commons-configuration\src\test\java\org\apache\commons\configuration2\web\TestServletRequestConfiguration.java,mockobjects,com.mockobjects.servlet.MockHttpServletRequest
+commons-csv,commons-csv\src\test\java\org\apache\commons\csv\CSVPrinterTest.java,mockito,static org.mockito.Mockito.mock
+commons-csv,commons-csv\src\test\java\org\apache\commons\csv\CSVPrinterTest.java,mockito,static org.mockito.Mockito.never
+commons-csv,commons-csv\src\test\java\org\apache\commons\csv\CSVPrinterTest.java,mockito,static org.mockito.Mockito.times
+commons-csv,commons-csv\src\test\java\org\apache\commons\csv\CSVPrinterTest.java,mockito,static org.mockito.Mockito.verify
+commons-dbcp,commons-dbcp\src\test\java\org\apache\commons\dbcp2\TestDelegatingCallableStatement.java,mockito,static org.mockito.Mockito.mock
+commons-dbcp,commons-dbcp\src\test\java\org\apache\commons\dbcp2\TestDelegatingCallableStatement.java,mockito,static org.mockito.Mockito.times
+commons-dbcp,commons-dbcp\src\test\java\org\apache\commons\dbcp2\TestDelegatingCallableStatement.java,mockito,static org.mockito.Mockito.verify
+commons-dbcp,commons-dbcp\src\test\java\org\apache\commons\dbcp2\TestDelegatingDatabaseMetaData.java,mockito,static org.mockito.Mockito.mock
+commons-dbcp,commons-dbcp\src\test\java\org\apache\commons\dbcp2\TestDelegatingDatabaseMetaData.java,mockito,static org.mockito.Mockito.times
+commons-dbcp,commons-dbcp\src\test\java\org\apache\commons\dbcp2\TestDelegatingDatabaseMetaData.java,mockito,static org.mockito.Mockito.verify
+commons-dbcp,commons-dbcp\src\test\java\org\apache\commons\dbcp2\TestDelegatingPreparedStatement.java,mockito,static org.mockito.Mockito.mock
+commons-dbcp,commons-dbcp\src\test\java\org\apache\commons\dbcp2\TestDelegatingPreparedStatement.java,mockito,static org.mockito.Mockito.times
+commons-dbcp,commons-dbcp\src\test\java\org\apache\commons\dbcp2\TestDelegatingPreparedStatement.java,mockito,static org.mockito.Mockito.verify
+commons-dbcp,commons-dbcp\src\test\java\org\apache\commons\dbcp2\TestDelegatingResultSet.java,mockito,static org.mockito.Mockito.mock
+commons-dbcp,commons-dbcp\src\test\java\org\apache\commons\dbcp2\TestDelegatingResultSet.java,mockito,static org.mockito.Mockito.times
+commons-dbcp,commons-dbcp\src\test\java\org\apache\commons\dbcp2\TestDelegatingResultSet.java,mockito,static org.mockito.Mockito.verify
+commons-dbcp,commons-dbcp\src\test\java\org\apache\commons\dbcp2\TestDelegatingStatement.java,mockito,static org.mockito.Mockito.mock
+commons-dbcp,commons-dbcp\src\test\java\org\apache\commons\dbcp2\TestDelegatingStatement.java,mockito,static org.mockito.Mockito.times
+commons-dbcp,commons-dbcp\src\test\java\org\apache\commons\dbcp2\TestDelegatingStatement.java,mockito,static org.mockito.Mockito.verify
+commons-dbutils,commons-dbutils\src\test\java\org\apache\commons\dbutils\AsyncQueryRunnerTest.java,mockito,static org.mockito.Matchers.any
+commons-dbutils,commons-dbutils\src\test\java\org\apache\commons\dbutils\AsyncQueryRunnerTest.java,mockito,static org.mockito.Mockito.doThrow
+commons-dbutils,commons-dbutils\src\test\java\org\apache\commons\dbutils\AsyncQueryRunnerTest.java,mockito,static org.mockito.Mockito.mock
+commons-dbutils,commons-dbutils\src\test\java\org\apache\commons\dbutils\AsyncQueryRunnerTest.java,mockito,static org.mockito.Mockito.times
+commons-dbutils,commons-dbutils\src\test\java\org\apache\commons\dbutils\AsyncQueryRunnerTest.java,mockito,static org.mockito.Mockito.verify
+commons-dbutils,commons-dbutils\src\test\java\org\apache\commons\dbutils\AsyncQueryRunnerTest.java,mockito,static org.mockito.Mockito.when
+commons-dbutils,commons-dbutils\src\test\java\org\apache\commons\dbutils\AsyncQueryRunnerTest.java,mockito,org.mockito.Mock
+commons-dbutils,commons-dbutils\src\test\java\org\apache\commons\dbutils\AsyncQueryRunnerTest.java,mockito,org.mockito.MockitoAnnotations
+commons-dbutils,commons-dbutils\src\test\java\org\apache\commons\dbutils\DbUtilsTest.java,mockito,static org.mockito.Mockito.doThrow
+commons-dbutils,commons-dbutils\src\test\java\org\apache\commons\dbutils\DbUtilsTest.java,mockito,static org.mockito.Mockito.mock
+commons-dbutils,commons-dbutils\src\test\java\org\apache\commons\dbutils\DbUtilsTest.java,mockito,static org.mockito.Mockito.reset
+commons-dbutils,commons-dbutils\src\test\java\org\apache\commons\dbutils\DbUtilsTest.java,mockito,static org.mockito.Mockito.verify
+commons-dbutils,commons-dbutils\src\test\java\org\apache\commons\dbutils\GenerousBeanProcessorTest.java,mockito,org.mockito.Mock
+commons-dbutils,commons-dbutils\src\test\java\org\apache\commons\dbutils\GenerousBeanProcessorTest.java,mockito,org.mockito.MockitoAnnotations
+commons-dbutils,commons-dbutils\src\test\java\org\apache\commons\dbutils\GenerousBeanProcessorTest.java,mockito,static org.mockito.Mockito.when
+commons-dbutils,commons-dbutils\src\test\java\org\apache\commons\dbutils\OutParameterTest.java,mockito,static org.mockito.Mockito.any
+commons-dbutils,commons-dbutils\src\test\java\org\apache\commons\dbutils\OutParameterTest.java,mockito,static org.mockito.Mockito.eq
+commons-dbutils,commons-dbutils\src\test\java\org\apache\commons\dbutils\OutParameterTest.java,mockito,static org.mockito.Mockito.times
+commons-dbutils,commons-dbutils\src\test\java\org\apache\commons\dbutils\OutParameterTest.java,mockito,static org.mockito.Mockito.verify
+commons-dbutils,commons-dbutils\src\test\java\org\apache\commons\dbutils\OutParameterTest.java,mockito,static org.mockito.Mockito.when
+commons-dbutils,commons-dbutils\src\test\java\org\apache\commons\dbutils\OutParameterTest.java,mockito,org.mockito.Mock
+commons-dbutils,commons-dbutils\src\test\java\org\apache\commons\dbutils\OutParameterTest.java,mockito,org.mockito.MockitoAnnotations
+commons-dbutils,commons-dbutils\src\test\java\org\apache\commons\dbutils\QueryRunnerTest.java,mockito,static org.mockito.Mockito.any
+commons-dbutils,commons-dbutils\src\test\java\org\apache\commons\dbutils\QueryRunnerTest.java,mockito,static org.mockito.Mockito.doThrow
+commons-dbutils,commons-dbutils\src\test\java\org\apache\commons\dbutils\QueryRunnerTest.java,mockito,static org.mockito.Mockito.eq
+commons-dbutils,commons-dbutils\src\test\java\org\apache\commons\dbutils\QueryRunnerTest.java,mockito,static org.mockito.Mockito.mock
+commons-dbutils,commons-dbutils\src\test\java\org\apache\commons\dbutils\QueryRunnerTest.java,mockito,static org.mockito.Mockito.never
+commons-dbutils,commons-dbutils\src\test\java\org\apache\commons\dbutils\QueryRunnerTest.java,mockito,static org.mockito.Mockito.times
+commons-dbutils,commons-dbutils\src\test\java\org\apache\commons\dbutils\QueryRunnerTest.java,mockito,static org.mockito.Mockito.verify
+commons-dbutils,commons-dbutils\src\test\java\org\apache\commons\dbutils\QueryRunnerTest.java,mockito,static org.mockito.Mockito.when
+commons-dbutils,commons-dbutils\src\test\java\org\apache\commons\dbutils\QueryRunnerTest.java,mockito,org.mockito.Mock
+commons-dbutils,commons-dbutils\src\test\java\org\apache\commons\dbutils\QueryRunnerTest.java,mockito,org.mockito.MockitoAnnotations
+commons-dbutils,commons-dbutils\src\test\java\org\apache\commons\dbutils\QueryRunnerTest.java,mockito,org.mockito.invocation.InvocationOnMock
+commons-dbutils,commons-dbutils\src\test\java\org\apache\commons\dbutils\QueryRunnerTest.java,mockito,org.mockito.stubbing.Answer
+commons-dbutils,commons-dbutils\src\test\java\org\apache\commons\dbutils\ResultSetIteratorTest.java,mockito,static org.mockito.Mockito.mock
+commons-dbutils,commons-dbutils\src\test\java\org\apache\commons\dbutils\handlers\BeanMapHandlerTest.java,mockito,static org.mockito.Mockito.when
+commons-dbutils,commons-dbutils\src\test\java\org\apache\commons\dbutils\handlers\BeanMapHandlerTest.java,mockito,org.mockito.Mock
+commons-dbutils,commons-dbutils\src\test\java\org\apache\commons\dbutils\handlers\BeanMapHandlerTest.java,mockito,org.mockito.MockitoAnnotations
+commons-dbutils,commons-dbutils\src\test\java\org\apache\commons\dbutils\handlers\KeyedHandlerTest.java,mockito,static org.mockito.Mockito.mock
+commons-dbutils,commons-dbutils\src\test\java\org\apache\commons\dbutils\handlers\columns\BooleanColumnHandlerTest.java,mockito,static org.mockito.Mockito.when
+commons-dbutils,commons-dbutils\src\test\java\org\apache\commons\dbutils\handlers\columns\BooleanColumnHandlerTest.java,mockito,org.mockito.junit.MockitoJUnitRunner
+commons-dbutils,commons-dbutils\src\test\java\org\apache\commons\dbutils\handlers\columns\ByteColumnHandlerTest.java,mockito,static org.mockito.Mockito.when
+commons-dbutils,commons-dbutils\src\test\java\org\apache\commons\dbutils\handlers\columns\ByteColumnHandlerTest.java,mockito,org.mockito.junit.MockitoJUnitRunner
+commons-dbutils,commons-dbutils\src\test\java\org\apache\commons\dbutils\handlers\columns\ColumnHandlerTestBase.java,mockito,org.mockito.Mock
+commons-dbutils,commons-dbutils\src\test\java\org\apache\commons\dbutils\handlers\columns\DoubleColumnHandlerTest.java,mockito,static org.mockito.Mockito.when
+commons-dbutils,commons-dbutils\src\test\java\org\apache\commons\dbutils\handlers\columns\DoubleColumnHandlerTest.java,mockito,org.mockito.junit.MockitoJUnitRunner
+commons-dbutils,commons-dbutils\src\test\java\org\apache\commons\dbutils\handlers\columns\FloatColumnHandlerTest.java,mockito,static org.mockito.Mockito.when
+commons-dbutils,commons-dbutils\src\test\java\org\apache\commons\dbutils\handlers\columns\FloatColumnHandlerTest.java,mockito,org.mockito.junit.MockitoJUnitRunner
+commons-dbutils,commons-dbutils\src\test\java\org\apache\commons\dbutils\handlers\columns\IntegerColumnHandlerTest.java,mockito,static org.mockito.Mockito.when
+commons-dbutils,commons-dbutils\src\test\java\org\apache\commons\dbutils\handlers\columns\IntegerColumnHandlerTest.java,mockito,org.mockito.junit.MockitoJUnitRunner
+commons-dbutils,commons-dbutils\src\test\java\org\apache\commons\dbutils\handlers\columns\LongColumnHandlerTest.java,mockito,static org.mockito.Mockito.when
+commons-dbutils,commons-dbutils\src\test\java\org\apache\commons\dbutils\handlers\columns\LongColumnHandlerTest.java,mockito,org.mockito.junit.MockitoJUnitRunner
+commons-dbutils,commons-dbutils\src\test\java\org\apache\commons\dbutils\handlers\columns\SQLXMLColumnHandlerTest.java,mockito,static org.mockito.Mockito.when
+commons-dbutils,commons-dbutils\src\test\java\org\apache\commons\dbutils\handlers\columns\SQLXMLColumnHandlerTest.java,mockito,org.mockito.Mock
+commons-dbutils,commons-dbutils\src\test\java\org\apache\commons\dbutils\handlers\columns\SQLXMLColumnHandlerTest.java,mockito,org.mockito.junit.MockitoJUnitRunner
+commons-dbutils,commons-dbutils\src\test\java\org\apache\commons\dbutils\handlers\columns\ShortColumnHandlerTest.java,mockito,static org.mockito.Mockito.when
+commons-dbutils,commons-dbutils\src\test\java\org\apache\commons\dbutils\handlers\columns\ShortColumnHandlerTest.java,mockito,org.mockito.junit.MockitoJUnitRunner
+commons-dbutils,commons-dbutils\src\test\java\org\apache\commons\dbutils\handlers\columns\StringColumnHandlerTest.java,mockito,static org.mockito.Mockito.when
+commons-dbutils,commons-dbutils\src\test\java\org\apache\commons\dbutils\handlers\columns\StringColumnHandlerTest.java,mockito,org.mockito.junit.MockitoJUnitRunner
+commons-dbutils,commons-dbutils\src\test\java\org\apache\commons\dbutils\handlers\columns\TimestampColumnHandlerTest.java,mockito,static org.mockito.Mockito.when
+commons-dbutils,commons-dbutils\src\test\java\org\apache\commons\dbutils\handlers\columns\TimestampColumnHandlerTest.java,mockito,org.mockito.junit.MockitoJUnitRunner
+commons-dbutils,commons-dbutils\src\test\java\org\apache\commons\dbutils\wrappers\SqlNullCheckedResultSetTest.java,mockito,static org.mockito.Mockito.mock
+commons-dbutils,commons-dbutils\src\test\java\org\apache\commons\dbutils\wrappers\SqlNullCheckedResultSetTest.java,mockito,static org.mockito.Mockito.verify
+commons-email,commons-email\src\test\java\org\apache\commons\mail\AbstractEmailTest.java,easymock,static org.easymock.EasyMock.expect
+commons-email,commons-email\src\test\java\org\apache\commons\mail\AbstractEmailTest.java,powermock,static org.powermock.api.easymock.PowerMock.createMock
+commons-email,commons-email\src\test\java\org\apache\commons\mail\AbstractEmailTest.java,powermock,static org.powermock.api.easymock.PowerMock.replay
+commons-email,commons-email\src\test\java\org\apache\commons\mail\HtmlEmailTest.java,powermock,org.powermock.core.classloader.annotations.PrepareForTest
+commons-email,commons-email\src\test\java\org\apache\commons\mail\HtmlEmailTest.java,powermock,org.powermock.modules.junit4.PowerMockRunner
+commons-email,commons-email\src\test\java\org\apache\commons\mail\MultiPartEmailTest.java,powermock,org.powermock.core.classloader.annotations.PrepareForTest
+commons-email,commons-email\src\test\java\org\apache\commons\mail\MultiPartEmailTest.java,powermock,org.powermock.modules.junit4.PowerMockRunner
+httpcomponents-client,httpcomponents-client\httpclient5-cache\src\test\java\org\apache\hc\client5\http\cache\TestHttpCacheEntry.java,mockito,static org.mockito.Mockito.mock
+httpcomponents-client,httpcomponents-client\httpclient5-cache\src\test\java\org\apache\hc\client5\http\impl\cache\RequestEquivalent.java,mockito,org.mockito.ArgumentMatcher
+httpcomponents-client,httpcomponents-client\httpclient5-cache\src\test\java\org\apache\hc\client5\http\impl\cache\RequestEquivalent.java,mockito,org.mockito.ArgumentMatchers
+httpcomponents-client,httpcomponents-client\httpclient5-cache\src\test\java\org\apache\hc\client5\http\impl\cache\ResponseEquivalent.java,mockito,org.mockito.ArgumentMatcher
+httpcomponents-client,httpcomponents-client\httpclient5-cache\src\test\java\org\apache\hc\client5\http\impl\cache\ResponseEquivalent.java,mockito,org.mockito.ArgumentMatchers
+httpcomponents-client,httpcomponents-client\httpclient5-cache\src\test\java\org\apache\hc\client5\http\impl\cache\TestAbstractSerializingAsyncCacheStorage.java,mockito,static org.mockito.Mockito.verify
+httpcomponents-client,httpcomponents-client\httpclient5-cache\src\test\java\org\apache\hc\client5\http\impl\cache\TestAbstractSerializingAsyncCacheStorage.java,mockito,static org.mockito.Mockito.when
+httpcomponents-client,httpcomponents-client\httpclient5-cache\src\test\java\org\apache\hc\client5\http\impl\cache\TestAbstractSerializingAsyncCacheStorage.java,mockito,org.mockito.Answers
+httpcomponents-client,httpcomponents-client\httpclient5-cache\src\test\java\org\apache\hc\client5\http\impl\cache\TestAbstractSerializingAsyncCacheStorage.java,mockito,org.mockito.ArgumentCaptor
+httpcomponents-client,httpcomponents-client\httpclient5-cache\src\test\java\org\apache\hc\client5\http\impl\cache\TestAbstractSerializingAsyncCacheStorage.java,mockito,org.mockito.ArgumentMatchers
+httpcomponents-client,httpcomponents-client\httpclient5-cache\src\test\java\org\apache\hc\client5\http\impl\cache\TestAbstractSerializingAsyncCacheStorage.java,mockito,org.mockito.Mock
+httpcomponents-client,httpcomponents-client\httpclient5-cache\src\test\java\org\apache\hc\client5\http\impl\cache\TestAbstractSerializingAsyncCacheStorage.java,mockito,org.mockito.Mockito
+httpcomponents-client,httpcomponents-client\httpclient5-cache\src\test\java\org\apache\hc\client5\http\impl\cache\TestAbstractSerializingAsyncCacheStorage.java,mockito,org.mockito.junit.MockitoJUnitRunner
+httpcomponents-client,httpcomponents-client\httpclient5-cache\src\test\java\org\apache\hc\client5\http\impl\cache\TestAbstractSerializingAsyncCacheStorage.java,mockito,org.mockito.stubbing.Answer
+httpcomponents-client,httpcomponents-client\httpclient5-cache\src\test\java\org\apache\hc\client5\http\impl\cache\TestAbstractSerializingCacheStorage.java,mockito,static org.mockito.ArgumentMatchers.eq
+httpcomponents-client,httpcomponents-client\httpclient5-cache\src\test\java\org\apache\hc\client5\http\impl\cache\TestAbstractSerializingCacheStorage.java,mockito,static org.mockito.Mockito.verify
+httpcomponents-client,httpcomponents-client\httpclient5-cache\src\test\java\org\apache\hc\client5\http\impl\cache\TestAbstractSerializingCacheStorage.java,mockito,static org.mockito.Mockito.when
+httpcomponents-client,httpcomponents-client\httpclient5-cache\src\test\java\org\apache\hc\client5\http\impl\cache\TestAbstractSerializingCacheStorage.java,mockito,org.mockito.Answers
+httpcomponents-client,httpcomponents-client\httpclient5-cache\src\test\java\org\apache\hc\client5\http\impl\cache\TestAbstractSerializingCacheStorage.java,mockito,org.mockito.ArgumentCaptor
+httpcomponents-client,httpcomponents-client\httpclient5-cache\src\test\java\org\apache\hc\client5\http\impl\cache\TestAbstractSerializingCacheStorage.java,mockito,org.mockito.ArgumentMatchers
+httpcomponents-client,httpcomponents-client\httpclient5-cache\src\test\java\org\apache\hc\client5\http\impl\cache\TestAbstractSerializingCacheStorage.java,mockito,org.mockito.Mockito
+httpcomponents-client,httpcomponents-client\httpclient5-cache\src\test\java\org\apache\hc\client5\http\impl\cache\TestAbstractSerializingCacheStorage.java,mockito,org.mockito.stubbing.Answer
+httpcomponents-client,httpcomponents-client\httpclient5-cache\src\test\java\org\apache\hc\client5\http\impl\cache\TestCacheKeyGenerator.java,mockito,static org.mockito.Mockito.mock
+httpcomponents-client,httpcomponents-client\httpclient5-cache\src\test\java\org\apache\hc\client5\http\impl\cache\TestCacheKeyGenerator.java,mockito,static org.mockito.Mockito.verify
+httpcomponents-client,httpcomponents-client\httpclient5-cache\src\test\java\org\apache\hc\client5\http\impl\cache\TestCacheKeyGenerator.java,mockito,static org.mockito.Mockito.when
+httpcomponents-client,httpcomponents-client\httpclient5-cache\src\test\java\org\apache\hc\client5\http\impl\cache\TestCacheRevalidatorBase.java,mockito,static org.mockito.Mockito.doThrow
+httpcomponents-client,httpcomponents-client\httpclient5-cache\src\test\java\org\apache\hc\client5\http\impl\cache\TestCacheRevalidatorBase.java,mockito,static org.mockito.Mockito.verify
+httpcomponents-client,httpcomponents-client\httpclient5-cache\src\test\java\org\apache\hc\client5\http\impl\cache\TestCacheRevalidatorBase.java,mockito,static org.mockito.Mockito.when
+httpcomponents-client,httpcomponents-client\httpclient5-cache\src\test\java\org\apache\hc\client5\http\impl\cache\TestCacheRevalidatorBase.java,mockito,org.mockito.ArgumentMatchers
+httpcomponents-client,httpcomponents-client\httpclient5-cache\src\test\java\org\apache\hc\client5\http\impl\cache\TestCacheRevalidatorBase.java,mockito,org.mockito.Mock
+httpcomponents-client,httpcomponents-client\httpclient5-cache\src\test\java\org\apache\hc\client5\http\impl\cache\TestCacheRevalidatorBase.java,mockito,org.mockito.junit.MockitoJUnitRunner
+httpcomponents-client,httpcomponents-client\httpclient5-cache\src\test\java\org\apache\hc\client5\http\impl\cache\TestCachedHttpResponseGenerator.java,mockito,static org.mockito.ArgumentMatchers.isA
+httpcomponents-client,httpcomponents-client\httpclient5-cache\src\test\java\org\apache\hc\client5\http\impl\cache\TestCachedHttpResponseGenerator.java,mockito,static org.mockito.ArgumentMatchers.same
+httpcomponents-client,httpcomponents-client\httpclient5-cache\src\test\java\org\apache\hc\client5\http\impl\cache\TestCachedHttpResponseGenerator.java,mockito,static org.mockito.Mockito.mock
+httpcomponents-client,httpcomponents-client\httpclient5-cache\src\test\java\org\apache\hc\client5\http\impl\cache\TestCachedHttpResponseGenerator.java,mockito,static org.mockito.Mockito.verify
+httpcomponents-client,httpcomponents-client\httpclient5-cache\src\test\java\org\apache\hc\client5\http\impl\cache\TestCachedHttpResponseGenerator.java,mockito,static org.mockito.Mockito.when
+httpcomponents-client,httpcomponents-client\httpclient5-cache\src\test\java\org\apache\hc\client5\http\impl\cache\TestCachingExecChain.java,mockito,org.mockito.ArgumentCaptor
+httpcomponents-client,httpcomponents-client\httpclient5-cache\src\test\java\org\apache\hc\client5\http\impl\cache\TestCachingExecChain.java,mockito,org.mockito.Mock
+httpcomponents-client,httpcomponents-client\httpclient5-cache\src\test\java\org\apache\hc\client5\http\impl\cache\TestCachingExecChain.java,mockito,org.mockito.Mockito
+httpcomponents-client,httpcomponents-client\httpclient5-cache\src\test\java\org\apache\hc\client5\http\impl\cache\TestCachingExecChain.java,mockito,org.mockito.Spy
+httpcomponents-client,httpcomponents-client\httpclient5-cache\src\test\java\org\apache\hc\client5\http\impl\cache\TestCachingExecChain.java,mockito,org.mockito.junit.MockitoJUnitRunner
+httpcomponents-client,httpcomponents-client\httpclient5-cache\src\test\java\org\apache\hc\client5\http\impl\cache\TestCombinedEntity.java,mockito,static org.mockito.Mockito.mock
+httpcomponents-client,httpcomponents-client\httpclient5-cache\src\test\java\org\apache\hc\client5\http\impl\cache\TestCombinedEntity.java,mockito,static org.mockito.Mockito.verify
+httpcomponents-client,httpcomponents-client\httpclient5-cache\src\test\java\org\apache\hc\client5\http\impl\cache\TestCombinedEntity.java,mockito,static org.mockito.Mockito.when
+httpcomponents-client,httpcomponents-client\httpclient5-cache\src\test\java\org\apache\hc\client5\http\impl\cache\TestDefaultAsyncCacheInvalidator.java,mockito,static org.mockito.Mockito.verify
+httpcomponents-client,httpcomponents-client\httpclient5-cache\src\test\java\org\apache\hc\client5\http\impl\cache\TestDefaultAsyncCacheInvalidator.java,mockito,static org.mockito.Mockito.verifyNoMoreInteractions
+httpcomponents-client,httpcomponents-client\httpclient5-cache\src\test\java\org\apache\hc\client5\http\impl\cache\TestDefaultAsyncCacheInvalidator.java,mockito,static org.mockito.Mockito.when
+httpcomponents-client,httpcomponents-client\httpclient5-cache\src\test\java\org\apache\hc\client5\http\impl\cache\TestDefaultAsyncCacheInvalidator.java,mockito,org.mockito.ArgumentMatchers
+httpcomponents-client,httpcomponents-client\httpclient5-cache\src\test\java\org\apache\hc\client5\http\impl\cache\TestDefaultAsyncCacheInvalidator.java,mockito,org.mockito.Mock
+httpcomponents-client,httpcomponents-client\httpclient5-cache\src\test\java\org\apache\hc\client5\http\impl\cache\TestDefaultAsyncCacheInvalidator.java,mockito,org.mockito.Mockito
+httpcomponents-client,httpcomponents-client\httpclient5-cache\src\test\java\org\apache\hc\client5\http\impl\cache\TestDefaultAsyncCacheInvalidator.java,mockito,org.mockito.junit.MockitoJUnitRunner
+httpcomponents-client,httpcomponents-client\httpclient5-cache\src\test\java\org\apache\hc\client5\http\impl\cache\TestDefaultAsyncCacheInvalidator.java,mockito,org.mockito.stubbing.Answer
+httpcomponents-client,httpcomponents-client\httpclient5-cache\src\test\java\org\apache\hc\client5\http\impl\cache\TestDefaultCacheInvalidator.java,mockito,static org.mockito.Mockito.verify
+httpcomponents-client,httpcomponents-client\httpclient5-cache\src\test\java\org\apache\hc\client5\http\impl\cache\TestDefaultCacheInvalidator.java,mockito,static org.mockito.Mockito.verifyNoMoreInteractions
+httpcomponents-client,httpcomponents-client\httpclient5-cache\src\test\java\org\apache\hc\client5\http\impl\cache\TestDefaultCacheInvalidator.java,mockito,static org.mockito.Mockito.when
+httpcomponents-client,httpcomponents-client\httpclient5-cache\src\test\java\org\apache\hc\client5\http\impl\cache\TestDefaultCacheInvalidator.java,mockito,org.mockito.ArgumentMatchers
+httpcomponents-client,httpcomponents-client\httpclient5-cache\src\test\java\org\apache\hc\client5\http\impl\cache\TestDefaultCacheInvalidator.java,mockito,org.mockito.Mock
+httpcomponents-client,httpcomponents-client\httpclient5-cache\src\test\java\org\apache\hc\client5\http\impl\cache\TestDefaultCacheInvalidator.java,mockito,org.mockito.junit.MockitoJUnitRunner
+httpcomponents-client,httpcomponents-client\httpclient5-cache\src\test\java\org\apache\hc\client5\http\impl\cache\TestDefaultCacheInvalidator.java,mockito,org.mockito.stubbing.Answer
+httpcomponents-client,httpcomponents-client\httpclient5-cache\src\test\java\org\apache\hc\client5\http\impl\cache\TestHttpByteArrayCacheEntrySerializer.java,mockito,org.mockito.Mockito
+httpcomponents-client,httpcomponents-client\httpclient5-cache\src\test\java\org\apache\hc\client5\http\impl\cache\TestHttpCacheJiraNumber1147.java,mockito,static org.mockito.ArgumentMatchers.isA
+httpcomponents-client,httpcomponents-client\httpclient5-cache\src\test\java\org\apache\hc\client5\http\impl\cache\TestHttpCacheJiraNumber1147.java,mockito,static org.mockito.Mockito.mock
+httpcomponents-client,httpcomponents-client\httpclient5-cache\src\test\java\org\apache\hc\client5\http\impl\cache\TestHttpCacheJiraNumber1147.java,mockito,static org.mockito.Mockito.reset
+httpcomponents-client,httpcomponents-client\httpclient5-cache\src\test\java\org\apache\hc\client5\http\impl\cache\TestHttpCacheJiraNumber1147.java,mockito,static org.mockito.Mockito.verify
+httpcomponents-client,httpcomponents-client\httpclient5-cache\src\test\java\org\apache\hc\client5\http\impl\cache\TestHttpCacheJiraNumber1147.java,mockito,static org.mockito.Mockito.when
+httpcomponents-client,httpcomponents-client\httpclient5-cache\src\test\java\org\apache\hc\client5\http\impl\cache\TestHttpCacheJiraNumber1147.java,mockito,org.mockito.Mockito
+httpcomponents-client,httpcomponents-client\httpclient5-cache\src\test\java\org\apache\hc\client5\http\impl\cache\TestProtocolAllowedBehavior.java,mockito,org.mockito.Mock
+httpcomponents-client,httpcomponents-client\httpclient5-cache\src\test\java\org\apache\hc\client5\http\impl\cache\TestProtocolAllowedBehavior.java,mockito,org.mockito.Mockito
+httpcomponents-client,httpcomponents-client\httpclient5-cache\src\test\java\org\apache\hc\client5\http\impl\cache\TestProtocolAllowedBehavior.java,mockito,org.mockito.junit.MockitoJUnitRunner
+httpcomponents-client,httpcomponents-client\httpclient5-cache\src\test\java\org\apache\hc\client5\http\impl\cache\TestProtocolDeviations.java,mockito,org.mockito.Mock
+httpcomponents-client,httpcomponents-client\httpclient5-cache\src\test\java\org\apache\hc\client5\http\impl\cache\TestProtocolDeviations.java,mockito,org.mockito.Mockito
+httpcomponents-client,httpcomponents-client\httpclient5-cache\src\test\java\org\apache\hc\client5\http\impl\cache\TestProtocolDeviations.java,mockito,org.mockito.junit.MockitoJUnitRunner
+httpcomponents-client,httpcomponents-client\httpclient5-cache\src\test\java\org\apache\hc\client5\http\impl\cache\TestProtocolRecommendations.java,mockito,org.mockito.ArgumentCaptor
+httpcomponents-client,httpcomponents-client\httpclient5-cache\src\test\java\org\apache\hc\client5\http\impl\cache\TestProtocolRecommendations.java,mockito,org.mockito.Mock
+httpcomponents-client,httpcomponents-client\httpclient5-cache\src\test\java\org\apache\hc\client5\http\impl\cache\TestProtocolRecommendations.java,mockito,org.mockito.Mockito
+httpcomponents-client,httpcomponents-client\httpclient5-cache\src\test\java\org\apache\hc\client5\http\impl\cache\TestProtocolRecommendations.java,mockito,org.mockito.junit.MockitoJUnitRunner
+httpcomponents-client,httpcomponents-client\httpclient5-cache\src\test\java\org\apache\hc\client5\http\impl\cache\TestProtocolRequirements.java,mockito,org.mockito.ArgumentCaptor
+httpcomponents-client,httpcomponents-client\httpclient5-cache\src\test\java\org\apache\hc\client5\http\impl\cache\TestProtocolRequirements.java,mockito,org.mockito.Mock
+httpcomponents-client,httpcomponents-client\httpclient5-cache\src\test\java\org\apache\hc\client5\http\impl\cache\TestProtocolRequirements.java,mockito,org.mockito.Mockito
+httpcomponents-client,httpcomponents-client\httpclient5-cache\src\test\java\org\apache\hc\client5\http\impl\cache\TestProtocolRequirements.java,mockito,org.mockito.junit.MockitoJUnitRunner
+httpcomponents-client,httpcomponents-client\httpclient5-cache\src\test\java\org\apache\hc\client5\http\impl\cache\TestRFC5861Compliance.java,mockito,org.mockito.Mock
+httpcomponents-client,httpcomponents-client\httpclient5-cache\src\test\java\org\apache\hc\client5\http\impl\cache\TestRFC5861Compliance.java,mockito,org.mockito.Mockito
+httpcomponents-client,httpcomponents-client\httpclient5-cache\src\test\java\org\apache\hc\client5\http\impl\cache\TestRFC5861Compliance.java,mockito,org.mockito.junit.MockitoJUnitRunner
+httpcomponents-client,httpcomponents-client\httpclient5-testing\src\test\java\org\apache\hc\client5\testing\async\AbstractHttpAsyncClientAuthentication.java,mockito,org.mockito.Mockito
+httpcomponents-client,httpcomponents-client\httpclient5-testing\src\test\java\org\apache\hc\client5\testing\async\TestHttp1ClientAuthentication.java,mockito,org.mockito.Mockito
+httpcomponents-client,httpcomponents-client\httpclient5-testing\src\test\java\org\apache\hc\client5\testing\sync\TestClientAuthentication.java,mockito,org.mockito.Mockito
+httpcomponents-client,httpcomponents-client\httpclient5-testing\src\test\java\org\apache\hc\client5\testing\sync\TestSPNegoScheme.java,mockito,org.mockito.ArgumentMatchers
+httpcomponents-client,httpcomponents-client\httpclient5-testing\src\test\java\org\apache\hc\client5\testing\sync\TestSPNegoScheme.java,mockito,org.mockito.Mockito
+httpcomponents-client,httpcomponents-client\httpclient5\src\test\java\org\apache\hc\client5\http\entity\TestEntityBuilder.java,mockito,org.mockito.Mockito
+httpcomponents-client,httpcomponents-client\httpclient5\src\test\java\org\apache\hc\client5\http\entity\TestGZip.java,mockito,org.mockito.ArgumentMatchers
+httpcomponents-client,httpcomponents-client\httpclient5\src\test\java\org\apache\hc\client5\http\entity\TestGZip.java,mockito,org.mockito.Mockito
+httpcomponents-client,httpcomponents-client\httpclient5\src\test\java\org\apache\hc\client5\http\impl\TestIdleConnectionEvictor.java,mockito,org.mockito.ArgumentMatchers
+httpcomponents-client,httpcomponents-client\httpclient5\src\test\java\org\apache\hc\client5\http\impl\TestIdleConnectionEvictor.java,mockito,org.mockito.Mockito
+httpcomponents-client,httpcomponents-client\httpclient5\src\test\java\org\apache\hc\client5\http\impl\auth\TestHttpAuthenticator.java,mockito,org.mockito.Answers
+httpcomponents-client,httpcomponents-client\httpclient5\src\test\java\org\apache\hc\client5\http\impl\auth\TestHttpAuthenticator.java,mockito,org.mockito.Mockito
+httpcomponents-client,httpcomponents-client\httpclient5\src\test\java\org\apache\hc\client5\http\impl\auth\TestSystemDefaultCredentialsProvider.java,mockito,org.mockito.ArgumentMatchers
+httpcomponents-client,httpcomponents-client\httpclient5\src\test\java\org\apache\hc\client5\http\impl\auth\TestSystemDefaultCredentialsProvider.java,mockito,org.mockito.Mockito
+httpcomponents-client,httpcomponents-client\httpclient5\src\test\java\org\apache\hc\client5\http\impl\classic\TestAbstractHttpClientResponseHandler.java,mockito,org.mockito.Mockito
+httpcomponents-client,httpcomponents-client\httpclient5\src\test\java\org\apache\hc\client5\http\impl\classic\TestBasicResponseHandler.java,mockito,org.mockito.Mockito
+httpcomponents-client,httpcomponents-client\httpclient5\src\test\java\org\apache\hc\client5\http\impl\classic\TestCloseableHttpClient.java,mockito,org.mockito.Mockito
+httpcomponents-client,httpcomponents-client\httpclient5\src\test\java\org\apache\hc\client5\http\impl\classic\TestConnectExec.java,mockito,org.mockito.ArgumentCaptor
+httpcomponents-client,httpcomponents-client\httpclient5\src\test\java\org\apache\hc\client5\http\impl\classic\TestConnectExec.java,mockito,org.mockito.Mock
+httpcomponents-client,httpcomponents-client\httpclient5\src\test\java\org\apache\hc\client5\http\impl\classic\TestConnectExec.java,mockito,org.mockito.Mockito
+httpcomponents-client,httpcomponents-client\httpclient5\src\test\java\org\apache\hc\client5\http\impl\classic\TestConnectExec.java,mockito,org.mockito.junit.MockitoJUnitRunner
+httpcomponents-client,httpcomponents-client\httpclient5\src\test\java\org\apache\hc\client5\http\impl\classic\TestConnectExec.java,mockito,org.mockito.stubbing.Answer
+httpcomponents-client,httpcomponents-client\httpclient5\src\test\java\org\apache\hc\client5\http\impl\classic\TestContentCompressionExec.java,mockito,org.mockito.Mock
+httpcomponents-client,httpcomponents-client\httpclient5\src\test\java\org\apache\hc\client5\http\impl\classic\TestContentCompressionExec.java,mockito,org.mockito.Mockito
+httpcomponents-client,httpcomponents-client\httpclient5\src\test\java\org\apache\hc\client5\http\impl\classic\TestContentCompressionExec.java,mockito,org.mockito.junit.MockitoJUnitRunner
+httpcomponents-client,httpcomponents-client\httpclient5\src\test\java\org\apache\hc\client5\http\impl\classic\TestHttpRequestRetryExec.java,mockito,org.mockito.Mock
+httpcomponents-client,httpcomponents-client\httpclient5\src\test\java\org\apache\hc\client5\http\impl\classic\TestHttpRequestRetryExec.java,mockito,org.mockito.Mockito
+httpcomponents-client,httpcomponents-client\httpclient5\src\test\java\org\apache\hc\client5\http\impl\classic\TestHttpRequestRetryExec.java,mockito,org.mockito.junit.MockitoJUnitRunner
+httpcomponents-client,httpcomponents-client\httpclient5\src\test\java\org\apache\hc\client5\http\impl\classic\TestInternalExecRuntime.java,mockito,org.mockito.Mock
+httpcomponents-client,httpcomponents-client\httpclient5\src\test\java\org\apache\hc\client5\http\impl\classic\TestInternalExecRuntime.java,mockito,org.mockito.Mockito
+httpcomponents-client,httpcomponents-client\httpclient5\src\test\java\org\apache\hc\client5\http\impl\classic\TestInternalExecRuntime.java,mockito,org.mockito.junit.MockitoJUnitRunner
+httpcomponents-client,httpcomponents-client\httpclient5\src\test\java\org\apache\hc\client5\http\impl\classic\TestInternalHttpClient.java,mockito,org.mockito.Mock
+httpcomponents-client,httpcomponents-client\httpclient5\src\test\java\org\apache\hc\client5\http\impl\classic\TestInternalHttpClient.java,mockito,org.mockito.Mockito
+httpcomponents-client,httpcomponents-client\httpclient5\src\test\java\org\apache\hc\client5\http\impl\classic\TestInternalHttpClient.java,mockito,org.mockito.junit.MockitoJUnitRunner
+httpcomponents-client,httpcomponents-client\httpclient5\src\test\java\org\apache\hc\client5\http\impl\classic\TestMainClientExec.java,mockito,org.mockito.Mock
+httpcomponents-client,httpcomponents-client\httpclient5\src\test\java\org\apache\hc\client5\http\impl\classic\TestMainClientExec.java,mockito,org.mockito.Mockito
+httpcomponents-client,httpcomponents-client\httpclient5\src\test\java\org\apache\hc\client5\http\impl\classic\TestMainClientExec.java,mockito,org.mockito.junit.MockitoJUnitRunner
+httpcomponents-client,httpcomponents-client\httpclient5\src\test\java\org\apache\hc\client5\http\impl\classic\TestMainClientExec.java,mockito,org.mockito.stubbing.Answer
+httpcomponents-client,httpcomponents-client\httpclient5\src\test\java\org\apache\hc\client5\http\impl\classic\TestProtocolExec.java,mockito,org.mockito.Mock
+httpcomponents-client,httpcomponents-client\httpclient5\src\test\java\org\apache\hc\client5\http\impl\classic\TestProtocolExec.java,mockito,org.mockito.Mockito
+httpcomponents-client,httpcomponents-client\httpclient5\src\test\java\org\apache\hc\client5\http\impl\classic\TestProtocolExec.java,mockito,org.mockito.junit.MockitoJUnitRunner
+httpcomponents-client,httpcomponents-client\httpclient5\src\test\java\org\apache\hc\client5\http\impl\classic\TestProtocolExec.java,mockito,org.mockito.stubbing.Answer
+httpcomponents-client,httpcomponents-client\httpclient5\src\test\java\org\apache\hc\client5\http\impl\classic\TestRedirectExec.java,mockito,org.mockito.ArgumentCaptor
+httpcomponents-client,httpcomponents-client\httpclient5\src\test\java\org\apache\hc\client5\http\impl\classic\TestRedirectExec.java,mockito,org.mockito.ArgumentMatcher
+httpcomponents-client,httpcomponents-client\httpclient5\src\test\java\org\apache\hc\client5\http\impl\classic\TestRedirectExec.java,mockito,org.mockito.ArgumentMatchers
+httpcomponents-client,httpcomponents-client\httpclient5\src\test\java\org\apache\hc\client5\http\impl\classic\TestRedirectExec.java,mockito,org.mockito.Mock
+httpcomponents-client,httpcomponents-client\httpclient5\src\test\java\org\apache\hc\client5\http\impl\classic\TestRedirectExec.java,mockito,org.mockito.Mockito
+httpcomponents-client,httpcomponents-client\httpclient5\src\test\java\org\apache\hc\client5\http\impl\classic\TestRedirectExec.java,mockito,org.mockito.junit.MockitoJUnitRunner
+httpcomponents-client,httpcomponents-client\httpclient5\src\test\java\org\apache\hc\client5\http\impl\classic\TestResponseEntityProxy.java,mockito,org.mockito.ArgumentCaptor
+httpcomponents-client,httpcomponents-client\httpclient5\src\test\java\org\apache\hc\client5\http\impl\classic\TestResponseEntityProxy.java,mockito,org.mockito.Mock
+httpcomponents-client,httpcomponents-client\httpclient5\src\test\java\org\apache\hc\client5\http\impl\classic\TestResponseEntityProxy.java,mockito,org.mockito.Mockito
+httpcomponents-client,httpcomponents-client\httpclient5\src\test\java\org\apache\hc\client5\http\impl\classic\TestResponseEntityProxy.java,mockito,org.mockito.junit.MockitoJUnitRunner
+httpcomponents-client,httpcomponents-client\httpclient5\src\test\java\org\apache\hc\client5\http\impl\classic\TestResponseEntityWrapper.java,mockito,org.mockito.Mockito
+httpcomponents-client,httpcomponents-client\httpclient5\src\test\java\org\apache\hc\client5\http\impl\cookie\TestRFC6265CookieSpec.java,mockito,org.mockito.ArgumentMatchers
+httpcomponents-client,httpcomponents-client\httpclient5\src\test\java\org\apache\hc\client5\http\impl\cookie\TestRFC6265CookieSpec.java,mockito,org.mockito.Mockito
+httpcomponents-client,httpcomponents-client\httpclient5\src\test\java\org\apache\hc\client5\http\impl\io\TestBasicHttpClientConnectionManager.java,mockito,org.mockito.Mock
+httpcomponents-client,httpcomponents-client\httpclient5\src\test\java\org\apache\hc\client5\http\impl\io\TestBasicHttpClientConnectionManager.java,mockito,org.mockito.Mockito
+httpcomponents-client,httpcomponents-client\httpclient5\src\test\java\org\apache\hc\client5\http\impl\io\TestBasicHttpClientConnectionManager.java,mockito,org.mockito.junit.MockitoJUnitRunner
+httpcomponents-client,httpcomponents-client\httpclient5\src\test\java\org\apache\hc\client5\http\impl\io\TestHttpClientConnectionOperator.java,mockito,org.mockito.Mockito
+httpcomponents-client,httpcomponents-client\httpclient5\src\test\java\org\apache\hc\client5\http\impl\io\TestPoolingHttpClientConnectionManager.java,mockito,org.mockito.Mock
+httpcomponents-client,httpcomponents-client\httpclient5\src\test\java\org\apache\hc\client5\http\impl\io\TestPoolingHttpClientConnectionManager.java,mockito,org.mockito.Mockito
+httpcomponents-client,httpcomponents-client\httpclient5\src\test\java\org\apache\hc\client5\http\impl\io\TestPoolingHttpClientConnectionManager.java,mockito,org.mockito.junit.MockitoJUnitRunner
+httpcomponents-client,httpcomponents-client\httpclient5\src\test\java\org\apache\hc\client5\http\impl\routing\TestDefaultProxyRoutePlanner.java,mockito,org.mockito.Mockito
+httpcomponents-client,httpcomponents-client\httpclient5\src\test\java\org\apache\hc\client5\http\impl\routing\TestDefaultRoutePlanner.java,mockito,org.mockito.Mockito
+httpcomponents-client,httpcomponents-client\httpclient5\src\test\java\org\apache\hc\client5\http\impl\routing\TestSystemDefaultRoutePlanner.java,mockito,org.mockito.ArgumentMatchers
+httpcomponents-client,httpcomponents-client\httpclient5\src\test\java\org\apache\hc\client5\http\impl\routing\TestSystemDefaultRoutePlanner.java,mockito,org.mockito.Mockito
+httpcomponents-client,httpcomponents-client\httpclient5\src\test\java\org\apache\hc\client5\http\protocol\TestRequestAddCookies.java,mockito,org.mockito.ArgumentMatchers
+httpcomponents-client,httpcomponents-client\httpclient5\src\test\java\org\apache\hc\client5\http\protocol\TestRequestAddCookies.java,mockito,org.mockito.Mockito

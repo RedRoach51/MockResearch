@@ -1,0 +1,120 @@
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+	Method name: verify
+	Class origin: org.mockito.Mockito
+	Count: 51
+ 
+	Method name: times
+	Class origin: org.mockito.Mockito
+	Count: 51
+ 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+	Method name: verify
+	Class origin: org.mockito.Mockito
+	Count: 58
+ 
+	Method name: times
+	Class origin: org.mockito.Mockito
+	Count: 58
+ 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+	Method name: verify
+	Class origin: org.mockito.Mockito
+	Count: 194
+ 
+	Method name: times
+	Class origin: org.mockito.Mockito
+	Count: 194
+ 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+	Method name: verify
+	Class origin: org.mockito.Mockito
+	Count: 176
+ 
+	Method name: times
+	Class origin: org.mockito.Mockito
+	Count: 176
+ 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+	Method name: verify
+	Class origin: org.mockito.Mockito
+	Count: 121
+ 
+	Method name: times
+	Class origin: org.mockito.Mockito
+	Count: 121
+ 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+	Method name: verify
+	Class origin: org.mockito.Mockito
+	Count: 51
+ 
+	Method name: times
+	Class origin: org.mockito.Mockito
+	Count: 51
+ 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+	Method name: verify
+	Class origin: org.mockito.Mockito
+	Count: 58
+ 
+	Method name: times
+	Class origin: org.mockito.Mockito
+	Count: 58
+ 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+	Method name: verify
+	Class origin: org.mockito.Mockito
+	Count: 194
+ 
+	Method name: times
+	Class origin: org.mockito.Mockito
+	Count: 194
+ 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+	Method name: verify
+	Class origin: org.mockito.Mockito
+	Count: 176
+ 
+	Method name: times
+	Class origin: org.mockito.Mockito
+	Count: 176
+ 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+	Method name: verify
+	Class origin: org.mockito.Mockito
+	Count: 121
+ 
+	Method name: times
+	Class origin: org.mockito.Mockito
+	Count: 121
+ 

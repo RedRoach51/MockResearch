@@ -1,0 +1,12 @@
+Inside classes: 
+ 
+ 
+ 
+ 
+Outside classes: 
+ 
+java.sql.Statement
+java.sql.PreparedStatement
+java.sql.ResultSet
+java.sql.DatabaseMetaData
+java.sql.CallableStatement

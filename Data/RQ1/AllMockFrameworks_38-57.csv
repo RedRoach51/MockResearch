@@ -1,0 +1,12 @@
+Project Name,Mocking Framework,Used in # of Files
+commons-chain,mockito,1
+commons-collections,easymock,4
+commons-compress,mockito,1
+commons-configuration,mockobjects,4
+commons-configuration,easymock,67
+commons-csv,mockito,1
+commons-dbcp,mockito,5
+commons-dbutils,mockito,20
+commons-email,easymock,1
+commons-email,powermock,3
+httpcomponents-client,mockito,49

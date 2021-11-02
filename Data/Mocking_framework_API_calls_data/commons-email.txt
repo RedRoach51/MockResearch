@@ -1,0 +1,32 @@
+	Method name: createMock
+	Class origin: org.powermock.api.easymock.PowerMock
+	Count: 1
+ 
+	Method name: andThrow
+	Class origin: org.easymock.IExpectationSetters<java.io.InputStream>
+	Count: 1
+ 
+	Method name: expect
+	Class origin: org.easymock.EasyMock
+	Count: 1
+ 
+	Method name: replay
+	Class origin: org.powermock.api.easymock.PowerMock
+	Count: 1
+ 
+	Method name: createMock
+	Class origin: org.powermock.api.easymock.PowerMock
+	Count: 1
+ 
+	Method name: andThrow
+	Class origin: org.easymock.IExpectationSetters<java.io.InputStream>
+	Count: 1
+ 
+	Method name: expect
+	Class origin: org.easymock.EasyMock
+	Count: 1
+ 
+	Method name: replay
+	Class origin: org.powermock.api.easymock.PowerMock
+	Count: 1
+ 

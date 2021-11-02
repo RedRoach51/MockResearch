@@ -1,0 +1,11 @@
+Inside classes: 
+ 
+ 
+ 
+ 
+Outside classes: 
+ 
+java.lang.Object
+org.w3c.dom.Node
+java.util.Dictionary
+org.apache.commons.collections4.Predicate<T>
