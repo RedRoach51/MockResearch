@@ -45,14 +45,17 @@ public class MockFrameworkFrequencyCalculator {
 			
 			String framework = line.substring(0,next_comma);
 			
-			if(frameworks.contains(framework)) {
-				int temp = frameworks_count.get(frameworks.indexOf(framework)) + 1;
-				frameworks_count.set(frameworks.indexOf(framework), temp);
+			if(!framework.equals("Mocking Framework")){
+				if(frameworks.contains(framework)) {
+					int temp = frameworks_count.get(frameworks.indexOf(framework)) + 1;
+					frameworks_count.set(frameworks.indexOf(framework), temp);
+				}
+				else {
+					frameworks.add(framework);
+					frameworks_count.add(1);
+				}
 			}
-			else {
-				frameworks.add(framework);
-				frameworks_count.add(1);
-			}
+			
 			
 		}
 		
