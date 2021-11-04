@@ -13,7 +13,7 @@ Projects = []
 #   project[5] = Mock imports in Test files, project[6] = Mock frameworks in Test files
 
 
-nonProjectFiles = ['AllMetrics.csv','AllMockImports.csv','AllMockFrameworks.csv','AllMockRatios.csv', 'AllFrameworkRatios.csv']
+nonProjectFiles = ['RQ1Metrics.csv','AllMetrics.csv','AllMockImports.csv','AllMockFrameworks.csv','AllMockRatios.csv', 'AllFrameworkRatios.csv']
 # Set files that CSVReader should ignore here.
 
 metricHeaders = []
@@ -129,8 +129,9 @@ def TestFileMetrics(projectName, testFiles):
         fileFrameworks = []
         check_framework = False;
         for line in reader:
+            line = bytes(line, 'utf-8').decode('utf-8', 'ignore')
             if line.strip()[0:6] == "import" and 'mock' in line.lower() and "apache" not in line.lower():
-#debug                print(projectName + "," + fileName + ": " + line)
+                print(projectName + "," + fileName + ": " + line)
                 framework = IdentifyMockFramework(line)
                 check_framework = True;
                 if filePath not in mockImports:
@@ -142,6 +143,8 @@ def TestFileMetrics(projectName, testFiles):
                     fileFrameworks.append(framework)
             if 'class' in line and fileName in line:
                 break
+                if '你好' in line:
+                    print(projectName + "," + fileName + ": " + line)
         reader.close()
         if check_framework and 'mock' in filePath.lower():
             mockNoImportFiles += 1
@@ -190,7 +193,9 @@ def IdentifyMockFramework(importLine):
 
     return importLine[:nextPeriod]
 
-            
+
+
+''' Main Function '''            
         
 for file in os.listdir('UndProjects'):
     if '.csv' in file and file not in nonProjectFiles:
@@ -224,7 +229,7 @@ for project in Projects:
 #    print("Number of test files: " + str(len(project[2])))
 
 print('Writing to "UndProjects/AllMetrics.csv"...')
-reader = open('UndProjects/AllMetrics.csv','w', newline = '')
+reader = open('UndProjects/AllMetrics.csv','w', newline = '', errors="ignore")
 
 csvOutput = csv.writer(reader)
 csvOutput.writerow(['Project Name', 'commits', 'contributors', 'releases', '.java Files', 'LOC',
@@ -253,7 +258,7 @@ for project in Projects:
 reader.close()
 
 print('Writing to "UndProjects/AllMockImports.csv"...')
-reader = open('UndProjects/AllMockImports.csv','w', newline = '')
+reader = open('UndProjects/AllMockImports.csv','w', newline = '',errors="ignore")
 
 csvOutput = csv.writer(reader)
 csvOutput.writerow(['Project Name', 'File Path', 'Mocking Framework', 'Imported Mock Line'])
@@ -270,7 +275,7 @@ for project in Projects:
 reader.close()
 
 print('Writing to "UndProjects/AllMockFrameworks.csv"...')
-reader = open('UndProjects/AllMockFrameworks.csv','w', newline = '')
+reader = open('UndProjects/AllMockFrameworks.csv','w', newline = '', errors="ignore")
 
 csvOutput = csv.writer(reader)
 csvOutput.writerow(['Project Name','Mocking Framework','Used in # of Files'])
