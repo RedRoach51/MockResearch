@@ -1,0 +1,12 @@
+method, origin, count
+dynamicPort,com.github.tomakehurst.wiremock.core.WireMockConfiguration,10
+wireMockConfig,com.github.tomakehurst.wiremock.core.WireMockConfiguration,2
+options,com.github.tomakehurst.wiremock.core.WireMockConfiguration,8
+stubFor,com.github.tomakehurst.wiremock.WireMockServer,32
+willReturn,com.github.tomakehurst.wiremock.client.MappingBuilder,32
+get,com.github.tomakehurst.wiremock.client.WireMock,16
+urlEqualTo,com.github.tomakehurst.wiremock.client.WireMock,32
+withStatus,com.github.tomakehurst.wiremock.client.ResponseDefinitionBuilder,4
+aResponse,com.github.tomakehurst.wiremock.client.WireMock,32
+put,com.github.tomakehurst.wiremock.client.WireMock,8
+withBody,com.github.tomakehurst.wiremock.client.ResponseDefinitionBuilder,16

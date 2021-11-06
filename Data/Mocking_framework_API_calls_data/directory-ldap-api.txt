@@ -1,0 +1,12 @@
+	Method name: times
+	Class origin: org.mockito.Mockito
+	Count: 25
+ 
+	Method name: times
+	Class origin: org.mockito.Mockito
+	Count: 25
+ 
+	Method name: times
+	Class origin: org.mockito.Mockito
+	Count: 25
+ 

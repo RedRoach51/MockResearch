@@ -1,0 +1,23 @@
+Inside classes: 
+ 
+org.apache.crunch.FilterFn
+org.apache.crunch.Emitter
+org.apache.crunch.hadoop.mapreduce.lib.jobcontrol.CrunchControlledJob.Hook
+org.apache.crunch.impl.dist.DistributedPipeline
+org.apache.crunch.impl.dist.collect.PCollectionImpl
+org.apache.crunch.impl.mr.run.RTNode
+org.apache.crunch.impl.mr.plan.JobPrototype
+org.apache.crunch.impl.mr.collect.InputCollection
+org.apache.crunch.impl.mr.collect.PGroupedTableImpl
+org.apache.crunch.Target
+org.apache.crunch.Source
+org.apache.crunch.SourceTarget
+ 
+ 
+ 
+Outside classes: 
+ 
+org.apache.hadoop.mapreduce.TaskInputOutputContext
+org.apache.hadoop.mapreduce.Job
+org.apache.hadoop.fs.FileSystem
+org.apache.hadoop.mapreduce.JobContext

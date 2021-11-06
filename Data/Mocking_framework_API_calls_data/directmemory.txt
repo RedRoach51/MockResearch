@@ -1,0 +1,24 @@
+	Method name: setContextPath
+	Class origin: org.springframework.mock.web.MockServletContext
+	Count: 1
+ 
+	Method name: addHeader
+	Class origin: org.springframework.mock.web.MockHttpServletRequest
+	Count: 6
+ 
+	Method name: getStatus
+	Class origin: org.springframework.mock.web.MockHttpServletResponse
+	Count: 10
+ 
+	Method name: setContextPath
+	Class origin: org.springframework.mock.web.MockServletContext
+	Count: 1
+ 
+	Method name: addHeader
+	Class origin: org.springframework.mock.web.MockHttpServletRequest
+	Count: 6
+ 
+	Method name: getStatus
+	Class origin: org.springframework.mock.web.MockHttpServletResponse
+	Count: 10
+ 

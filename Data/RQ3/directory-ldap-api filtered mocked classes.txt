@@ -1,0 +1,9 @@
+Inside classes: 
+ 
+ 
+ 
+ 
+Outside classes: 
+ 
+org.apache.directory.ldap.client.api.LdapConnection
+org.apache.directory.ldap.client.api.LdapConnectionValidator

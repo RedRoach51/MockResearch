@@ -1,0 +1,18 @@
+Project Name,Mocking Framework,Used in # of Files
+commons-vfs,mockito,1
+crunch,mockito,23
+curator,mockito,8
+cxf,easymock,172
+cxf,ibm,1
+cxf,mockito,22
+cxf,springframework,3
+cxf,opentracing,1
+cxf,mockwebserver,1
+cxf,wiremock,5
+deltaspike,mockito,2
+directmemory,springframework,1
+directory-ldap-api,mockito,1
+drill,mockito,59
+drill,mockwebserver,1
+drill,wiremock,1
+drill,mockit,3

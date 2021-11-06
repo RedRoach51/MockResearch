@@ -1,0 +1,684 @@
+Project Name,File Path,Mocking Framework,Imported Mock Line
+commons-vfs,commons-vfs\commons-vfs2\src\test\java\org\apache\commons\vfs2\impl\DefaultFileSystemManagerTest.java,mockito,org.mockito.Mockito
+crunch,crunch\crunch-archetype\src\main\resources\archetype-resources\src\test\java\TokenizerTest.java,mockito,static org.mockito.Mockito.verify
+crunch,crunch\crunch-archetype\src\main\resources\archetype-resources\src\test\java\TokenizerTest.java,mockito,static org.mockito.Mockito.verifyNoMoreInteractions
+crunch,crunch\crunch-archetype\src\main\resources\archetype-resources\src\test\java\TokenizerTest.java,mockito,org.mockito.Mock
+crunch,crunch\crunch-archetype\src\main\resources\archetype-resources\src\test\java\TokenizerTest.java,mockito,org.mockito.runners.MockitoJUnitRunner
+crunch,crunch\crunch-core\src\it\java\org\apache\crunch\lib\join\FullOuterJoinFnTest.java,mockito,static org.mockito.Mockito.verify
+crunch,crunch\crunch-core\src\it\java\org\apache\crunch\lib\join\FullOuterJoinFnTest.java,mockito,static org.mockito.Mockito.verifyNoMoreInteractions
+crunch,crunch\crunch-core\src\test\java\org\apache\crunch\fn\AndFnTest.java,mockito,static org.mockito.Mockito.mock
+crunch,crunch\crunch-core\src\test\java\org\apache\crunch\fn\AndFnTest.java,mockito,static org.mockito.Mockito.verify
+crunch,crunch\crunch-core\src\test\java\org\apache\crunch\fn\AndFnTest.java,mockito,static org.mockito.Mockito.when
+crunch,crunch\crunch-core\src\test\java\org\apache\crunch\fn\NotFnTest.java,mockito,static org.mockito.Mockito.mock
+crunch,crunch\crunch-core\src\test\java\org\apache\crunch\fn\NotFnTest.java,mockito,static org.mockito.Mockito.verify
+crunch,crunch\crunch-core\src\test\java\org\apache\crunch\fn\NotFnTest.java,mockito,static org.mockito.Mockito.when
+crunch,crunch\crunch-core\src\test\java\org\apache\crunch\fn\OrFnTest.java,mockito,static org.mockito.Mockito.mock
+crunch,crunch\crunch-core\src\test\java\org\apache\crunch\fn\OrFnTest.java,mockito,static org.mockito.Mockito.verify
+crunch,crunch\crunch-core\src\test\java\org\apache\crunch\fn\OrFnTest.java,mockito,static org.mockito.Mockito.when
+crunch,crunch\crunch-core\src\test\java\org\apache\crunch\hadoop\mapreduce\lib\jobcontrol\CrunchJobControlTest.java,mockito,static org.mockito.Mockito.mock
+crunch,crunch\crunch-core\src\test\java\org\apache\crunch\hadoop\mapreduce\lib\jobcontrol\CrunchJobControlTest.java,mockito,static org.mockito.Mockito.never
+crunch,crunch\crunch-core\src\test\java\org\apache\crunch\hadoop\mapreduce\lib\jobcontrol\CrunchJobControlTest.java,mockito,static org.mockito.Mockito.spy
+crunch,crunch\crunch-core\src\test\java\org\apache\crunch\hadoop\mapreduce\lib\jobcontrol\CrunchJobControlTest.java,mockito,static org.mockito.Mockito.verify
+crunch,crunch\crunch-core\src\test\java\org\apache\crunch\hadoop\mapreduce\lib\jobcontrol\CrunchJobControlTest.java,mockito,static org.mockito.Mockito.when
+crunch,crunch\crunch-core\src\test\java\org\apache\crunch\impl\dist\DistributedPipelineTest.java,mockito,org.mockito.Mock
+crunch,crunch\crunch-core\src\test\java\org\apache\crunch\impl\dist\DistributedPipelineTest.java,mockito,org.mockito.Mockito
+crunch,crunch\crunch-core\src\test\java\org\apache\crunch\impl\dist\DistributedPipelineTest.java,mockito,org.mockito.runners.MockitoJUnitRunner
+crunch,crunch\crunch-core\src\test\java\org\apache\crunch\impl\dist\DistributedPipelineTest.java,mockito,static org.mockito.Mockito.when
+crunch,crunch\crunch-core\src\test\java\org\apache\crunch\impl\dist\collect\DoTableImplTest.java,mockito,static org.mockito.Mockito.mock
+crunch,crunch\crunch-core\src\test\java\org\apache\crunch\impl\dist\collect\DoTableImplTest.java,mockito,static org.mockito.Mockito.verify
+crunch,crunch\crunch-core\src\test\java\org\apache\crunch\impl\dist\collect\DoTableImplTest.java,mockito,static org.mockito.Mockito.verifyNoMoreInteractions
+crunch,crunch\crunch-core\src\test\java\org\apache\crunch\impl\dist\collect\DoTableImplTest.java,mockito,static org.mockito.Mockito.when
+crunch,crunch\crunch-core\src\test\java\org\apache\crunch\impl\mr\MRPipelineTest.java,mockito,static org.mockito.Mockito.doReturn
+crunch,crunch\crunch-core\src\test\java\org\apache\crunch\impl\mr\MRPipelineTest.java,mockito,static org.mockito.Mockito.spy
+crunch,crunch\crunch-core\src\test\java\org\apache\crunch\impl\mr\MRPipelineTest.java,mockito,static org.mockito.Mockito.when
+crunch,crunch\crunch-core\src\test\java\org\apache\crunch\impl\mr\MRPipelineTest.java,mockito,org.mockito.Mock
+crunch,crunch\crunch-core\src\test\java\org\apache\crunch\impl\mr\MRPipelineTest.java,mockito,org.mockito.runners.MockitoJUnitRunner
+crunch,crunch\crunch-core\src\test\java\org\apache\crunch\impl\mr\emit\IntermediateEmitterTest.java,mockito,static org.mockito.Mockito.mock
+crunch,crunch\crunch-core\src\test\java\org\apache\crunch\impl\mr\emit\IntermediateEmitterTest.java,mockito,static org.mockito.Mockito.spy
+crunch,crunch\crunch-core\src\test\java\org\apache\crunch\impl\mr\emit\IntermediateEmitterTest.java,mockito,static org.mockito.Mockito.verify
+crunch,crunch\crunch-core\src\test\java\org\apache\crunch\impl\mr\emit\IntermediateEmitterTest.java,mockito,org.mockito.ArgumentCaptor
+crunch,crunch\crunch-core\src\test\java\org\apache\crunch\impl\mr\plan\DotfileWriterTest.java,mockito,static org.mockito.Mockito.mock
+crunch,crunch\crunch-core\src\test\java\org\apache\crunch\impl\mr\plan\DotfileWriterTest.java,mockito,static org.mockito.Mockito.when
+crunch,crunch\crunch-core\src\test\java\org\apache\crunch\impl\mr\plan\DotfileWriterTest.java,mockito,org.mockito.Mockito
+crunch,crunch\crunch-core\src\test\java\org\apache\crunch\impl\mr\plan\JobPrototypeTest.java,mockito,org.mockito.Mock
+crunch,crunch\crunch-core\src\test\java\org\apache\crunch\impl\mr\plan\JobPrototypeTest.java,mockito,org.mockito.runners.MockitoJUnitRunner
+crunch,crunch\crunch-core\src\test\java\org\apache\crunch\impl\mr\plan\JobPrototypeTest.java,mockito,static org.mockito.Matchers.any
+crunch,crunch\crunch-core\src\test\java\org\apache\crunch\impl\mr\plan\JobPrototypeTest.java,mockito,static org.mockito.Mockito.doReturn
+crunch,crunch\crunch-core\src\test\java\org\apache\crunch\impl\mr\plan\JobPrototypeTest.java,mockito,static org.mockito.Mockito.doThrow
+crunch,crunch\crunch-core\src\test\java\org\apache\crunch\io\impl\FileTargetImplTest.java,mockito,static org.mockito.Mockito.mock
+crunch,crunch\crunch-core\src\test\java\org\apache\crunch\io\impl\FileTargetImplTest.java,mockito,static org.mockito.Mockito.when
+crunch,crunch\crunch-core\src\test\java\org\apache\crunch\lib\join\BrokenLeftAndOuterJoinTest.java,mockito,static org.mockito.Mockito.mock
+crunch,crunch\crunch-core\src\test\java\org\apache\crunch\lib\join\BrokenLeftAndOuterJoinTest.java,mockito,static org.mockito.Mockito.verify
+crunch,crunch\crunch-core\src\test\java\org\apache\crunch\lib\join\BrokenLeftAndOuterJoinTest.java,mockito,static org.mockito.Mockito.verifyNoMoreInteractions
+crunch,crunch\crunch-core\src\test\java\org\apache\crunch\lib\join\InnerJoinFnTest.java,mockito,static org.mockito.Mockito.verify
+crunch,crunch\crunch-core\src\test\java\org\apache\crunch\lib\join\InnerJoinFnTest.java,mockito,static org.mockito.Mockito.verifyNoMoreInteractions
+crunch,crunch\crunch-core\src\test\java\org\apache\crunch\lib\join\JoinFnTestBase.java,mockito,static org.mockito.Mockito.mock
+crunch,crunch\crunch-core\src\test\java\org\apache\crunch\lib\join\LeftOuterJoinTest.java,mockito,static org.mockito.Mockito.verify
+crunch,crunch\crunch-core\src\test\java\org\apache\crunch\lib\join\LeftOuterJoinTest.java,mockito,static org.mockito.Mockito.verifyNoMoreInteractions
+crunch,crunch\crunch-core\src\test\java\org\apache\crunch\lib\join\RightOuterJoinFnTest.java,mockito,static org.mockito.Mockito.verify
+crunch,crunch\crunch-core\src\test\java\org\apache\crunch\lib\join\RightOuterJoinFnTest.java,mockito,static org.mockito.Mockito.verifyNoMoreInteractions
+crunch,crunch\crunch-core\src\test\java\org\apache\crunch\util\PartitionUtilsTest.java,mockito,static org.mockito.Mockito.when
+crunch,crunch\crunch-core\src\test\java\org\apache\crunch\util\PartitionUtilsTest.java,mockito,org.mockito.Mock
+crunch,crunch\crunch-core\src\test\java\org\apache\crunch\util\PartitionUtilsTest.java,mockito,org.mockito.runners.MockitoJUnitRunner
+crunch,crunch\crunch-kafka\src\test\java\org\apache\crunch\kafka\record\KafkaInputFormatTest.java,mockito,static org.mockito.Mockito.mock
+crunch,crunch\crunch-kafka\src\test\java\org\apache\crunch\kafka\record\KafkaRecordReaderTest.java,mockito,org.mockito.Mock
+crunch,crunch\crunch-kafka\src\test\java\org\apache\crunch\kafka\record\KafkaRecordReaderTest.java,mockito,org.mockito.runners.MockitoJUnitRunner
+crunch,crunch\crunch-kafka\src\test\java\org\apache\crunch\kafka\record\KafkaRecordReaderTest.java,mockito,static org.mockito.Matchers.anyLong
+crunch,crunch\crunch-kafka\src\test\java\org\apache\crunch\kafka\record\KafkaRecordReaderTest.java,mockito,static org.mockito.Mockito.when
+crunch,crunch\crunch-kafka\src\test\java\org\apache\crunch\kafka\record\KafkaRecordsIterableIT.java,mockito,org.mockito.Matchers
+crunch,crunch\crunch-kafka\src\test\java\org\apache\crunch\kafka\record\KafkaRecordsIterableIT.java,mockito,org.mockito.Mock
+crunch,crunch\crunch-kafka\src\test\java\org\apache\crunch\kafka\record\KafkaRecordsIterableIT.java,mockito,org.mockito.runners.MockitoJUnitRunner
+crunch,crunch\crunch-kafka\src\test\java\org\apache\crunch\kafka\record\KafkaRecordsIterableIT.java,mockito,static org.mockito.Mockito.when
+crunch,crunch\crunch-test\src\main\java\org\apache\crunch\test\CrunchTestSupport.java,mockito,org.mockito.Mockito
+crunch,crunch\crunch-test\src\main\java\org\apache\crunch\test\CrunchTestSupport.java,mockito,org.mockito.invocation.InvocationOnMock
+crunch,crunch\crunch-test\src\main\java\org\apache\crunch\test\CrunchTestSupport.java,mockito,org.mockito.stubbing.Answer
+curator,curator\curator-client\src\test\java\org\apache\curator\BasicTests.java,mockito,org.mockito.Mockito
+curator,curator\curator-client\src\test\java\org\apache\curator\TestEnsurePath.java,mockito,static org.mockito.Matchers.anyBoolean
+curator,curator\curator-client\src\test\java\org\apache\curator\TestEnsurePath.java,mockito,static org.mockito.Mockito.mock
+curator,curator\curator-client\src\test\java\org\apache\curator\TestEnsurePath.java,mockito,static org.mockito.Mockito.times
+curator,curator\curator-client\src\test\java\org\apache\curator\TestEnsurePath.java,mockito,static org.mockito.Mockito.verify
+curator,curator\curator-client\src\test\java\org\apache\curator\TestEnsurePath.java,mockito,static org.mockito.Mockito.verifyNoMoreInteractions
+curator,curator\curator-client\src\test\java\org\apache\curator\TestEnsurePath.java,mockito,static org.mockito.Mockito.when
+curator,curator\curator-client\src\test\java\org\apache\curator\TestEnsurePath.java,mockito,org.mockito.Mockito
+curator,curator\curator-client\src\test\java\org\apache\curator\TestEnsurePath.java,mockito,org.mockito.invocation.InvocationOnMock
+curator,curator\curator-client\src\test\java\org\apache\curator\TestEnsurePath.java,mockito,org.mockito.stubbing.Answer
+curator,curator\curator-client\src\test\java\org\apache\curator\TestRetryLoop.java,mockito,org.mockito.Mockito
+curator,curator\curator-client\src\test\java\org\apache\curator\TestRetryLoop.java,mockito,static org.mockito.Mockito.times
+curator,curator\curator-framework\src\test\java\org\apache\curator\framework\imps\TestWatcherIdentity.java,mockito,org.mockito.Mockito
+curator,curator\curator-framework\src\test\java\org\apache\curator\framework\imps\TestWatcherIdentity.java,mockito,static org.mockito.Matchers.any
+curator,curator\curator-framework\src\test\java\org\apache\curator\framework\imps\TestWatcherIdentity.java,mockito,static org.mockito.Mockito.mock
+curator,curator\curator-recipes\src\test\java\org\apache\curator\framework\recipes\queue\TestDistributedDelayQueue.java,mockito,org.mockito.Mockito
+curator,curator\curator-recipes\src\test\java\org\apache\curator\framework\recipes\queue\TestDistributedIdQueue.java,mockito,org.mockito.Mockito
+curator,curator\curator-recipes\src\test\java\org\apache\curator\framework\recipes\queue\TestDistributedPriorityQueue.java,mockito,org.mockito.Mockito
+curator,curator\curator-recipes\src\test\java\org\apache\curator\framework\recipes\queue\TestDistributedQueue.java,mockito,org.mockito.Mockito
+cxf,cxf\core\src\test\java\org\apache\cxf\attachment\AttachmentUtilTest.java,easymock,static org.easymock.EasyMock.createMock
+cxf,cxf\core\src\test\java\org\apache\cxf\attachment\AttachmentUtilTest.java,easymock,static org.easymock.EasyMock.replay
+cxf,cxf\core\src\test\java\org\apache\cxf\attachment\AttachmentUtilTest.java,easymock,static org.easymock.EasyMock.verify
+cxf,cxf\core\src\test\java\org\apache\cxf\bus\CXFBusImplTest.java,easymock,org.easymock.EasyMock
+cxf,cxf\core\src\test\java\org\apache\cxf\bus\CXFBusImplTest.java,easymock,org.easymock.IMocksControl
+cxf,cxf\core\src\test\java\org\apache\cxf\bus\managers\EndpointResolverRegistryImplTest.java,easymock,org.easymock.EasyMock
+cxf,cxf\core\src\test\java\org\apache\cxf\bus\managers\EndpointResolverRegistryImplTest.java,easymock,org.easymock.IMocksControl
+cxf,cxf\core\src\test\java\org\apache\cxf\bus\managers\ServiceContractResolverRegistryImplTest.java,easymock,org.easymock.EasyMock
+cxf,cxf\core\src\test\java\org\apache\cxf\bus\managers\ServiceContractResolverRegistryImplTest.java,easymock,org.easymock.IMocksControl
+cxf,cxf\core\src\test\java\org\apache\cxf\bus\osgi\OSGiBusListenerTest.java,easymock,org.easymock.EasyMock
+cxf,cxf\core\src\test\java\org\apache\cxf\bus\osgi\OSGiBusListenerTest.java,easymock,org.easymock.IMocksControl
+cxf,cxf\core\src\test\java\org\apache\cxf\bus\spring\BusApplicationListenerTest.java,easymock,org.easymock.EasyMock
+cxf,cxf\core\src\test\java\org\apache\cxf\bus\spring\SpringBusFactoryTest.java,easymock,org.easymock.EasyMock
+cxf,cxf\core\src\test\java\org\apache\cxf\buslifecycle\CXFBusLifeCycleManagerTest.java,easymock,org.easymock.EasyMock
+cxf,cxf\core\src\test\java\org\apache\cxf\buslifecycle\CXFBusLifeCycleManagerTest.java,easymock,org.easymock.IMocksControl
+cxf,cxf\core\src\test\java\org\apache\cxf\common\annotation\AnnotationProcessorTest.java,easymock,org.easymock.EasyMock
+cxf,cxf\core\src\test\java\org\apache\cxf\common\injection\ResourceInjectorTest.java,easymock,org.easymock.EasyMock
+cxf,cxf\core\src\test\java\org\apache\cxf\common\jaxb\JAXBUtilsTest.java,ibm,com.ibm.xml.mock.marshaller.MockMarshaller
+cxf,cxf\core\src\test\java\org\apache\cxf\common\logging\LogUtilsTest.java,easymock,org.easymock.EasyMock
+cxf,cxf\core\src\test\java\org\apache\cxf\common\logging\LogUtilsTest.java,easymock,org.easymock.IArgumentMatcher
+cxf,cxf\core\src\test\java\org\apache\cxf\common\util\ClassHelperTest.java,easymock,org.easymock.EasyMock
+cxf,cxf\core\src\test\java\org\apache\cxf\helpers\ServiceUtilsTest.java,easymock,org.easymock.EasyMock
+cxf,cxf\core\src\test\java\org\apache\cxf\helpers\ServiceUtilsTest.java,easymock,org.easymock.IMocksControl
+cxf,cxf\core\src\test\java\org\apache\cxf\interceptor\LoggingInInterceptorTest.java,easymock,org.easymock.EasyMock
+cxf,cxf\core\src\test\java\org\apache\cxf\interceptor\LoggingInInterceptorTest.java,easymock,org.easymock.IAnswer
+cxf,cxf\core\src\test\java\org\apache\cxf\interceptor\LoggingInInterceptorTest.java,easymock,org.easymock.IMocksControl
+cxf,cxf\core\src\test\java\org\apache\cxf\interceptor\LoggingOutInterceptorTest.java,easymock,org.easymock.EasyMock
+cxf,cxf\core\src\test\java\org\apache\cxf\interceptor\LoggingOutInterceptorTest.java,easymock,org.easymock.IMocksControl
+cxf,cxf\core\src\test\java\org\apache\cxf\interceptor\OutgoingChainInterceptorTest.java,easymock,org.easymock.EasyMock
+cxf,cxf\core\src\test\java\org\apache\cxf\interceptor\OutgoingChainInterceptorTest.java,easymock,org.easymock.IMocksControl
+cxf,cxf\core\src\test\java\org\apache\cxf\interceptor\ServiceInvokerInterceptorTest.java,easymock,org.easymock.EasyMock
+cxf,cxf\core\src\test\java\org\apache\cxf\interceptor\ServiceInvokerInterceptorTest.java,easymock,org.easymock.IMocksControl
+cxf,cxf\core\src\test\java\org\apache\cxf\interceptor\security\JAASLoginInterceptorTest.java,easymock,org.easymock.EasyMock
+cxf,cxf\core\src\test\java\org\apache\cxf\interceptor\security\JAASLoginInterceptorTest.java,easymock,org.easymock.IMocksControl
+cxf,cxf\core\src\test\java\org\apache\cxf\interceptor\security\OperationInfoAuthorizingInterceptorTest.java,easymock,org.easymock.EasyMock
+cxf,cxf\core\src\test\java\org\apache\cxf\interceptor\security\SecureAnnotationsInterceptorTest.java,easymock,org.easymock.EasyMock
+cxf,cxf\core\src\test\java\org\apache\cxf\interceptor\security\SimpleAuthorizingInterceptorTest.java,easymock,org.easymock.EasyMock
+cxf,cxf\core\src\test\java\org\apache\cxf\io\CachedStreamTestBase.java,easymock,org.easymock.EasyMock
+cxf,cxf\core\src\test\java\org\apache\cxf\io\CachedStreamTestBase.java,easymock,org.easymock.IMocksControl
+cxf,cxf\core\src\test\java\org\apache\cxf\phase\PhaseInterceptorChainTest.java,easymock,org.easymock.EasyMock
+cxf,cxf\core\src\test\java\org\apache\cxf\phase\PhaseInterceptorChainTest.java,easymock,org.easymock.IMocksControl
+cxf,cxf\core\src\test\java\org\apache\cxf\staxutils\validation\Stax2ValidationUtilsTest.java,easymock,static org.easymock.EasyMock.anyObject
+cxf,cxf\core\src\test\java\org\apache\cxf\staxutils\validation\Stax2ValidationUtilsTest.java,easymock,static org.easymock.EasyMock.anyString
+cxf,cxf\core\src\test\java\org\apache\cxf\staxutils\validation\Stax2ValidationUtilsTest.java,easymock,static org.easymock.EasyMock.expect
+cxf,cxf\core\src\test\java\org\apache\cxf\staxutils\validation\Stax2ValidationUtilsTest.java,easymock,static org.easymock.EasyMock.mock
+cxf,cxf\core\src\test\java\org\apache\cxf\staxutils\validation\Stax2ValidationUtilsTest.java,easymock,static org.easymock.EasyMock.replay
+cxf,cxf\core\src\test\java\org\apache\cxf\transport\ChainInitiationObserverTest.java,easymock,org.easymock.EasyMock
+cxf,cxf\core\src\test\java\org\apache\cxf\transport\ChainInitiationObserverTest.java,easymock,org.easymock.IMocksControl
+cxf,cxf\core\src\test\java\org\apache\cxf\transport\common\gzip\GZIPAcceptEncodingTest.java,easymock,org.easymock.EasyMock
+cxf,cxf\integration\cdi\src\test\java\org\apache\cxf\cdi\CdiResourceProviderTest.java,mockito,org.mockito.Mock
+cxf,cxf\integration\cdi\src\test\java\org\apache\cxf\cdi\CdiResourceProviderTest.java,mockito,org.mockito.junit.MockitoJUnitRunner
+cxf,cxf\integration\cdi\src\test\java\org\apache\cxf\cdi\CdiResourceProviderTest.java,mockito,static org.mockito.ArgumentMatchers.any
+cxf,cxf\integration\cdi\src\test\java\org\apache\cxf\cdi\CdiResourceProviderTest.java,mockito,static org.mockito.ArgumentMatchers.eq
+cxf,cxf\integration\cdi\src\test\java\org\apache\cxf\cdi\CdiResourceProviderTest.java,mockito,static org.mockito.Mockito.when
+cxf,cxf\integration\cdi\src\test\java\org\apache\cxf\cdi\JAXRSCdiResourceExtensionTest.java,mockito,org.mockito.Mock
+cxf,cxf\integration\cdi\src\test\java\org\apache\cxf\cdi\JAXRSCdiResourceExtensionTest.java,mockito,org.mockito.junit.MockitoJUnitRunner
+cxf,cxf\integration\cdi\src\test\java\org\apache\cxf\cdi\JAXRSCdiResourceExtensionTest.java,mockito,static org.mockito.ArgumentMatchers.any
+cxf,cxf\integration\cdi\src\test\java\org\apache\cxf\cdi\JAXRSCdiResourceExtensionTest.java,mockito,static org.mockito.Mockito.never
+cxf,cxf\integration\cdi\src\test\java\org\apache\cxf\cdi\JAXRSCdiResourceExtensionTest.java,mockito,static org.mockito.Mockito.verify
+cxf,cxf\integration\cdi\src\test\java\org\apache\cxf\cdi\JAXRSCdiResourceExtensionTest.java,mockito,static org.mockito.Mockito.when
+cxf,cxf\integration\jca\src\test\java\org\apache\cxf\jca\core\resourceadapter\ManagedConnectionImplTest.java,easymock,org.easymock.EasyMock
+cxf,cxf\integration\jca\src\test\java\org\apache\cxf\jca\cxf\AssociatedManagedConnectionFactoryImplTest.java,easymock,org.easymock.EasyMock
+cxf,cxf\integration\jca\src\test\java\org\apache\cxf\jca\cxf\ConnectionFactoryImplTest.java,easymock,org.easymock.EasyMock
+cxf,cxf\integration\jca\src\test\java\org\apache\cxf\jca\cxf\JCABusFactoryTest.java,easymock,org.easymock.EasyMock
+cxf,cxf\integration\jca\src\test\java\org\apache\cxf\jca\cxf\ManagedConnectionFactoryImplTest.java,easymock,org.easymock.EasyMock
+cxf,cxf\integration\jca\src\test\java\org\apache\cxf\jca\cxf\ManagedConnectionImplTest.java,easymock,org.easymock.EasyMock
+cxf,cxf\integration\jca\src\test\java\org\apache\cxf\jca\cxf\ManagedConnectionTestBase.java,easymock,org.easymock.EasyMock
+cxf,cxf\integration\jca\src\test\java\org\apache\cxf\jca\cxf\ResourceAdapterImplTest.java,easymock,org.easymock.EasyMock
+cxf,cxf\integration\jca\src\test\java\org\apache\cxf\jca\cxf\handlers\HandlerTestBase.java,easymock,org.easymock.EasyMock
+cxf,cxf\integration\jca\src\test\java\org\apache\cxf\jca\outbound\ManagedConnectionImplTest.java,easymock,org.easymock.EasyMock
+cxf,cxf\integration\jca\src\test\java\org\apache\cxf\jca\outbound\ManagedConnectionImplTest.java,easymock,org.easymock.IMocksControl
+cxf,cxf\integration\spring-boot\autoconfigure\src\test\java\org\apache\cxf\spring\boot\autoconfigure\CxfAutoConfigurationTest.java,springframework,org.springframework.mock.web.MockServletContext
+cxf,cxf\integration\spring-boot\autoconfigure\src\test\java\org\apache\cxf\spring\boot\autoconfigure\micrometer\provider\SpringBasedTimedAnnotationProviderTest.java,mockito,org.mockito.Mock
+cxf,cxf\integration\spring-boot\autoconfigure\src\test\java\org\apache\cxf\spring\boot\autoconfigure\micrometer\provider\SpringBasedTimedAnnotationProviderTest.java,mockito,static org.mockito.Mockito.doReturn
+cxf,cxf\integration\spring-boot\autoconfigure\src\test\java\org\apache\cxf\spring\boot\autoconfigure\micrometer\provider\SpringBasedTimedAnnotationProviderTest.java,mockito,static org.mockito.MockitoAnnotations.openMocks
+cxf,cxf\integration\tracing\tracing-opentracing\src\test\java\org\apache\cxf\tracing\opentracing\OpenTracingContextTest.java,opentracing,io.opentracing.mock.MockTracer
+cxf,cxf\rt\bindings\coloc\src\test\java\org\apache\cxf\binding\coloc\ColocMessageObserverTest.java,easymock,org.easymock.EasyMock
+cxf,cxf\rt\bindings\coloc\src\test\java\org\apache\cxf\binding\coloc\ColocMessageObserverTest.java,easymock,org.easymock.IMocksControl
+cxf,cxf\rt\bindings\coloc\src\test\java\org\apache\cxf\binding\coloc\ColocOutInterceptorTest.java,easymock,org.easymock.EasyMock
+cxf,cxf\rt\bindings\coloc\src\test\java\org\apache\cxf\binding\coloc\ColocOutInterceptorTest.java,easymock,org.easymock.IMocksControl
+cxf,cxf\rt\bindings\coloc\src\test\java\org\apache\cxf\binding\coloc\ColocUtilTest.java,easymock,org.easymock.EasyMock
+cxf,cxf\rt\bindings\coloc\src\test\java\org\apache\cxf\binding\coloc\ColocUtilTest.java,easymock,org.easymock.IMocksControl
+cxf,cxf\rt\bindings\corba\src\test\java\org\apache\cxf\binding\corba\CorbaBindingFactoryTest.java,easymock,org.easymock.EasyMock
+cxf,cxf\rt\bindings\corba\src\test\java\org\apache\cxf\binding\corba\CorbaBindingFactoryTest.java,easymock,org.easymock.IMocksControl
+cxf,cxf\rt\bindings\corba\src\test\java\org\apache\cxf\binding\corba\CorbaConduitTest.java,easymock,org.easymock.EasyMock
+cxf,cxf\rt\bindings\corba\src\test\java\org\apache\cxf\binding\corba\CorbaConduitTest.java,easymock,org.easymock.IMocksControl
+cxf,cxf\rt\bindings\corba\src\test\java\org\apache\cxf\binding\corba\CorbaMessageTest.java,easymock,org.easymock.EasyMock
+cxf,cxf\rt\bindings\corba\src\test\java\org\apache\cxf\binding\corba\CorbaMessageTest.java,easymock,org.easymock.IMocksControl
+cxf,cxf\rt\bindings\corba\src\test\java\org\apache\cxf\binding\corba\CorbaServerConduitTest.java,easymock,org.easymock.EasyMock
+cxf,cxf\rt\bindings\corba\src\test\java\org\apache\cxf\binding\corba\CorbaServerConduitTest.java,easymock,org.easymock.IMocksControl
+cxf,cxf\rt\bindings\corba\src\test\java\org\apache\cxf\binding\corba\runtime\CorbaStreamReaderTest.java,easymock,org.easymock.EasyMock
+cxf,cxf\rt\bindings\soap\src\test\java\org\apache\cxf\binding\soap\RPCInInterceptorTest.java,easymock,org.easymock.EasyMock
+cxf,cxf\rt\bindings\soap\src\test\java\org\apache\cxf\binding\soap\RPCInInterceptorTest.java,easymock,org.easymock.IMocksControl
+cxf,cxf\rt\bindings\soap\src\test\java\org\apache\cxf\binding\soap\RPCOutInterceptorTest.java,easymock,org.easymock.EasyMock
+cxf,cxf\rt\bindings\soap\src\test\java\org\apache\cxf\binding\soap\RPCOutInterceptorTest.java,easymock,org.easymock.IMocksControl
+cxf,cxf\rt\bindings\soap\src\test\java\org\apache\cxf\binding\soap\ServiceModelUtilTest.java,easymock,org.easymock.EasyMock
+cxf,cxf\rt\bindings\soap\src\test\java\org\apache\cxf\binding\soap\ServiceModelUtilTest.java,easymock,org.easymock.IMocksControl
+cxf,cxf\rt\bindings\soap\src\test\java\org\apache\cxf\binding\soap\ServiceModelUtilTest.java,easymock,static org.easymock.EasyMock.expect
+cxf,cxf\rt\bindings\soap\src\test\java\org\apache\cxf\binding\soap\SoapBindingFactoryTest.java,easymock,org.easymock.IMocksControl
+cxf,cxf\rt\bindings\soap\src\test\java\org\apache\cxf\binding\soap\SoapBindingFactoryTest.java,easymock,static org.easymock.EasyMock.createNiceControl
+cxf,cxf\rt\bindings\soap\src\test\java\org\apache\cxf\binding\soap\SoapBindingFactoryTest.java,easymock,static org.easymock.EasyMock.expect
+cxf,cxf\rt\bindings\soap\src\test\java\org\apache\cxf\binding\soap\SoapBindingFactoryTest.java,easymock,static org.easymock.EasyMock.expectLastCall
+cxf,cxf\rt\bindings\soap\src\test\java\org\apache\cxf\binding\soap\TestBase.java,easymock,org.easymock.EasyMock
+cxf,cxf\rt\bindings\soap\src\test\java\org\apache\cxf\binding\soap\TestBase.java,easymock,org.easymock.IMocksControl
+cxf,cxf\rt\bindings\soap\src\test\java\org\apache\cxf\binding\soap\interceptor\SoapActionInInterceptorTest.java,easymock,org.easymock.EasyMock
+cxf,cxf\rt\bindings\soap\src\test\java\org\apache\cxf\binding\soap\interceptor\SoapActionInInterceptorTest.java,easymock,org.easymock.IMocksControl
+cxf,cxf\rt\bindings\soap\src\test\java\org\apache\cxf\binding\soap\interceptor\SoapPreProtocolOutInterceptorTest.java,easymock,org.easymock.EasyMock
+cxf,cxf\rt\bindings\soap\src\test\java\org\apache\cxf\binding\soap\interceptor\SoapPreProtocolOutInterceptorTest.java,easymock,org.easymock.IMocksControl
+cxf,cxf\rt\bindings\soap\src\test\java\org\apache\cxf\binding\soap\jms\interceptor\SoapFaultFactoryTest.java,easymock,org.easymock.EasyMock
+cxf,cxf\rt\bindings\soap\src\test\java\org\apache\cxf\binding\soap\jms\interceptor\SoapFaultFactoryTest.java,easymock,org.easymock.IMocksControl
+cxf,cxf\rt\databinding\aegis\src\test\java\org\apache\cxf\aegis\type\mtom\DataSourceTypeTest.java,easymock,org.easymock.MockType
+cxf,cxf\rt\databinding\aegis\src\test\java\org\apache\cxf\aegis\type\mtom\DataSourceTypeTest.java,easymock,static org.easymock.EasyMock.anyObject
+cxf,cxf\rt\databinding\aegis\src\test\java\org\apache\cxf\aegis\type\mtom\DataSourceTypeTest.java,easymock,static org.easymock.EasyMock.expect
+cxf,cxf\rt\databinding\aegis\src\test\java\org\apache\cxf\aegis\type\mtom\DataSourceTypeTest.java,easymock,static org.easymock.EasyMock.mock
+cxf,cxf\rt\databinding\aegis\src\test\java\org\apache\cxf\aegis\type\mtom\DataSourceTypeTest.java,easymock,static org.easymock.EasyMock.replay
+cxf,cxf\rt\databinding\aegis\src\test\java\org\apache\cxf\aegis\type\mtom\DataSourceTypeTest.java,easymock,static org.easymock.EasyMock.verify
+cxf,cxf\rt\databinding\jaxb\src\test\java\org\apache\cxf\jaxb\BareInInterceptorTest.java,easymock,org.easymock.IMocksControl
+cxf,cxf\rt\databinding\jaxb\src\test\java\org\apache\cxf\jaxb\BareInInterceptorTest.java,easymock,static org.easymock.EasyMock.createNiceControl
+cxf,cxf\rt\databinding\jaxb\src\test\java\org\apache\cxf\jaxb\BareInInterceptorTest.java,easymock,static org.easymock.EasyMock.expect
+cxf,cxf\rt\databinding\jaxb\src\test\java\org\apache\cxf\jaxb\BareOutInterceptorTest.java,easymock,org.easymock.EasyMock
+cxf,cxf\rt\databinding\jaxb\src\test\java\org\apache\cxf\jaxb\BareOutInterceptorTest.java,easymock,org.easymock.IMocksControl
+cxf,cxf\rt\databinding\jaxb\src\test\java\org\apache\cxf\jaxb\DocLiteralInInterceptorTest.java,easymock,org.easymock.IMocksControl
+cxf,cxf\rt\databinding\jaxb\src\test\java\org\apache\cxf\jaxb\DocLiteralInInterceptorTest.java,easymock,static org.easymock.EasyMock.createNiceControl
+cxf,cxf\rt\databinding\jaxb\src\test\java\org\apache\cxf\jaxb\DocLiteralInInterceptorTest.java,easymock,static org.easymock.EasyMock.expect
+cxf,cxf\rt\databinding\jaxb\src\test\java\org\apache\cxf\jaxb\JAXBDataBindingTest.java,easymock,org.easymock.EasyMock
+cxf,cxf\rt\databinding\jaxb\src\test\java\org\apache\cxf\jaxb\JAXBDataBindingTest.java,easymock,org.easymock.IMocksControl
+cxf,cxf\rt\databinding\jaxb\src\test\java\org\apache\cxf\jaxb\TestBase.java,easymock,org.easymock.IMocksControl
+cxf,cxf\rt\databinding\jaxb\src\test\java\org\apache\cxf\jaxb\TestBase.java,easymock,static org.easymock.EasyMock.createNiceControl
+cxf,cxf\rt\databinding\jaxb\src\test\java\org\apache\cxf\jaxb\TestBase.java,easymock,static org.easymock.EasyMock.expect
+cxf,cxf\rt\features\metrics\src\test\java\org\apache\cxf\metrics\micrometer\MicrometerClientMetricsContextTest.java,mockito,org.mockito.ArgumentCaptor
+cxf,cxf\rt\features\metrics\src\test\java\org\apache\cxf\metrics\micrometer\MicrometerClientMetricsContextTest.java,mockito,org.mockito.Captor
+cxf,cxf\rt\features\metrics\src\test\java\org\apache\cxf\metrics\micrometer\MicrometerClientMetricsContextTest.java,mockito,org.mockito.Mock
+cxf,cxf\rt\features\metrics\src\test\java\org\apache\cxf\metrics\micrometer\MicrometerClientMetricsContextTest.java,mockito,org.mockito.internal.util.reflection.FieldReader
+cxf,cxf\rt\features\metrics\src\test\java\org\apache\cxf\metrics\micrometer\MicrometerClientMetricsContextTest.java,mockito,static org.mockito.ArgumentMatchers.eq
+cxf,cxf\rt\features\metrics\src\test\java\org\apache\cxf\metrics\micrometer\MicrometerClientMetricsContextTest.java,mockito,static org.mockito.Mockito.doReturn
+cxf,cxf\rt\features\metrics\src\test\java\org\apache\cxf\metrics\micrometer\MicrometerClientMetricsContextTest.java,mockito,static org.mockito.Mockito.times
+cxf,cxf\rt\features\metrics\src\test\java\org\apache\cxf\metrics\micrometer\MicrometerClientMetricsContextTest.java,mockito,static org.mockito.Mockito.verify
+cxf,cxf\rt\features\metrics\src\test\java\org\apache\cxf\metrics\micrometer\MicrometerClientMetricsContextTest.java,mockito,static org.mockito.Mockito.verifyNoInteractions
+cxf,cxf\rt\features\metrics\src\test\java\org\apache\cxf\metrics\micrometer\MicrometerClientMetricsContextTest.java,mockito,static org.mockito.MockitoAnnotations.openMocks
+cxf,cxf\rt\features\metrics\src\test\java\org\apache\cxf\metrics\micrometer\MicrometerMetricsProviderTest.java,mockito,org.mockito.Mock
+cxf,cxf\rt\features\metrics\src\test\java\org\apache\cxf\metrics\micrometer\MicrometerMetricsProviderTest.java,mockito,static org.mockito.MockitoAnnotations.openMocks
+cxf,cxf\rt\features\metrics\src\test\java\org\apache\cxf\metrics\micrometer\MicrometerServerMetricsContextTest.java,mockito,org.mockito.ArgumentCaptor
+cxf,cxf\rt\features\metrics\src\test\java\org\apache\cxf\metrics\micrometer\MicrometerServerMetricsContextTest.java,mockito,org.mockito.Captor
+cxf,cxf\rt\features\metrics\src\test\java\org\apache\cxf\metrics\micrometer\MicrometerServerMetricsContextTest.java,mockito,org.mockito.Mock
+cxf,cxf\rt\features\metrics\src\test\java\org\apache\cxf\metrics\micrometer\MicrometerServerMetricsContextTest.java,mockito,org.mockito.internal.util.reflection.FieldReader
+cxf,cxf\rt\features\metrics\src\test\java\org\apache\cxf\metrics\micrometer\MicrometerServerMetricsContextTest.java,mockito,static org.mockito.ArgumentMatchers.eq
+cxf,cxf\rt\features\metrics\src\test\java\org\apache\cxf\metrics\micrometer\MicrometerServerMetricsContextTest.java,mockito,static org.mockito.Mockito.doReturn
+cxf,cxf\rt\features\metrics\src\test\java\org\apache\cxf\metrics\micrometer\MicrometerServerMetricsContextTest.java,mockito,static org.mockito.Mockito.times
+cxf,cxf\rt\features\metrics\src\test\java\org\apache\cxf\metrics\micrometer\MicrometerServerMetricsContextTest.java,mockito,static org.mockito.Mockito.verify
+cxf,cxf\rt\features\metrics\src\test\java\org\apache\cxf\metrics\micrometer\MicrometerServerMetricsContextTest.java,mockito,static org.mockito.Mockito.verifyNoInteractions
+cxf,cxf\rt\features\metrics\src\test\java\org\apache\cxf\metrics\micrometer\MicrometerServerMetricsContextTest.java,mockito,static org.mockito.MockitoAnnotations.openMocks
+cxf,cxf\rt\features\metrics\src\test\java\org\apache\cxf\metrics\micrometer\provider\DefaultExceptionClassProviderTest.java,mockito,org.mockito.Mock
+cxf,cxf\rt\features\metrics\src\test\java\org\apache\cxf\metrics\micrometer\provider\DefaultExceptionClassProviderTest.java,mockito,static org.mockito.Mockito.doReturn
+cxf,cxf\rt\features\metrics\src\test\java\org\apache\cxf\metrics\micrometer\provider\DefaultExceptionClassProviderTest.java,mockito,static org.mockito.MockitoAnnotations.openMocks
+cxf,cxf\rt\features\metrics\src\test\java\org\apache\cxf\metrics\micrometer\provider\DefaultTimedAnnotationProviderTest.java,mockito,org.mockito.Mock
+cxf,cxf\rt\features\metrics\src\test\java\org\apache\cxf\metrics\micrometer\provider\DefaultTimedAnnotationProviderTest.java,mockito,static org.mockito.Mockito.doReturn
+cxf,cxf\rt\features\metrics\src\test\java\org\apache\cxf\metrics\micrometer\provider\DefaultTimedAnnotationProviderTest.java,mockito,static org.mockito.MockitoAnnotations.openMocks
+cxf,cxf\rt\features\metrics\src\test\java\org\apache\cxf\metrics\micrometer\provider\StandardTagsProviderTest.java,mockito,org.mockito.Mock
+cxf,cxf\rt\features\metrics\src\test\java\org\apache\cxf\metrics\micrometer\provider\StandardTagsProviderTest.java,mockito,static org.mockito.Mockito.doReturn
+cxf,cxf\rt\features\metrics\src\test\java\org\apache\cxf\metrics\micrometer\provider\StandardTagsProviderTest.java,mockito,static org.mockito.MockitoAnnotations.openMocks
+cxf,cxf\rt\features\metrics\src\test\java\org\apache\cxf\metrics\micrometer\provider\StandardTagsTest.java,mockito,org.mockito.Mock
+cxf,cxf\rt\features\metrics\src\test\java\org\apache\cxf\metrics\micrometer\provider\StandardTagsTest.java,mockito,static org.mockito.Mockito.doReturn
+cxf,cxf\rt\features\metrics\src\test\java\org\apache\cxf\metrics\micrometer\provider\StandardTagsTest.java,mockito,static org.mockito.MockitoAnnotations.openMocks
+cxf,cxf\rt\features\metrics\src\test\java\org\apache\cxf\metrics\micrometer\provider\jaxws\JaxwsFaultCodeProviderTest.java,mockito,org.mockito.Mock
+cxf,cxf\rt\features\metrics\src\test\java\org\apache\cxf\metrics\micrometer\provider\jaxws\JaxwsFaultCodeProviderTest.java,mockito,static org.mockito.Mockito.doReturn
+cxf,cxf\rt\features\metrics\src\test\java\org\apache\cxf\metrics\micrometer\provider\jaxws\JaxwsFaultCodeProviderTest.java,mockito,static org.mockito.MockitoAnnotations.openMocks
+cxf,cxf\rt\features\metrics\src\test\java\org\apache\cxf\metrics\micrometer\provider\jaxws\JaxwsFaultCodeTagsCustomizerTest.java,mockito,org.mockito.Mock
+cxf,cxf\rt\features\metrics\src\test\java\org\apache\cxf\metrics\micrometer\provider\jaxws\JaxwsFaultCodeTagsCustomizerTest.java,mockito,static org.mockito.Mockito.doReturn
+cxf,cxf\rt\features\metrics\src\test\java\org\apache\cxf\metrics\micrometer\provider\jaxws\JaxwsFaultCodeTagsCustomizerTest.java,mockito,static org.mockito.MockitoAnnotations.openMocks
+cxf,cxf\rt\features\metrics\src\test\java\org\apache\cxf\metrics\micrometer\provider\jaxws\JaxwsOperationTagsCustomizerTest.java,mockito,org.mockito.Mock
+cxf,cxf\rt\features\metrics\src\test\java\org\apache\cxf\metrics\micrometer\provider\jaxws\JaxwsOperationTagsCustomizerTest.java,mockito,static org.mockito.Mockito.doReturn
+cxf,cxf\rt\features\metrics\src\test\java\org\apache\cxf\metrics\micrometer\provider\jaxws\JaxwsOperationTagsCustomizerTest.java,mockito,static org.mockito.MockitoAnnotations.openMocks
+cxf,cxf\rt\features\metrics\src\test\java\org\apache\cxf\metrics\micrometer\provider\jaxws\JaxwsTagsTest.java,mockito,org.mockito.Mock
+cxf,cxf\rt\features\metrics\src\test\java\org\apache\cxf\metrics\micrometer\provider\jaxws\JaxwsTagsTest.java,mockito,static org.mockito.Mockito.doReturn
+cxf,cxf\rt\features\metrics\src\test\java\org\apache\cxf\metrics\micrometer\provider\jaxws\JaxwsTagsTest.java,mockito,static org.mockito.MockitoAnnotations.openMocks
+cxf,cxf\rt\frontend\jaxrs\src\test\java\org\apache\cxf\jaxrs\SelectMethodCandidatesTest.java,easymock,org.easymock.EasyMock
+cxf,cxf\rt\frontend\jaxrs\src\test\java\org\apache\cxf\jaxrs\ext\MessageContextImplTest.java,easymock,org.easymock.EasyMock
+cxf,cxf\rt\frontend\jaxrs\src\test\java\org\apache\cxf\jaxrs\impl\AsyncResponseImplTest.java,easymock,org.easymock.EasyMock
+cxf,cxf\rt\frontend\jaxrs\src\test\java\org\apache\cxf\jaxrs\impl\AsyncResponseImplTest.java,easymock,org.easymock.IMocksControl
+cxf,cxf\rt\frontend\jaxrs\src\test\java\org\apache\cxf\jaxrs\impl\RequestPreprocessorTest.java,easymock,org.easymock.EasyMock
+cxf,cxf\rt\frontend\jaxrs\src\test\java\org\apache\cxf\jaxrs\impl\RequestPreprocessorTest.java,easymock,org.easymock.IMocksControl
+cxf,cxf\rt\frontend\jaxrs\src\test\java\org\apache\cxf\jaxrs\impl\ResponseImplTest.java,easymock,org.easymock.EasyMock
+cxf,cxf\rt\frontend\jaxrs\src\test\java\org\apache\cxf\jaxrs\impl\UriInfoImplTest.java,easymock,org.easymock.EasyMock
+cxf,cxf\rt\frontend\jaxrs\src\test\java\org\apache\cxf\jaxrs\impl\UriInfoImplTest.java,easymock,org.easymock.IMocksControl
+cxf,cxf\rt\frontend\jaxrs\src\test\java\org\apache\cxf\jaxrs\lifecycle\PerRequestResourceProviderTest.java,easymock,org.easymock.EasyMock
+cxf,cxf\rt\frontend\jaxrs\src\test\java\org\apache\cxf\jaxrs\model\OperationResourceInfoTest.java,easymock,org.easymock.EasyMock
+cxf,cxf\rt\frontend\jaxrs\src\test\java\org\apache\cxf\jaxrs\provider\AbstractConfigurableProviderTest.java,easymock,org.easymock.EasyMock
+cxf,cxf\rt\frontend\jaxrs\src\test\java\org\apache\cxf\jaxrs\provider\JAXBElementProviderTest.java,easymock,org.easymock.EasyMock
+cxf,cxf\rt\frontend\jaxrs\src\test\java\org\apache\cxf\jaxrs\provider\ProviderFactoryTest.java,easymock,org.easymock.EasyMock
+cxf,cxf\rt\frontend\jaxrs\src\test\java\org\apache\cxf\jaxrs\provider\XSLTJaxbProviderTest.java,easymock,org.easymock.EasyMock
+cxf,cxf\rt\frontend\jaxrs\src\test\java\org\apache\cxf\jaxrs\springmvc\SpringViewResolverProviderTest.java,easymock,org.easymock.EasyMockRule
+cxf,cxf\rt\frontend\jaxrs\src\test\java\org\apache\cxf\jaxrs\springmvc\SpringViewResolverProviderTest.java,easymock,org.easymock.EasyMockSupport
+cxf,cxf\rt\frontend\jaxrs\src\test\java\org\apache\cxf\jaxrs\springmvc\SpringViewResolverProviderTest.java,easymock,org.easymock.Mock
+cxf,cxf\rt\frontend\jaxrs\src\test\java\org\apache\cxf\jaxrs\springmvc\SpringViewResolverProviderTest.java,easymock,static org.easymock.EasyMock.anyObject
+cxf,cxf\rt\frontend\jaxrs\src\test\java\org\apache\cxf\jaxrs\springmvc\SpringViewResolverProviderTest.java,easymock,static org.easymock.EasyMock.expect
+cxf,cxf\rt\frontend\jaxrs\src\test\java\org\apache\cxf\jaxrs\springmvc\SpringViewResolverProviderTest.java,easymock,static org.easymock.EasyMock.expectLastCall
+cxf,cxf\rt\frontend\jaxrs\src\test\java\org\apache\cxf\jaxrs\utils\FormUtilsTest.java,easymock,org.easymock.EasyMock
+cxf,cxf\rt\frontend\jaxrs\src\test\java\org\apache\cxf\jaxrs\utils\HttpUtilsTest.java,easymock,org.easymock.EasyMock
+cxf,cxf\rt\frontend\jaxrs\src\test\java\org\apache\cxf\jaxrs\utils\InjectionUtilsTest.java,easymock,org.easymock.EasyMock
+cxf,cxf\rt\frontend\jaxrs\src\test\java\org\apache\cxf\jaxrs\utils\JAXRSUtilsTest.java,easymock,org.easymock.EasyMock
+cxf,cxf\rt\frontend\jaxws\src\test\java\org\apache\cxf\jaxws\JAXWSMethodInvokerTest.java,easymock,org.easymock.EasyMock
+cxf,cxf\rt\frontend\jaxws\src\test\java\org\apache\cxf\jaxws\handler\AbstractProtocolHandlerInterceptorTest.java,easymock,org.easymock.IMocksControl
+cxf,cxf\rt\frontend\jaxws\src\test\java\org\apache\cxf\jaxws\handler\AbstractProtocolHandlerInterceptorTest.java,easymock,static org.easymock.EasyMock.createNiceControl
+cxf,cxf\rt\frontend\jaxws\src\test\java\org\apache\cxf\jaxws\handler\AbstractProtocolHandlerInterceptorTest.java,easymock,static org.easymock.EasyMock.eq
+cxf,cxf\rt\frontend\jaxws\src\test\java\org\apache\cxf\jaxws\handler\AbstractProtocolHandlerInterceptorTest.java,easymock,static org.easymock.EasyMock.expect
+cxf,cxf\rt\frontend\jaxws\src\test\java\org\apache\cxf\jaxws\handler\AbstractProtocolHandlerInterceptorTest.java,easymock,static org.easymock.EasyMock.isA
+cxf,cxf\rt\frontend\jaxws\src\test\java\org\apache\cxf\jaxws\handler\HandlerChainBuilderTest.java,easymock,org.easymock.EasyMock
+cxf,cxf\rt\frontend\jaxws\src\test\java\org\apache\cxf\jaxws\handler\LogicalHandlerInterceptorTest.java,easymock,org.easymock.EasyMock
+cxf,cxf\rt\frontend\jaxws\src\test\java\org\apache\cxf\jaxws\handler\LogicalHandlerInterceptorTest.java,easymock,org.easymock.IMocksControl
+cxf,cxf\rt\frontend\jaxws\src\test\java\org\apache\cxf\jaxws\handler\LogicalHandlerInterceptorTest.java,easymock,static org.easymock.EasyMock.createNiceControl
+cxf,cxf\rt\frontend\jaxws\src\test\java\org\apache\cxf\jaxws\handler\LogicalHandlerInterceptorTest.java,easymock,static org.easymock.EasyMock.eq
+cxf,cxf\rt\frontend\jaxws\src\test\java\org\apache\cxf\jaxws\handler\LogicalHandlerInterceptorTest.java,easymock,static org.easymock.EasyMock.expect
+cxf,cxf\rt\frontend\jaxws\src\test\java\org\apache\cxf\jaxws\handler\LogicalHandlerInterceptorTest.java,easymock,static org.easymock.EasyMock.isA
+cxf,cxf\rt\frontend\jaxws\src\test\java\org\apache\cxf\jaxws\handler\soap\SOAPHandlerInterceptorTest.java,easymock,org.easymock.IMocksControl
+cxf,cxf\rt\frontend\jaxws\src\test\java\org\apache\cxf\jaxws\handler\soap\SOAPHandlerInterceptorTest.java,easymock,static org.easymock.EasyMock.createNiceControl
+cxf,cxf\rt\frontend\jaxws\src\test\java\org\apache\cxf\jaxws\handler\soap\SOAPHandlerInterceptorTest.java,easymock,static org.easymock.EasyMock.expect
+cxf,cxf\rt\frontend\jaxws\src\test\java\org\apache\cxf\jaxws\support\JaxWsServiceConfigurationTest.java,easymock,org.easymock.EasyMock
+cxf,cxf\rt\frontend\jaxws\src\test\java\org\apache\cxf\jaxws\support\JaxWsServiceConfigurationTest.java,easymock,org.easymock.IMocksControl
+cxf,cxf\rt\frontend\jaxws\src\test\java\org\apache\cxf\transport\http_jaxws_spi\HttpHandlerImplTest.java,easymock,org.easymock.EasyMock
+cxf,cxf\rt\frontend\jaxws\src\test\java\org\apache\cxf\transport\http_jaxws_spi\HttpHandlerImplTest.java,easymock,org.easymock.IMocksControl
+cxf,cxf\rt\frontend\jaxws\src\test\java\org\apache\cxf\transport\http_jaxws_spi\JAXWSHttpSpiDestinationTest.java,easymock,org.easymock.EasyMock
+cxf,cxf\rt\frontend\jaxws\src\test\java\org\apache\cxf\transport\http_jaxws_spi\JAXWSHttpSpiDestinationTest.java,easymock,org.easymock.IMocksControl
+cxf,cxf\rt\frontend\jaxws\src\test\java\org\apache\cxf\transport\http_jaxws_spi\JAXWSHttpSpiDestinationTest.java,easymock,static org.easymock.EasyMock.expect
+cxf,cxf\rt\frontend\jaxws\src\test\java\org\apache\cxf\transport\http_jaxws_spi\JAXWSHttpSpiDestinationTest.java,easymock,static org.easymock.EasyMock.isA
+cxf,cxf\rt\frontend\jaxws\src\test\java\org\apache\cxf\transport\http_jaxws_spi\JAXWSHttpSpiTransportFactoryTest.java,easymock,org.easymock.EasyMock
+cxf,cxf\rt\frontend\jaxws\src\test\java\org\apache\cxf\transport\http_jaxws_spi\JAXWSHttpSpiTransportFactoryTest.java,easymock,org.easymock.IMocksControl
+cxf,cxf\rt\frontend\js\src\test\java\org\apache\cxf\js\rhino\AbstractDOMProviderTest.java,easymock,org.easymock.EasyMock
+cxf,cxf\rt\frontend\js\src\test\java\org\apache\cxf\js\rhino\ProviderFactoryTest.java,easymock,org.easymock.EasyMock
+cxf,cxf\rt\frontend\js\src\test\java\org\apache\cxf\js\rhino\ServerAppTest.java,easymock,org.easymock.EasyMock
+cxf,cxf\rt\management\src\test\java\org\apache\cxf\management\counters\CounterRepositoryTest.java,easymock,org.easymock.EasyMock
+cxf,cxf\rt\management\src\test\java\org\apache\cxf\management\interceptor\AbstractMessageResponseTestBase.java,easymock,org.easymock.EasyMock
+cxf,cxf\rt\management\src\test\java\org\apache\cxf\management\interceptor\ResponseTimeMessageInInterceptorTest.java,easymock,org.easymock.EasyMock
+cxf,cxf\rt\management\src\test\java\org\apache\cxf\management\interceptor\ResponseTimeMessageInvokerInterceptorTest.java,easymock,org.easymock.EasyMock
+cxf,cxf\rt\management\src\test\java\org\apache\cxf\management\interceptor\ResponseTimeMessageOutInterceptorTest.java,easymock,org.easymock.EasyMock
+cxf,cxf\rt\rs\description\src\test\java\org\apache\cxf\jaxrs\model\wadl\WadlGeneratorJsonTest.java,easymock,org.easymock.EasyMock
+cxf,cxf\rt\rs\description\src\test\java\org\apache\cxf\jaxrs\model\wadl\WadlGeneratorJsonTest.java,easymock,org.easymock.IMocksControl
+cxf,cxf\rt\rs\description\src\test\java\org\apache\cxf\jaxrs\model\wadl\WadlGeneratorTest.java,easymock,org.easymock.EasyMock
+cxf,cxf\rt\rs\description\src\test\java\org\apache\cxf\jaxrs\model\wadl\WadlGeneratorTest.java,easymock,org.easymock.IMocksControl
+cxf,cxf\rt\rs\extensions\providers\src\test\java\org\apache\cxf\jaxrs\provider\dom4j\DOM4JProviderTest.java,easymock,org.easymock.EasyMock
+cxf,cxf\rt\rs\microprofile-client\src\test\java\org\apache\cxf\microprofile\client\AsyncTest.java,mockwebserver,okhttp3.mockwebserver.MockResponse
+cxf,cxf\rt\rs\microprofile-client\src\test\java\org\apache\cxf\microprofile\client\AsyncTest.java,mockwebserver,okhttp3.mockwebserver.MockWebServer
+cxf,cxf\rt\rs\microprofile-client\src\test\java\org\apache\cxf\microprofile\client\cdi\RestClientCdiTest.java,easymock,org.easymock.EasyMock
+cxf,cxf\rt\rs\microprofile-client\src\test\java\org\apache\cxf\microprofile\client\cdi\RestClientCdiTest.java,easymock,org.easymock.IMocksControl
+cxf,cxf\rt\rs\security\http-signature\src\test\java\org\apache\cxf\rs\security\httpsignature\SpecExamplesTest.java,mockito,org.mockito.Mockito
+cxf,cxf\rt\rs\security\oauth-parent\oauth2\src\test\java\org\apache\cxf\rs\security\oauth2\client\OAuthClientUtilsTest.java,easymock,static org.easymock.EasyMock.anyObject
+cxf,cxf\rt\rs\security\oauth-parent\oauth2\src\test\java\org\apache\cxf\rs\security\oauth2\client\OAuthClientUtilsTest.java,easymock,static org.easymock.EasyMock.expect
+cxf,cxf\rt\rs\security\oauth-parent\oauth2\src\test\java\org\apache\cxf\rs\security\oauth2\client\OAuthClientUtilsTest.java,easymock,static org.easymock.EasyMock.mock
+cxf,cxf\rt\rs\security\oauth-parent\oauth2\src\test\java\org\apache\cxf\rs\security\oauth2\client\OAuthClientUtilsTest.java,easymock,static org.easymock.EasyMock.replay
+cxf,cxf\rt\rs\security\oauth-parent\oauth2\src\test\java\org\apache\cxf\rs\security\oauth2\client\OAuthClientUtilsTest.java,easymock,static org.easymock.EasyMock.verify
+cxf,cxf\rt\rs\security\oauth-parent\oauth2\src\test\java\org\apache\cxf\rs\security\oauth2\grants\jwt\AbstractJwtHandlerTest.java,easymock,org.easymock.EasyMockRule
+cxf,cxf\rt\rs\security\oauth-parent\oauth2\src\test\java\org\apache\cxf\rs\security\oauth2\grants\jwt\AbstractJwtHandlerTest.java,easymock,org.easymock.Mock
+cxf,cxf\rt\rs\security\oauth-parent\oauth2\src\test\java\org\apache\cxf\rs\security\oauth2\grants\jwt\AbstractJwtHandlerTest.java,easymock,static org.easymock.EasyMock.expect
+cxf,cxf\rt\rs\security\oauth-parent\oauth2\src\test\java\org\apache\cxf\rs\security\oauth2\grants\jwt\AbstractJwtHandlerTest.java,easymock,static org.easymock.EasyMock.replay
+cxf,cxf\rt\rs\security\oauth-parent\oauth2\src\test\java\org\apache\cxf\rs\security\oauth2\grants\jwt\AbstractJwtHandlerTest.java,easymock,static org.easymock.EasyMock.verify
+cxf,cxf\rt\rs\security\oauth-parent\oauth2\src\test\java\org\apache\cxf\rs\security\oauth2\tokens\hawk\HawkAccessTokenValidatorTest.java,easymock,org.easymock.EasyMock
+cxf,cxf\rt\rs\security\oauth-parent\oauth2\src\test\java\org\apache\cxf\rs\security\oauth2\tokens\hawk\NonceVerifierImplTest.java,easymock,org.easymock.EasyMock
+cxf,cxf\rt\rs\sse\src\test\java\org\apache\cxf\jaxrs\sse\SseBroadcasterImplTest.java,springframework,org.springframework.mock.web.MockAsyncContext
+cxf,cxf\rt\rs\sse\src\test\java\org\apache\cxf\jaxrs\sse\SseBroadcasterImplTest.java,springframework,org.springframework.mock.web.MockHttpServletRequest
+cxf,cxf\rt\rs\sse\src\test\java\org\apache\cxf\jaxrs\sse\SseBroadcasterImplTest.java,springframework,org.springframework.mock.web.MockHttpServletResponse
+cxf,cxf\rt\rs\sse\src\test\java\org\apache\cxf\jaxrs\sse\SseBroadcasterImplTest.java,mockito,static org.mockito.ArgumentMatchers.any
+cxf,cxf\rt\rs\sse\src\test\java\org\apache\cxf\jaxrs\sse\SseBroadcasterImplTest.java,mockito,static org.mockito.Mockito.mock
+cxf,cxf\rt\rs\sse\src\test\java\org\apache\cxf\jaxrs\sse\SseBroadcasterImplTest.java,mockito,static org.mockito.Mockito.when
+cxf,cxf\rt\rs\sse\src\test\java\org\apache\cxf\jaxrs\sse\SseEventSinkContextProviderTest.java,springframework,org.springframework.mock.web.MockAsyncContext
+cxf,cxf\rt\rs\sse\src\test\java\org\apache\cxf\jaxrs\sse\SseEventSinkContextProviderTest.java,springframework,org.springframework.mock.web.MockHttpServletRequest
+cxf,cxf\rt\rs\sse\src\test\java\org\apache\cxf\jaxrs\sse\SseEventSinkContextProviderTest.java,springframework,org.springframework.mock.web.MockHttpServletResponse
+cxf,cxf\rt\rs\sse\src\test\java\org\apache\cxf\jaxrs\sse\SseEventSinkContextProviderTest.java,mockito,static org.mockito.Mockito.mock
+cxf,cxf\rt\rs\sse\src\test\java\org\apache\cxf\jaxrs\sse\SseEventSinkContextProviderTest.java,mockito,static org.mockito.Mockito.when
+cxf,cxf\rt\transports\http-jetty\src\test\java\org\apache\cxf\transport\http_jetty\JettyHTTPDestinationTest.java,easymock,org.easymock.EasyMock
+cxf,cxf\rt\transports\http-jetty\src\test\java\org\apache\cxf\transport\http_jetty\JettyHTTPServerEngineTest.java,easymock,org.easymock.EasyMock
+cxf,cxf\rt\transports\http-jetty\src\test\java\org\apache\cxf\transport\http_jetty\JettyHTTPServerEngineTest.java,easymock,org.easymock.IMocksControl
+cxf,cxf\rt\transports\http-netty\netty-server\src\test\java\org\apache\cxf\transport\http\netty\server\NettyHttpDestinationTest.java,easymock,org.easymock.EasyMock
+cxf,cxf\rt\transports\http-netty\netty-server\src\test\java\org\apache\cxf\transport\http\netty\server\NettyHttpServerEngineTest.java,easymock,org.easymock.EasyMock
+cxf,cxf\rt\transports\http-netty\netty-server\src\test\java\org\apache\cxf\transport\http\netty\server\NettyHttpServerEngineTest.java,easymock,org.easymock.IMocksControl
+cxf,cxf\rt\transports\http-undertow\src\test\java\org\apache\cxf\transport\http_undertow\UndertowHTTPDestinationTest.java,easymock,org.easymock.EasyMock
+cxf,cxf\rt\transports\http-undertow\src\test\java\org\apache\cxf\transport\http_undertow\UndertowHTTPServerEngineTest.java,easymock,org.easymock.EasyMock
+cxf,cxf\rt\transports\http-undertow\src\test\java\org\apache\cxf\transport\http_undertow\UndertowHTTPServerEngineTest.java,easymock,org.easymock.IMocksControl
+cxf,cxf\rt\transports\http\src\test\java\org\apache\cxf\transport\http\DestinationRegistryImplTest.java,easymock,org.easymock.EasyMock
+cxf,cxf\rt\transports\http\src\test\java\org\apache\cxf\transport\http\DestinationRegistryImplTest.java,easymock,org.easymock.IMocksControl
+cxf,cxf\rt\transports\http\src\test\java\org\apache\cxf\transport\http\HTTPConduitURLEasyMockTest.java,easymock,org.easymock.EasyMock
+cxf,cxf\rt\transports\http\src\test\java\org\apache\cxf\transport\http\HTTPConduitURLEasyMockTest.java,easymock,org.easymock.IMocksControl
+cxf,cxf\rt\transports\http\src\test\java\org\apache\cxf\transport\http\HeadersTest.java,easymock,org.easymock.EasyMock
+cxf,cxf\rt\transports\http\src\test\java\org\apache\cxf\transport\http\HeadersTest.java,easymock,org.easymock.IMocksControl
+cxf,cxf\rt\transports\http\src\test\java\org\apache\cxf\transport\http\policy\PolicyUtilsTest.java,easymock,org.easymock.EasyMock
+cxf,cxf\rt\transports\http\src\test\java\org\apache\cxf\transport\http\policy\PolicyUtilsTest.java,easymock,org.easymock.IMocksControl
+cxf,cxf\rt\transports\http\src\test\java\org\apache\cxf\transport\https\HttpsURLConnectionFactoryTest.java,easymock,org.easymock.EasyMock
+cxf,cxf\rt\transports\http\src\test\java\org\apache\cxf\transport\servlet\BaseUrlHelperTest.java,easymock,org.easymock.EasyMock
+cxf,cxf\rt\transports\http\src\test\java\org\apache\cxf\transport\servlet\HttpServletRequestXForwardedFilterTest.java,mockito,static org.mockito.ArgumentMatchers.eq
+cxf,cxf\rt\transports\http\src\test\java\org\apache\cxf\transport\servlet\HttpServletRequestXForwardedFilterTest.java,mockito,static org.mockito.Mockito.mock
+cxf,cxf\rt\transports\http\src\test\java\org\apache\cxf\transport\servlet\HttpServletRequestXForwardedFilterTest.java,mockito,static org.mockito.Mockito.when
+cxf,cxf\rt\transports\http\src\test\java\org\apache\cxf\transport\servlet\ServletControllerTest.java,easymock,org.easymock.EasyMock
+cxf,cxf\rt\transports\jms\src\test\java\org\apache\cxf\transport\jms\continuations\JMSContinuationProviderTest.java,easymock,org.easymock.EasyMock
+cxf,cxf\rt\transports\jms\src\test\java\org\apache\cxf\transport\jms\continuations\JMSContinuationTest.java,easymock,org.easymock.EasyMock
+cxf,cxf\rt\transports\websocket\src\test\java\org\apache\cxf\transport\websocket\jetty\JettyWebSocketDestinationTest.java,easymock,org.easymock.EasyMock
+cxf,cxf\rt\transports\websocket\src\test\java\org\apache\cxf\transport\websocket\jetty\JettyWebSocketDestinationTest.java,easymock,org.easymock.IMocksControl
+cxf,cxf\rt\ws\addr\src\test\java\org\apache\cxf\ws\addressing\impl\ContextUtilsTest.java,easymock,org.easymock.EasyMock
+cxf,cxf\rt\ws\addr\src\test\java\org\apache\cxf\ws\addressing\impl\ContextUtilsTest.java,easymock,org.easymock.IMocksControl
+cxf,cxf\rt\ws\addr\src\test\java\org\apache\cxf\ws\addressing\impl\MAPAggregatorTest.java,easymock,org.easymock.EasyMock
+cxf,cxf\rt\ws\addr\src\test\java\org\apache\cxf\ws\addressing\impl\MAPAggregatorTest.java,easymock,org.easymock.IMocksControl
+cxf,cxf\rt\ws\addr\src\test\java\org\apache\cxf\ws\addressing\soap\DecoupledFaultHandlerTest.java,easymock,org.easymock.EasyMock
+cxf,cxf\rt\ws\addr\src\test\java\org\apache\cxf\ws\addressing\soap\MAPCodecTest.java,easymock,org.easymock.EasyMock
+cxf,cxf\rt\ws\addr\src\test\java\org\apache\cxf\ws\addressing\soap\MAPCodecTest.java,easymock,org.easymock.IMocksControl
+cxf,cxf\rt\ws\policy\src\test\java\org\apache\cxf\ws\policy\AssertionBuilderRegistryImplTest.java,easymock,org.easymock.EasyMock
+cxf,cxf\rt\ws\policy\src\test\java\org\apache\cxf\ws\policy\AssertionBuilderRegistryImplTest.java,easymock,org.easymock.IMocksControl
+cxf,cxf\rt\ws\policy\src\test\java\org\apache\cxf\ws\policy\AssertionInfoMapTest.java,easymock,org.easymock.EasyMock
+cxf,cxf\rt\ws\policy\src\test\java\org\apache\cxf\ws\policy\AssertionInfoMapTest.java,easymock,org.easymock.IMocksControl
+cxf,cxf\rt\ws\policy\src\test\java\org\apache\cxf\ws\policy\EffectivePolicyImplTest.java,easymock,org.easymock.EasyMock
+cxf,cxf\rt\ws\policy\src\test\java\org\apache\cxf\ws\policy\EffectivePolicyImplTest.java,easymock,org.easymock.IMocksControl
+cxf,cxf\rt\ws\policy\src\test\java\org\apache\cxf\ws\policy\EndpointPolicyImplTest.java,easymock,org.easymock.EasyMock
+cxf,cxf\rt\ws\policy\src\test\java\org\apache\cxf\ws\policy\EndpointPolicyImplTest.java,easymock,org.easymock.IMocksControl
+cxf,cxf\rt\ws\policy\src\test\java\org\apache\cxf\ws\policy\NormalizeTest.java,easymock,org.easymock.EasyMock
+cxf,cxf\rt\ws\policy\src\test\java\org\apache\cxf\ws\policy\NormalizeTest.java,easymock,org.easymock.IMocksControl
+cxf,cxf\rt\ws\policy\src\test\java\org\apache\cxf\ws\policy\PolicyDataEngineImplTest.java,easymock,org.easymock.EasyMock
+cxf,cxf\rt\ws\policy\src\test\java\org\apache\cxf\ws\policy\PolicyDataEngineImplTest.java,easymock,org.easymock.IMocksControl
+cxf,cxf\rt\ws\policy\src\test\java\org\apache\cxf\ws\policy\PolicyEngineTest.java,easymock,org.easymock.EasyMock
+cxf,cxf\rt\ws\policy\src\test\java\org\apache\cxf\ws\policy\PolicyEngineTest.java,easymock,org.easymock.IMocksControl
+cxf,cxf\rt\ws\policy\src\test\java\org\apache\cxf\ws\policy\PolicyInterceptorProviderRegistryImplTest.java,easymock,org.easymock.EasyMock
+cxf,cxf\rt\ws\policy\src\test\java\org\apache\cxf\ws\policy\PolicyInterceptorProviderRegistryImplTest.java,easymock,org.easymock.IMocksControl
+cxf,cxf\rt\ws\policy\src\test\java\org\apache\cxf\ws\policy\PolicyInterceptorsTest.java,easymock,org.easymock.EasyMock
+cxf,cxf\rt\ws\policy\src\test\java\org\apache\cxf\ws\policy\PolicyInterceptorsTest.java,easymock,org.easymock.IMocksControl
+cxf,cxf\rt\ws\policy\src\test\java\org\apache\cxf\ws\policy\PolicyRegistryImplTest.java,easymock,org.easymock.EasyMock
+cxf,cxf\rt\ws\policy\src\test\java\org\apache\cxf\ws\policy\PolicyRegistryImplTest.java,easymock,org.easymock.IMocksControl
+cxf,cxf\rt\ws\policy\src\test\java\org\apache\cxf\ws\policy\PolicyVerificationInFaultInterceptorTest.java,easymock,org.easymock.EasyMock
+cxf,cxf\rt\ws\policy\src\test\java\org\apache\cxf\ws\policy\PolicyVerificationInFaultInterceptorTest.java,easymock,org.easymock.IMocksControl
+cxf,cxf\rt\ws\policy\src\test\java\org\apache\cxf\ws\policy\PolicyVerificationInInterceptorTest.java,easymock,org.easymock.EasyMock
+cxf,cxf\rt\ws\policy\src\test\java\org\apache\cxf\ws\policy\PolicyVerificationInInterceptorTest.java,easymock,org.easymock.IMocksControl
+cxf,cxf\rt\ws\policy\src\test\java\org\apache\cxf\ws\policy\PolicyVerificationOutInterceptorTest.java,easymock,org.easymock.EasyMock
+cxf,cxf\rt\ws\policy\src\test\java\org\apache\cxf\ws\policy\PolicyVerificationOutInterceptorTest.java,easymock,org.easymock.IMocksControl
+cxf,cxf\rt\ws\policy\src\test\java\org\apache\cxf\ws\policy\attachment\external\DomainExpressionBuilderRegistryTest.java,easymock,org.easymock.EasyMock
+cxf,cxf\rt\ws\policy\src\test\java\org\apache\cxf\ws\policy\attachment\external\DomainExpressionBuilderRegistryTest.java,easymock,org.easymock.IMocksControl
+cxf,cxf\rt\ws\policy\src\test\java\org\apache\cxf\ws\policy\attachment\external\EndpointReferenceDomainExpressionTest.java,easymock,org.easymock.EasyMock
+cxf,cxf\rt\ws\policy\src\test\java\org\apache\cxf\ws\policy\attachment\external\EndpointReferenceDomainExpressionTest.java,easymock,org.easymock.IMocksControl
+cxf,cxf\rt\ws\policy\src\test\java\org\apache\cxf\ws\policy\attachment\external\ExternalAttachmentProviderTest.java,easymock,org.easymock.EasyMock
+cxf,cxf\rt\ws\policy\src\test\java\org\apache\cxf\ws\policy\attachment\external\ExternalAttachmentProviderTest.java,easymock,org.easymock.IMocksControl
+cxf,cxf\rt\ws\policy\src\test\java\org\apache\cxf\ws\policy\attachment\external\PolicyAttachmentTest.java,easymock,org.easymock.EasyMock
+cxf,cxf\rt\ws\policy\src\test\java\org\apache\cxf\ws\policy\attachment\external\PolicyAttachmentTest.java,easymock,org.easymock.IMocksControl
+cxf,cxf\rt\ws\policy\src\test\java\org\apache\cxf\ws\policy\attachment\external\URIDomainExpressionTest.java,easymock,org.easymock.EasyMock
+cxf,cxf\rt\ws\policy\src\test\java\org\apache\cxf\ws\policy\attachment\external\URIDomainExpressionTest.java,easymock,org.easymock.IMocksControl
+cxf,cxf\rt\ws\policy\src\test\java\org\apache\cxf\ws\policy\attachment\reference\ReferenceResolverTest.java,easymock,org.easymock.EasyMock
+cxf,cxf\rt\ws\policy\src\test\java\org\apache\cxf\ws\policy\attachment\reference\ReferenceResolverTest.java,easymock,org.easymock.IMocksControl
+cxf,cxf\rt\ws\policy\src\test\java\org\apache\cxf\ws\policy\attachment\wsdl11\Wsdl11AttachmentPolicyProviderTest.java,easymock,org.easymock.EasyMock
+cxf,cxf\rt\ws\policy\src\test\java\org\apache\cxf\ws\policy\attachment\wsdl11\Wsdl11AttachmentPolicyProviderTest.java,easymock,org.easymock.IMocksControl
+cxf,cxf\rt\ws\policy\src\test\java\org\apache\cxf\ws\policy\builder\jaxb\JaxbAssertionTest.java,easymock,org.easymock.EasyMock
+cxf,cxf\rt\ws\policy\src\test\java\org\apache\cxf\ws\policy\builder\jaxb\JaxbAssertionTest.java,easymock,org.easymock.IMocksControl
+cxf,cxf\rt\ws\policy\src\test\java\org\apache\cxf\ws\policy\selector\FirstAlternativeSelectorTest.java,easymock,org.easymock.EasyMock
+cxf,cxf\rt\ws\policy\src\test\java\org\apache\cxf\ws\policy\selector\FirstAlternativeSelectorTest.java,easymock,org.easymock.IMocksControl
+cxf,cxf\rt\ws\policy\src\test\java\org\apache\cxf\ws\policy\selector\MinimalMaximalAlternativeSelectorTest.java,easymock,org.easymock.EasyMock
+cxf,cxf\rt\ws\policy\src\test\java\org\apache\cxf\ws\policy\selector\MinimalMaximalAlternativeSelectorTest.java,easymock,org.easymock.IMocksControl
+cxf,cxf\rt\ws\rm\src\test\java\org\apache\cxf\ws\rm\AbstractEndpointTest.java,easymock,org.easymock.EasyMock
+cxf,cxf\rt\ws\rm\src\test\java\org\apache\cxf\ws\rm\AbstractEndpointTest.java,easymock,org.easymock.IMocksControl
+cxf,cxf\rt\ws\rm\src\test\java\org\apache\cxf\ws\rm\AbstractRMInterceptorTest.java,easymock,org.easymock.EasyMock
+cxf,cxf\rt\ws\rm\src\test\java\org\apache\cxf\ws\rm\AbstractRMInterceptorTest.java,easymock,org.easymock.IMocksControl
+cxf,cxf\rt\ws\rm\src\test\java\org\apache\cxf\ws\rm\DestinationSequenceTest.java,easymock,org.easymock.EasyMock
+cxf,cxf\rt\ws\rm\src\test\java\org\apache\cxf\ws\rm\DestinationSequenceTest.java,easymock,org.easymock.IMocksControl
+cxf,cxf\rt\ws\rm\src\test\java\org\apache\cxf\ws\rm\DestinationTest.java,easymock,org.easymock.EasyMock
+cxf,cxf\rt\ws\rm\src\test\java\org\apache\cxf\ws\rm\DestinationTest.java,easymock,org.easymock.IMocksControl
+cxf,cxf\rt\ws\rm\src\test\java\org\apache\cxf\ws\rm\ManagedRMManagerTest.java,easymock,org.easymock.EasyMock
+cxf,cxf\rt\ws\rm\src\test\java\org\apache\cxf\ws\rm\ManagedRMManagerTest.java,easymock,org.easymock.IMocksControl
+cxf,cxf\rt\ws\rm\src\test\java\org\apache\cxf\ws\rm\ProxyTest.java,easymock,org.easymock.EasyMock
+cxf,cxf\rt\ws\rm\src\test\java\org\apache\cxf\ws\rm\ProxyTest.java,easymock,org.easymock.IMocksControl
+cxf,cxf\rt\ws\rm\src\test\java\org\apache\cxf\ws\rm\RMContextUtilsTest.java,easymock,org.easymock.EasyMock
+cxf,cxf\rt\ws\rm\src\test\java\org\apache\cxf\ws\rm\RMContextUtilsTest.java,easymock,org.easymock.IMocksControl
+cxf,cxf\rt\ws\rm\src\test\java\org\apache\cxf\ws\rm\RMEndpointTest.java,easymock,org.easymock.EasyMock
+cxf,cxf\rt\ws\rm\src\test\java\org\apache\cxf\ws\rm\RMEndpointTest.java,easymock,org.easymock.IMocksControl
+cxf,cxf\rt\ws\rm\src\test\java\org\apache\cxf\ws\rm\RMInInterceptorTest.java,easymock,org.easymock.EasyMock
+cxf,cxf\rt\ws\rm\src\test\java\org\apache\cxf\ws\rm\RMInInterceptorTest.java,easymock,org.easymock.IMocksControl
+cxf,cxf\rt\ws\rm\src\test\java\org\apache\cxf\ws\rm\RMManagerTest.java,easymock,org.easymock.Capture
+cxf,cxf\rt\ws\rm\src\test\java\org\apache\cxf\ws\rm\RMManagerTest.java,easymock,org.easymock.EasyMock
+cxf,cxf\rt\ws\rm\src\test\java\org\apache\cxf\ws\rm\RMManagerTest.java,easymock,org.easymock.IMocksControl
+cxf,cxf\rt\ws\rm\src\test\java\org\apache\cxf\ws\rm\RMOutInterceptorTest.java,easymock,org.easymock.EasyMock
+cxf,cxf\rt\ws\rm\src\test\java\org\apache\cxf\ws\rm\RMOutInterceptorTest.java,easymock,org.easymock.IMocksControl
+cxf,cxf\rt\ws\rm\src\test\java\org\apache\cxf\ws\rm\RMUtilsTest.java,easymock,org.easymock.EasyMock
+cxf,cxf\rt\ws\rm\src\test\java\org\apache\cxf\ws\rm\RMUtilsTest.java,easymock,org.easymock.IMocksControl
+cxf,cxf\rt\ws\rm\src\test\java\org\apache\cxf\ws\rm\ServantTest.java,easymock,org.easymock.EasyMock
+cxf,cxf\rt\ws\rm\src\test\java\org\apache\cxf\ws\rm\ServantTest.java,easymock,org.easymock.IMocksControl
+cxf,cxf\rt\ws\rm\src\test\java\org\apache\cxf\ws\rm\SourceSequenceTest.java,easymock,org.easymock.EasyMock
+cxf,cxf\rt\ws\rm\src\test\java\org\apache\cxf\ws\rm\SourceSequenceTest.java,easymock,org.easymock.IMocksControl
+cxf,cxf\rt\ws\rm\src\test\java\org\apache\cxf\ws\rm\persistence\jdbc\RMTxStoreTest.java,easymock,org.easymock.EasyMock
+cxf,cxf\rt\ws\rm\src\test\java\org\apache\cxf\ws\rm\persistence\jdbc\RMTxStoreTestBase.java,easymock,org.easymock.EasyMock
+cxf,cxf\rt\ws\rm\src\test\java\org\apache\cxf\ws\rm\persistence\jdbc\RMTxStoreTestBase.java,easymock,org.easymock.IMocksControl
+cxf,cxf\rt\ws\rm\src\test\java\org\apache\cxf\ws\rm\persistence\jdbc\RMTxStoreTwoSchemasTest.java,easymock,org.easymock.EasyMock
+cxf,cxf\rt\ws\rm\src\test\java\org\apache\cxf\ws\rm\persistence\jdbc\RMTxStoreTwoSchemasTest.java,easymock,org.easymock.IMocksControl
+cxf,cxf\rt\ws\rm\src\test\java\org\apache\cxf\ws\rm\policy\PolicyUtilsTest.java,easymock,org.easymock.EasyMock
+cxf,cxf\rt\ws\rm\src\test\java\org\apache\cxf\ws\rm\policy\PolicyUtilsTest.java,easymock,org.easymock.IMocksControl
+cxf,cxf\rt\ws\rm\src\test\java\org\apache\cxf\ws\rm\soap\RetransmissionQueueImplTest.java,easymock,org.easymock.EasyMock
+cxf,cxf\rt\ws\rm\src\test\java\org\apache\cxf\ws\rm\soap\RetransmissionQueueImplTest.java,easymock,org.easymock.IMocksControl
+cxf,cxf\rt\ws\rm\src\test\java\org\apache\cxf\ws\rm\soap\SoapFaultFactoryTest.java,easymock,org.easymock.EasyMock
+cxf,cxf\rt\ws\rm\src\test\java\org\apache\cxf\ws\rm\soap\SoapFaultFactoryTest.java,easymock,org.easymock.IMocksControl
+cxf,cxf\rt\ws\security\src\test\java\org\apache\cxf\ws\security\wss4j\AttachmentCallbackHandlerTest.java,easymock,org.easymock.EasyMock
+cxf,cxf\rt\ws\security\src\test\java\org\apache\cxf\ws\security\wss4j\AttachmentCallbackHandlerTest.java,easymock,static org.easymock.EasyMock.anyObject
+cxf,cxf\rt\ws\security\src\test\java\org\apache\cxf\ws\security\wss4j\SecurityVerificationOutTest.java,easymock,org.easymock.EasyMock
+cxf,cxf\rt\ws\security\src\test\java\org\apache\cxf\ws\security\wss4j\SecurityVerificationOutTest.java,easymock,org.easymock.IMocksControl
+cxf,cxf\rt\ws\transfer\src\test\java\org\apache\cxf\ws\transfer\integration\ResourceFactoryTest.java,easymock,org.easymock.EasyMock
+cxf,cxf\rt\ws\transfer\src\test\java\org\apache\cxf\ws\transfer\integration\ResourceTest.java,easymock,org.easymock.EasyMock
+cxf,cxf\rt\wsdl\src\test\java\org\apache\cxf\wsdl11\ServiceWSDLBuilderTest.java,easymock,org.easymock.EasyMock
+cxf,cxf\rt\wsdl\src\test\java\org\apache\cxf\wsdl11\ServiceWSDLBuilderTest.java,easymock,org.easymock.IMocksControl
+cxf,cxf\rt\wsdl\src\test\java\org\apache\cxf\wsdl11\WSDLServiceBuilderTest.java,easymock,org.easymock.EasyMock
+cxf,cxf\rt\wsdl\src\test\java\org\apache\cxf\wsdl11\WSDLServiceBuilderTest.java,easymock,org.easymock.IMocksControl
+cxf,cxf\rt\wsdl\src\test\java\org\apache\cxf\wsdl\interceptors\DocLiteralInInterceptorTest.java,easymock,org.easymock.EasyMock
+cxf,cxf\rt\wsdl\src\test\java\org\apache\cxf\wsdl\interceptors\DocLiteralInInterceptorTest.java,easymock,org.easymock.IMocksControl
+cxf,cxf\rt\wsdl\src\test\java\org\apache\cxf\wsdl\service\factory\ReflectionServiceFactorBeanTest.java,easymock,org.easymock.EasyMock
+cxf,cxf\rt\wsdl\src\test\java\org\apache\cxf\wsdl\service\factory\ReflectionServiceFactorBeanTest.java,easymock,org.easymock.IMocksControl
+cxf,cxf\services\xkms\xkms-x509-handlers\src\test\java\org\apache\cxf\xkms\x509\handlers\X509LocatorTest.java,easymock,org.easymock.EasyMock
+cxf,cxf\systests\cdi\cdi-owb\cdi-producers-owb\src\test\java\org\apache\cxf\systest\jaxrs\cdi\unwrapper\ClassUnwrapperTest.java,mockito,static org.mockito.Mockito.mock
+cxf,cxf\systests\jaxrs\src\test\java\org\apache\cxf\systest\jaxrs\metrics\JAXRSClientMetricsTest.java,wiremock,com.github.tomakehurst.wiremock.junit.WireMockRule
+cxf,cxf\systests\jaxrs\src\test\java\org\apache\cxf\systest\jaxrs\metrics\JAXRSClientMetricsTest.java,mockito,org.mockito.Mockito
+cxf,cxf\systests\jaxrs\src\test\java\org\apache\cxf\systest\jaxrs\metrics\JAXRSClientMetricsTest.java,mockito,org.mockito.junit.MockitoJUnitRunner
+cxf,cxf\systests\jaxrs\src\test\java\org\apache\cxf\systest\jaxrs\metrics\JAXRSClientMetricsTest.java,wiremock,static com.github.tomakehurst.wiremock.client.WireMock.aResponse
+cxf,cxf\systests\jaxrs\src\test\java\org\apache\cxf\systest\jaxrs\metrics\JAXRSClientMetricsTest.java,wiremock,static com.github.tomakehurst.wiremock.client.WireMock.equalTo
+cxf,cxf\systests\jaxrs\src\test\java\org\apache\cxf\systest\jaxrs\metrics\JAXRSClientMetricsTest.java,wiremock,static com.github.tomakehurst.wiremock.client.WireMock.get
+cxf,cxf\systests\jaxrs\src\test\java\org\apache\cxf\systest\jaxrs\metrics\JAXRSClientMetricsTest.java,wiremock,static com.github.tomakehurst.wiremock.client.WireMock.stubFor
+cxf,cxf\systests\jaxrs\src\test\java\org\apache\cxf\systest\jaxrs\metrics\JAXRSClientMetricsTest.java,wiremock,static com.github.tomakehurst.wiremock.client.WireMock.urlEqualTo
+cxf,cxf\systests\jaxrs\src\test\java\org\apache\cxf\systest\jaxrs\metrics\JAXRSClientMetricsTest.java,wiremock,static com.github.tomakehurst.wiremock.core.WireMockConfiguration.wireMockConfig
+cxf,cxf\systests\jaxrs\src\test\java\org\apache\cxf\systest\jaxrs\metrics\JAXRSClientMetricsTest.java,mockito,static org.mockito.ArgumentMatchers.any
+cxf,cxf\systests\jaxrs\src\test\java\org\apache\cxf\systest\jaxrs\metrics\JAXRSClientMetricsTest.java,mockito,static org.mockito.ArgumentMatchers.anyLong
+cxf,cxf\systests\jaxrs\src\test\java\org\apache\cxf\systest\jaxrs\metrics\JAXRSClientMetricsTest.java,mockito,static org.mockito.Mockito.times
+cxf,cxf\systests\jaxrs\src\test\java\org\apache\cxf\systest\jaxrs\metrics\JAXRSServerMetricsTest.java,mockito,org.mockito.Mockito
+cxf,cxf\systests\jaxrs\src\test\java\org\apache\cxf\systest\jaxrs\metrics\JAXRSServerMetricsTest.java,mockito,org.mockito.junit.MockitoJUnitRunner
+cxf,cxf\systests\jaxrs\src\test\java\org\apache\cxf\systest\jaxrs\metrics\JAXRSServerMetricsTest.java,mockito,static org.mockito.ArgumentMatchers.any
+cxf,cxf\systests\jaxrs\src\test\java\org\apache\cxf\systest\jaxrs\metrics\JAXRSServerMetricsTest.java,mockito,static org.mockito.ArgumentMatchers.anyLong
+cxf,cxf\systests\jaxrs\src\test\java\org\apache\cxf\systest\jaxrs\metrics\JAXRSServerMetricsTest.java,mockito,static org.mockito.Mockito.times
+cxf,cxf\systests\jaxws\src\test\java\org\apache\cxf\systest\jaxws\metrics\JAXWSClientMetricsTest.java,mockito,org.mockito.Mockito
+cxf,cxf\systests\jaxws\src\test\java\org\apache\cxf\systest\jaxws\metrics\JAXWSClientMetricsTest.java,mockito,org.mockito.junit.MockitoJUnitRunner
+cxf,cxf\systests\jaxws\src\test\java\org\apache\cxf\systest\jaxws\metrics\JAXWSClientMetricsTest.java,mockito,static org.mockito.ArgumentMatchers.any
+cxf,cxf\systests\jaxws\src\test\java\org\apache\cxf\systest\jaxws\metrics\JAXWSClientMetricsTest.java,mockito,static org.mockito.ArgumentMatchers.anyLong
+cxf,cxf\systests\jaxws\src\test\java\org\apache\cxf\systest\jaxws\metrics\JAXWSClientMetricsTest.java,mockito,static org.mockito.Mockito.times
+cxf,cxf\systests\microprofile\client\async\src\test\java\org\apache\cxf\systest\microprofile\rest\client\AsyncMethodTest.java,wiremock,com.github.tomakehurst.wiremock.core.WireMockConfiguration
+cxf,cxf\systests\microprofile\client\async\src\test\java\org\apache\cxf\systest\microprofile\rest\client\AsyncMethodTest.java,wiremock,com.github.tomakehurst.wiremock.junit.WireMockRule
+cxf,cxf\systests\microprofile\client\async\src\test\java\org\apache\cxf\systest\microprofile\rest\client\AsyncMethodTest.java,wiremock,static com.github.tomakehurst.wiremock.client.WireMock.*
+cxf,cxf\systests\microprofile\client\async\src\test\java\org\apache\cxf\systest\microprofile\rest\client\AsyncThreadingTest.java,wiremock,com.github.tomakehurst.wiremock.core.WireMockConfiguration
+cxf,cxf\systests\microprofile\client\async\src\test\java\org\apache\cxf\systest\microprofile\rest\client\AsyncThreadingTest.java,wiremock,com.github.tomakehurst.wiremock.junit.WireMockRule
+cxf,cxf\systests\microprofile\client\async\src\test\java\org\apache\cxf\systest\microprofile\rest\client\AsyncThreadingTest.java,wiremock,static com.github.tomakehurst.wiremock.client.WireMock.aResponse
+cxf,cxf\systests\microprofile\client\async\src\test\java\org\apache\cxf\systest\microprofile\rest\client\AsyncThreadingTest.java,wiremock,static com.github.tomakehurst.wiremock.client.WireMock.get
+cxf,cxf\systests\microprofile\client\async\src\test\java\org\apache\cxf\systest\microprofile\rest\client\AsyncThreadingTest.java,wiremock,static com.github.tomakehurst.wiremock.client.WireMock.urlEqualTo
+cxf,cxf\systests\microprofile\client\nocdi\src\test\java\org\apache\cxf\systest\microprofile\rest\client\AsyncMethodTest.java,wiremock,com.github.tomakehurst.wiremock.core.WireMockConfiguration
+cxf,cxf\systests\microprofile\client\nocdi\src\test\java\org\apache\cxf\systest\microprofile\rest\client\AsyncMethodTest.java,wiremock,com.github.tomakehurst.wiremock.junit.WireMockRule
+cxf,cxf\systests\microprofile\client\nocdi\src\test\java\org\apache\cxf\systest\microprofile\rest\client\AsyncMethodTest.java,wiremock,static com.github.tomakehurst.wiremock.client.WireMock.aResponse
+cxf,cxf\systests\microprofile\client\nocdi\src\test\java\org\apache\cxf\systest\microprofile\rest\client\AsyncMethodTest.java,wiremock,static com.github.tomakehurst.wiremock.client.WireMock.get
+cxf,cxf\systests\microprofile\client\nocdi\src\test\java\org\apache\cxf\systest\microprofile\rest\client\AsyncMethodTest.java,wiremock,static com.github.tomakehurst.wiremock.client.WireMock.put
+cxf,cxf\systests\microprofile\client\nocdi\src\test\java\org\apache\cxf\systest\microprofile\rest\client\AsyncMethodTest.java,wiremock,static com.github.tomakehurst.wiremock.client.WireMock.urlEqualTo
+cxf,cxf\systests\microprofile\client\nocdi\src\test\java\org\apache\cxf\systest\microprofile\rest\client\AsyncThreadingTest.java,wiremock,com.github.tomakehurst.wiremock.core.WireMockConfiguration
+cxf,cxf\systests\microprofile\client\nocdi\src\test\java\org\apache\cxf\systest\microprofile\rest\client\AsyncThreadingTest.java,wiremock,com.github.tomakehurst.wiremock.junit.WireMockRule
+cxf,cxf\systests\microprofile\client\nocdi\src\test\java\org\apache\cxf\systest\microprofile\rest\client\AsyncThreadingTest.java,wiremock,static com.github.tomakehurst.wiremock.client.WireMock.aResponse
+cxf,cxf\systests\microprofile\client\nocdi\src\test\java\org\apache\cxf\systest\microprofile\rest\client\AsyncThreadingTest.java,wiremock,static com.github.tomakehurst.wiremock.client.WireMock.get
+cxf,cxf\systests\microprofile\client\nocdi\src\test\java\org\apache\cxf\systest\microprofile\rest\client\AsyncThreadingTest.java,wiremock,static com.github.tomakehurst.wiremock.client.WireMock.urlEqualTo
+deltaspike,deltaspike\deltaspike\modules\test-control\impl\src\test\java\org\apache\deltaspike\test\testcontrol\mock\uc010\MockedRequestScopedBeanTest.java,mockito,static org.mockito.Mockito.*
+deltaspike,deltaspike\deltaspike\modules\test-control\impl\src\test\java\org\apache\deltaspike\test\testcontrol\mock\uc012\MockedRequestScopedBeanWithInjectionTest.java,mockito,static org.mockito.Mockito.*
+directmemory,directmemory\server\directmemory-server\src\test\java\org\apache\directmemory\server\services\DirectMemoryServletTest.java,springframework,org.springframework.mock.web.MockHttpServletRequest
+directmemory,directmemory\server\directmemory-server\src\test\java\org\apache\directmemory\server\services\DirectMemoryServletTest.java,springframework,org.springframework.mock.web.MockHttpServletResponse
+directmemory,directmemory\server\directmemory-server\src\test\java\org\apache\directmemory\server\services\DirectMemoryServletTest.java,springframework,org.springframework.mock.web.MockServletConfig
+directmemory,directmemory\server\directmemory-server\src\test\java\org\apache\directmemory\server\services\DirectMemoryServletTest.java,springframework,org.springframework.mock.web.MockServletContext
+directory-ldap-api,directory-ldap-api\ldap\client\api\src\test\java\org\apache\directory\ldap\client\api\ValidatingPoolableLdapConnectionFactoryTest.java,mockito,static org.mockito.Matchers.any
+directory-ldap-api,directory-ldap-api\ldap\client\api\src\test\java\org\apache\directory\ldap\client\api\ValidatingPoolableLdapConnectionFactoryTest.java,mockito,static org.mockito.Mockito.mock
+directory-ldap-api,directory-ldap-api\ldap\client\api\src\test\java\org\apache\directory\ldap\client\api\ValidatingPoolableLdapConnectionFactoryTest.java,mockito,static org.mockito.Mockito.times
+directory-ldap-api,directory-ldap-api\ldap\client\api\src\test\java\org\apache\directory\ldap\client\api\ValidatingPoolableLdapConnectionFactoryTest.java,mockito,static org.mockito.Mockito.when
+directory-ldap-api,directory-ldap-api\ldap\client\api\src\test\java\org\apache\directory\ldap\client\api\ValidatingPoolableLdapConnectionFactoryTest.java,mockito,org.mockito.exceptions.misusing.NotAMockException
+directory-ldap-api,directory-ldap-api\ldap\client\api\src\test\java\org\apache\directory\ldap\client\api\ValidatingPoolableLdapConnectionFactoryTest.java,mockito,org.mockito.internal.util.MockUtil
+directory-ldap-api,directory-ldap-api\ldap\client\api\src\test\java\org\apache\directory\ldap\client\api\ValidatingPoolableLdapConnectionFactoryTest.java,mockito,org.mockito.verification.VerificationMode
+drill,drill\contrib\storage-druid\src\test\java\org\apache\drill\exec\store\druid\DruidFilterBuilderTest.java,mockito,org.mockito.Mock
+drill,drill\contrib\storage-druid\src\test\java\org\apache\drill\exec\store\druid\DruidFilterBuilderTest.java,mockito,static org.mockito.ArgumentMatchers.any
+drill,drill\contrib\storage-druid\src\test\java\org\apache\drill\exec\store\druid\DruidFilterBuilderTest.java,mockito,static org.mockito.Mockito.mock
+drill,drill\contrib\storage-druid\src\test\java\org\apache\drill\exec\store\druid\DruidFilterBuilderTest.java,mockito,static org.mockito.Mockito.when
+drill,drill\contrib\storage-druid\src\test\java\org\apache\drill\exec\store\druid\rest\DruidQueryClientTest.java,mockito,org.mockito.Mock
+drill,drill\contrib\storage-druid\src\test\java\org\apache\drill\exec\store\druid\rest\DruidQueryClientTest.java,mockito,static org.mockito.Mockito.mock
+drill,drill\contrib\storage-druid\src\test\java\org\apache\drill\exec\store\druid\rest\DruidQueryClientTest.java,mockito,static org.mockito.Mockito.when
+drill,drill\contrib\storage-hive\core\src\test\java\org\apache\drill\exec\store\hive\inspectors\SkipFooterRecordsInspectorTest.java,mockito,static org.mockito.Mockito.mock
+drill,drill\contrib\storage-hive\core\src\test\java\org\apache\drill\exec\store\hive\inspectors\SkipFooterRecordsInspectorTest.java,mockito,static org.mockito.Mockito.when
+drill,drill\contrib\storage-http\src\test\java\org\apache\drill\exec\store\http\TestHttpPlugin.java,mockwebserver,okhttp3.mockwebserver.MockResponse
+drill,drill\contrib\storage-http\src\test\java\org\apache\drill\exec\store\http\TestHttpPlugin.java,mockwebserver,okhttp3.mockwebserver.MockWebServer
+drill,drill\contrib\storage-http\src\test\java\org\apache\drill\exec\store\http\TestHttpPlugin.java,mockwebserver,okhttp3.mockwebserver.RecordedRequest
+drill,drill\contrib\storage-opentsdb\src\test\java\org\apache\drill\store\openTSDB\TestOpenTSDBPlugin.java,wiremock,com.github.tomakehurst.wiremock.junit.WireMockRule
+drill,drill\contrib\storage-opentsdb\src\test\java\org\apache\drill\store\openTSDB\TestOpenTSDBPlugin.java,wiremock,static com.github.tomakehurst.wiremock.client.WireMock.aResponse
+drill,drill\contrib\storage-opentsdb\src\test\java\org\apache\drill\store\openTSDB\TestOpenTSDBPlugin.java,wiremock,static com.github.tomakehurst.wiremock.client.WireMock.equalToJson
+drill,drill\contrib\storage-opentsdb\src\test\java\org\apache\drill\store\openTSDB\TestOpenTSDBPlugin.java,wiremock,static com.github.tomakehurst.wiremock.client.WireMock.get
+drill,drill\contrib\storage-opentsdb\src\test\java\org\apache\drill\store\openTSDB\TestOpenTSDBPlugin.java,wiremock,static com.github.tomakehurst.wiremock.client.WireMock.post
+drill,drill\contrib\storage-opentsdb\src\test\java\org\apache\drill\store\openTSDB\TestOpenTSDBPlugin.java,wiremock,static com.github.tomakehurst.wiremock.client.WireMock.urlEqualTo
+drill,drill\contrib\storage-splunk\src\test\java\org\apache\drill\exec\store\splunk\SplunkPluginTest.java,mockito,org.mockito.MockedStatic
+drill,drill\contrib\storage-splunk\src\test\java\org\apache\drill\exec\store\splunk\SplunkPluginTest.java,mockito,org.mockito.Mockito
+drill,drill\contrib\storage-splunk\src\test\java\org\apache\drill\exec\store\splunk\SplunkPluginTest.java,mockito,static org.mockito.Mockito.times
+drill,drill\exec\java-exec\src\test\java\org\apache\drill\PlanningBase.java,mockito,org.mockito.Matchers
+drill,drill\exec\java-exec\src\test\java\org\apache\drill\PlanningBase.java,mockito,static org.mockito.ArgumentMatchers.anyString
+drill,drill\exec\java-exec\src\test\java\org\apache\drill\PlanningBase.java,mockito,static org.mockito.Matchers.eq
+drill,drill\exec\java-exec\src\test\java\org\apache\drill\PlanningBase.java,mockito,static org.mockito.Mockito.mock
+drill,drill\exec\java-exec\src\test\java\org\apache\drill\PlanningBase.java,mockito,static org.mockito.Mockito.when
+drill,drill\exec\java-exec\src\test\java\org\apache\drill\TestUtf8SupportInQueryString.java,mockit,mockit.Mock
+drill,drill\exec\java-exec\src\test\java\org\apache\drill\TestUtf8SupportInQueryString.java,mockit,mockit.MockUp
+drill,drill\exec\java-exec\src\test\java\org\apache\drill\exec\ExecTest.java,mockit,mockit.Mock
+drill,drill\exec\java-exec\src\test\java\org\apache\drill\exec\ExecTest.java,mockit,mockit.MockUp
+drill,drill\exec\java-exec\src\test\java\org\apache\drill\exec\ExecTest.java,mockito,static org.mockito.Mockito.mock
+drill,drill\exec\java-exec\src\test\java\org\apache\drill\exec\ExecTest.java,mockito,static org.mockito.Mockito.when
+drill,drill\exec\java-exec\src\test\java\org\apache\drill\exec\client\DumpCatTest.java,mockito,org.mockito.Mockito
+drill,drill\exec\java-exec\src\test\java\org\apache\drill\exec\coord\zk\TestEphemeralStore.java,mockito,org.mockito.Mockito
+drill,drill\exec\java-exec\src\test\java\org\apache\drill\exec\coord\zk\TestEventDispatcher.java,mockito,org.mockito.Mockito
+drill,drill\exec\java-exec\src\test\java\org\apache\drill\exec\coord\zk\TestZookeeperClient.java,mockito,org.mockito.Mockito
+drill,drill\exec\java-exec\src\test\java\org\apache\drill\exec\expr\ExpressionTest.java,mockito,static org.mockito.Mockito.mock
+drill,drill\exec\java-exec\src\test\java\org\apache\drill\exec\expr\ExpressionTest.java,mockito,static org.mockito.Mockito.when
+drill,drill\exec\java-exec\src\test\java\org\apache\drill\exec\expr\fn\registry\FunctionRegistryHolderTest.java,mockito,static org.mockito.Mockito.mock
+drill,drill\exec\java-exec\src\test\java\org\apache\drill\exec\fn\impl\TestMathFunctions.java,mockito,org.mockito.Mockito
+drill,drill\exec\java-exec\src\test\java\org\apache\drill\exec\fn\impl\TestNewMathFunctions.java,mockito,org.mockito.Mockito
+drill,drill\exec\java-exec\src\test\java\org\apache\drill\exec\fn\impl\TestRepeatedFunction.java,mockito,org.mockito.Mockito
+drill,drill\exec\java-exec\src\test\java\org\apache\drill\exec\physical\impl\TestCastFunctions.java,mockito,org.mockito.Mockito
+drill,drill\exec\java-exec\src\test\java\org\apache\drill\exec\physical\impl\TestComparisonFunctions.java,mockito,org.mockito.Mockito
+drill,drill\exec\java-exec\src\test\java\org\apache\drill\exec\physical\impl\TestImplicitCastFunctions.java,mockito,org.mockito.Mockito
+drill,drill\exec\java-exec\src\test\java\org\apache\drill\exec\physical\impl\TestSimpleFunctions.java,mockito,org.mockito.Mockito
+drill,drill\exec\java-exec\src\test\java\org\apache\drill\exec\physical\impl\TestStringFunctions.java,mockito,org.mockito.Mockito
+drill,drill\exec\java-exec\src\test\java\org\apache\drill\exec\physical\impl\TopN\TopNBatchTest.java,mockito,static org.mockito.Mockito.when
+drill,drill\exec\java-exec\src\test\java\org\apache\drill\exec\physical\impl\agg\TestAgg.java,mockito,org.mockito.Mockito
+drill,drill\exec\java-exec\src\test\java\org\apache\drill\exec\physical\impl\filter\TestSimpleFilter.java,mockito,org.mockito.Mockito
+drill,drill\exec\java-exec\src\test\java\org\apache\drill\exec\physical\impl\join\TestHashJoin.java,mockito,org.mockito.Mockito
+drill,drill\exec\java-exec\src\test\java\org\apache\drill\exec\physical\impl\join\TestMergeJoin.java,mockito,org.mockito.Mockito
+drill,drill\exec\java-exec\src\test\java\org\apache\drill\exec\physical\impl\limit\TestSimpleLimit.java,mockito,org.mockito.Mockito
+drill,drill\exec\java-exec\src\test\java\org\apache\drill\exec\physical\impl\partitionsender\TestPartitionSender.java,mockito,org.mockito.Mockito
+drill,drill\exec\java-exec\src\test\java\org\apache\drill\exec\physical\impl\project\TestSimpleProjection.java,mockito,org.mockito.Mockito
+drill,drill\exec\java-exec\src\test\java\org\apache\drill\exec\physical\impl\sort\TestSimpleSort.java,mockito,org.mockito.Mockito
+drill,drill\exec\java-exec\src\test\java\org\apache\drill\exec\physical\impl\trace\TestTraceMultiRecordBatch.java,mockito,org.mockito.Mockito
+drill,drill\exec\java-exec\src\test\java\org\apache\drill\exec\physical\impl\trace\TestTraceOutputDump.java,mockito,org.mockito.Mockito
+drill,drill\exec\java-exec\src\test\java\org\apache\drill\exec\physical\impl\union\TestSimpleUnion.java,mockito,org.mockito.Mockito
+drill,drill\exec\java-exec\src\test\java\org\apache\drill\exec\planner\fragment\TestHardAffinityFragmentParallelizer.java,mockito,static org.mockito.Mockito.mock
+drill,drill\exec\java-exec\src\test\java\org\apache\drill\exec\planner\fragment\TestHardAffinityFragmentParallelizer.java,mockito,static org.mockito.Mockito.when
+drill,drill\exec\java-exec\src\test\java\org\apache\drill\exec\planner\rm\TestMemoryCalculator.java,mockito,static org.mockito.ArgumentMatchers.any
+drill,drill\exec\java-exec\src\test\java\org\apache\drill\exec\planner\rm\TestMemoryCalculator.java,mockito,static org.mockito.Mockito.mock
+drill,drill\exec\java-exec\src\test\java\org\apache\drill\exec\planner\rm\TestMemoryCalculator.java,mockito,static org.mockito.Mockito.when
+drill,drill\exec\java-exec\src\test\java\org\apache\drill\exec\record\ExpressionTreeMaterializerTest.java,mockito,static org.mockito.Mockito.mock
+drill,drill\exec\java-exec\src\test\java\org\apache\drill\exec\record\ExpressionTreeMaterializerTest.java,mockito,static org.mockito.Mockito.when
+drill,drill\exec\java-exec\src\test\java\org\apache\drill\exec\record\TestRecordIterator.java,mockito,org.mockito.Mockito
+drill,drill\exec\java-exec\src\test\java\org\apache\drill\exec\resourcemgr\TestResourcePoolTree.java,mockito,static org.mockito.Mockito.mock
+drill,drill\exec\java-exec\src\test\java\org\apache\drill\exec\resourcemgr\TestResourcePoolTree.java,mockito,static org.mockito.Mockito.when
+drill,drill\exec\java-exec\src\test\java\org\apache\drill\exec\resourcemgr\config\selectionpolicy\TestBestFitSelectionPolicy.java,mockito,static org.mockito.Mockito.mock
+drill,drill\exec\java-exec\src\test\java\org\apache\drill\exec\resourcemgr\config\selectionpolicy\TestBestFitSelectionPolicy.java,mockito,static org.mockito.Mockito.when
+drill,drill\exec\java-exec\src\test\java\org\apache\drill\exec\resourcemgr\config\selectionpolicy\TestDefaultSelectionPolicy.java,mockito,static org.mockito.Mockito.mock
+drill,drill\exec\java-exec\src\test\java\org\apache\drill\exec\resourcemgr\config\selectionpolicy\TestDefaultSelectionPolicy.java,mockito,static org.mockito.Mockito.when
+drill,drill\exec\java-exec\src\test\java\org\apache\drill\exec\resourcemgr\config\selectors\TestComplexSelectors.java,mockito,static org.mockito.Mockito.mock
+drill,drill\exec\java-exec\src\test\java\org\apache\drill\exec\resourcemgr\config\selectors\TestComplexSelectors.java,mockito,static org.mockito.Mockito.when
+drill,drill\exec\java-exec\src\test\java\org\apache\drill\exec\resourcemgr\config\selectors\TestNotEqualSelector.java,mockito,static org.mockito.Mockito.mock
+drill,drill\exec\java-exec\src\test\java\org\apache\drill\exec\resourcemgr\config\selectors\TestNotEqualSelector.java,mockito,static org.mockito.Mockito.when
+drill,drill\exec\java-exec\src\test\java\org\apache\drill\exec\resourcemgr\config\selectors\TestTagSelector.java,mockito,static org.mockito.Mockito.mock
+drill,drill\exec\java-exec\src\test\java\org\apache\drill\exec\resourcemgr\config\selectors\TestTagSelector.java,mockito,static org.mockito.Mockito.when
+drill,drill\exec\java-exec\src\test\java\org\apache\drill\exec\rpc\control\ConnectionManagerRegistryTest.java,mockito,static org.mockito.Mockito.mock
+drill,drill\exec\java-exec\src\test\java\org\apache\drill\exec\rpc\control\TestLocalControlConnectionManager.java,mockito,static org.mockito.Mockito.mock
+drill,drill\exec\java-exec\src\test\java\org\apache\drill\exec\rpc\control\TestLocalControlConnectionManager.java,mockito,static org.mockito.Mockito.when
+drill,drill\exec\java-exec\src\test\java\org\apache\drill\exec\rpc\data\TestBitBitKerberos.java,mockito,org.mockito.Mockito
+drill,drill\exec\java-exec\src\test\java\org\apache\drill\exec\rpc\data\TestBitBitKerberos.java,mockito,static org.mockito.Mockito.mock
+drill,drill\exec\java-exec\src\test\java\org\apache\drill\exec\rpc\data\TestBitBitKerberos.java,mockito,static org.mockito.Mockito.when
+drill,drill\exec\java-exec\src\test\java\org\apache\drill\exec\rpc\data\TestBitRpc.java,mockito,static org.mockito.Matchers.any
+drill,drill\exec\java-exec\src\test\java\org\apache\drill\exec\rpc\data\TestBitRpc.java,mockito,static org.mockito.Mockito.mock
+drill,drill\exec\java-exec\src\test\java\org\apache\drill\exec\rpc\data\TestBitRpc.java,mockito,static org.mockito.Mockito.when
+drill,drill\exec\java-exec\src\test\java\org\apache\drill\exec\rpc\user\TemporaryTablesAutomaticDropTest.java,mockit,mockit.Mock
+drill,drill\exec\java-exec\src\test\java\org\apache\drill\exec\rpc\user\TemporaryTablesAutomaticDropTest.java,mockit,mockit.MockUp
+drill,drill\exec\java-exec\src\test\java\org\apache\drill\exec\server\rest\RestServerTest.java,mockito,org.mockito.Mockito
+drill,drill\exec\java-exec\src\test\java\org\apache\drill\exec\server\rest\TestMainLoginPageModel.java,mockito,org.mockito.InjectMocks
+drill,drill\exec\java-exec\src\test\java\org\apache\drill\exec\server\rest\TestMainLoginPageModel.java,mockito,org.mockito.Mock
+drill,drill\exec\java-exec\src\test\java\org\apache\drill\exec\server\rest\TestMainLoginPageModel.java,mockito,org.mockito.MockitoAnnotations
+drill,drill\exec\java-exec\src\test\java\org\apache\drill\exec\server\rest\TestMainLoginPageModel.java,mockito,static org.mockito.Mockito.when
+drill,drill\exec\java-exec\src\test\java\org\apache\drill\exec\server\rest\WebSessionResourcesTest.java,mockito,static org.mockito.Mockito.mock
+drill,drill\exec\java-exec\src\test\java\org\apache\drill\exec\server\rest\WebSessionResourcesTest.java,mockito,static org.mockito.Mockito.verify
+drill,drill\exec\java-exec\src\test\java\org\apache\drill\exec\server\rest\spnego\TestDrillSpnegoAuthenticator.java,mockito,org.mockito.Mockito
+drill,drill\exec\java-exec\src\test\java\org\apache\drill\exec\server\rest\spnego\TestDrillSpnegoAuthenticator.java,mockito,static org.mockito.Mockito.never
+drill,drill\exec\java-exec\src\test\java\org\apache\drill\exec\server\rest\spnego\TestDrillSpnegoAuthenticator.java,mockito,static org.mockito.Mockito.verify
+drill,drill\exec\java-exec\src\test\java\org\apache\drill\exec\server\rest\spnego\TestSpnegoAuthentication.java,mockito,org.mockito.Mockito
+drill,drill\exec\java-exec\src\test\java\org\apache\drill\exec\store\parquet\ParquetRecordReaderTest.java,mockito,static org.mockito.Mockito.mock
+drill,drill\exec\java-exec\src\test\java\org\apache\drill\exec\store\parquet\TestParquetFilterPushDown.java,mockito,org.mockito.ArgumentMatchers
+drill,drill\exec\java-exec\src\test\java\org\apache\drill\exec\store\parquet\TestParquetFilterPushDown.java,mockito,org.mockito.Mockito
+drill,drill\exec\java-exec\src\test\java\org\apache\drill\exec\udf\dynamic\TestDynamicUDFSupport.java,mockito,static org.mockito.ArgumentMatchers.any
+drill,drill\exec\java-exec\src\test\java\org\apache\drill\exec\udf\dynamic\TestDynamicUDFSupport.java,mockito,static org.mockito.ArgumentMatchers.anyInt
+drill,drill\exec\java-exec\src\test\java\org\apache\drill\exec\udf\dynamic\TestDynamicUDFSupport.java,mockito,static org.mockito.ArgumentMatchers.anyString
+drill,drill\exec\java-exec\src\test\java\org\apache\drill\exec\udf\dynamic\TestDynamicUDFSupport.java,mockito,static org.mockito.Mockito.doAnswer
+drill,drill\exec\java-exec\src\test\java\org\apache\drill\exec\udf\dynamic\TestDynamicUDFSupport.java,mockito,static org.mockito.Mockito.doThrow
+drill,drill\exec\java-exec\src\test\java\org\apache\drill\exec\udf\dynamic\TestDynamicUDFSupport.java,mockito,static org.mockito.Mockito.reset
+drill,drill\exec\java-exec\src\test\java\org\apache\drill\exec\udf\dynamic\TestDynamicUDFSupport.java,mockito,static org.mockito.Mockito.spy
+drill,drill\exec\java-exec\src\test\java\org\apache\drill\exec\udf\dynamic\TestDynamicUDFSupport.java,mockito,static org.mockito.Mockito.times
+drill,drill\exec\java-exec\src\test\java\org\apache\drill\exec\udf\dynamic\TestDynamicUDFSupport.java,mockito,static org.mockito.Mockito.verify
+drill,drill\exec\java-exec\src\test\java\org\apache\drill\exec\util\TestValueVectorElementFormatter.java,mockito,org.mockito.Mock
+drill,drill\exec\java-exec\src\test\java\org\apache\drill\exec\util\TestValueVectorElementFormatter.java,mockito,org.mockito.MockitoAnnotations
+drill,drill\exec\java-exec\src\test\java\org\apache\drill\exec\util\TestValueVectorElementFormatter.java,mockito,static org.mockito.Mockito.when
+drill,drill\exec\java-exec\src\test\java\org\apache\drill\exec\vector\accessor\GenericAccessorTest.java,mockito,org.mockito.invocation.InvocationOnMock
+drill,drill\exec\java-exec\src\test\java\org\apache\drill\exec\vector\accessor\GenericAccessorTest.java,mockito,org.mockito.stubbing.Answer
+drill,drill\exec\java-exec\src\test\java\org\apache\drill\exec\vector\accessor\GenericAccessorTest.java,mockito,static org.mockito.Matchers.anyInt
+drill,drill\exec\java-exec\src\test\java\org\apache\drill\exec\vector\accessor\GenericAccessorTest.java,mockito,static org.mockito.Mockito.mock
+drill,drill\exec\java-exec\src\test\java\org\apache\drill\exec\vector\accessor\GenericAccessorTest.java,mockito,static org.mockito.Mockito.when
+drill,drill\exec\java-exec\src\test\java\org\apache\drill\exec\work\fragment\FragmentStatusReporterTest.java,mockito,static org.mockito.Matchers.any
+drill,drill\exec\java-exec\src\test\java\org\apache\drill\exec\work\fragment\FragmentStatusReporterTest.java,mockito,static org.mockito.Mockito.mock
+drill,drill\exec\java-exec\src\test\java\org\apache\drill\exec\work\fragment\FragmentStatusReporterTest.java,mockito,static org.mockito.Mockito.times
+drill,drill\exec\java-exec\src\test\java\org\apache\drill\exec\work\fragment\FragmentStatusReporterTest.java,mockito,static org.mockito.Mockito.verify
+drill,drill\exec\java-exec\src\test\java\org\apache\drill\exec\work\fragment\FragmentStatusReporterTest.java,mockito,static org.mockito.Mockito.verifyZeroInteractions
+drill,drill\exec\java-exec\src\test\java\org\apache\drill\exec\work\fragment\FragmentStatusReporterTest.java,mockito,static org.mockito.Mockito.when
+drill,drill\exec\java-exec\src\test\java\org\apache\drill\test\PhysicalOpUnitTestBase.java,mockito,org.mockito.Mockito
+drill,drill\exec\jdbc\src\test\java\org\apache\drill\jdbc\DrillColumnMetaDataListTest.java,mockito,static org.mockito.Mockito.doAnswer
+drill,drill\exec\jdbc\src\test\java\org\apache\drill\jdbc\DrillColumnMetaDataListTest.java,mockito,static org.mockito.Mockito.mock
+drill,drill\exec\jdbc\src\test\java\org\apache\drill\jdbc\DrillColumnMetaDataListTest.java,mockito,static org.mockito.Mockito.when
+drill,drill\exec\jdbc\src\test\java\org\apache\drill\jdbc\DrillColumnMetaDataListTest.java,mockito,org.mockito.Mockito
+drill,drill\exec\jdbc\src\test\java\org\apache\drill\jdbc\DrillColumnMetaDataListTest.java,mockito,org.mockito.invocation.InvocationOnMock
+drill,drill\exec\jdbc\src\test\java\org\apache\drill\jdbc\DrillColumnMetaDataListTest.java,mockito,org.mockito.stubbing.Answer

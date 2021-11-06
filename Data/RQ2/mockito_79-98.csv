@@ -1,0 +1,16 @@
+method, origin, count
+spy,org.mockito.Mockito,9
+verify,org.mockito.Mockito,78
+never,org.mockito.Mockito,3
+mock,org.mockito.Mockito,233
+when,org.mockito.Mockito,436
+thenReturn,org.mockito.stubbing.OngoingStubbing<java.lang.Long>,50
+forClass,org.mockito.ArgumentCaptor,15
+doReturn,org.mockito.Mockito,221
+verifyNoMoreInteractions,org.mockito.Mockito,9
+any,org.mockito.ArgumentMatchers,28
+getArguments,org.mockito.invocation.InvocationOnMock,12
+times,org.mockito.Mockito,87
+timeout,org.mockito.Mockito,9
+thenAnswer,org.mockito.stubbing.OngoingStubbing<java.lang.Boolean>,2
+openMocks,org.mockito.MockitoAnnotations,24
