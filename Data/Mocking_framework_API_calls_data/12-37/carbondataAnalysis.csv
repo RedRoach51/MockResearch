@@ -1,0 +1,6 @@
+method, origin, count
+setField,mockit.Deencapsulation,37
+
+MockedObjects: ,0
+
+# of Mocked objects each file:,

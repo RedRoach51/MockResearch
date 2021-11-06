@@ -1,0 +1,45 @@
+Project Name,File Path,Mocking Framework,Imported Mock Line
+commons-io,commons-io\src\test\java\org\apache\commons\io\input\CloseShieldReaderTest.java,mockito,static org.mockito.Mockito.never
+commons-io,commons-io\src\test\java\org\apache\commons\io\input\CloseShieldReaderTest.java,mockito,static org.mockito.Mockito.spy
+commons-io,commons-io\src\test\java\org\apache\commons\io\input\CloseShieldReaderTest.java,mockito,static org.mockito.Mockito.verify
+commons-io,commons-io\src\test\java\org\apache\commons\io\input\TeeInputStreamTest.java,mockito,static org.mockito.Mockito.mock
+commons-io,commons-io\src\test\java\org\apache\commons\io\input\TeeInputStreamTest.java,mockito,static org.mockito.Mockito.never
+commons-io,commons-io\src\test\java\org\apache\commons\io\input\TeeInputStreamTest.java,mockito,static org.mockito.Mockito.times
+commons-io,commons-io\src\test\java\org\apache\commons\io\input\TeeInputStreamTest.java,mockito,static org.mockito.Mockito.verify
+commons-io,commons-io\src\test\java\org\apache\commons\io\input\TeeReaderTest.java,mockito,static org.mockito.Mockito.mock
+commons-io,commons-io\src\test\java\org\apache\commons\io\input\TeeReaderTest.java,mockito,static org.mockito.Mockito.never
+commons-io,commons-io\src\test\java\org\apache\commons\io\input\TeeReaderTest.java,mockito,static org.mockito.Mockito.times
+commons-io,commons-io\src\test\java\org\apache\commons\io\input\TeeReaderTest.java,mockito,static org.mockito.Mockito.verify
+commons-io,commons-io\src\test\java\org\apache\commons\io\output\CloseShieldWriterTest.java,mockito,static org.mockito.Mockito.never
+commons-io,commons-io\src\test\java\org\apache\commons\io\output\CloseShieldWriterTest.java,mockito,static org.mockito.Mockito.spy
+commons-io,commons-io\src\test\java\org\apache\commons\io\output\CloseShieldWriterTest.java,mockito,static org.mockito.Mockito.verify
+commons-io,commons-io\src\test\java\org\apache\commons\io\output\ProxyCollectionWriterTest.java,mockito,static org.mockito.Mockito.mock
+commons-io,commons-io\src\test\java\org\apache\commons\io\output\ProxyCollectionWriterTest.java,mockito,static org.mockito.Mockito.verify
+commons-io,commons-io\src\test\java\org\apache\commons\io\output\TeeOutputStreamTest.java,mockito,static org.mockito.Mockito.mock
+commons-io,commons-io\src\test\java\org\apache\commons\io\output\TeeOutputStreamTest.java,mockito,static org.mockito.Mockito.verify
+commons-io,commons-io\src\test\java\org\apache\commons\io\output\TeeWriterTest.java,mockito,static org.mockito.Mockito.mock
+commons-io,commons-io\src\test\java\org\apache\commons\io\output\TeeWriterTest.java,mockito,static org.mockito.Mockito.verify
+commons-jxpath,commons-jxpath\src\test\java\org\apache\commons\jxpath\servlet\JXPathServletContextTest.java,mockrunner,com.mockrunner.mock.web.MockHttpServletRequest
+commons-jxpath,commons-jxpath\src\test\java\org\apache\commons\jxpath\servlet\JXPathServletContextTest.java,mockrunner,com.mockrunner.mock.web.MockHttpSession
+commons-jxpath,commons-jxpath\src\test\java\org\apache\commons\jxpath\servlet\JXPathServletContextTest.java,mockrunner,com.mockrunner.mock.web.MockPageContext
+commons-jxpath,commons-jxpath\src\test\java\org\apache\commons\jxpath\servlet\JXPathServletContextTest.java,mockrunner,com.mockrunner.mock.web.MockServletConfig
+commons-jxpath,commons-jxpath\src\test\java\org\apache\commons\jxpath\servlet\JXPathServletContextTest.java,mockrunner,com.mockrunner.mock.web.MockServletContext
+commons-lang,commons-lang\src\test\java\org\apache\commons\lang3\concurrent\BasicThreadFactoryTest.java,easymock,org.easymock.EasyMock
+commons-lang,commons-lang\src\test\java\org\apache\commons\lang3\concurrent\ConcurrentUtilsTest.java,easymock,org.easymock.EasyMock
+commons-lang,commons-lang\src\test\java\org\apache\commons\lang3\concurrent\MemoizerTest.java,easymock,static org.easymock.EasyMock.expect
+commons-lang,commons-lang\src\test\java\org\apache\commons\lang3\concurrent\MemoizerTest.java,easymock,static org.easymock.EasyMock.replay
+commons-lang,commons-lang\src\test\java\org\apache\commons\lang3\concurrent\MemoizerTest.java,easymock,org.easymock.EasyMock
+commons-lang,commons-lang\src\test\java\org\apache\commons\lang3\concurrent\TimedSemaphoreTest.java,easymock,org.easymock.EasyMock
+commons-lang,commons-lang\src\test\java\org\apache\commons\lang3\event\EventListenerSupportTest.java,easymock,org.easymock.EasyMock
+commons-text,commons-text\src\test\java\org\apache\commons\text\TextStringBuilderAppendInsertTest.java,mockito,static org.mockito.ArgumentMatchers.any
+commons-text,commons-text\src\test\java\org\apache\commons\text\TextStringBuilderAppendInsertTest.java,mockito,static org.mockito.ArgumentMatchers.anyInt
+commons-text,commons-text\src\test\java\org\apache\commons\text\TextStringBuilderAppendInsertTest.java,mockito,static org.mockito.ArgumentMatchers.anyString
+commons-text,commons-text\src\test\java\org\apache\commons\text\TextStringBuilderAppendInsertTest.java,mockito,static org.mockito.Mockito.spy
+commons-text,commons-text\src\test\java\org\apache\commons\text\TextStringBuilderAppendInsertTest.java,mockito,static org.mockito.Mockito.times
+commons-text,commons-text\src\test\java\org\apache\commons\text\TextStringBuilderAppendInsertTest.java,mockito,static org.mockito.Mockito.verify
+commons-text,commons-text\src\test\java\org\apache\commons\text\lookup\ResourceBundleStringLookupTest.java,mockito,static org.mockito.Mockito.spy
+commons-text,commons-text\src\test\java\org\apache\commons\text\lookup\ResourceBundleStringLookupTest.java,mockito,static org.mockito.Mockito.when
+commons-text,commons-text\src\test\java\org\apache\commons\text\lookup\UrlDecoderStringLookupTest.java,mockito,static org.mockito.Mockito.spy
+commons-text,commons-text\src\test\java\org\apache\commons\text\lookup\UrlDecoderStringLookupTest.java,mockito,static org.mockito.Mockito.when
+commons-text,commons-text\src\test\java\org\apache\commons\text\lookup\UrlEncoderStringLookupTest.java,mockito,static org.mockito.Mockito.spy
+commons-text,commons-text\src\test\java\org\apache\commons\text\lookup\UrlEncoderStringLookupTest.java,mockito,static org.mockito.Mockito.when

@@ -1,0 +1,600 @@
+/org.apache.aries.blueprint.core/src/test/java/org/apache/aries/blueprint/container/DampingPolicyTest.java
+Methods Invoked: 
+	Method name: createMock
+	Class origin: org.easymock.EasyMock
+	Count: 4
+ 
+/org.apache.aries.blueprint.core/src/test/java/org/apache/aries/blueprint/container/BPQuiesceTest.java
+Methods Invoked: 
+	Method name: createControl
+	Class origin: org.easymock.EasyMock
+	Count: 1
+ 
+	Method name: createMock
+	Class origin: org.easymock.IMocksControl
+	Count: 3
+ 
+/org.apache.aries.blueprint.core/src/test/java/org/apache/aries/blueprint/container/LifecyclePolicyTest.java
+Methods Invoked: 
+	Method name: createMock
+	Class origin: org.easymock.EasyMock
+	Count: 11
+ 
+/org.apache.aries.blueprint.core/src/test/java/org/apache/aries/blueprint/utils/ReflectionUtilsTest.java
+Methods Invoked: 
+	Method name: createNiceMock
+	Class origin: org.easymock.EasyMock
+	Count: 1
+ 
+	Method name: newInstance
+	Class origin: org.easymock.Capture
+	Count: 1
+ 
+	Method name: andAnswer
+	Class origin: org.easymock.IExpectationSetters<java.lang.Class>
+	Count: 1
+ 
+	Method name: expect
+	Class origin: org.easymock.EasyMock
+	Count: 1
+ 
+	Method name: capture
+	Class origin: org.easymock.EasyMock
+	Count: 1
+ 
+	Method name: getValue
+	Class origin: org.easymock.Capture<java.lang.String>
+	Count: 1
+ 
+	Method name: replay
+	Class origin: org.easymock.EasyMock
+	Count: 1
+ 
+/org.apache.aries.jmx.blueprint.core/src/test/java/org/apache/aries/jmx/blueprint/impl/BlueprintMetadataTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.jmock.Mockery
+	Count: 6
+ 
+/org.apache.aries.jmx.core/src/test/java/org/apache/aries/jmx/CompendiumHandlerTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 9
+ 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<java.lang.String>
+	Count: 2
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 12
+ 
+/org.apache.aries.jmx.core/src/test/java/org/apache/aries/jmx/cm/ConfigurationAdminMBeanHandlerTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 3
+ 
+/org.apache.aries.jmx.core/src/test/java/org/apache/aries/jmx/cm/ConfigurationAdminTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 20
+ 
+/org.apache.aries.jmx.core/src/test/java/org/apache/aries/jmx/codec/BundleEventDataTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 2
+ 
+/org.apache.aries.jmx.core/src/test/java/org/apache/aries/jmx/codec/ServiceEventDataTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 3
+ 
+/org.apache.aries.jmx.core/src/test/java/org/apache/aries/jmx/codec/ServiceDataTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 4
+ 
+/org.apache.aries.jmx.core/src/test/java/org/apache/aries/jmx/codec/BundleDataTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 16
+ 
+/org.apache.aries.jmx.core/src/test/java/org/apache/aries/jmx/framework/ServiceStateMBeanHandlerTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 4
+ 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<java.lang.String>
+	Count: 2
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 3
+ 
+/org.apache.aries.jmx.core/src/test/java/org/apache/aries/jmx/framework/FrameworkTest.java
+Methods Invoked: 
+	Method name: initMocks
+	Class origin: org.mockito.MockitoAnnotations
+	Count: 1
+ 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<java.lang.Integer>
+	Count: 2
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 42
+ 
+/org.apache.aries.jmx.core/src/test/java/org/apache/aries/jmx/framework/BundleStateMBeanHandlerTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 8
+ 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<java.lang.String>
+	Count: 2
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 7
+ 
+/org.apache.aries.jmx.core/src/test/java/org/apache/aries/jmx/framework/PackageStateTest.java
+Methods Invoked: 
+	Method name: initMocks
+	Class origin: org.mockito.MockitoAnnotations
+	Count: 1
+ 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 12
+ 
+/org.apache.aries.jmx.core/src/test/java/org/apache/aries/jmx/framework/ServiceStateTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 11
+ 
+/org.apache.aries.jmx.core/src/test/java/org/apache/aries/jmx/framework/BundleStateTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 14
+ 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<org.osgi.framework.Bundle[]>
+	Count: 1
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 8
+ 
+/org.apache.aries.jmx.core/src/test/java/org/apache/aries/jmx/permissionadmin/PermissionAdminTest.java
+Methods Invoked: 
+	Method name: initMocks
+	Class origin: org.mockito.MockitoAnnotations
+	Count: 1
+ 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<org.osgi.service.permissionadmin.PermissionInfo[]>
+	Count: 4
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 5
+ 
+	Method name: anyString
+	Class origin: org.mockito.Matchers
+	Count: 2
+ 
+	Method name: reset
+	Class origin: org.mockito.Mockito
+	Count: 2
+ 
+/org.apache.aries.jmx.core/src/test/java/org/apache/aries/jmx/provisioning/ProvisioningServiceMBeanHandlerTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 3
+ 
+/org.apache.aries.jmx.core/src/test/java/org/apache/aries/jmx/provisioning/ProvisioningServiceTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 5
+ 
+	Method name: spy
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+/org.apache.aries.jmx.core/src/test/java/org/apache/aries/jmx/useradmin/UserAdminTest.java
+Methods Invoked: 
+	Method name: initMocks
+	Class origin: org.mockito.MockitoAnnotations
+	Count: 1
+ 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 37
+ 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<org.osgi.service.useradmin.Role>
+	Count: 21
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 97
+ 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<java.lang.Integer>
+	Count: 27
+ 
+/org.apache.aries.jmx.core/src/test/java/org/apache/aries/jmx/util/FrameworkUtilsTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 42
+ 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<java.lang.Long>
+	Count: 5
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 56
+ 
+/org.apache.aries.jmx.whiteboard/src/test/java/org/apache/aries/jmx/whiteboard/MBeanHolderTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 10
+ 
+	Method name: verify
+	Class origin: org.mockito.Mockito
+	Count: 4
+ 
+	Method name: never
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+	Method name: anyString
+	Class origin: org.mockito.Matchers
+	Count: 4
+ 
+	Method name: isA
+	Class origin: org.mockito.Matchers
+	Count: 5
+ 
+/org.apache.aries.jmx.whiteboard/src/test/java/org/apache/aries/jmx/whiteboard/JmxWhiteboardSupportTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 12
+ 
+/org.apache.aries.proxy/src/test/java/org/apache/aries/blueprint/proxy/InterfaceProxyingTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 3
+ 
+/org.apache.aries.proxy/src/test/java/org/apache/aries/blueprint/proxy/WovenProxyGeneratorTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<org.osgi.framework.wiring.BundleWiring>
+	Count: 1
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+/org.apache.aries.proxy/src/test/java/org/apache/aries/blueprint/proxy/AbstractProxyTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<java.lang.ClassLoader>
+	Count: 1
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+/org.apache.aries.proxy/src/test/java/org/apache/aries/blueprint/proxy/WovenProxyPlusSubclassGeneratorTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<org.osgi.framework.wiring.BundleWiring>
+	Count: 1
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+/org.apache.aries.spifly.core-internal/src/test/java/org/apache/aries/spifly/ProviderBundleTrackerCustomizerGenericCapabilityTest.java
+Methods Invoked: 
+	Method name: createMock
+	Class origin: org.easymock.EasyMock
+	Count: 27
+ 
+	Method name: anyTimes
+	Class origin: org.easymock.IExpectationSetters<java.lang.Long>
+	Count: 12
+ 
+	Method name: andReturn
+	Class origin: org.easymock.IExpectationSetters<java.lang.Long>
+	Count: 12
+ 
+	Method name: expect
+	Class origin: org.easymock.EasyMock
+	Count: 44
+ 
+	Method name: replay
+	Class origin: org.easymock.EasyMock
+	Count: 32
+ 
+/org.apache.aries.spifly.core-internal/src/test/java/org/apache/aries/spifly/UtilTest.java
+Methods Invoked: 
+	Method name: createMock
+	Class origin: org.easymock.EasyMock
+	Count: 4
+ 
+	Method name: andThrow
+	Class origin: org.easymock.IExpectationSetters<org.osgi.framework.BundleContext>
+	Count: 1
+ 
+	Method name: expect
+	Class origin: org.easymock.EasyMock
+	Count: 9
+ 
+	Method name: anyTimes
+	Class origin: org.easymock.IExpectationSetters<java.lang.Long>
+	Count: 2
+ 
+	Method name: andReturn
+	Class origin: org.easymock.IExpectationSetters<java.lang.Long>
+	Count: 2
+ 
+/org.apache.aries.spifly.core-internal/src/test/java/org/apache/aries/spifly/ProviderBundleTrackerCustomizerTest.java
+Methods Invoked: 
+	Method name: createMock
+	Class origin: org.easymock.EasyMock
+	Count: 5
+ 
+	Method name: anyTimes
+	Class origin: org.easymock.IExpectationSetters<java.lang.Long>
+	Count: 3
+ 
+	Method name: andReturn
+	Class origin: org.easymock.IExpectationSetters<java.lang.Long>
+	Count: 3
+ 
+	Method name: expect
+	Class origin: org.easymock.EasyMock
+	Count: 25
+ 
+	Method name: replay
+	Class origin: org.easymock.EasyMock
+	Count: 9
+ 
+/org.apache.aries.spifly.dynamic.bundle/src/test/java/org/apache/aries/spifly/dynamic/ClientWeavingHookGenericCapabilityTest.java
+Methods Invoked: 
+	Method name: createMock
+	Class origin: org.easymock.EasyMock
+	Count: 12
+ 
+	Method name: anyTimes
+	Class origin: org.easymock.IExpectationSetters<java.util.Dictionary<java.lang.String,java.lang.String>>
+	Count: 2
+ 
+	Method name: andReturn
+	Class origin: org.easymock.IExpectationSetters<java.util.Dictionary<java.lang.String,java.lang.String>>
+	Count: 2
+ 
+	Method name: expect
+	Class origin: org.easymock.EasyMock
+	Count: 27
+ 
+	Method name: replay
+	Class origin: org.easymock.EasyMock
+	Count: 13
+ 
+/org.apache.aries.spifly.dynamic.bundle/src/test/java/org/apache/aries/spifly/dynamic/ClientWeavingHookOSGi43Test.java
+Methods Invoked: 
+	Method name: createMock
+	Class origin: org.easymock.EasyMock
+	Count: 9
+ 
+/org.apache.aries.spifly.dynamic.bundle/src/test/java/org/apache/aries/spifly/dynamic/ClientWeavingHookTest.java
+Methods Invoked: 
+	Method name: createMock
+	Class origin: org.easymock.EasyMock
+	Count: 7
+ 
+/org.apache.aries.subsystem.core/src/test/java/org/apache/aries/subsystem/core/archive/BundleRequiredExecutionEnvironmentHeaderTest.java
+Methods Invoked: 
+	Method name: createNiceMock
+	Class origin: org.easymock.EasyMock
+	Count: 3
+ 
+/org.apache.aries.subsystem.core/src/test/java/org/apache/aries/subsystem/core/internal/ResourceHelperTest.java
+Methods Invoked: 
+	Method name: createNiceMock
+	Class origin: org.easymock.EasyMock
+	Count: 12
+ 
+/org.apache.aries.subsystem.core/src/test/java/org/apache/aries/subsystem/core/internal/ResolveContextTest.java
+Methods Invoked: 
+	Method name: createNiceMock
+	Class origin: org.easymock.EasyMock
+	Count: 3
+ 
+/org.apache.aries.subsystem.core/src/test/java/org/apache/aries/subsystem/core/internal/RepositoryServiceRepositoryTest.java
+Methods Invoked: 
+	Method name: createNiceMock
+	Class origin: org.easymock.EasyMock
+	Count: 1
+ 
+	Method name: createMock
+	Class origin: org.easymock.EasyMock
+	Count: 3
+ 
+/org.apache.aries.subsystem.core/src/test/java/org/apache/aries/subsystem/core/internal/BundleRevisionResourceTest.java
+Methods Invoked: 
+	Method name: createNiceMock
+	Class origin: org.easymock.EasyMock
+	Count: 2
+ 
+	Method name: andReturn
+	Class origin: org.easymock.IExpectationSetters<java.util.List<org.osgi.resource.Capability>>
+	Count: 2
+ 
+	Method name: expect
+	Class origin: org.easymock.EasyMock
+	Count: 4
+ 
+	Method name: anyObject
+	Class origin: org.easymock.EasyMock
+	Count: 4
+ 
+	Method name: andReturn
+	Class origin: org.easymock.IExpectationSetters<java.util.List<org.osgi.resource.Requirement>>
+	Count: 2
+ 
+/org.apache.aries.subsystem.itests/src/test/java/org/apache/aries/subsystem/itests/AriesSubsystemTest.java
+Methods Invoked: 
+	Method name: createMock
+	Class origin: org.easymock.EasyMock
+	Count: 4
+ 
+/org.apache.aries.subsystem.itests/src/test/java/org/apache/aries/subsystem/itests/defect/Aries1383Test.java
+Methods Invoked: 
+	Method name: get
+	Class origin: java.util.concurrent.Future<org.easymock.internal.matchers.Null>
+	Count: 4
+ 
+	Method name: get
+	Class origin: java.util.List<java.util.concurrent.Future<org.easymock.internal.matchers.Null>>
+	Count: 4
+ 
+/org.apache.aries.subsystem.itests/src/test/java/org/apache/aries/subsystem/itests/performance/AbstractPerformanceTest.java
+Methods Invoked: 
+	Method name: add
+	Class origin: java.util.Collection<java.util.concurrent.Callable<org.easymock.internal.matchers.Null>>
+	Count: 1
+ 
+/org.apache.aries.subsystem.obr/src/test/java/org/apache/aries/subsystem/obr/internal/FelixResourceAdapterTest.java
+Methods Invoked: 
+	Method name: createNiceMock
+	Class origin: org.easymock.EasyMock
+	Count: 2
+ 
+/org.apache.aries.subsystem.obr/src/test/java/org/apache/aries/subsystem/obr/internal/OsgiRequirementAdapterTest.java
+Methods Invoked: 
+	Method name: createNiceMock
+	Class origin: org.easymock.EasyMock
+	Count: 5
+ 
+	Method name: andReturn
+	Class origin: org.easymock.IExpectationSetters<java.lang.String>
+	Count: 3
+ 
+	Method name: expect
+	Class origin: org.easymock.EasyMock
+	Count: 5
+ 
+	Method name: replay
+	Class origin: org.easymock.EasyMock
+	Count: 5
+ 
+/org.apache.aries.subsystem.obr/src/test/java/org/apache/aries/subsystem/obr/internal/FelixRequirementAdapterTest.java
+Methods Invoked: 
+	Method name: createNiceMock
+	Class origin: org.easymock.EasyMock
+	Count: 8
+ 
+	Method name: andReturn
+	Class origin: org.easymock.IExpectationSetters<java.lang.String>
+	Count: 4
+ 
+	Method name: expect
+	Class origin: org.easymock.EasyMock
+	Count: 8
+ 
+	Method name: andReturn
+	Class origin: org.easymock.IExpectationSetters<java.lang.Boolean>
+	Count: 4
+ 
+/org.apache.aries.subsystem.obr/src/test/java/org/apache/aries/subsystem/obr/internal/FelixCapabilityAdapterTest.java
+Methods Invoked: 
+	Method name: createNiceMock
+	Class origin: org.easymock.EasyMock
+	Count: 12
+ 
+	Method name: andReturn
+	Class origin: org.easymock.IExpectationSetters<java.lang.String>
+	Count: 6
+ 
+	Method name: expect
+	Class origin: org.easymock.EasyMock
+	Count: 9
+ 
+	Method name: andReturn
+	Class origin: org.easymock.IExpectationSetters<java.util.Map>
+	Count: 3
+ 
+/org.apache.aries.transaction.blueprint/src/test/java/org/apache/aries/transaction/BaseNameSpaceHandlerSetup.java
+Methods Invoked: 
+	Method name: createControl
+	Class origin: org.easymock.EasyMock
+	Count: 1
+ 
+	Method name: createMock
+	Class origin: org.easymock.IMocksControl
+	Count: 3
+ 
+/org.apache.aries.transaction.blueprint/src/test/java/org/apache/aries/transaction/InterceptorTest.java
+Methods Invoked: 
+	Method name: createMock
+	Class origin: org.easymock.EasyMock
+	Count: 1
+ 
+	Method name: andReturn
+	Class origin: org.easymock.IExpectationSetters<java.lang.Long>
+	Count: 1
+ 
+	Method name: expect
+	Class origin: org.easymock.EasyMock
+	Count: 2
+ 
+	Method name: andReturn
+	Class origin: org.easymock.IExpectationSetters<java.lang.String>
+	Count: 1
+ 
+/org.apache.aries.transaction.blueprint/src/test/java/org/apache/aries/transaction/TranStrategyTest.java
+Methods Invoked: 
+	Method name: createControl
+	Class origin: org.easymock.EasyMock
+	Count: 1
+ 
+	Method name: createMock
+	Class origin: org.easymock.IMocksControl
+	Count: 2
+ 

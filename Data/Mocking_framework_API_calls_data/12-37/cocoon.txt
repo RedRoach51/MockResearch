@@ -1,0 +1,114 @@
+/cocoon-core/src/test/java/org/apache/cocoon/acting/ResourceExistsActionTestCase.java
+Methods Invoked: 
+	Method name: will
+	Class origin: org.jmock.builder.StubBuilder
+	Count: 3
+ 
+	Method name: with
+	Class origin: org.jmock.builder.ArgumentsMatchBuilder
+	Count: 3
+ 
+	Method name: method
+	Class origin: org.jmock.builder.NameMatchBuilder
+	Count: 4
+ 
+	Method name: expects
+	Class origin: org.jmock.Mock
+	Count: 4
+ 
+	Method name: once
+	Class origin: org.jmock.MockObjectTestCase
+	Count: 3
+ 
+	Method name: same
+	Class origin: org.jmock.core.MockObjectSupportTestCase
+	Count: 3
+ 
+	Method name: returnValue
+	Class origin: org.jmock.MockObjectTestCase
+	Count: 2
+ 
+	Method name: proxy
+	Class origin: org.jmock.Mock
+	Count: 4
+ 
+/cocoon-core/src/test/java/org/apache/cocoon/generation/FileGeneratorTestCase.java
+Methods Invoked: 
+	Method name: will
+	Class origin: org.jmock.builder.StubBuilder
+	Count: 2
+ 
+	Method name: with
+	Class origin: org.jmock.builder.ArgumentsMatchBuilder
+	Count: 4
+ 
+	Method name: method
+	Class origin: org.jmock.builder.NameMatchBuilder
+	Count: 4
+ 
+	Method name: expects
+	Class origin: org.jmock.Mock
+	Count: 4
+ 
+	Method name: once
+	Class origin: org.jmock.MockObjectTestCase
+	Count: 3
+ 
+	Method name: same
+	Class origin: org.jmock.core.MockObjectSupportTestCase
+	Count: 4
+ 
+	Method name: returnValue
+	Class origin: org.jmock.MockObjectTestCase
+	Count: 2
+ 
+/cocoon-core/src/test/java/org/apache/cocoon/generation/FileGeneratorBeanTestCase.java
+Methods Invoked: 
+	Method name: will
+	Class origin: org.jmock.builder.StubBuilder
+	Count: 2
+ 
+	Method name: with
+	Class origin: org.jmock.builder.ArgumentsMatchBuilder
+	Count: 4
+ 
+	Method name: method
+	Class origin: org.jmock.builder.NameMatchBuilder
+	Count: 4
+ 
+	Method name: expects
+	Class origin: org.jmock.Mock
+	Count: 4
+ 
+	Method name: once
+	Class origin: org.jmock.MockObjectTestCase
+	Count: 3
+ 
+	Method name: same
+	Class origin: org.jmock.core.MockObjectSupportTestCase
+	Count: 4
+ 
+	Method name: returnValue
+	Class origin: org.jmock.MockObjectTestCase
+	Count: 2
+ 
+/cocoon-thread-impl/src/test/java/org/apache/cocoon/thread/impl/DefaultThreadPoolTestCase.java
+Methods Invoked: 
+	Method name: getMock
+	Class origin: org.easymock.MockControl
+	Count: 1
+ 
+	Method name: replay
+	Class origin: org.easymock.MockControl
+	Count: 1
+ 
+/cocoon-thread-impl/src/test/java/org/apache/cocoon/thread/impl/AbstractTestCase.java
+Methods Invoked: 
+	Method name: createStrictControl
+	Class origin: org.easymock.MockControl
+	Count: 1
+ 
+	Method name: verify
+	Class origin: org.easymock.MockControl
+	Count: 1
+ 

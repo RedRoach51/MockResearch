@@ -1,0 +1,30 @@
+method, origin, count
+createMock,org.easymock.EasyMock,95
+createControl,org.easymock.EasyMock,3
+createNiceMock,org.easymock.EasyMock,49
+newInstance,org.easymock.Capture,1
+andAnswer,org.easymock.IExpectationSetters<java.lang.Class>,1
+expect,org.easymock.EasyMock,134
+capture,org.easymock.EasyMock,1
+getValue,org.easymock.Capture<java.lang.String>,1
+replay,org.easymock.EasyMock,60
+mock,org.jmock.Mockery,227
+thenReturn,org.mockito.stubbing.OngoingStubbing<java.lang.String>,69
+when,org.mockito.Mockito,233
+initMocks,org.mockito.MockitoAnnotations,4
+anyString,org.mockito.Matchers,6
+reset,org.mockito.Mockito,2
+spy,org.mockito.Mockito,1
+verify,org.mockito.Mockito,4
+never,org.mockito.Mockito,1
+isA,org.mockito.Matchers,5
+anyTimes,org.easymock.IExpectationSetters<java.lang.Long>,19
+andReturn,org.easymock.IExpectationSetters<java.lang.Long>,45
+andThrow,org.easymock.IExpectationSetters<org.osgi.framework.BundleContext>,1
+anyObject,org.easymock.EasyMock,4
+get,java.util.concurrent.Future<org.easymock.internal.matchers.Null>,8
+add,java.util.Collection<java.util.concurrent.Callable<org.easymock.internal.matchers.Null>>,1
+
+MockedObjects: ,371
+
+# of Mocked objects each file:,4|3|11|1|6|9|3|20|2|3|4|16|4|8|12|11|14|3|5|37|42|10|12|3|1|1|1|27|4|5|12|9|7|3|12|3|1|3|2|4|2|5|8|12|3|1|2|

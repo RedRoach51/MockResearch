@@ -61,7 +61,7 @@ public class MockFrameworkFrequencyCalculator {
 		
 		
 		try {
-			FileWriter newFile = new FileWriter("D:\\Stevens\\2021 summer general\\RQ2 needed data\\FrequencyByProject.csv");
+			FileWriter newFile = new FileWriter("D:\\Stevens\\2021 summer general\\RQ2\\FrequencyByProject.csv");
 			
 			newFile.append("Framework, count");
 			newFile.append("\n");

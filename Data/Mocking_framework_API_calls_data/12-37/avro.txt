@@ -1,0 +1,80 @@
+/avro-mapred/src/test/java/org/apache/avro/mapreduce/TestAvroKeyRecordReader.java
+Methods Invoked: 
+	Method name: createMock
+	Class origin: org.easymock.EasyMock
+	Count: 2
+ 
+	Method name: expect
+	Class origin: org.easymock.EasyMock
+	Count: 4
+ 
+	Method name: anyTimes
+	Class origin: org.easymock.IExpectationSetters<java.lang.Long>
+	Count: 2
+ 
+	Method name: andReturn
+	Class origin: org.easymock.IExpectationSetters<java.lang.Long>
+	Count: 2
+ 
+/avro-mapred/src/test/java/org/apache/avro/mapreduce/TestAvroKeyRecordWriter.java
+Methods Invoked: 
+	Method name: createMock
+	Class origin: org.easymock.EasyMock
+	Count: 2
+ 
+	Method name: replay
+	Class origin: org.easymock.EasyMock
+	Count: 2
+ 
+	Method name: verify
+	Class origin: org.easymock.EasyMock
+	Count: 2
+ 
+/avro-mapred/src/test/java/org/apache/avro/mapreduce/TestAvroKeyOutputFormat.java
+Methods Invoked: 
+	Method name: createMock
+	Class origin: org.easymock.EasyMock
+	Count: 3
+ 
+	Method name: expect
+	Class origin: org.easymock.EasyMock
+	Count: 4
+ 
+/avro-mapred/src/test/java/org/apache/avro/mapreduce/TestAvroKeyValueRecordReader.java
+Methods Invoked: 
+	Method name: createMock
+	Class origin: org.easymock.EasyMock
+	Count: 2
+ 
+	Method name: expect
+	Class origin: org.easymock.EasyMock
+	Count: 4
+ 
+	Method name: anyTimes
+	Class origin: org.easymock.IExpectationSetters<java.lang.Long>
+	Count: 2
+ 
+	Method name: andReturn
+	Class origin: org.easymock.IExpectationSetters<java.lang.Long>
+	Count: 2
+ 
+/avro-mapred/src/test/java/org/apache/avro/mapreduce/TestAvroKeyValueRecordWriter.java
+Methods Invoked: 
+	Method name: createMock
+	Class origin: org.easymock.EasyMock
+	Count: 3
+ 
+	Method name: replay
+	Class origin: org.easymock.EasyMock
+	Count: 3
+ 
+	Method name: verify
+	Class origin: org.easymock.EasyMock
+	Count: 3
+ 
+/avro-mapred/src/test/java/org/apache/avro/mapreduce/TestAvroKeyInputFormat.java
+Methods Invoked: 
+	Method name: createMock
+	Class origin: org.easymock.EasyMock
+	Count: 2
+ 

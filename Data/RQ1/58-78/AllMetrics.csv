@@ -1,0 +1,22 @@
+Project Name,commits,contributors,releases,.java Files,LOC,test Files,test LOC,'Mock' imports,Mocking frameworks,No Import Mock File
+commons-imaging,1535,40,18,563,44627,188,11167,0,0,0
+commons-io,3406,104,58,392,42344,199,27197,7,1,0
+commons-jci,428,21,7,66,4383,16,1342,0,0,0
+commons-jcs,1777,30,45,569,53431,176,15585,0,0,0
+commons-jelly,1945,44,59,552,30189,133,6273,0,0,0
+commons-jexl,1927,39,56,184,31667,73,16884,0,0,0
+commons-jxpath,601,27,16,232,24915,66,6223,1,1,0
+commons-lang,6478,210,85,425,85557,198,55633,5,1,0
+commons-logging,1017,41,41,66,5690,52,2916,0,0,0
+commons-math,6934,79,61,1154,148247,447,76721,0,0,0
+commons-net,2500,41,69,275,28292,62,8125,0,0,0
+commons-numbers,1176,22,2,157,24342,68,13969,0,0,0
+commons-ognl,756,18,0,305,20427,137,7096,0,0,0
+commons-pool,2387,63,161,97,15250,45,9276,0,0,0
+commons-proxy,591,14,8,104,6039,44,2454,0,0,0
+commons-rdf,1303,17,8,165,8913,58,3828,0,0,0
+commons-rng,1495,17,19,360,37429,132,15571,0,0,0
+commons-scxml,1163,19,20,175,13939,60,4687,0,0,0
+commons-statistics,400,10,0,119,11041,42,4787,0,0,0
+commons-text,1527,55,17,194,26594,92,16208,4,1,0
+commons-validator,1548,49,44,150,16660,84,8917,0,0,0

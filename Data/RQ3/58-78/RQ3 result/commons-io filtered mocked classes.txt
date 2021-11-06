@@ -1,0 +1,11 @@
+Inside classes: 
+ 
+ 
+ 
+ 
+Outside classes: 
+ 
+java.io.StringReader
+java.io.StringWriter
+java.io.ByteArrayInputStream
+java.io.ByteArrayOutputStream

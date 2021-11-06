@@ -1,0 +1,27 @@
+Project Name,Mocking Framework,Used in # of Files
+any23,mockito,5
+apex-core,datatorrent,3
+apex-core,mockito,4
+apex-core,powermock,3
+aries,mockito,25
+aries,easymock,25
+aries,jmock,2
+avro,easymock,6
+bookkeeper,mockito,155
+bookkeeper,powermock,67
+bookkeeper,jmock,1
+brooklyn,mockwebserver,11
+brooklyn,mockito,19
+bval,mockito,1
+calcite,mockito,1
+carbondata,mockit,36
+cassandra,mockito,8
+cayenne,mockito,104
+cayenne,mockrunner,18
+cayenne,springframework,1
+chemistry-opencmis,mockito,4
+clerezza,mockito,1
+cocoon,jmock,3
+cocoon,easymock,2
+ws-axiom,mockito,9
+ws-axiom,springframework,1

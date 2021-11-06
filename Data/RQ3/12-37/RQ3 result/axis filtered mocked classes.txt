@@ -1,0 +1,13 @@
+Inside classes: 
+ 
+org.apache.axis2.deployment.Deployer
+ 
+ 
+ 
+Outside classes: 
+ 
+java.util.logging.Handler
+org.apache.axiom.soap.SOAPBody
+javax.jms.Queue
+javax.jms.Session
+javax.jms.MessageConsumer

@@ -1,0 +1,60 @@
+/chemistry-opencmis-server-bindings/src/test/java/org/apache/chemistry/opencmis/server/impl/HttpUtilsTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<java.lang.String>
+	Count: 3
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 3
+ 
+/chemistry-opencmis-server-bindings/src/test/java/org/apache/chemistry/opencmis/server/impl/ProxyRequestTest.java
+Methods Invoked: 
+	Method name: initMocks
+	Class origin: org.mockito.MockitoAnnotations
+	Count: 1
+ 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<java.lang.String>
+	Count: 17
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 18
+ 
+/chemistry-opencmis-server-bindings/src/test/java/org/apache/chemistry/opencmis/server/impl/HttpRequestHeadMethodTest.java
+Methods Invoked: 
+	Method name: initMocks
+	Class origin: org.mockito.MockitoAnnotations
+	Count: 1
+ 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<java.lang.String>
+	Count: 8
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 16
+ 
+/chemistry-opencmis-server-bindings/src/test/java/org/apache/chemistry/opencmis/server/impl/HttpRequestMockHelper.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 3
+ 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<java.lang.String>
+	Count: 3
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 6
+ 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<javax.servlet.ServletInputStream>
+	Count: 3
+ 

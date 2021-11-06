@@ -1,0 +1,7 @@
+method, origin, count
+start,streamer.debug.MockServer,4
+getAddress,streamer.debug.MockServer,4
+dump,streamer.debug.MockSink,1
+waitUntilShutdowned,streamer.debug.MockServer,2
+getException,streamer.debug.MockServer,2
+isShutdowned,streamer.debug.MockServer,2

@@ -1,0 +1,12 @@
+method, origin, count
+init,io.fabric8.kubernetes.client.server.mock.KubernetesMockServer,2
+createClient,io.fabric8.kubernetes.client.server.mock.KubernetesMockServer,3
+destroy,io.fabric8.kubernetes.client.server.mock.KubernetesMockServer,3
+expect,io.fabric8.mockwebserver.DefaultMockServer,10
+always,io.fabric8.mockwebserver.dsl.Timesable,11
+andReturn,io.fabric8.mockwebserver.dsl.Returnable,78
+withPath,io.fabric8.mockwebserver.dsl.Pathable<io.fabric8.mockwebserver.dsl.ReturnOrWebsocketable<io.fabric8.mockwebserver.dsl.TimesOnceableOrHttpHeaderable<java.lang.Void>>>,82
+createOpenShiftClient,io.fabric8.openshift.client.server.mock.OpenShiftMockServer,1
+andReply,io.fabric8.mockwebserver.dsl.Replyable<io.fabric8.mockwebserver.dsl.TimesOnceableOrHttpHeaderable<java.lang.Void>>,4
+get,io.fabric8.mockwebserver.dsl.HttpMethodable<io.fabric8.mockwebserver.dsl.DelayPathable<io.fabric8.mockwebserver.dsl.ReturnOrWebsocketable<io.fabric8.mockwebserver.dsl.TimesOnceableOrHttpHeaderable<java.lang.Void>>>>,166
+once,io.fabric8.mockwebserver.dsl.Onceable<java.lang.Void>,66

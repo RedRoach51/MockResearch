@@ -1,0 +1,70 @@
+/commons-lang3/src/test/java/org/apache/commons/lang3/concurrent/TimedSemaphoreTest.java
+Methods Invoked: 
+	Method name: createMock
+	Class origin: org.easymock.EasyMock
+	Count: 16
+ 
+	Method name: replay
+	Class origin: org.easymock.EasyMock
+	Count: 9
+ 
+	Method name: verify
+	Class origin: org.easymock.EasyMock
+	Count: 9
+ 
+/commons-lang3/src/test/java/org/apache/commons/lang3/concurrent/BasicThreadFactoryTest.java
+Methods Invoked: 
+	Method name: createMock
+	Class origin: org.easymock.EasyMock
+	Count: 21
+ 
+/commons-lang3/src/test/java/org/apache/commons/lang3/concurrent/ConcurrentUtilsTest.java
+Methods Invoked: 
+	Method name: createMock
+	Class origin: org.easymock.EasyMock
+	Count: 7
+ 
+	Method name: andReturn
+	Class origin: org.easymock.IExpectationSetters<java.lang.Object>
+	Count: 2
+ 
+	Method name: expect
+	Class origin: org.easymock.EasyMock
+	Count: 5
+ 
+	Method name: replay
+	Class origin: org.easymock.EasyMock
+	Count: 7
+ 
+	Method name: verify
+	Class origin: org.easymock.EasyMock
+	Count: 7
+ 
+/commons-lang3/src/test/java/org/apache/commons/lang3/concurrent/MemoizerTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.easymock.EasyMock
+	Count: 1
+ 
+	Method name: andReturn
+	Class origin: org.easymock.IExpectationSetters<java.lang.Integer>
+	Count: 2
+ 
+	Method name: expect
+	Class origin: org.easymock.EasyMock
+	Count: 6
+ 
+	Method name: replay
+	Class origin: org.easymock.EasyMock
+	Count: 6
+ 
+	Method name: andThrow
+	Class origin: org.easymock.IExpectationSetters<java.lang.Integer>
+	Count: 5
+ 
+/commons-lang3/src/test/java/org/apache/commons/lang3/event/EventListenerSupportTest.java
+Methods Invoked: 
+	Method name: createNiceMock
+	Class origin: org.easymock.EasyMock
+	Count: 5
+ 

@@ -1,0 +1,14 @@
+org.apache.hadoop.mapreduce.lib.input.FileSplit
+org.apache.hadoop.mapreduce.TaskAttemptContext
+org.apache.hadoop.mapreduce.TaskAttemptContext
+org.apache.hadoop.mapreduce.TaskAttemptContext
+org.apache.hadoop.mapreduce.TaskAttemptContext
+org.apache.hadoop.mapreduce.RecordWriter<org.apache.avro.mapred.AvroKey<java.lang.Integer>,org.apache.hadoop.io.NullWritable>
+org.apache.avro.mapreduce.AvroKeyOutputFormat.RecordWriterFactory
+org.apache.hadoop.mapreduce.lib.input.FileSplit
+org.apache.hadoop.mapreduce.TaskAttemptContext
+org.apache.hadoop.mapreduce.TaskAttemptContext
+org.apache.hadoop.mapreduce.TaskAttemptContext
+org.apache.hadoop.mapreduce.TaskAttemptContext
+org.apache.hadoop.mapreduce.lib.input.FileSplit
+org.apache.hadoop.mapreduce.TaskAttemptContext
