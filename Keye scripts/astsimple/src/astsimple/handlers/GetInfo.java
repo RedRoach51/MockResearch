@@ -231,7 +231,7 @@ public class GetInfo extends AbstractHandler
 
     writer.close();
 
-    PrintWriter writer2 = new PrintWriter("D:\\Stevens\\2021 summer general\\RQ3 data\\" + target +
+    PrintWriter writer2 = new PrintWriter("D:\\Stevens\\2021 summer general\\RQ3\\RQ3 data\\" + target +
         "Mocked classes.txt", "UTF-8");
 
     for (String item : mockedClasses) {
