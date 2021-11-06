@@ -194,7 +194,7 @@ public class API_summurize {
 		}
 		
 		try {
-			FileWriter newFile2 = new FileWriter("D:\\Stevens\\2021 summer general\\RQ2 needed data\\mocked objects in single file summary.csv");
+			FileWriter newFile2 = new FileWriter("D:\\Stevens\\2021 summer general\\RQ2\\mocked objects in single file summary.csv");
 			
 			newFile2.append("# of Mocked objects in a single file, count");
 			newFile2.append("\n");
@@ -283,7 +283,7 @@ public class API_summurize {
 			}
 			
 			try {
-				FileWriter newFile = new FileWriter("D:\\Stevens\\2021 summer general\\Mocking frameworks API usage summary\\" + frameworks.get(i) +".csv");
+				FileWriter newFile = new FileWriter("D:\\Stevens\\2021 summer general\\RQ2\\Mocking frameworks API usage summary\\" + frameworks.get(i) +".csv");
 				
 				newFile.append("method, origin, count");
 				newFile.append("\n");

@@ -1,0 +1,40 @@
+method, origin, count
+mock,org.mockito.Mockito,381
+thenReturn,org.mockito.stubbing.OngoingStubbing<java.lang.String>,44
+when,org.mockito.Mockito,183
+verify,org.mockito.Mockito,113
+any,org.mockito.ArgumentMatchers,181
+times,org.mockito.Mockito,102
+eq,org.mockito.ArgumentMatchers,107
+isA,org.mockito.ArgumentMatchers,2
+anyString,org.mockito.ArgumentMatchers,20
+doAnswer,org.mockito.Mockito,26
+thenAnswer,org.mockito.stubbing.OngoingStubbing<java.util.concurrent.ScheduledFuture<>>,4
+anyLong,org.mockito.ArgumentMatchers,21
+answerVoid,org.mockito.AdditionalAnswers,2
+thenThrow,org.mockito.stubbing.OngoingStubbing<io.netty.buffer.ByteBuf>,7
+anyInt,org.mockito.ArgumentMatchers,12
+getArgument,org.mockito.invocation.InvocationOnMock,19
+whenNew,org.powermock.api.mockito.PowerMockito,103
+spy,org.powermock.api.mockito.PowerMockito,37
+mockStatic,org.powermock.api.mockito.PowerMockito,31
+doThrow,org.mockito.Mockito,5
+anyBoolean,org.mockito.ArgumentMatchers,3
+setInternalState,org.powermock.reflect.Whitebox,1
+callRealMethod,org.mockito.invocation.InvocationOnMock,1
+isSpy,org.mockito.MockingDetails,1
+mockingDetails,org.mockito.Mockito,1
+getInternalState,org.powermock.reflect.Whitebox,1
+thenCallRealMethod,org.mockito.stubbing.OngoingStubbing<java.util.concurrent.CompletableFuture<java.lang.Long>>,6
+defaultAnswer,org.mockito.MockSettings,1
+useConstructor,org.mockito.MockSettings,1
+withSettings,org.mockito.Mockito,1
+forClass,org.mockito.ArgumentCaptor,1
+atLeastOnce,org.mockito.Mockito,1
+doNothing,org.powermock.api.mockito.PowerMockito,3
+tick,org.jmock.lib.concurrent.DeterministicScheduler,3
+same,org.mockito.ArgumentMatchers,14
+
+MockedObjects: ,381
+
+# of Mocked objects each file:,13|3|7|2|5|7|1|1|6|1|2|1|3|1|6|1|1|4|1|1|1|5|4|4|1|1|1|2|8|8|1|13|1|2|1|1|1|1|4|1|3|7|4|4|5|10|6|3|2|1|2|2|2|2|2|3|3|4|3|1|2|4|2|1|4|1|2|3|1|1|1|1|1|6|4|3|2|1|1|5|5|2|1|1|2|10|1|5|2|2|1|4|1|5|1|1|1|1|4|1|1|2|19|4|2|4|3|12|9|5|1|1|1|2|2|11|4|4|

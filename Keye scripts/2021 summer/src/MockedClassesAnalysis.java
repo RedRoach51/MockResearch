@@ -106,7 +106,7 @@ public class MockedClassesAnalysis {
 		}
 		
 		
-		PrintWriter writer = new PrintWriter ("D:\\Stevens\\2021 summer general\\RQ3 result\\" + ProjectName + " filtered mocked classes.txt", "UTF-8");
+		PrintWriter writer = new PrintWriter ("D:\\Stevens\\2021 summer general\\RQ3\\RQ3 result\\" + ProjectName + " filtered mocked classes.txt", "UTF-8");
 		
 		writer.println("Inside classes: ");
 		writer.println(" ");
@@ -146,7 +146,7 @@ public class MockedClassesAnalysis {
 		
 		
 		
-		FileWriter newFile = new FileWriter("D:\\Stevens\\2021 summer general\\RQ3 result\\summary.csv");
+		FileWriter newFile = new FileWriter("D:\\Stevens\\2021 summer general\\RQ3\\RQ3 result\\summary.csv");
 		
 		newFile.append("project name, variety of inside mocked classes, variety of outside mocked classes, proportion of mocked classes");
 		newFile.append("\n");
@@ -260,7 +260,7 @@ public class MockedClassesAnalysis {
 	
 	
 	public static void output2() throws IOException {
-		FileWriter newFile = new FileWriter("D:\\Stevens\\2021 summer general\\RQ3 result\\proportion of mocked classes.csv");
+		FileWriter newFile = new FileWriter("D:\\Stevens\\2021 summer general\\RQ3\\RQ3 result\\proportion of mocked classes.csv");
 		
 		newFile.append("project name, # of total classes created, # of inside classes mocked");
 		newFile.append("\n");
@@ -301,7 +301,7 @@ public class MockedClassesAnalysis {
 	}
 	
 	public static void output3() throws IOException {
-		FileWriter newFile = new FileWriter("D:\\Stevens\\2021 summer general\\RQ3 result\\outside mocked classes summary.csv");
+		FileWriter newFile = new FileWriter("D:\\Stevens\\2021 summer general\\RQ3\\RQ3 result\\outside mocked classes summary.csv");
 		
 		newFile.append("class name, frequency");
 		newFile.append("\n");
@@ -327,7 +327,7 @@ public class MockedClassesAnalysis {
 //		
 //		System.out.println(a.substring(0,b));
 		
-		final File folder = new File("D:\\Stevens\\2021 summer general\\RQ3 data");
+		final File folder = new File("D:\\Stevens\\2021 summer general\\RQ3\\RQ3 data");
 		ReadAllFiles(folder);
 				
 		

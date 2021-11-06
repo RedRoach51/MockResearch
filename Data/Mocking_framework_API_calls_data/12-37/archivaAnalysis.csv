@@ -1,0 +1,30 @@
+method, origin, count
+createMock,org.easymock.EasyMock,34
+replay,org.easymock.EasyMock,11
+verify,org.easymock.EasyMock,11
+createControl,org.easymock.EasyMock,27
+reset,org.easymock.IMocksControl,18
+expect,org.easymock.EasyMock,51
+anyObject,org.easymock.EasyMock,17
+anyTimes,org.easymock.IExpectationSetters<java.util.Locale>,23
+andReturn,org.easymock.IExpectationSetters<java.util.Locale>,24
+eq,org.easymock.EasyMock,13
+andThrow,org.easymock.IExpectationSetters<java.lang.Object>,9
+expectLastCall,org.easymock.EasyMock,12
+once,org.easymock.IExpectationSetters<java.lang.Object>,3
+createNiceControl,org.easymock.EasyMock,5
+times,org.easymock.IExpectationSetters<java.lang.Object>,3
+mock,org.mockito.Mockito,40
+when,org.mockito.Mockito,4
+setAttribute,org.springframework.mock.web.MockServletContext,2
+setRequestURI,org.springframework.mock.web.MockHttpServletRequest,7
+addHeader,org.springframework.mock.web.MockHttpServletRequest,11
+setMethod,org.springframework.mock.web.MockHttpServletRequest,8
+setContentType,org.springframework.mock.web.MockHttpServletRequest,1
+setContent,org.springframework.mock.web.MockHttpServletRequest,1
+getStatus,org.springframework.mock.web.MockHttpServletResponse,1
+getHeader,org.springframework.mock.web.MockHttpServletResponse,1
+
+MockedObjects: ,74
+
+# of Mocked objects each file:,2|3|1|1|1|1|3|1|1|1|1|24|4|4|1|1|4|5|2|3|2|1|3|1|3|

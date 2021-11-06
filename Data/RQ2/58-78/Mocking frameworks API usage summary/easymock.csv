@@ -1,0 +1,9 @@
+method, origin, count
+createMock,org.easymock.EasyMock,44
+replay,org.easymock.EasyMock,22
+verify,org.easymock.EasyMock,16
+andReturn,org.easymock.IExpectationSetters<java.lang.Object>,4
+expect,org.easymock.EasyMock,11
+mock,org.easymock.EasyMock,1
+andThrow,org.easymock.IExpectationSetters<java.lang.Integer>,5
+createNiceMock,org.easymock.EasyMock,5

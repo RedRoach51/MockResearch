@@ -1,0 +1,244 @@
+/wicket-auth-roles/src/test/java/org/apache/wicket/authroles/authentication/AuthenticatedWebSessionTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 3
+ 
+/wicket-auth-roles/src/test/java/org/apache/wicket/authroles/authorization/strategies/role/annotations/AnnotationsRoleAuthorizationStrategyTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 12
+ 
+/wicket-core/src/test/java/org/apache/wicket/DefaultExceptionMapperTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 2
+ 
+/wicket-core/src/test/java/org/apache/wicket/ajax/AbstractDefaultAjaxBehaviorTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+/wicket-core/src/test/java/org/apache/wicket/markup/html/internal/HeaderResponseTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 3
+ 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<java.lang.CharSequence>
+	Count: 1
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 6
+ 
+	Method name: any
+	Class origin: org.mockito.ArgumentMatchers
+	Count: 3
+ 
+/wicket-core/src/test/java/org/apache/wicket/protocol/http/SessionDestroyTest.java
+Methods Invoked: 
+	Method name: spy
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+	Method name: verify
+	Class origin: org.mockito.Mockito
+	Count: 5
+ 
+	Method name: never
+	Class origin: org.mockito.Mockito
+	Count: 2
+ 
+/wicket-core/src/test/java/org/apache/wicket/protocol/http/WicketFilterTest.java
+Methods Invoked: 
+	Method name: spy
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 3
+ 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<java.util.Locale>
+	Count: 1
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 6
+ 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<java.lang.String>
+	Count: 6
+ 
+/wicket-core/src/test/java/org/apache/wicket/protocol/http/mock/MockHttpServletRequestTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+/wicket-core/src/test/java/org/apache/wicket/protocol/http/request/WebClientInfoTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 3
+ 
+/wicket-core/src/test/java/org/apache/wicket/protocol/http/servlet/ServletWebResponseTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 13
+ 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<java.lang.Boolean>
+	Count: 4
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 17
+ 
+/wicket-core/src/test/java/org/apache/wicket/protocol/https/HttpsMapperTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 15
+ 
+/wicket-core/src/test/java/org/apache/wicket/request/cycle/RequestCycleUrlForTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 6
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 4
+ 
+/wicket-core/src/test/java/org/apache/wicket/request/handler/render/WebPageRendererTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 6
+ 
+/wicket-core/src/test/java/org/apache/wicket/request/resource/ByteArrayResourceTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 4
+ 
+/wicket-core/src/test/java/org/apache/wicket/resource/ResourceUtilTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 3
+ 
+	Method name: reset
+	Class origin: org.mockito.Mockito
+	Count: 2
+ 
+/wicket-core/src/test/java/org/apache/wicket/settings/def/SetCustomResourceSettingsTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<java.lang.String>
+	Count: 1
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+/wicket-core/src/test/java/org/apache/wicket/util/file/WebApplicationPathTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<java.net.URL>
+	Count: 1
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+	Method name: any
+	Class origin: org.mockito.ArgumentMatchers
+	Count: 1
+ 
+/wicket-core/src/test/java/org/apache/wicket/util/resource/locator/CachingResourceStreamLocatorTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 5
+ 
+	Method name: verify
+	Class origin: org.mockito.Mockito
+	Count: 6
+ 
+	Method name: times
+	Class origin: org.mockito.Mockito
+	Count: 6
+ 
+/wicket-core/src/test/java/org/apache/wicket/validation/CompoundValidatorTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+	Method name: verify
+	Class origin: org.mockito.Mockito
+	Count: 10
+ 
+/wicket-ioc/src/test/java/org/apache/wicket/injection/CompoundFieldValueFactoryTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<java.lang.Object>
+	Count: 2
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 2
+ 
+	Method name: verify
+	Class origin: org.mockito.Mockito
+	Count: 2
+ 
+	Method name: times
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+/wicket-request/src/test/java/org/apache/wicket/request/http/handler/RedirectRequestHandlerTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 5
+ 
+/wicket-util/src/test/java/org/apache/wicket/util/file/FilesTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<java.lang.Boolean>
+	Count: 2
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 2
+ 

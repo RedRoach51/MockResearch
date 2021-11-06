@@ -1,0 +1,6 @@
+method, origin, count
+setAttribute,com.mockrunner.mock.web.MockServletContext,6
+setupServletContext,com.mockrunner.mock.web.MockHttpSession,2
+setUpIsNew,com.mockrunner.mock.web.MockHttpSession,1
+setSession,com.mockrunner.mock.web.MockHttpServletRequest,2
+setupAddParameter,com.mockrunner.mock.web.MockHttpServletRequest,3

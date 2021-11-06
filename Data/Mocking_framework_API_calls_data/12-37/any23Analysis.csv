@@ -1,0 +1,10 @@
+method, origin, count
+mock,org.mockito.Mockito,6
+verify,org.mockito.Mockito,3
+never,org.mockito.Mockito,1
+times,org.mockito.Mockito,1
+any,org.mockito.ArgumentMatchers,5
+
+MockedObjects: ,6
+
+# of Mocked objects each file:,1|3|1|1|

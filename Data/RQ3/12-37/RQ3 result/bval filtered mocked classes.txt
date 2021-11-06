@@ -1,0 +1,8 @@
+Inside classes: 
+ 
+org.apache.bval.jsr.ApacheMessageContext
+ 
+ 
+ 
+Outside classes: 
+ 

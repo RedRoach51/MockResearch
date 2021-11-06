@@ -1,0 +1,5 @@
+org.apache.clerezza.sparql.QueryEngine
+org.apache.clerezza.sparql.query.SelectQuery
+org.apache.clerezza.sparql.query.AskQuery
+org.apache.clerezza.sparql.query.DescribeQuery
+org.apache.clerezza.sparql.query.ConstructQuery

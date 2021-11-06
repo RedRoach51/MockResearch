@@ -1,0 +1,28 @@
+Framework, count
+Mocking Framework,1
+mockito,17
+datatorrent,1
+powermock,4
+easymock,4
+springframework,7
+jmock,3
+mockejb,1
+client,1
+findify,1
+confluent,1
+mockserver,1
+mockwebserver,2
+wiremock,2
+gax,1
+fabric8,1
+mock_javamail,1
+opentracing,1
+smock,1
+mockftpserver,1
+mockit,1
+mockrunner,1
+juniper,1
+cloud,1
+streamer,1
+
+project with multiple frameworks: ,12

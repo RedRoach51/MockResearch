@@ -1,0 +1,12 @@
+method, origin, count
+setContextPath,org.springframework.mock.web.MockHttpServletRequest,1
+setServletPath,org.springframework.mock.web.MockHttpServletRequest,6
+setRequestURI,org.springframework.mock.web.MockHttpServletRequest,6
+getContextPath,org.springframework.mock.web.MockHttpServletRequest,6
+getServletPath,org.springframework.mock.web.MockHttpServletRequest,6
+addHeader,org.springframework.mock.web.MockHttpServletRequest,7
+setMethod,org.springframework.mock.web.MockHttpServletRequest,6
+
+MockedObjects: ,0
+
+# of Mocked objects each file:,

@@ -1,0 +1,6 @@
+method, origin, count
+mock,org.mockito.Mockito,4
+
+MockedObjects: ,4
+
+# of Mocked objects each file:,4|

@@ -1,0 +1,10 @@
+project name, variety of inside mocked classes, variety of outside mocked classes, proportion of mocked classes
+commons-imaging,0,0,
+commons-io,0,4,
+commons-jci2,0,0,
+commons-jxpath,0,0,
+commons-lang3,0,9,
+commons-text,0,0,
+ 
+more inside classes mocked: ,more outside classes mocked: 
+0,2

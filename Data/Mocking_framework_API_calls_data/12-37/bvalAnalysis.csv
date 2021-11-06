@@ -1,0 +1,7 @@
+method, origin, count
+thenAnswer,org.mockito.stubbing.OngoingStubbing<java.lang.String>,3
+when,org.mockito.Mockito,6
+
+MockedObjects: ,0
+
+# of Mocked objects each file:,

@@ -1,0 +1,56 @@
+/commons-text/src/test/java/org/apache/commons/text/TextStringBuilderAppendInsertTest.java
+Methods Invoked: 
+	Method name: spy
+	Class origin: org.mockito.Mockito
+	Count: 11
+ 
+	Method name: verify
+	Class origin: org.mockito.Mockito
+	Count: 22
+ 
+	Method name: times
+	Class origin: org.mockito.Mockito
+	Count: 22
+ 
+/commons-text/src/test/java/org/apache/commons/text/lookup/UrlDecoderStringLookupTest.java
+Methods Invoked: 
+	Method name: spy
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+	Method name: thenThrow
+	Class origin: org.mockito.stubbing.OngoingStubbing<java.lang.String>
+	Count: 1
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+/commons-text/src/test/java/org/apache/commons/text/lookup/ResourceBundleStringLookupTest.java
+Methods Invoked: 
+	Method name: spy
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+	Method name: thenThrow
+	Class origin: org.mockito.stubbing.OngoingStubbing<java.lang.String>
+	Count: 1
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+/commons-text/src/test/java/org/apache/commons/text/lookup/UrlEncoderStringLookupTest.java
+Methods Invoked: 
+	Method name: spy
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+	Method name: thenThrow
+	Class origin: org.mockito.stubbing.OngoingStubbing<java.lang.String>
+	Count: 1
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 

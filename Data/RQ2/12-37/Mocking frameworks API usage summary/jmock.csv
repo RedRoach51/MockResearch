@@ -1,0 +1,18 @@
+method, origin, count
+setImposteriser,org.jmock.Mockery,13
+checking,org.jmock.Mockery,30
+of,org.jmock.syntax.ReceiverClause,1
+exactly,org.jmock.Expectations,1
+assertIsSatisfied,org.jmock.Mockery,12
+allowing,org.jmock.Expectations,26
+will,org.jmock.Expectations,90
+returnValue,org.jmock.Expectations,87
+mock,org.jmock.Mockery,338
+tick,org.jmock.lib.concurrent.DeterministicScheduler,3
+with,org.jmock.builder.ArgumentsMatchBuilder,11
+method,org.jmock.builder.NameMatchBuilder,12
+expects,org.jmock.Mock,12
+once,org.jmock.MockObjectTestCase,9
+same,org.jmock.core.MockObjectSupportTestCase,11
+proxy,org.jmock.Mock,4
+oneOf,org.jmock.Expectations,74

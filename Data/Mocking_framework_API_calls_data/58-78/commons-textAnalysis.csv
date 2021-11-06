@@ -1,0 +1,10 @@
+method, origin, count
+spy,org.mockito.Mockito,14
+verify,org.mockito.Mockito,22
+times,org.mockito.Mockito,22
+thenThrow,org.mockito.stubbing.OngoingStubbing<java.lang.String>,3
+when,org.mockito.Mockito,3
+
+MockedObjects: ,0
+
+# of Mocked objects each file:,

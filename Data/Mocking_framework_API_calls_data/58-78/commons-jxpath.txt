@@ -1,0 +1,30 @@
+/commons-jxpath/src/test/java/org/apache/commons/jxpath/servlet/JXPathServletContextTest.java
+Methods Invoked: 
+	Method name: setAttribute
+	Class origin: com.mockrunner.mock.web.MockServletContext
+	Count: 2
+ 
+	Method name: setupServletContext
+	Class origin: com.mockrunner.mock.web.MockHttpSession
+	Count: 2
+ 
+	Method name: setUpIsNew
+	Class origin: com.mockrunner.mock.web.MockHttpSession
+	Count: 1
+ 
+	Method name: setAttribute
+	Class origin: com.mockrunner.mock.web.MockHttpSession
+	Count: 2
+ 
+	Method name: setSession
+	Class origin: com.mockrunner.mock.web.MockHttpServletRequest
+	Count: 2
+ 
+	Method name: setAttribute
+	Class origin: com.mockrunner.mock.web.MockHttpServletRequest
+	Count: 2
+ 
+	Method name: setupAddParameter
+	Class origin: com.mockrunner.mock.web.MockHttpServletRequest
+	Count: 3
+ 
