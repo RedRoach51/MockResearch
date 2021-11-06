@@ -1,5 +1,6 @@
 import os
 import csv
+import glob
 
 ''' Python file intended to be run in a batch script to read and write metrics 
     from CSV files generated from Understand Scitool projects.
@@ -47,10 +48,11 @@ def GitCommitMetrics(projectName, validLines):
         projectName (string): Name of Java project.
         validLines ([string]): List of 'keywords' searched for in the commits.
     '''
-    reader = open('UndProjects/' + projectName + '.log', encoding="ANSI")
+    reader = open('UndProjects/' + projectName + '.log', encoding="utf-8")
     authors = {}
 
     for line in reader:
+        #print("LINE:" + line)
         if line[0:3] in validLines:
             author = line[8:line.index('<')-1]
             if author not in authors:
@@ -90,25 +92,12 @@ def TestFileMetrics(projectName, testFiles):
     
     #Sanity check for projects with no test files.
     if testFiles == []:
+        print(projectName)
         return 0
 
     
     #For some reason certain Und projects don't start their file paths at the actual project folder.
     #The path extensions help navigate to the corresponding test folder if necessary and can be added to.
-    pathExtensions = ['','\\src','\\modules']
-    path = 0
-    validPath = False
-    while validPath == False:
-        try:
-            reader = open(projectName + pathExtensions[path] + '\\' + testFiles[0][1],encoding='utf-8')
-        except FileNotFoundError:
-            if path < len(pathExtensions)-1:
-                path+=1
-            else:
-                raise FileNotFoundError(projectName + '\\' + testFiles[0][1])
-        else:
-            reader.close()
-            validPath = True
             
     mockImports = {}
     # MockImports is a dict where the key is filePath, and the value is 
@@ -123,7 +112,8 @@ def TestFileMetrics(projectName, testFiles):
     # but do not import a mocking framework.
     
     for file in testFiles:
-        filePath = projectName + pathExtensions[path] + '\\' + file[1]
+        print("Processing: " + file[1])
+        filePath = findFile(projectName, file[1])
         reader = open(filePath,encoding='utf-8',errors="ignore")
         fileName = file[1][(file[1].rindex('\\') + 1):-5]
         fileFrameworks = []
@@ -154,7 +144,18 @@ def TestFileMetrics(projectName, testFiles):
             mockFrameworks[framework].append(filePath)
             
     return [mockImports,mockFrameworks,mockNoImportFiles]
+
+def findFile(projectName, subPath):
+    pathExtensions = ['','\\src','\\modules']
+    for i in pathExtensions:
+        if os.path.exists(projectName + i + '\\' + subPath):
+            return projectName + i + '\\' + subPath
+    files = glob.glob(projectName + "/**/" + subPath, recursive = True)
+    if len(files) < 1:
+        raise FileNotFoundError(projectName + '\\' + fileName)
+    return files[0]
         
+
 def IdentifyMockFramework(importLine):
     ''' Trims/reads a line that is importing an outside mocking 
         framework to identify the framework used.
