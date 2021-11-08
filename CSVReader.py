@@ -17,6 +17,8 @@ Projects = []
 nonProjectFiles = ['RQ1Metrics.csv','AllMetrics.csv','AllMockImports.csv','AllMockFrameworks.csv','AllMockRatios.csv', 'AllFrameworkRatios.csv']
 # Set files that CSVReader should ignore here.
 
+previousFilePath = "";
+
 metricHeaders = []
 # Used by 'AllMetrics' to search for specific metrics listed in UndProject CSV files.
 
@@ -96,8 +98,6 @@ def TestFileMetrics(projectName, testFiles):
         return 0
 
     
-    #For some reason certain Und projects don't start their file paths at the actual project folder.
-    #The path extensions help navigate to the corresponding test folder if necessary and can be added to.
             
     mockImports = {}
     # MockImports is a dict where the key is filePath, and the value is 
@@ -112,7 +112,7 @@ def TestFileMetrics(projectName, testFiles):
     # but do not import a mocking framework.
     
     for file in testFiles:
-        print("Processing: " + file[1])
+#debug        print("Processing: " + file[1])
         filePath = findFile(projectName, file[1])
         reader = open(filePath,encoding='utf-8',errors="ignore")
         fileName = file[1][(file[1].rindex('\\') + 1):-5]
@@ -121,7 +121,6 @@ def TestFileMetrics(projectName, testFiles):
         for line in reader:
             line = bytes(line, 'utf-8').decode('utf-8', 'ignore')
             if line.strip()[0:6] == "import" and 'mock' in line.lower() and "apache" not in line.lower():
-                print(projectName + "," + fileName + ": " + line)
                 framework = IdentifyMockFramework(line)
                 check_framework = True;
                 if filePath not in mockImports:
@@ -133,8 +132,6 @@ def TestFileMetrics(projectName, testFiles):
                     fileFrameworks.append(framework)
             if 'class' in line and fileName in line:
                 break
-                if '你好' in line:
-                    print(projectName + "," + fileName + ": " + line)
         reader.close()
         if check_framework and 'mock' in filePath.lower():
             mockNoImportFiles += 1
@@ -146,13 +143,19 @@ def TestFileMetrics(projectName, testFiles):
     return [mockImports,mockFrameworks,mockNoImportFiles]
 
 def findFile(projectName, subPath):
+    global previousFilePath
+#debug    print("Prev file path: " + previousFilePath);
+    if os.path.exists(projectName + previousFilePath + '\\' + subPath): 
+        return projectName + previousFilePath + '\\' + subPath;
     pathExtensions = ['','\\src','\\modules']
     for i in pathExtensions:
         if os.path.exists(projectName + i + '\\' + subPath):
+            previousFilePath = i;
             return projectName + i + '\\' + subPath
     files = glob.glob(projectName + "/**/" + subPath, recursive = True)
     if len(files) < 1:
         raise FileNotFoundError(projectName + '\\' + fileName)
+    previousFilePath = files[0][len(projectName):len(files[0])-len(subPath)];
     return files[0]
         
 
