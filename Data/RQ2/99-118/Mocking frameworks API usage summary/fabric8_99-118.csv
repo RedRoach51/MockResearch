@@ -1,0 +1,9 @@
+method, origin, count
+valueOf,io.fabric8.mockwebserver.dsl.HttpMethod,1
+init,io.fabric8.kubernetes.client.server.mock.KubernetesMockServer,1
+createClient,io.fabric8.kubernetes.client.server.mock.KubernetesMockServer,2
+destroy,io.fabric8.kubernetes.client.server.mock.KubernetesMockServer,1
+expect,io.fabric8.mockwebserver.DefaultMockServer,1
+always,io.fabric8.mockwebserver.dsl.Timesable<java.lang.Void>,4
+andReturn,io.fabric8.mockwebserver.dsl.Returnable<io.fabric8.mockwebserver.dsl.TimesOnceableOrHttpHeaderable<java.lang.Void>>,4
+withPath,io.fabric8.mockwebserver.dsl.Pathable<io.fabric8.mockwebserver.dsl.ReturnOrWebsocketable<io.fabric8.mockwebserver.dsl.TimesOnceableOrHttpHeaderable<java.lang.Void>>>,4

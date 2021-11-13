@@ -1,0 +1,2 @@
+method, origin, count
+make,groovy.mock.interceptor.MockProxyMetaClass,1

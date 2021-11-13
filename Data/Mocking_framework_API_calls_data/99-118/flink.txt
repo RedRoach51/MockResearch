@@ -1,0 +1,2496 @@
+/flink-avro-confluent-registry/src/test/java/org/apache/flink/formats/avro/registry/confluent/CachedSchemaCoderProviderTest.java
+Methods Invoked: 
+	Method name: getInternalState
+	Class origin: org.powermock.reflect.Whitebox
+	Count: 3
+ 
+/flink-avro-confluent-registry/src/test/java/org/apache/flink/formats/avro/registry/confluent/debezium/DebeziumAvroSerDeSchemaTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 3
+ 
+/flink-cep/src/test/java/org/apache/flink/cep/nfa/NFAITCase.java
+Methods Invoked: 
+	Method name: spy
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+	Method name: verify
+	Class origin: org.mockito.Mockito
+	Count: 2
+ 
+	Method name: never
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+	Method name: anyLong
+	Class origin: org.mockito.ArgumentMatchers
+	Count: 1
+ 
+/flink-cep/src/test/java/org/apache/flink/cep/operator/CepRuntimeContextTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 9
+ 
+	Method name: verify
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+	Method name: any
+	Class origin: org.mockito.ArgumentMatchers
+	Count: 2
+ 
+/flink-cep/src/test/java/org/apache/flink/cep/operator/CEPOperatorTest.java
+Methods Invoked: 
+	Method name: validateMockitoUsage
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+	Method name: spy
+	Class origin: org.mockito.Mockito
+	Count: 3
+ 
+	Method name: verify
+	Class origin: org.mockito.Mockito
+	Count: 3
+ 
+	Method name: any
+	Class origin: org.mockito.ArgumentMatchers
+	Count: 6
+ 
+/flink-cep/src/test/java/org/apache/flink/cep/pattern/PatternTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 4
+ 
+/flink-clients/src/test/java/org/apache/flink/client/cli/CliFrontendSavepointTest.java
+Methods Invoked: 
+	Method name: verify
+	Class origin: org.mockito.Mockito
+	Count: 2
+ 
+	Method name: times
+	Class origin: org.mockito.Mockito
+	Count: 2
+ 
+	Method name: eq
+	Class origin: org.mockito.ArgumentMatchers
+	Count: 3
+ 
+	Method name: isNull
+	Class origin: org.mockito.ArgumentMatchers
+	Count: 1
+ 
+/flink-clients/src/test/java/org/apache/flink/client/cli/CliFrontendPackageProgramTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 2
+ 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<java.lang.String>
+	Count: 2
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 5
+ 
+/flink-clients/src/test/java/org/apache/flink/client/cli/CliFrontendListTest.java
+Methods Invoked: 
+	Method name: verify
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+	Method name: times
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+/flink-clients/src/test/java/org/apache/flink/client/program/ClientTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<java.lang.ClassLoader>
+	Count: 1
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+	Method name: when
+	Class origin: org.mockito.stubbing.Stubber
+	Count: 1
+ 
+	Method name: doAnswer
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+/flink-connector-base/src/test/java/org/apache/flink/connector/base/source/hybrid/HybridSourceReaderTest.java
+Methods Invoked: 
+	Method name: spy
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+	Method name: verify
+	Class origin: org.mockito.Mockito
+	Count: 2
+ 
+/flink-connector-base/src/test/java/org/apache/flink/connector/base/source/hybrid/HybridSourceSplitEnumeratorTest.java
+Methods Invoked: 
+	Method name: spy
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+	Method name: verify
+	Class origin: org.mockito.Mockito
+	Count: 3
+ 
+/flink-connector-cassandra_/src/test/java/org/apache/flink/streaming/connectors/cassandra/CassandraSinkBaseTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 2
+ 
+/flink-connector-cassandra_/src/test/java/org/apache/flink/streaming/connectors/cassandra/CassandraTupleWriteAheadSinkTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.powermock.api.mockito.PowerMockito
+	Count: 6
+ 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<com.datastax.driver.core.Statement>
+	Count: 1
+ 
+	Method name: when
+	Class origin: org.powermock.api.mockito.PowerMockito
+	Count: 6
+ 
+	Method name: any
+	Class origin: org.mockito.ArgumentMatchers
+	Count: 4
+ 
+/flink-connector-elasticsearch-base/src/test/java/org/apache/flink/streaming/connectors/elasticsearch/ElasticsearchSinkBaseTest.java
+Methods Invoked: 
+	Method name: verify
+	Class origin: org.mockito.Mockito
+	Count: 10
+ 
+	Method name: times
+	Class origin: org.mockito.Mockito
+	Count: 10
+ 
+	Method name: any
+	Class origin: org.mockito.ArgumentMatchers
+	Count: 11
+ 
+/flink-connector-elasticsearch6/src/test/java/org/apache/flink/streaming/connectors/elasticsearch/table/Elasticsearch6DynamicSinkTest.java
+Methods Invoked: 
+	Method name: verify
+	Class origin: org.mockito.Mockito
+	Count: 24
+ 
+/flink-connector-gcp-pubsub/src/test/java/org/apache/flink/streaming/connectors/gcp/pubsub/DeserializationSchemaWrapperTest.java
+Methods Invoked: 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 2
+ 
+	Method name: verify
+	Class origin: org.mockito.Mockito
+	Count: 3
+ 
+	Method name: times
+	Class origin: org.mockito.Mockito
+	Count: 2
+ 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<java.lang.Boolean>
+	Count: 1
+ 
+/flink-connector-gcp-pubsub/src/test/java/org/apache/flink/streaming/connectors/gcp/pubsub/PubSubConsumingTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 3
+ 
+/flink-connector-gcp-pubsub/src/test/java/org/apache/flink/streaming/connectors/gcp/pubsub/PubSubSourceTest.java
+Methods Invoked: 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 8
+ 
+	Method name: eq
+	Class origin: org.mockito.ArgumentMatchers
+	Count: 2
+ 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<java.lang.Boolean>
+	Count: 3
+ 
+/flink-connector-gcp-pubsub/src/test/java/org/apache/flink/streaming/connectors/gcp/pubsub/common/AcknowledgeOnCheckpointTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+	Method name: forClass
+	Class origin: org.mockito.ArgumentCaptor
+	Count: 1
+ 
+	Method name: verify
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+	Method name: times
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+	Method name: capture
+	Class origin: org.mockito.ArgumentCaptor<java.util.List<java.lang.String>>
+	Count: 1
+ 
+	Method name: getValue
+	Class origin: org.mockito.ArgumentCaptor<java.util.List<java.lang.String>>
+	Count: 1
+ 
+/flink-connector-hive_/src/test/java/org/apache/flink/connectors/hive/HiveTableSourceITCase.java
+Methods Invoked: 
+	Method name: spy
+	Class origin: org.mockito.Mockito
+	Count: 2
+ 
+	Method name: when
+	Class origin: org.mockito.stubbing.Stubber
+	Count: 2
+ 
+	Method name: doAnswer
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+	Method name: getArgument
+	Class origin: org.mockito.invocation.InvocationOnMock
+	Count: 1
+ 
+	Method name: any
+	Class origin: org.mockito.ArgumentMatchers
+	Count: 1
+ 
+/flink-connector-jdbc/src/test/java/org/apache/flink/connector/jdbc/JdbcDataTestBase.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 2
+ 
+/flink-connector-jdbc/src/test/java/org/apache/flink/connector/jdbc/converter/AbstractJdbcRowConverterTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<java.lang.Object>
+	Count: 2
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 2
+ 
+/flink-connector-jdbc/src/test/java/org/apache/flink/connector/jdbc/internal/JdbcTableOutputFormatTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 4
+ 
+/flink-connector-jdbc/src/test/java/org/apache/flink/connector/jdbc/internal/JdbcFullTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 2
+ 
+/flink-connector-jdbc/src/test/java/org/apache/flink/connector/jdbc/table/JdbcAppendOnlyWriterTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 2
+ 
+/flink-connector-jdbc/src/test/java/org/apache/flink/connector/jdbc/xa/JdbcXaFacadeImplTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 3
+ 
+/flink-connector-kafka/src/test/java/org/apache/flink/streaming/connectors/kafka/KafkaSerializerUpgradeTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 2
+ 
+/flink-connector-kafka/src/test/java/org/apache/flink/streaming/connectors/kafka/FlinkKafkaConsumerBaseTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 15
+ 
+/flink-connector-kafka/src/test/java/org/apache/flink/streaming/connectors/kafka/FlinkKafkaConsumerBaseMigrationTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 4
+ 
+	Method name: when
+	Class origin: org.mockito.stubbing.Stubber
+	Count: 1
+ 
+	Method name: doAnswer
+	Class origin: org.powermock.api.mockito.PowerMockito
+	Count: 1
+ 
+	Method name: when
+	Class origin: org.powermock.api.mockito.PowerMockito
+	Count: 3
+ 
+/flink-connector-kafka/src/test/java/org/apache/flink/streaming/connectors/kafka/FlinkKafkaProducerBaseTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 3
+ 
+/flink-connector-kafka/src/test/java/org/apache/flink/streaming/connectors/kafka/testutils/TestPartitionDiscoverer.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 2
+ 
+	Method name: thenAnswer
+	Class origin: org.mockito.stubbing.OngoingStubbing<java.util.List<java.lang.String>>
+	Count: 1
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 2
+ 
+	Method name: anyInt
+	Class origin: org.mockito.ArgumentMatchers
+	Count: 2
+ 
+/flink-connector-kinesis/src/test/java/org/apache/flink/streaming/connectors/kinesis/FlinkKinesisProducerTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 5
+ 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<java.lang.Boolean>
+	Count: 3
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 5
+ 
+/flink-connector-kinesis/src/test/java/org/apache/flink/streaming/connectors/kinesis/FlinkKinesisConsumerTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 22
+ 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<java.lang.Integer>
+	Count: 3
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 26
+ 
+/flink-connector-kinesis/src/test/java/org/apache/flink/streaming/connectors/kinesis/internals/ShardConsumerTest.java
+Methods Invoked: 
+	Method name: spy
+	Class origin: org.mockito.Mockito
+	Count: 6
+ 
+	Method name: verify
+	Class origin: org.mockito.Mockito
+	Count: 7
+ 
+	Method name: any
+	Class origin: org.mockito.ArgumentMatchers
+	Count: 8
+ 
+	Method name: eq
+	Class origin: org.mockito.ArgumentMatchers
+	Count: 11
+ 
+/flink-connector-kinesis/src/test/java/org/apache/flink/streaming/connectors/kinesis/internals/DynamoDBStreamsDataFetcherTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+	Method name: verify
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+/flink-connector-kinesis/src/test/java/org/apache/flink/streaming/connectors/kinesis/internals/KinesisDataFetcherTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 9
+ 
+/flink-connector-kinesis/src/test/java/org/apache/flink/streaming/connectors/kinesis/internals/ShardConsumerTestUtils.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 2
+ 
+/flink-connector-kinesis/src/test/java/org/apache/flink/streaming/connectors/kinesis/internals/publisher/fanout/StreamConsumerRegistrarTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 14
+ 
+/flink-connector-kinesis/src/test/java/org/apache/flink/streaming/connectors/kinesis/internals/publisher/fanout/FanOutRecordPublisherTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 5
+ 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<java.lang.Long>
+	Count: 1
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+	Method name: anyLong
+	Class origin: org.mockito.ArgumentMatchers
+	Count: 20
+ 
+/flink-connector-kinesis/src/test/java/org/apache/flink/streaming/connectors/kinesis/internals/publisher/polling/PollingRecordPublisherFactoryTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 3
+ 
+/flink-connector-kinesis/src/test/java/org/apache/flink/streaming/connectors/kinesis/internals/publisher/polling/PollingRecordPublisherTest.java
+Methods Invoked: 
+	Method name: spy
+	Class origin: org.mockito.Mockito
+	Count: 2
+ 
+	Method name: verify
+	Class origin: org.mockito.Mockito
+	Count: 2
+ 
+	Method name: geq
+	Class origin: org.mockito.AdditionalMatchers
+	Count: 1
+ 
+/flink-connector-kinesis/src/test/java/org/apache/flink/streaming/connectors/kinesis/metrics/PollingRecordPublisherMetricsReporterTest.java
+Methods Invoked: 
+	Method name: initMocks
+	Class origin: org.mockito.MockitoAnnotations
+	Count: 1
+ 
+	Method name: verify
+	Class origin: org.mockito.Mockito
+	Count: 5
+ 
+	Method name: eq
+	Class origin: org.mockito.ArgumentMatchers
+	Count: 5
+ 
+	Method name: any
+	Class origin: org.mockito.ArgumentMatchers
+	Count: 5
+ 
+/flink-connector-kinesis/src/test/java/org/apache/flink/streaming/connectors/kinesis/metrics/ShardConsumerMetricsReporterTest.java
+Methods Invoked: 
+	Method name: initMocks
+	Class origin: org.mockito.MockitoAnnotations
+	Count: 1
+ 
+	Method name: verify
+	Class origin: org.mockito.Mockito
+	Count: 4
+ 
+	Method name: eq
+	Class origin: org.mockito.ArgumentMatchers
+	Count: 4
+ 
+	Method name: any
+	Class origin: org.mockito.ArgumentMatchers
+	Count: 4
+ 
+/flink-connector-kinesis/src/test/java/org/apache/flink/streaming/connectors/kinesis/proxy/KinesisProxyTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 5
+ 
+	Method name: thenAnswer
+	Class origin: org.mockito.stubbing.OngoingStubbing<com.amazonaws.services.kinesis.model.GetRecordsResult>
+	Count: 1
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 3
+ 
+	Method name: any
+	Class origin: org.mockito.ArgumentMatchers
+	Count: 2
+ 
+	Method name: getField
+	Class origin: org.powermock.reflect.Whitebox
+	Count: 3
+ 
+/flink-connector-kinesis/src/test/java/org/apache/flink/streaming/connectors/kinesis/proxy/KinesisProxyV2Test.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 36
+ 
+/flink-connector-kinesis/src/test/java/org/apache/flink/streaming/connectors/kinesis/testutils/TestableKinesisDataFetcher.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+	Method name: thenAnswer
+	Class origin: org.mockito.stubbing.OngoingStubbing<java.lang.Boolean>
+	Count: 2
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 3
+ 
+	Method name: thenAnswer
+	Class origin: org.mockito.stubbing.OngoingStubbing<java.util.List<java.lang.Runnable>>
+	Count: 1
+ 
+/flink-connector-kinesis/src/test/java/org/apache/flink/streaming/connectors/kinesis/testutils/TestUtils.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<java.lang.Integer>
+	Count: 2
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 6
+ 
+/flink-connector-kinesis/src/test/java/org/apache/flink/streaming/connectors/kinesis/testutils/TestableFlinkKinesisConsumer.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+	Method name: thenAnswer
+	Class origin: org.mockito.stubbing.OngoingStubbing<java.lang.Integer>
+	Count: 2
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 2
+ 
+/flink-connector-kinesis/src/test/java/org/apache/flink/streaming/connectors/kinesis/testutils/FakeKinesisFanOutBehavioursFactory.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+	Method name: when
+	Class origin: org.mockito.stubbing.Stubber
+	Count: 1
+ 
+	Method name: doAnswer
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+	Method name: anyLong
+	Class origin: org.mockito.ArgumentMatchers
+	Count: 1
+ 
+/flink-connector-kinesis/src/test/java/org/apache/flink/streaming/connectors/kinesis/util/AwsV2UtilTest.java
+Methods Invoked: 
+	Method name: verify
+	Class origin: org.mockito.Mockito
+	Count: 38
+ 
+/flink-connector-kinesis/src/test/java/org/apache/flink/streaming/connectors/kinesis/util/StreamConsumerRegistrarUtilTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 3
+ 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<java.lang.String>
+	Count: 2
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 2
+ 
+/flink-connector-rabbitmq/src/test/java/org/apache/flink/streaming/connectors/rabbitmq/RMQSinkTest.java
+Methods Invoked: 
+	Method name: spy
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 6
+ 
+/flink-connector-rabbitmq/src/test/java/org/apache/flink/streaming/connectors/rabbitmq/RMQSourceTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 30
+ 
+/flink-core/src/test/java/org/apache/flink/api/common/io/InputStreamFSInputWrapperTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+	Method name: verify
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+/flink-core/src/test/java/org/apache/flink/api/common/operators/ExpressionKeysTest.java
+Methods Invoked: 
+	Method name: getMethod
+	Class origin: org.powermock.reflect.Whitebox
+	Count: 1
+ 
+/flink-core/src/test/java/org/apache/flink/core/fs/InitOutputPathTest.java
+Methods Invoked: 
+	Method name: whenNew
+	Class origin: org.powermock.api.mockito.PowerMockito
+	Count: 1
+ 
+	Method name: getArguments
+	Class origin: org.mockito.invocation.InvocationOnMock
+	Count: 1
+ 
+/flink-core/src/test/java/org/apache/flink/core/fs/LimitedConnectionsFileSystemDelegationTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 24
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 14
+ 
+	Method name: any
+	Class origin: org.mockito.ArgumentMatchers
+	Count: 10
+ 
+/flink-core/src/test/java/org/apache/flink/util/MethodForwardingTestUtil.java
+Methods Invoked: 
+	Method name: spy
+	Class origin: org.mockito.Mockito
+	Count: 2
+ 
+	Method name: isSpy
+	Class origin: org.mockito.internal.util.MockUtil
+	Count: 1
+ 
+	Method name: isMock
+	Class origin: org.mockito.internal.util.MockUtil
+	Count: 1
+ 
+/flink-fs-tests/src/test/java/org/apache/flink/hdfstests/ContinuousFileProcessingTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+/flink-hadoop-compatibility_/src/test/java/org/apache/flink/api/java/hadoop/mapred/HadoopInputFormatTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 9
+ 
+	Method name: verify
+	Class origin: org.mockito.Mockito
+	Count: 14
+ 
+	Method name: times
+	Class origin: org.mockito.Mockito
+	Count: 14
+ 
+	Method name: any
+	Class origin: org.mockito.ArgumentMatchers
+	Count: 22
+ 
+/flink-hadoop-compatibility_/src/test/java/org/apache/flink/api/java/hadoop/mapred/HadoopOutputFormatTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 19
+ 
+/flink-hadoop-compatibility_/src/test/java/org/apache/flink/api/java/hadoop/mapreduce/HadoopInputFormatTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 7
+ 
+	Method name: verify
+	Class origin: org.mockito.Mockito
+	Count: 4
+ 
+	Method name: times
+	Class origin: org.mockito.Mockito
+	Count: 4
+ 
+	Method name: any
+	Class origin: org.mockito.ArgumentMatchers
+	Count: 4
+ 
+/flink-hadoop-compatibility_/src/test/java/org/apache/flink/api/java/hadoop/mapreduce/HadoopOutputFormatTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 7
+ 
+	Method name: verify
+	Class origin: org.mockito.Mockito
+	Count: 9
+ 
+	Method name: times
+	Class origin: org.mockito.Mockito
+	Count: 9
+ 
+	Method name: nullable
+	Class origin: org.mockito.ArgumentMatchers
+	Count: 7
+ 
+/flink-hadoop-fs/src/test/java/org/apache/flink/runtime/fs/hdfs/HadoopDataInputStreamTest.java
+Methods Invoked: 
+	Method name: spy
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+	Method name: verify
+	Class origin: org.mockito.Mockito
+	Count: 6
+ 
+	Method name: atLeastOnce
+	Class origin: org.mockito.Mockito
+	Count: 2
+ 
+	Method name: anyLong
+	Class origin: org.mockito.ArgumentMatchers
+	Count: 5
+ 
+/flink-hadoop-fs/src/test/java/org/apache/flink/runtime/fs/hdfs/HadoopRecoverableWriterOldHadoopWithNoTruncateSupportTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<java.lang.String>
+	Count: 1
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+/flink-hadoop-fs/src/test/java/org/apache/flink/runtime/util/HadoopUtilsTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 2
+ 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<java.lang.Boolean>
+	Count: 1
+ 
+/flink-kubernetes/src/test/java/org/apache/flink/kubernetes/MixedDispatcher.java
+Methods Invoked: 
+	Method name: valueOf
+	Class origin: io.fabric8.mockwebserver.dsl.HttpMethod
+	Count: 1
+ 
+	Method name: getMethod
+	Class origin: okhttp3.mockwebserver.RecordedRequest
+	Count: 1
+ 
+	Method name: getPath
+	Class origin: okhttp3.mockwebserver.RecordedRequest
+	Count: 1
+ 
+	Method name: containsKey
+	Class origin: java.util.Map<io.fabric8.mockwebserver.ServerRequest,java.util.Queue<io.fabric8.mockwebserver.ServerResponse>>
+	Count: 2
+ 
+	Method name: get
+	Class origin: java.util.Map<io.fabric8.mockwebserver.ServerRequest,java.util.Queue<io.fabric8.mockwebserver.ServerResponse>>
+	Count: 2
+ 
+	Method name: peek
+	Class origin: java.util.Queue<io.fabric8.mockwebserver.ServerResponse>
+	Count: 2
+ 
+/flink-kubernetes/src/test/java/org/apache/flink/kubernetes/MixedKubernetesServer.java
+Methods Invoked: 
+	Method name: init
+	Class origin: io.fabric8.kubernetes.client.server.mock.KubernetesMockServer
+	Count: 1
+ 
+	Method name: createClient
+	Class origin: io.fabric8.kubernetes.client.server.mock.KubernetesMockServer
+	Count: 1
+ 
+	Method name: destroy
+	Class origin: io.fabric8.kubernetes.client.server.mock.KubernetesMockServer
+	Count: 1
+ 
+	Method name: takeRequest
+	Class origin: okhttp3.mockwebserver.MockWebServer
+	Count: 1
+ 
+	Method name: getRequestCount
+	Class origin: okhttp3.mockwebserver.MockWebServer
+	Count: 1
+ 
+	Method name: expect
+	Class origin: io.fabric8.mockwebserver.DefaultMockServer
+	Count: 1
+ 
+/flink-kubernetes/src/test/java/org/apache/flink/kubernetes/KubernetesClientTestBase.java
+Methods Invoked: 
+	Method name: always
+	Class origin: io.fabric8.mockwebserver.dsl.Timesable<java.lang.Void>
+	Count: 4
+ 
+	Method name: andReturn
+	Class origin: io.fabric8.mockwebserver.dsl.Returnable<io.fabric8.mockwebserver.dsl.TimesOnceableOrHttpHeaderable<java.lang.Void>>
+	Count: 4
+ 
+	Method name: withPath
+	Class origin: io.fabric8.mockwebserver.dsl.Pathable<io.fabric8.mockwebserver.dsl.ReturnOrWebsocketable<io.fabric8.mockwebserver.dsl.TimesOnceableOrHttpHeaderable<java.lang.Void>>>
+	Count: 4
+ 
+	Method name: get
+	Class origin: io.fabric8.mockwebserver.dsl.HttpMethodable<io.fabric8.mockwebserver.dsl.DelayPathable<io.fabric8.mockwebserver.dsl.ReturnOrWebsocketable<io.fabric8.mockwebserver.dsl.TimesOnceableOrHttpHeaderable<java.lang.Void>>>>
+	Count: 2
+ 
+/flink-kubernetes/src/test/java/org/apache/flink/kubernetes/kubeclient/TestingFlinkKubeClient.java
+Methods Invoked: 
+	Method name: createClient
+	Class origin: io.fabric8.kubernetes.client.server.mock.KubernetesMockServer
+	Count: 1
+ 
+/flink-metrics-dropwizard/src/test/java/org/apache/flink/dropwizard/metrics/DropwizardMeterWrapperTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 3
+ 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<java.lang.Double>
+	Count: 1
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 2
+ 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<java.lang.Long>
+	Count: 1
+ 
+/flink-metrics-dropwizard/src/test/java/org/apache/flink/dropwizard/metrics/FlinkMeterWrapperTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 2
+ 
+	Method name: verify
+	Class origin: org.mockito.Mockito
+	Count: 2
+ 
+/flink-metrics-influxdb/src/test/java/org/apache/flink/metrics/influxdb/InfluxdbReporterTest.java
+Methods Invoked: 
+	Method name: notifier
+	Class origin: com.github.tomakehurst.wiremock.core.WireMockConfiguration
+	Count: 1
+ 
+	Method name: dynamicPort
+	Class origin: com.github.tomakehurst.wiremock.core.WireMockConfiguration
+	Count: 1
+ 
+	Method name: wireMockConfig
+	Class origin: com.github.tomakehurst.wiremock.core.WireMockConfiguration
+	Count: 1
+ 
+	Method name: stubFor
+	Class origin: com.github.tomakehurst.wiremock.client.WireMock
+	Count: 1
+ 
+	Method name: willReturn
+	Class origin: com.github.tomakehurst.wiremock.client.MappingBuilder
+	Count: 1
+ 
+	Method name: post
+	Class origin: com.github.tomakehurst.wiremock.client.WireMock
+	Count: 1
+ 
+	Method name: urlPathEqualTo
+	Class origin: com.github.tomakehurst.wiremock.client.WireMock
+	Count: 2
+ 
+	Method name: withStatus
+	Class origin: com.github.tomakehurst.wiremock.client.ResponseDefinitionBuilder
+	Count: 1
+ 
+	Method name: aResponse
+	Class origin: com.github.tomakehurst.wiremock.client.WireMock
+	Count: 1
+ 
+	Method name: verify
+	Class origin: com.github.tomakehurst.wiremock.client.WireMock
+	Count: 1
+ 
+	Method name: withRequestBody
+	Class origin: com.github.tomakehurst.wiremock.matching.RequestPatternBuilder
+	Count: 1
+ 
+	Method name: withHeader
+	Class origin: com.github.tomakehurst.wiremock.matching.RequestPatternBuilder
+	Count: 1
+ 
+	Method name: withQueryParam
+	Class origin: com.github.tomakehurst.wiremock.matching.RequestPatternBuilder
+	Count: 3
+ 
+/flink-optimizer/src/test/java/org/apache/flink/optimizer/dag/GroupCombineNodeTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 3
+ 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<int[]>
+	Count: 1
+ 
+/flink-optimizer/src/test/java/org/apache/flink/optimizer/dag/GroupReduceNodeTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 3
+ 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<int[]>
+	Count: 1
+ 
+/flink-optimizer/src/test/java/org/apache/flink/optimizer/dag/CoGroupNodeTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 4
+ 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<int[]>
+	Count: 2
+ 
+/flink-optimizer/src/test/java/org/apache/flink/optimizer/dag/MapPartitionNodeTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 2
+ 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<int[]>
+	Count: 1
+ 
+/flink-python_/src/test/java/org/apache/flink/python/chain/PythonOperatorChainingOptimizerTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 10
+ 
+/flink-python_/src/test/java/org/apache/flink/python/metric/FlinkMetricContainerTest.java
+Methods Invoked: 
+	Method name: initMocks
+	Class origin: org.mockito.MockitoAnnotations
+	Count: 1
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 5
+ 
+/flink-python_/src/test/java/org/apache/flink/table/runtime/arrow/sources/ArrowSourceFunctionTestBase.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+/flink-python_/src/test/java/org/apache/flink/table/runtime/utils/PythonTestUtils.java
+Methods Invoked: 
+	Method name: spy
+	Class origin: org.mockito.Mockito
+	Count: 5
+ 
+/flink-queryable-state-runtime/src/test/java/org/apache/flink/queryablestate/network/KvStateRequestSerializerTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+/flink-queryable-state-runtime/src/test/java/org/apache/flink/queryablestate/network/KvStateClientHandlerTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+	Method name: verify
+	Class origin: org.mockito.Mockito
+	Count: 6
+ 
+	Method name: times
+	Class origin: org.mockito.Mockito
+	Count: 6
+ 
+	Method name: eq
+	Class origin: org.mockito.ArgumentMatchers
+	Count: 2
+ 
+	Method name: any
+	Class origin: org.mockito.ArgumentMatchers
+	Count: 1
+ 
+/flink-runtime/src/test/java/org/apache/flink/runtime/blob/BlobCachePutTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 2
+ 
+/flink-runtime/src/test/java/org/apache/flink/runtime/blob/BlobServerPutTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+	Method name: verify
+	Class origin: org.mockito.Mockito
+	Count: 2
+ 
+	Method name: times
+	Class origin: org.mockito.Mockito
+	Count: 2
+ 
+	Method name: any
+	Class origin: org.mockito.ArgumentMatchers
+	Count: 2
+ 
+	Method name: eq
+	Class origin: org.mockito.ArgumentMatchers
+	Count: 4
+ 
+/flink-runtime/src/test/java/org/apache/flink/runtime/blob/BlobServerGetTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+	Method name: when
+	Class origin: org.mockito.stubbing.Stubber
+	Count: 1
+ 
+	Method name: doAnswer
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+	Method name: getArguments
+	Class origin: org.mockito.invocation.InvocationOnMock
+	Count: 1
+ 
+	Method name: any
+	Class origin: org.mockito.ArgumentMatchers
+	Count: 3
+ 
+/flink-runtime/src/test/java/org/apache/flink/runtime/blob/BlobCacheGetTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 2
+ 
+/flink-runtime/src/test/java/org/apache/flink/runtime/checkpoint/FailoverStrategyCheckpointCoordinatorTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+/flink-runtime/src/test/java/org/apache/flink/runtime/checkpoint/CheckpointCoordinatorRestoringTest.java
+Methods Invoked: 
+	Method name: verify
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+	Method name: times
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+	Method name: any
+	Class origin: org.mockito.ArgumentMatchers
+	Count: 1
+ 
+/flink-runtime/src/test/java/org/apache/flink/runtime/checkpoint/CheckpointCoordinatorTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 24
+ 
+/flink-runtime/src/test/java/org/apache/flink/runtime/checkpoint/CheckpointStateRestoreTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 3
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 14
+ 
+/flink-runtime/src/test/java/org/apache/flink/runtime/checkpoint/PendingCheckpointStatsTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 4
+ 
+/flink-runtime/src/test/java/org/apache/flink/runtime/checkpoint/CheckpointCoordinatorFailureTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 6
+ 
+/flink-runtime/src/test/java/org/apache/flink/runtime/checkpoint/PendingCheckpointTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 14
+ 
+	Method name: when
+	Class origin: org.powermock.api.mockito.PowerMockito
+	Count: 6
+ 
+/flink-runtime/src/test/java/org/apache/flink/runtime/checkpoint/StateObjectCollectionTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+/flink-runtime/src/test/java/org/apache/flink/runtime/checkpoint/CompletedCheckpointTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 4
+ 
+	Method name: verify
+	Class origin: org.mockito.Mockito
+	Count: 6
+ 
+	Method name: times
+	Class origin: org.mockito.Mockito
+	Count: 6
+ 
+/flink-runtime/src/test/java/org/apache/flink/runtime/checkpoint/TaskStateSnapshotTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 2
+ 
+/flink-runtime/src/test/java/org/apache/flink/runtime/checkpoint/CheckpointMetadataLoadingTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<java.lang.Integer>
+	Count: 2
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 4
+ 
+/flink-runtime/src/test/java/org/apache/flink/runtime/checkpoint/CheckpointCoordinatorMasterHooksTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 6
+ 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<java.lang.String>
+	Count: 15
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 26
+ 
+/flink-runtime/src/test/java/org/apache/flink/runtime/checkpoint/CheckpointSettingsSerializableTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 2
+ 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<java.lang.String>
+	Count: 1
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+/flink-runtime/src/test/java/org/apache/flink/runtime/checkpoint/CheckpointStatsSnapshotTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<java.lang.Long>
+	Count: 2
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 2
+ 
+/flink-runtime/src/test/java/org/apache/flink/runtime/checkpoint/CheckpointStatsHistoryTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 3
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 10
+ 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<java.lang.Long>
+	Count: 3
+ 
+/flink-runtime/src/test/java/org/apache/flink/runtime/checkpoint/CompletedCheckpointStatsSummaryTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<java.lang.Long>
+	Count: 1
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+/flink-runtime/src/test/java/org/apache/flink/runtime/checkpoint/CheckpointCoordinatorTestingUtils.java
+Methods Invoked: 
+	Method name: spy
+	Class origin: org.mockito.Mockito
+	Count: 2
+ 
+/flink-runtime/src/test/java/org/apache/flink/runtime/checkpoint/hooks/MasterHooksTest.java
+Methods Invoked: 
+	Method name: spy
+	Class origin: org.mockito.Mockito
+	Count: 2
+ 
+/flink-runtime/src/test/java/org/apache/flink/runtime/executiongraph/FinalizeOnMasterTest.java
+Methods Invoked: 
+	Method name: spy
+	Class origin: org.mockito.Mockito
+	Count: 3
+ 
+/flink-runtime/src/test/java/org/apache/flink/runtime/executiongraph/DefaultExecutionGraphConstructionTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 4
+ 
+/flink-runtime/src/test/java/org/apache/flink/runtime/executiongraph/DefaultExecutionGraphDeploymentWithBlobServerTest.java
+Methods Invoked: 
+	Method name: spy
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+	Method name: when
+	Class origin: org.mockito.stubbing.Stubber
+	Count: 1
+ 
+	Method name: doAnswer
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+	Method name: callRealMethod
+	Class origin: org.mockito.invocation.InvocationOnMock
+	Count: 1
+ 
+	Method name: any
+	Class origin: org.mockito.ArgumentMatchers
+	Count: 2
+ 
+/flink-runtime/src/test/java/org/apache/flink/runtime/highavailability/nonha/embedded/EmbeddedHaServicesTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 5
+ 
+/flink-runtime/src/test/java/org/apache/flink/runtime/highavailability/nonha/standalone/StandaloneHaServicesTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 7
+ 
+/flink-runtime/src/test/java/org/apache/flink/runtime/io/disk/iomanager/AsynchronousBufferFileWriterTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+/flink-runtime/src/test/java/org/apache/flink/runtime/io/disk/iomanager/AsynchronousFileIOChannelTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 5
+ 
+/flink-runtime/src/test/java/org/apache/flink/runtime/io/network/NettyShuffleEnvironmentTest.java
+Methods Invoked: 
+	Method name: verify
+	Class origin: org.mockito.Mockito
+	Count: 4
+ 
+	Method name: times
+	Class origin: org.mockito.Mockito
+	Count: 4
+ 
+/flink-runtime/src/test/java/org/apache/flink/runtime/io/network/api/reader/AbstractReaderTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 4
+ 
+/flink-runtime/src/test/java/org/apache/flink/runtime/io/network/buffer/LocalBufferPoolTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+	Method name: verify
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+	Method name: times
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+/flink-runtime/src/test/java/org/apache/flink/runtime/io/network/netty/PartitionRequestClientFactoryTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+/flink-runtime/src/test/java/org/apache/flink/runtime/io/network/netty/CreditBasedPartitionRequestClientHandlerTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 23
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 13
+ 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<java.lang.Boolean>
+	Count: 2
+ 
+/flink-runtime/src/test/java/org/apache/flink/runtime/io/network/netty/ClientTransportErrorHandlingTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 9
+ 
+/flink-runtime/src/test/java/org/apache/flink/runtime/io/network/netty/CancelPartitionRequestTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 4
+ 
+	Method name: spy
+	Class origin: org.mockito.Mockito
+	Count: 2
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 2
+ 
+	Method name: eq
+	Class origin: org.mockito.ArgumentMatchers
+	Count: 4
+ 
+/flink-runtime/src/test/java/org/apache/flink/runtime/io/network/netty/ServerTransportErrorHandlingTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 2
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+	Method name: any
+	Class origin: org.mockito.ArgumentMatchers
+	Count: 2
+ 
+	Method name: anyInt
+	Class origin: org.mockito.ArgumentMatchers
+	Count: 1
+ 
+/flink-runtime/src/test/java/org/apache/flink/runtime/io/network/partition/PipelinedSubpartitionTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 3
+ 
+/flink-runtime/src/test/java/org/apache/flink/runtime/io/network/partition/InputChannelTestUtils.java
+Methods Invoked: 
+	Method name: getArguments
+	Class origin: org.mockito.invocation.InvocationOnMock
+	Count: 1
+ 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 3
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 2
+ 
+	Method name: any
+	Class origin: org.mockito.ArgumentMatchers
+	Count: 3
+ 
+	Method name: anyInt
+	Class origin: org.mockito.ArgumentMatchers
+	Count: 1
+ 
+/flink-runtime/src/test/java/org/apache/flink/runtime/io/network/partition/consumer/InputChannelTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+/flink-runtime/src/test/java/org/apache/flink/runtime/io/network/partition/consumer/RemoteInputChannelTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 2
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+	Method name: any
+	Class origin: org.mockito.ArgumentMatchers
+	Count: 1
+ 
+/flink-runtime/src/test/java/org/apache/flink/runtime/io/network/partition/consumer/LocalInputChannelTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 9
+ 
+/flink-runtime/src/test/java/org/apache/flink/runtime/iterative/concurrent/BlockingBackChannelTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 2
+ 
+/flink-runtime/src/test/java/org/apache/flink/runtime/jobmanager/ZooKeeperJobGraphsStoreITCase.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 3
+ 
+	Method name: verify
+	Class origin: org.mockito.Mockito
+	Count: 8
+ 
+	Method name: atMost
+	Class origin: org.mockito.Mockito
+	Count: 2
+ 
+	Method name: any
+	Class origin: org.mockito.ArgumentMatchers
+	Count: 9
+ 
+/flink-runtime/src/test/java/org/apache/flink/runtime/leaderelection/ZooKeeperLeaderElectionTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+	Method name: spy
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+	Method name: when
+	Class origin: org.mockito.stubbing.Stubber
+	Count: 1
+ 
+	Method name: doAnswer
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+	Method name: thenThrow
+	Class origin: org.mockito.stubbing.OngoingStubbing<java.lang.String>
+	Count: 1
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+	Method name: any
+	Class origin: org.mockito.ArgumentMatchers
+	Count: 2
+ 
+	Method name: anyString
+	Class origin: org.mockito.ArgumentMatchers
+	Count: 1
+ 
+/flink-runtime/src/test/java/org/apache/flink/runtime/net/ConnectionUtilsTest.java
+Methods Invoked: 
+	Method name: mockStatic
+	Class origin: org.powermock.api.mockito.PowerMockito
+	Count: 1
+ 
+	Method name: thenCallRealMethod
+	Class origin: org.mockito.stubbing.OngoingStubbing<java.net.InetAddress>
+	Count: 1
+ 
+	Method name: thenThrow
+	Class origin: org.mockito.stubbing.OngoingStubbing<java.net.InetAddress>
+	Count: 1
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+/flink-runtime/src/test/java/org/apache/flink/runtime/operators/hash/HashTableTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+/flink-runtime/src/test/java/org/apache/flink/runtime/operators/hash/CompactingHashTableTest.java
+Methods Invoked: 
+	Method name: invokeMethod
+	Class origin: org.powermock.reflect.Whitebox
+	Count: 9
+ 
+/flink-runtime/src/test/java/org/apache/flink/runtime/query/KvStateLocationRegistryTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 2
+ 
+/flink-runtime/src/test/java/org/apache/flink/runtime/registration/RetryingRegistrationTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 2
+ 
+	Method name: thenThrow
+	Class origin: org.mockito.stubbing.OngoingStubbing
+	Count: 1
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 4
+ 
+	Method name: anyString
+	Class origin: org.mockito.ArgumentMatchers
+	Count: 2
+ 
+	Method name: any
+	Class origin: org.mockito.ArgumentMatchers
+	Count: 4
+ 
+/flink-runtime/src/test/java/org/apache/flink/runtime/resourcemanager/DefaultJobLeaderIdServiceTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 12
+ 
+/flink-runtime/src/test/java/org/apache/flink/runtime/rest/MultipartUploadResource.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+/flink-runtime/src/test/java/org/apache/flink/runtime/rest/handler/AbstractHandlerTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 2
+ 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing
+	Count: 1
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 2
+ 
+	Method name: any
+	Class origin: org.mockito.ArgumentMatchers
+	Count: 1
+ 
+/flink-runtime/src/test/java/org/apache/flink/runtime/rest/handler/job/metrics/AbstractMetricsHandlerTest.java
+Methods Invoked: 
+	Method name: initMocks
+	Class origin: org.mockito.MockitoAnnotations
+	Count: 1
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+/flink-runtime/src/test/java/org/apache/flink/runtime/rest/handler/job/metrics/AggregatingMetricsHandlerTestBase.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.powermock.api.mockito.PowerMockito
+	Count: 3
+ 
+/flink-runtime/src/test/java/org/apache/flink/runtime/rest/handler/job/metrics/JobVertexWatermarksHandlerTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 8
+ 
+/flink-runtime/src/test/java/org/apache/flink/runtime/rest/handler/job/metrics/MetricsHandlerTestBase.java
+Methods Invoked: 
+	Method name: initMocks
+	Class origin: org.mockito.MockitoAnnotations
+	Count: 1
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+/flink-runtime/src/test/java/org/apache/flink/runtime/rest/handler/legacy/checkpoints/CheckpointStatsCacheTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<java.lang.Long>
+	Count: 1
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 2
+ 
+/flink-runtime/src/test/java/org/apache/flink/runtime/rest/handler/taskmanager/AbstractTaskManagerFileHandlerTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+/flink-runtime/src/test/java/org/apache/flink/runtime/state/StateSnapshotCompressionTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 2
+ 
+/flink-runtime/src/test/java/org/apache/flink/runtime/state/TaskLocalStateStoreImplTest.java
+Methods Invoked: 
+	Method name: verify
+	Class origin: org.mockito.Mockito
+	Count: 2
+ 
+	Method name: never
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+/flink-runtime/src/test/java/org/apache/flink/runtime/state/IncrementalRemoteKeyedStateHandleTest.java
+Methods Invoked: 
+	Method name: verify
+	Class origin: org.mockito.Mockito
+	Count: 32
+ 
+/flink-runtime/src/test/java/org/apache/flink/runtime/state/SnapshotResultTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 2
+ 
+/flink-runtime/src/test/java/org/apache/flink/runtime/state/OperatorStateBackendTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 2
+ 
+/flink-runtime/src/test/java/org/apache/flink/runtime/state/StateBackendTestBase.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+	Method name: verify
+	Class origin: org.mockito.Mockito
+	Count: 3
+ 
+	Method name: times
+	Class origin: org.mockito.Mockito
+	Count: 3
+ 
+	Method name: eq
+	Class origin: org.mockito.ArgumentMatchers
+	Count: 12
+ 
+/flink-runtime/src/test/java/org/apache/flink/runtime/state/StateBackendLoadingTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+/flink-runtime/src/test/java/org/apache/flink/runtime/state/filesystem/CheckpointStateOutputStreamTest.java
+Methods Invoked: 
+	Method name: spy
+	Class origin: org.mockito.Mockito
+	Count: 2
+ 
+	Method name: verify
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+/flink-runtime/src/test/java/org/apache/flink/runtime/state/filesystem/FsCheckpointStorageAccessTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+/flink-runtime/src/test/java/org/apache/flink/runtime/state/filesystem/FsCheckpointStateOutputStreamTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 4
+ 
+/flink-runtime/src/test/java/org/apache/flink/runtime/state/heap/HeapStateBackendTestBase.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+/flink-runtime/src/test/java/org/apache/flink/runtime/state/metrics/LatencyTrackingStateFactoryTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 5
+ 
+/flink-runtime/src/test/java/org/apache/flink/runtime/taskexecutor/TaskExecutorSubmissionTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+	Method name: when
+	Class origin: org.mockito.stubbing.Stubber
+	Count: 1
+ 
+	Method name: doThrow
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+/flink-runtime/src/test/java/org/apache/flink/runtime/taskexecutor/TaskSubmissionTestEnvironment.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+/flink-runtime/src/test/java/org/apache/flink/runtime/taskexecutor/TaskManagerServicesBuilder.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 4
+ 
+/flink-runtime/src/test/java/org/apache/flink/runtime/taskmanager/TaskTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 2
+ 
+/flink-runtime/src/test/java/org/apache/flink/runtime/taskmanager/TaskManagerLocationTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 7
+ 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<java.lang.String>
+	Count: 21
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 25
+ 
+/flink-runtime/src/test/java/org/apache/flink/runtime/taskmanager/TaskAsyncCallTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 9
+ 
+/flink-runtime/src/test/java/org/apache/flink/runtime/taskmanager/TestTaskBuilder.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 2
+ 
+/flink-runtime/src/test/java/org/apache/flink/runtime/util/EnvironmentInformationTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+/flink-runtime/src/test/java/org/apache/flink/runtime/util/JvmExitOnFatalErrorTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+/flink-runtime/src/test/java/org/apache/flink/runtime/webmonitor/retriever/LeaderGatewayRetrieverTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+/flink-runtime/src/test/java/org/apache/flink/runtime/zookeeper/ZooKeeperStateHandleStoreTest.java
+Methods Invoked: 
+	Method name: spy
+	Class origin: org.mockito.Mockito
+	Count: 2
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 2
+ 
+/flink-runtime-web/src/test/java/org/apache/flink/runtime/webmonitor/handlers/JarUploadHandlerTest.java
+Methods Invoked: 
+	Method name: initMocks
+	Class origin: org.mockito.MockitoAnnotations
+	Count: 1
+ 
+/flink-s3-fs-base/src/test/java/org/apache/flink/fs/s3/common/S3EntropyFsFactoryTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+/flink-state-processor-api/src/test/java/org/apache/flink/state/api/input/WindowReaderTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 2
+ 
+/flink-statebackend-rocksdb/src/test/java/org/apache/flink/contrib/streaming/state/RocksDBIncrementalCheckpointUtilsTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 3
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 3
+ 
+/flink-statebackend-rocksdb/src/test/java/org/apache/flink/contrib/streaming/state/RocksDBAsyncSnapshotTest.java
+Methods Invoked: 
+	Method name: spy
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+	Method name: verify
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+/flink-statebackend-rocksdb/src/test/java/org/apache/flink/contrib/streaming/state/RocksDBInitTest.java
+Methods Invoked: 
+	Method name: spy
+	Class origin: org.powermock.api.mockito.PowerMockito
+	Count: 1
+ 
+	Method name: thenThrow
+	Class origin: org.mockito.stubbing.OngoingStubbing<java.lang.Object>
+	Count: 1
+ 
+	Method name: when
+	Class origin: org.powermock.api.mockito.PowerMockito
+	Count: 1
+ 
+/flink-statebackend-rocksdb/src/test/java/org/apache/flink/contrib/streaming/state/RocksDBMemoryControllerUtilsTest.java
+Methods Invoked: 
+	Method name: mockStatic
+	Class origin: org.powermock.api.mockito.PowerMockito
+	Count: 1
+ 
+	Method name: when
+	Class origin: org.powermock.api.mockito.PowerMockito
+	Count: 5
+ 
+	Method name: anyLong
+	Class origin: org.mockito.ArgumentMatchers
+	Count: 5
+ 
+	Method name: anyDouble
+	Class origin: org.mockito.ArgumentMatchers
+	Count: 5
+ 
+/flink-statebackend-rocksdb/src/test/java/org/apache/flink/contrib/streaming/state/RocksDBKeyedStateBackendTestFactory.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+/flink-statebackend-rocksdb/src/test/java/org/apache/flink/contrib/streaming/state/EmbeddedRocksDBStateBackendTest.java
+Methods Invoked: 
+	Method name: verify
+	Class origin: org.mockito.Mockito
+	Count: 15
+ 
+	Method name: times
+	Class origin: org.mockito.internal.verification.VerificationModeFactory
+	Count: 12
+ 
+	Method name: spy
+	Class origin: org.powermock.api.mockito.PowerMockito
+	Count: 7
+ 
+/flink-statebackend-rocksdb/src/test/java/org/apache/flink/contrib/streaming/state/RocksDBStateBackendConfigTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 2
+ 
+/flink-streaming-java/src/test/java/org/apache/flink/streaming/api/functions/async/RichAsyncFunctionTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 4
+ 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<java.lang.Integer>
+	Count: 4
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 9
+ 
+/flink-streaming-java/src/test/java/org/apache/flink/streaming/api/functions/sink/OutputFormatSinkFunctionTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 3
+ 
+/flink-streaming-java/src/test/java/org/apache/flink/streaming/api/operators/StateSnapshotContextSynchronousImplTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 6
+ 
+/flink-streaming-java/src/test/java/org/apache/flink/streaming/api/operators/OperatorSnapshotFuturesTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 6
+ 
+	Method name: spy
+	Class origin: org.powermock.api.mockito.PowerMockito
+	Count: 6
+ 
+/flink-streaming-java/src/test/java/org/apache/flink/streaming/api/operators/InternalTimerServiceImplTest.java
+Methods Invoked: 
+	Method name: any
+	Class origin: org.mockito.ArgumentMatchers
+	Count: 1
+ 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 17
+ 
+/flink-streaming-java/src/test/java/org/apache/flink/streaming/api/operators/StreamingRuntimeContextTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 7
+ 
+/flink-streaming-java/src/test/java/org/apache/flink/streaming/api/operators/BackendRestorerProcedureTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.powermock.api.mockito.PowerMockito
+	Count: 6
+ 
+	Method name: spy
+	Class origin: org.powermock.api.mockito.PowerMockito
+	Count: 1
+ 
+/flink-streaming-java/src/test/java/org/apache/flink/streaming/api/operators/StreamTaskStateInitializerImplTest.java
+Methods Invoked: 
+	Method name: spy
+	Class origin: org.mockito.Mockito
+	Count: 2
+ 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 4
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 2
+ 
+/flink-streaming-java/src/test/java/org/apache/flink/streaming/api/operators/StateInitializationContextImplTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 4
+ 
+/flink-streaming-java/src/test/java/org/apache/flink/streaming/api/operators/windowing/functions/InternalWindowFunctionTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 54
+ 
+	Method name: verify
+	Class origin: org.mockito.Mockito
+	Count: 59
+ 
+/flink-streaming-java/src/test/java/org/apache/flink/streaming/runtime/io/recovery/DemultiplexingRecordDeserializerTest.java
+Methods Invoked: 
+	Method name: newSet
+	Class origin: org.mockito.internal.util.collections.Sets
+	Count: 2
+ 
+/flink-streaming-java/src/test/java/org/apache/flink/streaming/runtime/operators/StreamSourceOperatorLatencyMetricsTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+/flink-streaming-java/src/test/java/org/apache/flink/streaming/runtime/operators/StreamSourceOperatorWatermarksTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+/flink-streaming-java/src/test/java/org/apache/flink/streaming/runtime/operators/windowing/DynamicProcessingTimeSessionWindowsTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 15
+ 
+/flink-streaming-java/src/test/java/org/apache/flink/streaming/runtime/operators/windowing/RegularWindowOperatorContractTest.java
+Methods Invoked: 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+	Method name: anyInt
+	Class origin: org.mockito.ArgumentMatchers
+	Count: 2
+ 
+	Method name: anyLong
+	Class origin: org.mockito.ArgumentMatchers
+	Count: 2
+ 
+	Method name: when
+	Class origin: org.mockito.stubbing.Stubber
+	Count: 1
+ 
+	Method name: doAnswer
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+	Method name: getArguments
+	Class origin: org.mockito.invocation.InvocationOnMock
+	Count: 2
+ 
+/flink-streaming-java/src/test/java/org/apache/flink/streaming/runtime/operators/windowing/PurgingTriggerTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 12
+ 
+	Method name: anyObject
+	Class origin: org.mockito.ArgumentMatchers
+	Count: 6
+ 
+	Method name: anyLong
+	Class origin: org.mockito.ArgumentMatchers
+	Count: 14
+ 
+/flink-streaming-java/src/test/java/org/apache/flink/streaming/runtime/operators/windowing/EventTimeSessionWindowsTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 8
+ 
+/flink-streaming-java/src/test/java/org/apache/flink/streaming/runtime/operators/windowing/ProcessingTimeSessionWindowsTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 8
+ 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<java.lang.Long>
+	Count: 6
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 6
+ 
+/flink-streaming-java/src/test/java/org/apache/flink/streaming/runtime/operators/windowing/GlobalWindowsTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 2
+ 
+/flink-streaming-java/src/test/java/org/apache/flink/streaming/runtime/operators/windowing/MergingWindowSetTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 9
+ 
+/flink-streaming-java/src/test/java/org/apache/flink/streaming/runtime/operators/windowing/DynamicEventTimeSessionWindowsTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 15
+ 
+/flink-streaming-java/src/test/java/org/apache/flink/streaming/runtime/operators/windowing/SlidingProcessingTimeWindowsTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 5
+ 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<java.lang.Long>
+	Count: 12
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 12
+ 
+/flink-streaming-java/src/test/java/org/apache/flink/streaming/runtime/operators/windowing/WindowOperatorContractTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 8
+ 
+/flink-streaming-java/src/test/java/org/apache/flink/streaming/runtime/operators/windowing/WindowOperatorTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 2
+ 
+	Method name: thenAnswer
+	Class origin: org.mockito.stubbing.OngoingStubbing<java.lang.Long>
+	Count: 2
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 2
+ 
+	Method name: any
+	Class origin: org.mockito.ArgumentMatchers
+	Count: 2
+ 
+	Method name: getArguments
+	Class origin: org.mockito.invocation.InvocationOnMock
+	Count: 2
+ 
+/flink-streaming-java/src/test/java/org/apache/flink/streaming/runtime/operators/windowing/TumblingEventTimeWindowsTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 6
+ 
+/flink-streaming-java/src/test/java/org/apache/flink/streaming/runtime/operators/windowing/SlidingEventTimeWindowsTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 5
+ 
+/flink-streaming-java/src/test/java/org/apache/flink/streaming/runtime/operators/windowing/TumblingProcessingTimeWindowsTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 6
+ 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<java.lang.Long>
+	Count: 15
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 15
+ 
+/flink-streaming-java/src/test/java/org/apache/flink/streaming/runtime/streamrecord/StreamElementSerializerTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 2
+ 
+/flink-streaming-java/src/test/java/org/apache/flink/streaming/runtime/tasks/LocalStateForwardingTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 4
+ 
+/flink-streaming-java/src/test/java/org/apache/flink/streaming/runtime/tasks/TaskCheckpointingBehaviourTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 8
+ 
+/flink-streaming-java/src/test/java/org/apache/flink/streaming/runtime/tasks/StreamTaskTerminationTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 7
+ 
+/flink-streaming-java/src/test/java/org/apache/flink/streaming/runtime/tasks/StreamMockEnvironment.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+/flink-streaming-java/src/test/java/org/apache/flink/streaming/runtime/tasks/InterruptSensitiveRestoreTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 8
+ 
+/flink-streaming-java/src/test/java/org/apache/flink/streaming/runtime/tasks/TestSpyWrapperStateBackend.java
+Methods Invoked: 
+	Method name: spy
+	Class origin: org.powermock.api.mockito.PowerMockito
+	Count: 4
+ 
+/flink-streaming-java/src/test/java/org/apache/flink/streaming/runtime/tasks/StreamTaskCancellationBarrierTest.java
+Methods Invoked: 
+	Method name: spy
+	Class origin: org.mockito.Mockito
+	Count: 2
+ 
+	Method name: verify
+	Class origin: org.mockito.Mockito
+	Count: 2
+ 
+	Method name: times
+	Class origin: org.mockito.Mockito
+	Count: 2
+ 
+	Method name: eq
+	Class origin: org.mockito.ArgumentMatchers
+	Count: 2
+ 
+	Method name: argThat
+	Class origin: org.mockito.hamcrest.MockitoHamcrest
+	Count: 2
+ 
+/flink-streaming-java/src/test/java/org/apache/flink/streaming/runtime/tasks/StreamTaskSystemExitTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 6
+ 
+/flink-streaming-java/src/test/java/org/apache/flink/streaming/runtime/tasks/SynchronousCheckpointITCase.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 9
+ 
+/flink-streaming-java/src/test/java/org/apache/flink/streaming/runtime/tasks/StreamTaskTest.java
+Methods Invoked: 
+	Method name: spy
+	Class origin: org.mockito.Mockito
+	Count: 3
+ 
+	Method name: verify
+	Class origin: org.mockito.Mockito
+	Count: 27
+ 
+	Method name: timeout
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+	Method name: eq
+	Class origin: org.mockito.ArgumentMatchers
+	Count: 2
+ 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 21
+ 
+/flink-streaming-java/src/test/java/org/apache/flink/streaming/util/SourceFunctionUtil.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+/flink-streaming-java/src/test/java/org/apache/flink/streaming/util/AbstractStreamOperatorTestHarnessTest.java
+Methods Invoked: 
+	Method name: spy
+	Class origin: org.mockito.Mockito
+	Count: 2
+ 
+/flink-table-planner_/src/test/java/org/apache/flink/table/planner/plan/FlinkCalciteCatalogReaderTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 2
+ 
+	Method name: when
+	Class origin: org.powermock.api.mockito.PowerMockito
+	Count: 1
+ 
+/flink-table-runtime_/src/test/java/org/apache/flink/table/formats/raw/RawFormatSerDeSchemaTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 2
+ 
+/flink-table-runtime_/src/test/java/org/apache/flink/table/runtime/operators/over/BufferDataOverWindowOperatorTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 2
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 2
+ 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<java.lang.Double>
+	Count: 1
+ 
+/flink-table-runtime_/src/test/java/org/apache/flink/table/runtime/operators/over/NonBufferOverWindowOperatorTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 2
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+/flink-table-runtime_/src/test/java/org/apache/flink/table/runtime/operators/window/WindowOperatorContractTest.java
+Methods Invoked: 
+	Method name: when
+	Class origin: org.powermock.api.mockito.PowerMockito
+	Count: 14
+ 
+	Method name: any
+	Class origin: org.mockito.ArgumentMatchers
+	Count: 22
+ 
+	Method name: anyLong
+	Class origin: org.mockito.ArgumentMatchers
+	Count: 10
+ 
+	Method name: verify
+	Class origin: org.mockito.Mockito
+	Count: 14
+ 
+	Method name: times
+	Class origin: org.mockito.Mockito
+	Count: 10
+ 
+	Method name: eq
+	Class origin: org.mockito.ArgumentMatchers
+	Count: 16
+ 
+/flink-table-runtime_/src/test/java/org/apache/flink/table/runtime/operators/window/assigners/SessionWindowAssignerTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 4
+ 
+	Method name: verify
+	Class origin: org.mockito.Mockito
+	Count: 4
+ 
+	Method name: never
+	Class origin: org.mockito.Mockito
+	Count: 2
+ 
+	Method name: anyObject
+	Class origin: org.mockito.ArgumentMatchers
+	Count: 2
+ 
+	Method name: anyCollection
+	Class origin: org.mockito.ArgumentMatchers
+	Count: 2
+ 
+/flink-tests/src/test/java/org/apache/flink/test/state/BackendSwitchSpecs.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+/flink-yarn/src/test/java/org/apache/flink/yarn/RegisterApplicationMasterResponseReflectorTest.java
+Methods Invoked: 
+	Method name: initMocks
+	Class origin: org.mockito.MockitoAnnotations
+	Count: 1
+ 

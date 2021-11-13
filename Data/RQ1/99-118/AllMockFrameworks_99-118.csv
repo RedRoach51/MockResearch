@@ -1,0 +1,23 @@
+Project Name,Mocking Framework,Used in # of Files
+empire-db,mockito,2
+falcon,mockito,25
+flink,mockito,213
+flink,powermock,29
+flink,confluent,3
+flink,fabric8,4
+flink,mockwebserver,2
+flink,wiremock,1
+flume,mockito,47
+flume,wiremock,1
+fluo-recipes,easymock,1
+fluo,easymock,1
+freemarker,springframework,1
+freemarker,freemarker,1
+geode,mockrunner,4
+geode,mockito,909
+geode,micrometer,1
+geode,springframework,30
+geronimo,agical,19
+giraph,mockito,18
+groovy,jmock,3
+xmlgraphics-fop,mockito,68

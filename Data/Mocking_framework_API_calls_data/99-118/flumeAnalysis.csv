@@ -1,0 +1,35 @@
+method, origin, count
+mock,org.mockito.Mockito,84
+thenReturn,org.mockito.stubbing.OngoingStubbing<byte[]>,35
+when,org.mockito.Mockito,136
+spy,org.mockito.Mockito,10
+callRealMethod,org.mockito.invocation.InvocationOnMock,1
+doThrow,org.mockito.Mockito,17
+any,org.mockito.Matchers,10
+getInternalState,org.mockito.internal.util.reflection.Whitebox,22
+eq,org.mockito.Matchers,12
+anyInt,org.mockito.Matchers,10
+port,com.github.tomakehurst.wiremock.core.WireMockConfiguration,1
+wireMockConfig,com.github.tomakehurst.wiremock.core.WireMockConfiguration,1
+stubFor,com.github.tomakehurst.wiremock.WireMockServer,11
+willReturn,com.github.tomakehurst.wiremock.client.MappingBuilder,11
+withRequestBody,com.github.tomakehurst.wiremock.client.MappingBuilder,19
+post,com.github.tomakehurst.wiremock.client.WireMock,11
+urlEqualTo,com.github.tomakehurst.wiremock.client.WireMock,19
+equalToJson,com.github.tomakehurst.wiremock.client.WireMock,19
+withStatus,com.github.tomakehurst.wiremock.client.ResponseDefinitionBuilder,10
+aResponse,com.github.tomakehurst.wiremock.client.WireMock,11
+verify,com.github.tomakehurst.wiremock.WireMockServer,21
+postRequestedFor,com.github.tomakehurst.wiremock.client.WireMock,8
+thenThrow,org.mockito.stubbing.OngoingStubbing<javax.jms.Connection>,3
+doAnswer,org.mockito.Mockito,4
+getArguments,org.mockito.invocation.InvocationOnMock,1
+times,org.mockito.Mockito,13
+initMocks,org.mockito.MockitoAnnotations,3
+anyList,org.mockito.Matchers,4
+anyListOf,org.mockito.Matchers,1
+setInternalState,org.mockito.internal.util.reflection.Whitebox,4
+
+MockedObjects: ,84
+
+# of Mocked objects each file:,10|1|1|1|2|4|1|3|7|3|2|1|2|2|1|1|1|1|6|3|1|2|6|6|2|4|1|1|2|2|1|3|

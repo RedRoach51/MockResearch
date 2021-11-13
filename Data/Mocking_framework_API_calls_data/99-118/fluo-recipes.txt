@@ -1,0 +1,14 @@
+/fluo-recipes-core/src/test/java/org/apache/fluo/recipes/core/transaction/RecordingTransactionTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.easymock.EasyMock
+	Count: 6
+ 
+	Method name: expect
+	Class origin: org.easymock.EasyMock
+	Count: 13
+ 
+	Method name: replay
+	Class origin: org.easymock.EasyMock
+	Count: 10
+ 

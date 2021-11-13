@@ -1,0 +1,56 @@
+/groovy-groovydoc/src/test/groovy/org/codehaus/groovy/tools/groovydoc/GroovyDocToolTest.java
+Methods Invoked: 
+	Method name: getText
+	Class origin: org.codehaus.groovy.tools.groovydoc.MockOutputTool
+	Count: 63
+ 
+/groovy-jmx/src/test/java/groovy/jmx/builder/MockManagedObject.java
+Methods Invoked: 
+	Method name: getName
+	Class origin: java.lang.Class<groovy.jmx.builder.MockManagedObject>
+	Count: 1
+ 
+/groovy-servlet/src/test/java/groovy/servlet/GroovyServletTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.jmock.MockObjectTestCase
+	Count: 1
+ 
+	Method name: will
+	Class origin: org.jmock.builder.StubBuilder
+	Count: 1
+ 
+	Method name: with
+	Class origin: org.jmock.builder.ArgumentsMatchBuilder
+	Count: 1
+ 
+	Method name: method
+	Class origin: org.jmock.builder.NameMatchBuilder
+	Count: 1
+ 
+	Method name: expects
+	Class origin: org.jmock.Mock
+	Count: 1
+ 
+	Method name: once
+	Class origin: org.jmock.MockObjectTestCase
+	Count: 1
+ 
+	Method name: eq
+	Class origin: org.jmock.core.MockObjectSupportTestCase
+	Count: 1
+ 
+	Method name: returnValue
+	Class origin: org.jmock.MockObjectTestCase
+	Count: 1
+ 
+	Method name: proxy
+	Class origin: org.jmock.Mock
+	Count: 1
+ 
+/groovy-test/src/main/java/groovy/mock/interceptor/MockProxyMetaClass.java
+Methods Invoked: 
+	Method name: make
+	Class origin: groovy.mock.interceptor.MockProxyMetaClass
+	Count: 1
+ 

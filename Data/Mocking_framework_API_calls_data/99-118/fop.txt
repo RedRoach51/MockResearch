@@ -1,0 +1,736 @@
+/fop-core/src/test/java/org/apache/fop/afp/AFPGraphics2DTestCase.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 6
+ 
+/fop-core/src/test/java/org/apache/fop/afp/ptoca/TransparentDataControlSequenceTestCase.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 2
+ 
+	Method name: verify
+	Class origin: org.mockito.Mockito
+	Count: 2
+ 
+	Method name: times
+	Class origin: org.mockito.Mockito
+	Count: 2
+ 
+/fop-core/src/test/java/org/apache/fop/afp/util/AFPResourceAccessorTestCase.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 3
+ 
+/fop-core/src/test/java/org/apache/fop/apps/AbstractRendererConfigParserTester.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 2
+ 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<java.lang.Boolean>
+	Count: 1
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 3
+ 
+/fop-core/src/test/java/org/apache/fop/apps/EnvironmentalProfileFactoryTestCase.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+/fop-core/src/test/java/org/apache/fop/apps/AbstractRendererConfiguratorTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<java.lang.String>
+	Count: 1
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+/fop-core/src/test/java/org/apache/fop/apps/FopFactoryTestCase.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<java.lang.String>
+	Count: 1
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+/fop-core/src/test/java/org/apache/fop/apps/io/ResourceResolverFactoryTestCase.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 4
+ 
+/fop-core/src/test/java/org/apache/fop/apps/io/URIResolverWrapperTestCase.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 3
+ 
+/fop-core/src/test/java/org/apache/fop/fo/FONodeMocks.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 6
+ 
+/fop-core/src/test/java/org/apache/fop/fo/flow/MarkersTestCase.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 8
+ 
+/fop-core/src/test/java/org/apache/fop/fo/flow/table/HeaderColumnTestCase.java
+Methods Invoked: 
+	Method name: verify
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+	Method name: any
+	Class origin: org.mockito.ArgumentMatchers
+	Count: 2
+ 
+	Method name: eq
+	Class origin: org.mockito.ArgumentMatchers
+	Count: 4
+ 
+/fop-core/src/test/java/org/apache/fop/fo/pagination/PageSequenceMasterTestCase.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 11
+ 
+/fop-core/src/test/java/org/apache/fop/fo/pagination/RepeatablePageMasterAlternativesTestCase.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 11
+ 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<java.lang.Integer>
+	Count: 4
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 12
+ 
+/fop-core/src/test/java/org/apache/fop/fo/properties/CommonAccessibilityHolderTestCase.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 2
+ 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<java.lang.String>
+	Count: 2
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 4
+ 
+/fop-core/src/test/java/org/apache/fop/fo/properties/AltTextHolderTestCase.java
+Methods Invoked: 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<java.lang.Boolean>
+	Count: 1
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 3
+ 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<java.lang.String>
+	Count: 1
+ 
+/fop-core/src/test/java/org/apache/fop/fo/properties/PropertyMocks.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 5
+ 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<java.lang.String>
+	Count: 1
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 6
+ 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<java.lang.Integer>
+	Count: 1
+ 
+/fop-core/src/test/java/org/apache/fop/fo/properties/PropertyListMocks.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 4
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 9
+ 
+	Method name: anyInt
+	Class origin: org.mockito.ArgumentMatchers
+	Count: 1
+ 
+/fop-core/src/test/java/org/apache/fop/fonts/CIDFullTestCase.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<java.util.BitSet>
+	Count: 1
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 3
+ 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<char[]>
+	Count: 1
+ 
+/fop-core/src/test/java/org/apache/fop/fonts/FontSelectorTestCase.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 7
+ 
+/fop-core/src/test/java/org/apache/fop/fonts/CIDSubsetTestCase.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<java.util.BitSet>
+	Count: 1
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 2
+ 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<int[]>
+	Count: 1
+ 
+/fop-core/src/test/java/org/apache/fop/fonts/FontManagerTestCase.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 3
+ 
+/fop-core/src/test/java/org/apache/fop/fonts/truetype/OTFSubSetFileTestCase.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 3
+ 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<byte[]>
+	Count: 3
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 13
+ 
+/fop-core/src/test/java/org/apache/fop/fonts/type1/Type1SubsetFileTestCase.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<java.lang.Character>
+	Count: 4
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 11
+ 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<java.lang.String>
+	Count: 4
+ 
+/fop-core/src/test/java/org/apache/fop/fonts/type1/CharMetricsHandlerTestCase.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 5
+ 
+/fop-core/src/test/java/org/apache/fop/image/loader/batik/Graphics2DImagePainterImplTestCase.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 2
+ 
+/fop-core/src/test/java/org/apache/fop/layoutmgr/RetrieveTableMarkerLayoutManagerTestCase.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 7
+ 
+/fop-core/src/test/java/org/apache/fop/layoutmgr/RetrieveTableMarkerLayoutManagerMakerTestCase.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 2
+ 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<java.lang.Boolean>
+	Count: 2
+ 
+/fop-core/src/test/java/org/apache/fop/layoutmgr/PageSequenceLayoutManagerTestCase.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 12
+ 
+/fop-core/src/test/java/org/apache/fop/layoutmgr/table/TableContentLayoutManagerTestCase.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 5
+ 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<java.lang.Integer>
+	Count: 1
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 7
+ 
+/fop-core/src/test/java/org/apache/fop/layoutmgr/table/TableCellLayoutManagerTestCase.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 13
+ 
+/fop-core/src/test/java/org/apache/fop/layoutmgr/table/TableLayoutManagerTestCase.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 11
+ 
+/fop-core/src/test/java/org/apache/fop/pdf/PDFParentTreeTestCase.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 2
+ 
+/fop-core/src/test/java/org/apache/fop/pdf/PDFPagePieceTestCase.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 2
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 3
+ 
+/fop-core/src/test/java/org/apache/fop/pdf/PDFPageLabelsTestCase.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+/fop-core/src/test/java/org/apache/fop/pdf/PDFImageXObjectTestCase.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 4
+ 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<java.awt.image.RenderedImage>
+	Count: 2
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 4
+ 
+/fop-core/src/test/java/org/apache/fop/pdf/TableHeaderScopeTestCase.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 3
+ 
+	Method name: verify
+	Class origin: org.mockito.Mockito
+	Count: 3
+ 
+	Method name: any
+	Class origin: org.mockito.ArgumentMatchers
+	Count: 2
+ 
+	Method name: eq
+	Class origin: org.mockito.ArgumentMatchers
+	Count: 3
+ 
+	Method name: times
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+	Method name: never
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+/fop-core/src/test/java/org/apache/fop/render/AbstractPathOrientedRendererTestCase.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+/fop-core/src/test/java/org/apache/fop/render/afp/AFPRendererConfiguratorTestCase.java
+Methods Invoked: 
+	Method name: verify
+	Class origin: org.mockito.Mockito
+	Count: 18
+ 
+/fop-core/src/test/java/org/apache/fop/render/afp/AFPPainterTestCase.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 15
+ 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<java.lang.Integer>
+	Count: 2
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 19
+ 
+/fop-core/src/test/java/org/apache/fop/render/afp/AFPTrueTypeTestCase.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 4
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 8
+ 
+/fop-core/src/test/java/org/apache/fop/render/bitmap/AbstractBitmapRendererConfiguratorTest.java
+Methods Invoked: 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+/fop-core/src/test/java/org/apache/fop/render/extensions/DocumentNavigationHandlerTestCase.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 4
+ 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<java.lang.String>
+	Count: 13
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 13
+ 
+/fop-core/src/test/java/org/apache/fop/render/intermediate/IFSerializerTestCase.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 2
+ 
+/fop-core/src/test/java/org/apache/fop/render/intermediate/IFStructureTreeBuilderTestCase.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 3
+ 
+	Method name: inOrder
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+	Method name: verify
+	Class origin: org.mockito.InOrder
+	Count: 6
+ 
+/fop-core/src/test/java/org/apache/fop/render/intermediate/SAXEventRecorderTestCase.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 5
+ 
+	Method name: verify
+	Class origin: org.mockito.Mockito
+	Count: 4
+ 
+/fop-core/src/test/java/org/apache/fop/render/intermediate/AbstractIFPainterTestCase.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 4
+ 
+/fop-core/src/test/java/org/apache/fop/render/intermediate/ArcToBezierCurveTransformerTestCase.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+	Method name: forClass
+	Class origin: org.mockito.ArgumentCaptor
+	Count: 6
+ 
+/fop-core/src/test/java/org/apache/fop/render/intermediate/BorderPainterTestCase.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 4
+ 
+	Method name: when
+	Class origin: org.mockito.stubbing.Stubber
+	Count: 1
+ 
+	Method name: doThrow
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+/fop-core/src/test/java/org/apache/fop/render/java2d/Java2DUtilTestCase.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 8
+ 
+/fop-core/src/test/java/org/apache/fop/render/pcl/PCLRendererConfiguratorTestCase.java
+Methods Invoked: 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+/fop-core/src/test/java/org/apache/fop/render/pcl/fonts/PCLTTFFontReaderTestCase.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 3
+ 
+/fop-core/src/test/java/org/apache/fop/render/pcl/fonts/PCLFontReaderFactoryTestCase.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<java.io.InputStream>
+	Count: 2
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 4
+ 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<java.net.URI>
+	Count: 1
+ 
+/fop-core/src/test/java/org/apache/fop/render/pcl/fonts/truetype/PCLTTFCharacterWriterTestCase.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 2
+ 
+/fop-core/src/test/java/org/apache/fop/render/pdf/ImageRawPNGAdapterTestCase.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 22
+ 
+/fop-core/src/test/java/org/apache/fop/render/pdf/PDFGraphicsPainterTestCase.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+	Method name: verify
+	Class origin: org.mockito.Mockito
+	Count: 11
+ 
+/fop-core/src/test/java/org/apache/fop/render/pdf/ImageRenderedAdapterTestCase.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 12
+ 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<java.awt.image.RenderedImage>
+	Count: 3
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 15
+ 
+/fop-core/src/test/java/org/apache/fop/render/pdf/PDFPainterTestCase.java
+Methods Invoked: 
+	Method name: verify
+	Class origin: org.mockito.Mockito
+	Count: 4
+ 
+	Method name: times
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+	Method name: endsWith
+	Class origin: org.mockito.ArgumentMatchers
+	Count: 1
+ 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 6
+ 
+/fop-core/src/test/java/org/apache/fop/render/ps/ImageEncoderPNGTestCase.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 8
+ 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<java.lang.Integer>
+	Count: 4
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 14
+ 
+/fop-core/src/test/java/org/apache/fop/render/ps/PSRenderingUtilTestCase.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+	Method name: verify
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+/fop-core/src/test/java/org/apache/fop/render/ps/PSPainterTestCase.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 13
+ 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<java.util.Map>
+	Count: 1
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 15
+ 
+/fop-core/src/test/java/org/apache/fop/render/ps/PSRendererConfiguratorTestCase.java
+Methods Invoked: 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+/fop-core/src/test/java/org/apache/fop/render/ps/fonts/PSTTFGlyphOutputStreamTestCase.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+	Method name: verify
+	Class origin: org.mockito.Mockito
+	Count: 3
+ 
+/fop-core/src/test/java/org/apache/fop/render/ps/fonts/PSTTFTableOutputStreamTestCase.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+	Method name: inOrder
+	Class origin: org.mockito.Mockito
+	Count: 3
+ 
+	Method name: verify
+	Class origin: org.mockito.InOrder
+	Count: 12
+ 
+/fop-core/src/test/java/org/apache/fop/render/ps/fonts/PSTTFOutputStreamTestCase.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+	Method name: verify
+	Class origin: org.mockito.Mockito
+	Count: 2
+ 
+/fop-core/src/test/java/org/apache/fop/svg/font/KerningGlyphLayoutTestCase.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 3
+ 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<java.lang.Integer>
+	Count: 11
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 18
+ 
+	Method name: eq
+	Class origin: org.mockito.ArgumentMatchers
+	Count: 9
+ 
+/fop-core/src/test/java/org/apache/fop/svg/font/FOPGVTFontTestCase.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<java.lang.Boolean>
+	Count: 2
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 2
+ 
+	Method name: eq
+	Class origin: org.mockito.ArgumentMatchers
+	Count: 2
+ 
+/fop-core/src/test/java/org/apache/fop/svg/font/BasicGlyphVectorTestCase.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 3
+ 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<java.lang.Integer>
+	Count: 6
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 15
+ 
+	Method name: eq
+	Class origin: org.mockito.ArgumentMatchers
+	Count: 17
+ 

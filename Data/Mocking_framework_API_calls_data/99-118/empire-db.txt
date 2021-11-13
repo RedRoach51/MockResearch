@@ -1,0 +1,20 @@
+/empire-db-codegen/src/test/java/org/apache/empire/db/codegen/WriterServiceTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 3
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 6
+ 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<java.lang.String>
+	Count: 3
+ 
+/empire-db-codegen/src/test/java/org/apache/empire/db/codegen/util/DBUtilTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 3
+ 
