@@ -28,10 +28,10 @@ import java.util.Arrays;
 public class GetInfo extends AbstractHandler
 {
 
-  private static final File OUTPUT_DIRECTORY = new File("C:\\Users\\wx199\\mock-usage\\Data");
+  private static final File OUTPUT_DIRECTORY = new File("C:\\Users\\wchwe\\ResearchCode\\mock-results");
 
   // Project Repository Folder
-  private static final String PROJECT_REPOSITORY = "C:/Users/wx199/mock-usage/project-repository/";
+  private static final String PROJECT_REPOSITORY = "C:\\Users\\wchwe\\ResearchCode\\mockrepo";
 
   private static final String JDT_NATURE = "org.eclipse.jdt.core.javanature";
 
@@ -222,7 +222,7 @@ public class GetInfo extends AbstractHandler
 
     String target = "credur-whisker";
 
-    PrintWriter writer = new PrintWriter("D:\\Stevens\\2021 summer general\\Mocking framework API calls data\\"
+    PrintWriter writer = new PrintWriter("C:\\Users\\wchwe\\ResearchCode\\mock-results\\Mocking framework API calls data\\"
         + target + ".txt", "UTF-8");
 
     for (String x : invokedMethods) {
@@ -231,7 +231,7 @@ public class GetInfo extends AbstractHandler
 
     writer.close();
 
-    PrintWriter writer2 = new PrintWriter("D:\\Stevens\\2021 summer general\\RQ3\\RQ3 data\\" + target +
+    PrintWriter writer2 = new PrintWriter("C:\\Users\\wchwe\\ResearchCode\\mock-results\\RQ3 data\\" + target +
         "Mocked classes.txt", "UTF-8");
 
     for (String item : mockedClasses) {
