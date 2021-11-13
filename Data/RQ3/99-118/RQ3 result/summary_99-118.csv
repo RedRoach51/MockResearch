@@ -1,0 +1,16 @@
+project name, variety of inside mocked classes, variety of outside mocked classes, proportion of mocked classes
+empire-db,0,3,
+falcon,11,8,
+flink,213,52,
+flume,17,22,
+fluo-recipes,0,5,
+fluo,0,1,
+fop,101,23,
+freemarker,0,0,
+geode,0,0,
+geronimo,0,0,
+giraph,14,8,
+groovy,0,1,
+ 
+more inside classes mocked: ,more outside classes mocked: 
+4,5

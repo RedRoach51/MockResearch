@@ -1,0 +1,26 @@
+Inside classes: 
+ 
+org.apache.falcon.workflow.WorkflowJobEndNotificationService
+org.apache.falcon.metrics.MetricNotificationService
+org.apache.falcon.notification.service.impl.AlarmService
+org.apache.falcon.notification.service.impl.DataAvailabilityService
+org.apache.falcon.notification.service.impl.SchedulerService
+org.apache.falcon.notification.service.impl.JobCompletionService
+org.apache.falcon.execution.NotificationHandler
+org.apache.falcon.state.InstanceStateChangeHandler
+org.apache.falcon.execution.ProcessExecutionInstance
+org.apache.falcon.state.EntityStateChangeHandler
+org.apache.falcon.workflow.engine.OozieDAGEngine
+ 
+ 
+ 
+Outside classes: 
+ 
+java.lang.Process
+org.apache.hadoop.mapreduce.Job
+org.apache.hadoop.mapreduce.Cluster
+javax.servlet.ServletContext
+javax.servlet.http.HttpServletResponse
+javax.servlet.ServletRequest
+javax.servlet.ServletResponse
+com.thinkaurelius.titan.diskstorage.hbase.HBaseTransaction

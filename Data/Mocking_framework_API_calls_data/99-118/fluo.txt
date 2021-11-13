@@ -1,0 +1,18 @@
+/fluo-accumulo/src/test/java/org/apache/fluo/accumulo/iterators/TestIteratorEnv.java
+Methods Invoked: 
+	Method name: createMock
+	Class origin: org.easymock.EasyMock
+	Count: 1
+ 
+	Method name: expect
+	Class origin: org.easymock.EasyMock
+	Count: 2
+ 
+	Method name: anyTimes
+	Class origin: org.easymock.IExpectationSetters<java.lang.Boolean>
+	Count: 1
+ 
+	Method name: andReturn
+	Class origin: org.easymock.IExpectationSetters<java.lang.Boolean>
+	Count: 1
+ 

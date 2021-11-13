@@ -1,0 +1,650 @@
+/flume-dataset-sink/src/test/java/org/apache/flume/sink/kite/TestDatasetSink.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 10
+ 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<byte[]>
+	Count: 2
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 4
+ 
+/flume-file-channel/src/test/java/org/apache/flume/channel/file/TestLog.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<java.lang.Long>
+	Count: 2
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 2
+ 
+/flume-file-channel/src/test/java/org/apache/flume/channel/file/TestTransactionEventRecordV3.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<java.lang.Short>
+	Count: 1
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+/flume-file-channel/src/test/java/org/apache/flume/channel/file/TestTransactionEventRecordV2.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<java.lang.Short>
+	Count: 1
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+/flume-file-channel/src/test/java/org/apache/flume/channel/file/TestFileChannelErrorMetrics.java
+Methods Invoked: 
+	Method name: spy
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+	Method name: callRealMethod
+	Class origin: org.mockito.invocation.InvocationOnMock
+	Count: 1
+ 
+/flume-hdfs-sink/src/test/java/org/apache/flume/sink/hdfs/TestBucketWriter.java
+Methods Invoked: 
+	Method name: spy
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+	Method name: when
+	Class origin: org.mockito.stubbing.Stubber
+	Count: 1
+ 
+	Method name: doThrow
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+	Method name: any
+	Class origin: org.mockito.Matchers
+	Count: 1
+ 
+/flume-hdfs-sink/src/test/java/org/apache/flume/sink/hdfs/TestHDFSEventSink.java
+Methods Invoked: 
+	Method name: getInternalState
+	Class origin: org.mockito.internal.util.reflection.Whitebox
+	Count: 7
+ 
+/flume-hive-sink/src/test/java/org/apache/flume/sink/hive/TestHiveSink.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 2
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 2
+ 
+/flume-http-sink/src/test/java/org/apache/flume/sink/http/TestHttpSink.java
+Methods Invoked: 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<java.lang.Integer>
+	Count: 13
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 43
+ 
+	Method name: eq
+	Class origin: org.mockito.Matchers
+	Count: 12
+ 
+	Method name: anyInt
+	Class origin: org.mockito.Matchers
+	Count: 10
+ 
+/flume-http-sink/src/test/java/org/apache/flume/sink/http/TestHttpSinkIT.java
+Methods Invoked: 
+	Method name: port
+	Class origin: com.github.tomakehurst.wiremock.core.WireMockConfiguration
+	Count: 1
+ 
+	Method name: wireMockConfig
+	Class origin: com.github.tomakehurst.wiremock.core.WireMockConfiguration
+	Count: 1
+ 
+	Method name: stubFor
+	Class origin: com.github.tomakehurst.wiremock.WireMockServer
+	Count: 11
+ 
+	Method name: willReturn
+	Class origin: com.github.tomakehurst.wiremock.client.MappingBuilder
+	Count: 11
+ 
+	Method name: withRequestBody
+	Class origin: com.github.tomakehurst.wiremock.client.MappingBuilder
+	Count: 11
+ 
+	Method name: post
+	Class origin: com.github.tomakehurst.wiremock.client.WireMock
+	Count: 11
+ 
+	Method name: urlEqualTo
+	Class origin: com.github.tomakehurst.wiremock.client.WireMock
+	Count: 19
+ 
+	Method name: equalToJson
+	Class origin: com.github.tomakehurst.wiremock.client.WireMock
+	Count: 19
+ 
+	Method name: withStatus
+	Class origin: com.github.tomakehurst.wiremock.client.ResponseDefinitionBuilder
+	Count: 10
+ 
+	Method name: aResponse
+	Class origin: com.github.tomakehurst.wiremock.client.WireMock
+	Count: 11
+ 
+	Method name: verify
+	Class origin: com.github.tomakehurst.wiremock.WireMockServer
+	Count: 8
+ 
+	Method name: withRequestBody
+	Class origin: com.github.tomakehurst.wiremock.client.RequestPatternBuilder
+	Count: 8
+ 
+	Method name: postRequestedFor
+	Class origin: com.github.tomakehurst.wiremock.client.WireMock
+	Count: 8
+ 
+/flume-jms-source/src/test/java/org/apache/flume/source/jms/TestJMSMessageConsumer.java
+Methods Invoked: 
+	Method name: thenThrow
+	Class origin: org.mockito.stubbing.OngoingStubbing<javax.jms.Connection>
+	Count: 2
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 18
+ 
+	Method name: thenThrow
+	Class origin: org.mockito.stubbing.OngoingStubbing<javax.jms.Session>
+	Count: 1
+ 
+/flume-jms-source/src/test/java/org/apache/flume/source/jms/TestDefaultJMSMessageConverter.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 4
+ 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<java.lang.String>
+	Count: 2
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 9
+ 
+/flume-jms-source/src/test/java/org/apache/flume/source/jms/TestIntegrationActiveMQ.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+	Method name: when
+	Class origin: org.mockito.stubbing.Stubber
+	Count: 1
+ 
+	Method name: doAnswer
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+	Method name: getArguments
+	Class origin: org.mockito.invocation.InvocationOnMock
+	Count: 1
+ 
+	Method name: any
+	Class origin: org.mockito.Matchers
+	Count: 1
+ 
+/flume-jms-source/src/test/java/org/apache/flume/source/jms/TestJMSSource.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 3
+ 
+/flume-jms-source/src/test/java/org/apache/flume/source/jms/JMSMessageConsumerTestBase.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 7
+ 
+/flume-kafka-channel/src/test/java/org/apache/flume/channel/kafka/TestBasicFunctionality.java
+Methods Invoked: 
+	Method name: getInternalState
+	Class origin: org.mockito.internal.util.reflection.Whitebox
+	Count: 1
+ 
+/flume-kafka-source/src/test/java/org/apache/flume/source/kafka/TestKafkaSource.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 3
+ 
+	Method name: when
+	Class origin: org.mockito.stubbing.Stubber
+	Count: 3
+ 
+	Method name: doThrow
+	Class origin: org.mockito.stubbing.Stubber
+	Count: 1
+ 
+	Method name: doThrow
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+	Method name: any
+	Class origin: org.mockito.Matchers
+	Count: 3
+ 
+	Method name: getInternalState
+	Class origin: org.mockito.internal.util.reflection.Whitebox
+	Count: 1
+ 
+/flume-ng-core/src/test/java/org/apache/flume/channel/TestChannelProcessor.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 2
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 2
+ 
+/flume-ng-core/src/test/java/org/apache/flume/formatter/output/TestBucketPath.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<java.lang.Long>
+	Count: 1
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+/flume-ng-core/src/test/java/org/apache/flume/sink/TestAvroSink.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 2
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 2
+ 
+/flume-ng-core/src/test/java/org/apache/flume/sink/TestRollingFileSink.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 2
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 2
+ 
+/flume-ng-core/src/test/java/org/apache/flume/source/TestThriftSource.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+	Method name: when
+	Class origin: org.mockito.stubbing.Stubber
+	Count: 2
+ 
+	Method name: doThrow
+	Class origin: org.mockito.Mockito
+	Count: 2
+ 
+	Method name: any
+	Class origin: org.mockito.Matchers
+	Count: 1
+ 
+/flume-ng-core/src/test/java/org/apache/flume/source/TestAvroSource.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+	Method name: when
+	Class origin: org.mockito.stubbing.Stubber
+	Count: 2
+ 
+	Method name: doThrow
+	Class origin: org.mockito.Mockito
+	Count: 2
+ 
+	Method name: any
+	Class origin: org.mockito.Matchers
+	Count: 1
+ 
+/flume-ng-core/src/test/java/org/apache/flume/source/TestSyslogTcpSource.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+	Method name: when
+	Class origin: org.mockito.stubbing.Stubber
+	Count: 1
+ 
+	Method name: doThrow
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+	Method name: any
+	Class origin: org.mockito.Matchers
+	Count: 1
+ 
+/flume-ng-core/src/test/java/org/apache/flume/source/TestMultiportSyslogTCPSource.java
+Methods Invoked: 
+	Method name: getInternalState
+	Class origin: org.mockito.internal.util.reflection.Whitebox
+	Count: 4
+ 
+/flume-ng-core/src/test/java/org/apache/flume/source/TestStressSource.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+	Method name: verify
+	Class origin: org.mockito.Mockito
+	Count: 5
+ 
+	Method name: times
+	Class origin: org.mockito.Mockito
+	Count: 5
+ 
+/flume-ng-core/src/test/java/org/apache/flume/source/TestSpoolDirectorySource.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 6
+ 
+	Method name: when
+	Class origin: org.mockito.stubbing.Stubber
+	Count: 3
+ 
+	Method name: doThrow
+	Class origin: org.mockito.stubbing.Stubber
+	Count: 4
+ 
+/flume-ng-core/src/test/java/org/apache/flume/source/TestAbstractPollableSource.java
+Methods Invoked: 
+	Method name: spy
+	Class origin: org.mockito.Mockito
+	Count: 3
+ 
+/flume-ng-core/src/test/java/org/apache/flume/source/TestSequenceGeneratorSource.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 3
+ 
+/flume-ng-core/src/test/java/org/apache/flume/source/TestBasicSourceSemantics.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+	Method name: spy
+	Class origin: org.mockito.Mockito
+	Count: 2
+ 
+/flume-ng-core/src/test/java/org/apache/flume/source/TestSyslogUdpSource.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 2
+ 
+	Method name: when
+	Class origin: org.mockito.stubbing.Stubber
+	Count: 2
+ 
+	Method name: doThrow
+	Class origin: org.mockito.Mockito
+	Count: 2
+ 
+	Method name: any
+	Class origin: org.mockito.Matchers
+	Count: 2
+ 
+/flume-ng-core/src/test/java/org/apache/flume/source/http/TestHTTPSource.java
+Methods Invoked: 
+	Method name: getInternalState
+	Class origin: org.mockito.internal.util.reflection.Whitebox
+	Count: 5
+ 
+/flume-ng-core/src/test/java/org/apache/flume/source/http/TestBLOBHandler.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 6
+ 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<javax.servlet.ServletInputStream>
+	Count: 3
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 9
+ 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<java.util.Map<java.lang.String,java.lang.String[]>>
+	Count: 3
+ 
+/flume-ng-elasticsearch-sink/src/test/java/org/apache/flume/sink/elasticsearch/client/TestElasticSearchTransportClient.java
+Methods Invoked: 
+	Method name: initMocks
+	Class origin: org.mockito.MockitoAnnotations
+	Count: 1
+ 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 6
+ 
+/flume-ng-elasticsearch-sink/src/test/java/org/apache/flume/sink/elasticsearch/client/TestElasticSearchClientFactory.java
+Methods Invoked: 
+	Method name: initMocks
+	Class origin: org.mockito.MockitoAnnotations
+	Count: 1
+ 
+/flume-ng-elasticsearch-sink/src/test/java/org/apache/flume/sink/elasticsearch/client/TestElasticSearchRestClient.java
+Methods Invoked: 
+	Method name: initMocks
+	Class origin: org.mockito.MockitoAnnotations
+	Count: 1
+ 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 2
+ 
+/flume-ng-embedded-agent/src/test/java/org/apache/flume/agent/embedded/TestEmbeddedAgentEmbeddedSource.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 4
+ 
+/flume-ng-hbase-sink/src/test/java/org/apache/flume/sink/hbase/TestHBaseSink.java
+Methods Invoked: 
+	Method name: spy
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+	Method name: when
+	Class origin: org.mockito.stubbing.Stubber
+	Count: 2
+ 
+	Method name: doThrow
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+/flume-ng-hbase-sink/src/test/java/org/apache/flume/sink/hbase/TestRegexHbaseEventSerializer.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<java.lang.Long>
+	Count: 3
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 3
+ 
+/flume-ng-hbase2-sink/src/test/java/org/apache/flume/sink/hbase2/TestHBase2Sink.java
+Methods Invoked: 
+	Method name: spy
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+	Method name: when
+	Class origin: org.mockito.stubbing.Stubber
+	Count: 4
+ 
+	Method name: doThrow
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+	Method name: getInternalState
+	Class origin: org.mockito.internal.util.reflection.Whitebox
+	Count: 2
+ 
+/flume-ng-hbase2-sink/src/test/java/org/apache/flume/sink/hbase2/TestRegexHBase2EventSerializer.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<java.lang.Long>
+	Count: 3
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 3
+ 
+/flume-ng-kafka-sink/src/test/java/org/apache/flume/sink/kafka/TestKafkaSink.java
+Methods Invoked: 
+	Method name: getInternalState
+	Class origin: org.mockito.internal.util.reflection.Whitebox
+	Count: 1
+ 
+/flume-ng-log4jappender/src/test/java/org/apache/flume/clients/log4jappender/TestLog4jAppender.java
+Methods Invoked: 
+	Method name: spy
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+	Method name: verify
+	Class origin: org.mockito.Mockito
+	Count: 8
+ 
+	Method name: times
+	Class origin: org.mockito.Mockito
+	Count: 8
+ 
+	Method name: anyList
+	Class origin: org.mockito.Matchers
+	Count: 4
+ 
+/flume-ng-morphline-solr-sink/src/test/java/org/apache/flume/sink/solr/morphline/TestMorphlineSolrSink.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 2
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 2
+ 
+/flume-ng-node/src/test/java/org/apache/flume/node/TestApplication.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 2
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 3
+ 
+	Method name: when
+	Class origin: org.mockito.stubbing.Stubber
+	Count: 3
+ 
+	Method name: doAnswer
+	Class origin: org.mockito.Mockito
+	Count: 3
+ 
+/flume-scribe-source/src/test/java/org/apache/flume/source/scribe/TestScribeSource.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+	Method name: when
+	Class origin: org.mockito.stubbing.Stubber
+	Count: 1
+ 
+	Method name: doThrow
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+	Method name: anyListOf
+	Class origin: org.mockito.Matchers
+	Count: 1
+ 
+	Method name: getInternalState
+	Class origin: org.mockito.internal.util.reflection.Whitebox
+	Count: 1
+ 
+/flume-taildir-source/src/test/java/org/apache/flume/source/taildir/TestTaildirSource.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 3
+ 
+	Method name: setInternalState
+	Class origin: org.mockito.internal.util.reflection.Whitebox
+	Count: 4
+ 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<java.util.List<java.lang.Long>>
+	Count: 1
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 3
+ 

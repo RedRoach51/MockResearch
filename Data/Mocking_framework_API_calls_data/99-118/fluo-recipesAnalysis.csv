@@ -1,0 +1,8 @@
+method, origin, count
+mock,org.easymock.EasyMock,6
+expect,org.easymock.EasyMock,13
+replay,org.easymock.EasyMock,10
+
+MockedObjects: ,6
+
+# of Mocked objects each file:,6|

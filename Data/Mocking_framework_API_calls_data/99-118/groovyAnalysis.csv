@@ -1,0 +1,17 @@
+method, origin, count
+getText,org.codehaus.groovy.tools.groovydoc.MockOutputTool,63
+getName,java.lang.Class<groovy.jmx.builder.MockManagedObject>,1
+mock,org.jmock.MockObjectTestCase,1
+will,org.jmock.builder.StubBuilder,1
+with,org.jmock.builder.ArgumentsMatchBuilder,1
+method,org.jmock.builder.NameMatchBuilder,1
+expects,org.jmock.Mock,1
+once,org.jmock.MockObjectTestCase,1
+eq,org.jmock.core.MockObjectSupportTestCase,1
+returnValue,org.jmock.MockObjectTestCase,1
+proxy,org.jmock.Mock,1
+make,groovy.mock.interceptor.MockProxyMetaClass,1
+
+MockedObjects: ,1
+
+# of Mocked objects each file:,1|

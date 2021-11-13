@@ -1,0 +1,29 @@
+Inside classes: 
+ 
+org.apache.giraph.comm.netty.handler.SaslServerHandler.Factory
+org.apache.giraph.comm.netty.handler.SaslServerHandler
+org.apache.giraph.bsp.CentralizedServiceWorker
+org.apache.giraph.partition.PartitionStore
+org.apache.giraph.partition.Partition
+org.apache.giraph.graph.Vertex
+org.apache.giraph.edge.Edge
+org.apache.giraph.comm.WorkerServer
+org.apache.giraph.graph.GraphTaskManager
+org.apache.giraph.partition.PartitionOwner
+org.apache.giraph.graph.GraphState
+org.apache.giraph.comm.WorkerClientRequestProcessor
+org.apache.giraph.time.Time
+org.apache.giraph.worker.WorkerInfo
+ 
+ 
+ 
+Outside classes: 
+ 
+org.apache.hadoop.mapreduce.Mapper.Context
+org.apache.hadoop.mapreduce.Counter
+org.apache.hadoop.mapreduce.TaskAttemptContext
+org.apache.hadoop.mapreduce.RecordWriter
+org.apache.hadoop.mapreduce.RecordReader
+org.apache.hadoop.conf.Configuration
+com.google.common.hash.PrimitiveSink
+org.apache.hadoop.mapreduce.InputSplit

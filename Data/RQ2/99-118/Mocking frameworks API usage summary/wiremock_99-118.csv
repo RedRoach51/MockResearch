@@ -1,0 +1,18 @@
+method, origin, count
+notifier,com.github.tomakehurst.wiremock.core.WireMockConfiguration,1
+dynamicPort,com.github.tomakehurst.wiremock.core.WireMockConfiguration,1
+wireMockConfig,com.github.tomakehurst.wiremock.core.WireMockConfiguration,2
+stubFor,com.github.tomakehurst.wiremock.client.WireMock,12
+willReturn,com.github.tomakehurst.wiremock.client.MappingBuilder,12
+post,com.github.tomakehurst.wiremock.client.WireMock,12
+urlPathEqualTo,com.github.tomakehurst.wiremock.client.WireMock,2
+withStatus,com.github.tomakehurst.wiremock.client.ResponseDefinitionBuilder,11
+aResponse,com.github.tomakehurst.wiremock.client.WireMock,12
+withRequestBody,com.github.tomakehurst.wiremock.matching.RequestPatternBuilder,20
+withHeader,com.github.tomakehurst.wiremock.matching.RequestPatternBuilder,1
+withQueryParam,com.github.tomakehurst.wiremock.matching.RequestPatternBuilder,3
+port,com.github.tomakehurst.wiremock.core.WireMockConfiguration,1
+urlEqualTo,com.github.tomakehurst.wiremock.client.WireMock,19
+equalToJson,com.github.tomakehurst.wiremock.client.WireMock,19
+verify,com.github.tomakehurst.wiremock.WireMockServer,21
+postRequestedFor,com.github.tomakehurst.wiremock.client.WireMock,8

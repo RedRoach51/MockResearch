@@ -1,0 +1,12 @@
+Inside classes: 
+ 
+ 
+ 
+ 
+Outside classes: 
+ 
+org.apache.fluo.api.client.Transaction
+org.apache.fluo.api.client.scanner.ScannerBuilder
+org.apache.fluo.api.client.scanner.ColumnScanner
+org.apache.fluo.api.client.scanner.RowScanner
+org.apache.fluo.api.client.scanner.RowScannerBuilder

@@ -1,0 +1,8 @@
+Inside classes: 
+ 
+ 
+ 
+ 
+Outside classes: 
+ 
+org.apache.accumulo.core.iterators.IteratorEnvironment

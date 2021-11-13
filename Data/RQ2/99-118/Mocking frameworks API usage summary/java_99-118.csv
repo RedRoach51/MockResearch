@@ -1,0 +1,5 @@
+method, origin, count
+containsKey,java.util.Map<io.fabric8.mockwebserver.ServerRequest|java.util.Queue<io.fabric8.mockwebserver.ServerResponse>>,2
+get,java.util.Map<io.fabric8.mockwebserver.ServerRequest|java.util.Queue<io.fabric8.mockwebserver.ServerResponse>>,4
+peek,java.util.Queue<io.fabric8.mockwebserver.ServerResponse>,2
+getName,java.lang.Class<groovy.jmx.builder.MockManagedObject>,1

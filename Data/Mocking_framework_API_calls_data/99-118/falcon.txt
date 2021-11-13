@@ -1,0 +1,354 @@
+/falcon-common/src/test/java/org/apache/falcon/entity/parser/FeedEntityParserTest.java
+Methods Invoked: 
+	Method name: spy
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+	Method name: when
+	Class origin: org.mockito.stubbing.Stubber
+	Count: 1
+ 
+	Method name: doNothing
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+/falcon-common/src/test/java/org/apache/falcon/entity/parser/ProcessEntityParserTest.java
+Methods Invoked: 
+	Method name: spy
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+	Method name: when
+	Class origin: org.mockito.stubbing.Stubber
+	Count: 1
+ 
+	Method name: doNothing
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+/falcon-common/src/test/java/org/apache/falcon/entity/parser/ClusterEntityParserTest.java
+Methods Invoked: 
+	Method name: spy
+	Class origin: org.mockito.Mockito
+	Count: 7
+ 
+	Method name: when
+	Class origin: org.mockito.stubbing.Stubber
+	Count: 23
+ 
+	Method name: doNothing
+	Class origin: org.mockito.Mockito
+	Count: 23
+ 
+/falcon-common/src/test/java/org/apache/falcon/security/AuthenticationInitializationServiceTest.java
+Methods Invoked: 
+	Method name: initMocks
+	Class origin: org.mockito.MockitoAnnotations
+	Count: 1
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 3
+ 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<java.lang.String>
+	Count: 1
+ 
+/falcon-common/src/test/java/org/apache/falcon/security/SecurityUtilTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 2
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 2
+ 
+/falcon-messaging/src/test/java/org/apache/falcon/messaging/JMSMessageConsumerTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+	Method name: verify
+	Class origin: org.mockito.Mockito
+	Count: 14
+ 
+	Method name: times
+	Class origin: org.mockito.Mockito
+	Count: 3
+ 
+	Method name: any
+	Class origin: org.mockito.Matchers
+	Count: 14
+ 
+/falcon-oozie-adaptor/src/test/java/org/apache/falcon/oozie/logging/TaskLogRetrieverYarnTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 2
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 4
+ 
+/falcon-oozie-el-extension/src/test/java/org/apache/oozie/extensions/TestOozieELExtensions.java
+Methods Invoked: 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 2
+ 
+	Method name: argThat
+	Class origin: org.mockito.Matchers
+	Count: 1
+ 
+	Method name: any
+	Class origin: org.mockito.Matchers
+	Count: 1
+ 
+	Method name: matches
+	Class origin: org.mockito.Matchers
+	Count: 1
+ 
+/falcon-prism/src/test/java/org/apache/falcon/resource/EntityManagerTest.java
+Methods Invoked: 
+	Method name: initMocks
+	Class origin: org.mockito.MockitoAnnotations
+	Count: 1
+ 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<javax.servlet.ServletInputStream>
+	Count: 3
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 3
+ 
+/falcon-prism/src/test/java/org/apache/falcon/security/FalconAuditFilterTest.java
+Methods Invoked: 
+	Method name: initMocks
+	Class origin: org.mockito.MockitoAnnotations
+	Count: 1
+ 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<java.lang.String>
+	Count: 14
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 14
+ 
+/falcon-prism/src/test/java/org/apache/falcon/security/ClientCertificateFilterTest.java
+Methods Invoked: 
+	Method name: initMocks
+	Class origin: org.mockito.MockitoAnnotations
+	Count: 1
+ 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<java.lang.Object>
+	Count: 5
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 5
+ 
+	Method name: verify
+	Class origin: org.mockito.Mockito
+	Count: 3
+ 
+/falcon-prism/src/test/java/org/apache/falcon/security/FalconAuthorizationFilterTest.java
+Methods Invoked: 
+	Method name: initMocks
+	Class origin: org.mockito.MockitoAnnotations
+	Count: 1
+ 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<java.lang.StringBuffer>
+	Count: 5
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 18
+ 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<java.lang.String>
+	Count: 12
+ 
+/falcon-prism/src/test/java/org/apache/falcon/security/FalconCSRFFilterTest.java
+Methods Invoked: 
+	Method name: initMocks
+	Class origin: org.mockito.MockitoAnnotations
+	Count: 1
+ 
+	Method name: verify
+	Class origin: org.mockito.Mockito
+	Count: 5
+ 
+	Method name: never
+	Class origin: org.mockito.Mockito
+	Count: 4
+ 
+/falcon-prism/src/test/java/org/apache/falcon/security/FalconAuthenticationFilterTest.java
+Methods Invoked: 
+	Method name: initMocks
+	Class origin: org.mockito.MockitoAnnotations
+	Count: 1
+ 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 2
+ 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<java.util.Enumeration>
+	Count: 1
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 31
+ 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<javax.servlet.ServletContext>
+	Count: 1
+ 
+/falcon-prism/src/test/java/org/apache/falcon/security/HostnameFilterTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 4
+ 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<java.lang.String>
+	Count: 2
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 2
+ 
+/falcon-prism/src/test/java/org/apache/falcon/service/BacklogMetricEmitterServiceTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<java.lang.String>
+	Count: 1
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+	Method name: forClass
+	Class origin: org.mockito.ArgumentCaptor
+	Count: 2
+ 
+/falcon-rerun/src/test/java/org/apache/falcon/rerun/handler/TestLateData.java
+Methods Invoked: 
+	Method name: initMocks
+	Class origin: org.mockito.MockitoAnnotations
+	Count: 1
+ 
+/falcon-scheduler/src/test/java/org/apache/falcon/execution/FalconExecutionServiceTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 4
+ 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<java.lang.String>
+	Count: 4
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 9
+ 
+/falcon-scheduler/src/test/java/org/apache/falcon/notification/service/AlarmServiceTest.java
+Methods Invoked: 
+	Method name: spy
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+	Method name: verify
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+	Method name: atLeast
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+	Method name: any
+	Class origin: org.mockito.Matchers
+	Count: 1
+ 
+/falcon-scheduler/src/test/java/org/apache/falcon/notification/service/SchedulerServiceTest.java
+Methods Invoked: 
+	Method name: spy
+	Class origin: org.mockito.Mockito
+	Count: 2
+ 
+/falcon-scheduler/src/test/java/org/apache/falcon/notification/service/DataAvailabilityServiceTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+	Method name: spy
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+	Method name: verify
+	Class origin: org.mockito.Mockito
+	Count: 6
+ 
+	Method name: times
+	Class origin: org.mockito.Mockito
+	Count: 5
+ 
+	Method name: any
+	Class origin: org.mockito.Matchers
+	Count: 2
+ 
+	Method name: forClass
+	Class origin: org.mockito.ArgumentCaptor
+	Count: 1
+ 
+/falcon-scheduler/src/test/java/org/apache/falcon/state/InstanceStateServiceTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 2
+ 
+/falcon-scheduler/src/test/java/org/apache/falcon/state/EntityStateServiceTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+	Method name: verify
+	Class origin: org.mockito.Mockito
+	Count: 4
+ 
+/falcon-scheduler/src/test/java/org/apache/falcon/state/service/store/TestJDBCStateStore.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 5
+ 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<java.lang.String>
+	Count: 4
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 8
+ 
+/falcon-titan/src/test/java/com/thinkaurelius/titan/diskstorage/locking/LocalLockMediatorTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 2
+ 
