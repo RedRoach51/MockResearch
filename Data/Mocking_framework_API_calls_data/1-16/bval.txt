@@ -1,0 +1,8 @@
+	Method name: thenAnswer
+	Class origin: org.mockito.stubbing.OngoingStubbing<java.lang.String>
+	Count: 3
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 6
+ 

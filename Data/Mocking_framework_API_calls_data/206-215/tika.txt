@@ -1,0 +1,20 @@
+/tika-age-recogniser/src/test/java/org/apache/tika/parser/recognition/AgeRecogniserTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<java.lang.Double>
+	Count: 1
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+/tika-pipes-iterator-csv/src/test/java/TestCSVPipesIterator.java
+Methods Invoked: 
+	Method name: add
+	Class origin: java.util.List<TestCSVPipesIterator.MockFetcher>
+	Count: 1
+ 

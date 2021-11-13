@@ -1,0 +1,26 @@
+method, origin, count
+setAsyncSupported,org.springframework.mock.web.MockHttpServletRequest,2
+getAsyncContext,org.springframework.mock.web.MockHttpServletRequest,2
+addDispatchHandler,org.springframework.mock.web.MockAsyncContext,2
+complete,org.springframework.mock.web.MockAsyncContext,2
+activate,org.springframework.mock.jndi.SimpleNamingContextBuilder,1
+bind,org.springframework.mock.jndi.SimpleNamingContextBuilder,1
+setContent,org.springframework.mock.web.MockHttpServletRequest,4
+setContentType,org.springframework.mock.web.MockHttpServletRequest,10
+getStatus,org.springframework.mock.web.MockHttpServletResponse,41
+addHeader,org.springframework.mock.web.MockHttpServletRequest,30
+setCharacterEncoding,org.springframework.mock.web.MockHttpServletRequest,1
+getCharacterEncoding,org.springframework.mock.web.MockHttpServletRequest,2
+setRequestURI,org.springframework.mock.web.MockHttpServletRequest,44
+getContentAsString,org.springframework.mock.web.MockHttpServletResponse,52
+getContentLength,org.springframework.mock.web.MockHttpServletResponse,14
+setContextPath,org.springframework.mock.web.MockHttpServletRequest,7
+getHeader,org.springframework.mock.web.MockHttpServletResponse,21
+setCookies,org.springframework.mock.web.MockHttpServletRequest,10
+removeHeader,org.springframework.mock.web.MockHttpServletRequest,5
+getSession,org.springframework.mock.web.MockHttpServletRequest,2
+getContentType,org.springframework.mock.web.MockHttpServletResponse,13
+setParameter,org.springframework.mock.web.MockHttpServletRequest,8
+setAttribute,org.springframework.mock.web.MockServletContext,2
+setInitParameter,org.springframework.mock.web.MockServletContext,7
+setServletPath,org.springframework.mock.web.MockHttpServletRequest,23

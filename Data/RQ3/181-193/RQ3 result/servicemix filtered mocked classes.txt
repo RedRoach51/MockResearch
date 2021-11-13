@@ -1,0 +1,8 @@
+Inside classes: 
+ 
+ 
+ 
+ 
+Outside classes: 
+ 
+org.activiti.engine.impl.javax.el.ELContext

@@ -1,0 +1,23 @@
+Inside classes: 
+ 
+ 
+ 
+ 
+Outside classes: 
+ 
+java.awt.color.ColorSpace
+org.apache.xmlgraphics.image.codec.tiff.TIFFEncodeParam
+java.awt.image.RenderedImage
+org.apache.xmlgraphics.image.loader.ImageSource
+org.apache.xmlgraphics.image.loader.ImageContext
+java.io.InputStream
+java.io.Reader
+javax.xml.transform.stream.StreamSource
+javax.xml.transform.sax.SAXSource
+org.xml.sax.InputSource
+javax.imageio.stream.ImageInputStream
+javax.xml.transform.Source
+org.apache.xmlgraphics.ps.PSGenerator
+java.awt.image.BufferedImage
+java.awt.image.WritableRaster
+java.awt.image.DataBuffer

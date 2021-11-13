@@ -1,0 +1,9 @@
+Inside classes: 
+ 
+ 
+ 
+ 
+Outside classes: 
+ 
+T
+javax.servlet.http.HttpServletRequest

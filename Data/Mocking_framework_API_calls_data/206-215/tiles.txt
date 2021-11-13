@@ -1,0 +1,618 @@
+/tiles-api/src/test/java/org/apache/tiles/AttributeTest.java
+Methods Invoked: 
+	Method name: createMock
+	Class origin: org.easymock.EasyMock
+	Count: 1
+ 
+	Method name: anyTimes
+	Class origin: org.easymock.IExpectationSetters<java.lang.Boolean>
+	Count: 2
+ 
+	Method name: andReturn
+	Class origin: org.easymock.IExpectationSetters<java.lang.Boolean>
+	Count: 2
+ 
+	Method name: expect
+	Class origin: org.easymock.EasyMock
+	Count: 2
+ 
+/tiles-api/src/test/java/org/apache/tiles/BasicAttributeContextTest.java
+Methods Invoked: 
+	Method name: createMock
+	Class origin: org.easymock.EasyMock
+	Count: 3
+ 
+	Method name: andReturn
+	Class origin: org.easymock.IExpectationSetters<java.util.Set<java.lang.String>>
+	Count: 6
+ 
+	Method name: expect
+	Class origin: org.easymock.EasyMock
+	Count: 22
+ 
+/tiles-api/src/test/java/org/apache/tiles/TilesContainerWrapperTest.java
+Methods Invoked: 
+	Method name: createMock
+	Class origin: org.easymock.EasyMock
+	Count: 19
+ 
+	Method name: replay
+	Class origin: org.easymock.EasyMock
+	Count: 13
+ 
+	Method name: verify
+	Class origin: org.easymock.EasyMock
+	Count: 13
+ 
+/tiles-api/src/test/java/org/apache/tiles/access/TilesAccessTest.java
+Methods Invoked: 
+	Method name: createMock
+	Class origin: org.easymock.EasyMock
+	Count: 24
+ 
+/tiles-compat/src/test/java/org/apache/tiles/compat/preparer/UrlPreparerTest.java
+Methods Invoked: 
+	Method name: createMock
+	Class origin: org.easymock.EasyMock
+	Count: 4
+ 
+/tiles-core/src/test/java/org/apache/tiles/context/TilesRequestContextHolderTest.java
+Methods Invoked: 
+	Method name: createMock
+	Class origin: org.easymock.EasyMock
+	Count: 1
+ 
+	Method name: replay
+	Class origin: org.easymock.EasyMock
+	Count: 1
+ 
+	Method name: verify
+	Class origin: org.easymock.EasyMock
+	Count: 1
+ 
+/tiles-core/src/test/java/org/apache/tiles/definition/LocaleDefinitionsFactoryTest.java
+Methods Invoked: 
+	Method name: createMock
+	Class origin: org.easymock.EasyMock
+	Count: 6
+ 
+/tiles-core/src/test/java/org/apache/tiles/definition/UnresolvingLocaleDefinitionsFactoryTest.java
+Methods Invoked: 
+	Method name: createMock
+	Class origin: org.easymock.EasyMock
+	Count: 4
+ 
+/tiles-core/src/test/java/org/apache/tiles/definition/dao/ResolvingLocaleUrlDefinitionDAOTest.java
+Methods Invoked: 
+	Method name: expect
+	Class origin: org.easymock.EasyMock
+	Count: 4
+ 
+/tiles-core/src/test/java/org/apache/tiles/definition/dao/CachingLocaleUrlDefinitionDAOTest.java
+Methods Invoked: 
+	Method name: expect
+	Class origin: org.easymock.EasyMock
+	Count: 4
+ 
+/tiles-core/src/test/java/org/apache/tiles/definition/dao/LocaleUrlDefinitionDAOTest.java
+Methods Invoked: 
+	Method name: expect
+	Class origin: org.easymock.EasyMock
+	Count: 4
+ 
+/tiles-core/src/test/java/org/apache/tiles/definition/dao/BaseLocaleUrlDefinitionDAOTest.java
+Methods Invoked: 
+	Method name: createMock
+	Class origin: org.easymock.EasyMock
+	Count: 3
+ 
+	Method name: expect
+	Class origin: org.easymock.EasyMock
+	Count: 4
+ 
+	Method name: replay
+	Class origin: org.easymock.EasyMock
+	Count: 5
+ 
+	Method name: createMockBuilder
+	Class origin: org.easymock.classextension.EasyMock
+	Count: 1
+ 
+/tiles-core/src/test/java/org/apache/tiles/definition/pattern/BasicPatternDefinitionResolverTest.java
+Methods Invoked: 
+	Method name: createMock
+	Class origin: org.easymock.EasyMock
+	Count: 4
+ 
+/tiles-core/src/test/java/org/apache/tiles/definition/pattern/PrefixedPatternDefinitionResolverTest.java
+Methods Invoked: 
+	Method name: createMock
+	Class origin: org.easymock.EasyMock
+	Count: 4
+ 
+/tiles-core/src/test/java/org/apache/tiles/definition/pattern/AbstractPatternDefinitionResolverTest.java
+Methods Invoked: 
+	Method name: createMock
+	Class origin: org.easymock.EasyMock
+	Count: 2
+ 
+/tiles-core/src/test/java/org/apache/tiles/evaluator/BasicAttributeEvaluatorFactoryTest.java
+Methods Invoked: 
+	Method name: createMock
+	Class origin: org.easymock.EasyMock
+	Count: 6
+ 
+/tiles-core/src/test/java/org/apache/tiles/factory/BasicTilesContainerFactoryTest.java
+Methods Invoked: 
+	Method name: createMock
+	Class origin: org.easymock.EasyMock
+	Count: 16
+ 
+	Method name: expect
+	Class origin: org.easymock.EasyMock
+	Count: 4
+ 
+	Method name: replay
+	Class origin: org.easymock.EasyMock
+	Count: 5
+ 
+/tiles-core/src/test/java/org/apache/tiles/impl/BasicTilesContainerTest.java
+Methods Invoked: 
+	Method name: createMock
+	Class origin: org.easymock.EasyMock
+	Count: 5
+ 
+	Method name: expect
+	Class origin: org.easymock.EasyMock
+	Count: 4
+ 
+	Method name: replay
+	Class origin: org.easymock.EasyMock
+	Count: 5
+ 
+/tiles-core/src/test/java/org/apache/tiles/impl/BasicTilesContainerUnitTest.java
+Methods Invoked: 
+	Method name: createMock
+	Class origin: org.easymock.EasyMock
+	Count: 122
+ 
+/tiles-core/src/test/java/org/apache/tiles/impl/mgmt/CachingTilesContainerTest.java
+Methods Invoked: 
+	Method name: createMock
+	Class origin: org.easymock.EasyMock
+	Count: 49
+ 
+/tiles-core/src/test/java/org/apache/tiles/locale/impl/DefaultLocaleResolverTest.java
+Methods Invoked: 
+	Method name: createMock
+	Class origin: org.easymock.EasyMock
+	Count: 2
+ 
+/tiles-core/src/test/java/org/apache/tiles/renderer/DefinitionRendererTest.java
+Methods Invoked: 
+	Method name: createMock
+	Class origin: org.easymock.EasyMock
+	Count: 4
+ 
+/tiles-core/src/test/java/org/apache/tiles/startup/AbstractTilesInitializerTest.java
+Methods Invoked: 
+	Method name: createMock
+	Class origin: org.easymock.EasyMock
+	Count: 8
+ 
+/tiles-core/src/test/java/org/apache/tiles/startup/DefaultTilesInitializerTest.java
+Methods Invoked: 
+	Method name: createMock
+	Class origin: org.easymock.EasyMock
+	Count: 1
+ 
+	Method name: replay
+	Class origin: org.easymock.EasyMock
+	Count: 1
+ 
+	Method name: verify
+	Class origin: org.easymock.EasyMock
+	Count: 1
+ 
+/tiles-el/src/test/java/org/apache/tiles/el/ELAttributeEvaluatorTest.java
+Methods Invoked: 
+	Method name: createMock
+	Class origin: org.easymock.EasyMock
+	Count: 2
+ 
+	Method name: anyTimes
+	Class origin: org.easymock.IExpectationSetters<java.util.Map<java.lang.String,java.lang.Object>>
+	Count: 3
+ 
+	Method name: andReturn
+	Class origin: org.easymock.IExpectationSetters<java.util.Map<java.lang.String,java.lang.Object>>
+	Count: 3
+ 
+	Method name: expect
+	Class origin: org.easymock.EasyMock
+	Count: 5
+ 
+/tiles-el/src/test/java/org/apache/tiles/el/TilesContextELResolverTest.java
+Methods Invoked: 
+	Method name: createMock
+	Class origin: org.easymock.EasyMock
+	Count: 8
+ 
+	Method name: replay
+	Class origin: org.easymock.EasyMock
+	Count: 6
+ 
+	Method name: verify
+	Class origin: org.easymock.EasyMock
+	Count: 6
+ 
+/tiles-el/src/test/java/org/apache/tiles/el/JspExpressionFactoryFactoryTest.java
+Methods Invoked: 
+	Method name: createMock
+	Class origin: org.easymock.EasyMock
+	Count: 6
+ 
+/tiles-el/src/test/java/org/apache/tiles/el/ELContextImplTest.java
+Methods Invoked: 
+	Method name: createMock
+	Class origin: org.easymock.EasyMock
+	Count: 4
+ 
+	Method name: replay
+	Class origin: org.easymock.EasyMock
+	Count: 5
+ 
+	Method name: verify
+	Class origin: org.easymock.EasyMock
+	Count: 5
+ 
+/tiles-el/src/test/java/org/apache/tiles/el/ScopeELResolverTest.java
+Methods Invoked: 
+	Method name: createMock
+	Class origin: org.easymock.EasyMock
+	Count: 8
+ 
+	Method name: replay
+	Class origin: org.easymock.EasyMock
+	Count: 5
+ 
+	Method name: verify
+	Class origin: org.easymock.EasyMock
+	Count: 3
+ 
+/tiles-el/src/test/java/org/apache/tiles/el/TilesContextBeanELResolverTest.java
+Methods Invoked: 
+	Method name: createMock
+	Class origin: org.easymock.EasyMock
+	Count: 8
+ 
+	Method name: anyTimes
+	Class origin: org.easymock.IExpectationSetters<java.util.Map<java.lang.String,java.lang.Object>>
+	Count: 12
+ 
+	Method name: andReturn
+	Class origin: org.easymock.IExpectationSetters<java.util.Map<java.lang.String,java.lang.Object>>
+	Count: 12
+ 
+	Method name: expect
+	Class origin: org.easymock.EasyMock
+	Count: 16
+ 
+/tiles-extras/src/test/java/org/apache/tiles/extras/complete/CompleteAutoloadTilesInitializerTest.java
+Methods Invoked: 
+	Method name: createMock
+	Class origin: org.easymock.EasyMock
+	Count: 3
+ 
+/tiles-extras/src/test/java/org/apache/tiles/extras/complete/CompleteAutoloadTilesContainerFactoryTest.java
+Methods Invoked: 
+	Method name: createMock
+	Class origin: org.easymock.EasyMock
+	Count: 33
+ 
+/tiles-extras/src/test/java/org/apache/tiles/extras/module/ModularTilesInitializerTest.java
+Methods Invoked: 
+	Method name: createMock
+	Class origin: org.easymock.EasyMock
+	Count: 2
+ 
+/tiles-extras/src/test/java/org/apache/tiles/extras/renderer/OptionsRendererTest.java
+Methods Invoked: 
+	Method name: createMock
+	Class origin: org.easymock.EasyMock
+	Count: 2
+ 
+	Method name: anyTimes
+	Class origin: org.easymock.IExpectationSetters<java.util.Map<java.lang.String,java.lang.Object>>
+	Count: 1
+ 
+	Method name: andReturn
+	Class origin: org.easymock.IExpectationSetters<java.util.Map<java.lang.String,java.lang.Object>>
+	Count: 1
+ 
+	Method name: expect
+	Class origin: org.easymock.EasyMock
+	Count: 3
+ 
+	Method name: matches
+	Class origin: org.easymock.EasyMock
+	Count: 1
+ 
+/tiles-jsp/src/test/java/org/apache/tiles/jsp/taglib/UseAttributeTagTest.java
+Methods Invoked: 
+	Method name: createMock
+	Class origin: org.easymock.EasyMock
+	Count: 12
+ 
+/tiles-mvel/src/test/java/org/apache/tiles/mvel/ReadOnlyVariableResolverFactoryTest.java
+Methods Invoked: 
+	Method name: createMock
+	Class origin: org.easymock.EasyMock
+	Count: 11
+ 
+	Method name: anyTimes
+	Class origin: org.easymock.IExpectationSetters<java.util.List<java.lang.String>>
+	Count: 1
+ 
+	Method name: andReturn
+	Class origin: org.easymock.IExpectationSetters<java.util.List<java.lang.String>>
+	Count: 1
+ 
+	Method name: expect
+	Class origin: org.easymock.EasyMock
+	Count: 13
+ 
+/tiles-mvel/src/test/java/org/apache/tiles/mvel/TilesContextVariableResolverFactoryTest.java
+Methods Invoked: 
+	Method name: createMock
+	Class origin: org.easymock.EasyMock
+	Count: 3
+ 
+/tiles-mvel/src/test/java/org/apache/tiles/mvel/TilesContextBeanVariableResolverFactoryTest.java
+Methods Invoked: 
+	Method name: createMock
+	Class origin: org.easymock.EasyMock
+	Count: 2
+ 
+/tiles-mvel/src/test/java/org/apache/tiles/mvel/ScopeVariableResolverFactoryTest.java
+Methods Invoked: 
+	Method name: createMock
+	Class origin: org.easymock.EasyMock
+	Count: 2
+ 
+	Method name: anyTimes
+	Class origin: org.easymock.IExpectationSetters<java.util.List<java.lang.String>>
+	Count: 1
+ 
+	Method name: andReturn
+	Class origin: org.easymock.IExpectationSetters<java.util.List<java.lang.String>>
+	Count: 1
+ 
+	Method name: expect
+	Class origin: org.easymock.EasyMock
+	Count: 3
+ 
+/tiles-mvel/src/test/java/org/apache/tiles/mvel/MVELAttributeEvaluatorTest.java
+Methods Invoked: 
+	Method name: createMock
+	Class origin: org.easymock.EasyMock
+	Count: 2
+ 
+	Method name: anyTimes
+	Class origin: org.easymock.IExpectationSetters<java.util.Map<java.lang.String,java.lang.Object>>
+	Count: 3
+ 
+	Method name: andReturn
+	Class origin: org.easymock.IExpectationSetters<java.util.Map<java.lang.String,java.lang.Object>>
+	Count: 3
+ 
+	Method name: expect
+	Class origin: org.easymock.EasyMock
+	Count: 5
+ 
+/tiles-mvel/src/test/java/org/apache/tiles/mvel/ReadOnlyVariableResolverTest.java
+Methods Invoked: 
+	Method name: createMockBuilder
+	Class origin: org.easymock.classextension.EasyMock
+	Count: 1
+ 
+	Method name: replay
+	Class origin: org.easymock.EasyMock
+	Count: 4
+ 
+	Method name: verify
+	Class origin: org.easymock.EasyMock
+	Count: 4
+ 
+/tiles-ognl/src/test/java/org/apache/tiles/ognl/DelegatePropertyAccessorTest.java
+Methods Invoked: 
+	Method name: createMock
+	Class origin: org.easymock.EasyMock
+	Count: 12
+ 
+/tiles-ognl/src/test/java/org/apache/tiles/ognl/AnyScopePropertyAccessorTest.java
+Methods Invoked: 
+	Method name: createMock
+	Class origin: org.easymock.EasyMock
+	Count: 12
+ 
+/tiles-ognl/src/test/java/org/apache/tiles/ognl/OGNLAttributeEvaluatorTest.java
+Methods Invoked: 
+	Method name: createMock
+	Class origin: org.easymock.EasyMock
+	Count: 2
+ 
+	Method name: anyTimes
+	Class origin: org.easymock.IExpectationSetters<java.util.Map<java.lang.String,java.lang.Object>>
+	Count: 4
+ 
+	Method name: andReturn
+	Class origin: org.easymock.IExpectationSetters<java.util.Map<java.lang.String,java.lang.Object>>
+	Count: 4
+ 
+	Method name: expect
+	Class origin: org.easymock.EasyMock
+	Count: 6
+ 
+/tiles-ognl/src/test/java/org/apache/tiles/ognl/ScopePropertyAccessorTest.java
+Methods Invoked: 
+	Method name: createMock
+	Class origin: org.easymock.EasyMock
+	Count: 4
+ 
+/tiles-ognl/src/test/java/org/apache/tiles/ognl/NestedObjectDelegatePropertyAccessorTest.java
+Methods Invoked: 
+	Method name: createMock
+	Class origin: org.easymock.EasyMock
+	Count: 12
+ 
+/tiles-ognl/src/test/java/org/apache/tiles/ognl/TilesApplicationContextNestedObjectExtractorTest.java
+Methods Invoked: 
+	Method name: createMock
+	Class origin: org.easymock.EasyMock
+	Count: 2
+ 
+/tiles-ognl/src/test/java/org/apache/tiles/ognl/TilesContextPropertyAccessorDelegateFactoryTest.java
+Methods Invoked: 
+	Method name: createMock
+	Class origin: org.easymock.EasyMock
+	Count: 38
+ 
+/tiles-servlet/src/test/java/org/apache/tiles/web/startup/AbstractTilesListenerTest.java
+Methods Invoked: 
+	Method name: createMockBuilder
+	Class origin: org.easymock.classextension.EasyMock
+	Count: 1
+ 
+	Method name: createMock
+	Class origin: org.easymock.EasyMock
+	Count: 3
+ 
+/tiles-servlet/src/test/java/org/apache/tiles/web/startup/AbstractTilesInitializerServletTest.java
+Methods Invoked: 
+	Method name: createMockBuilder
+	Class origin: org.easymock.classextension.EasyMock
+	Count: 1
+ 
+	Method name: createMock
+	Class origin: org.easymock.EasyMock
+	Count: 4
+ 
+/tiles-servlet/src/test/java/org/apache/tiles/web/util/TilesDecorationFilterTest.java
+Methods Invoked: 
+	Method name: createMock
+	Class origin: org.easymock.EasyMock
+	Count: 10
+ 
+/tiles-servlet/src/test/java/org/apache/tiles/web/util/ServletContextAdapterTest.java
+Methods Invoked: 
+	Method name: createMock
+	Class origin: org.easymock.EasyMock
+	Count: 13
+ 
+/tiles-template/src/test/java/org/apache/tiles/template/PutListAttributeModelTest.java
+Methods Invoked: 
+	Method name: createMock
+	Class origin: org.easymock.EasyMock
+	Count: 5
+ 
+/tiles-template/src/test/java/org/apache/tiles/template/ComposeStackUtilTest.java
+Methods Invoked: 
+	Method name: createMock
+	Class origin: org.easymock.EasyMock
+	Count: 4
+ 
+	Method name: andReturn
+	Class origin: org.easymock.IExpectationSetters<java.util.Map<java.lang.String,java.lang.Object>>
+	Count: 3
+ 
+	Method name: expect
+	Class origin: org.easymock.EasyMock
+	Count: 3
+ 
+	Method name: replay
+	Class origin: org.easymock.EasyMock
+	Count: 3
+ 
+	Method name: verify
+	Class origin: org.easymock.EasyMock
+	Count: 3
+ 
+/tiles-template/src/test/java/org/apache/tiles/template/InsertAttributeModelTest.java
+Methods Invoked: 
+	Method name: createMock
+	Class origin: org.easymock.EasyMock
+	Count: 11
+ 
+/tiles-template/src/test/java/org/apache/tiles/template/InsertTemplateModelTest.java
+Methods Invoked: 
+	Method name: createMock
+	Class origin: org.easymock.EasyMock
+	Count: 5
+ 
+/tiles-template/src/test/java/org/apache/tiles/template/ImportAttributeModelTest.java
+Methods Invoked: 
+	Method name: createMock
+	Class origin: org.easymock.EasyMock
+	Count: 36
+ 
+/tiles-template/src/test/java/org/apache/tiles/template/DefinitionModelTest.java
+Methods Invoked: 
+	Method name: createMock
+	Class origin: org.easymock.EasyMock
+	Count: 4
+ 
+/tiles-template/src/test/java/org/apache/tiles/template/PutAttributeModelTest.java
+Methods Invoked: 
+	Method name: createMock
+	Class origin: org.easymock.EasyMock
+	Count: 5
+ 
+/tiles-template/src/test/java/org/apache/tiles/template/AddListAttributeModelTest.java
+Methods Invoked: 
+	Method name: createMock
+	Class origin: org.easymock.EasyMock
+	Count: 2
+ 
+/tiles-template/src/test/java/org/apache/tiles/template/AddAttributeModelTest.java
+Methods Invoked: 
+	Method name: createMock
+	Class origin: org.easymock.EasyMock
+	Count: 2
+ 
+/tiles-template/src/test/java/org/apache/tiles/template/SetCurrentContainerModelTest.java
+Methods Invoked: 
+	Method name: createMock
+	Class origin: org.easymock.EasyMock
+	Count: 5
+ 
+/tiles-template/src/test/java/org/apache/tiles/template/GetAsStringModelTest.java
+Methods Invoked: 
+	Method name: createMock
+	Class origin: org.easymock.EasyMock
+	Count: 14
+ 
+/tiles-template/src/test/java/org/apache/tiles/template/DefaultAttributeResolverTest.java
+Methods Invoked: 
+	Method name: createMock
+	Class origin: org.easymock.EasyMock
+	Count: 14
+ 
+/tiles-template/src/test/java/org/apache/tiles/template/InsertDefinitionModelTest.java
+Methods Invoked: 
+	Method name: createMock
+	Class origin: org.easymock.EasyMock
+	Count: 5
+ 
+/tiles-velocity/src/test/java/org/apache/tiles/velocity/template/VelocityStyleTilesToolTest.java
+Methods Invoked: 
+	Method name: createMock
+	Class origin: org.easymock.EasyMock
+	Count: 27
+ 
+/tiles-velocity/src/test/java/org/apache/tiles/velocity/template/AbstractDefaultToStringRenderableTest.java
+Methods Invoked: 
+	Method name: createMock
+	Class origin: org.easymock.EasyMock
+	Count: 6
+ 

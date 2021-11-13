@@ -1,0 +1,8 @@
+Inside classes: 
+ 
+ 
+ 
+ 
+Outside classes: 
+ 
+edu.usc.irds.agepredictor.authorage.AgePredicterLocal

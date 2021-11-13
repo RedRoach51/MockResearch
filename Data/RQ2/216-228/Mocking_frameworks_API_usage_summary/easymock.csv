@@ -1,0 +1,4 @@
+method, origin, count
+createStrictControl,org.easymock.EasyMock,1
+createMock,org.easymock.IMocksControl,22
+createControl,org.easymock.EasyMock,2

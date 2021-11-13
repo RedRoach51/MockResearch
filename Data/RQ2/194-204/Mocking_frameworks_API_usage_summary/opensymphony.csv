@@ -1,0 +1,24 @@
+method, origin, count
+selfRegister,com.opensymphony.xwork2.config.impl.MockConfiguration,3
+getKeyClass,com.opensymphony.xwork2.mock.MockObjectTypeDeterminer,1
+getElementClass,com.opensymphony.xwork2.mock.MockObjectTypeDeterminer,1
+getKeyProperty,com.opensymphony.xwork2.mock.MockObjectTypeDeterminer,1
+isShouldCreateIfNew,com.opensymphony.xwork2.mock.MockObjectTypeDeterminer,1
+addUnknownHandler,com.opensymphony.xwork2.UnknownHandlerManagerMock,3
+getTextProvider,com.opensymphony.xwork2.mock.InjectableAction,2
+setFoo,com.opensymphony.xwork2.mock.MockInterceptor,4
+setExpectedFoo,com.opensymphony.xwork2.mock.MockInterceptor,4
+getExpectedFoo,com.opensymphony.xwork2.mock.MockInterceptor,4
+isExecuted,com.opensymphony.xwork2.mock.MockInterceptor,4
+addToNodeList,com.opensymphony.xwork2.config.providers.XmlConfigurationProviderTest.MockNodeList,15
+getParam1,com.opensymphony.xwork2.config.providers.InterceptorBuilderTest.MockInterceptor1,8
+getParam2,com.opensymphony.xwork2.config.providers.InterceptorBuilderTest.MockInterceptor1,8
+setConfig,com.opensymphony.xwork2.mock.MockActionProxy,18
+setProxy,com.opensymphony.xwork2.mock.MockActionInvocation,26
+setAction,com.opensymphony.xwork2.mock.MockActionInvocation,67
+setMethod,com.opensymphony.xwork2.mock.MockActionProxy,47
+setInvocationContext,com.opensymphony.xwork2.mock.MockActionInvocation,20
+setShouldCreateIfNew,com.opensymphony.xwork2.mock.MockObjectTypeDeterminer,1
+setStack,com.opensymphony.xwork2.mock.MockActionInvocation,3
+getInvocationContext,com.opensymphony.xwork2.mock.MockActionInvocation,35
+setResultCode,com.opensymphony.xwork2.mock.MockActionInvocation,6

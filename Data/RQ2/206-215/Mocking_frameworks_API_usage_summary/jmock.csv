@@ -1,0 +1,9 @@
+method, origin, count
+blitz,org.jmock.lib.concurrent.Blitzer,1
+shutdown,org.jmock.lib.concurrent.Blitzer,1
+with,org.jmock.builder.ArgumentsMatchBuilder,16
+method,org.jmock.builder.NameMatchBuilder,47
+expects,org.jmock.Mock,3
+will,org.jmock.builder.StubBuilder,33
+stubs,org.jmock.Mock,32
+returnValue,org.jmock.MockObjectTestCase,11

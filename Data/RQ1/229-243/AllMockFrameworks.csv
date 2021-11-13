@@ -1,0 +1,13 @@
+Project Name,Mocking Framework,Used in # of Files
+wicket,mockito,22
+wink,jmock,27
+wink,springframework,154
+xmlbeans,scomp,2
+xmlgraphics-commons,mockito,6
+zeppelin,mockito,60
+zeppelin,mockwebserver,1
+zeppelin,mockrunner,2
+zeppelin,powermock,3
+zeppelin,fabric8,2
+zookeeper,mockito,37
+zookeeper,mockit,3

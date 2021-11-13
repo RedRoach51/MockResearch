@@ -1,0 +1,13 @@
+project name, variety of inside mocked classes, variety of outside mocked classes, proportion of mocked classes
+abdera,4,0,
+accumulo,91,20,
+ace,0,0,
+activemq,1,0,
+ant,0,0,
+bookkeeper,109,32,
+bval,1,0,
+camel,37,122,
+creadur-whisker,0,0,
+ 
+more inside classes mocked: ,more outside classes mocked: 
+5,1

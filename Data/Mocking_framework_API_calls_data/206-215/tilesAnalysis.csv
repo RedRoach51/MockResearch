@@ -1,0 +1,13 @@
+method, origin, count
+createMock,org.easymock.EasyMock,653
+anyTimes,org.easymock.IExpectationSetters<java.lang.Boolean>,27
+andReturn,org.easymock.IExpectationSetters<java.lang.Boolean>,36
+expect,org.easymock.EasyMock,102
+replay,org.easymock.EasyMock,53
+verify,org.easymock.EasyMock,36
+createMockBuilder,org.easymock.classextension.EasyMock,4
+matches,org.easymock.EasyMock,1
+
+MockedObjects: ,653
+
+# of Mocked objects each file:,1|3|19|24|4|1|6|4|3|4|4|2|6|16|5|122|49|2|4|8|1|2|8|6|4|8|8|3|33|2|2|12|11|3|2|2|2|12|12|2|4|12|2|38|3|4|10|13|5|4|11|5|36|4|5|2|2|5|14|14|5|27|6|

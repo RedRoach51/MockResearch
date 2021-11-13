@@ -1,0 +1,1504 @@
+	Method name: getStatus
+	Class origin: org.springframework.mock.web.MockHttpServletResponse
+	Count: 1
+ 
+	Method name: getContentType
+	Class origin: org.springframework.mock.web.MockHttpServletResponse
+	Count: 1
+ 
+	Method name: setCharacterEncoding
+	Class origin: org.springframework.mock.web.MockHttpServletResponse
+	Count: 1
+ 
+	Method name: getContentAsString
+	Class origin: org.springframework.mock.web.MockHttpServletResponse
+	Count: 1
+ 
+	Method name: setMethod
+	Class origin: org.springframework.mock.web.MockHttpServletRequest
+	Count: 1
+ 
+	Method name: setRequestURI
+	Class origin: org.springframework.mock.web.MockHttpServletRequest
+	Count: 1
+ 
+	Method name: addHeader
+	Class origin: org.springframework.mock.web.MockHttpServletRequest
+	Count: 1
+ 
+	Method name: getStatus
+	Class origin: org.springframework.mock.web.MockHttpServletResponse
+	Count: 14
+ 
+	Method name: getContentAsString
+	Class origin: org.springframework.mock.web.MockHttpServletResponse
+	Count: 10
+ 
+	Method name: getStatus
+	Class origin: org.springframework.mock.web.MockHttpServletResponse
+	Count: 15
+ 
+	Method name: getContentAsString
+	Class origin: org.springframework.mock.web.MockHttpServletResponse
+	Count: 12
+ 
+	Method name: getContentType
+	Class origin: org.springframework.mock.web.MockHttpServletResponse
+	Count: 1
+ 
+	Method name: getContentAsString
+	Class origin: org.springframework.mock.web.MockHttpServletResponse
+	Count: 2
+ 
+	Method name: getStatus
+	Class origin: org.springframework.mock.web.MockHttpServletResponse
+	Count: 2
+ 
+	Method name: getStatus
+	Class origin: org.springframework.mock.web.MockHttpServletResponse
+	Count: 12
+ 
+	Method name: getContentAsString
+	Class origin: org.springframework.mock.web.MockHttpServletResponse
+	Count: 1
+ 
+	Method name: getHeader
+	Class origin: org.springframework.mock.web.MockHttpServletResponse
+	Count: 3
+ 
+	Method name: getStatus
+	Class origin: org.springframework.mock.web.MockHttpServletResponse
+	Count: 1
+ 
+	Method name: getHeader
+	Class origin: org.springframework.mock.web.MockHttpServletResponse
+	Count: 1
+ 
+	Method name: getStatus
+	Class origin: org.springframework.mock.web.MockHttpServletResponse
+	Count: 3
+ 
+	Method name: getContentAsByteArray
+	Class origin: org.springframework.mock.web.MockHttpServletResponse
+	Count: 2
+ 
+	Method name: getStatus
+	Class origin: org.springframework.mock.web.MockHttpServletResponse
+	Count: 3
+ 
+	Method name: getContentAsByteArray
+	Class origin: org.springframework.mock.web.MockHttpServletResponse
+	Count: 2
+ 
+	Method name: mock
+	Class origin: org.jmock.Mockery
+	Count: 1
+ 
+	Method name: checking
+	Class origin: org.jmock.Mockery
+	Count: 1
+ 
+	Method name: allowing
+	Class origin: org.jmock.Expectations
+	Count: 1
+ 
+	Method name: will
+	Class origin: org.jmock.Expectations
+	Count: 1
+ 
+	Method name: returnValue
+	Class origin: org.jmock.Expectations
+	Count: 1
+ 
+	Method name: mock
+	Class origin: org.jmock.Mockery
+	Count: 1
+ 
+	Method name: checking
+	Class origin: org.jmock.Mockery
+	Count: 1
+ 
+	Method name: allowing
+	Class origin: org.jmock.Expectations
+	Count: 1
+ 
+	Method name: will
+	Class origin: org.jmock.Expectations
+	Count: 1
+ 
+	Method name: returnValue
+	Class origin: org.jmock.Expectations
+	Count: 1
+ 
+	Method name: mock
+	Class origin: org.jmock.integration.junit3.MockObjectTestCase
+	Count: 3
+ 
+	Method name: mock
+	Class origin: org.jmock.integration.junit3.MockObjectTestCase
+	Count: 2
+ 
+	Method name: mock
+	Class origin: org.jmock.integration.junit3.MockObjectTestCase
+	Count: 3
+ 
+	Method name: mock
+	Class origin: org.jmock.integration.junit3.MockObjectTestCase
+	Count: 3
+ 
+	Method name: setImposteriser
+	Class origin: org.jmock.Mockery
+	Count: 4
+ 
+	Method name: mock
+	Class origin: org.jmock.Mockery
+	Count: 7
+ 
+	Method name: checking
+	Class origin: org.jmock.Mockery
+	Count: 4
+ 
+	Method name: oneOf
+	Class origin: org.jmock.Expectations
+	Count: 20
+ 
+	Method name: will
+	Class origin: org.jmock.Expectations
+	Count: 22
+ 
+	Method name: returnValue
+	Class origin: org.jmock.Expectations
+	Count: 22
+ 
+	Method name: setImposteriser
+	Class origin: org.jmock.Mockery
+	Count: 1
+ 
+	Method name: mock
+	Class origin: org.jmock.Mockery
+	Count: 1
+ 
+	Method name: checking
+	Class origin: org.jmock.Mockery
+	Count: 18
+ 
+	Method name: oneOf
+	Class origin: org.jmock.Expectations
+	Count: 54
+ 
+	Method name: will
+	Class origin: org.jmock.Expectations
+	Count: 54
+ 
+	Method name: returnValue
+	Class origin: org.jmock.Expectations
+	Count: 54
+ 
+	Method name: setImposteriser
+	Class origin: org.jmock.Mockery
+	Count: 1
+ 
+	Method name: mock
+	Class origin: org.jmock.Mockery
+	Count: 1
+ 
+	Method name: checking
+	Class origin: org.jmock.Mockery
+	Count: 2
+ 
+	Method name: assertIsSatisfied
+	Class origin: org.jmock.Mockery
+	Count: 2
+ 
+	Method name: setImposteriser
+	Class origin: org.jmock.Mockery
+	Count: 1
+ 
+	Method name: mock
+	Class origin: org.jmock.Mockery
+	Count: 6
+ 
+	Method name: addInitParameter
+	Class origin: org.springframework.mock.web.MockServletConfig
+	Count: 3
+ 
+	Method name: getCharacterEncoding
+	Class origin: org.springframework.mock.web.MockHttpServletRequest
+	Count: 3
+ 
+	Method name: addInitParameter
+	Class origin: org.springframework.mock.web.MockServletContext
+	Count: 1
+ 
+	Method name: setMethod
+	Class origin: org.springframework.mock.web.MockHttpServletRequest
+	Count: 1
+ 
+	Method name: setRequestURI
+	Class origin: org.springframework.mock.web.MockHttpServletRequest
+	Count: 1
+ 
+	Method name: addHeader
+	Class origin: org.springframework.mock.web.MockHttpServletRequest
+	Count: 1
+ 
+	Method name: setContentType
+	Class origin: org.springframework.mock.web.MockHttpServletRequest
+	Count: 1
+ 
+	Method name: setContent
+	Class origin: org.springframework.mock.web.MockHttpServletRequest
+	Count: 1
+ 
+	Method name: setAttribute
+	Class origin: org.springframework.mock.web.MockHttpServletRequest
+	Count: 1
+ 
+	Method name: setParameters
+	Class origin: org.springframework.mock.web.MockHttpServletRequest
+	Count: 1
+ 
+	Method name: setQueryString
+	Class origin: org.springframework.mock.web.MockHttpServletRequest
+	Count: 1
+ 
+	Method name: getParameter
+	Class origin: org.springframework.mock.web.MockHttpServletRequest
+	Count: 4
+ 
+	Method name: getStatus
+	Class origin: org.springframework.mock.web.MockHttpServletResponse
+	Count: 10
+ 
+	Method name: getContentAsString
+	Class origin: org.springframework.mock.web.MockHttpServletResponse
+	Count: 10
+ 
+	Method name: setContentType
+	Class origin: org.springframework.mock.web.MockHttpServletRequest
+	Count: 5
+ 
+	Method name: setContent
+	Class origin: org.springframework.mock.web.MockHttpServletRequest
+	Count: 5
+ 
+	Method name: getStatus
+	Class origin: org.springframework.mock.web.MockHttpServletResponse
+	Count: 1
+ 
+	Method name: getContentAsString
+	Class origin: org.springframework.mock.web.MockHttpServletResponse
+	Count: 1
+ 
+	Method name: setQueryString
+	Class origin: org.springframework.mock.web.MockHttpServletRequest
+	Count: 1
+ 
+	Method name: getStatus
+	Class origin: org.springframework.mock.web.MockHttpServletResponse
+	Count: 1
+ 
+	Method name: getContentAsString
+	Class origin: org.springframework.mock.web.MockHttpServletResponse
+	Count: 2
+ 
+	Method name: getStatus
+	Class origin: org.springframework.mock.web.MockHttpServletResponse
+	Count: 1
+ 
+	Method name: getContentAsString
+	Class origin: org.springframework.mock.web.MockHttpServletResponse
+	Count: 1
+ 
+	Method name: getStatus
+	Class origin: org.springframework.mock.web.MockHttpServletResponse
+	Count: 1
+ 
+	Method name: getContentAsString
+	Class origin: org.springframework.mock.web.MockHttpServletResponse
+	Count: 1
+ 
+	Method name: getContentAsByteArray
+	Class origin: org.springframework.mock.web.MockHttpServletResponse
+	Count: 1
+ 
+	Method name: getStatus
+	Class origin: org.springframework.mock.web.MockHttpServletResponse
+	Count: 8
+ 
+	Method name: getContentAsString
+	Class origin: org.springframework.mock.web.MockHttpServletResponse
+	Count: 8
+ 
+	Method name: setContentType
+	Class origin: org.springframework.mock.web.MockHttpServletRequest
+	Count: 2
+ 
+	Method name: setContent
+	Class origin: org.springframework.mock.web.MockHttpServletRequest
+	Count: 2
+ 
+	Method name: getStatus
+	Class origin: org.springframework.mock.web.MockHttpServletResponse
+	Count: 2
+ 
+	Method name: setContentType
+	Class origin: org.springframework.mock.web.MockHttpServletRequest
+	Count: 2
+ 
+	Method name: setContent
+	Class origin: org.springframework.mock.web.MockHttpServletRequest
+	Count: 2
+ 
+	Method name: setContentType
+	Class origin: org.springframework.mock.web.MockHttpServletRequest
+	Count: 1
+ 
+	Method name: setContent
+	Class origin: org.springframework.mock.web.MockHttpServletRequest
+	Count: 1
+ 
+	Method name: getStatus
+	Class origin: org.springframework.mock.web.MockHttpServletResponse
+	Count: 1
+ 
+	Method name: getContentAsString
+	Class origin: org.springframework.mock.web.MockHttpServletResponse
+	Count: 2
+ 
+	Method name: getStatus
+	Class origin: org.springframework.mock.web.MockHttpServletResponse
+	Count: 5
+ 
+	Method name: getContentAsString
+	Class origin: org.springframework.mock.web.MockHttpServletResponse
+	Count: 6
+ 
+	Method name: setContentType
+	Class origin: org.springframework.mock.web.MockHttpServletRequest
+	Count: 2
+ 
+	Method name: setContent
+	Class origin: org.springframework.mock.web.MockHttpServletRequest
+	Count: 2
+ 
+	Method name: getStatus
+	Class origin: org.springframework.mock.web.MockHttpServletResponse
+	Count: 3
+ 
+	Method name: getContentAsString
+	Class origin: org.springframework.mock.web.MockHttpServletResponse
+	Count: 5
+ 
+	Method name: setContentType
+	Class origin: org.springframework.mock.web.MockHttpServletRequest
+	Count: 1
+ 
+	Method name: setContent
+	Class origin: org.springframework.mock.web.MockHttpServletRequest
+	Count: 1
+ 
+	Method name: getStatus
+	Class origin: org.springframework.mock.web.MockHttpServletResponse
+	Count: 1
+ 
+	Method name: getContentAsString
+	Class origin: org.springframework.mock.web.MockHttpServletResponse
+	Count: 1
+ 
+	Method name: getStatus
+	Class origin: org.springframework.mock.web.MockHttpServletResponse
+	Count: 6
+ 
+	Method name: getContentAsString
+	Class origin: org.springframework.mock.web.MockHttpServletResponse
+	Count: 6
+ 
+	Method name: setContentType
+	Class origin: org.springframework.mock.web.MockHttpServletRequest
+	Count: 3
+ 
+	Method name: setContent
+	Class origin: org.springframework.mock.web.MockHttpServletRequest
+	Count: 3
+ 
+	Method name: getStatus
+	Class origin: org.springframework.mock.web.MockHttpServletResponse
+	Count: 8
+ 
+	Method name: getContentAsString
+	Class origin: org.springframework.mock.web.MockHttpServletResponse
+	Count: 16
+ 
+	Method name: setContentType
+	Class origin: org.springframework.mock.web.MockHttpServletRequest
+	Count: 5
+ 
+	Method name: setContent
+	Class origin: org.springframework.mock.web.MockHttpServletRequest
+	Count: 5
+ 
+	Method name: getStatus
+	Class origin: org.springframework.mock.web.MockHttpServletResponse
+	Count: 12
+ 
+	Method name: getContentAsString
+	Class origin: org.springframework.mock.web.MockHttpServletResponse
+	Count: 12
+ 
+	Method name: getStatus
+	Class origin: org.springframework.mock.web.MockHttpServletResponse
+	Count: 4
+ 
+	Method name: getContentAsString
+	Class origin: org.springframework.mock.web.MockHttpServletResponse
+	Count: 4
+ 
+	Method name: getStatus
+	Class origin: org.springframework.mock.web.MockHttpServletResponse
+	Count: 2
+ 
+	Method name: getContentAsByteArray
+	Class origin: org.springframework.mock.web.MockHttpServletResponse
+	Count: 2
+ 
+	Method name: setContentType
+	Class origin: org.springframework.mock.web.MockHttpServletRequest
+	Count: 1
+ 
+	Method name: setContent
+	Class origin: org.springframework.mock.web.MockHttpServletRequest
+	Count: 1
+ 
+	Method name: getStatus
+	Class origin: org.springframework.mock.web.MockHttpServletResponse
+	Count: 4
+ 
+	Method name: getContentAsString
+	Class origin: org.springframework.mock.web.MockHttpServletResponse
+	Count: 4
+ 
+	Method name: setQueryString
+	Class origin: org.springframework.mock.web.MockHttpServletRequest
+	Count: 3
+ 
+	Method name: getContentAsString
+	Class origin: org.springframework.mock.web.MockHttpServletResponse
+	Count: 10
+ 
+	Method name: getContentAsString
+	Class origin: org.springframework.mock.web.MockHttpServletResponse
+	Count: 1
+ 
+	Method name: getContentAsString
+	Class origin: org.springframework.mock.web.MockHttpServletResponse
+	Count: 5
+ 
+	Method name: addHeader
+	Class origin: org.springframework.mock.web.MockHttpServletRequest
+	Count: 1
+ 
+	Method name: getContentAsString
+	Class origin: org.springframework.mock.web.MockHttpServletResponse
+	Count: 2
+ 
+	Method name: getContentAsString
+	Class origin: org.springframework.mock.web.MockHttpServletResponse
+	Count: 1
+ 
+	Method name: addHeader
+	Class origin: org.springframework.mock.web.MockHttpServletRequest
+	Count: 1
+ 
+	Method name: setContent
+	Class origin: org.springframework.mock.web.MockHttpServletRequest
+	Count: 1
+ 
+	Method name: setContentType
+	Class origin: org.springframework.mock.web.MockHttpServletRequest
+	Count: 1
+ 
+	Method name: setParameter
+	Class origin: org.springframework.mock.web.MockHttpServletRequest
+	Count: 2
+ 
+	Method name: getContentAsString
+	Class origin: org.springframework.mock.web.MockHttpServletResponse
+	Count: 10
+ 
+	Method name: setScheme
+	Class origin: org.springframework.mock.web.MockHttpServletRequest
+	Count: 2
+ 
+	Method name: setServerName
+	Class origin: org.springframework.mock.web.MockHttpServletRequest
+	Count: 2
+ 
+	Method name: setContextPath
+	Class origin: org.springframework.mock.web.MockHttpServletRequest
+	Count: 2
+ 
+	Method name: setServerPort
+	Class origin: org.springframework.mock.web.MockHttpServletRequest
+	Count: 2
+ 
+	Method name: getContentAsString
+	Class origin: org.springframework.mock.web.MockHttpServletResponse
+	Count: 2
+ 
+	Method name: getStatus
+	Class origin: org.springframework.mock.web.MockHttpServletResponse
+	Count: 6
+ 
+	Method name: getContentAsString
+	Class origin: org.springframework.mock.web.MockHttpServletResponse
+	Count: 6
+ 
+	Method name: setSecure
+	Class origin: org.springframework.mock.web.MockHttpServletRequest
+	Count: 3
+ 
+	Method name: setMethod
+	Class origin: org.springframework.mock.web.MockHttpServletRequest
+	Count: 1
+ 
+	Method name: setRequestURI
+	Class origin: org.springframework.mock.web.MockHttpServletRequest
+	Count: 1
+ 
+	Method name: getStatus
+	Class origin: org.springframework.mock.web.MockHttpServletResponse
+	Count: 1
+ 
+	Method name: getHeader
+	Class origin: org.springframework.mock.web.MockHttpServletResponse
+	Count: 3
+ 
+	Method name: getStatus
+	Class origin: org.springframework.mock.web.MockHttpServletResponse
+	Count: 15
+ 
+	Method name: getContentAsString
+	Class origin: org.springframework.mock.web.MockHttpServletResponse
+	Count: 10
+ 
+	Method name: setMethod
+	Class origin: org.springframework.mock.web.MockHttpServletRequest
+	Count: 2
+ 
+	Method name: setQueryString
+	Class origin: org.springframework.mock.web.MockHttpServletRequest
+	Count: 2
+ 
+	Method name: getParameterMap
+	Class origin: org.springframework.mock.web.MockHttpServletRequest
+	Count: 2
+ 
+	Method name: getRequest
+	Class origin: org.springframework.mock.web.MockFilterChain
+	Count: 5
+ 
+	Method name: setMethod
+	Class origin: org.springframework.mock.web.MockHttpServletRequest
+	Count: 4
+ 
+	Method name: addHeader
+	Class origin: org.springframework.mock.web.MockHttpServletRequest
+	Count: 4
+ 
+	Method name: getStatus
+	Class origin: org.springframework.mock.web.MockHttpServletResponse
+	Count: 6
+ 
+	Method name: getContentAsString
+	Class origin: org.springframework.mock.web.MockHttpServletResponse
+	Count: 1
+ 
+	Method name: getStatus
+	Class origin: org.springframework.mock.web.MockHttpServletResponse
+	Count: 1
+ 
+	Method name: getContentAsString
+	Class origin: org.springframework.mock.web.MockHttpServletResponse
+	Count: 1
+ 
+	Method name: setQueryString
+	Class origin: org.springframework.mock.web.MockHttpServletRequest
+	Count: 1
+ 
+	Method name: getHeader
+	Class origin: org.springframework.mock.web.MockHttpServletResponse
+	Count: 6
+ 
+	Method name: setSecure
+	Class origin: org.springframework.mock.web.MockHttpServletRequest
+	Count: 2
+ 
+	Method name: setServerPort
+	Class origin: org.springframework.mock.web.MockHttpServletRequest
+	Count: 2
+ 
+	Method name: getStatus
+	Class origin: org.springframework.mock.web.MockHttpServletResponse
+	Count: 37
+ 
+	Method name: getContentType
+	Class origin: org.springframework.mock.web.MockHttpServletResponse
+	Count: 35
+ 
+	Method name: getHeader
+	Class origin: org.springframework.mock.web.MockHttpServletResponse
+	Count: 73
+ 
+	Method name: getContentAsString
+	Class origin: org.springframework.mock.web.MockHttpServletResponse
+	Count: 7
+ 
+	Method name: setQueryString
+	Class origin: org.springframework.mock.web.MockHttpServletRequest
+	Count: 2
+ 
+	Method name: getStatus
+	Class origin: org.springframework.mock.web.MockHttpServletResponse
+	Count: 2
+ 
+	Method name: getContentAsString
+	Class origin: org.springframework.mock.web.MockHttpServletResponse
+	Count: 2
+ 
+	Method name: getStatus
+	Class origin: org.springframework.mock.web.MockHttpServletResponse
+	Count: 36
+ 
+	Method name: getContentAsString
+	Class origin: org.springframework.mock.web.MockHttpServletResponse
+	Count: 6
+ 
+	Method name: addHeader
+	Class origin: org.springframework.mock.web.MockHttpServletRequest
+	Count: 36
+ 
+	Method name: getContentAsByteArray
+	Class origin: org.springframework.mock.web.MockHttpServletResponse
+	Count: 1
+ 
+	Method name: getContentAsString
+	Class origin: org.springframework.mock.web.MockHttpServletResponse
+	Count: 1
+ 
+	Method name: setSecure
+	Class origin: org.springframework.mock.web.MockHttpServletRequest
+	Count: 2
+ 
+	Method name: setScheme
+	Class origin: org.springframework.mock.web.MockHttpServletRequest
+	Count: 2
+ 
+	Method name: setServerName
+	Class origin: org.springframework.mock.web.MockHttpServletRequest
+	Count: 2
+ 
+	Method name: setContextPath
+	Class origin: org.springframework.mock.web.MockHttpServletRequest
+	Count: 2
+ 
+	Method name: setServletPath
+	Class origin: org.springframework.mock.web.MockHttpServletRequest
+	Count: 2
+ 
+	Method name: setServerPort
+	Class origin: org.springframework.mock.web.MockHttpServletRequest
+	Count: 2
+ 
+	Method name: getContentAsString
+	Class origin: org.springframework.mock.web.MockHttpServletResponse
+	Count: 2
+ 
+	Method name: setSecure
+	Class origin: org.springframework.mock.web.MockHttpServletRequest
+	Count: 2
+ 
+	Method name: setServerPort
+	Class origin: org.springframework.mock.web.MockHttpServletRequest
+	Count: 2
+ 
+	Method name: getStatus
+	Class origin: org.springframework.mock.web.MockHttpServletResponse
+	Count: 2
+ 
+	Method name: getHeader
+	Class origin: org.springframework.mock.web.MockHttpServletResponse
+	Count: 2
+ 
+	Method name: getContentAsString
+	Class origin: org.springframework.mock.web.MockHttpServletResponse
+	Count: 5
+ 
+	Method name: getStatus
+	Class origin: org.springframework.mock.web.MockHttpServletResponse
+	Count: 5
+ 
+	Method name: getStatus
+	Class origin: org.springframework.mock.web.MockHttpServletResponse
+	Count: 1
+ 
+	Method name: getStatus
+	Class origin: org.springframework.mock.web.MockHttpServletResponse
+	Count: 17
+ 
+	Method name: getContentAsString
+	Class origin: org.springframework.mock.web.MockHttpServletResponse
+	Count: 17
+ 
+	Method name: getContentAsString
+	Class origin: org.springframework.mock.web.MockHttpServletResponse
+	Count: 1
+ 
+	Method name: getStatus
+	Class origin: org.springframework.mock.web.MockHttpServletResponse
+	Count: 1
+ 
+	Method name: mock
+	Class origin: org.jmock.Mockery
+	Count: 2
+ 
+	Method name: mock
+	Class origin: org.jmock.Mockery
+	Count: 2
+ 
+	Method name: mock
+	Class origin: org.jmock.Mockery
+	Count: 8
+ 
+	Method name: mock
+	Class origin: org.jmock.integration.junit3.MockObjectTestCase
+	Count: 6
+ 
+	Method name: setQueryString
+	Class origin: org.springframework.mock.web.MockHttpServletRequest
+	Count: 1
+ 
+	Method name: getStatus
+	Class origin: org.springframework.mock.web.MockHttpServletResponse
+	Count: 1
+ 
+	Method name: getContentAsString
+	Class origin: org.springframework.mock.web.MockHttpServletResponse
+	Count: 1
+ 
+	Method name: getStatus
+	Class origin: org.springframework.mock.web.MockHttpServletResponse
+	Count: 3
+ 
+	Method name: getContentAsString
+	Class origin: org.springframework.mock.web.MockHttpServletResponse
+	Count: 3
+ 
+	Method name: getContentType
+	Class origin: org.springframework.mock.web.MockHttpServletResponse
+	Count: 3
+ 
+	Method name: addHeader
+	Class origin: org.springframework.mock.web.MockHttpServletRequest
+	Count: 2
+ 
+	Method name: getStatus
+	Class origin: org.springframework.mock.web.MockHttpServletResponse
+	Count: 3
+ 
+	Method name: getContentAsString
+	Class origin: org.springframework.mock.web.MockHttpServletResponse
+	Count: 3
+ 
+	Method name: getContentType
+	Class origin: org.springframework.mock.web.MockHttpServletResponse
+	Count: 3
+ 
+	Method name: addHeader
+	Class origin: org.springframework.mock.web.MockHttpServletRequest
+	Count: 2
+ 
+	Method name: mock
+	Class origin: org.jmock.Mockery
+	Count: 2
+ 
+	Method name: getStatus
+	Class origin: org.springframework.mock.web.MockHttpServletResponse
+	Count: 2
+ 
+	Method name: addHeader
+	Class origin: org.springframework.mock.web.MockHttpServletRequest
+	Count: 15
+ 
+	Method name: getStatus
+	Class origin: org.springframework.mock.web.MockHttpServletResponse
+	Count: 1
+ 
+	Method name: getContentAsString
+	Class origin: org.springframework.mock.web.MockHttpServletResponse
+	Count: 1
+ 
+	Method name: setQueryString
+	Class origin: org.springframework.mock.web.MockHttpServletRequest
+	Count: 1
+ 
+	Method name: getStatus
+	Class origin: org.springframework.mock.web.MockHttpServletResponse
+	Count: 1
+ 
+	Method name: getContentAsString
+	Class origin: org.springframework.mock.web.MockHttpServletResponse
+	Count: 1
+ 
+	Method name: mock
+	Class origin: org.jmock.Mockery
+	Count: 4
+ 
+	Method name: mock
+	Class origin: org.jmock.Mockery
+	Count: 4
+ 
+	Method name: mock
+	Class origin: org.jmock.Mockery
+	Count: 4
+ 
+	Method name: mock
+	Class origin: org.jmock.Mockery
+	Count: 4
+ 
+	Method name: mock
+	Class origin: org.jmock.Mockery
+	Count: 6
+ 
+	Method name: mock
+	Class origin: org.jmock.Mockery
+	Count: 6
+ 
+	Method name: mock
+	Class origin: org.jmock.Mockery
+	Count: 6
+ 
+	Method name: mock
+	Class origin: org.jmock.Mockery
+	Count: 4
+ 
+	Method name: mock
+	Class origin: org.jmock.Mockery
+	Count: 4
+ 
+	Method name: setImposteriser
+	Class origin: org.jmock.Mockery
+	Count: 1
+ 
+	Method name: assertIsSatisfied
+	Class origin: org.jmock.Mockery
+	Count: 9
+ 
+	Method name: mock
+	Class origin: org.jmock.Mockery
+	Count: 19
+ 
+	Method name: getStatus
+	Class origin: org.springframework.mock.web.MockHttpServletResponse
+	Count: 1
+ 
+	Method name: getContentAsString
+	Class origin: org.springframework.mock.web.MockHttpServletResponse
+	Count: 1
+ 
+	Method name: getStatus
+	Class origin: org.springframework.mock.web.MockHttpServletResponse
+	Count: 1
+ 
+	Method name: getContentAsString
+	Class origin: org.springframework.mock.web.MockHttpServletResponse
+	Count: 1
+ 
+	Method name: getStatus
+	Class origin: org.springframework.mock.web.MockHttpServletResponse
+	Count: 1
+ 
+	Method name: getContentAsString
+	Class origin: org.springframework.mock.web.MockHttpServletResponse
+	Count: 1
+ 
+	Method name: getStatus
+	Class origin: org.springframework.mock.web.MockHttpServletResponse
+	Count: 6
+ 
+	Method name: getContentAsString
+	Class origin: org.springframework.mock.web.MockHttpServletResponse
+	Count: 6
+ 
+	Method name: getStatus
+	Class origin: org.springframework.mock.web.MockHttpServletResponse
+	Count: 1
+ 
+	Method name: getContentAsString
+	Class origin: org.springframework.mock.web.MockHttpServletResponse
+	Count: 1
+ 
+	Method name: getStatus
+	Class origin: org.springframework.mock.web.MockHttpServletResponse
+	Count: 2
+ 
+	Method name: getContentAsString
+	Class origin: org.springframework.mock.web.MockHttpServletResponse
+	Count: 2
+ 
+	Method name: setContentType
+	Class origin: org.springframework.mock.web.MockHttpServletRequest
+	Count: 1
+ 
+	Method name: setContent
+	Class origin: org.springframework.mock.web.MockHttpServletRequest
+	Count: 1
+ 
+	Method name: getContentAsString
+	Class origin: org.springframework.mock.web.MockHttpServletResponse
+	Count: 1
+ 
+	Method name: getHeader
+	Class origin: org.springframework.mock.web.MockHttpServletResponse
+	Count: 1
+ 
+	Method name: getContentAsString
+	Class origin: org.springframework.mock.web.MockHttpServletResponse
+	Count: 1
+ 
+	Method name: getStatus
+	Class origin: org.springframework.mock.web.MockHttpServletResponse
+	Count: 2
+ 
+	Method name: getContentAsString
+	Class origin: org.springframework.mock.web.MockHttpServletResponse
+	Count: 2
+ 
+	Method name: getStatus
+	Class origin: org.springframework.mock.web.MockHttpServletResponse
+	Count: 1
+ 
+	Method name: getContentAsByteArray
+	Class origin: org.springframework.mock.web.MockHttpServletResponse
+	Count: 1
+ 
+	Method name: getStatus
+	Class origin: org.springframework.mock.web.MockHttpServletResponse
+	Count: 2
+ 
+	Method name: getContentAsString
+	Class origin: org.springframework.mock.web.MockHttpServletResponse
+	Count: 2
+ 
+	Method name: setContentType
+	Class origin: org.springframework.mock.web.MockHttpServletRequest
+	Count: 1
+ 
+	Method name: setContent
+	Class origin: org.springframework.mock.web.MockHttpServletRequest
+	Count: 1
+ 
+	Method name: getStatus
+	Class origin: org.springframework.mock.web.MockHttpServletResponse
+	Count: 1
+ 
+	Method name: getContentAsString
+	Class origin: org.springframework.mock.web.MockHttpServletResponse
+	Count: 1
+ 
+	Method name: getStatus
+	Class origin: org.springframework.mock.web.MockHttpServletResponse
+	Count: 9
+ 
+	Method name: getContentAsByteArray
+	Class origin: org.springframework.mock.web.MockHttpServletResponse
+	Count: 2
+ 
+	Method name: getStatus
+	Class origin: org.springframework.mock.web.MockHttpServletResponse
+	Count: 4
+ 
+	Method name: getContentAsByteArray
+	Class origin: org.springframework.mock.web.MockHttpServletResponse
+	Count: 2
+ 
+	Method name: getStatus
+	Class origin: org.springframework.mock.web.MockHttpServletResponse
+	Count: 6
+ 
+	Method name: getContentAsString
+	Class origin: org.springframework.mock.web.MockHttpServletResponse
+	Count: 6
+ 
+	Method name: getStatus
+	Class origin: org.springframework.mock.web.MockHttpServletResponse
+	Count: 3
+ 
+	Method name: getContentAsString
+	Class origin: org.springframework.mock.web.MockHttpServletResponse
+	Count: 3
+ 
+	Method name: getStatus
+	Class origin: org.springframework.mock.web.MockHttpServletResponse
+	Count: 2
+ 
+	Method name: getContentAsString
+	Class origin: org.springframework.mock.web.MockHttpServletResponse
+	Count: 2
+ 
+	Method name: setContentType
+	Class origin: org.springframework.mock.web.MockHttpServletRequest
+	Count: 1
+ 
+	Method name: setContent
+	Class origin: org.springframework.mock.web.MockHttpServletRequest
+	Count: 1
+ 
+	Method name: getStatus
+	Class origin: org.springframework.mock.web.MockHttpServletResponse
+	Count: 4
+ 
+	Method name: getContentAsString
+	Class origin: org.springframework.mock.web.MockHttpServletResponse
+	Count: 4
+ 
+	Method name: getStatus
+	Class origin: org.springframework.mock.web.MockHttpServletResponse
+	Count: 1
+ 
+	Method name: getContentAsString
+	Class origin: org.springframework.mock.web.MockHttpServletResponse
+	Count: 1
+ 
+	Method name: mock
+	Class origin: org.jmock.Mockery
+	Count: 1
+ 
+	Method name: checking
+	Class origin: org.jmock.Mockery
+	Count: 1
+ 
+	Method name: allowing
+	Class origin: org.jmock.Expectations
+	Count: 1
+ 
+	Method name: will
+	Class origin: org.jmock.Expectations
+	Count: 1
+ 
+	Method name: returnValue
+	Class origin: org.jmock.Expectations
+	Count: 1
+ 
+	Method name: getStatus
+	Class origin: org.springframework.mock.web.MockHttpServletResponse
+	Count: 1
+ 
+	Method name: getContentAsString
+	Class origin: org.springframework.mock.web.MockHttpServletResponse
+	Count: 1
+ 
+	Method name: getStatus
+	Class origin: org.springframework.mock.web.MockHttpServletResponse
+	Count: 1
+ 
+	Method name: getContentAsString
+	Class origin: org.springframework.mock.web.MockHttpServletResponse
+	Count: 1
+ 
+	Method name: getStatus
+	Class origin: org.springframework.mock.web.MockHttpServletResponse
+	Count: 9
+ 
+	Method name: getContentAsString
+	Class origin: org.springframework.mock.web.MockHttpServletResponse
+	Count: 13
+ 
+	Method name: getStatus
+	Class origin: org.springframework.mock.web.MockHttpServletResponse
+	Count: 1
+ 
+	Method name: getContentAsString
+	Class origin: org.springframework.mock.web.MockHttpServletResponse
+	Count: 1
+ 
+	Method name: getStatus
+	Class origin: org.springframework.mock.web.MockHttpServletResponse
+	Count: 2
+ 
+	Method name: getContentAsString
+	Class origin: org.springframework.mock.web.MockHttpServletResponse
+	Count: 2
+ 
+	Method name: getStatus
+	Class origin: org.springframework.mock.web.MockHttpServletResponse
+	Count: 4
+ 
+	Method name: getContentAsString
+	Class origin: org.springframework.mock.web.MockHttpServletResponse
+	Count: 2
+ 
+	Method name: mock
+	Class origin: org.jmock.Mockery
+	Count: 1
+ 
+	Method name: checking
+	Class origin: org.jmock.Mockery
+	Count: 1
+ 
+	Method name: allowing
+	Class origin: org.jmock.Expectations
+	Count: 1
+ 
+	Method name: will
+	Class origin: org.jmock.Expectations
+	Count: 1
+ 
+	Method name: returnValue
+	Class origin: org.jmock.Expectations
+	Count: 1
+ 
+	Method name: getStatus
+	Class origin: org.springframework.mock.web.MockHttpServletResponse
+	Count: 10
+ 
+	Method name: getContentAsString
+	Class origin: org.springframework.mock.web.MockHttpServletResponse
+	Count: 8
+ 
+	Method name: getStatus
+	Class origin: org.springframework.mock.web.MockHttpServletResponse
+	Count: 6
+ 
+	Method name: getContentAsString
+	Class origin: org.springframework.mock.web.MockHttpServletResponse
+	Count: 6
+ 
+	Method name: getContentAsString
+	Class origin: org.springframework.mock.web.MockHttpServletResponse
+	Count: 1
+ 
+	Method name: getStatus
+	Class origin: org.springframework.mock.web.MockHttpServletResponse
+	Count: 2
+ 
+	Method name: getContentAsString
+	Class origin: org.springframework.mock.web.MockHttpServletResponse
+	Count: 2
+ 
+	Method name: getStatus
+	Class origin: org.springframework.mock.web.MockHttpServletResponse
+	Count: 6
+ 
+	Method name: getContentAsString
+	Class origin: org.springframework.mock.web.MockHttpServletResponse
+	Count: 6
+ 
+	Method name: getContentAsString
+	Class origin: org.springframework.mock.web.MockHttpServletResponse
+	Count: 1
+ 
+	Method name: getStatus
+	Class origin: org.springframework.mock.web.MockHttpServletResponse
+	Count: 1
+ 
+	Method name: getContentAsString
+	Class origin: org.springframework.mock.web.MockHttpServletResponse
+	Count: 1
+ 
+	Method name: getStatus
+	Class origin: org.springframework.mock.web.MockHttpServletResponse
+	Count: 1
+ 
+	Method name: getContentAsString
+	Class origin: org.springframework.mock.web.MockHttpServletResponse
+	Count: 1
+ 
+	Method name: setMethod
+	Class origin: org.springframework.mock.web.MockHttpServletRequest
+	Count: 1
+ 
+	Method name: setRequestURI
+	Class origin: org.springframework.mock.web.MockHttpServletRequest
+	Count: 1
+ 
+	Method name: addHeader
+	Class origin: org.springframework.mock.web.MockHttpServletRequest
+	Count: 1
+ 
+	Method name: getStatus
+	Class origin: org.springframework.mock.web.MockHttpServletResponse
+	Count: 1
+ 
+	Method name: getContentAsString
+	Class origin: org.springframework.mock.web.MockHttpServletResponse
+	Count: 1
+ 
+	Method name: getStatus
+	Class origin: org.springframework.mock.web.MockHttpServletResponse
+	Count: 1
+ 
+	Method name: getContentAsString
+	Class origin: org.springframework.mock.web.MockHttpServletResponse
+	Count: 1
+ 
+	Method name: getStatus
+	Class origin: org.springframework.mock.web.MockHttpServletResponse
+	Count: 1
+ 
+	Method name: getContentAsString
+	Class origin: org.springframework.mock.web.MockHttpServletResponse
+	Count: 1
+ 
+	Method name: setContentType
+	Class origin: org.springframework.mock.web.MockHttpServletRequest
+	Count: 1
+ 
+	Method name: getStatus
+	Class origin: org.springframework.mock.web.MockHttpServletResponse
+	Count: 1
+ 
+	Method name: getContentAsString
+	Class origin: org.springframework.mock.web.MockHttpServletResponse
+	Count: 1
+ 
+	Method name: getStatus
+	Class origin: org.springframework.mock.web.MockHttpServletResponse
+	Count: 2
+ 
+	Method name: getStatus
+	Class origin: org.springframework.mock.web.MockHttpServletResponse
+	Count: 2
+ 
+	Method name: getContentType
+	Class origin: org.springframework.mock.web.MockHttpServletResponse
+	Count: 1
+ 
+	Method name: setCharacterEncoding
+	Class origin: org.springframework.mock.web.MockHttpServletResponse
+	Count: 1
+ 
+	Method name: getContentAsString
+	Class origin: org.springframework.mock.web.MockHttpServletResponse
+	Count: 1
+ 
+	Method name: getStatus
+	Class origin: org.springframework.mock.web.MockHttpServletResponse
+	Count: 2
+ 
+	Method name: getStatus
+	Class origin: org.springframework.mock.web.MockHttpServletResponse
+	Count: 4
+ 
+	Method name: setQueryString
+	Class origin: org.springframework.mock.web.MockHttpServletRequest
+	Count: 1
+ 
+	Method name: setContent
+	Class origin: org.springframework.mock.web.MockHttpServletRequest
+	Count: 1
+ 
+	Method name: setContentType
+	Class origin: org.springframework.mock.web.MockHttpServletRequest
+	Count: 1
+ 
+	Method name: addHeader
+	Class origin: org.springframework.mock.web.MockHttpServletRequest
+	Count: 1
+ 
+	Method name: getStatus
+	Class origin: org.springframework.mock.web.MockHttpServletResponse
+	Count: 1
+ 
+	Method name: getStatus
+	Class origin: org.springframework.mock.web.MockHttpServletResponse
+	Count: 12
+ 
+	Method name: getStatus
+	Class origin: org.springframework.mock.web.MockHttpServletResponse
+	Count: 2
+ 
+	Method name: getStatus
+	Class origin: org.springframework.mock.web.MockHttpServletResponse
+	Count: 2
+ 
+	Method name: getContentAsString
+	Class origin: org.springframework.mock.web.MockHttpServletResponse
+	Count: 2
+ 
+	Method name: setQueryString
+	Class origin: org.springframework.mock.web.MockHttpServletRequest
+	Count: 5
+ 
+	Method name: getStatus
+	Class origin: org.springframework.mock.web.MockHttpServletResponse
+	Count: 5
+ 
+	Method name: getContentAsString
+	Class origin: org.springframework.mock.web.MockHttpServletResponse
+	Count: 5
+ 
+	Method name: getStatus
+	Class origin: org.springframework.mock.web.MockHttpServletResponse
+	Count: 2
+ 
+	Method name: getStatus
+	Class origin: org.springframework.mock.web.MockHttpServletResponse
+	Count: 3
+ 
+	Method name: getContentAsString
+	Class origin: org.springframework.mock.web.MockHttpServletResponse
+	Count: 3
+ 
+	Method name: getStatus
+	Class origin: org.springframework.mock.web.MockHttpServletResponse
+	Count: 1
+ 
+	Method name: getContentAsString
+	Class origin: org.springframework.mock.web.MockHttpServletResponse
+	Count: 1
+ 
+	Method name: addHeader
+	Class origin: org.springframework.mock.web.MockHttpServletRequest
+	Count: 1
+ 
+	Method name: getStatus
+	Class origin: org.springframework.mock.web.MockHttpServletResponse
+	Count: 1
+ 
+	Method name: getContentAsString
+	Class origin: org.springframework.mock.web.MockHttpServletResponse
+	Count: 1
+ 
+	Method name: getContentAsString
+	Class origin: org.springframework.mock.web.MockHttpServletResponse
+	Count: 1
+ 
+	Method name: getStatus
+	Class origin: org.springframework.mock.web.MockHttpServletResponse
+	Count: 1
+ 
+	Method name: setAttribute
+	Class origin: org.springframework.mock.web.MockServletContext
+	Count: 1
+ 
+	Method name: addInitParameter
+	Class origin: org.springframework.mock.web.MockServletConfig
+	Count: 3
+ 
+	Method name: getStatus
+	Class origin: org.springframework.mock.web.MockHttpServletResponse
+	Count: 1
+ 
+	Method name: getContentAsString
+	Class origin: org.springframework.mock.web.MockHttpServletResponse
+	Count: 1
+ 
+	Method name: getStatus
+	Class origin: org.springframework.mock.web.MockHttpServletResponse
+	Count: 6
+ 
+	Method name: getContentAsString
+	Class origin: org.springframework.mock.web.MockHttpServletResponse
+	Count: 4
+ 
+	Method name: getStatus
+	Class origin: org.springframework.mock.web.MockHttpServletResponse
+	Count: 6
+ 
+	Method name: getStatus
+	Class origin: org.springframework.mock.web.MockHttpServletResponse
+	Count: 6
+ 
+	Method name: getContentAsString
+	Class origin: org.springframework.mock.web.MockHttpServletResponse
+	Count: 6
+ 
+	Method name: getStatus
+	Class origin: org.springframework.mock.web.MockHttpServletResponse
+	Count: 2
+ 
+	Method name: getContentAsString
+	Class origin: org.springframework.mock.web.MockHttpServletResponse
+	Count: 2
+ 
+	Method name: getStatus
+	Class origin: org.springframework.mock.web.MockHttpServletResponse
+	Count: 1
+ 
+	Method name: getContentAsString
+	Class origin: org.springframework.mock.web.MockHttpServletResponse
+	Count: 1
+ 
+	Method name: getStatus
+	Class origin: org.springframework.mock.web.MockHttpServletResponse
+	Count: 28
+ 
+	Method name: getStatus
+	Class origin: org.springframework.mock.web.MockHttpServletResponse
+	Count: 1
+ 
+	Method name: getContentAsString
+	Class origin: org.springframework.mock.web.MockHttpServletResponse
+	Count: 1
+ 
+	Method name: getStatus
+	Class origin: org.springframework.mock.web.MockHttpServletResponse
+	Count: 2
+ 
+	Method name: getContentAsString
+	Class origin: org.springframework.mock.web.MockHttpServletResponse
+	Count: 2
+ 
+	Method name: getStatus
+	Class origin: org.springframework.mock.web.MockHttpServletResponse
+	Count: 2
+ 
+	Method name: getContentAsByteArray
+	Class origin: org.springframework.mock.web.MockHttpServletResponse
+	Count: 2
+ 
+	Method name: setContentType
+	Class origin: org.springframework.mock.web.MockHttpServletRequest
+	Count: 1
+ 
+	Method name: setContent
+	Class origin: org.springframework.mock.web.MockHttpServletRequest
+	Count: 1
+ 
+	Method name: getStatus
+	Class origin: org.springframework.mock.web.MockHttpServletResponse
+	Count: 1
+ 
+	Method name: setMethod
+	Class origin: org.springframework.mock.web.MockHttpServletRequest
+	Count: 4
+ 
+	Method name: setRequestURI
+	Class origin: org.springframework.mock.web.MockHttpServletRequest
+	Count: 4
+ 
+	Method name: setContentType
+	Class origin: org.springframework.mock.web.MockHttpServletRequest
+	Count: 2
+ 
+	Method name: addHeader
+	Class origin: org.springframework.mock.web.MockHttpServletRequest
+	Count: 1
+ 
+	Method name: setContent
+	Class origin: org.springframework.mock.web.MockHttpServletRequest
+	Count: 2
+ 
+	Method name: getStatus
+	Class origin: org.springframework.mock.web.MockHttpServletResponse
+	Count: 4
+ 
+	Method name: getContentType
+	Class origin: org.springframework.mock.web.MockHttpServletResponse
+	Count: 2
+ 
+	Method name: getContentAsString
+	Class origin: org.springframework.mock.web.MockHttpServletResponse
+	Count: 2
+ 

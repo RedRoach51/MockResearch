@@ -1,0 +1,193 @@
+Project Name,File Path,Mocking Framework,Imported Mock Line
+mina-vysper,mina-vysper\server\admin-console\src\test\java\org\apache\vysper\console\AdminConsoleControllerTest.java,mockito,org.mockito.Mockito
+mina-vysper,mina-vysper\server\admin-console\src\test\java\org\apache\vysper\console\AdminConsoleControllerTest.java,mockito,static org.mockito.Mockito.mock
+mina-vysper,mina-vysper\server\core\src\test\java\org\apache\vysper\mina\codec\StanzaWriterProtocolEncoderTestCase.java,mockito,org.mockito.ArgumentCaptor
+mina-vysper,mina-vysper\server\core\src\test\java\org\apache\vysper\mina\codec\StanzaWriterProtocolEncoderTestCase.java,mockito,org.mockito.Mockito
+mina-vysper,mina-vysper\server\core\src\test\java\org\apache\vysper\xmpp\delivery\StanzaRelayBrokerTestCase.java,mockito,org.mockito.Mockito
+mina-vysper,mina-vysper\server\core\src\test\java\org\apache\vysper\xmpp\delivery\failure\NoSuchLocalUserExceptionTestCase.java,mockito,org.mockito.Mockito
+mina-vysper,mina-vysper\server\core\src\test\java\org\apache\vysper\xmpp\delivery\failure\ReturnErrorToSenderFailureStrategyTestCase.java,mockito,org.mockito.ArgumentCaptor
+mina-vysper,mina-vysper\server\core\src\test\java\org\apache\vysper\xmpp\delivery\failure\ReturnErrorToSenderFailureStrategyTestCase.java,mockito,org.mockito.Mockito
+mina-vysper,mina-vysper\server\core\src\test\java\org\apache\vysper\xmpp\delivery\inbound\DeliveringExternalInboundStanzaRelayTestCase.java,mockito,org.mockito.ArgumentCaptor
+mina-vysper,mina-vysper\server\core\src\test\java\org\apache\vysper\xmpp\delivery\inbound\DeliveringExternalInboundStanzaRelayTestCase.java,mockito,org.mockito.Mockito
+mina-vysper,mina-vysper\server\core\src\test\java\org\apache\vysper\xmpp\delivery\inbound\DeliveringExternalInboundStanzaRelayTestCase.java,mockito,static org.mockito.Mockito.mock
+mina-vysper,mina-vysper\server\core\src\test\java\org\apache\vysper\xmpp\delivery\inbound\DeliveringInteralInboundStanzaRelayTestCase.java,mockito,static org.mockito.Mockito.mock
+mina-vysper,mina-vysper\server\core\src\test\java\org\apache\vysper\xmpp\modules\DefaultDiscoAwareModuleTestCase.java,mockito,org.mockito.Mockito
+mina-vysper,mina-vysper\server\core\src\test\java\org\apache\vysper\xmpp\modules\core\bind\handler\BindIQHandlerTestCase.java,mockito,org.mockito.Mockito
+mina-vysper,mina-vysper\server\core\src\test\java\org\apache\vysper\xmpp\modules\core\compatibility\jabber_iq_auth\handler\AuthCompatibilityIQHandlerTestCase.java,mockito,static org.mockito.Mockito.mock
+mina-vysper,mina-vysper\server\core\src\test\java\org\apache\vysper\xmpp\modules\core\session\handler\SessionIQHandlerTestCase.java,mockito,org.mockito.Mockito
+mina-vysper,mina-vysper\server\core\src\test\java\org\apache\vysper\xmpp\modules\extension\xep0049_privatedata\PrivateDataIQHandlerTestCase.java,mockito,org.mockito.Mockito
+mina-vysper,mina-vysper\server\core\src\test\java\org\apache\vysper\xmpp\modules\extension\xep0054_vcardtemp\VcardTempIQHandlerTestCase.java,mockito,static org.mockito.Mockito.mock
+mina-vysper,mina-vysper\server\core\src\test\java\org\apache\vysper\xmpp\modules\extension\xep0054_vcardtemp\VcardTempIQHandlerTestCase.java,mockito,static org.mockito.Mockito.verify
+mina-vysper,mina-vysper\server\core\src\test\java\org\apache\vysper\xmpp\modules\extension\xep0054_vcardtemp\VcardTempIQHandlerTestCase.java,mockito,org.mockito.Mockito
+mina-vysper,mina-vysper\server\core\src\test\java\org\apache\vysper\xmpp\modules\extension\xep007_inbandreg\InBandRegistrationHandlerTestCase.java,mockito,org.mockito.Mockito
+mina-vysper,mina-vysper\server\core\src\test\java\org\apache\vysper\xmpp\modules\extension\xep0092_software_version\SoftwareVersionIQHandlerTestCase.java,mockito,org.mockito.Mockito
+mina-vysper,mina-vysper\server\core\src\test\java\org\apache\vysper\xmpp\modules\extension\xep0199_xmppping\XmppPingIQHandlerTestCase.java,mockito,org.mockito.Mockito
+mina-vysper,mina-vysper\server\core\src\test\java\org\apache\vysper\xmpp\modules\extension\xep0199_xmppping\XmppPingerTestCase.java,mockito,org.mockito.ArgumentCaptor
+mina-vysper,mina-vysper\server\core\src\test\java\org\apache\vysper\xmpp\modules\extension\xep0199_xmppping\XmppPingerTestCase.java,mockito,org.mockito.Mockito
+mina-vysper,mina-vysper\server\core\src\test\java\org\apache\vysper\xmpp\modules\extension\xep0202_entity_time\EntityTimeIQHandlerTestCase.java,mockito,org.mockito.Mockito
+mina-vysper,mina-vysper\server\core\src\test\java\org\apache\vysper\xmpp\modules\extension\xep0202_entity_time\EntityTimeXEP0090IQHandlerTestCase.java,mockito,org.mockito.Mockito
+mina-vysper,mina-vysper\server\core\src\test\java\org\apache\vysper\xmpp\modules\extension\xep0220_server_dailback\DbVerifyHandlerTestCase.java,mockito,org.mockito.Mockito
+mina-vysper,mina-vysper\server\core\src\test\java\org\apache\vysper\xmpp\modules\roster\handler\RosterIQHandlerTestCase.java,mockito,static org.mockito.Mockito.mock
+mina-vysper,mina-vysper\server\core\src\test\java\org\apache\vysper\xmpp\modules\servicediscovery\handler\DiscoInfoIQHandlerTestCase.java,mockito,org.mockito.Mockito
+mina-vysper,mina-vysper\server\core\src\test\java\org\apache\vysper\xmpp\modules\servicediscovery\handler\ExtendedDiscoInfoTestCase.java,mockito,static org.mockito.Mockito.mock
+mina-vysper,mina-vysper\server\core\src\test\java\org\apache\vysper\xmpp\protocol\SimpleStanzaHandlerInterceptorChainTest.java,mockito,static org.mockito.Mockito.mock
+mina-vysper,mina-vysper\server\core\src\test\java\org\apache\vysper\xmpp\protocol\SimpleStanzaHandlerInterceptorChainTest.java,mockito,static org.mockito.Mockito.verify
+mina-vysper,mina-vysper\server\core\src\test\java\org\apache\vysper\xmpp\server\DefaultServerRuntimeContextEventListenerTest.java,mockito,static org.mockito.Mockito.mock
+mina-vysper,mina-vysper\server\core\src\test\java\org\apache\vysper\xmpp\server\components\ComponentStanzaProcessorTestCase.java,mockito,static org.mockito.Mockito.doThrow
+mina-vysper,mina-vysper\server\core\src\test\java\org\apache\vysper\xmpp\server\components\ComponentStanzaProcessorTestCase.java,mockito,static org.mockito.Mockito.mock
+mina-vysper,mina-vysper\server\core\src\test\java\org\apache\vysper\xmpp\server\components\ComponentStanzaProcessorTestCase.java,mockito,static org.mockito.Mockito.verify
+mina-vysper,mina-vysper\server\core\src\test\java\org\apache\vysper\xmpp\server\components\ComponentStanzaProcessorTestCase.java,mockito,static org.mockito.Mockito.when
+mina-vysper,mina-vysper\server\core\src\test\java\org\apache\vysper\xmpp\server\response\ServerResponsesTestCase.java,mockito,org.mockito.Mockito
+mina-vysper,mina-vysper\server\core\src\test\java\org\apache\vysper\xmpp\server\s2s\DefaultXMPPServerConnectorRegistryTestCase.java,mockito,org.mockito.Mockito
+mina-vysper,mina-vysper\server\core\src\test\java\org\apache\vysper\xmpp\server\s2s\FeaturesHandlerTestCase.java,mockito,static org.mockito.Mockito.mock
+mina-vysper,mina-vysper\server\core\src\test\java\org\apache\vysper\xmpp\server\s2s\FeaturesHandlerTestCase.java,mockito,org.mockito.Mockito
+mina-vysper,mina-vysper\server\core\src\test\java\org\apache\vysper\xmpp\server\s2s\TlsProceedHandlerTestCase.java,mockito,org.mockito.Mockito
+mina-vysper,mina-vysper\server\core\src\test\java\org\apache\vysper\xmpp\state\presence\LatestPresenceCacheTestCase.java,mockito,static org.mockito.Mockito.mock
+mina-vysper,mina-vysper\server\extensions\websockets\src\test\java\org\apache\vysper\xmpp\extension\websockets\JettyXmppWebSocketServletTest.java,mockito,org.mockito.Mockito
+mina-vysper,mina-vysper\server\extensions\websockets\src\test\java\org\apache\vysper\xmpp\extension\websockets\JettyXmppWebSocketTest.java,mockito,org.mockito.Mockito
+mina-vysper,mina-vysper\server\extensions\websockets\src\test\java\org\apache\vysper\xmpp\extension\websockets\TomcatXmppWebSocketServletTest.java,mockito,org.mockito.Mockito
+mina-vysper,mina-vysper\server\extensions\websockets\src\test\java\org\apache\vysper\xmpp\extension\websockets\TomcatXmppWebSocketTest.java,mockito,org.mockito.Mockito
+mina-vysper,mina-vysper\server\extensions\xep0045-muc\src\test\java\org\apache\vysper\xmpp\modules\extension\xep0045_muc\AbstractDiscoTestCase.java,mockito,static org.mockito.Mockito.mock
+mina-vysper,mina-vysper\server\extensions\xep0065-socks\src\test\java\org\apache\vysper\xmpp\extension\xep0065_socks\DefaultSocks5ConnectionsRegistryTest.java,mockito,org.mockito.Mockito
+mina-vysper,mina-vysper\server\extensions\xep0065-socks\src\test\java\org\apache\vysper\xmpp\extension\xep0065_socks\InitiatingPacketTest.java,mockito,org.mockito.Mockito
+mina-vysper,mina-vysper\server\extensions\xep0065-socks\src\test\java\org\apache\vysper\xmpp\extension\xep0065_socks\OpeningPackageTest.java,mockito,org.mockito.Mockito
+mina-vysper,mina-vysper\server\extensions\xep0065-socks\src\test\java\org\apache\vysper\xmpp\extension\xep0065_socks\Socks5AcceptorHandlerTest.java,mockito,org.mockito.Mockito
+mina-vysper,mina-vysper\server\extensions\xep0065-socks\src\test\java\org\apache\vysper\xmpp\extension\xep0065_socks\Socks5IqHandlerTest.java,mockito,org.mockito.Mockito
+mina-vysper,mina-vysper\server\extensions\xep0065-socks\src\test\java\org\apache\vysper\xmpp\extension\xep0065_socks\Socks5ModuleTest.java,mockito,org.mockito.Mockito
+mina-vysper,mina-vysper\server\extensions\xep0065-socks\src\test\java\org\apache\vysper\xmpp\extension\xep0065_socks\Socks5PairTest.java,mockito,org.mockito.Mockito
+mina-vysper,mina-vysper\server\extensions\xep0124-xep0206-bosh\src\test\java\org\apache\vysper\xmpp\extension\xep0124\BoshBackedSessionContextTest.java,easymock,static org.easymock.EasyMock.*
+mina-vysper,mina-vysper\server\extensions\xep0124-xep0206-bosh\src\test\java\org\apache\vysper\xmpp\extension\xep0124\BoshBackedSessionContextTest.java,easymock,org.easymock.Capture
+mina-vysper,mina-vysper\server\extensions\xep0124-xep0206-bosh\src\test\java\org\apache\vysper\xmpp\extension\xep0124\BoshBackedSessionContextTest.java,easymock,org.easymock.EasyMock
+mina-vysper,mina-vysper\server\extensions\xep0124-xep0206-bosh\src\test\java\org\apache\vysper\xmpp\extension\xep0124\BoshBackedSessionContextTest.java,easymock,org.easymock.IMocksControl
+mina-vysper,mina-vysper\server\extensions\xep0124-xep0206-bosh\src\test\java\org\apache\vysper\xmpp\extension\xep0124\BoshDecoderTest.java,easymock,static org.easymock.EasyMock.createStrictControl
+mina-vysper,mina-vysper\server\extensions\xep0124-xep0206-bosh\src\test\java\org\apache\vysper\xmpp\extension\xep0124\BoshDecoderTest.java,easymock,static org.easymock.EasyMock.expect
+mina-vysper,mina-vysper\server\extensions\xep0124-xep0206-bosh\src\test\java\org\apache\vysper\xmpp\extension\xep0124\BoshDecoderTest.java,easymock,org.easymock.Capture
+mina-vysper,mina-vysper\server\extensions\xep0124-xep0206-bosh\src\test\java\org\apache\vysper\xmpp\extension\xep0124\BoshDecoderTest.java,easymock,org.easymock.EasyMock
+mina-vysper,mina-vysper\server\extensions\xep0124-xep0206-bosh\src\test\java\org\apache\vysper\xmpp\extension\xep0124\BoshDecoderTest.java,easymock,org.easymock.IMocksControl
+mina-vysper,mina-vysper\server\extensions\xep0124-xep0206-bosh\src\test\java\org\apache\vysper\xmpp\extension\xep0124\BoshHandlerTest.java,easymock,static org.easymock.EasyMock.*
+mina-vysper,mina-vysper\server\extensions\xep0124-xep0206-bosh\src\test\java\org\apache\vysper\xmpp\extension\xep0124\BoshHandlerTest.java,easymock,org.easymock.Capture
+mina-vysper,mina-vysper\server\extensions\xep0124-xep0206-bosh\src\test\java\org\apache\vysper\xmpp\extension\xep0124\BoshHandlerTest.java,easymock,org.easymock.EasyMock
+mina-vysper,mina-vysper\server\extensions\xep0124-xep0206-bosh\src\test\java\org\apache\vysper\xmpp\extension\xep0124\BoshHandlerTest.java,easymock,org.easymock.IMocksControl
+mina-vysper,mina-vysper\server\extensions\xep0313-mam\src\test\java\org\apache\vysper\xmpp\modules\extension\xep0313_mam\ServerRuntimeContextMock.java,mockito,static org.mockito.Mockito.mock
+mina-vysper,mina-vysper\server\extensions\xep0313-mam\src\test\java\org\apache\vysper\xmpp\modules\extension\xep0313_mam\in_memory\InMemoryEntityFilterTest.java,mockito,static org.mockito.Mockito.mock
+mina-vysper,mina-vysper\server\extensions\xep0313-mam\src\test\java\org\apache\vysper\xmpp\modules\extension\xep0313_mam\in_memory\InMemoryEntityFilterTest.java,mockito,static org.mockito.Mockito.when
+mina-vysper,mina-vysper\server\extensions\xep0313-mam\src\test\java\org\apache\vysper\xmpp\modules\extension\xep0313_mam\in_memory\InMemoryPageLimitedArchivedMessagesTest.java,mockito,static org.mockito.Mockito.mock
+mina-vysper,mina-vysper\server\extensions\xep0313-mam\src\test\java\org\apache\vysper\xmpp\modules\extension\xep0313_mam\in_memory\InMemoryPageLimitedArchivedMessagesTest.java,mockito,static org.mockito.Mockito.when
+mina-vysper,mina-vysper\server\extensions\xep0313-mam\src\test\java\org\apache\vysper\xmpp\modules\extension\xep0313_mam\interceptor\MAMStanzaHandlerInterceptorTest.java,mockito,static org.mockito.Mockito.mock
+mina-vysper,mina-vysper\server\extensions\xep0313-mam\src\test\java\org\apache\vysper\xmpp\modules\extension\xep0313_mam\interceptor\MAMStanzaHandlerInterceptorTest.java,mockito,static org.mockito.Mockito.verify
+mina-vysper,mina-vysper\server\extensions\xep0313-mam\src\test\java\org\apache\vysper\xmpp\modules\extension\xep0313_mam\query\ArchiveQueryTest.java,mockito,static org.mockito.Matchers.any
+mina-vysper,mina-vysper\server\extensions\xep0313-mam\src\test\java\org\apache\vysper\xmpp\modules\extension\xep0313_mam\query\ArchiveQueryTest.java,mockito,static org.mockito.Mockito.mock
+mina-vysper,mina-vysper\server\extensions\xep0313-mam\src\test\java\org\apache\vysper\xmpp\modules\extension\xep0313_mam\query\ArchiveQueryTest.java,mockito,static org.mockito.Mockito.when
+mina-vysper,mina-vysper\server\extensions\xep0313-mam\src\test\java\org\apache\vysper\xmpp\modules\extension\xep0313_mam\query\MAMIQHandlerTest.java,mockito,static org.mockito.Matchers.any
+mina-vysper,mina-vysper\server\extensions\xep0313-mam\src\test\java\org\apache\vysper\xmpp\modules\extension\xep0313_mam\query\MAMIQHandlerTest.java,mockito,static org.mockito.Mockito.mock
+mina-vysper,mina-vysper\server\extensions\xep0313-mam\src\test\java\org\apache\vysper\xmpp\modules\extension\xep0313_mam\query\MAMIQHandlerTest.java,mockito,static org.mockito.Mockito.never
+mina-vysper,mina-vysper\server\extensions\xep0313-mam\src\test\java\org\apache\vysper\xmpp\modules\extension\xep0313_mam\query\MAMIQHandlerTest.java,mockito,static org.mockito.Mockito.verify
+mina-vysper,mina-vysper\server\extensions\xep0313-mam\src\test\java\org\apache\vysper\xmpp\modules\extension\xep0313_mam\query\MAMIQHandlerTest.java,mockito,static org.mockito.Mockito.when
+mina-vysper,mina-vysper\server\extensions\xep0313-mam\src\test\java\org\apache\vysper\xmpp\modules\extension\xep0313_mam\user\UserMessageStanzaBrokerTest.java,mockito,static org.mockito.Mockito.mock
+tomcat,tomcat\test\org\apache\catalina\core\TestApplicationContextFacadeSecurityManager.java,easymock,org.easymock.EasyMock
+tomcat,tomcat\test\org\apache\catalina\core\TestApplicationContextFacadeSecurityManager.java,easymock,org.easymock.IExpectationSetters
+tomcat,tomcat\test\org\apache\catalina\core\TestApplicationContextFacadeSecurityManager.java,easymock,org.easymock.internal.LastControl
+tomcat,tomcat\test\org\apache\catalina\core\TestAsyncContextImpl.java,easymock,org.easymock.EasyMock
+tomcat,tomcat\test\org\apache\catalina\filters\TestRestCsrfPreventionFilter.java,easymock,org.easymock.EasyMock
+tomcat,tomcat\test\org\apache\catalina\realm\TestJNDIRealm.java,easymock,org.easymock.EasyMock
+tomcat,tomcat\test\org\apache\catalina\session\TestPersistentManager.java,easymock,org.easymock.EasyMock
+tomcat,tomcat\test\org\apache\catalina\session\TestPersistentManager.java,easymock,org.easymock.IAnswer
+tomcat,tomcat\test\org\apache\catalina\startup\TestWebappServiceLoader.java,easymock,org.easymock.EasyMock
+tomcat,tomcat\test\org\apache\catalina\startup\TestWebappServiceLoader.java,easymock,org.easymock.IMocksControl
+tomcat,tomcat\test\org\apache\catalina\valves\TestCrawlerSessionManagerValve.java,easymock,org.easymock.EasyMock
+tomcat,tomcat\test\org\apache\catalina\valves\TestCrawlerSessionManagerValve.java,easymock,org.easymock.IExpectationSetters
+tomcat,tomcat\test\org\apache\catalina\valves\TestLoadBalancerDrainingValve.java,easymock,org.easymock.EasyMock
+tomcat,tomcat\test\org\apache\catalina\valves\TestLoadBalancerDrainingValve.java,easymock,org.easymock.IMocksControl
+tomcat,tomcat\test\org\apache\catalina\valves\TestSSLValve.java,easymock,org.easymock.EasyMock
+tomcat,tomcat\test\org\apache\coyote\TestRequest.java,easymock,org.easymock.EasyMock
+tomcat,tomcat\test\org\apache\jasper\servlet\TestTldScanner.java,easymock,org.easymock.EasyMock
+tomee,tomee\arquillian\arquillian-openejb-embedded\src\test\java\org\apache\openejb\arquillian\openejb\ArquillianAndMockitoTest.java,mockito,org.mockito.Mock
+tomee,tomee\arquillian\arquillian-tomee-tests\arquillian-tomee-webprofile-tests\src\test\java\org\apache\openejb\arquillian\tests\realm\CdiEventRealmTest.java,mockito,static org.mockito.Mockito.mock
+tomee,tomee\arquillian\arquillian-tomee-tests\arquillian-tomee-webprofile-tests\src\test\java\org\apache\openejb\arquillian\tests\realm\CdiEventRealmTest.java,mockito,static org.mockito.Mockito.when
+tomee,tomee\examples\rest-applicationcomposer-mockito\src\test\java\org\superbiz\composed\rest\GreetingServiceTest.java,mockito,org.mockito.Mock
+tomee,tomee\examples\rest-applicationcomposer-mockito\src\test\java\org\superbiz\composed\rest\GreetingServiceTest.java,mockito,static org.mockito.Mockito.when
+tomee,tomee\server\openejb-ejbd\src\test\java\org\apache\openejb\server\ejbd\BasicClusterableRequestHandlerTest.java,agical,com.agical.rmock.core.describe.ExpressionDescriber
+tomee,tomee\server\openejb-ejbd\src\test\java\org\apache\openejb\server\ejbd\BasicClusterableRequestHandlerTest.java,agical,com.agical.rmock.core.match.operator.AbstractExpression
+tomee,tomee\server\openejb-ejbd\src\test\java\org\apache\openejb\server\ejbd\BasicClusterableRequestHandlerTest.java,agical,com.agical.rmock.extension.junit.RMockTestCase
+tomee,tomee\tck\microprofile-tck\opentracing\src\test\java\org.apache.tomee.microprofile.tck.opentracing\MicroProfileOpenTracingTCKDeploymentPackager.java,opentracing,io.opentracing.mock.MockTracer
+tomee,tomee\tck\microprofile-tck\opentracing\src\test\java\org.apache.tomee.microprofile.tck.opentracing\MicroProfileOpenTracingTCKTracer.java,opentracing,io.opentracing.mock.MockTracer
+tomee,tomee\tomee\tomee-webapp\src\test\java\org\apache\tomee\webapp\installer\test\RunnerTest.java,easymock,org.easymock.EasyMock
+tomee,tomee\utils\openejb-mockito\src\test\java\org\apache\openejb\mockito\MockitoAndAppComposerClassLevelTest.java,mockito,org.mockito.Mock
+tomee,tomee\utils\openejb-mockito\src\test\java\org\apache\openejb\mockito\MockitoAndAppComposerClassLevelTest.java,mockito,static org.mockito.Mockito.when
+tomee,tomee\utils\openejb-mockito\src\test\java\org\apache\openejb\mockito\MockitoAndAppComposerTest.java,mockito,org.mockito.Mock
+tomee,tomee\utils\openejb-mockito\src\test\java\org\apache\openejb\mockito\MockitoAndAppComposerTest.java,mockito,static org.mockito.Mockito.when
+turbine-core,turbine-core\src\test\org\apache\turbine\TurbineTest.java,mockito,org.mockito.Mockito
+turbine-core,turbine-core\src\test\org\apache\turbine\annotation\AnnotationProcessorTest.java,mockito,static org.mockito.Mockito.mock
+turbine-core,turbine-core\src\test\org\apache\turbine\annotation\AnnotationProcessorTest.java,mockito,static org.mockito.Mockito.when
+turbine-core,turbine-core\src\test\org\apache\turbine\modules\ActionLoaderTest.java,mockito,static org.mockito.Mockito.mock
+turbine-core,turbine-core\src\test\org\apache\turbine\modules\ActionLoaderTest.java,mockito,static org.mockito.Mockito.when
+turbine-core,turbine-core\src\test\org\apache\turbine\modules\LayoutLoaderTest.java,mockito,static org.mockito.Mockito.mock
+turbine-core,turbine-core\src\test\org\apache\turbine\pipeline\DefaultACLCreationValveTest.java,mockito,static org.mockito.Mockito.mock
+turbine-core,turbine-core\src\test\org\apache\turbine\pipeline\DefaultLoginValveTest.java,mockito,static org.mockito.Mockito.mock
+turbine-core,turbine-core\src\test\org\apache\turbine\pipeline\DefaultLoginValveTest.java,mockito,static org.mockito.Mockito.when
+turbine-core,turbine-core\src\test\org\apache\turbine\pipeline\DefaultSessionTimeoutValveTest.java,mockito,static org.mockito.Mockito.mock
+turbine-core,turbine-core\src\test\org\apache\turbine\pipeline\DefaultSessionTimeoutValveTest.java,mockito,static org.mockito.Mockito.when
+turbine-core,turbine-core\src\test\org\apache\turbine\pipeline\DefaultSessionValidationValveTest.java,mockito,static org.mockito.Mockito.mock
+turbine-core,turbine-core\src\test\org\apache\turbine\pipeline\DefaultSessionValidationValveTest.java,mockito,static org.mockito.Mockito.when
+turbine-core,turbine-core\src\test\org\apache\turbine\pipeline\DefaultSetEncodingValveTest.java,mockito,static org.mockito.Mockito.mock
+turbine-core,turbine-core\src\test\org\apache\turbine\pipeline\DefaultSetEncodingValveTest.java,mockito,static org.mockito.Mockito.when
+turbine-core,turbine-core\src\test\org\apache\turbine\pipeline\DetermineActionValveTest.java,mockito,static org.mockito.Mockito.mock
+turbine-core,turbine-core\src\test\org\apache\turbine\pipeline\DetermineActionValveTest.java,mockito,static org.mockito.Mockito.when
+turbine-core,turbine-core\src\test\org\apache\turbine\pipeline\DetermineTargetValveTest.java,mockito,static org.mockito.Mockito.mock
+turbine-core,turbine-core\src\test\org\apache\turbine\pipeline\DetermineTargetValveTest.java,mockito,static org.mockito.Mockito.when
+turbine-core,turbine-core\src\test\org\apache\turbine\pipeline\ExecutePageValveTest.java,mockito,static org.mockito.Mockito.mock
+turbine-core,turbine-core\src\test\org\apache\turbine\pipeline\ExecutePageValveTest.java,mockito,static org.mockito.Mockito.when
+turbine-core,turbine-core\src\test\org\apache\turbine\services\intake\IntakeToolTest.java,mockito,static org.mockito.Mockito.mock
+turbine-core,turbine-core\src\test\org\apache\turbine\services\localization\LocalizationToolTest.java,mockito,static org.mockito.Mockito.mock
+turbine-core,turbine-core\src\test\org\apache\turbine\services\urlmapper\TurbineURLMapperJSONServiceTest.java,mockito,static org.mockito.Mockito.mock
+turbine-core,turbine-core\src\test\org\apache\turbine\services\urlmapper\TurbineURLMapperJSONServiceTest.java,mockito,org.mockito.Mockito
+turbine-core,turbine-core\src\test\org\apache\turbine\services\urlmapper\TurbineURLMapperServiceTest.java,mockito,org.mockito.Mockito
+turbine-core,turbine-core\src\test\org\apache\turbine\services\urlmapper\TurbineURLMapperYAMLServiceTest.java,mockito,static org.mockito.Mockito.mock
+turbine-core,turbine-core\src\test\org\apache\turbine\services\urlmapper\TurbineURLMapperYAMLServiceTest.java,mockito,org.mockito.Mockito
+turbine-core,turbine-core\src\test\org\apache\turbine\test\BaseTestCase.java,mockito,static org.mockito.ArgumentMatchers.any
+turbine-core,turbine-core\src\test\org\apache\turbine\test\BaseTestCase.java,mockito,static org.mockito.ArgumentMatchers.anyInt
+turbine-core,turbine-core\src\test\org\apache\turbine\test\BaseTestCase.java,mockito,static org.mockito.ArgumentMatchers.anyString
+turbine-core,turbine-core\src\test\org\apache\turbine\test\BaseTestCase.java,mockito,static org.mockito.Mockito.doAnswer
+turbine-core,turbine-core\src\test\org\apache\turbine\test\BaseTestCase.java,mockito,static org.mockito.Mockito.mock
+turbine-core,turbine-core\src\test\org\apache\turbine\test\BaseTestCase.java,mockito,static org.mockito.Mockito.when
+turbine-core,turbine-core\src\test\org\apache\turbine\util\uri\TurbineURITest.java,mockito,org.mockito.Mockito
+tuscany-sca-2.x,tuscany-sca-2.x\testing\itest\jms\ttl\src\test\java\org\apache\tuscany\sca\binding\jms\TTLTestCase.java,itest,itest.MockInitialContextFactory
+whirr,whirr\cli\src\test\java\org\apache\whirr\cli\MainTest.java,mockito,static org.mockito.Mockito.mock
+whirr,whirr\cli\src\test\java\org\apache\whirr\cli\MainTest.java,mockito,static org.mockito.Mockito.verify
+whirr,whirr\cli\src\test\java\org\apache\whirr\cli\MainTest.java,mockito,static org.mockito.Mockito.when
+whirr,whirr\cli\src\test\java\org\apache\whirr\cli\command\DestroyClusterCommandTest.java,mockito,static org.mockito.Matchers.any
+whirr,whirr\cli\src\test\java\org\apache\whirr\cli\command\DestroyClusterCommandTest.java,mockito,static org.mockito.Mockito.mock
+whirr,whirr\cli\src\test\java\org\apache\whirr\cli\command\DestroyClusterCommandTest.java,mockito,static org.mockito.Mockito.verify
+whirr,whirr\cli\src\test\java\org\apache\whirr\cli\command\DestroyClusterCommandTest.java,mockito,static org.mockito.Mockito.when
+whirr,whirr\cli\src\test\java\org\apache\whirr\cli\command\DestroyInstanceCommandTest.java,mockito,static org.mockito.Matchers.any
+whirr,whirr\cli\src\test\java\org\apache\whirr\cli\command\DestroyInstanceCommandTest.java,mockito,static org.mockito.Matchers.eq
+whirr,whirr\cli\src\test\java\org\apache\whirr\cli\command\DestroyInstanceCommandTest.java,mockito,static org.mockito.Mockito.mock
+whirr,whirr\cli\src\test\java\org\apache\whirr\cli\command\DestroyInstanceCommandTest.java,mockito,static org.mockito.Mockito.verify
+whirr,whirr\cli\src\test\java\org\apache\whirr\cli\command\DestroyInstanceCommandTest.java,mockito,static org.mockito.Mockito.when
+whirr,whirr\cli\src\test\java\org\apache\whirr\cli\command\LaunchClusterCommandTest.java,mockito,static org.mockito.Matchers.any
+whirr,whirr\cli\src\test\java\org\apache\whirr\cli\command\LaunchClusterCommandTest.java,mockito,static org.mockito.Mockito.mock
+whirr,whirr\cli\src\test\java\org\apache\whirr\cli\command\LaunchClusterCommandTest.java,mockito,static org.mockito.Mockito.verify
+whirr,whirr\cli\src\test\java\org\apache\whirr\cli\command\LaunchClusterCommandTest.java,mockito,static org.mockito.Mockito.when
+whirr,whirr\cli\src\test\java\org\apache\whirr\cli\command\ListClusterCommandTest.java,mockito,static org.mockito.Matchers.any
+whirr,whirr\cli\src\test\java\org\apache\whirr\cli\command\ListClusterCommandTest.java,mockito,static org.mockito.Mockito.mock
+whirr,whirr\cli\src\test\java\org\apache\whirr\cli\command\ListClusterCommandTest.java,mockito,static org.mockito.Mockito.verify
+whirr,whirr\cli\src\test\java\org\apache\whirr\cli\command\ListClusterCommandTest.java,mockito,static org.mockito.Mockito.when
+whirr,whirr\cli\src\test\java\org\apache\whirr\cli\command\RunScriptCommandTest.java,mockito,org.mockito.ArgumentCaptor
+whirr,whirr\cli\src\test\java\org\apache\whirr\cli\command\RunScriptCommandTest.java,mockito,static org.mockito.Matchers.any
+whirr,whirr\cli\src\test\java\org\apache\whirr\cli\command\RunScriptCommandTest.java,mockito,static org.mockito.Mockito.mock
+whirr,whirr\cli\src\test\java\org\apache\whirr\cli\command\RunScriptCommandTest.java,mockito,static org.mockito.Mockito.verify
+whirr,whirr\cli\src\test\java\org\apache\whirr\cli\command\RunScriptCommandTest.java,mockito,static org.mockito.Mockito.when
+whirr,whirr\core\src\test\java\org\apache\whirr\actions\BootstrapClusterActionTest.java,mockito,static org.mockito.Matchers.any
+whirr,whirr\core\src\test\java\org\apache\whirr\actions\BootstrapClusterActionTest.java,mockito,static org.mockito.Mockito.mock
+whirr,whirr\core\src\test\java\org\apache\whirr\actions\BootstrapClusterActionTest.java,mockito,static org.mockito.Mockito.when
+whirr,whirr\core\src\test\java\org\apache\whirr\compute\BootstrapTemplateTest.java,mockito,static org.mockito.Matchers.any
+whirr,whirr\core\src\test\java\org\apache\whirr\compute\BootstrapTemplateTest.java,mockito,static org.mockito.Mockito.mock
+whirr,whirr\core\src\test\java\org\apache\whirr\compute\BootstrapTemplateTest.java,mockito,static org.mockito.Mockito.verify
+whirr,whirr\core\src\test\java\org\apache\whirr\compute\BootstrapTemplateTest.java,mockito,static org.mockito.Mockito.when
+whirr,whirr\core\src\test\java\org\apache\whirr\util\UtilsTest.java,mockito,static org.mockito.Mockito.mock
+whirr,whirr\core\src\test\java\org\apache\whirr\util\UtilsTest.java,mockito,static org.mockito.Mockito.when
+whirr,whirr\services\elasticsearch\src\test\java\org\apache\whirr\service\elasticsearch\ElasticSearchConfigurationBuilderTest.java,mockito,static org.mockito.Matchers.any
+whirr,whirr\services\elasticsearch\src\test\java\org\apache\whirr\service\elasticsearch\ElasticSearchConfigurationBuilderTest.java,mockito,static org.mockito.Mockito.mock
+whirr,whirr\services\elasticsearch\src\test\java\org\apache\whirr\service\elasticsearch\ElasticSearchConfigurationBuilderTest.java,mockito,static org.mockito.Mockito.when
+whirr,whirr\services\hadoop\src\test\java\org\apache\whirr\service\hadoop\HadoopConfigurationBuilderTest.java,mockito,static org.mockito.Mockito.mock
+whirr,whirr\services\hadoop\src\test\java\org\apache\whirr\service\hadoop\HadoopConfigurationBuilderTest.java,mockito,static org.mockito.Mockito.when

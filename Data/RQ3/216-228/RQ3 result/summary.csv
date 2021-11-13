@@ -1,0 +1,14 @@
+project name, variety of inside mocked classes, variety of outside mocked classes, proportion of mocked classes
+ant-antlibs-vss,0,0,
+mina-vysper,0,54,
+tomcat,0,0,
+tomee,0,5,
+turbine-core,0,9,
+tuscany-sca-2.x,0,0,
+uima-uimaj,0,0,
+velocity-engine,0,0,
+vxquery,0,0,
+whirr,0,0,
+ 
+more inside classes mocked: ,more outside classes mocked: 
+0,3

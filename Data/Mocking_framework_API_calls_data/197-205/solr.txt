@@ -1,0 +1,626 @@
+/analysis-extras/src/test/org/apache/solr/schema/TestICUCollationField.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<java.io.InputStream>
+	Count: 1
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+	Method name: anyString
+	Class origin: org.mockito.ArgumentMatchers
+	Count: 1
+ 
+/core/src/test/org/apache/solr/analysis/TestReversedWildcardFilterFactory.java
+Methods Invoked: 
+	Method name: spy
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+	Method name: verify
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+	Method name: times
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+/core/src/test/org/apache/solr/cloud/MockSolrSource.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 4
+ 
+/core/src/test/org/apache/solr/cloud/OverseerCollectionConfigSetProcessorTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 24
+ 
+/core/src/test/org/apache/solr/cloud/OverseerTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 3
+ 
+	Method name: when
+	Class origin: org.mockito.stubbing.Stubber
+	Count: 4
+ 
+	Method name: doAnswer
+	Class origin: org.mockito.Mockito
+	Count: 2
+ 
+/core/src/test/org/apache/solr/cloud/ZkControllerTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+/core/src/test/org/apache/solr/cloud/api/collections/PurgeGraphTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 2
+ 
+/core/src/test/org/apache/solr/cloud/overseer/TestClusterStateMutator.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 2
+ 
+/core/src/test/org/apache/solr/core/BlobRepositoryMockingTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 2
+ 
+/core/src/test/org/apache/solr/core/CoreSorterTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 5
+ 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<java.lang.Boolean>
+	Count: 1
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 7
+ 
+/core/src/test/org/apache/solr/handler/V2ClusterAPIMappingTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 2
+ 
+/core/src/test/org/apache/solr/handler/admin/ZookeeperStatusHandlerTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 3
+ 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<java.util.List<java.lang.String>>
+	Count: 13
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 22
+ 
+/core/src/test/org/apache/solr/handler/admin/V2CollectionBackupsAPIMappingTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+	Method name: forClass
+	Class origin: org.mockito.ArgumentCaptor
+	Count: 1
+ 
+	Method name: verify
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+	Method name: any
+	Class origin: org.mockito.ArgumentMatchers
+	Count: 1
+ 
+/core/src/test/org/apache/solr/handler/admin/V2CollectionsAPIMappingTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+	Method name: forClass
+	Class origin: org.mockito.ArgumentCaptor
+	Count: 1
+ 
+	Method name: verify
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+	Method name: any
+	Class origin: org.mockito.ArgumentMatchers
+	Count: 1
+ 
+/core/src/test/org/apache/solr/handler/admin/CoreAdminOperationTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 2
+ 
+/core/src/test/org/apache/solr/handler/admin/TestCoreAdminApis.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 4
+ 
+	Method name: any
+	Class origin: org.mockito.ArgumentMatchers
+	Count: 8
+ 
+/core/src/test/org/apache/solr/handler/admin/api/V2CollectionAPIMappingTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+	Method name: forClass
+	Class origin: org.mockito.ArgumentCaptor
+	Count: 1
+ 
+	Method name: verify
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+	Method name: any
+	Class origin: org.mockito.ArgumentMatchers
+	Count: 1
+ 
+/core/src/test/org/apache/solr/handler/component/MockSortSpecBuilder.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 2
+ 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<java.lang.Integer>
+	Count: 1
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 4
+ 
+/core/src/test/org/apache/solr/handler/component/CloudReplicaSourceTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 14
+ 
+/core/src/test/org/apache/solr/handler/component/MockResponseBuilder.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 4
+ 
+/core/src/test/org/apache/solr/handler/component/MockShardRequest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+/core/src/test/org/apache/solr/handler/designer/TestSchemaDesignerAPI.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 26
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 40
+ 
+/core/src/test/org/apache/solr/parser/SolrQueryParserBaseTest.java
+Methods Invoked: 
+	Method name: when
+	Class origin: org.mockito.stubbing.Stubber
+	Count: 5
+ 
+	Method name: doReturn
+	Class origin: org.mockito.Mockito
+	Count: 5
+ 
+/core/src/test/org/apache/solr/schema/TestManagedSchemaThreadSafety.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 2
+ 
+	Method name: defaultAnswer
+	Class origin: org.mockito.MockSettings
+	Count: 2
+ 
+	Method name: withSettings
+	Class origin: org.mockito.Mockito
+	Count: 2
+ 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<java.lang.Boolean>
+	Count: 1
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 3
+ 
+/core/src/test/org/apache/solr/schema/SchemaWatcherTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+	Method name: verify
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+	Method name: verifyZeroInteractions
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+/core/src/test/org/apache/solr/security/TestPKIAuthenticationPlugin.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+	Method name: then
+	Class origin: org.mockito.stubbing.OngoingStubbing<java.lang.String>
+	Count: 1
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 2
+ 
+	Method name: any
+	Class origin: org.mockito.ArgumentMatchers
+	Count: 1
+ 
+	Method name: getArgument
+	Class origin: org.mockito.invocation.InvocationOnMock
+	Count: 1
+ 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<java.lang.String>
+	Count: 1
+ 
+/core/src/test/org/apache/solr/security/CertAuthPluginTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 4
+ 
+/core/src/test/org/apache/solr/security/JWTAuthPluginIntegrationTest.java
+Methods Invoked: 
+	Method name: start
+	Class origin: no.nav.security.mock.oauth2.MockOAuth2Server
+	Count: 1
+ 
+	Method name: issueToken
+	Class origin: no.nav.security.mock.oauth2.MockOAuth2Server
+	Count: 1
+ 
+	Method name: shutdown
+	Class origin: no.nav.security.mock.oauth2.MockOAuth2Server
+	Count: 1
+ 
+	Method name: wellKnownUrl
+	Class origin: no.nav.security.mock.oauth2.MockOAuth2Server
+	Count: 1
+ 
+	Method name: getMockWebServer
+	Class origin: no.nav.security.mock.oauth2.http.MockWebServerWrapper
+	Count: 1
+ 
+	Method name: useHttps
+	Class origin: okhttp3.mockwebserver.MockWebServer
+	Count: 1
+ 
+/core/src/test/org/apache/solr/security/JWTVerificationkeyResolverTest.java
+Methods Invoked: 
+	Method name: rule
+	Class origin: org.mockito.junit.MockitoJUnit
+	Count: 1
+ 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<java.util.List<org.jose4j.jwk.JsonWebKey>>
+	Count: 1
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 3
+ 
+	Method name: when
+	Class origin: org.mockito.stubbing.Stubber
+	Count: 1
+ 
+	Method name: doAnswer
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+	Method name: then
+	Class origin: org.mockito.stubbing.OngoingStubbing<java.util.List<org.jose4j.jwk.JsonWebKey>>
+	Count: 1
+ 
+/core/src/test/org/apache/solr/servlet/SolrRequestParserTest.java
+Methods Invoked: 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<java.lang.String>
+	Count: 16
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 26
+ 
+/core/src/test/org/apache/solr/update/processor/ClassificationUpdateProcessorTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 11
+ 
+/core/src/test/org/apache/solr/update/processor/DistributedUpdateProcessorTest.java
+Methods Invoked: 
+	Method name: rule
+	Class origin: org.mockito.junit.MockitoJUnit
+	Count: 1
+ 
+	Method name: spy
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+	Method name: when
+	Class origin: org.mockito.stubbing.Stubber
+	Count: 1
+ 
+	Method name: doReturn
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+	Method name: anyInt
+	Class origin: org.mockito.ArgumentMatchers
+	Count: 1
+ 
+/core/src/test/org/apache/solr/update/processor/ClassificationUpdateProcessorFactoryTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 3
+ 
+/core/src/test/org/apache/solr/update/processor/SkipExistingDocumentsProcessorFactoryTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 17
+ 
+/core/src/test/org/apache/solr/util/configuration/SSLConfigurationsTest.java
+Methods Invoked: 
+	Method name: then
+	Class origin: org.mockito.stubbing.OngoingStubbing<char[]>
+	Count: 1
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+	Method name: getArguments
+	Class origin: org.mockito.invocation.InvocationOnMock
+	Count: 1
+ 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+/core/src/test/org/apache/solr/util/configuration/providers/HadoopSSLCredentialProviderTest.java
+Methods Invoked: 
+	Method name: then
+	Class origin: org.mockito.stubbing.OngoingStubbing<char[]>
+	Count: 1
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+	Method name: getArguments
+	Class origin: org.mockito.invocation.InvocationOnMock
+	Count: 1
+ 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+/core/src/test/org/apache/solr/util/tracing/TestHttpServletCarrier.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<java.util.Enumeration<java.lang.String>>
+	Count: 1
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 2
+ 
+	Method name: thenAnswer
+	Class origin: org.mockito.stubbing.OngoingStubbing<java.util.Enumeration<java.lang.String>>
+	Count: 1
+ 
+/core/src/test/org/apache/solr/util/tracing/TestDistributedTracing.java
+Methods Invoked: 
+	Method name: removeIf
+	Class origin: java.util.Collection<io.opentracing.mock.MockSpan>
+	Count: 2
+ 
+	Method name: tags
+	Class origin: io.opentracing.mock.MockSpan
+	Count: 4
+ 
+	Method name: size
+	Class origin: java.util.List<io.opentracing.mock.MockSpan>
+	Count: 2
+ 
+	Method name: operationName
+	Class origin: io.opentracing.mock.MockSpan
+	Count: 7
+ 
+	Method name: get
+	Class origin: java.util.List<io.opentracing.mock.MockSpan>
+	Count: 15
+ 
+/ltr/src/test/org/apache/solr/ltr/model/TestWrapperModel.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 2
+ 
+	Method name: when
+	Class origin: org.mockito.stubbing.Stubber
+	Count: 4
+ 
+	Method name: doReturn
+	Class origin: org.mockito.Mockito
+	Count: 3
+ 
+/s3-repository/src/test/org/apache/solr/s3/AbstractS3ClientTest.java
+Methods Invoked: 
+	Method name: build
+	Class origin: com.adobe.testing.s3mock.testsupport.common.S3MockStarter.BaseBuilder<com.adobe.testing.s3mock.junit4.S3MockRule>
+	Count: 1
+ 
+	Method name: withInitialBuckets
+	Class origin: com.adobe.testing.s3mock.testsupport.common.S3MockStarter.BaseBuilder<com.adobe.testing.s3mock.junit4.S3MockRule>
+	Count: 1
+ 
+	Method name: silent
+	Class origin: com.adobe.testing.s3mock.testsupport.common.S3MockStarter.BaseBuilder<com.adobe.testing.s3mock.junit4.S3MockRule>
+	Count: 1
+ 
+	Method name: builder
+	Class origin: com.adobe.testing.s3mock.junit4.S3MockRule
+	Count: 1
+ 
+	Method name: getHttpPort
+	Class origin: com.adobe.testing.s3mock.testsupport.common.S3MockStarter
+	Count: 1
+ 
+/s3-repository/src/test/org/apache/solr/s3/S3OutputStreamTest.java
+Methods Invoked: 
+	Method name: build
+	Class origin: com.adobe.testing.s3mock.testsupport.common.S3MockStarter.BaseBuilder<com.adobe.testing.s3mock.junit4.S3MockRule>
+	Count: 1
+ 
+	Method name: withInitialBuckets
+	Class origin: com.adobe.testing.s3mock.testsupport.common.S3MockStarter.BaseBuilder<com.adobe.testing.s3mock.junit4.S3MockRule>
+	Count: 1
+ 
+	Method name: silent
+	Class origin: com.adobe.testing.s3mock.testsupport.common.S3MockStarter.BaseBuilder<com.adobe.testing.s3mock.junit4.S3MockRule>
+	Count: 1
+ 
+	Method name: builder
+	Class origin: com.adobe.testing.s3mock.junit4.S3MockRule
+	Count: 1
+ 
+	Method name: createS3ClientV2
+	Class origin: com.adobe.testing.s3mock.testsupport.common.S3MockStarter
+	Count: 1
+ 
+/s3-repository/src/test/org/apache/solr/s3/S3IncrementalBackupTest.java
+Methods Invoked: 
+	Method name: build
+	Class origin: com.adobe.testing.s3mock.testsupport.common.S3MockStarter.BaseBuilder<com.adobe.testing.s3mock.junit4.S3MockRule>
+	Count: 1
+ 
+	Method name: withInitialBuckets
+	Class origin: com.adobe.testing.s3mock.testsupport.common.S3MockStarter.BaseBuilder<com.adobe.testing.s3mock.junit4.S3MockRule>
+	Count: 1
+ 
+	Method name: silent
+	Class origin: com.adobe.testing.s3mock.testsupport.common.S3MockStarter.BaseBuilder<com.adobe.testing.s3mock.junit4.S3MockRule>
+	Count: 1
+ 
+	Method name: builder
+	Class origin: com.adobe.testing.s3mock.junit4.S3MockRule
+	Count: 1
+ 
+	Method name: getHttpPort
+	Class origin: com.adobe.testing.s3mock.testsupport.common.S3MockStarter
+	Count: 1
+ 
+/s3-repository/src/test/org/apache/solr/s3/S3BackupRepositoryTest.java
+Methods Invoked: 
+	Method name: build
+	Class origin: com.adobe.testing.s3mock.testsupport.common.S3MockStarter.BaseBuilder<com.adobe.testing.s3mock.junit4.S3MockRule>
+	Count: 1
+ 
+	Method name: withInitialBuckets
+	Class origin: com.adobe.testing.s3mock.testsupport.common.S3MockStarter.BaseBuilder<com.adobe.testing.s3mock.junit4.S3MockRule>
+	Count: 1
+ 
+	Method name: silent
+	Class origin: com.adobe.testing.s3mock.testsupport.common.S3MockStarter.BaseBuilder<com.adobe.testing.s3mock.junit4.S3MockRule>
+	Count: 1
+ 
+	Method name: builder
+	Class origin: com.adobe.testing.s3mock.junit4.S3MockRule
+	Count: 1
+ 
+	Method name: getHttpPort
+	Class origin: com.adobe.testing.s3mock.testsupport.common.S3MockStarter
+	Count: 1
+ 
+	Method name: createS3ClientV2
+	Class origin: com.adobe.testing.s3mock.testsupport.common.S3MockStarter
+	Count: 2
+ 
+/solrj/src/test/org/apache/solr/client/solrj/impl/CloudHttp2SolrClientBuilderTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 7
+ 
+/solrj/src/test/org/apache/solr/client/solrj/impl/CloudSolrClientCacheTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+	Method name: any
+	Class origin: org.mockito.ArgumentMatchers
+	Count: 1
+ 
+	Method name: getArgument
+	Class origin: org.mockito.invocation.InvocationOnMock
+	Count: 1
+ 

@@ -1,0 +1,3 @@
+method, origin, count
+size,java.util.List<io.opentracing.mock.MockSpan>,5
+forEach,java.lang.Iterable<io.opentracing.mock.MockSpan>,1

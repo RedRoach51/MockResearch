@@ -1,0 +1,11 @@
+project name, # of total classes created, # of inside classes mocked
+ant-antlibs-vss,18,0,
+mina-vysper,511,0,
+tomcat,1892,0,
+tomee,3991,0,
+turbine-core,282,0,
+tuscany-sca-2.x,2049,0,
+uima-uimaj,1495,0,
+velocity-engine,222,0,
+vxquery,706,0,
+whirr,169,0,

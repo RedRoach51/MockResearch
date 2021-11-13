@@ -1,0 +1,8 @@
+Inside classes: 
+ 
+org.apache.activemq.store.kahadb.disk.journal.Journal
+ 
+ 
+ 
+Outside classes: 
+ 
