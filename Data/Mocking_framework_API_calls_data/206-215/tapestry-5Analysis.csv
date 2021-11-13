@@ -1,0 +1,33 @@
+method, origin, count
+atLeastOnce,org.easymock.IExpectationSetters<java.lang.Class>,11
+andReturn,org.easymock.IExpectationSetters<java.lang.Class>,213
+andStubReturn,org.easymock.IExpectationSetters<java.lang.Object>,6
+isA,org.easymock.EasyMock,30
+andThrow,org.easymock.IExpectationSetters<java.lang.Object>,4
+createNiceMock,org.easymock.EasyMock,2
+replay,org.easymock.EasyMock,12
+anyTimes,org.easymock.IExpectationSetters<java.lang.Boolean>,4
+anyObject,org.easymock.EasyMock,2
+or,org.easymock.EasyMock,2
+isNull,org.easymock.EasyMock,2
+eq,org.easymock.EasyMock,19
+andAnswer,org.easymock.IExpectationSetters<java.lang.Object>,8
+times,org.easymock.IExpectationSetters<java.lang.Object>,2
+expectLastCall,org.easymock.EasyMock,5
+checkOrder,org.easymock.IMocksControl,8
+getCurrentArguments,org.easymock.EasyMock,5
+expect,org.easymock.EasyMock,7
+once,org.easymock.IExpectationSetters<java.lang.String>,4
+resetToNice,org.easymock.IMocksControl,1
+contains,org.easymock.EasyMock,1
+same,org.easymock.EasyMock,1
+createControl,org.easymock.EasyMock,1
+remove,java.lang.ThreadLocal<org.easymock.IMocksControl>,1
+get,java.lang.ThreadLocal<org.easymock.IMocksControl>,1
+createMock,org.easymock.IMocksControl,10
+verify,org.easymock.IMocksControl,10
+reset,org.easymock.IMocksControl,1
+
+MockedObjects: ,12
+
+# of Mocked objects each file:,2|1|9|

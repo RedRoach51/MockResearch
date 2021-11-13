@@ -1,0 +1,25 @@
+method, origin, count
+createMock,org.easymock.EasyMock,340
+expect,org.easymock.EasyMock,333
+createStrictMock,org.easymock.EasyMock,16
+andReturn,org.easymock.IExpectationSetters<java.lang.String>,81
+replay,org.easymock.EasyMock,124
+anyTimes,org.easymock.IExpectationSetters<java.util.Properties>,29
+verify,org.easymock.EasyMock,32
+andThrow,org.easymock.IExpectationSetters<java.lang.Boolean>,1
+once,org.easymock.IExpectationSetters<java.lang.Object>,14
+expectLastCall,org.easymock.EasyMock,27
+anyLong,org.easymock.EasyMock,3
+createNiceMock,org.easymock.EasyMock,15
+anyObject,org.easymock.EasyMock,3
+andAnswer,org.easymock.IExpectationSetters<java.lang.Object>,5
+getCurrentArguments,org.easymock.EasyMock,3
+addMockedMethod,org.easymock.IMockBuilder<java.lang.Object>,6
+partialMockBuilder,org.easymock.EasyMock,1
+niceMock,org.easymock.EasyMock,2
+getCurrentArgument,org.easymock.EasyMock,2
+anyString,org.easymock.EasyMock,6
+mock,org.easymock.EasyMock,5
+createMockBuilder,org.easymock.EasyMock,8
+addMockedMethods,org.easymock.IMockBuilder<java.lang.Object>,3
+atLeastOnce,org.easymock.IExpectationSetters<java.lang.String>,1

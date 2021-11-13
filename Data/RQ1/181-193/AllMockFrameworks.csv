@@ -1,0 +1,9 @@
+Project Name,Mocking Framework,Used in # of Files
+creadur-rat,mockito,2
+reef,mockito,6
+servicemix,easymock,1
+shindig,easymock,108
+shindig,powermock,1
+shiro,atunit,1
+shiro,easymock,39
+shiro,mockito,10

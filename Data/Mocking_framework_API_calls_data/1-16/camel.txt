@@ -1,0 +1,4580 @@
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 2
+ 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 2
+ 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<io.atlasmap.spi.AtlasPropertyStrategy>
+	Count: 2
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 2
+ 
+	Method name: spy
+	Class origin: org.mockito.Mockito
+	Count: 5
+ 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<java.lang.String>
+	Count: 1
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 2
+ 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<software.amazon.awssdk.services.kinesis.model.GetRecordsResponse>
+	Count: 1
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 3
+ 
+	Method name: any
+	Class origin: org.mockito.ArgumentMatchers
+	Count: 5
+ 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<software.amazon.awssdk.services.kinesis.model.DescribeStreamResponse>
+	Count: 1
+ 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<software.amazon.awssdk.services.kinesis.model.GetRecordsResponse>
+	Count: 1
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 3
+ 
+	Method name: any
+	Class origin: org.mockito.ArgumentMatchers
+	Count: 3
+ 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<software.amazon.awssdk.services.kinesis.model.DescribeStreamResponse>
+	Count: 1
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 7
+ 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 7
+ 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 8
+ 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<reactor.core.publisher.Mono<com.azure.cosmos.models.CosmosDatabaseResponse>>
+	Count: 2
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 7
+ 
+	Method name: any
+	Class origin: org.mockito.ArgumentMatchers
+	Count: 4
+ 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<java.util.Map<java.lang.String,java.lang.Object>>
+	Count: 1
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 4
+ 
+	Method name: any
+	Class origin: org.mockito.ArgumentMatchers
+	Count: 18
+ 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<com.azure.core.http.HttpHeaders>
+	Count: 2
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 4
+ 
+	Method name: any
+	Class origin: org.mockito.ArgumentMatchers
+	Count: 9
+ 
+	Method name: when
+	Class origin: org.mockito.stubbing.LenientStubber
+	Count: 3
+ 
+	Method name: lenient
+	Class origin: org.mockito.Mockito
+	Count: 3
+ 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+	Method name: willReturn
+	Class origin: org.mockito.BDDMockito.BDDMyOngoingStubbing<java.util.List<javax.validation.spi.ValidationProvider<?>>>
+	Count: 1
+ 
+	Method name: given
+	Class origin: org.mockito.BDDMockito
+	Count: 1
+ 
+	Method name: verify
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+	Method name: atLeastOnce
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 3
+ 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<java.lang.Long>
+	Count: 3
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 13
+ 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<byte[]>
+	Count: 3
+ 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<java.lang.Long>
+	Count: 5
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 12
+ 
+	Method name: verify
+	Class origin: org.mockito.Mockito
+	Count: 18
+ 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 2
+ 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<java.lang.Long>
+	Count: 2
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 6
+ 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<byte[]>
+	Count: 2
+ 
+	Method name: initMocks
+	Class origin: org.mockito.MockitoAnnotations
+	Count: 1
+ 
+	Method name: reset
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 2
+ 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<java.lang.Long>
+	Count: 2
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 6
+ 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<byte[]>
+	Count: 2
+ 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<java.lang.Long>
+	Count: 2
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 5
+ 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<byte[]>
+	Count: 1
+ 
+	Method name: initMocks
+	Class origin: org.mockito.MockitoAnnotations
+	Count: 1
+ 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<java.util.Map<java.lang.String,javax.ws.rs.core.Cookie>>
+	Count: 1
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+	Method name: options
+	Class origin: com.github.tomakehurst.wiremock.core.WireMockConfiguration
+	Count: 1
+ 
+	Method name: start
+	Class origin: com.github.tomakehurst.wiremock.WireMockServer
+	Count: 1
+ 
+	Method name: initMocks
+	Class origin: org.mockito.MockitoAnnotations
+	Count: 1
+ 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<java.util.Map<java.lang.String,javax.ws.rs.core.Cookie>>
+	Count: 1
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 2
+ 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<javax.ws.rs.core.MultivaluedMap<java.lang.String,java.lang.Object>>
+	Count: 1
+ 
+	Method name: initMocks
+	Class origin: org.mockito.MockitoAnnotations
+	Count: 1
+ 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<java.util.Map<java.lang.String,javax.ws.rs.core.Cookie>>
+	Count: 1
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+	Method name: spy
+	Class origin: org.mockito.Mockito
+	Count: 3
+ 
+	Method name: when
+	Class origin: org.mockito.stubbing.Stubber
+	Count: 3
+ 
+	Method name: doReturn
+	Class origin: org.mockito.Mockito
+	Count: 3
+ 
+	Method name: any
+	Class origin: org.mockito.ArgumentMatchers
+	Count: 6
+ 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 3
+ 
+	Method name: mockStatic
+	Class origin: org.mockito.Mockito
+	Count: 2
+ 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<java.lang.Object>
+	Count: 2
+ 
+	Method name: times
+	Class origin: org.mockito.Mockito
+	Count: 2
+ 
+	Method name: initMocks
+	Class origin: org.mockito.MockitoAnnotations
+	Count: 1
+ 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<java.lang.Integer>
+	Count: 3
+ 
+	Method name: when
+	Class origin: org.mockito.stubbing.LenientStubber
+	Count: 5
+ 
+	Method name: lenient
+	Class origin: org.mockito.Mockito
+	Count: 5
+ 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<java.lang.Boolean>
+	Count: 3
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 23
+ 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<java.lang.String>
+	Count: 7
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 18
+ 
+	Method name: thenThrow
+	Class origin: org.mockito.stubbing.OngoingStubbing<java.lang.Object>
+	Count: 2
+ 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 2
+ 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 2
+ 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 2
+ 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 5
+ 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 2
+ 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+	Method name: verify
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+	Method name: times
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<com.github.dockerjava.api.command.RemoveImageCmd>
+	Count: 1
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+	Method name: anyString
+	Class origin: org.mockito.ArgumentMatchers
+	Count: 1
+ 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<com.github.dockerjava.api.command.EventsCmd>
+	Count: 2
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 2
+ 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<com.github.dockerjava.api.command.StatsCmd>
+	Count: 1
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+	Method name: anyString
+	Class origin: org.mockito.ArgumentMatchers
+	Count: 1
+ 
+	Method name: verify
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+	Method name: times
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<com.github.dockerjava.api.command.VersionCmd>
+	Count: 1
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+	Method name: verify
+	Class origin: org.mockito.Mockito
+	Count: 2
+ 
+	Method name: times
+	Class origin: org.mockito.Mockito
+	Count: 2
+ 
+	Method name: verify
+	Class origin: org.mockito.Mockito
+	Count: 2
+ 
+	Method name: times
+	Class origin: org.mockito.Mockito
+	Count: 2
+ 
+	Method name: verify
+	Class origin: org.mockito.Mockito
+	Count: 2
+ 
+	Method name: times
+	Class origin: org.mockito.Mockito
+	Count: 2
+ 
+	Method name: eq
+	Class origin: org.mockito.ArgumentMatchers
+	Count: 2
+ 
+	Method name: verify
+	Class origin: org.mockito.Mockito
+	Count: 2
+ 
+	Method name: times
+	Class origin: org.mockito.Mockito
+	Count: 2
+ 
+	Method name: verify
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+	Method name: times
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<com.github.dockerjava.api.command.PingCmd>
+	Count: 1
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+	Method name: verify
+	Class origin: org.mockito.Mockito
+	Count: 2
+ 
+	Method name: times
+	Class origin: org.mockito.Mockito
+	Count: 2
+ 
+	Method name: verify
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+	Method name: times
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<com.github.dockerjava.api.command.InspectContainerCmd>
+	Count: 1
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+	Method name: anyString
+	Class origin: org.mockito.ArgumentMatchers
+	Count: 1
+ 
+	Method name: verify
+	Class origin: org.mockito.Mockito
+	Count: 2
+ 
+	Method name: times
+	Class origin: org.mockito.Mockito
+	Count: 2
+ 
+	Method name: verify
+	Class origin: org.mockito.Mockito
+	Count: 2
+ 
+	Method name: times
+	Class origin: org.mockito.Mockito
+	Count: 2
+ 
+	Method name: verify
+	Class origin: org.mockito.Mockito
+	Count: 3
+ 
+	Method name: times
+	Class origin: org.mockito.Mockito
+	Count: 3
+ 
+	Method name: verify
+	Class origin: org.mockito.Mockito
+	Count: 6
+ 
+	Method name: times
+	Class origin: org.mockito.Mockito
+	Count: 6
+ 
+	Method name: verify
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+	Method name: times
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+	Method name: eq
+	Class origin: org.mockito.ArgumentMatchers
+	Count: 1
+ 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<com.github.dockerjava.api.command.SearchImagesCmd>
+	Count: 1
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+	Method name: anyString
+	Class origin: org.mockito.ArgumentMatchers
+	Count: 1
+ 
+	Method name: verify
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+	Method name: times
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<com.github.dockerjava.api.command.WaitContainerCmd>
+	Count: 1
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 2
+ 
+	Method name: anyString
+	Class origin: org.mockito.ArgumentMatchers
+	Count: 1
+ 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<java.lang.Object>
+	Count: 1
+ 
+	Method name: verify
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+	Method name: times
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+	Method name: eq
+	Class origin: org.mockito.ArgumentMatchers
+	Count: 1
+ 
+	Method name: any
+	Class origin: org.mockito.ArgumentMatchers
+	Count: 2
+ 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<com.github.dockerjava.api.command.CreateImageCmd>
+	Count: 1
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+	Method name: anyString
+	Class origin: org.mockito.ArgumentMatchers
+	Count: 1
+ 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<com.github.dockerjava.api.command.BuildImageCmd>
+	Count: 2
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 4
+ 
+	Method name: any
+	Class origin: org.mockito.ArgumentMatchers
+	Count: 6
+ 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<java.lang.Object>
+	Count: 2
+ 
+	Method name: verify
+	Class origin: org.mockito.Mockito
+	Count: 2
+ 
+	Method name: times
+	Class origin: org.mockito.Mockito
+	Count: 2
+ 
+	Method name: verify
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+	Method name: times
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<com.github.dockerjava.api.command.StartContainerCmd>
+	Count: 1
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+	Method name: anyString
+	Class origin: org.mockito.ArgumentMatchers
+	Count: 1
+ 
+	Method name: verify
+	Class origin: org.mockito.Mockito
+	Count: 2
+ 
+	Method name: times
+	Class origin: org.mockito.Mockito
+	Count: 2
+ 
+	Method name: verify
+	Class origin: org.mockito.Mockito
+	Count: 3
+ 
+	Method name: times
+	Class origin: org.mockito.Mockito
+	Count: 3
+ 
+	Method name: verify
+	Class origin: org.mockito.Mockito
+	Count: 2
+ 
+	Method name: times
+	Class origin: org.mockito.Mockito
+	Count: 2
+ 
+	Method name: verify
+	Class origin: org.mockito.Mockito
+	Count: 7
+ 
+	Method name: times
+	Class origin: org.mockito.Mockito
+	Count: 7
+ 
+	Method name: verify
+	Class origin: org.mockito.Mockito
+	Count: 6
+ 
+	Method name: times
+	Class origin: org.mockito.Mockito
+	Count: 6
+ 
+	Method name: verify
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+	Method name: times
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<com.github.dockerjava.api.command.UnpauseContainerCmd>
+	Count: 1
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+	Method name: anyString
+	Class origin: org.mockito.ArgumentMatchers
+	Count: 1
+ 
+	Method name: verify
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+	Method name: times
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<com.github.dockerjava.api.command.RemoveImageCmd>
+	Count: 1
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+	Method name: anyString
+	Class origin: org.mockito.ArgumentMatchers
+	Count: 1
+ 
+	Method name: verify
+	Class origin: org.mockito.Mockito
+	Count: 2
+ 
+	Method name: times
+	Class origin: org.mockito.Mockito
+	Count: 2
+ 
+	Method name: verify
+	Class origin: org.mockito.Mockito
+	Count: 23
+ 
+	Method name: times
+	Class origin: org.mockito.Mockito
+	Count: 23
+ 
+	Method name: verify
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+	Method name: times
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<com.github.dockerjava.api.command.InfoCmd>
+	Count: 1
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+	Method name: verify
+	Class origin: org.mockito.Mockito
+	Count: 2
+ 
+	Method name: times
+	Class origin: org.mockito.Mockito
+	Count: 2
+ 
+	Method name: verify
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+	Method name: times
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+	Method name: eq
+	Class origin: org.mockito.ArgumentMatchers
+	Count: 1
+ 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<com.github.dockerjava.api.command.InspectImageCmd>
+	Count: 1
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+	Method name: anyString
+	Class origin: org.mockito.ArgumentMatchers
+	Count: 1
+ 
+	Method name: verify
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+	Method name: times
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<com.github.dockerjava.api.command.PauseContainerCmd>
+	Count: 1
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+	Method name: anyString
+	Class origin: org.mockito.ArgumentMatchers
+	Count: 1
+ 
+	Method name: verify
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+	Method name: times
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<com.github.dockerjava.api.command.CreateNetworkCmd>
+	Count: 2
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 2
+ 
+	Method name: verify
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+	Method name: times
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<com.github.dockerjava.api.command.RemoveNetworkCmd>
+	Count: 1
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+	Method name: anyString
+	Class origin: org.mockito.ArgumentMatchers
+	Count: 1
+ 
+	Method name: verify
+	Class origin: org.mockito.Mockito
+	Count: 6
+ 
+	Method name: times
+	Class origin: org.mockito.Mockito
+	Count: 6
+ 
+	Method name: eq
+	Class origin: org.mockito.ArgumentMatchers
+	Count: 5
+ 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<com.github.dockerjava.api.model.HostConfig>
+	Count: 1
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 2
+ 
+	Method name: verify
+	Class origin: org.mockito.Mockito
+	Count: 27
+ 
+	Method name: times
+	Class origin: org.mockito.Mockito
+	Count: 27
+ 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<java.lang.Boolean>
+	Count: 4
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 4
+ 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<java.lang.String>
+	Count: 14
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 14
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 20
+ 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<java.lang.String>
+	Count: 9
+ 
+	Method name: forClass
+	Class origin: org.mockito.ArgumentCaptor
+	Count: 4
+ 
+	Method name: verify
+	Class origin: org.mockito.Mockito
+	Count: 4
+ 
+	Method name: capture
+	Class origin: org.mockito.ArgumentCaptor<com.google.cloud.bigquery.InsertAllRequest>
+	Count: 4
+ 
+	Method name: getAllValues
+	Class origin: org.mockito.ArgumentCaptor<com.google.cloud.bigquery.InsertAllRequest>
+	Count: 4
+ 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 4
+ 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 3
+ 
+	Method name: forClass
+	Class origin: org.mockito.ArgumentCaptor
+	Count: 2
+ 
+	Method name: verify
+	Class origin: org.mockito.Mockito
+	Count: 2
+ 
+	Method name: capture
+	Class origin: org.mockito.ArgumentCaptor<com.google.cloud.bigquery.QueryJobConfiguration>
+	Count: 2
+ 
+	Method name: any
+	Class origin: org.mockito.ArgumentMatchers
+	Count: 2
+ 
+	Method name: getAllValues
+	Class origin: org.mockito.ArgumentCaptor<com.google.cloud.bigquery.QueryJobConfiguration>
+	Count: 2
+ 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 3
+ 
+	Method name: forClass
+	Class origin: org.mockito.ArgumentCaptor
+	Count: 3
+ 
+	Method name: verify
+	Class origin: org.mockito.Mockito
+	Count: 3
+ 
+	Method name: capture
+	Class origin: org.mockito.ArgumentCaptor<com.google.cloud.bigquery.QueryJobConfiguration>
+	Count: 3
+ 
+	Method name: any
+	Class origin: org.mockito.ArgumentMatchers
+	Count: 2
+ 
+	Method name: getValue
+	Class origin: org.mockito.ArgumentCaptor<com.google.cloud.bigquery.QueryJobConfiguration>
+	Count: 3
+ 
+	Method name: start
+	Class origin: com.google.api.gax.grpc.testing.MockServiceHelper
+	Count: 1
+ 
+	Method name: createChannelProvider
+	Class origin: com.google.api.gax.grpc.testing.MockServiceHelper
+	Count: 1
+ 
+	Method name: reset
+	Class origin: com.google.api.gax.grpc.testing.MockServiceHelper
+	Count: 1
+ 
+	Method name: stop
+	Class origin: com.google.api.gax.grpc.testing.MockServiceHelper
+	Count: 1
+ 
+	Method name: start
+	Class origin: com.google.api.gax.grpc.testing.MockServiceHelper
+	Count: 1
+ 
+	Method name: createChannelProvider
+	Class origin: com.google.api.gax.grpc.testing.MockServiceHelper
+	Count: 1
+ 
+	Method name: stop
+	Class origin: com.google.api.gax.grpc.testing.MockServiceHelper
+	Count: 1
+ 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 12
+ 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 2
+ 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<com.hazelcast.transaction.TransactionContext>
+	Count: 1
+ 
+	Method name: thenThrow
+	Class origin: org.mockito.stubbing.OngoingStubbing<com.hazelcast.transaction.TransactionContext>
+	Count: 1
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 3
+ 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<com.hazelcast.collection.IQueue<java.lang.Object>>
+	Count: 1
+ 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<com.hazelcast.multimap.MultiMap<java.lang.Object,java.lang.Object>>
+	Count: 1
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 6
+ 
+	Method name: verify
+	Class origin: org.mockito.Mockito
+	Count: 10
+ 
+	Method name: atLeastOnce
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+	Method name: verifyNoMoreInteractions
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<com.hazelcast.cp.CPSubsystem>
+	Count: 1
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 8
+ 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<com.hazelcast.cp.IAtomicLong>
+	Count: 1
+ 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<com.hazelcast.cluster.Cluster>
+	Count: 1
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 4
+ 
+	Method name: forClass
+	Class origin: org.mockito.ArgumentCaptor
+	Count: 1
+ 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<java.util.UUID>
+	Count: 1
+ 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<com.hazelcast.multimap.MultiMap<java.lang.Object,java.lang.Object>>
+	Count: 1
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 2
+ 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<java.util.UUID>
+	Count: 1
+ 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<com.hazelcast.multimap.MultiMap<java.lang.Object,java.lang.Object>>
+	Count: 1
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 6
+ 
+	Method name: verify
+	Class origin: org.mockito.Mockito
+	Count: 13
+ 
+	Method name: atLeastOnce
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+	Method name: verifyNoMoreInteractions
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<com.hazelcast.topic.ITopic<java.lang.String>>
+	Count: 1
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+	Method name: verify
+	Class origin: org.mockito.Mockito
+	Count: 3
+ 
+	Method name: atLeastOnce
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+	Method name: verifyNoMoreInteractions
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<com.hazelcast.replicatedmap.ReplicatedMap<java.lang.Object,java.lang.Object>>
+	Count: 1
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 6
+ 
+	Method name: verify
+	Class origin: org.mockito.Mockito
+	Count: 9
+ 
+	Method name: atLeastOnce
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+	Method name: verifyNoMoreInteractions
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<com.hazelcast.collection.IQueue<java.lang.String>>
+	Count: 1
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 3
+ 
+	Method name: verify
+	Class origin: org.mockito.Mockito
+	Count: 2
+ 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<com.hazelcast.cp.CPSubsystem>
+	Count: 1
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 8
+ 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<com.hazelcast.cp.IAtomicLong>
+	Count: 1
+ 
+	Method name: openMocks
+	Class origin: org.mockito.MockitoAnnotations
+	Count: 1
+ 
+	Method name: verifyNoMoreInteractions
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<com.hazelcast.collection.IQueue<java.lang.String>>
+	Count: 1
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 2
+ 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<java.util.UUID>
+	Count: 1
+ 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<com.hazelcast.collection.IQueue<java.lang.String>>
+	Count: 1
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 5
+ 
+	Method name: verify
+	Class origin: org.mockito.Mockito
+	Count: 17
+ 
+	Method name: atLeastOnce
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+	Method name: verifyNoMoreInteractions
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<com.hazelcast.ringbuffer.Ringbuffer<java.lang.Object>>
+	Count: 1
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 5
+ 
+	Method name: verify
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+	Method name: atLeastOnce
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<java.lang.Object>
+	Count: 1
+ 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<com.hazelcast.topic.ITopic<java.lang.String>>
+	Count: 1
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 2
+ 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<java.util.UUID>
+	Count: 1
+ 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<com.hazelcast.map.IMap<java.lang.Object,java.lang.Object>>
+	Count: 1
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 10
+ 
+	Method name: verify
+	Class origin: org.mockito.Mockito
+	Count: 26
+ 
+	Method name: atLeastOnce
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+	Method name: verifyNoMoreInteractions
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+	Method name: when
+	Class origin: org.mockito.stubbing.Stubber
+	Count: 2
+ 
+	Method name: doNothing
+	Class origin: org.mockito.stubbing.BaseStubber
+	Count: 2
+ 
+	Method name: doThrow
+	Class origin: org.mockito.Mockito
+	Count: 2
+ 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<com.hazelcast.map.IMap<java.lang.Object,java.lang.Object>>
+	Count: 1
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 2
+ 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<java.util.UUID>
+	Count: 1
+ 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<com.hazelcast.ringbuffer.Ringbuffer<java.lang.Object>>
+	Count: 1
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 6
+ 
+	Method name: verify
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+	Method name: atLeastOnce
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<java.lang.Object>
+	Count: 2
+ 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<com.hazelcast.collection.IList<java.lang.String>>
+	Count: 1
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 2
+ 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<java.util.UUID>
+	Count: 1
+ 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<com.hazelcast.topic.ITopic<java.lang.String>>
+	Count: 1
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+	Method name: verify
+	Class origin: org.mockito.Mockito
+	Count: 3
+ 
+	Method name: atLeastOnce
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+	Method name: verifyNoMoreInteractions
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<com.hazelcast.replicatedmap.ReplicatedMap<java.lang.Object,java.lang.Object>>
+	Count: 1
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 6
+ 
+	Method name: verify
+	Class origin: org.mockito.Mockito
+	Count: 11
+ 
+	Method name: atLeastOnce
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+	Method name: verifyNoMoreInteractions
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<com.hazelcast.map.IMap<java.lang.Object,java.lang.Object>>
+	Count: 1
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 9
+ 
+	Method name: verify
+	Class origin: org.mockito.Mockito
+	Count: 19
+ 
+	Method name: atLeastOnce
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+	Method name: verifyNoMoreInteractions
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<com.hazelcast.topic.ITopic<java.lang.String>>
+	Count: 1
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 2
+ 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<java.util.UUID>
+	Count: 1
+ 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<com.hazelcast.collection.ISet<java.lang.String>>
+	Count: 1
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 2
+ 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<java.util.UUID>
+	Count: 1
+ 
+	Method name: openMocks
+	Class origin: org.mockito.MockitoAnnotations
+	Count: 1
+ 
+	Method name: verifyNoMoreInteractions
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<java.lang.Object>
+	Count: 4
+ 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+	Method name: any
+	Class origin: org.mockito.ArgumentMatchers
+	Count: 1
+ 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+	Method name: any
+	Class origin: org.mockito.ArgumentMatchers
+	Count: 1
+ 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+	Method name: any
+	Class origin: org.mockito.ArgumentMatchers
+	Count: 1
+ 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+	Method name: any
+	Class origin: org.mockito.ArgumentMatchers
+	Count: 1
+ 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+	Method name: any
+	Class origin: org.mockito.ArgumentMatchers
+	Count: 1
+ 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+	Method name: any
+	Class origin: org.mockito.ArgumentMatchers
+	Count: 1
+ 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+	Method name: any
+	Class origin: org.mockito.ArgumentMatchers
+	Count: 1
+ 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+	Method name: any
+	Class origin: org.mockito.ArgumentMatchers
+	Count: 1
+ 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+	Method name: any
+	Class origin: org.mockito.ArgumentMatchers
+	Count: 1
+ 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+	Method name: any
+	Class origin: org.mockito.ArgumentMatchers
+	Count: 1
+ 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+	Method name: any
+	Class origin: org.mockito.ArgumentMatchers
+	Count: 1
+ 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<com.obs.services.model.BucketMetadataInfoResult>
+	Count: 1
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+	Method name: any
+	Class origin: org.mockito.ArgumentMatchers
+	Count: 1
+ 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<com.obs.services.model.PutObjectResult>
+	Count: 1
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+	Method name: any
+	Class origin: org.mockito.ArgumentMatchers
+	Count: 3
+ 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<com.obs.services.model.ObjectListing>
+	Count: 1
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+	Method name: any
+	Class origin: org.mockito.ArgumentMatchers
+	Count: 1
+ 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<com.obs.services.model.ObjectListing>
+	Count: 1
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+	Method name: any
+	Class origin: org.mockito.ArgumentMatchers
+	Count: 1
+ 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<com.obs.services.model.ObsBucket>
+	Count: 1
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+	Method name: any
+	Class origin: org.mockito.ArgumentMatchers
+	Count: 1
+ 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<com.obs.services.model.ObjectListing>
+	Count: 1
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+	Method name: any
+	Class origin: org.mockito.ArgumentMatchers
+	Count: 1
+ 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<com.obs.services.model.ObsObject>
+	Count: 1
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<com.obs.services.model.ObsBucket>
+	Count: 1
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+	Method name: any
+	Class origin: org.mockito.ArgumentMatchers
+	Count: 1
+ 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<com.obs.services.model.ListBucketsResult>
+	Count: 1
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+	Method name: any
+	Class origin: org.mockito.ArgumentMatchers
+	Count: 1
+ 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<com.obs.services.model.ObsBucket>
+	Count: 1
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+	Method name: any
+	Class origin: org.mockito.ArgumentMatchers
+	Count: 1
+ 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<com.obs.services.model.PutObjectResult>
+	Count: 1
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+	Method name: any
+	Class origin: org.mockito.ArgumentMatchers
+	Count: 3
+ 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<com.obs.services.model.HeaderResponse>
+	Count: 1
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+	Method name: anyString
+	Class origin: org.mockito.ArgumentMatchers
+	Count: 1
+ 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<java.lang.Boolean>
+	Count: 1
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+	Method name: any
+	Class origin: org.mockito.ArgumentMatchers
+	Count: 1
+ 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<com.obs.services.model.ObjectListing>
+	Count: 1
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+	Method name: any
+	Class origin: org.mockito.ArgumentMatchers
+	Count: 1
+ 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<org.influxdb.dto.QueryResult>
+	Count: 1
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+	Method name: any
+	Class origin: org.mockito.ArgumentMatchers
+	Count: 3
+ 
+	Method name: verify
+	Class origin: org.mockito.Mockito
+	Count: 2
+ 
+	Method name: times
+	Class origin: org.mockito.Mockito
+	Count: 2
+ 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 7
+ 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 3
+ 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 7
+ 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<java.lang.String>
+	Count: 1
+ 
+	Method name: when
+	Class origin: org.mockito.stubbing.LenientStubber
+	Count: 1
+ 
+	Method name: lenient
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+	Method name: verify
+	Class origin: org.mockito.Mockito
+	Count: 7
+ 
+	Method name: thenCallRealMethod
+	Class origin: org.mockito.stubbing.OngoingStubbing<java.lang.String>
+	Count: 2
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 6
+ 
+	Method name: anyString
+	Class origin: org.mockito.ArgumentMatchers
+	Count: 2
+ 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<java.lang.Boolean>
+	Count: 2
+ 
+	Method name: thenAnswer
+	Class origin: org.mockito.stubbing.OngoingStubbing<java.lang.Integer>
+	Count: 1
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 2
+ 
+	Method name: same
+	Class origin: org.mockito.ArgumentMatchers
+	Count: 3
+ 
+	Method name: eq
+	Class origin: org.mockito.ArgumentMatchers
+	Count: 6
+ 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<com.atlassian.jira.rest.client.api.SearchRestClient>
+	Count: 1
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 5
+ 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<com.atlassian.jira.rest.client.api.JiraRestClient>
+	Count: 1
+ 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<com.atlassian.jira.rest.client.api.SearchRestClient>
+	Count: 1
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 5
+ 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<com.atlassian.jira.rest.client.api.JiraRestClient>
+	Count: 1
+ 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<com.atlassian.jira.rest.client.api.SearchRestClient>
+	Count: 1
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 8
+ 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<com.atlassian.jira.rest.client.api.IssueRestClient>
+	Count: 1
+ 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<com.atlassian.jira.rest.client.api.JiraRestClient>
+	Count: 1
+ 
+	Method name: when
+	Class origin: org.mockito.stubbing.LenientStubber
+	Count: 3
+ 
+	Method name: lenient
+	Class origin: org.mockito.Mockito
+	Count: 3
+ 
+	Method name: any
+	Class origin: org.mockito.ArgumentMatchers
+	Count: 16
+ 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<com.atlassian.jira.rest.client.api.JiraRestClient>
+	Count: 1
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 4
+ 
+	Method name: any
+	Class origin: org.mockito.ArgumentMatchers
+	Count: 6
+ 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<com.atlassian.jira.rest.client.api.JiraRestClient>
+	Count: 1
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 7
+ 
+	Method name: any
+	Class origin: org.mockito.ArgumentMatchers
+	Count: 5
+ 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<com.atlassian.jira.rest.client.api.JiraRestClient>
+	Count: 1
+ 
+	Method name: when
+	Class origin: org.mockito.stubbing.LenientStubber
+	Count: 6
+ 
+	Method name: lenient
+	Class origin: org.mockito.Mockito
+	Count: 6
+ 
+	Method name: any
+	Class origin: org.mockito.ArgumentMatchers
+	Count: 6
+ 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<com.atlassian.jira.rest.client.api.JiraRestClient>
+	Count: 1
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 4
+ 
+	Method name: any
+	Class origin: org.mockito.ArgumentMatchers
+	Count: 6
+ 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<com.atlassian.jira.rest.client.api.JiraRestClient>
+	Count: 1
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 4
+ 
+	Method name: any
+	Class origin: org.mockito.ArgumentMatchers
+	Count: 6
+ 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<com.atlassian.jira.rest.client.api.JiraRestClient>
+	Count: 1
+ 
+	Method name: when
+	Class origin: org.mockito.stubbing.LenientStubber
+	Count: 2
+ 
+	Method name: lenient
+	Class origin: org.mockito.Mockito
+	Count: 2
+ 
+	Method name: any
+	Class origin: org.mockito.ArgumentMatchers
+	Count: 4
+ 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<com.atlassian.jira.rest.client.api.JiraRestClient>
+	Count: 1
+ 
+	Method name: when
+	Class origin: org.mockito.stubbing.LenientStubber
+	Count: 2
+ 
+	Method name: lenient
+	Class origin: org.mockito.Mockito
+	Count: 2
+ 
+	Method name: any
+	Class origin: org.mockito.ArgumentMatchers
+	Count: 10
+ 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<com.atlassian.jira.rest.client.api.JiraRestClient>
+	Count: 1
+ 
+	Method name: when
+	Class origin: org.mockito.stubbing.LenientStubber
+	Count: 2
+ 
+	Method name: lenient
+	Class origin: org.mockito.Mockito
+	Count: 2
+ 
+	Method name: any
+	Class origin: org.mockito.ArgumentMatchers
+	Count: 4
+ 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<com.atlassian.jira.rest.client.api.JiraRestClient>
+	Count: 1
+ 
+	Method name: when
+	Class origin: org.mockito.stubbing.LenientStubber
+	Count: 7
+ 
+	Method name: lenient
+	Class origin: org.mockito.Mockito
+	Count: 7
+ 
+	Method name: any
+	Class origin: org.mockito.ArgumentMatchers
+	Count: 5
+ 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<com.atlassian.jira.rest.client.api.JiraRestClient>
+	Count: 1
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 4
+ 
+	Method name: any
+	Class origin: org.mockito.ArgumentMatchers
+	Count: 4
+ 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<java.lang.Boolean>
+	Count: 3
+ 
+	Method name: when
+	Class origin: org.mockito.stubbing.LenientStubber
+	Count: 3
+ 
+	Method name: lenient
+	Class origin: org.mockito.Mockito
+	Count: 3
+ 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 6
+ 
+	Method name: init
+	Class origin: io.fabric8.kubernetes.client.server.mock.KubernetesMockServer
+	Count: 1
+ 
+	Method name: createClient
+	Class origin: io.fabric8.kubernetes.client.server.mock.KubernetesMockServer
+	Count: 1
+ 
+	Method name: destroy
+	Class origin: io.fabric8.kubernetes.client.server.mock.KubernetesMockServer
+	Count: 1
+ 
+	Method name: expect
+	Class origin: io.fabric8.mockwebserver.DefaultMockServer
+	Count: 1
+ 
+	Method name: always
+	Class origin: io.fabric8.mockwebserver.dsl.Timesable
+	Count: 4
+ 
+	Method name: andReturn
+	Class origin: io.fabric8.mockwebserver.dsl.Returnable
+	Count: 4
+ 
+	Method name: withPath
+	Class origin: io.fabric8.mockwebserver.dsl.Pathable<io.fabric8.mockwebserver.dsl.ReturnOrWebsocketable<io.fabric8.mockwebserver.dsl.TimesOnceableOrHttpHeaderable<java.lang.Void>>>
+	Count: 4
+ 
+	Method name: init
+	Class origin: io.fabric8.kubernetes.client.server.mock.KubernetesMockServer
+	Count: 1
+ 
+	Method name: createOpenShiftClient
+	Class origin: io.fabric8.openshift.client.server.mock.OpenShiftMockServer
+	Count: 1
+ 
+	Method name: destroy
+	Class origin: io.fabric8.kubernetes.client.server.mock.KubernetesMockServer
+	Count: 1
+ 
+	Method name: expect
+	Class origin: io.fabric8.mockwebserver.DefaultMockServer
+	Count: 1
+ 
+	Method name: always
+	Class origin: io.fabric8.mockwebserver.dsl.Timesable
+	Count: 2
+ 
+	Method name: andReturn
+	Class origin: io.fabric8.mockwebserver.dsl.Returnable
+	Count: 2
+ 
+	Method name: withPath
+	Class origin: io.fabric8.mockwebserver.dsl.Pathable<io.fabric8.mockwebserver.dsl.ReturnOrWebsocketable<io.fabric8.mockwebserver.dsl.TimesOnceableOrHttpHeaderable<java.lang.Void>>>
+	Count: 2
+ 
+	Method name: destroy
+	Class origin: io.fabric8.kubernetes.client.server.mock.KubernetesMockServer
+	Count: 1
+ 
+	Method name: createClient
+	Class origin: io.fabric8.kubernetes.client.server.mock.KubernetesMockServer
+	Count: 1
+ 
+	Method name: always
+	Class origin: io.fabric8.mockwebserver.dsl.Timesable<java.lang.Void>
+	Count: 4
+ 
+	Method name: andReply
+	Class origin: io.fabric8.mockwebserver.dsl.Replyable<io.fabric8.mockwebserver.dsl.TimesOnceableOrHttpHeaderable<java.lang.Void>>
+	Count: 4
+ 
+	Method name: withPath
+	Class origin: io.fabric8.mockwebserver.dsl.Pathable<io.fabric8.mockwebserver.dsl.ReturnOrWebsocketable<io.fabric8.mockwebserver.dsl.TimesOnceableOrHttpHeaderable<java.lang.Void>>>
+	Count: 4
+ 
+	Method name: get
+	Class origin: io.fabric8.mockwebserver.dsl.HttpMethodable<io.fabric8.mockwebserver.dsl.DelayPathable<io.fabric8.mockwebserver.dsl.ReturnOrWebsocketable<io.fabric8.mockwebserver.dsl.TimesOnceableOrHttpHeaderable<java.lang.Void>>>>
+	Count: 2
+ 
+	Method name: expect
+	Class origin: io.fabric8.mockwebserver.DefaultMockServer
+	Count: 4
+ 
+	Method name: once
+	Class origin: io.fabric8.mockwebserver.dsl.Onceable<java.lang.Void>
+	Count: 2
+ 
+	Method name: andReturn
+	Class origin: io.fabric8.mockwebserver.dsl.Returnable<io.fabric8.mockwebserver.dsl.TimesOnceableOrHttpHeaderable<java.lang.Void>>
+	Count: 2
+ 
+	Method name: withPath
+	Class origin: io.fabric8.mockwebserver.dsl.Pathable<io.fabric8.mockwebserver.dsl.ReturnOrWebsocketable<io.fabric8.mockwebserver.dsl.TimesOnceableOrHttpHeaderable<java.lang.Void>>>
+	Count: 2
+ 
+	Method name: once
+	Class origin: io.fabric8.mockwebserver.dsl.Onceable<java.lang.Void>
+	Count: 7
+ 
+	Method name: andReturn
+	Class origin: io.fabric8.mockwebserver.dsl.Returnable<io.fabric8.mockwebserver.dsl.TimesOnceableOrHttpHeaderable<java.lang.Void>>
+	Count: 7
+ 
+	Method name: withPath
+	Class origin: io.fabric8.mockwebserver.dsl.Pathable<io.fabric8.mockwebserver.dsl.ReturnOrWebsocketable<io.fabric8.mockwebserver.dsl.TimesOnceableOrHttpHeaderable<java.lang.Void>>>
+	Count: 7
+ 
+	Method name: once
+	Class origin: io.fabric8.mockwebserver.dsl.Onceable<java.lang.Void>
+	Count: 3
+ 
+	Method name: andReturn
+	Class origin: io.fabric8.mockwebserver.dsl.Returnable<io.fabric8.mockwebserver.dsl.TimesOnceableOrHttpHeaderable<java.lang.Void>>
+	Count: 3
+ 
+	Method name: withPath
+	Class origin: io.fabric8.mockwebserver.dsl.Pathable<io.fabric8.mockwebserver.dsl.ReturnOrWebsocketable<io.fabric8.mockwebserver.dsl.TimesOnceableOrHttpHeaderable<java.lang.Void>>>
+	Count: 3
+ 
+	Method name: once
+	Class origin: io.fabric8.mockwebserver.dsl.Onceable<java.lang.Void>
+	Count: 4
+ 
+	Method name: andReturn
+	Class origin: io.fabric8.mockwebserver.dsl.Returnable<io.fabric8.mockwebserver.dsl.TimesOnceableOrHttpHeaderable<java.lang.Void>>
+	Count: 6
+ 
+	Method name: withPath
+	Class origin: io.fabric8.mockwebserver.dsl.Pathable<io.fabric8.mockwebserver.dsl.ReturnOrWebsocketable<io.fabric8.mockwebserver.dsl.TimesOnceableOrHttpHeaderable<java.lang.Void>>>
+	Count: 6
+ 
+	Method name: once
+	Class origin: io.fabric8.mockwebserver.dsl.Onceable<java.lang.Void>
+	Count: 6
+ 
+	Method name: andReturn
+	Class origin: io.fabric8.mockwebserver.dsl.Returnable<io.fabric8.mockwebserver.dsl.TimesOnceableOrHttpHeaderable<java.lang.Void>>
+	Count: 6
+ 
+	Method name: withPath
+	Class origin: io.fabric8.mockwebserver.dsl.Pathable<io.fabric8.mockwebserver.dsl.ReturnOrWebsocketable<io.fabric8.mockwebserver.dsl.TimesOnceableOrHttpHeaderable<java.lang.Void>>>
+	Count: 6
+ 
+	Method name: once
+	Class origin: io.fabric8.mockwebserver.dsl.Onceable<java.lang.Void>
+	Count: 5
+ 
+	Method name: andReturn
+	Class origin: io.fabric8.mockwebserver.dsl.Returnable<io.fabric8.mockwebserver.dsl.TimesOnceableOrHttpHeaderable<java.lang.Void>>
+	Count: 5
+ 
+	Method name: withPath
+	Class origin: io.fabric8.mockwebserver.dsl.Pathable<io.fabric8.mockwebserver.dsl.ReturnOrWebsocketable<io.fabric8.mockwebserver.dsl.TimesOnceableOrHttpHeaderable<java.lang.Void>>>
+	Count: 5
+ 
+	Method name: once
+	Class origin: io.fabric8.mockwebserver.dsl.Onceable<java.lang.Void>
+	Count: 4
+ 
+	Method name: andReturn
+	Class origin: io.fabric8.mockwebserver.dsl.Returnable<io.fabric8.mockwebserver.dsl.TimesOnceableOrHttpHeaderable<java.lang.Void>>
+	Count: 4
+ 
+	Method name: withPath
+	Class origin: io.fabric8.mockwebserver.dsl.Pathable<io.fabric8.mockwebserver.dsl.ReturnOrWebsocketable<io.fabric8.mockwebserver.dsl.TimesOnceableOrHttpHeaderable<java.lang.Void>>>
+	Count: 4
+ 
+	Method name: once
+	Class origin: io.fabric8.mockwebserver.dsl.Onceable<java.lang.Void>
+	Count: 5
+ 
+	Method name: andReturn
+	Class origin: io.fabric8.mockwebserver.dsl.Returnable<io.fabric8.mockwebserver.dsl.TimesOnceableOrHttpHeaderable<java.lang.Void>>
+	Count: 7
+ 
+	Method name: withPath
+	Class origin: io.fabric8.mockwebserver.dsl.Pathable<io.fabric8.mockwebserver.dsl.ReturnOrWebsocketable<io.fabric8.mockwebserver.dsl.TimesOnceableOrHttpHeaderable<java.lang.Void>>>
+	Count: 7
+ 
+	Method name: once
+	Class origin: io.fabric8.mockwebserver.dsl.Onceable<java.lang.Void>
+	Count: 3
+ 
+	Method name: andReturn
+	Class origin: io.fabric8.mockwebserver.dsl.Returnable<io.fabric8.mockwebserver.dsl.TimesOnceableOrHttpHeaderable<java.lang.Void>>
+	Count: 3
+ 
+	Method name: withPath
+	Class origin: io.fabric8.mockwebserver.dsl.Pathable<io.fabric8.mockwebserver.dsl.ReturnOrWebsocketable<io.fabric8.mockwebserver.dsl.TimesOnceableOrHttpHeaderable<java.lang.Void>>>
+	Count: 3
+ 
+	Method name: once
+	Class origin: io.fabric8.mockwebserver.dsl.Onceable<java.lang.Void>
+	Count: 3
+ 
+	Method name: andReturn
+	Class origin: io.fabric8.mockwebserver.dsl.Returnable<io.fabric8.mockwebserver.dsl.TimesOnceableOrHttpHeaderable<java.lang.Void>>
+	Count: 3
+ 
+	Method name: withPath
+	Class origin: io.fabric8.mockwebserver.dsl.Pathable<io.fabric8.mockwebserver.dsl.ReturnOrWebsocketable<io.fabric8.mockwebserver.dsl.TimesOnceableOrHttpHeaderable<java.lang.Void>>>
+	Count: 3
+ 
+	Method name: once
+	Class origin: io.fabric8.mockwebserver.dsl.Onceable<java.lang.Void>
+	Count: 4
+ 
+	Method name: andReturn
+	Class origin: io.fabric8.mockwebserver.dsl.Returnable<io.fabric8.mockwebserver.dsl.TimesOnceableOrHttpHeaderable<java.lang.Void>>
+	Count: 4
+ 
+	Method name: withPath
+	Class origin: io.fabric8.mockwebserver.dsl.Pathable<io.fabric8.mockwebserver.dsl.ReturnOrWebsocketable<io.fabric8.mockwebserver.dsl.TimesOnceableOrHttpHeaderable<java.lang.Void>>>
+	Count: 4
+ 
+	Method name: once
+	Class origin: io.fabric8.mockwebserver.dsl.Onceable<java.lang.Void>
+	Count: 3
+ 
+	Method name: andReturn
+	Class origin: io.fabric8.mockwebserver.dsl.Returnable<io.fabric8.mockwebserver.dsl.TimesOnceableOrHttpHeaderable<java.lang.Void>>
+	Count: 3
+ 
+	Method name: withPath
+	Class origin: io.fabric8.mockwebserver.dsl.Pathable<io.fabric8.mockwebserver.dsl.ReturnOrWebsocketable<io.fabric8.mockwebserver.dsl.TimesOnceableOrHttpHeaderable<java.lang.Void>>>
+	Count: 3
+ 
+	Method name: once
+	Class origin: io.fabric8.mockwebserver.dsl.Onceable<java.lang.Void>
+	Count: 4
+ 
+	Method name: andReturn
+	Class origin: io.fabric8.mockwebserver.dsl.Returnable<io.fabric8.mockwebserver.dsl.TimesOnceableOrHttpHeaderable<java.lang.Void>>
+	Count: 4
+ 
+	Method name: withPath
+	Class origin: io.fabric8.mockwebserver.dsl.Pathable<io.fabric8.mockwebserver.dsl.ReturnOrWebsocketable<io.fabric8.mockwebserver.dsl.TimesOnceableOrHttpHeaderable<java.lang.Void>>>
+	Count: 4
+ 
+	Method name: once
+	Class origin: io.fabric8.mockwebserver.dsl.Onceable<java.lang.Void>
+	Count: 2
+ 
+	Method name: andReturn
+	Class origin: io.fabric8.mockwebserver.dsl.Returnable<io.fabric8.mockwebserver.dsl.TimesOnceableOrHttpHeaderable<java.lang.Void>>
+	Count: 2
+ 
+	Method name: withPath
+	Class origin: io.fabric8.mockwebserver.dsl.Pathable<io.fabric8.mockwebserver.dsl.ReturnOrWebsocketable<io.fabric8.mockwebserver.dsl.TimesOnceableOrHttpHeaderable<java.lang.Void>>>
+	Count: 2
+ 
+	Method name: once
+	Class origin: io.fabric8.mockwebserver.dsl.Onceable<java.lang.Void>
+	Count: 7
+ 
+	Method name: andReturn
+	Class origin: io.fabric8.mockwebserver.dsl.Returnable<io.fabric8.mockwebserver.dsl.TimesOnceableOrHttpHeaderable<java.lang.Void>>
+	Count: 7
+ 
+	Method name: withPath
+	Class origin: io.fabric8.mockwebserver.dsl.Pathable<io.fabric8.mockwebserver.dsl.ReturnOrWebsocketable<io.fabric8.mockwebserver.dsl.TimesOnceableOrHttpHeaderable<java.lang.Void>>>
+	Count: 7
+ 
+	Method name: post
+	Class origin: io.fabric8.mockwebserver.dsl.HttpMethodable<io.fabric8.mockwebserver.dsl.DelayPathable<io.fabric8.mockwebserver.dsl.ReturnOrWebsocketable<io.fabric8.mockwebserver.dsl.TimesOnceableOrHttpHeaderable<java.lang.Void>>>>
+	Count: 2
+ 
+	Method name: once
+	Class origin: io.fabric8.mockwebserver.dsl.Onceable<java.lang.Void>
+	Count: 3
+ 
+	Method name: andReturn
+	Class origin: io.fabric8.mockwebserver.dsl.Returnable<io.fabric8.mockwebserver.dsl.TimesOnceableOrHttpHeaderable<java.lang.Void>>
+	Count: 4
+ 
+	Method name: withPath
+	Class origin: io.fabric8.mockwebserver.dsl.Pathable<io.fabric8.mockwebserver.dsl.ReturnOrWebsocketable<io.fabric8.mockwebserver.dsl.TimesOnceableOrHttpHeaderable<java.lang.Void>>>
+	Count: 4
+ 
+	Method name: always
+	Class origin: io.fabric8.mockwebserver.dsl.Timesable<java.lang.Void>
+	Count: 1
+ 
+	Method name: once
+	Class origin: io.fabric8.mockwebserver.dsl.Onceable<java.lang.Void>
+	Count: 2
+ 
+	Method name: andReturn
+	Class origin: io.fabric8.mockwebserver.dsl.Returnable<io.fabric8.mockwebserver.dsl.TimesOnceableOrHttpHeaderable<java.lang.Void>>
+	Count: 3
+ 
+	Method name: withPath
+	Class origin: io.fabric8.mockwebserver.dsl.Pathable<io.fabric8.mockwebserver.dsl.ReturnOrWebsocketable<io.fabric8.mockwebserver.dsl.TimesOnceableOrHttpHeaderable<java.lang.Void>>>
+	Count: 3
+ 
+	Method name: clearAll
+	Class origin: org.jvnet.mock_javamail.Mailbox
+	Count: 1
+ 
+	Method name: clearAll
+	Class origin: org.jvnet.mock_javamail.Mailbox
+	Count: 1
+ 
+	Method name: get
+	Class origin: org.jvnet.mock_javamail.Mailbox
+	Count: 1
+ 
+	Method name: clearAll
+	Class origin: org.jvnet.mock_javamail.Mailbox
+	Count: 1
+ 
+	Method name: get
+	Class origin: org.jvnet.mock_javamail.Mailbox
+	Count: 1
+ 
+	Method name: clearAll
+	Class origin: org.jvnet.mock_javamail.Mailbox
+	Count: 1
+ 
+	Method name: clearAll
+	Class origin: org.jvnet.mock_javamail.Mailbox
+	Count: 1
+ 
+	Method name: get
+	Class origin: org.jvnet.mock_javamail.Mailbox
+	Count: 14
+ 
+	Method name: clearAll
+	Class origin: org.jvnet.mock_javamail.Mailbox
+	Count: 2
+ 
+	Method name: get
+	Class origin: org.jvnet.mock_javamail.Mailbox
+	Count: 3
+ 
+	Method name: clearAll
+	Class origin: org.jvnet.mock_javamail.Mailbox
+	Count: 1
+ 
+	Method name: clearAll
+	Class origin: org.jvnet.mock_javamail.Mailbox
+	Count: 1
+ 
+	Method name: get
+	Class origin: org.jvnet.mock_javamail.Mailbox
+	Count: 4
+ 
+	Method name: get
+	Class origin: org.jvnet.mock_javamail.Mailbox
+	Count: 1
+ 
+	Method name: clearAll
+	Class origin: org.jvnet.mock_javamail.Mailbox
+	Count: 1
+ 
+	Method name: clearAll
+	Class origin: org.jvnet.mock_javamail.Mailbox
+	Count: 1
+ 
+	Method name: get
+	Class origin: org.jvnet.mock_javamail.Mailbox
+	Count: 1
+ 
+	Method name: clearAll
+	Class origin: org.jvnet.mock_javamail.Mailbox
+	Count: 1
+ 
+	Method name: clearAll
+	Class origin: org.jvnet.mock_javamail.Mailbox
+	Count: 1
+ 
+	Method name: get
+	Class origin: org.jvnet.mock_javamail.Mailbox
+	Count: 2
+ 
+	Method name: clearAll
+	Class origin: org.jvnet.mock_javamail.Mailbox
+	Count: 2
+ 
+	Method name: get
+	Class origin: org.jvnet.mock_javamail.Mailbox
+	Count: 4
+ 
+	Method name: clearAll
+	Class origin: org.jvnet.mock_javamail.Mailbox
+	Count: 1
+ 
+	Method name: clearAll
+	Class origin: org.jvnet.mock_javamail.Mailbox
+	Count: 1
+ 
+	Method name: get
+	Class origin: org.jvnet.mock_javamail.Mailbox
+	Count: 1
+ 
+	Method name: clearAll
+	Class origin: org.jvnet.mock_javamail.Mailbox
+	Count: 1
+ 
+	Method name: clearAll
+	Class origin: org.jvnet.mock_javamail.Mailbox
+	Count: 1
+ 
+	Method name: clearAll
+	Class origin: org.jvnet.mock_javamail.Mailbox
+	Count: 4
+ 
+	Method name: get
+	Class origin: org.jvnet.mock_javamail.Mailbox
+	Count: 14
+ 
+	Method name: getNewMessageCount
+	Class origin: org.jvnet.mock_javamail.Mailbox
+	Count: 1
+ 
+	Method name: get
+	Class origin: org.jvnet.mock_javamail.Mailbox
+	Count: 1
+ 
+	Method name: clearAll
+	Class origin: org.jvnet.mock_javamail.Mailbox
+	Count: 1
+ 
+	Method name: get
+	Class origin: org.jvnet.mock_javamail.Mailbox
+	Count: 1
+ 
+	Method name: clearAll
+	Class origin: org.jvnet.mock_javamail.Mailbox
+	Count: 1
+ 
+	Method name: clearAll
+	Class origin: org.jvnet.mock_javamail.Mailbox
+	Count: 1
+ 
+	Method name: get
+	Class origin: org.jvnet.mock_javamail.Mailbox
+	Count: 2
+ 
+	Method name: clearAll
+	Class origin: org.jvnet.mock_javamail.Mailbox
+	Count: 1
+ 
+	Method name: get
+	Class origin: org.jvnet.mock_javamail.Mailbox
+	Count: 16
+ 
+	Method name: clearAll
+	Class origin: org.jvnet.mock_javamail.Mailbox
+	Count: 1
+ 
+	Method name: clearAll
+	Class origin: org.jvnet.mock_javamail.Mailbox
+	Count: 2
+ 
+	Method name: clearAll
+	Class origin: org.jvnet.mock_javamail.Mailbox
+	Count: 1
+ 
+	Method name: clearAll
+	Class origin: org.jvnet.mock_javamail.Mailbox
+	Count: 2
+ 
+	Method name: clearAll
+	Class origin: org.jvnet.mock_javamail.Mailbox
+	Count: 1
+ 
+	Method name: getNewMessageCount
+	Class origin: org.jvnet.mock_javamail.Mailbox
+	Count: 1
+ 
+	Method name: get
+	Class origin: org.jvnet.mock_javamail.Mailbox
+	Count: 1
+ 
+	Method name: clearAll
+	Class origin: org.jvnet.mock_javamail.Mailbox
+	Count: 1
+ 
+	Method name: clearAll
+	Class origin: org.jvnet.mock_javamail.Mailbox
+	Count: 1
+ 
+	Method name: clearAll
+	Class origin: org.jvnet.mock_javamail.Mailbox
+	Count: 6
+ 
+	Method name: get
+	Class origin: org.jvnet.mock_javamail.Mailbox
+	Count: 12
+ 
+	Method name: clearAll
+	Class origin: org.jvnet.mock_javamail.Mailbox
+	Count: 1
+ 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<javax.mail.Address[]>
+	Count: 3
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 7
+ 
+	Method name: clearAll
+	Class origin: org.jvnet.mock_javamail.Mailbox
+	Count: 2
+ 
+	Method name: clearAll
+	Class origin: org.jvnet.mock_javamail.Mailbox
+	Count: 1
+ 
+	Method name: get
+	Class origin: org.jvnet.mock_javamail.Mailbox
+	Count: 2
+ 
+	Method name: get
+	Class origin: org.jvnet.mock_javamail.Mailbox
+	Count: 1
+ 
+	Method name: clearAll
+	Class origin: org.jvnet.mock_javamail.Mailbox
+	Count: 1
+ 
+	Method name: clearAll
+	Class origin: org.jvnet.mock_javamail.Mailbox
+	Count: 1
+ 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 4
+ 
+	Method name: get
+	Class origin: org.jvnet.mock_javamail.Mailbox
+	Count: 1
+ 
+	Method name: clearAll
+	Class origin: org.jvnet.mock_javamail.Mailbox
+	Count: 1
+ 
+	Method name: clearAll
+	Class origin: org.jvnet.mock_javamail.Mailbox
+	Count: 2
+ 
+	Method name: clearAll
+	Class origin: org.jvnet.mock_javamail.Mailbox
+	Count: 1
+ 
+	Method name: clearAll
+	Class origin: org.jvnet.mock_javamail.Mailbox
+	Count: 1
+ 
+	Method name: get
+	Class origin: org.jvnet.mock_javamail.Mailbox
+	Count: 3
+ 
+	Method name: clearAll
+	Class origin: org.jvnet.mock_javamail.Mailbox
+	Count: 1
+ 
+	Method name: clearAll
+	Class origin: org.jvnet.mock_javamail.Mailbox
+	Count: 3
+ 
+	Method name: get
+	Class origin: org.jvnet.mock_javamail.Mailbox
+	Count: 6
+ 
+	Method name: clearAll
+	Class origin: org.jvnet.mock_javamail.Mailbox
+	Count: 1
+ 
+	Method name: clearAll
+	Class origin: org.jvnet.mock_javamail.Mailbox
+	Count: 1
+ 
+	Method name: clearAll
+	Class origin: org.jvnet.mock_javamail.Mailbox
+	Count: 1
+ 
+	Method name: get
+	Class origin: org.jvnet.mock_javamail.Mailbox
+	Count: 1
+ 
+	Method name: clearAll
+	Class origin: org.jvnet.mock_javamail.Mailbox
+	Count: 1
+ 
+	Method name: get
+	Class origin: org.jvnet.mock_javamail.Mailbox
+	Count: 1
+ 
+	Method name: clearAll
+	Class origin: org.jvnet.mock_javamail.Mailbox
+	Count: 1
+ 
+	Method name: clearAll
+	Class origin: org.jvnet.mock_javamail.Mailbox
+	Count: 1
+ 
+	Method name: clearAll
+	Class origin: org.jvnet.mock_javamail.Mailbox
+	Count: 1
+ 
+	Method name: clearAll
+	Class origin: org.jvnet.mock_javamail.Mailbox
+	Count: 1
+ 
+	Method name: clearAll
+	Class origin: org.jvnet.mock_javamail.Mailbox
+	Count: 1
+ 
+	Method name: get
+	Class origin: org.jvnet.mock_javamail.Mailbox
+	Count: 2
+ 
+	Method name: clearAll
+	Class origin: org.jvnet.mock_javamail.Mailbox
+	Count: 1
+ 
+	Method name: getNewMessageCount
+	Class origin: org.jvnet.mock_javamail.Mailbox
+	Count: 1
+ 
+	Method name: get
+	Class origin: org.jvnet.mock_javamail.Mailbox
+	Count: 1
+ 
+	Method name: getNewMessageCount
+	Class origin: org.jvnet.mock_javamail.Mailbox
+	Count: 2
+ 
+	Method name: get
+	Class origin: org.jvnet.mock_javamail.Mailbox
+	Count: 2
+ 
+	Method name: clearAll
+	Class origin: org.jvnet.mock_javamail.Mailbox
+	Count: 1
+ 
+	Method name: clearAll
+	Class origin: org.jvnet.mock_javamail.Mailbox
+	Count: 3
+ 
+	Method name: clearAll
+	Class origin: org.jvnet.mock_javamail.Mailbox
+	Count: 2
+ 
+	Method name: get
+	Class origin: org.jvnet.mock_javamail.Mailbox
+	Count: 1
+ 
+	Method name: clearAll
+	Class origin: org.jvnet.mock_javamail.Mailbox
+	Count: 1
+ 
+	Method name: get
+	Class origin: org.jvnet.mock_javamail.Mailbox
+	Count: 2
+ 
+	Method name: clearAll
+	Class origin: org.jvnet.mock_javamail.Mailbox
+	Count: 1
+ 
+	Method name: clearAll
+	Class origin: org.jvnet.mock_javamail.Mailbox
+	Count: 1
+ 
+	Method name: clearAll
+	Class origin: org.jvnet.mock_javamail.Mailbox
+	Count: 1
+ 
+	Method name: get
+	Class origin: org.jvnet.mock_javamail.Mailbox
+	Count: 1
+ 
+	Method name: clearAll
+	Class origin: org.jvnet.mock_javamail.Mailbox
+	Count: 1
+ 
+	Method name: clearAll
+	Class origin: org.jvnet.mock_javamail.Mailbox
+	Count: 1
+ 
+	Method name: clearAll
+	Class origin: org.jvnet.mock_javamail.Mailbox
+	Count: 1
+ 
+	Method name: clearAll
+	Class origin: org.jvnet.mock_javamail.Mailbox
+	Count: 1
+ 
+	Method name: clearAll
+	Class origin: org.jvnet.mock_javamail.Mailbox
+	Count: 2
+ 
+	Method name: get
+	Class origin: org.jvnet.mock_javamail.Mailbox
+	Count: 8
+ 
+	Method name: clearAll
+	Class origin: org.jvnet.mock_javamail.Mailbox
+	Count: 2
+ 
+	Method name: get
+	Class origin: org.jvnet.mock_javamail.Mailbox
+	Count: 26
+ 
+	Method name: getNewMessageCount
+	Class origin: org.jvnet.mock_javamail.Mailbox
+	Count: 4
+ 
+	Method name: get
+	Class origin: org.jvnet.mock_javamail.Mailbox
+	Count: 1
+ 
+	Method name: resolve
+	Class origin: org.jvnet.mock_javamail.Aliases
+	Count: 1
+ 
+	Method name: getInstance
+	Class origin: org.jvnet.mock_javamail.Aliases
+	Count: 1
+ 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 2
+ 
+	Method name: inOrder
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+	Method name: verifyNoMoreInteractions
+	Class origin: org.mockito.InOrder
+	Count: 1
+ 
+	Method name: inOrder
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+	Method name: verifyNoMoreInteractions
+	Class origin: org.mockito.InOrder
+	Count: 1
+ 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 2
+ 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 2
+ 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 2
+ 
+	Method name: inOrder
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<com.codahale.metrics.Timer>
+	Count: 1
+ 
+	Method name: when
+	Class origin: org.mockito.stubbing.LenientStubber
+	Count: 3
+ 
+	Method name: lenient
+	Class origin: org.mockito.Mockito
+	Count: 3
+ 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<com.codahale.metrics.Timer.Context>
+	Count: 11
+ 
+	Method name: inOrder
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<com.codahale.metrics.Meter>
+	Count: 1
+ 
+	Method name: when
+	Class origin: org.mockito.stubbing.LenientStubber
+	Count: 2
+ 
+	Method name: lenient
+	Class origin: org.mockito.Mockito
+	Count: 2
+ 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 2
+ 
+	Method name: inOrder
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<com.codahale.metrics.Histogram>
+	Count: 1
+ 
+	Method name: when
+	Class origin: org.mockito.stubbing.LenientStubber
+	Count: 2
+ 
+	Method name: lenient
+	Class origin: org.mockito.Mockito
+	Count: 2
+ 
+	Method name: inOrder
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 18
+ 
+	Method name: then
+	Class origin: org.mockito.stubbing.OngoingStubbing<java.lang.String>
+	Count: 2
+ 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<com.codahale.metrics.MetricRegistry>
+	Count: 1
+ 
+	Method name: when
+	Class origin: org.mockito.stubbing.LenientStubber
+	Count: 4
+ 
+	Method name: lenient
+	Class origin: org.mockito.Mockito
+	Count: 4
+ 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<java.lang.Object>
+	Count: 2
+ 
+	Method name: inOrder
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+	Method name: when
+	Class origin: org.mockito.stubbing.LenientStubber
+	Count: 3
+ 
+	Method name: lenient
+	Class origin: org.mockito.Mockito
+	Count: 3
+ 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<java.lang.String>
+	Count: 9
+ 
+	Method name: inOrder
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+	Method name: verifyNoMoreInteractions
+	Class origin: org.mockito.InOrder
+	Count: 1
+ 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 2
+ 
+	Method name: inOrder
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<com.codahale.metrics.Counter>
+	Count: 1
+ 
+	Method name: when
+	Class origin: org.mockito.stubbing.LenientStubber
+	Count: 2
+ 
+	Method name: lenient
+	Class origin: org.mockito.Mockito
+	Count: 2
+ 
+	Method name: inOrder
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+	Method name: verifyNoMoreInteractions
+	Class origin: org.mockito.InOrder
+	Count: 1
+ 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<java.util.SortedMap<java.lang.String,com.codahale.metrics.Gauge>>
+	Count: 1
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 2
+ 
+	Method name: then
+	Class origin: org.mockito.stubbing.OngoingStubbing<java.lang.Object>
+	Count: 1
+ 
+	Method name: inOrder
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+	Method name: verifyNoMoreInteractions
+	Class origin: org.mockito.InOrder
+	Count: 1
+ 
+	Method name: inOrder
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+	Method name: verify
+	Class origin: org.mockito.InOrder
+	Count: 16
+ 
+	Method name: times
+	Class origin: org.mockito.Mockito
+	Count: 16
+ 
+	Method name: anyString
+	Class origin: org.mockito.ArgumentMatchers
+	Count: 4
+ 
+	Method name: inOrder
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+	Method name: verifyNoMoreInteractions
+	Class origin: org.mockito.InOrder
+	Count: 1
+ 
+	Method name: inOrder
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 10
+ 
+	Method name: inOrder
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+	Method name: verifyNoMoreInteractions
+	Class origin: org.mockito.InOrder
+	Count: 1
+ 
+	Method name: inOrder
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+	Method name: verifyNoMoreInteractions
+	Class origin: org.mockito.InOrder
+	Count: 1
+ 
+	Method name: inOrder
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+	Method name: verifyNoMoreInteractions
+	Class origin: org.mockito.InOrder
+	Count: 1
+ 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 2
+ 
+	Method name: inOrder
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+	Method name: verify
+	Class origin: org.mockito.InOrder
+	Count: 3
+ 
+	Method name: times
+	Class origin: org.mockito.Mockito
+	Count: 3
+ 
+	Method name: spy
+	Class origin: org.mockito.Mockito
+	Count: 9
+ 
+	Method name: extensions
+	Class origin: com.github.tomakehurst.wiremock.core.WireMockConfiguration
+	Count: 1
+ 
+	Method name: wireMockConfig
+	Class origin: com.github.tomakehurst.wiremock.core.WireMockConfiguration
+	Count: 1
+ 
+	Method name: httpsPort
+	Class origin: com.github.tomakehurst.wiremock.core.WireMockConfiguration
+	Count: 1
+ 
+	Method name: keystorePath
+	Class origin: com.github.tomakehurst.wiremock.core.WireMockConfiguration
+	Count: 1
+ 
+	Method name: keystorePassword
+	Class origin: com.github.tomakehurst.wiremock.core.WireMockConfiguration
+	Count: 1
+ 
+	Method name: keyManagerPassword
+	Class origin: com.github.tomakehurst.wiremock.core.WireMockConfiguration
+	Count: 1
+ 
+	Method name: port
+	Class origin: com.github.tomakehurst.wiremock.core.WireMockConfiguration
+	Count: 1
+ 
+	Method name: start
+	Class origin: com.github.tomakehurst.wiremock.WireMockServer
+	Count: 1
+ 
+	Method name: stop
+	Class origin: com.github.tomakehurst.wiremock.WireMockServer
+	Count: 1
+ 
+	Method name: getUrl
+	Class origin: com.github.tomakehurst.wiremock.http.Request
+	Count: 1
+ 
+	Method name: build
+	Class origin: com.github.tomakehurst.wiremock.client.ResponseDefinitionBuilder
+	Count: 1
+ 
+	Method name: withBody
+	Class origin: com.github.tomakehurst.wiremock.client.ResponseDefinitionBuilder
+	Count: 1
+ 
+	Method name: withStatus
+	Class origin: com.github.tomakehurst.wiremock.client.ResponseDefinitionBuilder
+	Count: 1
+ 
+	Method name: spy
+	Class origin: org.mockito.Mockito
+	Count: 7
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 3
+ 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<org.openstack4j.api.storage.BlockVolumeSnapshotService>
+	Count: 1
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 11
+ 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<org.openstack4j.model.storage.block.VolumeSnapshot>
+	Count: 2
+ 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<org.openstack4j.api.storage.BlockVolumeService>
+	Count: 1
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 13
+ 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<org.openstack4j.model.storage.block.Volume>
+	Count: 2
+ 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<org.openstack4j.api.storage.BlockStorageService>
+	Count: 1
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<org.openstack4j.api.image.ImageService>
+	Count: 1
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 18
+ 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<org.openstack4j.model.image.Image>
+	Count: 5
+ 
+	Method name: dynamicPort
+	Class origin: com.github.tomakehurst.wiremock.core.WireMockConfiguration
+	Count: 1
+ 
+	Method name: options
+	Class origin: com.github.tomakehurst.wiremock.core.WireMockConfiguration
+	Count: 1
+ 
+	Method name: extensions
+	Class origin: com.github.tomakehurst.wiremock.core.WireMockConfiguration
+	Count: 1
+ 
+	Method name: start
+	Class origin: com.github.tomakehurst.wiremock.WireMockServer
+	Count: 1
+ 
+	Method name: stop
+	Class origin: com.github.tomakehurst.wiremock.WireMockServer
+	Count: 1
+ 
+	Method name: baseUrl
+	Class origin: com.github.tomakehurst.wiremock.WireMockServer
+	Count: 1
+ 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<org.openstack4j.api.identity.v3.RegionService>
+	Count: 1
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 8
+ 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<org.openstack4j.model.identity.v3.Region>
+	Count: 3
+ 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<org.openstack4j.api.identity.v3.DomainService>
+	Count: 1
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 10
+ 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<org.openstack4j.model.identity.v3.Domain>
+	Count: 3
+ 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<org.openstack4j.api.identity.v3.GroupService>
+	Count: 1
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 10
+ 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<org.openstack4j.model.identity.v3.Group>
+	Count: 3
+ 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<org.openstack4j.api.identity.v3.ProjectService>
+	Count: 1
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 10
+ 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<org.openstack4j.model.identity.v3.Project>
+	Count: 3
+ 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<org.openstack4j.api.identity.v3.UserService>
+	Count: 1
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 12
+ 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<org.openstack4j.model.identity.v3.User>
+	Count: 3
+ 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<org.openstack4j.api.identity.v3.IdentityService>
+	Count: 1
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<org.openstack4j.api.networking.PortService>
+	Count: 1
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 12
+ 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<org.openstack4j.model.network.Port>
+	Count: 3
+ 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<org.openstack4j.api.networking.RouterService>
+	Count: 1
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 10
+ 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<org.openstack4j.model.network.Router>
+	Count: 3
+ 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<org.openstack4j.api.networking.NetworkService>
+	Count: 1
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 8
+ 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<org.openstack4j.model.network.Network>
+	Count: 2
+ 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<org.openstack4j.api.networking.SubnetService>
+	Count: 1
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 7
+ 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<org.openstack4j.model.network.Subnet>
+	Count: 2
+ 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<org.openstack4j.api.networking.NetworkingService>
+	Count: 1
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<org.openstack4j.api.compute.KeypairService>
+	Count: 1
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 10
+ 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<org.openstack4j.model.compute.Keypair>
+	Count: 2
+ 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<org.openstack4j.api.compute.ComputeService>
+	Count: 1
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<org.openstack4j.api.compute.ServerService>
+	Count: 1
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 11
+ 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<org.openstack4j.model.compute.Server>
+	Count: 1
+ 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<org.openstack4j.api.compute.FlavorService>
+	Count: 1
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 15
+ 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<org.openstack4j.model.compute.Flavor>
+	Count: 2
+ 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<org.openstack4j.api.storage.ObjectStorageObjectService>
+	Count: 1
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 8
+ 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<java.lang.String>
+	Count: 4
+ 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<org.openstack4j.api.storage.ObjectStorageContainerService>
+	Count: 1
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 7
+ 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<org.openstack4j.model.common.ActionResponse>
+	Count: 3
+ 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<org.openstack4j.api.storage.ObjectStorageService>
+	Count: 1
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+	Method name: size
+	Class origin: java.util.List<io.opentracing.mock.MockSpan>
+	Count: 1
+ 
+	Method name: finishedSpans
+	Class origin: io.opentracing.mock.MockTracer
+	Count: 1
+ 
+	Method name: reset
+	Class origin: io.opentracing.mock.MockTracer
+	Count: 1
+ 
+	Method name: finishedSpans
+	Class origin: io.opentracing.mock.MockTracer
+	Count: 3
+ 
+	Method name: size
+	Class origin: java.util.List<io.opentracing.mock.MockSpan>
+	Count: 3
+ 
+	Method name: reset
+	Class origin: io.opentracing.mock.MockTracer
+	Count: 1
+ 
+	Method name: finishedSpans
+	Class origin: io.opentracing.mock.MockTracer
+	Count: 7
+ 
+	Method name: forEach
+	Class origin: java.lang.Iterable<io.opentracing.mock.MockSpan>
+	Count: 1
+ 
+	Method name: tags
+	Class origin: io.opentracing.mock.MockSpan
+	Count: 12
+ 
+	Method name: reset
+	Class origin: io.opentracing.mock.MockTracer
+	Count: 1
+ 
+	Method name: finishedSpans
+	Class origin: io.opentracing.mock.MockTracer
+	Count: 1
+ 
+	Method name: size
+	Class origin: java.util.List<io.opentracing.mock.MockSpan>
+	Count: 1
+ 
+	Method name: operationName
+	Class origin: io.opentracing.mock.MockSpan
+	Count: 3
+ 
+	Method name: get
+	Class origin: java.util.List<io.opentracing.mock.MockSpan>
+	Count: 6
+ 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 2
+ 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 8
+ 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 20
+ 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 4
+ 
+	Method name: stubFor
+	Class origin: com.github.tomakehurst.wiremock.client.WireMock
+	Count: 4
+ 
+	Method name: willReturn
+	Class origin: com.github.tomakehurst.wiremock.client.MappingBuilder
+	Count: 4
+ 
+	Method name: get
+	Class origin: com.github.tomakehurst.wiremock.client.WireMock
+	Count: 4
+ 
+	Method name: urlPathEqualTo
+	Class origin: com.github.tomakehurst.wiremock.client.WireMock
+	Count: 4
+ 
+	Method name: withBody
+	Class origin: com.github.tomakehurst.wiremock.client.ResponseDefinitionBuilder
+	Count: 4
+ 
+	Method name: aResponse
+	Class origin: com.github.tomakehurst.wiremock.client.WireMock
+	Count: 4
+ 
+	Method name: stubFor
+	Class origin: com.github.tomakehurst.wiremock.client.WireMock
+	Count: 2
+ 
+	Method name: willReturn
+	Class origin: com.github.tomakehurst.wiremock.client.MappingBuilder
+	Count: 2
+ 
+	Method name: post
+	Class origin: com.github.tomakehurst.wiremock.client.WireMock
+	Count: 1
+ 
+	Method name: urlPathEqualTo
+	Class origin: com.github.tomakehurst.wiremock.client.WireMock
+	Count: 2
+ 
+	Method name: withBody
+	Class origin: com.github.tomakehurst.wiremock.client.ResponseDefinitionBuilder
+	Count: 2
+ 
+	Method name: withStatus
+	Class origin: com.github.tomakehurst.wiremock.client.ResponseDefinitionBuilder
+	Count: 1
+ 
+	Method name: aResponse
+	Class origin: com.github.tomakehurst.wiremock.client.WireMock
+	Count: 2
+ 
+	Method name: port
+	Class origin: com.github.tomakehurst.wiremock.core.WireMockConfiguration
+	Count: 1
+ 
+	Method name: options
+	Class origin: com.github.tomakehurst.wiremock.core.WireMockConfiguration
+	Count: 1
+ 
+	Method name: start
+	Class origin: com.github.tomakehurst.wiremock.WireMockServer
+	Count: 1
+ 
+	Method name: configureFor
+	Class origin: com.github.tomakehurst.wiremock.client.WireMock
+	Count: 1
+ 
+	Method name: port
+	Class origin: com.github.tomakehurst.wiremock.WireMockServer
+	Count: 1
+ 
+	Method name: stop
+	Class origin: com.github.tomakehurst.wiremock.WireMockServer
+	Count: 1
+ 
+	Method name: stubFor
+	Class origin: com.github.tomakehurst.wiremock.client.WireMock
+	Count: 5
+ 
+	Method name: willReturn
+	Class origin: com.github.tomakehurst.wiremock.client.MappingBuilder
+	Count: 5
+ 
+	Method name: get
+	Class origin: com.github.tomakehurst.wiremock.client.WireMock
+	Count: 5
+ 
+	Method name: urlPathEqualTo
+	Class origin: com.github.tomakehurst.wiremock.client.WireMock
+	Count: 5
+ 
+	Method name: withBody
+	Class origin: com.github.tomakehurst.wiremock.client.ResponseDefinitionBuilder
+	Count: 5
+ 
+	Method name: aResponse
+	Class origin: com.github.tomakehurst.wiremock.client.WireMock
+	Count: 5
+ 
+	Method name: stubFor
+	Class origin: com.github.tomakehurst.wiremock.client.WireMock
+	Count: 1
+ 
+	Method name: willReturn
+	Class origin: com.github.tomakehurst.wiremock.client.MappingBuilder
+	Count: 1
+ 
+	Method name: get
+	Class origin: com.github.tomakehurst.wiremock.client.WireMock
+	Count: 1
+ 
+	Method name: urlPathEqualTo
+	Class origin: com.github.tomakehurst.wiremock.client.WireMock
+	Count: 1
+ 
+	Method name: withBody
+	Class origin: com.github.tomakehurst.wiremock.client.ResponseDefinitionBuilder
+	Count: 1
+ 
+	Method name: aResponse
+	Class origin: com.github.tomakehurst.wiremock.client.WireMock
+	Count: 1
+ 
+	Method name: stubFor
+	Class origin: com.github.tomakehurst.wiremock.client.WireMock
+	Count: 2
+ 
+	Method name: willReturn
+	Class origin: com.github.tomakehurst.wiremock.client.MappingBuilder
+	Count: 2
+ 
+	Method name: get
+	Class origin: com.github.tomakehurst.wiremock.client.WireMock
+	Count: 2
+ 
+	Method name: urlPathEqualTo
+	Class origin: com.github.tomakehurst.wiremock.client.WireMock
+	Count: 2
+ 
+	Method name: withBody
+	Class origin: com.github.tomakehurst.wiremock.client.ResponseDefinitionBuilder
+	Count: 2
+ 
+	Method name: aResponse
+	Class origin: com.github.tomakehurst.wiremock.client.WireMock
+	Count: 2
+ 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<java.lang.Boolean>
+	Count: 1
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+	Method name: verify
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+	Method name: anyString
+	Class origin: org.mockito.ArgumentMatchers
+	Count: 1
+ 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 2
+ 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 3
+ 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 6
+ 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 6
+ 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 3
+ 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 8
+ 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 6
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 4
+ 
+	Method name: dynamicPort
+	Class origin: com.github.tomakehurst.wiremock.core.WireMockConfiguration
+	Count: 1
+ 
+	Method name: wireMockConfig
+	Class origin: com.github.tomakehurst.wiremock.core.WireMockConfiguration
+	Count: 1
+ 
+	Method name: start
+	Class origin: com.github.tomakehurst.wiremock.WireMockServer
+	Count: 1
+ 
+	Method name: stop
+	Class origin: com.github.tomakehurst.wiremock.WireMockServer
+	Count: 1
+ 
+	Method name: resetRequests
+	Class origin: com.github.tomakehurst.wiremock.WireMockServer
+	Count: 1
+ 
+	Method name: verify
+	Class origin: com.github.tomakehurst.wiremock.WireMockServer
+	Count: 6
+ 
+	Method name: withHeader
+	Class origin: com.github.tomakehurst.wiremock.matching.RequestPatternBuilder
+	Count: 8
+ 
+	Method name: keystorePassword
+	Class origin: com.github.tomakehurst.wiremock.core.WireMockConfiguration
+	Count: 1
+ 
+	Method name: keystoreType
+	Class origin: com.github.tomakehurst.wiremock.core.WireMockConfiguration
+	Count: 1
+ 
+	Method name: keystorePath
+	Class origin: com.github.tomakehurst.wiremock.core.WireMockConfiguration
+	Count: 1
+ 
+	Method name: dynamicHttpsPort
+	Class origin: com.github.tomakehurst.wiremock.core.WireMockConfiguration
+	Count: 1
+ 
+	Method name: dynamicPort
+	Class origin: com.github.tomakehurst.wiremock.core.WireMockConfiguration
+	Count: 1
+ 
+	Method name: containerThreads
+	Class origin: com.github.tomakehurst.wiremock.core.WireMockConfiguration
+	Count: 1
+ 
+	Method name: httpServerFactory
+	Class origin: com.github.tomakehurst.wiremock.core.WireMockConfiguration
+	Count: 1
+ 
+	Method name: wireMockConfig
+	Class origin: com.github.tomakehurst.wiremock.core.WireMockConfiguration
+	Count: 1
+ 
+	Method name: start
+	Class origin: com.github.tomakehurst.wiremock.WireMockServer
+	Count: 1
+ 
+	Method name: stop
+	Class origin: com.github.tomakehurst.wiremock.WireMockServer
+	Count: 1
+ 
+	Method name: resetRequests
+	Class origin: com.github.tomakehurst.wiremock.WireMockServer
+	Count: 1
+ 
+	Method name: verify
+	Class origin: com.github.tomakehurst.wiremock.WireMockServer
+	Count: 1
+ 
+	Method name: withHeader
+	Class origin: com.github.tomakehurst.wiremock.matching.RequestPatternBuilder
+	Count: 1
+ 
+	Method name: getRequestedFor
+	Class origin: com.github.tomakehurst.wiremock.client.WireMock
+	Count: 1
+ 
+	Method name: urlEqualTo
+	Class origin: com.github.tomakehurst.wiremock.client.WireMock
+	Count: 3
+ 
+	Method name: equalTo
+	Class origin: com.github.tomakehurst.wiremock.client.WireMock
+	Count: 1
+ 
+	Method name: httpsPort
+	Class origin: com.github.tomakehurst.wiremock.WireMockServer
+	Count: 1
+ 
+	Method name: stubFor
+	Class origin: com.github.tomakehurst.wiremock.WireMockServer
+	Count: 2
+ 
+	Method name: willReturn
+	Class origin: com.github.tomakehurst.wiremock.client.MappingBuilder
+	Count: 2
+ 
+	Method name: get
+	Class origin: com.github.tomakehurst.wiremock.client.WireMock
+	Count: 2
+ 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 6
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 4
+ 
+	Method name: keyStorePath
+	Class origin: com.github.tomakehurst.wiremock.common.HttpsSettings
+	Count: 1
+ 
+	Method name: keyStorePassword
+	Class origin: com.github.tomakehurst.wiremock.common.HttpsSettings
+	Count: 2
+ 
+	Method name: keystorePassword
+	Class origin: com.github.tomakehurst.wiremock.core.WireMockConfiguration
+	Count: 1
+ 
+	Method name: keystoreType
+	Class origin: com.github.tomakehurst.wiremock.core.WireMockConfiguration
+	Count: 1
+ 
+	Method name: keystorePath
+	Class origin: com.github.tomakehurst.wiremock.core.WireMockConfiguration
+	Count: 1
+ 
+	Method name: dynamicHttpsPort
+	Class origin: com.github.tomakehurst.wiremock.core.WireMockConfiguration
+	Count: 1
+ 
+	Method name: dynamicPort
+	Class origin: com.github.tomakehurst.wiremock.core.WireMockConfiguration
+	Count: 1
+ 
+	Method name: containerThreads
+	Class origin: com.github.tomakehurst.wiremock.core.WireMockConfiguration
+	Count: 1
+ 
+	Method name: httpServerFactory
+	Class origin: com.github.tomakehurst.wiremock.core.WireMockConfiguration
+	Count: 1
+ 
+	Method name: wireMockConfig
+	Class origin: com.github.tomakehurst.wiremock.core.WireMockConfiguration
+	Count: 1
+ 
+	Method name: start
+	Class origin: com.github.tomakehurst.wiremock.WireMockServer
+	Count: 1
+ 
+	Method name: stop
+	Class origin: com.github.tomakehurst.wiremock.WireMockServer
+	Count: 1
+ 
+	Method name: resetRequests
+	Class origin: com.github.tomakehurst.wiremock.WireMockServer
+	Count: 1
+ 
+	Method name: verify
+	Class origin: com.github.tomakehurst.wiremock.WireMockServer
+	Count: 1
+ 
+	Method name: withHeader
+	Class origin: com.github.tomakehurst.wiremock.matching.RequestPatternBuilder
+	Count: 1
+ 
+	Method name: getRequestedFor
+	Class origin: com.github.tomakehurst.wiremock.client.WireMock
+	Count: 1
+ 
+	Method name: urlEqualTo
+	Class origin: com.github.tomakehurst.wiremock.client.WireMock
+	Count: 3
+ 
+	Method name: equalTo
+	Class origin: com.github.tomakehurst.wiremock.client.WireMock
+	Count: 1
+ 
+	Method name: httpsPort
+	Class origin: com.github.tomakehurst.wiremock.WireMockServer
+	Count: 1
+ 
+	Method name: stubFor
+	Class origin: com.github.tomakehurst.wiremock.WireMockServer
+	Count: 2
+ 
+	Method name: willReturn
+	Class origin: com.github.tomakehurst.wiremock.client.MappingBuilder
+	Count: 2
+ 
+	Method name: get
+	Class origin: com.github.tomakehurst.wiremock.client.WireMock
+	Count: 2
+ 
+	Method name: dynamicPort
+	Class origin: com.github.tomakehurst.wiremock.core.WireMockConfiguration
+	Count: 1
+ 
+	Method name: wireMockConfig
+	Class origin: com.github.tomakehurst.wiremock.core.WireMockConfiguration
+	Count: 1
+ 
+	Method name: start
+	Class origin: com.github.tomakehurst.wiremock.WireMockServer
+	Count: 1
+ 
+	Method name: stop
+	Class origin: com.github.tomakehurst.wiremock.WireMockServer
+	Count: 1
+ 
+	Method name: resetRequests
+	Class origin: com.github.tomakehurst.wiremock.WireMockServer
+	Count: 1
+ 
+	Method name: verify
+	Class origin: com.github.tomakehurst.wiremock.WireMockServer
+	Count: 6
+ 
+	Method name: withHeader
+	Class origin: com.github.tomakehurst.wiremock.matching.RequestPatternBuilder
+	Count: 8
+ 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 7
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 5
+ 
+	Method name: keystorePassword
+	Class origin: com.github.tomakehurst.wiremock.core.WireMockConfiguration
+	Count: 1
+ 
+	Method name: keystoreType
+	Class origin: com.github.tomakehurst.wiremock.core.WireMockConfiguration
+	Count: 1
+ 
+	Method name: keystorePath
+	Class origin: com.github.tomakehurst.wiremock.core.WireMockConfiguration
+	Count: 1
+ 
+	Method name: dynamicHttpsPort
+	Class origin: com.github.tomakehurst.wiremock.core.WireMockConfiguration
+	Count: 1
+ 
+	Method name: dynamicPort
+	Class origin: com.github.tomakehurst.wiremock.core.WireMockConfiguration
+	Count: 1
+ 
+	Method name: containerThreads
+	Class origin: com.github.tomakehurst.wiremock.core.WireMockConfiguration
+	Count: 1
+ 
+	Method name: httpServerFactory
+	Class origin: com.github.tomakehurst.wiremock.core.WireMockConfiguration
+	Count: 1
+ 
+	Method name: wireMockConfig
+	Class origin: com.github.tomakehurst.wiremock.core.WireMockConfiguration
+	Count: 1
+ 
+	Method name: start
+	Class origin: com.github.tomakehurst.wiremock.WireMockServer
+	Count: 1
+ 
+	Method name: stop
+	Class origin: com.github.tomakehurst.wiremock.WireMockServer
+	Count: 1
+ 
+	Method name: resetRequests
+	Class origin: com.github.tomakehurst.wiremock.WireMockServer
+	Count: 1
+ 
+	Method name: verify
+	Class origin: com.github.tomakehurst.wiremock.WireMockServer
+	Count: 2
+ 
+	Method name: withHeader
+	Class origin: com.github.tomakehurst.wiremock.matching.RequestPatternBuilder
+	Count: 2
+ 
+	Method name: getRequestedFor
+	Class origin: com.github.tomakehurst.wiremock.client.WireMock
+	Count: 2
+ 
+	Method name: urlEqualTo
+	Class origin: com.github.tomakehurst.wiremock.client.WireMock
+	Count: 4
+ 
+	Method name: equalTo
+	Class origin: com.github.tomakehurst.wiremock.client.WireMock
+	Count: 2
+ 
+	Method name: keyStorePath
+	Class origin: com.github.tomakehurst.wiremock.common.HttpsSettings
+	Count: 1
+ 
+	Method name: keyStorePassword
+	Class origin: com.github.tomakehurst.wiremock.common.HttpsSettings
+	Count: 2
+ 
+	Method name: dynamicPort
+	Class origin: com.github.tomakehurst.wiremock.core.WireMockConfiguration
+	Count: 1
+ 
+	Method name: wireMockConfig
+	Class origin: com.github.tomakehurst.wiremock.core.WireMockConfiguration
+	Count: 1
+ 
+	Method name: start
+	Class origin: com.github.tomakehurst.wiremock.WireMockServer
+	Count: 1
+ 
+	Method name: stop
+	Class origin: com.github.tomakehurst.wiremock.WireMockServer
+	Count: 1
+ 
+	Method name: resetRequests
+	Class origin: com.github.tomakehurst.wiremock.WireMockServer
+	Count: 1
+ 
+	Method name: verify
+	Class origin: com.github.tomakehurst.wiremock.WireMockServer
+	Count: 6
+ 
+	Method name: withHeader
+	Class origin: com.github.tomakehurst.wiremock.matching.RequestPatternBuilder
+	Count: 8
+ 
+	Method name: when
+	Class origin: org.mockito.stubbing.Stubber
+	Count: 12
+ 
+	Method name: doAnswer
+	Class origin: org.mockito.Mockito
+	Count: 12
+ 
+	Method name: anyMap
+	Class origin: org.mockito.ArgumentMatchers
+	Count: 12
+ 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<org.jsmpp.session.DataSmResult>
+	Count: 4
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 4
+ 
+	Method name: eq
+	Class origin: org.mockito.ArgumentMatchers
+	Count: 58
+ 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+	Method name: verify
+	Class origin: org.mockito.Mockito
+	Count: 9
+ 
+	Method name: eq
+	Class origin: org.mockito.ArgumentMatchers
+	Count: 61
+ 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 5
+ 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<java.lang.String>
+	Count: 19
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 19
+ 
+	Method name: eq
+	Class origin: org.mockito.ArgumentMatchers
+	Count: 308
+ 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 10
+ 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<org.jsmpp.bean.SubmitMultiResult>
+	Count: 13
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 13
+ 
+	Method name: eq
+	Class origin: org.mockito.ArgumentMatchers
+	Count: 193
+ 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<org.jsmpp.session.QuerySmResult>
+	Count: 2
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 2
+ 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+	Method name: verify
+	Class origin: org.mockito.Mockito
+	Count: 2
+ 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 5
+ 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 4
+ 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<org.springframework.batch.core.Job>
+	Count: 3
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 4
+ 
+	Method name: eq
+	Class origin: org.mockito.ArgumentMatchers
+	Count: 5
+ 
+	Method name: verify
+	Class origin: org.mockito.Mockito
+	Count: 6
+ 
+	Method name: createClient
+	Class origin: org.springframework.ws.test.server.MockWebServiceClient
+	Count: 1
+ 
+	Method name: sendRequest
+	Class origin: org.springframework.ws.test.server.MockWebServiceClient
+	Count: 1
+ 
+	Method name: expect
+	Class origin: net.javacrumbs.smock.springws.client.AbstractSmockClientTest
+	Count: 3
+ 
+	Method name: soapHeader
+	Class origin: net.javacrumbs.smock.common.client.AbstractCommonWebServiceClientTest
+	Count: 5
+ 
+	Method name: expect
+	Class origin: net.javacrumbs.smock.springws.client.AbstractSmockClientTest
+	Count: 1
+ 
+	Method name: soapHeader
+	Class origin: net.javacrumbs.smock.common.client.AbstractCommonWebServiceClientTest
+	Count: 3
+ 
+	Method name: spy
+	Class origin: org.mockito.Mockito
+	Count: 4
+ 
+	Method name: verify
+	Class origin: org.mockito.Mockito
+	Count: 8
+ 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 6
+ 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<java.lang.String>
+	Count: 5
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 7
+ 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 34
+ 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 5
+ 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 2
+ 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<java.lang.String>
+	Count: 2
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 2
+ 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 3
+ 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 4
+ 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<java.lang.String>
+	Count: 2
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 3
+ 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 3
+ 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 6
+ 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 11
+ 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<java.lang.String>
+	Count: 1
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 2
+ 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 4
+ 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<java.lang.String>
+	Count: 3
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 3
+ 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<java.lang.String>
+	Count: 1
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<java.lang.Object>
+	Count: 1
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 2
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<rx.Observable<org.web3j.protocol.core.methods.response.EthBlock>>
+	Count: 3
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 6
+ 
+	Method name: any
+	Class origin: org.mockito.ArgumentMatchers
+	Count: 18
+ 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<rx.Observable<org.web3j.protocol.core.methods.response.Transaction>>
+	Count: 3
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 6
+ 
+	Method name: thenAnswer
+	Class origin: org.mockito.stubbing.OngoingStubbing<rx.Subscription>
+	Count: 3
+ 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<rx.Observable<org.web3j.protocol.core.methods.response.EthBlock>>
+	Count: 3
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 6
+ 
+	Method name: any
+	Class origin: org.mockito.ArgumentMatchers
+	Count: 15
+ 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<rx.Observable<org.web3j.protocol.core.methods.response.Transaction>>
+	Count: 3
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 6
+ 
+	Method name: any
+	Class origin: org.mockito.ArgumentMatchers
+	Count: 12
+ 
+	Method name: thenAnswer
+	Class origin: org.mockito.stubbing.OngoingStubbing<rx.Subscription>
+	Count: 3
+ 
+	Method name: initMocks
+	Class origin: org.mockito.MockitoAnnotations
+	Count: 1
+ 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 71
+ 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<org.web3j.protocol.core.Request<,org.web3j.protocol.core.methods.response.Web3ClientVersion>>
+	Count: 3
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 192
+ 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<org.web3j.protocol.core.Response>
+	Count: 63
+ 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<rx.Observable<org.web3j.protocol.core.methods.response.EthBlock>>
+	Count: 3
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 6
+ 
+	Method name: any
+	Class origin: org.mockito.ArgumentMatchers
+	Count: 15
+ 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<rx.Observable<org.web3j.protocol.core.methods.response.Transaction>>
+	Count: 3
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 6
+ 
+	Method name: any
+	Class origin: org.mockito.ArgumentMatchers
+	Count: 15
+ 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<rx.Observable<org.web3j.protocol.core.methods.response.Transaction>>
+	Count: 3
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 6
+ 
+	Method name: thenAnswer
+	Class origin: org.mockito.stubbing.OngoingStubbing<rx.Subscription>
+	Count: 3
+ 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<rx.Observable<java.lang.String>>
+	Count: 3
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 6
+ 
+	Method name: thenAnswer
+	Class origin: org.mockito.stubbing.OngoingStubbing<rx.Subscription>
+	Count: 3
+ 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 10
+ 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<org.web3j.protocol.core.Request<,org.web3j.quorum.methods.response.QuorumNodeInfo>>
+	Count: 1
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 30
+ 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<org.web3j.protocol.core.Response>
+	Count: 10
+ 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<rx.Observable<org.web3j.protocol.core.methods.response.Log>>
+	Count: 3
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 6
+ 
+	Method name: any
+	Class origin: org.mockito.ArgumentMatchers
+	Count: 12
+ 
+	Method name: thenAnswer
+	Class origin: org.mockito.stubbing.OngoingStubbing<rx.Subscription>
+	Count: 3
+ 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<rx.Observable<org.web3j.protocol.core.methods.response.EthBlock>>
+	Count: 3
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 6
+ 
+	Method name: any
+	Class origin: org.mockito.ArgumentMatchers
+	Count: 12
+ 
+	Method name: thenAnswer
+	Class origin: org.mockito.stubbing.OngoingStubbing<rx.Subscription>
+	Count: 3
+ 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<rx.Observable<org.web3j.protocol.core.methods.response.Transaction>>
+	Count: 3
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 6
+ 
+	Method name: any
+	Class origin: org.mockito.ArgumentMatchers
+	Count: 12
+ 
+	Method name: thenAnswer
+	Class origin: org.mockito.stubbing.OngoingStubbing<rx.Subscription>
+	Count: 3
+ 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<rx.Observable<java.lang.String>>
+	Count: 3
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 6
+ 
+	Method name: thenAnswer
+	Class origin: org.mockito.stubbing.OngoingStubbing<rx.Subscription>
+	Count: 3
+ 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<java.lang.String>
+	Count: 3
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 3
+ 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<java.net.InetSocketAddress>
+	Count: 1
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+	Method name: inOrder
+	Class origin: org.mockito.Mockito
+	Count: 4
+ 
+	Method name: verify
+	Class origin: org.mockito.InOrder
+	Count: 4
+ 
+	Method name: times
+	Class origin: org.mockito.Mockito
+	Count: 4
+ 
+	Method name: verifyNoMoreInteractions
+	Class origin: org.mockito.InOrder
+	Count: 4
+ 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<java.net.InetSocketAddress>
+	Count: 1
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+	Method name: inOrder
+	Class origin: org.mockito.Mockito
+	Count: 2
+ 
+	Method name: verify
+	Class origin: org.mockito.InOrder
+	Count: 2
+ 
+	Method name: times
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+	Method name: verifyNoMoreInteractions
+	Class origin: org.mockito.InOrder
+	Count: 2
+ 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 8
+ 
+	Method name: inOrder
+	Class origin: org.mockito.Mockito
+	Count: 2
+ 
+	Method name: forClass
+	Class origin: org.mockito.ArgumentCaptor
+	Count: 3
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 49
+ 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<java.lang.Object>
+	Count: 4
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+	Method name: inOrder
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+	Method name: forClass
+	Class origin: org.mockito.ArgumentCaptor
+	Count: 2
+ 
+	Method name: verify
+	Class origin: org.mockito.InOrder
+	Count: 2
+ 
+	Method name: times
+	Class origin: org.mockito.Mockito
+	Count: 2
+ 
+	Method name: eq
+	Class origin: org.mockito.ArgumentMatchers
+	Count: 2
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 11
+ 

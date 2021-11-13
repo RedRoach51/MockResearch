@@ -1,0 +1,32 @@
+Inside classes: 
+ 
+org.apache.spark.launcher.SparkAppHandle.Listener
+org.apache.spark.util.collection.unsafe.sort.RecordComparator
+org.apache.spark.util.collection.unsafe.sort.PrefixComparator
+org.apache.spark.network.client.TransportClient
+org.apache.spark.network.buffer.ManagedBuffer
+org.apache.spark.network.client.ChunkReceivedCallback
+org.apache.spark.network.client.RpcResponseCallback
+org.apache.spark.network.client.StreamCallback
+org.apache.spark.network.client.MergedBlockMetaResponseCallback
+org.apache.spark.network.sasl.SecretKeyHolder
+org.apache.spark.network.util.TransportConf
+org.apache.spark.network.server.RpcHandler
+org.apache.spark.network.sasl.SaslEncryptionBackend
+org.apache.spark.network.server.StreamManager
+org.apache.spark.network.shuffle.ExternalShuffleBlockResolver
+org.apache.spark.network.shuffle.BlockPushingListener
+org.apache.spark.network.server.OneForOneStreamManager
+org.apache.spark.network.shuffle.MergedShuffleFileManager
+org.apache.spark.network.shuffle.BlockFetchingListener
+org.apache.spark.network.shuffle.RetryingBlockTransferor.BlockTransferStarter
+ 
+ 
+ 
+Outside classes: 
+ 
+io.netty.channel.Channel
+io.netty.channel.ChannelHandlerContext
+org.apache.commons.crypto.stream.CryptoInputStream
+io.netty.channel.FileRegion
+java.util.Iterator

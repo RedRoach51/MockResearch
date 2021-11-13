@@ -1,0 +1,766 @@
+Project Name,File Path,Mocking Framework,Imported Mock Line
+wicket,wicket\wicket-auth-roles\src\test\java\org\apache\wicket\authroles\authentication\AuthenticatedWebSessionTest.java,mockito,static org.mockito.Mockito.mock
+wicket,wicket\wicket-auth-roles\src\test\java\org\apache\wicket\authroles\authentication\AuthenticatedWebSessionTest.java,mockito,static org.mockito.Mockito.times
+wicket,wicket\wicket-auth-roles\src\test\java\org\apache\wicket\authroles\authentication\AuthenticatedWebSessionTest.java,mockito,static org.mockito.Mockito.verify
+wicket,wicket\wicket-auth-roles\src\test\java\org\apache\wicket\authroles\authentication\AuthenticatedWebSessionTest.java,mockito,static org.mockito.Mockito.when
+wicket,wicket\wicket-auth-roles\src\test\java\org\apache\wicket\authroles\authorization\strategies\role\annotations\AnnotationsRoleAuthorizationStrategyTest.java,mockito,org.mockito.Mockito
+wicket,wicket\wicket-core\src\test\java\org\apache\wicket\DefaultExceptionMapperTest.java,mockito,static org.mockito.Mockito.mock
+wicket,wicket\wicket-core\src\test\java\org\apache\wicket\DefaultExceptionMapperTest.java,mockito,static org.mockito.Mockito.verify
+wicket,wicket\wicket-core\src\test\java\org\apache\wicket\ajax\AbstractDefaultAjaxBehaviorTest.java,mockito,org.mockito.Mockito
+wicket,wicket\wicket-core\src\test\java\org\apache\wicket\core\request\cycle\RequestCycleUrlForTest.java,mockito,static org.mockito.ArgumentMatchers.argThat
+wicket,wicket\wicket-core\src\test\java\org\apache\wicket\core\request\cycle\RequestCycleUrlForTest.java,mockito,static org.mockito.Mockito.mock
+wicket,wicket\wicket-core\src\test\java\org\apache\wicket\core\request\cycle\RequestCycleUrlForTest.java,mockito,static org.mockito.Mockito.when
+wicket,wicket\wicket-core\src\test\java\org\apache\wicket\core\request\cycle\RequestCycleUrlForTest.java,mockito,org.mockito.ArgumentMatcher
+wicket,wicket\wicket-core\src\test\java\org\apache\wicket\core\request\handler\render\WebPageRendererTest.java,mockito,static org.mockito.ArgumentMatchers.any
+wicket,wicket\wicket-core\src\test\java\org\apache\wicket\core\request\handler\render\WebPageRendererTest.java,mockito,static org.mockito.ArgumentMatchers.anyString
+wicket,wicket\wicket-core\src\test\java\org\apache\wicket\core\request\handler\render\WebPageRendererTest.java,mockito,static org.mockito.ArgumentMatchers.eq
+wicket,wicket\wicket-core\src\test\java\org\apache\wicket\core\request\handler\render\WebPageRendererTest.java,mockito,static org.mockito.ArgumentMatchers.isNull
+wicket,wicket\wicket-core\src\test\java\org\apache\wicket\core\request\handler\render\WebPageRendererTest.java,mockito,static org.mockito.Mockito.mock
+wicket,wicket\wicket-core\src\test\java\org\apache\wicket\core\request\handler\render\WebPageRendererTest.java,mockito,static org.mockito.Mockito.never
+wicket,wicket\wicket-core\src\test\java\org\apache\wicket\core\request\handler\render\WebPageRendererTest.java,mockito,static org.mockito.Mockito.verify
+wicket,wicket\wicket-core\src\test\java\org\apache\wicket\core\request\handler\render\WebPageRendererTest.java,mockito,static org.mockito.Mockito.when
+wicket,wicket\wicket-core\src\test\java\org\apache\wicket\core\request\resource\ByteArrayResourceTest.java,mockito,static org.mockito.ArgumentMatchers.eq
+wicket,wicket\wicket-core\src\test\java\org\apache\wicket\core\request\resource\ByteArrayResourceTest.java,mockito,static org.mockito.ArgumentMatchers.same
+wicket,wicket\wicket-core\src\test\java\org\apache\wicket\core\request\resource\ByteArrayResourceTest.java,mockito,static org.mockito.Mockito.mock
+wicket,wicket\wicket-core\src\test\java\org\apache\wicket\core\request\resource\ByteArrayResourceTest.java,mockito,static org.mockito.Mockito.verify
+wicket,wicket\wicket-core\src\test\java\org\apache\wicket\core\util\file\WebApplicationPathTest.java,mockito,org.mockito.ArgumentMatchers
+wicket,wicket\wicket-core\src\test\java\org\apache\wicket\core\util\file\WebApplicationPathTest.java,mockito,org.mockito.Mockito
+wicket,wicket\wicket-core\src\test\java\org\apache\wicket\core\util\resource\locator\CachingResourceStreamLocatorTest.java,mockito,static org.mockito.Mockito.mock
+wicket,wicket\wicket-core\src\test\java\org\apache\wicket\core\util\resource\locator\CachingResourceStreamLocatorTest.java,mockito,static org.mockito.Mockito.times
+wicket,wicket\wicket-core\src\test\java\org\apache\wicket\core\util\resource\locator\CachingResourceStreamLocatorTest.java,mockito,static org.mockito.Mockito.verify
+wicket,wicket\wicket-core\src\test\java\org\apache\wicket\core\util\resource\locator\CachingResourceStreamLocatorTest.java,mockito,static org.mockito.Mockito.when
+wicket,wicket\wicket-core\src\test\java\org\apache\wicket\markup\html\internal\HeaderResponseTest.java,mockito,static org.mockito.ArgumentMatchers.any
+wicket,wicket\wicket-core\src\test\java\org\apache\wicket\markup\html\internal\HeaderResponseTest.java,mockito,static org.mockito.Mockito.mock
+wicket,wicket\wicket-core\src\test\java\org\apache\wicket\markup\html\internal\HeaderResponseTest.java,mockito,static org.mockito.Mockito.when
+wicket,wicket\wicket-core\src\test\java\org\apache\wicket\protocol\http\SessionDestroyTest.java,mockito,static org.mockito.Mockito.never
+wicket,wicket\wicket-core\src\test\java\org\apache\wicket\protocol\http\SessionDestroyTest.java,mockito,static org.mockito.Mockito.spy
+wicket,wicket\wicket-core\src\test\java\org\apache\wicket\protocol\http\SessionDestroyTest.java,mockito,static org.mockito.Mockito.times
+wicket,wicket\wicket-core\src\test\java\org\apache\wicket\protocol\http\SessionDestroyTest.java,mockito,static org.mockito.Mockito.verify
+wicket,wicket\wicket-core\src\test\java\org\apache\wicket\protocol\http\WicketFilterTest.java,mockito,static org.mockito.Mockito.mock
+wicket,wicket\wicket-core\src\test\java\org\apache\wicket\protocol\http\WicketFilterTest.java,mockito,static org.mockito.Mockito.spy
+wicket,wicket\wicket-core\src\test\java\org\apache\wicket\protocol\http\WicketFilterTest.java,mockito,static org.mockito.Mockito.verify
+wicket,wicket\wicket-core\src\test\java\org\apache\wicket\protocol\http\WicketFilterTest.java,mockito,static org.mockito.Mockito.when
+wicket,wicket\wicket-core\src\test\java\org\apache\wicket\protocol\http\WicketFilterTest.java,mockito,org.mockito.ArgumentMatchers
+wicket,wicket\wicket-core\src\test\java\org\apache\wicket\protocol\http\WicketFilterTest.java,mockito,org.mockito.Mockito
+wicket,wicket\wicket-core\src\test\java\org\apache\wicket\protocol\http\WicketFilterTest.java,mockito,org.mockito.invocation.InvocationOnMock
+wicket,wicket\wicket-core\src\test\java\org\apache\wicket\protocol\http\WicketFilterTest.java,mockito,org.mockito.stubbing.Answer
+wicket,wicket\wicket-core\src\test\java\org\apache\wicket\protocol\http\mock\MockHttpServletRequestTest.java,mockito,org.mockito.Mockito
+wicket,wicket\wicket-core\src\test\java\org\apache\wicket\protocol\http\request\WebClientInfoTest.java,mockito,static org.mockito.Mockito.mock
+wicket,wicket\wicket-core\src\test\java\org\apache\wicket\protocol\http\request\WebClientInfoTest.java,mockito,static org.mockito.Mockito.when
+wicket,wicket\wicket-core\src\test\java\org\apache\wicket\protocol\http\servlet\ServletWebResponseTest.java,mockito,static org.mockito.Mockito.mock
+wicket,wicket\wicket-core\src\test\java\org\apache\wicket\protocol\http\servlet\ServletWebResponseTest.java,mockito,static org.mockito.Mockito.verify
+wicket,wicket\wicket-core\src\test\java\org\apache\wicket\protocol\http\servlet\ServletWebResponseTest.java,mockito,static org.mockito.Mockito.when
+wicket,wicket\wicket-core\src\test\java\org\apache\wicket\protocol\http\servlet\ServletWebResponseTest.java,mockito,org.mockito.ArgumentMatchers
+wicket,wicket\wicket-core\src\test\java\org\apache\wicket\protocol\https\HttpsMapperTest.java,mockito,static org.mockito.Mockito.mock
+wicket,wicket\wicket-core\src\test\java\org\apache\wicket\protocol\https\HttpsMapperTest.java,mockito,static org.mockito.Mockito.reset
+wicket,wicket\wicket-core\src\test\java\org\apache\wicket\protocol\https\HttpsMapperTest.java,mockito,static org.mockito.Mockito.when
+wicket,wicket\wicket-core\src\test\java\org\apache\wicket\resource\ResourceUtilTest.java,mockito,org.mockito.Mockito
+wicket,wicket\wicket-core\src\test\java\org\apache\wicket\settings\def\SetCustomResourceSettingsTest.java,mockito,static org.mockito.Mockito.mock
+wicket,wicket\wicket-core\src\test\java\org\apache\wicket\settings\def\SetCustomResourceSettingsTest.java,mockito,static org.mockito.Mockito.when
+wicket,wicket\wicket-core\src\test\java\org\apache\wicket\validation\CompoundValidatorTest.java,mockito,org.mockito.Mockito
+wicket,wicket\wicket-ioc\src\test\java\org\apache\wicket\injection\CompoundFieldValueFactoryTest.java,mockito,static org.mockito.Mockito.mock
+wicket,wicket\wicket-ioc\src\test\java\org\apache\wicket\injection\CompoundFieldValueFactoryTest.java,mockito,static org.mockito.Mockito.never
+wicket,wicket\wicket-ioc\src\test\java\org\apache\wicket\injection\CompoundFieldValueFactoryTest.java,mockito,static org.mockito.Mockito.times
+wicket,wicket\wicket-ioc\src\test\java\org\apache\wicket\injection\CompoundFieldValueFactoryTest.java,mockito,static org.mockito.Mockito.verify
+wicket,wicket\wicket-ioc\src\test\java\org\apache\wicket\injection\CompoundFieldValueFactoryTest.java,mockito,static org.mockito.Mockito.when
+wicket,wicket\wicket-request\src\test\java\org\apache\wicket\request\http\handler\RedirectRequestHandlerTest.java,mockito,static org.mockito.Mockito.mock
+wicket,wicket\wicket-request\src\test\java\org\apache\wicket\request\http\handler\RedirectRequestHandlerTest.java,mockito,static org.mockito.Mockito.verify
+wicket,wicket\wicket-request\src\test\java\org\apache\wicket\request\http\handler\RedirectRequestHandlerTest.java,mockito,static org.mockito.Mockito.when
+wicket,wicket\wicket-util\src\test\java\org\apache\wicket\util\file\FilesTest.java,mockito,static org.mockito.Mockito.mock
+wicket,wicket\wicket-util\src\test\java\org\apache\wicket\util\file\FilesTest.java,mockito,static org.mockito.Mockito.when
+wink,wink\wink-client-apache-httpclient\src\test\java\org\apache\wink\client\ApacheClientTest.java,jmock,org.jmock.Expectations
+wink,wink\wink-client-apache-httpclient\src\test\java\org\apache\wink\client\ApacheClientTest.java,jmock,org.jmock.Mockery
+wink,wink\wink-client-asynchttpclient\src\test\java\org\apache\wink\client\ClientTestSupport.java,jmock,org.jmock.Expectations
+wink,wink\wink-client-asynchttpclient\src\test\java\org\apache\wink\client\ClientTestSupport.java,jmock,org.jmock.Mockery
+wink,wink\wink-common\src\test\java\org\apache\wink\common\internal\providers\entity\SourceProviderTest.java,jmock,org.jmock.Expectations
+wink,wink\wink-common\src\test\java\org\apache\wink\common\internal\providers\entity\SourceProviderTest.java,jmock,org.jmock.integration.junit3.MockObjectTestCase
+wink,wink\wink-common\src\test\java\org\apache\wink\common\internal\providers\entity\xml\AbstractJAXBProviderTest.java,jmock,org.jmock.Expectations
+wink,wink\wink-common\src\test\java\org\apache\wink\common\internal\providers\entity\xml\AbstractJAXBProviderTest.java,jmock,org.jmock.integration.junit3.MockObjectTestCase
+wink,wink\wink-common\src\test\java\org\apache\wink\common\internal\providers\jaxb\AbstractJAXBCollectionProviderTest.java,jmock,org.jmock.Expectations
+wink,wink\wink-common\src\test\java\org\apache\wink\common\internal\providers\jaxb\AbstractJAXBCollectionProviderTest.java,jmock,org.jmock.integration.junit3.MockObjectTestCase
+wink,wink\wink-common\src\test\java\org\apache\wink\common\internal\providers\jaxb\ProvidersJAXBTest.java,jmock,org.jmock.Expectations
+wink,wink\wink-common\src\test\java\org\apache\wink\common\internal\providers\jaxb\ProvidersJAXBTest.java,jmock,org.jmock.integration.junit3.MockObjectTestCase
+wink,wink\wink-common\src\test\java\org\apache\wink\common\model\wadl\BuildParamTest.java,jmock,org.jmock.Expectations
+wink,wink\wink-common\src\test\java\org\apache\wink\common\model\wadl\BuildParamTest.java,jmock,org.jmock.Mockery
+wink,wink\wink-common\src\test\java\org\apache\wink\common\model\wadl\BuildParamTest.java,jmock,org.jmock.lib.legacy.ClassImposteriser
+wink,wink\wink-common\src\test\java\org\apache\wink\common\model\wadl\BuildRepresentationTest.java,jmock,org.jmock.Expectations
+wink,wink\wink-common\src\test\java\org\apache\wink\common\model\wadl\BuildRepresentationTest.java,jmock,org.jmock.Mockery
+wink,wink\wink-common\src\test\java\org\apache\wink\common\model\wadl\BuildRepresentationTest.java,jmock,org.jmock.lib.legacy.ClassImposteriser
+wink,wink\wink-common\src\test\java\org\apache\wink\common\model\wadl\BuildResponseTest.java,jmock,org.jmock.Expectations
+wink,wink\wink-common\src\test\java\org\apache\wink\common\model\wadl\BuildResponseTest.java,jmock,org.jmock.Mockery
+wink,wink\wink-common\src\test\java\org\apache\wink\common\model\wadl\BuildResponseTest.java,jmock,org.jmock.lib.legacy.ClassImposteriser
+wink,wink\wink-common\src\test\java\org\apache\wink\common\model\wadl\WADLGeneratorTest.java,jmock,org.jmock.Expectations
+wink,wink\wink-common\src\test\java\org\apache\wink\common\model\wadl\WADLGeneratorTest.java,jmock,org.jmock.Mockery
+wink,wink\wink-common\src\test\java\org\apache\wink\common\model\wadl\WADLGeneratorTest.java,jmock,org.jmock.lib.legacy.ClassImposteriser
+wink,wink\wink-component-test-support\src\main\java\org\apache\wink\server\internal\servlet\MockServletInvocationTest.java,springframework,org.springframework.mock.web.MockHttpServletRequest
+wink,wink\wink-component-test-support\src\main\java\org\apache\wink\server\internal\servlet\MockServletInvocationTest.java,springframework,org.springframework.mock.web.MockHttpServletResponse
+wink,wink\wink-component-test-support\src\main\java\org\apache\wink\server\internal\servlet\MockServletInvocationTest.java,springframework,org.springframework.mock.web.MockServletConfig
+wink,wink\wink-component-test-support\src\main\java\org\apache\wink\test\mock\MockHttpServletRequestWrapper.java,springframework,org.springframework.mock.web.MockHttpServletRequest
+wink,wink\wink-component-test-support\src\main\java\org\apache\wink\test\mock\MockRequestConstructor.java,springframework,org.springframework.mock.web.MockHttpServletRequest
+wink,wink\wink-component-test-support\src\main\java\org\apache\wink\test\mock\SpringAwareTestCase.java,springframework,org.springframework.mock.web.MockServletContext
+wink,wink\wink-component-test-support\src\main\java\org\apache\wink\test\mock\SpringMockServletInvocationTest.java,springframework,org.springframework.mock.web.MockHttpServletRequest
+wink,wink\wink-component-test-support\src\main\java\org\apache\wink\test\mock\SpringMockServletInvocationTest.java,springframework,org.springframework.mock.web.MockHttpServletResponse
+wink,wink\wink-component-test-support\src\main\java\org\apache\wink\test\mock\SpringMockServletInvocationTest.java,springframework,org.springframework.mock.web.MockServletConfig
+wink,wink\wink-component-test-support\src\test\java\org\apache\wink\test\mock\MockHttpServletRequestWrapperTestCase.java,springframework,org.springframework.mock.web.MockHttpServletRequest
+wink,wink\wink-examples\apps\HelloWorld\src\test\java\org\apache\wink\example\helloworld\HelloWorldTest.java,springframework,org.springframework.mock.web.MockHttpServletRequest
+wink,wink\wink-examples\apps\HelloWorld\src\test\java\org\apache\wink\example\helloworld\HelloWorldTest.java,springframework,org.springframework.mock.web.MockHttpServletResponse
+wink,wink\wink-examples\apps\QADefect\src\test\java\org\apache\wink\example\qadefect\resources\ContentDispositionTest.java,springframework,org.springframework.mock.web.MockHttpServletRequest
+wink,wink\wink-examples\apps\QADefect\src\test\java\org\apache\wink\example\qadefect\resources\ContentDispositionTest.java,springframework,org.springframework.mock.web.MockHttpServletResponse
+wink,wink\wink-examples\core\Jaxb\src\test\java\org\apache\wink\example\jaxb\JaxbTest.java,springframework,org.springframework.mock.web.MockHttpServletRequest
+wink,wink\wink-examples\core\Jaxb\src\test\java\org\apache\wink\example\jaxb\JaxbTest.java,springframework,org.springframework.mock.web.MockHttpServletResponse
+wink,wink\wink-examples\core\Preconditions\src\test\java\org\apache\wink\example\locking\PreconditionsTest.java,springframework,org.springframework.mock.web.MockHttpServletRequest
+wink,wink\wink-examples\core\Preconditions\src\test\java\org\apache\wink\example\locking\PreconditionsTest.java,springframework,org.springframework.mock.web.MockHttpServletResponse
+wink,wink\wink-examples\ext\History\src\test\java\org\apache\wink\example\history\HistoryTest.java,springframework,org.springframework.mock.web.MockHttpServletRequest
+wink,wink\wink-examples\ext\History\src\test\java\org\apache\wink\example\history\HistoryTest.java,springframework,org.springframework.mock.web.MockHttpServletResponse
+wink,wink\wink-examples\ext\MultiPart\src\test\java\org\apache\wink\example\multipart\MultiPartTest.java,springframework,org.springframework.mock.web.MockHttpServletRequest
+wink,wink\wink-examples\ext\MultiPart\src\test\java\org\apache\wink\example\multipart\MultiPartTest.java,springframework,org.springframework.mock.web.MockHttpServletResponse
+wink,wink\wink-providers\wink-abdera-provider\src\test\java\org\apache\wink\providers\abdera\internal\AbderaAtomEntryProviderTest.java,springframework,org.springframework.mock.web.MockHttpServletRequest
+wink,wink\wink-providers\wink-abdera-provider\src\test\java\org\apache\wink\providers\abdera\internal\AbderaAtomEntryProviderTest.java,springframework,org.springframework.mock.web.MockHttpServletResponse
+wink,wink\wink-providers\wink-abdera-provider\src\test\java\org\apache\wink\providers\abdera\internal\AbderaAtomFeedProviderTest.java,springframework,org.springframework.mock.web.MockHttpServletRequest
+wink,wink\wink-providers\wink-abdera-provider\src\test\java\org\apache\wink\providers\abdera\internal\AbderaAtomFeedProviderTest.java,springframework,org.springframework.mock.web.MockHttpServletResponse
+wink,wink\wink-providers\wink-jackson-provider\src\test\java\org\apache\wink\providers\jackson\internal\JAXBCollectionJSONTest.java,springframework,org.springframework.mock.web.MockHttpServletRequest
+wink,wink\wink-providers\wink-jackson-provider\src\test\java\org\apache\wink\providers\jackson\internal\JAXBCollectionJSONTest.java,springframework,org.springframework.mock.web.MockHttpServletResponse
+wink,wink\wink-providers\wink-jackson-provider\src\test\java\org\apache\wink\providers\jackson\internal\JacksonDeserializationConfiguration2Test.java,springframework,org.springframework.mock.web.MockHttpServletRequest
+wink,wink\wink-providers\wink-jackson-provider\src\test\java\org\apache\wink\providers\jackson\internal\JacksonDeserializationConfiguration2Test.java,springframework,org.springframework.mock.web.MockHttpServletResponse
+wink,wink\wink-providers\wink-jackson-provider\src\test\java\org\apache\wink\providers\jackson\internal\JacksonDeserializationConfiguration3Test.java,springframework,org.springframework.mock.web.MockHttpServletRequest
+wink,wink\wink-providers\wink-jackson-provider\src\test\java\org\apache\wink\providers\jackson\internal\JacksonDeserializationConfiguration3Test.java,springframework,org.springframework.mock.web.MockHttpServletResponse
+wink,wink\wink-providers\wink-jackson-provider\src\test\java\org\apache\wink\providers\jackson\internal\JacksonDeserializationConfigurationTest.java,springframework,org.springframework.mock.web.MockHttpServletRequest
+wink,wink\wink-providers\wink-jackson-provider\src\test\java\org\apache\wink\providers\jackson\internal\JacksonJAXBTest.java,springframework,org.springframework.mock.web.MockHttpServletRequest
+wink,wink\wink-providers\wink-jackson-provider\src\test\java\org\apache\wink\providers\jackson\internal\JacksonJAXBTest.java,springframework,org.springframework.mock.web.MockHttpServletResponse
+wink,wink\wink-providers\wink-jackson-provider\src\test\java\org\apache\wink\providers\jackson\internal\JacksonJSON4JBattleTest.java,springframework,org.springframework.mock.web.MockHttpServletRequest
+wink,wink\wink-providers\wink-jackson-provider\src\test\java\org\apache\wink\providers\jackson\internal\JacksonJSON4JBattleTest.java,springframework,org.springframework.mock.web.MockHttpServletResponse
+wink,wink\wink-providers\wink-jackson-provider\src\test\java\org\apache\wink\providers\jackson\internal\JacksonJSON4JInteroperabilityTest.java,springframework,org.springframework.mock.web.MockHttpServletRequest
+wink,wink\wink-providers\wink-jackson-provider\src\test\java\org\apache\wink\providers\jackson\internal\JacksonJSON4JInteroperabilityTest.java,springframework,org.springframework.mock.web.MockHttpServletResponse
+wink,wink\wink-providers\wink-jackson-provider\src\test\java\org\apache\wink\providers\jackson\internal\JacksonPOJOTest.java,springframework,org.springframework.mock.web.MockHttpServletRequest
+wink,wink\wink-providers\wink-jackson-provider\src\test\java\org\apache\wink\providers\jackson\internal\JacksonPOJOTest.java,springframework,org.springframework.mock.web.MockHttpServletResponse
+wink,wink\wink-providers\wink-jackson-provider\src\test\java\org\apache\wink\providers\jackson\internal\JacksonSerializationConfiguration1Test.java,springframework,org.springframework.mock.web.MockHttpServletRequest
+wink,wink\wink-providers\wink-jackson-provider\src\test\java\org\apache\wink\providers\jackson\internal\JacksonSerializationConfiguration1Test.java,springframework,org.springframework.mock.web.MockHttpServletResponse
+wink,wink\wink-providers\wink-jackson-provider\src\test\java\org\apache\wink\providers\jackson\internal\JacksonSerializationConfiguration2Test.java,springframework,org.springframework.mock.web.MockHttpServletRequest
+wink,wink\wink-providers\wink-jackson-provider\src\test\java\org\apache\wink\providers\jackson\internal\JacksonSerializationConfiguration2Test.java,springframework,org.springframework.mock.web.MockHttpServletResponse
+wink,wink\wink-providers\wink-jackson-provider\src\test\java\org\apache\wink\providers\jackson\internal\PolymorphicTest.java,springframework,org.springframework.mock.web.MockHttpServletRequest
+wink,wink\wink-providers\wink-jackson-provider\src\test\java\org\apache\wink\providers\jackson\internal\PolymorphicTest.java,springframework,org.springframework.mock.web.MockHttpServletResponse
+wink,wink\wink-providers\wink-jettison-provider\src\test\java\org\apache\wink\providers\jettison\internal\JettisonJAXBBadgerFishTest.java,springframework,org.springframework.mock.web.MockHttpServletRequest
+wink,wink\wink-providers\wink-jettison-provider\src\test\java\org\apache\wink\providers\jettison\internal\JettisonJAXBBadgerFishTest.java,springframework,org.springframework.mock.web.MockHttpServletResponse
+wink,wink\wink-providers\wink-jettison-provider\src\test\java\org\apache\wink\providers\jettison\internal\JettisonJAXBContextResolverTest.java,springframework,org.springframework.mock.web.MockHttpServletRequest
+wink,wink\wink-providers\wink-jettison-provider\src\test\java\org\apache\wink\providers\jettison\internal\JettisonJAXBContextResolverTest.java,springframework,org.springframework.mock.web.MockHttpServletResponse
+wink,wink\wink-providers\wink-jettison-provider\src\test\java\org\apache\wink\providers\jettison\internal\JettisonJAXBMappedTest.java,springframework,org.springframework.mock.web.MockHttpServletRequest
+wink,wink\wink-providers\wink-jettison-provider\src\test\java\org\apache\wink\providers\jettison\internal\JettisonJAXBMappedTest.java,springframework,org.springframework.mock.web.MockHttpServletResponse
+wink,wink\wink-providers\wink-json-provider\src\test\java\org\apache\wink\providers\json\internal\JsonProviderTest.java,springframework,org.springframework.mock.web.MockHttpServletRequest
+wink,wink\wink-providers\wink-json-provider\src\test\java\org\apache\wink\providers\json\internal\JsonProviderTest.java,springframework,org.springframework.mock.web.MockHttpServletResponse
+wink,wink\wink-providers\wink-json-provider\src\test\org\apache\wink\providers\json\internal\JSONProviderTest.java,springframework,org.springframework.mock.web.MockHttpServletRequest
+wink,wink\wink-providers\wink-json-provider\src\test\org\apache\wink\providers\json\internal\JSONProviderTest.java,springframework,org.springframework.mock.web.MockHttpServletResponse
+wink,wink\wink-providers\wink-json4j-provider\src\test\java\org\apache\wink\providers\json\internal\Json4JProviderTest.java,springframework,org.springframework.mock.web.MockHttpServletRequest
+wink,wink\wink-providers\wink-json4j-provider\src\test\java\org\apache\wink\providers\json\internal\Json4JProviderTest.java,springframework,org.springframework.mock.web.MockHttpServletResponse
+wink,wink\wink-providers\wink-protobuf-provider\src\test\java\org\apache\wink\providers\protobuf\ProtobufTest.java,springframework,org.springframework.mock.web.MockHttpServletRequest
+wink,wink\wink-providers\wink-protobuf-provider\src\test\java\org\apache\wink\providers\protobuf\ProtobufTest.java,springframework,org.springframework.mock.web.MockHttpServletResponse
+wink,wink\wink-providers\wink-thrift-provider\src\test\java\org\apache\wink\providers\thrift\ThriftTest.java,springframework,org.springframework.mock.web.MockHttpServletRequest
+wink,wink\wink-providers\wink-thrift-provider\src\test\java\org\apache\wink\providers\thrift\ThriftTest.java,springframework,org.springframework.mock.web.MockHttpServletResponse
+wink,wink\wink-server\src\test\java\org\apache\wink\server\AbstractResourceBeanTest.java,springframework,org.springframework.mock.web.MockHttpServletRequest
+wink,wink\wink-server\src\test\java\org\apache\wink\server\AbstractResourceBeanTest.java,springframework,org.springframework.mock.web.MockHttpServletResponse
+wink,wink\wink-server\src\test\java\org\apache\wink\server\AbstractResourceWithDuplicateWorkspaceTest.java,springframework,org.springframework.mock.web.MockHttpServletRequest
+wink,wink\wink-server\src\test\java\org\apache\wink\server\AbstractResourceWithDuplicateWorkspaceTest.java,springframework,org.springframework.mock.web.MockHttpServletResponse
+wink,wink\wink-server\src\test\java\org\apache\wink\server\AbstractResourceWithEmptyPathTest.java,springframework,org.springframework.mock.web.MockHttpServletRequest
+wink,wink\wink-server\src\test\java\org\apache\wink\server\AbstractResourceWithEmptyPathTest.java,springframework,org.springframework.mock.web.MockHttpServletResponse
+wink,wink\wink-server\src\test\java\org\apache\wink\server\DispatchErrorTest.java,springframework,org.springframework.mock.web.MockHttpServletRequest
+wink,wink\wink-server\src\test\java\org\apache\wink\server\DispatchErrorTest.java,springframework,org.springframework.mock.web.MockHttpServletResponse
+wink,wink\wink-server\src\test\java\org\apache\wink\server\JAXRSContextTest.java,springframework,org.springframework.mock.web.MockHttpServletRequest
+wink,wink\wink-server\src\test\java\org\apache\wink\server\JAXRSContextTest.java,springframework,org.springframework.mock.web.MockHttpServletResponse
+wink,wink\wink-server\src\test\java\org\apache\wink\server\QueryTest.java,springframework,org.springframework.mock.web.MockHttpServletRequest
+wink,wink\wink-server\src\test\java\org\apache\wink\server\QueryTest.java,springframework,org.springframework.mock.web.MockHttpServletResponse
+wink,wink\wink-server\src\test\java\org\apache\wink\server\categories\CollectionCategoriesTest.java,springframework,org.springframework.mock.web.MockHttpServletRequest
+wink,wink\wink-server\src\test\java\org\apache\wink\server\categories\CollectionCategoriesTest.java,springframework,org.springframework.mock.web.MockHttpServletResponse
+wink,wink\wink-server\src\test\java\org\apache\wink\server\integration\ServletFilterTest.java,springframework,org.springframework.mock.web.MockHttpServletRequest
+wink,wink\wink-server\src\test\java\org\apache\wink\server\integration\ServletFilterTest.java,springframework,org.springframework.mock.web.MockHttpServletResponse
+wink,wink\wink-server\src\test\java\org\apache\wink\server\internal\BaseUriConfigurationTest.java,springframework,org.springframework.mock.web.MockHttpServletRequest
+wink,wink\wink-server\src\test\java\org\apache\wink\server\internal\BaseUriConfigurationTest.java,springframework,org.springframework.mock.web.MockHttpServletResponse
+wink,wink\wink-server\src\test\java\org\apache\wink\server\internal\BaseUriDetectionTest.java,springframework,org.springframework.mock.web.MockHttpServletRequest
+wink,wink\wink-server\src\test\java\org\apache\wink\server\internal\BaseUriDetectionTest.java,springframework,org.springframework.mock.web.MockHttpServletResponse
+wink,wink\wink-server\src\test\java\org\apache\wink\server\internal\CommonAcceptHeaderTest.java,springframework,org.springframework.mock.web.MockHttpServletRequest
+wink,wink\wink-server\src\test\java\org\apache\wink\server\internal\CommonAcceptHeaderTest.java,springframework,org.springframework.mock.web.MockHttpServletResponse
+wink,wink\wink-server\src\test\java\org\apache\wink\server\internal\CustomLocationHeaderConfigurationTest.java,springframework,org.springframework.mock.web.MockHttpServletRequest
+wink,wink\wink-server\src\test\java\org\apache\wink\server\internal\CustomLocationHeaderConfigurationTest.java,springframework,org.springframework.mock.web.MockHttpServletResponse
+wink,wink\wink-server\src\test\java\org\apache\wink\server\internal\DefaultLocationHeaderConfigurationTest.java,springframework,org.springframework.mock.web.MockHttpServletRequest
+wink,wink\wink-server\src\test\java\org\apache\wink\server\internal\DefaultLocationHeaderConfigurationTest.java,springframework,org.springframework.mock.web.MockHttpServletResponse
+wink,wink\wink-server\src\test\java\org\apache\wink\server\internal\DifferentCaptureVariablesTest.java,springframework,org.springframework.mock.web.MockHttpServletResponse
+wink,wink\wink-server\src\test\java\org\apache\wink\server\internal\DispatchIPv6Test.java,springframework,org.springframework.mock.web.MockHttpServletRequest
+wink,wink\wink-server\src\test\java\org\apache\wink\server\internal\DispatchIPv6Test.java,springframework,org.springframework.mock.web.MockHttpServletResponse
+wink,wink\wink-server\src\test\java\org\apache\wink\server\internal\EmptyPathAnnotationTest.java,springframework,org.springframework.mock.web.MockHttpServletRequest
+wink,wink\wink-server\src\test\java\org\apache\wink\server\internal\EmptyPathAnnotationTest.java,springframework,org.springframework.mock.web.MockHttpServletResponse
+wink,wink\wink-server\src\test\java\org\apache\wink\server\internal\EmptyPathParamTest.java,springframework,org.springframework.mock.web.MockHttpServletRequest
+wink,wink\wink-server\src\test\java\org\apache\wink\server\internal\EmptyPathParamTest.java,springframework,org.springframework.mock.web.MockHttpServletResponse
+wink,wink\wink-server\src\test\java\org\apache\wink\server\internal\ErrorResponseTest.java,springframework,org.springframework.mock.web.MockHttpServletRequest
+wink,wink\wink-server\src\test\java\org\apache\wink\server\internal\ErrorResponseTest.java,springframework,org.springframework.mock.web.MockHttpServletResponse
+wink,wink\wink-server\src\test\java\org\apache\wink\server\internal\HeadTest.java,springframework,org.springframework.mock.web.MockHttpServletRequest
+wink,wink\wink-server\src\test\java\org\apache\wink\server\internal\HeadTest.java,springframework,org.springframework.mock.web.MockHttpServletResponse
+wink,wink\wink-server\src\test\java\org\apache\wink\server\internal\MethodOverrideTest.java,springframework,org.springframework.mock.web.MockHttpServletRequest
+wink,wink\wink-server\src\test\java\org\apache\wink\server\internal\MethodOverrideTest.java,springframework,org.springframework.mock.web.MockHttpServletResponse
+wink,wink\wink-server\src\test\java\org\apache\wink\server\internal\NoContentTypePostTest.java,springframework,org.springframework.mock.web.MockHttpServletRequest
+wink,wink\wink-server\src\test\java\org\apache\wink\server\internal\NoContentTypePostTest.java,springframework,org.springframework.mock.web.MockHttpServletResponse
+wink,wink\wink-server\src\test\java\org\apache\wink\server\internal\OptionsMethodTest.java,springframework,org.springframework.mock.web.MockHttpServletRequest
+wink,wink\wink-server\src\test\java\org\apache\wink\server\internal\OptionsMethodTest.java,springframework,org.springframework.mock.web.MockHttpServletResponse
+wink,wink\wink-server\src\test\java\org\apache\wink\server\internal\ParameterConversionTest.java,springframework,org.springframework.mock.web.MockHttpServletRequest
+wink,wink\wink-server\src\test\java\org\apache\wink\server\internal\ParameterConversionTest.java,springframework,org.springframework.mock.web.MockHttpServletResponse
+wink,wink\wink-server\src\test\java\org\apache\wink\server\internal\PreconditionsTest.java,springframework,org.springframework.mock.web.MockHttpServletRequest
+wink,wink\wink-server\src\test\java\org\apache\wink\server\internal\PreconditionsTest.java,springframework,org.springframework.mock.web.MockHttpServletResponse
+wink,wink\wink-server\src\test\java\org\apache\wink\server\internal\RequestsTest.java,springframework,org.springframework.mock.web.MockHttpServletRequest
+wink,wink\wink-server\src\test\java\org\apache\wink\server\internal\RequestsTest.java,springframework,org.springframework.mock.web.MockHttpServletResponse
+wink,wink\wink-server\src\test\java\org\apache\wink\server\internal\ResponseTest.java,springframework,org.springframework.mock.web.MockHttpServletRequest
+wink,wink\wink-server\src\test\java\org\apache\wink\server\internal\ResponseTest.java,springframework,org.springframework.mock.web.MockHttpServletResponse
+wink,wink\wink-server\src\test\java\org\apache\wink\server\internal\SlashEndingUriTest.java,springframework,org.springframework.mock.web.MockHttpServletRequest
+wink,wink\wink-server\src\test\java\org\apache\wink\server\internal\SlashEndingUriTest.java,springframework,org.springframework.mock.web.MockHttpServletResponse
+wink,wink\wink-server\src\test\java\org\apache\wink\server\internal\StreamResponseTest.java,springframework,org.springframework.mock.web.MockHttpServletRequest
+wink,wink\wink-server\src\test\java\org\apache\wink\server\internal\StreamResponseTest.java,springframework,org.springframework.mock.web.MockHttpServletResponse
+wink,wink\wink-server\src\test\java\org\apache\wink\server\internal\UnknownMimeTypeTest.java,springframework,org.springframework.mock.web.MockHttpServletRequest
+wink,wink\wink-server\src\test\java\org\apache\wink\server\internal\UnknownMimeTypeTest.java,springframework,org.springframework.mock.web.MockHttpServletResponse
+wink,wink\wink-server\src\test\java\org\apache\wink\server\internal\WebSphereParametersTest.java,springframework,org.springframework.mock.web.MockFilterChain
+wink,wink\wink-server\src\test\java\org\apache\wink\server\internal\WebSphereParametersTest.java,springframework,org.springframework.mock.web.MockHttpServletRequest
+wink,wink\wink-server\src\test\java\org\apache\wink\server\internal\WebSphereParametersTest.java,springframework,org.springframework.mock.web.MockHttpServletResponse
+wink,wink\wink-server\src\test\java\org\apache\wink\server\internal\activation\ActivationDataContentHandlerTest.java,springframework,org.springframework.mock.web.MockHttpServletRequest
+wink,wink\wink-server\src\test\java\org\apache\wink\server\internal\activation\ActivationDataContentHandlerTest.java,springframework,org.springframework.mock.web.MockHttpServletResponse
+wink,wink\wink-server\src\test\java\org\apache\wink\server\internal\application\ApplicationLifecycleManagamentTest.java,jmock,org.jmock.Expectations
+wink,wink\wink-server\src\test\java\org\apache\wink\server\internal\application\ApplicationLifecycleManagamentTest.java,jmock,org.jmock.Mockery
+wink,wink\wink-server\src\test\java\org\apache\wink\server\internal\application\ApplicationLifecycleManagement2Test.java,jmock,org.jmock.Expectations
+wink,wink\wink-server\src\test\java\org\apache\wink\server\internal\application\ApplicationLifecycleManagement2Test.java,jmock,org.jmock.Mockery
+wink,wink\wink-server\src\test\java\org\apache\wink\server\internal\contexts\HttpHeadersImplTest.java,jmock,org.jmock.Expectations
+wink,wink\wink-server\src\test\java\org\apache\wink\server\internal\contexts\HttpHeadersImplTest.java,jmock,org.jmock.Mockery
+wink,wink\wink-server\src\test\java\org\apache\wink\server\internal\contexts\ServerMediaTypeCharsetAdjusterTest.java,jmock,org.jmock.Expectations
+wink,wink\wink-server\src\test\java\org\apache\wink\server\internal\contexts\ServerMediaTypeCharsetAdjusterTest.java,jmock,org.jmock.integration.junit3.MockObjectTestCase
+wink,wink\wink-server\src\test\java\org\apache\wink\server\internal\factory\InjectFieldsTest.java,springframework,org.springframework.mock.web.MockHttpServletRequest
+wink,wink\wink-server\src\test\java\org\apache\wink\server\internal\factory\InjectFieldsTest.java,springframework,org.springframework.mock.web.MockHttpServletResponse
+wink,wink\wink-server\src\test\java\org\apache\wink\server\internal\handlers\MediaTypeMapping2Test.java,springframework,org.springframework.mock.web.MockHttpServletRequest
+wink,wink\wink-server\src\test\java\org\apache\wink\server\internal\handlers\MediaTypeMapping2Test.java,springframework,org.springframework.mock.web.MockHttpServletResponse
+wink,wink\wink-server\src\test\java\org\apache\wink\server\internal\handlers\MediaTypeMappingTest.java,springframework,org.springframework.mock.web.MockHttpServletRequest
+wink,wink\wink-server\src\test\java\org\apache\wink\server\internal\handlers\MediaTypeMappingTest.java,springframework,org.springframework.mock.web.MockHttpServletResponse
+wink,wink\wink-server\src\test\java\org\apache\wink\server\internal\handlers\ServerMessageContextTest.java,jmock,org.jmock.Expectations
+wink,wink\wink-server\src\test\java\org\apache\wink\server\internal\handlers\ServerMessageContextTest.java,jmock,org.jmock.Mockery
+wink,wink\wink-server\src\test\java\org\apache\wink\server\internal\handlers\UserHandlersTest.java,springframework,org.springframework.mock.web.MockHttpServletRequest
+wink,wink\wink-server\src\test\java\org\apache\wink\server\internal\handlers\UserHandlersTest.java,springframework,org.springframework.mock.web.MockHttpServletResponse
+wink,wink\wink-server\src\test\java\org\apache\wink\server\internal\jaxrs\ApplicationInjectionTest.java,springframework,org.springframework.mock.web.MockHttpServletRequest
+wink,wink\wink-server\src\test\java\org\apache\wink\server\internal\jaxrs\ApplicationInjectionTest.java,springframework,org.springframework.mock.web.MockHttpServletResponse
+wink,wink\wink-server\src\test\java\org\apache\wink\server\internal\jaxrs\HttpHeadersImplTest.java,springframework,org.springframework.mock.web.MockHttpServletRequest
+wink,wink\wink-server\src\test\java\org\apache\wink\server\internal\jaxrs\HttpHeadersImplTest.java,springframework,org.springframework.mock.web.MockHttpServletResponse
+wink,wink\wink-server\src\test\java\org\apache\wink\server\internal\jaxrs\UriInfoImplTest.java,springframework,org.springframework.mock.web.MockHttpServletRequest
+wink,wink\wink-server\src\test\java\org\apache\wink\server\internal\jaxrs\UriInfoImplTest.java,springframework,org.springframework.mock.web.MockHttpServletResponse
+wink,wink\wink-server\src\test\java\org\apache\wink\server\internal\lifecycle\ProvidersLifecycle1Test.java,jmock,org.jmock.Expectations
+wink,wink\wink-server\src\test\java\org\apache\wink\server\internal\lifecycle\ProvidersLifecycle1Test.java,jmock,org.jmock.Mockery
+wink,wink\wink-server\src\test\java\org\apache\wink\server\internal\lifecycle\ProvidersLifecycle1Test.java,springframework,org.springframework.mock.web.MockHttpServletRequest
+wink,wink\wink-server\src\test\java\org\apache\wink\server\internal\lifecycle\ProvidersLifecycle1Test.java,springframework,org.springframework.mock.web.MockHttpServletResponse
+wink,wink\wink-server\src\test\java\org\apache\wink\server\internal\lifecycle\ProvidersLifecycle2Test.java,jmock,org.jmock.Expectations
+wink,wink\wink-server\src\test\java\org\apache\wink\server\internal\lifecycle\ProvidersLifecycle2Test.java,jmock,org.jmock.Mockery
+wink,wink\wink-server\src\test\java\org\apache\wink\server\internal\lifecycle\ProvidersLifecycle2Test.java,springframework,org.springframework.mock.web.MockHttpServletRequest
+wink,wink\wink-server\src\test\java\org\apache\wink\server\internal\lifecycle\ProvidersLifecycle2Test.java,springframework,org.springframework.mock.web.MockHttpServletResponse
+wink,wink\wink-server\src\test\java\org\apache\wink\server\internal\lifecycle\ResourceLifecycle1Test.java,jmock,org.jmock.Expectations
+wink,wink\wink-server\src\test\java\org\apache\wink\server\internal\lifecycle\ResourceLifecycle1Test.java,jmock,org.jmock.Mockery
+wink,wink\wink-server\src\test\java\org\apache\wink\server\internal\lifecycle\ResourceLifecycle1Test.java,springframework,org.springframework.mock.web.MockHttpServletRequest
+wink,wink\wink-server\src\test\java\org\apache\wink\server\internal\lifecycle\ResourceLifecycle1Test.java,springframework,org.springframework.mock.web.MockHttpServletResponse
+wink,wink\wink-server\src\test\java\org\apache\wink\server\internal\lifecycle\ResourceLifecycle2Test.java,jmock,org.jmock.Expectations
+wink,wink\wink-server\src\test\java\org\apache\wink\server\internal\lifecycle\ResourceLifecycle2Test.java,jmock,org.jmock.Mockery
+wink,wink\wink-server\src\test\java\org\apache\wink\server\internal\lifecycle\ResourceLifecycle2Test.java,springframework,org.springframework.mock.web.MockHttpServletRequest
+wink,wink\wink-server\src\test\java\org\apache\wink\server\internal\lifecycle\ResourceLifecycle2Test.java,springframework,org.springframework.mock.web.MockHttpServletResponse
+wink,wink\wink-server\src\test\java\org\apache\wink\server\internal\lifecycle\ResourceLifecycle3Test.java,jmock,org.jmock.Expectations
+wink,wink\wink-server\src\test\java\org\apache\wink\server\internal\lifecycle\ResourceLifecycle3Test.java,jmock,org.jmock.Mockery
+wink,wink\wink-server\src\test\java\org\apache\wink\server\internal\lifecycle\ResourceLifecycle3Test.java,springframework,org.springframework.mock.web.MockHttpServletRequest
+wink,wink\wink-server\src\test\java\org\apache\wink\server\internal\lifecycle\ResourceLifecycle3Test.java,springframework,org.springframework.mock.web.MockHttpServletResponse
+wink,wink\wink-server\src\test\java\org\apache\wink\server\internal\lifecycle\ResourceLifecycle4Test.java,jmock,org.jmock.Expectations
+wink,wink\wink-server\src\test\java\org\apache\wink\server\internal\lifecycle\ResourceLifecycle4Test.java,jmock,org.jmock.Mockery
+wink,wink\wink-server\src\test\java\org\apache\wink\server\internal\lifecycle\ResourceLifecycle4Test.java,springframework,org.springframework.mock.web.MockHttpServletRequest
+wink,wink\wink-server\src\test\java\org\apache\wink\server\internal\lifecycle\ResourceLifecycle4Test.java,springframework,org.springframework.mock.web.MockHttpServletResponse
+wink,wink\wink-server\src\test\java\org\apache\wink\server\internal\lifecycle\ResourceLifecycle5Test.java,jmock,org.jmock.Expectations
+wink,wink\wink-server\src\test\java\org\apache\wink\server\internal\lifecycle\ResourceLifecycle5Test.java,jmock,org.jmock.Mockery
+wink,wink\wink-server\src\test\java\org\apache\wink\server\internal\lifecycle\ResourceLifecycle5Test.java,jmock,org.jmock.Sequence
+wink,wink\wink-server\src\test\java\org\apache\wink\server\internal\lifecycle\ResourceLifecycle5Test.java,springframework,org.springframework.mock.web.MockHttpServletRequest
+wink,wink\wink-server\src\test\java\org\apache\wink\server\internal\lifecycle\ResourceLifecycle5Test.java,springframework,org.springframework.mock.web.MockHttpServletResponse
+wink,wink\wink-server\src\test\java\org\apache\wink\server\internal\lifecycle\ResourceLifecycle6Test.java,jmock,org.jmock.Expectations
+wink,wink\wink-server\src\test\java\org\apache\wink\server\internal\lifecycle\ResourceLifecycle6Test.java,jmock,org.jmock.Mockery
+wink,wink\wink-server\src\test\java\org\apache\wink\server\internal\lifecycle\ResourceLifecycle6Test.java,jmock,org.jmock.Sequence
+wink,wink\wink-server\src\test\java\org\apache\wink\server\internal\lifecycle\ResourceLifecycle6Test.java,springframework,org.springframework.mock.web.MockHttpServletRequest
+wink,wink\wink-server\src\test\java\org\apache\wink\server\internal\lifecycle\ResourceLifecycle6Test.java,springframework,org.springframework.mock.web.MockHttpServletResponse
+wink,wink\wink-server\src\test\java\org\apache\wink\server\internal\lifecycle\ResourceLifecycle7Test.java,jmock,org.jmock.Expectations
+wink,wink\wink-server\src\test\java\org\apache\wink\server\internal\lifecycle\ResourceLifecycle7Test.java,jmock,org.jmock.Mockery
+wink,wink\wink-server\src\test\java\org\apache\wink\server\internal\lifecycle\ResourceLifecycle7Test.java,jmock,org.jmock.Sequence
+wink,wink\wink-server\src\test\java\org\apache\wink\server\internal\lifecycle\ResourceLifecycle7Test.java,springframework,org.springframework.mock.web.MockHttpServletRequest
+wink,wink\wink-server\src\test\java\org\apache\wink\server\internal\log\RequestsTest.java,jmock,org.jmock.Expectations
+wink,wink\wink-server\src\test\java\org\apache\wink\server\internal\log\RequestsTest.java,jmock,org.jmock.Mockery
+wink,wink\wink-server\src\test\java\org\apache\wink\server\internal\log\RequestsTest.java,jmock,org.jmock.Sequence
+wink,wink\wink-server\src\test\java\org\apache\wink\server\internal\log\RequestsTest.java,jmock,org.jmock.lib.legacy.ClassImposteriser
+wink,wink\wink-server\src\test\java\org\apache\wink\server\internal\properties\WinkSystemProperties2Test.java,springframework,org.springframework.mock.web.MockHttpServletRequest
+wink,wink\wink-server\src\test\java\org\apache\wink\server\internal\properties\WinkSystemProperties2Test.java,springframework,org.springframework.mock.web.MockHttpServletResponse
+wink,wink\wink-server\src\test\java\org\apache\wink\server\internal\properties\WinkSystemProperties3Test.java,springframework,org.springframework.mock.web.MockHttpServletRequest
+wink,wink\wink-server\src\test\java\org\apache\wink\server\internal\properties\WinkSystemProperties3Test.java,springframework,org.springframework.mock.web.MockHttpServletResponse
+wink,wink\wink-server\src\test\java\org\apache\wink\server\internal\properties\WinkSystemPropertiesTest.java,springframework,org.springframework.mock.web.MockHttpServletRequest
+wink,wink\wink-server\src\test\java\org\apache\wink\server\internal\properties\WinkSystemPropertiesTest.java,springframework,org.springframework.mock.web.MockHttpServletResponse
+wink,wink\wink-server\src\test\java\org\apache\wink\server\internal\providers\entity\AppCategoriesDocumentProviderTest.java,springframework,org.springframework.mock.web.MockHttpServletRequest
+wink,wink\wink-server\src\test\java\org\apache\wink\server\internal\providers\entity\AppCategoriesDocumentProviderTest.java,springframework,org.springframework.mock.web.MockHttpServletResponse
+wink,wink\wink-server\src\test\java\org\apache\wink\server\internal\providers\entity\AssetProviderTest.java,springframework,org.springframework.mock.web.MockHttpServletRequest
+wink,wink\wink-server\src\test\java\org\apache\wink\server\internal\providers\entity\AssetProviderTest.java,springframework,org.springframework.mock.web.MockHttpServletResponse
+wink,wink\wink-server\src\test\java\org\apache\wink\server\internal\providers\entity\AtomEntryInResponseProviderTest.java,springframework,org.springframework.mock.web.MockHttpServletRequest
+wink,wink\wink-server\src\test\java\org\apache\wink\server\internal\providers\entity\AtomEntryInResponseProviderTest.java,springframework,org.springframework.mock.web.MockHttpServletResponse
+wink,wink\wink-server\src\test\java\org\apache\wink\server\internal\providers\entity\AtomEntryProviderTest.java,springframework,org.springframework.mock.web.MockHttpServletRequest
+wink,wink\wink-server\src\test\java\org\apache\wink\server\internal\providers\entity\AtomEntryProviderTest.java,springframework,org.springframework.mock.web.MockHttpServletResponse
+wink,wink\wink-server\src\test\java\org\apache\wink\server\internal\providers\entity\AtomFeedProviderTest.java,springframework,org.springframework.mock.web.MockHttpServletRequest
+wink,wink\wink-server\src\test\java\org\apache\wink\server\internal\providers\entity\AtomFeedProviderTest.java,springframework,org.springframework.mock.web.MockHttpServletResponse
+wink,wink\wink-server\src\test\java\org\apache\wink\server\internal\providers\entity\CategoriesDocumentProviderTest.java,springframework,org.springframework.mock.web.MockHttpServletRequest
+wink,wink\wink-server\src\test\java\org\apache\wink\server\internal\providers\entity\CategoriesDocumentProviderTest.java,springframework,org.springframework.mock.web.MockHttpServletResponse
+wink,wink\wink-server\src\test\java\org\apache\wink\server\internal\providers\entity\EntityLocatorProviderTest.java,springframework,org.springframework.mock.web.MockHttpServletRequest
+wink,wink\wink-server\src\test\java\org\apache\wink\server\internal\providers\entity\EntityLocatorProviderTest.java,springframework,org.springframework.mock.web.MockHttpServletResponse
+wink,wink\wink-server\src\test\java\org\apache\wink\server\internal\providers\entity\FormMultivaluedMapProviderTest.java,springframework,org.springframework.mock.web.MockHttpServletRequest
+wink,wink\wink-server\src\test\java\org\apache\wink\server\internal\providers\entity\FormMultivaluedMapProviderTest.java,springframework,org.springframework.mock.web.MockHttpServletResponse
+wink,wink\wink-server\src\test\java\org\apache\wink\server\internal\providers\entity\GenericInheritanceProviderTest.java,springframework,org.springframework.mock.web.MockHttpServletRequest
+wink,wink\wink-server\src\test\java\org\apache\wink\server\internal\providers\entity\HeadersOnlyProviderTest.java,springframework,org.springframework.mock.web.MockHttpServletRequest
+wink,wink\wink-server\src\test\java\org\apache\wink\server\internal\providers\entity\HeadersOnlyProviderTest.java,springframework,org.springframework.mock.web.MockHttpServletResponse
+wink,wink\wink-server\src\test\java\org\apache\wink\server\internal\providers\entity\InheritedProviderAnnTest.java,springframework,org.springframework.mock.web.MockHttpServletRequest
+wink,wink\wink-server\src\test\java\org\apache\wink\server\internal\providers\entity\InheritedProviderAnnTest.java,springframework,org.springframework.mock.web.MockHttpServletResponse
+wink,wink\wink-server\src\test\java\org\apache\wink\server\internal\providers\entity\JAXBCollectionXMLProviderTest.java,springframework,org.springframework.mock.web.MockHttpServletRequest
+wink,wink\wink-server\src\test\java\org\apache\wink\server\internal\providers\entity\JAXBCollectionXMLProviderTest.java,springframework,org.springframework.mock.web.MockHttpServletResponse
+wink,wink\wink-server\src\test\java\org\apache\wink\server\internal\providers\entity\JAXBCustomContextResolverCacheTest.java,springframework,org.springframework.mock.web.MockHttpServletRequest
+wink,wink\wink-server\src\test\java\org\apache\wink\server\internal\providers\entity\JAXBCustomContextResolverCacheTest.java,springframework,org.springframework.mock.web.MockHttpServletResponse
+wink,wink\wink-server\src\test\java\org\apache\wink\server\internal\providers\entity\JAXBElementProviderCustomNSTest.java,springframework,org.springframework.mock.web.MockHttpServletRequest
+wink,wink\wink-server\src\test\java\org\apache\wink\server\internal\providers\entity\JAXBElementProviderCustomNSTest.java,springframework,org.springframework.mock.web.MockHttpServletResponse
+wink,wink\wink-server\src\test\java\org\apache\wink\server\internal\providers\entity\JAXBElementProviderTest.java,springframework,org.springframework.mock.web.MockHttpServletRequest
+wink,wink\wink-server\src\test\java\org\apache\wink\server\internal\providers\entity\JAXBElementProviderTest.java,springframework,org.springframework.mock.web.MockHttpServletResponse
+wink,wink\wink-server\src\test\java\org\apache\wink\server\internal\providers\entity\JAXBNoEntityLogTest.java,springframework,org.springframework.mock.web.MockHttpServletRequest
+wink,wink\wink-server\src\test\java\org\apache\wink\server\internal\providers\entity\JAXBNoEntityLogTest.java,springframework,org.springframework.mock.web.MockHttpServletResponse
+wink,wink\wink-server\src\test\java\org\apache\wink\server\internal\providers\entity\JAXBProviderInheritanceTest.java,springframework,org.springframework.mock.web.MockHttpServletRequest
+wink,wink\wink-server\src\test\java\org\apache\wink\server\internal\providers\entity\JAXBProviderInheritanceTest.java,springframework,org.springframework.mock.web.MockHttpServletResponse
+wink,wink\wink-server\src\test\java\org\apache\wink\server\internal\providers\entity\JAXBProvidersWithXmlAdapterTest.java,springframework,org.springframework.mock.web.MockHttpServletRequest
+wink,wink\wink-server\src\test\java\org\apache\wink\server\internal\providers\entity\JAXBProvidersWithXmlAdapterTest.java,springframework,org.springframework.mock.web.MockHttpServletResponse
+wink,wink\wink-server\src\test\java\org\apache\wink\server\internal\providers\entity\JAXBProvidersWithXmlElementAnnoTest.java,springframework,org.springframework.mock.web.MockHttpServletRequest
+wink,wink\wink-server\src\test\java\org\apache\wink\server\internal\providers\entity\JAXBProvidersWithXmlElementAnnoTest.java,springframework,org.springframework.mock.web.MockHttpServletResponse
+wink,wink\wink-server\src\test\java\org\apache\wink\server\internal\providers\entity\JAXBUnmarshalNoOptionsTest.java,springframework,org.springframework.mock.web.MockHttpServletRequest
+wink,wink\wink-server\src\test\java\org\apache\wink\server\internal\providers\entity\JAXBUnmarshalNoOptionsTest.java,springframework,org.springframework.mock.web.MockHttpServletResponse
+wink,wink\wink-server\src\test\java\org\apache\wink\server\internal\providers\entity\JAXBUnmarshalOptionsTest.java,springframework,org.springframework.mock.web.MockHttpServletRequest
+wink,wink\wink-server\src\test\java\org\apache\wink\server\internal\providers\entity\JAXBUnmarshalOptionsTest.java,springframework,org.springframework.mock.web.MockHttpServletResponse
+wink,wink\wink-server\src\test\java\org\apache\wink\server\internal\providers\entity\MessageBodyWriterProviderCorrectParametersTest.java,springframework,org.springframework.mock.web.MockHttpServletRequest
+wink,wink\wink-server\src\test\java\org\apache\wink\server\internal\providers\entity\MessageBodyWriterProviderCorrectParametersTest.java,springframework,org.springframework.mock.web.MockHttpServletResponse
+wink,wink\wink-server\src\test\java\org\apache\wink\server\internal\providers\entity\MultiTableCsvDescriptorTest.java,springframework,org.springframework.mock.web.MockHttpServletRequest
+wink,wink\wink-server\src\test\java\org\apache\wink\server\internal\providers\entity\MultiTableCsvDescriptorTest.java,springframework,org.springframework.mock.web.MockHttpServletResponse
+wink,wink\wink-server\src\test\java\org\apache\wink\server\internal\providers\entity\ProvidersParametersOnErrorPathTest.java,springframework,org.springframework.mock.web.MockHttpServletRequest
+wink,wink\wink-server\src\test\java\org\apache\wink\server\internal\providers\entity\ProvidersParametersOnErrorPathTest.java,springframework,org.springframework.mock.web.MockHttpServletResponse
+wink,wink\wink-server\src\test\java\org\apache\wink\server\internal\providers\entity\SourceProviderDTDSupportedTest.java,jmock,org.jmock.Expectations
+wink,wink\wink-server\src\test\java\org\apache\wink\server\internal\providers\entity\SourceProviderDTDSupportedTest.java,jmock,org.jmock.Mockery
+wink,wink\wink-server\src\test\java\org\apache\wink\server\internal\providers\entity\SourceProviderDTDSupportedTest.java,springframework,org.springframework.mock.web.MockHttpServletRequest
+wink,wink\wink-server\src\test\java\org\apache\wink\server\internal\providers\entity\SourceProviderDTDSupportedTest.java,springframework,org.springframework.mock.web.MockHttpServletResponse
+wink,wink\wink-server\src\test\java\org\apache\wink\server\internal\providers\entity\SourceProviderTest.java,jmock,org.jmock.Expectations
+wink,wink\wink-server\src\test\java\org\apache\wink\server\internal\providers\entity\SourceProviderTest.java,jmock,org.jmock.Mockery
+wink,wink\wink-server\src\test\java\org\apache\wink\server\internal\providers\entity\SourceProviderTest.java,springframework,org.springframework.mock.web.MockHttpServletRequest
+wink,wink\wink-server\src\test\java\org\apache\wink\server\internal\providers\entity\SourceProviderTest.java,springframework,org.springframework.mock.web.MockHttpServletResponse
+wink,wink\wink-server\src\test\java\org\apache\wink\server\internal\providers\entity\StreamingOutputProviderTest.java,springframework,org.springframework.mock.web.MockHttpServletRequest
+wink,wink\wink-server\src\test\java\org\apache\wink\server\internal\providers\entity\StreamingOutputProviderTest.java,springframework,org.springframework.mock.web.MockHttpServletResponse
+wink,wink\wink-server\src\test\java\org\apache\wink\server\internal\providers\entity\SyndEntryLocatorProviderTest.java,springframework,org.springframework.mock.web.MockHttpServletRequest
+wink,wink\wink-server\src\test\java\org\apache\wink\server\internal\providers\entity\SyndEntryLocatorProviderTest.java,springframework,org.springframework.mock.web.MockHttpServletResponse
+wink,wink\wink-server\src\test\java\org\apache\wink\server\internal\providers\entity\SyndFeedLocatorProviderTest.java,springframework,org.springframework.mock.web.MockHttpServletRequest
+wink,wink\wink-server\src\test\java\org\apache\wink\server\internal\providers\entity\SyndFeedLocatorProviderTest.java,springframework,org.springframework.mock.web.MockHttpServletResponse
+wink,wink\wink-server\src\test\java\org\apache\wink\server\internal\providers\entity\UserProvidersOverBuiltinProviderTest.java,springframework,org.springframework.mock.web.MockHttpServletRequest
+wink,wink\wink-server\src\test\java\org\apache\wink\server\internal\providers\entity\UserProvidersOverBuiltinProviderTest.java,springframework,org.springframework.mock.web.MockHttpServletResponse
+wink,wink\wink-server\src\test\java\org\apache\wink\server\internal\providers\entity\html\HtmlMockHttpServletRequest.java,springframework,org.springframework.mock.web.MockHttpServletRequest
+wink,wink\wink-server\src\test\java\org\apache\wink\server\internal\providers\entity\html\HtmlMockRequestDispatcher.java,springframework,org.springframework.mock.web.MockRequestDispatcher
+wink,wink\wink-server\src\test\java\org\apache\wink\server\internal\providers\entity\html\HtmlMockServletInvocationTest.java,springframework,org.springframework.mock.web.MockHttpServletRequest
+wink,wink\wink-server\src\test\java\org\apache\wink\server\internal\providers\entity\html\HtmlRepresentationCollectionCustomizedTest.java,springframework,org.springframework.mock.web.MockHttpServletRequest
+wink,wink\wink-server\src\test\java\org\apache\wink\server\internal\providers\entity\html\HtmlRepresentationCollectionCustomizedTest.java,springframework,org.springframework.mock.web.MockHttpServletResponse
+wink,wink\wink-server\src\test\java\org\apache\wink\server\internal\providers\entity\html\HtmlRepresentationCollectionDefaultTest.java,springframework,org.springframework.mock.web.MockHttpServletResponse
+wink,wink\wink-server\src\test\java\org\apache\wink\server\internal\providers\entity\html\HtmlRepresentationEntryCustomizedTest.java,springframework,org.springframework.mock.web.MockHttpServletResponse
+wink,wink\wink-server\src\test\java\org\apache\wink\server\internal\providers\entity\html\HtmlRepresentationEntryDefaultTest.java,springframework,org.springframework.mock.web.MockHttpServletResponse
+wink,wink\wink-server\src\test\java\org\apache\wink\server\internal\providers\entity\html\HtmlRepresentationServiceDocumentTest.java,springframework,org.springframework.mock.web.MockHttpServletResponse
+wink,wink\wink-server\src\test\java\org\apache\wink\server\internal\registry\DefaultValueTest.java,springframework,org.springframework.mock.web.MockHttpServletRequest
+wink,wink\wink-server\src\test\java\org\apache\wink\server\internal\registry\DefaultValueTest.java,springframework,org.springframework.mock.web.MockHttpServletResponse
+wink,wink\wink-server\src\test\java\org\apache\wink\server\internal\registry\EncodedTest.java,springframework,org.springframework.mock.web.MockHttpServletRequest
+wink,wink\wink-server\src\test\java\org\apache\wink\server\internal\registry\EncodedTest.java,springframework,org.springframework.mock.web.MockHttpServletResponse
+wink,wink\wink-server\src\test\java\org\apache\wink\server\internal\registry\FindResourceMethod1Test.java,springframework,org.springframework.mock.web.MockHttpServletRequest
+wink,wink\wink-server\src\test\java\org\apache\wink\server\internal\registry\FindResourceMethod1Test.java,springframework,org.springframework.mock.web.MockHttpServletResponse
+wink,wink\wink-server\src\test\java\org\apache\wink\server\internal\registry\FindResourceMethod2Test.java,springframework,org.springframework.mock.web.MockHttpServletRequest
+wink,wink\wink-server\src\test\java\org\apache\wink\server\internal\registry\FindResourceMethod2Test.java,springframework,org.springframework.mock.web.MockHttpServletResponse
+wink,wink\wink-server\src\test\java\org\apache\wink\server\internal\registry\FindResourceMethod3Test.java,springframework,org.springframework.mock.web.MockHttpServletRequest
+wink,wink\wink-server\src\test\java\org\apache\wink\server\internal\registry\FindResourceMethod3Test.java,springframework,org.springframework.mock.web.MockHttpServletResponse
+wink,wink\wink-server\src\test\java\org\apache\wink\server\internal\registry\FindResourceMethod4Test.java,springframework,org.springframework.mock.web.MockHttpServletRequest
+wink,wink\wink-server\src\test\java\org\apache\wink\server\internal\registry\FindResourceMethod4Test.java,springframework,org.springframework.mock.web.MockHttpServletResponse
+wink,wink\wink-server\src\test\java\org\apache\wink\server\internal\registry\FindResourceMethodTest.java,springframework,org.springframework.mock.web.MockHttpServletRequest
+wink,wink\wink-server\src\test\java\org\apache\wink\server\internal\registry\FindResourceMethodTest.java,springframework,org.springframework.mock.web.MockHttpServletResponse
+wink,wink\wink-server\src\test\java\org\apache\wink\server\internal\registry\HeaderTest.java,springframework,org.springframework.mock.web.MockHttpServletRequest
+wink,wink\wink-server\src\test\java\org\apache\wink\server\internal\registry\HeaderTest.java,springframework,org.springframework.mock.web.MockHttpServletResponse
+wink,wink\wink-server\src\test\java\org\apache\wink\server\internal\registry\InjectableDataTest.java,springframework,org.springframework.mock.web.MockHttpServletRequest
+wink,wink\wink-server\src\test\java\org\apache\wink\server\internal\registry\InjectableDataTest.java,springframework,org.springframework.mock.web.MockHttpServletResponse
+wink,wink\wink-server\src\test\java\org\apache\wink\server\internal\registry\InvalidContextMethodTest.java,springframework,org.springframework.mock.web.MockHttpServletRequest
+wink,wink\wink-server\src\test\java\org\apache\wink\server\internal\registry\InvalidContextMethodTest.java,springframework,org.springframework.mock.web.MockHttpServletResponse
+wink,wink\wink-server\src\test\java\org\apache\wink\server\internal\registry\PrototypeResourceTest.java,springframework,org.springframework.mock.web.MockHttpServletRequest
+wink,wink\wink-server\src\test\java\org\apache\wink\server\internal\registry\ProvidersRegistrySystemTest.java,springframework,org.springframework.mock.web.MockHttpServletRequest
+wink,wink\wink-server\src\test\java\org\apache\wink\server\internal\registry\ProvidersRegistrySystemTest.java,springframework,org.springframework.mock.web.MockHttpServletResponse
+wink,wink\wink-server\src\test\java\org\apache\wink\server\internal\registry\ResponseDispatchTest.java,springframework,org.springframework.mock.web.MockHttpServletRequest
+wink,wink\wink-server\src\test\java\org\apache\wink\server\internal\registry\ResponseDispatchTest.java,springframework,org.springframework.mock.web.MockHttpServletResponse
+wink,wink\wink-server\src\test\java\org\apache\wink\server\internal\registry\StrictConsumesProducesInheritanceDefaultTest.java,springframework,org.springframework.mock.web.MockHttpServletRequest
+wink,wink\wink-server\src\test\java\org\apache\wink\server\internal\registry\StrictConsumesProducesInheritanceDefaultTest.java,springframework,org.springframework.mock.web.MockHttpServletResponse
+wink,wink\wink-server\src\test\java\org\apache\wink\server\internal\registry\StrictConsumesProducesInheritanceFalseTest.java,springframework,org.springframework.mock.web.MockHttpServletRequest
+wink,wink\wink-server\src\test\java\org\apache\wink\server\internal\registry\StrictConsumesProducesInheritanceFalseTest.java,springframework,org.springframework.mock.web.MockHttpServletResponse
+wink,wink\wink-server\src\test\java\org\apache\wink\server\internal\registry\StrictConsumesProducesInheritanceTrueTest.java,springframework,org.springframework.mock.web.MockHttpServletRequest
+wink,wink\wink-server\src\test\java\org\apache\wink\server\internal\registry\StrictConsumesProducesInheritanceTrueTest.java,springframework,org.springframework.mock.web.MockHttpServletResponse
+wink,wink\wink-server\src\test\java\org\apache\wink\server\internal\registry\ValueConvertorTest.java,springframework,org.springframework.mock.web.MockHttpServletRequest
+wink,wink\wink-server\src\test\java\org\apache\wink\server\internal\registry\ValueConvertorTest.java,springframework,org.springframework.mock.web.MockHttpServletResponse
+wink,wink\wink-server\src\test\java\org\apache\wink\server\internal\servlet\RestServletTest.java,springframework,org.springframework.mock.web.MockServletConfig
+wink,wink\wink-server\src\test\java\org\apache\wink\server\internal\servlet\RestServletTest.java,springframework,org.springframework.mock.web.MockServletContext
+wink,wink\wink-server\src\test\java\org\apache\wink\server\serviceability\DebugContextResolverThrowsExceptionTest.java,springframework,org.springframework.mock.web.MockHttpServletRequest
+wink,wink\wink-server\src\test\java\org\apache\wink\server\serviceability\DebugHandlerThrowsExceptionTest.java,springframework,org.springframework.mock.web.MockHttpServletRequest
+wink,wink\wink-server\src\test\java\org\apache\wink\server\serviceability\DebugNoMessageBodyWriter406Test.java,springframework,org.springframework.mock.web.MockHttpServletRequest
+wink,wink\wink-server\src\test\java\org\apache\wink\server\serviceability\DebugNoMessageBodyWriter406Test.java,springframework,org.springframework.mock.web.MockHttpServletResponse
+wink,wink\wink-server\src\test\java\org\apache\wink\server\serviceability\DebugProviderThrowsExceptionTest.java,springframework,org.springframework.mock.web.MockHttpServletRequest
+wink,wink\wink-server\src\test\java\org\apache\wink\server\serviceability\DebugResourceThrowsExceptionTest.java,springframework,org.springframework.mock.web.MockHttpServletRequest
+wink,wink\wink-server\src\test\java\org\apache\wink\server\serviceability\DebugSimpleRequestTest.java,springframework,org.springframework.mock.web.MockHttpServletRequest
+wink,wink\wink-server\src\test\java\org\apache\wink\server\serviceability\DebugSimpleRequestTest.java,springframework,org.springframework.mock.web.MockHttpServletResponse
+wink,wink\wink-server\src\test\java\org\apache\wink\server\serviceability\DebugSimpleResponseTest.java,springframework,org.springframework.mock.web.MockHttpServletRequest
+wink,wink\wink-server\src\test\java\org\apache\wink\server\serviceability\DebugSimpleResponseTest.java,springframework,org.springframework.mock.web.MockHttpServletResponse
+wink,wink\wink-server\src\test\java\org\apache\wink\server\serviceability\InfoNoMessageBodyWriter406Test.java,springframework,org.springframework.mock.web.MockHttpServletRequest
+wink,wink\wink-server\src\test\java\org\apache\wink\server\serviceability\InfoNoMessageBodyWriter406Test.java,springframework,org.springframework.mock.web.MockHttpServletResponse
+wink,wink\wink-server\src\test\java\org\apache\wink\server\serviceability\ServiceabilityTest.java,springframework,org.springframework.mock.web.MockHttpServletRequest
+wink,wink\wink-server\src\test\java\org\apache\wink\server\serviceability\ServiceabilityTest.java,springframework,org.springframework.mock.web.MockHttpServletResponse
+wink,wink\wink-server\src\test\java\org\apache\wink\server\utils\LinksBuilderTest.java,springframework,org.springframework.mock.web.MockHttpServletRequest
+wink,wink\wink-server\src\test\java\org\apache\wink\server\utils\LinksBuilderTest.java,springframework,org.springframework.mock.web.MockHttpServletResponse
+wink,wink\wink-server\src\test\java\org\apache\wink\server\utils\SubResourceSamePathParamSegmentTest.java,springframework,org.springframework.mock.web.MockHttpServletRequest
+wink,wink\wink-server\src\test\java\org\apache\wink\server\utils\SubResourceSamePathParamSegmentTest.java,springframework,org.springframework.mock.web.MockHttpServletResponse
+wink,wink\wink-server\src\test\java\org\apache\wink\server\utils\SubresourceSamePathParamTest.java,springframework,org.springframework.mock.web.MockHttpServletRequest
+wink,wink\wink-server\src\test\java\org\apache\wink\server\utils\SubresourceSamePathParamTest.java,springframework,org.springframework.mock.web.MockHttpServletResponse
+wink,wink\wink-spring-support\src\test\java\org\apache\wink\spring\RegistrarTest.java,springframework,org.springframework.mock.web.MockHttpServletRequest
+wink,wink\wink-spring-support\src\test\java\org\apache\wink\spring\RegistrarTest.java,springframework,org.springframework.mock.web.MockHttpServletResponse
+wink,wink\wink-webdav\src\test\java\org\apache\wink\webdav\server\AbstractWebDAVResourcesTest.java,springframework,org.springframework.mock.web.MockHttpServletRequest
+wink,wink\wink-webdav\src\test\java\org\apache\wink\webdav\server\AbstractWebDAVResourcesTest.java,springframework,org.springframework.mock.web.MockHttpServletResponse
+wink,wink\wink-webdav\src\test\java\org\apache\wink\webdav\server\WebDAVDocumentResourceTest.java,springframework,org.springframework.mock.web.MockHttpServletRequest
+wink,wink\wink-webdav\src\test\java\org\apache\wink\webdav\server\WebDAVDocumentResourceTest.java,springframework,org.springframework.mock.web.MockHttpServletResponse
+xmlbeans,xmlbeans\src\test\java\compile\scomp\checkin\XmlBeansCompCheckinTests.java,scomp,compile.scomp.common.mockobj.TestFiler
+xmlbeans,xmlbeans\src\test\java\compile\scomp\detailed\XmlBeanCompilationTests.java,scomp,compile.scomp.common.mockobj.TestBindingConfig
+xmlbeans,xmlbeans\src\test\java\compile\scomp\detailed\XmlBeanCompilationTests.java,scomp,compile.scomp.common.mockobj.TestFiler
+xmlgraphics-commons,xmlgraphics-commons\src\test\java\org\apache\xmlgraphics\image\codec\tiff\ImageInfoTestCase.java,mockito,static org.mockito.Mockito.mock
+xmlgraphics-commons,xmlgraphics-commons\src\test\java\org\apache\xmlgraphics\image\codec\tiff\ImageInfoTestCase.java,mockito,static org.mockito.Mockito.when
+xmlgraphics-commons,xmlgraphics-commons\src\test\java\org\apache\xmlgraphics\image\codec\tiff\ImageTypeTestCase.java,mockito,static org.mockito.Mockito.mock
+xmlgraphics-commons,xmlgraphics-commons\src\test\java\org\apache\xmlgraphics\image\codec\tiff\ImageTypeTestCase.java,mockito,static org.mockito.Mockito.when
+xmlgraphics-commons,xmlgraphics-commons\src\test\java\org\apache\xmlgraphics\image\loader\impl\PreloaderJPEGTestCase.java,mockito,static org.mockito.Mockito.mock
+xmlgraphics-commons,xmlgraphics-commons\src\test\java\org\apache\xmlgraphics\image\loader\impl\PreloaderJPEGTestCase.java,mockito,static org.mockito.Mockito.when
+xmlgraphics-commons,xmlgraphics-commons\src\test\java\org\apache\xmlgraphics\io\XmlSourceUtilTestCase.java,mockito,static org.mockito.Mockito.mock
+xmlgraphics-commons,xmlgraphics-commons\src\test\java\org\apache\xmlgraphics\io\XmlSourceUtilTestCase.java,mockito,static org.mockito.Mockito.verify
+xmlgraphics-commons,xmlgraphics-commons\src\test\java\org\apache\xmlgraphics\io\XmlSourceUtilTestCase.java,mockito,static org.mockito.Mockito.when
+xmlgraphics-commons,xmlgraphics-commons\src\test\java\org\apache\xmlgraphics\java2d\ps\PSGraphics2DTestCase.java,mockito,static org.mockito.Mockito.mock
+xmlgraphics-commons,xmlgraphics-commons\src\test\java\org\apache\xmlgraphics\java2d\ps\PSGraphics2DTestCase.java,mockito,static org.mockito.Mockito.times
+xmlgraphics-commons,xmlgraphics-commons\src\test\java\org\apache\xmlgraphics\java2d\ps\PSGraphics2DTestCase.java,mockito,static org.mockito.Mockito.verify
+xmlgraphics-commons,xmlgraphics-commons\src\test\java\org\apache\xmlgraphics\java2d\ps\PSGraphics2DTestCase.java,mockito,static org.mockito.Mockito.when
+xmlgraphics-commons,xmlgraphics-commons\src\test\java\org\apache\xmlgraphics\ps\ImageEncodingHelperTestCase.java,mockito,org.mockito.invocation.InvocationOnMock
+xmlgraphics-commons,xmlgraphics-commons\src\test\java\org\apache\xmlgraphics\ps\ImageEncodingHelperTestCase.java,mockito,org.mockito.stubbing.Answer
+xmlgraphics-commons,xmlgraphics-commons\src\test\java\org\apache\xmlgraphics\ps\ImageEncodingHelperTestCase.java,mockito,static org.mockito.Matchers.anyInt
+xmlgraphics-commons,xmlgraphics-commons\src\test\java\org\apache\xmlgraphics\ps\ImageEncodingHelperTestCase.java,mockito,static org.mockito.Matchers.anyObject
+xmlgraphics-commons,xmlgraphics-commons\src\test\java\org\apache\xmlgraphics\ps\ImageEncodingHelperTestCase.java,mockito,static org.mockito.Mockito.mock
+xmlgraphics-commons,xmlgraphics-commons\src\test\java\org\apache\xmlgraphics\ps\ImageEncodingHelperTestCase.java,mockito,static org.mockito.Mockito.when
+zeppelin,zeppelin\cassandra\src\test\java\org\apache\zeppelin\cassandra\InterpreterLogicTest.java,mockito,static org.mockito.Mockito.eq
+zeppelin,zeppelin\cassandra\src\test\java\org\apache\zeppelin\cassandra\InterpreterLogicTest.java,mockito,static org.mockito.Mockito.mock
+zeppelin,zeppelin\cassandra\src\test\java\org\apache\zeppelin\cassandra\InterpreterLogicTest.java,mockito,static org.mockito.Mockito.never
+zeppelin,zeppelin\cassandra\src\test\java\org\apache\zeppelin\cassandra\InterpreterLogicTest.java,mockito,static org.mockito.Mockito.verify
+zeppelin,zeppelin\cassandra\src\test\java\org\apache\zeppelin\cassandra\InterpreterLogicTest.java,mockito,static org.mockito.Mockito.verifyZeroInteractions
+zeppelin,zeppelin\cassandra\src\test\java\org\apache\zeppelin\cassandra\InterpreterLogicTest.java,mockito,static org.mockito.Mockito.when
+zeppelin,zeppelin\cassandra\src\test\java\org\apache\zeppelin\cassandra\InterpreterLogicTest.java,mockito,org.mockito.Answers
+zeppelin,zeppelin\cassandra\src\test\java\org\apache\zeppelin\cassandra\InterpreterLogicTest.java,mockito,org.mockito.ArgumentCaptor
+zeppelin,zeppelin\cassandra\src\test\java\org\apache\zeppelin\cassandra\InterpreterLogicTest.java,mockito,org.mockito.Captor
+zeppelin,zeppelin\cassandra\src\test\java\org\apache\zeppelin\cassandra\InterpreterLogicTest.java,mockito,org.mockito.Mock
+zeppelin,zeppelin\cassandra\src\test\java\org\apache\zeppelin\cassandra\InterpreterLogicTest.java,mockito,org.mockito.runners.MockitoJUnitRunner
+zeppelin,zeppelin\flink\flink-scala-parent\src\test\java\org\apache\zeppelin\flink\FlinkInterpreterTest.java,mockito,static org.mockito.Mockito.mock
+zeppelin,zeppelin\flink\flink-scala-parent\src\test\java\org\apache\zeppelin\flink\IPyFlinkInterpreterTest.java,mockito,static org.mockito.Mockito.mock
+zeppelin,zeppelin\flink\flink-scala-parent\src\test\java\org\apache\zeppelin\flink\PyFlinkInterpreterTest.java,mockito,static org.mockito.Mockito.mock
+zeppelin,zeppelin\flink\flink-scala-parent\src\test\java\org\apache\zeppelin\flink\SqlInterpreterTest.java,mockito,static org.mockito.Mockito.mock
+zeppelin,zeppelin\geode\src\test\java\org\apache\zeppelin\geode\GeodeOqlInterpreterTest.java,mockito,static org.mockito.Matchers.eq
+zeppelin,zeppelin\geode\src\test\java\org\apache\zeppelin\geode\GeodeOqlInterpreterTest.java,mockito,static org.mockito.Mockito.RETURNS_DEEP_STUBS
+zeppelin,zeppelin\geode\src\test\java\org\apache\zeppelin\geode\GeodeOqlInterpreterTest.java,mockito,static org.mockito.Mockito.mock
+zeppelin,zeppelin\geode\src\test\java\org\apache\zeppelin\geode\GeodeOqlInterpreterTest.java,mockito,static org.mockito.Mockito.spy
+zeppelin,zeppelin\geode\src\test\java\org\apache\zeppelin\geode\GeodeOqlInterpreterTest.java,mockito,static org.mockito.Mockito.times
+zeppelin,zeppelin\geode\src\test\java\org\apache\zeppelin\geode\GeodeOqlInterpreterTest.java,mockito,static org.mockito.Mockito.verify
+zeppelin,zeppelin\geode\src\test\java\org\apache\zeppelin\geode\GeodeOqlInterpreterTest.java,mockito,static org.mockito.Mockito.when
+zeppelin,zeppelin\influxdb\src\test\java\org\apache\zeppelin\influxdb\InfluxDBInterpeterTest.java,mockwebserver,okhttp3.mockwebserver.MockResponse
+zeppelin,zeppelin\influxdb\src\test\java\org\apache\zeppelin\influxdb\InfluxDBInterpeterTest.java,mockwebserver,okhttp3.mockwebserver.MockWebServer
+zeppelin,zeppelin\jdbc\src\test\java\org\apache\zeppelin\jdbc\JDBCInterpreterInterpolationTest.java,mockrunner,com.mockrunner.jdbc.BasicJDBCTestCaseAdapter
+zeppelin,zeppelin\jdbc\src\test\java\org\apache\zeppelin\jdbc\JDBCInterpreterTest.java,mockrunner,com.mockrunner.jdbc.BasicJDBCTestCaseAdapter
+zeppelin,zeppelin\ksql\src\test\java\org\apache\zeppelin\ksql\KSQLInterpreterTest.java,mockito,org.mockito.Mockito
+zeppelin,zeppelin\ksql\src\test\java\org\apache\zeppelin\ksql\KSQLInterpreterTest.java,mockito,org.mockito.stubbing.Stubber
+zeppelin,zeppelin\livy\src\test\java\org\apache\zeppelin\livy\LivyInterpreterIT.java,mockito,static org.mockito.Mockito.mock
+zeppelin,zeppelin\python\src\test\java\org\apache\zeppelin\python\BasePythonInterpreterTest.java,mockito,static org.mockito.Mockito.mock
+zeppelin,zeppelin\python\src\test\java\org\apache\zeppelin\python\PythonCondaInterpreterTest.java,mockito,static org.mockito.Mockito.doReturn
+zeppelin,zeppelin\python\src\test\java\org\apache\zeppelin\python\PythonCondaInterpreterTest.java,mockito,static org.mockito.Mockito.mock
+zeppelin,zeppelin\python\src\test\java\org\apache\zeppelin\python\PythonCondaInterpreterTest.java,mockito,static org.mockito.Mockito.spy
+zeppelin,zeppelin\python\src\test\java\org\apache\zeppelin\python\PythonCondaInterpreterTest.java,mockito,static org.mockito.Mockito.when
+zeppelin,zeppelin\python\src\test\java\org\apache\zeppelin\python\PythonCondaInterpreterTest.java,mockito,static org.mockito.Mockito.times
+zeppelin,zeppelin\python\src\test\java\org\apache\zeppelin\python\PythonCondaInterpreterTest.java,mockito,static org.mockito.Mockito.verify
+zeppelin,zeppelin\python\src\test\java\org\apache\zeppelin\python\PythonDockerInterpreterTest.java,mockito,org.mockito.Mockito
+zeppelin,zeppelin\python\src\test\java\org\apache\zeppelin\python\PythonDockerInterpreterTest.java,mockito,static org.mockito.Matchers.any
+zeppelin,zeppelin\python\src\test\java\org\apache\zeppelin\python\PythonDockerInterpreterTest.java,mockito,static org.mockito.Matchers.anyString
+zeppelin,zeppelin\python\src\test\java\org\apache\zeppelin\python\PythonDockerInterpreterTest.java,mockito,static org.mockito.Mockito.doReturn
+zeppelin,zeppelin\python\src\test\java\org\apache\zeppelin\python\PythonDockerInterpreterTest.java,mockito,static org.mockito.Mockito.mock
+zeppelin,zeppelin\python\src\test\java\org\apache\zeppelin\python\PythonDockerInterpreterTest.java,mockito,static org.mockito.Mockito.spy
+zeppelin,zeppelin\python\src\test\java\org\apache\zeppelin\python\PythonDockerInterpreterTest.java,mockito,static org.mockito.Mockito.times
+zeppelin,zeppelin\python\src\test\java\org\apache\zeppelin\python\PythonDockerInterpreterTest.java,mockito,static org.mockito.Mockito.verify
+zeppelin,zeppelin\python\src\test\java\org\apache\zeppelin\python\PythonInterpreterPandasSqlTest.java,mockito,static org.mockito.Mockito.mock
+zeppelin,zeppelin\rlang\src\test\java\org\apache\zeppelin\r\ShinyInterpreterTest.java,mockito,static org.mockito.Mockito.mock
+zeppelin,zeppelin\sap\src\test\java\org\apache\zeppelin\sap\universe\UniverseCompleterTest.java,mockito,static org.mockito.Matchers.anyString
+zeppelin,zeppelin\sap\src\test\java\org\apache\zeppelin\sap\universe\UniverseCompleterTest.java,mockito,static org.mockito.Mockito.mock
+zeppelin,zeppelin\sap\src\test\java\org\apache\zeppelin\sap\universe\UniverseCompleterTest.java,mockito,static org.mockito.Mockito.when
+zeppelin,zeppelin\sap\src\test\java\org\apache\zeppelin\sap\universe\UniverseUtilTest.java,mockito,static org.mockito.Matchers.anyString
+zeppelin,zeppelin\sap\src\test\java\org\apache\zeppelin\sap\universe\UniverseUtilTest.java,mockito,static org.mockito.Mockito.mock
+zeppelin,zeppelin\sap\src\test\java\org\apache\zeppelin\sap\universe\UniverseUtilTest.java,mockito,static org.mockito.Mockito.when
+zeppelin,zeppelin\shell\src\test\java\org\apache\zeppelin\shell\BaseInterpreterTest.java,mockito,static org.mockito.Mockito.mock
+zeppelin,zeppelin\spark\interpreter\src\test\java\org\apache\zeppelin\spark\IPySparkInterpreterTest.java,mockito,static org.mockito.Matchers.any
+zeppelin,zeppelin\spark\interpreter\src\test\java\org\apache\zeppelin\spark\IPySparkInterpreterTest.java,mockito,static org.mockito.Mockito.mock
+zeppelin,zeppelin\spark\interpreter\src\test\java\org\apache\zeppelin\spark\IPySparkInterpreterTest.java,mockito,static org.mockito.Mockito.reset
+zeppelin,zeppelin\spark\interpreter\src\test\java\org\apache\zeppelin\spark\IPySparkInterpreterTest.java,mockito,static org.mockito.Mockito.verify
+zeppelin,zeppelin\spark\interpreter\src\test\java\org\apache\zeppelin\spark\KotlinSparkInterpreterTest.java,mockito,static org.mockito.Mockito.mock
+zeppelin,zeppelin\spark\interpreter\src\test\java\org\apache\zeppelin\spark\PySparkInterpreterMatplotlibTest.java,mockito,static org.mockito.Mockito.mock
+zeppelin,zeppelin\spark\interpreter\src\test\java\org\apache\zeppelin\spark\PySparkInterpreterTest.java,mockito,static org.mockito.Mockito.mock
+zeppelin,zeppelin\spark\interpreter\src\test\java\org\apache\zeppelin\spark\SparkIRInterpreterTest.java,mockito,static org.mockito.Matchers.any
+zeppelin,zeppelin\spark\interpreter\src\test\java\org\apache\zeppelin\spark\SparkIRInterpreterTest.java,mockito,static org.mockito.Mockito.atLeastOnce
+zeppelin,zeppelin\spark\interpreter\src\test\java\org\apache\zeppelin\spark\SparkIRInterpreterTest.java,mockito,static org.mockito.Mockito.mock
+zeppelin,zeppelin\spark\interpreter\src\test\java\org\apache\zeppelin\spark\SparkIRInterpreterTest.java,mockito,static org.mockito.Mockito.verify
+zeppelin,zeppelin\spark\interpreter\src\test\java\org\apache\zeppelin\spark\SparkInterpreterTest.java,mockito,org.mockito.ArgumentCaptor
+zeppelin,zeppelin\spark\interpreter\src\test\java\org\apache\zeppelin\spark\SparkInterpreterTest.java,mockito,static org.mockito.Matchers.any
+zeppelin,zeppelin\spark\interpreter\src\test\java\org\apache\zeppelin\spark\SparkInterpreterTest.java,mockito,static org.mockito.Mockito.mock
+zeppelin,zeppelin\spark\interpreter\src\test\java\org\apache\zeppelin\spark\SparkInterpreterTest.java,mockito,static org.mockito.Mockito.never
+zeppelin,zeppelin\spark\interpreter\src\test\java\org\apache\zeppelin\spark\SparkInterpreterTest.java,mockito,static org.mockito.Mockito.reset
+zeppelin,zeppelin\spark\interpreter\src\test\java\org\apache\zeppelin\spark\SparkInterpreterTest.java,mockito,static org.mockito.Mockito.verify
+zeppelin,zeppelin\spark\interpreter\src\test\java\org\apache\zeppelin\spark\SparkRInterpreterTest.java,mockito,static org.mockito.Matchers.any
+zeppelin,zeppelin\spark\interpreter\src\test\java\org\apache\zeppelin\spark\SparkRInterpreterTest.java,mockito,static org.mockito.Mockito.atLeastOnce
+zeppelin,zeppelin\spark\interpreter\src\test\java\org\apache\zeppelin\spark\SparkRInterpreterTest.java,mockito,static org.mockito.Mockito.mock
+zeppelin,zeppelin\spark\interpreter\src\test\java\org\apache\zeppelin\spark\SparkRInterpreterTest.java,mockito,static org.mockito.Mockito.verify
+zeppelin,zeppelin\spark\interpreter\src\test\java\org\apache\zeppelin\spark\SparkShimsTest.java,mockito,static org.mockito.Mockito.doNothing
+zeppelin,zeppelin\spark\interpreter\src\test\java\org\apache\zeppelin\spark\SparkShimsTest.java,mockito,static org.mockito.Mockito.mock
+zeppelin,zeppelin\spark\interpreter\src\test\java\org\apache\zeppelin\spark\SparkShimsTest.java,mockito,static org.mockito.Mockito.when
+zeppelin,zeppelin\spark\interpreter\src\test\java\org\apache\zeppelin\spark\SparkShimsTest.java,mockito,org.mockito.ArgumentCaptor
+zeppelin,zeppelin\spark\interpreter\src\test\java\org\apache\zeppelin\spark\SparkShimsTest.java,mockito,org.mockito.Captor
+zeppelin,zeppelin\spark\interpreter\src\test\java\org\apache\zeppelin\spark\SparkShimsTest.java,powermock,org.powermock.core.classloader.annotations.PowerMockIgnore
+zeppelin,zeppelin\spark\interpreter\src\test\java\org\apache\zeppelin\spark\SparkShimsTest.java,powermock,org.powermock.core.classloader.annotations.PrepareForTest
+zeppelin,zeppelin\spark\interpreter\src\test\java\org\apache\zeppelin\spark\SparkShimsTest.java,powermock,org.powermock.modules.junit4.PowerMockRunner
+zeppelin,zeppelin\spark\interpreter\src\test\java\org\apache\zeppelin\spark\SparkSqlInterpreterTest.java,mockito,static org.mockito.Mockito.mock
+zeppelin,zeppelin\submarine\src\test\java\org\apache\zeppelin\submarine\BaseInterpreterTest.java,mockito,static org.mockito.Mockito.mock
+zeppelin,zeppelin\zeppelin-interpreter-integration\src\test\java\org\apache\zeppelin\integration\MiniZeppelin.java,mockito,static org.mockito.Mockito.mock
+zeppelin,zeppelin\zeppelin-interpreter\src\test\java\org\apache\zeppelin\interpreter\LazyOpenInterpreterTest.java,mockito,static org.mockito.Matchers.any
+zeppelin,zeppelin\zeppelin-interpreter\src\test\java\org\apache\zeppelin\interpreter\LazyOpenInterpreterTest.java,mockito,static org.mockito.Mockito.mock
+zeppelin,zeppelin\zeppelin-interpreter\src\test\java\org\apache\zeppelin\interpreter\LazyOpenInterpreterTest.java,mockito,static org.mockito.Mockito.when
+zeppelin,zeppelin\zeppelin-interpreter\src\test\java\org\apache\zeppelin\interpreter\remote\RemoteInterpreterServerTest.java,mockito,static org.mockito.Mockito.mock
+zeppelin,zeppelin\zeppelin-interpreter\src\test\java\org\apache\zeppelin\scheduler\JobTest.java,mockito,org.mockito.Mock
+zeppelin,zeppelin\zeppelin-interpreter\src\test\java\org\apache\zeppelin\scheduler\JobTest.java,mockito,org.mockito.runners.MockitoJUnitRunner
+zeppelin,zeppelin\zeppelin-interpreter\src\test\java\org\apache\zeppelin\scheduler\JobTest.java,mockito,static org.mockito.Mockito.doReturn
+zeppelin,zeppelin\zeppelin-interpreter\src\test\java\org\apache\zeppelin\scheduler\JobTest.java,mockito,static org.mockito.Mockito.doThrow
+zeppelin,zeppelin\zeppelin-interpreter\src\test\java\org\apache\zeppelin\scheduler\JobTest.java,mockito,static org.mockito.Mockito.spy
+zeppelin,zeppelin\zeppelin-jupyter-interpreter\src\test\java\org\apache\zeppelin\jupyter\IPythonKernelTest.java,mockito,static org.mockito.Mockito.mock
+zeppelin,zeppelin\zeppelin-plugins\launcher\docker\src\test\java\org\apache\zeppelin\interpreter\launcher\DockerInterpreterProcessTest.java,powermock,org.powermock.api.mockito.PowerMockito
+zeppelin,zeppelin\zeppelin-plugins\launcher\docker\src\test\java\org\apache\zeppelin\interpreter\launcher\DockerInterpreterProcessTest.java,powermock,org.powermock.core.classloader.annotations.PowerMockIgnore
+zeppelin,zeppelin\zeppelin-plugins\launcher\docker\src\test\java\org\apache\zeppelin\interpreter\launcher\DockerInterpreterProcessTest.java,powermock,org.powermock.core.classloader.annotations.PrepareForTest
+zeppelin,zeppelin\zeppelin-plugins\launcher\docker\src\test\java\org\apache\zeppelin\interpreter\launcher\DockerInterpreterProcessTest.java,powermock,org.powermock.modules.junit4.PowerMockRunner
+zeppelin,zeppelin\zeppelin-plugins\launcher\k8s-standard\src\test\java\org\apache\zeppelin\interpreter\launcher\K8sRemoteInterpreterProcessTest.java,fabric8,io.fabric8.kubernetes.client.server.mock.KubernetesServer
+zeppelin,zeppelin\zeppelin-plugins\launcher\k8s-standard\src\test\java\org\apache\zeppelin\interpreter\launcher\PodPhaseWatcherTest.java,fabric8,io.fabric8.kubernetes.client.server.mock.KubernetesServer
+zeppelin,zeppelin\zeppelin-plugins\notebookrepo\github\src\test\java\org\apache\zeppelin\notebook\repo\GitHubNotebookRepoTest.java,mockito,static org.mockito.Mockito.mock
+zeppelin,zeppelin\zeppelin-server\src\test\java\org\apache\zeppelin\cluster\ClusterEventTest.java,mockito,static org.mockito.Mockito.mock
+zeppelin,zeppelin\zeppelin-server\src\test\java\org\apache\zeppelin\cluster\ClusterEventTest.java,mockito,static org.mockito.Mockito.spy
+zeppelin,zeppelin\zeppelin-server\src\test\java\org\apache\zeppelin\cluster\ClusterEventTest.java,mockito,static org.mockito.Mockito.when
+zeppelin,zeppelin\zeppelin-server\src\test\java\org\apache\zeppelin\realm\LdapRealmTest.java,mockito,static org.mockito.Matchers.any
+zeppelin,zeppelin\zeppelin-server\src\test\java\org\apache\zeppelin\realm\LdapRealmTest.java,mockito,static org.mockito.Mockito.mock
+zeppelin,zeppelin\zeppelin-server\src\test\java\org\apache\zeppelin\realm\LdapRealmTest.java,mockito,static org.mockito.Mockito.verify
+zeppelin,zeppelin\zeppelin-server\src\test\java\org\apache\zeppelin\realm\LdapRealmTest.java,mockito,static org.mockito.Mockito.when
+zeppelin,zeppelin\zeppelin-server\src\test\java\org\apache\zeppelin\realm\PamRealmTest.java,mockito,static org.mockito.Mockito.mock
+zeppelin,zeppelin\zeppelin-server\src\test\java\org\apache\zeppelin\realm\PamRealmTest.java,mockito,static org.mockito.Mockito.when
+zeppelin,zeppelin\zeppelin-server\src\test\java\org\apache\zeppelin\server\CorsFilterTest.java,mockito,static org.mockito.Matchers.anyString
+zeppelin,zeppelin\zeppelin-server\src\test\java\org\apache\zeppelin\server\CorsFilterTest.java,mockito,static org.mockito.Mockito.doAnswer
+zeppelin,zeppelin\zeppelin-server\src\test\java\org\apache\zeppelin\server\CorsFilterTest.java,mockito,static org.mockito.Mockito.mock
+zeppelin,zeppelin\zeppelin-server\src\test\java\org\apache\zeppelin\server\CorsFilterTest.java,mockito,static org.mockito.Mockito.when
+zeppelin,zeppelin\zeppelin-server\src\test\java\org\apache\zeppelin\server\CorsFilterTest.java,mockito,org.mockito.invocation.InvocationOnMock
+zeppelin,zeppelin\zeppelin-server\src\test\java\org\apache\zeppelin\server\CorsFilterTest.java,mockito,org.mockito.stubbing.Answer
+zeppelin,zeppelin\zeppelin-server\src\test\java\org\apache\zeppelin\service\ConfigurationServiceTest.java,mockito,static org.mockito.Mockito.mock
+zeppelin,zeppelin\zeppelin-server\src\test\java\org\apache\zeppelin\service\ConfigurationServiceTest.java,mockito,static org.mockito.Mockito.reset
+zeppelin,zeppelin\zeppelin-server\src\test\java\org\apache\zeppelin\service\ConfigurationServiceTest.java,mockito,static org.mockito.Mockito.verify
+zeppelin,zeppelin\zeppelin-server\src\test\java\org\apache\zeppelin\service\InterpreterServiceTest.java,mockito,static org.mockito.Mockito.doNothing
+zeppelin,zeppelin\zeppelin-server\src\test\java\org\apache\zeppelin\service\InterpreterServiceTest.java,mockito,static org.mockito.Mockito.times
+zeppelin,zeppelin\zeppelin-server\src\test\java\org\apache\zeppelin\service\InterpreterServiceTest.java,mockito,static org.mockito.Mockito.verify
+zeppelin,zeppelin\zeppelin-server\src\test\java\org\apache\zeppelin\service\InterpreterServiceTest.java,mockito,static org.mockito.Mockito.when
+zeppelin,zeppelin\zeppelin-server\src\test\java\org\apache\zeppelin\service\InterpreterServiceTest.java,mockito,org.mockito.Mock
+zeppelin,zeppelin\zeppelin-server\src\test\java\org\apache\zeppelin\service\InterpreterServiceTest.java,mockito,org.mockito.runners.MockitoJUnitRunner
+zeppelin,zeppelin\zeppelin-server\src\test\java\org\apache\zeppelin\service\NotebookServiceTest.java,mockito,static org.mockito.Matchers.any
+zeppelin,zeppelin\zeppelin-server\src\test\java\org\apache\zeppelin\service\NotebookServiceTest.java,mockito,static org.mockito.Matchers.eq
+zeppelin,zeppelin\zeppelin-server\src\test\java\org\apache\zeppelin\service\NotebookServiceTest.java,mockito,static org.mockito.Mockito.doCallRealMethod
+zeppelin,zeppelin\zeppelin-server\src\test\java\org\apache\zeppelin\service\NotebookServiceTest.java,mockito,static org.mockito.Mockito.mock
+zeppelin,zeppelin\zeppelin-server\src\test\java\org\apache\zeppelin\service\NotebookServiceTest.java,mockito,static org.mockito.Mockito.never
+zeppelin,zeppelin\zeppelin-server\src\test\java\org\apache\zeppelin\service\NotebookServiceTest.java,mockito,static org.mockito.Mockito.reset
+zeppelin,zeppelin\zeppelin-server\src\test\java\org\apache\zeppelin\service\NotebookServiceTest.java,mockito,static org.mockito.Mockito.verify
+zeppelin,zeppelin\zeppelin-server\src\test\java\org\apache\zeppelin\service\NotebookServiceTest.java,mockito,static org.mockito.Mockito.when
+zeppelin,zeppelin\zeppelin-server\src\test\java\org\apache\zeppelin\service\NotebookServiceTest.java,mockito,org.mockito.ArgumentCaptor
+zeppelin,zeppelin\zeppelin-server\src\test\java\org\apache\zeppelin\service\ShiroAuthenticationServiceTest.java,mockito,static org.mockito.Mockito.when
+zeppelin,zeppelin\zeppelin-server\src\test\java\org\apache\zeppelin\service\ShiroAuthenticationServiceTest.java,mockito,static org.mockito.Mockito.spy
+zeppelin,zeppelin\zeppelin-server\src\test\java\org\apache\zeppelin\service\ShiroAuthenticationServiceTest.java,mockito,org.mockito.Mock
+zeppelin,zeppelin\zeppelin-server\src\test\java\org\apache\zeppelin\service\ShiroAuthenticationServiceTest.java,mockito,org.mockito.Mockito
+zeppelin,zeppelin\zeppelin-server\src\test\java\org\apache\zeppelin\service\ShiroAuthenticationServiceTest.java,powermock,org.powermock.api.mockito.PowerMockito
+zeppelin,zeppelin\zeppelin-server\src\test\java\org\apache\zeppelin\service\ShiroAuthenticationServiceTest.java,powermock,org.powermock.core.classloader.annotations.PrepareForTest
+zeppelin,zeppelin\zeppelin-server\src\test\java\org\apache\zeppelin\service\ShiroAuthenticationServiceTest.java,powermock,org.powermock.modules.junit4.PowerMockRunner
+zeppelin,zeppelin\zeppelin-server\src\test\java\org\apache\zeppelin\socket\NotebookServerTest.java,mockito,static org.mockito.Mockito.RETURNS_DEEP_STUBS
+zeppelin,zeppelin\zeppelin-server\src\test\java\org\apache\zeppelin\socket\NotebookServerTest.java,mockito,static org.mockito.Mockito.anyString
+zeppelin,zeppelin\zeppelin-server\src\test\java\org\apache\zeppelin\socket\NotebookServerTest.java,mockito,static org.mockito.Mockito.mock
+zeppelin,zeppelin\zeppelin-server\src\test\java\org\apache\zeppelin\socket\NotebookServerTest.java,mockito,static org.mockito.Mockito.never
+zeppelin,zeppelin\zeppelin-server\src\test\java\org\apache\zeppelin\socket\NotebookServerTest.java,mockito,static org.mockito.Mockito.reset
+zeppelin,zeppelin\zeppelin-server\src\test\java\org\apache\zeppelin\socket\NotebookServerTest.java,mockito,static org.mockito.Mockito.spy
+zeppelin,zeppelin\zeppelin-server\src\test\java\org\apache\zeppelin\socket\NotebookServerTest.java,mockito,static org.mockito.Mockito.times
+zeppelin,zeppelin\zeppelin-server\src\test\java\org\apache\zeppelin\socket\NotebookServerTest.java,mockito,static org.mockito.Mockito.verify
+zeppelin,zeppelin\zeppelin-server\src\test\java\org\apache\zeppelin\socket\NotebookServerTest.java,mockito,static org.mockito.Mockito.when
+zeppelin,zeppelin\zeppelin-zengine\src\test\java\org\apache\zeppelin\helium\HeliumApplicationFactoryTest.java,mockito,static org.mockito.Mockito.mock
+zeppelin,zeppelin\zeppelin-zengine\src\test\java\org\apache\zeppelin\interpreter\AbstractInterpreterTest.java,mockito,static org.mockito.Mockito.mock
+zeppelin,zeppelin\zeppelin-zengine\src\test\java\org\apache\zeppelin\interpreter\AbstractInterpreterTest.java,mockito,static org.mockito.Mockito.when
+zeppelin,zeppelin\zeppelin-zengine\src\test\java\org\apache\zeppelin\interpreter\InterpreterSettingManagerTest.java,mockito,static org.mockito.Mockito.mock
+zeppelin,zeppelin\zeppelin-zengine\src\test\java\org\apache\zeppelin\interpreter\InterpreterSettingManagerTest.java,mockito,static org.mockito.Mockito.when
+zeppelin,zeppelin\zeppelin-zengine\src\test\java\org\apache\zeppelin\interpreter\InterpreterSettingTest.java,mockito,static org.mockito.Mockito.mock
+zeppelin,zeppelin\zeppelin-zengine\src\test\java\org\apache\zeppelin\interpreter\InterpreterSettingTest.java,mockito,static org.mockito.Mockito.when
+zeppelin,zeppelin\zeppelin-zengine\src\test\java\org\apache\zeppelin\interpreter\SessionConfInterpreterTest.java,mockito,static org.mockito.Mockito.mock
+zeppelin,zeppelin\zeppelin-zengine\src\test\java\org\apache\zeppelin\interpreter\SessionConfInterpreterTest.java,mockito,static org.mockito.Mockito.when
+zeppelin,zeppelin\zeppelin-zengine\src\test\java\org\apache\zeppelin\interpreter\recovery\FileSystemRecoveryStorageTest.java,mockito,static org.mockito.Mockito.when
+zeppelin,zeppelin\zeppelin-zengine\src\test\java\org\apache\zeppelin\interpreter\recovery\LocalRecoveryStorageTest.java,mockito,static org.mockito.Mockito.when
+zeppelin,zeppelin\zeppelin-zengine\src\test\java\org\apache\zeppelin\interpreter\remote\AppendOutputRunnerTest.java,mockito,org.mockito.invocation.InvocationOnMock
+zeppelin,zeppelin\zeppelin-zengine\src\test\java\org\apache\zeppelin\interpreter\remote\AppendOutputRunnerTest.java,mockito,org.mockito.stubbing.Answer
+zeppelin,zeppelin\zeppelin-zengine\src\test\java\org\apache\zeppelin\interpreter\remote\AppendOutputRunnerTest.java,mockito,static org.mockito.Matchers.any
+zeppelin,zeppelin\zeppelin-zengine\src\test\java\org\apache\zeppelin\interpreter\remote\AppendOutputRunnerTest.java,mockito,static org.mockito.Matchers.anyInt
+zeppelin,zeppelin\zeppelin-zengine\src\test\java\org\apache\zeppelin\interpreter\remote\AppendOutputRunnerTest.java,mockito,static org.mockito.Mockito.*
+zeppelin,zeppelin\zeppelin-zengine\src\test\java\org\apache\zeppelin\interpreter\remote\RemoteAngularObjectTest.java,mockito,static org.mockito.Mockito.when
+zeppelin,zeppelin\zeppelin-zengine\src\test\java\org\apache\zeppelin\interpreter\remote\RemoteInterpreterTest.java,mockito,static org.mockito.Mockito.when
+zeppelin,zeppelin\zeppelin-zengine\src\test\java\org\apache\zeppelin\notebook\CredentialInjectorTest.java,mockito,static org.mockito.Mockito.mock
+zeppelin,zeppelin\zeppelin-zengine\src\test\java\org\apache\zeppelin\notebook\CredentialInjectorTest.java,mockito,static org.mockito.Mockito.when
+zeppelin,zeppelin\zeppelin-zengine\src\test\java\org\apache\zeppelin\notebook\NoteTest.java,mockito,org.mockito.ArgumentCaptor
+zeppelin,zeppelin\zeppelin-zengine\src\test\java\org\apache\zeppelin\notebook\NoteTest.java,mockito,org.mockito.Mock
+zeppelin,zeppelin\zeppelin-zengine\src\test\java\org\apache\zeppelin\notebook\NoteTest.java,mockito,org.mockito.runners.MockitoJUnitRunner
+zeppelin,zeppelin\zeppelin-zengine\src\test\java\org\apache\zeppelin\notebook\NoteTest.java,mockito,static org.mockito.Mockito.*
+zeppelin,zeppelin\zeppelin-zengine\src\test\java\org\apache\zeppelin\notebook\NotebookTest.java,mockito,static org.mockito.Mockito.mock
+zeppelin,zeppelin\zeppelin-zengine\src\test\java\org\apache\zeppelin\notebook\ParagraphTest.java,mockito,static org.mockito.Matchers.any
+zeppelin,zeppelin\zeppelin-zengine\src\test\java\org\apache\zeppelin\notebook\ParagraphTest.java,mockito,static org.mockito.Matchers.anyString
+zeppelin,zeppelin\zeppelin-zengine\src\test\java\org\apache\zeppelin\notebook\ParagraphTest.java,mockito,static org.mockito.Matchers.eq
+zeppelin,zeppelin\zeppelin-zengine\src\test\java\org\apache\zeppelin\notebook\ParagraphTest.java,mockito,static org.mockito.Mockito.doReturn
+zeppelin,zeppelin\zeppelin-zengine\src\test\java\org\apache\zeppelin\notebook\ParagraphTest.java,mockito,static org.mockito.Mockito.mock
+zeppelin,zeppelin\zeppelin-zengine\src\test\java\org\apache\zeppelin\notebook\ParagraphTest.java,mockito,static org.mockito.Mockito.spy
+zeppelin,zeppelin\zeppelin-zengine\src\test\java\org\apache\zeppelin\notebook\ParagraphTest.java,mockito,static org.mockito.Mockito.verify
+zeppelin,zeppelin\zeppelin-zengine\src\test\java\org\apache\zeppelin\notebook\ParagraphTest.java,mockito,static org.mockito.Mockito.when
+zeppelin,zeppelin\zeppelin-zengine\src\test\java\org\apache\zeppelin\notebook\ParagraphTest.java,mockito,org.mockito.Mockito
+zeppelin,zeppelin\zeppelin-zengine\src\test\java\org\apache\zeppelin\notebook\repo\GitNotebookRepoTest.java,mockito,static org.mockito.Mockito.mock
+zeppelin,zeppelin\zeppelin-zengine\src\test\java\org\apache\zeppelin\notebook\repo\NotebookRepoSyncTest.java,mockito,static org.mockito.Mockito.mock
+zeppelin,zeppelin\zeppelin-zengine\src\test\java\org\apache\zeppelin\resource\DistributedResourcePoolTest.java,mockito,static org.mockito.Mockito.when
+zeppelin,zeppelin\zeppelin-zengine\src\test\java\org\apache\zeppelin\scheduler\RemoteSchedulerTest.java,mockito,static org.mockito.Mockito.when
+zeppelin,zeppelin\zeppelin-zengine\src\test\java\org\apache\zeppelin\search\LuceneSearchTest.java,mockito,static org.mockito.Mockito.mock
+zeppelin,zeppelin\zeppelin-zengine\src\test\java\org\apache\zeppelin\search\LuceneSearchTest.java,mockito,static org.mockito.Mockito.when
+zookeeper,zookeeper\zookeeper-contrib\zookeeper-contrib-loggraph\src\test\java\org\apache\zookeeper\graph\servlets\FileLoaderTest.java,mockito,static org.mockito.Mockito.mock
+zookeeper,zookeeper\zookeeper-contrib\zookeeper-contrib-loggraph\src\test\java\org\apache\zookeeper\graph\servlets\FileLoaderTest.java,mockito,static org.mockito.Mockito.when
+zookeeper,zookeeper\zookeeper-contrib\zookeeper-contrib-loggraph\src\test\java\org\apache\zookeeper\graph\servlets\FsTest.java,mockito,static org.mockito.Mockito.mock
+zookeeper,zookeeper\zookeeper-contrib\zookeeper-contrib-loggraph\src\test\java\org\apache\zookeeper\graph\servlets\FsTest.java,mockito,static org.mockito.Mockito.when
+zookeeper,zookeeper\zookeeper-contrib\zookeeper-contrib-loggraph\src\test\java\org\apache\zookeeper\graph\servlets\ThroughputTest.java,mockito,static org.mockito.Mockito.mock
+zookeeper,zookeeper\zookeeper-metrics-providers\zookeeper-prometheus-metrics\src\test\java\org\apache\zookeeper\metrics\prometheus\PrometheusMetricsProviderTest.java,mockito,static org.mockito.Mockito.mock
+zookeeper,zookeeper\zookeeper-metrics-providers\zookeeper-prometheus-metrics\src\test\java\org\apache\zookeeper\metrics\prometheus\PrometheusMetricsProviderTest.java,mockito,static org.mockito.Mockito.when
+zookeeper,zookeeper\zookeeper-server\src\test\java\org\apache\zookeeper\ClientCanonicalizeTest.java,mockito,static org.mockito.Mockito.mock
+zookeeper,zookeeper\zookeeper-server\src\test\java\org\apache\zookeeper\ClientCanonicalizeTest.java,mockito,static org.mockito.Mockito.when
+zookeeper,zookeeper\zookeeper-server\src\test\java\org\apache\zookeeper\ClientReconnectTest.java,mockito,static org.mockito.ArgumentMatchers.anyLong
+zookeeper,zookeeper\zookeeper-server\src\test\java\org\apache\zookeeper\ClientReconnectTest.java,mockito,static org.mockito.Mockito.mock
+zookeeper,zookeeper\zookeeper-server\src\test\java\org\apache\zookeeper\ClientReconnectTest.java,mockito,static org.mockito.Mockito.when
+zookeeper,zookeeper\zookeeper-server\src\test\java\org\apache\zookeeper\RemoveWatchesTest.java,mockito,static org.mockito.Mockito.doReturn
+zookeeper,zookeeper\zookeeper-server\src\test\java\org\apache\zookeeper\RemoveWatchesTest.java,mockito,static org.mockito.Mockito.spy
+zookeeper,zookeeper\zookeeper-server\src\test\java\org\apache\zookeeper\ServerConfigTest.java,mockito,static org.mockito.Mockito.mock
+zookeeper,zookeeper\zookeeper-server\src\test\java\org\apache\zookeeper\ServerConfigTest.java,mockito,static org.mockito.Mockito.when
+zookeeper,zookeeper\zookeeper-server\src\test\java\org\apache\zookeeper\common\ZKTrustManagerTest.java,mockito,static org.mockito.Mockito.mock
+zookeeper,zookeeper\zookeeper-server\src\test\java\org\apache\zookeeper\common\ZKTrustManagerTest.java,mockito,static org.mockito.Mockito.times
+zookeeper,zookeeper\zookeeper-server\src\test\java\org\apache\zookeeper\common\ZKTrustManagerTest.java,mockito,static org.mockito.Mockito.verify
+zookeeper,zookeeper\zookeeper-server\src\test\java\org\apache\zookeeper\common\ZKTrustManagerTest.java,mockito,static org.mockito.Mockito.when
+zookeeper,zookeeper\zookeeper-server\src\test\java\org\apache\zookeeper\common\ZKTrustManagerTest.java,mockito,org.mockito.invocation.InvocationOnMock
+zookeeper,zookeeper\zookeeper-server\src\test\java\org\apache\zookeeper\common\ZKTrustManagerTest.java,mockito,org.mockito.stubbing.Answer
+zookeeper,zookeeper\zookeeper-server\src\test\java\org\apache\zookeeper\server\ConnectionMetricsTest.java,mockito,static org.mockito.ArgumentMatchers.any
+zookeeper,zookeeper\zookeeper-server\src\test\java\org\apache\zookeeper\server\ConnectionMetricsTest.java,mockito,static org.mockito.Mockito.mock
+zookeeper,zookeeper\zookeeper-server\src\test\java\org\apache\zookeeper\server\ConnectionMetricsTest.java,mockito,static org.mockito.Mockito.when
+zookeeper,zookeeper\zookeeper-server\src\test\java\org\apache\zookeeper\server\FinalRequestProcessorTest.java,mockito,static org.mockito.ArgumentMatchers.any
+zookeeper,zookeeper\zookeeper-server\src\test\java\org\apache\zookeeper\server\FinalRequestProcessorTest.java,mockito,static org.mockito.ArgumentMatchers.anyString
+zookeeper,zookeeper\zookeeper-server\src\test\java\org\apache\zookeeper\server\FinalRequestProcessorTest.java,mockito,static org.mockito.ArgumentMatchers.eq
+zookeeper,zookeeper\zookeeper-server\src\test\java\org\apache\zookeeper\server\FinalRequestProcessorTest.java,mockito,static org.mockito.Mockito.doAnswer
+zookeeper,zookeeper\zookeeper-server\src\test\java\org\apache\zookeeper\server\FinalRequestProcessorTest.java,mockito,static org.mockito.Mockito.mock
+zookeeper,zookeeper\zookeeper-server\src\test\java\org\apache\zookeeper\server\FinalRequestProcessorTest.java,mockito,static org.mockito.Mockito.when
+zookeeper,zookeeper\zookeeper-server\src\test\java\org\apache\zookeeper\server\FinalRequestProcessorTest.java,mockito,org.mockito.invocation.InvocationOnMock
+zookeeper,zookeeper\zookeeper-server\src\test\java\org\apache\zookeeper\server\FinalRequestProcessorTest.java,mockito,org.mockito.stubbing.Answer
+zookeeper,zookeeper\zookeeper-server\src\test\java\org\apache\zookeeper\server\NettyServerCnxnTest.java,mockito,static org.mockito.Mockito.doNothing
+zookeeper,zookeeper\zookeeper-server\src\test\java\org\apache\zookeeper\server\NettyServerCnxnTest.java,mockito,static org.mockito.Mockito.mock
+zookeeper,zookeeper\zookeeper-server\src\test\java\org\apache\zookeeper\server\NettyServerCnxnTest.java,mockito,static org.mockito.Mockito.when
+zookeeper,zookeeper\zookeeper-server\src\test\java\org\apache\zookeeper\server\NettyServerCnxnTest.java,mockito,org.mockito.Mockito
+zookeeper,zookeeper\zookeeper-server\src\test\java\org\apache\zookeeper\server\PrepRequestProcessorMetricsTest.java,mockito,static org.mockito.ArgumentMatchers.any
+zookeeper,zookeeper\zookeeper-server\src\test\java\org\apache\zookeeper\server\PrepRequestProcessorMetricsTest.java,mockito,static org.mockito.ArgumentMatchers.anyLong
+zookeeper,zookeeper\zookeeper-server\src\test\java\org\apache\zookeeper\server\PrepRequestProcessorMetricsTest.java,mockito,static org.mockito.ArgumentMatchers.anyString
+zookeeper,zookeeper\zookeeper-server\src\test\java\org\apache\zookeeper\server\PrepRequestProcessorMetricsTest.java,mockito,static org.mockito.Mockito.doAnswer
+zookeeper,zookeeper\zookeeper-server\src\test\java\org\apache\zookeeper\server\PrepRequestProcessorMetricsTest.java,mockito,static org.mockito.Mockito.mock
+zookeeper,zookeeper\zookeeper-server\src\test\java\org\apache\zookeeper\server\PrepRequestProcessorMetricsTest.java,mockito,static org.mockito.Mockito.spy
+zookeeper,zookeeper\zookeeper-server\src\test\java\org\apache\zookeeper\server\PrepRequestProcessorMetricsTest.java,mockito,static org.mockito.Mockito.when
+zookeeper,zookeeper\zookeeper-server\src\test\java\org\apache\zookeeper\server\PrepRequestProcessorTest.java,mockito,static org.mockito.Mockito.mock
+zookeeper,zookeeper\zookeeper-server\src\test\java\org\apache\zookeeper\server\PrepRequestProcessorTest.java,mockito,static org.mockito.Mockito.when
+zookeeper,zookeeper\zookeeper-server\src\test\java\org\apache\zookeeper\server\ServerStatsTest.java,mockito,static org.mockito.Mockito.mock
+zookeeper,zookeeper\zookeeper-server\src\test\java\org\apache\zookeeper\server\SnapshotDigestTest.java,mockito,org.mockito.Mockito
+zookeeper,zookeeper\zookeeper-server\src\test\java\org\apache\zookeeper\server\TxnLogDigestTest.java,mockit,mockit.Invocation
+zookeeper,zookeeper\zookeeper-server\src\test\java\org\apache\zookeeper\server\TxnLogDigestTest.java,mockit,mockit.Mock
+zookeeper,zookeeper\zookeeper-server\src\test\java\org\apache\zookeeper\server\TxnLogDigestTest.java,mockit,mockit.MockUp
+zookeeper,zookeeper\zookeeper-server\src\test\java\org\apache\zookeeper\server\ZooKeeperServerTest.java,mockito,static org.mockito.Mockito.mock
+zookeeper,zookeeper\zookeeper-server\src\test\java\org\apache\zookeeper\server\admin\CommandsTest.java,mockito,static org.mockito.Mockito.mock
+zookeeper,zookeeper\zookeeper-server\src\test\java\org\apache\zookeeper\server\admin\CommandsTest.java,mockito,static org.mockito.Mockito.when
+zookeeper,zookeeper\zookeeper-server\src\test\java\org\apache\zookeeper\server\persistence\FileTxnLogTest.java,mockito,static org.mockito.Mockito.mock
+zookeeper,zookeeper\zookeeper-server\src\test\java\org\apache\zookeeper\server\quorum\LeaderBeanTest.java,mockito,static org.mockito.ArgumentMatchers.any
+zookeeper,zookeeper\zookeeper-server\src\test\java\org\apache\zookeeper\server\quorum\LeaderBeanTest.java,mockito,static org.mockito.ArgumentMatchers.anyString
+zookeeper,zookeeper\zookeeper-server\src\test\java\org\apache\zookeeper\server\quorum\LeaderBeanTest.java,mockito,static org.mockito.Mockito.doAnswer
+zookeeper,zookeeper\zookeeper-server\src\test\java\org\apache\zookeeper\server\quorum\LeaderBeanTest.java,mockito,static org.mockito.Mockito.mock
+zookeeper,zookeeper\zookeeper-server\src\test\java\org\apache\zookeeper\server\quorum\LeaderBeanTest.java,mockito,static org.mockito.Mockito.when
+zookeeper,zookeeper\zookeeper-server\src\test\java\org\apache\zookeeper\server\quorum\LeaderBeanTest.java,mockito,org.mockito.invocation.InvocationOnMock
+zookeeper,zookeeper\zookeeper-server\src\test\java\org\apache\zookeeper\server\quorum\LeaderBeanTest.java,mockito,org.mockito.stubbing.Answer
+zookeeper,zookeeper\zookeeper-server\src\test\java\org\apache\zookeeper\server\quorum\LearnerHandlerMetricsTest.java,mockito,static org.mockito.ArgumentMatchers.any
+zookeeper,zookeeper\zookeeper-server\src\test\java\org\apache\zookeeper\server\quorum\LearnerHandlerMetricsTest.java,mockito,static org.mockito.ArgumentMatchers.anyString
+zookeeper,zookeeper\zookeeper-server\src\test\java\org\apache\zookeeper\server\quorum\LearnerHandlerMetricsTest.java,mockito,static org.mockito.Mockito.doAnswer
+zookeeper,zookeeper\zookeeper-server\src\test\java\org\apache\zookeeper\server\quorum\LearnerHandlerMetricsTest.java,mockito,static org.mockito.Mockito.mock
+zookeeper,zookeeper\zookeeper-server\src\test\java\org\apache\zookeeper\server\quorum\LearnerHandlerMetricsTest.java,mockito,static org.mockito.Mockito.when
+zookeeper,zookeeper\zookeeper-server\src\test\java\org\apache\zookeeper\server\quorum\LearnerHandlerTest.java,mockito,static org.mockito.Mockito.mock
+zookeeper,zookeeper\zookeeper-server\src\test\java\org\apache\zookeeper\server\quorum\LearnerHandlerTest.java,mockito,static org.mockito.Mockito.when
+zookeeper,zookeeper\zookeeper-server\src\test\java\org\apache\zookeeper\server\quorum\LearnerHandlerTest.java,mockito,org.mockito.ArgumentMatchers
+zookeeper,zookeeper\zookeeper-server\src\test\java\org\apache\zookeeper\server\quorum\LearnerHandlerTest.java,mockito,org.mockito.invocation.InvocationOnMock
+zookeeper,zookeeper\zookeeper-server\src\test\java\org\apache\zookeeper\server\quorum\LearnerHandlerTest.java,mockito,org.mockito.stubbing.Answer
+zookeeper,zookeeper\zookeeper-server\src\test\java\org\apache\zookeeper\server\quorum\LearnerTest.java,mockito,static org.mockito.Mockito.mock
+zookeeper,zookeeper\zookeeper-server\src\test\java\org\apache\zookeeper\server\quorum\LearnerTest.java,mockito,static org.mockito.Mockito.when
+zookeeper,zookeeper\zookeeper-server\src\test\java\org\apache\zookeeper\server\quorum\LocalPeerBeanTest.java,mockito,static org.mockito.ArgumentMatchers.eq
+zookeeper,zookeeper\zookeeper-server\src\test\java\org\apache\zookeeper\server\quorum\LocalPeerBeanTest.java,mockito,static org.mockito.Mockito.mock
+zookeeper,zookeeper\zookeeper-server\src\test\java\org\apache\zookeeper\server\quorum\LocalPeerBeanTest.java,mockito,static org.mockito.Mockito.when
+zookeeper,zookeeper\zookeeper-server\src\test\java\org\apache\zookeeper\server\quorum\QuorumBeanTest.java,mockito,static org.mockito.Mockito.mock
+zookeeper,zookeeper\zookeeper-server\src\test\java\org\apache\zookeeper\server\quorum\QuorumBeanTest.java,mockito,static org.mockito.Mockito.when
+zookeeper,zookeeper\zookeeper-server\src\test\java\org\apache\zookeeper\server\quorum\QuorumCanonicalizeTest.java,mockito,static org.mockito.Mockito.mock
+zookeeper,zookeeper\zookeeper-server\src\test\java\org\apache\zookeeper\server\quorum\QuorumCanonicalizeTest.java,mockito,static org.mockito.Mockito.when
+zookeeper,zookeeper\zookeeper-server\src\test\java\org\apache\zookeeper\server\quorum\QuorumDigestTest.java,mockit,mockit.Invocation
+zookeeper,zookeeper\zookeeper-server\src\test\java\org\apache\zookeeper\server\quorum\QuorumDigestTest.java,mockit,mockit.Mock
+zookeeper,zookeeper\zookeeper-server\src\test\java\org\apache\zookeeper\server\quorum\QuorumDigestTest.java,mockit,mockit.MockUp
+zookeeper,zookeeper\zookeeper-server\src\test\java\org\apache\zookeeper\server\quorum\QuorumPeerMainTest.java,mockito,static org.mockito.ArgumentMatchers.any
+zookeeper,zookeeper\zookeeper-server\src\test\java\org\apache\zookeeper\server\quorum\QuorumPeerMainTest.java,mockito,static org.mockito.Mockito.doCallRealMethod
+zookeeper,zookeeper\zookeeper-server\src\test\java\org\apache\zookeeper\server\quorum\QuorumPeerMainTest.java,mockito,static org.mockito.Mockito.mock
+zookeeper,zookeeper\zookeeper-server\src\test\java\org\apache\zookeeper\server\quorum\QuorumPeerMainTest.java,mockito,static org.mockito.Mockito.when
+zookeeper,zookeeper\zookeeper-server\src\test\java\org\apache\zookeeper\server\quorum\ReadOnlyZooKeeperServerTest.java,mockito,static org.mockito.Mockito.mock
+zookeeper,zookeeper\zookeeper-server\src\test\java\org\apache\zookeeper\server\quorum\RemotePeerBeanTest.java,mockito,static org.mockito.ArgumentMatchers.eq
+zookeeper,zookeeper\zookeeper-server\src\test\java\org\apache\zookeeper\server\quorum\RemotePeerBeanTest.java,mockito,static org.mockito.Mockito.mock
+zookeeper,zookeeper\zookeeper-server\src\test\java\org\apache\zookeeper\server\quorum\RemotePeerBeanTest.java,mockito,static org.mockito.Mockito.when
+zookeeper,zookeeper\zookeeper-server\src\test\java\org\apache\zookeeper\server\quorum\StatCommandTest.java,mockito,static org.mockito.Mockito.mock
+zookeeper,zookeeper\zookeeper-server\src\test\java\org\apache\zookeeper\server\quorum\StatCommandTest.java,mockito,static org.mockito.Mockito.when
+zookeeper,zookeeper\zookeeper-server\src\test\java\org\apache\zookeeper\server\quorum\StatResetCommandTest.java,mockito,static org.mockito.Mockito.mock
+zookeeper,zookeeper\zookeeper-server\src\test\java\org\apache\zookeeper\server\quorum\StatResetCommandTest.java,mockito,static org.mockito.Mockito.times
+zookeeper,zookeeper\zookeeper-server\src\test\java\org\apache\zookeeper\server\quorum\StatResetCommandTest.java,mockito,static org.mockito.Mockito.verify
+zookeeper,zookeeper\zookeeper-server\src\test\java\org\apache\zookeeper\server\quorum\StatResetCommandTest.java,mockito,static org.mockito.Mockito.when
+zookeeper,zookeeper\zookeeper-server\src\test\java\org\apache\zookeeper\server\quorum\SyncRequestProcessorMetricTest.java,mockito,static org.mockito.ArgumentMatchers.any
+zookeeper,zookeeper\zookeeper-server\src\test\java\org\apache\zookeeper\server\quorum\SyncRequestProcessorMetricTest.java,mockito,static org.mockito.Mockito.doAnswer
+zookeeper,zookeeper\zookeeper-server\src\test\java\org\apache\zookeeper\server\quorum\SyncRequestProcessorMetricTest.java,mockito,static org.mockito.Mockito.mock
+zookeeper,zookeeper\zookeeper-server\src\test\java\org\apache\zookeeper\server\quorum\SyncRequestProcessorMetricTest.java,mockito,static org.mockito.Mockito.when
+zookeeper,zookeeper\zookeeper-server\src\test\java\org\apache\zookeeper\server\quorum\WatchLeakTest.java,mockito,static org.mockito.ArgumentMatchers.any
+zookeeper,zookeeper\zookeeper-server\src\test\java\org\apache\zookeeper\server\quorum\WatchLeakTest.java,mockito,static org.mockito.Mockito.mock
+zookeeper,zookeeper\zookeeper-server\src\test\java\org\apache\zookeeper\server\quorum\WatchLeakTest.java,mockito,static org.mockito.Mockito.when
+zookeeper,zookeeper\zookeeper-server\src\test\java\org\apache\zookeeper\server\quorum\WatchLeakTest.java,mockito,org.mockito.invocation.InvocationOnMock
+zookeeper,zookeeper\zookeeper-server\src\test\java\org\apache\zookeeper\server\quorum\WatchLeakTest.java,mockito,org.mockito.stubbing.Answer
+zookeeper,zookeeper\zookeeper-server\src\test\java\org\apache\zookeeper\server\quorum\Zab1_0Test.java,mockito,static org.mockito.Mockito.never
+zookeeper,zookeeper\zookeeper-server\src\test\java\org\apache\zookeeper\server\quorum\Zab1_0Test.java,mockito,static org.mockito.Mockito.spy
+zookeeper,zookeeper\zookeeper-server\src\test\java\org\apache\zookeeper\server\quorum\Zab1_0Test.java,mockito,static org.mockito.Mockito.verify
+zookeeper,zookeeper\zookeeper-server\src\test\java\org\apache\zookeeper\server\util\JvmPauseMonitorTest.java,mockito,static org.mockito.Mockito.mock
+zookeeper,zookeeper\zookeeper-server\src\test\java\org\apache\zookeeper\server\util\JvmPauseMonitorTest.java,mockito,static org.mockito.Mockito.when
+zookeeper,zookeeper\zookeeper-server\src\test\java\org\apache\zookeeper\server\util\SerializeUtilsTest.java,mockito,static org.mockito.ArgumentMatchers.any
+zookeeper,zookeeper\zookeeper-server\src\test\java\org\apache\zookeeper\server\util\SerializeUtilsTest.java,mockito,static org.mockito.ArgumentMatchers.anyString
+zookeeper,zookeeper\zookeeper-server\src\test\java\org\apache\zookeeper\server\util\SerializeUtilsTest.java,mockito,static org.mockito.ArgumentMatchers.eq
+zookeeper,zookeeper\zookeeper-server\src\test\java\org\apache\zookeeper\server\util\SerializeUtilsTest.java,mockito,static org.mockito.Mockito.doAnswer
+zookeeper,zookeeper\zookeeper-server\src\test\java\org\apache\zookeeper\server\util\SerializeUtilsTest.java,mockito,static org.mockito.Mockito.inOrder
+zookeeper,zookeeper\zookeeper-server\src\test\java\org\apache\zookeeper\server\util\SerializeUtilsTest.java,mockito,static org.mockito.Mockito.mock
+zookeeper,zookeeper\zookeeper-server\src\test\java\org\apache\zookeeper\server\util\SerializeUtilsTest.java,mockito,static org.mockito.Mockito.verify
+zookeeper,zookeeper\zookeeper-server\src\test\java\org\apache\zookeeper\server\util\SerializeUtilsTest.java,mockito,org.mockito.InOrder
+zookeeper,zookeeper\zookeeper-server\src\test\java\org\apache\zookeeper\server\util\SerializeUtilsTest.java,mockito,org.mockito.invocation.InvocationOnMock
+zookeeper,zookeeper\zookeeper-server\src\test\java\org\apache\zookeeper\server\util\SerializeUtilsTest.java,mockito,org.mockito.stubbing.Answer
+zookeeper,zookeeper\zookeeper-server\src\test\java\org\apache\zookeeper\test\StaticHostProviderTest.java,mockito,static org.mockito.Mockito.mock
+zookeeper,zookeeper\zookeeper-server\src\test\java\org\apache\zookeeper\test\StaticHostProviderTest.java,mockito,static org.mockito.Mockito.spy
+zookeeper,zookeeper\zookeeper-server\src\test\java\org\apache\zookeeper\test\StaticHostProviderTest.java,mockito,static org.mockito.Mockito.times
+zookeeper,zookeeper\zookeeper-server\src\test\java\org\apache\zookeeper\test\StaticHostProviderTest.java,mockito,static org.mockito.Mockito.verify
+zookeeper,zookeeper\zookeeper-server\src\test\java\org\apache\zookeeper\test\StaticHostProviderTest.java,mockito,static org.mockito.Mockito.when
+zookeeper,zookeeper\zookeeper-server\src\test\java\org\apache\zookeeper\test\ThrottledOpHelper.java,mockit,mockit.Mock
+zookeeper,zookeeper\zookeeper-server\src\test\java\org\apache\zookeeper\test\ThrottledOpHelper.java,mockit,mockit.MockUp

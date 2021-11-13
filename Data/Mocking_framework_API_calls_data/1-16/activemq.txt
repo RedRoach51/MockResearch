@@ -1,0 +1,24 @@
+	Method name: setImposteriser
+	Class origin: org.jmock.Mockery
+	Count: 1
+ 
+	Method name: mock
+	Class origin: org.jmock.Mockery
+	Count: 1
+ 
+	Method name: checking
+	Class origin: org.jmock.Mockery
+	Count: 1
+ 
+	Method name: of
+	Class origin: org.jmock.syntax.ReceiverClause
+	Count: 1
+ 
+	Method name: exactly
+	Class origin: org.jmock.Expectations
+	Count: 1
+ 
+	Method name: assertIsSatisfied
+	Class origin: org.jmock.Mockery
+	Count: 1
+ 

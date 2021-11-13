@@ -1,0 +1,23 @@
+method, origin, count
+spy,org.mockito.Mockito,48
+when,org.mockito.Mockito,260
+anyString,org.mockito.ArgumentMatchers,12
+mock,org.mockito.Mockito,144
+invokeMethod,org.powermock.reflect.Whitebox,2
+getInternalState,org.powermock.reflect.Whitebox,26
+mockStatic,org.powermock.api.mockito.PowerMockito,4
+thenReturn,org.mockito.stubbing.OngoingStubbing<java.lang.String>,30
+field,org.powermock.api.support.membermodification.MemberMatcher,30
+setInternalState,org.powermock.reflect.Whitebox,60
+doNothing,org.mockito.Mockito,2
+initMocks,org.mockito.MockitoAnnotations,8
+doReturn,org.powermock.api.mockito.PowerMockito,12
+any,org.mockito.ArgumentMatchers,56
+thenCallRealMethod,org.mockito.stubbing.OngoingStubbing<java.lang.Object>,16
+doAnswer,org.powermock.api.mockito.PowerMockito,2
+thenAnswer,org.mockito.stubbing.OngoingStubbing<io.netty.channel.ChannelFuture>,4
+getArgument,org.mockito.invocation.InvocationOnMock,4
+
+MockedObjects: ,144
+
+# of Mocked objects each file:,2|12|2|2|1|2|3|5|1|2|2|1|4|3|5|5|1|1|5|1|2|1|1|4|1|2|1|2|12|2|2|1|2|3|5|1|2|2|1|4|3|5|5|1|1|5|1|2|1|1|4|1|2|1|

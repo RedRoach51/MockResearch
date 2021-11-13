@@ -1,0 +1,468 @@
+Project Name,File Path,Mocking Framework,Imported Mock Line
+creadur-rat,creadur-rat\apache-rat-plugin\src\test\java\org\apache\rat\mp\util\ExclusionHelperTest.java,mockito,org.mockito.Mock
+creadur-rat,creadur-rat\apache-rat-plugin\src\test\java\org\apache\rat\mp\util\ExclusionHelperTest.java,mockito,org.mockito.runners.MockitoJUnitRunner
+creadur-rat,creadur-rat\apache-rat-plugin\src\test\java\org\apache\rat\mp\util\ScmIgnoreParserTest.java,mockito,org.mockito.Mock
+creadur-rat,creadur-rat\apache-rat-plugin\src\test\java\org\apache\rat\mp\util\ScmIgnoreParserTest.java,mockito,org.mockito.runners.MockitoJUnitRunner
+reef,reef\lang\java\\reef-applications\reef-vortex\src\test\java\org\apache\reef\vortex\driver\TestUtil.java,mockito,org.mockito.invocation.InvocationOnMock
+reef,reef\lang\java\\reef-applications\reef-vortex\src\test\java\org\apache\reef\vortex\driver\TestUtil.java,mockito,org.mockito.stubbing.Answer
+reef,reef\lang\java\\reef-applications\reef-vortex\src\test\java\org\apache\reef\vortex\driver\TestUtil.java,mockito,static org.mockito.Matchers.any
+reef,reef\lang\java\\reef-applications\reef-vortex\src\test\java\org\apache\reef\vortex\driver\TestUtil.java,mockito,static org.mockito.Mockito.doAnswer
+reef,reef\lang\java\\reef-applications\reef-vortex\src\test\java\org\apache\reef\vortex\driver\TestUtil.java,mockito,static org.mockito.Mockito.mock
+reef,reef\lang\java\\reef-applications\reef-vortex\src\test\java\org\apache\reef\vortex\driver\TestUtil.java,mockito,static org.mockito.Mockito.when
+reef,reef\lang\java\\reef-common\src\test\java\org\apache\reef\runtime\common\driver\EvaluatorRequestorImplTest.java,mockito,static org.mockito.Mockito.mock
+reef,reef\lang\java\\reef-io\src\test\java\org\apache\reef\io\network\group\impl\utils\ScatterCodecTest.java,mockito,static org.mockito.Mockito.*
+reef,reef\lang\java\\reef-runtime-azbatch\src\test\java\org\apache\reef\runtime\azbatch\CommandBuilderTests.java,mockito,static org.mockito.Mockito.mock
+reef,reef\lang\java\\reef-runtime-azbatch\src\test\java\org\apache\reef\runtime\azbatch\CommandBuilderTests.java,mockito,static org.mockito.Mockito.when
+reef,reef\lang\java\\reef-runtime-local\src\test\java\org\apache\reef\runtime\local\driver\ResourceManagerTest.java,mockito,org.mockito.ArgumentCaptor
+reef,reef\lang\java\\reef-runtime-local\src\test\java\org\apache\reef\runtime\local\driver\ResourceManagerTest.java,mockito,static org.mockito.Mockito.*
+reef,reef\lang\java\\reef-runtime-yarn\src\test\java\org\apache\reef\runtime\yarn\driver\YarnResourceRequestHandlerTest.java,mockito,org.mockito.Mockito
+servicemix,servicemix\activiti\activiti-config\src\test\java\org\apache\servicemix\activiti\config\CamelAwareELResolverTest.java,easymock,static org.easymock.EasyMock.*
+shindig,shindig\java\common\src\test\java\org\apache\shindig\common\EasyMockTestCase.java,easymock,org.easymock.EasyMock
+shindig,shindig\java\common\src\test\java\org\apache\shindig\common\EasyMockTestCase.java,easymock,org.easymock.IMockBuilder
+shindig,shindig\java\common\src\test\java\org\apache\shindig\common\cache\ehcache\EhCacheCacheProviderTest.java,powermock,org.powermock.reflect.Whitebox
+shindig,shindig\java\common\src\test\java\org\apache\shindig\common\servlet\HttpServletUserAgentProviderTest.java,easymock,static org.easymock.EasyMock.expect
+shindig,shindig\java\common\src\test\java\org\apache\shindig\common\servlet\HttpUtilTest.java,easymock,org.easymock.EasyMock
+shindig,shindig\java\common\src\test\java\org\apache\shindig\common\uri\UriBuilderTest.java,easymock,static org.easymock.EasyMock.createMock
+shindig,shindig\java\common\src\test\java\org\apache\shindig\common\uri\UriBuilderTest.java,easymock,static org.easymock.EasyMock.expect
+shindig,shindig\java\common\src\test\java\org\apache\shindig\common\uri\UriBuilderTest.java,easymock,static org.easymock.EasyMock.replay
+shindig,shindig\java\common\src\test\java\org\apache\shindig\common\uri\UriBuilderTest.java,easymock,static org.easymock.EasyMock.verify
+shindig,shindig\java\common\src\test\java\org\apache\shindig\config\BasicContainerConfigTest.java,easymock,org.easymock.EasyMock
+shindig,shindig\java\common\src\test\java\org\apache\shindig\protocol\DataServiceServletTest.java,easymock,org.easymock.IMocksControl
+shindig,shindig\java\common\src\test\java\org\apache\shindig\protocol\DataServiceServletTest.java,easymock,org.easymock.EasyMock
+shindig,shindig\java\common\src\test\java\org\apache\shindig\protocol\JsonRpcServletTest.java,easymock,static org.easymock.EasyMock.expect
+shindig,shindig\java\common\src\test\java\org\apache\shindig\protocol\JsonRpcServletTest.java,easymock,static org.easymock.EasyMock.expectLastCall
+shindig,shindig\java\common\src\test\java\org\apache\shindig\protocol\JsonRpcServletTest.java,easymock,static org.easymock.EasyMock.isA
+shindig,shindig\java\common\src\test\java\org\apache\shindig\protocol\JsonRpcServletTest.java,easymock,static org.easymock.EasyMock.reset
+shindig,shindig\java\common\src\test\java\org\apache\shindig\protocol\JsonRpcServletTest.java,easymock,org.easymock.IMocksControl
+shindig,shindig\java\common\src\test\java\org\apache\shindig\protocol\JsonRpcServletTest.java,easymock,org.easymock.EasyMock
+shindig,shindig\java\gadgets\src\test\java\org\apache\shindig\gadgets\DefaultGadgetSpecFactoryTest.java,easymock,static org.easymock.EasyMock.expect
+shindig,shindig\java\gadgets\src\test\java\org\apache\shindig\gadgets\DefaultGadgetSpecFactoryTest.java,easymock,static org.easymock.EasyMock.replay
+shindig,shindig\java\gadgets\src\test\java\org\apache\shindig\gadgets\DefaultGadgetSpecFactoryTest.java,easymock,org.easymock.EasyMock
+shindig,shindig\java\gadgets\src\test\java\org\apache\shindig\gadgets\DefaultMessageBundleFactoryTest.java,easymock,static org.easymock.EasyMock.expect
+shindig,shindig\java\gadgets\src\test\java\org\apache\shindig\gadgets\DefaultMessageBundleFactoryTest.java,easymock,static org.easymock.EasyMock.isA
+shindig,shindig\java\gadgets\src\test\java\org\apache\shindig\gadgets\DefaultMessageBundleFactoryTest.java,easymock,static org.easymock.EasyMock.verify
+shindig,shindig\java\gadgets\src\test\java\org\apache\shindig\gadgets\DefaultMessageBundleFactoryTest.java,easymock,static org.easymock.EasyMock.replay
+shindig,shindig\java\gadgets\src\test\java\org\apache\shindig\gadgets\DefaultMessageBundleFactoryTest.java,easymock,org.easymock.EasyMock
+shindig,shindig\java\gadgets\src\test\java\org\apache\shindig\gadgets\GadgetTest.java,easymock,static org.easymock.EasyMock.eq
+shindig,shindig\java\gadgets\src\test\java\org\apache\shindig\gadgets\GadgetTest.java,easymock,static org.easymock.EasyMock.expect
+shindig,shindig\java\gadgets\src\test\java\org\apache\shindig\gadgets\HashLockedDomainServiceTest.java,easymock,static org.easymock.EasyMock.expect
+shindig,shindig\java\gadgets\src\test\java\org\apache\shindig\gadgets\HashLockedDomainServiceTest.java,easymock,static org.easymock.EasyMock.isA
+shindig,shindig\java\gadgets\src\test\java\org\apache\shindig\gadgets\admin\BasicGadgetAdminStoreTest.java,easymock,static org.easymock.EasyMock.eq
+shindig,shindig\java\gadgets\src\test\java\org\apache\shindig\gadgets\admin\BasicGadgetAdminStoreTest.java,easymock,org.easymock.EasyMock
+shindig,shindig\java\gadgets\src\test\java\org\apache\shindig\gadgets\config\DefaultConfigProcessorTest.java,easymock,static org.easymock.EasyMock.createMock
+shindig,shindig\java\gadgets\src\test\java\org\apache\shindig\gadgets\config\DefaultConfigProcessorTest.java,easymock,static org.easymock.EasyMock.eq
+shindig,shindig\java\gadgets\src\test\java\org\apache\shindig\gadgets\config\DefaultConfigProcessorTest.java,easymock,static org.easymock.EasyMock.expect
+shindig,shindig\java\gadgets\src\test\java\org\apache\shindig\gadgets\config\DefaultConfigProcessorTest.java,easymock,static org.easymock.EasyMock.expectLastCall
+shindig,shindig\java\gadgets\src\test\java\org\apache\shindig\gadgets\config\DefaultConfigProcessorTest.java,easymock,static org.easymock.EasyMock.notNull
+shindig,shindig\java\gadgets\src\test\java\org\apache\shindig\gadgets\config\DefaultConfigProcessorTest.java,easymock,static org.easymock.EasyMock.replay
+shindig,shindig\java\gadgets\src\test\java\org\apache\shindig\gadgets\config\DefaultConfigProcessorTest.java,easymock,static org.easymock.EasyMock.verify
+shindig,shindig\java\gadgets\src\test\java\org\apache\shindig\gadgets\config\DefaultConfigProcessorTest.java,easymock,org.easymock.EasyMock
+shindig,shindig\java\gadgets\src\test\java\org\apache\shindig\gadgets\encoding\EncodingDetectorTest.java,easymock,static org.easymock.EasyMock.expect
+shindig,shindig\java\gadgets\src\test\java\org\apache\shindig\gadgets\encoding\EncodingDetectorTest.java,easymock,static org.easymock.EasyMock.replay
+shindig,shindig\java\gadgets\src\test\java\org\apache\shindig\gadgets\encoding\EncodingDetectorTest.java,easymock,static org.easymock.EasyMock.verify
+shindig,shindig\java\gadgets\src\test\java\org\apache\shindig\gadgets\encoding\EncodingDetectorTest.java,easymock,org.easymock.EasyMock
+shindig,shindig\java\gadgets\src\test\java\org\apache\shindig\gadgets\features\FeatureResourceLoaderTest.java,easymock,static org.easymock.EasyMock.createMock
+shindig,shindig\java\gadgets\src\test\java\org\apache\shindig\gadgets\features\FeatureResourceLoaderTest.java,easymock,static org.easymock.EasyMock.eq
+shindig,shindig\java\gadgets\src\test\java\org\apache\shindig\gadgets\features\FeatureResourceLoaderTest.java,easymock,static org.easymock.EasyMock.expect
+shindig,shindig\java\gadgets\src\test\java\org\apache\shindig\gadgets\features\FeatureResourceLoaderTest.java,easymock,static org.easymock.EasyMock.replay
+shindig,shindig\java\gadgets\src\test\java\org\apache\shindig\gadgets\http\AbstractHttpCacheTest.java,easymock,static org.easymock.EasyMock.expect
+shindig,shindig\java\gadgets\src\test\java\org\apache\shindig\gadgets\http\AbstractHttpCacheTest.java,easymock,static org.easymock.EasyMock.replay
+shindig,shindig\java\gadgets\src\test\java\org\apache\shindig\gadgets\http\AbstractHttpCacheTest.java,easymock,org.easymock.EasyMock
+shindig,shindig\java\gadgets\src\test\java\org\apache\shindig\gadgets\http\BasicHttpFetcherTest.java,easymock,org.easymock.EasyMock
+shindig,shindig\java\gadgets\src\test\java\org\apache\shindig\gadgets\http\DefaultInvalidationServiceTest.java,easymock,org.easymock.IMocksControl
+shindig,shindig\java\gadgets\src\test\java\org\apache\shindig\gadgets\http\InvalidationHandlerTest.java,easymock,static org.easymock.EasyMock.eq
+shindig,shindig\java\gadgets\src\test\java\org\apache\shindig\gadgets\http\InvalidationHandlerTest.java,easymock,static org.easymock.EasyMock.expectLastCall
+shindig,shindig\java\gadgets\src\test\java\org\apache\shindig\gadgets\http\MultipleResourceHttpFetcherTest.java,easymock,static org.easymock.EasyMock.expect
+shindig,shindig\java\gadgets\src\test\java\org\apache\shindig\gadgets\http\MultipleResourceHttpFetcherTest.java,easymock,static org.easymock.EasyMock.eq
+shindig,shindig\java\gadgets\src\test\java\org\apache\shindig\gadgets\js\AddJslInfoVariableProcessorTest.java,easymock,org.easymock.Capture
+shindig,shindig\java\gadgets\src\test\java\org\apache\shindig\gadgets\js\AddJslInfoVariableProcessorTest.java,easymock,org.easymock.EasyMock
+shindig,shindig\java\gadgets\src\test\java\org\apache\shindig\gadgets\js\AddJslInfoVariableProcessorTest.java,easymock,org.easymock.IAnswer
+shindig,shindig\java\gadgets\src\test\java\org\apache\shindig\gadgets\js\AddJslInfoVariableProcessorTest.java,easymock,org.easymock.IMocksControl
+shindig,shindig\java\gadgets\src\test\java\org\apache\shindig\gadgets\js\AddJslLoadedVariableProcessorTest.java,easymock,org.easymock.EasyMock
+shindig,shindig\java\gadgets\src\test\java\org\apache\shindig\gadgets\js\AddJslLoadedVariableProcessorTest.java,easymock,org.easymock.IMocksControl
+shindig,shindig\java\gadgets\src\test\java\org\apache\shindig\gadgets\js\AddOnloadFunctionProcessorTest.java,easymock,org.easymock.EasyMock
+shindig,shindig\java\gadgets\src\test\java\org\apache\shindig\gadgets\js\AddOnloadFunctionProcessorTest.java,easymock,org.easymock.IMocksControl
+shindig,shindig\java\gadgets\src\test\java\org\apache\shindig\gadgets\js\AnonFuncWrappingProcessorTest.java,easymock,static org.easymock.EasyMock.createControl
+shindig,shindig\java\gadgets\src\test\java\org\apache\shindig\gadgets\js\AnonFuncWrappingProcessorTest.java,easymock,static org.easymock.EasyMock.expect
+shindig,shindig\java\gadgets\src\test\java\org\apache\shindig\gadgets\js\AnonFuncWrappingProcessorTest.java,easymock,org.easymock.IMocksControl
+shindig,shindig\java\gadgets\src\test\java\org\apache\shindig\gadgets\js\CajaJsSubtractingProcessorTest.java,easymock,static org.easymock.EasyMock.createControl
+shindig,shindig\java\gadgets\src\test\java\org\apache\shindig\gadgets\js\CajaJsSubtractingProcessorTest.java,easymock,static org.easymock.EasyMock.expect
+shindig,shindig\java\gadgets\src\test\java\org\apache\shindig\gadgets\js\CajaJsSubtractingProcessorTest.java,easymock,org.easymock.IMocksControl
+shindig,shindig\java\gadgets\src\test\java\org\apache\shindig\gadgets\js\CompilationProcessorTest.java,easymock,static org.easymock.EasyMock.createControl
+shindig,shindig\java\gadgets\src\test\java\org\apache\shindig\gadgets\js\CompilationProcessorTest.java,easymock,static org.easymock.EasyMock.createMock
+shindig,shindig\java\gadgets\src\test\java\org\apache\shindig\gadgets\js\CompilationProcessorTest.java,easymock,static org.easymock.EasyMock.eq
+shindig,shindig\java\gadgets\src\test\java\org\apache\shindig\gadgets\js\CompilationProcessorTest.java,easymock,static org.easymock.EasyMock.expect
+shindig,shindig\java\gadgets\src\test\java\org\apache\shindig\gadgets\js\CompilationProcessorTest.java,easymock,static org.easymock.EasyMock.isA
+shindig,shindig\java\gadgets\src\test\java\org\apache\shindig\gadgets\js\CompilationProcessorTest.java,easymock,static org.easymock.EasyMock.replay
+shindig,shindig\java\gadgets\src\test\java\org\apache\shindig\gadgets\js\CompilationProcessorTest.java,easymock,static org.easymock.EasyMock.same
+shindig,shindig\java\gadgets\src\test\java\org\apache\shindig\gadgets\js\CompilationProcessorTest.java,easymock,org.easymock.IMocksControl
+shindig,shindig\java\gadgets\src\test\java\org\apache\shindig\gadgets\js\ConfigInjectionProcessorTest.java,easymock,static org.easymock.EasyMock.capture
+shindig,shindig\java\gadgets\src\test\java\org\apache\shindig\gadgets\js\ConfigInjectionProcessorTest.java,easymock,static org.easymock.EasyMock.createControl
+shindig,shindig\java\gadgets\src\test\java\org\apache\shindig\gadgets\js\ConfigInjectionProcessorTest.java,easymock,static org.easymock.EasyMock.eq
+shindig,shindig\java\gadgets\src\test\java\org\apache\shindig\gadgets\js\ConfigInjectionProcessorTest.java,easymock,static org.easymock.EasyMock.expect
+shindig,shindig\java\gadgets\src\test\java\org\apache\shindig\gadgets\js\ConfigInjectionProcessorTest.java,easymock,static org.easymock.EasyMock.expectLastCall
+shindig,shindig\java\gadgets\src\test\java\org\apache\shindig\gadgets\js\ConfigInjectionProcessorTest.java,easymock,static org.easymock.EasyMock.getCurrentArguments
+shindig,shindig\java\gadgets\src\test\java\org\apache\shindig\gadgets\js\ConfigInjectionProcessorTest.java,easymock,org.easymock.Capture
+shindig,shindig\java\gadgets\src\test\java\org\apache\shindig\gadgets\js\ConfigInjectionProcessorTest.java,easymock,org.easymock.IAnswer
+shindig,shindig\java\gadgets\src\test\java\org\apache\shindig\gadgets\js\ConfigInjectionProcessorTest.java,easymock,org.easymock.IMocksControl
+shindig,shindig\java\gadgets\src\test\java\org\apache\shindig\gadgets\js\DefaultJsProcessorRegistryTest.java,easymock,org.easymock.EasyMock
+shindig,shindig\java\gadgets\src\test\java\org\apache\shindig\gadgets\js\DefaultJsProcessorRegistryTest.java,easymock,org.easymock.IMocksControl
+shindig,shindig\java\gadgets\src\test\java\org\apache\shindig\gadgets\js\DefaultJsServingPipelineTest.java,easymock,org.easymock.EasyMock
+shindig,shindig\java\gadgets\src\test\java\org\apache\shindig\gadgets\js\DefaultJsServingPipelineTest.java,easymock,org.easymock.IMocksControl
+shindig,shindig\java\gadgets\src\test\java\org\apache\shindig\gadgets\js\DeferJsProcessorTest.java,easymock,static org.easymock.EasyMock.createMock
+shindig,shindig\java\gadgets\src\test\java\org\apache\shindig\gadgets\js\DeferJsProcessorTest.java,easymock,static org.easymock.EasyMock.eq
+shindig,shindig\java\gadgets\src\test\java\org\apache\shindig\gadgets\js\DeferJsProcessorTest.java,easymock,static org.easymock.EasyMock.expect
+shindig,shindig\java\gadgets\src\test\java\org\apache\shindig\gadgets\js\DeferJsProcessorTest.java,easymock,static org.easymock.EasyMock.isA
+shindig,shindig\java\gadgets\src\test\java\org\apache\shindig\gadgets\js\DeferJsProcessorTest.java,easymock,static org.easymock.EasyMock.replay
+shindig,shindig\java\gadgets\src\test\java\org\apache\shindig\gadgets\js\DeferJsProcessorTest.java,easymock,org.easymock.EasyMock
+shindig,shindig\java\gadgets\src\test\java\org\apache\shindig\gadgets\js\ExportJsProcessorTest.java,easymock,static org.easymock.EasyMock.createMock
+shindig,shindig\java\gadgets\src\test\java\org\apache\shindig\gadgets\js\ExportJsProcessorTest.java,easymock,static org.easymock.EasyMock.expect
+shindig,shindig\java\gadgets\src\test\java\org\apache\shindig\gadgets\js\ExportJsProcessorTest.java,easymock,static org.easymock.EasyMock.isA
+shindig,shindig\java\gadgets\src\test\java\org\apache\shindig\gadgets\js\ExportJsProcessorTest.java,easymock,static org.easymock.EasyMock.replay
+shindig,shindig\java\gadgets\src\test\java\org\apache\shindig\gadgets\js\ExportJsProcessorTest.java,easymock,org.easymock.EasyMock
+shindig,shindig\java\gadgets\src\test\java\org\apache\shindig\gadgets\js\GetJsContentProcessorTest.java,easymock,static org.easymock.EasyMock.createControl
+shindig,shindig\java\gadgets\src\test\java\org\apache\shindig\gadgets\js\GetJsContentProcessorTest.java,easymock,static org.easymock.EasyMock.eq
+shindig,shindig\java\gadgets\src\test\java\org\apache\shindig\gadgets\js\GetJsContentProcessorTest.java,easymock,static org.easymock.EasyMock.expect
+shindig,shindig\java\gadgets\src\test\java\org\apache\shindig\gadgets\js\GetJsContentProcessorTest.java,easymock,static org.easymock.EasyMock.isA
+shindig,shindig\java\gadgets\src\test\java\org\apache\shindig\gadgets\js\GetJsContentProcessorTest.java,easymock,static org.easymock.EasyMock.isNull
+shindig,shindig\java\gadgets\src\test\java\org\apache\shindig\gadgets\js\GetJsContentProcessorTest.java,easymock,org.easymock.IMocksControl
+shindig,shindig\java\gadgets\src\test\java\org\apache\shindig\gadgets\js\IfModifiedSinceProcessorTest.java,easymock,org.easymock.EasyMock
+shindig,shindig\java\gadgets\src\test\java\org\apache\shindig\gadgets\js\IfModifiedSinceProcessorTest.java,easymock,org.easymock.IMocksControl
+shindig,shindig\java\gadgets\src\test\java\org\apache\shindig\gadgets\js\JsLoadProcessorTest.java,easymock,org.easymock.EasyMock
+shindig,shindig\java\gadgets\src\test\java\org\apache\shindig\gadgets\js\JsLoadProcessorTest.java,easymock,org.easymock.IMocksControl
+shindig,shindig\java\gadgets\src\test\java\org\apache\shindig\gadgets\js\JsRequestBuilderTest.java,easymock,org.easymock.EasyMock
+shindig,shindig\java\gadgets\src\test\java\org\apache\shindig\gadgets\js\JsRequestBuilderTest.java,easymock,org.easymock.IMocksControl
+shindig,shindig\java\gadgets\src\test\java\org\apache\shindig\gadgets\js\SeparatorCommentingProcessorTest.java,easymock,static org.easymock.EasyMock.createControl
+shindig,shindig\java\gadgets\src\test\java\org\apache\shindig\gadgets\js\SeparatorCommentingProcessorTest.java,easymock,static org.easymock.EasyMock.expect
+shindig,shindig\java\gadgets\src\test\java\org\apache\shindig\gadgets\js\SeparatorCommentingProcessorTest.java,easymock,org.easymock.IMocksControl
+shindig,shindig\java\gadgets\src\test\java\org\apache\shindig\gadgets\oauth2\BasicOAuth2StoreTest.java,easymock,static org.easymock.EasyMock.createMockBuilder
+shindig,shindig\java\gadgets\src\test\java\org\apache\shindig\gadgets\oauth2\BasicOAuth2StoreTest.java,easymock,static org.easymock.EasyMock.eq
+shindig,shindig\java\gadgets\src\test\java\org\apache\shindig\gadgets\oauth2\BasicOAuth2StoreTest.java,easymock,static org.easymock.EasyMock.expect
+shindig,shindig\java\gadgets\src\test\java\org\apache\shindig\gadgets\oauth2\BasicOAuth2StoreTest.java,easymock,static org.easymock.EasyMock.replay
+shindig,shindig\java\gadgets\src\test\java\org\apache\shindig\gadgets\oauth2\BasicOAuth2StoreTest.java,easymock,static org.easymock.EasyMock.verify
+shindig,shindig\java\gadgets\src\test\java\org\apache\shindig\gadgets\oauth2\OAuth2ArgumentsTest.java,easymock,org.easymock.EasyMock
+shindig,shindig\java\gadgets\src\test\java\org\apache\shindig\gadgets\oauth2\OAuth2FetcherConfigTest.java,easymock,org.easymock.EasyMock
+shindig,shindig\java\gadgets\src\test\java\org\apache\shindig\gadgets\oauth2\handler\CodeAuthorizationResponseHandlerTest.java,easymock,org.easymock.EasyMock
+shindig,shindig\java\gadgets\src\test\java\org\apache\shindig\gadgets\oauth2\handler\OAuth2HandlerModuleTest.java,easymock,org.easymock.EasyMock
+shindig,shindig\java\gadgets\src\test\java\org\apache\shindig\gadgets\oauth\GadgetOAuthCallbackGeneratorTest.java,easymock,static org.easymock.EasyMock.expect
+shindig,shindig\java\gadgets\src\test\java\org\apache\shindig\gadgets\oauth\GadgetOAuthCallbackGeneratorTest.java,easymock,static org.easymock.EasyMock.reportMatcher
+shindig,shindig\java\gadgets\src\test\java\org\apache\shindig\gadgets\oauth\GadgetOAuthCallbackGeneratorTest.java,easymock,org.easymock.IArgumentMatcher
+shindig,shindig\java\gadgets\src\test\java\org\apache\shindig\gadgets\oauth\GadgetOAuthCallbackGeneratorTest.java,easymock,org.easymock.EasyMock
+shindig,shindig\java\gadgets\src\test\java\org\apache\shindig\gadgets\oauth\GadgetOAuthCallbackGeneratorTest.java,easymock,org.easymock.IMocksControl
+shindig,shindig\java\gadgets\src\test\java\org\apache\shindig\gadgets\oauth\OAuthResponseParamsTest.java,easymock,org.easymock.EasyMock
+shindig,shindig\java\gadgets\src\test\java\org\apache\shindig\gadgets\preload\PipelineExecutorTest.java,easymock,static org.easymock.EasyMock.and
+shindig,shindig\java\gadgets\src\test\java\org\apache\shindig\gadgets\preload\PipelineExecutorTest.java,easymock,static org.easymock.EasyMock.capture
+shindig,shindig\java\gadgets\src\test\java\org\apache\shindig\gadgets\preload\PipelineExecutorTest.java,easymock,static org.easymock.EasyMock.expect
+shindig,shindig\java\gadgets\src\test\java\org\apache\shindig\gadgets\preload\PipelineExecutorTest.java,easymock,static org.easymock.EasyMock.isA
+shindig,shindig\java\gadgets\src\test\java\org\apache\shindig\gadgets\preload\PipelineExecutorTest.java,easymock,static org.easymock.EasyMock.reportMatcher
+shindig,shindig\java\gadgets\src\test\java\org\apache\shindig\gadgets\preload\PipelineExecutorTest.java,easymock,static org.easymock.EasyMock.same
+shindig,shindig\java\gadgets\src\test\java\org\apache\shindig\gadgets\preload\PipelineExecutorTest.java,easymock,org.easymock.Capture
+shindig,shindig\java\gadgets\src\test\java\org\apache\shindig\gadgets\preload\PipelineExecutorTest.java,easymock,org.easymock.IArgumentMatcher
+shindig,shindig\java\gadgets\src\test\java\org\apache\shindig\gadgets\preload\PipelineExecutorTest.java,easymock,org.easymock.EasyMock
+shindig,shindig\java\gadgets\src\test\java\org\apache\shindig\gadgets\preload\PipelineExecutorTest.java,easymock,org.easymock.IMocksControl
+shindig,shindig\java\gadgets\src\test\java\org\apache\shindig\gadgets\preload\PipelinedDataPreloaderTest.java,easymock,org.easymock.EasyMock
+shindig,shindig\java\gadgets\src\test\java\org\apache\shindig\gadgets\process\ProcessorTest.java,easymock,static org.easymock.EasyMock.expect
+shindig,shindig\java\gadgets\src\test\java\org\apache\shindig\gadgets\process\ProcessorTest.java,easymock,static org.easymock.EasyMock.isA
+shindig,shindig\java\gadgets\src\test\java\org\apache\shindig\gadgets\render\DefaultServiceFetcherTest.java,easymock,org.easymock.EasyMock
+shindig,shindig\java\gadgets\src\test\java\org\apache\shindig\gadgets\render\RenderingGadgetRewriterTest.java,easymock,static org.easymock.EasyMock.createMock
+shindig,shindig\java\gadgets\src\test\java\org\apache\shindig\gadgets\render\RenderingGadgetRewriterTest.java,easymock,static org.easymock.EasyMock.eq
+shindig,shindig\java\gadgets\src\test\java\org\apache\shindig\gadgets\render\RenderingGadgetRewriterTest.java,easymock,static org.easymock.EasyMock.expect
+shindig,shindig\java\gadgets\src\test\java\org\apache\shindig\gadgets\render\RenderingGadgetRewriterTest.java,easymock,static org.easymock.EasyMock.getCurrentArguments
+shindig,shindig\java\gadgets\src\test\java\org\apache\shindig\gadgets\render\RenderingGadgetRewriterTest.java,easymock,static org.easymock.EasyMock.isA
+shindig,shindig\java\gadgets\src\test\java\org\apache\shindig\gadgets\render\RenderingGadgetRewriterTest.java,easymock,static org.easymock.EasyMock.same
+shindig,shindig\java\gadgets\src\test\java\org\apache\shindig\gadgets\render\RenderingGadgetRewriterTest.java,easymock,org.easymock.EasyMock
+shindig,shindig\java\gadgets\src\test\java\org\apache\shindig\gadgets\render\RenderingGadgetRewriterTest.java,easymock,org.easymock.IAnswer
+shindig,shindig\java\gadgets\src\test\java\org\apache\shindig\gadgets\render\SanitizingProxyUriManagerTest.java,easymock,static org.easymock.EasyMock.createMock
+shindig,shindig\java\gadgets\src\test\java\org\apache\shindig\gadgets\render\SanitizingProxyUriManagerTest.java,easymock,static org.easymock.EasyMock.capture
+shindig,shindig\java\gadgets\src\test\java\org\apache\shindig\gadgets\render\SanitizingProxyUriManagerTest.java,easymock,static org.easymock.EasyMock.expect
+shindig,shindig\java\gadgets\src\test\java\org\apache\shindig\gadgets\render\SanitizingProxyUriManagerTest.java,easymock,static org.easymock.EasyMock.replay
+shindig,shindig\java\gadgets\src\test\java\org\apache\shindig\gadgets\render\SanitizingProxyUriManagerTest.java,easymock,static org.easymock.EasyMock.verify
+shindig,shindig\java\gadgets\src\test\java\org\apache\shindig\gadgets\render\SanitizingProxyUriManagerTest.java,easymock,org.easymock.Capture
+shindig,shindig\java\gadgets\src\test\java\org\apache\shindig\gadgets\rewrite\BaseRewriterTestCase.java,easymock,org.easymock.EasyMock
+shindig,shindig\java\gadgets\src\test\java\org\apache\shindig\gadgets\rewrite\BaseRewriterTestCase.java,easymock,org.easymock.IMocksControl
+shindig,shindig\java\gadgets\src\test\java\org\apache\shindig\gadgets\rewrite\CacheEnforcementVisitorTest.java,easymock,static org.easymock.EasyMock.createMock
+shindig,shindig\java\gadgets\src\test\java\org\apache\shindig\gadgets\rewrite\CacheEnforcementVisitorTest.java,easymock,static org.easymock.EasyMock.createStrictMock
+shindig,shindig\java\gadgets\src\test\java\org\apache\shindig\gadgets\rewrite\CacheEnforcementVisitorTest.java,easymock,static org.easymock.EasyMock.expect
+shindig,shindig\java\gadgets\src\test\java\org\apache\shindig\gadgets\rewrite\CacheEnforcementVisitorTest.java,easymock,static org.easymock.EasyMock.replay
+shindig,shindig\java\gadgets\src\test\java\org\apache\shindig\gadgets\rewrite\CacheEnforcementVisitorTest.java,easymock,static org.easymock.EasyMock.verify
+shindig,shindig\java\gadgets\src\test\java\org\apache\shindig\gadgets\rewrite\CssResponseRewriterTest.java,easymock,org.easymock.EasyMock
+shindig,shindig\java\gadgets\src\test\java\org\apache\shindig\gadgets\rewrite\DefaultContentRewriterRegistryTest.java,easymock,org.easymock.EasyMock
+shindig,shindig\java\gadgets\src\test\java\org\apache\shindig\gadgets\rewrite\DomWalkerTest.java,easymock,static org.easymock.EasyMock.*
+shindig,shindig\java\gadgets\src\test\java\org\apache\shindig\gadgets\rewrite\DomWalkerTestBase.java,easymock,static org.easymock.EasyMock.expect
+shindig,shindig\java\gadgets\src\test\java\org\apache\shindig\gadgets\rewrite\DomWalkerTestBase.java,easymock,static org.easymock.EasyMock.createMock
+shindig,shindig\java\gadgets\src\test\java\org\apache\shindig\gadgets\rewrite\DomWalkerTestBase.java,easymock,static org.easymock.EasyMock.replay
+shindig,shindig\java\gadgets\src\test\java\org\apache\shindig\gadgets\rewrite\ImageAttributeRewriterTest.java,easymock,static org.easymock.EasyMock.expect
+shindig,shindig\java\gadgets\src\test\java\org\apache\shindig\gadgets\rewrite\ImageAttributeRewriterTest.java,easymock,static org.easymock.EasyMock.eq
+shindig,shindig\java\gadgets\src\test\java\org\apache\shindig\gadgets\rewrite\ImageAttributeRewriterTest.java,easymock,org.easymock.IMocksControl
+shindig,shindig\java\gadgets\src\test\java\org\apache\shindig\gadgets\rewrite\ImageAttributeRewriterTest.java,easymock,org.easymock.EasyMock
+shindig,shindig\java\gadgets\src\test\java\org\apache\shindig\gadgets\rewrite\ImageResizeRewriterTest.java,easymock,org.easymock.EasyMock
+shindig,shindig\java\gadgets\src\test\java\org\apache\shindig\gadgets\rewrite\OsTemplateXmlLoaderRewriterTest.java,easymock,static org.easymock.EasyMock.createMock
+shindig,shindig\java\gadgets\src\test\java\org\apache\shindig\gadgets\rewrite\OsTemplateXmlLoaderRewriterTest.java,easymock,static org.easymock.EasyMock.expect
+shindig,shindig\java\gadgets\src\test\java\org\apache\shindig\gadgets\rewrite\OsTemplateXmlLoaderRewriterTest.java,easymock,static org.easymock.EasyMock.expectLastCall
+shindig,shindig\java\gadgets\src\test\java\org\apache\shindig\gadgets\rewrite\OsTemplateXmlLoaderRewriterTest.java,easymock,static org.easymock.EasyMock.replay
+shindig,shindig\java\gadgets\src\test\java\org\apache\shindig\gadgets\rewrite\OsTemplateXmlLoaderRewriterTest.java,easymock,static org.easymock.EasyMock.verify
+shindig,shindig\java\gadgets\src\test\java\org\apache\shindig\gadgets\rewrite\PipelineDataGadgetRewriterTest.java,easymock,org.easymock.Capture
+shindig,shindig\java\gadgets\src\test\java\org\apache\shindig\gadgets\rewrite\PipelineDataGadgetRewriterTest.java,easymock,static org.easymock.EasyMock.and
+shindig,shindig\java\gadgets\src\test\java\org\apache\shindig\gadgets\rewrite\PipelineDataGadgetRewriterTest.java,easymock,static org.easymock.EasyMock.capture
+shindig,shindig\java\gadgets\src\test\java\org\apache\shindig\gadgets\rewrite\PipelineDataGadgetRewriterTest.java,easymock,static org.easymock.EasyMock.expect
+shindig,shindig\java\gadgets\src\test\java\org\apache\shindig\gadgets\rewrite\PipelineDataGadgetRewriterTest.java,easymock,static org.easymock.EasyMock.reportMatcher
+shindig,shindig\java\gadgets\src\test\java\org\apache\shindig\gadgets\rewrite\PipelineDataGadgetRewriterTest.java,easymock,static org.easymock.EasyMock.same
+shindig,shindig\java\gadgets\src\test\java\org\apache\shindig\gadgets\rewrite\PipelineDataGadgetRewriterTest.java,easymock,org.easymock.IArgumentMatcher
+shindig,shindig\java\gadgets\src\test\java\org\apache\shindig\gadgets\rewrite\PipelineDataGadgetRewriterTest.java,easymock,org.easymock.EasyMock
+shindig,shindig\java\gadgets\src\test\java\org\apache\shindig\gadgets\rewrite\PipelineDataGadgetRewriterTest.java,easymock,org.easymock.IMocksControl
+shindig,shindig\java\gadgets\src\test\java\org\apache\shindig\gadgets\rewrite\ProxyingVisitorTest.java,easymock,org.easymock.Capture
+shindig,shindig\java\gadgets\src\test\java\org\apache\shindig\gadgets\rewrite\ProxyingVisitorTest.java,easymock,static org.easymock.EasyMock.*
+shindig,shindig\java\gadgets\src\test\java\org\apache\shindig\gadgets\rewrite\RewriterTestBase.java,easymock,org.easymock.EasyMock
+shindig,shindig\java\gadgets\src\test\java\org\apache\shindig\gadgets\rewrite\RewriterTestBase.java,easymock,org.easymock.IMocksControl
+shindig,shindig\java\gadgets\src\test\java\org\apache\shindig\gadgets\rewrite\StyleTagExtractorVisitorTest.java,easymock,static org.easymock.EasyMock.createMock
+shindig,shindig\java\gadgets\src\test\java\org\apache\shindig\gadgets\rewrite\StyleTagExtractorVisitorTest.java,easymock,static org.easymock.EasyMock.eq
+shindig,shindig\java\gadgets\src\test\java\org\apache\shindig\gadgets\rewrite\StyleTagExtractorVisitorTest.java,easymock,static org.easymock.EasyMock.expect
+shindig,shindig\java\gadgets\src\test\java\org\apache\shindig\gadgets\rewrite\StyleTagExtractorVisitorTest.java,easymock,static org.easymock.EasyMock.isA
+shindig,shindig\java\gadgets\src\test\java\org\apache\shindig\gadgets\rewrite\StyleTagExtractorVisitorTest.java,easymock,static org.easymock.EasyMock.replay
+shindig,shindig\java\gadgets\src\test\java\org\apache\shindig\gadgets\rewrite\StyleTagExtractorVisitorTest.java,easymock,static org.easymock.EasyMock.verify
+shindig,shindig\java\gadgets\src\test\java\org\apache\shindig\gadgets\rewrite\StyleTagProxyEmbeddedUrlsVisitorTest.java,easymock,org.easymock.EasyMock
+shindig,shindig\java\gadgets\src\test\java\org\apache\shindig\gadgets\rewrite\image\ImageRewriterTest.java,easymock,static org.easymock.EasyMock.expect
+shindig,shindig\java\gadgets\src\test\java\org\apache\shindig\gadgets\rewrite\image\ImageRewriterTest.java,easymock,static org.easymock.EasyMock.createControl
+shindig,shindig\java\gadgets\src\test\java\org\apache\shindig\gadgets\rewrite\image\ImageRewriterTest.java,easymock,org.easymock.IMocksControl
+shindig,shindig\java\gadgets\src\test\java\org\apache\shindig\gadgets\rewrite\js\ClosureJsCompilerTest.java,easymock,static org.easymock.EasyMock.createMock
+shindig,shindig\java\gadgets\src\test\java\org\apache\shindig\gadgets\rewrite\js\ClosureJsCompilerTest.java,easymock,static org.easymock.EasyMock.createMockBuilder
+shindig,shindig\java\gadgets\src\test\java\org\apache\shindig\gadgets\rewrite\js\ClosureJsCompilerTest.java,easymock,static org.easymock.EasyMock.expect
+shindig,shindig\java\gadgets\src\test\java\org\apache\shindig\gadgets\rewrite\js\ClosureJsCompilerTest.java,easymock,static org.easymock.EasyMock.isA
+shindig,shindig\java\gadgets\src\test\java\org\apache\shindig\gadgets\rewrite\js\ClosureJsCompilerTest.java,easymock,static org.easymock.EasyMock.replay
+shindig,shindig\java\gadgets\src\test\java\org\apache\shindig\gadgets\rewrite\js\ClosureJsCompilerTest.java,easymock,org.easymock.EasyMock
+shindig,shindig\java\gadgets\src\test\java\org\apache\shindig\gadgets\rewrite\js\DefaultJsCompilerTest.java,easymock,static org.easymock.EasyMock.createMock
+shindig,shindig\java\gadgets\src\test\java\org\apache\shindig\gadgets\rewrite\js\DefaultJsCompilerTest.java,easymock,static org.easymock.EasyMock.expect
+shindig,shindig\java\gadgets\src\test\java\org\apache\shindig\gadgets\rewrite\js\DefaultJsCompilerTest.java,easymock,static org.easymock.EasyMock.replay
+shindig,shindig\java\gadgets\src\test\java\org\apache\shindig\gadgets\servlet\CajaContentRewriterTest.java,easymock,org.easymock.EasyMock
+shindig,shindig\java\gadgets\src\test\java\org\apache\shindig\gadgets\servlet\CajaContentRewriterTest.java,easymock,static org.easymock.EasyMock.expect
+shindig,shindig\java\gadgets\src\test\java\org\apache\shindig\gadgets\servlet\CajaContentRewriterTest.java,easymock,static org.easymock.EasyMock.replay
+shindig,shindig\java\gadgets\src\test\java\org\apache\shindig\gadgets\servlet\ConcatProxyServletTest.java,easymock,static org.easymock.EasyMock.expect
+shindig,shindig\java\gadgets\src\test\java\org\apache\shindig\gadgets\servlet\ETagFilterTest.java,easymock,org.easymock.EasyMock
+shindig,shindig\java\gadgets\src\test\java\org\apache\shindig\gadgets\servlet\ETagFilterTest.java,easymock,org.easymock.IMocksControl
+shindig,shindig\java\gadgets\src\test\java\org\apache\shindig\gadgets\servlet\ETaggingHttpResponseTest.java,easymock,org.easymock.EasyMock
+shindig,shindig\java\gadgets\src\test\java\org\apache\shindig\gadgets\servlet\ETaggingHttpResponseTest.java,easymock,org.easymock.IMocksControl
+shindig,shindig\java\gadgets\src\test\java\org\apache\shindig\gadgets\servlet\GadgetRenderingServletTest.java,easymock,static org.easymock.EasyMock.expect
+shindig,shindig\java\gadgets\src\test\java\org\apache\shindig\gadgets\servlet\GadgetRenderingServletTest.java,easymock,static org.easymock.EasyMock.isA
+shindig,shindig\java\gadgets\src\test\java\org\apache\shindig\gadgets\servlet\GadgetRenderingServletTest.java,easymock,org.easymock.IMocksControl
+shindig,shindig\java\gadgets\src\test\java\org\apache\shindig\gadgets\servlet\GadgetRenderingServletTest.java,easymock,org.easymock.EasyMock
+shindig,shindig\java\gadgets\src\test\java\org\apache\shindig\gadgets\servlet\GadgetsHandlerServiceTest.java,easymock,static org.easymock.EasyMock.capture
+shindig,shindig\java\gadgets\src\test\java\org\apache\shindig\gadgets\servlet\GadgetsHandlerServiceTest.java,easymock,static org.easymock.EasyMock.createMock
+shindig,shindig\java\gadgets\src\test\java\org\apache\shindig\gadgets\servlet\GadgetsHandlerServiceTest.java,easymock,static org.easymock.EasyMock.eq
+shindig,shindig\java\gadgets\src\test\java\org\apache\shindig\gadgets\servlet\GadgetsHandlerServiceTest.java,easymock,static org.easymock.EasyMock.expect
+shindig,shindig\java\gadgets\src\test\java\org\apache\shindig\gadgets\servlet\GadgetsHandlerServiceTest.java,easymock,static org.easymock.EasyMock.isA
+shindig,shindig\java\gadgets\src\test\java\org\apache\shindig\gadgets\servlet\GadgetsHandlerServiceTest.java,easymock,static org.easymock.EasyMock.replay
+shindig,shindig\java\gadgets\src\test\java\org\apache\shindig\gadgets\servlet\GadgetsHandlerServiceTest.java,easymock,org.easymock.Capture
+shindig,shindig\java\gadgets\src\test\java\org\apache\shindig\gadgets\servlet\GadgetsHandlerServiceTest.java,easymock,org.easymock.EasyMock
+shindig,shindig\java\gadgets\src\test\java\org\apache\shindig\gadgets\servlet\GadgetsHandlerTest.java,easymock,static org.easymock.EasyMock.createMock
+shindig,shindig\java\gadgets\src\test\java\org\apache\shindig\gadgets\servlet\GadgetsHandlerTest.java,easymock,static org.easymock.EasyMock.eq
+shindig,shindig\java\gadgets\src\test\java\org\apache\shindig\gadgets\servlet\GadgetsHandlerTest.java,easymock,static org.easymock.EasyMock.expect
+shindig,shindig\java\gadgets\src\test\java\org\apache\shindig\gadgets\servlet\GadgetsHandlerTest.java,easymock,static org.easymock.EasyMock.isA
+shindig,shindig\java\gadgets\src\test\java\org\apache\shindig\gadgets\servlet\GadgetsHandlerTest.java,easymock,org.easymock.Capture
+shindig,shindig\java\gadgets\src\test\java\org\apache\shindig\gadgets\servlet\GadgetsHandlerTest.java,easymock,org.easymock.EasyMock
+shindig,shindig\java\gadgets\src\test\java\org\apache\shindig\gadgets\servlet\HtmlAccelServletTest.java,easymock,org.easymock.Capture
+shindig,shindig\java\gadgets\src\test\java\org\apache\shindig\gadgets\servlet\HtmlAccelServletTest.java,easymock,org.easymock.EasyMock
+shindig,shindig\java\gadgets\src\test\java\org\apache\shindig\gadgets\servlet\HtmlAccelServletTest.java,easymock,org.easymock.IAnswer
+shindig,shindig\java\gadgets\src\test\java\org\apache\shindig\gadgets\servlet\HtmlAccelServletTest.java,easymock,static org.easymock.EasyMock.capture
+shindig,shindig\java\gadgets\src\test\java\org\apache\shindig\gadgets\servlet\HtmlAccelServletTest.java,easymock,static org.easymock.EasyMock.expect
+shindig,shindig\java\gadgets\src\test\java\org\apache\shindig\gadgets\servlet\HttpGadgetContextTest.java,easymock,static org.easymock.EasyMock.expect
+shindig,shindig\java\gadgets\src\test\java\org\apache\shindig\gadgets\servlet\HttpRequestHandlerTest.java,easymock,static org.easymock.EasyMock.capture
+shindig,shindig\java\gadgets\src\test\java\org\apache\shindig\gadgets\servlet\HttpRequestHandlerTest.java,easymock,static org.easymock.EasyMock.expect
+shindig,shindig\java\gadgets\src\test\java\org\apache\shindig\gadgets\servlet\HttpRequestHandlerTest.java,easymock,static org.easymock.EasyMock.reportMatcher
+shindig,shindig\java\gadgets\src\test\java\org\apache\shindig\gadgets\servlet\HttpRequestHandlerTest.java,easymock,org.easymock.Capture
+shindig,shindig\java\gadgets\src\test\java\org\apache\shindig\gadgets\servlet\HttpRequestHandlerTest.java,easymock,org.easymock.EasyMock
+shindig,shindig\java\gadgets\src\test\java\org\apache\shindig\gadgets\servlet\HttpRequestHandlerTest.java,easymock,org.easymock.IArgumentMatcher
+shindig,shindig\java\gadgets\src\test\java\org\apache\shindig\gadgets\servlet\JsServletTest.java,easymock,static org.easymock.EasyMock.expect
+shindig,shindig\java\gadgets\src\test\java\org\apache\shindig\gadgets\servlet\JsServletTest.java,easymock,static org.easymock.EasyMock.getCurrentArguments
+shindig,shindig\java\gadgets\src\test\java\org\apache\shindig\gadgets\servlet\JsServletTest.java,easymock,static org.easymock.EasyMock.isA
+shindig,shindig\java\gadgets\src\test\java\org\apache\shindig\gadgets\servlet\JsServletTest.java,easymock,org.easymock.IAnswer
+shindig,shindig\java\gadgets\src\test\java\org\apache\shindig\gadgets\servlet\MakeRequestHandlerTest.java,easymock,static org.easymock.EasyMock.capture
+shindig,shindig\java\gadgets\src\test\java\org\apache\shindig\gadgets\servlet\MakeRequestHandlerTest.java,easymock,static org.easymock.EasyMock.expect
+shindig,shindig\java\gadgets\src\test\java\org\apache\shindig\gadgets\servlet\MakeRequestHandlerTest.java,easymock,static org.easymock.EasyMock.isA
+shindig,shindig\java\gadgets\src\test\java\org\apache\shindig\gadgets\servlet\MakeRequestHandlerTest.java,easymock,org.easymock.Capture
+shindig,shindig\java\gadgets\src\test\java\org\apache\shindig\gadgets\servlet\MakeRequestHandlerTest.java,easymock,org.easymock.IAnswer
+shindig,shindig\java\gadgets\src\test\java\org\apache\shindig\gadgets\servlet\MakeRequestServletTest.java,easymock,static org.easymock.EasyMock.expect
+shindig,shindig\java\gadgets\src\test\java\org\apache\shindig\gadgets\servlet\MakeRequestServletTest.java,easymock,static org.easymock.EasyMock.isA
+shindig,shindig\java\gadgets\src\test\java\org\apache\shindig\gadgets\servlet\MakeRequestServletTest.java,easymock,org.easymock.Capture
+shindig,shindig\java\gadgets\src\test\java\org\apache\shindig\gadgets\servlet\MakeRequestServletTest.java,easymock,org.easymock.EasyMock
+shindig,shindig\java\gadgets\src\test\java\org\apache\shindig\gadgets\servlet\OAuthCallbackServletTest.java,easymock,static org.easymock.EasyMock.expect
+shindig,shindig\java\gadgets\src\test\java\org\apache\shindig\gadgets\servlet\ProxyHandlerTest.java,easymock,static org.easymock.EasyMock.capture
+shindig,shindig\java\gadgets\src\test\java\org\apache\shindig\gadgets\servlet\ProxyHandlerTest.java,easymock,static org.easymock.EasyMock.expect
+shindig,shindig\java\gadgets\src\test\java\org\apache\shindig\gadgets\servlet\ProxyHandlerTest.java,easymock,static org.easymock.EasyMock.isA
+shindig,shindig\java\gadgets\src\test\java\org\apache\shindig\gadgets\servlet\ProxyHandlerTest.java,easymock,org.easymock.Capture
+shindig,shindig\java\gadgets\src\test\java\org\apache\shindig\gadgets\servlet\ProxyHandlerTest.java,easymock,org.easymock.EasyMock
+shindig,shindig\java\gadgets\src\test\java\org\apache\shindig\gadgets\servlet\ProxyServletTest.java,easymock,static org.easymock.EasyMock.expect
+shindig,shindig\java\gadgets\src\test\java\org\apache\shindig\gadgets\servlet\RpcServletTest.java,easymock,static org.easymock.EasyMock.expect
+shindig,shindig\java\gadgets\src\test\java\org\apache\shindig\gadgets\servlet\RpcServletTest.java,easymock,static org.easymock.EasyMock.isA
+shindig,shindig\java\gadgets\src\test\java\org\apache\shindig\gadgets\servlet\RpcServletTest.java,easymock,static org.easymock.EasyMock.createMock
+shindig,shindig\java\gadgets\src\test\java\org\apache\shindig\gadgets\servlet\RpcServletTest.java,easymock,static org.easymock.EasyMock.replay
+shindig,shindig\java\gadgets\src\test\java\org\apache\shindig\gadgets\servlet\RpcServletTest.java,easymock,static org.easymock.EasyMock.verify
+shindig,shindig\java\gadgets\src\test\java\org\apache\shindig\gadgets\servlet\ServletUtilTest.java,easymock,org.easymock.EasyMock
+shindig,shindig\java\gadgets\src\test\java\org\apache\shindig\gadgets\templates\tags\AbstractTagHandlerTest.java,easymock,static org.easymock.EasyMock.createMock
+shindig,shindig\java\gadgets\src\test\java\org\apache\shindig\gadgets\templates\tags\AbstractTagHandlerTest.java,easymock,static org.easymock.EasyMock.eq
+shindig,shindig\java\gadgets\src\test\java\org\apache\shindig\gadgets\templates\tags\AbstractTagHandlerTest.java,easymock,static org.easymock.EasyMock.expect
+shindig,shindig\java\gadgets\src\test\java\org\apache\shindig\gadgets\templates\tags\AbstractTagHandlerTest.java,easymock,static org.easymock.EasyMock.isNull
+shindig,shindig\java\gadgets\src\test\java\org\apache\shindig\gadgets\templates\tags\AbstractTagHandlerTest.java,easymock,static org.easymock.EasyMock.replay
+shindig,shindig\java\gadgets\src\test\java\org\apache\shindig\gadgets\templates\tags\AbstractTagHandlerTest.java,easymock,static org.easymock.EasyMock.verify
+shindig,shindig\java\gadgets\src\test\java\org\apache\shindig\gadgets\templates\tags\FlashTagHandlerTest.java,easymock,static org.easymock.EasyMock.eq
+shindig,shindig\java\gadgets\src\test\java\org\apache\shindig\gadgets\templates\tags\FlashTagHandlerTest.java,easymock,static org.easymock.EasyMock.isA
+shindig,shindig\java\gadgets\src\test\java\org\apache\shindig\gadgets\templates\tags\FlashTagHandlerTest.java,easymock,org.easymock.EasyMock
+shindig,shindig\java\gadgets\src\test\java\org\apache\shindig\gadgets\templates\tags\IfTagHandlerTest.java,easymock,static org.easymock.EasyMock.isNull
+shindig,shindig\java\gadgets\src\test\java\org\apache\shindig\gadgets\templates\tags\IfTagHandlerTest.java,easymock,static org.easymock.EasyMock.same
+shindig,shindig\java\gadgets\src\test\java\org\apache\shindig\gadgets\templates\tags\IfTagHandlerTest.java,easymock,static org.easymock.EasyMock.replay
+shindig,shindig\java\gadgets\src\test\java\org\apache\shindig\gadgets\templates\tags\IfTagHandlerTest.java,easymock,static org.easymock.EasyMock.verify
+shindig,shindig\java\gadgets\src\test\java\org\apache\shindig\gadgets\templates\tags\IfTagHandlerTest.java,easymock,org.easymock.EasyMock
+shindig,shindig\java\gadgets\src\test\java\org\apache\shindig\gadgets\templates\tags\RepeatTagHandlerTest.java,easymock,static org.easymock.EasyMock.replay
+shindig,shindig\java\gadgets\src\test\java\org\apache\shindig\gadgets\templates\tags\RepeatTagHandlerTest.java,easymock,static org.easymock.EasyMock.verify
+shindig,shindig\java\gadgets\src\test\java\org\apache\shindig\gadgets\templates\tags\RepeatTagHandlerTest.java,easymock,org.easymock.EasyMock
+shindig,shindig\java\gadgets\src\test\java\org\apache\shindig\gadgets\uri\AllJsIframeVersionerTest.java,easymock,static org.easymock.EasyMock.createMock
+shindig,shindig\java\gadgets\src\test\java\org\apache\shindig\gadgets\uri\AllJsIframeVersionerTest.java,easymock,static org.easymock.EasyMock.expect
+shindig,shindig\java\gadgets\src\test\java\org\apache\shindig\gadgets\uri\AllJsIframeVersionerTest.java,easymock,static org.easymock.EasyMock.replay
+shindig,shindig\java\gadgets\src\test\java\org\apache\shindig\gadgets\uri\AllJsIframeVersionerTest.java,easymock,static org.easymock.EasyMock.verify
+shindig,shindig\java\gadgets\src\test\java\org\apache\shindig\gadgets\uri\DefaultConcatUriManagerTest.java,easymock,static org.easymock.EasyMock.createMock
+shindig,shindig\java\gadgets\src\test\java\org\apache\shindig\gadgets\uri\DefaultConcatUriManagerTest.java,easymock,static org.easymock.EasyMock.expect
+shindig,shindig\java\gadgets\src\test\java\org\apache\shindig\gadgets\uri\DefaultConcatUriManagerTest.java,easymock,static org.easymock.EasyMock.eq
+shindig,shindig\java\gadgets\src\test\java\org\apache\shindig\gadgets\uri\DefaultConcatUriManagerTest.java,easymock,static org.easymock.EasyMock.isA
+shindig,shindig\java\gadgets\src\test\java\org\apache\shindig\gadgets\uri\DefaultConcatUriManagerTest.java,easymock,static org.easymock.EasyMock.replay
+shindig,shindig\java\gadgets\src\test\java\org\apache\shindig\gadgets\uri\DefaultIframeUriManagerTest.java,easymock,static org.easymock.EasyMock.createMock
+shindig,shindig\java\gadgets\src\test\java\org\apache\shindig\gadgets\uri\DefaultIframeUriManagerTest.java,easymock,static org.easymock.EasyMock.expect
+shindig,shindig\java\gadgets\src\test\java\org\apache\shindig\gadgets\uri\DefaultIframeUriManagerTest.java,easymock,static org.easymock.EasyMock.isA
+shindig,shindig\java\gadgets\src\test\java\org\apache\shindig\gadgets\uri\DefaultIframeUriManagerTest.java,easymock,static org.easymock.EasyMock.replay
+shindig,shindig\java\gadgets\src\test\java\org\apache\shindig\gadgets\uri\DefaultJsUriManagerTest.java,easymock,static org.easymock.EasyMock.expect
+shindig,shindig\java\gadgets\src\test\java\org\apache\shindig\gadgets\uri\DefaultJsUriManagerTest.java,easymock,static org.easymock.EasyMock.createMock
+shindig,shindig\java\gadgets\src\test\java\org\apache\shindig\gadgets\uri\DefaultJsUriManagerTest.java,easymock,static org.easymock.EasyMock.replay
+shindig,shindig\java\gadgets\src\test\java\org\apache\shindig\gadgets\uri\DefaultJsUriManagerTest.java,easymock,static org.easymock.EasyMock.isA
+shindig,shindig\java\gadgets\src\test\java\org\apache\shindig\gadgets\uri\DefaultJsUriManagerTest.java,easymock,static org.easymock.EasyMock.eq
+shindig,shindig\java\gadgets\src\test\java\org\apache\shindig\gadgets\uri\DefaultJsVersionerTest.java,easymock,static org.easymock.EasyMock.createMock
+shindig,shindig\java\gadgets\src\test\java\org\apache\shindig\gadgets\uri\DefaultJsVersionerTest.java,easymock,static org.easymock.EasyMock.eq
+shindig,shindig\java\gadgets\src\test\java\org\apache\shindig\gadgets\uri\DefaultJsVersionerTest.java,easymock,static org.easymock.EasyMock.expect
+shindig,shindig\java\gadgets\src\test\java\org\apache\shindig\gadgets\uri\DefaultJsVersionerTest.java,easymock,static org.easymock.EasyMock.isA
+shindig,shindig\java\gadgets\src\test\java\org\apache\shindig\gadgets\uri\DefaultJsVersionerTest.java,easymock,static org.easymock.EasyMock.replay
+shindig,shindig\java\gadgets\src\test\java\org\apache\shindig\gadgets\uri\DefaultJsVersionerTest.java,easymock,static org.easymock.EasyMock.verify
+shindig,shindig\java\gadgets\src\test\java\org\apache\shindig\gadgets\uri\DefaultJsVersionerTest.java,easymock,org.easymock.EasyMock
+shindig,shindig\java\gadgets\src\test\java\org\apache\shindig\gadgets\uri\DefaultOAuthUriManagerTest.java,easymock,static org.easymock.EasyMock.createMock
+shindig,shindig\java\gadgets\src\test\java\org\apache\shindig\gadgets\uri\DefaultOAuthUriManagerTest.java,easymock,static org.easymock.EasyMock.expect
+shindig,shindig\java\gadgets\src\test\java\org\apache\shindig\gadgets\uri\DefaultOAuthUriManagerTest.java,easymock,static org.easymock.EasyMock.replay
+shindig,shindig\java\gadgets\src\test\java\org\apache\shindig\gadgets\uri\DefaultOAuthUriManagerTest.java,easymock,static org.easymock.EasyMock.verify
+shindig,shindig\java\gadgets\src\test\java\org\apache\shindig\gadgets\uri\DefaultProxyUriManagerTest.java,easymock,static org.easymock.EasyMock.*
+shindig,shindig\java\gadgets\src\test\java\org\apache\shindig\gadgets\uri\UriManagerTestBase.java,easymock,static org.easymock.EasyMock.expect
+shindig,shindig\java\gadgets\src\test\java\org\apache\shindig\gadgets\uri\UriManagerTestBase.java,easymock,static org.easymock.EasyMock.createMock
+shindig,shindig\java\gadgets\src\test\java\org\apache\shindig\gadgets\uri\UriManagerTestBase.java,easymock,static org.easymock.EasyMock.replay
+shindig,shindig\java\social-api\src\test\java\org\apache\shindig\social\core\config\SocialApiGuiceModuleTest.java,easymock,org.easymock.EasyMock
+shindig,shindig\java\social-api\src\test\java\org\apache\shindig\social\core\oauth2\OAuth2ServiceImplTest.java,easymock,static org.easymock.EasyMock.createMock
+shindig,shindig\java\social-api\src\test\java\org\apache\shindig\social\core\oauth\OAuth2AuthCodeFlowTest.java,easymock,org.easymock.Capture
+shindig,shindig\java\social-api\src\test\java\org\apache\shindig\social\core\oauth\OAuth2AuthCodeFlowTest.java,easymock,org.easymock.EasyMock
+shindig,shindig\java\social-api\src\test\java\org\apache\shindig\social\core\oauth\OAuth2ClientCredentialFlowTest.java,easymock,org.easymock.EasyMock
+shindig,shindig\java\social-api\src\test\java\org\apache\shindig\social\core\oauth\OAuth2ImplicitFlowTest.java,easymock,org.easymock.Capture
+shindig,shindig\java\social-api\src\test\java\org\apache\shindig\social\core\oauth\OAuth2ImplicitFlowTest.java,easymock,org.easymock.EasyMock
+shindig,shindig\java\social-api\src\test\java\org\apache\shindig\social\core\oauth\OAuthAuthenticationHanderTest.java,easymock,org.easymock.EasyMock
+shindig,shindig\java\social-api\src\test\java\org\apache\shindig\social\dataservice\integration\AbstractLargeRestfulTests.java,easymock,org.easymock.EasyMock
+shindig,shindig\java\social-api\src\test\java\org\apache\shindig\social\opensocial\service\ActivityHandlerTest.java,easymock,static org.easymock.EasyMock.eq
+shindig,shindig\java\social-api\src\test\java\org\apache\shindig\social\opensocial\service\ActivityHandlerTest.java,easymock,static org.easymock.EasyMock.isNull
+shindig,shindig\java\social-api\src\test\java\org\apache\shindig\social\opensocial\service\ActivityStreamHandlerTest.java,easymock,static org.easymock.EasyMock.eq
+shindig,shindig\java\social-api\src\test\java\org\apache\shindig\social\opensocial\service\ActivityStreamHandlerTest.java,easymock,static org.easymock.EasyMock.isNull
+shindig,shindig\java\social-api\src\test\java\org\apache\shindig\social\opensocial\service\AppDataHandlerTest.java,easymock,static org.easymock.EasyMock.eq
+shindig,shindig\java\social-api\src\test\java\org\apache\shindig\social\opensocial\service\AppDataHandlerTest.java,easymock,org.easymock.EasyMock
+shindig,shindig\java\social-api\src\test\java\org\apache\shindig\social\opensocial\service\MessageHandlerTest.java,easymock,org.easymock.EasyMock
+shindig,shindig\java\social-api\src\test\java\org\apache\shindig\social\opensocial\service\PersonHandlerTest.java,easymock,static org.easymock.EasyMock.eq
+shindig,shindig\java\social-api\src\test\java\org\apache\shindig\social\opensocial\service\PersonHandlerTest.java,easymock,static org.easymock.EasyMock.expect
+shiro,shiro\core\src\test\java\org\apache\shiro\AtUnitTestBase.java,atunit,atunit.MockFramework
+shiro,shiro\core\src\test\java\org\apache\shiro\aop\AnnotationResolverTest.java,easymock,static org.easymock.EasyMock.createMock
+shiro,shiro\core\src\test\java\org\apache\shiro\aop\AnnotationResolverTest.java,easymock,static org.easymock.EasyMock.expect
+shiro,shiro\core\src\test\java\org\apache\shiro\aop\AnnotationResolverTest.java,easymock,static org.easymock.EasyMock.replay
+shiro,shiro\core\src\test\java\org\apache\shiro\authc\AbstractAuthenticatorTest.java,easymock,static org.easymock.EasyMock.*
+shiro,shiro\core\src\test\java\org\apache\shiro\authz\aop\RoleAnnotationHandlerTest.java,easymock,static org.easymock.EasyMock.createMock
+shiro,shiro\core\src\test\java\org\apache\shiro\authz\aop\RoleAnnotationHandlerTest.java,easymock,static org.easymock.EasyMock.expect
+shiro,shiro\core\src\test\java\org\apache\shiro\authz\aop\RoleAnnotationHandlerTest.java,easymock,static org.easymock.EasyMock.replay
+shiro,shiro\core\src\test\java\org\apache\shiro\concurrent\SubjectAwareExecutorServiceTest.java,mockito,org.mockito.ArgumentCaptor
+shiro,shiro\core\src\test\java\org\apache\shiro\concurrent\SubjectAwareExecutorServiceTest.java,mockito,static org.mockito.Mockito.mock
+shiro,shiro\core\src\test\java\org\apache\shiro\concurrent\SubjectAwareExecutorServiceTest.java,mockito,static org.mockito.Mockito.when
+shiro,shiro\core\src\test\java\org\apache\shiro\concurrent\SubjectAwareExecutorTest.java,mockito,org.mockito.ArgumentCaptor
+shiro,shiro\core\src\test\java\org\apache\shiro\concurrent\SubjectAwareExecutorTest.java,mockito,static org.mockito.Mockito.mock
+shiro,shiro\core\src\test\java\org\apache\shiro\concurrent\SubjectAwareExecutorTest.java,mockito,static org.mockito.Mockito.verify
+shiro,shiro\core\src\test\java\org\apache\shiro\realm\ldap\DefaultLdapRealmTest.java,easymock,static org.easymock.EasyMock.*
+shiro,shiro\core\src\test\java\org\apache\shiro\realm\ldap\JndiLdapContextFactoryTest.java,easymock,static org.easymock.EasyMock.*
+shiro,shiro\core\src\test\java\org\apache\shiro\session\mgt\DefaultSessionManagerTest.java,easymock,org.easymock.EasyMock
+shiro,shiro\core\src\test\java\org\apache\shiro\session\mgt\DefaultSessionManagerTest.java,easymock,org.easymock.IArgumentMatcher
+shiro,shiro\core\src\test\java\org\apache\shiro\session\mgt\DefaultSessionManagerTest.java,easymock,static org.easymock.EasyMock.*
+shiro,shiro\core\src\test\java\org\apache\shiro\subject\DelegatingSubjectTest.java,easymock,static org.easymock.EasyMock.createNiceMock
+shiro,shiro\core\src\test\java\org\apache\shiro\test\ExampleShiroUnitTest.java,easymock,static org.easymock.EasyMock.createNiceMock
+shiro,shiro\core\src\test\java\org\apache\shiro\test\ExampleShiroUnitTest.java,easymock,static org.easymock.EasyMock.expect
+shiro,shiro\support\guice\src\test\java\org\apache\shiro\guice\BeanTypeListenerTest.java,mockito,org.mockito.ArgumentCaptor
+shiro,shiro\support\guice\src\test\java\org\apache\shiro\guice\BeanTypeListenerTest.java,mockito,static org.mockito.Mockito.mock
+shiro,shiro\support\guice\src\test\java\org\apache\shiro\guice\BeanTypeListenerTest.java,mockito,static org.mockito.Mockito.verify
+shiro,shiro\support\guice\src\test\java\org\apache\shiro\guice\BeanTypeListenerTest.java,mockito,static org.mockito.Mockito.when
+shiro,shiro\support\guice\src\test\java\org\apache\shiro\guice\DestroyableInjectionListenerTest.java,easymock,static org.easymock.EasyMock.*
+shiro,shiro\support\guice\src\test\java\org\apache\shiro\guice\GuiceEnvironmentTest.java,easymock,static org.easymock.EasyMock.createMock
+shiro,shiro\support\guice\src\test\java\org\apache\shiro\guice\InitializableInjectionListenerTest.java,easymock,static org.easymock.EasyMock.*
+shiro,shiro\support\guice\src\test\java\org\apache\shiro\guice\LifecycleTypeListenerTest.java,easymock,static org.easymock.EasyMock.*
+shiro,shiro\support\guice\src\test\java\org\apache\shiro\guice\ShiroMatchersTest.java,easymock,static org.easymock.EasyMock.*
+shiro,shiro\support\guice\src\test\java\org\apache\shiro\guice\ShiroModuleTest.java,easymock,static org.easymock.EasyMock.*
+shiro,shiro\support\guice\src\test\java\org\apache\shiro\guice\ShiroSessionScopeTest.java,easymock,static org.easymock.EasyMock.*
+shiro,shiro\support\guice\src\test\java\org\apache\shiro\guice\aop\AopAllianceMethodInterceptorAdapterTest.java,easymock,org.easymock.IAnswer
+shiro,shiro\support\guice\src\test\java\org\apache\shiro\guice\aop\AopAllianceMethodInterceptorAdapterTest.java,easymock,static org.easymock.EasyMock.*
+shiro,shiro\support\guice\src\test\java\org\apache\shiro\guice\aop\AopAllianceMethodInvocationAdapterTest.java,easymock,static org.easymock.EasyMock.*
+shiro,shiro\support\guice\src\test\java\org\apache\shiro\guice\web\AbstractInjectionProviderTest.java,easymock,static org.easymock.EasyMock.*
+shiro,shiro\support\guice\src\test\java\org\apache\shiro\guice\web\FilterChainResolverProviderTest.java,easymock,static org.easymock.EasyMock.createMock
+shiro,shiro\support\guice\src\test\java\org\apache\shiro\guice\web\FilterConfigTest.java,easymock,static org.easymock.EasyMock.*
+shiro,shiro\support\guice\src\test\java\org\apache\shiro\guice\web\GuiceShiroFilterTest.java,easymock,static org.easymock.EasyMock.createMock
+shiro,shiro\support\guice\src\test\java\org\apache\shiro\guice\web\PathMatchingFilterProviderTest.java,easymock,static org.easymock.EasyMock.*
+shiro,shiro\support\guice\src\test\java\org\apache\shiro\guice\web\ShiroWebModuleTest.java,easymock,org.easymock.EasyMock
+shiro,shiro\support\guice\src\test\java\org\apache\shiro\guice\web\ShiroWebModuleTest.java,easymock,static org.easymock.EasyMock.*
+shiro,shiro\support\guice\src\test\java\org\apache\shiro\guice\web\SimpleFilterChainResolverTest.java,easymock,org.easymock.IMocksControl
+shiro,shiro\support\guice\src\test\java\org\apache\shiro\guice\web\SimpleFilterChainResolverTest.java,easymock,static org.easymock.EasyMock.*
+shiro,shiro\support\guice\src\test\java\org\apache\shiro\guice\web\SimpleFilterChainTest.java,easymock,org.easymock.Capture
+shiro,shiro\support\guice\src\test\java\org\apache\shiro\guice\web\SimpleFilterChainTest.java,easymock,org.easymock.IMocksControl
+shiro,shiro\support\guice\src\test\java\org\apache\shiro\guice\web\SimpleFilterChainTest.java,easymock,static org.easymock.EasyMock.and
+shiro,shiro\support\guice\src\test\java\org\apache\shiro\guice\web\SimpleFilterChainTest.java,easymock,static org.easymock.EasyMock.anyObject
+shiro,shiro\support\guice\src\test\java\org\apache\shiro\guice\web\SimpleFilterChainTest.java,easymock,static org.easymock.EasyMock.capture
+shiro,shiro\support\guice\src\test\java\org\apache\shiro\guice\web\SimpleFilterChainTest.java,easymock,static org.easymock.EasyMock.createStrictControl
+shiro,shiro\support\guice\src\test\java\org\apache\shiro\guice\web\SimpleFilterChainTest.java,easymock,static org.easymock.EasyMock.same
+shiro,shiro\support\guice\src\test\java\org\apache\shiro\guice\web\WebGuiceEnvironmentTest.java,easymock,org.easymock.Capture
+shiro,shiro\support\guice\src\test\java\org\apache\shiro\guice\web\WebGuiceEnvironmentTest.java,easymock,static org.easymock.EasyMock.*
+shiro,shiro\support\spring\src\test\java\org\apache\shiro\spring\remoting\SecureRemoteInvocationFactoryTest.java,easymock,static org.easymock.EasyMock.*
+shiro,shiro\support\spring\src\test\java\org\apache\shiro\spring\web\ShiroFilterFactoryBeanTest.java,easymock,static org.easymock.EasyMock.*
+shiro,shiro\web\src\test\java\org\apache\shiro\web\WebTest.java,mockito,static org.mockito.Mockito.mock
+shiro,shiro\web\src\test\java\org\apache\shiro\web\WebTest.java,mockito,static org.mockito.Mockito.when
+shiro,shiro\web\src\test\java\org\apache\shiro\web\env\EnvironmentLoaderServiceTest.java,easymock,org.easymock.EasyMock
+shiro,shiro\web\src\test\java\org\apache\shiro\web\env\EnvironmentLoaderServiceTest.java,easymock,static org.easymock.EasyMock.expect
+shiro,shiro\web\src\test\java\org\apache\shiro\web\env\EnvironmentLoaderServiceTest.java,mockito,static org.mockito.Mockito.mock
+shiro,shiro\web\src\test\java\org\apache\shiro\web\env\EnvironmentLoaderServiceTest.java,mockito,static org.mockito.Mockito.spy
+shiro,shiro\web\src\test\java\org\apache\shiro\web\env\EnvironmentLoaderServiceTest.java,mockito,static org.mockito.Mockito.verify
+shiro,shiro\web\src\test\java\org\apache\shiro\web\env\EnvironmentLoaderServiceTest.java,mockito,static org.mockito.Mockito.when
+shiro,shiro\web\src\test\java\org\apache\shiro\web\filter\PathMatchingFilterParameterizedTest.java,easymock,static org.easymock.EasyMock.createNiceMock
+shiro,shiro\web\src\test\java\org\apache\shiro\web\filter\PathMatchingFilterParameterizedTest.java,easymock,static org.easymock.EasyMock.expect
+shiro,shiro\web\src\test\java\org\apache\shiro\web\filter\PathMatchingFilterParameterizedTest.java,easymock,static org.easymock.EasyMock.replay
+shiro,shiro\web\src\test\java\org\apache\shiro\web\filter\PathMatchingFilterParameterizedTest.java,easymock,static org.easymock.EasyMock.verify
+shiro,shiro\web\src\test\java\org\apache\shiro\web\filter\PathMatchingFilterTest.java,easymock,static org.easymock.EasyMock.*
+shiro,shiro\web\src\test\java\org\apache\shiro\web\filter\authc\BasicHttpFilterAuthenticationTest.java,mockito,static org.mockito.Mockito.mock
+shiro,shiro\web\src\test\java\org\apache\shiro\web\filter\authc\BasicHttpFilterAuthenticationTest.java,mockito,static org.mockito.Mockito.verify
+shiro,shiro\web\src\test\java\org\apache\shiro\web\filter\authc\BasicHttpFilterAuthenticationTest.java,mockito,static org.mockito.Mockito.when
+shiro,shiro\web\src\test\java\org\apache\shiro\web\filter\authz\AuthorizationFilterTest.java,mockito,static org.mockito.Mockito.atLeastOnce
+shiro,shiro\web\src\test\java\org\apache\shiro\web\filter\authz\AuthorizationFilterTest.java,mockito,static org.mockito.Mockito.mock
+shiro,shiro\web\src\test\java\org\apache\shiro\web\filter\authz\AuthorizationFilterTest.java,mockito,static org.mockito.Mockito.verify
+shiro,shiro\web\src\test\java\org\apache\shiro\web\filter\authz\AuthorizationFilterTest.java,mockito,static org.mockito.Mockito.when
+shiro,shiro\web\src\test\java\org\apache\shiro\web\filter\authz\IpFilterTest.java,easymock,static org.easymock.EasyMock.*
+shiro,shiro\web\src\test\java\org\apache\shiro\web\filter\authz\PortFilterTest.java,easymock,static org.easymock.EasyMock.*
+shiro,shiro\web\src\test\java\org\apache\shiro\web\filter\authz\SslFilterTest.java,easymock,org.easymock.Capture
+shiro,shiro\web\src\test\java\org\apache\shiro\web\filter\authz\SslFilterTest.java,easymock,org.easymock.CaptureType
+shiro,shiro\web\src\test\java\org\apache\shiro\web\filter\authz\SslFilterTest.java,easymock,static org.easymock.EasyMock.*
+shiro,shiro\web\src\test\java\org\apache\shiro\web\filter\authz\SslFilterTest.java,easymock,org.easymock.IAnswer
+shiro,shiro\web\src\test\java\org\apache\shiro\web\filter\mgt\PathMatchingFilterChainResolverTest.java,mockito,static org.mockito.Mockito.mock
+shiro,shiro\web\src\test\java\org\apache\shiro\web\filter\mgt\PathMatchingFilterChainResolverTest.java,mockito,static org.mockito.Mockito.verify
+shiro,shiro\web\src\test\java\org\apache\shiro\web\filter\mgt\PathMatchingFilterChainResolverTest.java,mockito,static org.mockito.Mockito.when
+shiro,shiro\web\src\test\java\org\apache\shiro\web\filter\mgt\SimpleNamedFilterListTest.java,easymock,static org.easymock.EasyMock.createNiceMock
+shiro,shiro\web\src\test\java\org\apache\shiro\web\mgt\CookieRememberMeManagerTest.java,easymock,static org.easymock.EasyMock.*
+shiro,shiro\web\src\test\java\org\apache\shiro\web\mgt\DefaultWebSecurityManagerTest.java,mockito,static org.mockito.ArgumentMatchers.any
+shiro,shiro\web\src\test\java\org\apache\shiro\web\mgt\DefaultWebSecurityManagerTest.java,mockito,static org.mockito.Mockito.mock
+shiro,shiro\web\src\test\java\org\apache\shiro\web\mgt\DefaultWebSecurityManagerTest.java,mockito,static org.mockito.Mockito.verify
+shiro,shiro\web\src\test\java\org\apache\shiro\web\mgt\DefaultWebSecurityManagerTest.java,mockito,static org.mockito.Mockito.when
+shiro,shiro\web\src\test\java\org\apache\shiro\web\servlet\OncePerRequestFilterTest.java,easymock,static org.easymock.EasyMock.*
+shiro,shiro\web\src\test\java\org\apache\shiro\web\servlet\ShiroHttpServletRequestTest.java,mockito,static org.mockito.Mockito.atLeast
+shiro,shiro\web\src\test\java\org\apache\shiro\web\servlet\ShiroHttpServletRequestTest.java,mockito,static org.mockito.Mockito.mock
+shiro,shiro\web\src\test\java\org\apache\shiro\web\servlet\ShiroHttpServletRequestTest.java,mockito,static org.mockito.Mockito.times
+shiro,shiro\web\src\test\java\org\apache\shiro\web\servlet\ShiroHttpServletRequestTest.java,mockito,static org.mockito.Mockito.verify
+shiro,shiro\web\src\test\java\org\apache\shiro\web\servlet\ShiroHttpServletRequestTest.java,mockito,static org.mockito.Mockito.when
+shiro,shiro\web\src\test\java\org\apache\shiro\web\servlet\SimpleCookieTest.java,easymock,org.easymock.IArgumentMatcher
+shiro,shiro\web\src\test\java\org\apache\shiro\web\servlet\SimpleCookieTest.java,easymock,static org.easymock.EasyMock.*
+shiro,shiro\web\src\test\java\org\apache\shiro\web\session\HttpServletSessionTest.java,easymock,static org.easymock.EasyMock.*
+shiro,shiro\web\src\test\java\org\apache\shiro\web\session\HttpServletSessionTest.java,easymock,org.easymock.Capture

@@ -1,0 +1,464 @@
+	Method name: createMock
+	Class origin: org.easymock.EasyMock
+	Count: 3
+ 
+	Method name: andReturn
+	Class origin: org.easymock.IExpectationSetters<java.lang.reflect.Method>
+	Count: 3
+ 
+	Method name: expect
+	Class origin: org.easymock.EasyMock
+	Count: 5
+ 
+	Method name: andReturn
+	Class origin: org.easymock.IExpectationSetters<java.lang.Object>
+	Count: 2
+ 
+	Method name: createMock
+	Class origin: org.easymock.EasyMock
+	Count: 2
+ 
+	Method name: replay
+	Class origin: org.easymock.EasyMock
+	Count: 2
+ 
+	Method name: verify
+	Class origin: org.easymock.EasyMock
+	Count: 2
+ 
+	Method name: createMock
+	Class origin: org.easymock.EasyMock
+	Count: 1
+ 
+	Method name: andReturn
+	Class origin: org.easymock.IExpectationSetters<java.lang.Boolean>
+	Count: 2
+ 
+	Method name: expect
+	Class origin: org.easymock.EasyMock
+	Count: 2
+ 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+	Method name: forClass
+	Class origin: org.mockito.ArgumentCaptor
+	Count: 1
+ 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<java.util.concurrent.Future<>>
+	Count: 1
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+	Method name: forClass
+	Class origin: org.mockito.ArgumentCaptor
+	Count: 1
+ 
+	Method name: verify
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+	Method name: createMock
+	Class origin: org.easymock.EasyMock
+	Count: 4
+ 
+	Method name: andReturn
+	Class origin: org.easymock.IExpectationSetters<javax.naming.ldap.LdapContext>
+	Count: 2
+ 
+	Method name: expect
+	Class origin: org.easymock.EasyMock
+	Count: 4
+ 
+	Method name: eq
+	Class origin: org.easymock.EasyMock
+	Count: 2
+ 
+	Method name: isA
+	Class origin: org.easymock.EasyMock
+	Count: 6
+ 
+	Method name: createNiceMock
+	Class origin: org.easymock.EasyMock
+	Count: 2
+ 
+	Method name: replay
+	Class origin: org.easymock.EasyMock
+	Count: 4
+ 
+	Method name: verify
+	Class origin: org.easymock.EasyMock
+	Count: 2
+ 
+	Method name: createNiceMock
+	Class origin: org.easymock.EasyMock
+	Count: 5
+ 
+	Method name: createMock
+	Class origin: org.easymock.EasyMock
+	Count: 1
+ 
+	Method name: andReturn
+	Class origin: org.easymock.IExpectationSetters<java.io.Serializable>
+	Count: 1
+ 
+	Method name: expect
+	Class origin: org.easymock.EasyMock
+	Count: 3
+ 
+	Method name: eq
+	Class origin: org.easymock.EasyMock
+	Count: 4
+ 
+	Method name: createNiceMock
+	Class origin: org.easymock.EasyMock
+	Count: 2
+ 
+	Method name: createNiceMock
+	Class origin: org.easymock.EasyMock
+	Count: 1
+ 
+	Method name: andReturn
+	Class origin: org.easymock.IExpectationSetters<java.lang.Boolean>
+	Count: 1
+ 
+	Method name: expect
+	Class origin: org.easymock.EasyMock
+	Count: 1
+ 
+	Method name: createMock
+	Class origin: org.easymock.EasyMock
+	Count: 1
+ 
+	Method name: createMock
+	Class origin: org.easymock.EasyMock
+	Count: 11
+ 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 4
+ 
+	Method name: createMock
+	Class origin: org.easymock.EasyMock
+	Count: 2
+ 
+	Method name: anyObject
+	Class origin: org.easymock.EasyMock
+	Count: 2
+ 
+	Method name: replay
+	Class origin: org.easymock.EasyMock
+	Count: 2
+ 
+	Method name: verify
+	Class origin: org.easymock.EasyMock
+	Count: 2
+ 
+	Method name: createMock
+	Class origin: org.easymock.EasyMock
+	Count: 4
+ 
+	Method name: createMock
+	Class origin: org.easymock.EasyMock
+	Count: 1
+ 
+	Method name: andReturn
+	Class origin: org.easymock.IExpectationSetters<java.lang.Boolean>
+	Count: 2
+ 
+	Method name: expect
+	Class origin: org.easymock.EasyMock
+	Count: 2
+ 
+	Method name: createMock
+	Class origin: org.easymock.EasyMock
+	Count: 2
+ 
+	Method name: createMock
+	Class origin: org.easymock.EasyMock
+	Count: 1
+ 
+	Method name: replay
+	Class origin: org.easymock.EasyMock
+	Count: 1
+ 
+	Method name: verify
+	Class origin: org.easymock.EasyMock
+	Count: 1
+ 
+	Method name: createMock
+	Class origin: org.easymock.EasyMock
+	Count: 2
+ 
+	Method name: createMock
+	Class origin: org.easymock.EasyMock
+	Count: 4
+ 
+	Method name: andReturn
+	Class origin: org.easymock.IExpectationSetters<java.lang.reflect.Method>
+	Count: 1
+ 
+	Method name: expect
+	Class origin: org.easymock.EasyMock
+	Count: 4
+ 
+	Method name: replay
+	Class origin: org.easymock.EasyMock
+	Count: 4
+ 
+	Method name: verify
+	Class origin: org.easymock.EasyMock
+	Count: 4
+ 
+	Method name: createMock
+	Class origin: org.easymock.EasyMock
+	Count: 21
+ 
+	Method name: createMock
+	Class origin: org.easymock.EasyMock
+	Count: 3
+ 
+	Method name: createStrictControl
+	Class origin: org.easymock.EasyMock
+	Count: 1
+ 
+	Method name: createMock
+	Class origin: org.easymock.IMocksControl
+	Count: 5
+ 
+	Method name: createMock
+	Class origin: org.easymock.EasyMock
+	Count: 2
+ 
+	Method name: createMock
+	Class origin: org.easymock.EasyMock
+	Count: 1
+ 
+	Method name: andReturn
+	Class origin: org.easymock.IExpectationSetters<javax.servlet.Filter>
+	Count: 2
+ 
+	Method name: expect
+	Class origin: org.easymock.EasyMock
+	Count: 2
+ 
+	Method name: createMock
+	Class origin: org.easymock.EasyMock
+	Count: 1
+ 
+	Method name: andReturn
+	Class origin: org.easymock.IExpectationSetters<java.lang.Object>
+	Count: 2
+ 
+	Method name: expect
+	Class origin: org.easymock.EasyMock
+	Count: 2
+ 
+	Method name: createStrictControl
+	Class origin: org.easymock.EasyMock
+	Count: 1
+ 
+	Method name: createMock
+	Class origin: org.easymock.IMocksControl
+	Count: 7
+ 
+	Method name: createMock
+	Class origin: org.easymock.EasyMock
+	Count: 2
+ 
+	Method name: createMock
+	Class origin: org.easymock.EasyMock
+	Count: 2
+ 
+	Method name: createMock
+	Class origin: org.easymock.EasyMock
+	Count: 2
+ 
+	Method name: anyTimes
+	Class origin: org.easymock.IExpectationSetters<java.lang.reflect.Method>
+	Count: 2
+ 
+	Method name: andReturn
+	Class origin: org.easymock.IExpectationSetters<java.lang.reflect.Method>
+	Count: 2
+ 
+	Method name: expect
+	Class origin: org.easymock.EasyMock
+	Count: 4
+ 
+	Method name: anyTimes
+	Class origin: org.easymock.IExpectationSetters<java.lang.Object[]>
+	Count: 2
+ 
+	Method name: andReturn
+	Class origin: org.easymock.IExpectationSetters<java.lang.Object[]>
+	Count: 2
+ 
+	Method name: createNiceMock
+	Class origin: org.easymock.EasyMock
+	Count: 4
+ 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 2
+ 
+	Method name: mock
+	Class origin: org.easymock.EasyMock
+	Count: 2
+ 
+	Method name: andReturn
+	Class origin: org.easymock.IExpectationSetters<java.lang.String>
+	Count: 4
+ 
+	Method name: expect
+	Class origin: org.easymock.EasyMock
+	Count: 5
+ 
+	Method name: createNiceMock
+	Class origin: org.easymock.EasyMock
+	Count: 6
+ 
+	Method name: createNiceMock
+	Class origin: org.easymock.EasyMock
+	Count: 1
+ 
+	Method name: anyTimes
+	Class origin: org.easymock.IExpectationSetters<java.lang.String>
+	Count: 4
+ 
+	Method name: andReturn
+	Class origin: org.easymock.IExpectationSetters<java.lang.String>
+	Count: 4
+ 
+	Method name: expect
+	Class origin: org.easymock.EasyMock
+	Count: 4
+ 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 24
+ 
+	Method name: then
+	Class origin: org.mockito.stubbing.OngoingStubbing<java.lang.String>
+	Count: 33
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 33
+ 
+	Method name: createNiceMock
+	Class origin: org.easymock.EasyMock
+	Count: 5
+ 
+	Method name: andReturn
+	Class origin: org.easymock.IExpectationSetters<java.lang.String>
+	Count: 5
+ 
+	Method name: expect
+	Class origin: org.easymock.EasyMock
+	Count: 5
+ 
+	Method name: replay
+	Class origin: org.easymock.EasyMock
+	Count: 5
+ 
+	Method name: verify
+	Class origin: org.easymock.EasyMock
+	Count: 5
+ 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 4
+ 
+	Method name: createNiceMock
+	Class origin: org.easymock.EasyMock
+	Count: 2
+ 
+	Method name: createNiceMock
+	Class origin: org.easymock.EasyMock
+	Count: 3
+ 
+	Method name: andReturn
+	Class origin: org.easymock.IExpectationSetters<java.lang.String>
+	Count: 5
+ 
+	Method name: expect
+	Class origin: org.easymock.EasyMock
+	Count: 5
+ 
+	Method name: createNiceMock
+	Class origin: org.easymock.EasyMock
+	Count: 2
+ 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 36
+ 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 11
+ 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<java.lang.Boolean>
+	Count: 1
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 8
+ 
+	Method name: verify
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+	Method name: createNiceMock
+	Class origin: org.easymock.EasyMock
+	Count: 6
+ 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 5
+ 
+	Method name: createMock
+	Class origin: org.easymock.EasyMock
+	Count: 2
+ 
+	Method name: createNiceMock
+	Class origin: org.easymock.EasyMock
+	Count: 3
+ 
+	Method name: createMock
+	Class origin: org.easymock.EasyMock
+	Count: 1
+ 
+	Method name: newInstance
+	Class origin: org.easymock.Capture
+	Count: 1
+ 
+	Method name: captureInt
+	Class origin: org.easymock.EasyMock
+	Count: 1
+ 
+	Method name: andReturn
+	Class origin: org.easymock.IExpectationSetters<java.lang.Integer>
+	Count: 1
+ 
+	Method name: expect
+	Class origin: org.easymock.EasyMock
+	Count: 1
+ 
+	Method name: replay
+	Class origin: org.easymock.EasyMock
+	Count: 1
+ 
+	Method name: getValue
+	Class origin: org.easymock.Capture<java.lang.Integer>
+	Count: 1
+ 

@@ -1,0 +1,2 @@
+method, origin, count
+sendRequest,org.springframework.ws.test.server.MockWebServiceClient,1

@@ -1,0 +1,1050 @@
+/storm-client/test/jvm/org/apache/storm/TestConfigValidate.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 4
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 6
+ 
+/storm-client/test/jvm/org/apache/storm/PaceMakerStateStorageFactoryTest.java
+Methods Invoked: 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+	Method name: any
+	Class origin: org.mockito.ArgumentMatchers
+	Count: 1
+ 
+	Method name: verify
+	Class origin: org.mockito.Mockito
+	Count: 4
+ 
+/storm-client/test/jvm/org/apache/storm/cluster/StormClusterStateImplTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+	Method name: verify
+	Class origin: org.mockito.Mockito
+	Count: 2
+ 
+	Method name: anyObject
+	Class origin: org.mockito.ArgumentMatchers
+	Count: 1
+ 
+/storm-client/test/jvm/org/apache/storm/daemon/worker/LogConfigManagerTest.java
+Methods Invoked: 
+	Method name: spy
+	Class origin: org.mockito.Mockito
+	Count: 6
+ 
+	Method name: verify
+	Class origin: org.mockito.Mockito
+	Count: 14
+ 
+	Method name: never
+	Class origin: org.mockito.Mockito
+	Count: 4
+ 
+	Method name: anyObject
+	Class origin: org.mockito.ArgumentMatchers
+	Count: 16
+ 
+/storm-client/test/jvm/org/apache/storm/daemon/worker/BackPressureTrackerTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 7
+ 
+/storm-client/test/jvm/org/apache/storm/daemon/worker/WorkerTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 3
+ 
+/storm-client/test/jvm/org/apache/storm/dependency/DependencyUploaderTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 13
+ 
+	Method name: when
+	Class origin: org.mockito.stubbing.Stubber
+	Count: 11
+ 
+	Method name: doNothing
+	Class origin: org.mockito.Mockito
+	Count: 5
+ 
+/storm-client/test/jvm/org/apache/storm/executor/ExecutorTransferMultiThreadingTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 4
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 9
+ 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<java.lang.String>
+	Count: 3
+ 
+/storm-client/test/jvm/org/apache/storm/executor/error/ReportErrorTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 2
+ 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<java.lang.Integer>
+	Count: 1
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+/storm-client/test/jvm/org/apache/storm/grouping/LoadAwareShuffleGroupingTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 2
+ 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<java.util.Map<java.lang.String,java.lang.Object>>
+	Count: 2
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 10
+ 
+/storm-client/test/jvm/org/apache/storm/grouping/ShuffleGroupingTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 2
+ 
+/storm-client/test/jvm/org/apache/storm/grouping/partialKeyGrouping/PartialKeyGroupingTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 2
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+	Method name: any
+	Class origin: org.mockito.ArgumentMatchers
+	Count: 1
+ 
+/storm-client/test/jvm/org/apache/storm/messaging/DeserializingConnectionCallbackTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 5
+ 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<java.lang.Integer>
+	Count: 1
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 2
+ 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<byte[]>
+	Count: 1
+ 
+/storm-client/test/jvm/org/apache/storm/security/auth/ClientAuthUtilsTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 9
+ 
+/storm-client/test/jvm/org/apache/storm/security/auth/ShellBasedGroupsMappingTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<java.lang.String>
+	Count: 4
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 4
+ 
+/storm-client/test/jvm/org/apache/storm/security/auth/authorizer/DRPCSimpleACLAuthorizerTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 3
+ 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<java.security.Principal>
+	Count: 1
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+/storm-client/test/jvm/org/apache/storm/spout/CheckpointSpoutTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 2
+ 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<java.lang.String>
+	Count: 1
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 2
+ 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<java.lang.Integer>
+	Count: 1
+ 
+/storm-client/test/jvm/org/apache/storm/streams/StatefulProcessorBoltTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 4
+ 
+/storm-client/test/jvm/org/apache/storm/streams/ProcessorBoltTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 9
+ 
+/storm-client/test/jvm/org/apache/storm/streams/StreamBuilderTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 8
+ 
+/storm-client/test/jvm/org/apache/storm/streams/WindowedProcessorBoltTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 6
+ 
+/storm-client/test/jvm/org/apache/storm/topology/PersistentWindowedBoltExecutorTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 8
+ 
+/storm-client/test/jvm/org/apache/storm/topology/WindowedBoltExecutorTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 4
+ 
+/storm-client/test/jvm/org/apache/storm/topology/TopologyBuilderTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 3
+ 
+/storm-client/test/jvm/org/apache/storm/topology/StatefulWindowedBoltExecutorTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 7
+ 
+/storm-client/test/jvm/org/apache/storm/topology/StatefulBoltExecutorTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 7
+ 
+/storm-client/test/jvm/org/apache/storm/utils/MockTupleHelpers.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<java.lang.String>
+	Count: 2
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 2
+ 
+/storm-client/test/jvm/org/apache/storm/utils/DefaultShellLogHandlerTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 2
+ 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<java.lang.String>
+	Count: 2
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 3
+ 
+/storm-client/test/jvm/org/apache/storm/windowing/persistence/WindowStateTest.java
+Methods Invoked: 
+	Method name: then
+	Class origin: org.mockito.stubbing.OngoingStubbing<java.util.Deque<java.lang.Long>>
+	Count: 3
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 6
+ 
+	Method name: any
+	Class origin: org.mockito.ArgumentMatchers
+	Count: 16
+ 
+/storm-core/test/jvm/org/apache/storm/stats/TestStatsUtil.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 2
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 4
+ 
+	Method name: eq
+	Class origin: org.mockito.ArgumentMatchers
+	Count: 16
+ 
+/storm-elasticsearch/src/test/java/org/apache/storm/elasticsearch/bolt/EsPercolateBoltTest.java
+Methods Invoked: 
+	Method name: verify
+	Class origin: org.mockito.Mockito
+	Count: 7
+ 
+	Method name: forClass
+	Class origin: org.mockito.ArgumentCaptor
+	Count: 1
+ 
+/storm-elasticsearch/src/test/java/org/apache/storm/elasticsearch/bolt/EsIndexBoltTest.java
+Methods Invoked: 
+	Method name: verify
+	Class origin: org.mockito.Mockito
+	Count: 2
+ 
+/storm-elasticsearch/src/test/java/org/apache/storm/elasticsearch/bolt/EsLookupBoltIntegrationTest.java
+Methods Invoked: 
+	Method name: verify
+	Class origin: org.mockito.Mockito
+	Count: 6
+ 
+/storm-elasticsearch/src/test/java/org/apache/storm/elasticsearch/bolt/EsLookupBoltTest.java
+Methods Invoked: 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<java.lang.String>
+	Count: 3
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 5
+ 
+/storm-elasticsearch/src/test/java/org/apache/storm/elasticsearch/common/EsTestUtil.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 3
+ 
+/storm-hbase/src/test/java/org/apache/storm/hbase/state/HBaseClientTestUtil.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+	Method name: when
+	Class origin: org.mockito.stubbing.Stubber
+	Count: 2
+ 
+	Method name: doNothing
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 5
+ 
+	Method name: any
+	Class origin: org.mockito.ArgumentMatchers
+	Count: 10
+ 
+/storm-hdfs/src/test/java/org/apache/storm/hdfs/bolt/TestSequenceFileBolt.java
+Methods Invoked: 
+	Method name: verify
+	Class origin: org.mockito.Mockito
+	Count: 4
+ 
+/storm-hdfs/src/test/java/org/apache/storm/hdfs/bolt/TestHdfsBolt.java
+Methods Invoked: 
+	Method name: verify
+	Class origin: org.mockito.Mockito
+	Count: 6
+ 
+/storm-hdfs/src/test/java/org/apache/storm/hdfs/trident/HdfsStateTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<java.lang.Object>
+	Count: 1
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+	Method name: any
+	Class origin: org.mockito.ArgumentMatchers
+	Count: 1
+ 
+/storm-hive/src/test/java/org/apache/storm/hive/bolt/TestHiveBolt.java
+Methods Invoked: 
+	Method name: initMocks
+	Class origin: org.mockito.MockitoAnnotations
+	Count: 1
+ 
+	Method name: verify
+	Class origin: org.mockito.Mockito
+	Count: 12
+ 
+/storm-hive/src/test/java/org/apache/storm/hive/common/TestHiveWriter.java
+Methods Invoked: 
+	Method name: verify
+	Class origin: org.mockito.Mockito
+	Count: 5
+ 
+	Method name: times
+	Class origin: org.mockito.Mockito
+	Count: 3
+ 
+	Method name: any
+	Class origin: org.mockito.ArgumentMatchers
+	Count: 4
+ 
+/storm-kafka-client/src/test/java/org/apache/storm/kafka/bolt/KafkaBoltTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 7
+ 
+/storm-kafka-client/src/test/java/org/apache/storm/kafka/spout/KafkaSpoutTopologyDeployActivateDeactivateTest.java
+Methods Invoked: 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<java.lang.String>
+	Count: 3
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 3
+ 
+/storm-kafka-client/src/test/java/org/apache/storm/kafka/spout/KafkaSpoutMessagingGuaranteeTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 19
+ 
+/storm-kafka-client/src/test/java/org/apache/storm/kafka/spout/KafkaSpoutReactivationTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 3
+ 
+/storm-kafka-client/src/test/java/org/apache/storm/kafka/spout/MaxUncommittedOffsetTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 2
+ 
+/storm-kafka-client/src/test/java/org/apache/storm/kafka/spout/KafkaSpoutEmitTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 5
+ 
+/storm-kafka-client/src/test/java/org/apache/storm/kafka/spout/KafkaSpoutRebalanceTest.java
+Methods Invoked: 
+	Method name: rule
+	Class origin: org.mockito.junit.MockitoJUnit
+	Count: 1
+ 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 9
+ 
+/storm-kafka-client/src/test/java/org/apache/storm/kafka/spout/SpoutWithMockedConsumerSetupHelper.java
+Methods Invoked: 
+	Method name: isMock
+	Class origin: org.mockito.MockingDetails
+	Count: 2
+ 
+	Method name: mockingDetails
+	Class origin: org.mockito.Mockito
+	Count: 2
+ 
+/storm-kafka-client/src/test/java/org/apache/storm/kafka/spout/KafkaSpoutAbstractTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 2
+ 
+/storm-kafka-client/src/test/java/org/apache/storm/kafka/spout/SingleTopicKafkaUnitSetupHelper.java
+Methods Invoked: 
+	Method name: verify
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+	Method name: times
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<java.lang.Integer>
+	Count: 1
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 2
+ 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<java.util.List<java.lang.Integer>>
+	Count: 1
+ 
+/storm-kafka-client/src/test/java/org/apache/storm/kafka/spout/KafkaSpoutNullTupleTest.java
+Methods Invoked: 
+	Method name: verify
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+	Method name: never
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+	Method name: anyString
+	Class origin: org.mockito.ArgumentMatchers
+	Count: 1
+ 
+	Method name: anyList
+	Class origin: org.mockito.ArgumentMatchers
+	Count: 1
+ 
+	Method name: any
+	Class origin: org.mockito.ArgumentMatchers
+	Count: 1
+ 
+/storm-kafka-client/src/test/java/org/apache/storm/kafka/spout/KafkaSpoutRetryLimitTest.java
+Methods Invoked: 
+	Method name: rule
+	Class origin: org.mockito.junit.MockitoJUnit
+	Count: 1
+ 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 5
+ 
+/storm-kafka-client/src/test/java/org/apache/storm/kafka/spout/KafkaSpoutLogCompactionSupportTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 5
+ 
+/storm-kafka-client/src/test/java/org/apache/storm/kafka/spout/KafkaSpoutSingleTopicTest.java
+Methods Invoked: 
+	Method name: forClass
+	Class origin: org.mockito.ArgumentCaptor
+	Count: 17
+ 
+	Method name: verify
+	Class origin: org.mockito.Mockito
+	Count: 24
+ 
+	Method name: times
+	Class origin: org.mockito.Mockito
+	Count: 7
+ 
+	Method name: anyString
+	Class origin: org.mockito.ArgumentMatchers
+	Count: 18
+ 
+	Method name: anyList
+	Class origin: org.mockito.ArgumentMatchers
+	Count: 19
+ 
+	Method name: reset
+	Class origin: org.mockito.Mockito
+	Count: 11
+ 
+/storm-kafka-client/src/test/java/org/apache/storm/kafka/spout/internal/OffsetManagerTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+/storm-kafka-client/src/test/java/org/apache/storm/kafka/spout/subscription/PatternTopicFilterTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+/storm-kafka-client/src/test/java/org/apache/storm/kafka/spout/subscription/TopicAssignerTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 2
+ 
+/storm-kafka-client/src/test/java/org/apache/storm/kafka/spout/subscription/NamedTopicFilterTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 5
+ 
+/storm-kafka-client/src/test/java/org/apache/storm/kafka/spout/subscription/RoundRobinManualPartitionerTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<java.lang.Integer>
+	Count: 1
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 3
+ 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<java.lang.String>
+	Count: 1
+ 
+/storm-kafka-client/src/test/java/org/apache/storm/kafka/spout/trident/KafkaTridentSpoutOpaqueCoordinatorTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 6
+ 
+/storm-kafka-client/src/test/java/org/apache/storm/kafka/spout/trident/KafkaTridentSpoutEmitterPartitioningTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 3
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+	Method name: any
+	Class origin: org.mockito.ArgumentMatchers
+	Count: 4
+ 
+/storm-kafka-client/src/test/java/org/apache/storm/kafka/spout/trident/KafkaTridentSpoutEmitterEmitTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 2
+ 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<java.lang.String>
+	Count: 1
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 4
+ 
+	Method name: verify
+	Class origin: org.mockito.Mockito
+	Count: 13
+ 
+	Method name: times
+	Class origin: org.mockito.Mockito
+	Count: 9
+ 
+	Method name: capture
+	Class origin: org.mockito.ArgumentCaptor<java.util.List<java.lang.Object>>
+	Count: 8
+ 
+	Method name: getAllValues
+	Class origin: org.mockito.ArgumentCaptor<java.util.List<java.lang.Object>>
+	Count: 8
+ 
+/storm-redis/src/test/java/org/apache/storm/redis/state/RedisKeyValueStateIteratorTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 2
+ 
+/storm-redis/src/test/java/org/apache/storm/redis/state/RedisKeyValueStateTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 2
+ 
+/storm-rocketmq/src/test/java/org/apache/storm/rocketmq/bolt/RocketMqBoltTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+	Method name: verify
+	Class origin: org.mockito.Mockito
+	Count: 2
+ 
+	Method name: any
+	Class origin: org.mockito.ArgumentMatchers
+	Count: 2
+ 
+/storm-rocketmq/src/test/java/org/apache/storm/rocketmq/spout/RocketMqSpoutTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 3
+ 
+/storm-server/src/test/java/org/apache/storm/blobstore/MockZookeeperClientBuilder.java
+Methods Invoked: 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 5
+ 
+/storm-server/src/test/java/org/apache/storm/blobstore/LocalFsBlobStoreTest.java
+Methods Invoked: 
+	Method name: spy
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+	Method name: when
+	Class origin: org.mockito.stubbing.Stubber
+	Count: 5
+ 
+	Method name: doNothing
+	Class origin: org.mockito.Mockito
+	Count: 5
+ 
+/storm-server/src/test/java/org/apache/storm/blobstore/BlobStoreUtilsTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 3
+ 
+/storm-server/src/test/java/org/apache/storm/daemon/supervisor/BasicContainerTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 21
+ 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<java.lang.Boolean>
+	Count: 8
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 15
+ 
+/storm-server/src/test/java/org/apache/storm/daemon/supervisor/ContainerTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 5
+ 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<java.lang.Boolean>
+	Count: 8
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 10
+ 
+/storm-server/src/test/java/org/apache/storm/daemon/supervisor/SlotTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 59
+ 
+/storm-server/src/test/java/org/apache/storm/localizer/LocallyCachedBlobTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+/storm-server/src/test/java/org/apache/storm/localizer/LocalizedResourceRetentionSetTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 4
+ 
+/storm-server/src/test/java/org/apache/storm/localizer/AsyncLocalizerTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 10
+ 
+/storm-server/src/test/java/org/apache/storm/metric/ClusterMetricsConsumerExecutorTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 2
+ 
+/storm-server/src/test/java/org/apache/storm/security/auth/AuthTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 4
+ 
+/storm-server/src/test/java/org/apache/storm/security/auth/DefaultHttpCredentialsPluginTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 5
+ 
+/storm-server/src/test/java/org/apache/storm/security/auth/workertoken/WorkerTokenTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 2
+ 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<java.lang.Long>
+	Count: 2
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 4
+ 
+	Method name: when
+	Class origin: org.mockito.stubbing.Stubber
+	Count: 2
+ 
+	Method name: doAnswer
+	Class origin: org.mockito.Mockito
+	Count: 2
+ 
+	Method name: getArgument
+	Class origin: org.mockito.invocation.InvocationOnMock
+	Count: 2
+ 
+	Method name: eq
+	Class origin: org.mockito.ArgumentMatchers
+	Count: 12
+ 
+/storm-starter/test/jvm/org/apache/storm/starter/bolt/RollingCountBoltTest.java
+Methods Invoked: 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<java.lang.Object>
+	Count: 1
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 7
+ 
+/storm-starter/test/jvm/org/apache/storm/starter/bolt/TotalRankingsBoltTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 4
+ 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<java.lang.Object>
+	Count: 1
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+/storm-starter/test/jvm/org/apache/storm/starter/bolt/IntermediateRankingsBoltTest.java
+Methods Invoked: 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<java.util.List<java.lang.Object>>
+	Count: 1
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 3
+ 
+	Method name: verify
+	Class origin: org.mockito.Mockito
+	Count: 2
+ 
+	Method name: any
+	Class origin: org.mockito.ArgumentMatchers
+	Count: 2
+ 
+/storm-starter/test/jvm/org/apache/storm/starter/tools/RankableObjectWithFieldsTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<java.util.List<java.lang.Object>>
+	Count: 1
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+/storm-starter/test/jvm/org/apache/storm/starter/tools/RankingsTest.java
+Methods Invoked: 
+	Method name: blitz
+	Class origin: org.jmock.lib.concurrent.Blitzer
+	Count: 1
+ 
+	Method name: shutdown
+	Class origin: org.jmock.lib.concurrent.Blitzer
+	Count: 1
+ 
+/storm-webapp/src/test/java/org/apache/storm/daemon/logviewer/handler/LogviewerLogSearchHandlerTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 11
+ 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<java.lang.String>
+	Count: 11
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 11
+ 
+/storm-webapp/src/test/java/org/apache/storm/daemon/logviewer/testsupport/ArgumentsVerifier.java
+Methods Invoked: 
+	Method name: forClass
+	Class origin: org.mockito.ArgumentCaptor
+	Count: 1
+ 
+	Method name: accept
+	Class origin: java.util.function.Consumer<org.mockito.ArgumentCaptor<T>>
+	Count: 1
+ 
+	Method name: getAllValues
+	Class origin: org.mockito.ArgumentCaptor<T>
+	Count: 1
+ 
+/storm-webapp/src/test/java/org/apache/storm/daemon/logviewer/testsupport/MockDirectoryBuilder.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<java.lang.String>
+	Count: 2
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 5
+ 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<java.lang.Long>
+	Count: 1
+ 
+/storm-webapp/src/test/java/org/apache/storm/daemon/logviewer/testsupport/MockRemovableFileBuilder.java
+Methods Invoked: 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<java.lang.Boolean>
+	Count: 2
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 2
+ 
+/storm-webapp/src/test/java/org/apache/storm/daemon/logviewer/testsupport/MockFileBuilder.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<java.lang.String>
+	Count: 2
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 5
+ 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<java.lang.Long>
+	Count: 2
+ 
+/storm-webapp/src/test/java/org/apache/storm/daemon/logviewer/utils/LogCleanerTest.java
+Methods Invoked: 
+	Method name: newSet
+	Class origin: org.mockito.internal.util.collections.Sets
+	Count: 2
+ 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+	Method name: anyMap
+	Class origin: org.mockito.ArgumentMatchers
+	Count: 1
+ 
+/storm-webapp/src/test/java/org/apache/storm/daemon/logviewer/utils/WorkerLogsTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+	Method name: anyMap
+	Class origin: org.mockito.ArgumentMatchers
+	Count: 1
+ 
+/storm-webapp/src/test/java/org/apache/storm/daemon/logviewer/utils/ResourceAuthorizerTest.java
+Methods Invoked: 
+	Method name: spy
+	Class origin: org.mockito.Mockito
+	Count: 7
+ 
+	Method name: when
+	Class origin: org.mockito.stubbing.Stubber
+	Count: 12
+ 
+	Method name: doReturn
+	Class origin: org.mockito.Mockito
+	Count: 12
+ 
+	Method name: anyString
+	Class origin: org.mockito.ArgumentMatchers
+	Count: 14
+ 

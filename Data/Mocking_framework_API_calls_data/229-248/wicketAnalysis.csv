@@ -1,0 +1,14 @@
+method, origin, count
+mock,org.mockito.Mockito,264
+when,org.mockito.Mockito,126
+thenReturn,org.mockito.stubbing.OngoingStubbing<java.net.URL>,54
+any,org.mockito.ArgumentMatchers,12
+verify,org.mockito.Mockito,69
+times,org.mockito.Mockito,21
+spy,org.mockito.Mockito,6
+never,org.mockito.Mockito,6
+reset,org.mockito.Mockito,6
+
+MockedObjects: ,264
+
+# of Mocked objects each file:,3|12|2|1|6|6|4|1|5|3|3|1|3|13|15|1|1|1|1|5|1|3|12|2|1|6|6|4|1|5|3|3|1|3|13|15|1|1|1|1|5|1|3|12|2|1|6|6|4|1|5|3|3|1|3|13|15|1|1|1|1|5|1|

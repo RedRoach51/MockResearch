@@ -1,0 +1,10 @@
+method, origin, count
+mock,org.mockito.Mockito,15
+thenReturn,org.mockito.stubbing.OngoingStubbing<java.lang.Double>,1
+when,org.mockito.Mockito,1
+verify,org.mockito.Mockito,12
+add,java.util.List<TestCSVPipesIterator.MockFetcher>,1
+
+MockedObjects: ,15
+
+# of Mocked objects each file:,1|10|4|

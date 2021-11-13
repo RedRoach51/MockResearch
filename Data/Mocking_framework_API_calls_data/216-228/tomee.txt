@@ -1,0 +1,8 @@
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 4
+ 
+	Method name: mock
+	Class origin: com.agical.rmock.extension.junit.RMockTestCase
+	Count: 3
+ 

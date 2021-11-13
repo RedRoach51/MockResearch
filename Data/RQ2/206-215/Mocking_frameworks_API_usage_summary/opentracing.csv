@@ -1,0 +1,3 @@
+method, origin, count
+tags,io.opentracing.mock.MockSpan,4
+operationName,io.opentracing.mock.MockSpan,7

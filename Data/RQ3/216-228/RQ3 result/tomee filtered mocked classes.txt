@@ -1,0 +1,12 @@
+Inside classes: 
+ 
+ 
+ 
+ 
+Outside classes: 
+ 
+org.ietf.jgss.GSSContext
+java.security.cert.X509Certificate
+org.apache.catalina.connector.Request
+org.apache.catalina.Context
+java.lang.Object

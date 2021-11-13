@@ -1,0 +1,36 @@
+	Method name: createMock
+	Class origin: org.easymock.EasyMock
+	Count: 3
+ 
+	Method name: createMock
+	Class origin: org.easymock.EasyMock
+	Count: 1
+ 
+	Method name: expect
+	Class origin: org.easymock.EasyMock
+	Count: 2
+ 
+	Method name: createStrictMock
+	Class origin: org.easymock.EasyMock
+	Count: 3
+ 
+	Method name: createStrictMock
+	Class origin: org.easymock.EasyMock
+	Count: 3
+ 
+	Method name: createMock
+	Class origin: org.easymock.EasyMock
+	Count: 2
+ 
+	Method name: andReturn
+	Class origin: org.easymock.IExpectationSetters<java.lang.String>
+	Count: 2
+ 
+	Method name: expect
+	Class origin: org.easymock.EasyMock
+	Count: 2
+ 
+	Method name: replay
+	Class origin: org.easymock.EasyMock
+	Count: 2
+ 

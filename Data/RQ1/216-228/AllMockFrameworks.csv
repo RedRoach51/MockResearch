@@ -1,0 +1,11 @@
+Project Name,Mocking Framework,Used in # of Files
+mina-vysper,mockito,50
+mina-vysper,easymock,3
+tomcat,easymock,11
+tomee,mockito,5
+tomee,agical,1
+tomee,opentracing,2
+tomee,easymock,1
+turbine-core,mockito,19
+tuscany-sca-2.x,itest,1
+whirr,mockito,11

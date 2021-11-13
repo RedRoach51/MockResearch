@@ -1,0 +1,108 @@
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 9
+ 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 2
+ 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 2
+ 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 2
+ 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 2
+ 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 2
+ 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 2
+ 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 2
+ 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 2
+ 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 2
+ 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 3
+ 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 2
+ 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 2
+ 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+	Method name: thenAnswer
+	Class origin: org.mockito.stubbing.OngoingStubbing<java.lang.String>
+	Count: 1
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+	Method name: anyString
+	Class origin: org.mockito.ArgumentMatchers
+	Count: 1
+ 
+	Method name: getArgument
+	Class origin: org.mockito.invocation.InvocationOnMock
+	Count: 1
+ 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 3
+ 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+	Method name: thenAnswer
+	Class origin: org.mockito.stubbing.OngoingStubbing<java.lang.String>
+	Count: 1
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+	Method name: anyString
+	Class origin: org.mockito.ArgumentMatchers
+	Count: 1
+ 
+	Method name: getArgument
+	Class origin: org.mockito.invocation.InvocationOnMock
+	Count: 1
+ 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 2
+ 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 

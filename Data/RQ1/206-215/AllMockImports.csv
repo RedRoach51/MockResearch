@@ -1,0 +1,963 @@
+Project Name,File Path,Mocking Framework,Imported Mock Line
+syncope,syncope\client\idrepo\console\src\test\java\org\apache\syncope\client\console\AbstractTest.java,mockito,static org.mockito.ArgumentMatchers.any
+syncope,syncope\client\idrepo\console\src\test\java\org\apache\syncope\client\console\AbstractTest.java,mockito,static org.mockito.ArgumentMatchers.anyString
+syncope,syncope\client\idrepo\console\src\test\java\org\apache\syncope\client\console\AbstractTest.java,mockito,static org.mockito.Mockito.mock
+syncope,syncope\client\idrepo\console\src\test\java\org\apache\syncope\client\console\AbstractTest.java,mockito,static org.mockito.Mockito.when
+syncope,syncope\client\idrepo\enduser\src\test\java\org\apache\syncope\client\enduser\AbstractTest.java,mockito,static org.mockito.ArgumentMatchers.any
+syncope,syncope\client\idrepo\enduser\src\test\java\org\apache\syncope\client\enduser\AbstractTest.java,mockito,static org.mockito.ArgumentMatchers.anyString
+syncope,syncope\client\idrepo\enduser\src\test\java\org\apache\syncope\client\enduser\AbstractTest.java,mockito,static org.mockito.Mockito.mock
+syncope,syncope\client\idrepo\enduser\src\test\java\org\apache\syncope\client\enduser\AbstractTest.java,mockito,static org.mockito.Mockito.when
+syncope,syncope\core\idrepo\rest-cxf\src\test\java\org\apache\syncope\core\rest\cxf\service\AnyObjectServiceTest.java,mockito,static org.mockito.ArgumentMatchers.any
+syncope,syncope\core\idrepo\rest-cxf\src\test\java\org\apache\syncope\core\rest\cxf\service\AnyObjectServiceTest.java,mockito,static org.mockito.ArgumentMatchers.anyBoolean
+syncope,syncope\core\idrepo\rest-cxf\src\test\java\org\apache\syncope\core\rest\cxf\service\AnyObjectServiceTest.java,mockito,static org.mockito.ArgumentMatchers.anyInt
+syncope,syncope\core\idrepo\rest-cxf\src\test\java\org\apache\syncope\core\rest\cxf\service\AnyObjectServiceTest.java,mockito,static org.mockito.ArgumentMatchers.anyList
+syncope,syncope\core\idrepo\rest-cxf\src\test\java\org\apache\syncope\core\rest\cxf\service\AnyObjectServiceTest.java,mockito,static org.mockito.ArgumentMatchers.anyString
+syncope,syncope\core\idrepo\rest-cxf\src\test\java\org\apache\syncope\core\rest\cxf\service\AnyObjectServiceTest.java,mockito,static org.mockito.ArgumentMatchers.eq
+syncope,syncope\core\idrepo\rest-cxf\src\test\java\org\apache\syncope\core\rest\cxf\service\AnyObjectServiceTest.java,mockito,static org.mockito.Mockito.doNothing
+syncope,syncope\core\idrepo\rest-cxf\src\test\java\org\apache\syncope\core\rest\cxf\service\AnyObjectServiceTest.java,mockito,static org.mockito.Mockito.mock
+syncope,syncope\core\idrepo\rest-cxf\src\test\java\org\apache\syncope\core\rest\cxf\service\AnyObjectServiceTest.java,mockito,static org.mockito.Mockito.when
+syncope,syncope\core\idrepo\rest-cxf\src\test\java\org\apache\syncope\core\rest\cxf\service\AnyObjectServiceTest.java,springframework,org.springframework.mock.web.MockHttpServletRequest
+syncope,syncope\core\idrepo\rest-cxf\src\test\java\org\apache\syncope\core\rest\cxf\service\AnyObjectServiceTest.java,springframework,org.springframework.mock.web.MockHttpServletResponse
+syncope,syncope\core\provisioning-api\src\test\java\org\apache\syncope\core\provisioning\api\AbstractTest.java,mockito,org.mockito.MockitoAnnotations
+syncope,syncope\core\provisioning-api\src\test\java\org\apache\syncope\core\provisioning\api\AbstractTest.java,mockito,org.mockito.junit.jupiter.MockitoExtension
+syncope,syncope\core\provisioning-api\src\test\java\org\apache\syncope\core\provisioning\api\AbstractTest.java,mockito,org.mockito.junit.jupiter.MockitoSettings
+syncope,syncope\core\provisioning-api\src\test\java\org\apache\syncope\core\provisioning\api\AbstractTest.java,mockito,org.mockito.quality.Strictness
+syncope,syncope\core\provisioning-api\src\test\java\org\apache\syncope\core\provisioning\api\IntAttrNameParserTest.java,mockito,static org.mockito.ArgumentMatchers.any
+syncope,syncope\core\provisioning-api\src\test\java\org\apache\syncope\core\provisioning\api\IntAttrNameParserTest.java,mockito,static org.mockito.ArgumentMatchers.anyString
+syncope,syncope\core\provisioning-api\src\test\java\org\apache\syncope\core\provisioning\api\IntAttrNameParserTest.java,mockito,static org.mockito.Mockito.lenient
+syncope,syncope\core\provisioning-api\src\test\java\org\apache\syncope\core\provisioning\api\IntAttrNameParserTest.java,mockito,static org.mockito.Mockito.mock
+syncope,syncope\core\provisioning-api\src\test\java\org\apache\syncope\core\provisioning\api\IntAttrNameParserTest.java,mockito,static org.mockito.Mockito.when
+syncope,syncope\core\provisioning-api\src\test\java\org\apache\syncope\core\provisioning\api\IntAttrNameParserTest.java,mockito,org.mockito.Mock
+syncope,syncope\core\provisioning-api\src\test\java\org\apache\syncope\core\provisioning\api\PropagationByResourceTest.java,mockito,static org.mockito.ArgumentMatchers.any
+syncope,syncope\core\provisioning-api\src\test\java\org\apache\syncope\core\provisioning\api\PropagationByResourceTest.java,mockito,static org.mockito.Mockito.times
+syncope,syncope\core\provisioning-api\src\test\java\org\apache\syncope\core\provisioning\api\PropagationByResourceTest.java,mockito,static org.mockito.Mockito.verify
+syncope,syncope\core\provisioning-api\src\test\java\org\apache\syncope\core\provisioning\api\PropagationByResourceTest.java,mockito,org.mockito.Mock
+syncope,syncope\core\provisioning-api\src\test\java\org\apache\syncope\core\provisioning\api\WorkflowResultTest.java,mockito,org.mockito.Mock
+syncope,syncope\core\provisioning-api\src\test\java\org\apache\syncope\core\provisioning\api\jexl\MappingTest.java,mockito,static org.mockito.Mockito.mock
+syncope,syncope\core\provisioning-api\src\test\java\org\apache\syncope\core\provisioning\api\jexl\MappingTest.java,mockito,static org.mockito.Mockito.when
+syncope,syncope\core\provisioning-api\src\test\java\org\apache\syncope\core\provisioning\api\job\JobNamerTest.java,mockito,static org.mockito.Mockito.when
+syncope,syncope\core\provisioning-api\src\test\java\org\apache\syncope\core\provisioning\api\job\JobNamerTest.java,mockito,org.mockito.Mock
+syncope,syncope\core\provisioning-api\src\test\java\org\apache\syncope\core\provisioning\api\propagation\PropagationTaskInfoTest.java,mockito,org.mockito.InjectMocks
+syncope,syncope\core\provisioning-api\src\test\java\org\apache\syncope\core\provisioning\api\propagation\PropagationTaskInfoTest.java,mockito,org.mockito.Mock
+syncope,syncope\core\provisioning-api\src\test\java\org\apache\syncope\core\provisioning\api\pushpull\ProvisioningProfileTest.java,mockito,org.mockito.Mock
+syncope,syncope\core\provisioning-api\src\test\java\org\apache\syncope\core\provisioning\api\serialization\AttributeDeserializerTest.java,mockito,static org.mockito.Mockito.when
+syncope,syncope\core\provisioning-api\src\test\java\org\apache\syncope\core\provisioning\api\serialization\AttributeDeserializerTest.java,mockito,org.mockito.Mock
+syncope,syncope\core\provisioning-api\src\test\java\org\apache\syncope\core\provisioning\api\serialization\AttributeSerializerTest.java,mockito,static org.mockito.ArgumentMatchers.any
+syncope,syncope\core\provisioning-api\src\test\java\org\apache\syncope\core\provisioning\api\serialization\AttributeSerializerTest.java,mockito,static org.mockito.ArgumentMatchers.anyBoolean
+syncope,syncope\core\provisioning-api\src\test\java\org\apache\syncope\core\provisioning\api\serialization\AttributeSerializerTest.java,mockito,static org.mockito.ArgumentMatchers.anyDouble
+syncope,syncope\core\provisioning-api\src\test\java\org\apache\syncope\core\provisioning\api\serialization\AttributeSerializerTest.java,mockito,static org.mockito.ArgumentMatchers.anyInt
+syncope,syncope\core\provisioning-api\src\test\java\org\apache\syncope\core\provisioning\api\serialization\AttributeSerializerTest.java,mockito,static org.mockito.ArgumentMatchers.anyLong
+syncope,syncope\core\provisioning-api\src\test\java\org\apache\syncope\core\provisioning\api\serialization\AttributeSerializerTest.java,mockito,static org.mockito.ArgumentMatchers.anyString
+syncope,syncope\core\provisioning-api\src\test\java\org\apache\syncope\core\provisioning\api\serialization\AttributeSerializerTest.java,mockito,static org.mockito.ArgumentMatchers.eq
+syncope,syncope\core\provisioning-api\src\test\java\org\apache\syncope\core\provisioning\api\serialization\AttributeSerializerTest.java,mockito,static org.mockito.Mockito.verify
+syncope,syncope\core\provisioning-api\src\test\java\org\apache\syncope\core\provisioning\api\serialization\AttributeSerializerTest.java,mockito,static org.mockito.Mockito.when
+syncope,syncope\core\provisioning-api\src\test\java\org\apache\syncope\core\provisioning\api\serialization\AttributeSerializerTest.java,mockito,org.mockito.Mock
+syncope,syncope\core\provisioning-api\src\test\java\org\apache\syncope\core\provisioning\api\serialization\GuardedStringDeserializerTest.java,mockito,static org.mockito.Mockito.when
+syncope,syncope\core\provisioning-api\src\test\java\org\apache\syncope\core\provisioning\api\serialization\GuardedStringDeserializerTest.java,mockito,org.mockito.Mock
+syncope,syncope\core\provisioning-api\src\test\java\org\apache\syncope\core\provisioning\api\serialization\GuardedStringSerializerTest.java,mockito,static org.mockito.ArgumentMatchers.anyString
+syncope,syncope\core\provisioning-api\src\test\java\org\apache\syncope\core\provisioning\api\serialization\GuardedStringSerializerTest.java,mockito,static org.mockito.ArgumentMatchers.eq
+syncope,syncope\core\provisioning-api\src\test\java\org\apache\syncope\core\provisioning\api\serialization\GuardedStringSerializerTest.java,mockito,static org.mockito.Mockito.verify
+syncope,syncope\core\provisioning-api\src\test\java\org\apache\syncope\core\provisioning\api\serialization\GuardedStringSerializerTest.java,mockito,org.mockito.Mock
+syncope,syncope\core\provisioning-api\src\test\java\org\apache\syncope\core\provisioning\api\serialization\POJOHelperTest.java,mockito,org.mockito.Mock
+syncope,syncope\core\provisioning-api\src\test\java\org\apache\syncope\core\provisioning\api\serialization\SyncTokenDeserializerTest.java,mockito,static org.mockito.Mockito.when
+syncope,syncope\core\provisioning-api\src\test\java\org\apache\syncope\core\provisioning\api\serialization\SyncTokenDeserializerTest.java,mockito,org.mockito.Mock
+syncope,syncope\core\provisioning-api\src\test\java\org\apache\syncope\core\provisioning\api\serialization\SyncTokenSerializerTest.java,mockito,static org.mockito.ArgumentMatchers.anyString
+syncope,syncope\core\provisioning-api\src\test\java\org\apache\syncope\core\provisioning\api\serialization\SyncTokenSerializerTest.java,mockito,static org.mockito.Mockito.times
+syncope,syncope\core\provisioning-api\src\test\java\org\apache\syncope\core\provisioning\api\serialization\SyncTokenSerializerTest.java,mockito,static org.mockito.Mockito.verify
+syncope,syncope\core\provisioning-api\src\test\java\org\apache\syncope\core\provisioning\api\serialization\SyncTokenSerializerTest.java,mockito,org.mockito.Mock
+syncope,syncope\core\provisioning-api\src\test\java\org\apache\syncope\core\provisioning\api\utils\ConnPoolConfUtilsTest.java,mockito,static org.mockito.ArgumentMatchers.anyInt
+syncope,syncope\core\provisioning-api\src\test\java\org\apache\syncope\core\provisioning\api\utils\ConnPoolConfUtilsTest.java,mockito,static org.mockito.ArgumentMatchers.anyLong
+syncope,syncope\core\provisioning-api\src\test\java\org\apache\syncope\core\provisioning\api\utils\ConnPoolConfUtilsTest.java,mockito,static org.mockito.Mockito.verify
+syncope,syncope\core\provisioning-api\src\test\java\org\apache\syncope\core\provisioning\api\utils\ConnPoolConfUtilsTest.java,mockito,org.mockito.Mock
+syncope,syncope\core\provisioning-api\src\test\java\org\apache\syncope\core\provisioning\api\utils\JexlUtilsTest.java,mockito,static org.mockito.ArgumentMatchers.any
+syncope,syncope\core\provisioning-api\src\test\java\org\apache\syncope\core\provisioning\api\utils\JexlUtilsTest.java,mockito,static org.mockito.ArgumentMatchers.anyString
+syncope,syncope\core\provisioning-api\src\test\java\org\apache\syncope\core\provisioning\api\utils\JexlUtilsTest.java,mockito,static org.mockito.ArgumentMatchers.eq
+syncope,syncope\core\provisioning-api\src\test\java\org\apache\syncope\core\provisioning\api\utils\JexlUtilsTest.java,mockito,static org.mockito.Mockito.times
+syncope,syncope\core\provisioning-api\src\test\java\org\apache\syncope\core\provisioning\api\utils\JexlUtilsTest.java,mockito,static org.mockito.Mockito.verify
+syncope,syncope\core\provisioning-api\src\test\java\org\apache\syncope\core\provisioning\api\utils\JexlUtilsTest.java,mockito,static org.mockito.Mockito.when
+syncope,syncope\core\provisioning-api\src\test\java\org\apache\syncope\core\provisioning\api\utils\JexlUtilsTest.java,mockito,org.mockito.Mock
+syncope,syncope\core\provisioning-java\src\test\java\org\apache\syncope\core\provisioning\java\AbstractTest.java,mockito,org.mockito.MockitoAnnotations
+syncope,syncope\core\provisioning-java\src\test\java\org\apache\syncope\core\provisioning\java\AbstractTest.java,mockito,org.mockito.junit.jupiter.MockitoExtension
+syncope,syncope\core\provisioning-java\src\test\java\org\apache\syncope\core\provisioning\java\pushpull\DBPasswordPullActionsTest.java,mockito,static org.mockito.ArgumentMatchers.any
+syncope,syncope\core\provisioning-java\src\test\java\org\apache\syncope\core\provisioning\java\pushpull\DBPasswordPullActionsTest.java,mockito,static org.mockito.ArgumentMatchers.anyString
+syncope,syncope\core\provisioning-java\src\test\java\org\apache\syncope\core\provisioning\java\pushpull\DBPasswordPullActionsTest.java,mockito,static org.mockito.Mockito.lenient
+syncope,syncope\core\provisioning-java\src\test\java\org\apache\syncope\core\provisioning\java\pushpull\DBPasswordPullActionsTest.java,mockito,static org.mockito.Mockito.verify
+syncope,syncope\core\provisioning-java\src\test\java\org\apache\syncope\core\provisioning\java\pushpull\DBPasswordPullActionsTest.java,mockito,static org.mockito.Mockito.when
+syncope,syncope\core\provisioning-java\src\test\java\org\apache\syncope\core\provisioning\java\pushpull\DBPasswordPullActionsTest.java,mockito,org.mockito.InjectMocks
+syncope,syncope\core\provisioning-java\src\test\java\org\apache\syncope\core\provisioning\java\pushpull\DBPasswordPullActionsTest.java,mockito,org.mockito.Mock
+syncope,syncope\core\provisioning-java\src\test\java\org\apache\syncope\core\provisioning\java\pushpull\LDAPMembershipPullActionsTest.java,mockito,static org.mockito.ArgumentMatchers.any
+syncope,syncope\core\provisioning-java\src\test\java\org\apache\syncope\core\provisioning\java\pushpull\LDAPMembershipPullActionsTest.java,mockito,static org.mockito.ArgumentMatchers.anyString
+syncope,syncope\core\provisioning-java\src\test\java\org\apache\syncope\core\provisioning\java\pushpull\LDAPMembershipPullActionsTest.java,mockito,static org.mockito.Mockito.lenient
+syncope,syncope\core\provisioning-java\src\test\java\org\apache\syncope\core\provisioning\java\pushpull\LDAPMembershipPullActionsTest.java,mockito,static org.mockito.Mockito.mock
+syncope,syncope\core\provisioning-java\src\test\java\org\apache\syncope\core\provisioning\java\pushpull\LDAPMembershipPullActionsTest.java,mockito,static org.mockito.Mockito.verify
+syncope,syncope\core\provisioning-java\src\test\java\org\apache\syncope\core\provisioning\java\pushpull\LDAPMembershipPullActionsTest.java,mockito,static org.mockito.Mockito.when
+syncope,syncope\core\provisioning-java\src\test\java\org\apache\syncope\core\provisioning\java\pushpull\LDAPMembershipPullActionsTest.java,mockito,org.mockito.InjectMocks
+syncope,syncope\core\provisioning-java\src\test\java\org\apache\syncope\core\provisioning\java\pushpull\LDAPMembershipPullActionsTest.java,mockito,org.mockito.Mock
+syncope,syncope\core\provisioning-java\src\test\java\org\apache\syncope\core\provisioning\java\pushpull\LDAPPasswordPullActionsTest.java,mockito,static org.mockito.ArgumentMatchers.any
+syncope,syncope\core\provisioning-java\src\test\java\org\apache\syncope\core\provisioning\java\pushpull\LDAPPasswordPullActionsTest.java,mockito,static org.mockito.ArgumentMatchers.anyString
+syncope,syncope\core\provisioning-java\src\test\java\org\apache\syncope\core\provisioning\java\pushpull\LDAPPasswordPullActionsTest.java,mockito,static org.mockito.Mockito.when
+syncope,syncope\core\provisioning-java\src\test\java\org\apache\syncope\core\provisioning\java\pushpull\LDAPPasswordPullActionsTest.java,mockito,static org.mockito.Mockito.verify
+syncope,syncope\core\provisioning-java\src\test\java\org\apache\syncope\core\provisioning\java\pushpull\LDAPPasswordPullActionsTest.java,mockito,org.mockito.InjectMocks
+syncope,syncope\core\provisioning-java\src\test\java\org\apache\syncope\core\provisioning\java\pushpull\LDAPPasswordPullActionsTest.java,mockito,org.mockito.Mock
+syncope,syncope\ext\elasticsearch\persistence-jpa\src\test\java\org\apache\syncope\core\persistence\jpa\dao\ElasticsearchAnySearchDAOTest.java,mockito,static org.mockito.Mockito.mock
+syncope,syncope\ext\elasticsearch\persistence-jpa\src\test\java\org\apache\syncope\core\persistence\jpa\dao\ElasticsearchAnySearchDAOTest.java,mockito,static org.mockito.Mockito.when
+syncope,syncope\ext\elasticsearch\persistence-jpa\src\test\java\org\apache\syncope\core\persistence\jpa\dao\ElasticsearchAnySearchDAOTest.java,mockito,org.mockito.InjectMocks
+syncope,syncope\ext\elasticsearch\persistence-jpa\src\test\java\org\apache\syncope\core\persistence\jpa\dao\ElasticsearchAnySearchDAOTest.java,mockito,org.mockito.Mock
+syncope,syncope\ext\elasticsearch\persistence-jpa\src\test\java\org\apache\syncope\core\persistence\jpa\dao\ElasticsearchAnySearchDAOTest.java,mockito,org.mockito.MockedStatic
+syncope,syncope\ext\elasticsearch\persistence-jpa\src\test\java\org\apache\syncope\core\persistence\jpa\dao\ElasticsearchAnySearchDAOTest.java,mockito,org.mockito.Mockito
+syncope,syncope\ext\elasticsearch\persistence-jpa\src\test\java\org\apache\syncope\core\persistence\jpa\dao\ElasticsearchAnySearchDAOTest.java,mockito,org.mockito.junit.jupiter.MockitoExtension
+syncope,syncope\sra\src\test\java\org\apache\syncope\sra\AbstractTest.java,springframework,org.springframework.cloud.contract.wiremock.AutoConfigureWireMock
+syncope,syncope\sra\src\test\java\org\apache\syncope\sra\RouteProviderTest.java,wiremock,static com.github.tomakehurst.wiremock.client.WireMock.aResponse
+syncope,syncope\sra\src\test\java\org\apache\syncope\sra\RouteProviderTest.java,wiremock,static com.github.tomakehurst.wiremock.client.WireMock.equalTo
+syncope,syncope\sra\src\test\java\org\apache\syncope\sra\RouteProviderTest.java,wiremock,static com.github.tomakehurst.wiremock.client.WireMock.get
+syncope,syncope\sra\src\test\java\org\apache\syncope\sra\RouteProviderTest.java,wiremock,static com.github.tomakehurst.wiremock.client.WireMock.getRequestedFor
+syncope,syncope\sra\src\test\java\org\apache\syncope\sra\RouteProviderTest.java,wiremock,static com.github.tomakehurst.wiremock.client.WireMock.post
+syncope,syncope\sra\src\test\java\org\apache\syncope\sra\RouteProviderTest.java,wiremock,static com.github.tomakehurst.wiremock.client.WireMock.stubFor
+syncope,syncope\sra\src\test\java\org\apache\syncope\sra\RouteProviderTest.java,wiremock,static com.github.tomakehurst.wiremock.client.WireMock.urlEqualTo
+syncope,syncope\sra\src\test\java\org\apache\syncope\sra\RouteProviderTest.java,wiremock,static com.github.tomakehurst.wiremock.client.WireMock.verify
+syncope,syncope\sra\src\test\java\org\apache\syncope\sra\RouteProviderTest.java,mockito,static org.mockito.ArgumentMatchers.anyString
+syncope,syncope\sra\src\test\java\org\apache\syncope\sra\RouteProviderTest.java,mockito,static org.mockito.ArgumentMatchers.eq
+syncope,syncope\sra\src\test\java\org\apache\syncope\sra\RouteProviderTest.java,mockito,static org.mockito.Mockito.mock
+syncope,syncope\sra\src\test\java\org\apache\syncope\sra\RouteProviderTest.java,mockito,static org.mockito.Mockito.when
+syncope,syncope\sra\src\test\java\org\apache\syncope\sra\TLSRouteProviderTest.java,wiremock,static com.github.tomakehurst.wiremock.client.WireMock.aResponse
+syncope,syncope\sra\src\test\java\org\apache\syncope\sra\TLSRouteProviderTest.java,wiremock,static com.github.tomakehurst.wiremock.client.WireMock.get
+syncope,syncope\sra\src\test\java\org\apache\syncope\sra\TLSRouteProviderTest.java,wiremock,static com.github.tomakehurst.wiremock.client.WireMock.getRequestedFor
+syncope,syncope\sra\src\test\java\org\apache\syncope\sra\TLSRouteProviderTest.java,wiremock,static com.github.tomakehurst.wiremock.client.WireMock.stubFor
+syncope,syncope\sra\src\test\java\org\apache\syncope\sra\TLSRouteProviderTest.java,wiremock,static com.github.tomakehurst.wiremock.client.WireMock.urlEqualTo
+syncope,syncope\sra\src\test\java\org\apache\syncope\sra\TLSRouteProviderTest.java,wiremock,static com.github.tomakehurst.wiremock.client.WireMock.verify
+syncope,syncope\sra\src\test\java\org\apache\syncope\sra\TLSRouteProviderTest.java,wiremock,com.github.tomakehurst.wiremock.matching.AnythingPattern
+syncope,syncope\wa\starter\src\test\java\org\apache\syncope\wa\starter\audit\SyncopeWAAuditTrailManagerTest.java,mockito,static org.mockito.ArgumentMatchers.any
+syncope,syncope\wa\starter\src\test\java\org\apache\syncope\wa\starter\audit\SyncopeWAAuditTrailManagerTest.java,mockito,static org.mockito.Mockito.mock
+syncope,syncope\wa\starter\src\test\java\org\apache\syncope\wa\starter\audit\SyncopeWAAuditTrailManagerTest.java,mockito,static org.mockito.Mockito.verify
+syncope,syncope\wa\starter\src\test\java\org\apache\syncope\wa\starter\audit\SyncopeWAAuditTrailManagerTest.java,mockito,static org.mockito.Mockito.when
+syncope,syncope\wa\starter\src\test\java\org\apache\syncope\wa\starter\events\SyncopeWAEventRepositoryTest.java,mockito,static org.mockito.ArgumentMatchers.any
+syncope,syncope\wa\starter\src\test\java\org\apache\syncope\wa\starter\events\SyncopeWAEventRepositoryTest.java,mockito,static org.mockito.Mockito.mock
+syncope,syncope\wa\starter\src\test\java\org\apache\syncope\wa\starter\events\SyncopeWAEventRepositoryTest.java,mockito,static org.mockito.Mockito.verify
+syncope,syncope\wa\starter\src\test\java\org\apache\syncope\wa\starter\events\SyncopeWAEventRepositoryTest.java,mockito,static org.mockito.Mockito.when
+syncope,syncope\wa\starter\src\test\java\org\apache\syncope\wa\starter\pac4j\saml\SyncopeWASAML2ClientCustomizerTest.java,mockito,static org.mockito.ArgumentMatchers.any
+syncope,syncope\wa\starter\src\test\java\org\apache\syncope\wa\starter\pac4j\saml\SyncopeWASAML2ClientCustomizerTest.java,mockito,static org.mockito.ArgumentMatchers.anyString
+syncope,syncope\wa\starter\src\test\java\org\apache\syncope\wa\starter\pac4j\saml\SyncopeWASAML2ClientCustomizerTest.java,mockito,static org.mockito.Mockito.doNothing
+syncope,syncope\wa\starter\src\test\java\org\apache\syncope\wa\starter\pac4j\saml\SyncopeWASAML2ClientCustomizerTest.java,mockito,static org.mockito.Mockito.mock
+syncope,syncope\wa\starter\src\test\java\org\apache\syncope\wa\starter\pac4j\saml\SyncopeWASAML2ClientCustomizerTest.java,mockito,static org.mockito.Mockito.when
+syncope,syncope\wa\starter\src\test\java\org\apache\syncope\wa\starter\pac4j\saml\SyncopeWASAML2ClientKeystoreGeneratorTest.java,mockito,static org.mockito.ArgumentMatchers.any
+syncope,syncope\wa\starter\src\test\java\org\apache\syncope\wa\starter\pac4j\saml\SyncopeWASAML2ClientKeystoreGeneratorTest.java,mockito,static org.mockito.ArgumentMatchers.anyString
+syncope,syncope\wa\starter\src\test\java\org\apache\syncope\wa\starter\pac4j\saml\SyncopeWASAML2ClientKeystoreGeneratorTest.java,mockito,static org.mockito.Mockito.doNothing
+syncope,syncope\wa\starter\src\test\java\org\apache\syncope\wa\starter\pac4j\saml\SyncopeWASAML2ClientKeystoreGeneratorTest.java,mockito,static org.mockito.Mockito.mock
+syncope,syncope\wa\starter\src\test\java\org\apache\syncope\wa\starter\pac4j\saml\SyncopeWASAML2ClientKeystoreGeneratorTest.java,mockito,static org.mockito.Mockito.when
+syncope,syncope\wa\starter\src\test\java\org\apache\syncope\wa\starter\pac4j\saml\SyncopeWASAML2ClientMetadataGeneratorTest.java,mockito,static org.mockito.ArgumentMatchers.any
+syncope,syncope\wa\starter\src\test\java\org\apache\syncope\wa\starter\pac4j\saml\SyncopeWASAML2ClientMetadataGeneratorTest.java,mockito,static org.mockito.ArgumentMatchers.anyString
+syncope,syncope\wa\starter\src\test\java\org\apache\syncope\wa\starter\pac4j\saml\SyncopeWASAML2ClientMetadataGeneratorTest.java,mockito,static org.mockito.Mockito.doNothing
+syncope,syncope\wa\starter\src\test\java\org\apache\syncope\wa\starter\pac4j\saml\SyncopeWASAML2ClientMetadataGeneratorTest.java,mockito,static org.mockito.Mockito.mock
+syncope,syncope\wa\starter\src\test\java\org\apache\syncope\wa\starter\pac4j\saml\SyncopeWASAML2ClientMetadataGeneratorTest.java,mockito,static org.mockito.Mockito.when
+syncope,syncope\wa\starter\src\test\java\org\apache\syncope\wa\starter\pac4j\saml\SyncopeWASAML2MetadataResolverTest.java,mockito,static org.mockito.ArgumentMatchers.any
+syncope,syncope\wa\starter\src\test\java\org\apache\syncope\wa\starter\pac4j\saml\SyncopeWASAML2MetadataResolverTest.java,mockito,static org.mockito.ArgumentMatchers.anyString
+syncope,syncope\wa\starter\src\test\java\org\apache\syncope\wa\starter\pac4j\saml\SyncopeWASAML2MetadataResolverTest.java,mockito,static org.mockito.Mockito.doNothing
+syncope,syncope\wa\starter\src\test\java\org\apache\syncope\wa\starter\pac4j\saml\SyncopeWASAML2MetadataResolverTest.java,mockito,static org.mockito.Mockito.mock
+syncope,syncope\wa\starter\src\test\java\org\apache\syncope\wa\starter\pac4j\saml\SyncopeWASAML2MetadataResolverTest.java,mockito,static org.mockito.Mockito.when
+tajo,tajo\tajo-common\src\test\java\org\apache\tajo\datum\TestTextDatum.java,powermock,org.powermock.reflect.Whitebox
+tajo,tajo\tajo-core-tests\src\test\java\org\apache\tajo\client\TestTajoClient.java,powermock,org.powermock.reflect.Whitebox
+tapestry-5,tapestry-5\genericsresolver-guava\src\test\java\org\apache\tapestry5\genericsresolverguava\internal\AbstractBeanModelSourceImplTest.java,easymock,org.easymock.EasyMock
+tapestry-5,tapestry-5\tapestry-core\src\main\java\org\apache\tapestry5\test\TapestryTestCase.java,easymock,org.easymock.IAnswer
+tapestry-5,tapestry-5\tapestry-core\src\test\java\org\apache\tapestry5\corelib\components\BeanEditorTest.java,easymock,static org.easymock.EasyMock.isA
+tapestry-5,tapestry-5\tapestry-core\src\test\java\org\apache\tapestry5\corelib\components\BeanEditorTest.java,easymock,static org.easymock.EasyMock.eq
+tapestry-5,tapestry-5\tapestry-core\src\test\java\org\apache\tapestry5\corelib\components\BeanEditorTest.java,easymock,static org.easymock.EasyMock.anyObject
+tapestry-5,tapestry-5\tapestry-core\src\test\java\org\apache\tapestry5\corelib\components\BeanEditorTest.java,easymock,org.easymock.EasyMock
+tapestry-5,tapestry-5\tapestry-core\src\test\java\org\apache\tapestry5\corelib\components\BeanEditorTest.java,easymock,org.easymock.IArgumentMatcher
+tapestry-5,tapestry-5\tapestry-core\src\test\java\org\apache\tapestry5\corelib\components\LoopTest.java,easymock,org.easymock.EasyMock
+tapestry-5,tapestry-5\tapestry-core\src\test\java\org\apache\tapestry5\corelib\components\SelectTest.java,easymock,org.easymock.EasyMock
+tapestry-5,tapestry-5\tapestry-core\src\test\java\org\apache\tapestry5\corelib\components\SelectTest.java,easymock,org.easymock.IAnswer
+tapestry-5,tapestry-5\tapestry-core\src\test\java\org\apache\tapestry5\corelib\components\SelectTest.java,easymock,org.easymock.IArgumentMatcher
+tapestry-5,tapestry-5\tapestry-core\src\test\java\org\apache\tapestry5\corelib\components\SubmitTest.java,easymock,static org.easymock.EasyMock.isA
+tapestry-5,tapestry-5\tapestry-core\src\test\java\org\apache\tapestry5\internal\beaneditor\BeanModelUtilsTest.java,easymock,org.easymock.EasyMock
+tapestry-5,tapestry-5\tapestry-core\src\test\java\org\apache\tapestry5\internal\services\AbstractBeanModelSourceImplTest.java,easymock,org.easymock.EasyMock
+tapestry-5,tapestry-5\tapestry-core\src\test\java\org\apache\tapestry5\internal\services\ApplicationStateManagerImplTest.java,easymock,org.easymock.EasyMock
+tapestry-5,tapestry-5\tapestry-core\src\test\java\org\apache\tapestry5\internal\services\ApplicationStateManagerImplTest.java,easymock,static org.easymock.EasyMock.eq
+tapestry-5,tapestry-5\tapestry-core\src\test\java\org\apache\tapestry5\internal\services\ApplicationStateManagerImplTest.java,easymock,static org.easymock.EasyMock.isA
+tapestry-5,tapestry-5\tapestry-core\src\test\java\org\apache\tapestry5\internal\services\ApplicationStateManagerImplTest.java,easymock,org.easymock.IAnswer
+tapestry-5,tapestry-5\tapestry-core\src\test\java\org\apache\tapestry5\internal\services\ClientPersistentFieldStorageImplTest.java,easymock,org.easymock.EasyMock
+tapestry-5,tapestry-5\tapestry-core\src\test\java\org\apache\tapestry5\internal\services\ClientPersistentFieldStorageImplTest.java,easymock,org.easymock.IAnswer
+tapestry-5,tapestry-5\tapestry-core\src\test\java\org\apache\tapestry5\internal\services\ClientPersistentFieldStorageImplTest.java,easymock,static org.easymock.EasyMock.eq
+tapestry-5,tapestry-5\tapestry-core\src\test\java\org\apache\tapestry5\internal\services\ClientPersistentFieldStorageImplTest.java,easymock,static org.easymock.EasyMock.isA
+tapestry-5,tapestry-5\tapestry-core\src\test\java\org\apache\tapestry5\internal\services\ComponentEventImplTest.java,easymock,org.easymock.EasyMock
+tapestry-5,tapestry-5\tapestry-core\src\test\java\org\apache\tapestry5\internal\services\ComponentEventImplTest.java,easymock,org.easymock.IAnswer
+tapestry-5,tapestry-5\tapestry-core\src\test\java\org\apache\tapestry5\internal\services\ComponentEventImplTest.java,easymock,static org.easymock.EasyMock.eq
+tapestry-5,tapestry-5\tapestry-core\src\test\java\org\apache\tapestry5\internal\services\ComponentEventImplTest.java,easymock,static org.easymock.EasyMock.isA
+tapestry-5,tapestry-5\tapestry-core\src\test\java\org\apache\tapestry5\internal\services\DefaultRequestExceptionHandlerTest.java,easymock,org.easymock.EasyMock
+tapestry-5,tapestry-5\tapestry-core\src\test\java\org\apache\tapestry5\internal\services\FieldValidationSupportImplTest.java,easymock,org.easymock.EasyMock
+tapestry-5,tapestry-5\tapestry-core\src\test\java\org\apache\tapestry5\internal\services\FieldValidationSupportImplTest.java,easymock,org.easymock.IAnswer
+tapestry-5,tapestry-5\tapestry-core\src\test\java\org\apache\tapestry5\internal\services\FieldValidationSupportImplTest.java,easymock,static org.easymock.EasyMock.eq
+tapestry-5,tapestry-5\tapestry-core\src\test\java\org\apache\tapestry5\internal\services\FieldValidatorSourceImplTest.java,easymock,org.easymock.EasyMock
+tapestry-5,tapestry-5\tapestry-core\src\test\java\org\apache\tapestry5\internal\services\PageActivationContextCollectorImplTest.java,easymock,org.easymock.EasyMock
+tapestry-5,tapestry-5\tapestry-core\src\test\java\org\apache\tapestry5\internal\services\PageActivationContextCollectorImplTest.java,easymock,org.easymock.IAnswer
+tapestry-5,tapestry-5\tapestry-core\src\test\java\org\apache\tapestry5\internal\services\RenderQueueImplTest.java,easymock,static org.easymock.EasyMock.eq
+tapestry-5,tapestry-5\tapestry-core\src\test\java\org\apache\tapestry5\internal\services\RenderQueueImplTest.java,easymock,static org.easymock.EasyMock.isA
+tapestry-5,tapestry-5\tapestry-core\src\test\java\org\apache\tapestry5\internal\structure\PageImplTest.java,easymock,static org.easymock.EasyMock.contains
+tapestry-5,tapestry-5\tapestry-core\src\test\java\org\apache\tapestry5\internal\structure\PageImplTest.java,easymock,static org.easymock.EasyMock.same
+tapestry-5,tapestry-5\tapestry-core\src\test\java\org\apache\tapestry5\internal\test\InternalBaseTestCase.java,easymock,org.easymock.EasyMock
+tapestry-5,tapestry-5\tapestry-core\src\test\java\org\apache\tapestry5\internal\test\InternalBaseTestCase.java,easymock,static org.easymock.EasyMock.isA
+tapestry-5,tapestry-5\tapestry-ioc\src\main\java\org\apache\tapestry5\ioc\test\IOCTestCase.java,easymock,static org.easymock.EasyMock.isA
+tapestry-5,tapestry-5\tapestry-test\src\main\java\org\apache\tapestry5\test\ioc\MockTester.java,easymock,org.easymock.EasyMock
+tapestry-5,tapestry-5\tapestry-test\src\main\java\org\apache\tapestry5\test\ioc\MockTester.java,easymock,org.easymock.IMocksControl
+tapestry-5,tapestry-5\tapestry-test\src\main\java\org\apache\tapestry5\test\ioc\TestBase.java,easymock,org.easymock.*
+tapestry-5,tapestry-5\tapestry-upload\src\test\java\org\apache\tapestry5\upload\components\UploadTest.java,easymock,static org.easymock.EasyMock.expectLastCall
+tapestry-5,tapestry-5\tapestry-upload\src\test\java\org\apache\tapestry5\upload\internal\services\ParametersServletRequestWrapperTest.java,easymock,static org.easymock.EasyMock.*
+tez,tez\tez-api\src\test\java\org\apache\tez\client\TestTezClient.java,mockito,static org.mockito.Matchers.any
+tez,tez\tez-api\src\test\java\org\apache\tez\client\TestTezClient.java,mockito,static org.mockito.Matchers.isNull
+tez,tez\tez-api\src\test\java\org\apache\tez\client\TestTezClient.java,mockito,static org.mockito.Mockito.RETURNS_DEEP_STUBS
+tez,tez\tez-api\src\test\java\org\apache\tez\client\TestTezClient.java,mockito,static org.mockito.Mockito.times
+tez,tez\tez-api\src\test\java\org\apache\tez\client\TestTezClient.java,mockito,static org.mockito.Mockito.atLeast
+tez,tez\tez-api\src\test\java\org\apache\tez\client\TestTezClient.java,mockito,static org.mockito.Mockito.doCallRealMethod
+tez,tez\tez-api\src\test\java\org\apache\tez\client\TestTezClient.java,mockito,static org.mockito.Mockito.mock
+tez,tez\tez-api\src\test\java\org\apache\tez\client\TestTezClient.java,mockito,static org.mockito.Mockito.spy
+tez,tez\tez-api\src\test\java\org\apache\tez\client\TestTezClient.java,mockito,static org.mockito.Mockito.verify
+tez,tez\tez-api\src\test\java\org\apache\tez\client\TestTezClient.java,mockito,static org.mockito.Mockito.when
+tez,tez\tez-api\src\test\java\org\apache\tez\client\TestTezClient.java,mockito,org.mockito.ArgumentCaptor
+tez,tez\tez-api\src\test\java\org\apache\tez\common\security\TestTokenCache.java,mockito,static org.mockito.Matchers.any
+tez,tez\tez-api\src\test\java\org\apache\tez\common\security\TestTokenCache.java,mockito,static org.mockito.Mockito.mock
+tez,tez\tez-api\src\test\java\org\apache\tez\common\security\TestTokenCache.java,mockito,static org.mockito.Mockito.times
+tez,tez\tez-api\src\test\java\org\apache\tez\common\security\TestTokenCache.java,mockito,static org.mockito.Mockito.verify
+tez,tez\tez-api\src\test\java\org\apache\tez\common\security\TestTokenCache.java,mockito,static org.mockito.Mockito.when
+tez,tez\tez-api\src\test\java\org\apache\tez\common\security\TestTokenCache.java,mockito,org.mockito.invocation.InvocationOnMock
+tez,tez\tez-api\src\test\java\org\apache\tez\common\security\TestTokenCache.java,mockito,org.mockito.stubbing.Answer
+tez,tez\tez-api\src\test\java\org\apache\tez\dag\api\TestEntityDescriptor.java,mockito,org.mockito.Mockito
+tez,tez\tez-api\src\test\java\org\apache\tez\dag\api\TestEntityDescriptor.java,mockito,static org.mockito.Matchers.any
+tez,tez\tez-api\src\test\java\org\apache\tez\dag\api\TestEntityDescriptor.java,mockito,static org.mockito.Matchers.eq
+tez,tez\tez-api\src\test\java\org\apache\tez\dag\api\TestEntityDescriptor.java,mockito,static org.mockito.Mockito.spy
+tez,tez\tez-api\src\test\java\org\apache\tez\dag\api\client\TestATSHttpClient.java,mockito,static org.mockito.Mockito.doReturn
+tez,tez\tez-api\src\test\java\org\apache\tez\dag\api\client\TestATSHttpClient.java,mockito,static org.mockito.Mockito.mock
+tez,tez\tez-api\src\test\java\org\apache\tez\dag\api\client\TestATSHttpClient.java,mockito,static org.mockito.Mockito.spy
+tez,tez\tez-api\src\test\java\org\apache\tez\dag\api\client\TestATSHttpClient.java,mockito,static org.mockito.Mockito.verify
+tez,tez\tez-api\src\test\java\org\apache\tez\dag\api\client\TestTimelineReaderFactory.java,mockito,static org.mockito.Mockito.mock
+tez,tez\tez-api\src\test\java\org\apache\tez\dag\api\client\rpc\TestDAGClient.java,mockito,static org.mockito.Matchers.*
+tez,tez\tez-api\src\test\java\org\apache\tez\dag\api\client\rpc\TestDAGClient.java,mockito,static org.mockito.Mockito.doAnswer
+tez,tez\tez-api\src\test\java\org\apache\tez\dag\api\client\rpc\TestDAGClient.java,mockito,static org.mockito.Mockito.mock
+tez,tez\tez-api\src\test\java\org\apache\tez\dag\api\client\rpc\TestDAGClient.java,mockito,static org.mockito.Mockito.times
+tez,tez\tez-api\src\test\java\org\apache\tez\dag\api\client\rpc\TestDAGClient.java,mockito,static org.mockito.Mockito.verify
+tez,tez\tez-api\src\test\java\org\apache\tez\dag\api\client\rpc\TestDAGClient.java,mockito,static org.mockito.Mockito.when
+tez,tez\tez-api\src\test\java\org\apache\tez\dag\api\client\rpc\TestDAGClient.java,mockito,org.mockito.ArgumentCaptor
+tez,tez\tez-api\src\test\java\org\apache\tez\dag\api\client\rpc\TestDAGClient.java,mockito,org.mockito.ArgumentMatcher
+tez,tez\tez-api\src\test\java\org\apache\tez\dag\api\client\rpc\TestDAGClient.java,mockito,org.mockito.internal.util.collections.Sets
+tez,tez\tez-api\src\test\java\org\apache\tez\dag\api\client\rpc\TestDAGClient.java,mockito,org.mockito.invocation.InvocationOnMock
+tez,tez\tez-api\src\test\java\org\apache\tez\dag\api\client\rpc\TestDAGClient.java,mockito,org.mockito.stubbing.Answer
+tez,tez\tez-dag\src\test\java\org\apache\tez\dag\api\client\TestDAGClientHandler.java,mockito,static org.mockito.Mockito.*
+tez,tez\tez-dag\src\test\java\org\apache\tez\dag\api\client\TestDAGClientHandler.java,mockito,org.mockito.ArgumentCaptor
+tez,tez\tez-dag\src\test\java\org\apache\tez\dag\api\client\TestDAGClientHandler.java,mockito,org.mockito.internal.util.collections.Sets
+tez,tez\tez-dag\src\test\java\org\apache\tez\dag\api\client\TestDAGClientServer.java,mockito,static org.mockito.Mockito.*
+tez,tez\tez-dag\src\test\java\org\apache\tez\dag\api\client\rpc\TestDAGClientAMProtocolBlockingPBServerImpl.java,mockito,static org.mockito.Matchers.any
+tez,tez\tez-dag\src\test\java\org\apache\tez\dag\api\client\rpc\TestDAGClientAMProtocolBlockingPBServerImpl.java,mockito,static org.mockito.Mockito.*
+tez,tez\tez-dag\src\test\java\org\apache\tez\dag\api\client\rpc\TestDAGClientAMProtocolBlockingPBServerImpl.java,mockito,org.mockito.ArgumentCaptor
+tez,tez\tez-dag\src\test\java\org\apache\tez\dag\api\client\rpc\TestDAGClientAMProtocolBlockingPBServerImpl.java,mockito,org.mockito.Captor
+tez,tez\tez-dag\src\test\java\org\apache\tez\dag\api\client\rpc\TestDAGClientAMProtocolBlockingPBServerImpl.java,mockito,org.mockito.MockitoAnnotations
+tez,tez\tez-dag\src\test\java\org\apache\tez\dag\app\PluginWrapperTestHelpers.java,mockito,static org.mockito.Mockito.mock
+tez,tez\tez-dag\src\test\java\org\apache\tez\dag\app\PluginWrapperTestHelpers.java,mockito,org.mockito.invocation.InvocationOnMock
+tez,tez\tez-dag\src\test\java\org\apache\tez\dag\app\PluginWrapperTestHelpers.java,mockito,org.mockito.stubbing.Answer
+tez,tez\tez-dag\src\test\java\org\apache\tez\dag\app\TestDAGAppMaster.java,mockito,static org.mockito.Mockito.mock
+tez,tez\tez-dag\src\test\java\org\apache\tez\dag\app\TestDAGAppMaster.java,mockito,static org.mockito.Mockito.spy
+tez,tez\tez-dag\src\test\java\org\apache\tez\dag\app\TestDAGAppMaster.java,mockito,static org.mockito.Mockito.verify
+tez,tez\tez-dag\src\test\java\org\apache\tez\dag\app\TestDAGAppMaster.java,mockito,static org.mockito.Mockito.when
+tez,tez\tez-dag\src\test\java\org\apache\tez\dag\app\TestRecoveryParser.java,mockito,static org.mockito.Mockito.*
+tez,tez\tez-dag\src\test\java\org\apache\tez\dag\app\TestTaskCommunicatorContextImpl.java,mockito,static org.mockito.Mockito.doReturn
+tez,tez\tez-dag\src\test\java\org\apache\tez\dag\app\TestTaskCommunicatorContextImpl.java,mockito,static org.mockito.Mockito.mock
+tez,tez\tez-dag\src\test\java\org\apache\tez\dag\app\TestTaskCommunicatorContextImpl.java,mockito,static org.mockito.Mockito.never
+tez,tez\tez-dag\src\test\java\org\apache\tez\dag\app\TestTaskCommunicatorContextImpl.java,mockito,static org.mockito.Mockito.reset
+tez,tez\tez-dag\src\test\java\org\apache\tez\dag\app\TestTaskCommunicatorContextImpl.java,mockito,static org.mockito.Mockito.verify
+tez,tez\tez-dag\src\test\java\org\apache\tez\dag\app\TestTaskCommunicatorContextImpl.java,mockito,static org.mockito.Mockito.when
+tez,tez\tez-dag\src\test\java\org\apache\tez\dag\app\TestTaskCommunicatorManager.java,mockito,static org.mockito.Matchers.any
+tez,tez\tez-dag\src\test\java\org\apache\tez\dag\app\TestTaskCommunicatorManager.java,mockito,static org.mockito.Matchers.eq
+tez,tez\tez-dag\src\test\java\org\apache\tez\dag\app\TestTaskCommunicatorManager.java,mockito,static org.mockito.Mockito.RETURNS_DEEP_STUBS
+tez,tez\tez-dag\src\test\java\org\apache\tez\dag\app\TestTaskCommunicatorManager.java,mockito,static org.mockito.Mockito.doReturn
+tez,tez\tez-dag\src\test\java\org\apache\tez\dag\app\TestTaskCommunicatorManager.java,mockito,static org.mockito.Mockito.mock
+tez,tez\tez-dag\src\test\java\org\apache\tez\dag\app\TestTaskCommunicatorManager.java,mockito,static org.mockito.Mockito.reset
+tez,tez\tez-dag\src\test\java\org\apache\tez\dag\app\TestTaskCommunicatorManager.java,mockito,static org.mockito.Mockito.spy
+tez,tez\tez-dag\src\test\java\org\apache\tez\dag\app\TestTaskCommunicatorManager.java,mockito,static org.mockito.Mockito.times
+tez,tez\tez-dag\src\test\java\org\apache\tez\dag\app\TestTaskCommunicatorManager.java,mockito,static org.mockito.Mockito.verify
+tez,tez\tez-dag\src\test\java\org\apache\tez\dag\app\TestTaskCommunicatorManager.java,mockito,static org.mockito.Mockito.when
+tez,tez\tez-dag\src\test\java\org\apache\tez\dag\app\TestTaskCommunicatorManager.java,mockito,org.mockito.ArgumentCaptor
+tez,tez\tez-dag\src\test\java\org\apache\tez\dag\app\TestTaskCommunicatorManager.java,mockito,org.mockito.invocation.InvocationOnMock
+tez,tez\tez-dag\src\test\java\org\apache\tez\dag\app\TestTaskCommunicatorManager.java,mockito,org.mockito.stubbing.Answer
+tez,tez\tez-dag\src\test\java\org\apache\tez\dag\app\TestTaskCommunicatorManager1.java,mockito,static org.mockito.Matchers.any
+tez,tez\tez-dag\src\test\java\org\apache\tez\dag\app\TestTaskCommunicatorManager1.java,mockito,static org.mockito.Mockito.doReturn
+tez,tez\tez-dag\src\test\java\org\apache\tez\dag\app\TestTaskCommunicatorManager1.java,mockito,static org.mockito.Mockito.mock
+tez,tez\tez-dag\src\test\java\org\apache\tez\dag\app\TestTaskCommunicatorManager1.java,mockito,static org.mockito.Mockito.times
+tez,tez\tez-dag\src\test\java\org\apache\tez\dag\app\TestTaskCommunicatorManager1.java,mockito,static org.mockito.Mockito.verify
+tez,tez\tez-dag\src\test\java\org\apache\tez\dag\app\TestTaskCommunicatorManager1.java,mockito,org.mockito.ArgumentCaptor
+tez,tez\tez-dag\src\test\java\org\apache\tez\dag\app\TestTaskCommunicatorManager2.java,mockito,static org.mockito.Matchers.any
+tez,tez\tez-dag\src\test\java\org\apache\tez\dag\app\TestTaskCommunicatorManager2.java,mockito,static org.mockito.Matchers.anyInt
+tez,tez\tez-dag\src\test\java\org\apache\tez\dag\app\TestTaskCommunicatorManager2.java,mockito,static org.mockito.Matchers.eq
+tez,tez\tez-dag\src\test\java\org\apache\tez\dag\app\TestTaskCommunicatorManager2.java,mockito,static org.mockito.Mockito.doReturn
+tez,tez\tez-dag\src\test\java\org\apache\tez\dag\app\TestTaskCommunicatorManager2.java,mockito,static org.mockito.Mockito.mock
+tez,tez\tez-dag\src\test\java\org\apache\tez\dag\app\TestTaskCommunicatorManager2.java,mockito,static org.mockito.Mockito.reset
+tez,tez\tez-dag\src\test\java\org\apache\tez\dag\app\TestTaskCommunicatorManager2.java,mockito,static org.mockito.Mockito.times
+tez,tez\tez-dag\src\test\java\org\apache\tez\dag\app\TestTaskCommunicatorManager2.java,mockito,static org.mockito.Mockito.verify
+tez,tez\tez-dag\src\test\java\org\apache\tez\dag\app\TestTaskCommunicatorManager2.java,mockito,org.mockito.ArgumentCaptor
+tez,tez\tez-dag\src\test\java\org\apache\tez\dag\app\dag\TestRootInputInitializerManager.java,mockito,static org.mockito.Matchers.any
+tez,tez\tez-dag\src\test\java\org\apache\tez\dag\app\dag\TestRootInputInitializerManager.java,mockito,static org.mockito.Mockito.RETURNS_DEEP_STUBS
+tez,tez\tez-dag\src\test\java\org\apache\tez\dag\app\dag\TestRootInputInitializerManager.java,mockito,static org.mockito.Mockito.doReturn
+tez,tez\tez-dag\src\test\java\org\apache\tez\dag\app\dag\TestRootInputInitializerManager.java,mockito,static org.mockito.Mockito.mock
+tez,tez\tez-dag\src\test\java\org\apache\tez\dag\app\dag\TestRootInputInitializerManager.java,mockito,static org.mockito.Mockito.never
+tez,tez\tez-dag\src\test\java\org\apache\tez\dag\app\dag\TestRootInputInitializerManager.java,mockito,static org.mockito.Mockito.reset
+tez,tez\tez-dag\src\test\java\org\apache\tez\dag\app\dag\TestRootInputInitializerManager.java,mockito,static org.mockito.Mockito.times
+tez,tez\tez-dag\src\test\java\org\apache\tez\dag\app\dag\TestRootInputInitializerManager.java,mockito,static org.mockito.Mockito.verify
+tez,tez\tez-dag\src\test\java\org\apache\tez\dag\app\dag\TestRootInputInitializerManager.java,mockito,static org.mockito.Mockito.when
+tez,tez\tez-dag\src\test\java\org\apache\tez\dag\app\dag\TestRootInputInitializerManager.java,mockito,org.mockito.ArgumentCaptor
+tez,tez\tez-dag\src\test\java\org\apache\tez\dag\app\dag\TestStateChangeNotifier.java,mockito,static org.mockito.Matchers.any
+tez,tez\tez-dag\src\test\java\org\apache\tez\dag\app\dag\TestStateChangeNotifier.java,mockito,static org.mockito.Mockito.doReturn
+tez,tez\tez-dag\src\test\java\org\apache\tez\dag\app\dag\TestStateChangeNotifier.java,mockito,static org.mockito.Mockito.mock
+tez,tez\tez-dag\src\test\java\org\apache\tez\dag\app\dag\TestStateChangeNotifier.java,mockito,static org.mockito.Mockito.never
+tez,tez\tez-dag\src\test\java\org\apache\tez\dag\app\dag\TestStateChangeNotifier.java,mockito,static org.mockito.Mockito.times
+tez,tez\tez-dag\src\test\java\org\apache\tez\dag\app\dag\TestStateChangeNotifier.java,mockito,static org.mockito.Mockito.verify
+tez,tez\tez-dag\src\test\java\org\apache\tez\dag\app\dag\TestStateChangeNotifier.java,mockito,org.mockito.ArgumentCaptor
+tez,tez\tez-dag\src\test\java\org\apache\tez\dag\app\dag\app\TestTezTaskCommunicatorManager.java,mockito,static org.mockito.Mockito.doReturn
+tez,tez\tez-dag\src\test\java\org\apache\tez\dag\app\dag\app\TestTezTaskCommunicatorManager.java,mockito,static org.mockito.Mockito.mock
+tez,tez\tez-dag\src\test\java\org\apache\tez\dag\app\dag\app\TestTezTaskCommunicatorManager.java,mockito,static org.mockito.Mockito.verify
+tez,tez\tez-dag\src\test\java\org\apache\tez\dag\app\dag\impl\TestCommit.java,mockito,static org.mockito.Mockito.doReturn
+tez,tez\tez-dag\src\test\java\org\apache\tez\dag\app\dag\impl\TestCommit.java,mockito,static org.mockito.Mockito.mock
+tez,tez\tez-dag\src\test\java\org\apache\tez\dag\app\dag\impl\TestCommit.java,mockito,static org.mockito.Mockito.when
+tez,tez\tez-dag\src\test\java\org\apache\tez\dag\app\dag\impl\TestDAGImpl.java,mockito,static org.mockito.Matchers.any
+tez,tez\tez-dag\src\test\java\org\apache\tez\dag\app\dag\impl\TestDAGImpl.java,mockito,static org.mockito.Matchers.anyInt
+tez,tez\tez-dag\src\test\java\org\apache\tez\dag\app\dag\impl\TestDAGImpl.java,mockito,static org.mockito.Mockito.doReturn
+tez,tez\tez-dag\src\test\java\org\apache\tez\dag\app\dag\impl\TestDAGImpl.java,mockito,static org.mockito.Mockito.doThrow
+tez,tez\tez-dag\src\test\java\org\apache\tez\dag\app\dag\impl\TestDAGImpl.java,mockito,static org.mockito.Mockito.mock
+tez,tez\tez-dag\src\test\java\org\apache\tez\dag\app\dag\impl\TestDAGImpl.java,mockito,static org.mockito.Mockito.when
+tez,tez\tez-dag\src\test\java\org\apache\tez\dag\app\dag\impl\TestDAGImpl.java,mockito,org.mockito.Mockito
+tez,tez\tez-dag\src\test\java\org\apache\tez\dag\app\dag\impl\TestDAGImpl.java,mockito,org.mockito.invocation.InvocationOnMock
+tez,tez\tez-dag\src\test\java\org\apache\tez\dag\app\dag\impl\TestDAGImpl.java,mockito,org.mockito.stubbing.Answer
+tez,tez\tez-dag\src\test\java\org\apache\tez\dag\app\dag\impl\TestDAGRecovery.java,mockito,static org.mockito.Matchers.any
+tez,tez\tez-dag\src\test\java\org\apache\tez\dag\app\dag\impl\TestDAGRecovery.java,mockito,static org.mockito.Mockito.doReturn
+tez,tez\tez-dag\src\test\java\org\apache\tez\dag\app\dag\impl\TestDAGRecovery.java,mockito,static org.mockito.Mockito.mock
+tez,tez\tez-dag\src\test\java\org\apache\tez\dag\app\dag\impl\TestDAGRecovery.java,mockito,static org.mockito.Mockito.when
+tez,tez\tez-dag\src\test\java\org\apache\tez\dag\app\dag\impl\TestDAGRecovery.java,mockito,org.mockito.Mockito
+tez,tez\tez-dag\src\test\java\org\apache\tez\dag\app\dag\impl\TestDAGRecovery.java,mockito,org.mockito.invocation.InvocationOnMock
+tez,tez\tez-dag\src\test\java\org\apache\tez\dag\app\dag\impl\TestDAGRecovery.java,mockito,org.mockito.stubbing.Answer
+tez,tez\tez-dag\src\test\java\org\apache\tez\dag\app\dag\impl\TestDAGScheduler.java,mockito,static org.mockito.Mockito.*
+tez,tez\tez-dag\src\test\java\org\apache\tez\dag\app\dag\impl\TestDAGSchedulerNaturalOrderControlled.java,mockito,static org.mockito.Matchers.any
+tez,tez\tez-dag\src\test\java\org\apache\tez\dag\app\dag\impl\TestDAGSchedulerNaturalOrderControlled.java,mockito,static org.mockito.Mockito.doReturn
+tez,tez\tez-dag\src\test\java\org\apache\tez\dag\app\dag\impl\TestDAGSchedulerNaturalOrderControlled.java,mockito,static org.mockito.Mockito.mock
+tez,tez\tez-dag\src\test\java\org\apache\tez\dag\app\dag\impl\TestDAGSchedulerNaturalOrderControlled.java,mockito,static org.mockito.Mockito.never
+tez,tez\tez-dag\src\test\java\org\apache\tez\dag\app\dag\impl\TestDAGSchedulerNaturalOrderControlled.java,mockito,static org.mockito.Mockito.reset
+tez,tez\tez-dag\src\test\java\org\apache\tez\dag\app\dag\impl\TestDAGSchedulerNaturalOrderControlled.java,mockito,static org.mockito.Mockito.times
+tez,tez\tez-dag\src\test\java\org\apache\tez\dag\app\dag\impl\TestDAGSchedulerNaturalOrderControlled.java,mockito,static org.mockito.Mockito.verify
+tez,tez\tez-dag\src\test\java\org\apache\tez\dag\app\dag\impl\TestDAGSchedulerNaturalOrderControlled.java,mockito,org.mockito.ArgumentCaptor
+tez,tez\tez-dag\src\test\java\org\apache\tez\dag\app\dag\impl\TestEdge.java,mockito,static org.mockito.Matchers.eq
+tez,tez\tez-dag\src\test\java\org\apache\tez\dag\app\dag\impl\TestEdge.java,mockito,static org.mockito.Mockito.doReturn
+tez,tez\tez-dag\src\test\java\org\apache\tez\dag\app\dag\impl\TestEdge.java,mockito,static org.mockito.Mockito.mock
+tez,tez\tez-dag\src\test\java\org\apache\tez\dag\app\dag\impl\TestEdge.java,mockito,static org.mockito.Mockito.reset
+tez,tez\tez-dag\src\test\java\org\apache\tez\dag\app\dag\impl\TestEdge.java,mockito,static org.mockito.Mockito.times
+tez,tez\tez-dag\src\test\java\org\apache\tez\dag\app\dag\impl\TestEdge.java,mockito,static org.mockito.Mockito.verify
+tez,tez\tez-dag\src\test\java\org\apache\tez\dag\app\dag\impl\TestEdge.java,mockito,static org.mockito.Mockito.when
+tez,tez\tez-dag\src\test\java\org\apache\tez\dag\app\dag\impl\TestEdge.java,mockito,org.mockito.ArgumentCaptor
+tez,tez\tez-dag\src\test\java\org\apache\tez\dag\app\dag\impl\TestImmediateStartVertexManager.java,mockito,org.mockito.invocation.InvocationOnMock
+tez,tez\tez-dag\src\test\java\org\apache\tez\dag\app\dag\impl\TestImmediateStartVertexManager.java,mockito,org.mockito.stubbing.Answer
+tez,tez\tez-dag\src\test\java\org\apache\tez\dag\app\dag\impl\TestImmediateStartVertexManager.java,mockito,static org.mockito.Matchers.anyList
+tez,tez\tez-dag\src\test\java\org\apache\tez\dag\app\dag\impl\TestImmediateStartVertexManager.java,mockito,static org.mockito.Mockito.anySet
+tez,tez\tez-dag\src\test\java\org\apache\tez\dag\app\dag\impl\TestImmediateStartVertexManager.java,mockito,static org.mockito.Mockito.anyString
+tez,tez\tez-dag\src\test\java\org\apache\tez\dag\app\dag\impl\TestImmediateStartVertexManager.java,mockito,static org.mockito.Mockito.doAnswer
+tez,tez\tez-dag\src\test\java\org\apache\tez\dag\app\dag\impl\TestImmediateStartVertexManager.java,mockito,static org.mockito.Mockito.mock
+tez,tez\tez-dag\src\test\java\org\apache\tez\dag\app\dag\impl\TestImmediateStartVertexManager.java,mockito,static org.mockito.Mockito.times
+tez,tez\tez-dag\src\test\java\org\apache\tez\dag\app\dag\impl\TestImmediateStartVertexManager.java,mockito,static org.mockito.Mockito.verify
+tez,tez\tez-dag\src\test\java\org\apache\tez\dag\app\dag\impl\TestImmediateStartVertexManager.java,mockito,static org.mockito.Mockito.when
+tez,tez\tez-dag\src\test\java\org\apache\tez\dag\app\dag\impl\TestRootInputVertexManager.java,mockito,static org.mockito.Matchers.any
+tez,tez\tez-dag\src\test\java\org\apache\tez\dag\app\dag\impl\TestRootInputVertexManager.java,mockito,static org.mockito.Matchers.anyListOf
+tez,tez\tez-dag\src\test\java\org\apache\tez\dag\app\dag\impl\TestRootInputVertexManager.java,mockito,static org.mockito.Matchers.eq
+tez,tez\tez-dag\src\test\java\org\apache\tez\dag\app\dag\impl\TestRootInputVertexManager.java,mockito,static org.mockito.Mockito.doAnswer
+tez,tez\tez-dag\src\test\java\org\apache\tez\dag\app\dag\impl\TestRootInputVertexManager.java,mockito,static org.mockito.Mockito.doReturn
+tez,tez\tez-dag\src\test\java\org\apache\tez\dag\app\dag\impl\TestRootInputVertexManager.java,mockito,static org.mockito.Mockito.mock
+tez,tez\tez-dag\src\test\java\org\apache\tez\dag\app\dag\impl\TestRootInputVertexManager.java,mockito,static org.mockito.Mockito.when
+tez,tez\tez-dag\src\test\java\org\apache\tez\dag\app\dag\impl\TestRootInputVertexManager.java,mockito,org.mockito.invocation.InvocationOnMock
+tez,tez\tez-dag\src\test\java\org\apache\tez\dag\app\dag\impl\TestRootInputVertexManager.java,mockito,org.mockito.stubbing.Answer
+tez,tez\tez-dag\src\test\java\org\apache\tez\dag\app\dag\impl\TestTaskAttempt.java,mockito,static org.mockito.Matchers.anyInt
+tez,tez\tez-dag\src\test\java\org\apache\tez\dag\app\dag\impl\TestTaskAttempt.java,mockito,static org.mockito.Mockito.atLeast
+tez,tez\tez-dag\src\test\java\org\apache\tez\dag\app\dag\impl\TestTaskAttempt.java,mockito,static org.mockito.Mockito.doReturn
+tez,tez\tez-dag\src\test\java\org\apache\tez\dag\app\dag\impl\TestTaskAttempt.java,mockito,static org.mockito.Mockito.mock
+tez,tez\tez-dag\src\test\java\org\apache\tez\dag\app\dag\impl\TestTaskAttempt.java,mockito,static org.mockito.Mockito.RETURNS_DEEP_STUBS
+tez,tez\tez-dag\src\test\java\org\apache\tez\dag\app\dag\impl\TestTaskAttempt.java,mockito,static org.mockito.Mockito.spy
+tez,tez\tez-dag\src\test\java\org\apache\tez\dag\app\dag\impl\TestTaskAttempt.java,mockito,static org.mockito.Mockito.times
+tez,tez\tez-dag\src\test\java\org\apache\tez\dag\app\dag\impl\TestTaskAttempt.java,mockito,static org.mockito.Mockito.verify
+tez,tez\tez-dag\src\test\java\org\apache\tez\dag\app\dag\impl\TestTaskAttempt.java,mockito,static org.mockito.Mockito.when
+tez,tez\tez-dag\src\test\java\org\apache\tez\dag\app\dag\impl\TestTaskAttempt.java,mockito,org.mockito.ArgumentCaptor
+tez,tez\tez-dag\src\test\java\org\apache\tez\dag\app\dag\impl\TestTaskAttempt.java,mockito,org.mockito.Mockito
+tez,tez\tez-dag\src\test\java\org\apache\tez\dag\app\dag\impl\TestTaskImpl.java,mockito,static org.mockito.Mockito.*
+tez,tez\tez-dag\src\test\java\org\apache\tez\dag\app\dag\impl\TestTaskImpl.java,mockito,org.mockito.ArgumentCaptor
+tez,tez\tez-dag\src\test\java\org\apache\tez\dag\app\dag\impl\TestVertexImpl.java,mockito,static org.mockito.Matchers.any
+tez,tez\tez-dag\src\test\java\org\apache\tez\dag\app\dag\impl\TestVertexImpl.java,mockito,static org.mockito.Matchers.anyInt
+tez,tez\tez-dag\src\test\java\org\apache\tez\dag\app\dag\impl\TestVertexImpl.java,mockito,static org.mockito.Mockito.*
+tez,tez\tez-dag\src\test\java\org\apache\tez\dag\app\dag\impl\TestVertexImpl.java,mockito,org.mockito.Mockito
+tez,tez\tez-dag\src\test\java\org\apache\tez\dag\app\dag\impl\TestVertexImpl.java,mockito,org.mockito.internal.util.collections.Sets
+tez,tez\tez-dag\src\test\java\org\apache\tez\dag\app\dag\impl\TestVertexImpl.java,mockito,org.mockito.invocation.InvocationOnMock
+tez,tez\tez-dag\src\test\java\org\apache\tez\dag\app\dag\impl\TestVertexImpl.java,mockito,org.mockito.stubbing.Answer
+tez,tez\tez-dag\src\test\java\org\apache\tez\dag\app\dag\impl\TestVertexImpl2.java,mockito,static org.mockito.Mockito.doReturn
+tez,tez\tez-dag\src\test\java\org\apache\tez\dag\app\dag\impl\TestVertexImpl2.java,mockito,static org.mockito.Mockito.mock
+tez,tez\tez-dag\src\test\java\org\apache\tez\dag\app\dag\impl\TestVertexManager.java,mockito,static org.mockito.Matchers.any
+tez,tez\tez-dag\src\test\java\org\apache\tez\dag\app\dag\impl\TestVertexManager.java,mockito,static org.mockito.Mockito.RETURNS_DEEP_STUBS
+tez,tez\tez-dag\src\test\java\org\apache\tez\dag\app\dag\impl\TestVertexManager.java,mockito,static org.mockito.Mockito.doReturn
+tez,tez\tez-dag\src\test\java\org\apache\tez\dag\app\dag\impl\TestVertexManager.java,mockito,static org.mockito.Mockito.mock
+tez,tez\tez-dag\src\test\java\org\apache\tez\dag\app\dag\impl\TestVertexManager.java,mockito,static org.mockito.Mockito.never
+tez,tez\tez-dag\src\test\java\org\apache\tez\dag\app\dag\impl\TestVertexManager.java,mockito,static org.mockito.Mockito.times
+tez,tez\tez-dag\src\test\java\org\apache\tez\dag\app\dag\impl\TestVertexManager.java,mockito,static org.mockito.Mockito.verify
+tez,tez\tez-dag\src\test\java\org\apache\tez\dag\app\dag\impl\TestVertexManager.java,mockito,static org.mockito.Mockito.when
+tez,tez\tez-dag\src\test\java\org\apache\tez\dag\app\dag\impl\TestVertexManager.java,mockito,org.mockito.ArgumentCaptor
+tez,tez\tez-dag\src\test\java\org\apache\tez\dag\app\dag\impl\TestVertexManager.java,mockito,org.mockito.Mockito
+tez,tez\tez-dag\src\test\java\org\apache\tez\dag\app\dag\impl\TestVertexManager.java,mockito,org.mockito.invocation.InvocationOnMock
+tez,tez\tez-dag\src\test\java\org\apache\tez\dag\app\dag\impl\TestVertexManager.java,mockito,org.mockito.stubbing.Answer
+tez,tez\tez-dag\src\test\java\org\apache\tez\dag\app\launcher\TestContainerLauncherManager.java,mockito,static org.mockito.Matchers.any
+tez,tez\tez-dag\src\test\java\org\apache\tez\dag\app\launcher\TestContainerLauncherManager.java,mockito,static org.mockito.Mockito.doReturn
+tez,tez\tez-dag\src\test\java\org\apache\tez\dag\app\launcher\TestContainerLauncherManager.java,mockito,static org.mockito.Mockito.doThrow
+tez,tez\tez-dag\src\test\java\org\apache\tez\dag\app\launcher\TestContainerLauncherManager.java,mockito,static org.mockito.Mockito.mock
+tez,tez\tez-dag\src\test\java\org\apache\tez\dag\app\launcher\TestContainerLauncherManager.java,mockito,static org.mockito.Mockito.reset
+tez,tez\tez-dag\src\test\java\org\apache\tez\dag\app\launcher\TestContainerLauncherManager.java,mockito,static org.mockito.Mockito.spy
+tez,tez\tez-dag\src\test\java\org\apache\tez\dag\app\launcher\TestContainerLauncherManager.java,mockito,static org.mockito.Mockito.times
+tez,tez\tez-dag\src\test\java\org\apache\tez\dag\app\launcher\TestContainerLauncherManager.java,mockito,static org.mockito.Mockito.verify
+tez,tez\tez-dag\src\test\java\org\apache\tez\dag\app\launcher\TestContainerLauncherManager.java,mockito,org.mockito.ArgumentCaptor
+tez,tez\tez-dag\src\test\java\org\apache\tez\dag\app\rm\TestContainerReuse.java,mockito,static org.mockito.Matchers.any
+tez,tez\tez-dag\src\test\java\org\apache\tez\dag\app\rm\TestContainerReuse.java,mockito,static org.mockito.Matchers.eq
+tez,tez\tez-dag\src\test\java\org\apache\tez\dag\app\rm\TestContainerReuse.java,mockito,static org.mockito.Mockito.doReturn
+tez,tez\tez-dag\src\test\java\org\apache\tez\dag\app\rm\TestContainerReuse.java,mockito,static org.mockito.Mockito.doAnswer
+tez,tez\tez-dag\src\test\java\org\apache\tez\dag\app\rm\TestContainerReuse.java,mockito,static org.mockito.Mockito.mock
+tez,tez\tez-dag\src\test\java\org\apache\tez\dag\app\rm\TestContainerReuse.java,mockito,static org.mockito.Mockito.spy
+tez,tez\tez-dag\src\test\java\org\apache\tez\dag\app\rm\TestContainerReuse.java,mockito,static org.mockito.Mockito.times
+tez,tez\tez-dag\src\test\java\org\apache\tez\dag\app\rm\TestContainerReuse.java,mockito,static org.mockito.Mockito.verify
+tez,tez\tez-dag\src\test\java\org\apache\tez\dag\app\rm\TestContainerReuse.java,mockito,org.mockito.ArgumentCaptor
+tez,tez\tez-dag\src\test\java\org\apache\tez\dag\app\rm\TestContainerReuse.java,mockito,org.mockito.invocation.InvocationOnMock
+tez,tez\tez-dag\src\test\java\org\apache\tez\dag\app\rm\TestContainerReuse.java,mockito,org.mockito.stubbing.Answer
+tez,tez\tez-dag\src\test\java\org\apache\tez\dag\app\rm\TestDagAwareYarnTaskScheduler.java,mockito,org.mockito.ArgumentCaptor
+tez,tez\tez-dag\src\test\java\org\apache\tez\dag\app\rm\TestDagAwareYarnTaskScheduler.java,mockito,static org.mockito.Matchers.any
+tez,tez\tez-dag\src\test\java\org\apache\tez\dag\app\rm\TestDagAwareYarnTaskScheduler.java,mockito,static org.mockito.Matchers.anyInt
+tez,tez\tez-dag\src\test\java\org\apache\tez\dag\app\rm\TestDagAwareYarnTaskScheduler.java,mockito,static org.mockito.Matchers.anyListOf
+tez,tez\tez-dag\src\test\java\org\apache\tez\dag\app\rm\TestDagAwareYarnTaskScheduler.java,mockito,static org.mockito.Matchers.eq
+tez,tez\tez-dag\src\test\java\org\apache\tez\dag\app\rm\TestDagAwareYarnTaskScheduler.java,mockito,static org.mockito.Matchers.isNull
+tez,tez\tez-dag\src\test\java\org\apache\tez\dag\app\rm\TestDagAwareYarnTaskScheduler.java,mockito,static org.mockito.Mockito.mock
+tez,tez\tez-dag\src\test\java\org\apache\tez\dag\app\rm\TestDagAwareYarnTaskScheduler.java,mockito,static org.mockito.Mockito.never
+tez,tez\tez-dag\src\test\java\org\apache\tez\dag\app\rm\TestDagAwareYarnTaskScheduler.java,mockito,static org.mockito.Mockito.spy
+tez,tez\tez-dag\src\test\java\org\apache\tez\dag\app\rm\TestDagAwareYarnTaskScheduler.java,mockito,static org.mockito.Mockito.times
+tez,tez\tez-dag\src\test\java\org\apache\tez\dag\app\rm\TestDagAwareYarnTaskScheduler.java,mockito,static org.mockito.Mockito.verify
+tez,tez\tez-dag\src\test\java\org\apache\tez\dag\app\rm\TestDagAwareYarnTaskScheduler.java,mockito,static org.mockito.Mockito.when
+tez,tez\tez-dag\src\test\java\org\apache\tez\dag\app\rm\TestLocalTaskSchedulerService.java,mockito,org.mockito.invocation.InvocationOnMock
+tez,tez\tez-dag\src\test\java\org\apache\tez\dag\app\rm\TestLocalTaskSchedulerService.java,mockito,org.mockito.stubbing.Answer
+tez,tez\tez-dag\src\test\java\org\apache\tez\dag\app\rm\TestLocalTaskSchedulerService.java,mockito,static org.mockito.Mockito.*
+tez,tez\tez-dag\src\test\java\org\apache\tez\dag\app\rm\TestTaskScheduler.java,mockito,static org.mockito.Matchers.any
+tez,tez\tez-dag\src\test\java\org\apache\tez\dag\app\rm\TestTaskScheduler.java,mockito,static org.mockito.Matchers.anyInt
+tez,tez\tez-dag\src\test\java\org\apache\tez\dag\app\rm\TestTaskScheduler.java,mockito,static org.mockito.Matchers.anyString
+tez,tez\tez-dag\src\test\java\org\apache\tez\dag\app\rm\TestTaskScheduler.java,mockito,static org.mockito.Matchers.eq
+tez,tez\tez-dag\src\test\java\org\apache\tez\dag\app\rm\TestTaskScheduler.java,mockito,static org.mockito.Mockito.RETURNS_DEEP_STUBS
+tez,tez\tez-dag\src\test\java\org\apache\tez\dag\app\rm\TestTaskScheduler.java,mockito,static org.mockito.Mockito.mock
+tez,tez\tez-dag\src\test\java\org\apache\tez\dag\app\rm\TestTaskScheduler.java,mockito,static org.mockito.Mockito.spy
+tez,tez\tez-dag\src\test\java\org\apache\tez\dag\app\rm\TestTaskScheduler.java,mockito,static org.mockito.Mockito.times
+tez,tez\tez-dag\src\test\java\org\apache\tez\dag\app\rm\TestTaskScheduler.java,mockito,static org.mockito.Mockito.verify
+tez,tez\tez-dag\src\test\java\org\apache\tez\dag\app\rm\TestTaskScheduler.java,mockito,static org.mockito.Mockito.when
+tez,tez\tez-dag\src\test\java\org\apache\tez\dag\app\rm\TestTaskScheduler.java,mockito,org.mockito.ArgumentCaptor
+tez,tez\tez-dag\src\test\java\org\apache\tez\dag\app\rm\TestTaskScheduler.java,mockito,org.mockito.Mockito
+tez,tez\tez-dag\src\test\java\org\apache\tez\dag\app\rm\TestTaskScheduler.java,mockito,org.mockito.invocation.InvocationOnMock
+tez,tez\tez-dag\src\test\java\org\apache\tez\dag\app\rm\TestTaskScheduler.java,mockito,org.mockito.stubbing.Answer
+tez,tez\tez-dag\src\test\java\org\apache\tez\dag\app\rm\TestTaskSchedulerHelpers.java,mockito,static org.mockito.Mockito.mock
+tez,tez\tez-dag\src\test\java\org\apache\tez\dag\app\rm\TestTaskSchedulerHelpers.java,mockito,static org.mockito.Mockito.spy
+tez,tez\tez-dag\src\test\java\org\apache\tez\dag\app\rm\TestTaskSchedulerHelpers.java,mockito,static org.mockito.Mockito.when
+tez,tez\tez-dag\src\test\java\org\apache\tez\dag\app\rm\TestTaskSchedulerManager.java,mockito,static org.mockito.Matchers.any
+tez,tez\tez-dag\src\test\java\org\apache\tez\dag\app\rm\TestTaskSchedulerManager.java,mockito,static org.mockito.Matchers.eq
+tez,tez\tez-dag\src\test\java\org\apache\tez\dag\app\rm\TestTaskSchedulerManager.java,mockito,static org.mockito.Mockito.RETURNS_DEEP_STUBS
+tez,tez\tez-dag\src\test\java\org\apache\tez\dag\app\rm\TestTaskSchedulerManager.java,mockito,static org.mockito.Mockito.doReturn
+tez,tez\tez-dag\src\test\java\org\apache\tez\dag\app\rm\TestTaskSchedulerManager.java,mockito,static org.mockito.Mockito.mock
+tez,tez\tez-dag\src\test\java\org\apache\tez\dag\app\rm\TestTaskSchedulerManager.java,mockito,static org.mockito.Mockito.reset
+tez,tez\tez-dag\src\test\java\org\apache\tez\dag\app\rm\TestTaskSchedulerManager.java,mockito,static org.mockito.Mockito.spy
+tez,tez\tez-dag\src\test\java\org\apache\tez\dag\app\rm\TestTaskSchedulerManager.java,mockito,static org.mockito.Mockito.times
+tez,tez\tez-dag\src\test\java\org\apache\tez\dag\app\rm\TestTaskSchedulerManager.java,mockito,static org.mockito.Mockito.verify
+tez,tez\tez-dag\src\test\java\org\apache\tez\dag\app\rm\TestTaskSchedulerManager.java,mockito,static org.mockito.Mockito.when
+tez,tez\tez-dag\src\test\java\org\apache\tez\dag\app\rm\TestTaskSchedulerManager.java,mockito,org.mockito.ArgumentCaptor
+tez,tez\tez-dag\src\test\java\org\apache\tez\dag\app\rm\TestTaskSchedulerManager.java,mockito,org.mockito.invocation.InvocationOnMock
+tez,tez\tez-dag\src\test\java\org\apache\tez\dag\app\rm\TestTaskSchedulerManager.java,mockito,org.mockito.stubbing.Answer
+tez,tez\tez-dag\src\test\java\org\apache\tez\dag\app\rm\TestTezAMRMClient.java,mockito,static org.mockito.Mockito.mock
+tez,tez\tez-dag\src\test\java\org\apache\tez\dag\app\rm\container\TestAMContainer.java,mockito,static org.mockito.Matchers.any
+tez,tez\tez-dag\src\test\java\org\apache\tez\dag\app\rm\container\TestAMContainer.java,mockito,static org.mockito.Matchers.eq
+tez,tez\tez-dag\src\test\java\org\apache\tez\dag\app\rm\container\TestAMContainer.java,mockito,static org.mockito.Mockito.doReturn
+tez,tez\tez-dag\src\test\java\org\apache\tez\dag\app\rm\container\TestAMContainer.java,mockito,static org.mockito.Mockito.doAnswer
+tez,tez\tez-dag\src\test\java\org\apache\tez\dag\app\rm\container\TestAMContainer.java,mockito,static org.mockito.Mockito.mock
+tez,tez\tez-dag\src\test\java\org\apache\tez\dag\app\rm\container\TestAMContainer.java,mockito,static org.mockito.Mockito.never
+tez,tez\tez-dag\src\test\java\org\apache\tez\dag\app\rm\container\TestAMContainer.java,mockito,static org.mockito.Mockito.reset
+tez,tez\tez-dag\src\test\java\org\apache\tez\dag\app\rm\container\TestAMContainer.java,mockito,static org.mockito.Mockito.times
+tez,tez\tez-dag\src\test\java\org\apache\tez\dag\app\rm\container\TestAMContainer.java,mockito,static org.mockito.Mockito.verify
+tez,tez\tez-dag\src\test\java\org\apache\tez\dag\app\rm\container\TestAMContainer.java,mockito,org.mockito.ArgumentCaptor
+tez,tez\tez-dag\src\test\java\org\apache\tez\dag\app\rm\container\TestAMContainer.java,mockito,org.mockito.invocation.InvocationOnMock
+tez,tez\tez-dag\src\test\java\org\apache\tez\dag\app\rm\container\TestAMContainer.java,mockito,org.mockito.stubbing.Answer
+tez,tez\tez-dag\src\test\java\org\apache\tez\dag\app\rm\container\TestAMContainerMap.java,mockito,static org.mockito.Mockito.doReturn
+tez,tez\tez-dag\src\test\java\org\apache\tez\dag\app\rm\container\TestAMContainerMap.java,mockito,static org.mockito.Mockito.mock
+tez,tez\tez-dag\src\test\java\org\apache\tez\dag\app\rm\container\TestAMContainerMap.java,mockito,static org.mockito.Mockito.when
+tez,tez\tez-dag\src\test\java\org\apache\tez\dag\app\rm\node\TestAMNodeTracker.java,mockito,static org.mockito.Mockito.doReturn
+tez,tez\tez-dag\src\test\java\org\apache\tez\dag\app\rm\node\TestAMNodeTracker.java,mockito,static org.mockito.Mockito.mock
+tez,tez\tez-dag\src\test\java\org\apache\tez\dag\app\web\TestAMWebController.java,mockito,static org.mockito.Matchers.any
+tez,tez\tez-dag\src\test\java\org\apache\tez\dag\app\web\TestAMWebController.java,mockito,static org.mockito.Matchers.anyString
+tez,tez\tez-dag\src\test\java\org\apache\tez\dag\app\web\TestAMWebController.java,mockito,static org.mockito.Matchers.eq
+tez,tez\tez-dag\src\test\java\org\apache\tez\dag\app\web\TestAMWebController.java,mockito,static org.mockito.Mockito.doNothing
+tez,tez\tez-dag\src\test\java\org\apache\tez\dag\app\web\TestAMWebController.java,mockito,static org.mockito.Mockito.doReturn
+tez,tez\tez-dag\src\test\java\org\apache\tez\dag\app\web\TestAMWebController.java,mockito,static org.mockito.Mockito.mock
+tez,tez\tez-dag\src\test\java\org\apache\tez\dag\app\web\TestAMWebController.java,mockito,static org.mockito.Mockito.reset
+tez,tez\tez-dag\src\test\java\org\apache\tez\dag\app\web\TestAMWebController.java,mockito,static org.mockito.Mockito.spy
+tez,tez\tez-dag\src\test\java\org\apache\tez\dag\app\web\TestAMWebController.java,mockito,static org.mockito.Mockito.verify
+tez,tez\tez-dag\src\test\java\org\apache\tez\dag\app\web\TestAMWebController.java,mockito,static org.mockito.Mockito.when
+tez,tez\tez-dag\src\test\java\org\apache\tez\dag\app\web\TestAMWebController.java,mockito,org.mockito.ArgumentCaptor
+tez,tez\tez-dag\src\test\java\org\apache\tez\dag\app\web\TestAMWebController.java,mockito,org.mockito.Captor
+tez,tez\tez-dag\src\test\java\org\apache\tez\dag\app\web\TestAMWebController.java,mockito,org.mockito.MockitoAnnotations
+tez,tez\tez-dag\src\test\java\org\apache\tez\dag\history\TestHistoryEventHandler.java,mockito,static org.mockito.Mockito.mock
+tez,tez\tez-dag\src\test\java\org\apache\tez\dag\history\TestHistoryEventHandler.java,mockito,static org.mockito.Mockito.when
+tez,tez\tez-dag\src\test\java\org\apache\tez\dag\history\recovery\TestRecoveryService.java,mockito,static org.mockito.Matchers.anyInt
+tez,tez\tez-dag\src\test\java\org\apache\tez\dag\history\recovery\TestRecoveryService.java,mockito,static org.mockito.Matchers.eq
+tez,tez\tez-dag\src\test\java\org\apache\tez\dag\history\recovery\TestRecoveryService.java,mockito,static org.mockito.Mockito.mock
+tez,tez\tez-dag\src\test\java\org\apache\tez\dag\history\recovery\TestRecoveryService.java,mockito,static org.mockito.Mockito.spy
+tez,tez\tez-dag\src\test\java\org\apache\tez\dag\history\recovery\TestRecoveryService.java,mockito,static org.mockito.Mockito.times
+tez,tez\tez-dag\src\test\java\org\apache\tez\dag\history\recovery\TestRecoveryService.java,mockito,static org.mockito.Mockito.verify
+tez,tez\tez-dag\src\test\java\org\apache\tez\dag\history\recovery\TestRecoveryService.java,mockito,static org.mockito.Mockito.when
+tez,tez\tez-mapreduce\src\test\java\org\apache\hadoop\mapred\split\TestGroupedSplits.java,mockito,static org.mockito.Mockito.*
+tez,tez\tez-mapreduce\src\test\java\org\apache\tez\mapreduce\combine\TestMRCombiner.java,mockito,org.mockito.Mockito
+tez,tez\tez-mapreduce\src\test\java\org\apache\tez\mapreduce\input\TestMRInput.java,mockito,static org.mockito.Mockito.doReturn
+tez,tez\tez-mapreduce\src\test\java\org\apache\tez\mapreduce\input\TestMRInput.java,mockito,static org.mockito.Mockito.mock
+tez,tez\tez-mapreduce\src\test\java\org\apache\tez\mapreduce\input\TestMRInput.java,mockito,static org.mockito.Mockito.times
+tez,tez\tez-mapreduce\src\test\java\org\apache\tez\mapreduce\input\TestMRInput.java,mockito,static org.mockito.Mockito.verify
+tez,tez\tez-mapreduce\src\test\java\org\apache\tez\mapreduce\input\TestMultiMRInput.java,mockito,static org.mockito.Mockito.doReturn
+tez,tez\tez-mapreduce\src\test\java\org\apache\tez\mapreduce\input\TestMultiMRInput.java,mockito,static org.mockito.Mockito.mock
+tez,tez\tez-mapreduce\src\test\java\org\apache\tez\mapreduce\input\TestMultiMRInput.java,mockito,static org.mockito.Mockito.times
+tez,tez\tez-mapreduce\src\test\java\org\apache\tez\mapreduce\input\TestMultiMRInput.java,mockito,static org.mockito.Mockito.verify
+tez,tez\tez-mapreduce\src\test\java\org\apache\tez\mapreduce\lib\TestKVReadersWithMR.java,mockito,static org.mockito.Mockito.mock
+tez,tez\tez-mapreduce\src\test\java\org\apache\tez\mapreduce\lib\TestKVReadersWithMR.java,mockito,static org.mockito.Mockito.times
+tez,tez\tez-mapreduce\src\test\java\org\apache\tez\mapreduce\lib\TestKVReadersWithMR.java,mockito,static org.mockito.Mockito.verify
+tez,tez\tez-mapreduce\src\test\java\org\apache\tez\mapreduce\output\TestMROutput.java,mockito,static org.mockito.Mockito.*
+tez,tez\tez-mapreduce\src\test\java\org\apache\tez\mapreduce\output\TestMROutputLegacy.java,mockito,static org.mockito.Mockito.mock
+tez,tez\tez-mapreduce\src\test\java\org\apache\tez\mapreduce\output\TestMROutputLegacy.java,mockito,static org.mockito.Mockito.when
+tez,tez\tez-mapreduce\src\test\java\org\apache\tez\mapreduce\output\TestMultiMROutput.java,mockito,static org.mockito.Mockito.mock
+tez,tez\tez-mapreduce\src\test\java\org\apache\tez\mapreduce\output\TestMultiMROutput.java,mockito,static org.mockito.Mockito.when
+tez,tez\tez-plugins\tez-aux-services\src\test\java\org\apache\tez\auxservices\TestShuffleHandler.java,mockito,static org.mockito.Mockito.mock
+tez,tez\tez-plugins\tez-aux-services\src\test\java\org\apache\tez\auxservices\TestShuffleHandler.java,mockito,static org.mockito.Mockito.when
+tez,tez\tez-plugins\tez-aux-services\src\test\java\org\apache\tez\auxservices\TestShuffleHandler.java,mockito,org.mockito.invocation.InvocationOnMock
+tez,tez\tez-plugins\tez-aux-services\src\test\java\org\apache\tez\auxservices\TestShuffleHandler.java,mockito,org.mockito.stubbing.Answer
+tez,tez\tez-plugins\tez-aux-services\src\test\java\org\apache\tez\auxservices\TestShuffleHandler.java,mockito,org.mockito.Mockito
+tez,tez\tez-plugins\tez-protobuf-history-plugin\src\test\java\org\apache\tez\dag\history\logging\proto\TestProtoHistoryLoggingService.java,mockito,static org.mockito.Mockito.mock
+tez,tez\tez-plugins\tez-protobuf-history-plugin\src\test\java\org\apache\tez\dag\history\logging\proto\TestProtoHistoryLoggingService.java,mockito,static org.mockito.Mockito.when
+tez,tez\tez-plugins\tez-yarn-timeline-history-with-acls\src\test\java\org\apache\tez\dag\history\ats\acls\TestATSHistoryWithACLs.java,mockito,static org.mockito.Mockito.*
+tez,tez\tez-plugins\tez-yarn-timeline-history-with-fs\src\test\java\org\apache\tez\dag\history\ats\acls\TestATSHistoryV15.java,mockito,static org.mockito.Mockito.mock
+tez,tez\tez-plugins\tez-yarn-timeline-history-with-fs\src\test\java\org\apache\tez\dag\history\ats\acls\TestATSHistoryV15.java,mockito,static org.mockito.Mockito.when
+tez,tez\tez-plugins\tez-yarn-timeline-history-with-fs\src\test\java\org\apache\tez\dag\history\logging\ats\TestATSV15HistoryLoggingService.java,mockito,static org.mockito.Matchers.anyObject
+tez,tez\tez-plugins\tez-yarn-timeline-history-with-fs\src\test\java\org\apache\tez\dag\history\logging\ats\TestATSV15HistoryLoggingService.java,mockito,static org.mockito.Matchers.anyString
+tez,tez\tez-plugins\tez-yarn-timeline-history-with-fs\src\test\java\org\apache\tez\dag\history\logging\ats\TestATSV15HistoryLoggingService.java,mockito,static org.mockito.Matchers.anyVararg
+tez,tez\tez-plugins\tez-yarn-timeline-history-with-fs\src\test\java\org\apache\tez\dag\history\logging\ats\TestATSV15HistoryLoggingService.java,mockito,static org.mockito.Mockito.any
+tez,tez\tez-plugins\tez-yarn-timeline-history-with-fs\src\test\java\org\apache\tez\dag\history\logging\ats\TestATSV15HistoryLoggingService.java,mockito,static org.mockito.Mockito.eq
+tez,tez\tez-plugins\tez-yarn-timeline-history-with-fs\src\test\java\org\apache\tez\dag\history\logging\ats\TestATSV15HistoryLoggingService.java,mockito,static org.mockito.Mockito.mock
+tez,tez\tez-plugins\tez-yarn-timeline-history-with-fs\src\test\java\org\apache\tez\dag\history\logging\ats\TestATSV15HistoryLoggingService.java,mockito,static org.mockito.Mockito.times
+tez,tez\tez-plugins\tez-yarn-timeline-history-with-fs\src\test\java\org\apache\tez\dag\history\logging\ats\TestATSV15HistoryLoggingService.java,mockito,static org.mockito.Mockito.verify
+tez,tez\tez-plugins\tez-yarn-timeline-history-with-fs\src\test\java\org\apache\tez\dag\history\logging\ats\TestATSV15HistoryLoggingService.java,mockito,static org.mockito.Mockito.when
+tez,tez\tez-plugins\tez-yarn-timeline-history-with-fs\src\test\java\org\apache\tez\dag\history\logging\ats\TestATSV15HistoryLoggingService.java,mockito,org.mockito.Matchers
+tez,tez\tez-plugins\tez-yarn-timeline-history-with-fs\src\test\java\org\apache\tez\dag\history\logging\ats\TestATSV15HistoryLoggingService.java,mockito,org.mockito.invocation.InvocationOnMock
+tez,tez\tez-plugins\tez-yarn-timeline-history-with-fs\src\test\java\org\apache\tez\dag\history\logging\ats\TestATSV15HistoryLoggingService.java,mockito,org.mockito.stubbing.Answer
+tez,tez\tez-plugins\tez-yarn-timeline-history\src\test\java\org\apache\tez\dag\history\logging\ats\TestATSHistoryLoggingService.java,mockito,org.mockito.Matchers
+tez,tez\tez-plugins\tez-yarn-timeline-history\src\test\java\org\apache\tez\dag\history\logging\ats\TestATSHistoryLoggingService.java,mockito,org.mockito.invocation.InvocationOnMock
+tez,tez\tez-plugins\tez-yarn-timeline-history\src\test\java\org\apache\tez\dag\history\logging\ats\TestATSHistoryLoggingService.java,mockito,org.mockito.stubbing.Answer
+tez,tez\tez-plugins\tez-yarn-timeline-history\src\test\java\org\apache\tez\dag\history\logging\ats\TestATSHistoryLoggingService.java,mockito,static org.mockito.Matchers.any
+tez,tez\tez-plugins\tez-yarn-timeline-history\src\test\java\org\apache\tez\dag\history\logging\ats\TestATSHistoryLoggingService.java,mockito,static org.mockito.Matchers.eq
+tez,tez\tez-plugins\tez-yarn-timeline-history\src\test\java\org\apache\tez\dag\history\logging\ats\TestATSHistoryLoggingService.java,mockito,static org.mockito.Mockito.any
+tez,tez\tez-plugins\tez-yarn-timeline-history\src\test\java\org\apache\tez\dag\history\logging\ats\TestATSHistoryLoggingService.java,mockito,static org.mockito.Mockito.mock
+tez,tez\tez-plugins\tez-yarn-timeline-history\src\test\java\org\apache\tez\dag\history\logging\ats\TestATSHistoryLoggingService.java,mockito,static org.mockito.Mockito.times
+tez,tez\tez-plugins\tez-yarn-timeline-history\src\test\java\org\apache\tez\dag\history\logging\ats\TestATSHistoryLoggingService.java,mockito,static org.mockito.Mockito.verify
+tez,tez\tez-plugins\tez-yarn-timeline-history\src\test\java\org\apache\tez\dag\history\logging\ats\TestATSHistoryLoggingService.java,mockito,static org.mockito.Mockito.when
+tez,tez\tez-runtime-internals\src\test\java\org\apache\tez\runtime\TestLogicalIOProcessorRuntimeTask.java,mockito,static org.mockito.Mockito.mock
+tez,tez\tez-runtime-internals\src\test\java\org\apache\tez\runtime\TestLogicalIOProcessorRuntimeTask.java,mockito,org.mockito.Mockito
+tez,tez\tez-runtime-internals\src\test\java\org\apache\tez\runtime\api\impl\TestProcessorContext.java,mockito,static org.mockito.Mockito.*
+tez,tez\tez-runtime-internals\src\test\java\org\apache\tez\runtime\common\resources\TestMemoryDistributor.java,mockito,static org.mockito.Mockito.doReturn
+tez,tez\tez-runtime-internals\src\test\java\org\apache\tez\runtime\common\resources\TestMemoryDistributor.java,mockito,static org.mockito.Mockito.mock
+tez,tez\tez-runtime-internals\src\test\java\org\apache\tez\runtime\task\TestTaskReporter.java,mockito,static org.mockito.Matchers.any
+tez,tez\tez-runtime-internals\src\test\java\org\apache\tez\runtime\task\TestTaskReporter.java,mockito,static org.mockito.Mockito.doAnswer
+tez,tez\tez-runtime-internals\src\test\java\org\apache\tez\runtime\task\TestTaskReporter.java,mockito,static org.mockito.Mockito.doReturn
+tez,tez\tez-runtime-internals\src\test\java\org\apache\tez\runtime\task\TestTaskReporter.java,mockito,static org.mockito.Mockito.isA
+tez,tez\tez-runtime-internals\src\test\java\org\apache\tez\runtime\task\TestTaskReporter.java,mockito,static org.mockito.Mockito.mock
+tez,tez\tez-runtime-internals\src\test\java\org\apache\tez\runtime\task\TestTaskReporter.java,mockito,static org.mockito.Mockito.times
+tez,tez\tez-runtime-internals\src\test\java\org\apache\tez\runtime\task\TestTaskReporter.java,mockito,static org.mockito.Mockito.verify
+tez,tez\tez-runtime-internals\src\test\java\org\apache\tez\runtime\task\TestTaskReporter.java,mockito,static org.mockito.Mockito.when
+tez,tez\tez-runtime-internals\src\test\java\org\apache\tez\runtime\task\TestTaskReporter.java,mockito,org.mockito.ArgumentCaptor
+tez,tez\tez-runtime-internals\src\test\java\org\apache\tez\runtime\task\TestTaskReporter.java,mockito,org.mockito.invocation.InvocationOnMock
+tez,tez\tez-runtime-internals\src\test\java\org\apache\tez\runtime\task\TestTaskReporter.java,mockito,org.mockito.stubbing.Answer
+tez,tez\tez-runtime-internals\src\test\java\org\apache\tez\runtime\task\TestTezTaskRunner2.java,mockito,static org.mockito.Mockito.*
+tez,tez\tez-runtime-library\src\test\java\org\apache\tez\dag\library\vertexmanager\TestFairShuffleVertexManager.java,mockito,static org.mockito.Mockito.any
+tez,tez\tez-runtime-library\src\test\java\org\apache\tez\dag\library\vertexmanager\TestFairShuffleVertexManager.java,mockito,static org.mockito.Mockito.anyInt
+tez,tez\tez-runtime-library\src\test\java\org\apache\tez\dag\library\vertexmanager\TestFairShuffleVertexManager.java,mockito,static org.mockito.Mockito.anyList
+tez,tez\tez-runtime-library\src\test\java\org\apache\tez\dag\library\vertexmanager\TestFairShuffleVertexManager.java,mockito,static org.mockito.Mockito.anyMap
+tez,tez\tez-runtime-library\src\test\java\org\apache\tez\dag\library\vertexmanager\TestFairShuffleVertexManager.java,mockito,static org.mockito.Mockito.doAnswer
+tez,tez\tez-runtime-library\src\test\java\org\apache\tez\dag\library\vertexmanager\TestFairShuffleVertexManager.java,mockito,static org.mockito.Mockito.mock
+tez,tez\tez-runtime-library\src\test\java\org\apache\tez\dag\library\vertexmanager\TestFairShuffleVertexManager.java,mockito,static org.mockito.Mockito.times
+tez,tez\tez-runtime-library\src\test\java\org\apache\tez\dag\library\vertexmanager\TestFairShuffleVertexManager.java,mockito,static org.mockito.Mockito.verify
+tez,tez\tez-runtime-library\src\test\java\org\apache\tez\dag\library\vertexmanager\TestFairShuffleVertexManager.java,mockito,static org.mockito.Mockito.when
+tez,tez\tez-runtime-library\src\test\java\org\apache\tez\dag\library\vertexmanager\TestInputReadyVertexManager.java,mockito,static org.mockito.Mockito.*
+tez,tez\tez-runtime-library\src\test\java\org\apache\tez\dag\library\vertexmanager\TestInputReadyVertexManager.java,mockito,org.mockito.ArgumentCaptor
+tez,tez\tez-runtime-library\src\test\java\org\apache\tez\dag\library\vertexmanager\TestInputReadyVertexManager.java,mockito,org.mockito.Captor
+tez,tez\tez-runtime-library\src\test\java\org\apache\tez\dag\library\vertexmanager\TestInputReadyVertexManager.java,mockito,org.mockito.MockitoAnnotations
+tez,tez\tez-runtime-library\src\test\java\org\apache\tez\dag\library\vertexmanager\TestShuffleVertexManager.java,mockito,static org.mockito.Matchers.eq
+tez,tez\tez-runtime-library\src\test\java\org\apache\tez\dag\library\vertexmanager\TestShuffleVertexManager.java,mockito,static org.mockito.Mockito.any
+tez,tez\tez-runtime-library\src\test\java\org\apache\tez\dag\library\vertexmanager\TestShuffleVertexManager.java,mockito,static org.mockito.Mockito.anyInt
+tez,tez\tez-runtime-library\src\test\java\org\apache\tez\dag\library\vertexmanager\TestShuffleVertexManager.java,mockito,static org.mockito.Mockito.anyList
+tez,tez\tez-runtime-library\src\test\java\org\apache\tez\dag\library\vertexmanager\TestShuffleVertexManager.java,mockito,static org.mockito.Mockito.anyMap
+tez,tez\tez-runtime-library\src\test\java\org\apache\tez\dag\library\vertexmanager\TestShuffleVertexManager.java,mockito,static org.mockito.Mockito.doAnswer
+tez,tez\tez-runtime-library\src\test\java\org\apache\tez\dag\library\vertexmanager\TestShuffleVertexManager.java,mockito,static org.mockito.Mockito.mock
+tez,tez\tez-runtime-library\src\test\java\org\apache\tez\dag\library\vertexmanager\TestShuffleVertexManager.java,mockito,static org.mockito.Mockito.times
+tez,tez\tez-runtime-library\src\test\java\org\apache\tez\dag\library\vertexmanager\TestShuffleVertexManager.java,mockito,static org.mockito.Mockito.verify
+tez,tez\tez-runtime-library\src\test\java\org\apache\tez\dag\library\vertexmanager\TestShuffleVertexManager.java,mockito,static org.mockito.Mockito.when
+tez,tez\tez-runtime-library\src\test\java\org\apache\tez\dag\library\vertexmanager\TestShuffleVertexManagerBase.java,mockito,static org.mockito.Mockito.any
+tez,tez\tez-runtime-library\src\test\java\org\apache\tez\dag\library\vertexmanager\TestShuffleVertexManagerBase.java,mockito,static org.mockito.Mockito.anyInt
+tez,tez\tez-runtime-library\src\test\java\org\apache\tez\dag\library\vertexmanager\TestShuffleVertexManagerBase.java,mockito,static org.mockito.Mockito.anyList
+tez,tez\tez-runtime-library\src\test\java\org\apache\tez\dag\library\vertexmanager\TestShuffleVertexManagerBase.java,mockito,static org.mockito.Mockito.anyMap
+tez,tez\tez-runtime-library\src\test\java\org\apache\tez\dag\library\vertexmanager\TestShuffleVertexManagerBase.java,mockito,static org.mockito.Mockito.doAnswer
+tez,tez\tez-runtime-library\src\test\java\org\apache\tez\dag\library\vertexmanager\TestShuffleVertexManagerBase.java,mockito,static org.mockito.Mockito.eq
+tez,tez\tez-runtime-library\src\test\java\org\apache\tez\dag\library\vertexmanager\TestShuffleVertexManagerBase.java,mockito,static org.mockito.Mockito.mock
+tez,tez\tez-runtime-library\src\test\java\org\apache\tez\dag\library\vertexmanager\TestShuffleVertexManagerBase.java,mockito,static org.mockito.Mockito.times
+tez,tez\tez-runtime-library\src\test\java\org\apache\tez\dag\library\vertexmanager\TestShuffleVertexManagerBase.java,mockito,static org.mockito.Mockito.verify
+tez,tez\tez-runtime-library\src\test\java\org\apache\tez\dag\library\vertexmanager\TestShuffleVertexManagerBase.java,mockito,static org.mockito.Mockito.when
+tez,tez\tez-runtime-library\src\test\java\org\apache\tez\dag\library\vertexmanager\TestShuffleVertexManagerUtils.java,mockito,org.mockito.invocation.InvocationOnMock
+tez,tez\tez-runtime-library\src\test\java\org\apache\tez\dag\library\vertexmanager\TestShuffleVertexManagerUtils.java,mockito,org.mockito.stubbing.Answer
+tez,tez\tez-runtime-library\src\test\java\org\apache\tez\dag\library\vertexmanager\TestShuffleVertexManagerUtils.java,mockito,static org.mockito.Matchers.any
+tez,tez\tez-runtime-library\src\test\java\org\apache\tez\dag\library\vertexmanager\TestShuffleVertexManagerUtils.java,mockito,static org.mockito.Matchers.anyInt
+tez,tez\tez-runtime-library\src\test\java\org\apache\tez\dag\library\vertexmanager\TestShuffleVertexManagerUtils.java,mockito,static org.mockito.Matchers.anyList
+tez,tez\tez-runtime-library\src\test\java\org\apache\tez\dag\library\vertexmanager\TestShuffleVertexManagerUtils.java,mockito,static org.mockito.Matchers.anyMap
+tez,tez\tez-runtime-library\src\test\java\org\apache\tez\dag\library\vertexmanager\TestShuffleVertexManagerUtils.java,mockito,static org.mockito.Mockito.doAnswer
+tez,tez\tez-runtime-library\src\test\java\org\apache\tez\dag\library\vertexmanager\TestShuffleVertexManagerUtils.java,mockito,static org.mockito.Mockito.mock
+tez,tez\tez-runtime-library\src\test\java\org\apache\tez\dag\library\vertexmanager\TestShuffleVertexManagerUtils.java,mockito,static org.mockito.Mockito.when
+tez,tez\tez-runtime-library\src\test\java\org\apache\tez\dag\library\vertexmanager\TestVertexManagerWithConcurrentInput.java,mockito,org.mockito.ArgumentCaptor
+tez,tez\tez-runtime-library\src\test\java\org\apache\tez\dag\library\vertexmanager\TestVertexManagerWithConcurrentInput.java,mockito,org.mockito.Captor
+tez,tez\tez-runtime-library\src\test\java\org\apache\tez\dag\library\vertexmanager\TestVertexManagerWithConcurrentInput.java,mockito,org.mockito.MockitoAnnotations
+tez,tez\tez-runtime-library\src\test\java\org\apache\tez\dag\library\vertexmanager\TestVertexManagerWithConcurrentInput.java,mockito,static org.mockito.Mockito.mock
+tez,tez\tez-runtime-library\src\test\java\org\apache\tez\dag\library\vertexmanager\TestVertexManagerWithConcurrentInput.java,mockito,static org.mockito.Mockito.times
+tez,tez\tez-runtime-library\src\test\java\org\apache\tez\dag\library\vertexmanager\TestVertexManagerWithConcurrentInput.java,mockito,static org.mockito.Mockito.verify
+tez,tez\tez-runtime-library\src\test\java\org\apache\tez\dag\library\vertexmanager\TestVertexManagerWithConcurrentInput.java,mockito,static org.mockito.Mockito.when
+tez,tez\tez-runtime-library\src\test\java\org\apache\tez\http\TestHttpConnection.java,mockito,static org.mockito.Mockito.any
+tez,tez\tez-runtime-library\src\test\java\org\apache\tez\http\TestHttpConnection.java,mockito,static org.mockito.Mockito.mock
+tez,tez\tez-runtime-library\src\test\java\org\apache\tez\http\TestHttpConnection.java,mockito,static org.mockito.Mockito.spy
+tez,tez\tez-runtime-library\src\test\java\org\apache\tez\http\TestHttpConnection.java,mockito,static org.mockito.Mockito.when
+tez,tez\tez-runtime-library\src\test\java\org\apache\tez\runtime\common\resources\TestWeightedScalingMemoryDistributor.java,mockito,static org.mockito.Mockito.doReturn
+tez,tez\tez-runtime-library\src\test\java\org\apache\tez\runtime\common\resources\TestWeightedScalingMemoryDistributor.java,mockito,static org.mockito.Mockito.mock
+tez,tez\tez-runtime-library\src\test\java\org\apache\tez\runtime\library\cartesianproduct\TestCartesianProductEdgeManager.java,mockito,static org.mockito.Mockito.mock
+tez,tez\tez-runtime-library\src\test\java\org\apache\tez\runtime\library\cartesianproduct\TestCartesianProductEdgeManager.java,mockito,static org.mockito.Mockito.when
+tez,tez\tez-runtime-library\src\test\java\org\apache\tez\runtime\library\cartesianproduct\TestCartesianProductEdgeManagerPartitioned.java,mockito,static org.mockito.Mockito.mock
+tez,tez\tez-runtime-library\src\test\java\org\apache\tez\runtime\library\cartesianproduct\TestCartesianProductEdgeManagerPartitioned.java,mockito,static org.mockito.Mockito.when
+tez,tez\tez-runtime-library\src\test\java\org\apache\tez\runtime\library\cartesianproduct\TestCartesianProductVertexManager.java,mockito,org.mockito.invocation.InvocationOnMock
+tez,tez\tez-runtime-library\src\test\java\org\apache\tez\runtime\library\cartesianproduct\TestCartesianProductVertexManager.java,mockito,org.mockito.stubbing.Answer
+tez,tez\tez-runtime-library\src\test\java\org\apache\tez\runtime\library\cartesianproduct\TestCartesianProductVertexManager.java,mockito,static org.mockito.Mockito.mock
+tez,tez\tez-runtime-library\src\test\java\org\apache\tez\runtime\library\cartesianproduct\TestCartesianProductVertexManager.java,mockito,static org.mockito.Mockito.when
+tez,tez\tez-runtime-library\src\test\java\org\apache\tez\runtime\library\cartesianproduct\TestCartesianProductVertexManagerPartitioned.java,mockito,org.mockito.ArgumentCaptor
+tez,tez\tez-runtime-library\src\test\java\org\apache\tez\runtime\library\cartesianproduct\TestCartesianProductVertexManagerPartitioned.java,mockito,org.mockito.Captor
+tez,tez\tez-runtime-library\src\test\java\org\apache\tez\runtime\library\cartesianproduct\TestCartesianProductVertexManagerPartitioned.java,mockito,org.mockito.Matchers
+tez,tez\tez-runtime-library\src\test\java\org\apache\tez\runtime\library\cartesianproduct\TestCartesianProductVertexManagerPartitioned.java,mockito,org.mockito.MockitoAnnotations
+tez,tez\tez-runtime-library\src\test\java\org\apache\tez\runtime\library\cartesianproduct\TestCartesianProductVertexManagerPartitioned.java,mockito,static org.mockito.Matchers.eq
+tez,tez\tez-runtime-library\src\test\java\org\apache\tez\runtime\library\cartesianproduct\TestCartesianProductVertexManagerPartitioned.java,mockito,static org.mockito.Matchers.isNull
+tez,tez\tez-runtime-library\src\test\java\org\apache\tez\runtime\library\cartesianproduct\TestCartesianProductVertexManagerPartitioned.java,mockito,static org.mockito.Mockito.mock
+tez,tez\tez-runtime-library\src\test\java\org\apache\tez\runtime\library\cartesianproduct\TestCartesianProductVertexManagerPartitioned.java,mockito,static org.mockito.Mockito.never
+tez,tez\tez-runtime-library\src\test\java\org\apache\tez\runtime\library\cartesianproduct\TestCartesianProductVertexManagerPartitioned.java,mockito,static org.mockito.Mockito.times
+tez,tez\tez-runtime-library\src\test\java\org\apache\tez\runtime\library\cartesianproduct\TestCartesianProductVertexManagerPartitioned.java,mockito,static org.mockito.Mockito.verify
+tez,tez\tez-runtime-library\src\test\java\org\apache\tez\runtime\library\cartesianproduct\TestCartesianProductVertexManagerPartitioned.java,mockito,static org.mockito.Mockito.when
+tez,tez\tez-runtime-library\src\test\java\org\apache\tez\runtime\library\cartesianproduct\TestFairCartesianProductEdgeManager.java,mockito,static org.mockito.Mockito.mock
+tez,tez\tez-runtime-library\src\test\java\org\apache\tez\runtime\library\cartesianproduct\TestFairCartesianProductEdgeManager.java,mockito,static org.mockito.Mockito.when
+tez,tez\tez-runtime-library\src\test\java\org\apache\tez\runtime\library\cartesianproduct\TestFairCartesianProductVertexManager.java,mockito,org.mockito.ArgumentCaptor
+tez,tez\tez-runtime-library\src\test\java\org\apache\tez\runtime\library\cartesianproduct\TestFairCartesianProductVertexManager.java,mockito,org.mockito.Captor
+tez,tez\tez-runtime-library\src\test\java\org\apache\tez\runtime\library\cartesianproduct\TestFairCartesianProductVertexManager.java,mockito,org.mockito.MockitoAnnotations
+tez,tez\tez-runtime-library\src\test\java\org\apache\tez\runtime\library\cartesianproduct\TestFairCartesianProductVertexManager.java,mockito,static org.mockito.Matchers.any
+tez,tez\tez-runtime-library\src\test\java\org\apache\tez\runtime\library\cartesianproduct\TestFairCartesianProductVertexManager.java,mockito,static org.mockito.Matchers.anyInt
+tez,tez\tez-runtime-library\src\test\java\org\apache\tez\runtime\library\cartesianproduct\TestFairCartesianProductVertexManager.java,mockito,static org.mockito.Matchers.anyMapOf
+tez,tez\tez-runtime-library\src\test\java\org\apache\tez\runtime\library\cartesianproduct\TestFairCartesianProductVertexManager.java,mockito,static org.mockito.Matchers.eq
+tez,tez\tez-runtime-library\src\test\java\org\apache\tez\runtime\library\cartesianproduct\TestFairCartesianProductVertexManager.java,mockito,static org.mockito.Mockito.mock
+tez,tez\tez-runtime-library\src\test\java\org\apache\tez\runtime\library\cartesianproduct\TestFairCartesianProductVertexManager.java,mockito,static org.mockito.Mockito.never
+tez,tez\tez-runtime-library\src\test\java\org\apache\tez\runtime\library\cartesianproduct\TestFairCartesianProductVertexManager.java,mockito,static org.mockito.Mockito.times
+tez,tez\tez-runtime-library\src\test\java\org\apache\tez\runtime\library\cartesianproduct\TestFairCartesianProductVertexManager.java,mockito,static org.mockito.Mockito.verify
+tez,tez\tez-runtime-library\src\test\java\org\apache\tez\runtime\library\cartesianproduct\TestFairCartesianProductVertexManager.java,mockito,static org.mockito.Mockito.when
+tez,tez\tez-runtime-library\src\test\java\org\apache\tez\runtime\library\common\TestValuesIterator.java,mockito,org.mockito.internal.util.collections.Sets
+tez,tez\tez-runtime-library\src\test\java\org\apache\tez\runtime\library\common\TestValuesIterator.java,mockito,static org.mockito.Mockito.doReturn
+tez,tez\tez-runtime-library\src\test\java\org\apache\tez\runtime\library\common\TestValuesIterator.java,mockito,static org.mockito.Mockito.mock
+tez,tez\tez-runtime-library\src\test\java\org\apache\tez\runtime\library\common\readers\TestUnorderedKVReader.java,mockito,org.mockito.invocation.InvocationOnMock
+tez,tez\tez-runtime-library\src\test\java\org\apache\tez\runtime\library\common\readers\TestUnorderedKVReader.java,mockito,org.mockito.stubbing.Answer
+tez,tez\tez-runtime-library\src\test\java\org\apache\tez\runtime\library\common\readers\TestUnorderedKVReader.java,mockito,static org.mockito.Mockito.doAnswer
+tez,tez\tez-runtime-library\src\test\java\org\apache\tez\runtime\library\common\readers\TestUnorderedKVReader.java,mockito,static org.mockito.Mockito.doNothing
+tez,tez\tez-runtime-library\src\test\java\org\apache\tez\runtime\library\common\readers\TestUnorderedKVReader.java,mockito,static org.mockito.Mockito.doThrow
+tez,tez\tez-runtime-library\src\test\java\org\apache\tez\runtime\library\common\readers\TestUnorderedKVReader.java,mockito,static org.mockito.Mockito.mock
+tez,tez\tez-runtime-library\src\test\java\org\apache\tez\runtime\library\common\readers\TestUnorderedKVReader.java,mockito,static org.mockito.Mockito.spy
+tez,tez\tez-runtime-library\src\test\java\org\apache\tez\runtime\library\common\shuffle\TestFetcher.java,mockito,static org.mockito.Matchers.anyInt
+tez,tez\tez-runtime-library\src\test\java\org\apache\tez\runtime\library\common\shuffle\TestFetcher.java,mockito,static org.mockito.Matchers.anyLong
+tez,tez\tez-runtime-library\src\test\java\org\apache\tez\runtime\library\common\shuffle\TestFetcher.java,mockito,static org.mockito.Matchers.anyString
+tez,tez\tez-runtime-library\src\test\java\org\apache\tez\runtime\library\common\shuffle\TestFetcher.java,mockito,static org.mockito.Matchers.eq
+tez,tez\tez-runtime-library\src\test\java\org\apache\tez\runtime\library\common\shuffle\TestFetcher.java,mockito,static org.mockito.Mockito.any
+tez,tez\tez-runtime-library\src\test\java\org\apache\tez\runtime\library\common\shuffle\TestFetcher.java,mockito,static org.mockito.Mockito.doAnswer
+tez,tez\tez-runtime-library\src\test\java\org\apache\tez\runtime\library\common\shuffle\TestFetcher.java,mockito,static org.mockito.Mockito.doNothing
+tez,tez\tez-runtime-library\src\test\java\org\apache\tez\runtime\library\common\shuffle\TestFetcher.java,mockito,static org.mockito.Mockito.doReturn
+tez,tez\tez-runtime-library\src\test\java\org\apache\tez\runtime\library\common\shuffle\TestFetcher.java,mockito,static org.mockito.Mockito.mock
+tez,tez\tez-runtime-library\src\test\java\org\apache\tez\runtime\library\common\shuffle\TestFetcher.java,mockito,static org.mockito.Mockito.never
+tez,tez\tez-runtime-library\src\test\java\org\apache\tez\runtime\library\common\shuffle\TestFetcher.java,mockito,static org.mockito.Mockito.spy
+tez,tez\tez-runtime-library\src\test\java\org\apache\tez\runtime\library\common\shuffle\TestFetcher.java,mockito,static org.mockito.Mockito.verify
+tez,tez\tez-runtime-library\src\test\java\org\apache\tez\runtime\library\common\shuffle\TestFetcher.java,mockito,org.mockito.ArgumentCaptor
+tez,tez\tez-runtime-library\src\test\java\org\apache\tez\runtime\library\common\shuffle\TestFetcher.java,mockito,org.mockito.invocation.InvocationOnMock
+tez,tez\tez-runtime-library\src\test\java\org\apache\tez\runtime\library\common\shuffle\TestFetcher.java,mockito,org.mockito.stubbing.Answer
+tez,tez\tez-runtime-library\src\test\java\org\apache\tez\runtime\library\common\shuffle\TestShuffleUtils.java,mockito,org.mockito.Matchers
+tez,tez\tez-runtime-library\src\test\java\org\apache\tez\runtime\library\common\shuffle\TestShuffleUtils.java,mockito,static org.mockito.Mockito.any
+tez,tez\tez-runtime-library\src\test\java\org\apache\tez\runtime\library\common\shuffle\TestShuffleUtils.java,mockito,static org.mockito.Mockito.anyInt
+tez,tez\tez-runtime-library\src\test\java\org\apache\tez\runtime\library\common\shuffle\TestShuffleUtils.java,mockito,static org.mockito.Mockito.anyString
+tez,tez\tez-runtime-library\src\test\java\org\apache\tez\runtime\library\common\shuffle\TestShuffleUtils.java,mockito,static org.mockito.Mockito.doReturn
+tez,tez\tez-runtime-library\src\test\java\org\apache\tez\runtime\library\common\shuffle\TestShuffleUtils.java,mockito,static org.mockito.Mockito.mock
+tez,tez\tez-runtime-library\src\test\java\org\apache\tez\runtime\library\common\shuffle\TestShuffleUtils.java,mockito,static org.mockito.Mockito.times
+tez,tez\tez-runtime-library\src\test\java\org\apache\tez\runtime\library\common\shuffle\TestShuffleUtils.java,mockito,static org.mockito.Mockito.verify
+tez,tez\tez-runtime-library\src\test\java\org\apache\tez\runtime\library\common\shuffle\TestShuffleUtils.java,mockito,static org.mockito.Mockito.when
+tez,tez\tez-runtime-library\src\test\java\org\apache\tez\runtime\library\common\shuffle\impl\TestShuffleInputEventHandlerImpl.java,mockito,static org.mockito.Matchers.any
+tez,tez\tez-runtime-library\src\test\java\org\apache\tez\runtime\library\common\shuffle\impl\TestShuffleInputEventHandlerImpl.java,mockito,static org.mockito.Matchers.anyInt
+tez,tez\tez-runtime-library\src\test\java\org\apache\tez\runtime\library\common\shuffle\impl\TestShuffleInputEventHandlerImpl.java,mockito,static org.mockito.Matchers.anyString
+tez,tez\tez-runtime-library\src\test\java\org\apache\tez\runtime\library\common\shuffle\impl\TestShuffleInputEventHandlerImpl.java,mockito,static org.mockito.Matchers.eq
+tez,tez\tez-runtime-library\src\test\java\org\apache\tez\runtime\library\common\shuffle\impl\TestShuffleInputEventHandlerImpl.java,mockito,static org.mockito.Mockito.doReturn
+tez,tez\tez-runtime-library\src\test\java\org\apache\tez\runtime\library\common\shuffle\impl\TestShuffleInputEventHandlerImpl.java,mockito,static org.mockito.Mockito.mock
+tez,tez\tez-runtime-library\src\test\java\org\apache\tez\runtime\library\common\shuffle\impl\TestShuffleInputEventHandlerImpl.java,mockito,static org.mockito.Mockito.spy
+tez,tez\tez-runtime-library\src\test\java\org\apache\tez\runtime\library\common\shuffle\impl\TestShuffleInputEventHandlerImpl.java,mockito,static org.mockito.Mockito.times
+tez,tez\tez-runtime-library\src\test\java\org\apache\tez\runtime\library\common\shuffle\impl\TestShuffleInputEventHandlerImpl.java,mockito,static org.mockito.Mockito.verify
+tez,tez\tez-runtime-library\src\test\java\org\apache\tez\runtime\library\common\shuffle\impl\TestShuffleInputEventHandlerImpl.java,mockito,static org.mockito.Mockito.when
+tez,tez\tez-runtime-library\src\test\java\org\apache\tez\runtime\library\common\shuffle\impl\TestShuffleInputEventHandlerImpl.java,mockito,org.mockito.invocation.InvocationOnMock
+tez,tez\tez-runtime-library\src\test\java\org\apache\tez\runtime\library\common\shuffle\impl\TestShuffleInputEventHandlerImpl.java,mockito,org.mockito.stubbing.Answer
+tez,tez\tez-runtime-library\src\test\java\org\apache\tez\runtime\library\common\shuffle\impl\TestShuffleManager.java,mockito,static org.mockito.Matchers.any
+tez,tez\tez-runtime-library\src\test\java\org\apache\tez\runtime\library\common\shuffle\impl\TestShuffleManager.java,mockito,static org.mockito.Matchers.anyInt
+tez,tez\tez-runtime-library\src\test\java\org\apache\tez\runtime\library\common\shuffle\impl\TestShuffleManager.java,mockito,static org.mockito.Matchers.anyString
+tez,tez\tez-runtime-library\src\test\java\org\apache\tez\runtime\library\common\shuffle\impl\TestShuffleManager.java,mockito,static org.mockito.Mockito.atLeast
+tez,tez\tez-runtime-library\src\test\java\org\apache\tez\runtime\library\common\shuffle\impl\TestShuffleManager.java,mockito,static org.mockito.Mockito.doAnswer
+tez,tez\tez-runtime-library\src\test\java\org\apache\tez\runtime\library\common\shuffle\impl\TestShuffleManager.java,mockito,static org.mockito.Mockito.doReturn
+tez,tez\tez-runtime-library\src\test\java\org\apache\tez\runtime\library\common\shuffle\impl\TestShuffleManager.java,mockito,static org.mockito.Mockito.mock
+tez,tez\tez-runtime-library\src\test\java\org\apache\tez\runtime\library\common\shuffle\impl\TestShuffleManager.java,mockito,static org.mockito.Mockito.spy
+tez,tez\tez-runtime-library\src\test\java\org\apache\tez\runtime\library\common\shuffle\impl\TestShuffleManager.java,mockito,static org.mockito.Mockito.times
+tez,tez\tez-runtime-library\src\test\java\org\apache\tez\runtime\library\common\shuffle\impl\TestShuffleManager.java,mockito,static org.mockito.Mockito.verify
+tez,tez\tez-runtime-library\src\test\java\org\apache\tez\runtime\library\common\shuffle\impl\TestShuffleManager.java,mockito,static org.mockito.Mockito.when
+tez,tez\tez-runtime-library\src\test\java\org\apache\tez\runtime\library\common\shuffle\impl\TestShuffleManager.java,mockito,org.mockito.ArgumentCaptor
+tez,tez\tez-runtime-library\src\test\java\org\apache\tez\runtime\library\common\shuffle\impl\TestShuffleManager.java,mockito,org.mockito.invocation.InvocationOnMock
+tez,tez\tez-runtime-library\src\test\java\org\apache\tez\runtime\library\common\shuffle\impl\TestShuffleManager.java,mockito,org.mockito.stubbing.Answer
+tez,tez\tez-runtime-library\src\test\java\org\apache\tez\runtime\library\common\shuffle\orderedgrouped\DummyCompressionCodec.java,mockito,static org.mockito.Mockito.mock
+tez,tez\tez-runtime-library\src\test\java\org\apache\tez\runtime\library\common\shuffle\orderedgrouped\TestFetcher.java,mockito,static org.mockito.Matchers.any
+tez,tez\tez-runtime-library\src\test\java\org\apache\tez\runtime\library\common\shuffle\orderedgrouped\TestFetcher.java,mockito,static org.mockito.Matchers.anyBoolean
+tez,tez\tez-runtime-library\src\test\java\org\apache\tez\runtime\library\common\shuffle\orderedgrouped\TestFetcher.java,mockito,static org.mockito.Matchers.anyInt
+tez,tez\tez-runtime-library\src\test\java\org\apache\tez\runtime\library\common\shuffle\orderedgrouped\TestFetcher.java,mockito,static org.mockito.Matchers.anyLong
+tez,tez\tez-runtime-library\src\test\java\org\apache\tez\runtime\library\common\shuffle\orderedgrouped\TestFetcher.java,mockito,static org.mockito.Matchers.anyString
+tez,tez\tez-runtime-library\src\test\java\org\apache\tez\runtime\library\common\shuffle\orderedgrouped\TestFetcher.java,mockito,static org.mockito.Matchers.eq
+tez,tez\tez-runtime-library\src\test\java\org\apache\tez\runtime\library\common\shuffle\orderedgrouped\TestFetcher.java,mockito,static org.mockito.Mockito.doAnswer
+tez,tez\tez-runtime-library\src\test\java\org\apache\tez\runtime\library\common\shuffle\orderedgrouped\TestFetcher.java,mockito,static org.mockito.Mockito.doNothing
+tez,tez\tez-runtime-library\src\test\java\org\apache\tez\runtime\library\common\shuffle\orderedgrouped\TestFetcher.java,mockito,static org.mockito.Mockito.doReturn
+tez,tez\tez-runtime-library\src\test\java\org\apache\tez\runtime\library\common\shuffle\orderedgrouped\TestFetcher.java,mockito,static org.mockito.Mockito.mock
+tez,tez\tez-runtime-library\src\test\java\org\apache\tez\runtime\library\common\shuffle\orderedgrouped\TestFetcher.java,mockito,static org.mockito.Mockito.never
+tez,tez\tez-runtime-library\src\test\java\org\apache\tez\runtime\library\common\shuffle\orderedgrouped\TestFetcher.java,mockito,static org.mockito.Mockito.spy
+tez,tez\tez-runtime-library\src\test\java\org\apache\tez\runtime\library\common\shuffle\orderedgrouped\TestFetcher.java,mockito,static org.mockito.Mockito.times
+tez,tez\tez-runtime-library\src\test\java\org\apache\tez\runtime\library\common\shuffle\orderedgrouped\TestFetcher.java,mockito,static org.mockito.Mockito.verify
+tez,tez\tez-runtime-library\src\test\java\org\apache\tez\runtime\library\common\shuffle\orderedgrouped\TestFetcher.java,mockito,static org.mockito.Mockito.when
+tez,tez\tez-runtime-library\src\test\java\org\apache\tez\runtime\library\common\shuffle\orderedgrouped\TestFetcher.java,mockito,org.mockito.ArgumentCaptor
+tez,tez\tez-runtime-library\src\test\java\org\apache\tez\runtime\library\common\shuffle\orderedgrouped\TestFetcher.java,mockito,org.mockito.invocation.InvocationOnMock
+tez,tez\tez-runtime-library\src\test\java\org\apache\tez\runtime\library\common\shuffle\orderedgrouped\TestFetcher.java,mockito,org.mockito.stubbing.Answer
+tez,tez\tez-runtime-library\src\test\java\org\apache\tez\runtime\library\common\shuffle\orderedgrouped\TestMergeManager.java,mockito,static org.mockito.Mockito.atLeastOnce
+tez,tez\tez-runtime-library\src\test\java\org\apache\tez\runtime\library\common\shuffle\orderedgrouped\TestMergeManager.java,mockito,static org.mockito.Mockito.doReturn
+tez,tez\tez-runtime-library\src\test\java\org\apache\tez\runtime\library\common\shuffle\orderedgrouped\TestMergeManager.java,mockito,static org.mockito.Mockito.mock
+tez,tez\tez-runtime-library\src\test\java\org\apache\tez\runtime\library\common\shuffle\orderedgrouped\TestMergeManager.java,mockito,static org.mockito.Mockito.spy
+tez,tez\tez-runtime-library\src\test\java\org\apache\tez\runtime\library\common\shuffle\orderedgrouped\TestMergeManager.java,mockito,static org.mockito.Mockito.verify
+tez,tez\tez-runtime-library\src\test\java\org\apache\tez\runtime\library\common\shuffle\orderedgrouped\TestShuffle.java,mockito,static org.mockito.Matchers.anyInt
+tez,tez\tez-runtime-library\src\test\java\org\apache\tez\runtime\library\common\shuffle\orderedgrouped\TestShuffle.java,mockito,static org.mockito.Matchers.anyString
+tez,tez\tez-runtime-library\src\test\java\org\apache\tez\runtime\library\common\shuffle\orderedgrouped\TestShuffle.java,mockito,static org.mockito.Matchers.eq
+tez,tez\tez-runtime-library\src\test\java\org\apache\tez\runtime\library\common\shuffle\orderedgrouped\TestShuffle.java,mockito,static org.mockito.Mockito.doReturn
+tez,tez\tez-runtime-library\src\test\java\org\apache\tez\runtime\library\common\shuffle\orderedgrouped\TestShuffle.java,mockito,static org.mockito.Mockito.mock
+tez,tez\tez-runtime-library\src\test\java\org\apache\tez\runtime\library\common\shuffle\orderedgrouped\TestShuffle.java,mockito,static org.mockito.Mockito.times
+tez,tez\tez-runtime-library\src\test\java\org\apache\tez\runtime\library\common\shuffle\orderedgrouped\TestShuffle.java,mockito,static org.mockito.Mockito.verify
+tez,tez\tez-runtime-library\src\test\java\org\apache\tez\runtime\library\common\shuffle\orderedgrouped\TestShuffle.java,mockito,static org.mockito.Mockito.when
+tez,tez\tez-runtime-library\src\test\java\org\apache\tez\runtime\library\common\shuffle\orderedgrouped\TestShuffle.java,mockito,org.mockito.ArgumentCaptor
+tez,tez\tez-runtime-library\src\test\java\org\apache\tez\runtime\library\common\shuffle\orderedgrouped\TestShuffle.java,mockito,org.mockito.invocation.InvocationOnMock
+tez,tez\tez-runtime-library\src\test\java\org\apache\tez\runtime\library\common\shuffle\orderedgrouped\TestShuffle.java,mockito,org.mockito.stubbing.Answer
+tez,tez\tez-runtime-library\src\test\java\org\apache\tez\runtime\library\common\shuffle\orderedgrouped\TestShuffleInputEventHandlerOrderedGrouped.java,mockito,org.mockito.invocation.InvocationOnMock
+tez,tez\tez-runtime-library\src\test\java\org\apache\tez\runtime\library\common\shuffle\orderedgrouped\TestShuffleInputEventHandlerOrderedGrouped.java,mockito,org.mockito.stubbing.Answer
+tez,tez\tez-runtime-library\src\test\java\org\apache\tez\runtime\library\common\shuffle\orderedgrouped\TestShuffleInputEventHandlerOrderedGrouped.java,mockito,static org.mockito.Matchers.any
+tez,tez\tez-runtime-library\src\test\java\org\apache\tez\runtime\library\common\shuffle\orderedgrouped\TestShuffleInputEventHandlerOrderedGrouped.java,mockito,static org.mockito.Matchers.anyInt
+tez,tez\tez-runtime-library\src\test\java\org\apache\tez\runtime\library\common\shuffle\orderedgrouped\TestShuffleInputEventHandlerOrderedGrouped.java,mockito,static org.mockito.Matchers.anyString
+tez,tez\tez-runtime-library\src\test\java\org\apache\tez\runtime\library\common\shuffle\orderedgrouped\TestShuffleInputEventHandlerOrderedGrouped.java,mockito,static org.mockito.Matchers.eq
+tez,tez\tez-runtime-library\src\test\java\org\apache\tez\runtime\library\common\shuffle\orderedgrouped\TestShuffleInputEventHandlerOrderedGrouped.java,mockito,static org.mockito.Mockito.doReturn
+tez,tez\tez-runtime-library\src\test\java\org\apache\tez\runtime\library\common\shuffle\orderedgrouped\TestShuffleInputEventHandlerOrderedGrouped.java,mockito,static org.mockito.Mockito.mock
+tez,tez\tez-runtime-library\src\test\java\org\apache\tez\runtime\library\common\shuffle\orderedgrouped\TestShuffleInputEventHandlerOrderedGrouped.java,mockito,static org.mockito.Mockito.spy
+tez,tez\tez-runtime-library\src\test\java\org\apache\tez\runtime\library\common\shuffle\orderedgrouped\TestShuffleInputEventHandlerOrderedGrouped.java,mockito,static org.mockito.Mockito.times
+tez,tez\tez-runtime-library\src\test\java\org\apache\tez\runtime\library\common\shuffle\orderedgrouped\TestShuffleInputEventHandlerOrderedGrouped.java,mockito,static org.mockito.Mockito.verify
+tez,tez\tez-runtime-library\src\test\java\org\apache\tez\runtime\library\common\shuffle\orderedgrouped\TestShuffleInputEventHandlerOrderedGrouped.java,mockito,static org.mockito.Mockito.when
+tez,tez\tez-runtime-library\src\test\java\org\apache\tez\runtime\library\common\shuffle\orderedgrouped\TestShuffleScheduler.java,mockito,static org.mockito.Matchers.any
+tez,tez\tez-runtime-library\src\test\java\org\apache\tez\runtime\library\common\shuffle\orderedgrouped\TestShuffleScheduler.java,mockito,static org.mockito.Matchers.anyInt
+tez,tez\tez-runtime-library\src\test\java\org\apache\tez\runtime\library\common\shuffle\orderedgrouped\TestShuffleScheduler.java,mockito,static org.mockito.Matchers.anyString
+tez,tez\tez-runtime-library\src\test\java\org\apache\tez\runtime\library\common\shuffle\orderedgrouped\TestShuffleScheduler.java,mockito,static org.mockito.Mockito.atLeast
+tez,tez\tez-runtime-library\src\test\java\org\apache\tez\runtime\library\common\shuffle\orderedgrouped\TestShuffleScheduler.java,mockito,static org.mockito.Mockito.doAnswer
+tez,tez\tez-runtime-library\src\test\java\org\apache\tez\runtime\library\common\shuffle\orderedgrouped\TestShuffleScheduler.java,mockito,static org.mockito.Mockito.doReturn
+tez,tez\tez-runtime-library\src\test\java\org\apache\tez\runtime\library\common\shuffle\orderedgrouped\TestShuffleScheduler.java,mockito,static org.mockito.Mockito.mock
+tez,tez\tez-runtime-library\src\test\java\org\apache\tez\runtime\library\common\shuffle\orderedgrouped\TestShuffleScheduler.java,mockito,static org.mockito.Mockito.times
+tez,tez\tez-runtime-library\src\test\java\org\apache\tez\runtime\library\common\shuffle\orderedgrouped\TestShuffleScheduler.java,mockito,static org.mockito.Mockito.verify
+tez,tez\tez-runtime-library\src\test\java\org\apache\tez\runtime\library\common\shuffle\orderedgrouped\TestShuffleScheduler.java,mockito,static org.mockito.Mockito.when
+tez,tez\tez-runtime-library\src\test\java\org\apache\tez\runtime\library\common\shuffle\orderedgrouped\TestShuffleScheduler.java,mockito,org.mockito.invocation.InvocationOnMock
+tez,tez\tez-runtime-library\src\test\java\org\apache\tez\runtime\library\common\shuffle\orderedgrouped\TestShuffleScheduler.java,mockito,org.mockito.stubbing.Answer
+tez,tez\tez-runtime-library\src\test\java\org\apache\tez\runtime\library\common\sort\impl\TestPipelinedSorter.java,mockito,static org.mockito.Matchers.any
+tez,tez\tez-runtime-library\src\test\java\org\apache\tez\runtime\library\common\sort\impl\TestPipelinedSorter.java,mockito,static org.mockito.Mockito.atLeastOnce
+tez,tez\tez-runtime-library\src\test\java\org\apache\tez\runtime\library\common\sort\impl\TestPipelinedSorter.java,mockito,static org.mockito.Mockito.doReturn
+tez,tez\tez-runtime-library\src\test\java\org\apache\tez\runtime\library\common\sort\impl\TestPipelinedSorter.java,mockito,static org.mockito.Mockito.mock
+tez,tez\tez-runtime-library\src\test\java\org\apache\tez\runtime\library\common\sort\impl\TestPipelinedSorter.java,mockito,static org.mockito.Mockito.verify
+tez,tez\tez-runtime-library\src\test\java\org\apache\tez\runtime\library\common\sort\impl\TestPipelinedSorter.java,mockito,static org.mockito.internal.verification.VerificationModeFactory.times
+tez,tez\tez-runtime-library\src\test\java\org\apache\tez\runtime\library\common\sort\impl\TestTezMerger.java,mockito,static org.mockito.Mockito.mock
+tez,tez\tez-runtime-library\src\test\java\org\apache\tez\runtime\library\common\sort\impl\dflt\TestDefaultSorter.java,mockito,static org.mockito.Matchers.any
+tez,tez\tez-runtime-library\src\test\java\org\apache\tez\runtime\library\common\sort\impl\dflt\TestDefaultSorter.java,mockito,static org.mockito.Matchers.anyLong
+tez,tez\tez-runtime-library\src\test\java\org\apache\tez\runtime\library\common\sort\impl\dflt\TestDefaultSorter.java,mockito,static org.mockito.Mockito.atLeastOnce
+tez,tez\tez-runtime-library\src\test\java\org\apache\tez\runtime\library\common\sort\impl\dflt\TestDefaultSorter.java,mockito,static org.mockito.Mockito.doAnswer
+tez,tez\tez-runtime-library\src\test\java\org\apache\tez\runtime\library\common\sort\impl\dflt\TestDefaultSorter.java,mockito,static org.mockito.Mockito.doReturn
+tez,tez\tez-runtime-library\src\test\java\org\apache\tez\runtime\library\common\sort\impl\dflt\TestDefaultSorter.java,mockito,static org.mockito.Mockito.mock
+tez,tez\tez-runtime-library\src\test\java\org\apache\tez\runtime\library\common\sort\impl\dflt\TestDefaultSorter.java,mockito,static org.mockito.Mockito.verify
+tez,tez\tez-runtime-library\src\test\java\org\apache\tez\runtime\library\common\sort\impl\dflt\TestDefaultSorter.java,mockito,static org.mockito.internal.verification.VerificationModeFactory.times
+tez,tez\tez-runtime-library\src\test\java\org\apache\tez\runtime\library\common\sort\impl\dflt\TestDefaultSorter.java,mockito,org.mockito.ArgumentCaptor
+tez,tez\tez-runtime-library\src\test\java\org\apache\tez\runtime\library\common\sort\impl\dflt\TestDefaultSorter.java,mockito,org.mockito.invocation.InvocationOnMock
+tez,tez\tez-runtime-library\src\test\java\org\apache\tez\runtime\library\common\sort\impl\dflt\TestDefaultSorter.java,mockito,org.mockito.stubbing.Answer
+tez,tez\tez-runtime-library\src\test\java\org\apache\tez\runtime\library\common\writers\TestUnorderedPartitionedKVWriter.java,mockito,static org.mockito.Matchers.any
+tez,tez\tez-runtime-library\src\test\java\org\apache\tez\runtime\library\common\writers\TestUnorderedPartitionedKVWriter.java,mockito,static org.mockito.Matchers.anyListOf
+tez,tez\tez-runtime-library\src\test\java\org\apache\tez\runtime\library\common\writers\TestUnorderedPartitionedKVWriter.java,mockito,static org.mockito.Matchers.eq
+tez,tez\tez-runtime-library\src\test\java\org\apache\tez\runtime\library\common\writers\TestUnorderedPartitionedKVWriter.java,mockito,static org.mockito.Mockito.atLeast
+tez,tez\tez-runtime-library\src\test\java\org\apache\tez\runtime\library\common\writers\TestUnorderedPartitionedKVWriter.java,mockito,static org.mockito.Mockito.atMost
+tez,tez\tez-runtime-library\src\test\java\org\apache\tez\runtime\library\common\writers\TestUnorderedPartitionedKVWriter.java,mockito,static org.mockito.Mockito.doAnswer
+tez,tez\tez-runtime-library\src\test\java\org\apache\tez\runtime\library\common\writers\TestUnorderedPartitionedKVWriter.java,mockito,static org.mockito.Mockito.doReturn
+tez,tez\tez-runtime-library\src\test\java\org\apache\tez\runtime\library\common\writers\TestUnorderedPartitionedKVWriter.java,mockito,static org.mockito.Mockito.mock
+tez,tez\tez-runtime-library\src\test\java\org\apache\tez\runtime\library\common\writers\TestUnorderedPartitionedKVWriter.java,mockito,static org.mockito.Mockito.never
+tez,tez\tez-runtime-library\src\test\java\org\apache\tez\runtime\library\common\writers\TestUnorderedPartitionedKVWriter.java,mockito,static org.mockito.Mockito.times
+tez,tez\tez-runtime-library\src\test\java\org\apache\tez\runtime\library\common\writers\TestUnorderedPartitionedKVWriter.java,mockito,static org.mockito.Mockito.verify
+tez,tez\tez-runtime-library\src\test\java\org\apache\tez\runtime\library\common\writers\TestUnorderedPartitionedKVWriter.java,mockito,org.mockito.ArgumentCaptor
+tez,tez\tez-runtime-library\src\test\java\org\apache\tez\runtime\library\common\writers\TestUnorderedPartitionedKVWriter.java,mockito,org.mockito.invocation.InvocationOnMock
+tez,tez\tez-runtime-library\src\test\java\org\apache\tez\runtime\library\common\writers\TestUnorderedPartitionedKVWriter.java,mockito,org.mockito.stubbing.Answer
+tez,tez\tez-runtime-library\src\test\java\org\apache\tez\runtime\library\conf\TestOrderedPartitionedKVEdgeConfig.java,mockito,static org.mockito.Mockito.mock
+tez,tez\tez-runtime-library\src\test\java\org\apache\tez\runtime\library\conf\TestUnorderedKVEdgeConfig.java,mockito,static org.mockito.Mockito.mock
+tez,tez\tez-runtime-library\src\test\java\org\apache\tez\runtime\library\conf\TestUnorderedPartitionedKVEdgeConfig.java,mockito,static org.mockito.Mockito.mock
+tez,tez\tez-runtime-library\src\test\java\org\apache\tez\runtime\library\input\TestOrderedGroupedKVInput.java,mockito,static org.mockito.Matchers.any
+tez,tez\tez-runtime-library\src\test\java\org\apache\tez\runtime\library\input\TestOrderedGroupedKVInput.java,mockito,static org.mockito.Mockito.doAnswer
+tez,tez\tez-runtime-library\src\test\java\org\apache\tez\runtime\library\input\TestOrderedGroupedKVInput.java,mockito,static org.mockito.Mockito.doReturn
+tez,tez\tez-runtime-library\src\test\java\org\apache\tez\runtime\library\input\TestOrderedGroupedKVInput.java,mockito,static org.mockito.Mockito.doThrow
+tez,tez\tez-runtime-library\src\test\java\org\apache\tez\runtime\library\input\TestOrderedGroupedKVInput.java,mockito,static org.mockito.Mockito.mock
+tez,tez\tez-runtime-library\src\test\java\org\apache\tez\runtime\library\input\TestOrderedGroupedKVInput.java,mockito,org.mockito.invocation.InvocationOnMock
+tez,tez\tez-runtime-library\src\test\java\org\apache\tez\runtime\library\input\TestOrderedGroupedKVInput.java,mockito,org.mockito.stubbing.Answer
+tez,tez\tez-runtime-library\src\test\java\org\apache\tez\runtime\library\input\TestSortedGroupedMergedInput.java,mockito,static org.mockito.Mockito.mock
+tez,tez\tez-runtime-library\src\test\java\org\apache\tez\runtime\library\input\TestSortedGroupedMergedInput.java,mockito,static org.mockito.Mockito.times
+tez,tez\tez-runtime-library\src\test\java\org\apache\tez\runtime\library\input\TestSortedGroupedMergedInput.java,mockito,static org.mockito.Mockito.verify
+tez,tez\tez-runtime-library\src\test\java\org\apache\tez\runtime\library\output\OutputTestHelpers.java,mockito,static org.mockito.Matchers.any
+tez,tez\tez-runtime-library\src\test\java\org\apache\tez\runtime\library\output\OutputTestHelpers.java,mockito,static org.mockito.Matchers.anyLong
+tez,tez\tez-runtime-library\src\test\java\org\apache\tez\runtime\library\output\OutputTestHelpers.java,mockito,static org.mockito.Mockito.doAnswer
+tez,tez\tez-runtime-library\src\test\java\org\apache\tez\runtime\library\output\OutputTestHelpers.java,mockito,static org.mockito.Mockito.doReturn
+tez,tez\tez-runtime-library\src\test\java\org\apache\tez\runtime\library\output\OutputTestHelpers.java,mockito,static org.mockito.Mockito.mock
+tez,tez\tez-runtime-library\src\test\java\org\apache\tez\runtime\library\output\OutputTestHelpers.java,mockito,org.mockito.invocation.InvocationOnMock
+tez,tez\tez-runtime-library\src\test\java\org\apache\tez\runtime\library\output\OutputTestHelpers.java,mockito,org.mockito.stubbing.Answer
+tez,tez\tez-runtime-library\src\test\java\org\apache\tez\runtime\library\output\TestOnFileSortedOutput.java,mockito,org.mockito.invocation.InvocationOnMock
+tez,tez\tez-runtime-library\src\test\java\org\apache\tez\runtime\library\output\TestOnFileSortedOutput.java,mockito,org.mockito.stubbing.Answer
+tez,tez\tez-runtime-library\src\test\java\org\apache\tez\runtime\library\output\TestOnFileSortedOutput.java,mockito,static org.mockito.Matchers.any
+tez,tez\tez-runtime-library\src\test\java\org\apache\tez\runtime\library\output\TestOnFileSortedOutput.java,mockito,static org.mockito.Matchers.anyLong
+tez,tez\tez-runtime-library\src\test\java\org\apache\tez\runtime\library\output\TestOnFileSortedOutput.java,mockito,static org.mockito.Mockito.doAnswer
+tez,tez\tez-runtime-library\src\test\java\org\apache\tez\runtime\library\output\TestOnFileSortedOutput.java,mockito,static org.mockito.Mockito.doReturn
+tez,tez\tez-runtime-library\src\test\java\org\apache\tez\runtime\library\output\TestOnFileSortedOutput.java,mockito,static org.mockito.Mockito.mock
+tez,tez\tez-runtime-library\src\test\java\org\apache\tez\runtime\library\output\TestOnFileUnorderedKVOutput.java,mockito,static org.mockito.Matchers.any
+tez,tez\tez-runtime-library\src\test\java\org\apache\tez\runtime\library\output\TestOnFileUnorderedKVOutput.java,mockito,static org.mockito.Matchers.anyLong
+tez,tez\tez-runtime-library\src\test\java\org\apache\tez\runtime\library\output\TestOnFileUnorderedKVOutput.java,mockito,static org.mockito.Mockito.atLeast
+tez,tez\tez-runtime-library\src\test\java\org\apache\tez\runtime\library\output\TestOnFileUnorderedKVOutput.java,mockito,static org.mockito.Mockito.doAnswer
+tez,tez\tez-runtime-library\src\test\java\org\apache\tez\runtime\library\output\TestOnFileUnorderedKVOutput.java,mockito,static org.mockito.Mockito.mock
+tez,tez\tez-runtime-library\src\test\java\org\apache\tez\runtime\library\output\TestOnFileUnorderedKVOutput.java,mockito,static org.mockito.Mockito.spy
+tez,tez\tez-runtime-library\src\test\java\org\apache\tez\runtime\library\output\TestOnFileUnorderedKVOutput.java,mockito,static org.mockito.Mockito.times
+tez,tez\tez-runtime-library\src\test\java\org\apache\tez\runtime\library\output\TestOnFileUnorderedKVOutput.java,mockito,static org.mockito.Mockito.verify
+tez,tez\tez-runtime-library\src\test\java\org\apache\tez\runtime\library\output\TestOnFileUnorderedKVOutput.java,mockito,static org.mockito.Mockito.when
+tez,tez\tez-runtime-library\src\test\java\org\apache\tez\runtime\library\output\TestOnFileUnorderedKVOutput.java,mockito,org.mockito.ArgumentCaptor
+tez,tez\tez-runtime-library\src\test\java\org\apache\tez\runtime\library\output\TestOnFileUnorderedKVOutput.java,mockito,org.mockito.invocation.InvocationOnMock
+tez,tez\tez-runtime-library\src\test\java\org\apache\tez\runtime\library\output\TestOnFileUnorderedKVOutput.java,mockito,org.mockito.stubbing.Answer
+tez,tez\tez-runtime-library\src\test\java\org\apache\tez\runtime\library\utils\TestCodecUtils.java,mockito,org.mockito.Mockito
+thrift,thrift\contrib\thrift-maven-plugin\src\test\java\org\apache\thrift\maven\TestAbstractThriftMojo.java,mockito,org.mockito.Mockito
+thrift,thrift\lib\java\test\org\apache\thrift\TestMultiplexedProcessor.java,mockito,static org.mockito.Matchers.any
+thrift,thrift\lib\java\test\org\apache\thrift\TestMultiplexedProcessor.java,mockito,static org.mockito.Mockito.mock
+thrift,thrift\lib\java\test\org\apache\thrift\TestMultiplexedProcessor.java,mockito,static org.mockito.Mockito.verify
+thrift,thrift\lib\java\test\org\apache\thrift\TestMultiplexedProcessor.java,mockito,static org.mockito.Mockito.when
+thrift,thrift\lib\java\test\org\apache\thrift\transport\sasl\TestDataFrameWriter.java,mockito,org.mockito.Mockito
+thrift,thrift\lib\java\test\org\apache\thrift\transport\sasl\TestDataFrameWriter.java,mockito,org.mockito.invocation.InvocationOnMock
+thrift,thrift\lib\java\test\org\apache\thrift\transport\sasl\TestDataFrameWriter.java,mockito,org.mockito.stubbing.Answer
+tika,tika\tika-parsers\tika-parsers-ml\tika-age-recogniser\src\test\java\org\apache\tika\parser\recognition\AgeRecogniserTest.java,mockito,static org.mockito.Mockito.mock
+tika,tika\tika-parsers\tika-parsers-ml\tika-age-recogniser\src\test\java\org\apache\tika\parser\recognition\AgeRecogniserTest.java,mockito,static org.mockito.Mockito.when
+tika,tika\tika-parsers\tika-parsers-standard\tika-parsers-standard-modules\tika-parser-image-module\src\test\java\org\apache\tika\parser\image\ImageMetadataExtractorTest.java,mockito,org.mockito.Mockito
+tika,tika\tika-parsers\tika-parsers-standard\tika-parsers-standard-modules\tika-parser-mail-module\src\test\java\org\apache\tika\parser\mail\RFC822ParserTest.java,mockito,static org.mockito.Matchers.any
+tika,tika\tika-parsers\tika-parsers-standard\tika-parsers-standard-modules\tika-parser-mail-module\src\test\java\org\apache\tika\parser\mail\RFC822ParserTest.java,mockito,static org.mockito.Matchers.eq
+tika,tika\tika-parsers\tika-parsers-standard\tika-parsers-standard-modules\tika-parser-mail-module\src\test\java\org\apache\tika\parser\mail\RFC822ParserTest.java,mockito,static org.mockito.Mockito.mock
+tika,tika\tika-parsers\tika-parsers-standard\tika-parsers-standard-modules\tika-parser-mail-module\src\test\java\org\apache\tika\parser\mail\RFC822ParserTest.java,mockito,static org.mockito.Mockito.never
+tika,tika\tika-parsers\tika-parsers-standard\tika-parsers-standard-modules\tika-parser-mail-module\src\test\java\org\apache\tika\parser\mail\RFC822ParserTest.java,mockito,static org.mockito.Mockito.times
+tika,tika\tika-parsers\tika-parsers-standard\tika-parsers-standard-modules\tika-parser-mail-module\src\test\java\org\apache\tika\parser\mail\RFC822ParserTest.java,mockito,static org.mockito.Mockito.verify
+tiles,tiles\tiles-api\src\test\java\org\apache\tiles\AttributeTest.java,easymock,static org.easymock.EasyMock.*
+tiles,tiles\tiles-api\src\test\java\org\apache\tiles\AttributeTest.java,easymock,static org.easymock.classextension.EasyMock.*
+tiles,tiles\tiles-api\src\test\java\org\apache\tiles\BasicAttributeContextTest.java,easymock,static org.easymock.EasyMock.*
+tiles,tiles\tiles-api\src\test\java\org\apache\tiles\TilesContainerWrapperTest.java,easymock,static org.easymock.classextension.EasyMock.*
+tiles,tiles\tiles-api\src\test\java\org\apache\tiles\access\TilesAccessTest.java,easymock,static org.easymock.EasyMock.*
+tiles,tiles\tiles-compat\src\test\java\org\apache\tiles\compat\preparer\UrlPreparerTest.java,easymock,static org.easymock.EasyMock.*
+tiles,tiles\tiles-core\src\test\java\org\apache\tiles\context\TilesRequestContextHolderTest.java,easymock,static org.easymock.EasyMock.*
+tiles,tiles\tiles-core\src\test\java\org\apache\tiles\definition\LocaleDefinitionsFactoryTest.java,easymock,static org.easymock.EasyMock.*
+tiles,tiles\tiles-core\src\test\java\org\apache\tiles\definition\LocaleDefinitionsFactoryTest.java,easymock,static org.easymock.classextension.EasyMock.*
+tiles,tiles\tiles-core\src\test\java\org\apache\tiles\definition\UnresolvingLocaleDefinitionsFactoryTest.java,easymock,static org.easymock.EasyMock.*
+tiles,tiles\tiles-core\src\test\java\org\apache\tiles\definition\UnresolvingLocaleDefinitionsFactoryTest.java,easymock,static org.easymock.classextension.EasyMock.*
+tiles,tiles\tiles-core\src\test\java\org\apache\tiles\definition\dao\BaseLocaleUrlDefinitionDAOTest.java,easymock,static org.easymock.EasyMock.*
+tiles,tiles\tiles-core\src\test\java\org\apache\tiles\definition\dao\BaseLocaleUrlDefinitionDAOTest.java,easymock,static org.easymock.classextension.EasyMock.*
+tiles,tiles\tiles-core\src\test\java\org\apache\tiles\definition\dao\CachingLocaleUrlDefinitionDAOTest.java,easymock,static org.easymock.EasyMock.*
+tiles,tiles\tiles-core\src\test\java\org\apache\tiles\definition\dao\LocaleUrlDefinitionDAOTest.java,easymock,static org.easymock.EasyMock.*
+tiles,tiles\tiles-core\src\test\java\org\apache\tiles\definition\dao\ResolvingLocaleUrlDefinitionDAOTest.java,easymock,static org.easymock.EasyMock.*
+tiles,tiles\tiles-core\src\test\java\org\apache\tiles\definition\pattern\AbstractPatternDefinitionResolverTest.java,easymock,static org.easymock.EasyMock.*
+tiles,tiles\tiles-core\src\test\java\org\apache\tiles\definition\pattern\BasicPatternDefinitionResolverTest.java,easymock,static org.easymock.EasyMock.*
+tiles,tiles\tiles-core\src\test\java\org\apache\tiles\definition\pattern\PrefixedPatternDefinitionResolverTest.java,easymock,static org.easymock.EasyMock.*
+tiles,tiles\tiles-core\src\test\java\org\apache\tiles\evaluator\BasicAttributeEvaluatorFactoryTest.java,easymock,static org.easymock.EasyMock.*
+tiles,tiles\tiles-core\src\test\java\org\apache\tiles\factory\BasicTilesContainerFactoryTest.java,easymock,static org.easymock.EasyMock.*
+tiles,tiles\tiles-core\src\test\java\org\apache\tiles\factory\BasicTilesContainerFactoryTest.java,easymock,static org.easymock.classextension.EasyMock.*
+tiles,tiles\tiles-core\src\test\java\org\apache\tiles\factory\BasicTilesContainerFactoryTest.java,easymock,org.easymock.EasyMock
+tiles,tiles\tiles-core\src\test\java\org\apache\tiles\impl\BasicTilesContainerTest.java,easymock,org.easymock.EasyMock
+tiles,tiles\tiles-core\src\test\java\org\apache\tiles\impl\BasicTilesContainerUnitTest.java,easymock,static org.easymock.EasyMock.*
+tiles,tiles\tiles-core\src\test\java\org\apache\tiles\impl\BasicTilesContainerUnitTest.java,easymock,static org.easymock.classextension.EasyMock.*
+tiles,tiles\tiles-core\src\test\java\org\apache\tiles\impl\mgmt\CachingTilesContainerTest.java,easymock,static org.easymock.EasyMock.*
+tiles,tiles\tiles-core\src\test\java\org\apache\tiles\impl\mgmt\CachingTilesContainerTest.java,easymock,static org.easymock.classextension.EasyMock.*
+tiles,tiles\tiles-core\src\test\java\org\apache\tiles\locale\impl\DefaultLocaleResolverTest.java,easymock,static org.easymock.classextension.EasyMock.*
+tiles,tiles\tiles-core\src\test\java\org\apache\tiles\renderer\DefinitionRendererTest.java,easymock,static org.easymock.EasyMock.*
+tiles,tiles\tiles-core\src\test\java\org\apache\tiles\startup\AbstractTilesInitializerTest.java,easymock,static org.easymock.classextension.EasyMock.*
+tiles,tiles\tiles-core\src\test\java\org\apache\tiles\startup\DefaultTilesInitializerTest.java,easymock,static org.easymock.EasyMock.*
+tiles,tiles\tiles-el\src\test\java\org\apache\tiles\el\ELAttributeEvaluatorTest.java,easymock,org.easymock.EasyMock
+tiles,tiles\tiles-el\src\test\java\org\apache\tiles\el\ELContextImplTest.java,easymock,static org.easymock.classextension.EasyMock.*
+tiles,tiles\tiles-el\src\test\java\org\apache\tiles\el\JspExpressionFactoryFactoryTest.java,easymock,static org.easymock.classextension.EasyMock.*
+tiles,tiles\tiles-el\src\test\java\org\apache\tiles\el\ScopeELResolverTest.java,easymock,static org.easymock.classextension.EasyMock.*
+tiles,tiles\tiles-el\src\test\java\org\apache\tiles\el\TilesContextBeanELResolverTest.java,easymock,static org.easymock.classextension.EasyMock.*
+tiles,tiles\tiles-el\src\test\java\org\apache\tiles\el\TilesContextELResolverTest.java,easymock,static org.easymock.classextension.EasyMock.*
+tiles,tiles\tiles-extras\src\test\java\org\apache\tiles\extras\complete\CompleteAutoloadTilesContainerFactoryTest.java,easymock,static org.easymock.EasyMock.*
+tiles,tiles\tiles-extras\src\test\java\org\apache\tiles\extras\complete\CompleteAutoloadTilesContainerFactoryTest.java,easymock,static org.easymock.classextension.EasyMock.*
+tiles,tiles\tiles-extras\src\test\java\org\apache\tiles\extras\complete\CompleteAutoloadTilesInitializerTest.java,easymock,static org.easymock.EasyMock.*
+tiles,tiles\tiles-extras\src\test\java\org\apache\tiles\extras\module\ModularTilesInitializerTest.java,easymock,static org.easymock.EasyMock.*
+tiles,tiles\tiles-extras\src\test\java\org\apache\tiles\extras\renderer\OptionsRendererTest.java,easymock,static org.easymock.EasyMock.*
+tiles,tiles\tiles-jsp\src\test\java\org\apache\tiles\jsp\taglib\UseAttributeTagTest.java,easymock,static org.easymock.EasyMock.*
+tiles,tiles\tiles-jsp\src\test\java\org\apache\tiles\jsp\taglib\UseAttributeTagTest.java,easymock,static org.easymock.classextension.EasyMock.*
+tiles,tiles\tiles-mvel\src\test\java\org\apache\tiles\mvel\MVELAttributeEvaluatorTest.java,easymock,static org.easymock.classextension.EasyMock.*
+tiles,tiles\tiles-mvel\src\test\java\org\apache\tiles\mvel\ReadOnlyVariableResolverFactoryTest.java,easymock,static org.easymock.EasyMock.*
+tiles,tiles\tiles-mvel\src\test\java\org\apache\tiles\mvel\ReadOnlyVariableResolverFactoryTest.java,easymock,static org.easymock.classextension.EasyMock.*
+tiles,tiles\tiles-mvel\src\test\java\org\apache\tiles\mvel\ReadOnlyVariableResolverTest.java,easymock,static org.easymock.classextension.EasyMock.*
+tiles,tiles\tiles-mvel\src\test\java\org\apache\tiles\mvel\ScopeVariableResolverFactoryTest.java,easymock,static org.easymock.EasyMock.*
+tiles,tiles\tiles-mvel\src\test\java\org\apache\tiles\mvel\ScopeVariableResolverFactoryTest.java,easymock,static org.easymock.classextension.EasyMock.*
+tiles,tiles\tiles-mvel\src\test\java\org\apache\tiles\mvel\TilesContextBeanVariableResolverFactoryTest.java,easymock,static org.easymock.EasyMock.*
+tiles,tiles\tiles-mvel\src\test\java\org\apache\tiles\mvel\TilesContextVariableResolverFactoryTest.java,easymock,static org.easymock.EasyMock.*
+tiles,tiles\tiles-ognl\src\test\java\org\apache\tiles\ognl\AnyScopePropertyAccessorTest.java,easymock,static org.easymock.classextension.EasyMock.*
+tiles,tiles\tiles-ognl\src\test\java\org\apache\tiles\ognl\DelegatePropertyAccessorTest.java,easymock,static org.easymock.classextension.EasyMock.*
+tiles,tiles\tiles-ognl\src\test\java\org\apache\tiles\ognl\NestedObjectDelegatePropertyAccessorTest.java,easymock,static org.easymock.classextension.EasyMock.*
+tiles,tiles\tiles-ognl\src\test\java\org\apache\tiles\ognl\OGNLAttributeEvaluatorTest.java,easymock,static org.easymock.EasyMock.*
+tiles,tiles\tiles-ognl\src\test\java\org\apache\tiles\ognl\OGNLAttributeEvaluatorTest.java,easymock,static org.easymock.classextension.EasyMock.*
+tiles,tiles\tiles-ognl\src\test\java\org\apache\tiles\ognl\ScopePropertyAccessorTest.java,easymock,static org.easymock.classextension.EasyMock.*
+tiles,tiles\tiles-ognl\src\test\java\org\apache\tiles\ognl\TilesApplicationContextNestedObjectExtractorTest.java,easymock,static org.easymock.EasyMock.*
+tiles,tiles\tiles-ognl\src\test\java\org\apache\tiles\ognl\TilesContextPropertyAccessorDelegateFactoryTest.java,easymock,static org.easymock.EasyMock.*
+tiles,tiles\tiles-servlet\src\test\java\org\apache\tiles\web\startup\AbstractTilesInitializerServletTest.java,easymock,static org.easymock.classextension.EasyMock.*
+tiles,tiles\tiles-servlet\src\test\java\org\apache\tiles\web\startup\AbstractTilesListenerTest.java,easymock,static org.easymock.EasyMock.*
+tiles,tiles\tiles-servlet\src\test\java\org\apache\tiles\web\startup\AbstractTilesListenerTest.java,easymock,static org.easymock.classextension.EasyMock.*
+tiles,tiles\tiles-servlet\src\test\java\org\apache\tiles\web\util\ServletContextAdapterTest.java,easymock,static org.easymock.EasyMock.*
+tiles,tiles\tiles-servlet\src\test\java\org\apache\tiles\web\util\ServletContextAdapterTest.java,easymock,static org.easymock.classextension.EasyMock.*
+tiles,tiles\tiles-servlet\src\test\java\org\apache\tiles\web\util\TilesDecorationFilterTest.java,easymock,static org.easymock.EasyMock.*
+tiles,tiles\tiles-servlet\src\test\java\org\apache\tiles\web\util\TilesDecorationFilterTest.java,easymock,static org.easymock.classextension.EasyMock.*
+tiles,tiles\tiles-template\src\test\java\org\apache\tiles\template\AddAttributeModelTest.java,easymock,static org.easymock.EasyMock.*
+tiles,tiles\tiles-template\src\test\java\org\apache\tiles\template\AddAttributeModelTest.java,easymock,static org.easymock.classextension.EasyMock.*
+tiles,tiles\tiles-template\src\test\java\org\apache\tiles\template\AddListAttributeModelTest.java,easymock,static org.easymock.EasyMock.*
+tiles,tiles\tiles-template\src\test\java\org\apache\tiles\template\AddListAttributeModelTest.java,easymock,static org.easymock.classextension.EasyMock.*
+tiles,tiles\tiles-template\src\test\java\org\apache\tiles\template\ComposeStackUtilTest.java,easymock,static org.easymock.EasyMock.*
+tiles,tiles\tiles-template\src\test\java\org\apache\tiles\template\DefaultAttributeResolverTest.java,easymock,static org.easymock.EasyMock.*
+tiles,tiles\tiles-template\src\test\java\org\apache\tiles\template\DefinitionModelTest.java,easymock,static org.easymock.EasyMock.*
+tiles,tiles\tiles-template\src\test\java\org\apache\tiles\template\GetAsStringModelTest.java,easymock,static org.easymock.EasyMock.*
+tiles,tiles\tiles-template\src\test\java\org\apache\tiles\template\GetAsStringModelTest.java,easymock,static org.easymock.classextension.EasyMock.*
+tiles,tiles\tiles-template\src\test\java\org\apache\tiles\template\ImportAttributeModelTest.java,easymock,static org.easymock.EasyMock.*
+tiles,tiles\tiles-template\src\test\java\org\apache\tiles\template\InsertAttributeModelTest.java,easymock,static org.easymock.EasyMock.*
+tiles,tiles\tiles-template\src\test\java\org\apache\tiles\template\InsertDefinitionModelTest.java,easymock,static org.easymock.EasyMock.*
+tiles,tiles\tiles-template\src\test\java\org\apache\tiles\template\InsertDefinitionModelTest.java,easymock,static org.easymock.classextension.EasyMock.*
+tiles,tiles\tiles-template\src\test\java\org\apache\tiles\template\InsertTemplateModelTest.java,easymock,static org.easymock.EasyMock.*
+tiles,tiles\tiles-template\src\test\java\org\apache\tiles\template\PutAttributeModelTest.java,easymock,static org.easymock.EasyMock.*
+tiles,tiles\tiles-template\src\test\java\org\apache\tiles\template\PutAttributeModelTest.java,easymock,static org.easymock.classextension.EasyMock.*
+tiles,tiles\tiles-template\src\test\java\org\apache\tiles\template\PutListAttributeModelTest.java,easymock,static org.easymock.EasyMock.*
+tiles,tiles\tiles-template\src\test\java\org\apache\tiles\template\PutListAttributeModelTest.java,easymock,static org.easymock.classextension.EasyMock.*
+tiles,tiles\tiles-template\src\test\java\org\apache\tiles\template\SetCurrentContainerModelTest.java,easymock,static org.easymock.EasyMock.*
+tiles,tiles\tiles-velocity\src\test\java\org\apache\tiles\velocity\template\AbstractDefaultToStringRenderableTest.java,easymock,static org.easymock.classextension.EasyMock.*
+tiles,tiles\tiles-velocity\src\test\java\org\apache\tiles\velocity\template\VelocityStyleTilesToolTest.java,easymock,static org.easymock.EasyMock.eq
+tiles,tiles\tiles-velocity\src\test\java\org\apache\tiles\velocity\template\VelocityStyleTilesToolTest.java,easymock,static org.easymock.EasyMock.expect
+tiles,tiles\tiles-velocity\src\test\java\org\apache\tiles\velocity\template\VelocityStyleTilesToolTest.java,easymock,static org.easymock.EasyMock.isA
+tiles,tiles\tiles-velocity\src\test\java\org\apache\tiles\velocity\template\VelocityStyleTilesToolTest.java,easymock,static org.easymock.classextension.EasyMock.createMock
+tiles,tiles\tiles-velocity\src\test\java\org\apache\tiles\velocity\template\VelocityStyleTilesToolTest.java,easymock,static org.easymock.classextension.EasyMock.replay
+tiles,tiles\tiles-velocity\src\test\java\org\apache\tiles\velocity\template\VelocityStyleTilesToolTest.java,easymock,static org.easymock.classextension.EasyMock.verify

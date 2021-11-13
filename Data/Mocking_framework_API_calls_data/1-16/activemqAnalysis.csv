@@ -1,0 +1,11 @@
+method, origin, count
+setImposteriser,org.jmock.Mockery,1
+mock,org.jmock.Mockery,1
+checking,org.jmock.Mockery,1
+of,org.jmock.syntax.ReceiverClause,1
+exactly,org.jmock.Expectations,1
+assertIsSatisfied,org.jmock.Mockery,1
+
+MockedObjects: ,1
+
+# of Mocked objects each file:,1|

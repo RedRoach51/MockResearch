@@ -1,0 +1,24 @@
+method, origin, count
+createMock,org.easymock.EasyMock,88
+andReturn,org.easymock.IExpectationSetters<java.lang.reflect.Method>,41
+expect,org.easymock.EasyMock,49
+replay,org.easymock.EasyMock,19
+verify,org.easymock.EasyMock,18
+mock,org.mockito.Mockito,90
+forClass,org.mockito.ArgumentCaptor,2
+thenReturn,org.mockito.stubbing.OngoingStubbing<java.util.concurrent.Future<>>,2
+when,org.mockito.Mockito,42
+eq,org.easymock.EasyMock,6
+isA,org.easymock.EasyMock,6
+createNiceMock,org.easymock.EasyMock,42
+anyObject,org.easymock.EasyMock,2
+createStrictControl,org.easymock.EasyMock,2
+anyTimes,org.easymock.IExpectationSetters<java.lang.reflect.Method>,8
+then,org.mockito.stubbing.OngoingStubbing<java.lang.String>,33
+newInstance,org.easymock.Capture,1
+captureInt,org.easymock.EasyMock,1
+getValue,org.easymock.Capture<java.lang.Integer>,1
+
+MockedObjects: ,220
+
+# of Mocked objects each file:,3|2|1|1|1|4|2|5|1|2|1|1|11|4|2|4|1|2|1|2|4|21|3|5|2|1|1|7|2|2|2|4|2|2|6|1|24|5|4|2|3|2|36|11|6|5|2|3|1|
