@@ -1,0 +1,22 @@
+method, origin, count
+checking,org.jmock.Mockery,8
+oneOf,org.jmock.AbstractExpectations,3
+will,org.jmock.AbstractExpectations,3
+returnValue,org.jmock.AbstractExpectations,3
+getParameter,org.jmock.api.Invocation,3
+getInvokedObject,org.jmock.api.Invocation,1
+setImposteriser,org.jmock.Mockery,1
+setThreadingPolicy,org.jmock.Mockery,1
+assertIsSatisfied,org.jmock.Mockery,1
+in,org.jmock.internal.AllDeclaredFields,1
+ignoring,org.jmock.AbstractExpectations,1
+canImposterise,org.jmock.api.Imposteriser,1
+imposterise,org.jmock.api.Imposteriser,1
+invoke,org.jmock.api.Invokable,1
+mock,org.jmock.Mockery,1
+states,org.jmock.Mockery,1
+sequence,org.jmock.Mockery,1
+
+MockedObjects: ,1
+
+# of Mocked objects each file:,1|

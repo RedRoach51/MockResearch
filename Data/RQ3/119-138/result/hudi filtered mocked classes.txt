@@ -1,0 +1,25 @@
+Inside classes: 
+ 
+org.apache.hudi.common.engine.TaskContextSupplier
+org.apache.hudi.common.model.HoodieCommitMetadata
+org.apache.hudi.integ.testsuite.writer.AvroFileDeltaInputWriter
+org.apache.hudi.integ.testsuite.writer.DeltaWriteStats
+org.apache.hudi.common.model.HoodieRecord
+org.apache.hudi.client.HoodieJavaWriteClient
+org.apache.hudi.index.HoodieIndex
+org.apache.hudi.config.HoodieWriteConfig
+org.apache.hudi.common.table.timeline.HoodieTimeline
+org.apache.hudi.utilities.deltastreamer.HoodieDeltaStreamerMetrics
+ 
+ 
+ 
+Outside classes: 
+ 
+org.apache.parquet.hadoop.ParquetReader
+java.io.DataOutput
+java.io.DataInput
+java.util.Iterator
+org.apache.hadoop.hbase.client.Connection
+org.apache.hadoop.hbase.client.HTable
+org.apache.spark.api.java.JavaRDD
+java.util.List

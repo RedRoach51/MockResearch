@@ -1,0 +1,9 @@
+method, origin, count
+createMock,org.powermock.api.easymock.PowerMock,2
+andThrow,org.easymock.IExpectationSetters<java.io.InputStream>,2
+expect,org.easymock.EasyMock,2
+replay,org.powermock.api.easymock.PowerMock,2
+
+MockedObjects: ,2
+
+# of Mocked objects each file:,1|1|

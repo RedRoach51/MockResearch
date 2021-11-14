@@ -1,0 +1,2 @@
+method, origin, count
+pubImplFlush,tests.api.java.nio.charset.CharsetDecoderTest.MockCharsetDecoder,2

@@ -1,0 +1,12 @@
+Inside classes: 
+ 
+org.apache.jackrabbit.api.security.principal.GroupPrincipal
+ 
+ 
+ 
+Outside classes: 
+ 
+javax.jcr.Node
+javax.jcr.Property
+javax.jcr.Value
+javax.jcr.Session

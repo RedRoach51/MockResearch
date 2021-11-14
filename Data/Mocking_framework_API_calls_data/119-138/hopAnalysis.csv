@@ -1,0 +1,36 @@
+method, origin, count
+spy,org.mockito.Mockito,82
+mock,org.mockito.Mockito,856
+verify,org.mockito.Mockito,99
+never,org.mockito.Mockito,2
+anyString,org.mockito.Matchers,37
+when,org.mockito.stubbing.Stubber,784
+doReturn,org.mockito.Mockito,108
+thenReturn,org.mockito.stubbing.OngoingStubbing<java.lang.Boolean>,86
+initMocks,org.mockito.MockitoAnnotations,12
+doCallRealMethod,org.mockito.Mockito,7
+any,org.mockito.Matchers,281
+times,org.mockito.Mockito,16
+setInternalState,org.powermock.reflect.Whitebox,9
+mockStatic,org.powermock.api.mockito.PowerMockito,6
+doAnswer,org.mockito.Mockito,3
+getArguments,org.mockito.invocation.InvocationOnMock,5
+anyInt,org.mockito.Matchers,3
+anyObject,org.mockito.Matchers,1
+getInternalState,org.powermock.reflect.Whitebox,1
+verifyNoMoreInteractions,org.mockito.Mockito,3
+thenCallRealMethod,org.mockito.stubbing.OngoingStubbing<java.lang.String>,10
+thenAnswer,org.mockito.stubbing.OngoingStubbing<java.lang.Object>,11
+same,org.mockito.Matchers,2
+getMock,org.mockito.stubbing.OngoingStubbing<java.lang.String>,2
+doNothing,org.mockito.Mockito,1
+then,org.mockito.stubbing.OngoingStubbing<com.datastax.driver.core.Session>,1
+doThrow,org.mockito.Mockito,1
+eq,org.mockito.ArgumentMatchers,58
+returnsFirstArg,org.mockito.AdditionalAnswers,4
+anyList,org.mockito.Matchers,2
+thenThrow,org.mockito.stubbing.OngoingStubbing<java.lang.String>,1
+
+MockedObjects: ,856
+
+# of Mocked objects each file:,1|1|2|4|1|1|1|4|5|1|4|4|1|3|1|1|3|1|7|9|17|4|3|2|2|2|3|1|1|1|1|6|1|9|2|2|16|1|2|3|10|5|24|9|3|4|8|2|2|2|7|9|2|2|4|12|6|5|1|1|4|1|4|5|18|7|1|7|11|9|11|1|8|8|8|8|8|9|8|5|12|8|10|9|7|3|8|2|1|2|2|4|11|2|1|14|23|2|4|8|1|2|11|1|1|8|2|1|8|1|11|6|7|2|9|1|10|5|4|4|1|9|4|9|1|2|1|3|8|2|1|4|4|2|3|10|2|6|6|5|10|3|1|1|3|1|2|1|1|7|6|12|2|4|10|16|1|10|13|2|1|18|4|12|1|2|5|1|2|

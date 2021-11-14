@@ -1,0 +1,10 @@
+method, origin, count
+createMock,org.easymock.EasyMock,28
+expect,org.easymock.EasyMock,4
+replay,org.easymock.EasyMock,4
+verify,org.easymock.EasyMock,4
+andReturn,org.easymock.IExpectationSetters<java.util.Iterator<java.lang.Long>>,24
+
+MockedObjects: ,28
+
+# of Mocked objects each file:,1|7|1|5|1|7|1|5|

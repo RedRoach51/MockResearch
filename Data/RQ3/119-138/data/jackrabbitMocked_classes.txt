@@ -1,0 +1,8 @@
+org.apache.jackrabbit.api.security.principal.GroupPrincipal
+javax.jcr.Node
+javax.jcr.Property
+javax.jcr.Value
+javax.jcr.Property
+javax.jcr.Value
+javax.jcr.Value
+javax.jcr.Session

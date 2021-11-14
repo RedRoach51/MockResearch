@@ -1,0 +1,26 @@
+Project Name,Mocking Framework,Used in # of Files
+harmony,tests,1
+hbase,mockito,227
+helix,mockito,48
+hive,mockito,196
+hive,powermock,14
+hive,confluent,1
+hop,mockito,262
+hop,powermock,37
+httpcomponents-client,mockito,49
+httpcomponents-core,mockito,21
+hudi,mockito,39
+hudi,confluent,1
+ignite,mockito,39
+ignite,mockserver,2
+iotdb,mockito,14
+iotdb,powermock,4
+isis,jmock,108
+isis,mockito,12
+isis,springframework,1
+jackrabbit,mockito,3
+jackrabbit,easymock,1
+jakarta-cactus,jmock,3
+jclouds,jclouds,152
+jclouds,easymock,131
+jclouds,mockwebserver,98

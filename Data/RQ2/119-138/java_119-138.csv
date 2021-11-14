@@ -1,0 +1,3 @@
+method, origin, count
+size,java.util.List<org.mockito.internal.util.reflection.InstanceField>,2
+get,java.util.List<org.mockito.internal.util.reflection.InstanceField>,2

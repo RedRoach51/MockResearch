@@ -1,0 +1,400 @@
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 29
+ 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<java.net.SocketAddress>
+	Count: 2
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 17
+ 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<java.io.InputStream>
+	Count: 5
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 11
+ 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 2
+ 
+	Method name: verify
+	Class origin: org.mockito.Mockito
+	Count: 4
+ 
+	Method name: times
+	Class origin: org.mockito.Mockito
+	Count: 3
+ 
+	Method name: any
+	Class origin: org.mockito.ArgumentMatchers
+	Count: 2
+ 
+	Method name: anyInt
+	Class origin: org.mockito.ArgumentMatchers
+	Count: 6
+ 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<java.io.InputStream>
+	Count: 6
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 14
+ 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 3
+ 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<java.lang.Integer>
+	Count: 1
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 3
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 30
+ 
+	Method name: spy
+	Class origin: org.mockito.Mockito
+	Count: 24
+ 
+	Method name: spy
+	Class origin: org.mockito.Mockito
+	Count: 22
+ 
+	Method name: openMocks
+	Class origin: org.mockito.MockitoAnnotations
+	Count: 1
+ 
+	Method name: verify
+	Class origin: org.mockito.Mockito
+	Count: 2
+ 
+	Method name: eq
+	Class origin: org.mockito.ArgumentMatchers
+	Count: 2
+ 
+	Method name: verifyNoMoreInteractions
+	Class origin: org.mockito.Mockito
+	Count: 2
+ 
+	Method name: spy
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+	Method name: verify
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+	Method name: never
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+	Method name: any
+	Class origin: org.mockito.ArgumentMatchers
+	Count: 1
+ 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 2
+ 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 5
+ 
+	Method name: verifyNoInteractions
+	Class origin: org.mockito.Mockito
+	Count: 4
+ 
+	Method name: spy
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+	Method name: verifyNoInteractions
+	Class origin: org.mockito.Mockito
+	Count: 2
+ 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 13
+ 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 20
+ 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 5
+ 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+	Method name: useConstructor
+	Class origin: org.mockito.MockSettings
+	Count: 1
+ 
+	Method name: defaultAnswer
+	Class origin: org.mockito.MockSettings
+	Count: 1
+ 
+	Method name: withSettings
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 7
+ 
+	Method name: anyString
+	Class origin: org.mockito.ArgumentMatchers
+	Count: 3
+ 
+	Method name: any
+	Class origin: org.mockito.ArgumentMatchers
+	Count: 19
+ 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 7
+ 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 5
+ 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<java.lang.Boolean>
+	Count: 1
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+	Method name: anyMap
+	Class origin: org.mockito.ArgumentMatchers
+	Count: 3
+ 
+	Method name: verify
+	Class origin: org.mockito.Mockito
+	Count: 4
+ 
+	Method name: never
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+	Method name: anyString
+	Class origin: org.mockito.ArgumentMatchers
+	Count: 1
+ 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 29
+ 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<java.net.SocketAddress>
+	Count: 2
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 17
+ 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<java.io.InputStream>
+	Count: 5
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 11
+ 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 2
+ 
+	Method name: verify
+	Class origin: org.mockito.Mockito
+	Count: 4
+ 
+	Method name: times
+	Class origin: org.mockito.Mockito
+	Count: 3
+ 
+	Method name: any
+	Class origin: org.mockito.ArgumentMatchers
+	Count: 2
+ 
+	Method name: anyInt
+	Class origin: org.mockito.ArgumentMatchers
+	Count: 6
+ 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<java.io.InputStream>
+	Count: 6
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 14
+ 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 3
+ 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<java.lang.Integer>
+	Count: 1
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 3
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 30
+ 
+	Method name: spy
+	Class origin: org.mockito.Mockito
+	Count: 24
+ 
+	Method name: spy
+	Class origin: org.mockito.Mockito
+	Count: 22
+ 
+	Method name: openMocks
+	Class origin: org.mockito.MockitoAnnotations
+	Count: 1
+ 
+	Method name: verify
+	Class origin: org.mockito.Mockito
+	Count: 2
+ 
+	Method name: eq
+	Class origin: org.mockito.ArgumentMatchers
+	Count: 2
+ 
+	Method name: verifyNoMoreInteractions
+	Class origin: org.mockito.Mockito
+	Count: 2
+ 
+	Method name: spy
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+	Method name: verify
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+	Method name: never
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+	Method name: any
+	Class origin: org.mockito.ArgumentMatchers
+	Count: 1
+ 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 2
+ 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 5
+ 
+	Method name: verifyNoInteractions
+	Class origin: org.mockito.Mockito
+	Count: 4
+ 
+	Method name: spy
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+	Method name: verifyNoInteractions
+	Class origin: org.mockito.Mockito
+	Count: 2
+ 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 13
+ 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 20
+ 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 5
+ 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+	Method name: useConstructor
+	Class origin: org.mockito.MockSettings
+	Count: 1
+ 
+	Method name: defaultAnswer
+	Class origin: org.mockito.MockSettings
+	Count: 1
+ 
+	Method name: withSettings
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 7
+ 
+	Method name: anyString
+	Class origin: org.mockito.ArgumentMatchers
+	Count: 3
+ 
+	Method name: any
+	Class origin: org.mockito.ArgumentMatchers
+	Count: 19
+ 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 7
+ 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 5
+ 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<java.lang.Boolean>
+	Count: 1
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+	Method name: anyMap
+	Class origin: org.mockito.ArgumentMatchers
+	Count: 3
+ 
+	Method name: verify
+	Class origin: org.mockito.Mockito
+	Count: 4
+ 
+	Method name: never
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+	Method name: anyString
+	Class origin: org.mockito.ArgumentMatchers
+	Count: 1
+ 

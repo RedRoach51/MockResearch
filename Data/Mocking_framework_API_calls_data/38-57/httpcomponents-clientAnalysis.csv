@@ -1,0 +1,29 @@
+method, origin, count
+mock,org.mockito.Mockito,204
+when,org.mockito.stubbing.Stubber,1328
+doThrow,org.mockito.Mockito,6
+any,org.mockito.ArgumentMatchers,2128
+verify,org.mockito.Mockito,480
+atLeast,org.mockito.Mockito,6
+defaultAnswer,org.mockito.MockSettings,6
+withSettings,org.mockito.Mockito,6
+thenReturn,org.mockito.stubbing.OngoingStubbing<java.lang.Boolean>,162
+eq,org.mockito.ArgumentMatchers,106
+anyString,org.mockito.ArgumentMatchers,18
+same,org.mockito.ArgumentMatchers,72
+spy,org.mockito.Mockito,26
+times,org.mockito.Mockito,58
+never,org.mockito.Mockito,4
+anyInt,org.mockito.ArgumentMatchers,10
+useConstructor,org.mockito.MockSettings,4
+argThat,org.mockito.ArgumentMatchers,4
+forClass,org.mockito.ArgumentCaptor,2
+capture,org.mockito.ArgumentCaptor<byte[]>,2
+getValue,org.mockito.ArgumentCaptor<byte[]>,2
+thenAnswer,org.mockito.stubbing.OngoingStubbing<java.lang.String>,4
+getArgument,org.mockito.invocation.InvocationOnMock,6
+isA,org.mockito.ArgumentMatchers,8
+
+MockedObjects: ,204
+
+# of Mocked objects each file:,2|1|2|4|7|4|5|7|4|5|17|7|1|1|2|1|1|1|1|2|2|2|1|8|1|10|3|2|1|2|4|7|4|5|7|4|5|17|7|1|1|2|1|1|1|1|2|2|2|1|8|1|10|3|

@@ -1,0 +1,2 @@
+method, origin, count
+createMock,org.easymock.EasyMockSupport,6

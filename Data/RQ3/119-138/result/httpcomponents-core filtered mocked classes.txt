@@ -1,0 +1,22 @@
+Inside classes: 
+ 
+ 
+ 
+ 
+Outside classes: 
+ 
+org.apache.hc.core5.http.io.HttpClientConnection
+org.apache.hc.core5.http.protocol.HttpProcessor
+org.apache.hc.core5.http.io.HttpResponseInformationCallback
+org.apache.hc.core5.http.HttpEntity
+java.io.OutputStream
+java.io.InputStream
+javax.net.ssl.SSLSession
+org.apache.hc.core5.http.io.EofSensorWatcher
+org.apache.hc.core5.http.nio.CapacityChannel
+org.apache.hc.core5.http.nio.DataStreamChannel
+org.apache.hc.core5.http.HttpConnection
+org.apache.hc.core5.reactor.IOEventHandlerFactory
+org.apache.hc.core5.reactor.AbstractIOSessionPool
+org.apache.hc.core5.testing.framework.TestingFrameworkRequestHandler
+org.apache.hc.core5.testing.framework.ClientTestingAdapter
