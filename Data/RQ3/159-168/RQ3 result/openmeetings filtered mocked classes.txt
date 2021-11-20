@@ -1,0 +1,13 @@
+Inside classes: 
+ 
+org.apache.openmeetings.IApplication
+ 
+ 
+ 
+Outside classes: 
+ 
+org.kurento.client.WebRtcEndpoint
+org.kurento.client.RecorderEndpoint
+org.kurento.client.PlayerEndpoint
+org.apache.wicket.injection.Injector
+org.kurento.client.MediaPipeline

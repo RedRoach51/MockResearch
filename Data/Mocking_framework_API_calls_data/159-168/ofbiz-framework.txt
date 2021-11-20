@@ -1,0 +1,96 @@
+	Method name: setAttribute
+	Class origin: org.springframework.mock.web.MockHttpServletRequest
+	Count: 4
+ 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<java.util.Map<java.lang.String,java.lang.String[]>>
+	Count: 11
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 19
+ 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<java.lang.String>
+	Count: 8
+ 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 6
+ 
+	Method name: verify
+	Class origin: org.mockito.Mockito
+	Count: 3
+ 
+	Method name: verifyNoMoreInteractions
+	Class origin: org.mockito.Mockito
+	Count: 2
+ 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 9
+ 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 7
+ 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<java.lang.Object>
+	Count: 3
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 7
+ 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 5
+ 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<java.lang.String>
+	Count: 26
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 32
+ 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 5
+ 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<java.lang.String>
+	Count: 34
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 38
+ 
+	Method name: anyString
+	Class origin: org.mockito.ArgumentMatchers
+	Count: 2
+ 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 3
+ 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<java.lang.String>
+	Count: 12
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 12
+ 
+	Method name: withNotNull
+	Class origin: mockit.Invocations
+	Count: 61
+ 
+	Method name: withNotNull
+	Class origin: mockit.Invocations
+	Count: 10
+ 

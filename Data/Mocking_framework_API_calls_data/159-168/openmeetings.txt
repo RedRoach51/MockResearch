@@ -1,0 +1,100 @@
+	Method name: when
+	Class origin: org.mockito.stubbing.Stubber
+	Count: 7
+ 
+	Method name: doReturn
+	Class origin: org.mockito.Mockito
+	Count: 6
+ 
+	Method name: reset
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+	Method name: when
+	Class origin: org.mockito.stubbing.Stubber
+	Count: 3
+ 
+	Method name: doReturn
+	Class origin: org.mockito.stubbing.BaseStubber
+	Count: 2
+ 
+	Method name: lenient
+	Class origin: org.mockito.Mockito
+	Count: 2
+ 
+	Method name: when
+	Class origin: org.mockito.stubbing.Stubber
+	Count: 2
+ 
+	Method name: doReturn
+	Class origin: org.mockito.Mockito
+	Count: 2
+ 
+	Method name: when
+	Class origin: org.mockito.stubbing.Stubber
+	Count: 6
+ 
+	Method name: doReturn
+	Class origin: org.mockito.stubbing.BaseStubber
+	Count: 2
+ 
+	Method name: lenient
+	Class origin: org.mockito.Mockito
+	Count: 3
+ 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+	Method name: any
+	Class origin: org.mockito.ArgumentMatchers
+	Count: 2
+ 
+	Method name: mockStatic
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+	Method name: then
+	Class origin: org.mockito.stubbing.OngoingStubbing<java.lang.Object>
+	Count: 1
+ 
+	Method name: any
+	Class origin: org.mockito.ArgumentMatchers
+	Count: 2
+ 
+	Method name: mockStatic
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<java.lang.Object>
+	Count: 1
+ 
+	Method name: verify
+	Class origin: org.mockito.Mockito
+	Count: 3
+ 
+	Method name: times
+	Class origin: org.mockito.Mockito
+	Count: 3
+ 
+	Method name: anyString
+	Class origin: org.mockito.ArgumentMatchers
+	Count: 12
+ 
+	Method name: spy
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+	Method name: when
+	Class origin: org.mockito.stubbing.Stubber
+	Count: 4
+ 
+	Method name: doReturn
+	Class origin: org.mockito.Mockito
+	Count: 2
+ 
+	Method name: anyString
+	Class origin: org.mockito.ArgumentMatchers
+	Count: 1
+ 

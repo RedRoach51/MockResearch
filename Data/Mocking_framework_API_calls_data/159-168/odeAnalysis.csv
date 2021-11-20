@@ -1,0 +1,7 @@
+method, origin, count
+bind,org.springframework.mock.jndi.SimpleNamingContextBuilder,4
+emptyActivatedContextBuilder,org.springframework.mock.jndi.SimpleNamingContextBuilder,4
+
+MockedObjects: ,0
+
+# of Mocked objects each file:,

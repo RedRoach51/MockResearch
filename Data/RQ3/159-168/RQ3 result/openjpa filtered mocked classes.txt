@@ -1,0 +1,16 @@
+Inside classes: 
+ 
+org.apache.openjpa.jdbc.conf.JDBCConfiguration
+org.apache.openjpa.lib.conf.Configuration
+ 
+ 
+ 
+Outside classes: 
+ 
+java.sql.Connection
+java.sql.DatabaseMetaData
+java.sql.Statement
+java.sql.ResultSet
+javax.sql.DataSource
+java.sql.PreparedStatement
+java.sql.CallableStatement

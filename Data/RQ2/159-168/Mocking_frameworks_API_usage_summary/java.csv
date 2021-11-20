@@ -1,0 +1,2 @@
+method, origin, count
+getCanonicalName,java.lang.Class<opennlp.tools.ml.MockSequenceTrainer>,2

@@ -1,0 +1,18 @@
+method, origin, count
+when,org.mockito.stubbing.Stubber,22
+doReturn,org.mockito.Mockito,14
+reset,org.mockito.Mockito,1
+lenient,org.mockito.Mockito,5
+mock,org.mockito.Mockito,1
+any,org.mockito.ArgumentMatchers,4
+mockStatic,org.mockito.Mockito,2
+then,org.mockito.stubbing.OngoingStubbing<java.lang.Object>,1
+thenReturn,org.mockito.stubbing.OngoingStubbing<java.lang.Object>,1
+verify,org.mockito.Mockito,3
+times,org.mockito.Mockito,3
+anyString,org.mockito.ArgumentMatchers,13
+spy,org.mockito.Mockito,1
+
+MockedObjects: ,1
+
+# of Mocked objects each file:,1|

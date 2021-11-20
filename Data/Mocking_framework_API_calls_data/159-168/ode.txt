@@ -1,0 +1,32 @@
+	Method name: bind
+	Class origin: org.springframework.mock.jndi.SimpleNamingContextBuilder
+	Count: 1
+ 
+	Method name: emptyActivatedContextBuilder
+	Class origin: org.springframework.mock.jndi.SimpleNamingContextBuilder
+	Count: 1
+ 
+	Method name: bind
+	Class origin: org.springframework.mock.jndi.SimpleNamingContextBuilder
+	Count: 1
+ 
+	Method name: emptyActivatedContextBuilder
+	Class origin: org.springframework.mock.jndi.SimpleNamingContextBuilder
+	Count: 1
+ 
+	Method name: bind
+	Class origin: org.springframework.mock.jndi.SimpleNamingContextBuilder
+	Count: 1
+ 
+	Method name: emptyActivatedContextBuilder
+	Class origin: org.springframework.mock.jndi.SimpleNamingContextBuilder
+	Count: 1
+ 
+	Method name: bind
+	Class origin: org.springframework.mock.jndi.SimpleNamingContextBuilder
+	Count: 1
+ 
+	Method name: emptyActivatedContextBuilder
+	Class origin: org.springframework.mock.jndi.SimpleNamingContextBuilder
+	Count: 1
+ 

@@ -1,0 +1,9 @@
+Project Name,Mocking Framework,Used in # of Files
+orc,mockito,7
+pdfbox,mockito,1
+phoenix,mockito,36
+pig,mockito,6
+plc4x,mockito,43
+poi,mockito,4
+polygene-java,mockito,1
+polygene-java,easymock,1

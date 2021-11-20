@@ -1,0 +1,40 @@
+	Method name: mock
+	Class origin: org.jmock.Mockery
+	Count: 2
+ 
+	Method name: mock
+	Class origin: org.jmock.Mockery
+	Count: 6
+ 
+	Method name: mock
+	Class origin: org.jmock.Mockery
+	Count: 6
+ 
+	Method name: checking
+	Class origin: org.jmock.Mockery
+	Count: 6
+ 
+	Method name: allowing
+	Class origin: org.jmock.AbstractExpectations
+	Count: 12
+ 
+	Method name: will
+	Class origin: org.jmock.AbstractExpectations
+	Count: 6
+ 
+	Method name: returnValue
+	Class origin: org.jmock.AbstractExpectations
+	Count: 6
+ 
+	Method name: mock
+	Class origin: org.jmock.Mockery
+	Count: 5
+ 
+	Method name: mock
+	Class origin: org.jmock.Mockery
+	Count: 4
+ 
+	Method name: getClient
+	Class origin: io.fabric8.kubernetes.client.server.mock.KubernetesServer
+	Count: 2
+ 

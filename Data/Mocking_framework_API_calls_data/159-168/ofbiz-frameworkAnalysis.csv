@@ -1,0 +1,13 @@
+method, origin, count
+setAttribute,org.springframework.mock.web.MockHttpServletRequest,4
+mock,org.mockito.Mockito,36
+thenReturn,org.mockito.stubbing.OngoingStubbing<java.util.Map<java.lang.String|java.lang.String[]>>,94
+when,org.mockito.Mockito,108
+verify,org.mockito.Mockito,3
+verifyNoMoreInteractions,org.mockito.Mockito,2
+anyString,org.mockito.ArgumentMatchers,2
+withNotNull,mockit.Invocations,71
+
+MockedObjects: ,36
+
+# of Mocked objects each file:,1|6|9|7|5|5|3|

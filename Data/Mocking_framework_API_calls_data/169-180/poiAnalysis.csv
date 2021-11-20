@@ -1,0 +1,12 @@
+method, origin, count
+closeQuietly,org.mockito.internal.util.io.IOUtil,1
+spy,org.mockito.Mockito,1
+mock,org.mockito.Mockito,2
+when,org.mockito.stubbing.Stubber,2
+doCallRealMethod,org.mockito.Mockito,1
+verify,org.mockito.Mockito,1
+thenReturn,org.mockito.stubbing.OngoingStubbing<java.lang.String>,1
+
+MockedObjects: ,2
+
+# of Mocked objects each file:,1|1|

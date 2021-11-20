@@ -1,0 +1,16 @@
+Inside classes: 
+ 
+org.apache.orc.Reader
+org.apache.orc.PhysicalWriter.OutputReceiver
+org.apache.orc.MemoryManager.Callback
+org.apache.orc.DataReader
+org.apache.orc.impl.HadoopShims.ZeroCopyReaderShim
+ 
+ 
+ 
+Outside classes: 
+ 
+java.util.function.Supplier
+org.apache.hadoop.fs.Path
+org.apache.hadoop.fs.FileSystem
+org.apache.hadoop.mapred.Reporter

@@ -1,0 +1,12 @@
+Inside classes: 
+ 
+ 
+ 
+ 
+Outside classes: 
+ 
+org.apache.parquet.io.api.Binary
+org.apache.parquet.column.page.DictionaryPageReadStore
+org.apache.parquet.hadoop.ParquetFileWriter
+org.apache.parquet.hadoop.metadata.ParquetMetadata
+org.apache.parquet.io.api.RecordConsumer

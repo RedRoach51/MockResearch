@@ -1,0 +1,11 @@
+Project Name,commits,contributors,releases,.java Files,LOC,test Files,test LOC,'Mock' imports,Mocking frameworks,No Import Mock File
+ant-antlibs-props,65,6,0,23,720,0,0,0,0,0
+orc,1041,116,48,374,67945,113,28670,7,1,0
+parquet-mr,2315,193,57,0,0,0,0,0,0,0
+pdfbox,10473,19,59,1373,165422,225,25885,1,1,0
+phoenix,3579,163,238,2095,352192,306,52476,36,1,0
+pig,3696,44,59,1791,270096,518,113899,6,1,0
+pivot,4660,15,20,934,106473,150,9623,0,0,0
+plc4x,4686,69,18,1191,77954,289,15377,43,1,2
+poi,11403,44,94,3580,407032,1075,132497,4,1,0
+polygene-java,5820,49,25,2795,161806,733,54036,2,2,0

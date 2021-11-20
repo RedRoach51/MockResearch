@@ -1,0 +1,512 @@
+Project Name,File Path,Mocking Framework,Imported Mock Line
+ode,ode\bpel-runtime\src\test\java\org\apache\ode\bpel\engine\MyRoleMessageExchangeImplTest.java,jmock,org.jmock.Expectations
+ode,ode\bpel-runtime\src\test\java\org\apache\ode\bpel\engine\MyRoleMessageExchangeImplTest.java,jmock,org.jmock.Mockery
+ode,ode\bpel-runtime\src\test\java\org\apache\ode\bpel\engine\cron\CronSchedulerTest.java,jmock,org.jmock.Mockery
+ode,ode\bpel-runtime\src\test\java\org\apache\ode\bpel\runtime\ActivityRecoveryTest.java,jmock,org.jmock.Expectations
+ode,ode\bpel-runtime\src\test\java\org\apache\ode\bpel\runtime\ActivityRecoveryTest.java,jmock,org.jmock.Mockery
+ode,ode\bpel-runtime\src\test\java\org\apache\ode\bpel\runtime\ActivityRecoveryTest.java,jmock,org.jmock.Sequence
+ode,ode\bpel-runtime\src\test\java\org\apache\ode\bpel\runtime\ActivityRecoveryTest.java,jmock,org.jmock.api.Action
+ode,ode\bpel-runtime\src\test\java\org\apache\ode\bpel\runtime\ActivityRecoveryTest.java,jmock,org.jmock.lib.action.ActionSequence
+ode,ode\bpel-runtime\src\test\java\org\apache\ode\bpel\runtime\ActivityRecoveryTest.java,jmock,org.jmock.lib.action.CustomAction
+ode,ode\bpel-runtime\src\test\java\org\apache\ode\bpel\runtime\ActivityRecoveryTest.java,jmock,org.jmock.lib.action.ReturnValueAction
+ofbiz-framework,ofbiz-framework\framework\base\src\test\java\org\apache\ofbiz\base\util\UtilHttpTest.java,mockito,static org.mockito.Mockito.when
+ofbiz-framework,ofbiz-framework\framework\base\src\test\java\org\apache\ofbiz\base\util\UtilHttpTest.java,mockito,org.mockito.Mockito
+ofbiz-framework,ofbiz-framework\framework\entity\src\test\java\org\apache\ofbiz\entity\util\EntitySaxReaderTests.java,mockito,static org.mockito.Mockito.mock
+ofbiz-framework,ofbiz-framework\framework\entity\src\test\java\org\apache\ofbiz\entity\util\EntitySaxReaderTests.java,mockito,static org.mockito.Mockito.verify
+ofbiz-framework,ofbiz-framework\framework\entity\src\test\java\org\apache\ofbiz\entity\util\EntitySaxReaderTests.java,mockito,static org.mockito.Mockito.verifyNoMoreInteractions
+ofbiz-framework,ofbiz-framework\framework\entity\src\test\java\org\apache\ofbiz\entity\util\EntitySaxReaderTests.java,mockito,static org.mockito.Mockito.when
+ofbiz-framework,ofbiz-framework\framework\security\src\test\java\org\apache\ofbiz\security\CsrfUtilTests.java,mockito,static org.mockito.Mockito.mock
+ofbiz-framework,ofbiz-framework\framework\security\src\test\java\org\apache\ofbiz\security\CsrfUtilTests.java,mockito,static org.mockito.Mockito.when
+ofbiz-framework,ofbiz-framework\framework\testtools\src\main\java\org\apache\ofbiz\testtools\SimpleMethodTest.java,springframework,org.springframework.mock.web.MockHttpServletRequest
+ofbiz-framework,ofbiz-framework\framework\testtools\src\main\java\org\apache\ofbiz\testtools\SimpleMethodTest.java,springframework,org.springframework.mock.web.MockHttpServletResponse
+ofbiz-framework,ofbiz-framework\framework\testtools\src\main\java\org\apache\ofbiz\testtools\SimpleMethodTest.java,springframework,org.springframework.mock.web.MockServletContext
+ofbiz-framework,ofbiz-framework\framework\webapp\src\test\java\org\apache\ofbiz\webapp\control\ControlFilterTests.java,mockito,static org.mockito.Mockito.mock
+ofbiz-framework,ofbiz-framework\framework\webapp\src\test\java\org\apache\ofbiz\webapp\control\ControlFilterTests.java,mockito,static org.mockito.Mockito.when
+ofbiz-framework,ofbiz-framework\framework\webapp\src\test\java\org\apache\ofbiz\webapp\control\ControlFilterTests.java,mockito,static org.mockito.Mockito.verify
+ofbiz-framework,ofbiz-framework\framework\webapp\src\test\java\org\apache\ofbiz\webapp\control\ControlFilterTests.java,mockito,static org.mockito.Mockito.anyString
+ofbiz-framework,ofbiz-framework\framework\webapp\src\test\java\org\apache\ofbiz\webapp\control\ControlFilterTests.java,mockito,static org.mockito.Mockito.times
+ofbiz-framework,ofbiz-framework\framework\webapp\src\test\java\org\apache\ofbiz\webapp\control\ExternalLoginKeysManagerTests.java,mockito,static org.mockito.Mockito.mock
+ofbiz-framework,ofbiz-framework\framework\webapp\src\test\java\org\apache\ofbiz\webapp\control\ExternalLoginKeysManagerTests.java,mockito,static org.mockito.Mockito.verify
+ofbiz-framework,ofbiz-framework\framework\webapp\src\test\java\org\apache\ofbiz\webapp\control\ExternalLoginKeysManagerTests.java,mockito,static org.mockito.Mockito.when
+ofbiz-framework,ofbiz-framework\framework\webapp\src\test\java\org\apache\ofbiz\webapp\control\RequestHandlerTests.java,mockito,static org.mockito.ArgumentMatchers.anyString
+ofbiz-framework,ofbiz-framework\framework\webapp\src\test\java\org\apache\ofbiz\webapp\control\RequestHandlerTests.java,mockito,static org.mockito.Mockito.mock
+ofbiz-framework,ofbiz-framework\framework\webapp\src\test\java\org\apache\ofbiz\webapp\control\RequestHandlerTests.java,mockito,static org.mockito.Mockito.when
+ofbiz-framework,ofbiz-framework\framework\webapp\src\test\java\org\apache\ofbiz\webapp\control\RequestHandlerTests.java,mockito,static org.mockito.Mockito.verify
+ofbiz-framework,ofbiz-framework\framework\webapp\src\test\java\org\apache\ofbiz\webapp\control\RequestHandlerTests.java,mockito,static org.mockito.Mockito.times
+ofbiz-framework,ofbiz-framework\framework\widget\src\test\java\org\apache\ofbiz\widget\WidgetWorkerTest.java,mockit,mockit.Mock
+ofbiz-framework,ofbiz-framework\framework\widget\src\test\java\org\apache\ofbiz\widget\WidgetWorkerTest.java,mockit,mockit.MockUp
+ofbiz-framework,ofbiz-framework\framework\widget\src\test\java\org\apache\ofbiz\widget\model\ModelFormFieldTest.java,mockito,static org.mockito.Mockito.when
+ofbiz-framework,ofbiz-framework\framework\widget\src\test\java\org\apache\ofbiz\widget\model\ModelFormFieldTest.java,mockito,org.mockito.Mockito
+ofbiz-framework,ofbiz-framework\framework\widget\src\test\java\org\apache\ofbiz\widget\renderer\macro\MacroFormRendererTest.java,mockit,mockit.Expectations
+ofbiz-framework,ofbiz-framework\framework\widget\src\test\java\org\apache\ofbiz\widget\renderer\macro\MacroFormRendererTest.java,mockit,mockit.Injectable
+ofbiz-framework,ofbiz-framework\framework\widget\src\test\java\org\apache\ofbiz\widget\renderer\macro\MacroFormRendererTest.java,mockit,mockit.Mock
+ofbiz-framework,ofbiz-framework\framework\widget\src\test\java\org\apache\ofbiz\widget\renderer\macro\MacroFormRendererTest.java,mockit,mockit.MockUp
+ofbiz-framework,ofbiz-framework\framework\widget\src\test\java\org\apache\ofbiz\widget\renderer\macro\MacroFormRendererTest.java,mockit,mockit.Mocked
+ofbiz-framework,ofbiz-framework\framework\widget\src\test\java\org\apache\ofbiz\widget\renderer\macro\MacroFormRendererTest.java,mockit,mockit.Tested
+ofbiz-framework,ofbiz-framework\framework\widget\src\test\java\org\apache\ofbiz\widget\renderer\macro\MacroFormRendererTest.java,mockit,mockit.Verifications
+ofbiz-framework,ofbiz-framework\framework\widget\src\test\java\org\apache\ofbiz\widget\renderer\macro\RenderableFtlFormElementsBuilderTest.java,mockit,mockit.Expectations
+ofbiz-framework,ofbiz-framework\framework\widget\src\test\java\org\apache\ofbiz\widget\renderer\macro\RenderableFtlFormElementsBuilderTest.java,mockit,mockit.Injectable
+ofbiz-framework,ofbiz-framework\framework\widget\src\test\java\org\apache\ofbiz\widget\renderer\macro\RenderableFtlFormElementsBuilderTest.java,mockit,mockit.Mocked
+ofbiz-framework,ofbiz-framework\framework\widget\src\test\java\org\apache\ofbiz\widget\renderer\macro\RenderableFtlFormElementsBuilderTest.java,mockit,mockit.Tested
+olingo-odata4,olingo-odata4\lib\client-core\src\test\java\org\apache\olingo\client\core\ErrorTest.java,mockito,static org.mockito.Mockito.mock
+olingo-odata4,olingo-odata4\lib\client-core\src\test\java\org\apache\olingo\client\core\ErrorTest.java,mockito,static org.mockito.Mockito.when
+olingo-odata4,olingo-odata4\lib\client-core\src\test\java\org\apache\olingo\client\core\ODataClientBuilderTest.java,mockito,org.mockito.Mockito
+olingo-odata4,olingo-odata4\lib\client-core\src\test\java\org\apache\olingo\client\core\communication\request\AsyncRequestWrapperTest.java,mockito,static org.mockito.Matchers.any
+olingo-odata4,olingo-odata4\lib\client-core\src\test\java\org\apache\olingo\client\core\communication\request\AsyncRequestWrapperTest.java,mockito,static org.mockito.Mockito.mock
+olingo-odata4,olingo-odata4\lib\client-core\src\test\java\org\apache\olingo\client\core\communication\request\AsyncRequestWrapperTest.java,mockito,static org.mockito.Mockito.when
+olingo-odata4,olingo-odata4\lib\commons-core\src\test\java\org\apache\olingo\commons\core\edm\EdmImplCachingTest.java,mockito,static org.mockito.Mockito.mock
+olingo-odata4,olingo-odata4\lib\commons-core\src\test\java\org\apache\olingo\commons\core\edm\EdmImplCachingTest.java,mockito,static org.mockito.Mockito.when
+olingo-odata4,olingo-odata4\lib\commons-core\src\test\java\org\apache\olingo\commons\core\edm\EdmImplCallCreateTest.java,mockito,static org.mockito.Mockito.mock
+olingo-odata4,olingo-odata4\lib\commons-core\src\test\java\org\apache\olingo\commons\core\edm\EdmImplCallCreateTest.java,mockito,static org.mockito.Mockito.when
+olingo-odata4,olingo-odata4\lib\commons-core\src\test\java\org\apache\olingo\commons\core\edm\annotations\EdmAnnotationPathTest.java,mockito,static org.mockito.Mockito.mock
+olingo-odata4,olingo-odata4\lib\commons-core\src\test\java\org\apache\olingo\commons\core\edm\annotations\EdmApplyImplTest.java,mockito,static org.mockito.Mockito.mock
+olingo-odata4,olingo-odata4\lib\commons-core\src\test\java\org\apache\olingo\commons\core\edm\annotations\EdmCastImplTest.java,mockito,static org.mockito.Mockito.mock
+olingo-odata4,olingo-odata4\lib\commons-core\src\test\java\org\apache\olingo\commons\core\edm\annotations\EdmCollectionImplTest.java,mockito,static org.mockito.Mockito.mock
+olingo-odata4,olingo-odata4\lib\commons-core\src\test\java\org\apache\olingo\commons\core\edm\annotations\EdmConstantExpressionImplTest.java,mockito,static org.mockito.Mockito.mock
+olingo-odata4,olingo-odata4\lib\commons-core\src\test\java\org\apache\olingo\commons\core\edm\annotations\EdmIfImplTest.java,mockito,static org.mockito.Mockito.mock
+olingo-odata4,olingo-odata4\lib\commons-core\src\test\java\org\apache\olingo\commons\core\edm\annotations\EdmIsOfImplTest.java,mockito,static org.mockito.Mockito.mock
+olingo-odata4,olingo-odata4\lib\commons-core\src\test\java\org\apache\olingo\commons\core\edm\annotations\EdmLabeledElementImplTest.java,mockito,static org.mockito.Mockito.mock
+olingo-odata4,olingo-odata4\lib\commons-core\src\test\java\org\apache\olingo\commons\core\edm\annotations\EdmLabledElementReferenceImplTest.java,mockito,static org.mockito.Mockito.mock
+olingo-odata4,olingo-odata4\lib\commons-core\src\test\java\org\apache\olingo\commons\core\edm\annotations\EdmLogicalOrComparisonImplTest.java,mockito,static org.mockito.Mockito.mock
+olingo-odata4,olingo-odata4\lib\commons-core\src\test\java\org\apache\olingo\commons\core\edm\annotations\EdmNavigationPropertyPathImpTest.java,mockito,static org.mockito.Mockito.mock
+olingo-odata4,olingo-odata4\lib\commons-core\src\test\java\org\apache\olingo\commons\core\edm\annotations\EdmPathImplTest.java,mockito,static org.mockito.Mockito.mock
+olingo-odata4,olingo-odata4\lib\commons-core\src\test\java\org\apache\olingo\commons\core\edm\annotations\EdmPropertyPathImplTest.java,mockito,static org.mockito.Mockito.mock
+olingo-odata4,olingo-odata4\lib\commons-core\src\test\java\org\apache\olingo\commons\core\edm\annotations\EdmPropertyValueImplTest.java,mockito,static org.mockito.Mockito.mock
+olingo-odata4,olingo-odata4\lib\commons-core\src\test\java\org\apache\olingo\commons\core\edm\annotations\EdmRecordImplTest.java,mockito,static org.mockito.Mockito.mock
+olingo-odata4,olingo-odata4\lib\commons-core\src\test\java\org\apache\olingo\commons\core\edm\annotations\EdmRecordImplTest.java,mockito,static org.mockito.Mockito.when
+olingo-odata4,olingo-odata4\lib\commons-core\src\test\java\org\apache\olingo\commons\core\edm\annotations\EdmUrlRefImplTest.java,mockito,static org.mockito.Mockito.mock
+olingo-odata4,olingo-odata4\lib\commons-core\src\test\java\org\apache\olingo\server\core\edm\provider\AbstractEdmAnnotatableTest.java,mockito,static org.mockito.Mockito.mock
+olingo-odata4,olingo-odata4\lib\commons-core\src\test\java\org\apache\olingo\server\core\edm\provider\AbstractEdmAnnotatableTest.java,mockito,static org.mockito.Mockito.when
+olingo-odata4,olingo-odata4\lib\commons-core\src\test\java\org\apache\olingo\server\core\edm\provider\EdmActionImplTest.java,mockito,static org.mockito.Mockito.mock
+olingo-odata4,olingo-odata4\lib\commons-core\src\test\java\org\apache\olingo\server\core\edm\provider\EdmActionImplTest.java,mockito,static org.mockito.Mockito.when
+olingo-odata4,olingo-odata4\lib\commons-core\src\test\java\org\apache\olingo\server\core\edm\provider\EdmActionImportImplTest.java,mockito,static org.mockito.Mockito.mock
+olingo-odata4,olingo-odata4\lib\commons-core\src\test\java\org\apache\olingo\server\core\edm\provider\EdmActionImportImplTest.java,mockito,static org.mockito.Mockito.when
+olingo-odata4,olingo-odata4\lib\commons-core\src\test\java\org\apache\olingo\server\core\edm\provider\EdmAnnotationImplTest.java,mockito,static org.mockito.Mockito.mock
+olingo-odata4,olingo-odata4\lib\commons-core\src\test\java\org\apache\olingo\server\core\edm\provider\EdmAnnotationImplTest.java,mockito,static org.mockito.Mockito.when
+olingo-odata4,olingo-odata4\lib\commons-core\src\test\java\org\apache\olingo\server\core\edm\provider\EdmAnnotationsImplTest.java,mockito,static org.mockito.Mockito.mock
+olingo-odata4,olingo-odata4\lib\commons-core\src\test\java\org\apache\olingo\server\core\edm\provider\EdmComplexTypeImplTest.java,mockito,static org.mockito.Mockito.mock
+olingo-odata4,olingo-odata4\lib\commons-core\src\test\java\org\apache\olingo\server\core\edm\provider\EdmComplexTypeImplTest.java,mockito,static org.mockito.Mockito.when
+olingo-odata4,olingo-odata4\lib\commons-core\src\test\java\org\apache\olingo\server\core\edm\provider\EdmEntityContainerImplTest.java,mockito,static org.mockito.Mockito.mock
+olingo-odata4,olingo-odata4\lib\commons-core\src\test\java\org\apache\olingo\server\core\edm\provider\EdmEntityContainerImplTest.java,mockito,static org.mockito.Mockito.when
+olingo-odata4,olingo-odata4\lib\commons-core\src\test\java\org\apache\olingo\server\core\edm\provider\EdmEntitySetImplTest.java,mockito,static org.mockito.Mockito.mock
+olingo-odata4,olingo-odata4\lib\commons-core\src\test\java\org\apache\olingo\server\core\edm\provider\EdmEntitySetImplTest.java,mockito,static org.mockito.Mockito.when
+olingo-odata4,olingo-odata4\lib\commons-core\src\test\java\org\apache\olingo\server\core\edm\provider\EdmEntityTypeImplTest.java,mockito,static org.mockito.Mockito.mock
+olingo-odata4,olingo-odata4\lib\commons-core\src\test\java\org\apache\olingo\server\core\edm\provider\EdmEntityTypeImplTest.java,mockito,static org.mockito.Mockito.when
+olingo-odata4,olingo-odata4\lib\commons-core\src\test\java\org\apache\olingo\server\core\edm\provider\EdmEnumTest.java,mockito,static org.mockito.Mockito.mock
+olingo-odata4,olingo-odata4\lib\commons-core\src\test\java\org\apache\olingo\server\core\edm\provider\EdmEnumTest.java,mockito,static org.mockito.Mockito.when
+olingo-odata4,olingo-odata4\lib\commons-core\src\test\java\org\apache\olingo\server\core\edm\provider\EdmFunctionImplTest.java,mockito,static org.mockito.Mockito.mock
+olingo-odata4,olingo-odata4\lib\commons-core\src\test\java\org\apache\olingo\server\core\edm\provider\EdmFunctionImportImplTest.java,mockito,static org.mockito.Mockito.mock
+olingo-odata4,olingo-odata4\lib\commons-core\src\test\java\org\apache\olingo\server\core\edm\provider\EdmFunctionImportImplTest.java,mockito,static org.mockito.Mockito.when
+olingo-odata4,olingo-odata4\lib\commons-core\src\test\java\org\apache\olingo\server\core\edm\provider\EdmKeyPropertyRefImplTest.java,mockito,static org.mockito.Mockito.mock
+olingo-odata4,olingo-odata4\lib\commons-core\src\test\java\org\apache\olingo\server\core\edm\provider\EdmKeyPropertyRefImplTest.java,mockito,static org.mockito.Mockito.when
+olingo-odata4,olingo-odata4\lib\commons-core\src\test\java\org\apache\olingo\server\core\edm\provider\EdmMemberImplTest.java,mockito,static org.mockito.Mockito.mock
+olingo-odata4,olingo-odata4\lib\commons-core\src\test\java\org\apache\olingo\server\core\edm\provider\EdmNavigationPropertyImplTest.java,mockito,static org.mockito.Mockito.mock
+olingo-odata4,olingo-odata4\lib\commons-core\src\test\java\org\apache\olingo\server\core\edm\provider\EdmNavigationPropertyImplTest.java,mockito,static org.mockito.Mockito.when
+olingo-odata4,olingo-odata4\lib\commons-core\src\test\java\org\apache\olingo\server\core\edm\provider\EdmParameterImplTest.java,mockito,static org.mockito.Mockito.mock
+olingo-odata4,olingo-odata4\lib\commons-core\src\test\java\org\apache\olingo\server\core\edm\provider\EdmParameterImplTest.java,mockito,static org.mockito.Mockito.when
+olingo-odata4,olingo-odata4\lib\commons-core\src\test\java\org\apache\olingo\server\core\edm\provider\EdmPropertyImplTest.java,mockito,static org.mockito.Mockito.mock
+olingo-odata4,olingo-odata4\lib\commons-core\src\test\java\org\apache\olingo\server\core\edm\provider\EdmPropertyImplTest.java,mockito,static org.mockito.Mockito.when
+olingo-odata4,olingo-odata4\lib\commons-core\src\test\java\org\apache\olingo\server\core\edm\provider\EdmProviderImplOverloadingTest.java,mockito,static org.mockito.Mockito.mock
+olingo-odata4,olingo-odata4\lib\commons-core\src\test\java\org\apache\olingo\server\core\edm\provider\EdmProviderImplOverloadingTest.java,mockito,static org.mockito.Mockito.when
+olingo-odata4,olingo-odata4\lib\commons-core\src\test\java\org\apache\olingo\server\core\edm\provider\EdmProviderImplTest.java,mockito,static org.mockito.Mockito.mock
+olingo-odata4,olingo-odata4\lib\commons-core\src\test\java\org\apache\olingo\server\core\edm\provider\EdmProviderImplTest.java,mockito,static org.mockito.Mockito.when
+olingo-odata4,olingo-odata4\lib\commons-core\src\test\java\org\apache\olingo\server\core\edm\provider\EdmReferentialConstraintTest.java,mockito,static org.mockito.Mockito.mock
+olingo-odata4,olingo-odata4\lib\commons-core\src\test\java\org\apache\olingo\server\core\edm\provider\EdmReturnTypeImplTest.java,mockito,static org.mockito.Mockito.mock
+olingo-odata4,olingo-odata4\lib\commons-core\src\test\java\org\apache\olingo\server\core\edm\provider\EdmReturnTypeImplTest.java,mockito,static org.mockito.Mockito.when
+olingo-odata4,olingo-odata4\lib\commons-core\src\test\java\org\apache\olingo\server\core\edm\provider\EdmSchemaImplTest.java,mockito,static org.mockito.Mockito.mock
+olingo-odata4,olingo-odata4\lib\commons-core\src\test\java\org\apache\olingo\server\core\edm\provider\EdmSchemaImplTest.java,mockito,static org.mockito.Mockito.when
+olingo-odata4,olingo-odata4\lib\commons-core\src\test\java\org\apache\olingo\server\core\edm\provider\EdmSingletonImplTest.java,mockito,static org.mockito.Mockito.mock
+olingo-odata4,olingo-odata4\lib\commons-core\src\test\java\org\apache\olingo\server\core\edm\provider\EdmSingletonImplTest.java,mockito,static org.mockito.Mockito.when
+olingo-odata4,olingo-odata4\lib\commons-core\src\test\java\org\apache\olingo\server\core\edm\provider\EdmTermImplTest.java,mockito,static org.mockito.Mockito.mock
+olingo-odata4,olingo-odata4\lib\commons-core\src\test\java\org\apache\olingo\server\core\edm\provider\EdmTermImplTest.java,mockito,static org.mockito.Mockito.when
+olingo-odata4,olingo-odata4\lib\commons-core\src\test\java\org\apache\olingo\server\core\edm\provider\EdmTypeDefinitionImplTest.java,mockito,static org.mockito.Mockito.mock
+olingo-odata4,olingo-odata4\lib\server-core-ext\src\test\java\org\apache\olingo\netty\server\core\NettyServiceDispatcherTest.java,mockito,static org.mockito.Mockito.mock
+olingo-odata4,olingo-odata4\lib\server-core-ext\src\test\java\org\apache\olingo\netty\server\core\NettyServiceDispatcherTest.java,mockito,static org.mockito.Mockito.when
+olingo-odata4,olingo-odata4\lib\server-core-ext\src\test\java\org\apache\olingo\netty\server\core\NettyServiceDispatcherTest.java,mockito,org.mockito.Mockito
+olingo-odata4,olingo-odata4\lib\server-core-ext\src\test\java\org\apache\olingo\server\core\ServiceDispatcherTest.java,mockito,org.mockito.ArgumentCaptor
+olingo-odata4,olingo-odata4\lib\server-core-ext\src\test\java\org\apache\olingo\server\core\ServiceDispatcherTest.java,mockito,org.mockito.Mockito
+olingo-odata4,olingo-odata4\lib\server-core\src\test\java\org\apache\olingo\netty\server\core\ODataNettyHandlerImplTest.java,mockito,static org.mockito.Mockito.mock
+olingo-odata4,olingo-odata4\lib\server-core\src\test\java\org\apache\olingo\netty\server\core\ODataNettyHandlerImplTest.java,mockito,static org.mockito.Mockito.when
+olingo-odata4,olingo-odata4\lib\server-core\src\test\java\org\apache\olingo\server\core\ContentNegotiatorTest.java,mockito,static org.mockito.Matchers.any
+olingo-odata4,olingo-odata4\lib\server-core\src\test\java\org\apache\olingo\server\core\ContentNegotiatorTest.java,mockito,static org.mockito.Matchers.anyListOf
+olingo-odata4,olingo-odata4\lib\server-core\src\test\java\org\apache\olingo\server\core\ContentNegotiatorTest.java,mockito,static org.mockito.Mockito.mock
+olingo-odata4,olingo-odata4\lib\server-core\src\test\java\org\apache\olingo\server\core\ContentNegotiatorTest.java,mockito,static org.mockito.Mockito.when
+olingo-odata4,olingo-odata4\lib\server-core\src\test\java\org\apache\olingo\server\core\ODataHttpHandlerImplTest.java,mockito,static org.mockito.Mockito.mock
+olingo-odata4,olingo-odata4\lib\server-core\src\test\java\org\apache\olingo\server\core\ODataHttpHandlerImplTest.java,mockito,static org.mockito.Mockito.when
+olingo-odata4,olingo-odata4\lib\server-core\src\test\java\org\apache\olingo\server\core\ODataImplTest.java,mockito,org.mockito.Mockito
+olingo-odata4,olingo-odata4\lib\server-core\src\test\java\org\apache\olingo\server\core\batchhandler\MockedBatchHandlerTest.java,mockito,static org.mockito.Mockito.mock
+olingo-odata4,olingo-odata4\lib\server-core\src\test\java\org\apache\olingo\server\core\batchhandler\MockedBatchHandlerTest.java,mockito,static org.mockito.Mockito.when
+olingo-odata4,olingo-odata4\lib\server-core\src\test\java\org\apache\olingo\server\core\batchhandler\MockedBatchHandlerTest.java,mockito,org.mockito.invocation.InvocationOnMock
+olingo-odata4,olingo-odata4\lib\server-core\src\test\java\org\apache\olingo\server\core\batchhandler\MockedBatchHandlerTest.java,mockito,org.mockito.stubbing.Answer
+olingo-odata4,olingo-odata4\lib\server-core\src\test\java\org\apache\olingo\server\core\debug\DebugTabUriTest.java,mockito,static org.mockito.Mockito.mock
+olingo-odata4,olingo-odata4\lib\server-core\src\test\java\org\apache\olingo\server\core\debug\DebugTabUriTest.java,mockito,static org.mockito.Mockito.when
+olingo-odata4,olingo-odata4\lib\server-core\src\test\java\org\apache\olingo\server\core\debug\ServerCoreDebuggerTest.java,mockito,static org.mockito.Matchers.any
+olingo-odata4,olingo-odata4\lib\server-core\src\test\java\org\apache\olingo\server\core\debug\ServerCoreDebuggerTest.java,mockito,static org.mockito.Matchers.anyString
+olingo-odata4,olingo-odata4\lib\server-core\src\test\java\org\apache\olingo\server\core\debug\ServerCoreDebuggerTest.java,mockito,static org.mockito.Mockito.mock
+olingo-odata4,olingo-odata4\lib\server-core\src\test\java\org\apache\olingo\server\core\debug\ServerCoreDebuggerTest.java,mockito,static org.mockito.Mockito.when
+olingo-odata4,olingo-odata4\lib\server-core\src\test\java\org\apache\olingo\server\core\deserializer\FixedFormatDeserializerTest.java,mockito,org.mockito.Mockito
+olingo-odata4,olingo-odata4\lib\server-core\src\test\java\org\apache\olingo\server\core\serializer\BatchResponseSerializerTest.java,mockito,static org.mockito.Mockito.mock
+olingo-odata4,olingo-odata4\lib\server-core\src\test\java\org\apache\olingo\server\core\serializer\json\MetadataDocumentJsonSerializerTest.java,mockito,static org.mockito.Mockito.mock
+olingo-odata4,olingo-odata4\lib\server-core\src\test\java\org\apache\olingo\server\core\serializer\json\MetadataDocumentJsonSerializerTest.java,mockito,static org.mockito.Mockito.when
+olingo-odata4,olingo-odata4\lib\server-core\src\test\java\org\apache\olingo\server\core\serializer\utils\ContextURLBuilderTest.java,mockito,static org.mockito.Mockito.mock
+olingo-odata4,olingo-odata4\lib\server-core\src\test\java\org\apache\olingo\server\core\serializer\utils\ContextURLBuilderTest.java,mockito,static org.mockito.Mockito.when
+olingo-odata4,olingo-odata4\lib\server-core\src\test\java\org\apache\olingo\server\core\serializer\utils\ContextURLBuilderTest.java,mockito,org.mockito.Mockito
+olingo-odata4,olingo-odata4\lib\server-core\src\test\java\org\apache\olingo\server\core\serializer\xml\MetadataDocumentXmlSerializerTest.java,mockito,static org.mockito.Mockito.mock
+olingo-odata4,olingo-odata4\lib\server-core\src\test\java\org\apache\olingo\server\core\serializer\xml\MetadataDocumentXmlSerializerTest.java,mockito,static org.mockito.Mockito.when
+olingo-odata4,olingo-odata4\lib\server-core\src\test\java\org\apache\olingo\server\core\serializer\xml\ServiceDocumentXmlSerializerTest.java,mockito,static org.mockito.Mockito.mock
+olingo-odata4,olingo-odata4\lib\server-core\src\test\java\org\apache\olingo\server\core\serializer\xml\ServiceDocumentXmlSerializerTest.java,mockito,static org.mockito.Mockito.when
+olingo-odata4,olingo-odata4\lib\server-core\src\test\java\org\apache\olingo\server\core\uri\UriInfoImplTest.java,mockito,org.mockito.Mockito
+olingo-odata4,olingo-odata4\lib\server-core\src\test\java\org\apache\olingo\server\core\uri\parser\ExpressionParserTest.java,mockito,static org.mockito.Mockito.mock
+olingo-odata4,olingo-odata4\lib\server-core\src\test\java\org\apache\olingo\server\core\uri\parser\ExpressionParserTest.java,mockito,org.mockito.Mockito
+olingo-odata4,olingo-odata4\lib\server-core\src\test\java\org\apache\olingo\server\core\uri\parser\search\SearchParserTest.java,mockito,static org.mockito.Mockito.mock
+olingo-odata4,olingo-odata4\lib\server-core\src\test\java\org\apache\olingo\server\core\uri\parser\search\SearchParserTest.java,mockito,static org.mockito.Mockito.when
+olingo-odata4,olingo-odata4\lib\server-tecsvc\src\test\java\org\apache\olingo\server\tecsvc\data\DataProviderTest.java,mockito,org.mockito.Mockito
+olingo-odata4,olingo-odata4\lib\server-test\src\test\java\org\apache\olingo\netty\server\core\ODataNettyHandlerImplTest.java,mockito,static org.mockito.Mockito.mock
+olingo-odata4,olingo-odata4\lib\server-test\src\test\java\org\apache\olingo\netty\server\core\ODataNettyHandlerImplTest.java,mockito,static org.mockito.Mockito.when
+olingo-odata4,olingo-odata4\lib\server-test\src\test\java\org\apache\olingo\server\core\ODataHandlerImplTest.java,mockito,static org.mockito.Matchers.any
+olingo-odata4,olingo-odata4\lib\server-test\src\test\java\org\apache\olingo\server\core\ODataHandlerImplTest.java,mockito,static org.mockito.Mockito.doThrow
+olingo-odata4,olingo-odata4\lib\server-test\src\test\java\org\apache\olingo\server\core\ODataHandlerImplTest.java,mockito,static org.mockito.Mockito.mock
+olingo-odata4,olingo-odata4\lib\server-test\src\test\java\org\apache\olingo\server\core\ODataHandlerImplTest.java,mockito,static org.mockito.Mockito.times
+olingo-odata4,olingo-odata4\lib\server-test\src\test\java\org\apache\olingo\server\core\ODataHandlerImplTest.java,mockito,static org.mockito.Mockito.verify
+olingo-odata4,olingo-odata4\lib\server-test\src\test\java\org\apache\olingo\server\core\ODataHandlerImplTest.java,mockito,static org.mockito.Mockito.verifyZeroInteractions
+olingo-odata4,olingo-odata4\lib\server-test\src\test\java\org\apache\olingo\server\core\ODataHandlerImplTest.java,mockito,org.mockito.internal.verification.VerificationModeFactory
+olingo-odata4,olingo-odata4\lib\server-test\src\test\java\org\apache\olingo\server\core\PreconditionsValidatorTest.java,mockito,static org.mockito.Matchers.any
+olingo-odata4,olingo-odata4\lib\server-test\src\test\java\org\apache\olingo\server\core\PreconditionsValidatorTest.java,mockito,static org.mockito.Mockito.mock
+olingo-odata4,olingo-odata4\lib\server-test\src\test\java\org\apache\olingo\server\core\PreconditionsValidatorTest.java,mockito,static org.mockito.Mockito.when
+olingo-odata4,olingo-odata4\lib\server-test\src\test\java\org\apache\olingo\server\core\PreconditionsValidatorTest.java,mockito,org.mockito.invocation.InvocationOnMock
+olingo-odata4,olingo-odata4\lib\server-test\src\test\java\org\apache\olingo\server\core\PreconditionsValidatorTest.java,mockito,org.mockito.stubbing.Answer
+olingo-odata4,olingo-odata4\lib\server-test\src\test\java\org\apache\olingo\server\core\deserializer\json\ODataJsonDeserializerEntityTest.java,mockito,static org.mockito.Mockito.mock
+olingo-odata4,olingo-odata4\lib\server-test\src\test\java\org\apache\olingo\server\core\deserializer\json\ODataJsonDeserializerEntityTest.java,mockito,static org.mockito.Mockito.when
+olingo-odata4,olingo-odata4\lib\server-test\src\test\java\org\apache\olingo\server\core\deserializer\json\ODataJsonDeserializerEntityTest.java,mockito,org.mockito.Mockito
+olingo-odata4,olingo-odata4\lib\server-test\src\test\java\org\apache\olingo\server\core\serializer\ExpandSelectMock.java,mockito,org.mockito.Mockito
+olingo-odata4,olingo-odata4\lib\server-test\src\test\java\org\apache\olingo\server\core\serializer\json\JsonDeltaSerializerTest.java,mockito,org.mockito.Mockito
+olingo-odata4,olingo-odata4\lib\server-test\src\test\java\org\apache\olingo\server\core\serializer\json\JsonDeltaSerializerWithNavigationsTest.java,mockito,org.mockito.Mockito
+olingo-odata4,olingo-odata4\lib\server-test\src\test\java\org\apache\olingo\server\core\serializer\json\ODataJsonSerializerTest.java,mockito,org.mockito.Mockito
+olingo-odata4,olingo-odata4\lib\server-test\src\test\java\org\apache\olingo\server\core\serializer\json\ODataJsonSerializerv01Test.java,mockito,org.mockito.Mockito
+olingo-odata4,olingo-odata4\lib\server-test\src\test\java\org\apache\olingo\server\core\serializer\utils\ContextURLHelperTest.java,mockito,org.mockito.Mockito
+olingo-odata4,olingo-odata4\lib\server-test\src\test\java\org\apache\olingo\server\core\serializer\xml\ODataXmlSerializerTest.java,mockito,org.mockito.Mockito
+olingo-odata4,olingo-odata4\lib\server-test\src\test\java\org\apache\olingo\server\core\uri\parser\ParserTest.java,mockito,org.mockito.Mockito
+oltu,oltu\oauth-2.0\authzserver\src\test\java\org\apache\oltu\oauth2\as\OAuthRequestTest.java,easymock,static org.easymock.EasyMock.replay
+oltu,oltu\oauth-2.0\authzserver\src\test\java\org\apache\oltu\oauth2\as\OAuthRequestTest.java,easymock,static org.easymock.EasyMock.verify
+oltu,oltu\oauth-2.0\authzserver\src\test\java\org\apache\oltu\oauth2\as\OAuthUnauthenticatedRequestTest.java,easymock,static org.easymock.EasyMock.replay
+oltu,oltu\oauth-2.0\authzserver\src\test\java\org\apache\oltu\oauth2\as\OAuthUnauthenticatedRequestTest.java,easymock,static org.easymock.EasyMock.verify
+oltu,oltu\oauth-2.0\authzserver\src\test\java\org\apache\oltu\oauth2\as\OauthMockRequestBuilder.java,easymock,static org.easymock.EasyMock.createMock
+oltu,oltu\oauth-2.0\authzserver\src\test\java\org\apache\oltu\oauth2\as\OauthMockRequestBuilder.java,easymock,static org.easymock.EasyMock.expect
+oltu,oltu\oauth-2.0\authzserver\src\test\java\org\apache\oltu\oauth2\as\response\OAuthASResponseTest.java,easymock,static org.easymock.EasyMock.createMock
+oltu,oltu\oauth-2.0\authzserver\src\test\java\org\apache\oltu\oauth2\as\response\OAuthASResponseTest.java,easymock,static org.easymock.EasyMock.expect
+oltu,oltu\oauth-2.0\authzserver\src\test\java\org\apache\oltu\oauth2\as\response\OAuthASResponseTest.java,easymock,static org.easymock.EasyMock.replay
+oltu,oltu\oauth-2.0\authzserver\src\test\java\org\apache\oltu\oauth2\as\validator\TokenValidatorTest.java,easymock,static org.easymock.EasyMock.createStrictMock
+oltu,oltu\oauth-2.0\authzserver\src\test\java\org\apache\oltu\oauth2\as\validator\TokenValidatorTest.java,easymock,static org.easymock.EasyMock.expect
+oltu,oltu\oauth-2.0\authzserver\src\test\java\org\apache\oltu\oauth2\as\validator\TokenValidatorTest.java,easymock,static org.easymock.EasyMock.replay
+oltu,oltu\oauth-2.0\authzserver\src\test\java\org\apache\oltu\oauth2\as\validator\TokenValidatorTest.java,easymock,static org.easymock.EasyMock.reset
+oltu,oltu\oauth-2.0\authzserver\src\test\java\org\apache\oltu\oauth2\as\validator\TokenValidatorTest.java,easymock,static org.easymock.EasyMock.verify
+oltu,oltu\oauth-2.0\client\src\test\java\org\apache\oltu\oauth2\client\response\OAuthAuthorizationResponseImplTest.java,easymock,static org.easymock.EasyMock.createStrictMock
+oltu,oltu\oauth-2.0\client\src\test\java\org\apache\oltu\oauth2\client\response\OAuthAuthorizationResponseImplTest.java,easymock,static org.easymock.EasyMock.expect
+oltu,oltu\oauth-2.0\client\src\test\java\org\apache\oltu\oauth2\client\response\OAuthAuthorizationResponseImplTest.java,easymock,static org.easymock.EasyMock.replay
+oltu,oltu\oauth-2.0\client\src\test\java\org\apache\oltu\oauth2\client\response\OAuthAuthorizationResponseImplTest.java,easymock,static org.easymock.EasyMock.reset
+oltu,oltu\oauth-2.0\client\src\test\java\org\apache\oltu\oauth2\client\response\OAuthAuthorizationResponseImplTest.java,easymock,static org.easymock.EasyMock.verify
+oltu,oltu\oauth-2.0\client\src\test\java\org\apache\oltu\oauth2\client\utils\TestUtils.java,easymock,static org.easymock.EasyMock.expect
+oltu,oltu\oauth-2.0\common\src\test\java\org\apache\oltu\oauth2\common\utils\OAuthUtilsTest.java,easymock,static org.easymock.EasyMock.*
+oltu,oltu\oauth-2.0\common\src\test\java\org\apache\oltu\oauth2\common\validators\AbstractValidatorTest.java,easymock,static org.easymock.EasyMock.createStrictMock
+oltu,oltu\oauth-2.0\common\src\test\java\org\apache\oltu\oauth2\common\validators\AbstractValidatorTest.java,easymock,static org.easymock.EasyMock.expect
+oltu,oltu\oauth-2.0\common\src\test\java\org\apache\oltu\oauth2\common\validators\AbstractValidatorTest.java,easymock,static org.easymock.EasyMock.replay
+oltu,oltu\oauth-2.0\common\src\test\java\org\apache\oltu\oauth2\common\validators\AbstractValidatorTest.java,easymock,static org.easymock.EasyMock.reset
+oltu,oltu\oauth-2.0\common\src\test\java\org\apache\oltu\oauth2\common\validators\AbstractValidatorTest.java,easymock,static org.easymock.EasyMock.verify
+oltu,oltu\oauth-2.0\dynamicreg-server\src\test\java\org\apache\oltu\oauth2\ext\dynamicreg\server\request\OAuthServerRegistrationRequestTest.java,springframework,org.springframework.mock.web.MockHttpServletRequest
+oltu,oltu\oauth-2.0\resourceserver\src\test\java\org\apache\oltu\oauth2\rs\OAuthAccessResourceRequestTest.java,easymock,static org.easymock.EasyMock.*
+oltu,oltu\oauth-2.0\resourceserver\src\test\java\org\apache\oltu\oauth2\rs\extractor\BodyTokenExtractorTest.java,easymock,static org.easymock.EasyMock.*
+oltu,oltu\oauth-2.0\resourceserver\src\test\java\org\apache\oltu\oauth2\rs\extractor\HeaderTokenExtractorTest.java,easymock,static org.easymock.EasyMock.*
+oltu,oltu\oauth-2.0\resourceserver\src\test\java\org\apache\oltu\oauth2\rs\extractor\QueryTokenExtractorTest.java,easymock,static org.easymock.EasyMock.*
+oltu,oltu\oauth-2.0\resourceserver\src\test\java\org\apache\oltu\oauth2\rs\validator\BodyOAuthValidatorTest.java,easymock,static org.easymock.EasyMock.*
+oltu,oltu\oauth-2.0\resourceserver\src\test\java\org\apache\oltu\oauth2\rs\validator\HeaderOAuthValidatorTest.java,easymock,static org.easymock.EasyMock.*
+oltu,oltu\oauth-2.0\resourceserver\src\test\java\org\apache\oltu\oauth2\rs\validator\QueryOAuthValidatorTest.java,easymock,static org.easymock.EasyMock.*
+oodt,oodt\crawler\src\test\java\org\apache\oodt\cas\crawl\TestProductCrawler.java,easymock,static org.easymock.EasyMock.createMock
+oodt,oodt\crawler\src\test\java\org\apache\oodt\cas\crawl\TestProductCrawler.java,easymock,static org.easymock.EasyMock.expect
+oodt,oodt\crawler\src\test\java\org\apache\oodt\cas\crawl\TestProductCrawler.java,easymock,static org.easymock.EasyMock.expectLastCall
+oodt,oodt\crawler\src\test\java\org\apache\oodt\cas\crawl\TestProductCrawler.java,easymock,static org.easymock.EasyMock.replay
+oodt,oodt\crawler\src\test\java\org\apache\oodt\cas\crawl\TestProductCrawler.java,easymock,static org.easymock.EasyMock.verify
+oodt,oodt\filemgr\src\test\java\org\apache\oodt\cas\filemgr\datatransfer\TestS3DataTransferer.java,mockito,static org.mockito.Mockito.verify
+oodt,oodt\filemgr\src\test\java\org\apache\oodt\cas\filemgr\datatransfer\TestS3DataTransferer.java,mockito,static org.mockito.Mockito.when
+oodt,oodt\filemgr\src\test\java\org\apache\oodt\cas\filemgr\datatransfer\TestS3DataTransferer.java,mockito,org.mockito.ArgumentCaptor
+oodt,oodt\filemgr\src\test\java\org\apache\oodt\cas\filemgr\datatransfer\TestS3DataTransferer.java,mockito,org.mockito.Mock
+oodt,oodt\filemgr\src\test\java\org\apache\oodt\cas\filemgr\datatransfer\TestS3DataTransferer.java,mockito,org.mockito.Mockito
+oodt,oodt\filemgr\src\test\java\org\apache\oodt\cas\filemgr\datatransfer\TestS3DataTransferer.java,mockito,org.mockito.MockitoAnnotations
+oodt,oodt\filemgr\src\test\java\org\apache\oodt\cas\filemgr\metadata\extractors\examples\TestDateTimeExpandMetExtractor.java,mockito,static org.mockito.Mockito.when
+oodt,oodt\filemgr\src\test\java\org\apache\oodt\cas\filemgr\metadata\extractors\examples\TestDateTimeExpandMetExtractor.java,mockito,org.mockito.Mock
+oodt,oodt\filemgr\src\test\java\org\apache\oodt\cas\filemgr\metadata\extractors\examples\TestDateTimeExpandMetExtractor.java,mockito,org.mockito.MockitoAnnotations
+oodt,oodt\metadata\src\test\org\apache\oodt\cas\metadata\extractors\TestDataSourceMetExtractor.java,mockito,static org.mockito.Mockito.when
+oodt,oodt\metadata\src\test\org\apache\oodt\cas\metadata\extractors\TestDataSourceMetExtractor.java,mockito,org.mockito.Mock
+oodt,oodt\metadata\src\test\org\apache\oodt\cas\metadata\extractors\TestDataSourceMetExtractor.java,mockito,org.mockito.Mockito
+oodt,oodt\metadata\src\test\org\apache\oodt\cas\metadata\extractors\TestDataSourceMetExtractor.java,mockito,org.mockito.MockitoAnnotations
+oodt,oodt\pge\src\test\java\org\apache\oodt\cas\pge\TestPGETaskInstance.java,easymock,static org.easymock.EasyMock.createMock
+oodt,oodt\pge\src\test\java\org\apache\oodt\cas\pge\TestPGETaskInstance.java,easymock,static org.easymock.EasyMock.expect
+oodt,oodt\pge\src\test\java\org\apache\oodt\cas\pge\TestPGETaskInstance.java,easymock,static org.easymock.EasyMock.replay
+oodt,oodt\pge\src\test\java\org\apache\oodt\cas\pge\TestPGETaskInstance.java,easymock,static org.easymock.EasyMock.verify
+oodt,oodt\pge\src\test\java\org\apache\oodt\cas\pge\staging\TestFileStager.java,easymock,static org.easymock.EasyMock.createStrictMock
+oodt,oodt\pge\src\test\java\org\apache\oodt\cas\pge\staging\TestFileStager.java,easymock,static org.easymock.EasyMock.expect
+oodt,oodt\pge\src\test\java\org\apache\oodt\cas\pge\staging\TestFileStager.java,easymock,static org.easymock.EasyMock.replay
+oodt,oodt\pge\src\test\java\org\apache\oodt\cas\pge\staging\TestFileStager.java,easymock,static org.easymock.EasyMock.reportMatcher
+oodt,oodt\pge\src\test\java\org\apache\oodt\cas\pge\staging\TestFileStager.java,easymock,static org.easymock.EasyMock.verify
+oodt,oodt\pge\src\test\java\org\apache\oodt\cas\pge\staging\TestFileStager.java,easymock,org.easymock.IArgumentMatcher
+oozie,oozie\client\src\test\java\org\apache\oozie\cli\TestOozieCLIMethods.java,mockito,static org.mockito.Mockito.mock
+oozie,oozie\client\src\test\java\org\apache\oozie\cli\TestOozieCLIMethods.java,mockito,static org.mockito.Mockito.when
+oozie,oozie\core\src\test\java\org\apache\oozie\action\hadoop\TestCredentials.java,mockito,org.mockito.Mockito
+oozie,oozie\core\src\test\java\org\apache\oozie\action\hadoop\TestHCatCredentials.java,mockito,org.mockito.Mockito
+oozie,oozie\core\src\test\java\org\apache\oozie\action\hadoop\TestHCatCredentials.java,mockito,org.mockito.invocation.InvocationOnMock
+oozie,oozie\core\src\test\java\org\apache\oozie\action\hadoop\TestHCatCredentials.java,mockito,org.mockito.stubbing.Answer
+oozie,oozie\core\src\test\java\org\apache\oozie\action\hadoop\TestHCatCredentials.java,powermock,org.powermock.api.mockito.PowerMockito
+oozie,oozie\core\src\test\java\org\apache\oozie\action\hadoop\TestHCatCredentials.java,powermock,org.powermock.core.classloader.annotations.PowerMockIgnore
+oozie,oozie\core\src\test\java\org\apache\oozie\action\hadoop\TestHCatCredentials.java,powermock,org.powermock.core.classloader.annotations.PrepareForTest
+oozie,oozie\core\src\test\java\org\apache\oozie\action\hadoop\TestHCatCredentials.java,powermock,org.powermock.modules.junit4.PowerMockRunner
+oozie,oozie\core\src\test\java\org\apache\oozie\action\hadoop\TestLauncherAMCallbackNotifier.java,mockito,org.mockito.Mockito
+oozie,oozie\core\src\test\java\org\apache\oozie\action\hadoop\TestScriptLanguageActionExecutor.java,mockito,org.mockito.Mock
+oozie,oozie\core\src\test\java\org\apache\oozie\action\hadoop\TestScriptLanguageActionExecutor.java,powermock,org.powermock.api.mockito.PowerMockito
+oozie,oozie\core\src\test\java\org\apache\oozie\action\hadoop\TestScriptLanguageActionExecutor.java,powermock,org.powermock.core.classloader.annotations.PrepareForTest
+oozie,oozie\core\src\test\java\org\apache\oozie\action\hadoop\TestScriptLanguageActionExecutor.java,powermock,org.powermock.modules.junit4.PowerMockRunner
+oozie,oozie\core\src\test\java\org\apache\oozie\action\hadoop\TestScriptLanguageActionExecutor.java,mockito,static org.mockito.ArgumentMatchers.any
+oozie,oozie\core\src\test\java\org\apache\oozie\action\hadoop\TestScriptLanguageActionExecutor.java,mockito,static org.mockito.ArgumentMatchers.anyString
+oozie,oozie\core\src\test\java\org\apache\oozie\action\hadoop\TestScriptLanguageActionExecutor.java,mockito,static org.mockito.ArgumentMatchers.isNull
+oozie,oozie\core\src\test\java\org\apache\oozie\action\hadoop\TestScriptLanguageActionExecutor.java,mockito,static org.mockito.Mockito.doReturn
+oozie,oozie\core\src\test\java\org\apache\oozie\action\hadoop\TestScriptLanguageActionExecutor.java,mockito,static org.mockito.Mockito.spy
+oozie,oozie\core\src\test\java\org\apache\oozie\action\hadoop\TestScriptLanguageActionExecutor.java,mockito,static org.mockito.Mockito.verify
+oozie,oozie\core\src\test\java\org\apache\oozie\action\hadoop\TestScriptLanguageActionExecutor.java,powermock,static org.powermock.api.mockito.PowerMockito.when
+oozie,oozie\core\src\test\java\org\apache\oozie\action\hadoop\TestYarnACLHandler.java,mockito,static org.mockito.ArgumentMatchers.any
+oozie,oozie\core\src\test\java\org\apache\oozie\action\hadoop\TestYarnACLHandler.java,mockito,static org.mockito.Mockito.never
+oozie,oozie\core\src\test\java\org\apache\oozie\action\hadoop\TestYarnACLHandler.java,mockito,static org.mockito.Mockito.verify
+oozie,oozie\core\src\test\java\org\apache\oozie\action\hadoop\TestYarnACLHandler.java,mockito,org.mockito.ArgumentCaptor
+oozie,oozie\core\src\test\java\org\apache\oozie\action\hadoop\TestYarnACLHandler.java,mockito,org.mockito.Captor
+oozie,oozie\core\src\test\java\org\apache\oozie\action\hadoop\TestYarnACLHandler.java,mockito,org.mockito.Mock
+oozie,oozie\core\src\test\java\org\apache\oozie\action\hadoop\TestYarnACLHandler.java,mockito,org.mockito.runners.MockitoJUnitRunner
+oozie,oozie\core\src\test\java\org\apache\oozie\action\hadoop\TestYarnApplicationIdFinder.java,mockito,org.mockito.Mock
+oozie,oozie\core\src\test\java\org\apache\oozie\action\hadoop\TestYarnApplicationIdFinder.java,mockito,org.mockito.runners.MockitoJUnitRunner
+oozie,oozie\core\src\test\java\org\apache\oozie\action\hadoop\TestYarnApplicationIdFinder.java,mockito,static org.mockito.Mockito.mock
+oozie,oozie\core\src\test\java\org\apache\oozie\action\hadoop\TestYarnApplicationIdFinder.java,mockito,static org.mockito.Mockito.when
+oozie,oozie\core\src\test\java\org\apache\oozie\action\ssh\TestSshActionExecutor.java,mockito,static org.mockito.Mockito.mock
+oozie,oozie\core\src\test\java\org\apache\oozie\action\ssh\TestSshActionExecutor.java,mockito,static org.mockito.Mockito.verify
+oozie,oozie\core\src\test\java\org\apache\oozie\client\TestOozieClientWithFakeServlet.java,mockito,static org.mockito.Mockito.*
+oozie,oozie\core\src\test\java\org\apache\oozie\client\TestWorkflowClient.java,mockito,static org.mockito.Mockito.*
+oozie,oozie\core\src\test\java\org\apache\oozie\command\coord\TestCoordActionNotificationXCommand.java,mockito,org.mockito.Mockito
+oozie,oozie\core\src\test\java\org\apache\oozie\command\wf\TestWorkflowNotificationXCommand.java,mockito,org.mockito.Mockito
+oozie,oozie\core\src\test\java\org\apache\oozie\service\TestAsyncXCommandExecutor.java,mockito,org.mockito.Answers
+oozie,oozie\core\src\test\java\org\apache\oozie\service\TestAsyncXCommandExecutor.java,mockito,org.mockito.Mock
+oozie,oozie\core\src\test\java\org\apache\oozie\service\TestAsyncXCommandExecutor.java,mockito,org.mockito.Mockito
+oozie,oozie\core\src\test\java\org\apache\oozie\service\TestAsyncXCommandExecutor.java,mockito,org.mockito.invocation.InvocationOnMock
+oozie,oozie\core\src\test\java\org\apache\oozie\service\TestAsyncXCommandExecutor.java,mockito,org.mockito.runners.MockitoJUnitRunner
+oozie,oozie\core\src\test\java\org\apache\oozie\service\TestAsyncXCommandExecutor.java,mockito,org.mockito.stubbing.Answer
+oozie,oozie\core\src\test\java\org\apache\oozie\service\TestAsyncXCommandExecutor.java,mockito,static org.mockito.Mockito.mock
+oozie,oozie\core\src\test\java\org\apache\oozie\service\TestAsyncXCommandExecutor.java,mockito,static org.mockito.Mockito.when
+oozie,oozie\core\src\test\java\org\apache\oozie\service\TestAsyncXCommandExecutor.java,mockito,static org.mockito.Mockito.doAnswer
+oozie,oozie\core\src\test\java\org\apache\oozie\service\TestAsyncXCommandExecutor.java,mockito,static org.mockito.Mockito.doThrow
+oozie,oozie\core\src\test\java\org\apache\oozie\service\TestAsyncXCommandExecutor.java,mockito,static org.mockito.Mockito.never
+oozie,oozie\core\src\test\java\org\apache\oozie\service\TestAsyncXCommandExecutor.java,mockito,static org.mockito.Mockito.verify
+oozie,oozie\core\src\test\java\org\apache\oozie\service\TestAsyncXCommandExecutor.java,mockito,static org.mockito.Mockito.verifyZeroInteractions
+oozie,oozie\core\src\test\java\org\apache\oozie\service\TestAsyncXCommandExecutor.java,mockito,static org.mockito.Mockito.times
+oozie,oozie\core\src\test\java\org\apache\oozie\service\TestAsyncXCommandExecutor.java,mockito,static org.mockito.ArgumentMatchers.same
+oozie,oozie\core\src\test\java\org\apache\oozie\service\TestAsyncXCommandExecutor.java,mockito,static org.mockito.ArgumentMatchers.any
+oozie,oozie\core\src\test\java\org\apache\oozie\service\TestAsyncXCommandExecutor.java,mockito,static org.mockito.ArgumentMatchers.anyInt
+oozie,oozie\core\src\test\java\org\apache\oozie\service\TestAsyncXCommandExecutor.java,mockito,static org.mockito.ArgumentMatchers.anyLong
+oozie,oozie\core\src\test\java\org\apache\oozie\service\TestAsyncXCommandExecutor.java,mockito,static org.mockito.ArgumentMatchers.eq
+oozie,oozie\core\src\test\java\org\apache\oozie\service\TestLiteWorkflowStoreService.java,mockito,org.mockito.Mockito
+oozie,oozie\core\src\test\java\org\apache\oozie\service\TestShareLibService.java,mockito,org.mockito.Mockito
+oozie,oozie\core\src\test\java\org\apache\oozie\service\TestZKLocksService.java,mockito,org.mockito.Mockito
+oozie,oozie\core\src\test\java\org\apache\oozie\service\TestZKLocksService.java,mockito,org.mockito.invocation.InvocationOnMock
+oozie,oozie\core\src\test\java\org\apache\oozie\service\TestZKLocksService.java,mockito,org.mockito.stubbing.Answer
+oozie,oozie\core\src\test\java\org\apache\oozie\servlet\TestErrorServlet.java,mockito,static org.mockito.Mockito.mock
+oozie,oozie\core\src\test\java\org\apache\oozie\servlet\TestErrorServlet.java,mockito,static org.mockito.Mockito.when
+oozie,oozie\core\src\test\java\org\apache\oozie\servlet\TestHostnameFilter.java,mockito,org.mockito.Mockito
+oozie,oozie\core\src\test\java\org\apache\oozie\servlet\TestHttpResponseHeaderFilter.java,mockito,org.mockito.Mockito
+oozie,oozie\core\src\test\java\org\apache\oozie\servlet\TestHttpResponseHeaderFilter.java,mockito,static org.mockito.ArgumentMatchers.any
+oozie,oozie\core\src\test\java\org\apache\oozie\servlet\TestHttpResponseHeaderFilter.java,mockito,static org.mockito.Mockito.doNothing
+oozie,oozie\core\src\test\java\org\apache\oozie\servlet\TestHttpResponseHeaderFilter.java,mockito,static org.mockito.Mockito.verify
+oozie,oozie\core\src\test\java\org\apache\oozie\util\TestBufferDrainer.java,mockito,org.mockito.invocation.InvocationOnMock
+oozie,oozie\core\src\test\java\org\apache\oozie\util\TestBufferDrainer.java,mockito,org.mockito.stubbing.Answer
+oozie,oozie\core\src\test\java\org\apache\oozie\util\TestBufferDrainer.java,mockito,static org.mockito.Mockito.doReturn
+oozie,oozie\core\src\test\java\org\apache\oozie\util\TestBufferDrainer.java,mockito,static org.mockito.Mockito.mock
+oozie,oozie\core\src\test\java\org\apache\oozie\util\TestBufferDrainer.java,mockito,static org.mockito.Mockito.when
+oozie,oozie\core\src\test\java\org\apache\oozie\util\db\TestOperationRetryHandler.java,mockito,static org.mockito.BDDMockito.given
+oozie,oozie\core\src\test\java\org\apache\oozie\util\db\TestOperationRetryHandler.java,mockito,static org.mockito.BDDMockito.willAnswer
+oozie,oozie\core\src\test\java\org\apache\oozie\util\db\TestOperationRetryHandler.java,mockito,static org.mockito.Mockito.mock
+oozie,oozie\core\src\test\java\org\apache\oozie\util\db\TestOperationRetryHandler.java,mockito,org.mockito.invocation.InvocationOnMock
+oozie,oozie\core\src\test\java\org\apache\oozie\util\db\TestOperationRetryHandler.java,mockito,org.mockito.stubbing.Answer
+oozie,oozie\fluent-job\fluent-job-api\src\test\java\org\apache\oozie\fluentjob\api\action\TestNodeBuilderBaseImpl.java,mockito,org.mockito.Mockito
+oozie,oozie\server\src\test\java\org\apache\oozie\server\TestEmbeddedOozieServer.java,mockito,org.mockito.Mock
+oozie,oozie\server\src\test\java\org\apache\oozie\server\TestEmbeddedOozieServer.java,mockito,org.mockito.Spy
+oozie,oozie\server\src\test\java\org\apache\oozie\server\TestEmbeddedOozieServer.java,mockito,org.mockito.runners.MockitoJUnitRunner
+oozie,oozie\server\src\test\java\org\apache\oozie\server\TestEmbeddedOozieServer.java,mockito,static org.mockito.ArgumentMatchers.any
+oozie,oozie\server\src\test\java\org\apache\oozie\server\TestEmbeddedOozieServer.java,mockito,static org.mockito.ArgumentMatchers.anyInt
+oozie,oozie\server\src\test\java\org\apache\oozie\server\TestEmbeddedOozieServer.java,mockito,static org.mockito.ArgumentMatchers.anyObject
+oozie,oozie\server\src\test\java\org\apache\oozie\server\TestEmbeddedOozieServer.java,mockito,static org.mockito.ArgumentMatchers.isA
+oozie,oozie\server\src\test\java\org\apache\oozie\server\TestEmbeddedOozieServer.java,mockito,static org.mockito.Mockito.doReturn
+oozie,oozie\server\src\test\java\org\apache\oozie\server\TestEmbeddedOozieServer.java,mockito,static org.mockito.Mockito.doNothing
+oozie,oozie\server\src\test\java\org\apache\oozie\server\TestEmbeddedOozieServer.java,mockito,static org.mockito.Mockito.never
+oozie,oozie\server\src\test\java\org\apache\oozie\server\TestEmbeddedOozieServer.java,mockito,static org.mockito.Mockito.verify
+oozie,oozie\server\src\test\java\org\apache\oozie\server\TestEmbeddedOozieServer.java,mockito,static org.mockito.Mockito.verifyNoMoreInteractions
+oozie,oozie\server\src\test\java\org\apache\oozie\server\TestJspHandler.java,mockito,org.mockito.Mock
+oozie,oozie\server\src\test\java\org\apache\oozie\server\TestJspHandler.java,mockito,org.mockito.runners.MockitoJUnitRunner
+oozie,oozie\server\src\test\java\org\apache\oozie\server\TestJspHandler.java,mockito,static org.mockito.Mockito.times
+oozie,oozie\server\src\test\java\org\apache\oozie\server\TestJspHandler.java,mockito,static org.mockito.Mockito.verify
+oozie,oozie\server\src\test\java\org\apache\oozie\server\TestJspHandler.java,mockito,static org.mockito.Mockito.when
+oozie,oozie\server\src\test\java\org\apache\oozie\server\TestSSLServerConnectorFactory.java,mockito,org.mockito.Mock
+oozie,oozie\server\src\test\java\org\apache\oozie\server\TestSSLServerConnectorFactory.java,mockito,org.mockito.Spy
+oozie,oozie\server\src\test\java\org\apache\oozie\server\TestSSLServerConnectorFactory.java,mockito,org.mockito.runners.MockitoJUnitRunner
+oozie,oozie\server\src\test\java\org\apache\oozie\server\TestSSLServerConnectorFactory.java,mockito,static org.mockito.ArgumentMatchers.anyString
+oozie,oozie\server\src\test\java\org\apache\oozie\server\TestSSLServerConnectorFactory.java,mockito,static org.mockito.Mockito.never
+oozie,oozie\server\src\test\java\org\apache\oozie\server\TestSSLServerConnectorFactory.java,mockito,static org.mockito.Mockito.verify
+oozie,oozie\server\src\test\java\org\apache\oozie\server\TestSSLServerConnectorFactory.java,mockito,static org.mockito.Mockito.verifyNoMoreInteractions
+oozie,oozie\server\src\test\java\org\apache\oozie\server\guice\TestConstraintSecurityHandlerProvider.java,mockito,org.mockito.Mock
+oozie,oozie\server\src\test\java\org\apache\oozie\server\guice\TestConstraintSecurityHandlerProvider.java,mockito,org.mockito.runners.MockitoJUnitRunner
+oozie,oozie\server\src\test\java\org\apache\oozie\server\guice\TestConstraintSecurityHandlerProvider.java,mockito,static org.mockito.Mockito.when
+oozie,oozie\sharelib\oozie\src\test\java\org\apache\oozie\action\hadoop\TestHdfsOperations.java,mockito,static org.mockito.ArgumentMatchers.any
+oozie,oozie\sharelib\oozie\src\test\java\org\apache\oozie\action\hadoop\TestHdfsOperations.java,mockito,static org.mockito.ArgumentMatchers.eq
+oozie,oozie\sharelib\oozie\src\test\java\org\apache\oozie\action\hadoop\TestHdfsOperations.java,mockito,static org.mockito.BDDMockito.given
+oozie,oozie\sharelib\oozie\src\test\java\org\apache\oozie\action\hadoop\TestHdfsOperations.java,mockito,static org.mockito.BDDMockito.willThrow
+oozie,oozie\sharelib\oozie\src\test\java\org\apache\oozie\action\hadoop\TestHdfsOperations.java,mockito,static org.mockito.Mockito.verify
+oozie,oozie\sharelib\oozie\src\test\java\org\apache\oozie\action\hadoop\TestHdfsOperations.java,mockito,org.mockito.ArgumentCaptor
+oozie,oozie\sharelib\oozie\src\test\java\org\apache\oozie\action\hadoop\TestHdfsOperations.java,mockito,org.mockito.InjectMocks
+oozie,oozie\sharelib\oozie\src\test\java\org\apache\oozie\action\hadoop\TestHdfsOperations.java,mockito,org.mockito.Mock
+oozie,oozie\sharelib\oozie\src\test\java\org\apache\oozie\action\hadoop\TestHdfsOperations.java,mockito,org.mockito.invocation.InvocationOnMock
+oozie,oozie\sharelib\oozie\src\test\java\org\apache\oozie\action\hadoop\TestHdfsOperations.java,mockito,org.mockito.runners.MockitoJUnitRunner
+oozie,oozie\sharelib\oozie\src\test\java\org\apache\oozie\action\hadoop\TestHdfsOperations.java,mockito,org.mockito.stubbing.Answer
+oozie,oozie\sharelib\oozie\src\test\java\org\apache\oozie\action\hadoop\TestLauncherAM.java,mockito,static org.mockito.BDDMockito.given
+oozie,oozie\sharelib\oozie\src\test\java\org\apache\oozie\action\hadoop\TestLauncherAM.java,mockito,static org.mockito.BDDMockito.willReturn
+oozie,oozie\sharelib\oozie\src\test\java\org\apache\oozie\action\hadoop\TestLauncherAM.java,mockito,static org.mockito.BDDMockito.willThrow
+oozie,oozie\sharelib\oozie\src\test\java\org\apache\oozie\action\hadoop\TestLauncherAM.java,mockito,static org.mockito.ArgumentMatchers.any
+oozie,oozie\sharelib\oozie\src\test\java\org\apache\oozie\action\hadoop\TestLauncherAM.java,mockito,static org.mockito.ArgumentMatchers.anyInt
+oozie,oozie\sharelib\oozie\src\test\java\org\apache\oozie\action\hadoop\TestLauncherAM.java,mockito,static org.mockito.ArgumentMatchers.anyString
+oozie,oozie\sharelib\oozie\src\test\java\org\apache\oozie\action\hadoop\TestLauncherAM.java,mockito,static org.mockito.ArgumentMatchers.eq
+oozie,oozie\sharelib\oozie\src\test\java\org\apache\oozie\action\hadoop\TestLauncherAM.java,mockito,org.mockito.Mockito
+oozie,oozie\sharelib\oozie\src\test\java\org\apache\oozie\action\hadoop\TestLauncherAM.java,mockito,static org.mockito.Mockito.verify
+oozie,oozie\sharelib\oozie\src\test\java\org\apache\oozie\action\hadoop\TestLauncherAM.java,mockito,static org.mockito.Mockito.verifyZeroInteractions
+oozie,oozie\sharelib\oozie\src\test\java\org\apache\oozie\action\hadoop\TestLauncherAM.java,mockito,org.mockito.Mock
+oozie,oozie\sharelib\oozie\src\test\java\org\apache\oozie\action\hadoop\TestLauncherAM.java,mockito,static org.mockito.Mockito.when
+oozie,oozie\sharelib\oozie\src\test\java\org\apache\oozie\action\hadoop\TestLauncherAM.java,mockito,org.mockito.runners.MockitoJUnitRunner
+oozie,oozie\sharelib\oozie\src\test\java\org\apache\oozie\action\hadoop\TestLauncherAMUtils.java,mockito,static org.mockito.BDDMockito.given
+oozie,oozie\sharelib\oozie\src\test\java\org\apache\oozie\action\hadoop\TestLauncherAMUtils.java,mockito,static org.mockito.ArgumentMatchers.eq
+oozie,oozie\sharelib\oozie\src\test\java\org\apache\oozie\action\hadoop\TestLauncherAMUtils.java,mockito,static org.mockito.ArgumentMatchers.anyBoolean
+oozie,oozie\sharelib\oozie\src\test\java\org\apache\oozie\action\hadoop\TestLauncherAMUtils.java,mockito,org.mockito.Mock
+oozie,oozie\sharelib\oozie\src\test\java\org\apache\oozie\action\hadoop\TestLauncherAMUtils.java,mockito,org.mockito.runners.MockitoJUnitRunner
+oozie,oozie\sharelib\oozie\src\test\java\org\apache\oozie\action\hadoop\TestLauncherMain.java,mockito,org.mockito.Mockito
+oozie,oozie\sharelib\oozie\src\test\java\org\apache\oozie\action\hadoop\TestPrepareActionsHandler.java,mockito,org.mockito.Mock
+oozie,oozie\sharelib\oozie\src\test\java\org\apache\oozie\action\hadoop\TestPrepareActionsHandler.java,mockito,org.mockito.runners.MockitoJUnitRunner
+oozie,oozie\sharelib\oozie\src\test\java\org\apache\oozie\action\hadoop\TestPrepareActionsHandler.java,mockito,static org.mockito.ArgumentMatchers.any
+oozie,oozie\sharelib\oozie\src\test\java\org\apache\oozie\action\hadoop\TestPrepareActionsHandler.java,mockito,static org.mockito.ArgumentMatchers.isNull
+oozie,oozie\sharelib\oozie\src\test\java\org\apache\oozie\action\hadoop\TestPrepareActionsHandler.java,mockito,static org.mockito.Mockito.verify
+oozie,oozie\sharelib\oozie\src\test\java\org\apache\oozie\action\hadoop\TestPrepareActionsHandler.java,mockito,static org.mockito.Mockito.verifyNoMoreInteractions
+oozie,oozie\sharelib\oozie\src\test\java\org\apache\oozie\action\hadoop\TestPrepareActionsHandler.java,mockito,static org.mockito.Mockito.when
+oozie,oozie\tools\src\test\java\org\apache\oozie\tools\FakeConnection.java,mockito,static org.mockito.Mockito.*
+oozie,oozie\tools\src\test\java\org\apache\oozie\tools\TestECPolicyDisabler.java,mockito,static org.mockito.ArgumentMatchers.any
+oozie,oozie\tools\src\test\java\org\apache\oozie\tools\TestECPolicyDisabler.java,mockito,static org.mockito.ArgumentMatchers.eq
+oozie,oozie\tools\src\test\java\org\apache\oozie\tools\TestECPolicyDisabler.java,mockito,static org.mockito.Mockito.mock
+oozie,oozie\tools\src\test\java\org\apache\oozie\tools\TestECPolicyDisabler.java,mockito,static org.mockito.Mockito.verify
+oozie,oozie\tools\src\test\java\org\apache\oozie\tools\TestECPolicyDisabler.java,mockito,static org.mockito.Mockito.verifyNoMoreInteractions
+oozie,oozie\tools\src\test\java\org\apache\oozie\tools\TestECPolicyDisabler.java,mockito,static org.mockito.Mockito.when
+oozie,oozie\tools\src\test\java\org\apache\oozie\tools\TestECPolicyDisabler.java,mockito,org.mockito.Mockito
+oozie,oozie\tools\src\test\java\org\apache\oozie\tools\TestOozieSharelibCLI.java,mockito,static org.mockito.ArgumentMatchers.any
+oozie,oozie\tools\src\test\java\org\apache\oozie\tools\TestOozieSharelibCLI.java,mockito,static org.mockito.ArgumentMatchers.anyInt
+oozie,oozie\tools\src\test\java\org\apache\oozie\tools\TestOozieSharelibCLI.java,mockito,static org.mockito.ArgumentMatchers.anyMap
+oozie,oozie\tools\src\test\java\org\apache\oozie\tools\TestOozieSharelibCLI.java,mockito,static org.mockito.Mockito.mock
+oozie,oozie\tools\src\test\java\org\apache\oozie\tools\TestOozieSharelibCLI.java,mockito,static org.mockito.Mockito.spy
+oozie,oozie\tools\src\test\java\org\apache\oozie\tools\TestOozieSharelibCLI.java,mockito,static org.mockito.Mockito.times
+oozie,oozie\tools\src\test\java\org\apache\oozie\tools\TestOozieSharelibCLI.java,mockito,static org.mockito.Mockito.verify
+oozie,oozie\tools\src\test\java\org\apache\oozie\tools\diag\TestAppInfoCollector.java,mockito,org.mockito.Mock
+oozie,oozie\tools\src\test\java\org\apache\oozie\tools\diag\TestAppInfoCollector.java,mockito,org.mockito.runners.MockitoJUnitRunner
+oozie,oozie\tools\src\test\java\org\apache\oozie\tools\diag\TestAppInfoCollector.java,mockito,static org.mockito.ArgumentMatchers.anyString
+oozie,oozie\tools\src\test\java\org\apache\oozie\tools\diag\TestAppInfoCollector.java,mockito,static org.mockito.Mockito.doReturn
+oozie,oozie\tools\src\test\java\org\apache\oozie\tools\diag\TestArgParser.java,mockito,static org.mockito.ArgumentMatchers.anyString
+oozie,oozie\tools\src\test\java\org\apache\oozie\tools\diag\TestArgParser.java,mockito,static org.mockito.Mockito.doReturn
+oozie,oozie\tools\src\test\java\org\apache\oozie\tools\diag\TestArgParser.java,mockito,static org.mockito.Mockito.mock
+oozie,oozie\tools\src\test\java\org\apache\oozie\tools\diag\TestMetricsCollector.java,mockito,org.mockito.Mock
+oozie,oozie\tools\src\test\java\org\apache\oozie\tools\diag\TestMetricsCollector.java,mockito,org.mockito.runners.MockitoJUnitRunner
+oozie,oozie\tools\src\test\java\org\apache\oozie\tools\diag\TestMetricsCollector.java,mockito,static org.mockito.Mockito.doReturn
+oozie,oozie\tools\src\test\java\org\apache\oozie\tools\diag\TestServerInfoCollector.java,mockito,org.mockito.Mock
+oozie,oozie\tools\src\test\java\org\apache\oozie\tools\diag\TestServerInfoCollector.java,mockito,org.mockito.runners.MockitoJUnitRunner
+oozie,oozie\tools\src\test\java\org\apache\oozie\tools\diag\TestServerInfoCollector.java,mockito,static org.mockito.ArgumentMatchers.anyString
+oozie,oozie\tools\src\test\java\org\apache\oozie\tools\diag\TestServerInfoCollector.java,mockito,static org.mockito.ArgumentMatchers.isNull
+oozie,oozie\tools\src\test\java\org\apache\oozie\tools\diag\TestServerInfoCollector.java,mockito,static org.mockito.Mockito.doReturn
+openjpa,openjpa\openjpa-jdbc\src\test\java\org\apache\openjpa\jdbc\kernel\TableJDBCSeqTest.java,jmock,org.jmock.Expectations
+openjpa,openjpa\openjpa-jdbc\src\test\java\org\apache\openjpa\jdbc\kernel\TableJDBCSeqTest.java,jmock,org.jmock.integration.junit4.JUnitRuleMockery
+openjpa,openjpa\openjpa-jdbc\src\test\java\org\apache\openjpa\jdbc\sql\TestDB2Dictionary.java,jmock,org.jmock.Expectations
+openjpa,openjpa\openjpa-jdbc\src\test\java\org\apache\openjpa\jdbc\sql\TestDB2Dictionary.java,jmock,org.jmock.integration.junit4.JUnitRuleMockery
+openjpa,openjpa\openjpa-jdbc\src\test\java\org\apache\openjpa\jdbc\sql\TestDBDictionaryGeneratedSQL.java,jmock,org.jmock.Expectations
+openjpa,openjpa\openjpa-jdbc\src\test\java\org\apache\openjpa\jdbc\sql\TestDBDictionaryGeneratedSQL.java,jmock,org.jmock.integration.junit4.JUnitRuleMockery
+openjpa,openjpa\openjpa-jdbc\src\test\java\org\apache\openjpa\jdbc\sql\TestHerdDBDictionary.java,jmock,org.jmock.Expectations
+openjpa,openjpa\openjpa-jdbc\src\test\java\org\apache\openjpa\jdbc\sql\TestHerdDBDictionary.java,jmock,org.jmock.integration.junit4.JUnitRuleMockery
+openjpa,openjpa\openjpa-jdbc\src\test\java\org\apache\openjpa\jdbc\sql\TestMySQLDictionary.java,jmock,org.jmock.Expectations
+openjpa,openjpa\openjpa-jdbc\src\test\java\org\apache\openjpa\jdbc\sql\TestMySQLDictionary.java,jmock,org.jmock.integration.junit4.JUnitRuleMockery
+openjpa,openjpa\openjpa-kubernetes\src\test\java\org\apache\openjpa\event\kubernetes\KubernetesTCPRemoteCommitProviderTest.java,fabric8,io.fabric8.kubernetes.client.server.mock.KubernetesServer
+openjpa,openjpa\openjpa-kubernetes\src\test\java\org\apache\openjpa\event\kubernetes\KubernetesTCPRemoteCommitProviderTest.java,jmock,org.jmock.Expectations
+openjpa,openjpa\openjpa-kubernetes\src\test\java\org\apache\openjpa\event\kubernetes\KubernetesTCPRemoteCommitProviderTest.java,jmock,org.jmock.integration.junit4.JUnitRuleMockery
+openmeetings,openmeetings\openmeetings-core\src\test\java\org\apache\openmeetings\core\remote\BaseMockedTest.java,mockito,static org.mockito.ArgumentMatchers.any
+openmeetings,openmeetings\openmeetings-core\src\test\java\org\apache\openmeetings\core\remote\BaseMockedTest.java,mockito,static org.mockito.ArgumentMatchers.anyBoolean
+openmeetings,openmeetings\openmeetings-core\src\test\java\org\apache\openmeetings\core\remote\BaseMockedTest.java,mockito,static org.mockito.ArgumentMatchers.anyString
+openmeetings,openmeetings\openmeetings-core\src\test\java\org\apache\openmeetings\core\remote\BaseMockedTest.java,mockito,static org.mockito.Mockito.doAnswer
+openmeetings,openmeetings\openmeetings-core\src\test\java\org\apache\openmeetings\core\remote\BaseMockedTest.java,mockito,static org.mockito.Mockito.lenient
+openmeetings,openmeetings\openmeetings-core\src\test\java\org\apache\openmeetings\core\remote\BaseMockedTest.java,mockito,static org.mockito.Mockito.mock
+openmeetings,openmeetings\openmeetings-core\src\test\java\org\apache\openmeetings\core\remote\BaseMockedTest.java,mockito,static org.mockito.Mockito.mockStatic
+openmeetings,openmeetings\openmeetings-core\src\test\java\org\apache\openmeetings\core\remote\BaseMockedTest.java,mockito,static org.mockito.Mockito.withSettings
+openmeetings,openmeetings\openmeetings-core\src\test\java\org\apache\openmeetings\core\remote\BaseMockedTest.java,mockito,static org.mockito.internal.util.collections.Sets.newMockSafeHashSet
+openmeetings,openmeetings\openmeetings-core\src\test\java\org\apache\openmeetings\core\remote\BaseMockedTest.java,mockito,org.mockito.InjectMocks
+openmeetings,openmeetings\openmeetings-core\src\test\java\org\apache\openmeetings\core\remote\BaseMockedTest.java,mockito,org.mockito.Mock
+openmeetings,openmeetings\openmeetings-core\src\test\java\org\apache\openmeetings\core\remote\BaseMockedTest.java,mockito,org.mockito.MockedStatic
+openmeetings,openmeetings\openmeetings-core\src\test\java\org\apache\openmeetings\core\remote\BaseMockedTest.java,mockito,org.mockito.Mockito
+openmeetings,openmeetings\openmeetings-core\src\test\java\org\apache\openmeetings\core\remote\BaseMockedTest.java,mockito,org.mockito.Spy
+openmeetings,openmeetings\openmeetings-core\src\test\java\org\apache\openmeetings\core\remote\BaseMockedTest.java,mockito,org.mockito.internal.configuration.injection.scanner.MockScanner
+openmeetings,openmeetings\openmeetings-core\src\test\java\org\apache\openmeetings\core\remote\BaseMockedTest.java,mockito,org.mockito.invocation.InvocationOnMock
+openmeetings,openmeetings\openmeetings-core\src\test\java\org\apache\openmeetings\core\remote\BaseMockedTest.java,mockito,org.mockito.junit.jupiter.MockitoExtension
+openmeetings,openmeetings\openmeetings-core\src\test\java\org\apache\openmeetings\core\remote\BaseMockedTest.java,mockito,org.mockito.stubbing.Answer
+openmeetings,openmeetings\openmeetings-core\src\test\java\org\apache\openmeetings\core\remote\TestRecordingFlowMocked.java,mockito,static org.mockito.ArgumentMatchers.any
+openmeetings,openmeetings\openmeetings-core\src\test\java\org\apache\openmeetings\core\remote\TestRecordingFlowMocked.java,mockito,static org.mockito.Mockito.doReturn
+openmeetings,openmeetings\openmeetings-core\src\test\java\org\apache\openmeetings\core\remote\TestRecordingFlowMocked.java,mockito,static org.mockito.Mockito.verify
+openmeetings,openmeetings\openmeetings-core\src\test\java\org\apache\openmeetings\core\remote\TestRecordingFlowMocked.java,mockito,static org.mockito.Mockito.when
+openmeetings,openmeetings\openmeetings-core\src\test\java\org\apache\openmeetings\core\remote\TestRecordingFlowMocked.java,mockito,org.mockito.Mock
+openmeetings,openmeetings\openmeetings-core\src\test\java\org\apache\openmeetings\core\remote\TestRecordingFlowMocked.java,mockito,org.mockito.Mockito
+openmeetings,openmeetings\openmeetings-core\src\test\java\org\apache\openmeetings\core\remote\TestRecordingFlowMocked.java,mockito,org.mockito.invocation.InvocationOnMock
+openmeetings,openmeetings\openmeetings-core\src\test\java\org\apache\openmeetings\core\remote\TestRecordingFlowMocked.java,mockito,org.mockito.stubbing.Answer
+openmeetings,openmeetings\openmeetings-core\src\test\java\org\apache\openmeetings\core\remote\TestRoomFlowMocked.java,mockito,static org.mockito.ArgumentMatchers.any
+openmeetings,openmeetings\openmeetings-core\src\test\java\org\apache\openmeetings\core\remote\TestRoomFlowMocked.java,mockito,static org.mockito.Mockito.doReturn
+openmeetings,openmeetings\openmeetings-core\src\test\java\org\apache\openmeetings\core\remote\TestRoomFlowMocked.java,mockito,static org.mockito.Mockito.lenient
+openmeetings,openmeetings\openmeetings-core\src\test\java\org\apache\openmeetings\core\remote\TestRoomFlowMocked.java,mockito,static org.mockito.Mockito.mock
+openmeetings,openmeetings\openmeetings-core\src\test\java\org\apache\openmeetings\core\remote\TestRoomFlowMocked.java,mockito,org.mockito.Mock
+openmeetings,openmeetings\openmeetings-core\src\test\java\org\apache\openmeetings\core\remote\TestSetupFlowMocked.java,mockito,static org.mockito.ArgumentMatchers.any
+openmeetings,openmeetings\openmeetings-core\src\test\java\org\apache\openmeetings\core\remote\TestSetupFlowMocked.java,mockito,static org.mockito.Mockito.doReturn
+openmeetings,openmeetings\openmeetings-core\src\test\java\org\apache\openmeetings\core\remote\TestSetupFlowMocked.java,mockito,static org.mockito.Mockito.mock
+openmeetings,openmeetings\openmeetings-core\src\test\java\org\apache\openmeetings\core\util\TestStrongPasswordValidator.java,mockito,static org.mockito.ArgumentMatchers.any
+openmeetings,openmeetings\openmeetings-core\src\test\java\org\apache\openmeetings\core\util\TestStrongPasswordValidator.java,mockito,static org.mockito.Mockito.mockStatic
+openmeetings,openmeetings\openmeetings-core\src\test\java\org\apache\openmeetings\core\util\TestStrongPasswordValidator.java,mockito,org.mockito.MockedStatic
+openmeetings,openmeetings\openmeetings-core\src\test\java\org\apache\openmeetings\core\util\TestStrongPasswordValidator.java,mockito,org.mockito.invocation.InvocationOnMock
+openmeetings,openmeetings\openmeetings-core\src\test\java\org\apache\openmeetings\core\util\TestStrongPasswordValidator.java,mockito,org.mockito.stubbing.Answer
+openmeetings,openmeetings\openmeetings-db\src\test\java\org\apache\openmeetings\db\entity\file\FileItemTest.java,mockito,static org.mockito.Mockito.mockStatic
+openmeetings,openmeetings\openmeetings-db\src\test\java\org\apache\openmeetings\db\entity\file\FileItemTest.java,mockito,org.mockito.MockedStatic
+openmeetings,openmeetings\openmeetings-db\src\test\java\org\apache\openmeetings\db\entity\file\FileItemTest.java,mockito,org.mockito.junit.jupiter.MockitoExtension
+openmeetings,openmeetings\openmeetings-web\src\test\java\org\apache\openmeetings\service\scheduler\TestJob.java,mockito,static org.mockito.ArgumentMatchers.anyString
+openmeetings,openmeetings\openmeetings-web\src\test\java\org\apache\openmeetings\service\scheduler\TestJob.java,mockito,static org.mockito.Mockito.doAnswer
+openmeetings,openmeetings\openmeetings-web\src\test\java\org\apache\openmeetings\service\scheduler\TestJob.java,mockito,static org.mockito.Mockito.times
+openmeetings,openmeetings\openmeetings-web\src\test\java\org\apache\openmeetings\service\scheduler\TestJob.java,mockito,static org.mockito.Mockito.verify
+openmeetings,openmeetings\openmeetings-web\src\test\java\org\apache\openmeetings\service\scheduler\TestJob.java,mockito,org.mockito.InjectMocks
+openmeetings,openmeetings\openmeetings-web\src\test\java\org\apache\openmeetings\service\scheduler\TestJob.java,mockito,org.mockito.Mock
+openmeetings,openmeetings\openmeetings-web\src\test\java\org\apache\openmeetings\service\scheduler\TestJob.java,mockito,org.mockito.invocation.InvocationOnMock
+openmeetings,openmeetings\openmeetings-web\src\test\java\org\apache\openmeetings\service\scheduler\TestJob.java,mockito,org.mockito.junit.jupiter.MockitoExtension
+openmeetings,openmeetings\openmeetings-web\src\test\java\org\apache\openmeetings\service\scheduler\TestJob.java,mockito,org.mockito.stubbing.Answer
+openmeetings,openmeetings\openmeetings-web\src\test\java\org\apache\openmeetings\web\app\TestUserManagerMocked.java,mockito,static org.mockito.ArgumentMatchers.any
+openmeetings,openmeetings\openmeetings-web\src\test\java\org\apache\openmeetings\web\app\TestUserManagerMocked.java,mockito,static org.mockito.ArgumentMatchers.anyString
+openmeetings,openmeetings\openmeetings-web\src\test\java\org\apache\openmeetings\web\app\TestUserManagerMocked.java,mockito,static org.mockito.ArgumentMatchers.eq
+openmeetings,openmeetings\openmeetings-web\src\test\java\org\apache\openmeetings\web\app\TestUserManagerMocked.java,mockito,static org.mockito.ArgumentMatchers.nullable
+openmeetings,openmeetings\openmeetings-web\src\test\java\org\apache\openmeetings\web\app\TestUserManagerMocked.java,mockito,static org.mockito.Mockito.doAnswer
+openmeetings,openmeetings\openmeetings-web\src\test\java\org\apache\openmeetings\web\app\TestUserManagerMocked.java,mockito,static org.mockito.Mockito.doReturn
+openmeetings,openmeetings\openmeetings-web\src\test\java\org\apache\openmeetings\web\app\TestUserManagerMocked.java,mockito,org.mockito.InjectMocks
+openmeetings,openmeetings\openmeetings-web\src\test\java\org\apache\openmeetings\web\app\TestUserManagerMocked.java,mockito,org.mockito.Mock
+openmeetings,openmeetings\openmeetings-web\src\test\java\org\apache\openmeetings\web\app\TestUserManagerMocked.java,mockito,org.mockito.Mockito
+openmeetings,openmeetings\openmeetings-web\src\test\java\org\apache\openmeetings\web\app\TestUserManagerMocked.java,mockito,org.mockito.invocation.InvocationOnMock
+openmeetings,openmeetings\openmeetings-web\src\test\java\org\apache\openmeetings\web\app\TestUserManagerMocked.java,mockito,org.mockito.junit.jupiter.MockitoExtension
+openmeetings,openmeetings\openmeetings-web\src\test\java\org\apache\openmeetings\web\app\TestUserManagerMocked.java,mockito,org.mockito.stubbing.Answer
+opennlp,opennlp\opennlp-tools\src\test\java\opennlp\tools\chunker\ChunkSampleStreamTest.java,opennlp,opennlp.tools.util.MockInputStreamFactory
+opennlp,opennlp\opennlp-tools\src\test\java\opennlp\tools\cmdline\TokenNameFinderToolTest.java,opennlp,opennlp.tools.util.MockInputStreamFactory
+opennlp,opennlp\opennlp-tools\src\test\java\opennlp\tools\lemmatizer\LemmatizerEvaluatorTest.java,opennlp,opennlp.tools.util.MockInputStreamFactory
+opennlp,opennlp\opennlp-tools\src\test\java\opennlp\tools\lemmatizer\LemmatizerMETest.java,opennlp,opennlp.tools.util.MockInputStreamFactory
+opennlp,opennlp\opennlp-tools\src\test\java\opennlp\tools\ml\maxent\ScaleDoesntMatterTest.java,opennlp,opennlp.tools.util.MockInputStreamFactory
+opennlp,opennlp\opennlp-tools\src\test\java\opennlp\tools\namefind\NameFinderMETest.java,opennlp,opennlp.tools.util.MockInputStreamFactory
+opennlp,opennlp\opennlp-tools\src\test\java\opennlp\tools\namefind\NameSampleDataStreamTest.java,opennlp,opennlp.tools.util.MockInputStreamFactory
+opennlp,opennlp\opennlp-tools\src\test\java\opennlp\tools\namefind\TokenNameFinderEvaluatorTest.java,mockito,static org.mockito.Mockito.any
+opennlp,opennlp\opennlp-tools\src\test\java\opennlp\tools\namefind\TokenNameFinderEvaluatorTest.java,mockito,static org.mockito.Mockito.mock
+opennlp,opennlp\opennlp-tools\src\test\java\opennlp\tools\namefind\TokenNameFinderEvaluatorTest.java,mockito,static org.mockito.Mockito.when
+opennlp,opennlp\opennlp-tools\src\test\java\opennlp\tools\namefind\TokenNameFinderModelTest.java,opennlp,opennlp.tools.util.MockInputStreamFactory

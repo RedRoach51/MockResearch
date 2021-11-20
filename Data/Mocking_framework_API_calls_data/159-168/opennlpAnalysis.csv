@@ -1,0 +1,10 @@
+method, origin, count
+getCanonicalName,java.lang.Class<opennlp.tools.ml.MockSequenceTrainer>,2
+mock,org.mockito.Mockito,1
+thenReturn,org.mockito.stubbing.OngoingStubbing<opennlp.tools.util.Span[]>,1
+when,org.mockito.Mockito,1
+any,org.mockito.ArgumentMatchers,1
+
+MockedObjects: ,1
+
+# of Mocked objects each file:,1|

@@ -1,0 +1,263 @@
+Project Name,File Path,Mocking Framework,Imported Mock Line
+orc,orc\java\\core\src\test\org\apache\orc\TestVectorOrcFile.java,mockito,org.mockito.Mockito
+orc,orc\java\\core\src\test\org\apache\orc\impl\TestDataReaderProperties.java,mockito,static org.mockito.Mockito.mock
+orc,orc\java\\core\src\test\org\apache\orc\impl\TestMemoryManager.java,mockito,org.mockito.Mockito
+orc,orc\java\\core\src\test\org\apache\orc\impl\TestMemoryManager.java,mockito,static org.mockito.ArgumentMatchers.eq
+orc,orc\java\\core\src\test\org\apache\orc\impl\TestOrcLargeStripe.java,mockito,org.mockito.Mock
+orc,orc\java\\core\src\test\org\apache\orc\impl\TestOrcLargeStripe.java,mockito,org.mockito.junit.jupiter.MockitoExtension
+orc,orc\java\\core\src\test\org\apache\orc\impl\TestOrcLargeStripe.java,mockito,static org.mockito.ArgumentMatchers.any
+orc,orc\java\\core\src\test\org\apache\orc\impl\TestOrcLargeStripe.java,mockito,static org.mockito.ArgumentMatchers.anyLong
+orc,orc\java\\core\src\test\org\apache\orc\impl\TestOrcLargeStripe.java,mockito,static org.mockito.ArgumentMatchers.eq
+orc,orc\java\\core\src\test\org\apache\orc\impl\TestOrcLargeStripe.java,mockito,static org.mockito.Mockito.anyBoolean
+orc,orc\java\\core\src\test\org\apache\orc\impl\TestOrcLargeStripe.java,mockito,static org.mockito.Mockito.anyInt
+orc,orc\java\\core\src\test\org\apache\orc\impl\TestOrcLargeStripe.java,mockito,static org.mockito.Mockito.mock
+orc,orc\java\\core\src\test\org\apache\orc\impl\TestOrcLargeStripe.java,mockito,static org.mockito.Mockito.never
+orc,orc\java\\core\src\test\org\apache\orc\impl\TestOrcLargeStripe.java,mockito,static org.mockito.Mockito.verify
+orc,orc\java\\core\src\test\org\apache\orc\impl\TestOrcLargeStripe.java,mockito,static org.mockito.Mockito.when
+orc,orc\java\\core\src\test\org\apache\orc\impl\TestOutStream.java,mockito,org.mockito.Mockito
+orc,orc\java\\core\src\test\org\apache\orc\impl\TestRecordReaderImpl.java,mockito,static org.mockito.ArgumentMatchers.any
+orc,orc\java\\core\src\test\org\apache\orc\impl\TestRecordReaderImpl.java,mockito,static org.mockito.ArgumentMatchers.eq
+orc,orc\java\\core\src\test\org\apache\orc\impl\TestRecordReaderImpl.java,mockito,static org.mockito.Mockito.atLeastOnce
+orc,orc\java\\core\src\test\org\apache\orc\impl\TestRecordReaderImpl.java,mockito,static org.mockito.Mockito.doNothing
+orc,orc\java\\core\src\test\org\apache\orc\impl\TestRecordReaderImpl.java,mockito,static org.mockito.Mockito.doThrow
+orc,orc\java\\core\src\test\org\apache\orc\impl\TestRecordReaderImpl.java,mockito,static org.mockito.Mockito.mock
+orc,orc\java\\core\src\test\org\apache\orc\impl\TestRecordReaderImpl.java,mockito,static org.mockito.Mockito.times
+orc,orc\java\\core\src\test\org\apache\orc\impl\TestRecordReaderImpl.java,mockito,static org.mockito.Mockito.verify
+orc,orc\java\\core\src\test\org\apache\orc\impl\TestRecordReaderImpl.java,mockito,static org.mockito.Mockito.when
+orc,orc\java\\mapreduce\src\test\org\apache\orc\mapred\TestOrcFileEvolution.java,mockito,static org.mockito.Mockito.mock
+pdfbox,pdfbox\pdfbox\src\test\java\org\apache\pdfbox\pdmodel\font\TestFontEmbedding.java,mockito,org.mockito.Mockito
+pdfbox,pdfbox\pdfbox\src\test\java\org\apache\pdfbox\pdmodel\font\TestFontEmbedding.java,mockito,static org.mockito.BDDMockito.given
+phoenix,phoenix\phoenix-core\src\it\java\org\apache\phoenix\rpc\TestPhoenixIndexRpcSchedulerFactory.java,mockito,org.mockito.Mockito
+phoenix,phoenix\phoenix-core\src\test\java\org\apache\hadoop\hbase\ipc\PhoenixIndexRpcSchedulerTest.java,mockito,static org.mockito.Mockito.when
+phoenix,phoenix\phoenix-core\src\test\java\org\apache\hadoop\hbase\ipc\PhoenixIndexRpcSchedulerTest.java,mockito,org.mockito.Mockito
+phoenix,phoenix\phoenix-core\src\test\java\org\apache\phoenix\cache\ServerCacheClientTest.java,mockito,org.mockito.Mockito
+phoenix,phoenix\phoenix-core\src\test\java\org\apache\phoenix\compile\RVCOffsetCompilerTest.java,mockito,static org.mockito.Mockito.mock
+phoenix,phoenix\phoenix-core\src\test\java\org\apache\phoenix\compile\RVCOffsetCompilerTest.java,mockito,org.mockito.Mockito
+phoenix,phoenix\phoenix-core\src\test\java\org\apache\phoenix\coprocessor\TaskMetaDataEndpointTest.java,mockito,org.mockito.Mock
+phoenix,phoenix\phoenix-core\src\test\java\org\apache\phoenix\coprocessor\TaskMetaDataEndpointTest.java,mockito,org.mockito.Mockito
+phoenix,phoenix\phoenix-core\src\test\java\org\apache\phoenix\coprocessor\TaskMetaDataEndpointTest.java,mockito,org.mockito.MockitoAnnotations
+phoenix,phoenix\phoenix-core\src\test\java\org\apache\phoenix\execute\MutationStateTest.java,mockito,static org.mockito.Mockito.doReturn
+phoenix,phoenix\phoenix-core\src\test\java\org\apache\phoenix\execute\MutationStateTest.java,mockito,static org.mockito.Mockito.mock
+phoenix,phoenix\phoenix-core\src\test\java\org\apache\phoenix\execute\MutationStateTest.java,mockito,static org.mockito.Mockito.spy
+phoenix,phoenix\phoenix-core\src\test\java\org\apache\phoenix\execute\MutationStateTest.java,mockito,static org.mockito.Mockito.when
+phoenix,phoenix\phoenix-core\src\test\java\org\apache\phoenix\execute\SortMergeJoinTest.java,mockito,static org.mockito.Mockito.when
+phoenix,phoenix\phoenix-core\src\test\java\org\apache\phoenix\execute\SortMergeJoinTest.java,mockito,org.mockito.Mockito
+phoenix,phoenix\phoenix-core\src\test\java\org\apache\phoenix\execute\SortMergeJoinTest.java,mockito,org.mockito.invocation.InvocationOnMock
+phoenix,phoenix\phoenix-core\src\test\java\org\apache\phoenix\execute\SortMergeJoinTest.java,mockito,org.mockito.stubbing.Answer
+phoenix,phoenix\phoenix-core\src\test\java\org\apache\phoenix\expression\InListExpressionTest.java,mockito,static org.mockito.Mockito.when
+phoenix,phoenix\phoenix-core\src\test\java\org\apache\phoenix\expression\InListExpressionTest.java,mockito,org.mockito.Mockito
+phoenix,phoenix\phoenix-core\src\test\java\org\apache\phoenix\expression\rewrite\RowValueConstructorExpressionRewriterTest.java,mockito,org.mockito.Mockito
+phoenix,phoenix\phoenix-core\src\test\java\org\apache\phoenix\hbase\index\covered\LocalTableStateTest.java,mockito,org.mockito.Mockito
+phoenix,phoenix\phoenix-core\src\test\java\org\apache\phoenix\hbase\index\covered\NonTxIndexBuilderTest.java,mockito,org.mockito.Mockito
+phoenix,phoenix\phoenix-core\src\test\java\org\apache\phoenix\hbase\index\covered\NonTxIndexBuilderTest.java,mockito,org.mockito.invocation.InvocationOnMock
+phoenix,phoenix\phoenix-core\src\test\java\org\apache\phoenix\hbase\index\covered\NonTxIndexBuilderTest.java,mockito,org.mockito.stubbing.Answer
+phoenix,phoenix\phoenix-core\src\test\java\org\apache\phoenix\hbase\index\covered\TestCoveredColumnIndexCodec.java,mockito,org.mockito.Mockito
+phoenix,phoenix\phoenix-core\src\test\java\org\apache\phoenix\hbase\index\covered\update\TestIndexUpdateManager.java,mockito,org.mockito.Mockito
+phoenix,phoenix\phoenix-core\src\test\java\org\apache\phoenix\hbase\index\write\TestIndexWriter.java,mockito,org.mockito.Mockito
+phoenix,phoenix\phoenix-core\src\test\java\org\apache\phoenix\hbase\index\write\TestIndexWriter.java,mockito,org.mockito.invocation.InvocationOnMock
+phoenix,phoenix\phoenix-core\src\test\java\org\apache\phoenix\hbase\index\write\TestIndexWriter.java,mockito,org.mockito.stubbing.Answer
+phoenix,phoenix\phoenix-core\src\test\java\org\apache\phoenix\hbase\index\write\TestParalleIndexWriter.java,mockito,org.mockito.Mockito
+phoenix,phoenix\phoenix-core\src\test\java\org\apache\phoenix\hbase\index\write\TestParalleIndexWriter.java,mockito,org.mockito.invocation.InvocationOnMock
+phoenix,phoenix\phoenix-core\src\test\java\org\apache\phoenix\hbase\index\write\TestParalleIndexWriter.java,mockito,org.mockito.stubbing.Answer
+phoenix,phoenix\phoenix-core\src\test\java\org\apache\phoenix\hbase\index\write\TestParalleWriterIndexCommitter.java,mockito,org.mockito.Mockito
+phoenix,phoenix\phoenix-core\src\test\java\org\apache\phoenix\hbase\index\write\TestParalleWriterIndexCommitter.java,mockito,org.mockito.invocation.InvocationOnMock
+phoenix,phoenix\phoenix-core\src\test\java\org\apache\phoenix\hbase\index\write\TestParalleWriterIndexCommitter.java,mockito,org.mockito.stubbing.Answer
+phoenix,phoenix\phoenix-core\src\test\java\org\apache\phoenix\index\IndexScrutinyMapperTest.java,mockito,org.mockito.Mockito
+phoenix,phoenix\phoenix-core\src\test\java\org\apache\phoenix\index\IndexToolTest.java,mockito,org.mockito.Mock
+phoenix,phoenix\phoenix-core\src\test\java\org\apache\phoenix\index\IndexToolTest.java,mockito,org.mockito.Mockito
+phoenix,phoenix\phoenix-core\src\test\java\org\apache\phoenix\index\IndexToolTest.java,mockito,org.mockito.MockitoAnnotations
+phoenix,phoenix\phoenix-core\src\test\java\org\apache\phoenix\index\IndexToolTest.java,mockito,static org.mockito.Mockito.when
+phoenix,phoenix\phoenix-core\src\test\java\org\apache\phoenix\index\ShouldVerifyTest.java,mockito,org.mockito.Matchers
+phoenix,phoenix\phoenix-core\src\test\java\org\apache\phoenix\index\ShouldVerifyTest.java,mockito,org.mockito.Mock
+phoenix,phoenix\phoenix-core\src\test\java\org\apache\phoenix\index\ShouldVerifyTest.java,mockito,org.mockito.MockitoAnnotations
+phoenix,phoenix\phoenix-core\src\test\java\org\apache\phoenix\index\ShouldVerifyTest.java,mockito,static org.mockito.Matchers.any
+phoenix,phoenix\phoenix-core\src\test\java\org\apache\phoenix\index\ShouldVerifyTest.java,mockito,static org.mockito.Matchers.anyBoolean
+phoenix,phoenix\phoenix-core\src\test\java\org\apache\phoenix\index\ShouldVerifyTest.java,mockito,static org.mockito.Mockito.when
+phoenix,phoenix\phoenix-core\src\test\java\org\apache\phoenix\index\VerifySingleIndexRowTest.java,mockito,org.mockito.Matchers
+phoenix,phoenix\phoenix-core\src\test\java\org\apache\phoenix\index\VerifySingleIndexRowTest.java,mockito,org.mockito.Mock
+phoenix,phoenix\phoenix-core\src\test\java\org\apache\phoenix\index\VerifySingleIndexRowTest.java,mockito,org.mockito.Mockito
+phoenix,phoenix\phoenix-core\src\test\java\org\apache\phoenix\index\VerifySingleIndexRowTest.java,mockito,org.mockito.MockitoAnnotations
+phoenix,phoenix\phoenix-core\src\test\java\org\apache\phoenix\index\VerifySingleIndexRowTest.java,mockito,static org.mockito.Matchers.any
+phoenix,phoenix\phoenix-core\src\test\java\org\apache\phoenix\index\VerifySingleIndexRowTest.java,mockito,static org.mockito.Mockito.doNothing
+phoenix,phoenix\phoenix-core\src\test\java\org\apache\phoenix\index\VerifySingleIndexRowTest.java,mockito,static org.mockito.Mockito.when
+phoenix,phoenix\phoenix-core\src\test\java\org\apache\phoenix\iterate\DistinctAggregatingResultIteratorTest.java,mockito,org.mockito.Mockito
+phoenix,phoenix\phoenix-core\src\test\java\org\apache\phoenix\iterate\DistinctAggregatingResultIteratorTest.java,mockito,org.mockito.invocation.InvocationOnMock
+phoenix,phoenix\phoenix-core\src\test\java\org\apache\phoenix\iterate\DistinctAggregatingResultIteratorTest.java,mockito,org.mockito.stubbing.Answer
+phoenix,phoenix\phoenix-core\src\test\java\org\apache\phoenix\iterate\OrderedResultIteratorTest.java,mockito,org.mockito.Mockito
+phoenix,phoenix\phoenix-core\src\test\java\org\apache\phoenix\mapreduce\PhoenixMultiViewInputFormatTest.java,mockito,org.mockito.Mockito
+phoenix,phoenix\phoenix-core\src\test\java\org\apache\phoenix\mapreduce\PhoenixMultiViewInputFormatTest.java,mockito,static org.mockito.Mockito.when
+phoenix,phoenix\phoenix-core\src\test\java\org\apache\phoenix\mapreduce\PhoenixMultiViewReaderTest.java,mockito,org.mockito.Mockito
+phoenix,phoenix\phoenix-core\src\test\java\org\apache\phoenix\mapreduce\PhoenixMultiViewReaderTest.java,mockito,static org.mockito.Mockito.when
+phoenix,phoenix\phoenix-core\src\test\java\org\apache\phoenix\memory\MemoryManagerTest.java,mockito,static org.mockito.Mockito.spy
+phoenix,phoenix\phoenix-core\src\test\java\org\apache\phoenix\monitoring\MetricUtilTest.java,mockito,org.mockito.runners.MockitoJUnitRunner
+phoenix,phoenix\phoenix-core\src\test\java\org\apache\phoenix\monitoring\TableMetricsManagerTest.java,mockito,org.mockito.Mockito
+phoenix,phoenix\phoenix-core\src\test\java\org\apache\phoenix\query\ConnectionQueryServicesImplTest.java,mockito,static org.mockito.Matchers.any
+phoenix,phoenix\phoenix-core\src\test\java\org\apache\phoenix\query\ConnectionQueryServicesImplTest.java,mockito,static org.mockito.Matchers.anyString
+phoenix,phoenix\phoenix-core\src\test\java\org\apache\phoenix\query\ConnectionQueryServicesImplTest.java,mockito,static org.mockito.Mockito.doCallRealMethod
+phoenix,phoenix\phoenix-core\src\test\java\org\apache\phoenix\query\ConnectionQueryServicesImplTest.java,mockito,static org.mockito.Mockito.doNothing
+phoenix,phoenix\phoenix-core\src\test\java\org\apache\phoenix\query\ConnectionQueryServicesImplTest.java,mockito,static org.mockito.Mockito.doThrow
+phoenix,phoenix\phoenix-core\src\test\java\org\apache\phoenix\query\ConnectionQueryServicesImplTest.java,mockito,static org.mockito.Mockito.verify
+phoenix,phoenix\phoenix-core\src\test\java\org\apache\phoenix\query\ConnectionQueryServicesImplTest.java,mockito,static org.mockito.Mockito.when
+phoenix,phoenix\phoenix-core\src\test\java\org\apache\phoenix\query\ConnectionQueryServicesImplTest.java,mockito,org.mockito.Mock
+phoenix,phoenix\phoenix-core\src\test\java\org\apache\phoenix\query\ConnectionQueryServicesImplTest.java,mockito,org.mockito.Mockito
+phoenix,phoenix\phoenix-core\src\test\java\org\apache\phoenix\query\ConnectionQueryServicesImplTest.java,mockito,org.mockito.MockitoAnnotations
+phoenix,phoenix\phoenix-core\src\test\java\org\apache\phoenix\query\GuidePostsCacheProviderTest.java,mockito,org.mockito.Mockito
+phoenix,phoenix\phoenix-core\src\test\java\org\apache\phoenix\query\GuidePostsCacheWrapperTest.java,mockito,org.mockito.Mock
+phoenix,phoenix\phoenix-core\src\test\java\org\apache\phoenix\query\GuidePostsCacheWrapperTest.java,mockito,org.mockito.Mockito
+phoenix,phoenix\phoenix-core\src\test\java\org\apache\phoenix\query\GuidePostsCacheWrapperTest.java,mockito,org.mockito.MockitoAnnotations
+phoenix,phoenix\phoenix-core\src\test\java\org\apache\phoenix\schema\stats\StatisticsScannerTest.java,mockito,static org.mockito.Matchers.any
+phoenix,phoenix\phoenix-core\src\test\java\org\apache\phoenix\schema\stats\StatisticsScannerTest.java,mockito,static org.mockito.Mockito.doCallRealMethod
+phoenix,phoenix\phoenix-core\src\test\java\org\apache\phoenix\schema\stats\StatisticsScannerTest.java,mockito,static org.mockito.Mockito.doThrow
+phoenix,phoenix\phoenix-core\src\test\java\org\apache\phoenix\schema\stats\StatisticsScannerTest.java,mockito,static org.mockito.Mockito.mock
+phoenix,phoenix\phoenix-core\src\test\java\org\apache\phoenix\schema\stats\StatisticsScannerTest.java,mockito,static org.mockito.Mockito.never
+phoenix,phoenix\phoenix-core\src\test\java\org\apache\phoenix\schema\stats\StatisticsScannerTest.java,mockito,static org.mockito.Mockito.verify
+phoenix,phoenix\phoenix-core\src\test\java\org\apache\phoenix\schema\stats\StatisticsScannerTest.java,mockito,static org.mockito.Mockito.when
+phoenix,phoenix\phoenix-core\src\test\java\org\apache\phoenix\util\AbstractUpsertExecutorTest.java,mockito,static org.mockito.Matchers.any
+phoenix,phoenix\phoenix-core\src\test\java\org\apache\phoenix\util\AbstractUpsertExecutorTest.java,mockito,static org.mockito.Matchers.eq
+phoenix,phoenix\phoenix-core\src\test\java\org\apache\phoenix\util\AbstractUpsertExecutorTest.java,mockito,static org.mockito.Mockito.mock
+phoenix,phoenix\phoenix-core\src\test\java\org\apache\phoenix\util\AbstractUpsertExecutorTest.java,mockito,static org.mockito.Mockito.verify
+phoenix,phoenix\phoenix-core\src\test\java\org\apache\phoenix\util\AbstractUpsertExecutorTest.java,mockito,static org.mockito.Mockito.verifyNoMoreInteractions
+phoenix,phoenix\phoenix-core\src\test\java\org\apache\phoenix\util\LogUtilTest.java,mockito,static org.mockito.Mockito.when
+phoenix,phoenix\phoenix-core\src\test\java\org\apache\phoenix\util\LogUtilTest.java,mockito,org.mockito.Mock
+phoenix,phoenix\phoenix-core\src\test\java\org\apache\phoenix\util\LogUtilTest.java,mockito,org.mockito.runners.MockitoJUnitRunner
+phoenix,phoenix\phoenix-core\src\test\java\org\apache\phoenix\util\MetaDataUtilTest.java,mockito,org.mockito.Mockito
+phoenix,phoenix\phoenix-core\src\test\java\org\apache\phoenix\util\MetaDataUtilTest.java,mockito,static org.mockito.Mockito.never
+phoenix,phoenix\phoenix-core\src\test\java\org\apache\phoenix\util\MetaDataUtilTest.java,mockito,static org.mockito.Mockito.times
+phoenix,phoenix\phoenix-core\src\test\java\org\apache\phoenix\util\MetaDataUtilTest.java,mockito,static org.mockito.Mockito.verify
+phoenix,phoenix\phoenix-core\src\test\java\org\apache\phoenix\util\ServerUtilTest.java,mockito,org.mockito.Mockito
+phoenix,phoenix\phoenix-pherf\src\test\java\org\apache\phoenix\pherf\workload\MultiThreadedRunnerTest.java,mockito,org.mockito.Mock
+phoenix,phoenix\phoenix-pherf\src\test\java\org\apache\phoenix\pherf\workload\MultiThreadedRunnerTest.java,mockito,org.mockito.Mockito
+phoenix,phoenix\phoenix-pherf\src\test\java\org\apache\phoenix\pherf\workload\MultiThreadedRunnerTest.java,mockito,org.mockito.MockitoAnnotations
+pig,pig\contrib\piggybank\java\src\test\java\org\apache\pig\piggybank\test\evaluation\xml\XPathAllTest.java,mockito,static org.mockito.Mockito.mock
+pig,pig\contrib\piggybank\java\src\test\java\org\apache\pig\piggybank\test\evaluation\xml\XPathAllTest.java,mockito,static org.mockito.Mockito.when
+pig,pig\contrib\piggybank\java\src\test\java\org\apache\pig\piggybank\test\evaluation\xml\XPathTest.java,mockito,static org.mockito.Mockito.mock
+pig,pig\contrib\piggybank\java\src\test\java\org\apache\pig\piggybank\test\evaluation\xml\XPathTest.java,mockito,static org.mockito.Mockito.when
+pig,pig\test\org\apache\pig\test\TestBinInterSedes.java,mockito,org.mockito.internal.util.reflection.Whitebox
+pig,pig\test\org\apache\pig\test\TestMRJobStats.java,mockito,org.mockito.Mockito
+pig,pig\test\org\apache\pig\test\TestReadToEndLoader.java,mockito,org.mockito.Mockito
+pig,pig\test\org\apache\pig\test\TestReadToEndLoader.java,mockito,static org.mockito.Mockito.*
+pig,pig\test\org\apache\pig\test\TestRegisterParser.java,mockito,org.mockito.Mockito
+plc4x,plc4x\plc4j\api\src\test\java\org\apache\plc4x\java\api\connection\PlcReaderTest.java,mockito,static org.mockito.Mockito.mock
+plc4x,plc4x\plc4j\api\src\test\java\org\apache\plc4x\java\api\connection\PlcWriterTest.java,mockito,static org.mockito.Mockito.mock
+plc4x,plc4x\plc4j\api\src\test\java\org\apache\plc4x\java\api\messages\PlcProprietaryResponseTest.java,mockito,static org.mockito.Mockito.mock
+plc4x,plc4x\plc4j\api\src\test\java\org\apache\plc4x\java\api\messages\PlcReadRequestTest.java,mockito,static org.mockito.Mockito.mock
+plc4x,plc4x\plc4j\api\src\test\java\org\apache\plc4x\java\api\messages\PlcReadResponseTest.java,mockito,static org.mockito.Mockito.RETURNS_DEEP_STUBS
+plc4x,plc4x\plc4j\api\src\test\java\org\apache\plc4x\java\api\messages\PlcReadResponseTest.java,mockito,static org.mockito.Mockito.mock
+plc4x,plc4x\plc4j\api\src\test\java\org\apache\plc4x\java\api\messages\PlcRequestTest.java,mockito,static org.mockito.Mockito.mock
+plc4x,plc4x\plc4j\api\src\test\java\org\apache\plc4x\java\api\messages\PlcSubscriptionEventTest.java,mockito,static org.mockito.Mockito.mock
+plc4x,plc4x\plc4j\api\src\test\java\org\apache\plc4x\java\api\messages\PlcSubscriptionResponseTest.java,mockito,static org.mockito.Mockito.mock
+plc4x,plc4x\plc4j\api\src\test\java\org\apache\plc4x\java\api\messages\PlcUnsubscriptionRequestTest.java,mockito,static org.mockito.Mockito.mock
+plc4x,plc4x\plc4j\api\src\test\java\org\apache\plc4x\java\api\messages\PlcWriteRequestTest.java,mockito,static org.mockito.Mockito.mock
+plc4x,plc4x\plc4j\api\src\test\java\org\apache\plc4x\java\api\messages\PlcWriteResponseTest.java,mockito,static org.mockito.Mockito.RETURNS_DEEP_STUBS
+plc4x,plc4x\plc4j\api\src\test\java\org\apache\plc4x\java\api\messages\PlcWriteResponseTest.java,mockito,static org.mockito.Mockito.mock
+plc4x,plc4x\plc4j\api\src\test\java\org\apache\plc4x\java\api\messages\specific\TypeSafePlcReadRequestTest.java,mockito,static org.mockito.Mockito.mock
+plc4x,plc4x\plc4j\api\src\test\java\org\apache\plc4x\java\api\messages\specific\TypeSafePlcReadRequestTest.java,mockito,static org.mockito.Mockito.when
+plc4x,plc4x\plc4j\api\src\test\java\org\apache\plc4x\java\api\messages\specific\TypeSafePlcWriteRequestTest.java,mockito,static org.mockito.Mockito.mock
+plc4x,plc4x\plc4j\api\src\test\java\org\apache\plc4x\java\api\messages\specific\TypeSafePlcWriteRequestTest.java,mockito,static org.mockito.Mockito.when
+plc4x,plc4x\plc4j\api\src\test\java\org\apache\plc4x\java\mock\ApiMockDriver.java,mockito,static org.mockito.Mockito.mock
+plc4x,plc4x\plc4j\api\src\test\java\org\apache\plc4x\java\mock\ApiMockDriver.java,mockito,static org.mockito.Mockito.when
+plc4x,plc4x\plc4j\drivers\simulated\src\test\java\org\apache\plc4x\java\simulated\connection\SimulatedConnectionTest.java,mockito,org.mockito.Mock
+plc4x,plc4x\plc4j\drivers\simulated\src\test\java\org\apache\plc4x\java\simulated\connection\SimulatedConnectionTest.java,mockito,org.mockito.junit.jupiter.MockitoExtension
+plc4x,plc4x\plc4j\drivers\simulated\src\test\java\org\apache\plc4x\java\simulated\connection\SimulatedConnectionTest.java,mockito,static org.mockito.Mockito.mock
+plc4x,plc4x\plc4j\drivers\simulated\src\test\java\org\apache\plc4x\java\simulated\field\SimularedFieldHandlerTest.java,mockito,org.mockito.Mock
+plc4x,plc4x\plc4j\drivers\simulated\src\test\java\org\apache\plc4x\java\simulated\field\SimularedFieldHandlerTest.java,mockito,org.mockito.junit.jupiter.MockitoExtension
+plc4x,plc4x\plc4j\integrations\apache-camel\src\test\java\org\apache\plc4x\camel\MockDriver.java,mockito,static org.mockito.Mockito.*
+plc4x,plc4x\plc4j\integrations\apache-camel\src\test\java\org\apache\plc4x\camel\Plc4XEndpointTest.java,mockito,static org.mockito.Mockito.*
+plc4x,plc4x\plc4j\integrations\apache-camel\src\test\java\org\apache\plc4x\camel\Plc4XProducerTest.java,mockito,static org.mockito.Mockito.*
+plc4x,plc4x\plc4j\protocols\ads\src\test\java\org\apache\plc4x\java\ads\api\commands\CommandFactoryMethodTest.java,mockito,static org.mockito.Mockito.RETURNS_DEEP_STUBS
+plc4x,plc4x\plc4j\protocols\ads\src\test\java\org\apache\plc4x\java\ads\api\commands\CommandFactoryMethodTest.java,mockito,static org.mockito.Mockito.mock
+plc4x,plc4x\plc4j\protocols\ads\src\test\java\org\apache\plc4x\java\ads\api\generic\GenericFactoryMethodTest.java,mockito,static org.mockito.Mockito.RETURNS_DEEP_STUBS
+plc4x,plc4x\plc4j\protocols\ads\src\test\java\org\apache\plc4x\java\ads\api\generic\GenericFactoryMethodTest.java,mockito,static org.mockito.Mockito.mock
+plc4x,plc4x\plc4j\protocols\ads\src\test\java\org\apache\plc4x\java\ads\api\serial\SerialFactoryMethodTest.java,mockito,static org.mockito.Mockito.*
+plc4x,plc4x\plc4j\protocols\ads\src\test\java\org\apache\plc4x\java\ads\api\tcp\TcpFactoryMethodTest.java,mockito,static org.mockito.Mockito.RETURNS_DEEP_STUBS
+plc4x,plc4x\plc4j\protocols\ads\src\test\java\org\apache\plc4x\java\ads\api\tcp\TcpFactoryMethodTest.java,mockito,static org.mockito.Mockito.mock
+plc4x,plc4x\plc4j\protocols\ads\src\test\java\org\apache\plc4x\java\ads\protocol\Payload2SerialProtocolExampleConversationTest.java,mockito,static org.mockito.Mockito.*
+plc4x,plc4x\plc4j\protocols\ads\src\test\java\org\apache\plc4x\java\ads\protocol\Payload2SerialProtocolTest.java,mockito,static org.mockito.Mockito.RETURNS_DEEP_STUBS
+plc4x,plc4x\plc4j\protocols\ads\src\test\java\org\apache\plc4x\java\ads\protocol\Payload2SerialProtocolTest.java,mockito,static org.mockito.Mockito.mock
+plc4x,plc4x\plc4j\protocols\ads\src\test\java\org\apache\plc4x\java\ads\protocol\Payload2TcpProtocolTest.java,mockito,static org.mockito.Mockito.RETURNS_DEEP_STUBS
+plc4x,plc4x\plc4j\protocols\ads\src\test\java\org\apache\plc4x\java\ads\protocol\Payload2TcpProtocolTest.java,mockito,static org.mockito.Mockito.mock
+plc4x,plc4x\plc4j\spi\src\test\java\org\apache\plc4x\java\spi\Plc4xNettyWrapperTest.java,mockito,org.mockito.ArgumentCaptor
+plc4x,plc4x\plc4j\spi\src\test\java\org\apache\plc4x\java\spi\Plc4xNettyWrapperTest.java,mockito,org.mockito.Mock
+plc4x,plc4x\plc4j\spi\src\test\java\org\apache\plc4x\java\spi\Plc4xNettyWrapperTest.java,mockito,org.mockito.junit.jupiter.MockitoExtension
+plc4x,plc4x\plc4j\spi\src\test\java\org\apache\plc4x\java\spi\Plc4xNettyWrapperTest.java,mockito,static org.mockito.Mockito.doNothing
+plc4x,plc4x\plc4j\spi\src\test\java\org\apache\plc4x\java\spi\Plc4xNettyWrapperTest.java,mockito,static org.mockito.Mockito.when
+plc4x,plc4x\plc4j\spi\src\test\java\org\apache\plc4x\java\spi\internal\DefaultSendRequestContextTest.java,mockito,org.mockito.Mock
+plc4x,plc4x\plc4j\spi\src\test\java\org\apache\plc4x\java\spi\internal\DefaultSendRequestContextTest.java,mockito,org.mockito.junit.jupiter.MockitoExtension
+plc4x,plc4x\plc4j\spi\src\test\java\org\apache\plc4x\java\spi\internal\DefaultSendRequestContextTest.java,mockito,static org.mockito.ArgumentMatchers.any
+plc4x,plc4x\plc4j\spi\src\test\java\org\apache\plc4x\java\spi\internal\DefaultSendRequestContextTest.java,mockito,static org.mockito.Mockito.verify
+plc4x,plc4x\plc4j\tools\connection-cache\src\test\java\org\apache\plc4x\java\utils\connectionpool2\CachedDriverManagerIT.java,mockito,org.mockito.Mockito
+plc4x,plc4x\plc4j\tools\connection-cache\src\test\java\org\apache\plc4x\java\utils\connectionpool2\CachedDriverManagerIT.java,mockito,static org.mockito.Mockito.mock
+plc4x,plc4x\plc4j\tools\connection-cache\src\test\java\org\apache\plc4x\java\utils\connectionpool2\CachedDriverManagerIT.java,mockito,static org.mockito.Mockito.when
+plc4x,plc4x\plc4j\tools\connection-cache\src\test\java\org\apache\plc4x\java\utils\connectionpool2\CachedDriverManagerTest.java,mockito,org.mockito.Mockito
+plc4x,plc4x\plc4j\tools\connection-cache\src\test\java\org\apache\plc4x\java\utils\connectionpool2\CachedDriverManagerTest.java,mockito,static org.mockito.Mockito.mock
+plc4x,plc4x\plc4j\tools\connection-cache\src\test\java\org\apache\plc4x\java\utils\connectionpool2\CachedDriverManagerTest.java,mockito,static org.mockito.Mockito.never
+plc4x,plc4x\plc4j\tools\connection-cache\src\test\java\org\apache\plc4x\java\utils\connectionpool2\CachedDriverManagerTest.java,mockito,static org.mockito.Mockito.timeout
+plc4x,plc4x\plc4j\tools\connection-cache\src\test\java\org\apache\plc4x\java\utils\connectionpool2\CachedDriverManagerTest.java,mockito,static org.mockito.Mockito.verify
+plc4x,plc4x\plc4j\tools\connection-cache\src\test\java\org\apache\plc4x\java\utils\connectionpool2\CachedDriverManagerTest.java,mockito,static org.mockito.Mockito.when
+plc4x,plc4x\plc4j\tools\connection-cache\src\test\java\org\apache\plc4x\java\utils\connectionpool2\CachedPlcConnectionTest.java,mockito,org.mockito.Mockito
+plc4x,plc4x\plc4j\tools\connection-cache\src\test\java\org\apache\plc4x\java\utils\connectionpool2\CachedPlcConnectionTest.java,mockito,static org.mockito.Mockito.verify
+plc4x,plc4x\plc4j\tools\connection-cache\src\test\java\org\apache\plc4x\java\utils\connectionpool2\CachedPlcConnectionTest.java,mockito,static org.mockito.Mockito.when
+plc4x,plc4x\plc4j\tools\connection-cache\src\test\java\org\apache\plc4x\java\utils\connectionpool2\PooledDriverManagerTest.java,mockito,org.mockito.Mockito
+plc4x,plc4x\plc4j\tools\connection-cache\src\test\java\org\apache\plc4x\java\utils\connectionpool2\PooledDriverManagerTest.java,mockito,static org.mockito.Mockito.times
+plc4x,plc4x\plc4j\tools\connection-cache\src\test\java\org\apache\plc4x\java\utils\connectionpool2\PooledDriverManagerTest.java,mockito,static org.mockito.Mockito.verify
+plc4x,plc4x\plc4j\tools\connection-pool\src\test\java\org\apache\plc4x\java\utils\connectionpool\PooledDummyDriver.java,mockito,static org.mockito.Mockito.RETURNS_DEEP_STUBS
+plc4x,plc4x\plc4j\tools\connection-pool\src\test\java\org\apache\plc4x\java\utils\connectionpool\PooledDummyDriver.java,mockito,static org.mockito.Mockito.mock
+plc4x,plc4x\plc4j\tools\connection-pool\src\test\java\org\apache\plc4x\java\utils\connectionpool\PooledPlcDriverManagerTest.java,mockito,org.mockito.Answers
+plc4x,plc4x\plc4j\tools\connection-pool\src\test\java\org\apache\plc4x\java\utils\connectionpool\PooledPlcDriverManagerTest.java,mockito,org.mockito.Mock
+plc4x,plc4x\plc4j\tools\connection-pool\src\test\java\org\apache\plc4x\java\utils\connectionpool\PooledPlcDriverManagerTest.java,mockito,org.mockito.junit.jupiter.MockitoExtension
+plc4x,plc4x\plc4j\tools\connection-pool\src\test\java\org\apache\plc4x\java\utils\connectionpool\PooledPlcDriverManagerTest.java,mockito,static org.mockito.ArgumentMatchers.any
+plc4x,plc4x\plc4j\tools\connection-pool\src\test\java\org\apache\plc4x\java\utils\connectionpool\PooledPlcDriverManagerTest.java,mockito,static org.mockito.ArgumentMatchers.anyString
+plc4x,plc4x\plc4j\tools\connection-pool\src\test\java\org\apache\plc4x\java\utils\connectionpool\PooledPlcDriverManagerTest.java,mockito,static org.mockito.Mockito.*
+plc4x,plc4x\plc4j\tools\opm\src\test\java\org\apache\plc4x\java\opm\ConnectedEntityTest.java,mockito,org.mockito.Mock
+plc4x,plc4x\plc4j\tools\opm\src\test\java\org\apache\plc4x\java\opm\ConnectedEntityTest.java,mockito,org.mockito.junit.jupiter.MockitoExtension
+plc4x,plc4x\plc4j\tools\opm\src\test\java\org\apache\plc4x\java\opm\ConnectedEntityTest.java,mockito,static org.mockito.ArgumentMatchers.any
+plc4x,plc4x\plc4j\tools\opm\src\test\java\org\apache\plc4x\java\opm\ConnectedEntityTest.java,mockito,static org.mockito.Mockito.*
+plc4x,plc4x\plc4j\tools\opm\src\test\java\org\apache\plc4x\java\opm\PlcEntityInterceptorTest.java,mockito,org.mockito.Answers
+plc4x,plc4x\plc4j\tools\opm\src\test\java\org\apache\plc4x\java\opm\PlcEntityInterceptorTest.java,mockito,org.mockito.Mock
+plc4x,plc4x\plc4j\tools\opm\src\test\java\org\apache\plc4x\java\opm\PlcEntityInterceptorTest.java,mockito,org.mockito.junit.jupiter.MockitoExtension
+plc4x,plc4x\plc4j\tools\opm\src\test\java\org\apache\plc4x\java\opm\PlcEntityInterceptorTest.java,mockito,org.mockito.stubbing.Answer
+plc4x,plc4x\plc4j\tools\opm\src\test\java\org\apache\plc4x\java\opm\PlcEntityInterceptorTest.java,mockito,static org.mockito.ArgumentMatchers.any
+plc4x,plc4x\plc4j\tools\opm\src\test\java\org\apache\plc4x\java\opm\PlcEntityInterceptorTest.java,mockito,static org.mockito.ArgumentMatchers.anyLong
+plc4x,plc4x\plc4j\tools\opm\src\test\java\org\apache\plc4x\java\opm\PlcEntityInterceptorTest.java,mockito,static org.mockito.Mockito.mock
+plc4x,plc4x\plc4j\tools\opm\src\test\java\org\apache\plc4x\java\opm\PlcEntityInterceptorTest.java,mockito,static org.mockito.Mockito.when
+plc4x,plc4x\plc4j\tools\opm\src\test\java\org\apache\plc4x\java\opm\PlcEntityManagerComplexTest.java,mockito,org.mockito.ArgumentMatchers
+plc4x,plc4x\plc4j\tools\opm\src\test\java\org\apache\plc4x\java\opm\PlcEntityManagerComplexTest.java,mockito,org.mockito.Mockito
+plc4x,plc4x\plc4j\tools\opm\src\test\java\org\apache\plc4x\java\opm\PlcEntityManagerComplexTest.java,mockito,static org.mockito.Mockito.when
+plc4x,plc4x\plc4j\tools\opm\src\test\java\org\apache\plc4x\java\opm\PlcEntityManagerTest.java,mockito,org.mockito.Answers
+plc4x,plc4x\plc4j\tools\opm\src\test\java\org\apache\plc4x\java\opm\PlcEntityManagerTest.java,mockito,org.mockito.Mock
+plc4x,plc4x\plc4j\tools\opm\src\test\java\org\apache\plc4x\java\opm\PlcEntityManagerTest.java,mockito,org.mockito.Mockito
+plc4x,plc4x\plc4j\tools\opm\src\test\java\org\apache\plc4x\java\opm\PlcEntityManagerTest.java,mockito,org.mockito.junit.jupiter.MockitoExtension
+plc4x,plc4x\plc4j\tools\opm\src\test\java\org\apache\plc4x\java\opm\PlcEntityManagerTest.java,mockito,static org.mockito.ArgumentMatchers.any
+plc4x,plc4x\plc4j\tools\opm\src\test\java\org\apache\plc4x\java\opm\PlcEntityManagerTest.java,mockito,static org.mockito.ArgumentMatchers.eq
+plc4x,plc4x\plc4j\tools\opm\src\test\java\org\apache\plc4x\java\opm\PlcEntityManagerTest.java,mockito,static org.mockito.Mockito.*
+plc4x,plc4x\plc4j\tools\scraper\src\test\java\org\apache\plc4x\java\scraper\ScraperConfigurationTest.java,mockito,org.mockito.junit.jupiter.MockitoExtension
+plc4x,plc4x\plc4j\tools\scraper\src\test\java\org\apache\plc4x\java\scraper\ScraperTaskTest.java,mockito,org.mockito.Mock
+plc4x,plc4x\plc4j\tools\scraper\src\test\java\org\apache\plc4x\java\scraper\ScraperTaskTest.java,mockito,org.mockito.junit.jupiter.MockitoExtension
+plc4x,plc4x\plc4j\tools\scraper\src\test\java\org\apache\plc4x\java\scraper\ScraperTaskTest.java,mockito,org.mockito.junit.jupiter.MockitoSettings
+plc4x,plc4x\plc4j\tools\scraper\src\test\java\org\apache\plc4x\java\scraper\ScraperTaskTest.java,mockito,org.mockito.quality.Strictness
+plc4x,plc4x\plc4j\tools\scraper\src\test\java\org\apache\plc4x\java\scraper\ScraperTaskTest.java,mockito,static org.mockito.ArgumentMatchers.any
+plc4x,plc4x\plc4j\tools\scraper\src\test\java\org\apache\plc4x\java\scraper\ScraperTaskTest.java,mockito,static org.mockito.ArgumentMatchers.anyString
+plc4x,plc4x\plc4j\tools\scraper\src\test\java\org\apache\plc4x\java\scraper\ScraperTaskTest.java,mockito,static org.mockito.Mockito.*
+plc4x,plc4x\plc4j\tools\scraper\src\test\java\org\apache\plc4x\java\scraper\ScraperTest.java,mockito,org.mockito.Mock
+plc4x,plc4x\plc4j\tools\scraper\src\test\java\org\apache\plc4x\java\scraper\ScraperTest.java,mockito,org.mockito.junit.jupiter.MockitoExtension
+plc4x,plc4x\plc4j\tools\scraper\src\test\java\org\apache\plc4x\java\scraper\ScraperTest.java,mockito,org.mockito.junit.jupiter.MockitoSettings
+plc4x,plc4x\plc4j\tools\scraper\src\test\java\org\apache\plc4x\java\scraper\ScraperTest.java,mockito,org.mockito.quality.Strictness
+plc4x,plc4x\plc4j\tools\scraper\src\test\java\org\apache\plc4x\java\scraper\ScraperTest.java,mockito,static org.mockito.ArgumentMatchers.any
+plc4x,plc4x\plc4j\tools\scraper\src\test\java\org\apache\plc4x\java\scraper\ScraperTest.java,mockito,static org.mockito.Mockito.when
+plc4x,plc4x\plc4j\tools\scraper\src\test\java\org\apache\plc4x\java\scraper\triggeredscraper\TriggeredScraperImplTest.java,mockito,org.mockito.Mockito
+plc4x,plc4x\plc4j\tools\scraper\src\test\java\org\apache\plc4x\java\scraper\triggeredscraper\TriggeredScraperImplTest.java,mockito,static org.mockito.Mockito.when
+plc4x,plc4x\plc4j\tools\scraper\src\test\java\org\apache\plc4x\java\scraper\triggeredscraper\triggerhandler\TriggerConfigurationTest.java,mockito,org.mockito.Mockito
+poi,poi\poi-ooxml\src\test\java\org\apache\poi\xslf\usermodel\TestPPTX2PNG.java,mockito,org.mockito.internal.util.io.IOUtil
+poi,poi\poi-ooxml\src\test\java\org\apache\poi\xssf\streaming\TestSXSSFCell.java,mockito,static org.mockito.Mockito.spy
+poi,poi\poi\src\test\java\org\apache\poi\ss\usermodel\BaseTestCell.java,mockito,static org.mockito.Mockito.doCallRealMethod
+poi,poi\poi\src\test\java\org\apache\poi\ss\usermodel\BaseTestCell.java,mockito,static org.mockito.Mockito.mock
+poi,poi\poi\src\test\java\org\apache\poi\ss\usermodel\BaseTestCell.java,mockito,static org.mockito.Mockito.verify
+poi,poi\poi\src\test\java\org\apache\poi\ss\util\TestCellReference.java,mockito,static org.mockito.Mockito.RETURNS_DEEP_STUBS
+poi,poi\poi\src\test\java\org\apache\poi\ss\util\TestCellReference.java,mockito,static org.mockito.Mockito.mock
+poi,poi\poi\src\test\java\org\apache\poi\ss\util\TestCellReference.java,mockito,static org.mockito.Mockito.when
+polygene-java,polygene-java\libraries\osgi\src\test\java\org\apache\polygene\library\osgi\OSGiServiceTest.java,mockito,static org.mockito.Mockito.mock
+polygene-java,polygene-java\libraries\osgi\src\test\java\org\apache\polygene\library\osgi\OSGiServiceTest.java,mockito,static org.mockito.Mockito.verify
+polygene-java,polygene-java\tutorials\cargo\src\test\java\org\apache\polygene\tutorials\cargo\step2\SequencingConcernTest.java,easymock,static org.easymock.EasyMock.createMock
+polygene-java,polygene-java\tutorials\cargo\src\test\java\org\apache\polygene\tutorials\cargo\step2\SequencingConcernTest.java,easymock,static org.easymock.EasyMock.expect
+polygene-java,polygene-java\tutorials\cargo\src\test\java\org\apache\polygene\tutorials\cargo\step2\SequencingConcernTest.java,easymock,static org.easymock.EasyMock.replay
+polygene-java,polygene-java\tutorials\cargo\src\test\java\org\apache\polygene\tutorials\cargo\step2\SequencingConcernTest.java,easymock,static org.easymock.EasyMock.verify

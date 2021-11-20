@@ -1,0 +1,11 @@
+project name, # of total classes created, # of inside classes mocked
+ant-antlibs-props,23,0,
+orc,261,5,
+parquet-mr,0,0,
+pdfbox,1148,0,
+phoenix,1789,34,
+pig,1273,0,
+pivot,784,0,
+plc4x,902,19,
+poi,2505,2,
+polygene-java,2062,0,

@@ -1,0 +1,24 @@
+	Method name: getCanonicalName
+	Class origin: java.lang.Class<opennlp.tools.ml.MockSequenceTrainer>
+	Count: 1
+ 
+	Method name: getCanonicalName
+	Class origin: java.lang.Class<opennlp.tools.ml.MockEventTrainer>
+	Count: 1
+ 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<opennlp.tools.util.Span[]>
+	Count: 1
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+	Method name: any
+	Class origin: org.mockito.ArgumentMatchers
+	Count: 1
+ 
