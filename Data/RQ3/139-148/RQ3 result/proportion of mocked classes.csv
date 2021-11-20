@@ -1,0 +1,10 @@
+project name, # of total classes created, # of inside classes mocked
+kerby,879,0,
+jena,4276,0,
+jmeter,1038,0,
+jspwiki,457,0,
+karaf,247,0,
+knox,1041,63,
+lens,658,14,
+lenya,638,0,
+logging-log4j2,1361,0,

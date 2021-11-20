@@ -1,0 +1,22 @@
+method, origin, count
+createMock,org.easymock.EasyMock,224
+andReturn,org.easymock.IExpectationSetters<java.lang.String>,1936
+expect,org.easymock.EasyMock,3576
+createNiceMock,org.easymock.EasyMock,2322
+anyTimes,org.easymock.IExpectationSetters<java.util.Map<java.lang.String|java.lang.String>>,1326
+replay,org.easymock.EasyMock,432
+once,org.easymock.IExpectationSetters<java.lang.String>,20
+newInstance,org.easymock.Capture,8
+capture,org.easymock.EasyMock,4
+createControl,org.easymock.EasyMock,2
+mock,org.easymock.EasyMock,8
+withConstructor,org.easymock.IMockBuilder<java.lang.Object>,6
+createMockBuilder,org.easymock.EasyMock,8
+addMockedMethod,org.easymock.IMockBuilder<java.lang.Object>,16
+atLeastOnce,org.easymock.IExpectationSetters<char[]>,56
+anyString,org.easymock.EasyMock,20
+verify,org.easymock.EasyMock,8
+
+MockedObjects: ,2554
+
+# of Mocked objects each file:,1|1|24|19|71|16|4|4|12|6|1|8|1|14|13|122|3|8|6|12|12|16|1|3|21|4|23|2|1|20|17|1|9|8|6|2|8|6|8|6|6|6|8|4|8|4|4|18|2|21|2|1|1|19|42|11|2|8|1|1|1|33|1|2|8|2|7|4|3|3|1|4|4|4|4|15|5|3|24|31|4|3|6|1|3|10|2|6|19|3|8|2|1|5|28|2|10|1|2|2|18|18|1|1|1|1|1|1|10|3|4|4|30|4|6|8|15|1|2|4|2|1|11|5|1|1|2|2|1|4|28|24|4|31|6|1|6|3|10|15|8|1|3|8|1|1|24|19|71|16|4|4|12|6|1|8|1|14|13|122|3|8|6|12|12|16|1|3|21|4|23|2|1|20|17|1|9|8|6|2|8|6|8|6|6|6|8|4|8|4|4|18|2|21|2|1|1|19|42|11|2|8|1|1|1|33|1|2|8|2|7|4|3|3|1|4|4|4|4|15|5|3|24|31|4|3|6|1|3|10|2|6|19|3|8|2|1|5|28|2|10|1|2|2|18|18|1|1|1|1|1|1|10|3|4|4|30|4|6|8|15|1|2|4|2|1|11|5|1|1|2|2|1|4|28|24|4|31|6|1|6|3|10|15|8|1|3|8|

@@ -1,0 +1,12 @@
+	Method name: spy
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+	Method name: when
+	Class origin: org.mockito.stubbing.Stubber
+	Count: 4
+ 
+	Method name: doAnswer
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 

@@ -1,0 +1,11 @@
+method, origin, count
+when,org.mockito.stubbing.Stubber,96
+doReturn,org.mockito.Mockito,2
+then,org.mockito.stubbing.OngoingStubbing<com.amazonaws.services.kendra.model.ListIndicesResult>,4
+any,org.mockito.ArgumentMatchers,14
+lenient,org.mockito.Mockito,8
+spy,org.mockito.Mockito,1
+doAnswer,org.mockito.Mockito,3
+mock,org.mockito.Mockito,152
+thenReturn,org.mockito.stubbing.OngoingStubbing<java.lang.String>,14
+getArguments,org.mockito.invocation.InvocationOnMock,2

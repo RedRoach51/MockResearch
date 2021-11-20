@@ -1,0 +1,577 @@
+Project Name,File Path,Mocking Framework,Imported Mock Line
+directory-kerby,directory-kerby\kerby-kerb\kerb-util\src\test\java\org\apache\kerby\kerberos\kerb\keytab\KeytabEntryTest.java,mockito,org.mockito.ArgumentMatchers
+directory-kerby,directory-kerby\kerby-kerb\kerb-util\src\test\java\org\apache\kerby\kerberos\kerb\keytab\KeytabEntryTest.java,mockito,org.mockito.invocation.InvocationOnMock
+directory-kerby,directory-kerby\kerby-kerb\kerb-util\src\test\java\org\apache\kerby\kerberos\kerb\keytab\KeytabEntryTest.java,mockito,org.mockito.junit.MockitoJUnitRunner
+directory-kerby,directory-kerby\kerby-kerb\kerb-util\src\test\java\org\apache\kerby\kerberos\kerb\keytab\KeytabEntryTest.java,mockito,org.mockito.stubbing.Answer
+directory-kerby,directory-kerby\kerby-kerb\kerb-util\src\test\java\org\apache\kerby\kerberos\kerb\keytab\KeytabEntryTest.java,mockito,static org.mockito.Mockito.doAnswer
+directory-kerby,directory-kerby\kerby-kerb\kerb-util\src\test\java\org\apache\kerby\kerberos\kerb\keytab\KeytabEntryTest.java,mockito,static org.mockito.Mockito.doReturn
+directory-kerby,directory-kerby\kerby-kerb\kerb-util\src\test\java\org\apache\kerby\kerberos\kerb\keytab\KeytabEntryTest.java,mockito,static org.mockito.Mockito.spy
+jena,jena\jena-core\src\test\java\org\apache\jena\graph\GraphEventManagerContractTest.java,mockito,org.mockito.Mockito
+jena,jena\jena-core\src\test\java\org\apache\jena\mem\BunchMapContractTest.java,mockito,static org.mockito.Mockito.*
+jena,jena\jena-extras\jena-querybuilder\src\test\java\org\apache\jena\arq\querybuilder\ExprFactoryTest.java,mockito,static org.mockito.Mockito.mock
+jena,jena\jena-extras\jena-querybuilder\src\test\java\org\apache\jena\arq\querybuilder\ExprFactoryTest.java,mockito,static org.mockito.Mockito.when
+jena,jena\jena-permissions\src\test\java\org\apache\jena\permissions\impl\SecuredItemImplTest.java,mockito,org.mockito.ArgumentCaptor
+jena,jena\jena-permissions\src\test\java\org\apache\jena\permissions\impl\SecuredItemImplTest.java,mockito,static org.mockito.Mockito.*
+jmeter,jmeter\src\components\src\test\java\org\apache\jmeter\visualizers\backend\influxdb\HttpMetricsSenderTest.java,wiremock,com.github.tomakehurst.wiremock.WireMockServer
+jmeter,jmeter\src\components\src\test\java\org\apache\jmeter\visualizers\backend\influxdb\HttpMetricsSenderTest.java,wiremock,com.github.tomakehurst.wiremock.client.MappingBuilder
+jmeter,jmeter\src\components\src\test\java\org\apache\jmeter\visualizers\backend\influxdb\HttpMetricsSenderTest.java,wiremock,com.github.tomakehurst.wiremock.client.WireMock
+jmeter,jmeter\src\components\src\test\java\org\apache\jmeter\visualizers\backend\influxdb\HttpMetricsSenderTest.java,wiremock,com.github.tomakehurst.wiremock.extension.Parameters
+jmeter,jmeter\src\components\src\test\java\org\apache\jmeter\visualizers\backend\influxdb\HttpMetricsSenderTest.java,wiremock,com.github.tomakehurst.wiremock.http.RequestMethod
+jmeter,jmeter\src\components\src\test\java\org\apache\jmeter\visualizers\backend\influxdb\HttpMetricsSenderTest.java,wiremock,com.github.tomakehurst.wiremock.matching.RequestPatternBuilder
+jmeter,jmeter\src\components\src\test\java\org\apache\jmeter\visualizers\backend\influxdb\HttpMetricsSenderTest.java,wiremock,com.github.tomakehurst.wiremock.matching.StringValuePattern
+jmeter,jmeter\src\protocol\http\src\test\java\org\apache\jmeter\protocol\http\control\DnsManagerTest.java,wiremock,com.github.tomakehurst.wiremock.WireMockServer
+jmeter,jmeter\src\protocol\http\src\test\java\org\apache\jmeter\protocol\http\sampler\ParallelResourcesAndIpSource.java,wiremock,com.github.tomakehurst.wiremock.WireMockServer
+jmeter,jmeter\src\protocol\http\src\test\java\org\apache\jmeter\protocol\http\sampler\ParallelResourcesAndIpSource.java,wiremock,com.github.tomakehurst.wiremock.client.WireMock
+jmeter,jmeter\src\protocol\http\src\test\java\org\apache\jmeter\protocol\http\sampler\TestDecompression.java,wiremock,com.github.tomakehurst.wiremock.WireMockServer
+jmeter,jmeter\src\protocol\http\src\test\java\org\apache\jmeter\protocol\http\sampler\TestDecompression.java,wiremock,com.github.tomakehurst.wiremock.client.MappingBuilder
+jmeter,jmeter\src\protocol\http\src\test\java\org\apache\jmeter\protocol\http\sampler\TestDecompression.java,wiremock,com.github.tomakehurst.wiremock.client.WireMock
+jmeter,jmeter\src\protocol\http\src\test\java\org\apache\jmeter\protocol\http\sampler\TestDecompression.java,wiremock,com.github.tomakehurst.wiremock.core.WireMockConfiguration
+jmeter,jmeter\src\protocol\http\src\test\java\org\apache\jmeter\protocol\http\sampler\TestRedirects.java,wiremock,static com.github.tomakehurst.wiremock.client.WireMock.aResponse
+jmeter,jmeter\src\protocol\http\src\test\java\org\apache\jmeter\protocol\http\sampler\TestRedirects.java,wiremock,static com.github.tomakehurst.wiremock.client.WireMock.any
+jmeter,jmeter\src\protocol\http\src\test\java\org\apache\jmeter\protocol\http\sampler\TestRedirects.java,wiremock,static com.github.tomakehurst.wiremock.client.WireMock.urlPathEqualTo
+jmeter,jmeter\src\protocol\http\src\test\java\org\apache\jmeter\protocol\http\sampler\TestRedirects.java,wiremock,com.github.tomakehurst.wiremock.WireMockServer
+jmeter,jmeter\src\protocol\http\src\test\java\org\apache\jmeter\protocol\http\sampler\TestRedirects.java,wiremock,com.github.tomakehurst.wiremock.core.WireMockConfiguration
+jmeter,jmeter\src\testkit-wiremock\src\main\java\org\apache\jmeter\wiremock\RequestCountDown.java,wiremock,com.github.tomakehurst.wiremock.core.Admin
+jmeter,jmeter\src\testkit-wiremock\src\main\java\org\apache\jmeter\wiremock\RequestCountDown.java,wiremock,com.github.tomakehurst.wiremock.extension.Parameters
+jmeter,jmeter\src\testkit-wiremock\src\main\java\org\apache\jmeter\wiremock\RequestCountDown.java,wiremock,com.github.tomakehurst.wiremock.extension.PostServeAction
+jmeter,jmeter\src\testkit-wiremock\src\main\java\org\apache\jmeter\wiremock\RequestCountDown.java,wiremock,com.github.tomakehurst.wiremock.stubbing.ServeEvent
+jmeter,jmeter\src\testkit-wiremock\src\main\java\org\apache\jmeter\wiremock\WireMockExtension.java,wiremock,com.github.tomakehurst.wiremock.WireMockServer
+jmeter,jmeter\src\testkit-wiremock\src\main\java\org\apache\jmeter\wiremock\WireMockExtension.java,wiremock,com.github.tomakehurst.wiremock.core.WireMockConfiguration
+jspwiki,jspwiki\jspwiki-api\src\test\java\org\apache\wiki\api\spi\WikiTest.java,mockito,org.mockito.Mock
+jspwiki,jspwiki\jspwiki-api\src\test\java\org\apache\wiki\api\spi\WikiTest.java,mockito,org.mockito.Mockito
+jspwiki,jspwiki\jspwiki-api\src\test\java\org\apache\wiki\api\spi\WikiTest.java,mockito,org.mockito.junit.jupiter.MockitoExtension
+jspwiki,jspwiki\jspwiki-bootstrap\src\test\java\org\apache\wiki\bootstrap\WikiBootstrapServletContextListenerTest.java,mockito,org.mockito.Mock
+jspwiki,jspwiki\jspwiki-bootstrap\src\test\java\org\apache\wiki\bootstrap\WikiBootstrapServletContextListenerTest.java,mockito,org.mockito.junit.jupiter.MockitoExtension
+jspwiki,jspwiki\jspwiki-kendra-searchprovider\src\test\java\org\apache\wiki\search\kendra\KendraSearchProviderTest.java,sourceforge,net.sourceforge.stripes.mock.MockHttpServletRequest
+jspwiki,jspwiki\jspwiki-kendra-searchprovider\src\test\java\org\apache\wiki\search\kendra\KendraSearchProviderTest.java,mockito,org.mockito.Mock
+jspwiki,jspwiki\jspwiki-kendra-searchprovider\src\test\java\org\apache\wiki\search\kendra\KendraSearchProviderTest.java,mockito,org.mockito.junit.jupiter.MockitoExtension
+jspwiki,jspwiki\jspwiki-kendra-searchprovider\src\test\java\org\apache\wiki\search\kendra\KendraSearchProviderTest.java,mockito,org.mockito.stubbing.Answer
+jspwiki,jspwiki\jspwiki-kendra-searchprovider\src\test\java\org\apache\wiki\search\kendra\KendraSearchProviderTest.java,mockito,static org.mockito.ArgumentMatchers.any
+jspwiki,jspwiki\jspwiki-kendra-searchprovider\src\test\java\org\apache\wiki\search\kendra\KendraSearchProviderTest.java,mockito,static org.mockito.Mockito.lenient
+jspwiki,jspwiki\jspwiki-kendra-searchprovider\src\test\java\org\apache\wiki\search\kendra\KendraSearchProviderTest.java,mockito,static org.mockito.Mockito.when
+jspwiki,jspwiki\jspwiki-main\src\test\java\org\apache\wiki\TestEngine.java,sourceforge,net.sourceforge.stripes.mock.MockHttpServletRequest
+jspwiki,jspwiki\jspwiki-main\src\test\java\org\apache\wiki\TestEngine.java,sourceforge,net.sourceforge.stripes.mock.MockHttpSession
+jspwiki,jspwiki\jspwiki-main\src\test\java\org\apache\wiki\TestEngine.java,sourceforge,net.sourceforge.stripes.mock.MockServletContext
+jspwiki,jspwiki\jspwiki-main\src\test\java\org\apache\wiki\WikiServletTest.java,sourceforge,net.sourceforge.stripes.mock.MockHttpServletRequest
+jspwiki,jspwiki\jspwiki-main\src\test\java\org\apache\wiki\WikiServletTest.java,sourceforge,net.sourceforge.stripes.mock.MockHttpServletResponse
+jspwiki,jspwiki\jspwiki-main\src\test\java\org\apache\wiki\WikiServletTest.java,sourceforge,net.sourceforge.stripes.mock.MockServletConfig
+jspwiki,jspwiki\jspwiki-main\src\test\java\org\apache\wiki\WikiSessionTest.java,sourceforge,net.sourceforge.stripes.mock.MockFilterChain
+jspwiki,jspwiki\jspwiki-main\src\test\java\org\apache\wiki\WikiSessionTest.java,sourceforge,net.sourceforge.stripes.mock.MockFilterConfig
+jspwiki,jspwiki\jspwiki-main\src\test\java\org\apache\wiki\WikiSessionTest.java,sourceforge,net.sourceforge.stripes.mock.MockHttpServletRequest
+jspwiki,jspwiki\jspwiki-main\src\test\java\org\apache\wiki\WikiSessionTest.java,sourceforge,net.sourceforge.stripes.mock.MockHttpServletResponse
+jspwiki,jspwiki\jspwiki-main\src\test\java\org\apache\wiki\WikiSessionTest.java,sourceforge,net.sourceforge.stripes.mock.MockServletContext
+jspwiki,jspwiki\jspwiki-main\src\test\java\org\apache\wiki\auth\login\CookieAssertionLoginModuleTest.java,sourceforge,net.sourceforge.stripes.mock.MockHttpServletRequest
+jspwiki,jspwiki\jspwiki-main\src\test\java\org\apache\wiki\auth\login\WebContainerLoginModuleTest.java,sourceforge,net.sourceforge.stripes.mock.MockHttpServletRequest
+jspwiki,jspwiki\jspwiki-main\src\test\java\org\apache\wiki\plugin\IfPluginTest.java,sourceforge,net.sourceforge.stripes.mock.MockHttpServletRequest
+jspwiki,jspwiki\jspwiki-main\src\test\java\org\apache\wiki\search\SearchManagerTest.java,sourceforge,net.sourceforge.stripes.mock.MockHttpServletRequest
+jspwiki,jspwiki\jspwiki-main\src\test\java\org\apache\wiki\ui\CommandResolverTest.java,sourceforge,net.sourceforge.stripes.mock.MockHttpServletRequest
+jspwiki,jspwiki\jspwiki-util\src\test\java\org\apache\wiki\util\HttpUtilTest.java,sourceforge,net.sourceforge.stripes.mock.MockHttpServletRequest
+karaf,karaf\bundle\core\src\test\java\org\apache\karaf\bundle\command\TestBundleFactory.java,easymock,static org.easymock.EasyMock.createMock
+karaf,karaf\bundle\core\src\test\java\org\apache\karaf\bundle\command\TestBundleFactory.java,easymock,static org.easymock.EasyMock.expect
+karaf,karaf\bundle\core\src\test\java\org\apache\karaf\bundle\command\TestBundleFactory.java,easymock,static org.easymock.EasyMock.replay
+karaf,karaf\config\src\test\java\org\apache\karaf\config\command\EditCommandTest.java,easymock,static org.easymock.EasyMock.createMock
+karaf,karaf\config\src\test\java\org\apache\karaf\config\command\EditCommandTest.java,easymock,static org.easymock.EasyMock.expect
+karaf,karaf\config\src\test\java\org\apache\karaf\config\command\EditCommandTest.java,easymock,static org.easymock.EasyMock.replay
+karaf,karaf\config\src\test\java\org\apache\karaf\config\command\UpdateCommandTest.java,easymock,static org.easymock.EasyMock.expect
+karaf,karaf\config\src\test\java\org\apache\karaf\config\command\UpdateCommandTest.java,easymock,static org.easymock.EasyMock.replay
+karaf,karaf\config\src\test\java\org\apache\karaf\config\command\UpdateCommandTest.java,easymock,org.easymock.EasyMock
+karaf,karaf\config\src\test\java\org\apache\karaf\config\core\impl\JsonConfigInstallerTest.java,easymock,static org.easymock.EasyMock.anyObject
+karaf,karaf\config\src\test\java\org\apache\karaf\config\core\impl\JsonConfigInstallerTest.java,easymock,static org.easymock.EasyMock.expect
+karaf,karaf\config\src\test\java\org\apache\karaf\config\core\impl\JsonConfigInstallerTest.java,easymock,static org.easymock.EasyMock.mock
+karaf,karaf\config\src\test\java\org\apache\karaf\config\core\impl\JsonConfigInstallerTest.java,easymock,static org.easymock.EasyMock.replay
+karaf,karaf\config\src\test\java\org\apache\karaf\config\core\impl\JsonConfigInstallerTest.java,easymock,static org.easymock.EasyMock.verify
+karaf,karaf\deployer\kar\src\test\java\org\apache\karaf\deployer\kar\KarArtifactInstallerTest.java,easymock,static org.easymock.EasyMock.*
+karaf,karaf\event\src\test\java\org\apache\karaf\event\command\EventDisplayCommandTest.java,easymock,static org.easymock.EasyMock.createControl
+karaf,karaf\event\src\test\java\org\apache\karaf\event\command\EventDisplayCommandTest.java,easymock,static org.easymock.EasyMock.expect
+karaf,karaf\event\src\test\java\org\apache\karaf\event\command\EventDisplayCommandTest.java,easymock,org.easymock.IMocksControl
+karaf,karaf\event\src\test\java\org\apache\karaf\event\command\EventSendCommandTest.java,easymock,static org.easymock.EasyMock.capture
+karaf,karaf\event\src\test\java\org\apache\karaf\event\command\EventSendCommandTest.java,easymock,static org.easymock.EasyMock.expectLastCall
+karaf,karaf\event\src\test\java\org\apache\karaf\event\command\EventSendCommandTest.java,easymock,static org.easymock.EasyMock.mock
+karaf,karaf\event\src\test\java\org\apache\karaf\event\command\EventSendCommandTest.java,easymock,static org.easymock.EasyMock.newCapture
+karaf,karaf\event\src\test\java\org\apache\karaf\event\command\EventSendCommandTest.java,easymock,static org.easymock.EasyMock.replay
+karaf,karaf\event\src\test\java\org\apache\karaf\event\command\EventSendCommandTest.java,easymock,static org.easymock.EasyMock.verify
+karaf,karaf\event\src\test\java\org\apache\karaf\event\command\EventSendCommandTest.java,easymock,org.easymock.Capture
+karaf,karaf\event\src\test\java\org\apache\karaf\event\command\EventTailCommandTest.java,easymock,static org.easymock.EasyMock.expect
+karaf,karaf\event\src\test\java\org\apache\karaf\event\command\EventTailCommandTest.java,easymock,static org.easymock.EasyMock.mock
+karaf,karaf\event\src\test\java\org\apache\karaf\event\command\EventTailCommandTest.java,easymock,static org.easymock.EasyMock.replay
+karaf,karaf\event\src\test\java\org\apache\karaf\event\command\EventTailCommandTest.java,easymock,static org.easymock.EasyMock.verify
+knox,knox\gateway-adapter\src\test\java\org\apache\hadoop\gateway\shirorealm\KnoxPamRealmTest.java,easymock,static org.easymock.EasyMock.createMock
+knox,knox\gateway-adapter\src\test\java\org\apache\hadoop\gateway\shirorealm\KnoxPamRealmTest.java,easymock,static org.easymock.EasyMock.expect
+knox,knox\gateway-adapter\src\test\java\org\apache\hadoop\gateway\shirorealm\KnoxPamRealmTest.java,easymock,static org.easymock.EasyMock.replay
+knox,knox\gateway-discovery-ambari\src\test\java\org\apache\knox\gateway\topology\discovery\ambari\AmbariClusterTest.java,easymock,org.easymock.EasyMock
+knox,knox\gateway-discovery-ambari\src\test\java\org\apache\knox\gateway\topology\discovery\ambari\AmbariConfigurationMonitorTest.java,easymock,org.easymock.EasyMock
+knox,knox\gateway-discovery-ambari\src\test\java\org\apache\knox\gateway\topology\discovery\ambari\AmbariDynamicServiceURLCreatorTest.java,easymock,org.easymock.EasyMock
+knox,knox\gateway-discovery-ambari\src\test\java\org\apache\knox\gateway\topology\discovery\ambari\AmbariServiceDiscoveryTest.java,easymock,org.easymock.EasyMock
+knox,knox\gateway-discovery-ambari\src\test\java\org\apache\knox\gateway\topology\discovery\ambari\RMURLCreatorTestBase.java,easymock,org.easymock.EasyMock
+knox,knox\gateway-discovery-ambari\src\test\java\org\apache\knox\gateway\topology\discovery\ambari\SparkServiceURLCreatorTest.java,easymock,org.easymock.EasyMock
+knox,knox\gateway-discovery-ambari\src\test\java\org\apache\knox\gateway\topology\discovery\ambari\WebHdfsUrlCreatorTest.java,easymock,org.easymock.EasyMock
+knox,knox\gateway-discovery-cm\src\test\java\org\apache\knox\gateway\topology\discovery\cm\AbstractCMDiscoveryTest.java,easymock,org.easymock.EasyMock
+knox,knox\gateway-discovery-cm\src\test\java\org\apache\knox\gateway\topology\discovery\cm\ClouderaManagerServiceDiscoveryTest.java,easymock,org.easymock.EasyMock
+knox,knox\gateway-discovery-cm\src\test\java\org\apache\knox\gateway\topology\discovery\cm\collector\AbstractURLCollectorTest.java,easymock,org.easymock.EasyMock
+knox,knox\gateway-discovery-cm\src\test\java\org\apache\knox\gateway\topology\discovery\cm\monitor\AbstractConfigurationStoreTest.java,easymock,org.easymock.EasyMock
+knox,knox\gateway-discovery-cm\src\test\java\org\apache\knox\gateway\topology\discovery\cm\monitor\PollingConfigurationAnalyzerTest.java,easymock,org.easymock.EasyMock
+knox,knox\gateway-discovery-cm\src\test\java\org\apache\knox\gateway\topology\discovery\cm\monitor\PollingConfigurationAnalyzerTest.java,easymock,static org.easymock.EasyMock.getCurrentArguments
+knox,knox\gateway-provider-ha\src\test\java\org\apache\knox\gateway\ha\deploy\HaProviderDeploymentContributorTest.java,easymock,org.easymock.EasyMock
+knox,knox\gateway-provider-ha\src\test\java\org\apache\knox\gateway\ha\dispatch\ConfigurableHADispatchTest.java,easymock,static org.easymock.EasyMock.capture
+knox,knox\gateway-provider-ha\src\test\java\org\apache\knox\gateway\ha\dispatch\ConfigurableHADispatchTest.java,easymock,org.easymock.Capture
+knox,knox\gateway-provider-ha\src\test\java\org\apache\knox\gateway\ha\dispatch\ConfigurableHADispatchTest.java,easymock,org.easymock.EasyMock
+knox,knox\gateway-provider-ha\src\test\java\org\apache\knox\gateway\ha\dispatch\ConfigurableHADispatchTest.java,easymock,org.easymock.IAnswer
+knox,knox\gateway-provider-ha\src\test\java\org\apache\knox\gateway\ha\dispatch\DefaultHaDispatchTest.java,easymock,org.easymock.Capture
+knox,knox\gateway-provider-ha\src\test\java\org\apache\knox\gateway\ha\dispatch\DefaultHaDispatchTest.java,easymock,org.easymock.CaptureType
+knox,knox\gateway-provider-ha\src\test\java\org\apache\knox\gateway\ha\dispatch\DefaultHaDispatchTest.java,easymock,org.easymock.EasyMock
+knox,knox\gateway-provider-ha\src\test\java\org\apache\knox\gateway\ha\dispatch\DefaultHaDispatchTest.java,easymock,org.easymock.IAnswer
+knox,knox\gateway-provider-ha\src\test\java\org\apache\knox\gateway\ha\dispatch\DefaultHaDispatchTest.java,easymock,static org.easymock.EasyMock.anyString
+knox,knox\gateway-provider-identity-assertion-common\src\test\java\org\apache\knox\gateway\identityasserter\filter\CommonIdentityAssertionFilterTest.java,easymock,org.easymock.EasyMock
+knox,knox\gateway-provider-identity-assertion-concat\src\test\java\org\apache\knox\gateway\identityasserter\concat\filter\ConcatIdentityAssertionFilterTest.java,easymock,org.easymock.EasyMock
+knox,knox\gateway-provider-identity-assertion-hadoop-groups\src\test\java\org\apache\knox\gateway\identityasserter\hadoop\groups\filter\HadoopGroupProviderFilterTest.java,easymock,org.easymock.EasyMock
+knox,knox\gateway-provider-identity-assertion-pseudo\src\test\java\org\apache\knox\gateway\identityasserter\filter\DefaultIdentityAssertionFilterTest.java,easymock,org.easymock.EasyMock
+knox,knox\gateway-provider-identity-assertion-regex\src\test\java\org\apache\knox\gateway\identityasserter\regex\filter\RegexIdentityAssertionFilterTest.java,easymock,org.easymock.EasyMock
+knox,knox\gateway-provider-identity-assertion-switchcase\src\test\java\org\apache\knox\gateway\identityasserter\switchcase\SwitchCaseIdentityAssertionFilterTest.java,easymock,org.easymock.EasyMock
+knox,knox\gateway-provider-jersey\src\test\java\org\apache\knox\gateway\jersey\JerseyDeploymentContributorTest.java,easymock,org.easymock.EasyMock
+knox,knox\gateway-provider-rewrite-func-hostmap-static\src\test\java\org\apache\knox\gateway\hostmap\impl\HostmapDeploymentContributorTest.java,easymock,org.easymock.EasyMock
+knox,knox\gateway-provider-rewrite-func-hostmap-static\src\test\java\org\apache\knox\gateway\hostmap\impl\HostmapFunctionProcessorTest.java,easymock,org.easymock.EasyMock
+knox,knox\gateway-provider-rewrite-func-inbound-query-param\src\test\java\org\apache\knox\gateway\inboundurl\impl\InboundUrlFunctionProcessorTest.java,easymock,org.easymock.EasyMock
+knox,knox\gateway-provider-rewrite-func-service-registry\src\test\java\org\apache\knox\gateway\svcregfunc\impl\ServiceAddressFunctionProcessorTest.java,easymock,org.easymock.EasyMock
+knox,knox\gateway-provider-rewrite-func-service-registry\src\test\java\org\apache\knox\gateway\svcregfunc\impl\ServiceHostFunctionProcessorTest.java,easymock,org.easymock.EasyMock
+knox,knox\gateway-provider-rewrite-func-service-registry\src\test\java\org\apache\knox\gateway\svcregfunc\impl\ServiceMappedAddressFunctionProcessorTest.java,easymock,org.easymock.EasyMock
+knox,knox\gateway-provider-rewrite-func-service-registry\src\test\java\org\apache\knox\gateway\svcregfunc\impl\ServiceMappedHostFunctionProcessorTest.java,easymock,org.easymock.EasyMock
+knox,knox\gateway-provider-rewrite-func-service-registry\src\test\java\org\apache\knox\gateway\svcregfunc\impl\ServiceMappedUrlFunctionProcessorTest.java,easymock,org.easymock.EasyMock
+knox,knox\gateway-provider-rewrite-func-service-registry\src\test\java\org\apache\knox\gateway\svcregfunc\impl\ServicePathFunctionProcessorTest.java,easymock,org.easymock.EasyMock
+knox,knox\gateway-provider-rewrite-func-service-registry\src\test\java\org\apache\knox\gateway\svcregfunc\impl\ServicePortFunctionProcessorTest.java,easymock,org.easymock.EasyMock
+knox,knox\gateway-provider-rewrite-func-service-registry\src\test\java\org\apache\knox\gateway\svcregfunc\impl\ServiceRegistryFunctionsTest.java,easymock,org.easymock.EasyMock
+knox,knox\gateway-provider-rewrite-func-service-registry\src\test\java\org\apache\knox\gateway\svcregfunc\impl\ServiceSchemeFunctionProcessorTest.java,easymock,org.easymock.EasyMock
+knox,knox\gateway-provider-rewrite-func-service-registry\src\test\java\org\apache\knox\gateway\svcregfunc\impl\ServiceUrlFunctionProcessorTest.java,easymock,org.easymock.EasyMock
+knox,knox\gateway-provider-rewrite-step-encrypt-uri\src\test\java\org\apache\knox\gateway\encrypturi\impl\EncryptDecryptUriProcessorTest.java,easymock,org.easymock.Capture
+knox,knox\gateway-provider-rewrite-step-encrypt-uri\src\test\java\org\apache\knox\gateway\encrypturi\impl\EncryptDecryptUriProcessorTest.java,easymock,org.easymock.EasyMock
+knox,knox\gateway-provider-rewrite-step-encrypt-uri\src\test\java\org\apache\knox\gateway\encrypturi\impl\EncryptUriDeploymentContributorTest.java,easymock,org.easymock.EasyMock
+knox,knox\gateway-provider-rewrite-step-secure-query\src\test\java\org\apache\knox\gateway\securequery\SecureQueryDecodeProcessorTest.java,easymock,org.easymock.Capture
+knox,knox\gateway-provider-rewrite-step-secure-query\src\test\java\org\apache\knox\gateway\securequery\SecureQueryDecodeProcessorTest.java,easymock,org.easymock.EasyMock
+knox,knox\gateway-provider-rewrite-step-secure-query\src\test\java\org\apache\knox\gateway\securequery\SecureQueryDeploymentContributorTest.java,easymock,org.easymock.EasyMock
+knox,knox\gateway-provider-rewrite-step-secure-query\src\test\java\org\apache\knox\gateway\securequery\SecureQueryEncodeProcessorTest.java,easymock,org.easymock.Capture
+knox,knox\gateway-provider-rewrite-step-secure-query\src\test\java\org\apache\knox\gateway\securequery\SecureQueryEncodeProcessorTest.java,easymock,org.easymock.EasyMock
+knox,knox\gateway-provider-rewrite-step-secure-query\src\test\java\org\apache\knox\gateway\securequery\SecureQueryEncryptDecryptProcessorTest.java,easymock,org.easymock.Capture
+knox,knox\gateway-provider-rewrite-step-secure-query\src\test\java\org\apache\knox\gateway\securequery\SecureQueryEncryptDecryptProcessorTest.java,easymock,org.easymock.EasyMock
+knox,knox\gateway-provider-rewrite\src\test\java\org\apache\knox\gateway\filter\rewrite\api\UrlRewriteProcessorTest.java,easymock,org.easymock.EasyMock
+knox,knox\gateway-provider-rewrite\src\test\java\org\apache\knox\gateway\filter\rewrite\api\UrlRewriteServletEnvironmentTest.java,easymock,org.easymock.EasyMock
+knox,knox\gateway-provider-rewrite\src\test\java\org\apache\knox\gateway\filter\rewrite\impl\CookieScopeResponseWrapperTest.java,easymock,org.easymock.Capture
+knox,knox\gateway-provider-rewrite\src\test\java\org\apache\knox\gateway\filter\rewrite\impl\CookieScopeResponseWrapperTest.java,easymock,org.easymock.EasyMock
+knox,knox\gateway-provider-rewrite\src\test\java\org\apache\knox\gateway\filter\rewrite\impl\FrontendFunctionProcessorTest.java,easymock,org.easymock.EasyMock
+knox,knox\gateway-provider-rewrite\src\test\java\org\apache\knox\gateway\filter\rewrite\impl\UrlRewriteContextImplTest.java,easymock,org.easymock.EasyMock
+knox,knox\gateway-provider-rewrite\src\test\java\org\apache\knox\gateway\filter\rewrite\impl\UrlRewriteRequestTest.java,easymock,org.easymock.EasyMock
+knox,knox\gateway-provider-rewrite\src\test\java\org\apache\knox\gateway\filter\rewrite\impl\UrlRewriteResponseTest.java,easymock,org.easymock.EasyMock
+knox,knox\gateway-provider-security-authz-acls\src\test\java\org\apache\knox\gateway\filter\AclsAuthzFilterTest.java,easymock,org.easymock.EasyMock
+knox,knox\gateway-provider-security-authz-composite\src\test\java\org\apache\knox\gateway\deploy\impl\CompositeAuthzProviderTest.java,easymock,static org.easymock.EasyMock.createMock
+knox,knox\gateway-provider-security-authz-composite\src\test\java\org\apache\knox\gateway\deploy\impl\CompositeAuthzProviderTest.java,easymock,static org.easymock.EasyMock.expect
+knox,knox\gateway-provider-security-authz-composite\src\test\java\org\apache\knox\gateway\deploy\impl\CompositeAuthzProviderTest.java,easymock,static org.easymock.EasyMock.replay
+knox,knox\gateway-provider-security-clientcert\src\test\java\org\apache\knox\gateway\clientcert\ClientCertDeploymentContributorTest.java,easymock,org.easymock.EasyMock
+knox,knox\gateway-provider-security-hadoopauth\src\test\java\org\apache\knox\gateway\hadoopauth\HadoopAuthDeploymentContributorTest.java,easymock,org.easymock.EasyMock
+knox,knox\gateway-provider-security-hadoopauth\src\test\java\org\apache\knox\gateway\hadoopauth\filter\HadoopAuthFilterTest.java,easymock,static org.easymock.EasyMock.anyString
+knox,knox\gateway-provider-security-hadoopauth\src\test\java\org\apache\knox\gateway\hadoopauth\filter\HadoopAuthFilterTest.java,easymock,static org.easymock.EasyMock.capture
+knox,knox\gateway-provider-security-hadoopauth\src\test\java\org\apache\knox\gateway\hadoopauth\filter\HadoopAuthFilterTest.java,easymock,static org.easymock.EasyMock.captureInt
+knox,knox\gateway-provider-security-hadoopauth\src\test\java\org\apache\knox\gateway\hadoopauth\filter\HadoopAuthFilterTest.java,easymock,static org.easymock.EasyMock.createMock
+knox,knox\gateway-provider-security-hadoopauth\src\test\java\org\apache\knox\gateway\hadoopauth\filter\HadoopAuthFilterTest.java,easymock,static org.easymock.EasyMock.createMockBuilder
+knox,knox\gateway-provider-security-hadoopauth\src\test\java\org\apache\knox\gateway\hadoopauth\filter\HadoopAuthFilterTest.java,easymock,static org.easymock.EasyMock.eq
+knox,knox\gateway-provider-security-hadoopauth\src\test\java\org\apache\knox\gateway\hadoopauth\filter\HadoopAuthFilterTest.java,easymock,static org.easymock.EasyMock.expect
+knox,knox\gateway-provider-security-hadoopauth\src\test\java\org\apache\knox\gateway\hadoopauth\filter\HadoopAuthFilterTest.java,easymock,static org.easymock.EasyMock.expectLastCall
+knox,knox\gateway-provider-security-hadoopauth\src\test\java\org\apache\knox\gateway\hadoopauth\filter\HadoopAuthFilterTest.java,easymock,static org.easymock.EasyMock.getCurrentArguments
+knox,knox\gateway-provider-security-hadoopauth\src\test\java\org\apache\knox\gateway\hadoopauth\filter\HadoopAuthFilterTest.java,easymock,static org.easymock.EasyMock.replay
+knox,knox\gateway-provider-security-hadoopauth\src\test\java\org\apache\knox\gateway\hadoopauth\filter\HadoopAuthFilterTest.java,easymock,static org.easymock.EasyMock.verify
+knox,knox\gateway-provider-security-hadoopauth\src\test\java\org\apache\knox\gateway\hadoopauth\filter\HadoopAuthFilterTest.java,easymock,org.easymock.Capture
+knox,knox\gateway-provider-security-hadoopauth\src\test\java\org\apache\knox\gateway\hadoopauth\filter\HadoopAuthFilterTest.java,easymock,org.easymock.EasyMock
+knox,knox\gateway-provider-security-jwt\src\test\java\org\apache\knox\gateway\provider\federation\AbstractJWTFilterTest.java,easymock,org.easymock.EasyMock
+knox,knox\gateway-provider-security-jwt\src\test\java\org\apache\knox\gateway\provider\federation\CommonJWTFilterTest.java,easymock,org.easymock.EasyMock
+knox,knox\gateway-provider-security-jwt\src\test\java\org\apache\knox\gateway\provider\federation\CommonJWTFilterTest.java,easymock,static org.easymock.EasyMock.anyObject
+knox,knox\gateway-provider-security-jwt\src\test\java\org\apache\knox\gateway\provider\federation\JWTAsHTTPBasicCredsFederationFilterTest.java,easymock,org.easymock.EasyMock
+knox,knox\gateway-provider-security-jwt\src\test\java\org\apache\knox\gateway\provider\federation\JWTFederationFilterTest.java,easymock,org.easymock.EasyMock
+knox,knox\gateway-provider-security-jwt\src\test\java\org\apache\knox\gateway\provider\federation\SSOCookieProviderTest.java,easymock,org.easymock.EasyMock
+knox,knox\gateway-provider-security-jwt\src\test\java\org\apache\knox\gateway\provider\federation\TestFilterConfig.java,easymock,org.easymock.EasyMock
+knox,knox\gateway-provider-security-jwt\src\test\java\org\apache\knox\gateway\provider\federation\TokenIDAsHTTPBasicCredsFederationFilterTest.java,easymock,org.easymock.EasyMock
+knox,knox\gateway-provider-security-pac4j\src\test\java\org\apache\knox\gateway\pac4j\MockHttpServletRequest.java,easymock,org.easymock.EasyMock
+knox,knox\gateway-provider-security-pac4j\src\test\java\org\apache\knox\gateway\pac4j\MockHttpServletResponse.java,easymock,org.easymock.EasyMock
+knox,knox\gateway-provider-security-pac4j\src\test\java\org\apache\knox\gateway\pac4j\Pac4jProviderTest.java,easymock,org.easymock.EasyMock
+knox,knox\gateway-provider-security-pac4j\src\test\java\org\apache\knox\gateway\pac4j\config\Pac4jClientConfigurationDecoratorTest.java,easymock,org.easymock.EasyMock
+knox,knox\gateway-provider-security-pac4j\src\test\java\org\apache\knox\gateway\pac4j\session\KnoxSessionStoreTest.java,easymock,org.easymock.Capture
+knox,knox\gateway-provider-security-pac4j\src\test\java\org\apache\knox\gateway\pac4j\session\KnoxSessionStoreTest.java,easymock,org.easymock.EasyMock
+knox,knox\gateway-provider-security-preauth\src\test\java\org\apache\knox\gateway\provider\federation\DefaultValidatorTest.java,easymock,org.easymock.EasyMock
+knox,knox\gateway-provider-security-preauth\src\test\java\org\apache\knox\gateway\provider\federation\HeaderPreAuthFederationFilterTest.java,easymock,org.easymock.EasyMock
+knox,knox\gateway-provider-security-preauth\src\test\java\org\apache\knox\gateway\provider\federation\IPValidatorTest.java,easymock,org.easymock.EasyMock
+knox,knox\gateway-provider-security-preauth\src\test\java\org\apache\knox\gateway\provider\federation\PreAuthServiceTest.java,easymock,org.easymock.EasyMock
+knox,knox\gateway-provider-security-shiro\src\test\java\org\apache\knox\gateway\deploy\impl\ShiroDeploymentContributorTest.java,easymock,org.easymock.EasyMock
+knox,knox\gateway-provider-security-shiro\src\test\java\org\apache\knox\gateway\filter\RedirectToUrlFilterTest.java,easymock,org.easymock.EasyMock
+knox,knox\gateway-provider-security-shiro\src\test\java\org\apache\knox\gateway\shirorealm\KnoxPamRealmTest.java,easymock,static org.easymock.EasyMock.createMock
+knox,knox\gateway-provider-security-shiro\src\test\java\org\apache\knox\gateway\shirorealm\KnoxPamRealmTest.java,easymock,static org.easymock.EasyMock.expect
+knox,knox\gateway-provider-security-shiro\src\test\java\org\apache\knox\gateway\shirorealm\KnoxPamRealmTest.java,easymock,static org.easymock.EasyMock.replay
+knox,knox\gateway-provider-security-webappsec\src\test\java\org\apache\knox\gateway\webappsec\StrictTransportFilterTest.java,easymock,org.easymock.EasyMock
+knox,knox\gateway-provider-security-webappsec\src\test\java\org\apache\knox\gateway\webappsec\XContentTypeOptionsFilterTest.java,easymock,org.easymock.EasyMock
+knox,knox\gateway-provider-security-webappsec\src\test\java\org\apache\knox\gateway\webappsec\XFrameOptionsFilterTest.java,easymock,org.easymock.EasyMock
+knox,knox\gateway-provider-security-webappsec\src\test\java\org\apache\knox\gateway\webappsec\XSSProtectionFilterTest.java,easymock,org.easymock.EasyMock
+knox,knox\gateway-server-xforwarded-filter\src\test\java\org\apache\knox\gateway\filter\XForwardHeaderFilterTest.java,easymock,org.easymock.EasyMock
+knox,knox\gateway-server\src\test\java\org\apache\knox\gateway\AuditLoggingTest.java,easymock,org.easymock.EasyMock
+knox,knox\gateway-server\src\test\java\org\apache\knox\gateway\GatewayFilterTest.java,easymock,org.easymock.EasyMock
+knox,knox\gateway-server\src\test\java\org\apache\knox\gateway\GatewayForwardingServletTest.java,easymock,org.easymock.EasyMock
+knox,knox\gateway-server\src\test\java\org\apache\knox\gateway\GatewayForwardingServletTest.java,easymock,org.easymock.IMocksControl
+knox,knox\gateway-server\src\test\java\org\apache\knox\gateway\GatewayPortMappingConfigTest.java,easymock,org.easymock.EasyMock
+knox,knox\gateway-server\src\test\java\org\apache\knox\gateway\deploy\impl\ServiceDefinitionDeploymentContributorTest.java,easymock,org.easymock.EasyMock
+knox,knox\gateway-server\src\test\java\org\apache\knox\gateway\filter\ForwardedRequestTest.java,easymock,org.easymock.EasyMock
+knox,knox\gateway-server\src\test\java\org\apache\knox\gateway\services\AbstractGatewayServicesTest.java,easymock,static org.easymock.EasyMock.createMock
+knox,knox\gateway-server\src\test\java\org\apache\knox\gateway\services\AbstractGatewayServicesTest.java,easymock,static org.easymock.EasyMock.createMockBuilder
+knox,knox\gateway-server\src\test\java\org\apache\knox\gateway\services\factory\ServiceFactoryTest.java,easymock,static org.easymock.EasyMock.anyString
+knox,knox\gateway-server\src\test\java\org\apache\knox\gateway\services\factory\ServiceFactoryTest.java,easymock,static org.easymock.EasyMock.expect
+knox,knox\gateway-server\src\test\java\org\apache\knox\gateway\services\factory\ServiceFactoryTest.java,easymock,static org.easymock.EasyMock.replay
+knox,knox\gateway-server\src\test\java\org\apache\knox\gateway\services\factory\ServiceFactoryTest.java,easymock,org.easymock.EasyMock
+knox,knox\gateway-server\src\test\java\org\apache\knox\gateway\services\registry\DefaultServiceDefinitionRegistryTest.java,easymock,org.easymock.EasyMock
+knox,knox\gateway-server\src\test\java\org\apache\knox\gateway\services\security\CryptoServiceTest.java,easymock,org.easymock.EasyMock
+knox,knox\gateway-server\src\test\java\org\apache\knox\gateway\services\security\impl\DefaultKeystoreServiceTest.java,easymock,static org.easymock.EasyMock.createMock
+knox,knox\gateway-server\src\test\java\org\apache\knox\gateway\services\security\impl\DefaultKeystoreServiceTest.java,easymock,static org.easymock.EasyMock.createMockBuilder
+knox,knox\gateway-server\src\test\java\org\apache\knox\gateway\services\security\impl\DefaultKeystoreServiceTest.java,easymock,static org.easymock.EasyMock.createNiceMock
+knox,knox\gateway-server\src\test\java\org\apache\knox\gateway\services\security\impl\DefaultKeystoreServiceTest.java,easymock,static org.easymock.EasyMock.eq
+knox,knox\gateway-server\src\test\java\org\apache\knox\gateway\services\security\impl\DefaultKeystoreServiceTest.java,easymock,static org.easymock.EasyMock.expect
+knox,knox\gateway-server\src\test\java\org\apache\knox\gateway\services\security\impl\DefaultKeystoreServiceTest.java,easymock,static org.easymock.EasyMock.replay
+knox,knox\gateway-server\src\test\java\org\apache\knox\gateway\services\security\impl\DefaultKeystoreServiceTest.java,easymock,static org.easymock.EasyMock.verify
+knox,knox\gateway-server\src\test\java\org\apache\knox\gateway\services\security\impl\DefaultKeystoreServiceTest.java,easymock,org.easymock.IAnswer
+knox,knox\gateway-server\src\test\java\org\apache\knox\gateway\services\security\impl\JettySSLServiceTest.java,easymock,static org.easymock.EasyMock.createMock
+knox,knox\gateway-server\src\test\java\org\apache\knox\gateway\services\security\impl\JettySSLServiceTest.java,easymock,static org.easymock.EasyMock.eq
+knox,knox\gateway-server\src\test\java\org\apache\knox\gateway\services\security\impl\JettySSLServiceTest.java,easymock,static org.easymock.EasyMock.expect
+knox,knox\gateway-server\src\test\java\org\apache\knox\gateway\services\security\impl\JettySSLServiceTest.java,easymock,static org.easymock.EasyMock.replay
+knox,knox\gateway-server\src\test\java\org\apache\knox\gateway\services\security\impl\JettySSLServiceTest.java,easymock,static org.easymock.EasyMock.verify
+knox,knox\gateway-server\src\test\java\org\apache\knox\gateway\services\security\impl\RemoteAliasServiceTest.java,easymock,org.easymock.Capture
+knox,knox\gateway-server\src\test\java\org\apache\knox\gateway\services\security\impl\RemoteAliasServiceTest.java,easymock,org.easymock.EasyMock
+knox,knox\gateway-server\src\test\java\org\apache\knox\gateway\services\security\impl\RemoteAliasServiceTest.java,easymock,static org.easymock.EasyMock.capture
+knox,knox\gateway-server\src\test\java\org\apache\knox\gateway\services\security\impl\ZookeeperRemoteAliasMonitorTest.java,easymock,org.easymock.Capture
+knox,knox\gateway-server\src\test\java\org\apache\knox\gateway\services\security\impl\ZookeeperRemoteAliasMonitorTest.java,easymock,org.easymock.EasyMock
+knox,knox\gateway-server\src\test\java\org\apache\knox\gateway\services\security\impl\ZookeeperRemoteAliasMonitorTest.java,easymock,static org.easymock.EasyMock.capture
+knox,knox\gateway-server\src\test\java\org\apache\knox\gateway\services\security\impl\ZookeeperRemoteAliasServiceTest.java,easymock,org.easymock.Capture
+knox,knox\gateway-server\src\test\java\org\apache\knox\gateway\services\security\impl\ZookeeperRemoteAliasServiceTest.java,easymock,org.easymock.EasyMock
+knox,knox\gateway-server\src\test\java\org\apache\knox\gateway\services\security\impl\ZookeeperRemoteAliasServiceTest.java,easymock,static org.easymock.EasyMock.capture
+knox,knox\gateway-server\src\test\java\org\apache\knox\gateway\services\token\impl\AliasBasedTokenStateServiceTest.java,easymock,org.easymock.EasyMock
+knox,knox\gateway-server\src\test\java\org\apache\knox\gateway\services\token\impl\AliasBasedTokenStateServiceTest.java,easymock,static org.easymock.EasyMock.anyObject
+knox,knox\gateway-server\src\test\java\org\apache\knox\gateway\services\token\impl\AliasBasedTokenStateServiceTest.java,easymock,static org.easymock.EasyMock.anyString
+knox,knox\gateway-server\src\test\java\org\apache\knox\gateway\services\token\impl\DefaultTokenAuthorityServiceTest.java,easymock,org.easymock.EasyMock
+knox,knox\gateway-server\src\test\java\org\apache\knox\gateway\services\token\impl\DefaultTokenStateServiceTest.java,easymock,org.easymock.EasyMock
+knox,knox\gateway-server\src\test\java\org\apache\knox\gateway\services\token\impl\JDBCTokenStateServiceTest.java,easymock,org.easymock.EasyMock
+knox,knox\gateway-server\src\test\java\org\apache\knox\gateway\services\token\impl\ZookeeperTokenStateServiceTest.java,easymock,static org.easymock.EasyMock.expect
+knox,knox\gateway-server\src\test\java\org\apache\knox\gateway\services\token\impl\ZookeeperTokenStateServiceTest.java,easymock,static org.easymock.EasyMock.replay
+knox,knox\gateway-server\src\test\java\org\apache\knox\gateway\services\token\impl\ZookeeperTokenStateServiceTest.java,easymock,org.easymock.EasyMock
+knox,knox\gateway-server\src\test\java\org\apache\knox\gateway\services\topology\DefaultTopologyServiceTest.java,easymock,org.easymock.EasyMock
+knox,knox\gateway-server\src\test\java\org\apache\knox\gateway\services\topology\DefaultTopologyServiceTest.java,easymock,static org.easymock.EasyMock.anyObject
+knox,knox\gateway-server\src\test\java\org\apache\knox\gateway\topology\discovery\PropertiesFileServiceDiscoveryTest.java,easymock,org.easymock.EasyMock
+knox,knox\gateway-server\src\test\java\org\apache\knox\gateway\topology\monitor\DefaultRemoteConfigurationMonitorTest.java,easymock,org.easymock.EasyMock
+knox,knox\gateway-server\src\test\java\org\apache\knox\gateway\topology\monitor\ZooKeeperConfigurationMonitorTest.java,easymock,org.easymock.EasyMock
+knox,knox\gateway-server\src\test\java\org\apache\knox\gateway\topology\simple\SimpleDescriptorHandlerTest.java,easymock,org.easymock.EasyMock
+knox,knox\gateway-server\src\test\java\org\apache\knox\gateway\util\JDBCUtilsTest.java,easymock,org.easymock.EasyMock
+knox,knox\gateway-server\src\test\java\org\apache\knox\gateway\websockets\BadBackendTest.java,easymock,org.easymock.EasyMock
+knox,knox\gateway-server\src\test\java\org\apache\knox\gateway\websockets\BadUrlTest.java,easymock,org.easymock.EasyMock
+knox,knox\gateway-server\src\test\java\org\apache\knox\gateway\websockets\ConnectionDroppedTest.java,easymock,org.easymock.EasyMock
+knox,knox\gateway-server\src\test\java\org\apache\knox\gateway\websockets\MessageFailureTest.java,easymock,org.easymock.EasyMock
+knox,knox\gateway-server\src\test\java\org\apache\knox\gateway\websockets\WebsocketEchoTestBase.java,easymock,org.easymock.EasyMock
+knox,knox\gateway-server\src\test\java\org\apache\knox\gateway\websockets\WebsocketMultipleConnectionTest.java,easymock,org.easymock.EasyMock
+knox,knox\gateway-service-admin\src\test\java\org\apache\knox\gateway\service\admin\TopologyResourceTest.java,easymock,org.easymock.EasyMock
+knox,knox\gateway-service-hashicorp-vault\src\test\java\org\apache\knox\gateway\backend\hashicorp\vault\TestHashicorpVaultAliasService.java,easymock,org.easymock.EasyMock
+knox,knox\gateway-service-hbase\src\test\java\org\apache\knox\gateway\hbase\HBaseDispatchTest.java,easymock,org.easymock.EasyMock
+knox,knox\gateway-service-knoxsso\src\test\java\org\apache\knox\gateway\service\knoxsso\WebSSOResourceTest.java,easymock,org.easymock.EasyMock
+knox,knox\gateway-service-knoxssout\src\test\java\org\apache\knox\gateway\service\knoxsso\WebSSOutResourceTest.java,easymock,org.easymock.EasyMock
+knox,knox\gateway-service-knoxtoken\src\test\java\org\apache\knox\gateway\service\knoxtoken\JWKSResourceTest.java,easymock,org.easymock.EasyMock
+knox,knox\gateway-service-knoxtoken\src\test\java\org\apache\knox\gateway\service\knoxtoken\TokenServiceResourceTest.java,easymock,org.easymock.EasyMock
+knox,knox\gateway-service-metadata\src\test\java\org\apache\knox\gateway\service\metadata\ServiceModelTest.java,easymock,org.easymock.EasyMock
+knox,knox\gateway-service-remoteconfig\src\test\java\org\apache\knox\gateway\service\config\remote\config\DefaultRemoteConfigurationRegistriesTest.java,easymock,org.easymock.EasyMock
+knox,knox\gateway-service-remoteconfig\src\test\java\org\apache\knox\gateway\service\config\remote\zk\RemoteConfigurationRegistryClientServiceSecureTest.java,easymock,org.easymock.EasyMock
+knox,knox\gateway-service-remoteconfig\src\test\java\org\apache\knox\gateway\service\config\remote\zk\RemoteConfigurationRegistryClientServiceTestBase.java,easymock,org.easymock.EasyMock
+knox,knox\gateway-service-remoteconfig\src\test\java\org\apache\knox\gateway\service\config\remote\zk\RemoteConfigurationRegistryClientServiceUnsecureTest.java,easymock,org.easymock.EasyMock
+knox,knox\gateway-service-remoteconfig\src\test\java\org\apache\knox\gateway\service\config\remote\zk\RemoteConfigurationRegistryJAASConfigTest.java,easymock,org.easymock.EasyMock
+knox,knox\gateway-service-rm\src\test\java\org\apache\knox\gateway\rm\dispatch\RMHaDispatchTest.java,easymock,org.easymock.EasyMock
+knox,knox\gateway-service-rm\src\test\java\org\apache\knox\gateway\rm\dispatch\RMHaDispatchTest.java,easymock,org.easymock.IAnswer
+knox,knox\gateway-service-webhdfs\src\test\java\org\apache\knox\gateway\hdfs\dispatch\WebHdfsHaDispatchTest.java,easymock,org.easymock.EasyMock
+knox,knox\gateway-service-webhdfs\src\test\java\org\apache\knox\gateway\hdfs\dispatch\WebHdfsHaDispatchTest.java,easymock,org.easymock.IAnswer
+knox,knox\gateway-shell\src\test\java\org\apache\knox\gateway\shell\AbstractRequestTest.java,easymock,static org.easymock.EasyMock.createMock
+knox,knox\gateway-shell\src\test\java\org\apache\knox\gateway\shell\AbstractRequestTest.java,easymock,static org.easymock.EasyMock.createMockBuilder
+knox,knox\gateway-shell\src\test\java\org\apache\knox\gateway\shell\AbstractRequestTest.java,easymock,static org.easymock.EasyMock.expect
+knox,knox\gateway-shell\src\test\java\org\apache\knox\gateway\shell\AbstractRequestTest.java,easymock,static org.easymock.EasyMock.replay
+knox,knox\gateway-shell\src\test\java\org\apache\knox\gateway\shell\AbstractRequestTest.java,easymock,static org.easymock.EasyMock.verify
+knox,knox\gateway-shell\src\test\java\org\apache\knox\gateway\shell\AbstractRequestTest.java,easymock,org.easymock.IMockBuilder
+knox,knox\gateway-shell\src\test\java\org\apache\knox\gateway\shell\alias\AbstractResponseTest.java,easymock,org.easymock.EasyMock
+knox,knox\gateway-shell\src\test\java\org\apache\knox\gateway\shell\alias\AliasTest.java,easymock,static org.easymock.EasyMock.createMock
+knox,knox\gateway-shell\src\test\java\org\apache\knox\gateway\shell\alias\AliasTest.java,easymock,static org.easymock.EasyMock.expect
+knox,knox\gateway-shell\src\test\java\org\apache\knox\gateway\shell\alias\AliasTest.java,easymock,static org.easymock.EasyMock.isA
+knox,knox\gateway-shell\src\test\java\org\apache\knox\gateway\shell\alias\AliasTest.java,easymock,static org.easymock.EasyMock.replay
+knox,knox\gateway-shell\src\test\java\org\apache\knox\gateway\shell\knox\token\GetTest.java,easymock,static org.easymock.EasyMock.createMock
+knox,knox\gateway-shell\src\test\java\org\apache\knox\gateway\shell\knox\token\GetTest.java,easymock,static org.easymock.EasyMock.expect
+knox,knox\gateway-shell\src\test\java\org\apache\knox\gateway\shell\knox\token\GetTest.java,easymock,static org.easymock.EasyMock.replay
+knox,knox\gateway-shell\src\test\java\org\apache\knox\gateway\shell\knox\token\GetTest.java,easymock,static org.easymock.EasyMock.verify
+knox,knox\gateway-shell\src\test\java\org\apache\knox\gateway\shell\knox\token\TokenTest.java,easymock,static org.easymock.EasyMock.createMock
+knox,knox\gateway-shell\src\test\java\org\apache\knox\gateway\shell\knox\token\TokenTest.java,easymock,static org.easymock.EasyMock.expect
+knox,knox\gateway-shell\src\test\java\org\apache\knox\gateway\shell\knox\token\TokenTest.java,easymock,static org.easymock.EasyMock.isA
+knox,knox\gateway-shell\src\test\java\org\apache\knox\gateway\shell\knox\token\TokenTest.java,easymock,static org.easymock.EasyMock.replay
+knox,knox\gateway-shell\src\test\java\org\apache\knox\gateway\shell\knox\token\TokenTest.java,easymock,static org.easymock.EasyMock.verify
+knox,knox\gateway-shell\src\test\java\org\apache\knox\gateway\shell\table\KnoxShellTableTest.java,easymock,static org.easymock.EasyMock.createMock
+knox,knox\gateway-shell\src\test\java\org\apache\knox\gateway\shell\table\KnoxShellTableTest.java,easymock,static org.easymock.EasyMock.expect
+knox,knox\gateway-shell\src\test\java\org\apache\knox\gateway\shell\table\KnoxShellTableTest.java,easymock,static org.easymock.EasyMock.expectLastCall
+knox,knox\gateway-shell\src\test\java\org\apache\knox\gateway\shell\table\KnoxShellTableTest.java,easymock,static org.easymock.EasyMock.replay
+knox,knox\gateway-shell\src\test\java\org\apache\knox\gateway\shell\table\KnoxShellTableTest.java,easymock,static org.easymock.EasyMock.verify
+knox,knox\gateway-shell\src\test\java\org\apache\knox\gateway\shell\table\KnoxShellTableTest.java,easymock,org.easymock.IAnswer
+knox,knox\gateway-spi\src\test\java\org\apache\knox\gateway\dispatch\ConfigurableDispatchTest.java,easymock,org.easymock.Capture
+knox,knox\gateway-spi\src\test\java\org\apache\knox\gateway\dispatch\ConfigurableDispatchTest.java,easymock,org.easymock.EasyMock
+knox,knox\gateway-spi\src\test\java\org\apache\knox\gateway\dispatch\DefaultDispatchTest.java,easymock,org.easymock.EasyMock
+knox,knox\gateway-spi\src\test\java\org\apache\knox\gateway\dispatch\DefaultDispatchTest.java,easymock,org.easymock.IAnswer
+knox,knox\gateway-spi\src\test\java\org\apache\knox\gateway\dispatch\DefaultHttpClientFactoryTest.java,easymock,static org.easymock.EasyMock.createMock
+knox,knox\gateway-spi\src\test\java\org\apache\knox\gateway\dispatch\DefaultHttpClientFactoryTest.java,easymock,static org.easymock.EasyMock.expect
+knox,knox\gateway-spi\src\test\java\org\apache\knox\gateway\dispatch\DefaultHttpClientFactoryTest.java,easymock,static org.easymock.EasyMock.replay
+knox,knox\gateway-spi\src\test\java\org\apache\knox\gateway\dispatch\DefaultHttpClientFactoryTest.java,easymock,static org.easymock.EasyMock.verify
+knox,knox\gateway-spi\src\test\java\org\apache\knox\gateway\dispatch\GatewayDispatchFilterTest.java,easymock,org.easymock.EasyMock
+knox,knox\gateway-spi\src\test\java\org\apache\knox\gateway\dispatch\HadoopAuthCookieStoreTest.java,easymock,org.easymock.EasyMock
+knox,knox\gateway-spi\src\test\java\org\apache\knox\gateway\dispatch\PassAllHeadersNoEncodingDispatchTest.java,easymock,org.easymock.EasyMock
+knox,knox\gateway-spi\src\test\java\org\apache\knox\gateway\dispatch\URLDecodingDispatchTest.java,easymock,org.easymock.EasyMock
+knox,knox\gateway-spi\src\test\java\org\apache\knox\gateway\util\WhitelistUtilsTest.java,easymock,org.easymock.EasyMock
+knox,knox\gateway-test\src\test\java\org\apache\knox\gateway\OozieServiceDefinitionTest.java,easymock,org.easymock.EasyMock
+knox,knox\gateway-test\src\test\java\org\apache\knox\gateway\SimpleDescriptorHandlerFuncTest.java,easymock,org.easymock.Capture
+knox,knox\gateway-test\src\test\java\org\apache\knox\gateway\SimpleDescriptorHandlerFuncTest.java,easymock,org.easymock.EasyMock
+knox,knox\gateway-test\src\test\java\org\apache\knox\gateway\SimpleDescriptorHandlerFuncTest.java,easymock,static org.easymock.EasyMock.anyObject
+knox,knox\gateway-test\src\test\java\org\apache\knox\gateway\SimpleDescriptorHandlerFuncTest.java,easymock,static org.easymock.EasyMock.capture
+knox,knox\gateway-test\src\test\java\org\apache\knox\gateway\topology\monitor\RemoteConfigurationMonitorTest.java,easymock,org.easymock.EasyMock
+knox,knox\gateway-topology-hadoop-xml\src\test\java\org\apache\knox\gateway\topology\hadoop\xml\HadoopXmlResourceParserTest.java,easymock,org.easymock.EasyMock
+knox,knox\gateway-util-common\src\test\java\org\apache\knox\gateway\util\CookieUtilsTest.java,easymock,org.easymock.EasyMock
+knox,knox\gateway-util-urltemplate\src\test\java\org\apache\knox\gateway\util\urltemplate\RewriterTest.java,easymock,org.easymock.EasyMock
+lens,lens\lens-client\src\test\java\org\apache\lens\client\model\IdBriefErrorTemplateTest.java,mockito,static org.mockito.Mockito.mock
+lens,lens\lens-client\src\test\java\org\apache\lens\client\model\IdBriefErrorTemplateTest.java,mockito,static org.mockito.Mockito.when
+lens,lens\lens-cube\src\test\java\org\apache\lens\cube\metadata\CubeFactTableTest.java,mockito,static org.mockito.Mockito.mock
+lens,lens\lens-cube\src\test\java\org\apache\lens\cube\metadata\CubeFactTableTest.java,mockito,static org.mockito.Mockito.when
+lens,lens\lens-cube\src\test\java\org\apache\lens\cube\metadata\TestCubeStartAndEndTimes.java,mockito,static org.mockito.Mockito.mock
+lens,lens\lens-cube\src\test\java\org\apache\lens\cube\metadata\TestCubeStartAndEndTimes.java,mockito,static org.mockito.Mockito.when
+lens,lens\lens-cube\src\test\java\org\apache\lens\cube\parse\CubeQueryContextTest.java,mockito,org.mockito.Mockito
+lens,lens\lens-cube\src\test\java\org\apache\lens\cube\parse\TestTimeRangeWriter.java,mockito,org.mockito.Mockito
+lens,lens\lens-cube\src\test\java\org\apache\lens\cube\query\cost\TestFactPartitionBasedQueryCostCalculator.java,mockito,static org.mockito.Mockito.mock
+lens,lens\lens-cube\src\test\java\org\apache\lens\cube\query\cost\TestFactPartitionBasedQueryCostCalculator.java,mockito,static org.mockito.Mockito.when
+lens,lens\lens-server-api\src\test\java\org\apache\lens\server\api\driver\hooks\ChainedDriverQueryHookTest.java,mockito,static org.mockito.Mockito.mock
+lens,lens\lens-server-api\src\test\java\org\apache\lens\server\api\driver\hooks\ChainedDriverQueryHookTest.java,mockito,static org.mockito.Mockito.when
+lens,lens\lens-server-api\src\test\java\org\apache\lens\server\api\driver\hooks\QueryCostBasedQueryHookTest.java,mockito,static org.mockito.Mockito.mock
+lens,lens\lens-server-api\src\test\java\org\apache\lens\server\api\driver\hooks\QueryCostBasedQueryHookTest.java,mockito,static org.mockito.Mockito.when
+lens,lens\lens-server-api\src\test\java\org\apache\lens\server\api\driver\hooks\UserBasedQueryHookTest.java,mockito,static org.mockito.Mockito.mock
+lens,lens\lens-server-api\src\test\java\org\apache\lens\server\api\driver\hooks\UserBasedQueryHookTest.java,mockito,static org.mockito.Mockito.when
+lens,lens\lens-server-api\src\test\java\org\apache\lens\server\api\query\collect\DriverSpecificWaitingQueriesSelectionPolicyTest.java,mockito,static org.mockito.Mockito.mock
+lens,lens\lens-server-api\src\test\java\org\apache\lens\server\api\query\collect\DriverSpecificWaitingQueriesSelectionPolicyTest.java,mockito,static org.mockito.Mockito.when
+lens,lens\lens-server-api\src\test\java\org\apache\lens\server\api\query\constraint\MaxConcurrentDriverQueriesConstraintTest.java,mockito,static org.mockito.Mockito.mock
+lens,lens\lens-server-api\src\test\java\org\apache\lens\server\api\query\constraint\MaxConcurrentDriverQueriesConstraintTest.java,mockito,static org.mockito.Mockito.when
+lens,lens\lens-server\src\test\java\org\apache\lens\server\query\QueryContextComparatorTest.java,mockito,static org.mockito.Mockito.mock
+lens,lens\lens-server\src\test\java\org\apache\lens\server\query\QueryContextComparatorTest.java,mockito,static org.mockito.Mockito.when
+lens,lens\lens-server\src\test\java\org\apache\lens\server\query\collect\DefaultEstimatedQueryCollectionTest.java,mockito,static org.mockito.Mockito.*
+lens,lens\lens-server\src\test\java\org\apache\lens\server\query\collect\DefaultQueryCollectionTest.java,mockito,static org.mockito.Mockito.mock
+lens,lens\lens-server\src\test\java\org\apache\lens\server\query\collect\QueryCollectUtil.java,mockito,static org.mockito.Mockito.mock
+lens,lens\lens-server\src\test\java\org\apache\lens\server\query\collect\QueryCollectUtil.java,mockito,static org.mockito.Mockito.when
+lens,lens\lens-server\src\test\java\org\apache\lens\server\query\collect\UnioningWaitingQueriesSelectorTest.java,mockito,static org.mockito.Mockito.mock
+lens,lens\lens-server\src\test\java\org\apache\lens\server\query\collect\UnioningWaitingQueriesSelectorTest.java,mockito,static org.mockito.Mockito.when
+lens,lens\lens-server\src\test\java\org\apache\lens\server\query\collect\UserSpecificWaitingQueriesSelectionPolicyTest.java,mockito,static org.mockito.Mockito.mock
+lens,lens\lens-server\src\test\java\org\apache\lens\server\query\collect\UserSpecificWaitingQueriesSelectionPolicyTest.java,mockito,static org.mockito.Mockito.when
+lens,lens\lens-server\src\test\java\org\apache\lens\server\query\constraint\DefaultQueryLaunchingConstraintsCheckerTest.java,mockito,static org.mockito.Mockito.mock
+lens,lens\lens-server\src\test\java\org\apache\lens\server\query\constraint\DefaultQueryLaunchingConstraintsCheckerTest.java,mockito,static org.mockito.Mockito.when
+lens,lens\lens-server\src\test\java\org\apache\lens\server\query\constraint\ThreadSafeEstimatedQueryCollectionTest.java,mockito,static org.mockito.Mockito.mock
+lens,lens\lens-server\src\test\java\org\apache\lens\server\query\constraint\ThreadSafeEstimatedQueryCollectionTest.java,mockito,static org.mockito.Mockito.when
+lens,lens\lens-server\src\test\java\org\apache\lens\server\query\constraint\TotalQueryCostCeilingConstraintTest.java,mockito,static org.mockito.Mockito.mock
+lens,lens\lens-server\src\test\java\org\apache\lens\server\query\constraint\TotalQueryCostCeilingConstraintTest.java,mockito,static org.mockito.Mockito.when
+lens,lens\lens-server\src\test\java\org\apache\lens\server\rewrite\TestRewriting.java,mockito,org.mockito.Matchers
+lens,lens\lens-server\src\test\java\org\apache\lens\server\rewrite\TestRewriting.java,mockito,org.mockito.Mockito
+lens,lens\lens-server\src\test\java\org\apache\lens\server\rewrite\TestRewriting.java,mockito,org.mockito.invocation.InvocationOnMock
+lens,lens\lens-server\src\test\java\org\apache\lens\server\rewrite\TestRewriting.java,mockito,org.mockito.stubbing.Answer
+lens,lens\lens-server\src\test\java\org\apache\lens\server\rewrite\TestRewriting.java,powermock,org.powermock.api.mockito.PowerMockito
+lens,lens\lens-server\src\test\java\org\apache\lens\server\rewrite\TestRewriting.java,powermock,org.powermock.core.classloader.annotations.PowerMockIgnore
+lens,lens\lens-server\src\test\java\org\apache\lens\server\rewrite\TestRewriting.java,powermock,org.powermock.core.classloader.annotations.PrepareForTest
+lens,lens\lens-server\src\test\java\org\apache\lens\server\rewrite\TestRewriting.java,powermock,org.powermock.modules.testng.PowerMockObjectFactory
+lens,lens\lens-server\src\test\java\org\apache\lens\server\scheduler\SchedulerRestartTest.java,mockito,static org.mockito.Matchers.any
+lens,lens\lens-server\src\test\java\org\apache\lens\server\scheduler\SchedulerRestartTest.java,mockito,static org.mockito.Matchers.anyString
+lens,lens\lens-server\src\test\java\org\apache\lens\server\scheduler\SchedulerRestartTest.java,powermock,org.powermock.api.mockito.PowerMockito
+lens,lens\lens-server\src\test\java\org\apache\lens\server\scheduler\util\SchedulerTestUtils.java,mockito,static org.mockito.Matchers.any
+lens,lens\lens-server\src\test\java\org\apache\lens\server\scheduler\util\SchedulerTestUtils.java,mockito,static org.mockito.Matchers.anyString
+lens,lens\lens-server\src\test\java\org\apache\lens\server\scheduler\util\SchedulerTestUtils.java,powermock,org.powermock.api.mockito.PowerMockito
+lens,lens\lens-server\src\test\java\org\apache\lens\server\stats\TestStatisticsLogFileScannerTask.java,mockito,org.mockito.Mockito
+lens,lens\lens-server\src\test\java\org\apache\lens\server\stats\TestStatisticsLogFileScannerTask.java,mockito,org.mockito.invocation.InvocationOnMock
+lens,lens\lens-server\src\test\java\org\apache\lens\server\stats\TestStatisticsLogFileScannerTask.java,mockito,org.mockito.stubbing.Answer
+lenya,lenya\org.apache.lenya.core.utils\src\main\java\org\apache\lenya\utils\test\SpringEnv.java,springframework,org.springframework.mock.web.MockHttpServletRequest
+lenya,lenya\org.apache.lenya.core.utils\src\main\java\org\apache\lenya\utils\test\SpringEnv.java,springframework,org.springframework.mock.web.MockHttpSession
+lenya,lenya\org.apache.lenya.core.utils\src\test\java\org\apache\lenya\utils\URLInformationTest.java,springframework,org.springframework.mock.web.MockHttpServletRequest
+lenya,lenya\org.apache.lenya.core.utils\src\test\java\org\apache\lenya\utils\URLInformationTest.java,springframework,org.springframework.mock.web.MockHttpSession
+logging-log4j2,logging-log4j2\log4j-core-its\src\test\java\org\apache\logging\log4j\core\appender\HttpAppenderTest.java,wiremock,static com.github.tomakehurst.wiremock.client.WireMock.aResponse
+logging-log4j2,logging-log4j2\log4j-core-its\src\test\java\org\apache\logging\log4j\core\appender\HttpAppenderTest.java,wiremock,static com.github.tomakehurst.wiremock.client.WireMock.containing
+logging-log4j2,logging-log4j2\log4j-core-its\src\test\java\org\apache\logging\log4j\core\appender\HttpAppenderTest.java,wiremock,static com.github.tomakehurst.wiremock.client.WireMock.equalTo
+logging-log4j2,logging-log4j2\log4j-core-its\src\test\java\org\apache\logging\log4j\core\appender\HttpAppenderTest.java,wiremock,static com.github.tomakehurst.wiremock.client.WireMock.post
+logging-log4j2,logging-log4j2\log4j-core-its\src\test\java\org\apache\logging\log4j\core\appender\HttpAppenderTest.java,wiremock,static com.github.tomakehurst.wiremock.client.WireMock.postRequestedFor
+logging-log4j2,logging-log4j2\log4j-core-its\src\test\java\org\apache\logging\log4j\core\appender\HttpAppenderTest.java,wiremock,static com.github.tomakehurst.wiremock.client.WireMock.put
+logging-log4j2,logging-log4j2\log4j-core-its\src\test\java\org\apache\logging\log4j\core\appender\HttpAppenderTest.java,wiremock,static com.github.tomakehurst.wiremock.client.WireMock.putRequestedFor
+logging-log4j2,logging-log4j2\log4j-core-its\src\test\java\org\apache\logging\log4j\core\appender\HttpAppenderTest.java,wiremock,static com.github.tomakehurst.wiremock.client.WireMock.urlEqualTo
+logging-log4j2,logging-log4j2\log4j-core-its\src\test\java\org\apache\logging\log4j\core\appender\HttpAppenderTest.java,wiremock,static com.github.tomakehurst.wiremock.core.WireMockConfiguration.wireMockConfig
+logging-log4j2,logging-log4j2\log4j-core-its\src\test\java\org\apache\logging\log4j\core\appender\HttpAppenderTest.java,wiremock,com.github.tomakehurst.wiremock.client.ResponseDefinitionBuilder
+logging-log4j2,logging-log4j2\log4j-core-its\src\test\java\org\apache\logging\log4j\core\appender\HttpAppenderTest.java,wiremock,com.github.tomakehurst.wiremock.junit.WireMockRule
+logging-log4j2,logging-log4j2\log4j-core\src\test\java-test\org\apache\logging\log4j\core\test\junit\JndiRule.java,springframework,org.springframework.mock.jndi.SimpleNamingContextBuilder
+logging-log4j2,logging-log4j2\log4j-core\src\test\java\org\apache\logging\log4j\core\appender\ConsoleAppenderTest.java,mockito,org.mockito.Mock
+logging-log4j2,logging-log4j2\log4j-core\src\test\java\org\apache\logging\log4j\core\appender\ConsoleAppenderTest.java,mockito,org.mockito.junit.jupiter.MockitoExtension
+logging-log4j2,logging-log4j2\log4j-core\src\test\java\org\apache\logging\log4j\core\appender\ConsoleAppenderTest.java,mockito,static org.mockito.ArgumentMatchers.any
+logging-log4j2,logging-log4j2\log4j-core\src\test\java\org\apache\logging\log4j\core\appender\ConsoleAppenderTest.java,mockito,static org.mockito.ArgumentMatchers.anyInt
+logging-log4j2,logging-log4j2\log4j-core\src\test\java\org\apache\logging\log4j\core\appender\ConsoleAppenderTest.java,mockito,static org.mockito.BDDMockito.then
+logging-log4j2,logging-log4j2\log4j-core\src\test\java\org\apache\logging\log4j\core\appender\ConsoleAppenderTest.java,mockito,static org.mockito.Mockito.atLeastOnce
+logging-log4j2,logging-log4j2\log4j-core\src\test\java\org\apache\logging\log4j\core\appender\db\AbstractDatabaseAppenderTest.java,mockito,static org.mockito.ArgumentMatchers.isNull
+logging-log4j2,logging-log4j2\log4j-core\src\test\java\org\apache\logging\log4j\core\appender\db\AbstractDatabaseAppenderTest.java,mockito,static org.mockito.ArgumentMatchers.same
+logging-log4j2,logging-log4j2\log4j-core\src\test\java\org\apache\logging\log4j\core\appender\db\AbstractDatabaseAppenderTest.java,mockito,static org.mockito.BDDMockito.given
+logging-log4j2,logging-log4j2\log4j-core\src\test\java\org\apache\logging\log4j\core\appender\db\AbstractDatabaseAppenderTest.java,mockito,static org.mockito.BDDMockito.then
+logging-log4j2,logging-log4j2\log4j-core\src\test\java\org\apache\logging\log4j\core\appender\db\AbstractDatabaseAppenderTest.java,mockito,static org.mockito.Mockito.mock
+logging-log4j2,logging-log4j2\log4j-core\src\test\java\org\apache\logging\log4j\core\appender\db\AbstractDatabaseAppenderTest.java,mockito,static org.mockito.Mockito.reset
+logging-log4j2,logging-log4j2\log4j-core\src\test\java\org\apache\logging\log4j\core\appender\db\AbstractDatabaseAppenderTest.java,mockito,org.mockito.Mock
+logging-log4j2,logging-log4j2\log4j-core\src\test\java\org\apache\logging\log4j\core\appender\db\AbstractDatabaseAppenderTest.java,mockito,org.mockito.junit.MockitoJUnitRunner
+logging-log4j2,logging-log4j2\log4j-core\src\test\java\org\apache\logging\log4j\core\appender\db\AbstractDatabaseManagerTest.java,mockito,static org.mockito.ArgumentMatchers.isNull
+logging-log4j2,logging-log4j2\log4j-core\src\test\java\org\apache\logging\log4j\core\appender\db\AbstractDatabaseManagerTest.java,mockito,static org.mockito.ArgumentMatchers.same
+logging-log4j2,logging-log4j2\log4j-core\src\test\java\org\apache\logging\log4j\core\appender\db\AbstractDatabaseManagerTest.java,mockito,static org.mockito.BDDMockito.then
+logging-log4j2,logging-log4j2\log4j-core\src\test\java\org\apache\logging\log4j\core\appender\db\AbstractDatabaseManagerTest.java,mockito,static org.mockito.Mockito.mock
+logging-log4j2,logging-log4j2\log4j-core\src\test\java\org\apache\logging\log4j\core\appender\db\AbstractDatabaseManagerTest.java,mockito,static org.mockito.Mockito.reset
+logging-log4j2,logging-log4j2\log4j-core\src\test\java\org\apache\logging\log4j\core\appender\db\AbstractDatabaseManagerTest.java,mockito,static org.mockito.Mockito.spy
+logging-log4j2,logging-log4j2\log4j-core\src\test\java\org\apache\logging\log4j\core\appender\db\AbstractDatabaseManagerTest.java,mockito,static org.mockito.Mockito.times
+logging-log4j2,logging-log4j2\log4j-core\src\test\java\org\apache\logging\log4j\core\appender\db\AbstractDatabaseManagerTest.java,mockito,static org.mockito.Mockito.verify
+logging-log4j2,logging-log4j2\log4j-core\src\test\java\org\apache\logging\log4j\core\appender\db\AbstractDatabaseManagerTest.java,mockito,static org.mockito.Mockito.when
+logging-log4j2,logging-log4j2\log4j-core\src\test\java\org\apache\logging\log4j\core\appender\nosql\NoSqlAppenderTest.java,mockito,org.mockito.Mock
+logging-log4j2,logging-log4j2\log4j-core\src\test\java\org\apache\logging\log4j\core\appender\nosql\NoSqlAppenderTest.java,mockito,org.mockito.runners.MockitoJUnitRunner
+logging-log4j2,logging-log4j2\log4j-core\src\test\java\org\apache\logging\log4j\core\appender\nosql\NoSqlDatabaseManagerTest.java,mockito,static org.mockito.ArgumentMatchers.anyInt
+logging-log4j2,logging-log4j2\log4j-core\src\test\java\org\apache\logging\log4j\core\appender\nosql\NoSqlDatabaseManagerTest.java,mockito,static org.mockito.BDDMockito.given
+logging-log4j2,logging-log4j2\log4j-core\src\test\java\org\apache\logging\log4j\core\appender\nosql\NoSqlDatabaseManagerTest.java,mockito,static org.mockito.BDDMockito.then
+logging-log4j2,logging-log4j2\log4j-core\src\test\java\org\apache\logging\log4j\core\appender\nosql\NoSqlDatabaseManagerTest.java,mockito,static org.mockito.Mockito.mock
+logging-log4j2,logging-log4j2\log4j-core\src\test\java\org\apache\logging\log4j\core\appender\nosql\NoSqlDatabaseManagerTest.java,mockito,org.mockito.ArgumentCaptor
+logging-log4j2,logging-log4j2\log4j-core\src\test\java\org\apache\logging\log4j\core\appender\nosql\NoSqlDatabaseManagerTest.java,mockito,org.mockito.Captor
+logging-log4j2,logging-log4j2\log4j-core\src\test\java\org\apache\logging\log4j\core\appender\nosql\NoSqlDatabaseManagerTest.java,mockito,org.mockito.Mock
+logging-log4j2,logging-log4j2\log4j-core\src\test\java\org\apache\logging\log4j\core\appender\nosql\NoSqlDatabaseManagerTest.java,mockito,org.mockito.invocation.InvocationOnMock
+logging-log4j2,logging-log4j2\log4j-core\src\test\java\org\apache\logging\log4j\core\appender\nosql\NoSqlDatabaseManagerTest.java,mockito,org.mockito.runners.MockitoJUnitRunner
+logging-log4j2,logging-log4j2\log4j-core\src\test\java\org\apache\logging\log4j\core\appender\nosql\NoSqlDatabaseManagerTest.java,mockito,org.mockito.stubbing.Answer
+logging-log4j2,logging-log4j2\log4j-core\src\test\java\org\apache\logging\log4j\core\config\plugins\validation\validators\ValidatingPluginWithFailoverTest.java,mockito,org.mockito.ArgumentCaptor
+logging-log4j2,logging-log4j2\log4j-core\src\test\java\org\apache\logging\log4j\core\config\plugins\validation\validators\ValidatingPluginWithFailoverTest.java,mockito,static org.mockito.Mockito.any
+logging-log4j2,logging-log4j2\log4j-core\src\test\java\org\apache\logging\log4j\core\config\plugins\validation\validators\ValidatingPluginWithFailoverTest.java,mockito,static org.mockito.Mockito.mock
+logging-log4j2,logging-log4j2\log4j-core\src\test\java\org\apache\logging\log4j\core\config\plugins\validation\validators\ValidatingPluginWithFailoverTest.java,mockito,static org.mockito.Mockito.never
+logging-log4j2,logging-log4j2\log4j-core\src\test\java\org\apache\logging\log4j\core\config\plugins\validation\validators\ValidatingPluginWithFailoverTest.java,mockito,static org.mockito.Mockito.times
+logging-log4j2,logging-log4j2\log4j-core\src\test\java\org\apache\logging\log4j\core\config\plugins\validation\validators\ValidatingPluginWithFailoverTest.java,mockito,static org.mockito.Mockito.verify
+logging-log4j2,logging-log4j2\log4j-core\src\test\java\org\apache\logging\log4j\core\config\plugins\validation\validators\ValidatingPluginWithFailoverTest.java,mockito,static org.mockito.Mockito.verifyNoMoreInteractions
+logging-log4j2,logging-log4j2\log4j-core\src\test\java\org\apache\logging\log4j\core\config\plugins\validation\validators\ValidatingPluginWithFailoverTest.java,mockito,static org.mockito.Mockito.when
+logging-log4j2,logging-log4j2\log4j-core\src\test\java\org\apache\logging\log4j\core\lookup\Log4jLookupTest.java,mockito,org.mockito.Mock
+logging-log4j2,logging-log4j2\log4j-core\src\test\java\org\apache\logging\log4j\core\lookup\Log4jLookupTest.java,mockito,org.mockito.junit.jupiter.MockitoExtension
+logging-log4j2,logging-log4j2\log4j-core\src\test\java\org\apache\logging\log4j\core\lookup\Log4jLookupTest.java,mockito,static org.mockito.BDDMockito.given
+logging-log4j2,logging-log4j2\log4j-core\src\test\java\org\apache\logging\log4j\core\lookup\Log4jLookupWithSpacesTest.java,mockito,org.mockito.Mock
+logging-log4j2,logging-log4j2\log4j-core\src\test\java\org\apache\logging\log4j\core\lookup\Log4jLookupWithSpacesTest.java,mockito,org.mockito.junit.jupiter.MockitoExtension
+logging-log4j2,logging-log4j2\log4j-core\src\test\java\org\apache\logging\log4j\core\lookup\Log4jLookupWithSpacesTest.java,mockito,static org.mockito.BDDMockito.given
+logging-log4j2,logging-log4j2\log4j-core\src\test\java\org\apache\logging\log4j\core\util\WatchHttpTest.java,wiremock,com.github.tomakehurst.wiremock.junit.WireMockRule
+logging-log4j2,logging-log4j2\log4j-core\src\test\java\org\apache\logging\log4j\core\util\WatchHttpTest.java,wiremock,com.github.tomakehurst.wiremock.stubbing.StubMapping
+logging-log4j2,logging-log4j2\log4j-core\src\test\java\org\apache\logging\log4j\core\util\WatchHttpTest.java,wiremock,static com.github.tomakehurst.wiremock.client.WireMock.aResponse
+logging-log4j2,logging-log4j2\log4j-core\src\test\java\org\apache\logging\log4j\core\util\WatchHttpTest.java,wiremock,static com.github.tomakehurst.wiremock.client.WireMock.get
+logging-log4j2,logging-log4j2\log4j-core\src\test\java\org\apache\logging\log4j\core\util\WatchHttpTest.java,wiremock,static com.github.tomakehurst.wiremock.client.WireMock.removeStub
+logging-log4j2,logging-log4j2\log4j-core\src\test\java\org\apache\logging\log4j\core\util\WatchHttpTest.java,wiremock,static com.github.tomakehurst.wiremock.client.WireMock.stubFor
+logging-log4j2,logging-log4j2\log4j-core\src\test\java\org\apache\logging\log4j\core\util\WatchHttpTest.java,wiremock,static com.github.tomakehurst.wiremock.client.WireMock.urlPathEqualTo
+logging-log4j2,logging-log4j2\log4j-core\src\test\java\org\apache\logging\log4j\core\util\WatchHttpTest.java,wiremock,static com.github.tomakehurst.wiremock.core.WireMockConfiguration.wireMockConfig
+logging-log4j2,logging-log4j2\log4j-iostreams\src\test\java\org\apache\logging\log4j\io\AbstractLoggerOutputStreamTest.java,mockito,static org.mockito.BDDMockito.then
+logging-log4j2,logging-log4j2\log4j-iostreams\src\test\java\org\apache\logging\log4j\io\AbstractLoggerOutputStreamTest.java,mockito,static org.mockito.Mockito.mock
+logging-log4j2,logging-log4j2\log4j-iostreams\src\test\java\org\apache\logging\log4j\io\AbstractLoggerWriterTest.java,mockito,static org.mockito.BDDMockito.then
+logging-log4j2,logging-log4j2\log4j-iostreams\src\test\java\org\apache\logging\log4j\io\AbstractLoggerWriterTest.java,mockito,static org.mockito.Mockito.mock
+logging-log4j2,logging-log4j2\log4j-jakarta-web\src\test\java\org\apache\logging\log4j\web\Log4jServletContainerInitializerTest.java,mockito,org.mockito.ArgumentCaptor
+logging-log4j2,logging-log4j2\log4j-jakarta-web\src\test\java\org\apache\logging\log4j\web\Log4jServletContainerInitializerTest.java,mockito,org.mockito.Captor
+logging-log4j2,logging-log4j2\log4j-jakarta-web\src\test\java\org\apache\logging\log4j\web\Log4jServletContainerInitializerTest.java,mockito,org.mockito.Mock
+logging-log4j2,logging-log4j2\log4j-jakarta-web\src\test\java\org\apache\logging\log4j\web\Log4jServletContainerInitializerTest.java,mockito,org.mockito.junit.jupiter.MockitoExtension
+logging-log4j2,logging-log4j2\log4j-jakarta-web\src\test\java\org\apache\logging\log4j\web\Log4jServletContainerInitializerTest.java,mockito,static org.mockito.ArgumentMatchers.eq
+logging-log4j2,logging-log4j2\log4j-jakarta-web\src\test\java\org\apache\logging\log4j\web\Log4jServletContainerInitializerTest.java,mockito,static org.mockito.BDDMockito.any
+logging-log4j2,logging-log4j2\log4j-jakarta-web\src\test\java\org\apache\logging\log4j\web\Log4jServletContainerInitializerTest.java,mockito,static org.mockito.BDDMockito.given
+logging-log4j2,logging-log4j2\log4j-jakarta-web\src\test\java\org\apache\logging\log4j\web\Log4jServletContainerInitializerTest.java,mockito,static org.mockito.BDDMockito.never
+logging-log4j2,logging-log4j2\log4j-jakarta-web\src\test\java\org\apache\logging\log4j\web\Log4jServletContainerInitializerTest.java,mockito,static org.mockito.BDDMockito.then
+logging-log4j2,logging-log4j2\log4j-jakarta-web\src\test\java\org\apache\logging\log4j\web\Log4jServletContainerInitializerTest.java,mockito,static org.mockito.BDDMockito.willThrow
+logging-log4j2,logging-log4j2\log4j-jakarta-web\src\test\java\org\apache\logging\log4j\web\Log4jServletContainerInitializerTest.java,mockito,static org.mockito.Mockito.mock
+logging-log4j2,logging-log4j2\log4j-jakarta-web\src\test\java\org\apache\logging\log4j\web\Log4jServletContextListenerTest.java,mockito,org.mockito.Mock
+logging-log4j2,logging-log4j2\log4j-jakarta-web\src\test\java\org\apache\logging\log4j\web\Log4jServletContextListenerTest.java,mockito,org.mockito.junit.jupiter.MockitoExtension
+logging-log4j2,logging-log4j2\log4j-jakarta-web\src\test\java\org\apache\logging\log4j\web\Log4jServletContextListenerTest.java,mockito,static org.mockito.BDDMockito.eq
+logging-log4j2,logging-log4j2\log4j-jakarta-web\src\test\java\org\apache\logging\log4j\web\Log4jServletContextListenerTest.java,mockito,static org.mockito.BDDMockito.given
+logging-log4j2,logging-log4j2\log4j-jakarta-web\src\test\java\org\apache\logging\log4j\web\Log4jServletContextListenerTest.java,mockito,static org.mockito.BDDMockito.then
+logging-log4j2,logging-log4j2\log4j-jakarta-web\src\test\java\org\apache\logging\log4j\web\Log4jServletContextListenerTest.java,mockito,static org.mockito.BDDMockito.willThrow
+logging-log4j2,logging-log4j2\log4j-jakarta-web\src\test\java\org\apache\logging\log4j\web\Log4jServletFilterTest.java,mockito,org.mockito.Mock
+logging-log4j2,logging-log4j2\log4j-jakarta-web\src\test\java\org\apache\logging\log4j\web\Log4jServletFilterTest.java,mockito,org.mockito.junit.jupiter.MockitoExtension
+logging-log4j2,logging-log4j2\log4j-jakarta-web\src\test\java\org\apache\logging\log4j\web\Log4jServletFilterTest.java,mockito,static org.mockito.ArgumentMatchers.eq
+logging-log4j2,logging-log4j2\log4j-jakarta-web\src\test\java\org\apache\logging\log4j\web\Log4jServletFilterTest.java,mockito,static org.mockito.ArgumentMatchers.same
+logging-log4j2,logging-log4j2\log4j-jakarta-web\src\test\java\org\apache\logging\log4j\web\Log4jServletFilterTest.java,mockito,static org.mockito.BDDMockito.given
+logging-log4j2,logging-log4j2\log4j-jakarta-web\src\test\java\org\apache\logging\log4j\web\Log4jServletFilterTest.java,mockito,static org.mockito.BDDMockito.then
+logging-log4j2,logging-log4j2\log4j-jakarta-web\src\test\java\org\apache\logging\log4j\web\Log4jServletFilterTest.java,mockito,static org.mockito.Mockito.reset
+logging-log4j2,logging-log4j2\log4j-jakarta-web\src\test\java\org\apache\logging\log4j\web\Log4jShutdownOnContextDestroyedListenerTest.java,mockito,static org.mockito.BDDMockito.given
+logging-log4j2,logging-log4j2\log4j-jakarta-web\src\test\java\org\apache\logging\log4j\web\Log4jShutdownOnContextDestroyedListenerTest.java,mockito,static org.mockito.BDDMockito.then
+logging-log4j2,logging-log4j2\log4j-jakarta-web\src\test\java\org\apache\logging\log4j\web\Log4jShutdownOnContextDestroyedListenerTest.java,mockito,static org.mockito.Mockito.never
+logging-log4j2,logging-log4j2\log4j-jakarta-web\src\test\java\org\apache\logging\log4j\web\Log4jShutdownOnContextDestroyedListenerTest.java,mockito,org.mockito.Mock
+logging-log4j2,logging-log4j2\log4j-jakarta-web\src\test\java\org\apache\logging\log4j\web\Log4jShutdownOnContextDestroyedListenerTest.java,mockito,org.mockito.junit.jupiter.MockitoExtension
+logging-log4j2,logging-log4j2\log4j-jakarta-web\src\test\java\org\apache\logging\log4j\web\Log4jWebInitializerImplTest.java,mockito,org.mockito.ArgumentCaptor
+logging-log4j2,logging-log4j2\log4j-jakarta-web\src\test\java\org\apache\logging\log4j\web\Log4jWebInitializerImplTest.java,mockito,org.mockito.Captor
+logging-log4j2,logging-log4j2\log4j-jakarta-web\src\test\java\org\apache\logging\log4j\web\Log4jWebInitializerImplTest.java,mockito,org.mockito.Mock
+logging-log4j2,logging-log4j2\log4j-jakarta-web\src\test\java\org\apache\logging\log4j\web\Log4jWebInitializerImplTest.java,mockito,org.mockito.junit.jupiter.MockitoExtension
+logging-log4j2,logging-log4j2\log4j-jakarta-web\src\test\java\org\apache\logging\log4j\web\Log4jWebInitializerImplTest.java,mockito,static org.mockito.ArgumentMatchers.eq
+logging-log4j2,logging-log4j2\log4j-jakarta-web\src\test\java\org\apache\logging\log4j\web\Log4jWebInitializerImplTest.java,mockito,static org.mockito.BDDMockito.given
+logging-log4j2,logging-log4j2\log4j-jakarta-web\src\test\java\org\apache\logging\log4j\web\Log4jWebInitializerImplTest.java,mockito,static org.mockito.BDDMockito.then
+logging-log4j2,logging-log4j2\log4j-jdbc\src\test\java\org\apache\logging\log4j\jdbc\appender\AbstractJdbcAppenderDataSourceTest.java,mockito,org.mockito.invocation.InvocationOnMock
+logging-log4j2,logging-log4j2\log4j-jdbc\src\test\java\org\apache\logging\log4j\jdbc\appender\AbstractJdbcAppenderDataSourceTest.java,mockito,org.mockito.stubbing.Answer
+logging-log4j2,logging-log4j2\log4j-jdbc\src\test\java\org\apache\logging\log4j\jdbc\appender\AbstractJdbcAppenderDataSourceTest.java,mockito,static org.mockito.BDDMockito.given
+logging-log4j2,logging-log4j2\log4j-jdbc\src\test\java\org\apache\logging\log4j\jdbc\appender\AbstractJdbcAppenderDataSourceTest.java,mockito,static org.mockito.Mockito.mock
+logging-log4j2,logging-log4j2\log4j-jdbc\src\test\java\org\apache\logging\log4j\jdbc\appender\DataSourceConnectionSourceTest.java,mockito,static org.mockito.BDDMockito.given
+logging-log4j2,logging-log4j2\log4j-jdbc\src\test\java\org\apache\logging\log4j\jdbc\appender\DataSourceConnectionSourceTest.java,mockito,static org.mockito.Mockito.mock
+logging-log4j2,logging-log4j2\log4j-jdbc\src\test\java\org\apache\logging\log4j\jdbc\appender\FactoryMethodConnectionSourceTest.java,mockito,static org.mockito.BDDMockito.given
+logging-log4j2,logging-log4j2\log4j-jdbc\src\test\java\org\apache\logging\log4j\jdbc\appender\FactoryMethodConnectionSourceTest.java,mockito,static org.mockito.Mockito.mock
+logging-log4j2,logging-log4j2\log4j-jdbc\src\test\java\org\apache\logging\log4j\jdbc\appender\JdbcAppenderMapMessageDataSourceTest.java,mockito,static org.mockito.BDDMockito.given
+logging-log4j2,logging-log4j2\log4j-jdbc\src\test\java\org\apache\logging\log4j\jdbc\appender\JdbcAppenderMapMessageDataSourceTest.java,mockito,static org.mockito.Mockito.mock
+logging-log4j2,logging-log4j2\log4j-jdbc\src\test\java\org\apache\logging\log4j\jdbc\appender\JdbcAppenderMapMessageDataSourceTest.java,mockito,org.mockito.invocation.InvocationOnMock
+logging-log4j2,logging-log4j2\log4j-jdbc\src\test\java\org\apache\logging\log4j\jdbc\appender\JdbcAppenderMapMessageDataSourceTest.java,mockito,org.mockito.stubbing.Answer
+logging-log4j2,logging-log4j2\log4j-jms\src\test\java\org\apache\logging\log4j\jms\appender\JmsAppenderTest.java,mockito,static org.mockito.ArgumentMatchers.anyLong
+logging-log4j2,logging-log4j2\log4j-jms\src\test\java\org\apache\logging\log4j\jms\appender\JmsAppenderTest.java,mockito,static org.mockito.ArgumentMatchers.anyString
+logging-log4j2,logging-log4j2\log4j-jms\src\test\java\org\apache\logging\log4j\jms\appender\JmsAppenderTest.java,mockito,static org.mockito.ArgumentMatchers.eq
+logging-log4j2,logging-log4j2\log4j-jms\src\test\java\org\apache\logging\log4j\jms\appender\JmsAppenderTest.java,mockito,static org.mockito.ArgumentMatchers.isA
+logging-log4j2,logging-log4j2\log4j-jms\src\test\java\org\apache\logging\log4j\jms\appender\JmsAppenderTest.java,mockito,static org.mockito.BDDMockito.given
+logging-log4j2,logging-log4j2\log4j-jms\src\test\java\org\apache\logging\log4j\jms\appender\JmsAppenderTest.java,mockito,static org.mockito.BDDMockito.then
+logging-log4j2,logging-log4j2\log4j-jms\src\test\java\org\apache\logging\log4j\jms\appender\JmsAppenderTest.java,mockito,static org.mockito.Mockito.mock
+logging-log4j2,logging-log4j2\log4j-jms\src\test\java\org\apache\logging\log4j\jms\appender\JmsAppenderTest.java,mockito,static org.mockito.Mockito.times
+logging-log4j2,logging-log4j2\log4j-redis\src\test\java\org\apache\logging\log4j\redis\appender\RedisAppenderTest.java,mockito,org.mockito.Mockito
+logging-log4j2,logging-log4j2\log4j-redis\src\test\java\org\apache\logging\log4j\redis\appender\RedisAppenderTest.java,mockito,static org.mockito.ArgumentMatchers.any
+logging-log4j2,logging-log4j2\log4j-redis\src\test\java\org\apache\logging\log4j\redis\appender\RedisAppenderTest.java,mockito,static org.mockito.ArgumentMatchers.anyList
+logging-log4j2,logging-log4j2\log4j-redis\src\test\java\org\apache\logging\log4j\redis\appender\RedisAppenderTest.java,mockito,static org.mockito.Mockito.when
+logging-log4j2,logging-log4j2\log4j-redis\src\test\java\org\apache\logging\log4j\redis\appender\RedisManagerTest.java,mockito,org.mockito.Mockito
+logging-log4j2,logging-log4j2\log4j-redis\src\test\java\org\apache\logging\log4j\redis\appender\RedisManagerTest.java,mockito,static org.mockito.ArgumentMatchers.anyString
+logging-log4j2,logging-log4j2\log4j-redis\src\test\java\org\apache\logging\log4j\redis\appender\RedisManagerTest.java,mockito,static org.mockito.ArgumentMatchers.eq
+logging-log4j2,logging-log4j2\log4j-redis\src\test\java\org\apache\logging\log4j\redis\appender\RedisManagerTest.java,mockito,static org.mockito.Mockito.when
+logging-log4j2,logging-log4j2\log4j-spring-boot\src\test\java\org\apache\logging\log4j\spring\boot\SpringLookupTest.java,springframework,org.springframework.mock.env.MockEnvironment
+logging-log4j2,logging-log4j2\log4j-spring-boot\src\test\java\org\apache\logging\log4j\spring\boot\SpringProfileTest.java,springframework,org.springframework.mock.env.MockEnvironment
+logging-log4j2,logging-log4j2\log4j-taglib\src\test\java\org\apache\logging\log4j\taglib\CatchingTagTest.java,springframework,org.springframework.mock.web.MockPageContext
+logging-log4j2,logging-log4j2\log4j-taglib\src\test\java\org\apache\logging\log4j\taglib\DumpTagTest.java,springframework,org.springframework.mock.web.MockJspWriter
+logging-log4j2,logging-log4j2\log4j-taglib\src\test\java\org\apache\logging\log4j\taglib\DumpTagTest.java,springframework,org.springframework.mock.web.MockPageContext
+logging-log4j2,logging-log4j2\log4j-taglib\src\test\java\org\apache\logging\log4j\taglib\EnterTagTest.java,springframework,org.springframework.mock.web.MockPageContext
+logging-log4j2,logging-log4j2\log4j-taglib\src\test\java\org\apache\logging\log4j\taglib\ExitTagTest.java,springframework,org.springframework.mock.web.MockPageContext
+logging-log4j2,logging-log4j2\log4j-taglib\src\test\java\org\apache\logging\log4j\taglib\IfEnabledTagTest.java,springframework,org.springframework.mock.web.MockPageContext
+logging-log4j2,logging-log4j2\log4j-taglib\src\test\java\org\apache\logging\log4j\taglib\LoggerAwareTagSupportTest.java,springframework,org.springframework.mock.web.MockPageContext
+logging-log4j2,logging-log4j2\log4j-taglib\src\test\java\org\apache\logging\log4j\taglib\LoggingMessageTagSupportTest.java,springframework,org.springframework.mock.web.MockBodyContent
+logging-log4j2,logging-log4j2\log4j-taglib\src\test\java\org\apache\logging\log4j\taglib\LoggingMessageTagSupportTest.java,springframework,org.springframework.mock.web.MockPageContext
+logging-log4j2,logging-log4j2\log4j-taglib\src\test\java\org\apache\logging\log4j\taglib\SetLoggerTagTest.java,springframework,org.springframework.mock.web.MockPageContext
+logging-log4j2,logging-log4j2\log4j-web\src\test\java\org\apache\logging\log4j\web\Log4jServletContainerInitializerTest.java,mockito,org.mockito.ArgumentCaptor
+logging-log4j2,logging-log4j2\log4j-web\src\test\java\org\apache\logging\log4j\web\Log4jServletContainerInitializerTest.java,mockito,org.mockito.Captor
+logging-log4j2,logging-log4j2\log4j-web\src\test\java\org\apache\logging\log4j\web\Log4jServletContainerInitializerTest.java,mockito,org.mockito.Mock
+logging-log4j2,logging-log4j2\log4j-web\src\test\java\org\apache\logging\log4j\web\Log4jServletContainerInitializerTest.java,mockito,org.mockito.junit.jupiter.MockitoExtension
+logging-log4j2,logging-log4j2\log4j-web\src\test\java\org\apache\logging\log4j\web\Log4jServletContainerInitializerTest.java,mockito,static org.mockito.ArgumentMatchers.eq
+logging-log4j2,logging-log4j2\log4j-web\src\test\java\org\apache\logging\log4j\web\Log4jServletContainerInitializerTest.java,mockito,static org.mockito.BDDMockito.any
+logging-log4j2,logging-log4j2\log4j-web\src\test\java\org\apache\logging\log4j\web\Log4jServletContainerInitializerTest.java,mockito,static org.mockito.BDDMockito.given
+logging-log4j2,logging-log4j2\log4j-web\src\test\java\org\apache\logging\log4j\web\Log4jServletContainerInitializerTest.java,mockito,static org.mockito.BDDMockito.never
+logging-log4j2,logging-log4j2\log4j-web\src\test\java\org\apache\logging\log4j\web\Log4jServletContainerInitializerTest.java,mockito,static org.mockito.BDDMockito.then
+logging-log4j2,logging-log4j2\log4j-web\src\test\java\org\apache\logging\log4j\web\Log4jServletContainerInitializerTest.java,mockito,static org.mockito.BDDMockito.willThrow
+logging-log4j2,logging-log4j2\log4j-web\src\test\java\org\apache\logging\log4j\web\Log4jServletContainerInitializerTest.java,mockito,static org.mockito.Mockito.mock
+logging-log4j2,logging-log4j2\log4j-web\src\test\java\org\apache\logging\log4j\web\Log4jServletContextListenerTest.java,mockito,org.mockito.Mock
+logging-log4j2,logging-log4j2\log4j-web\src\test\java\org\apache\logging\log4j\web\Log4jServletContextListenerTest.java,mockito,org.mockito.junit.jupiter.MockitoExtension
+logging-log4j2,logging-log4j2\log4j-web\src\test\java\org\apache\logging\log4j\web\Log4jServletContextListenerTest.java,mockito,static org.mockito.BDDMockito.eq
+logging-log4j2,logging-log4j2\log4j-web\src\test\java\org\apache\logging\log4j\web\Log4jServletContextListenerTest.java,mockito,static org.mockito.BDDMockito.given
+logging-log4j2,logging-log4j2\log4j-web\src\test\java\org\apache\logging\log4j\web\Log4jServletContextListenerTest.java,mockito,static org.mockito.BDDMockito.then
+logging-log4j2,logging-log4j2\log4j-web\src\test\java\org\apache\logging\log4j\web\Log4jServletContextListenerTest.java,mockito,static org.mockito.BDDMockito.willThrow
+logging-log4j2,logging-log4j2\log4j-web\src\test\java\org\apache\logging\log4j\web\Log4jServletFilterTest.java,mockito,org.mockito.Mock
+logging-log4j2,logging-log4j2\log4j-web\src\test\java\org\apache\logging\log4j\web\Log4jServletFilterTest.java,mockito,org.mockito.junit.jupiter.MockitoExtension
+logging-log4j2,logging-log4j2\log4j-web\src\test\java\org\apache\logging\log4j\web\Log4jServletFilterTest.java,mockito,static org.mockito.ArgumentMatchers.eq
+logging-log4j2,logging-log4j2\log4j-web\src\test\java\org\apache\logging\log4j\web\Log4jServletFilterTest.java,mockito,static org.mockito.ArgumentMatchers.same
+logging-log4j2,logging-log4j2\log4j-web\src\test\java\org\apache\logging\log4j\web\Log4jServletFilterTest.java,mockito,static org.mockito.BDDMockito.given
+logging-log4j2,logging-log4j2\log4j-web\src\test\java\org\apache\logging\log4j\web\Log4jServletFilterTest.java,mockito,static org.mockito.BDDMockito.then
+logging-log4j2,logging-log4j2\log4j-web\src\test\java\org\apache\logging\log4j\web\Log4jServletFilterTest.java,mockito,static org.mockito.Mockito.reset
+logging-log4j2,logging-log4j2\log4j-web\src\test\java\org\apache\logging\log4j\web\Log4jShutdownOnContextDestroyedListenerTest.java,mockito,static org.mockito.BDDMockito.given
+logging-log4j2,logging-log4j2\log4j-web\src\test\java\org\apache\logging\log4j\web\Log4jShutdownOnContextDestroyedListenerTest.java,mockito,static org.mockito.BDDMockito.then
+logging-log4j2,logging-log4j2\log4j-web\src\test\java\org\apache\logging\log4j\web\Log4jShutdownOnContextDestroyedListenerTest.java,mockito,static org.mockito.Mockito.never
+logging-log4j2,logging-log4j2\log4j-web\src\test\java\org\apache\logging\log4j\web\Log4jShutdownOnContextDestroyedListenerTest.java,mockito,org.mockito.Mock
+logging-log4j2,logging-log4j2\log4j-web\src\test\java\org\apache\logging\log4j\web\Log4jShutdownOnContextDestroyedListenerTest.java,mockito,org.mockito.junit.jupiter.MockitoExtension
+logging-log4j2,logging-log4j2\log4j-web\src\test\java\org\apache\logging\log4j\web\Log4jWebInitializerImplTest.java,mockito,org.mockito.ArgumentCaptor
+logging-log4j2,logging-log4j2\log4j-web\src\test\java\org\apache\logging\log4j\web\Log4jWebInitializerImplTest.java,mockito,org.mockito.Captor
+logging-log4j2,logging-log4j2\log4j-web\src\test\java\org\apache\logging\log4j\web\Log4jWebInitializerImplTest.java,mockito,org.mockito.Mock
+logging-log4j2,logging-log4j2\log4j-web\src\test\java\org\apache\logging\log4j\web\Log4jWebInitializerImplTest.java,mockito,org.mockito.junit.jupiter.MockitoExtension
+logging-log4j2,logging-log4j2\log4j-web\src\test\java\org\apache\logging\log4j\web\Log4jWebInitializerImplTest.java,mockito,static org.mockito.ArgumentMatchers.eq
+logging-log4j2,logging-log4j2\log4j-web\src\test\java\org\apache\logging\log4j\web\Log4jWebInitializerImplTest.java,mockito,static org.mockito.BDDMockito.given
+logging-log4j2,logging-log4j2\log4j-web\src\test\java\org\apache\logging\log4j\web\Log4jWebInitializerImplTest.java,mockito,static org.mockito.BDDMockito.then
+logging-log4j2,logging-log4j2\log4j-web\src\test\java\org\apache\logging\log4j\web\ServletAppenderTest.java,springframework,org.springframework.mock.web.MockServletContext
+logging-log4j2,logging-log4j2\log4j-web\src\test\java\org\apache\logging\log4j\web\WebLookupTest.java,springframework,org.springframework.mock.web.MockHttpServletRequest
+logging-log4j2,logging-log4j2\log4j-web\src\test\java\org\apache\logging\log4j\web\WebLookupTest.java,springframework,org.springframework.mock.web.MockServletContext

@@ -1,0 +1,8 @@
+method, origin, count
+spy,org.mockito.Mockito,1
+when,org.mockito.stubbing.Stubber,4
+doAnswer,org.mockito.Mockito,1
+
+MockedObjects: ,0
+
+# of Mocked objects each file:,

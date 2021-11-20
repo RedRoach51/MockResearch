@@ -1,0 +1,168 @@
+	Method name: when
+	Class origin: org.mockito.stubbing.Stubber
+	Count: 1
+ 
+	Method name: doReturn
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+	Method name: then
+	Class origin: org.mockito.stubbing.OngoingStubbing<com.amazonaws.services.kendra.model.ListIndicesResult>
+	Count: 1
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 2
+ 
+	Method name: any
+	Class origin: org.mockito.ArgumentMatchers
+	Count: 6
+ 
+	Method name: then
+	Class origin: org.mockito.stubbing.OngoingStubbing<com.amazonaws.services.kendra.model.ListDataSourcesResult>
+	Count: 1
+ 
+	Method name: when
+	Class origin: org.mockito.stubbing.LenientStubber
+	Count: 4
+ 
+	Method name: lenient
+	Class origin: org.mockito.Mockito
+	Count: 4
+ 
+	Method name: setSession
+	Class origin: net.sourceforge.stripes.mock.MockHttpServletRequest
+	Count: 1
+ 
+	Method name: addLocale
+	Class origin: net.sourceforge.stripes.mock.MockHttpServletRequest
+	Count: 1
+ 
+	Method name: getSession
+	Class origin: net.sourceforge.stripes.mock.MockHttpServletRequest
+	Count: 2
+ 
+	Method name: setServletContext
+	Class origin: net.sourceforge.stripes.mock.MockBaseConfig
+	Count: 2
+ 
+	Method name: getForwardUrl
+	Class origin: net.sourceforge.stripes.mock.MockHttpServletRequest
+	Count: 2
+ 
+	Method name: setUserPrincipal
+	Class origin: net.sourceforge.stripes.mock.MockHttpServletRequest
+	Count: 6
+ 
+	Method name: setUserPrincipal
+	Class origin: net.sourceforge.stripes.mock.MockHttpServletRequest
+	Count: 2
+ 
+	Method name: setCookies
+	Class origin: net.sourceforge.stripes.mock.MockHttpServletRequest
+	Count: 2
+ 
+	Method name: getLocale
+	Class origin: net.sourceforge.stripes.mock.MockHttpServletRequest
+	Count: 1
+ 
+	Method name: getParameterMap
+	Class origin: net.sourceforge.stripes.mock.MockHttpServletRequest
+	Count: 2
+ 
+	Method name: getParameterMap
+	Class origin: net.sourceforge.stripes.mock.MockHttpServletRequest
+	Count: 3
+ 
+	Method name: setContextPath
+	Class origin: net.sourceforge.stripes.mock.MockHttpServletRequest
+	Count: 1
+ 
+	Method name: setCookies
+	Class origin: net.sourceforge.stripes.mock.MockHttpServletRequest
+	Count: 1
+ 
+	Method name: when
+	Class origin: org.mockito.stubbing.Stubber
+	Count: 1
+ 
+	Method name: doReturn
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+	Method name: then
+	Class origin: org.mockito.stubbing.OngoingStubbing<com.amazonaws.services.kendra.model.ListIndicesResult>
+	Count: 1
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 2
+ 
+	Method name: any
+	Class origin: org.mockito.ArgumentMatchers
+	Count: 6
+ 
+	Method name: then
+	Class origin: org.mockito.stubbing.OngoingStubbing<com.amazonaws.services.kendra.model.ListDataSourcesResult>
+	Count: 1
+ 
+	Method name: when
+	Class origin: org.mockito.stubbing.LenientStubber
+	Count: 4
+ 
+	Method name: lenient
+	Class origin: org.mockito.Mockito
+	Count: 4
+ 
+	Method name: setSession
+	Class origin: net.sourceforge.stripes.mock.MockHttpServletRequest
+	Count: 1
+ 
+	Method name: addLocale
+	Class origin: net.sourceforge.stripes.mock.MockHttpServletRequest
+	Count: 1
+ 
+	Method name: getSession
+	Class origin: net.sourceforge.stripes.mock.MockHttpServletRequest
+	Count: 2
+ 
+	Method name: setServletContext
+	Class origin: net.sourceforge.stripes.mock.MockBaseConfig
+	Count: 2
+ 
+	Method name: getForwardUrl
+	Class origin: net.sourceforge.stripes.mock.MockHttpServletRequest
+	Count: 2
+ 
+	Method name: setUserPrincipal
+	Class origin: net.sourceforge.stripes.mock.MockHttpServletRequest
+	Count: 6
+ 
+	Method name: setUserPrincipal
+	Class origin: net.sourceforge.stripes.mock.MockHttpServletRequest
+	Count: 2
+ 
+	Method name: setCookies
+	Class origin: net.sourceforge.stripes.mock.MockHttpServletRequest
+	Count: 2
+ 
+	Method name: getLocale
+	Class origin: net.sourceforge.stripes.mock.MockHttpServletRequest
+	Count: 1
+ 
+	Method name: getParameterMap
+	Class origin: net.sourceforge.stripes.mock.MockHttpServletRequest
+	Count: 2
+ 
+	Method name: getParameterMap
+	Class origin: net.sourceforge.stripes.mock.MockHttpServletRequest
+	Count: 3
+ 
+	Method name: setContextPath
+	Class origin: net.sourceforge.stripes.mock.MockHttpServletRequest
+	Count: 1
+ 
+	Method name: setCookies
+	Class origin: net.sourceforge.stripes.mock.MockHttpServletRequest
+	Count: 1
+ 
