@@ -1,0 +1,414 @@
+/myfaces-impl/src/test/java/jakarta/faces/application/StateManagerTest.java
+Methods Invoked: 
+	Method name: createControl
+	Class origin: org.easymock.classextension.MockClassControl
+	Count: 8
+ 
+/myfaces-impl/src/test/java/jakarta/faces/application/ViewHandlerTest.java
+Methods Invoked: 
+	Method name: createControl
+	Class origin: org.easymock.classextension.EasyMock
+	Count: 1
+ 
+	Method name: createMock
+	Class origin: org.easymock.IMocksControl
+	Count: 4
+ 
+/myfaces-impl/src/test/java/jakarta/faces/component/UIComponentEncodeAllTest.java
+Methods Invoked: 
+	Method name: createNiceControl
+	Class origin: org.easymock.classextension.EasyMock
+	Count: 1
+ 
+	Method name: createMock
+	Class origin: org.easymock.classextension.IMocksControl
+	Count: 1
+ 
+	Method name: checkOrder
+	Class origin: org.easymock.IMocksControl
+	Count: 1
+ 
+/myfaces-impl/src/test/java/jakarta/faces/component/UIComponentInvokeOnComponentTest.java
+Methods Invoked: 
+	Method name: createNiceControl
+	Class origin: org.easymock.classextension.EasyMock
+	Count: 1
+ 
+	Method name: createMock
+	Class origin: org.easymock.classextension.IMocksControl
+	Count: 1
+ 
+	Method name: createMock
+	Class origin: org.easymock.IMocksControl
+	Count: 1
+ 
+	Method name: checkOrder
+	Class origin: org.easymock.IMocksControl
+	Count: 1
+ 
+	Method name: same
+	Class origin: org.easymock.EasyMock
+	Count: 6
+ 
+/myfaces-impl/src/test/java/jakarta/faces/component/UIDataTest.java
+Methods Invoked: 
+	Method name: createControl
+	Class origin: org.easymock.classextension.EasyMock
+	Count: 2
+ 
+	Method name: createMock
+	Class origin: org.easymock.IMocksControl
+	Count: 3
+ 
+/myfaces-impl/src/test/java/jakarta/faces/component/InvokeOnComponentTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+	Method name: verify
+	Class origin: org.mockito.Mockito
+	Count: 12
+ 
+	Method name: times
+	Class origin: org.mockito.Mockito
+	Count: 2
+ 
+/myfaces-impl/src/test/java/jakarta/faces/component/UIViewRootTest.java
+Methods Invoked: 
+	Method name: createControl
+	Class origin: org.easymock.classextension.EasyMock
+	Count: 1
+ 
+	Method name: createMock
+	Class origin: org.easymock.IMocksControl
+	Count: 8
+ 
+/myfaces-impl/src/test/java/jakarta/faces/component/UIInputTest.java
+Methods Invoked: 
+	Method name: createMock
+	Class origin: org.easymock.EasyMock
+	Count: 2
+ 
+/myfaces-impl/src/test/java/jakarta/faces/component/UIComponentValueExpressionTest.java
+Methods Invoked: 
+	Method name: createMock
+	Class origin: org.easymock.classextension.IMocksControl
+	Count: 1
+ 
+	Method name: createMock
+	Class origin: org.easymock.IMocksControl
+	Count: 2
+ 
+/myfaces-impl/src/test/java/jakarta/faces/component/UIGraphicTest.java
+Methods Invoked: 
+	Method name: createMock
+	Class origin: org.easymock.classextension.EasyMock
+	Count: 2
+ 
+/myfaces-impl/src/test/java/jakarta/faces/component/UIComponentBaseTest.java
+Methods Invoked: 
+	Method name: createControl
+	Class origin: org.easymock.classextension.EasyMock
+	Count: 1
+ 
+	Method name: createMock
+	Class origin: org.easymock.IMocksControl
+	Count: 9
+ 
+	Method name: createMock
+	Class origin: org.easymock.classextension.IMocksControl
+	Count: 2
+ 
+/myfaces-impl/src/test/java/jakarta/faces/component/UIComponentTest.java
+Methods Invoked: 
+	Method name: createMock
+	Class origin: org.easymock.classextension.IMocksControl
+	Count: 2
+ 
+	Method name: andReturn
+	Class origin: org.easymock.IExpectationSetters<java.util.Map<java.lang.String,jakarta.faces.component.UIComponent>>
+	Count: 2
+ 
+	Method name: expect
+	Class origin: org.easymock.EasyMock
+	Count: 3
+ 
+	Method name: replay
+	Class origin: org.easymock.IMocksControl
+	Count: 3
+ 
+	Method name: verify
+	Class origin: org.easymock.IMocksControl
+	Count: 3
+ 
+	Method name: reset
+	Class origin: org.easymock.IMocksControl
+	Count: 1
+ 
+/myfaces-impl/src/test/java/jakarta/faces/component/AbstractUIComponentBaseTest.java
+Methods Invoked: 
+	Method name: createControl
+	Class origin: org.easymock.classextension.EasyMock
+	Count: 1
+ 
+	Method name: createMock
+	Class origin: org.easymock.IMocksControl
+	Count: 2
+ 
+	Method name: createMock
+	Class origin: org.easymock.classextension.IMocksControl
+	Count: 1
+ 
+/myfaces-impl/src/test/java/jakarta/faces/component/UIComponentBaseProcessSaveRestoreStateTest.java
+Methods Invoked: 
+	Method name: createMock
+	Class origin: org.easymock.IMocksControl
+	Count: 2
+ 
+/myfaces-impl/src/test/java/jakarta/faces/component/UIComponentTestBase.java
+Methods Invoked: 
+	Method name: createNiceControl
+	Class origin: org.easymock.classextension.EasyMock
+	Count: 1
+ 
+	Method name: createMock
+	Class origin: org.easymock.IMocksControl
+	Count: 1
+ 
+/myfaces-impl/src/test/java/jakarta/faces/component/UIComponentBaseFacesListenerTest.java
+Methods Invoked: 
+	Method name: createMock
+	Class origin: org.easymock.IMocksControl
+	Count: 2
+ 
+/myfaces-impl/src/test/java/jakarta/faces/component/AbstractUIComponentPropertyTest.java
+Methods Invoked: 
+	Method name: createControl
+	Class origin: org.easymock.classextension.EasyMock
+	Count: 1
+ 
+	Method name: createMock
+	Class origin: org.easymock.IMocksControl
+	Count: 2
+ 
+/myfaces-impl/src/test/java/jakarta/faces/event/MethodExpressionActionListenerTest.java
+Methods Invoked: 
+	Method name: createNiceMock
+	Class origin: org.easymock.classextension.EasyMock
+	Count: 2
+ 
+	Method name: anyTimes
+	Class origin: org.easymock.IExpectationSetters<java.lang.Object>
+	Count: 1
+ 
+	Method name: andReturn
+	Class origin: org.easymock.IExpectationSetters<java.lang.Object>
+	Count: 3
+ 
+	Method name: expectLastCall
+	Class origin: org.easymock.EasyMock
+	Count: 4
+ 
+/myfaces-impl/src/test/java/jakarta/faces/event/MethodExpressionValueChangeListenerTest.java
+Methods Invoked: 
+	Method name: createNiceMock
+	Class origin: org.easymock.classextension.EasyMock
+	Count: 2
+ 
+	Method name: anyTimes
+	Class origin: org.easymock.IExpectationSetters<java.lang.Object>
+	Count: 1
+ 
+	Method name: andReturn
+	Class origin: org.easymock.IExpectationSetters<java.lang.Object>
+	Count: 3
+ 
+	Method name: expectLastCall
+	Class origin: org.easymock.EasyMock
+	Count: 4
+ 
+/myfaces-impl/src/test/java/jakarta/faces/validator/_MessageUtilsTest.java
+Methods Invoked: 
+	Method name: createControl
+	Class origin: org.easymock.classextension.EasyMock
+	Count: 1
+ 
+	Method name: createMock
+	Class origin: org.easymock.IMocksControl
+	Count: 6
+ 
+/myfaces-impl/src/test/java/org/apache/myfaces/application/ApplicationImplJsfTest.java
+Methods Invoked: 
+	Method name: createControl
+	Class origin: org.easymock.classextension.EasyMock
+	Count: 1
+ 
+	Method name: createMock
+	Class origin: org.easymock.IMocksControl
+	Count: 1
+ 
+/myfaces-impl/src/test/java/org/apache/myfaces/application/ApplicationImplTest.java
+Methods Invoked: 
+	Method name: createMock
+	Class origin: org.easymock.classextension.EasyMock
+	Count: 6
+ 
+/myfaces-impl/src/test/java/org/apache/myfaces/application/ResourceHandlerImplTest.java
+Methods Invoked: 
+	Method name: spy
+	Class origin: org.mockito.Mockito
+	Count: 12
+ 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<java.lang.Boolean>
+	Count: 3
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 12
+ 
+	Method name: any
+	Class origin: org.mockito.ArgumentMatchers
+	Count: 23
+ 
+/myfaces-impl/src/test/java/org/apache/myfaces/application/ViewIdSupportMockTest.java
+Methods Invoked: 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<jakarta.faces.context.ExternalContext>
+	Count: 1
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 13
+ 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<java.util.Map<java.lang.String,java.lang.Object>>
+	Count: 6
+ 
+/myfaces-impl/src/test/java/org/apache/myfaces/el/CompositeELResolverTest.java
+Methods Invoked: 
+	Method name: createControl
+	Class origin: org.easymock.classextension.EasyMock
+	Count: 1
+ 
+	Method name: createMock
+	Class origin: org.easymock.IMocksControl
+	Count: 3
+ 
+/myfaces-impl/src/test/java/org/apache/myfaces/el/ResolverBuilderBaseTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 4
+ 
+/myfaces-impl/src/test/java/org/apache/myfaces/event/PostAddToViewEventTestCase.java
+Methods Invoked: 
+	Method name: createMock
+	Class origin: org.easymock.EasyMock
+	Count: 9
+ 
+	Method name: isA
+	Class origin: org.easymock.EasyMock
+	Count: 9
+ 
+	Method name: once
+	Class origin: org.easymock.IExpectationSetters<java.lang.Object>
+	Count: 7
+ 
+	Method name: andAnswer
+	Class origin: org.easymock.IExpectationSetters<java.lang.Object>
+	Count: 12
+ 
+	Method name: expectLastCall
+	Class origin: org.easymock.EasyMock
+	Count: 12
+ 
+	Method name: getCurrentArguments
+	Class origin: org.easymock.EasyMock
+	Count: 7
+ 
+	Method name: replay
+	Class origin: org.easymock.EasyMock
+	Count: 9
+ 
+	Method name: verify
+	Class origin: org.easymock.EasyMock
+	Count: 9
+ 
+/myfaces-impl/src/test/java/org/apache/myfaces/lifecycle/RestoreViewExecutorTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 4
+ 
+/myfaces-impl/src/test/java/org/apache/myfaces/renderkit/RendererUtilsTest.java
+Methods Invoked: 
+	Method name: createNiceMock
+	Class origin: org.easymock.classextension.EasyMock
+	Count: 3
+ 
+/myfaces-impl/src/test/java/org/apache/myfaces/renderkit/html/HtmlResponseStateManagerTest.java
+Methods Invoked: 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<jakarta.faces.context.ExternalContext>
+	Count: 2
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 6
+ 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<java.util.Map<java.lang.String,java.lang.Object>>
+	Count: 2
+ 
+/myfaces-impl/src/test/java/org/apache/myfaces/test/FacesTestCase.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 4
+ 
+/myfaces-impl/src/test/java/org/apache/myfaces/test/mock/MockRunner.java
+Methods Invoked: 
+	Method name: replay
+	Class origin: org.easymock.IMocksControl
+	Count: 1
+ 
+	Method name: verify
+	Class origin: org.easymock.IMocksControl
+	Count: 1
+ 
+/myfaces-impl/src/test/java/org/apache/myfaces/view/facelets/ExceptionTestCase.java
+Methods Invoked: 
+	Method name: createMock
+	Class origin: org.easymock.classextension.EasyMock
+	Count: 5
+ 
+	Method name: andThrow
+	Class origin: org.easymock.IExpectationSetters<java.lang.Object>
+	Count: 8
+ 
+	Method name: expect
+	Class origin: org.easymock.EasyMock
+	Count: 3
+ 
+	Method name: replay
+	Class origin: org.easymock.classextension.EasyMock
+	Count: 8
+ 
+/myfaces-impl/src/test/java/org/apache/myfaces/view/facelets/component/UIRepeatTest.java
+Methods Invoked: 
+	Method name: createControl
+	Class origin: org.easymock.classextension.EasyMock
+	Count: 1
+ 
+/myfaces-impl/src/test/java/org/apache/myfaces/webapp/FacesELContextListenerTest.java
+Methods Invoked: 
+	Method name: createControl
+	Class origin: org.easymock.classextension.EasyMock
+	Count: 1
+ 
+	Method name: createMock
+	Class origin: org.easymock.IMocksControl
+	Count: 4
+ 

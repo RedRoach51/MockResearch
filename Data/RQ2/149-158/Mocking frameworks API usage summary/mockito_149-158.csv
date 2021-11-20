@@ -1,0 +1,20 @@
+method, origin, count
+thenReturn,org.mockito.stubbing.OngoingStubbing<com.github.maoo.indexer.client.AlfrescoResponse>,46
+when,org.mockito.Mockito,197
+anyInt,org.mockito.Matchers,32
+mock,org.mockito.Mockito,139
+any,org.mockito.Matchers,43
+verify,org.mockito.Mockito,59
+initMocks,org.mockito.MockitoAnnotations,4
+forClass,org.mockito.ArgumentCaptor,1
+capture,org.mockito.ArgumentCaptor<org.eclipse.aether.RepositoryEvent>,1
+getAllValues,org.mockito.ArgumentCaptor<org.eclipse.aether.RepositoryEvent>,1
+doReturn,org.mockito.Mockito,6
+anyMap,org.mockito.ArgumentMatchers,8
+same,org.mockito.Matchers,1
+verifyNoMoreInteractions,org.mockito.Mockito,20
+spy,org.mockito.Mockito,31
+getArguments,org.mockito.invocation.InvocationOnMock,3
+thenAnswer,org.mockito.stubbing.OngoingStubbing<java.lang.Boolean>,4
+doThrow,org.mockito.Mockito,2
+times,org.mockito.Mockito,2

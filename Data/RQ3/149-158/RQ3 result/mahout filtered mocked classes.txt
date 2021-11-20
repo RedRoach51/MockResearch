@@ -1,0 +1,8 @@
+Inside classes: 
+ 
+org.apache.mahout.math.Vector
+ 
+ 
+ 
+Outside classes: 
+ 

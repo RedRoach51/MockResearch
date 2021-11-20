@@ -1,0 +1,29 @@
+method, origin, count
+createControl,org.easymock.classextension.MockClassControl,20
+createMock,org.easymock.IMocksControl,82
+createNiceControl,org.easymock.classextension.EasyMock,3
+checkOrder,org.easymock.IMocksControl,2
+same,org.easymock.EasyMock,6
+mock,org.mockito.Mockito,13
+verify,org.mockito.Mockito,25
+times,org.mockito.Mockito,2
+andReturn,org.easymock.IExpectationSetters<java.util.Map<java.lang.String|jakarta.faces.component.UIComponent>>,8
+expect,org.easymock.EasyMock,6
+replay,org.easymock.IMocksControl,21
+reset,org.easymock.IMocksControl,1
+createNiceMock,org.easymock.classextension.EasyMock,7
+anyTimes,org.easymock.IExpectationSetters<java.lang.Object>,2
+expectLastCall,org.easymock.EasyMock,20
+spy,org.mockito.Mockito,12
+thenReturn,org.mockito.stubbing.OngoingStubbing<java.lang.Boolean>,14
+when,org.mockito.Mockito,31
+any,org.mockito.ArgumentMatchers,23
+isA,org.easymock.EasyMock,9
+once,org.easymock.IExpectationSetters<java.lang.Object>,7
+andAnswer,org.easymock.IExpectationSetters<java.lang.Object>,12
+getCurrentArguments,org.easymock.EasyMock,7
+andThrow,org.easymock.IExpectationSetters<java.lang.Object>,8
+
+MockedObjects: ,102
+
+# of Mocked objects each file:,4|1|1|1|3|1|8|2|1|2|2|9|2|2|2|1|2|1|2|2|2|2|6|1|6|3|4|9|4|3|4|5|4|

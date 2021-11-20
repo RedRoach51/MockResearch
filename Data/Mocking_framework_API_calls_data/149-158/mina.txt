@@ -1,0 +1,114 @@
+/mina-coap/src/test/java/org/apache/mina/coap/retry/CoapTransmissionTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<java.lang.Long>
+	Count: 1
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+/mina-coap/src/test/java/org/apache/mina/coap/retry/CoapRetryFilterTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 3
+ 
+/mina-core/src/test/java/org/apache/mina/filter/codec/ProtocolCodecFilterTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 8
+ 
+/mina-core/src/test/java/org/apache/mina/filter/query/RequestFilterTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 9
+ 
+	Method name: verify
+	Class origin: org.mockito.Mockito
+	Count: 10
+ 
+	Method name: same
+	Class origin: org.mockito.Matchers
+	Count: 1
+ 
+	Method name: any
+	Class origin: org.mockito.Matchers
+	Count: 1
+ 
+	Method name: verifyNoMoreInteractions
+	Class origin: org.mockito.Mockito
+	Count: 3
+ 
+/mina-core/src/test/java/org/apache/mina/service/executor/OrderedHandlerExecutorTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 2
+ 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<java.lang.Long>
+	Count: 1
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 2
+ 
+/mina-core/src/test/java/org/apache/mina/service/executor/HandlerCallerTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 10
+ 
+/mina-core/src/test/java/org/apache/mina/service/executor/UnorderHandlerExecutorTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 2
+ 
+/mina-core/src/test/java/org/apache/mina/service/idlecheker/IndexedIdleChekerTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 3
+ 
+/mina-core/src/test/java/org/apache/mina/session/AbstractIoSessionTest.java
+Methods Invoked: 
+	Method name: spy
+	Class origin: org.mockito.Mockito
+	Count: 4
+ 
+/mina-core/src/test/java/org/apache/mina/transport/nio/ProxySocketSessionConfigTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<java.lang.Boolean>
+	Count: 4
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 16
+ 
+	Method name: verify
+	Class origin: org.mockito.Mockito
+	Count: 17
+ 
+	Method name: verifyNoMoreInteractions
+	Class origin: org.mockito.Mockito
+	Count: 17
+ 
+/mina-core/src/test/java/org/apache/mina/util/AbstractIoFutureTest.java
+Methods Invoked: 
+	Method name: spy
+	Class origin: org.mockito.Mockito
+	Count: 15
+ 

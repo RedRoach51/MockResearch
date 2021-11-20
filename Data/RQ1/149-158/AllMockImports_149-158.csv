@@ -1,0 +1,305 @@
+Project Name,File Path,Mocking Framework,Imported Mock Line
+mahout,mahout\community\mahout-mr\integration\src\test\java\org\apache\mahout\cf\taste\impl\similarity\jdbc\MySQLJDBCInMemoryItemSimilarityTest.java,easymock,org.easymock.EasyMock
+mahout,mahout\community\mahout-mr\mr\src\test\java\org\apache\mahout\cf\taste\hadoop\item\RecommenderJobTest.java,easymock,org.easymock.IArgumentMatcher
+mahout,mahout\community\mahout-mr\mr\src\test\java\org\apache\mahout\cf\taste\hadoop\item\RecommenderJobTest.java,easymock,org.easymock.EasyMock
+mahout,mahout\community\mahout-mr\mr\src\test\java\org\apache\mahout\cf\taste\hadoop\item\ToUserVectorsReducerTest.java,easymock,org.easymock.EasyMock
+mahout,mahout\community\mahout-mr\mr\src\test\java\org\apache\mahout\cf\taste\hadoop\similarity\item\ItemSimilarityJobTest.java,easymock,org.easymock.EasyMock
+mahout,mahout\community\mahout-mr\mr\src\test\java\org\apache\mahout\cf\taste\impl\recommender\AllUnknownItemsCandidateItemsStrategyTest.java,easymock,org.easymock.EasyMock
+mahout,mahout\community\mahout-mr\mr\src\test\java\org\apache\mahout\cf\taste\impl\recommender\GenericItemBasedRecommenderTest.java,easymock,org.easymock.EasyMock
+mahout,mahout\community\mahout-mr\mr\src\test\java\org\apache\mahout\cf\taste\impl\recommender\PreferredItemsNeighborhoodCandidateItemsStrategyTest.java,easymock,org.easymock.EasyMock
+mahout,mahout\community\mahout-mr\mr\src\test\java\org\apache\mahout\cf\taste\impl\recommender\svd\SVDRecommenderTest.java,easymock,org.easymock.EasyMock
+mahout,mahout\community\mahout-mr\mr\src\test\java\org\apache\mahout\cf\taste\impl\similarity\precompute\MultithreadedBatchItemSimilaritiesTest.java,mockito,static org.mockito.Mockito.mock
+mahout,mahout\community\mahout-mr\mr\src\test\java\org\apache\mahout\classifier\df\mapreduce\partial\Step1MapperTest.java,easymock,org.easymock.EasyMock
+mahout,mahout\community\mahout-mr\mr\src\test\java\org\apache\mahout\classifier\df\mapreduce\partial\Step1MapperTest.java,easymock,org.easymock.Capture
+mahout,mahout\community\mahout-mr\mr\src\test\java\org\apache\mahout\classifier\df\mapreduce\partial\Step1MapperTest.java,easymock,org.easymock.CaptureType
+mahout,mahout\community\mahout-mr\mr\src\test\java\org\apache\mahout\classifier\naivebayes\training\IndexInstancesMapperTest.java,easymock,org.easymock.EasyMock
+mahout,mahout\community\mahout-mr\mr\src\test\java\org\apache\mahout\classifier\naivebayes\training\ThetaMapperTest.java,easymock,org.easymock.EasyMock
+mahout,mahout\community\mahout-mr\mr\src\test\java\org\apache\mahout\classifier\naivebayes\training\WeightsMapperTest.java,easymock,org.easymock.EasyMock
+mahout,mahout\community\mahout-mr\mr\src\test\java\org\apache\mahout\common\DummyStatusReporter.java,easymock,org.easymock.EasyMock
+mahout,mahout\community\mahout-mr\mr\src\test\java\org\apache\mahout\math\hadoop\MathHelper.java,easymock,org.easymock.EasyMock
+mahout,mahout\community\mahout-mr\mr\src\test\java\org\apache\mahout\math\hadoop\MathHelper.java,easymock,org.easymock.IArgumentMatcher
+mahout,mahout\community\mahout-mr\mr\src\test\java\org\apache\mahout\math\hadoop\similarity\TestVectorDistanceSimilarityJob.java,easymock,org.easymock.EasyMock
+mahout,mahout\community\mahout-mr\mr\src\test\java\org\apache\mahout\vectorizer\collocations\llr\CollocMapperTest.java,easymock,org.easymock.EasyMock
+mahout,mahout\community\mahout-mr\mr\src\test\java\org\apache\mahout\vectorizer\collocations\llr\CollocReducerTest.java,easymock,org.easymock.EasyMock
+mahout,mahout\community\mahout-mr\mr\src\test\java\org\apache\mahout\vectorizer\collocations\llr\LLRReducerTest.java,easymock,org.easymock.EasyMock
+mahout,mahout\core\src\test\java\org\apache\mahout\math\VectorBinaryAggregateCostTest.java,easymock,org.easymock.EasyMock
+mahout,mahout\core\src\test\java\org\apache\mahout\math\VectorBinaryAggregateCostTest.java,easymock,static org.easymock.EasyMock.expect
+mahout,mahout\core\src\test\java\org\apache\mahout\math\VectorBinaryAggregateCostTest.java,easymock,static org.easymock.EasyMock.replay
+mahout,mahout\core\src\test\java\org\apache\mahout\math\VectorBinaryAssignCostTest.java,easymock,org.easymock.EasyMock
+mahout,mahout\core\src\test\java\org\apache\mahout\math\VectorBinaryAssignCostTest.java,easymock,static org.easymock.EasyMock.expect
+mahout,mahout\core\src\test\java\org\apache\mahout\math\VectorBinaryAssignCostTest.java,easymock,static org.easymock.EasyMock.replay
+manifoldcf,manifoldcf\connectors\alfresco-webscript\connector\src\test\java\org\apache\manifoldcf\authorities\authorities\alfrescowebscript\AlfrescoAuthorityConnectorTest.java,mockito,org.mockito.Mock
+manifoldcf,manifoldcf\connectors\alfresco-webscript\connector\src\test\java\org\apache\manifoldcf\authorities\authorities\alfrescowebscript\AlfrescoAuthorityConnectorTest.java,mockito,org.mockito.runners.MockitoJUnitRunner
+manifoldcf,manifoldcf\connectors\alfresco-webscript\connector\src\test\java\org\apache\manifoldcf\crawler\connectors\alfrescowebscript\AlfrescoConnectorTest.java,mockito,static org.mockito.Matchers.any
+manifoldcf,manifoldcf\connectors\alfresco-webscript\connector\src\test\java\org\apache\manifoldcf\crawler\connectors\alfrescowebscript\AlfrescoConnectorTest.java,mockito,static org.mockito.Matchers.anyInt
+manifoldcf,manifoldcf\connectors\alfresco-webscript\connector\src\test\java\org\apache\manifoldcf\crawler\connectors\alfrescowebscript\AlfrescoConnectorTest.java,mockito,static org.mockito.Matchers.anyLong
+manifoldcf,manifoldcf\connectors\alfresco-webscript\connector\src\test\java\org\apache\manifoldcf\crawler\connectors\alfrescowebscript\AlfrescoConnectorTest.java,mockito,static org.mockito.Matchers.anyString
+manifoldcf,manifoldcf\connectors\alfresco-webscript\connector\src\test\java\org\apache\manifoldcf\crawler\connectors\alfrescowebscript\AlfrescoConnectorTest.java,mockito,static org.mockito.Matchers.anyObject
+manifoldcf,manifoldcf\connectors\alfresco-webscript\connector\src\test\java\org\apache\manifoldcf\crawler\connectors\alfrescowebscript\AlfrescoConnectorTest.java,mockito,static org.mockito.Matchers.eq
+manifoldcf,manifoldcf\connectors\alfresco-webscript\connector\src\test\java\org\apache\manifoldcf\crawler\connectors\alfrescowebscript\AlfrescoConnectorTest.java,mockito,static org.mockito.Mockito.mock
+manifoldcf,manifoldcf\connectors\alfresco-webscript\connector\src\test\java\org\apache\manifoldcf\crawler\connectors\alfrescowebscript\AlfrescoConnectorTest.java,mockito,static org.mockito.Mockito.never
+manifoldcf,manifoldcf\connectors\alfresco-webscript\connector\src\test\java\org\apache\manifoldcf\crawler\connectors\alfrescowebscript\AlfrescoConnectorTest.java,mockito,static org.mockito.Mockito.times
+manifoldcf,manifoldcf\connectors\alfresco-webscript\connector\src\test\java\org\apache\manifoldcf\crawler\connectors\alfrescowebscript\AlfrescoConnectorTest.java,mockito,static org.mockito.Mockito.verify
+manifoldcf,manifoldcf\connectors\alfresco-webscript\connector\src\test\java\org\apache\manifoldcf\crawler\connectors\alfrescowebscript\AlfrescoConnectorTest.java,mockito,static org.mockito.Mockito.when
+manifoldcf,manifoldcf\connectors\alfresco-webscript\connector\src\test\java\org\apache\manifoldcf\crawler\connectors\alfrescowebscript\AlfrescoConnectorTest.java,mockito,org.mockito.ArgumentCaptor
+manifoldcf,manifoldcf\connectors\alfresco-webscript\connector\src\test\java\org\apache\manifoldcf\crawler\connectors\alfrescowebscript\AlfrescoConnectorTest.java,mockito,org.mockito.Mock
+manifoldcf,manifoldcf\connectors\alfresco-webscript\connector\src\test\java\org\apache\manifoldcf\crawler\connectors\alfrescowebscript\AlfrescoConnectorTest.java,mockito,org.mockito.Mockito
+manifoldcf,manifoldcf\connectors\alfresco-webscript\connector\src\test\java\org\apache\manifoldcf\crawler\connectors\alfrescowebscript\AlfrescoConnectorTest.java,mockito,org.mockito.runners.MockitoJUnitRunner
+manifoldcf,manifoldcf\connectors\confluence-v6\connector\src\test\java\org\apache\manifoldcf\authorities\confluence\tests\ConfluenceAuthorityTest.java,mockito,static org.mockito.Matchers.anyString
+manifoldcf,manifoldcf\connectors\confluence-v6\connector\src\test\java\org\apache\manifoldcf\authorities\confluence\tests\ConfluenceAuthorityTest.java,mockito,static org.mockito.Mockito.mock
+manifoldcf,manifoldcf\connectors\confluence-v6\connector\src\test\java\org\apache\manifoldcf\authorities\confluence\tests\ConfluenceAuthorityTest.java,mockito,static org.mockito.Mockito.when
+manifoldcf,manifoldcf\connectors\confluence-v6\connector\src\test\java\org\apache\manifoldcf\authorities\confluence\tests\ConfluenceAuthorityTest.java,mockito,org.mockito.Mock
+manifoldcf,manifoldcf\connectors\confluence-v6\connector\src\test\java\org\apache\manifoldcf\authorities\confluence\tests\ConfluenceAuthorityTest.java,mockito,org.mockito.runners.MockitoJUnitRunner
+manifoldcf,manifoldcf\connectors\confluence-v6\connector\src\test\java\org\apache\manifoldcf\crawler\connectors\confluence\tests\ConfluenceConnectorTest.java,mockito,static org.mockito.Matchers.anyInt
+manifoldcf,manifoldcf\connectors\confluence-v6\connector\src\test\java\org\apache\manifoldcf\crawler\connectors\confluence\tests\ConfluenceConnectorTest.java,mockito,static org.mockito.Matchers.anyLong
+manifoldcf,manifoldcf\connectors\confluence-v6\connector\src\test\java\org\apache\manifoldcf\crawler\connectors\confluence\tests\ConfluenceConnectorTest.java,mockito,static org.mockito.Matchers.anyObject
+manifoldcf,manifoldcf\connectors\confluence-v6\connector\src\test\java\org\apache\manifoldcf\crawler\connectors\confluence\tests\ConfluenceConnectorTest.java,mockito,static org.mockito.Matchers.anyString
+manifoldcf,manifoldcf\connectors\confluence-v6\connector\src\test\java\org\apache\manifoldcf\crawler\connectors\confluence\tests\ConfluenceConnectorTest.java,mockito,static org.mockito.Matchers.eq
+manifoldcf,manifoldcf\connectors\confluence-v6\connector\src\test\java\org\apache\manifoldcf\crawler\connectors\confluence\tests\ConfluenceConnectorTest.java,mockito,static org.mockito.Mockito.mock
+manifoldcf,manifoldcf\connectors\confluence-v6\connector\src\test\java\org\apache\manifoldcf\crawler\connectors\confluence\tests\ConfluenceConnectorTest.java,mockito,static org.mockito.Mockito.times
+manifoldcf,manifoldcf\connectors\confluence-v6\connector\src\test\java\org\apache\manifoldcf\crawler\connectors\confluence\tests\ConfluenceConnectorTest.java,mockito,static org.mockito.Mockito.verify
+manifoldcf,manifoldcf\connectors\confluence-v6\connector\src\test\java\org\apache\manifoldcf\crawler\connectors\confluence\tests\ConfluenceConnectorTest.java,mockito,static org.mockito.Mockito.when
+manifoldcf,manifoldcf\connectors\confluence-v6\connector\src\test\java\org\apache\manifoldcf\crawler\connectors\confluence\tests\ConfluenceConnectorTest.java,mockito,org.mockito.ArgumentCaptor
+manifoldcf,manifoldcf\connectors\confluence-v6\connector\src\test\java\org\apache\manifoldcf\crawler\connectors\confluence\tests\ConfluenceConnectorTest.java,mockito,org.mockito.Mock
+manifoldcf,manifoldcf\connectors\confluence-v6\connector\src\test\java\org\apache\manifoldcf\crawler\connectors\confluence\tests\ConfluenceConnectorTest.java,mockito,org.mockito.Mockito
+manifoldcf,manifoldcf\connectors\confluence-v6\connector\src\test\java\org\apache\manifoldcf\crawler\connectors\confluence\tests\ConfluenceConnectorTest.java,mockito,org.mockito.runners.MockitoJUnitRunner
+manifoldcf,manifoldcf\connectors\confluence\connector\src\test\java\org\apache\manifoldcf\authorities\confluence\tests\ConfluenceAuthorityTest.java,mockito,static org.mockito.Matchers.anyString
+manifoldcf,manifoldcf\connectors\confluence\connector\src\test\java\org\apache\manifoldcf\authorities\confluence\tests\ConfluenceAuthorityTest.java,mockito,static org.mockito.Mockito.mock
+manifoldcf,manifoldcf\connectors\confluence\connector\src\test\java\org\apache\manifoldcf\authorities\confluence\tests\ConfluenceAuthorityTest.java,mockito,static org.mockito.Mockito.when
+manifoldcf,manifoldcf\connectors\confluence\connector\src\test\java\org\apache\manifoldcf\authorities\confluence\tests\ConfluenceAuthorityTest.java,mockito,org.mockito.Mock
+manifoldcf,manifoldcf\connectors\confluence\connector\src\test\java\org\apache\manifoldcf\authorities\confluence\tests\ConfluenceAuthorityTest.java,mockito,org.mockito.runners.MockitoJUnitRunner
+manifoldcf,manifoldcf\connectors\confluence\connector\src\test\java\org\apache\manifoldcf\crawler\connectors\confluence\tests\ConfluenceConnectorTest.java,mockito,static org.mockito.Matchers.anyInt
+manifoldcf,manifoldcf\connectors\confluence\connector\src\test\java\org\apache\manifoldcf\crawler\connectors\confluence\tests\ConfluenceConnectorTest.java,mockito,static org.mockito.Matchers.anyLong
+manifoldcf,manifoldcf\connectors\confluence\connector\src\test\java\org\apache\manifoldcf\crawler\connectors\confluence\tests\ConfluenceConnectorTest.java,mockito,static org.mockito.Matchers.anyObject
+manifoldcf,manifoldcf\connectors\confluence\connector\src\test\java\org\apache\manifoldcf\crawler\connectors\confluence\tests\ConfluenceConnectorTest.java,mockito,static org.mockito.Matchers.anyString
+manifoldcf,manifoldcf\connectors\confluence\connector\src\test\java\org\apache\manifoldcf\crawler\connectors\confluence\tests\ConfluenceConnectorTest.java,mockito,static org.mockito.Matchers.eq
+manifoldcf,manifoldcf\connectors\confluence\connector\src\test\java\org\apache\manifoldcf\crawler\connectors\confluence\tests\ConfluenceConnectorTest.java,mockito,static org.mockito.Mockito.mock
+manifoldcf,manifoldcf\connectors\confluence\connector\src\test\java\org\apache\manifoldcf\crawler\connectors\confluence\tests\ConfluenceConnectorTest.java,mockito,static org.mockito.Mockito.times
+manifoldcf,manifoldcf\connectors\confluence\connector\src\test\java\org\apache\manifoldcf\crawler\connectors\confluence\tests\ConfluenceConnectorTest.java,mockito,static org.mockito.Mockito.verify
+manifoldcf,manifoldcf\connectors\confluence\connector\src\test\java\org\apache\manifoldcf\crawler\connectors\confluence\tests\ConfluenceConnectorTest.java,mockito,static org.mockito.Mockito.when
+manifoldcf,manifoldcf\connectors\confluence\connector\src\test\java\org\apache\manifoldcf\crawler\connectors\confluence\tests\ConfluenceConnectorTest.java,mockito,org.mockito.ArgumentCaptor
+manifoldcf,manifoldcf\connectors\confluence\connector\src\test\java\org\apache\manifoldcf\crawler\connectors\confluence\tests\ConfluenceConnectorTest.java,mockito,org.mockito.Mock
+manifoldcf,manifoldcf\connectors\confluence\connector\src\test\java\org\apache\manifoldcf\crawler\connectors\confluence\tests\ConfluenceConnectorTest.java,mockito,org.mockito.Mockito
+manifoldcf,manifoldcf\connectors\confluence\connector\src\test\java\org\apache\manifoldcf\crawler\connectors\confluence\tests\ConfluenceConnectorTest.java,mockito,org.mockito.runners.MockitoJUnitRunner
+manifoldcf,manifoldcf\connectors\kafka\connector\src\test\java\org\apache\manifoldcf\agents\output\kafka\KafkaConnectorTest.java,mockito,org.mockito.Mock
+manifoldcf,manifoldcf\connectors\kafka\connector\src\test\java\org\apache\manifoldcf\agents\output\kafka\KafkaConnectorTest.java,mockito,org.mockito.Mockito
+manifoldcf,manifoldcf\connectors\kafka\connector\src\test\java\org\apache\manifoldcf\agents\output\kafka\KafkaConnectorTest.java,mockito,static org.mockito.Mockito.verify
+manifoldcf,manifoldcf\connectors\kafka\connector\src\test\java\org\apache\manifoldcf\agents\output\kafka\KafkaConnectorTest.java,mockito,static org.mockito.Mockito.mock
+manifoldcf,manifoldcf\connectors\kafka\connector\src\test\java\org\apache\manifoldcf\agents\output\kafka\KafkaConnectorTest.java,mockito,static org.mockito.Mockito.when
+manifoldcf,manifoldcf\connectors\kafka\connector\src\test\java\org\apache\manifoldcf\agents\output\kafka\KafkaConnectorTest.java,mockito,org.mockito.runners.MockitoJUnitRunner
+manifoldcf,manifoldcf\connectors\nuxeo\connector\src\test\java\org\apache\manifoldcf\authorities\authorities\nuxeo\NuxeoAuthorityTest.java,mockito,org.mockito.Mock
+manifoldcf,manifoldcf\connectors\nuxeo\connector\src\test\java\org\apache\manifoldcf\authorities\authorities\nuxeo\NuxeoAuthorityTest.java,mockito,static org.mockito.Mockito.mock
+manifoldcf,manifoldcf\connectors\nuxeo\connector\src\test\java\org\apache\manifoldcf\authorities\authorities\nuxeo\NuxeoAuthorityTest.java,mockito,static org.mockito.Mockito.when
+manifoldcf,manifoldcf\connectors\nuxeo\connector\src\test\java\org\apache\manifoldcf\authorities\authorities\nuxeo\NuxeoAuthorityTest.java,mockito,static org.mockito.Matchers.anyString
+manifoldcf,manifoldcf\connectors\nuxeo\connector\src\test\java\org\apache\manifoldcf\authorities\authorities\nuxeo\NuxeoAuthorityTest.java,mockito,org.mockito.runners.MockitoJUnitRunner
+manifoldcf,manifoldcf\connectors\nuxeo\connector\src\test\java\org\apache\manifoldcf\crawler\connectors\nuxeo\NuxeoConnectorTest.java,mockito,static org.mockito.Matchers.*
+manifoldcf,manifoldcf\connectors\nuxeo\connector\src\test\java\org\apache\manifoldcf\crawler\connectors\nuxeo\NuxeoConnectorTest.java,mockito,static org.mockito.Mockito.mock
+manifoldcf,manifoldcf\connectors\nuxeo\connector\src\test\java\org\apache\manifoldcf\crawler\connectors\nuxeo\NuxeoConnectorTest.java,mockito,static org.mockito.Mockito.when
+manifoldcf,manifoldcf\connectors\nuxeo\connector\src\test\java\org\apache\manifoldcf\crawler\connectors\nuxeo\NuxeoConnectorTest.java,mockito,static org.mockito.Mockito.times
+manifoldcf,manifoldcf\connectors\nuxeo\connector\src\test\java\org\apache\manifoldcf\crawler\connectors\nuxeo\NuxeoConnectorTest.java,mockito,static org.mockito.Mockito.verify
+manifoldcf,manifoldcf\connectors\nuxeo\connector\src\test\java\org\apache\manifoldcf\crawler\connectors\nuxeo\NuxeoConnectorTest.java,mockito,org.mockito.ArgumentCaptor
+manifoldcf,manifoldcf\connectors\nuxeo\connector\src\test\java\org\apache\manifoldcf\crawler\connectors\nuxeo\NuxeoConnectorTest.java,mockito,org.mockito.Mock
+manifoldcf,manifoldcf\connectors\nuxeo\connector\src\test\java\org\apache\manifoldcf\crawler\connectors\nuxeo\NuxeoConnectorTest.java,mockito,org.mockito.Mockito
+manifoldcf,manifoldcf\connectors\nuxeo\connector\src\test\java\org\apache\manifoldcf\crawler\connectors\nuxeo\NuxeoConnectorTest.java,mockito,org.mockito.runners.MockitoJUnitRunner
+manifoldcf,manifoldcf\connectors\webcrawler\connector\src\test\java\org\apache\manifoldcf\crawler\connectors\webcrawler\ProcessActivityHTMLHandlerTest.java,mockito,static org.mockito.Mockito.mock
+maven,maven\maven-compat\src\test\java\org\apache\maven\artifact\deployer\ArtifactDeployerTest.java,mockito,static org.mockito.Mockito.mock
+maven,maven\maven-compat\src\test\java\org\apache\maven\artifact\installer\ArtifactInstallerTest.java,mockito,static org.mockito.Mockito.mock
+maven,maven\maven-core\src\test\java\org\apache\maven\artifact\resolver\filter\ExclusionArtifactFilterTest.java,mockito,static org.mockito.Mockito.mock
+maven,maven\maven-core\src\test\java\org\apache\maven\artifact\resolver\filter\ExclusionArtifactFilterTest.java,mockito,static org.mockito.Mockito.when
+maven,maven\maven-core\src\test\java\org\apache\maven\graph\DefaultGraphBuilderTest.java,mockito,static org.mockito.ArgumentMatchers.any
+maven,maven\maven-core\src\test\java\org\apache\maven\graph\DefaultGraphBuilderTest.java,mockito,static org.mockito.ArgumentMatchers.anyBoolean
+maven,maven\maven-core\src\test\java\org\apache\maven\graph\DefaultGraphBuilderTest.java,mockito,static org.mockito.ArgumentMatchers.anyList
+maven,maven\maven-core\src\test\java\org\apache\maven\graph\DefaultGraphBuilderTest.java,mockito,static org.mockito.Mockito.mock
+maven,maven\maven-core\src\test\java\org\apache\maven\graph\DefaultGraphBuilderTest.java,mockito,static org.mockito.Mockito.when
+maven,maven\maven-core\src\test\java\org\apache\maven\lifecycle\internal\builder\BuilderCommonTest.java,mockito,static org.mockito.Mockito.mock
+maven,maven\maven-core\src\test\java\org\apache\maven\lifecycle\internal\builder\BuilderCommonTest.java,mockito,static org.mockito.Mockito.verify
+maven,maven\maven-core\src\test\java\org\apache\maven\toolchain\DefaultToolchainManagerPrivateTest.java,mockito,static org.mockito.ArgumentMatchers.anyString
+maven,maven\maven-core\src\test\java\org\apache\maven\toolchain\DefaultToolchainManagerPrivateTest.java,mockito,static org.mockito.Mockito.mock
+maven,maven\maven-core\src\test\java\org\apache\maven\toolchain\DefaultToolchainManagerPrivateTest.java,mockito,static org.mockito.Mockito.never
+maven,maven\maven-core\src\test\java\org\apache\maven\toolchain\DefaultToolchainManagerPrivateTest.java,mockito,static org.mockito.Mockito.verify
+maven,maven\maven-core\src\test\java\org\apache\maven\toolchain\DefaultToolchainManagerPrivateTest.java,mockito,static org.mockito.Mockito.when
+maven,maven\maven-core\src\test\java\org\apache\maven\toolchain\DefaultToolchainManagerPrivateTest.java,mockito,org.mockito.InjectMocks
+maven,maven\maven-core\src\test\java\org\apache\maven\toolchain\DefaultToolchainManagerPrivateTest.java,mockito,org.mockito.Mock
+maven,maven\maven-core\src\test\java\org\apache\maven\toolchain\DefaultToolchainManagerPrivateTest.java,mockito,org.mockito.MockitoAnnotations
+maven,maven\maven-core\src\test\java\org\apache\maven\toolchain\DefaultToolchainManagerTest.java,mockito,static org.mockito.Matchers.isA
+maven,maven\maven-core\src\test\java\org\apache\maven\toolchain\DefaultToolchainManagerTest.java,mockito,static org.mockito.Mockito.mock
+maven,maven\maven-core\src\test\java\org\apache\maven\toolchain\DefaultToolchainManagerTest.java,mockito,static org.mockito.Mockito.verify
+maven,maven\maven-core\src\test\java\org\apache\maven\toolchain\DefaultToolchainManagerTest.java,mockito,static org.mockito.Mockito.when
+maven,maven\maven-core\src\test\java\org\apache\maven\toolchain\DefaultToolchainManagerTest.java,mockito,org.mockito.ArgumentMatchers
+maven,maven\maven-core\src\test\java\org\apache\maven\toolchain\DefaultToolchainManagerTest.java,mockito,org.mockito.InjectMocks
+maven,maven\maven-core\src\test\java\org\apache\maven\toolchain\DefaultToolchainManagerTest.java,mockito,org.mockito.Mock
+maven,maven\maven-core\src\test\java\org\apache\maven\toolchain\DefaultToolchainManagerTest.java,mockito,org.mockito.MockitoAnnotations
+maven,maven\maven-core\src\test\java\org\apache\maven\toolchain\DefaultToolchainTest.java,mockito,static org.mockito.Mockito.mock
+maven,maven\maven-core\src\test\java\org\apache\maven\toolchain\DefaultToolchainTest.java,mockito,static org.mockito.Mockito.verify
+maven,maven\maven-core\src\test\java\org\apache\maven\toolchain\DefaultToolchainTest.java,mockito,org.mockito.MockitoAnnotations
+maven,maven\maven-embedder\src\test\java\org\apache\maven\cli\MavenCliTest.java,mockito,static org.mockito.ArgumentMatchers.any
+maven,maven\maven-embedder\src\test\java\org\apache\maven\cli\MavenCliTest.java,mockito,static org.mockito.Mockito.inOrder
+maven,maven\maven-embedder\src\test\java\org\apache\maven\cli\MavenCliTest.java,mockito,static org.mockito.Mockito.mock
+maven,maven\maven-embedder\src\test\java\org\apache\maven\cli\MavenCliTest.java,mockito,static org.mockito.Mockito.times
+maven,maven\maven-embedder\src\test\java\org\apache\maven\cli\MavenCliTest.java,mockito,org.mockito.InOrder
+maven,maven\maven-embedder\src\test\java\org\apache\maven\cli\event\ExecutionEventLoggerTest.java,mockito,static org.mockito.Mockito.inOrder
+maven,maven\maven-embedder\src\test\java\org\apache\maven\cli\event\ExecutionEventLoggerTest.java,mockito,static org.mockito.Mockito.mock
+maven,maven\maven-embedder\src\test\java\org\apache\maven\cli\event\ExecutionEventLoggerTest.java,mockito,static org.mockito.Mockito.when
+maven,maven\maven-embedder\src\test\java\org\apache\maven\cli\event\ExecutionEventLoggerTest.java,mockito,org.mockito.InOrder
+maven,maven\maven-embedder\src\test\java\org\apache\maven\cli\event\ExecutionEventLoggerTest.java,mockito,org.mockito.Mockito
+maven,maven\maven-model-transform\src\test\java\org\apache\maven\model\transform\sax\CommentRenormalizerTest.java,mockito,static org.mockito.Mockito.mock
+maven,maven\maven-model-transform\src\test\java\org\apache\maven\model\transform\sax\CommentRenormalizerTest.java,mockito,static org.mockito.Mockito.verify
+maven,maven\maven-resolver-provider\src\test\java\org\apache\maven\repository\internal\DefaultArtifactDescriptorReaderTest.java,mockito,org.mockito.ArgumentCaptor
+maven,maven\maven-resolver-provider\src\test\java\org\apache\maven\repository\internal\DefaultArtifactDescriptorReaderTest.java,mockito,static org.mockito.Mockito.mock
+maven,maven\maven-resolver-provider\src\test\java\org\apache\maven\repository\internal\DefaultArtifactDescriptorReaderTest.java,mockito,static org.mockito.Mockito.verify
+maven,maven\maven-toolchain-builder\src\test\java\org\apache\maven\toolchain\building\DefaultToolchainsBuilderTest.java,mockito,org.mockito.ArgumentMatchers
+maven,maven\maven-toolchain-builder\src\test\java\org\apache\maven\toolchain\building\DefaultToolchainsBuilderTest.java,mockito,org.mockito.InjectMocks
+maven,maven\maven-toolchain-builder\src\test\java\org\apache\maven\toolchain\building\DefaultToolchainsBuilderTest.java,mockito,org.mockito.MockitoAnnotations
+maven,maven\maven-toolchain-builder\src\test\java\org\apache\maven\toolchain\building\DefaultToolchainsBuilderTest.java,mockito,org.mockito.Spy
+maven,maven\maven-toolchain-builder\src\test\java\org\apache\maven\toolchain\building\DefaultToolchainsBuilderTest.java,mockito,static org.mockito.ArgumentMatchers.any
+maven,maven\maven-toolchain-builder\src\test\java\org\apache\maven\toolchain\building\DefaultToolchainsBuilderTest.java,mockito,static org.mockito.Mockito.doReturn
+maven,maven\maven-toolchain-builder\src\test\java\org\apache\maven\toolchain\building\DefaultToolchainsBuilderTest.java,mockito,static org.mockito.Mockito.doThrow
+maven,maven\maven-wrapper\src\test\java\org\apache\maven\wrapper\InstallerTest.java,mockito,static org.mockito.Mockito.mock
+maven,maven\maven-wrapper\src\test\java\org\apache\maven\wrapper\InstallerTest.java,mockito,static org.mockito.Mockito.when
+maven,maven\maven-wrapper\src\test\java\org\apache\maven\wrapper\WrapperExecutorTest.java,mockito,static org.mockito.Mockito.mock
+maven,maven\maven-wrapper\src\test\java\org\apache\maven\wrapper\WrapperExecutorTest.java,mockito,static org.mockito.Mockito.verify
+maven,maven\maven-wrapper\src\test\java\org\apache\maven\wrapper\WrapperExecutorTest.java,mockito,static org.mockito.Mockito.when
+maven,maven\maven-wrapper\src\test\java\org\apache\maven\wrapper\WrapperExecutorTest.java,mockito,org.mockito.Mockito
+metamodel,metamodel\core\src\test\java\org\apache\metamodel\MetaModelTestCase.java,easymock,org.easymock.EasyMock
+metamodel,metamodel\core\src\test\java\org\apache\metamodel\data\DataSetIteratorTest.java,easymock,org.easymock.EasyMock
+metamodel,metamodel\core\src\test\java\org\apache\metamodel\query\builder\GroupedQueryBuilderImplTest.java,easymock,org.easymock.EasyMock
+metamodel,metamodel\elasticsearch\rest\src\test\java\org\apache\metamodel\elasticsearch\rest\ElasticSearchRestDataSetTest.java,easymock,static org.easymock.EasyMock.*
+metamodel,metamodel\elasticsearch\rest\src\test\java\org\apache\metamodel\elasticsearch\rest\ElasticSearchRestDataSetTest.java,easymock,org.easymock.EasyMock
+metamodel,metamodel\excel\src\test\java\org\apache\metamodel\excel\ZeroBasedRowIteratorTest.java,easymock,org.easymock.EasyMock
+metamodel,metamodel\jdbc\src\test\java\org\apache\metamodel\dialects\HiveQueryRewriterTest.java,easymock,org.easymock.EasyMock
+metamodel,metamodel\jdbc\src\test\java\org\apache\metamodel\dialects\ImpalaQueryRewriterTest.java,easymock,org.easymock.EasyMock
+metamodel,metamodel\jdbc\src\test\java\org\apache\metamodel\dialects\SQLServerQueryRewriterTest.java,easymock,org.easymock.EasyMock
+metamodel,metamodel\jdbc\src\test\java\org\apache\metamodel\jdbc\JdbcDataContextTest.java,easymock,org.easymock.EasyMock
+metamodel,metamodel\jdbc\src\test\java\org\apache\metamodel\jdbc\dialects\OracleQueryRewriterTest.java,easymock,org.easymock.EasyMock
+metamodel,metamodel\jdbc\src\test\java\org\apache\metamodel\jdbc\dialects\PostgresqlQueryRewriterTest.java,easymock,org.easymock.EasyMock
+metamodel,metamodel\kafka\src\test\java\org\apache\metamodel\kafka\KafkaDataContextTest.java,easymock,org.easymock.Capture
+metamodel,metamodel\kafka\src\test\java\org\apache\metamodel\kafka\KafkaDataContextTest.java,easymock,org.easymock.EasyMock
+metamodel,metamodel\kafka\src\test\java\org\apache\metamodel\kafka\KafkaDataContextTest.java,easymock,org.easymock.EasyMockSupport
+mina,mina\coap\src\test\java\org\apache\mina\coap\retry\CoapRetryFilterTest.java,mockito,static org.mockito.Matchers.any
+mina,mina\coap\src\test\java\org\apache\mina\coap\retry\CoapRetryFilterTest.java,mockito,static org.mockito.Mockito.*
+mina,mina\coap\src\test\java\org\apache\mina\coap\retry\CoapRetryFilterTest.java,mockito,org.mockito.Mockito
+mina,mina\coap\src\test\java\org\apache\mina\coap\retry\CoapTransmissionTest.java,mockito,org.mockito.Mockito
+mina,mina\core\src\test\java\org\apache\mina\filter\codec\ProtocolCodecFilterTest.java,mockito,static org.mockito.Mockito.*
+mina,mina\core\src\test\java\org\apache\mina\filter\query\RequestFilterTest.java,mockito,static org.mockito.Matchers.*
+mina,mina\core\src\test\java\org\apache\mina\filter\query\RequestFilterTest.java,mockito,static org.mockito.Mockito.*
+mina,mina\core\src\test\java\org\apache\mina\service\executor\HandlerCallerTest.java,mockito,static org.mockito.Mockito.mock
+mina,mina\core\src\test\java\org\apache\mina\service\executor\HandlerCallerTest.java,mockito,static org.mockito.Mockito.verify
+mina,mina\core\src\test\java\org\apache\mina\service\executor\HandlerCallerTest.java,mockito,static org.mockito.Mockito.verifyNoMoreInteractions
+mina,mina\core\src\test\java\org\apache\mina\service\executor\HandlerCallerTest.java,mockito,static org.mockito.Mockito.when
+mina,mina\core\src\test\java\org\apache\mina\service\executor\OrderedHandlerExecutorTest.java,mockito,static org.mockito.Matchers.any
+mina,mina\core\src\test\java\org\apache\mina\service\executor\OrderedHandlerExecutorTest.java,mockito,static org.mockito.Mockito.mock
+mina,mina\core\src\test\java\org\apache\mina\service\executor\OrderedHandlerExecutorTest.java,mockito,static org.mockito.Mockito.verify
+mina,mina\core\src\test\java\org\apache\mina\service\executor\OrderedHandlerExecutorTest.java,mockito,static org.mockito.Mockito.verifyNoMoreInteractions
+mina,mina\core\src\test\java\org\apache\mina\service\executor\OrderedHandlerExecutorTest.java,mockito,static org.mockito.Mockito.when
+mina,mina\core\src\test\java\org\apache\mina\service\executor\UnorderHandlerExecutorTest.java,mockito,static org.mockito.Matchers.any
+mina,mina\core\src\test\java\org\apache\mina\service\executor\UnorderHandlerExecutorTest.java,mockito,static org.mockito.Mockito.mock
+mina,mina\core\src\test\java\org\apache\mina\service\executor\UnorderHandlerExecutorTest.java,mockito,static org.mockito.Mockito.verify
+mina,mina\core\src\test\java\org\apache\mina\service\executor\UnorderHandlerExecutorTest.java,mockito,org.mockito.ArgumentCaptor
+mina,mina\core\src\test\java\org\apache\mina\service\idlecheker\IndexedIdleChekerTest.java,mockito,static org.mockito.Mockito.mock
+mina,mina\core\src\test\java\org\apache\mina\session\AbstractIoSessionTest.java,mockito,static org.mockito.Matchers.any
+mina,mina\core\src\test\java\org\apache\mina\session\AbstractIoSessionTest.java,mockito,static org.mockito.Matchers.eq
+mina,mina\core\src\test\java\org\apache\mina\session\AbstractIoSessionTest.java,mockito,static org.mockito.Mockito.mock
+mina,mina\core\src\test\java\org\apache\mina\session\AbstractIoSessionTest.java,mockito,static org.mockito.Mockito.spy
+mina,mina\core\src\test\java\org\apache\mina\session\AbstractIoSessionTest.java,mockito,static org.mockito.Mockito.verify
+mina,mina\core\src\test\java\org\apache\mina\session\AbstractIoSessionTest.java,mockito,static org.mockito.Mockito.verifyNoMoreInteractions
+mina,mina\core\src\test\java\org\apache\mina\session\AbstractIoSessionTest.java,mockito,static org.mockito.Mockito.when
+mina,mina\core\src\test\java\org\apache\mina\transport\nio\ProxySocketSessionConfigTest.java,mockito,static org.mockito.Matchers.anyInt
+mina,mina\core\src\test\java\org\apache\mina\transport\nio\ProxySocketSessionConfigTest.java,mockito,static org.mockito.Matchers.eq
+mina,mina\core\src\test\java\org\apache\mina\transport\nio\ProxySocketSessionConfigTest.java,mockito,static org.mockito.Mockito.doThrow
+mina,mina\core\src\test\java\org\apache\mina\transport\nio\ProxySocketSessionConfigTest.java,mockito,static org.mockito.Mockito.verify
+mina,mina\core\src\test\java\org\apache\mina\transport\nio\ProxySocketSessionConfigTest.java,mockito,static org.mockito.Mockito.verifyNoMoreInteractions
+mina,mina\core\src\test\java\org\apache\mina\transport\nio\ProxySocketSessionConfigTest.java,mockito,static org.mockito.Mockito.when
+mina,mina\core\src\test\java\org\apache\mina\transport\nio\ProxySocketSessionConfigTest.java,mockito,org.mockito.Mockito
+mina,mina\core\src\test\java\org\apache\mina\util\AbstractIoFutureTest.java,mockito,static org.mockito.Matchers.anyBoolean
+mina,mina\core\src\test\java\org\apache\mina\util\AbstractIoFutureTest.java,mockito,static org.mockito.Matchers.argThat
+mina,mina\core\src\test\java\org\apache\mina\util\AbstractIoFutureTest.java,mockito,static org.mockito.Mockito.doReturn
+mina,mina\core\src\test\java\org\apache\mina\util\AbstractIoFutureTest.java,mockito,static org.mockito.Mockito.mock
+mina,mina\core\src\test\java\org\apache\mina\util\AbstractIoFutureTest.java,mockito,static org.mockito.Mockito.never
+mina,mina\core\src\test\java\org\apache\mina\util\AbstractIoFutureTest.java,mockito,static org.mockito.Mockito.spy
+mina,mina\core\src\test\java\org\apache\mina\util\AbstractIoFutureTest.java,mockito,static org.mockito.Mockito.verify
+mina,mina\core\src\test\java\org\apache\mina\util\AbstractIoFutureTest.java,mockito,org.mockito.Matchers
+mrunit,mrunit\src\test\java\org\apache\hadoop\mrunit\internal\io\TestSerialization.java,mockito,static org.mockito.Mockito.mock
+mrunit,mrunit\src\test\java\org\apache\hadoop\mrunit\internal\util\TestErrors.java,mockito,static org.mockito.Mockito.verify
+mrunit,mrunit\src\test\java\org\apache\hadoop\mrunit\internal\util\TestErrors.java,mockito,org.mockito.Mockito
+mrunit,mrunit\src\test\java\org\apache\hadoop\mrunit\mapreduce\TestMapDriver.java,mockito,static org.mockito.Matchers.*
+mrunit,mrunit\src\test\java\org\apache\hadoop\mrunit\mapreduce\TestMapDriver.java,mockito,static org.mockito.Mockito.*
+mrunit,mrunit\src\test\java\org\apache\hadoop\mrunit\mapreduce\TestMultipleOutput.java,powermock,org.powermock.core.classloader.annotations.PrepareForTest
+mrunit,mrunit\src\test\java\org\apache\hadoop\mrunit\mapreduce\TestMultipleOutput.java,powermock,org.powermock.modules.junit4.PowerMockRunner
+mrunit,mrunit\src\test\java\org\apache\hadoop\mrunit\mapreduce\TestReduceDriver.java,mockito,static org.mockito.Matchers.any
+mrunit,mrunit\src\test\java\org\apache\hadoop\mrunit\mapreduce\TestReduceDriver.java,mockito,static org.mockito.Mockito.doThrow
+myfaces,myfaces\impl\src\test\java\jakarta\faces\application\StateManagerTest.java,easymock,org.easymock.MockControl
+myfaces,myfaces\impl\src\test\java\jakarta\faces\application\StateManagerTest.java,easymock,org.easymock.classextension.MockClassControl
+myfaces,myfaces\impl\src\test\java\jakarta\faces\application\ViewHandlerTest.java,easymock,static org.easymock.EasyMock.*
+myfaces,myfaces\impl\src\test\java\jakarta\faces\application\ViewHandlerTest.java,easymock,org.easymock.classextension.EasyMock
+myfaces,myfaces\impl\src\test\java\jakarta\faces\application\ViewHandlerTest.java,easymock,org.easymock.classextension.IMocksControl
+myfaces,myfaces\impl\src\test\java\jakarta\faces\component\AbstractUIComponentBaseTest.java,easymock,org.easymock.classextension.IMocksControl
+myfaces,myfaces\impl\src\test\java\jakarta\faces\component\AbstractUIComponentBaseTest.java,easymock,org.easymock.classextension.EasyMock
+myfaces,myfaces\impl\src\test\java\jakarta\faces\component\AbstractUIComponentPropertyTest.java,easymock,static org.easymock.EasyMock.eq
+myfaces,myfaces\impl\src\test\java\jakarta\faces\component\AbstractUIComponentPropertyTest.java,easymock,static org.easymock.EasyMock.expect
+myfaces,myfaces\impl\src\test\java\jakarta\faces\component\AbstractUIComponentPropertyTest.java,easymock,org.easymock.classextension.EasyMock
+myfaces,myfaces\impl\src\test\java\jakarta\faces\component\AbstractUIComponentPropertyTest.java,easymock,org.easymock.classextension.IMocksControl
+myfaces,myfaces\impl\src\test\java\jakarta\faces\component\InvokeOnComponentTest.java,mockito,org.mockito.Mockito
+myfaces,myfaces\impl\src\test\java\jakarta\faces\component\UIComponentBaseProcessSaveRestoreStateTest.java,easymock,org.easymock.EasyMock
+myfaces,myfaces\impl\src\test\java\jakarta\faces\component\UIComponentBaseProcessSaveRestoreStateTest.java,easymock,static org.easymock.EasyMock.*
+myfaces,myfaces\impl\src\test\java\jakarta\faces\component\UIComponentBaseTest.java,easymock,static org.easymock.EasyMock.expect
+myfaces,myfaces\impl\src\test\java\jakarta\faces\component\UIComponentBaseTest.java,easymock,static org.easymock.EasyMock.expectLastCall
+myfaces,myfaces\impl\src\test\java\jakarta\faces\component\UIComponentBaseTest.java,easymock,static org.easymock.EasyMock.same
+myfaces,myfaces\impl\src\test\java\jakarta\faces\component\UIComponentBaseTest.java,easymock,static org.easymock.classextension.EasyMock.createControl
+myfaces,myfaces\impl\src\test\java\jakarta\faces\component\UIComponentBaseTest.java,easymock,org.easymock.classextension.IMocksControl
+myfaces,myfaces\impl\src\test\java\jakarta\faces\component\UIComponentEncodeAllTest.java,easymock,org.easymock.classextension.EasyMock
+myfaces,myfaces\impl\src\test\java\jakarta\faces\component\UIComponentEncodeAllTest.java,easymock,org.easymock.classextension.IMocksControl
+myfaces,myfaces\impl\src\test\java\jakarta\faces\component\UIComponentInvokeOnComponentTest.java,easymock,org.easymock.classextension.EasyMock
+myfaces,myfaces\impl\src\test\java\jakarta\faces\component\UIComponentInvokeOnComponentTest.java,easymock,org.easymock.classextension.IMocksControl
+myfaces,myfaces\impl\src\test\java\jakarta\faces\component\UIComponentTest.java,easymock,static org.easymock.EasyMock.expect
+myfaces,myfaces\impl\src\test\java\jakarta\faces\component\UIComponentTest.java,easymock,static org.easymock.EasyMock.same
+myfaces,myfaces\impl\src\test\java\jakarta\faces\component\UIComponentTestBase.java,easymock,org.easymock.classextension.EasyMock
+myfaces,myfaces\impl\src\test\java\jakarta\faces\component\UIComponentTestBase.java,easymock,org.easymock.classextension.IMocksControl
+myfaces,myfaces\impl\src\test\java\jakarta\faces\component\UIComponentValueExpressionTest.java,easymock,static org.easymock.EasyMock.expect
+myfaces,myfaces\impl\src\test\java\jakarta\faces\component\UIComponentValueExpressionTest.java,easymock,org.easymock.EasyMock
+myfaces,myfaces\impl\src\test\java\jakarta\faces\component\UIDataTest.java,easymock,org.easymock.classextension.EasyMock
+myfaces,myfaces\impl\src\test\java\jakarta\faces\component\UIDataTest.java,easymock,org.easymock.classextension.IMocksControl
+myfaces,myfaces\impl\src\test\java\jakarta\faces\component\UIGraphicTest.java,easymock,org.easymock.classextension.EasyMock
+myfaces,myfaces\impl\src\test\java\jakarta\faces\component\UIInputTest.java,easymock,static org.easymock.EasyMock.createMock
+myfaces,myfaces\impl\src\test\java\jakarta\faces\component\UIInputTest.java,easymock,static org.easymock.EasyMock.expect
+myfaces,myfaces\impl\src\test\java\jakarta\faces\component\UIInputTest.java,easymock,static org.easymock.EasyMock.expectLastCall
+myfaces,myfaces\impl\src\test\java\jakarta\faces\component\UIInputTest.java,easymock,static org.easymock.EasyMock.replay
+myfaces,myfaces\impl\src\test\java\jakarta\faces\component\UIInputTest.java,easymock,static org.easymock.EasyMock.verify
+myfaces,myfaces\impl\src\test\java\jakarta\faces\component\UIViewRootTest.java,easymock,static org.easymock.EasyMock.aryEq
+myfaces,myfaces\impl\src\test\java\jakarta\faces\component\UIViewRootTest.java,easymock,static org.easymock.EasyMock.eq
+myfaces,myfaces\impl\src\test\java\jakarta\faces\component\UIViewRootTest.java,easymock,static org.easymock.EasyMock.expect
+myfaces,myfaces\impl\src\test\java\jakarta\faces\component\UIViewRootTest.java,easymock,org.easymock.classextension.EasyMock
+myfaces,myfaces\impl\src\test\java\jakarta\faces\component\UIViewRootTest.java,easymock,org.easymock.classextension.IMocksControl
+myfaces,myfaces\impl\src\test\java\jakarta\faces\event\MethodExpressionActionListenerTest.java,easymock,org.easymock.classextension.EasyMock
+myfaces,myfaces\impl\src\test\java\jakarta\faces\event\MethodExpressionValueChangeListenerTest.java,easymock,org.easymock.classextension.EasyMock
+myfaces,myfaces\impl\src\test\java\jakarta\faces\validator\_MessageUtilsTest.java,easymock,static org.easymock.EasyMock.expect
+myfaces,myfaces\impl\src\test\java\jakarta\faces\validator\_MessageUtilsTest.java,easymock,org.easymock.classextension.EasyMock
+myfaces,myfaces\impl\src\test\java\jakarta\faces\validator\_MessageUtilsTest.java,easymock,org.easymock.classextension.IMocksControl
+myfaces,myfaces\impl\src\test\java\org\apache\myfaces\application\ApplicationImplJsfTest.java,easymock,org.easymock.classextension.EasyMock
+myfaces,myfaces\impl\src\test\java\org\apache\myfaces\application\ApplicationImplJsfTest.java,easymock,org.easymock.classextension.IMocksControl
+myfaces,myfaces\impl\src\test\java\org\apache\myfaces\application\ApplicationImplTest.java,easymock,static org.easymock.EasyMock.eq
+myfaces,myfaces\impl\src\test\java\org\apache\myfaces\application\ApplicationImplTest.java,easymock,static org.easymock.EasyMock.expect
+myfaces,myfaces\impl\src\test\java\org\apache\myfaces\application\ApplicationImplTest.java,easymock,static org.easymock.EasyMock.isA
+myfaces,myfaces\impl\src\test\java\org\apache\myfaces\application\ApplicationImplTest.java,easymock,static org.easymock.classextension.EasyMock.createMock
+myfaces,myfaces\impl\src\test\java\org\apache\myfaces\application\ApplicationImplTest.java,easymock,static org.easymock.classextension.EasyMock.replay
+myfaces,myfaces\impl\src\test\java\org\apache\myfaces\application\ResourceHandlerImplTest.java,mockito,org.mockito.Mockito
+myfaces,myfaces\impl\src\test\java\org\apache\myfaces\application\ViewIdSupportMockTest.java,mockito,org.mockito.Mockito
+myfaces,myfaces\impl\src\test\java\org\apache\myfaces\el\CompositeELResolverTest.java,easymock,static org.easymock.EasyMock.eq
+myfaces,myfaces\impl\src\test\java\org\apache\myfaces\el\CompositeELResolverTest.java,easymock,static org.easymock.EasyMock.expect
+myfaces,myfaces\impl\src\test\java\org\apache\myfaces\el\CompositeELResolverTest.java,easymock,org.easymock.IAnswer
+myfaces,myfaces\impl\src\test\java\org\apache\myfaces\el\CompositeELResolverTest.java,easymock,org.easymock.classextension.EasyMock
+myfaces,myfaces\impl\src\test\java\org\apache\myfaces\el\CompositeELResolverTest.java,easymock,org.easymock.classextension.IMocksControl
+myfaces,myfaces\impl\src\test\java\org\apache\myfaces\el\ResolverBuilderBaseTest.java,mockito,org.mockito.Mockito
+myfaces,myfaces\impl\src\test\java\org\apache\myfaces\event\PostAddToViewEventTestCase.java,easymock,org.easymock.EasyMock
+myfaces,myfaces\impl\src\test\java\org\apache\myfaces\event\PostAddToViewEventTestCase.java,easymock,org.easymock.IAnswer
+myfaces,myfaces\impl\src\test\java\org\apache\myfaces\lifecycle\RestoreViewExecutorTest.java,mockito,org.mockito.Mockito
+myfaces,myfaces\impl\src\test\java\org\apache\myfaces\renderkit\RendererUtilsTest.java,easymock,org.easymock.classextension.EasyMock
+myfaces,myfaces\impl\src\test\java\org\apache\myfaces\renderkit\html\HtmlResponseStateManagerTest.java,mockito,org.mockito.Mockito
+myfaces,myfaces\impl\src\test\java\org\apache\myfaces\test\FacesTestCase.java,mockito,org.mockito.Mockito
+myfaces,myfaces\impl\src\test\java\org\apache\myfaces\test\mock\ExceptionMockRunner.java,easymock,org.easymock.classextension.IMocksControl
+myfaces,myfaces\impl\src\test\java\org\apache\myfaces\test\mock\MockRunner.java,easymock,org.easymock.classextension.IMocksControl
+myfaces,myfaces\impl\src\test\java\org\apache\myfaces\view\facelets\ExceptionTestCase.java,easymock,org.easymock.classextension.EasyMock
+myfaces,myfaces\impl\src\test\java\org\apache\myfaces\view\facelets\component\UIRepeatTest.java,easymock,org.easymock.classextension.EasyMock
+myfaces,myfaces\impl\src\test\java\org\apache\myfaces\view\facelets\component\UIRepeatTest.java,easymock,org.easymock.classextension.IMocksControl
+myfaces,myfaces\impl\src\test\java\org\apache\myfaces\webapp\FacesELContextListenerTest.java,easymock,static org.easymock.EasyMock.*
+myfaces,myfaces\impl\src\test\java\org\apache\myfaces\webapp\FacesELContextListenerTest.java,easymock,org.easymock.IMocksControl
+myfaces,myfaces\impl\src\test\java\org\apache\myfaces\webapp\FacesELContextListenerTest.java,easymock,org.easymock.classextension.EasyMock

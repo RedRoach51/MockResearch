@@ -1,0 +1,178 @@
+/maven-compat/src/test/java/org/apache/maven/artifact/deployer/ArtifactDeployerTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+/maven-compat/src/test/java/org/apache/maven/artifact/installer/ArtifactInstallerTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+/maven-core/src/test/java/org/apache/maven/artifact/resolver/filter/ExclusionArtifactFilterTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<java.lang.String>
+	Count: 2
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 2
+ 
+/maven-core/src/test/java/org/apache/maven/graph/DefaultGraphBuilderTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 6
+ 
+/maven-core/src/test/java/org/apache/maven/lifecycle/internal/builder/BuilderCommonTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 2
+ 
+	Method name: verify
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+/maven-core/src/test/java/org/apache/maven/toolchain/DefaultToolchainManagerPrivateTest.java
+Methods Invoked: 
+	Method name: initMocks
+	Class origin: org.mockito.MockitoAnnotations
+	Count: 1
+ 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 8
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 8
+ 
+/maven-core/src/test/java/org/apache/maven/toolchain/DefaultToolchainManagerTest.java
+Methods Invoked: 
+	Method name: initMocks
+	Class origin: org.mockito.MockitoAnnotations
+	Count: 1
+ 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 6
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 7
+ 
+/maven-core/src/test/java/org/apache/maven/toolchain/DefaultToolchainTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+	Method name: initMocks
+	Class origin: org.mockito.MockitoAnnotations
+	Count: 1
+ 
+	Method name: verify
+	Class origin: org.mockito.Mockito
+	Count: 2
+ 
+/maven-embedder/src/test/java/org/apache/maven/cli/MavenCliTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 2
+ 
+/maven-embedder/src/test/java/org/apache/maven/cli/event/ExecutionEventLoggerTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 9
+ 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<java.lang.Boolean>
+	Count: 3
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 21
+ 
+/maven-model-transform/src/test/java/org/apache/maven/model/transform/sax/CommentRenormalizerTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+	Method name: verify
+	Class origin: org.mockito.Mockito
+	Count: 2
+ 
+/maven-resolver-provider/src/test/java/org/apache/maven/repository/internal/DefaultArtifactDescriptorReaderTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+	Method name: forClass
+	Class origin: org.mockito.ArgumentCaptor
+	Count: 1
+ 
+	Method name: verify
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+	Method name: capture
+	Class origin: org.mockito.ArgumentCaptor<org.eclipse.aether.RepositoryEvent>
+	Count: 1
+ 
+	Method name: getAllValues
+	Class origin: org.mockito.ArgumentCaptor<org.eclipse.aether.RepositoryEvent>
+	Count: 1
+ 
+/maven-toolchain-builder/src/test/java/org/apache/maven/toolchain/building/DefaultToolchainsBuilderTest.java
+Methods Invoked: 
+	Method name: initMocks
+	Class origin: org.mockito.MockitoAnnotations
+	Count: 1
+ 
+	Method name: doReturn
+	Class origin: org.mockito.Mockito
+	Count: 6
+ 
+	Method name: any
+	Class origin: org.mockito.ArgumentMatchers
+	Count: 8
+ 
+	Method name: anyMap
+	Class origin: org.mockito.ArgumentMatchers
+	Count: 8
+ 
+/maven-wrapper/src/test/java/org/apache/maven/wrapper/InstallerTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 3
+ 
+/maven-wrapper/src/test/java/org/apache/maven/wrapper/WrapperExecutorTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 2
+ 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<java.nio.file.Path>
+	Count: 1
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+	Method name: any
+	Class origin: org.mockito.ArgumentMatchers
+	Count: 2
+ 

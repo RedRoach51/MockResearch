@@ -1,0 +1,11 @@
+Project Name,Mocking Framework,Used in # of Files
+mahout,easymock,20
+mahout,mockito,1
+manifoldcf,mockito,10
+maven,mockito,15
+metamodel,easymock,12
+mina,mockito,11
+mrunit,mockito,4
+mrunit,powermock,1
+myfaces,easymock,28
+myfaces,mockito,7

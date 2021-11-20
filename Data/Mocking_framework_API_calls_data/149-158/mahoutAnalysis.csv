@@ -1,0 +1,6 @@
+method, origin, count
+createMock,org.easymock.EasyMock,6
+
+MockedObjects: ,6
+
+# of Mocked objects each file:,3|3|

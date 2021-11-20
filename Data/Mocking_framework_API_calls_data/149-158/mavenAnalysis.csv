@@ -1,0 +1,16 @@
+method, origin, count
+mock,org.mockito.Mockito,44
+thenReturn,org.mockito.stubbing.OngoingStubbing<java.lang.String>,6
+when,org.mockito.Mockito,39
+verify,org.mockito.Mockito,6
+initMocks,org.mockito.MockitoAnnotations,4
+forClass,org.mockito.ArgumentCaptor,1
+capture,org.mockito.ArgumentCaptor<org.eclipse.aether.RepositoryEvent>,1
+getAllValues,org.mockito.ArgumentCaptor<org.eclipse.aether.RepositoryEvent>,1
+doReturn,org.mockito.Mockito,6
+any,org.mockito.ArgumentMatchers,10
+anyMap,org.mockito.ArgumentMatchers,8
+
+MockedObjects: ,44
+
+# of Mocked objects each file:,1|1|1|6|2|8|6|1|2|9|1|1|3|2|

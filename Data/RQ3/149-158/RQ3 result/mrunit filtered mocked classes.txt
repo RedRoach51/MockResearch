@@ -1,0 +1,10 @@
+Inside classes: 
+ 
+ 
+ 
+ 
+Outside classes: 
+ 
+org.apache.hadoop.mapreduce.Reducer.Context
+org.apache.hadoop.mapreduce.Mapper.Context
+org.apache.commons.logging.Log

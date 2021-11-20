@@ -1,0 +1,14 @@
+method, origin, count
+when,org.mockito.Mockito,23
+any,org.mockito.Matchers,7
+getArguments,org.mockito.invocation.InvocationOnMock,3
+mock,org.mockito.Mockito,3
+thenAnswer,org.mockito.stubbing.OngoingStubbing<java.lang.Boolean>,4
+thenReturn,org.mockito.stubbing.OngoingStubbing<java.lang.Class<>>,2
+whenNew,org.powermock.api.mockito.PowerMockito,2
+verify,org.mockito.Mockito,1
+doThrow,org.mockito.Mockito,2
+
+MockedObjects: ,3
+
+# of Mocked objects each file:,1|1|1|

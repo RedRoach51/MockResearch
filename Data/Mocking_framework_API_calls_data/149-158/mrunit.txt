@@ -1,0 +1,110 @@
+/mrunit/src/main/java/org/apache/hadoop/mrunit/internal/mapreduce/AbstractMockContextWrapper.java
+Methods Invoked: 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 9
+ 
+	Method name: any
+	Class origin: org.mockito.Matchers
+	Count: 3
+ 
+	Method name: getArguments
+	Class origin: org.mockito.invocation.InvocationOnMock
+	Count: 3
+ 
+/mrunit/src/main/java/org/apache/hadoop/mrunit/internal/mapreduce/MockReduceContextWrapper.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+	Method name: thenAnswer
+	Class origin: org.mockito.stubbing.OngoingStubbing<java.lang.Boolean>
+	Count: 1
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 4
+ 
+	Method name: thenAnswer
+	Class origin: org.mockito.stubbing.OngoingStubbing<KEYIN>
+	Count: 1
+ 
+/mrunit/src/main/java/org/apache/hadoop/mrunit/internal/mapreduce/MockMapreduceOutputFormat.java
+Methods Invoked: 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<java.lang.Class<>>
+	Count: 2
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 3
+ 
+/mrunit/src/main/java/org/apache/hadoop/mrunit/internal/mapreduce/MockMapContextWrapper.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+	Method name: thenAnswer
+	Class origin: org.mockito.stubbing.OngoingStubbing<java.lang.Boolean>
+	Count: 1
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 5
+ 
+	Method name: thenAnswer
+	Class origin: org.mockito.stubbing.OngoingStubbing<KEYIN>
+	Count: 1
+ 
+/mrunit/src/main/java/org/apache/hadoop/mrunit/mapreduce/ReduceDriver.java
+Methods Invoked: 
+	Method name: whenNew
+	Class origin: org.powermock.api.mockito.PowerMockito
+	Count: 1
+ 
+/mrunit/src/main/java/org/apache/hadoop/mrunit/mapreduce/MapDriver.java
+Methods Invoked: 
+	Method name: whenNew
+	Class origin: org.powermock.api.mockito.PowerMockito
+	Count: 1
+ 
+/mrunit/src/test/java/org/apache/hadoop/mrunit/internal/util/TestErrors.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+	Method name: verify
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+/mrunit/src/test/java/org/apache/hadoop/mrunit/mapreduce/TestReduceDriver.java
+Methods Invoked: 
+	Method name: when
+	Class origin: org.mockito.stubbing.Stubber
+	Count: 1
+ 
+	Method name: doThrow
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+	Method name: any
+	Class origin: org.mockito.Matchers
+	Count: 2
+ 
+/mrunit/src/test/java/org/apache/hadoop/mrunit/mapreduce/TestMapDriver.java
+Methods Invoked: 
+	Method name: when
+	Class origin: org.mockito.stubbing.Stubber
+	Count: 1
+ 
+	Method name: doThrow
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+	Method name: any
+	Class origin: org.mockito.Matchers
+	Count: 2
+ 

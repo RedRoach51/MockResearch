@@ -1,0 +1,11 @@
+project name, variety of inside mocked classes, variety of outside mocked classes, proportion of mocked classes
+mahout,1,0,
+manifoldcf,13,6,
+maven,18,3,
+metamodel,5,12,
+mina,19,4,
+mrunit,0,3,
+myfaces,6,32,
+ 
+more inside classes mocked: ,more outside classes mocked: 
+4,3

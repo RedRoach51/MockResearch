@@ -1,0 +1,10 @@
+method, origin, count
+thenReturn,org.mockito.stubbing.OngoingStubbing<com.github.maoo.indexer.client.AlfrescoResponse>,18
+when,org.mockito.Mockito,85
+anyInt,org.mockito.Matchers,32
+mock,org.mockito.Mockito,40
+any,org.mockito.Matchers,2
+
+MockedObjects: ,40
+
+# of Mocked objects each file:,2|2|2|6|24|4|

@@ -1,0 +1,26 @@
+Inside classes: 
+ 
+org.apache.manifoldcf.crawler.system.SeedingActivity
+org.apache.manifoldcf.crawler.interfaces.IProcessActivity
+org.apache.manifoldcf.crawler.interfaces.IExistingVersions
+org.apache.manifoldcf.crawler.connectors.confluence.model.ConfluenceUser
+org.apache.manifoldcf.crawler.connectors.confluence.model.Page
+org.apache.manifoldcf.crawler.connectors.confluence.v6.model.ConfluenceUser
+org.apache.manifoldcf.crawler.connectors.confluence.v6.model.Page
+org.apache.manifoldcf.crawler.connectors.confluence.v6.model.Restrictions
+org.apache.manifoldcf.crawler.connectors.confluence.v6.model.Restrictions.ReadRestrictions
+org.apache.manifoldcf.agents.interfaces.IOutputAddActivity
+org.apache.manifoldcf.core.interfaces.VersionContext
+org.apache.manifoldcf.crawler.connectors.nuxeo.model.NuxeoDocumentHelper
+org.apache.manifoldcf.crawler.connectors.webcrawler.WebcrawlerConnector.DocumentURLFilter
+ 
+ 
+ 
+Outside classes: 
+ 
+org.nuxeo.client.objects.user.UserManager
+org.nuxeo.client.objects.user.User
+org.nuxeo.client.objects.Document
+org.nuxeo.client.objects.Repository
+org.nuxeo.client.objects.Documents
+org.nuxeo.client.objects.blob.FileBlob

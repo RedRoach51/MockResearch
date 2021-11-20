@@ -1,0 +1,12 @@
+/mahout-core/src/test/java/org/apache/mahout/math/VectorBinaryAggregateCostTest.java
+Methods Invoked: 
+	Method name: createMock
+	Class origin: org.easymock.EasyMock
+	Count: 3
+ 
+/mahout-core/src/test/java/org/apache/mahout/math/VectorBinaryAssignCostTest.java
+Methods Invoked: 
+	Method name: createMock
+	Class origin: org.easymock.EasyMock
+	Count: 3
+ 

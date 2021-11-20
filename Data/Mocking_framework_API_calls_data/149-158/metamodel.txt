@@ -1,0 +1,156 @@
+/MetaModel-core/src/test/java/org/apache/metamodel/MetaModelTestCase.java
+Methods Invoked: 
+	Method name: createMock
+	Class origin: org.easymock.EasyMock
+	Count: 1
+ 
+	Method name: verify
+	Class origin: org.easymock.EasyMock
+	Count: 1
+ 
+	Method name: replay
+	Class origin: org.easymock.EasyMock
+	Count: 1
+ 
+/MetaModel-core/src/test/java/org/apache/metamodel/data/DataSetIteratorTest.java
+Methods Invoked: 
+	Method name: createMock
+	Class origin: org.easymock.EasyMock
+	Count: 3
+ 
+/MetaModel-core/src/test/java/org/apache/metamodel/query/builder/GroupedQueryBuilderImplTest.java
+Methods Invoked: 
+	Method name: createMock
+	Class origin: org.easymock.EasyMock
+	Count: 1
+ 
+/MetaModel-elasticsearch-rest/src/test/java/org/apache/metamodel/elasticsearch/rest/ElasticSearchRestDataSetTest.java
+Methods Invoked: 
+	Method name: createMock
+	Class origin: org.easymock.EasyMock
+	Count: 5
+ 
+/MetaModel-excel/src/test/java/org/apache/metamodel/excel/ZeroBasedRowIteratorTest.java
+Methods Invoked: 
+	Method name: createMock
+	Class origin: org.easymock.EasyMock
+	Count: 1
+ 
+/MetaModel-jdbc/src/test/java/org/apache/metamodel/dialects/HiveQueryRewriterTest.java
+Methods Invoked: 
+	Method name: createMock
+	Class origin: org.easymock.EasyMock
+	Count: 2
+ 
+	Method name: anyTimes
+	Class origin: org.easymock.IExpectationSetters<java.lang.String>
+	Count: 6
+ 
+	Method name: andReturn
+	Class origin: org.easymock.IExpectationSetters<java.lang.String>
+	Count: 6
+ 
+	Method name: expect
+	Class origin: org.easymock.EasyMock
+	Count: 6
+ 
+/MetaModel-jdbc/src/test/java/org/apache/metamodel/dialects/SQLServerQueryRewriterTest.java
+Methods Invoked: 
+	Method name: createMock
+	Class origin: org.easymock.EasyMock
+	Count: 1
+ 
+	Method name: anyTimes
+	Class origin: org.easymock.IExpectationSetters<java.lang.String>
+	Count: 3
+ 
+	Method name: andReturn
+	Class origin: org.easymock.IExpectationSetters<java.lang.String>
+	Count: 3
+ 
+	Method name: expect
+	Class origin: org.easymock.EasyMock
+	Count: 3
+ 
+/MetaModel-jdbc/src/test/java/org/apache/metamodel/dialects/ImpalaQueryRewriterTest.java
+Methods Invoked: 
+	Method name: createMock
+	Class origin: org.easymock.EasyMock
+	Count: 1
+ 
+	Method name: anyTimes
+	Class origin: org.easymock.IExpectationSetters<java.lang.String>
+	Count: 3
+ 
+	Method name: andReturn
+	Class origin: org.easymock.IExpectationSetters<java.lang.String>
+	Count: 3
+ 
+	Method name: expect
+	Class origin: org.easymock.EasyMock
+	Count: 3
+ 
+/MetaModel-jdbc/src/test/java/org/apache/metamodel/jdbc/JdbcDataContextTest.java
+Methods Invoked: 
+	Method name: createMock
+	Class origin: org.easymock.EasyMock
+	Count: 3
+ 
+	Method name: andReturn
+	Class origin: org.easymock.IExpectationSetters<java.sql.Connection>
+	Count: 5
+ 
+	Method name: expect
+	Class origin: org.easymock.EasyMock
+	Count: 10
+ 
+/MetaModel-jdbc/src/test/java/org/apache/metamodel/jdbc/dialects/OracleQueryRewriterTest.java
+Methods Invoked: 
+	Method name: createMock
+	Class origin: org.easymock.EasyMock
+	Count: 1
+ 
+	Method name: reset
+	Class origin: org.easymock.EasyMock
+	Count: 1
+ 
+	Method name: anyTimes
+	Class origin: org.easymock.IExpectationSetters<java.lang.String>
+	Count: 3
+ 
+	Method name: andReturn
+	Class origin: org.easymock.IExpectationSetters<java.lang.String>
+	Count: 3
+ 
+	Method name: expect
+	Class origin: org.easymock.EasyMock
+	Count: 3
+ 
+/MetaModel-jdbc/src/test/java/org/apache/metamodel/jdbc/dialects/PostgresqlQueryRewriterTest.java
+Methods Invoked: 
+	Method name: createMock
+	Class origin: org.easymock.EasyMock
+	Count: 1
+ 
+	Method name: replay
+	Class origin: org.easymock.EasyMock
+	Count: 1
+ 
+	Method name: verify
+	Class origin: org.easymock.EasyMock
+	Count: 1
+ 
+/MetaModel-kafka/src/test/java/org/apache/metamodel/kafka/KafkaDataContextTest.java
+Methods Invoked: 
+	Method name: createMock
+	Class origin: org.easymock.EasyMockSupport
+	Count: 5
+ 
+	Method name: replayAll
+	Class origin: org.easymock.EasyMockSupport
+	Count: 3
+ 
+	Method name: verifyAll
+	Class origin: org.easymock.EasyMockSupport
+	Count: 3
+ 
