@@ -5,4 +5,3 @@ checking,org.jmock.Mockery,1
 of,org.jmock.syntax.ReceiverClause,1
 exactly,org.jmock.Expectations,1
 assertIsSatisfied,org.jmock.Mockery,1
-tick,org.jmock.lib.concurrent.DeterministicScheduler,3

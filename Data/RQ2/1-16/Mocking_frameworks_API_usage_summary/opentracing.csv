@@ -1,4 +1,0 @@
-method, origin, count
-finishedSpans,io.opentracing.mock.MockTracer,12
-tags,io.opentracing.mock.MockSpan,12
-operationName,io.opentracing.mock.MockSpan,3
