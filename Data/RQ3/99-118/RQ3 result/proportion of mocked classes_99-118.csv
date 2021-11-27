@@ -1,13 +1,10 @@
 project name, # of total classes created, # of inside classes mocked
-empire-db,460,0,
-falcon,557,11,
-flink,7627,213,
-flume,461,17,
-fluo-recipes,57,0,
-fluo,206,0,
-freemarker,565,0,
-geode,4631,0,
-geronimo,2469,0,
-giraph,1312,14,
-groovy,1431,0,
-fop,1631,101,
+empire-db,460,0
+falcon,557,11
+flink,7627,213
+flume,461,17
+fluo-recipes,57,0
+fluo,206,0
+giraph,1312,14
+groovy,1431,0
+fop,1631,101

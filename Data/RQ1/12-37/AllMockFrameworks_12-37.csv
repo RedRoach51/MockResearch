@@ -15,7 +15,6 @@ brooklyn,mockito,19
 bval,mockito,1
 calcite,mockito,1
 carbondata,mockit,36
-cassandra,mockito,8
 cayenne,mockito,104
 cayenne,mockrunner,18
 cayenne,springframework,1

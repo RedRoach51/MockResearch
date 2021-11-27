@@ -1291,18 +1291,6 @@ carbondata,carbondata\core\src\test\java\org\apache\carbondata\core\util\DataFil
 carbondata,carbondata\core\src\test\java\org\apache\carbondata\core\util\RangeFilterProcessorTest.java,mockit,mockit.Deencapsulation
 carbondata,carbondata\core\src\test\java\org\apache\carbondata\core\util\RangeFilterProcessorTest.java,mockit,mockit.MockUp
 carbondata,carbondata\processing\src\test\java\org\apache\carbondata\core\keygenerator\directdictionary\timestamp\TimeStampDirectDictionaryGeneratorTest.java,mockit,mockit.Deencapsulation
-cassandra,cassandra\test\distributed\org\apache\cassandra\distributed\mock\nodetool\InternalNodeProbe.java,mockito,org.mockito.Mockito
-cassandra,cassandra\test\unit\org\apache\cassandra\db\KeyspaceTest.java,mockito,org.mockito.Mockito
-cassandra,cassandra\test\unit\org\apache\cassandra\db\marshal\EmptyTypeTest.java,mockito,org.mockito.Mockito
-cassandra,cassandra\test\unit\org\apache\cassandra\db\marshal\TypeValidationTest.java,mockito,org.mockito.Mockito
-cassandra,cassandra\test\unit\org\apache\cassandra\db\rows\PartitionSerializationExceptionTest.java,mockito,static org.mockito.Mockito.mock
-cassandra,cassandra\test\unit\org\apache\cassandra\db\rows\PartitionSerializationExceptionTest.java,mockito,static org.mockito.Mockito.when
-cassandra,cassandra\test\unit\org\apache\cassandra\io\sstable\SSTableRewriterTest.java,mockito,static org.mockito.Mockito.mock
-cassandra,cassandra\test\unit\org\apache\cassandra\io\sstable\SSTableRewriterTest.java,mockito,static org.mockito.Mockito.when
-cassandra,cassandra\test\unit\org\apache\cassandra\net\MessageSerializationPropertyTest.java,mockito,org.mockito.Mockito
-cassandra,cassandra\test\unit\org\apache\cassandra\utils\memory\MemtableCleanerThreadTest.java,mockito,org.mockito.Mock
-cassandra,cassandra\test\unit\org\apache\cassandra\utils\memory\MemtableCleanerThreadTest.java,mockito,org.mockito.MockitoAnnotations
-cassandra,cassandra\test\unit\org\apache\cassandra\utils\memory\MemtableCleanerThreadTest.java,mockito,static org.mockito.Mockito.when
 cayenne,cayenne\cayenne-ant\src\test\java\org\apache\cayenne\tools\DbGeneratorTaskTest.java,mockito,static org.mockito.Mockito.mock
 cayenne,cayenne\cayenne-cgen\src\test\java\org\apache\cayenne\gen\ClassGenerationActionTest.java,mockito,static org.mockito.Mockito.mock
 cayenne,cayenne\cayenne-cgen\src\test\java\org\apache\cayenne\gen\ClassGenerationActionTest.java,mockito,static org.mockito.Mockito.when
