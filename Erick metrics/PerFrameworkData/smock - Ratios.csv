@@ -1,4 +1,0 @@
-Mock Method,# of Invocations,% of Framework Invocations
-createServer,2,0.1429
-expect,4,0.2857
-soapHeader,8,0.5714

@@ -1,5 +1,0 @@
-Mock Method,# of Invocations,% of Framework Invocations
-start,1,25.0
-stop,1,25.0
-getServerControlPort,1,25.0
-setServerControlPort,1,25.0

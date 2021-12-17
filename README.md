@@ -20,11 +20,11 @@ Some projects require software that a clean SDK install will not have installed.
 
 Clone the Git repositories from the software projects you are testing into a single directory. Multiple repositories can be cloned at once using either [BatchGitRepo.bat](BatchGitRepo.bat) or [DownloadApacheGitRepository.pl](DownloadApacheGitRepository.pl). 
 
-Place all the scripts from "Erick scripts" inside the same directory as the Git repositories. Run AnalysisScript.bat in the command line
+Place all the scripts from "Scripts/General scripts" inside the same directory as the Git repositories. Run AnalysisScript.bat in the command line
 
 All project data will be sent into a new directory, 'UndProjects'. Each project's individual metrics will be generated and then processed into group datasets 'AllMetrics.csv', 'AllMockImports.csv', and 'AllMockFrameworks.csv'.
 
-Open the Eclipse SDK, and import the "astSimple" project from the "Keye scripts" folder. Select Run as -> Eclipse application, which will create a new Eclipse instance called runtime-EclipseApplication. 
+Open the Eclipse SDK, and import the "astSimple" project from the "Scripts/JavaPlugin scripts" folder. Select Run as -> Eclipse application, which will create a new Eclipse instance called runtime-EclipseApplication. 
 
 Follow these steps after creating the new runtime instance to run the plug-in project:
 
