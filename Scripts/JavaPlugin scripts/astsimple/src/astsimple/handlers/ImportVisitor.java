@@ -12,7 +12,7 @@ public class ImportVisitor extends ASTVisitor{
 	
 	List<ImportDeclaration> imports = new ArrayList<>();
 	
-	List<FieldDeclaration> mocked_with_annotation = new ArrayList<>();
+	List<String> mocked_with_annotation = new ArrayList<>();
 
 	@Override
 	public boolean visit(ImportDeclaration node) {
@@ -33,13 +33,14 @@ public class ImportVisitor extends ASTVisitor{
     			
     			if(annotation.resolveTypeBinding().getQualifiedName().toLowerCase().contains("mock")) {
     				System.out.println(annotation.resolveTypeBinding().getQualifiedName());
+    				System.out.println(node.getType().resolveBinding().getQualifiedName());
         			System.out.println(node);
-        			mocked_with_annotation.add(node);
+        			mocked_with_annotation.add(node.getType().resolveBinding().getQualifiedName());
     			}
     			
     			
     			
-//    			System.out.println(node.getType().resolveBinding().getQualifiedName());
+    			
     		}
     		
     		
@@ -53,7 +54,7 @@ public class ImportVisitor extends ASTVisitor{
         return super.visit(node);
     }
     
-    public List<FieldDeclaration> getAnnotationMocks() {
+    public List<String> getAnnotationMocks() {
         return mocked_with_annotation;
     }
     

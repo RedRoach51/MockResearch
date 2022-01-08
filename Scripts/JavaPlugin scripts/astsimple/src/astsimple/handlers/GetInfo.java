@@ -225,34 +225,10 @@ public class GetInfo extends AbstractHandler{
                         	All_imports_in_one_file.add(x);
                         }
                         
-                        for(FieldDeclaration y : imports.getAnnotationMocks()) {//From importVisitor.java, it only contains annotations that are use to create mock.
-
-                        	String mockSentence = y.toString();
+                        for(String y : imports.getAnnotationMocks()) {//From importVisitor.java, it only contains annotations that are use to create mock.
                         	
-                        	//filter out the mocked class and get its full path from All_imports_in_one_file, because they suppose to come from the same file.
-                        	int pos = mockSentence.indexOf(" ");
-                        	
-                        	mockSentence = mockSentence.substring(pos + 1);
-                        	
-                        	pos = mockSentence.indexOf(" ");
-                        	
-                        	mockSentence = mockSentence.substring(pos + 1);
-                        	
-                        	pos = mockSentence.indexOf(" ");
-                        	
-                        	mockSentence = mockSentence.substring(0,pos);//now mockSentence = the class that is mocked, but not the full path
-                        	
-                        	String fullClass = "" ;
-                        	
-                        	for(ImportDeclaration z : All_imports_in_one_file) {
-                        		if(z.getName().getFullyQualifiedName().contains(mockSentence)) {
-                        			fullClass = z.getName().getFullyQualifiedName();
-                        			break;
-                        		}
-                        	}
-                        	
-                        	mocked_classes.add("	" + fullClass);
-                        	mocked_classes_2.add(fullClass);
+                        	mocked_classes.add("	" + y);
+                        	mocked_classes_2.add(y);
                         }
                         
                         for(ImportDeclaration imports2 : All_imports_in_one_file) {
