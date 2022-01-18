@@ -1,0 +1,16 @@
+/axis2-adb-tests/src/test/java/org/apache/axis2/schema/axis2_5771/IgnoreUnexpectedTest.java
+	java.util.logging.Handler
+/axis2-integration/test/org/apache/axis2/transport/http/TransportHeadersTest.java
+/axis2-jaxws/test/org/apache/axis2/datasource/jaxb/JAXBCustomBuilderDisableStreamingTests.java
+	org.apache.axiom.soap.SOAPBody
+	org.apache.axiom.soap.SOAPBody
+	org.apache.axiom.soap.SOAPBody
+	org.apache.axiom.soap.SOAPBody
+/axis2-kernel/test/org/apache/axis2/deployment/repository/util/DeploymentFileDataTest.java
+	org.apache.axis2.deployment.Deployer
+/axis2-transport-jms/src/test/java/org/apache/axis2/transport/jms/JNDIEnvironment.java
+/axis2-transport-jms/src/test/java/org/apache/axis2/transport/jms/JMSUtilsTest.java
+	javax.jms.Queue
+	javax.jms.Session
+	javax.jms.MessageConsumer
+/axis2-transport-jms/src/test/java/org/apache/axis2/transport/jms/JMSTransportDescriptionFactory.java

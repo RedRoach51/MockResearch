@@ -1,9 +1,14 @@
 Inside classes: 
  
+org.apache.chemistry.opencmis.commons.server.CmisServiceFactory
+org.apache.chemistry.opencmis.commons.server.CmisService
+org.apache.chemistry.opencmis.commons.data.CacheHeaderContentStream
  
  
  
 Outside classes: 
  
 javax.servlet.http.HttpServletRequest
+javax.servlet.ServletConfig
+javax.servlet.ServletContext
 javax.servlet.http.HttpServletResponse

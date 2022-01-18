@@ -1,4 +1,11 @@
 javax.servlet.http.HttpServletRequest
+javax.servlet.http.HttpServletRequest
+org.apache.chemistry.opencmis.commons.server.CmisServiceFactory
+org.apache.chemistry.opencmis.commons.server.CmisService
+org.apache.chemistry.opencmis.commons.data.CacheHeaderContentStream
+javax.servlet.http.HttpServletRequest
+javax.servlet.ServletConfig
+javax.servlet.ServletContext
 javax.servlet.http.HttpServletResponse
 javax.servlet.http.HttpServletRequest
 javax.servlet.http.HttpServletRequest

@@ -1,0 +1,116 @@
+/archiva-configuration/src/test/java/org/apache/archiva/configuration/ArchivaConfigurationTest.java
+	org.apache.archiva.configuration.ConfigurationListener
+	org.apache.archiva.configuration.ConfigurationListener
+/archiva-core-consumers/src/test/java/org/apache/archiva/consumers/core/repository/AbstractRepositoryPurgeTest.java
+	org.apache.archiva.metadata.audit.RepositoryListener
+	org.apache.archiva.metadata.repository.RepositorySession
+	org.apache.archiva.metadata.repository.MetadataRepository
+	org.apache.archiva.metadata.repository.RepositorySessionFactory
+/archiva-core-consumers/src/test/java/org/apache/archiva/consumers/core/repository/DaysOldRepositoryPurgeTest.java
+/archiva-core-consumers/src/test/java/org/apache/archiva/consumers/core/repository/RetentionCountRepositoryPurgeTest.java
+/archiva-core-consumers/src/test/java/org/apache/archiva/consumers/core/repository/CleanupReleasedSnapshotsRepositoryPurgeTest.java
+	org.apache.archiva.metadata.audit.RepositoryListener
+/archiva-core-consumers/src/test/java/org/apache/archiva/consumers/core/repository/RepositoryPurgeConsumerTest.java
+/archiva-maven-indexer/src/test/java/org/apache/archiva/indexer/maven/search/MavenRepositorySearchOSGITest.java
+/archiva-maven-indexer/src/test/java/org/apache/archiva/indexer/maven/search/AbstractMavenRepositorySearch.java
+	org.apache.archiva.configuration.ArchivaConfiguration
+/archiva-maven-indexer/src/test/java/org/apache/archiva/indexer/maven/search/MavenRepositorySearchTest.java
+/archiva-maven-proxy/src/test/java/org/apache/archiva/proxy/MetadataTransferTest.java
+/archiva-maven-proxy/src/test/java/org/apache/archiva/proxy/ErrorHandlingTest.java
+/archiva-maven-proxy/src/test/java/org/apache/archiva/proxy/ManagedDefaultTransferTest.java
+/archiva-maven-proxy/src/test/java/org/apache/archiva/proxy/ChecksumTransferTest.java
+/archiva-maven-proxy/src/test/java/org/apache/archiva/proxy/AbstractProxyTestCase.java
+	org.apache.maven.wagon.Wagon
+/archiva-maven-proxy/src/test/java/org/apache/archiva/proxy/CacheFailuresTransferTest.java
+/archiva-maven-proxy/src/test/java/org/apache/archiva/proxy/MockConfiguration.java
+	org.apache.archiva.components.registry.Registry
+/archiva-maven-repository/src/test/java/org/apache/archiva/repository/maven/merge/Maven2RepositoryMergerTest.java
+	org.apache.archiva.metadata.repository.RepositorySessionFactory
+	org.apache.archiva.metadata.repository.RepositorySession
+	org.apache.archiva.metadata.repository.MetadataRepository
+/archiva-maven-repository/src/test/java/org/apache/archiva/repository/maven/metadata/storage/Maven2RepositoryMetadataResolverMRM1411RepoGroupTest.java
+	org.apache.archiva.proxy.maven.WagonFactory
+/archiva-maven-repository/src/test/java/org/apache/archiva/repository/maven/metadata/storage/Maven2RepositoryMetadataResolverMRM1411Test.java
+	org.apache.archiva.proxy.maven.WagonFactory
+/archiva-maven-repository/src/test/java/org/apache/archiva/repository/maven/metadata/storage/Maven2RepositoryMetadataResolverTest.java
+	org.apache.archiva.proxy.maven.WagonFactory
+/archiva-maven-repository/src/test/java/org/apache/archiva/repository/maven/metadata/storage/mock/MockConfiguration.java
+	org.apache.archiva.components.registry.Registry
+/archiva-repository-admin-default/src/test/java/org/apache/archiva/admin/repository/admin/RepositoryTaskAdministrationTest.java
+	org.apache.archiva.repository.RepositoryRegistry
+	org.apache.archiva.components.taskqueue.execution.TaskQueueExecutor
+	org.apache.archiva.components.taskqueue.execution.TaskQueueExecutor
+	org.apache.archiva.scheduler.repository.model.RepositoryArchivaTaskScheduler
+	org.apache.archiva.scheduler.indexing.IndexingArchivaTaskScheduler
+	org.apache.archiva.components.taskqueue.TaskQueue
+	org.apache.archiva.components.taskqueue.TaskQueue
+	org.apache.archiva.scheduler.indexing.ArtifactIndexingTask
+	org.apache.archiva.scheduler.indexing.ArtifactIndexingTask
+	org.apache.archiva.components.taskqueue.TaskQueue
+	org.apache.archiva.components.taskqueue.TaskQueue
+	org.apache.archiva.scheduler.indexing.ArtifactIndexingTask
+	org.apache.archiva.scheduler.indexing.ArtifactIndexingTask
+	org.apache.archiva.repository.ManagedRepository
+	org.apache.archiva.repository.ManagedRepository
+	org.apache.archiva.repository.ManagedRepository
+	org.apache.archiva.repository.ManagedRepository
+	org.apache.archiva.repository.storage.StorageAsset
+	org.apache.archiva.repository.ManagedRepository
+	org.apache.archiva.repository.ManagedRepository
+	org.apache.archiva.components.taskqueue.TaskQueue
+	org.apache.archiva.components.taskqueue.TaskQueue
+	org.apache.archiva.scheduler.indexing.ArtifactIndexingTask
+	org.apache.archiva.scheduler.indexing.ArtifactIndexingTask
+/archiva-repository-scanner/src/test/java/org/apache/archiva/repository/scanner/RepositoryContentConsumersTest.java
+	org.apache.archiva.consumers.KnownRepositoryContentConsumer
+	org.apache.archiva.consumers.KnownRepositoryContentConsumer
+	org.apache.archiva.consumers.InvalidRepositoryContentConsumer
+	org.apache.archiva.consumers.InvalidRepositoryContentConsumer
+/archiva-rss/src/test/java/org/apache/archiva/rss/processor/NewArtifactsRssFeedProcessorTest.java
+	org.apache.archiva.metadata.repository.RepositorySessionFactory
+	org.apache.archiva.metadata.repository.RepositorySession
+/archiva-rss/src/test/java/org/apache/archiva/rss/processor/NewVersionsOfArtifactRssFeedProcessorTest.java
+	org.apache.archiva.metadata.repository.MetadataRepository
+	org.apache.archiva.metadata.repository.RepositorySessionFactory
+	org.apache.archiva.metadata.repository.RepositorySession
+	org.apache.archiva.repository.RepositoryRegistry
+/archiva-scheduler-repository/src/test/java/org/apache/archiva/scheduler/repository/AbstractArchivaRepositoryScanningTaskExecutorTest.java
+	org.apache.archiva.metadata.repository.MetadataRepository
+/archiva-security/src/test/java/org/apache/archiva/security/ArchivaServletAuthenticatorTest.java
+	javax.servlet.http.HttpServletRequest
+/archiva-storage-api/src/test/java/org/apache/archiva/repository/storage/mock/MockAsset.java
+	java.io.InputStream
+	java.nio.channels.ReadableByteChannel
+	java.io.OutputStream
+	java.nio.channels.WritableByteChannel
+/archiva-web-common/src/test/java/org/apache/archiva/web/rss/RssFeedServletTest.java
+/archiva-webdav/src/test/java/org/apache/archiva/webdav/ArchivaDavResourceFactoryTest.java
+	org.apache.jackrabbit.webdav.DavServletRequest
+	org.apache.jackrabbit.webdav.DavServletResponse
+	org.apache.archiva.configuration.ArchivaConfiguration
+	org.apache.archiva.repository.RepositoryContentFactory
+	org.apache.archiva.repository.maven.content.MavenRepositoryRequestInfo
+/archiva-webdav/src/test/java/org/apache/archiva/webdav/AbstractRepositoryServletTestCase.java
+/archiva-webdav/src/test/java/org/apache/archiva/webdav/RepositoryServletSecurityTest.java
+	org.apache.archiva.security.ServletAuthenticator
+	org.apache.archiva.redback.integration.filter.authentication.HttpAuthenticator
+/archiva-webdav/src/test/java/org/apache/archiva/webdav/RepositoryServletNoProxyTest.java
+/audit/src/test/java/org/apache/archiva/audit/AuditManagerTest.java
+	org.apache.archiva.metadata.repository.MetadataRepository
+	org.apache.archiva.metadata.repository.RepositorySessionFactory
+	org.apache.archiva.metadata.repository.RepositorySession
+/metadata-store-cassandra/src/test/java/org/apache/archiva/metadata/repository/cassandra/CassandraMetadataRepositoryTest.java
+	org.apache.archiva.metadata.repository.RepositorySessionFactory
+	org.apache.archiva.metadata.repository.RepositorySession
+/metadata-store-file/src/test/java/org/apache/archiva/metadata/repository/file/FileMetadataRepositoryTest.java
+	org.apache.archiva.configuration.ArchivaConfiguration
+/problem-reports/src/test/java/org/apache/archiva/reports/consumers/DuplicateArtifactsConsumerTest.java
+	org.apache.archiva.metadata.repository.MetadataRepository
+	org.apache.archiva.metadata.repository.RepositorySessionFactory
+	org.apache.archiva.metadata.repository.RepositorySession
+/problem-reports/src/test/java/org/apache/archiva/reports/consumers/MockitoFactory.java
+	java.lang.Object
+/repository-statistics/src/test/java/org/apache/archiva/metadata/repository/stats/RepositoryStatisticsManagerTest.java
+	org.apache.archiva.metadata.repository.MetadataRepository
+	org.apache.archiva.metadata.repository.RepositorySessionFactory
+	org.apache.archiva.metadata.repository.RepositorySession

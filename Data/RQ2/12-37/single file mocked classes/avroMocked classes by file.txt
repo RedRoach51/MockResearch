@@ -1,0 +1,20 @@
+/avro-mapred/src/test/java/org/apache/avro/mapreduce/TestAvroKeyRecordReader.java
+	org.apache.hadoop.mapreduce.lib.input.FileSplit
+	org.apache.hadoop.mapreduce.TaskAttemptContext
+/avro-mapred/src/test/java/org/apache/avro/mapreduce/TestAvroKeyRecordWriter.java
+	org.apache.hadoop.mapreduce.TaskAttemptContext
+	org.apache.hadoop.mapreduce.TaskAttemptContext
+/avro-mapred/src/test/java/org/apache/avro/mapreduce/TestAvroKeyOutputFormat.java
+	org.apache.hadoop.mapreduce.TaskAttemptContext
+	org.apache.hadoop.mapreduce.RecordWriter<org.apache.avro.mapred.AvroKey<java.lang.Integer>,org.apache.hadoop.io.NullWritable>
+	org.apache.avro.mapreduce.AvroKeyOutputFormat.RecordWriterFactory
+/avro-mapred/src/test/java/org/apache/avro/mapreduce/TestAvroKeyValueRecordReader.java
+	org.apache.hadoop.mapreduce.lib.input.FileSplit
+	org.apache.hadoop.mapreduce.TaskAttemptContext
+/avro-mapred/src/test/java/org/apache/avro/mapreduce/TestAvroKeyValueRecordWriter.java
+	org.apache.hadoop.mapreduce.TaskAttemptContext
+	org.apache.hadoop.mapreduce.TaskAttemptContext
+	org.apache.hadoop.mapreduce.TaskAttemptContext
+/avro-mapred/src/test/java/org/apache/avro/mapreduce/TestAvroKeyInputFormat.java
+	org.apache.hadoop.mapreduce.lib.input.FileSplit
+	org.apache.hadoop.mapreduce.TaskAttemptContext

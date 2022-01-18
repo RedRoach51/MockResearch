@@ -1,0 +1,63 @@
+/brooklyn-locations-jclouds/src/test/java/org/apache/brooklyn/location/jclouds/JcloudsStubTemplateBuilder.java
+	javax.inject.Provider
+	javax.inject.Provider
+	org.jclouds.compute.strategy.GetImageStrategy
+/brooklyn-locations-jclouds/src/test/java/org/apache/brooklyn/location/jclouds/JcloudsLocationTest.java
+	org.apache.brooklyn.location.jclouds.JcloudsLocationCustomizer
+	org.apache.brooklyn.api.location.MachineLocationCustomizer
+	org.jclouds.compute.domain.NodeMetadata
+	org.jclouds.compute.domain.NodeMetadata
+/brooklyn-locations-jclouds/src/test/java/org/apache/brooklyn/location/jclouds/JcloudsLocationReleasePortForwardingDefaultTest.java
+	org.jclouds.compute.domain.NodeMetadata
+/brooklyn-locations-jclouds/src/test/java/org/apache/brooklyn/location/jclouds/networking/SharedLocationSecurityGroupCustomizerTest.java
+	org.apache.brooklyn.location.jclouds.networking.JcloudsLocationSecurityGroupCustomizer
+	org.jclouds.domain.Location
+	org.jclouds.compute.extensions.SecurityGroupExtension
+	org.jclouds.compute.ComputeService
+	org.jclouds.compute.domain.Template
+	org.jclouds.compute.options.TemplateOptions
+	org.apache.brooklyn.location.jclouds.JcloudsMachineLocation
+	org.apache.brooklyn.location.jclouds.JcloudsMachineLocation
+	org.apache.brooklyn.location.jclouds.JcloudsMachineLocation
+	org.apache.brooklyn.location.jclouds.JcloudsMachineLocation
+	org.apache.brooklyn.location.jclouds.JcloudsMachineLocation
+/brooklyn-locations-jclouds/src/test/java/org/apache/brooklyn/location/jclouds/networking/JcloudsLocationSecurityGroupCustomizerTest.java
+	org.jclouds.compute.ComputeService
+	org.jclouds.domain.Location
+	org.jclouds.compute.extensions.SecurityGroupExtension
+	org.apache.brooklyn.location.jclouds.JcloudsMachineLocation
+	org.jclouds.compute.domain.Template
+	org.jclouds.compute.options.TemplateOptions
+	org.jclouds.compute.domain.Template
+	org.jclouds.compute.options.TemplateOptions
+	org.jclouds.compute.domain.Template
+	org.jclouds.compute.options.TemplateOptions
+/brooklyn-locations-jclouds/src/test/java/org/apache/brooklyn/location/jclouds/networking/creator/DefaultAzureArmNetworkCreatorTest.java
+	org.jclouds.compute.ComputeService
+	org.jclouds.compute.ComputeServiceContext
+	org.jclouds.azurecompute.arm.AzureComputeApi
+	org.jclouds.azurecompute.arm.features.ResourceGroupApi
+	org.jclouds.azurecompute.arm.features.VirtualNetworkApi
+	org.jclouds.azurecompute.arm.features.SubnetApi
+	org.jclouds.azurecompute.arm.domain.VirtualNetwork
+	org.jclouds.azurecompute.arm.domain.ResourceGroup
+	org.jclouds.azurecompute.arm.domain.Subnet
+/brooklyn-policy/src/test/java/org/apache/brooklyn/policy/enricher/HttpLatencyDetectorTest.java
+/brooklyn-policy/src/test/java/org/apache/brooklyn/policy/enricher/RebindEnricherTest.java
+/brooklyn-rest-client/src/test/java/org/apache/brooklyn/rest/client/BrooklynApiUtilTest.java
+/brooklyn-rest-resources/src/test/java/org/apache/brooklyn/rest/security/provider/LdapSecurityProviderLiveTest.java
+	javax.servlet.http.HttpSession
+/brooklyn-software-base/src/test/java/org/apache/brooklyn/entity/software/base/SoftwareProcessEntityHttpFeedRebindTest.java
+/brooklyn-software-base/src/test/java/org/apache/brooklyn/entity/software/base/lifecycle/ScriptHelperUnitTest.java
+	org.apache.brooklyn.entity.software.base.DoNothingSoftwareProcessDriver
+	org.apache.brooklyn.entity.software.base.DoNothingSoftwareProcessDriver
+	org.apache.brooklyn.entity.software.base.DoNothingSoftwareProcessDriver
+	org.apache.brooklyn.entity.software.base.AbstractSoftwareProcessSshDriver
+/brooklyn-software-base/src/test/java/org/apache/brooklyn/entity/software/base/lifecycle/WinRmExecuteHelperUnitTest.java
+	org.apache.brooklyn.entity.software.base.DoNothingWinRmSoftwareProcessDriver
+	org.apache.brooklyn.entity.software.base.DoNothingWinRmSoftwareProcessDriver
+	org.apache.brooklyn.entity.software.base.DoNothingWinRmSoftwareProcessDriver
+/brooklyn-ui-proxy/src/test/java/org/apache/brooklyn/ui/proxy/UIProxyTest.java
+	javax.servlet.http.HttpServletRequest
+/brooklyn-utils-common/src/test/java/org/apache/brooklyn/util/stream/LoggingOutputStreamTest.java
+	org.slf4j.Logger

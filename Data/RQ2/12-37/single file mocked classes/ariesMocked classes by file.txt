@@ -1,0 +1,480 @@
+/org.apache.aries.blueprint.core/src/test/java/org/apache/aries/blueprint/container/DampingPolicyTest.java
+	org.apache.aries.blueprint.services.ExtendedBlueprintContainer
+	org.osgi.framework.BundleContext
+	org.osgi.framework.ServiceReference
+	org.osgi.framework.ServiceReference
+/org.apache.aries.blueprint.core/src/test/java/org/apache/aries/blueprint/container/BPQuiesceTest.java
+	org.osgi.framework.BundleContext
+	org.osgi.framework.Bundle
+	org.osgi.framework.Bundle
+/org.apache.aries.blueprint.core/src/test/java/org/apache/aries/blueprint/container/LifecyclePolicyTest.java
+	org.osgi.framework.Bundle
+	org.osgi.framework.BundleContext
+	org.osgi.framework.Bundle
+	org.osgi.framework.BundleContext
+	org.osgi.service.blueprint.container.BlueprintListener
+	org.apache.aries.blueprint.container.NamespaceHandlerRegistry
+	org.apache.aries.proxy.ProxyManager
+	org.apache.aries.blueprint.parser.NamespaceHandlerSet
+	org.apache.aries.blueprint.container.LifecyclePolicyTest.TestItf
+	org.osgi.framework.ServiceRegistration
+	org.osgi.framework.ServiceReference
+/org.apache.aries.blueprint.core/src/test/java/org/apache/aries/blueprint/utils/ReflectionUtilsTest.java
+	org.apache.aries.blueprint.services.ExtendedBlueprintContainer
+/org.apache.aries.jmx.blueprint.core/src/test/java/org/apache/aries/jmx/blueprint/impl/BlueprintMetadataTest.java
+	org.osgi.framework.BundleContext
+	org.osgi.framework.Bundle
+	org.osgi.framework.ServiceReference
+	org.osgi.service.blueprint.container.BlueprintContainer
+	org.osgi.service.blueprint.reflect.ServiceMetadata
+	org.osgi.service.blueprint.reflect.BeanMetadata
+/org.apache.aries.jmx.core/src/test/java/org/apache/aries/jmx/CompendiumHandlerTest.java
+	org.osgi.framework.Bundle
+	org.osgi.framework.ServiceReference
+	org.osgi.framework.BundleContext
+	org.apache.aries.jmx.Logger
+	org.apache.aries.jmx.agent.JMXAgentContext
+	org.osgi.framework.ServiceReference
+	org.osgi.framework.BundleContext
+	org.apache.aries.jmx.Logger
+	org.apache.aries.jmx.agent.JMXAgentContext
+/org.apache.aries.jmx.core/src/test/java/org/apache/aries/jmx/cm/ConfigurationAdminMBeanHandlerTest.java
+	org.osgi.framework.BundleContext
+	org.apache.aries.jmx.Logger
+	org.osgi.service.cm.ConfigurationAdmin
+/org.apache.aries.jmx.core/src/test/java/org/apache/aries/jmx/cm/ConfigurationAdminTest.java
+	org.osgi.service.cm.ConfigurationAdmin
+	org.osgi.service.cm.Configuration
+	org.osgi.service.cm.ConfigurationAdmin
+	org.osgi.service.cm.Configuration
+	org.osgi.service.cm.ConfigurationAdmin
+	org.osgi.service.cm.Configuration
+	org.osgi.service.cm.Configuration
+	org.osgi.service.cm.ConfigurationAdmin
+	org.osgi.service.cm.Configuration
+	org.osgi.service.cm.ConfigurationAdmin
+	org.osgi.service.cm.Configuration
+	org.osgi.service.cm.Configuration
+	org.osgi.service.cm.ConfigurationAdmin
+	org.osgi.service.cm.Configuration
+	org.osgi.service.cm.ConfigurationAdmin
+	org.osgi.service.cm.Configuration
+	org.osgi.service.cm.ConfigurationAdmin
+	org.osgi.service.cm.Configuration
+	org.osgi.service.cm.ConfigurationAdmin
+	org.osgi.service.cm.Configuration
+/org.apache.aries.jmx.core/src/test/java/org/apache/aries/jmx/codec/BundleEventDataTest.java
+	org.osgi.framework.BundleEvent
+	org.osgi.framework.Bundle
+/org.apache.aries.jmx.core/src/test/java/org/apache/aries/jmx/codec/ServiceEventDataTest.java
+	org.osgi.framework.ServiceEvent
+	org.osgi.framework.ServiceReference
+	org.osgi.framework.Bundle
+/org.apache.aries.jmx.core/src/test/java/org/apache/aries/jmx/codec/ServiceDataTest.java
+	org.osgi.framework.ServiceReference
+	org.osgi.framework.Bundle
+	org.osgi.framework.Bundle
+	org.osgi.framework.Bundle
+/org.apache.aries.jmx.core/src/test/java/org/apache/aries/jmx/codec/BundleDataTest.java
+	org.osgi.framework.Bundle
+	org.osgi.framework.BundleContext
+	org.osgi.service.packageadmin.PackageAdmin
+	org.osgi.service.startlevel.StartLevel
+	org.osgi.framework.Bundle
+	org.osgi.framework.Bundle
+	org.osgi.framework.Bundle
+	org.osgi.service.packageadmin.ExportedPackage
+	org.osgi.service.packageadmin.ExportedPackage
+	org.osgi.service.packageadmin.ExportedPackage
+	org.osgi.service.packageadmin.RequiredBundle
+	org.osgi.service.packageadmin.RequiredBundle
+	org.osgi.service.packageadmin.RequiredBundle
+	org.osgi.framework.ServiceReference
+	org.osgi.framework.ServiceReference
+	org.osgi.framework.ServiceReference
+/org.apache.aries.jmx.core/src/test/java/org/apache/aries/jmx/framework/ServiceStateMBeanHandlerTest.java
+	org.osgi.framework.BundleContext
+	org.apache.aries.jmx.Logger
+	org.osgi.framework.Bundle
+	org.apache.aries.jmx.agent.JMXAgent
+/org.apache.aries.jmx.core/src/test/java/org/apache/aries/jmx/framework/FrameworkTest.java
+	org.osgi.service.startlevel.StartLevel
+	org.osgi.service.packageadmin.PackageAdmin
+	org.osgi.framework.BundleContext
+	org.osgi.framework.Bundle
+	org.osgi.framework.Bundle
+	java.io.InputStream
+	org.osgi.framework.Bundle
+	org.osgi.framework.Bundle
+	java.io.InputStream
+	org.osgi.framework.Bundle
+	org.osgi.framework.Bundle
+	org.osgi.framework.Bundle
+	org.osgi.framework.Bundle
+	org.osgi.framework.Bundle
+	org.osgi.framework.Bundle
+	org.osgi.framework.Bundle
+	org.osgi.framework.Bundle
+	org.osgi.framework.Bundle
+	org.osgi.framework.Bundle
+	org.osgi.framework.Bundle
+	org.osgi.framework.Bundle
+	org.osgi.framework.Bundle
+	org.osgi.framework.Bundle
+	org.osgi.framework.Bundle
+	org.osgi.framework.Bundle
+	java.io.InputStream
+	org.osgi.framework.Bundle
+	org.osgi.framework.Bundle
+	org.osgi.framework.Bundle
+	org.osgi.framework.Bundle
+	org.osgi.framework.Bundle
+	java.io.InputStream
+	org.osgi.framework.Bundle
+	org.osgi.framework.Bundle
+/org.apache.aries.jmx.core/src/test/java/org/apache/aries/jmx/framework/BundleStateMBeanHandlerTest.java
+	org.osgi.framework.BundleContext
+	org.apache.aries.jmx.Logger
+	org.osgi.framework.Bundle
+	org.osgi.framework.ServiceReference
+	org.osgi.service.packageadmin.PackageAdmin
+	org.osgi.framework.ServiceReference
+	org.osgi.service.startlevel.StartLevel
+	org.apache.aries.jmx.agent.JMXAgent
+/org.apache.aries.jmx.core/src/test/java/org/apache/aries/jmx/framework/PackageStateTest.java
+	org.osgi.framework.BundleContext
+	org.osgi.service.packageadmin.PackageAdmin
+	org.osgi.service.packageadmin.ExportedPackage
+	org.osgi.framework.Bundle
+	org.osgi.service.packageadmin.ExportedPackage
+	org.osgi.framework.Bundle
+	org.osgi.service.packageadmin.ExportedPackage
+	org.osgi.framework.Bundle
+	org.osgi.framework.Bundle
+	org.osgi.service.packageadmin.ExportedPackage
+	org.osgi.framework.Bundle
+	org.osgi.framework.Bundle
+	org.osgi.framework.Bundle
+	org.osgi.service.packageadmin.ExportedPackage
+/org.apache.aries.jmx.core/src/test/java/org/apache/aries/jmx/framework/ServiceStateTest.java
+	org.osgi.framework.BundleContext
+	org.apache.aries.jmx.Logger
+	org.osgi.framework.ServiceReference
+	org.osgi.framework.Bundle
+	org.osgi.framework.ServiceEvent
+	org.osgi.framework.ServiceEvent
+	javax.management.MBeanServer
+	org.osgi.framework.BundleContext
+	org.apache.aries.jmx.Logger
+	javax.management.MBeanServer
+	javax.management.MBeanServer
+/org.apache.aries.jmx.core/src/test/java/org/apache/aries/jmx/framework/BundleStateTest.java
+	org.osgi.framework.BundleContext
+	org.osgi.service.packageadmin.PackageAdmin
+	org.osgi.service.startlevel.StartLevel
+	org.apache.aries.jmx.Logger
+	org.osgi.framework.Bundle
+	org.osgi.framework.BundleEvent
+	org.osgi.framework.BundleEvent
+	javax.management.MBeanServer
+	org.osgi.framework.BundleContext
+	org.osgi.service.packageadmin.PackageAdmin
+	org.osgi.service.startlevel.StartLevel
+	org.apache.aries.jmx.Logger
+	javax.management.MBeanServer
+	javax.management.MBeanServer
+/org.apache.aries.jmx.core/src/test/java/org/apache/aries/jmx/permissionadmin/PermissionAdminTest.java
+	
+/org.apache.aries.jmx.core/src/test/java/org/apache/aries/jmx/provisioning/ProvisioningServiceMBeanHandlerTest.java
+	org.osgi.framework.BundleContext
+	org.apache.aries.jmx.Logger
+	org.osgi.service.provisioning.ProvisioningService
+/org.apache.aries.jmx.core/src/test/java/org/apache/aries/jmx/provisioning/ProvisioningServiceTest.java
+	org.osgi.service.provisioning.ProvisioningService
+	java.io.InputStream
+	org.osgi.service.provisioning.ProvisioningService
+	org.osgi.service.provisioning.ProvisioningService
+	org.osgi.service.provisioning.ProvisioningService
+/org.apache.aries.jmx.core/src/test/java/org/apache/aries/jmx/useradmin/UserAdminTest.java
+	
+	org.osgi.service.useradmin.User
+	org.osgi.service.useradmin.User
+	org.osgi.service.useradmin.Group
+	org.osgi.service.useradmin.User
+	org.osgi.service.useradmin.User
+	org.osgi.service.useradmin.User
+	org.osgi.service.useradmin.Group
+	org.osgi.service.useradmin.User
+	org.osgi.service.useradmin.Authorization
+	org.osgi.service.useradmin.User
+	org.osgi.service.useradmin.User
+	org.osgi.service.useradmin.Group
+	org.osgi.service.useradmin.Role
+	org.osgi.service.useradmin.Role
+	org.osgi.service.useradmin.Group
+	org.osgi.service.useradmin.User
+	org.osgi.service.useradmin.Authorization
+	org.osgi.service.useradmin.Group
+	org.osgi.service.useradmin.Group
+	org.osgi.service.useradmin.User
+	org.osgi.service.useradmin.Group
+	org.osgi.service.useradmin.Group
+	org.osgi.service.useradmin.User
+	org.osgi.service.useradmin.User
+	org.osgi.service.useradmin.User
+	org.osgi.service.useradmin.User
+	org.osgi.service.useradmin.User
+	org.osgi.service.useradmin.Group
+	org.osgi.service.useradmin.Group
+	org.osgi.service.useradmin.User
+	org.osgi.service.useradmin.User
+	org.osgi.service.useradmin.User
+	org.osgi.service.useradmin.User
+	org.osgi.service.useradmin.User
+	org.osgi.service.useradmin.Group
+	org.osgi.service.useradmin.User
+	org.osgi.service.useradmin.User
+/org.apache.aries.jmx.core/src/test/java/org/apache/aries/jmx/util/FrameworkUtilsTest.java
+	org.osgi.framework.Bundle
+	org.osgi.framework.Bundle
+	org.osgi.framework.BundleContext
+	org.osgi.framework.ServiceReference
+	org.osgi.framework.ServiceReference
+	org.osgi.framework.ServiceReference
+	org.osgi.framework.ServiceReference
+	org.osgi.framework.Bundle
+	org.osgi.service.packageadmin.PackageAdmin
+	org.osgi.service.packageadmin.ExportedPackage
+	org.osgi.framework.Bundle
+	org.osgi.framework.BundleContext
+	org.osgi.framework.Bundle
+	org.osgi.framework.Bundle
+	org.osgi.framework.Bundle
+	org.osgi.service.packageadmin.ExportedPackage
+	org.osgi.service.packageadmin.ExportedPackage
+	org.osgi.service.packageadmin.PackageAdmin
+	org.osgi.framework.Bundle
+	org.osgi.framework.ServiceReference
+	org.osgi.framework.ServiceReference
+	org.osgi.framework.ServiceReference
+	org.osgi.framework.Bundle
+	org.osgi.framework.ServiceReference
+	org.osgi.framework.ServiceReference
+	org.osgi.framework.ServiceReference
+	org.osgi.framework.Bundle
+	org.osgi.service.packageadmin.RequiredBundle
+	org.osgi.service.packageadmin.PackageAdmin
+	org.osgi.framework.Bundle
+	org.osgi.service.packageadmin.RequiredBundle
+	org.osgi.service.packageadmin.PackageAdmin
+	org.osgi.framework.Bundle
+	org.osgi.framework.Bundle
+	org.osgi.framework.BundleContext
+	org.osgi.framework.Bundle
+	org.osgi.framework.Bundle
+	org.osgi.framework.Bundle
+	org.osgi.service.packageadmin.PackageAdmin
+	org.osgi.service.packageadmin.RequiredBundle
+	org.osgi.service.packageadmin.RequiredBundle
+	org.osgi.service.packageadmin.RequiredBundle
+/org.apache.aries.jmx.whiteboard/src/test/java/org/apache/aries/jmx/whiteboard/MBeanHolderTest.java
+	org.slf4j.Logger
+	org.slf4j.Logger
+	javax.management.MBeanServer
+	org.slf4j.Logger
+	javax.management.MBeanServer
+	org.slf4j.Logger
+	javax.management.MBeanServer
+	org.slf4j.Logger
+	javax.management.MBeanServer
+	javax.management.MBeanServer
+/org.apache.aries.jmx.whiteboard/src/test/java/org/apache/aries/jmx/whiteboard/JmxWhiteboardSupportTest.java
+	org.slf4j.Logger
+	org.osgi.framework.ServiceReference
+	javax.management.DynamicMBean
+	org.slf4j.Logger
+	org.osgi.framework.ServiceReference
+	javax.management.MBeanServer
+	javax.management.DynamicMBean
+	org.slf4j.Logger
+	org.osgi.framework.ServiceReference
+	javax.management.MBeanServer
+	javax.management.DynamicMBean
+	javax.management.MBeanServer
+/org.apache.aries.proxy/src/test/java/org/apache/aries/blueprint/proxy/InterfaceProxyingTest.java
+	org.osgi.framework.Bundle
+	org.osgi.framework.wiring.BundleWiring
+	org.osgi.framework.Bundle
+/org.apache.aries.proxy/src/test/java/org/apache/aries/blueprint/proxy/WovenProxyGeneratorTest.java
+	org.osgi.framework.Bundle
+/org.apache.aries.proxy/src/test/java/org/apache/aries/blueprint/proxy/AbstractProxyTest.java
+	org.osgi.framework.wiring.BundleWiring
+/org.apache.aries.proxy/src/test/java/org/apache/aries/blueprint/proxy/WovenProxyPlusSubclassGeneratorTest.java
+	org.osgi.framework.Bundle
+/org.apache.aries.spifly.core-internal/src/test/java/org/apache/aries/spifly/ProviderBundleTrackerCustomizerGenericCapabilityTest.java
+	org.osgi.framework.Bundle
+	org.osgi.framework.ServiceRegistration
+	org.osgi.framework.Bundle
+	org.osgi.framework.ServiceRegistration<>
+	org.osgi.framework.wiring.BundleWire
+	org.osgi.framework.Bundle
+	org.osgi.framework.wiring.BundleRevision
+	org.osgi.framework.wiring.BundleRequirement
+	org.osgi.framework.wiring.BundleWiring
+	org.osgi.framework.wiring.BundleRevision
+	org.osgi.framework.Bundle
+	org.osgi.framework.ServiceRegistration
+	org.osgi.framework.Bundle
+	org.osgi.framework.ServiceRegistration
+	org.osgi.framework.Bundle
+	org.osgi.framework.ServiceRegistration
+	org.osgi.framework.Bundle
+	org.osgi.framework.ServiceRegistration
+	org.osgi.framework.Bundle
+	org.osgi.framework.ServiceRegistration
+	org.osgi.framework.Bundle
+	org.osgi.framework.Bundle
+	org.osgi.framework.Bundle
+	org.osgi.framework.Bundle
+	org.osgi.framework.ServiceRegistration
+	org.osgi.framework.Bundle
+	org.osgi.framework.BundleContext
+	java.lang.Object
+	org.osgi.framework.Bundle
+	org.osgi.framework.BundleContext
+	org.osgi.framework.Bundle
+	org.osgi.framework.BundleContext
+	org.osgi.framework.Bundle
+/org.apache.aries.spifly.core-internal/src/test/java/org/apache/aries/spifly/UtilTest.java
+	org.osgi.framework.Bundle
+	org.osgi.framework.Bundle
+	org.osgi.framework.Bundle
+	org.osgi.framework.Bundle
+/org.apache.aries.spifly.core-internal/src/test/java/org/apache/aries/spifly/ProviderBundleTrackerCustomizerTest.java
+	org.osgi.framework.Bundle
+	org.osgi.framework.ServiceRegistration
+	org.osgi.framework.ServiceRegistration
+	org.osgi.framework.ServiceRegistration
+	org.osgi.framework.Bundle
+	org.osgi.framework.BundleContext
+	java.lang.Object
+	org.osgi.framework.Bundle
+	org.osgi.framework.ServiceRegistration
+	org.osgi.framework.Bundle
+	org.osgi.framework.BundleContext
+	org.osgi.framework.Bundle
+	org.osgi.framework.Bundle
+/org.apache.aries.spifly.dynamic.bundle/src/test/java/org/apache/aries/spifly/dynamic/ClientWeavingHookGenericCapabilityTest.java
+	org.osgi.framework.Bundle
+	org.osgi.framework.wiring.BundleRevision
+	org.osgi.framework.wiring.BundleRequirement
+	org.osgi.framework.wiring.BundleWire
+	org.osgi.framework.wiring.BundleWiring
+	org.osgi.framework.wiring.BundleRevision
+	org.osgi.framework.Bundle
+	org.osgi.framework.BundleContext
+	org.osgi.framework.BundleContext
+	org.osgi.framework.Bundle
+	org.osgi.framework.BundleContext
+	org.osgi.framework.Bundle
+	org.osgi.framework.wiring.BundleWiring
+/org.apache.aries.spifly.dynamic.bundle/src/test/java/org/apache/aries/spifly/dynamic/ClientWeavingHookOSGi43Test.java
+	org.osgi.framework.Bundle
+	org.osgi.framework.BundleContext
+	org.osgi.framework.Bundle
+	org.osgi.framework.BundleContext
+	org.osgi.framework.wiring.BundleWiring
+	org.osgi.framework.wiring.BundleRevision
+	org.osgi.framework.Bundle
+	org.osgi.framework.BundleContext
+	org.osgi.framework.Bundle
+	org.osgi.framework.wiring.BundleWiring
+/org.apache.aries.spifly.dynamic.bundle/src/test/java/org/apache/aries/spifly/dynamic/ClientWeavingHookTest.java
+	org.osgi.framework.Bundle
+	org.osgi.framework.BundleContext
+	org.osgi.framework.BundleContext
+	org.osgi.framework.Bundle
+	org.osgi.framework.BundleContext
+	org.osgi.framework.Bundle
+	org.osgi.framework.Bundle
+	org.osgi.framework.wiring.BundleWiring
+/org.apache.aries.subsystem.core/src/test/java/org/apache/aries/subsystem/core/archive/BundleRequiredExecutionEnvironmentHeaderTest.java
+	org.osgi.resource.Resource
+	org.osgi.resource.Resource
+	org.osgi.resource.Resource
+/org.apache.aries.subsystem.core/src/test/java/org/apache/aries/subsystem/core/internal/ResourceHelperTest.java
+	org.osgi.resource.Resource
+	org.osgi.resource.Resource
+	org.osgi.resource.Resource
+	org.osgi.resource.Resource
+	org.osgi.resource.Resource
+	org.osgi.resource.Resource
+	org.osgi.resource.Resource
+	org.osgi.resource.Resource
+	org.osgi.resource.Resource
+	org.osgi.resource.Resource
+	org.osgi.resource.Resource
+	org.osgi.resource.Resource
+/org.apache.aries.subsystem.core/src/test/java/org/apache/aries/subsystem/core/internal/ResolveContextTest.java
+	org.osgi.service.resolver.HostedCapability
+	org.osgi.service.resolver.HostedCapability
+	org.osgi.framework.BundleContext
+/org.apache.aries.subsystem.core/src/test/java/org/apache/aries/subsystem/core/internal/RepositoryServiceRepositoryTest.java
+	org.osgi.framework.BundleContext
+	org.osgi.framework.ServiceReference
+	org.osgi.framework.ServiceReference
+	org.osgi.framework.ServiceReference
+/org.apache.aries.subsystem.core/src/test/java/org/apache/aries/subsystem/core/internal/BundleRevisionResourceTest.java
+	org.osgi.framework.wiring.BundleRevision
+	org.osgi.framework.wiring.BundleRevision
+/org.apache.aries.subsystem.itests/src/test/java/org/apache/aries/subsystem/itests/AriesSubsystemTest.java
+	org.osgi.resource.Resource
+	org.osgi.resource.Resource
+	org.osgi.resource.Resource
+	org.osgi.resource.Resource
+/org.apache.aries.subsystem.itests/src/test/java/org/apache/aries/subsystem/itests/defect/Aries1383Test.java
+/org.apache.aries.subsystem.itests/src/test/java/org/apache/aries/subsystem/itests/performance/AbstractPerformanceTest.java
+/org.apache.aries.subsystem.obr/src/test/java/org/apache/aries/subsystem/obr/internal/FelixResourceAdapterTest.java
+	org.apache.felix.bundlerepository.Resource
+	org.apache.felix.bundlerepository.Capability
+/org.apache.aries.subsystem.obr/src/test/java/org/apache/aries/subsystem/obr/internal/OsgiRequirementAdapterTest.java
+	org.osgi.resource.Requirement
+	org.osgi.resource.Requirement
+	org.osgi.resource.Requirement
+	org.osgi.resource.Requirement
+	org.osgi.resource.Requirement
+/org.apache.aries.subsystem.obr/src/test/java/org/apache/aries/subsystem/obr/internal/FelixRequirementAdapterTest.java
+	org.apache.felix.bundlerepository.Requirement
+	org.osgi.resource.Resource
+	org.apache.felix.bundlerepository.Requirement
+	org.osgi.resource.Resource
+	org.apache.felix.bundlerepository.Requirement
+	org.osgi.resource.Resource
+	org.apache.felix.bundlerepository.Requirement
+	org.osgi.resource.Resource
+/org.apache.aries.subsystem.obr/src/test/java/org/apache/aries/subsystem/obr/internal/FelixCapabilityAdapterTest.java
+	org.apache.felix.bundlerepository.Capability
+	org.osgi.resource.Resource
+	org.apache.felix.bundlerepository.Capability
+	org.osgi.resource.Resource
+	org.apache.felix.bundlerepository.Capability
+	org.osgi.resource.Resource
+	org.apache.felix.bundlerepository.Capability
+	org.osgi.resource.Resource
+	org.apache.felix.bundlerepository.Capability
+	org.osgi.resource.Resource
+	org.apache.felix.bundlerepository.Capability
+	org.osgi.resource.Resource
+/org.apache.aries.transaction.blueprint/src/test/java/org/apache/aries/transaction/BaseNameSpaceHandlerSetup.java
+	org.osgi.framework.Bundle
+	javax.transaction.TransactionManager
+	org.osgi.service.coordinator.Coordinator
+/org.apache.aries.transaction.blueprint/src/test/java/org/apache/aries/transaction/InterceptorTest.java
+	org.osgi.service.coordinator.Coordination
+	javax.transaction.TransactionManager
+	org.osgi.service.coordinator.Coordinator
+	javax.transaction.Transaction
+	org.osgi.service.coordinator.Coordination
+/org.apache.aries.transaction.blueprint/src/test/java/org/apache/aries/transaction/TranStrategyTest.java
+	javax.transaction.TransactionManager
+	javax.transaction.Transaction

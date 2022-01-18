@@ -86,6 +86,12 @@ Methods Invoked:
 	Class origin: org.mockito.Mockito
 	Count: 2
  
+/cloud-api/src/test/java/org/apache/cloudstack/api/command/admin/vlan/UpdateVlanIpRangeCmdTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 6
+ 
 /cloud-api/src/test/java/org/apache/cloudstack/api/command/test/AddHostCmdTest.java
 Methods Invoked: 
 	Method name: mock
@@ -984,6 +990,24 @@ Methods Invoked:
 	Class origin: org.mockito.Mockito
 	Count: 16
  
+/cloud-framework-db/src/test/java/com/cloud/utils/db/GroupByTest.java
+Methods Invoked: 
+	Method name: spy
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+	Method name: when
+	Class origin: org.mockito.stubbing.Stubber
+	Count: 1
+ 
+	Method name: doNothing
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+	Method name: any
+	Class origin: org.mockito.ArgumentMatchers
+	Count: 1
+ 
 /cloud-framework-ipc/src/test/java/org/apache/cloudstack/messagebus/TestMessageBus.java
 Methods Invoked: 
 	Method name: spy
@@ -1394,7 +1418,7 @@ Methods Invoked:
  
 	Method name: mock
 	Class origin: org.mockito.Mockito
-	Count: 396
+	Count: 401
  
 /cloud-plugin-hypervisor-kvm/src/test/java/com/cloud/hypervisor/kvm/resource/wrapper/LibvirtScaleVmCommandWrapperTest.java
 Methods Invoked: 
@@ -4296,7 +4320,7 @@ Methods Invoked:
  
 	Method name: when
 	Class origin: org.mockito.Mockito
-	Count: 31
+	Count: 33
  
 	Method name: thenReturn
 	Class origin: org.mockito.stubbing.OngoingStubbing<com.cloud.dc.DataCenterVO>
@@ -4466,6 +4490,16 @@ Methods Invoked:
 	Class origin: org.mockito.Mockito
 	Count: 10
  
+/cloud-server/src/test/java/org/apache/cloudstack/backup/BackupManagerTest.java
+Methods Invoked: 
+	Method name: initMocks
+	Class origin: org.mockito.MockitoAnnotations
+	Count: 1
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 19
+ 
 /cloud-server/src/test/java/org/apache/cloudstack/ca/CABackgroundTaskTest.java
 Methods Invoked: 
 	Method name: thenReturn
@@ -4564,7 +4598,7 @@ Methods Invoked:
 Methods Invoked: 
 	Method name: mock
 	Class origin: org.mockito.Mockito
-	Count: 41
+	Count: 42
  
 /cloud-server/src/test/java/org/apache/cloudstack/privategw/AclOnPrivateGwTest.java
 Methods Invoked: 

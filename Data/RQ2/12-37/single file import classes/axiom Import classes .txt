@@ -1,0 +1,100 @@
+/axiom-testsuite/src/main/java/org/apache/axiom/ts/om/comment/TestSerialize.java
+	org.mockito.Mockito.atMost
+	org.mockito.Mockito.mock
+	org.mockito.Mockito.verify
+	org.mockito.Mockito.verifyNoMoreInteractions
+	javax.xml.stream.XMLStreamWriter
+	org.apache.axiom.om.OMComment
+	org.apache.axiom.om.OMMetaFactory
+	org.apache.axiom.ts.AxiomTestCase
+/axiom-testsuite/src/main/java/org/apache/axiom/ts/om/doctype/TestSerialize.java
+	org.mockito.Mockito.atMost
+	org.mockito.Mockito.mock
+	org.mockito.Mockito.verify
+	org.mockito.Mockito.verifyNoMoreInteractions
+	javax.xml.stream.XMLStreamWriter
+	org.apache.axiom.om.OMDocType
+	org.apache.axiom.om.OMMetaFactory
+	org.apache.axiom.ts.AxiomTestCase
+/axiom-testsuite/src/main/java/org/apache/axiom/ts/om/entref/TestSerialize.java
+	org.mockito.Mockito.atMost
+	org.mockito.Mockito.mock
+	org.mockito.Mockito.verify
+	org.mockito.Mockito.verifyNoMoreInteractions
+	javax.xml.stream.XMLStreamWriter
+	org.apache.axiom.om.OMEntityReference
+	org.apache.axiom.om.OMMetaFactory
+	org.apache.axiom.ts.AxiomTestCase
+/axiom-testsuite/src/main/java/org/apache/axiom/ts/om/pi/TestSerialize.java
+	org.mockito.Mockito.atMost
+	org.mockito.Mockito.mock
+	org.mockito.Mockito.verify
+	org.mockito.Mockito.verifyNoMoreInteractions
+	javax.xml.stream.XMLStreamWriter
+	org.apache.axiom.om.OMMetaFactory
+	org.apache.axiom.om.OMProcessingInstruction
+	org.apache.axiom.ts.AxiomTestCase
+/axiom-testsuite/src/main/java/org/apache/axiom/ts/om/text/TestSerialize.java
+	org.mockito.Mockito.atMost
+	org.mockito.Mockito.mock
+	org.mockito.Mockito.verify
+	org.mockito.Mockito.verifyNoMoreInteractions
+	javax.xml.stream.XMLStreamWriter
+	org.apache.axiom.om.OMMetaFactory
+	org.apache.axiom.om.OMNode
+	org.apache.axiom.om.OMText
+	org.apache.axiom.ts.AxiomTestCase
+	org.apache.axiom.util.xml.stream.XMLEventUtils
+/core-streams/src/test/java/org/apache/axiom/core/stream/dom/DOMReaderTest.java
+	com.google.common.truth.Truth.assertThat
+	org.mockito.Mockito.mock
+	org.mockito.Mockito.verify
+	org.mockito.Mockito.verifyNoMoreInteractions
+	org.apache.axiom.core.stream.XmlHandler
+	org.apache.axiom.ts.jaxp.DOMImplementation
+	org.junit.Test
+	org.w3c.dom.Document
+	org.w3c.dom.Element
+/dom-testsuite/src/main/java/org/apache/axiom/ts/dom/document/TestAppendChildForeignImplementation.java
+	com.google.common.truth.Truth.assertThat
+	org.mockito.Mockito.mock
+	javax.xml.parsers.DocumentBuilderFactory
+	org.apache.axiom.ts.dom.DOMTestCase
+	org.w3c.dom.DOMException
+	org.w3c.dom.Document
+	org.w3c.dom.Element
+/dom-testsuite/src/main/java/org/apache/axiom/ts/dom/element/TestRemoveAttributeNodeForeignImplementation.java
+	com.google.common.truth.Truth.assertThat
+	org.mockito.Mockito.mock
+	javax.xml.parsers.DocumentBuilderFactory
+	org.apache.axiom.ts.dom.DOMTestCase
+	org.w3c.dom.Attr
+	org.w3c.dom.DOMException
+	org.w3c.dom.Document
+	org.w3c.dom.Element
+/dom-testsuite/src/main/java/org/apache/axiom/ts/dom/element/TestSetAttributeNodeNSForeignImplementation.java
+	com.google.common.truth.Truth.assertThat
+	org.mockito.Mockito.mock
+	javax.xml.parsers.DocumentBuilderFactory
+	org.apache.axiom.ts.dom.DOMTestCase
+	org.w3c.dom.Attr
+	org.w3c.dom.DOMException
+	org.w3c.dom.Document
+	org.w3c.dom.Element
+/spring-ws-testsuite/src/main/java/org/apache/axiom/ts/springws/scenario/ScenarioTestCase.java
+	org.apache.axiom.ts.soap.SOAPSpec
+	org.apache.axiom.ts.springws.SpringWSTestCase
+	org.eclipse.jetty.server.Connector
+	org.eclipse.jetty.server.Server
+	org.eclipse.jetty.server.ServerConnector
+	org.eclipse.jetty.servlet.ServletContextHandler
+	org.eclipse.jetty.servlet.ServletHolder
+	org.eclipse.jetty.util.thread.QueuedThreadPool
+	org.springframework.context.ApplicationContextInitializer
+	org.springframework.context.ConfigurableApplicationContext
+	org.springframework.context.support.GenericXmlApplicationContext
+	org.springframework.core.env.StandardEnvironment
+	org.springframework.core.io.ClassPathResource
+	org.springframework.mock.env.MockPropertySource
+	org.springframework.web.context.support.GenericWebApplicationContext
+	org.springframework.ws.transport.http.MessageDispatcherServlet

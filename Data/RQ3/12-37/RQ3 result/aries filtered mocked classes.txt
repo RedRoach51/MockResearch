@@ -31,6 +31,7 @@ org.osgi.service.packageadmin.ExportedPackage
 org.osgi.service.packageadmin.RequiredBundle
 java.io.InputStream
 javax.management.MBeanServer
+
 org.osgi.service.provisioning.ProvisioningService
 org.osgi.service.useradmin.User
 org.osgi.service.useradmin.Group
@@ -39,10 +40,17 @@ org.osgi.service.useradmin.Role
 org.slf4j.Logger
 javax.management.DynamicMBean
 org.osgi.framework.wiring.BundleWiring
+org.osgi.framework.ServiceRegistration<>
 org.osgi.framework.wiring.BundleWire
 org.osgi.framework.wiring.BundleRevision
 org.osgi.framework.wiring.BundleRequirement
+java.lang.Object
 org.osgi.resource.Resource
+org.osgi.service.resolver.HostedCapability
+org.apache.felix.bundlerepository.Resource
+org.apache.felix.bundlerepository.Capability
+org.osgi.resource.Requirement
+org.apache.felix.bundlerepository.Requirement
 javax.transaction.TransactionManager
 org.osgi.service.coordinator.Coordinator
 org.osgi.service.coordinator.Coordination

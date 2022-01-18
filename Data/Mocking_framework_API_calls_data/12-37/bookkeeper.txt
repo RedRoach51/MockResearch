@@ -144,15 +144,7 @@ Methods Invoked:
  
 /bookkeeper-common/src/test/java/org/apache/bookkeeper/common/util/TestOrderedExecutorDecorators.java
 Methods Invoked: 
-	Method name: mock
-	Class origin: org.mockito.Mockito
-	Count: 1
- 
-	Method name: thenReturn
-	Class origin: org.mockito.stubbing.OngoingStubbing<java.lang.String>
-	Count: 1
- 
-	Method name: when
+	Method name: spy
 	Class origin: org.mockito.Mockito
 	Count: 1
  
@@ -442,6 +434,12 @@ Methods Invoked:
 	Class origin: org.mockito.ArgumentMatchers
 	Count: 2
  
+/bookkeeper-server/src/test/java/org/apache/bookkeeper/bookie/storage/ldb/LedgersIndexRebuildTest.java
+Methods Invoked: 
+	Method name: whenNew
+	Class origin: org.powermock.api.mockito.PowerMockito
+	Count: 2
+ 
 /bookkeeper-server/src/test/java/org/apache/bookkeeper/client/MockClientContext.java
 Methods Invoked: 
 	Method name: isSpy
@@ -486,15 +484,7 @@ Methods Invoked:
  
 /bookkeeper-server/src/test/java/org/apache/bookkeeper/client/MdcContextTest.java
 Methods Invoked: 
-	Method name: mock
-	Class origin: org.mockito.Mockito
-	Count: 1
- 
-	Method name: thenReturn
-	Class origin: org.mockito.stubbing.OngoingStubbing<java.lang.String>
-	Count: 1
- 
-	Method name: when
+	Method name: spy
 	Class origin: org.mockito.Mockito
 	Count: 1
  
@@ -822,7 +812,7 @@ Methods Invoked:
 Methods Invoked: 
 	Method name: mock
 	Class origin: org.mockito.Mockito
-	Count: 7
+	Count: 9
  
 /bookkeeper-server/src/test/java/org/apache/bookkeeper/proto/TestPerChannelBookieClient.java
 Methods Invoked: 
@@ -856,13 +846,19 @@ Methods Invoked:
 Methods Invoked: 
 	Method name: mock
 	Class origin: org.mockito.Mockito
-	Count: 10
+	Count: 12
  
 /bookkeeper-server/src/test/java/org/apache/bookkeeper/proto/ReadEntryProcessorTest.java
 Methods Invoked: 
 	Method name: mock
 	Class origin: org.mockito.Mockito
 	Count: 6
+ 
+/bookkeeper-server/src/test/java/org/apache/bookkeeper/replication/AuditorPeriodicCheckTest.java
+Methods Invoked: 
+	Method name: spy
+	Class origin: org.mockito.Mockito
+	Count: 3
  
 /bookkeeper-server/src/test/java/org/apache/bookkeeper/server/TestMain.java
 Methods Invoked: 
@@ -906,7 +902,7 @@ Methods Invoked:
 	Class origin: org.mockito.ArgumentCaptor
 	Count: 1
  
-	Method name: mock
+	Method name: spy
 	Class origin: org.mockito.Mockito
 	Count: 1
  
@@ -986,7 +982,7 @@ Methods Invoked:
  
 	Method name: mockStatic
 	Class origin: org.powermock.api.mockito.PowerMockito
-	Count: 4
+	Count: 3
  
 	Method name: thenReturn
 	Class origin: org.mockito.stubbing.OngoingStubbing<java.lang.String>
@@ -998,11 +994,11 @@ Methods Invoked:
  
 	Method name: eq
 	Class origin: org.mockito.ArgumentMatchers
-	Count: 4
+	Count: 2
  
 	Method name: mock
 	Class origin: org.powermock.api.mockito.PowerMockito
-	Count: 2
+	Count: 3
  
 /bookkeeper-tools-ledger/src/test/java/org/apache/bookkeeper/tools/cli/commands/autorecovery/ListUnderReplicatedCommandTest.java
 Methods Invoked: 

@@ -1,0 +1,19 @@
+/axiom-testsuite/src/main/java/org/apache/axiom/ts/om/comment/TestSerialize.java
+	javax.xml.stream.XMLStreamWriter
+/axiom-testsuite/src/main/java/org/apache/axiom/ts/om/doctype/TestSerialize.java
+	javax.xml.stream.XMLStreamWriter
+/axiom-testsuite/src/main/java/org/apache/axiom/ts/om/entref/TestSerialize.java
+	javax.xml.stream.XMLStreamWriter
+/axiom-testsuite/src/main/java/org/apache/axiom/ts/om/pi/TestSerialize.java
+	javax.xml.stream.XMLStreamWriter
+/axiom-testsuite/src/main/java/org/apache/axiom/ts/om/text/TestSerialize.java
+	javax.xml.stream.XMLStreamWriter
+/core-streams/src/test/java/org/apache/axiom/core/stream/dom/DOMReaderTest.java
+	org.apache.axiom.core.stream.XmlHandler
+/dom-testsuite/src/main/java/org/apache/axiom/ts/dom/document/TestAppendChildForeignImplementation.java
+	org.w3c.dom.Element
+/dom-testsuite/src/main/java/org/apache/axiom/ts/dom/element/TestRemoveAttributeNodeForeignImplementation.java
+	org.w3c.dom.Attr
+/dom-testsuite/src/main/java/org/apache/axiom/ts/dom/element/TestSetAttributeNodeNSForeignImplementation.java
+	org.w3c.dom.Attr
+/spring-ws-testsuite/src/main/java/org/apache/axiom/ts/springws/scenario/ScenarioTestCase.java

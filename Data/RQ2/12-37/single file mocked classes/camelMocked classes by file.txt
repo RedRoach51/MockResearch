@@ -1,0 +1,1550 @@
+/camel-atlasmap/src/test/java/org/apache/camel/component/atlasmap/Util.java
+	twitter4j.Status
+	twitter4j.User
+/camel-atlasmap/src/test/java/org/apache/camel/component/atlasmap/CamelAtlasPropertyStrategyTest.java
+	io.atlasmap.api.AtlasSession
+	io.atlasmap.core.DefaultAtlasSession
+/camel-atlasmap/src/test/java/org/apache/camel/component/atlasmap/AtlasMapEndpointTest.java
+/camel-atlasmap/src/test/java/org/apache/camel/component/atlasmap/AtlasMapTest.java
+/camel-atmosphere-websocket/src/test/java/org/apache/camel/component/atmosphere/websocket/MemoryWebSocketStoreTest.java
+	org.atmosphere.websocket.WebSocket
+	org.atmosphere.websocket.WebSocket
+/camel-aws2-kinesis/src/test/java/org/apache/camel/component/aws2/kinesis/KinesisConsumerClosedShardWithSilentTest.java
+	software.amazon.awssdk.services.kinesis.KinesisClient
+	org.apache.camel.AsyncProcessor
+/camel-aws2-kinesis/src/test/java/org/apache/camel/component/aws2/kinesis/KinesisConsumerClosedShardWithFailTest.java
+	software.amazon.awssdk.services.kinesis.KinesisClient
+	org.apache.camel.AsyncProcessor
+/camel-aws2-sns/src/test/java/org/apache/camel/component/aws2/sns/SnsProducerTest.java
+	org.apache.camel.Exchange
+	org.apache.camel.component.aws2.sns.Sns2Endpoint
+/camel-azure-cosmosdb/src/test/java/org/apache/camel/component/azure/cosmosdb/operations/CosmosDbDatabaseOperationsTest.java
+	com.azure.cosmos.CosmosAsyncDatabase
+	com.azure.cosmos.models.CosmosContainerResponse
+	com.azure.cosmos.CosmosAsyncDatabase
+	com.azure.cosmos.CosmosAsyncContainer
+	com.azure.cosmos.CosmosAsyncContainer
+	com.azure.cosmos.models.CosmosContainerResponse
+	com.azure.cosmos.CosmosAsyncDatabase
+/camel-azure-cosmosdb/src/test/java/org/apache/camel/component/azure/cosmosdb/operations/CosmosDbContainerOperationsTest.java
+	com.azure.cosmos.CosmosAsyncContainer
+	com.azure.cosmos.CosmosAsyncContainer
+	com.azure.cosmos.CosmosAsyncContainer
+	com.azure.cosmos.CosmosAsyncContainer
+	com.azure.cosmos.CosmosAsyncContainer
+	com.azure.cosmos.CosmosAsyncContainer
+	com.azure.cosmos.CosmosAsyncContainer
+/camel-azure-cosmosdb/src/test/java/org/apache/camel/component/azure/cosmosdb/operations/CosmosDbClientOperationsTest.java
+	org.apache.camel.component.azure.cosmosdb.client.CosmosAsyncClientWrapper
+	com.azure.cosmos.models.CosmosDatabaseResponse
+	org.apache.camel.component.azure.cosmosdb.client.CosmosAsyncClientWrapper
+	com.azure.cosmos.CosmosAsyncDatabase
+	com.azure.cosmos.CosmosAsyncDatabase
+	com.azure.cosmos.models.CosmosDatabaseResponse
+	org.apache.camel.component.azure.cosmosdb.client.CosmosAsyncClientWrapper
+	com.azure.cosmos.CosmosAsyncDatabase
+/camel-azure-storage-blob/src/test/java/org/apache/camel/component/azure/storage/blob/operations/BlobOperationsTest.java
+	org.apache.camel.component.azure.storage.blob.client.BlobClientWrapper
+/camel-azure-storage-blob/src/test/java/org/apache/camel/component/azure/storage/blob/operations/BlobContainerOperationsTest.java
+	org.apache.camel.component.azure.storage.blob.client.BlobContainerClientWrapper
+/camel-azure-storage-datalake/src/test/java/org/apache/camel/component/azure/storage/datalake/operations/DataLakeDirectoryOperationTest.java
+	org.apache.camel.component.azure.storage.datalake.client.DataLakeDirectoryClientWrapper
+	com.azure.storage.file.datalake.DataLakeFileClient
+/camel-azure-storage-datalake/src/test/java/org/apache/camel/component/azure/storage/datalake/operations/DataLakeFileSystemOperationTest.java
+	org.apache.camel.component.azure.storage.datalake.client.DataLakeFileSystemClientWrapper
+/camel-azure-storage-datalake/src/test/java/org/apache/camel/component/azure/storage/datalake/operations/DataLakeFileOperationTest.java
+	org.apache.camel.component.azure.storage.datalake.client.DataLakeFileClientWrapper
+/camel-azure-storage-queue/src/test/java/org/apache/camel/component/azure/storage/queue/operations/QueueOperationsTest.java
+	org.apache.camel.component.azure.storage.queue.client.QueueClientWrapper
+/camel-bean/src/test/java/org/apache/camel/component/bean/BeanInfoTest.java
+	org.apache.camel.CamelContext
+	org.apache.camel.spi.Registry
+/camel-bean-validator/src/test/java/org/apache/camel/component/bean/validator/CustomValidationProviderResolverTest.java
+	javax.validation.ValidationProviderResolver
+/camel-beanstalk/src/test/java/org/apache/camel/component/beanstalk/ConsumerCompletionTest.java
+	com.surftools.BeanstalkClient.Job
+	com.surftools.BeanstalkClient.Job
+	com.surftools.BeanstalkClient.Job
+/camel-beanstalk/src/test/java/org/apache/camel/component/beanstalk/ProducerTest.java
+/camel-beanstalk/src/test/java/org/apache/camel/component/beanstalk/AwaitingConsumerTest.java
+	com.surftools.BeanstalkClient.Job
+	com.surftools.BeanstalkClient.Job
+/camel-beanstalk/src/test/java/org/apache/camel/component/beanstalk/BeanstalkMockTestSupport.java
+	com.surftools.BeanstalkClient.Client
+/camel-beanstalk/src/test/java/org/apache/camel/component/beanstalk/ImmediateConsumerTest.java
+	com.surftools.BeanstalkClient.Job
+	com.surftools.BeanstalkClient.Job
+/camel-beanstalk/src/test/java/org/apache/camel/component/beanstalk/ConsumerToProducerHeadersTest.java
+	com.surftools.BeanstalkClient.Job
+/camel-bonita/src/test/java/org/apache/camel/component/bonita/api/BonitaAuthFilterAlreadyConnectedTest.java
+	javax.ws.rs.client.ClientRequestContext
+/camel-bonita/src/test/java/org/apache/camel/component/bonita/api/BonitaAuthFilterConnectionTest.java
+	javax.ws.rs.client.ClientRequestContext
+/camel-bonita/src/test/java/org/apache/camel/component/bonita/api/BonitaAuthFilterTest.java
+	javax.ws.rs.client.ClientRequestContext
+/camel-bonita/src/test/java/org/apache/camel/component/bonita/api/util/BonitaAPIUtilPrepareInputsTest.java
+	org.apache.camel.component.bonita.api.model.ProcessDefinitionResponse
+/camel-box/src/test/java/org/apache/camel/component/box/BoxSharedConnectionTest.java
+	com.box.sdk.BoxAPIConnection
+	com.box.sdk.BoxAPIConnection
+	com.box.sdk.BoxAPIConnection
+/camel-cassandraql/src/test/java/org/apache/camel/component/cassandra/ResultSetConversionStrategiesTest.java
+	com.datastax.oss.driver.api.core.cql.ResultSet
+	com.datastax.oss.driver.api.core.cql.Row
+	com.datastax.oss.driver.api.core.cql.ResultSet
+	com.datastax.oss.driver.api.core.cql.Row
+	com.datastax.oss.driver.api.core.cql.ResultSet
+	com.datastax.oss.driver.api.core.cql.Row
+/camel-cometd/src/test/java/org/apache/camel/component/cometd/CometdProducerTest.java
+	org.apache.camel.component.cometd.CometdEndpoint
+	org.cometd.server.BayeuxServerImpl
+	org.cometd.bayeux.server.LocalSession
+/camel-cometd/src/test/java/org/apache/camel/component/cometd/CometBindingTest.java
+	org.cometd.server.BayeuxServerImpl
+	org.cometd.bayeux.server.ServerSession
+	org.cometd.bayeux.server.ServerMessage
+/camel-cometd/src/test/java/org/apache/camel/component/cometd/CometdConsumerTest.java
+	org.apache.camel.ExtendedCamelContext
+	org.apache.camel.spi.ExchangeFactory
+	org.apache.camel.component.cometd.CometdEndpoint
+	org.apache.camel.Processor
+	org.cometd.server.BayeuxServerImpl
+	org.cometd.bayeux.server.LocalSession
+	org.eclipse.jetty.util.log.Logger
+	org.cometd.bayeux.server.ServerChannel
+	org.cometd.bayeux.server.ServerSession
+	org.cometd.bayeux.MarkedReference<org.cometd.bayeux.server.ServerChannel>
+/camel-corda/src/test/java/org/apache/camel/component/corda/CordaITSupport.java
+/camel-core/src/test/java/org/apache/camel/builder/xml/XPathTransformTest.java
+	org.slf4j.Logger
+	org.slf4j.Logger
+/camel-core/src/test/java/org/apache/camel/component/bean/MockitoMockForClassTest.java
+	org.apache.camel.component.bean.MockitoMockForClassTest.MyService
+/camel-core/src/test/java/org/apache/camel/component/bean/MockitoMockForInterfaceTest.java
+	org.apache.camel.component.bean.MockitoMockForInterfaceTest.MyService
+/camel-core/src/test/java/org/apache/camel/component/bean/MockitoSpyForClassTest.java
+/camel-core/src/test/java/org/apache/camel/component/rest/RestProducerBindingProcessorTest.java
+	org.apache.camel.AsyncCallback
+	org.apache.camel.spi.DataFormat
+	org.apache.camel.spi.DataFormat
+	org.apache.camel.spi.DataFormat
+	org.apache.camel.AsyncProcessor
+	org.apache.camel.spi.DataFormat
+/camel-core/src/test/java/org/apache/camel/impl/engine/DefaultFactoryFinderTest.java
+	org.apache.camel.spi.ClassResolver
+	org.apache.camel.spi.ClassResolver
+	org.apache.camel.spi.Injector
+/camel-core/src/test/java/org/apache/camel/processor/async/AsyncProcessorAwaitManagerInterruptWithRedeliveryTest.java
+/camel-core/src/test/java/org/apache/camel/support/processor/ThroughPutLoggerTest.java
+	org.slf4j.Logger
+/camel-core-xml/src/test/java/org/apache/camel/core/xml/AbstractCamelContextFactoryBeanTest.java
+	org.apache.camel.impl.DefaultCamelContext
+	org.apache.camel.spi.RuntimeEndpointRegistry
+	org.apache.camel.spi.ManagementNameStrategy
+	org.apache.camel.spi.ExecutorServiceManager
+	org.apache.camel.spi.InflightRepository
+	org.apache.camel.spi.CamelBeanPostProcessor
+	org.apache.camel.core.xml.AbstractCamelContextFactoryBean
+/camel-couchbase/src/test/java/org/apache/camel/component/couchbase/CouchbaseProducerTest.java
+	com.couchbase.client.java.Bucket
+	com.couchbase.client.java.Collection
+	com.couchbase.client.java.Scope
+	org.apache.camel.component.couchbase.CouchbaseEndpoint
+	org.apache.camel.Exchange
+	org.apache.camel.Message
+	com.couchbase.client.java.kv.MutationResult
+	com.couchbase.client.java.kv.MutationResult
+/camel-couchdb/src/test/java/org/apache/camel/component/couchdb/CouchDbChangesetTrackerTest.java
+	org.lightcouch.Changes
+	org.apache.camel.component.couchdb.CouchDbClientWrapper
+	org.apache.camel.component.couchdb.CouchDbEndpoint
+	org.apache.camel.component.couchdb.CouchDbConsumer
+	org.lightcouch.CouchDbContext
+	org.lightcouch.CouchDbInfo
+	org.lightcouch.ChangesResult.Row
+	org.lightcouch.ChangesResult.Row
+	org.lightcouch.ChangesResult.Row
+	org.apache.camel.Exchange
+	org.apache.camel.Exchange
+	org.apache.camel.Exchange
+	org.apache.camel.Processor
+/camel-couchdb/src/test/java/org/apache/camel/component/couchdb/CouchDbProducerTest.java
+	org.apache.camel.component.couchdb.CouchDbClientWrapper
+	org.apache.camel.component.couchdb.CouchDbEndpoint
+	org.apache.camel.Exchange
+	org.apache.camel.Message
+	org.lightcouch.Response
+/camel-cxf/src/test/java/org/apache/camel/component/cxf/CxfEndpointTest.java
+	org.apache.camel.component.cxf.CxfConfigurer
+	org.apache.camel.Processor
+/camel-cxf/src/test/java/org/apache/camel/component/cxf/DefaultCxfBindingTest.java
+	org.apache.cxf.endpoint.Endpoint
+	org.apache.cxf.binding.Binding
+/camel-cxf/src/test/java/org/apache/camel/component/cxf/converter/ConverterTest.java
+	javax.ws.rs.core.Response
+	java.io.InputStream
+/camel-cxf-transport/src/test/java/org/apache/camel/component/cxf/common/message/DefaultCxfMessageMapperTest.java
+	org.apache.camel.spi.HeaderFilterStrategy
+	javax.servlet.http.HttpServletRequest
+	org.apache.camel.spi.HeaderFilterStrategy
+	org.apache.camel.Message
+	org.apache.camel.Exchange
+/camel-cxf-transport/src/test/java/org/apache/camel/component/cxf/transport/CamelDestinationTest.java
+	org.apache.cxf.transport.ConduitInitiator
+	org.apache.camel.component.cxf.transport.CamelDestination
+/camel-cxf-transport/src/test/java/org/apache/camel/component/cxf/transport/CamelTransportTestSupport.java
+	org.apache.cxf.ws.addressing.EndpointReferenceType
+/camel-docker/src/test/java/org/apache/camel/component/docker/RemoveImageCmdUriTest.java
+	com.github.dockerjava.api.command.RemoveImageCmd
+/camel-docker/src/test/java/org/apache/camel/component/docker/consumer/DockerEventsConsumerTest.java
+	com.github.dockerjava.api.command.EventsCmd
+	com.github.dockerjava.api.DockerClient
+/camel-docker/src/test/java/org/apache/camel/component/docker/consumer/DockerStatsConsumerTest.java
+	com.github.dockerjava.api.command.StatsCmd
+	com.github.dockerjava.api.DockerClient
+/camel-docker/src/test/java/org/apache/camel/component/docker/headers/VersionCmdHeaderTest.java
+	com.github.dockerjava.api.command.VersionCmd
+/camel-docker/src/test/java/org/apache/camel/component/docker/headers/KillContainerCmdHeaderTest.java
+	com.github.dockerjava.api.command.KillContainerCmd
+/camel-docker/src/test/java/org/apache/camel/component/docker/headers/PushImageCmdHeaderTest.java
+	com.github.dockerjava.api.command.PushImageCmd
+	com.github.dockerjava.api.async.ResultCallback.Adapter<com.github.dockerjava.api.model.Frame>
+/camel-docker/src/test/java/org/apache/camel/component/docker/headers/ExecStartCmdHeaderTest.java
+	com.github.dockerjava.api.command.ExecStartCmd
+	com.github.dockerjava.api.async.ResultCallback.Adapter<com.github.dockerjava.api.model.Frame>
+/camel-docker/src/test/java/org/apache/camel/component/docker/headers/TagImageCmdHeaderTest.java
+	com.github.dockerjava.api.command.TagImageCmd
+/camel-docker/src/test/java/org/apache/camel/component/docker/headers/PingCmdHeaderTest.java
+	com.github.dockerjava.api.command.PingCmd
+/camel-docker/src/test/java/org/apache/camel/component/docker/headers/CopyFileContainerCmdHeaderTest.java
+	com.github.dockerjava.api.command.CopyArchiveFromContainerCmd
+/camel-docker/src/test/java/org/apache/camel/component/docker/headers/InspectContainerCmdHeaderTest.java
+	com.github.dockerjava.api.command.InspectContainerCmd
+/camel-docker/src/test/java/org/apache/camel/component/docker/headers/RestartContainerCmdHeaderTest.java
+	com.github.dockerjava.api.command.RestartContainerCmd
+/camel-docker/src/test/java/org/apache/camel/component/docker/headers/TopContainerCmdHeaderTest.java
+	com.github.dockerjava.api.command.TopContainerCmd
+/camel-docker/src/test/java/org/apache/camel/component/docker/headers/PullImageCmdHeaderTest.java
+	com.github.dockerjava.api.command.PullImageCmd
+	com.github.dockerjava.api.command.PullImageResultCallback
+/camel-docker/src/test/java/org/apache/camel/component/docker/headers/ListContainersCmdHeaderTest.java
+	com.github.dockerjava.api.command.ListContainersCmd
+/camel-docker/src/test/java/org/apache/camel/component/docker/headers/SearchImagesCmdHeaderTest.java
+	com.github.dockerjava.api.command.SearchImagesCmd
+/camel-docker/src/test/java/org/apache/camel/component/docker/headers/WaitContainerCmdHeaderTest.java
+	com.github.dockerjava.api.command.WaitContainerCmd
+	com.github.dockerjava.api.command.WaitContainerResultCallback
+/camel-docker/src/test/java/org/apache/camel/component/docker/headers/CreateImageCmdHeaderTest.java
+	com.github.dockerjava.api.command.CreateImageCmd
+	java.io.InputStream
+/camel-docker/src/test/java/org/apache/camel/component/docker/headers/BuildImageCmdHeaderTest.java
+	com.github.dockerjava.api.command.BuildImageCmd
+	java.io.InputStream
+	com.github.dockerjava.api.command.BuildImageResultCallback
+	java.io.File
+/camel-docker/src/test/java/org/apache/camel/component/docker/headers/DiffContainerCmdHeaderTest.java
+	com.github.dockerjava.api.command.ContainerDiffCmd
+/camel-docker/src/test/java/org/apache/camel/component/docker/headers/StartContainerCmdHeaderTest.java
+	com.github.dockerjava.api.model.ExposedPort
+	com.github.dockerjava.api.command.StartContainerCmd
+/camel-docker/src/test/java/org/apache/camel/component/docker/headers/ListImagesCmdHeaderTest.java
+	com.github.dockerjava.api.command.ListImagesCmd
+/camel-docker/src/test/java/org/apache/camel/component/docker/headers/RemoveContainerCmdHeaderTest.java
+	com.github.dockerjava.api.command.RemoveContainerCmd
+/camel-docker/src/test/java/org/apache/camel/component/docker/headers/StopContainerCmdHeaderTest.java
+	com.github.dockerjava.api.command.StopContainerCmd
+/camel-docker/src/test/java/org/apache/camel/component/docker/headers/LogContainerCmdHeaderTest.java
+	com.github.dockerjava.api.command.LogContainerCmd
+	com.github.dockerjava.api.async.ResultCallback.Adapter<com.github.dockerjava.api.model.Frame>
+/camel-docker/src/test/java/org/apache/camel/component/docker/headers/AttachContainerCmdHeaderTest.java
+	com.github.dockerjava.api.command.AttachContainerCmd
+	com.github.dockerjava.api.async.ResultCallback.Adapter<com.github.dockerjava.api.model.Frame>
+/camel-docker/src/test/java/org/apache/camel/component/docker/headers/UnpauseContainerCmdHeaderTest.java
+	com.github.dockerjava.api.command.UnpauseContainerCmd
+/camel-docker/src/test/java/org/apache/camel/component/docker/headers/RemoveImageCmdHeaderTest.java
+	com.github.dockerjava.api.command.RemoveImageCmd
+/camel-docker/src/test/java/org/apache/camel/component/docker/headers/AuthCmdHeaderTest.java
+	com.github.dockerjava.api.command.AuthCmd
+/camel-docker/src/test/java/org/apache/camel/component/docker/headers/CommitContainerCmdHeaderTest.java
+	com.github.dockerjava.api.command.CommitCmd
+/camel-docker/src/test/java/org/apache/camel/component/docker/headers/InfoCmdHeaderTest.java
+	com.github.dockerjava.api.command.InfoCmd
+/camel-docker/src/test/java/org/apache/camel/component/docker/headers/ConnectToNetworkCmdHeaderTest.java
+	com.github.dockerjava.api.model.ExposedPort
+	com.github.dockerjava.api.command.ConnectToNetworkCmd
+/camel-docker/src/test/java/org/apache/camel/component/docker/headers/InspectImageCmdHeaderTest.java
+	com.github.dockerjava.api.command.InspectImageCmd
+/camel-docker/src/test/java/org/apache/camel/component/docker/headers/PauseContainerCmdHeaderTest.java
+	com.github.dockerjava.api.command.PauseContainerCmd
+/camel-docker/src/test/java/org/apache/camel/component/docker/headers/CreateNetworkCmdHeaderTest.java
+	com.github.dockerjava.api.model.ExposedPort
+	com.github.dockerjava.api.command.CreateNetworkCmd
+/camel-docker/src/test/java/org/apache/camel/component/docker/headers/RemoveNetworkCmdHeaderTest.java
+	com.github.dockerjava.api.model.ExposedPort
+	com.github.dockerjava.api.command.RemoveNetworkCmd
+/camel-docker/src/test/java/org/apache/camel/component/docker/headers/ExecCreateCmdHeaderTest.java
+	com.github.dockerjava.api.command.ExecCreateCmd
+/camel-docker/src/test/java/org/apache/camel/component/docker/headers/CreateContainerCmdHeaderTest.java
+	com.github.dockerjava.api.command.CreateContainerCmd
+	com.github.dockerjava.api.model.HostConfig
+/camel-eip-documentation-enricher-maven-plugin/src/test/java/org/apache/camel/maven/EipDocumentationEnricherMojoTest.java
+	java.io.File
+	java.io.File
+/camel-ftp/src/test/java/org/apache/camel/component/file/remote/CamelParserFactoryTest.java
+	org.apache.commons.net.ftp.FTPClientConfig
+/camel-ganglia/src/test/java/org/apache/camel/component/ganglia/GangliaProducerTest.java
+	info.ganglia.gmetric4j.Publisher
+	org.apache.camel.component.ganglia.GangliaEndpoint
+	org.apache.camel.Exchange
+	org.apache.camel.Message
+	org.apache.camel.component.ganglia.GangliaConfiguration
+/camel-google-bigquery/src/test/java/org/apache/camel/component/google/bigquery/unit/GoogleBigQueryProducerTest.java
+/camel-google-bigquery/src/test/java/org/apache/camel/component/google/bigquery/unit/BaseBigQueryTest.java
+	org.apache.camel.component.google.bigquery.GoogleBigQueryEndpoint
+	com.google.cloud.bigquery.BigQuery
+	com.google.api.services.bigquery.Bigquery.Tabledata
+	com.google.cloud.bigquery.InsertAllResponse
+/camel-google-bigquery/src/test/java/org/apache/camel/component/google/bigquery/unit/sql/GoogleBigQuerySQLProducerBaseTest.java
+	org.apache.camel.component.google.bigquery.sql.GoogleBigQuerySQLEndpoint
+	com.google.cloud.bigquery.BigQuery
+	com.google.cloud.bigquery.TableResult
+/camel-google-bigquery/src/test/java/org/apache/camel/component/google/bigquery/unit/sql/GoogleBigQuerySQLProducerWithPatternTest.java
+/camel-google-bigquery/src/test/java/org/apache/camel/component/google/bigquery/unit/sql/SqlHelperTest.java
+	org.apache.camel.Exchange
+	org.apache.camel.Message
+	org.apache.camel.CamelContext
+/camel-google-bigquery/src/test/java/org/apache/camel/component/google/bigquery/unit/sql/GoogleBigQuerySQLProducerWithParamersTest.java
+/camel-google-functions/src/test/java/org/apache/camel/component/google/functions/unit/GoogleCloudFunctionsBaseTest.java
+/camel-google-functions/src/test/java/org/apache/camel/component/google/functions/unit/GoogleCloudFunctionsConfigurationTest.java
+/camel-gora/src/test/java/org/apache/camel/component/gora/GoraProducerTest.java
+	org.apache.camel.Exchange
+	org.apache.camel.component.gora.GoraEndpoint
+	org.apache.camel.component.gora.GoraConfiguration
+	org.apache.camel.Message
+	org.apache.gora.store.DataStore<java.lang.Object,org.apache.gora.persistency.Persistent>
+	org.apache.camel.Exchange
+	org.apache.camel.component.gora.GoraEndpoint
+	org.apache.camel.component.gora.GoraConfiguration
+	org.apache.camel.Message
+	org.apache.gora.persistency.Persistent
+	org.apache.camel.Message
+	org.apache.camel.Message
+	org.apache.camel.Message
+	org.apache.camel.Message
+	org.apache.camel.Message
+	org.apache.camel.Message
+	org.apache.camel.Message
+/camel-grpc/src/test/java/org/apache/camel/component/grpc/GrpcProducerClientInterceptorTest.java
+	org.apache.camel.component.grpc.GrpcMockClientInterceptor
+	org.apache.camel.component.grpc.GrpcMockClientInterceptor
+/camel-gson/src/test/java/org/apache/camel/component/gson/GsonDataFormatTest.java
+	org.apache.camel.Exchange
+	org.apache.camel.Message
+/camel-hazelcast/src/test/java/org/apache/camel/component/hazelcast/HazelcastSedaRecoverableConsumerNewTransactionTest.java
+	com.hazelcast.transaction.TransactionContext
+/camel-hazelcast/src/test/java/org/apache/camel/component/hazelcast/HazelcastMultimapProducerForSpringTest.java
+	com.hazelcast.multimap.MultiMap<java.lang.Object,java.lang.Object>
+/camel-hazelcast/src/test/java/org/apache/camel/component/hazelcast/HazelcastAtomicnumberProducerForSpringTest.java
+	com.hazelcast.cp.IAtomicLong
+	com.hazelcast.cp.CPSubsystem
+/camel-hazelcast/src/test/java/org/apache/camel/component/hazelcast/HazelcastInstanceConsumerTest.java
+	com.hazelcast.collection.IList<java.lang.String>
+	com.hazelcast.cluster.Cluster
+	com.hazelcast.cluster.Member
+/camel-hazelcast/src/test/java/org/apache/camel/component/hazelcast/HazelcastMultimapConsumerTest.java
+	com.hazelcast.multimap.MultiMap<java.lang.Object,java.lang.Object>
+	org.mockito.ArgumentCaptor<com.hazelcast.core.EntryListener<java.lang.Object,java.lang.Object>>
+/camel-hazelcast/src/test/java/org/apache/camel/component/hazelcast/HazelcastMultimapProducerTest.java
+	com.hazelcast.multimap.MultiMap<java.lang.Object,java.lang.Object>
+/camel-hazelcast/src/test/java/org/apache/camel/component/hazelcast/HazelcastReliableTopicProducerTest.java
+	com.hazelcast.topic.ITopic<java.lang.String>
+/camel-hazelcast/src/test/java/org/apache/camel/component/hazelcast/HazelcastReplicatedmapProducerForSpringTest.java
+	com.hazelcast.replicatedmap.ReplicatedMap<java.lang.Object,java.lang.Object>
+/camel-hazelcast/src/test/java/org/apache/camel/component/hazelcast/HazelcastQueueConsumerPollTest.java
+	com.hazelcast.collection.IQueue<java.lang.String>
+/camel-hazelcast/src/test/java/org/apache/camel/component/hazelcast/HazelcastAtomicnumberProducerTest.java
+	com.hazelcast.cp.IAtomicLong
+	com.hazelcast.cp.CPSubsystem
+/camel-hazelcast/src/test/java/org/apache/camel/component/hazelcast/HazelcastCamelSpringTestSupport.java
+	com.hazelcast.core.HazelcastInstance
+/camel-hazelcast/src/test/java/org/apache/camel/component/hazelcast/HazelcastQueueConsumerTest.java
+	com.hazelcast.collection.IQueue<java.lang.String>
+	org.mockito.ArgumentCaptor<com.hazelcast.collection.ItemListener<java.lang.String>>
+/camel-hazelcast/src/test/java/org/apache/camel/component/hazelcast/HazelcastQueueProducerTest.java
+	com.hazelcast.collection.IQueue<java.lang.String>
+/camel-hazelcast/src/test/java/org/apache/camel/component/hazelcast/HazelcastRingbufferProducerForSpringTest.java
+	com.hazelcast.ringbuffer.Ringbuffer<java.lang.Object>
+/camel-hazelcast/src/test/java/org/apache/camel/component/hazelcast/HazelcastTopicConsumerTest.java
+	com.hazelcast.topic.ITopic<java.lang.String>
+	org.mockito.ArgumentCaptor<com.hazelcast.topic.MessageListener<java.lang.String>>
+/camel-hazelcast/src/test/java/org/apache/camel/component/hazelcast/HazelcastMapProducerTest.java
+	com.hazelcast.map.IMap<java.lang.Object,java.lang.Object>
+/camel-hazelcast/src/test/java/org/apache/camel/component/hazelcast/HazelcastSedaRecoverableConsumerRollbackTest.java
+	com.hazelcast.transaction.TransactionContext
+/camel-hazelcast/src/test/java/org/apache/camel/component/hazelcast/HazelcastMapConsumerTest.java
+	com.hazelcast.map.IMap<java.lang.Object,java.lang.Object>
+	org.mockito.ArgumentCaptor<org.apache.camel.component.hazelcast.listener.MapEntryListener<java.lang.Object,java.lang.Object>>
+/camel-hazelcast/src/test/java/org/apache/camel/component/hazelcast/HazelcastRingbufferProducerTest.java
+	com.hazelcast.ringbuffer.Ringbuffer<java.lang.Object>
+/camel-hazelcast/src/test/java/org/apache/camel/component/hazelcast/HazelcastListConsumerTest.java
+	com.hazelcast.collection.IList<java.lang.String>
+	org.mockito.ArgumentCaptor<com.hazelcast.collection.ItemListener<java.lang.String>>
+/camel-hazelcast/src/test/java/org/apache/camel/component/hazelcast/HazelcastTopicProducerTest.java
+	com.hazelcast.topic.ITopic<java.lang.String>
+/camel-hazelcast/src/test/java/org/apache/camel/component/hazelcast/HazelcastReplicatedmapProducerTest.java
+	com.hazelcast.replicatedmap.ReplicatedMap<java.lang.Object,java.lang.Object>
+/camel-hazelcast/src/test/java/org/apache/camel/component/hazelcast/HazelcastMapProducerForSpringTest.java
+	com.hazelcast.map.IMap<java.lang.Object,java.lang.Object>
+/camel-hazelcast/src/test/java/org/apache/camel/component/hazelcast/HazelcastReliableTopicConsumerTest.java
+	com.hazelcast.topic.ITopic<java.lang.String>
+	org.mockito.ArgumentCaptor<com.hazelcast.topic.MessageListener<java.lang.String>>
+/camel-hazelcast/src/test/java/org/apache/camel/component/hazelcast/HazelcastSetConsumerTest.java
+	com.hazelcast.collection.ISet<java.lang.String>
+	org.mockito.ArgumentCaptor<com.hazelcast.collection.ItemListener<java.lang.String>>
+/camel-hazelcast/src/test/java/org/apache/camel/component/hazelcast/HazelcastCamelTestSupport.java
+	com.hazelcast.core.HazelcastInstance
+/camel-hazelcast/src/test/java/org/apache/camel/component/hazelcast/HazelcastSedaRecoverableConsumerTest.java
+	com.hazelcast.collection.IQueue<java.lang.Object>
+	com.hazelcast.transaction.TransactionalQueue<java.lang.Object>
+/camel-hdfs/src/test/java/org/apache/camel/component/hdfs/HdfsOutputStreamTest.java
+	org.apache.camel.component.hdfs.HdfsInfoFactory
+	org.apache.camel.component.hdfs.HdfsInfo
+	org.apache.camel.component.hdfs.HdfsConfiguration
+	org.apache.hadoop.fs.FileSystem
+	org.apache.hadoop.conf.Configuration
+	org.apache.hadoop.fs.Path
+	org.apache.hadoop.fs.FSDataOutputStream
+	org.apache.hadoop.fs.FSDataOutputStream
+	org.apache.hadoop.fs.FSDataOutputStream
+	org.apache.hadoop.fs.FSDataOutputStream
+/camel-hdfs/src/test/java/org/apache/camel/component/hdfs/HdfsInputStreamTest.java
+	org.apache.camel.component.hdfs.HdfsInfoFactory
+	org.apache.camel.component.hdfs.HdfsInfo
+	org.apache.camel.component.hdfs.HdfsConfiguration
+	org.apache.hadoop.fs.FileSystem
+	org.apache.hadoop.conf.Configuration
+	org.apache.hadoop.fs.Path
+	org.apache.hadoop.fs.FileStatus
+	org.apache.hadoop.fs.FSDataInputStream
+	org.apache.hadoop.fs.FSDataInputStream
+/camel-hdfs/src/test/java/org/apache/camel/component/hdfs/HdfsConsumerTest.java
+	org.apache.camel.component.hdfs.HdfsEndpoint
+	org.apache.camel.Processor
+	org.apache.camel.component.hdfs.HdfsConfiguration
+	org.apache.camel.component.hdfs.HdfsInfoFactory
+	org.apache.camel.component.hdfs.HdfsInfo
+	org.apache.hadoop.fs.FileSystem
+	org.apache.hadoop.conf.Configuration
+	org.apache.hadoop.fs.Path
+	org.apache.hadoop.fs.FileStatus
+	org.apache.hadoop.fs.FileStatus
+/camel-huaweicloud-obs/src/test/java/org/apache/camel/component/huaweicloud/obs/ListObjectsMaxTest.java
+	com.obs.services.ObsClient
+/camel-huaweicloud-obs/src/test/java/org/apache/camel/component/huaweicloud/obs/CreateBucketJsonTest.java
+	com.obs.services.ObsClient
+/camel-huaweicloud-obs/src/test/java/org/apache/camel/component/huaweicloud/obs/BucketMetadataTest.java
+	com.obs.services.ObsClient
+/camel-huaweicloud-obs/src/test/java/org/apache/camel/component/huaweicloud/obs/ListBucketsTest.java
+	com.obs.services.ObsClient
+/camel-huaweicloud-obs/src/test/java/org/apache/camel/component/huaweicloud/obs/CreateBucketPojoTest.java
+	com.obs.services.ObsClient
+/camel-huaweicloud-obs/src/test/java/org/apache/camel/component/huaweicloud/obs/DeleteBucketTest.java
+	com.obs.services.ObsClient
+/camel-huaweicloud-obs/src/test/java/org/apache/camel/component/huaweicloud/obs/CheckBucketTest.java
+	com.obs.services.ObsClient
+/camel-huaweicloud-obs/src/test/java/org/apache/camel/component/huaweicloud/obs/ListObjectsPojoTest.java
+	com.obs.services.ObsClient
+/camel-huaweicloud-obs/src/test/java/org/apache/camel/component/huaweicloud/obs/ListObjectsTest.java
+	com.obs.services.ObsClient
+/camel-huaweicloud-obs/src/test/java/org/apache/camel/component/huaweicloud/obs/ListObjectsJsonTest.java
+	com.obs.services.ObsClient
+/camel-huaweicloud-obs/src/test/java/org/apache/camel/component/huaweicloud/obs/CreateBucketTest.java
+	com.obs.services.ObsClient
+/camel-influxdb/src/test/java/org/apache/camel/component/influxdb/InfluxDbEnsureDatabaseExistsTest.java
+/camel-influxdb/src/test/java/org/apache/camel/component/influxdb/AbstractInfluxDbTest.java
+	org.influxdb.impl.InfluxDBImpl
+/camel-irc/src/test/java/org/apache/camel/component/irc/IrcConsumerTest.java
+	org.schwering.irc.lib.IRCConnection
+	org.apache.camel.component.irc.IrcEndpoint
+	org.apache.camel.Processor
+	org.apache.camel.component.irc.IrcConfiguration
+	org.schwering.irc.lib.IRCEventAdapter
+	org.apache.camel.ExtendedCamelContext
+	org.apache.camel.spi.ExchangeFactory
+/camel-irc/src/test/java/org/apache/camel/component/irc/IrcEndpointTest.java
+	org.apache.camel.component.irc.IrcComponent
+	org.apache.camel.component.irc.IrcConfiguration
+	org.schwering.irc.lib.IRCConnection
+/camel-irc/src/test/java/org/apache/camel/component/irc/IrcProducerTest.java
+	org.apache.camel.component.irc.IrcComponent
+	org.schwering.irc.lib.IRCConnection
+	org.apache.camel.component.irc.IrcEndpoint
+	org.apache.camel.component.irc.IrcConfiguration
+	org.schwering.irc.lib.IRCEventAdapter
+	org.apache.camel.Exchange
+	org.apache.camel.Message
+/camel-itest/src/test/java/org/apache/camel/itest/ftp/FtpInitialConnectTimeoutTest.java
+	javax.net.SocketFactory
+/camel-itest/src/test/java/org/apache/camel/itest/mail/SpringMailEndpointTest.java
+/camel-jaxb/src/test/java/org/apache/camel/converter/jaxb/FilteringXmlStreamWriterTest.java
+	org.apache.camel.converter.jaxb.NonXmlCharFilterer
+	javax.xml.stream.XMLStreamWriter
+/camel-jaxb/src/test/java/org/apache/camel/converter/jaxb/NonXmlCharFiltererTest.java
+	org.apache.camel.converter.jaxb.NonXmlCharFilterer
+/camel-jaxb/src/test/java/org/apache/camel/converter/jaxb/NonXmlFilterReaderTest.java
+	org.apache.camel.converter.jaxb.NonXmlCharFilterer
+	java.io.Reader
+/camel-jbpm/src/test/java/org/apache/camel/component/jbpm/workitem/DeploymentContextCamelCommandTest.java
+	org.apache.camel.ProducerTemplate
+	org.apache.camel.Exchange
+	org.apache.camel.Message
+	org.apache.camel.ExtendedCamelContext
+	org.kie.api.runtime.manager.RuntimeManager
+	org.kie.api.executor.CommandContext
+/camel-jbpm/src/test/java/org/apache/camel/component/jbpm/workitem/GlobalContextCamelCommandTest.java
+	org.apache.camel.ProducerTemplate
+	org.apache.camel.Exchange
+	org.apache.camel.Message
+	org.apache.camel.ExtendedCamelContext
+	org.kie.api.runtime.manager.RuntimeManager
+	org.kie.api.executor.CommandContext
+/camel-jira/src/test/java/org/apache/camel/component/jira/consumer/NewIssuesConsumerTest.java
+	com.atlassian.jira.rest.client.api.JiraRestClient
+	com.atlassian.jira.rest.client.api.JiraRestClientFactory
+	com.atlassian.jira.rest.client.api.SearchRestClient
+/camel-jira/src/test/java/org/apache/camel/component/jira/consumer/WatchUpdatesConsumerTest.java
+	com.atlassian.jira.rest.client.api.JiraRestClient
+	com.atlassian.jira.rest.client.api.JiraRestClientFactory
+	com.atlassian.jira.rest.client.api.SearchRestClient
+/camel-jira/src/test/java/org/apache/camel/component/jira/consumer/NewCommentsConsumerTest.java
+	com.atlassian.jira.rest.client.api.JiraRestClient
+	com.atlassian.jira.rest.client.api.JiraRestClientFactory
+	com.atlassian.jira.rest.client.api.SearchRestClient
+	com.atlassian.jira.rest.client.api.IssueRestClient
+/camel-jira/src/test/java/org/apache/camel/component/jira/producer/AddWorkLogProducerTest.java
+	com.atlassian.jira.rest.client.api.JiraRestClient
+	com.atlassian.jira.rest.client.api.JiraRestClientFactory
+	com.atlassian.jira.rest.client.api.IssueRestClient
+/camel-jira/src/test/java/org/apache/camel/component/jira/producer/AddCommentProducerTest.java
+	com.atlassian.jira.rest.client.api.JiraRestClient
+	com.atlassian.jira.rest.client.api.JiraRestClientFactory
+	com.atlassian.jira.rest.client.api.IssueRestClient
+/camel-jira/src/test/java/org/apache/camel/component/jira/producer/UpdateIssueProducerTest.java
+	com.atlassian.jira.rest.client.api.JiraRestClient
+	com.atlassian.jira.rest.client.api.JiraRestClientFactory
+	com.atlassian.jira.rest.client.api.IssueRestClient
+	com.atlassian.jira.rest.client.api.MetadataRestClient
+/camel-jira/src/test/java/org/apache/camel/component/jira/producer/WatcherProducerTest.java
+	com.atlassian.jira.rest.client.api.JiraRestClient
+	com.atlassian.jira.rest.client.api.JiraRestClientFactory
+	com.atlassian.jira.rest.client.api.IssueRestClient
+/camel-jira/src/test/java/org/apache/camel/component/jira/producer/AttachFileProducerTest.java
+	com.atlassian.jira.rest.client.api.JiraRestClient
+	com.atlassian.jira.rest.client.api.JiraRestClientFactory
+	com.atlassian.jira.rest.client.api.IssueRestClient
+/camel-jira/src/test/java/org/apache/camel/component/jira/producer/TransitionIssueProducerTest.java
+	com.atlassian.jira.rest.client.api.JiraRestClient
+	com.atlassian.jira.rest.client.api.JiraRestClientFactory
+	com.atlassian.jira.rest.client.api.IssueRestClient
+/camel-jira/src/test/java/org/apache/camel/component/jira/producer/FetchIssueProducerTest.java
+	com.atlassian.jira.rest.client.api.JiraRestClient
+	com.atlassian.jira.rest.client.api.JiraRestClientFactory
+	com.atlassian.jira.rest.client.api.IssueRestClient
+	com.atlassian.jira.rest.client.api.domain.Issue
+/camel-jira/src/test/java/org/apache/camel/component/jira/producer/AddIssueLinkProducerTest.java
+	com.atlassian.jira.rest.client.api.JiraRestClient
+	com.atlassian.jira.rest.client.api.JiraRestClientFactory
+	com.atlassian.jira.rest.client.api.IssueRestClient
+/camel-jira/src/test/java/org/apache/camel/component/jira/producer/FetchCommentsProducerTest.java
+	com.atlassian.jira.rest.client.api.JiraRestClient
+	com.atlassian.jira.rest.client.api.JiraRestClientFactory
+	com.atlassian.jira.rest.client.api.IssueRestClient
+	com.atlassian.jira.rest.client.api.domain.Issue
+/camel-jira/src/test/java/org/apache/camel/component/jira/producer/AddIssueProducerTest.java
+	com.atlassian.jira.rest.client.api.JiraRestClient
+	com.atlassian.jira.rest.client.api.JiraRestClientFactory
+	com.atlassian.jira.rest.client.api.IssueRestClient
+	com.atlassian.jira.rest.client.api.MetadataRestClient
+/camel-jira/src/test/java/org/apache/camel/component/jira/producer/DeleteIssueProducerTest.java
+	com.atlassian.jira.rest.client.api.JiraRestClient
+	com.atlassian.jira.rest.client.api.JiraRestClientFactory
+	com.atlassian.jira.rest.client.api.IssueRestClient
+/camel-jms/src/test/java/org/apache/camel/component/jms/JmsBindingTest.java
+	org.apache.camel.component.jms.JmsConfiguration
+	org.apache.camel.component.jms.JmsEndpoint
+/camel-jpa/src/test/java/org/apache/camel/processor/jpa/MultipleJpaRouteEndpointTest.java
+	javax.persistence.EntityManagerFactory
+	javax.persistence.EntityManager
+	javax.persistence.EntityManagerFactory
+	javax.persistence.EntityManager
+	javax.persistence.EntityManagerFactory
+	javax.persistence.EntityManager
+	javax.persistence.EntityManagerFactory
+	javax.persistence.EntityManager
+	javax.persistence.EntityTransaction
+	javax.persistence.EntityTransaction
+/camel-kafka/src/test/java/org/apache/camel/component/kafka/KafkaProducerTest.java
+	org.apache.camel.TypeConverter
+	org.apache.camel.CamelContext
+	org.apache.camel.Exchange
+	org.apache.camel.ExtendedCamelContext
+	org.apache.camel.AsyncCallback
+	java.util.concurrent.Future
+	org.apache.kafka.clients.producer.KafkaProducer
+/camel-kafka/src/test/java/org/apache/camel/component/kafka/KafkaConsumerTest.java
+	org.apache.camel.component.kafka.KafkaConfiguration
+	org.apache.camel.component.kafka.KafkaClientFactory
+	org.apache.camel.component.kafka.KafkaComponent
+	org.apache.camel.component.kafka.KafkaEndpoint
+	org.apache.camel.Processor
+	org.apache.camel.ExtendedCamelContext
+	org.apache.camel.spi.ExchangeFactory
+/camel-kafka/src/test/java/org/apache/kafka/clients/consumer/KafkaConsumerTest.java
+	org.apache.kafka.clients.consumer.KafkaConsumer<java.lang.Object,java.lang.Object>
+/camel-kubernetes/src/test/java/org/apache/camel/component/KubernetesServer.java
+/camel-kubernetes/src/test/java/org/apache/camel/component/OpenShiftServer.java
+/camel-kubernetes/src/test/java/org/apache/camel/component/kubernetes/cluster/KubernetesClusterServiceTest.java
+/camel-kubernetes/src/test/java/org/apache/camel/component/kubernetes/cluster/utils/LockTestServer.java
+/camel-kubernetes/src/test/java/org/apache/camel/component/kubernetes/producer/KubernetesPersistentVolumesProducerTest.java
+/camel-kubernetes/src/test/java/org/apache/camel/component/kubernetes/producer/KubernetesConfigMapsProducerTest.java
+/camel-kubernetes/src/test/java/org/apache/camel/component/kubernetes/producer/KubernetesServiceAccountsProducerTest.java
+/camel-kubernetes/src/test/java/org/apache/camel/component/kubernetes/producer/KubernetesDeploymentsProducerTest.java
+/camel-kubernetes/src/test/java/org/apache/camel/component/kubernetes/producer/KubernetesPodsProducerTest.java
+/camel-kubernetes/src/test/java/org/apache/camel/component/kubernetes/producer/KubernetesHPAProducerTest.java
+/camel-kubernetes/src/test/java/org/apache/camel/component/kubernetes/producer/KubernetesNodesProducerTest.java
+/camel-kubernetes/src/test/java/org/apache/camel/component/kubernetes/producer/KubernetesReplicationControllersProducerTest.java
+/camel-kubernetes/src/test/java/org/apache/camel/component/kubernetes/producer/KubernetesJobProducerTest.java
+/camel-kubernetes/src/test/java/org/apache/camel/component/kubernetes/producer/KubernetesNamespacesProducerTest.java
+/camel-kubernetes/src/test/java/org/apache/camel/component/kubernetes/producer/KubernetesSecretsProducerTest.java
+/camel-kubernetes/src/test/java/org/apache/camel/component/kubernetes/producer/KubernetesPersistentVolumesClaimsProducerTest.java
+/camel-kubernetes/src/test/java/org/apache/camel/component/kubernetes/producer/KubernetesServicesProducerTest.java
+/camel-kubernetes/src/test/java/org/apache/camel/component/kubernetes/producer/KubernetesResourcesQuotaProducerTest.java
+/camel-kubernetes/src/test/java/org/apache/camel/component/kubernetes/producer/KubernetesCustomResourcesProducerTest.java
+/camel-kubernetes/src/test/java/org/apache/camel/component/openshift/producer/OpenshiftBuildConfigsProducerTest.java
+/camel-kubernetes/src/test/java/org/apache/camel/component/openshift/producer/OpenshiftBuildsProducerTest.java
+/camel-mail/src/test/java/org/apache/camel/component/mail/SpringMailSplitAttachmentsTest.java
+/camel-mail/src/test/java/org/apache/camel/component/mail/MailConsumerUnsupportedCharsetTest.java
+/camel-mail/src/test/java/org/apache/camel/component/mail/MailSearchTermUriConfigTest.java
+/camel-mail/src/test/java/org/apache/camel/component/mail/MailSearchTermTest.java
+/camel-mail/src/test/java/org/apache/camel/component/mail/MailToMultipleEndpointsTest.java
+/camel-mail/src/test/java/org/apache/camel/component/mail/MailProducerTest.java
+/camel-mail/src/test/java/org/apache/camel/component/mail/MailCollectionHeaderTest.java
+/camel-mail/src/test/java/org/apache/camel/component/mail/MailRecipientsPipeIssueTest.java
+/camel-mail/src/test/java/org/apache/camel/component/mail/MailSearchTermNotSpamTest.java
+/camel-mail/src/test/java/org/apache/camel/component/mail/MailConvertersTest.java
+/camel-mail/src/test/java/org/apache/camel/component/mail/MailShutdownCompleteCurrentTaskOnlyTest.java
+/camel-mail/src/test/java/org/apache/camel/component/mail/MailFetchSizeZeroTest.java
+/camel-mail/src/test/java/org/apache/camel/component/mail/MailUsingCustomSessionTest.java
+/camel-mail/src/test/java/org/apache/camel/component/mail/MailUsingHeadersTest.java
+/camel-mail/src/test/java/org/apache/camel/component/mail/MailNameAndEmailInRecipientTest.java
+/camel-mail/src/test/java/org/apache/camel/component/mail/MailAttachmentRedeliveryTest.java
+/camel-mail/src/test/java/org/apache/camel/component/mail/MailBatchConsumerTest.java
+/camel-mail/src/test/java/org/apache/camel/component/mail/MailShutdownCompleteAllTasksTest.java
+/camel-mail/src/test/java/org/apache/camel/component/mail/MailRecipientsTest.java
+/camel-mail/src/test/java/org/apache/camel/component/mail/MailIdempotentRepositoryTest.java
+/camel-mail/src/test/java/org/apache/camel/component/mail/MailFetchSizeTest.java
+/camel-mail/src/test/java/org/apache/camel/component/mail/MailUsingOwnComponentTest.java
+/camel-mail/src/test/java/org/apache/camel/component/mail/MailComponentRecipientSetTest.java
+/camel-mail/src/test/java/org/apache/camel/component/mail/MailHeaderOverrulePreConfigurationRecipientsTest.java
+/camel-mail/src/test/java/org/apache/camel/component/mail/MailMultipleRecipientsTest.java
+/camel-mail/src/test/java/org/apache/camel/component/mail/MailHtmlAttachmentTest.java
+/camel-mail/src/test/java/org/apache/camel/component/mail/MailMimeDecodeHeadersTest.java
+/camel-mail/src/test/java/org/apache/camel/component/mail/MimeMultipartAlternativeTest.java
+/camel-mail/src/test/java/org/apache/camel/component/mail/MailIdempotentRepositoryDuplicateTest.java
+/camel-mail/src/test/java/org/apache/camel/component/mail/MailAttachmentDuplicateNamesTest.java
+/camel-mail/src/test/java/org/apache/camel/component/mail/MailCustomContentTypeTest.java
+/camel-mail/src/test/java/org/apache/camel/component/mail/MailProcessOnlyUnseenMessagesTest.java
+/camel-mail/src/test/java/org/apache/camel/component/mail/MailSorterTest.java
+	javax.mail.Message
+/camel-mail/src/test/java/org/apache/camel/component/mail/RawMailMessageTest.java
+/camel-mail/src/test/java/org/apache/camel/component/mail/MailProducerConcurrentTest.java
+/camel-mail/src/test/java/org/apache/camel/component/mail/MailPostProcessActionTest.java
+/camel-mail/src/test/java/org/apache/camel/component/mail/MailAttachmentsUmlautIssueTest.java
+/camel-mail/src/test/java/org/apache/camel/component/mail/MailConsumerAuthenticatorTest.java
+	org.apache.camel.component.mail.JavaMailSender
+	org.apache.camel.Processor
+	org.apache.camel.ExtendedCamelContext
+	org.apache.camel.spi.ExchangeFactory
+/camel-mail/src/test/java/org/apache/camel/component/mail/MailSortTermTest.java
+/camel-mail/src/test/java/org/apache/camel/component/mail/AdditionalMailPropertiesTest.java
+/camel-mail/src/test/java/org/apache/camel/component/mail/MailSubjectTest.java
+/camel-mail/src/test/java/org/apache/camel/component/mail/FromFileSendMailTest.java
+/camel-mail/src/test/java/org/apache/camel/component/mail/MailAttachmentTest.java
+/camel-mail/src/test/java/org/apache/camel/component/mail/MailContentTypeTest.java
+/camel-mail/src/test/java/org/apache/camel/component/mail/MimeMessageConsumeTest.java
+/camel-mail/src/test/java/org/apache/camel/component/mail/MailMessageTest.java
+/camel-mail/src/test/java/org/apache/camel/component/mail/MailDoNotDeleteIfProcessFailsTest.java
+/camel-mail/src/test/java/org/apache/camel/component/mail/MailSortTermTwoTest.java
+/camel-mail/src/test/java/org/apache/camel/component/mail/MailCommitOnCompletionTest.java
+/camel-mail/src/test/java/org/apache/camel/component/mail/MailMaxMessagesPerPollTest.java
+/camel-mail/src/test/java/org/apache/camel/component/mail/AuthenticatorTest.java
+/camel-mail/src/test/java/org/apache/camel/component/mail/MimeMultipartAlternativeWithContentTypeTest.java
+/camel-mail/src/test/java/org/apache/camel/component/mail/MailMultipleRecipientsUsingHeadersTest.java
+/camel-mail/src/test/java/org/apache/camel/component/mail/MailUsernameWithAtSignTest.java
+/camel-mail/src/test/java/org/apache/camel/component/mail/MailIdempotentRepositoryDuplicateNotRemoveTest.java
+/camel-mail/src/test/java/org/apache/camel/component/mail/MailCopyToTest.java
+/camel-mail/src/test/java/org/apache/camel/component/mail/MailPollEnrichNoMailTest.java
+/camel-mail/src/test/java/org/apache/camel/component/mail/SearchTermBuilderTest.java
+/camel-mail/src/test/java/org/apache/camel/component/mail/MailProducerUnsupportedCharsetTest.java
+/camel-mail/src/test/java/org/apache/camel/component/mail/MailSearchTermUriConfigLast24HoursTest.java
+/camel-mail/src/test/java/org/apache/camel/component/mail/MailPollEnrichTest.java
+/camel-mail/src/test/java/org/apache/camel/component/mail/MailDefaultDelayForMailConsumeTest.java
+/camel-mail/src/test/java/org/apache/camel/component/mail/MailContentTypeResolverTest.java
+/camel-mail/src/test/java/org/apache/camel/component/mail/NestedMimeMessageConsumeTest.java
+/camel-mail/src/test/java/org/apache/camel/component/mail/MailSortTermThreeTest.java
+/camel-mail/src/test/java/org/apache/camel/component/mail/MailSplitAttachmentsTest.java
+/camel-mail/src/test/java/org/apache/camel/component/mail/MimeMultipartAlternativeWithLongerFilenameTest.java
+/camel-mail/src/test/java/org/apache/camel/component/mail/MultipleDestinationConsumeTest.java
+/camel-mail/src/test/java/org/apache/camel/component/mail/MailReplyToTest.java
+/camel-mail/src/test/java/org/apache/camel/component/mail/MailRouteTest.java
+/camel-mail/src/test/java/org/apache/camel/component/mail/MailMoveToTest.java
+/camel-mail/src/test/java/org/apache/camel/component/mail/mock/MyMockStore.java
+/camel-management/src/test/java/org/apache/camel/management/DefaultManagementAgentMockTest.java
+	javax.management.MBeanServer
+	javax.management.ObjectInstance
+/camel-metrics/src/test/java/org/apache/camel/component/metrics/CounterEndpointTest.java
+	com.codahale.metrics.MetricRegistry
+/camel-metrics/src/test/java/org/apache/camel/component/metrics/TimerEndpointTest.java
+	com.codahale.metrics.MetricRegistry
+/camel-metrics/src/test/java/org/apache/camel/component/metrics/HistogramRouteTest.java
+	com.codahale.metrics.MetricRegistry
+	com.codahale.metrics.Histogram
+/camel-metrics/src/test/java/org/apache/camel/component/metrics/MetricComponentSpringTest.java
+	com.codahale.metrics.MetricRegistry
+	com.codahale.metrics.Counter
+/camel-metrics/src/test/java/org/apache/camel/component/metrics/CounterRouteTest.java
+	com.codahale.metrics.MetricRegistry
+	com.codahale.metrics.Counter
+/camel-metrics/src/test/java/org/apache/camel/component/metrics/TimerProducerTest.java
+	org.apache.camel.component.metrics.MetricsEndpoint
+	org.apache.camel.Exchange
+	com.codahale.metrics.MetricRegistry
+	com.codahale.metrics.Timer
+	com.codahale.metrics.Timer.Context
+	org.apache.camel.Message
+	org.mockito.InOrder
+/camel-metrics/src/test/java/org/apache/camel/component/metrics/MeterProducerTest.java
+	org.apache.camel.component.metrics.MetricsEndpoint
+	com.codahale.metrics.MetricRegistry
+	com.codahale.metrics.Meter
+	org.apache.camel.Exchange
+	org.apache.camel.Message
+/camel-metrics/src/test/java/org/apache/camel/component/metrics/TimerRouteTest.java
+	com.codahale.metrics.MetricRegistry
+	com.codahale.metrics.Timer
+/camel-metrics/src/test/java/org/apache/camel/component/metrics/HistogramProducerTest.java
+	org.apache.camel.component.metrics.MetricsEndpoint
+	com.codahale.metrics.MetricRegistry
+	com.codahale.metrics.Histogram
+	org.apache.camel.Exchange
+	org.apache.camel.Message
+/camel-metrics/src/test/java/org/apache/camel/component/metrics/MetricsComponentTest.java
+	org.apache.camel.ExtendedCamelContext
+	org.apache.camel.spi.Registry
+	com.codahale.metrics.MetricRegistry
+/camel-metrics/src/test/java/org/apache/camel/component/metrics/GaugeProducerTest.java
+	org.apache.camel.component.metrics.MetricsEndpoint
+	org.apache.camel.Exchange
+	com.codahale.metrics.MetricRegistry
+	org.apache.camel.Message
+/camel-metrics/src/test/java/org/apache/camel/component/metrics/AbstractMetricsProducerTest.java
+	org.apache.camel.component.metrics.MetricsEndpoint
+	org.apache.camel.Exchange
+	org.apache.camel.Message
+	com.codahale.metrics.MetricRegistry
+/camel-metrics/src/test/java/org/apache/camel/component/metrics/MeterEndpointTest.java
+	com.codahale.metrics.MetricRegistry
+/camel-metrics/src/test/java/org/apache/camel/component/metrics/MeterRouteTest.java
+	com.codahale.metrics.MetricRegistry
+	com.codahale.metrics.Meter
+/camel-metrics/src/test/java/org/apache/camel/component/metrics/CounterProducerTest.java
+	org.apache.camel.component.metrics.MetricsEndpoint
+	org.apache.camel.Exchange
+	com.codahale.metrics.MetricRegistry
+	com.codahale.metrics.Counter
+	org.apache.camel.Message
+/camel-metrics/src/test/java/org/apache/camel/component/metrics/MetricsEndpointTest.java
+	com.codahale.metrics.MetricRegistry
+	org.apache.camel.Processor
+	org.apache.camel.Exchange
+	org.apache.camel.Message
+/camel-metrics/src/test/java/org/apache/camel/component/metrics/GaugeRouteTest.java
+	com.codahale.metrics.MetricRegistry
+/camel-metrics/src/test/java/org/apache/camel/component/metrics/HistogramEndpointTest.java
+	com.codahale.metrics.MetricRegistry
+/camel-metrics/src/test/java/org/apache/camel/component/metrics/spi/InstrumentedThreadPoolFactoryTest.java
+	com.codahale.metrics.MetricRegistry
+	org.apache.camel.spi.ThreadPoolFactory
+	java.util.concurrent.ThreadFactory
+/camel-micrometer/src/test/java/org/apache/camel/component/micrometer/CounterEndpointTest.java
+	io.micrometer.core.instrument.MeterRegistry
+/camel-micrometer/src/test/java/org/apache/camel/component/micrometer/MicrometerComponentTest.java
+	org.apache.camel.CamelContext
+	org.apache.camel.TypeConverter
+	org.apache.camel.spi.Registry
+	io.micrometer.core.instrument.MeterRegistry
+/camel-micrometer/src/test/java/org/apache/camel/component/micrometer/TimerEndpointTest.java
+	io.micrometer.core.instrument.MeterRegistry
+/camel-micrometer/src/test/java/org/apache/camel/component/micrometer/DistributionSummaryEndpointTest.java
+	io.micrometer.core.instrument.MeterRegistry
+/camel-micrometer/src/test/java/org/apache/camel/component/micrometer/MicrometerEndpointTest.java
+	io.micrometer.core.instrument.MeterRegistry
+	org.apache.camel.Processor
+	org.apache.camel.Exchange
+	org.apache.camel.Message
+/camel-micrometer/src/test/java/org/apache/camel/component/micrometer/MetricComponentSpringTest.java
+	io.micrometer.core.instrument.MeterRegistry
+	io.micrometer.core.instrument.Counter
+/camel-micrometer/src/test/java/org/apache/camel/component/micrometer/spi/InstrumentedThreadPoolFactoryTest.java
+	io.micrometer.core.instrument.MeterRegistry
+	org.apache.camel.spi.ThreadPoolFactory
+	java.util.concurrent.ThreadFactory
+/camel-mina/src/test/java/org/apache/camel/component/mina/MinaProducerShutdownMockTest.java
+	org.apache.mina.transport.socket.SocketConnector
+/camel-nagios/src/test/java/org/apache/camel/component/nagios/NagiosEventNotifierTest.java
+	com.googlecode.jsendnsca.PassiveCheckSender
+	com.googlecode.jsendnsca.NagiosPassiveCheckSender
+/camel-nagios/src/test/java/org/apache/camel/component/nagios/NagiosXorEncryptionTest.java
+	com.googlecode.jsendnsca.PassiveCheckSender
+	com.googlecode.jsendnsca.NagiosPassiveCheckSender
+/camel-nagios/src/test/java/org/apache/camel/component/nagios/NagiosTest.java
+	com.googlecode.jsendnsca.PassiveCheckSender
+	com.googlecode.jsendnsca.NagiosPassiveCheckSender
+/camel-oaipmh/src/test/java/org/apache/camel/oaipmh/utils/MockOaipmhServer.java
+	com.github.tomakehurst.wiremock.http.ResponseDefinition
+/camel-olingo2/src/test/java/org/apache/camel/component/olingo2/Olingo2AppAPIETagEnabledTest.java
+/camel-openapi-java/src/test/java/org/apache/camel/openapi/RestOpenApiSupportTest.java
+/camel-openstack/src/test/java/org/apache/camel/component/openstack/AbstractProducerTestSupport.java
+	org.openstack4j.api.OSClient.OSClientV3
+	org.apache.camel.Exchange
+	org.apache.camel.ExtendedCamelContext
+/camel-openstack/src/test/java/org/apache/camel/component/openstack/cinder/VolumeSnapshotProducerTest.java
+	org.openstack4j.api.storage.BlockVolumeSnapshotService
+	org.openstack4j.model.storage.block.VolumeSnapshot
+	org.mockito.ArgumentCaptor<java.lang.String>
+	org.mockito.ArgumentCaptor<java.lang.String>
+	org.mockito.ArgumentCaptor<java.lang.String>
+	org.mockito.ArgumentCaptor<java.lang.String>
+/camel-openstack/src/test/java/org/apache/camel/component/openstack/cinder/VolumeProducerTest.java
+	org.openstack4j.api.storage.BlockVolumeService
+	org.openstack4j.model.storage.block.Volume
+	org.mockito.ArgumentCaptor<java.lang.String>
+	org.mockito.ArgumentCaptor<java.lang.String>
+	org.mockito.ArgumentCaptor<java.lang.String>
+	org.mockito.ArgumentCaptor<java.lang.String>
+/camel-openstack/src/test/java/org/apache/camel/component/openstack/cinder/CinderProducerTestSupport.java
+	org.apache.camel.component.openstack.cinder.CinderEndpoint
+	org.openstack4j.api.storage.BlockStorageService
+/camel-openstack/src/test/java/org/apache/camel/component/openstack/glance/GlanceProducerTest.java
+	org.apache.camel.component.openstack.glance.GlanceEndpoint
+	org.openstack4j.api.image.ImageService
+	org.mockito.ArgumentCaptor<org.openstack4j.model.image.Image>
+	org.mockito.ArgumentCaptor<org.openstack4j.model.common.Payload<?>>
+	org.mockito.ArgumentCaptor<java.lang.String>
+	org.mockito.ArgumentCaptor<org.openstack4j.model.image.Image>
+	org.openstack4j.model.image.Image
+/camel-openstack/src/test/java/org/apache/camel/component/openstack/it/OpenstackWiremockTestSupport.java
+/camel-openstack/src/test/java/org/apache/camel/component/openstack/keystone/RegionProducerTest.java
+	org.openstack4j.model.identity.v3.Region
+	org.openstack4j.api.identity.v3.RegionService
+	org.mockito.ArgumentCaptor<org.openstack4j.model.identity.v3.Region>
+	org.mockito.ArgumentCaptor<java.lang.String>
+/camel-openstack/src/test/java/org/apache/camel/component/openstack/keystone/DomainProducerTest.java
+	org.openstack4j.model.identity.v3.Domain
+	org.openstack4j.api.identity.v3.DomainService
+	org.mockito.ArgumentCaptor<org.openstack4j.model.identity.v3.Domain>
+	org.mockito.ArgumentCaptor<java.lang.String>
+/camel-openstack/src/test/java/org/apache/camel/component/openstack/keystone/GroupProducerTest.java
+	org.openstack4j.model.identity.v3.Group
+	org.openstack4j.api.identity.v3.GroupService
+	org.mockito.ArgumentCaptor<org.openstack4j.model.identity.v3.Group>
+	org.mockito.ArgumentCaptor<java.lang.String>
+/camel-openstack/src/test/java/org/apache/camel/component/openstack/keystone/ProjectProducerTest.java
+	org.openstack4j.model.identity.v3.Project
+	org.openstack4j.api.identity.v3.ProjectService
+	org.mockito.ArgumentCaptor<org.openstack4j.model.identity.v3.Project>
+	org.mockito.ArgumentCaptor<java.lang.String>
+/camel-openstack/src/test/java/org/apache/camel/component/openstack/keystone/UserProducerTest.java
+	org.openstack4j.model.identity.v3.User
+	org.openstack4j.api.identity.v3.UserService
+	org.mockito.ArgumentCaptor<org.openstack4j.model.identity.v3.User>
+	org.mockito.ArgumentCaptor<java.lang.String>
+/camel-openstack/src/test/java/org/apache/camel/component/openstack/keystone/KeystoneProducerTestSupport.java
+	org.apache.camel.component.openstack.keystone.KeystoneEndpoint
+	org.openstack4j.api.identity.v3.IdentityService
+/camel-openstack/src/test/java/org/apache/camel/component/openstack/neutron/PortProducerTest.java
+	org.openstack4j.model.network.Port
+	org.openstack4j.api.networking.PortService
+	org.mockito.ArgumentCaptor<org.openstack4j.model.network.Port>
+	org.mockito.ArgumentCaptor<java.lang.String>
+/camel-openstack/src/test/java/org/apache/camel/component/openstack/neutron/RouterProducerTest.java
+	org.openstack4j.model.network.Router
+	org.openstack4j.api.networking.RouterService
+	org.mockito.ArgumentCaptor<org.openstack4j.model.network.Router>
+	org.mockito.ArgumentCaptor<java.lang.String>
+	org.mockito.ArgumentCaptor<java.lang.String>
+	org.mockito.ArgumentCaptor<java.lang.String>
+	org.mockito.ArgumentCaptor<org.openstack4j.model.network.AttachInterfaceType>
+/camel-openstack/src/test/java/org/apache/camel/component/openstack/neutron/NetworkProducerTest.java
+	org.openstack4j.model.network.Network
+	org.openstack4j.api.networking.NetworkService
+	org.mockito.ArgumentCaptor<org.openstack4j.model.network.Network>
+	org.mockito.ArgumentCaptor<java.lang.String>
+/camel-openstack/src/test/java/org/apache/camel/component/openstack/neutron/SubnetProducerTest.java
+	org.openstack4j.model.network.Subnet
+	org.openstack4j.api.networking.SubnetService
+	org.mockito.ArgumentCaptor<org.openstack4j.model.network.Subnet>
+	org.mockito.ArgumentCaptor<java.lang.String>
+/camel-openstack/src/test/java/org/apache/camel/component/openstack/neutron/NeutronProducerTestSupport.java
+	org.apache.camel.component.openstack.neutron.NeutronEndpoint
+	org.openstack4j.api.networking.NetworkingService
+/camel-openstack/src/test/java/org/apache/camel/component/openstack/nova/KeypairProducerTest.java
+	org.openstack4j.model.compute.Keypair
+	org.openstack4j.api.compute.KeypairService
+	org.mockito.ArgumentCaptor<java.lang.String>
+	org.mockito.ArgumentCaptor<java.lang.String>
+/camel-openstack/src/test/java/org/apache/camel/component/openstack/nova/NovaProducerTestSupport.java
+	org.apache.camel.component.openstack.nova.NovaEndpoint
+	org.openstack4j.api.compute.ComputeService
+/camel-openstack/src/test/java/org/apache/camel/component/openstack/nova/ServerProducerTest.java
+	org.openstack4j.model.compute.Server
+	org.openstack4j.api.compute.ServerService
+	org.mockito.ArgumentCaptor<org.openstack4j.model.compute.Action>
+	org.mockito.ArgumentCaptor<java.lang.String>
+	org.mockito.ArgumentCaptor<java.lang.String>
+	org.mockito.ArgumentCaptor<java.lang.String>
+/camel-openstack/src/test/java/org/apache/camel/component/openstack/nova/FlavorProducerTest.java
+	org.openstack4j.model.compute.Flavor
+	org.openstack4j.api.compute.FlavorService
+	org.mockito.ArgumentCaptor<org.openstack4j.model.compute.Flavor>
+	org.mockito.ArgumentCaptor<java.lang.String>
+/camel-openstack/src/test/java/org/apache/camel/component/openstack/swift/ObjectProducerTest.java
+	org.openstack4j.model.storage.object.SwiftObject
+	org.openstack4j.api.storage.ObjectStorageObjectService
+	org.mockito.ArgumentCaptor<java.lang.String>
+	org.mockito.ArgumentCaptor<java.lang.String>
+	org.mockito.ArgumentCaptor<org.openstack4j.model.common.Payload<?>>
+	org.mockito.ArgumentCaptor<org.openstack4j.model.storage.object.options.ObjectLocation>
+	org.mockito.ArgumentCaptor<java.util.Map<java.lang.String,java.lang.String>>
+/camel-openstack/src/test/java/org/apache/camel/component/openstack/swift/ContainerProducerTest.java
+	org.openstack4j.model.storage.object.SwiftContainer
+	org.openstack4j.api.storage.ObjectStorageContainerService
+	org.mockito.ArgumentCaptor<java.lang.String>
+	org.mockito.ArgumentCaptor<java.util.Map<java.lang.String,java.lang.String>>
+	org.mockito.ArgumentCaptor<java.lang.String>
+	org.mockito.ArgumentCaptor<org.openstack4j.model.storage.object.options.CreateUpdateContainerOptions>
+	org.mockito.ArgumentCaptor<org.openstack4j.model.storage.object.options.ContainerListOptions>
+/camel-openstack/src/test/java/org/apache/camel/component/openstack/swift/SwiftProducerTestSupport.java
+	org.apache.camel.component.openstack.swift.SwiftEndpoint
+	org.openstack4j.api.storage.ObjectStorageService
+/camel-opentracing/src/test/java/org/apache/camel/opentracing/SpringOpenTracingSimpleRouteTest.java
+/camel-opentracing/src/test/java/org/apache/camel/opentracing/ThirdPartyInstrumentationIT.java
+/camel-opentracing/src/test/java/org/apache/camel/opentracing/CamelOpenTracingTestSupport.java
+/camel-opentracing/src/test/java/org/apache/camel/opentracing/agent/InstallOpenTracingTracerRuleTest.java
+/camel-pg-replication-slot/src/test/java/org/apache/camel/component/pg/replication/slot/PgReplicationSlotEndpointTest.java
+	org.apache.camel.component.pg.replication.slot.PgReplicationSlotComponent
+	org.apache.camel.component.pg.replication.slot.PgReplicationSlotComponent
+/camel-pgevent/src/test/java/org/apache/camel/pgevent/PgEventProducerTest.java
+	org.apache.camel.component.pgevent.PgEventEndpoint
+	com.impossibl.postgres.jdbc.PGDataSource
+	com.impossibl.postgres.api.jdbc.PGConnection
+	java.sql.PreparedStatement
+	org.apache.camel.Exchange
+	org.apache.camel.Message
+	com.impossibl.postgres.api.jdbc.PGConnection
+	java.sql.CallableStatement
+/camel-pgevent/src/test/java/org/apache/camel/pgevent/PgEventConsumerTest.java
+	com.impossibl.postgres.jdbc.PGDataSource
+	com.impossibl.postgres.api.jdbc.PGConnection
+	java.sql.PreparedStatement
+	org.apache.camel.component.pgevent.PgEventEndpoint
+	org.apache.camel.Processor
+	org.apache.camel.ExtendedCamelContext
+	org.apache.camel.spi.ExchangeFactory
+	com.impossibl.postgres.jdbc.PGDataSource
+	com.impossibl.postgres.api.jdbc.PGConnection
+	java.sql.PreparedStatement
+	org.apache.camel.component.pgevent.PgEventEndpoint
+	org.apache.camel.Processor
+	org.apache.camel.ExtendedCamelContext
+	org.apache.camel.spi.ExchangeFactory
+	org.apache.camel.component.pgevent.PgEventEndpoint
+	org.apache.camel.Processor
+	org.apache.camel.ExtendedExchange
+	org.apache.camel.Message
+	org.apache.camel.ExtendedCamelContext
+	org.apache.camel.spi.ExchangeFactory
+/camel-pgevent/src/test/java/org/apache/camel/pgevent/PgEventHelperTest.java
+	com.impossibl.postgres.api.jdbc.PGConnection
+	java.sql.Connection
+	com.impossibl.postgres.api.jdbc.PGConnection
+	java.sql.Connection
+/camel-printer/src/test/java/org/apache/camel/component/printer/PrinterPrintTest.java
+	javax.print.PrintService
+	javax.print.PrintService
+	javax.print.DocPrintJob
+	javax.print.PrintService
+	javax.print.DocPrintJob
+	javax.print.PrintService
+	javax.print.DocPrintJob
+	javax.print.PrintService
+	javax.print.PrintServiceLookup
+	javax.print.DocPrintJob
+/camel-pubnub/src/test/java/org/apache/camel/component/pubnub/PubNubPresenceTest.java
+/camel-pubnub/src/test/java/org/apache/camel/component/pubnub/PubNubPublishTest.java
+/camel-pubnub/src/test/java/org/apache/camel/component/pubnub/PubNubTestBase.java
+/camel-pubnub/src/test/java/org/apache/camel/component/pubnub/PubNubOperationsTest.java
+/camel-pubnub/src/test/java/org/apache/camel/component/pubnub/PubNubFireTest.java
+/camel-pubnub/src/test/java/org/apache/camel/component/pubnub/PubNubSubscriberTest.java
+/camel-pulsar/src/test/java/org/apache/camel/component/pulsar/PulsarComponentTest.java
+	org.apache.camel.component.pulsar.utils.AutoConfiguration
+/camel-pulsar/src/test/java/org/apache/camel/component/pulsar/integration/PulsarCustomMessageReceiptIT.java
+	org.apache.camel.component.pulsar.PulsarMessageReceiptFactory
+	org.apache.camel.component.pulsar.PulsarMessageReceipt
+/camel-pulsar/src/test/java/org/apache/camel/component/pulsar/utils/PulsarUtilsTest.java
+	org.apache.pulsar.client.api.Consumer
+	org.apache.pulsar.client.api.Consumer
+	org.apache.pulsar.client.api.Consumer
+/camel-pulsar/src/test/java/org/apache/camel/component/pulsar/utils/consumers/ConsumerCreationStrategyFactoryTest.java
+	org.apache.camel.component.pulsar.PulsarConsumer
+	org.apache.camel.component.pulsar.PulsarConsumer
+	org.apache.camel.component.pulsar.PulsarConsumer
+	org.apache.camel.component.pulsar.PulsarConsumer
+	org.apache.camel.component.pulsar.PulsarConsumer
+	org.apache.camel.component.pulsar.PulsarConsumer
+/camel-quickfix/src/test/java/org/apache/camel/component/quickfixj/QuickfixjProducerTest.java
+	org.apache.camel.Exchange
+	org.apache.camel.component.quickfixj.QuickfixjEndpoint
+	org.apache.camel.Message
+	org.apache.camel.CamelContext
+	org.apache.camel.Message
+	org.apache.camel.Message
+/camel-quickfix/src/test/java/org/apache/camel/component/quickfixj/QuickfixjEngineTest.java
+	quickfix.MessageStoreFactory
+	quickfix.LogFactory
+	quickfix.MessageFactory
+/camel-quickfix/src/test/java/org/apache/camel/component/quickfixj/TestSupport.java
+	quickfix.MessageStoreFactory
+	quickfix.MessageStore
+	quickfix.Application
+	quickfix.LogFactory
+	quickfix.MessageStoreFactory
+	quickfix.MessageStore
+	quickfix.LogFactory
+	quickfix.MessageFactory
+/camel-rabbitmq/src/test/java/org/apache/camel/component/rabbitmq/RabbitMQConsumerTest.java
+	org.apache.camel.ExtendedCamelContext
+	org.apache.camel.spi.ExchangeFactory
+	org.apache.camel.component.rabbitmq.RabbitMQEndpoint
+	com.rabbitmq.client.Connection
+	org.apache.camel.Processor
+	com.rabbitmq.client.Channel
+	org.apache.camel.spi.ExecutorServiceManager
+	com.rabbitmq.client.AlreadyClosedException
+/camel-rabbitmq/src/test/java/org/apache/camel/component/rabbitmq/RabbitMQComponentTest.java
+	com.rabbitmq.client.ConnectionFactory
+/camel-rabbitmq/src/test/java/org/apache/camel/component/rabbitmq/RabbitMQEndpointTest.java
+	com.rabbitmq.client.Envelope
+	com.rabbitmq.client.AMQP.BasicProperties
+/camel-rabbitmq/src/test/java/org/apache/camel/component/rabbitmq/RabbitConsumerHangTest.java
+	org.apache.camel.component.rabbitmq.RabbitMQConsumer
+	org.apache.camel.component.rabbitmq.RabbitMQEndpoint
+	com.rabbitmq.client.Connection
+	com.rabbitmq.client.Channel
+/camel-rabbitmq/src/test/java/org/apache/camel/component/rabbitmq/RabbitMQProducerTest.java
+	org.apache.camel.component.rabbitmq.RabbitMQEndpoint
+	org.apache.camel.Exchange
+	com.rabbitmq.client.Connection
+/camel-rest-openapi/src/test/java/org/apache/camel/component/rest/openapi/RestOpenApiEndpointV3Test.java
+	org.apache.camel.CamelContext
+	org.apache.camel.CamelContext
+	org.apache.camel.CamelContext
+	org.apache.camel.CamelContext
+	org.apache.camel.CamelContext
+	org.apache.camel.CamelContext
+/camel-rest-openapi/src/test/java/org/apache/camel/component/rest/openapi/RestOpenApiComponentV3Test.java
+/camel-rest-openapi/src/test/java/org/apache/camel/component/rest/openapi/HttpsV3Test.java
+/camel-rest-openapi/src/test/java/org/apache/camel/component/rest/openapi/RestOpenApiEndpointTest.java
+	org.apache.camel.CamelContext
+	org.apache.camel.CamelContext
+	org.apache.camel.CamelContext
+	org.apache.camel.CamelContext
+	org.apache.camel.CamelContext
+	org.apache.camel.CamelContext
+/camel-rest-openapi/src/test/java/org/apache/camel/component/rest/openapi/Jetty94ServerFactory.java
+/camel-rest-openapi/src/test/java/org/apache/camel/component/rest/openapi/HttpsTest.java
+/camel-rest-openapi/src/test/java/org/apache/camel/component/rest/openapi/RestOpenApiComponentTest.java
+/camel-rest-swagger/src/test/java/org/apache/camel/component/rest/swagger/RestSwaggerEndpointTest.java
+	org.apache.camel.CamelContext
+	org.apache.camel.CamelContext
+	org.apache.camel.CamelContext
+	org.apache.camel.CamelContext
+	org.apache.camel.CamelContext
+	org.apache.camel.CamelContext
+	org.apache.camel.CamelContext
+/camel-rest-swagger/src/test/java/org/apache/camel/component/rest/swagger/HttpsTest.java
+/camel-rest-swagger/src/test/java/org/apache/camel/component/rest/swagger/Jetty94ServerFactory.java
+/camel-rest-swagger/src/test/java/org/apache/camel/component/rest/swagger/RestSwaggerComponentTest.java
+/camel-salesforce/src/test/java/org/apache/camel/component/salesforce/RawPayloadTest.java
+/camel-salesforce/src/test/java/org/apache/camel/component/salesforce/SalesforceConsumerTest.java
+	org.cometd.bayeux.Message
+	java.util.Map<java.lang.String,java.lang.Object>
+	java.util.Map<java.lang.String,java.lang.Object>
+	java.util.Map<java.lang.String,java.lang.Object>
+	org.apache.camel.component.salesforce.SalesforceEndpoint
+	org.apache.camel.ExtendedExchange
+	org.apache.camel.Message
+	org.apache.camel.AsyncProcessor
+	org.apache.camel.ExtendedCamelContext
+	org.apache.camel.spi.ExchangeFactory
+	org.apache.camel.component.salesforce.SalesforceComponent
+	org.apache.camel.CamelContext
+	org.apache.camel.spi.ClassResolver
+	org.cometd.bayeux.client.ClientSessionChannel
+	org.cometd.bayeux.client.ClientSessionChannel
+	org.cometd.bayeux.client.ClientSessionChannel
+	org.cometd.bayeux.client.ClientSessionChannel
+	org.cometd.bayeux.client.ClientSessionChannel
+	org.cometd.bayeux.client.ClientSessionChannel
+	org.cometd.bayeux.client.ClientSessionChannel
+	org.cometd.bayeux.client.ClientSessionChannel
+/camel-salesforce/src/test/java/org/apache/camel/component/salesforce/SalesforceMetaDataExtensionTest.java
+	org.apache.camel.component.salesforce.internal.client.RestClient
+/camel-salesforce/src/test/java/org/apache/camel/component/salesforce/internal/SalesforceSessionTest.java
+	org.apache.camel.component.salesforce.SalesforceHttpClient
+	org.apache.camel.component.salesforce.SalesforceHttpClient
+	org.eclipse.jetty.client.api.Request
+	org.eclipse.jetty.client.api.ContentResponse
+/camel-salesforce/src/test/java/org/apache/camel/component/salesforce/internal/client/AbstractClientBaseTest.java
+	org.apache.camel.component.salesforce.SalesforceHttpClient
+	org.apache.camel.component.salesforce.internal.SalesforceSession
+	org.eclipse.jetty.client.api.Response
+	org.eclipse.jetty.client.api.Request
+	org.eclipse.jetty.client.api.Result
+	org.eclipse.jetty.client.api.Response
+	org.apache.camel.component.salesforce.internal.client.SalesforceHttpRequest
+	org.eclipse.jetty.client.HttpConversation
+	org.eclipse.jetty.client.api.Request
+/camel-salesforce/src/test/java/org/apache/camel/component/salesforce/internal/processor/AbstractRestProcessorApprovalTest.java
+	org.apache.camel.component.salesforce.internal.client.RestClient
+/camel-salesforce/src/test/java/org/apache/camel/component/salesforce/internal/streaming/SubscriptionHelperIntegrationTest.java
+	org.apache.camel.component.salesforce.SalesforceConsumer
+	org.apache.camel.component.salesforce.SalesforceEndpoint
+	org.apache.camel.component.salesforce.SalesforceConsumer
+	org.apache.camel.component.salesforce.SalesforceEndpoint
+/camel-salesforce/src/test/java/org/apache/camel/component/salesforce/internal/streaming/SubscriptionHelperTest.java
+	org.apache.camel.component.salesforce.SalesforceComponent
+	org.apache.camel.component.salesforce.SalesforceEndpoint
+	org.apache.camel.component.salesforce.SalesforceComponent
+	org.apache.camel.component.salesforce.SalesforceEndpoint
+	org.apache.camel.component.salesforce.SalesforceHttpClient
+	org.apache.camel.component.salesforce.internal.SalesforceSession
+	org.apache.camel.component.salesforce.SalesforceComponent
+	org.apache.camel.component.salesforce.SalesforceHttpClient
+	org.apache.camel.component.salesforce.internal.SalesforceSession
+	org.apache.camel.component.salesforce.SalesforceComponent
+/camel-salesforce-maven-plugin/src/test/java/org/apache/camel/maven/CamelSalesforceMojoOutputTest.java
+	org.apache.camel.component.salesforce.internal.client.RestClient
+/camel-smpp/src/test/java/org/apache/camel/component/smpp/SmppDataSmCommandTest.java
+	org.jsmpp.session.SMPPSession
+/camel-smpp/src/test/java/org/apache/camel/component/smpp/SmppReplaceSmCommandTest.java
+	org.jsmpp.session.SMPPSession
+/camel-smpp/src/test/java/org/apache/camel/component/smpp/SmppConsumerTest.java
+	org.apache.camel.ExtendedCamelContext
+	org.apache.camel.spi.ExchangeFactory
+	org.apache.camel.component.smpp.SmppEndpoint
+	org.apache.camel.Processor
+	org.jsmpp.session.SMPPSession
+/camel-smpp/src/test/java/org/apache/camel/component/smpp/SmppSubmitSmCommandTest.java
+	org.jsmpp.session.SMPPSession
+/camel-smpp/src/test/java/org/apache/camel/component/smpp/SmppProducerLazySessionCreationTest.java
+	org.apache.camel.component.smpp.SmppEndpoint
+	org.jsmpp.session.SMPPSession
+	org.apache.camel.component.smpp.SmppBinding
+	org.apache.camel.Exchange
+	org.apache.camel.Message
+	org.apache.camel.component.smpp.SmppCommand
+	org.apache.camel.component.smpp.SmppBinding
+	org.apache.camel.Exchange
+	org.apache.camel.Message
+	org.apache.camel.component.smpp.SmppCommand
+/camel-smpp/src/test/java/org/apache/camel/component/smpp/SmppSubmitMultiCommandTest.java
+	org.jsmpp.session.SMPPSession
+/camel-smpp/src/test/java/org/apache/camel/component/smpp/SmppQuerySmCommandTest.java
+	org.jsmpp.session.SMPPSession
+/camel-smpp/src/test/java/org/apache/camel/component/smpp/SmppCancelSmCommandTest.java
+	org.jsmpp.session.SMPPSession
+/camel-smpp/src/test/java/org/apache/camel/component/smpp/SmppProducerTest.java
+	org.apache.camel.component.smpp.SmppEndpoint
+	org.jsmpp.session.SMPPSession
+	org.apache.camel.component.smpp.SmppBinding
+	org.apache.camel.Exchange
+	org.apache.camel.component.smpp.SmppCommand
+/camel-splunk/src/test/java/org/apache/camel/component/splunk/ProducerTest.java
+	com.splunk.TcpInput
+	com.splunk.Index
+	com.splunk.IndexCollection
+	com.splunk.InputCollection
+/camel-splunk/src/test/java/org/apache/camel/component/splunk/ConsumerStreamingTest.java
+	com.splunk.Job
+	com.splunk.JobCollection
+/camel-splunk/src/test/java/org/apache/camel/component/splunk/ConsumerTest.java
+	com.splunk.JobCollection
+	com.splunk.Job
+/camel-splunk/src/test/java/org/apache/camel/component/splunk/RawProducerTest.java
+	com.splunk.TcpInput
+	com.splunk.Index
+	com.splunk.IndexCollection
+	com.splunk.InputCollection
+/camel-spring-batch/src/test/java/org/apache/camel/component/spring/batch/SpringBatchEndpointTest.java
+	org.springframework.batch.core.launch.JobLauncher
+	org.springframework.batch.core.launch.JobLauncher
+	org.springframework.batch.core.configuration.JobRegistry
+	org.springframework.batch.core.Job
+	org.springframework.batch.core.Job
+	org.springframework.batch.core.Job
+	org.springframework.batch.core.JobExecution
+	org.springframework.batch.core.Job
+	org.springframework.batch.core.Job
+/camel-spring-ldap/src/test/java/org/apache/camel/component/springldap/SpringLdapTestConfiguration.java
+	org.springframework.ldap.core.LdapTemplate
+/camel-spring-ldap/src/test/java/org/apache/camel/component/springldap/SpringLdapComponentTest.java
+	org.mockito.ArgumentCaptor<java.lang.String>
+	org.mockito.ArgumentCaptor<javax.naming.directory.Attributes>
+	org.mockito.ArgumentCaptor<java.lang.Object>
+	org.mockito.ArgumentCaptor<java.lang.String>
+	org.mockito.ArgumentCaptor<java.lang.Integer>
+	org.mockito.ArgumentCaptor<org.springframework.ldap.core.AttributesMapper<java.lang.String>>
+/camel-spring-ldap/src/test/java/org/apache/camel/component/springldap/SpringLdapProducerTest.java
+	org.apache.camel.component.springldap.SpringLdapEndpoint
+	org.springframework.ldap.core.LdapTemplate
+	java.util.function.BiFunction
+/camel-spring-redis/src/test/java/org/apache/camel/component/redis/RedisKeyTest.java
+	org.springframework.data.redis.core.RedisTemplate<java.lang.String,java.lang.Integer>
+/camel-spring-redis/src/test/java/org/apache/camel/component/redis/RedisConsumerTest.java
+	org.springframework.data.redis.listener.RedisMessageListenerContainer
+	org.mockito.ArgumentCaptor<java.util.Collection<org.springframework.data.redis.listener.ChannelTopic>>
+	org.mockito.ArgumentCaptor<org.springframework.data.redis.connection.MessageListener>
+/camel-spring-redis/src/test/java/org/apache/camel/component/redis/RedisStringTest.java
+	org.springframework.data.redis.core.ValueOperations<java.lang.String,java.lang.String>
+/camel-spring-redis/src/test/java/org/apache/camel/component/redis/RedisGeoTest.java
+	org.springframework.data.redis.core.RedisTemplate<java.lang.String,java.lang.String>
+	org.springframework.data.redis.core.GeoOperations<java.lang.String,java.lang.String>
+/camel-spring-redis/src/test/java/org/apache/camel/component/redis/RedisListTest.java
+	org.springframework.data.redis.core.RedisTemplate<java.lang.String,java.lang.String>
+	org.springframework.data.redis.core.ListOperations<java.lang.String,java.lang.String>
+/camel-spring-redis/src/test/java/org/apache/camel/component/redis/RedisSortedSetTest.java
+	org.springframework.data.redis.core.RedisTemplate<java.lang.String,java.lang.String>
+	org.springframework.data.redis.core.ZSetOperations<java.lang.String,java.lang.String>
+/camel-spring-redis/src/test/java/org/apache/camel/component/redis/RedisTransactionTest.java
+	org.springframework.data.redis.core.RedisTemplate<java.lang.String,?>
+/camel-spring-redis/src/test/java/org/apache/camel/component/redis/RedisSetTest.java
+	org.springframework.data.redis.core.RedisTemplate<java.lang.String,java.lang.String>
+	org.springframework.data.redis.core.SetOperations<java.lang.String,java.lang.String>
+/camel-spring-redis/src/test/java/org/apache/camel/component/redis/RedisHashTest.java
+	org.springframework.data.redis.core.RedisTemplate<java.lang.String,java.lang.String>
+	org.springframework.data.redis.core.HashOperations<java.lang.String,java.lang.String,java.lang.String>
+/camel-spring-redis/src/test/java/org/apache/camel/component/redis/RedisConnectionTest.java
+	org.springframework.data.redis.core.RedisTemplate<java.lang.String,java.lang.String>
+/camel-spring-redis/src/test/java/org/apache/camel/component/redis/processor/idempotent/RedisIdempotentRepositoryTest.java
+	org.springframework.data.redis.core.RedisTemplate<java.lang.String,java.lang.String>
+	org.springframework.data.redis.connection.RedisConnectionFactory
+	org.springframework.data.redis.connection.RedisConnection
+	org.springframework.data.redis.core.SetOperations<java.lang.String,java.lang.String>
+/camel-spring-redis/src/test/java/org/apache/camel/component/redis/processor/idempotent/RedisStringIdempotentRepositoryTest.java
+	org.springframework.data.redis.core.RedisTemplate<java.lang.String,java.lang.String>
+	org.springframework.data.redis.connection.RedisConnectionFactory
+	org.springframework.data.redis.connection.RedisConnection
+	org.springframework.data.redis.core.RedisOperations<java.lang.String,java.lang.String>
+	org.springframework.data.redis.core.ValueOperations<java.lang.String,java.lang.String>
+/camel-spring-ws/src/test/java/org/apache/camel/component/spring/ws/ConsumerExceptionPropagationRouteTest.java
+/camel-spring-ws/src/test/java/org/apache/camel/component/spring/ws/MessageFilterResolvingTest.java
+/camel-spring-ws/src/test/java/org/apache/camel/component/spring/ws/MessageFilterResolvingDefaultsTest.java
+/camel-swagger-java/src/test/java/org/apache/camel/swagger/RestSwaggerSupportTest.java
+/camel-tracing/src/test/java/org/apache/camel/tracing/decorators/AbstractSpanDecoratorTest.java
+	org.apache.camel.Endpoint
+	org.apache.camel.Endpoint
+	org.apache.camel.Exchange
+	org.apache.camel.Endpoint
+	org.apache.camel.Endpoint
+	org.apache.camel.Endpoint
+/camel-tracing/src/test/java/org/apache/camel/tracing/decorators/AbstractHttpSpanDecoratorTest.java
+	org.apache.camel.Exchange
+	org.apache.camel.Message
+	org.apache.camel.Exchange
+	org.apache.camel.Message
+	org.apache.camel.Exchange
+	org.apache.camel.Message
+	org.apache.camel.Exchange
+	org.apache.camel.Message
+	org.apache.camel.Endpoint
+	org.apache.camel.Exchange
+	org.apache.camel.Message
+	org.apache.camel.Endpoint
+	org.apache.camel.Exchange
+	org.apache.camel.Message
+	org.apache.camel.Endpoint
+	org.apache.camel.Exchange
+	org.apache.camel.Message
+	org.apache.camel.Endpoint
+	org.apache.camel.Exchange
+	org.apache.camel.Message
+	org.apache.camel.Endpoint
+	org.apache.camel.Exchange
+	org.apache.camel.Message
+	org.apache.camel.Endpoint
+	org.apache.camel.Exchange
+	org.apache.camel.Message
+	org.apache.camel.Endpoint
+	org.apache.camel.Exchange
+	org.apache.camel.Message
+	org.apache.camel.Endpoint
+	org.apache.camel.Exchange
+	org.apache.camel.Message
+	org.apache.camel.Exchange
+	org.apache.camel.Message
+/camel-tracing/src/test/java/org/apache/camel/tracing/decorators/RestSpanDecoratorTest.java
+	org.apache.camel.Endpoint
+	org.apache.camel.Exchange
+	org.apache.camel.Endpoint
+	org.apache.camel.Exchange
+	org.apache.camel.Message
+/camel-tracing/src/test/java/org/apache/camel/tracing/decorators/MongoDBSpanDecoratorTest.java
+	org.apache.camel.Endpoint
+	org.apache.camel.Endpoint
+/camel-tracing/src/test/java/org/apache/camel/tracing/decorators/JdbcSpanDecoratorTest.java
+	org.apache.camel.Endpoint
+	org.apache.camel.Exchange
+	org.apache.camel.Message
+/camel-tracing/src/test/java/org/apache/camel/tracing/decorators/ElasticsearchSpanDecoratorTest.java
+	org.apache.camel.Endpoint
+	org.apache.camel.Endpoint
+	org.apache.camel.Exchange
+	org.apache.camel.Message
+/camel-tracing/src/test/java/org/apache/camel/tracing/decorators/SqlSpanDecoratorTest.java
+	org.apache.camel.Endpoint
+	org.apache.camel.Exchange
+	org.apache.camel.Message
+/camel-tracing/src/test/java/org/apache/camel/tracing/decorators/CqlSpanDecoratorTest.java
+	org.apache.camel.Endpoint
+	org.apache.camel.Exchange
+	org.apache.camel.Message
+	org.apache.camel.Endpoint
+	org.apache.camel.Exchange
+	org.apache.camel.Message
+/camel-tracing/src/test/java/org/apache/camel/tracing/decorators/KafkaSpanDecoratorTest.java
+	org.apache.camel.Exchange
+	org.apache.camel.Message
+	org.apache.camel.Exchange
+	org.apache.camel.Message
+	org.apache.camel.Endpoint
+	org.apache.camel.Endpoint
+	org.apache.camel.Exchange
+	org.apache.camel.Message
+	org.apache.camel.Endpoint
+	org.apache.camel.Exchange
+	org.apache.camel.Message
+/camel-tracing/src/test/java/org/apache/camel/tracing/decorators/StompSpanDecoratorTest.java
+	org.apache.camel.Endpoint
+/camel-tracing/src/test/java/org/apache/camel/tracing/decorators/JmsSpanDecoratorTest.java
+	org.apache.camel.Exchange
+	org.apache.camel.Message
+/camel-tracing/src/test/java/org/apache/camel/tracing/decorators/AbstractMessagingSpanDecoratorTest.java
+	org.apache.camel.Endpoint
+	org.apache.camel.Endpoint
+	org.apache.camel.Endpoint
+	org.apache.camel.Exchange
+/camel-tracing/src/test/java/org/apache/camel/tracing/decorators/CometdSpanDecoratorTest.java
+	org.apache.camel.Endpoint
+/camel-tracing/src/test/java/org/apache/camel/tracing/decorators/TimerSpanDecoratorTest.java
+	org.apache.camel.Exchange
+/camel-tracing/src/test/java/org/apache/camel/tracing/decorators/IronmqSpanDecoratorTest.java
+	org.apache.camel.Exchange
+	org.apache.camel.Message
+/camel-weather/src/test/java/org/apache/camel/component/weather/WeatherQueryTest.java
+	org.apache.camel.component.weather.geolocation.GeoLocationProvider
+	org.apache.camel.component.weather.geolocation.GeoLocationProvider
+/camel-web3j/src/test/java/org/apache/camel/component/web3j/Web3jConsumerReplyBlocksObservableMockTest.java
+	rx.Observable<org.web3j.protocol.core.methods.response.EthBlock>
+/camel-web3j/src/test/java/org/apache/camel/component/web3j/Web3jConsumerPendingTransactionObservableMockTest.java
+	rx.Observable<org.web3j.protocol.core.methods.response.Transaction>
+/camel-web3j/src/test/java/org/apache/camel/component/web3j/Web3jConsumerCatchUpToLatestBlocksObservableMockTest.java
+	rx.Observable<org.web3j.protocol.core.methods.response.EthBlock>
+/camel-web3j/src/test/java/org/apache/camel/component/web3j/Web3jConsumerCatchUpToLatestTransactionsObservableMockTest.java
+	rx.Observable<org.web3j.protocol.core.methods.response.Transaction>
+/camel-web3j/src/test/java/org/apache/camel/component/web3j/Web3jMockTestSupport.java
+	org.web3j.protocol.Web3j
+	rx.Subscription
+/camel-web3j/src/test/java/org/apache/camel/component/web3j/Web3jProducerTest.java
+	org.web3j.protocol.core.Request
+	org.web3j.protocol.core.methods.response.Web3ClientVersion
+	org.web3j.protocol.core.methods.response.NetVersion
+	org.web3j.protocol.core.methods.response.Web3Sha3
+	org.web3j.protocol.core.methods.response.NetListening
+	org.web3j.protocol.core.methods.response.NetPeerCount
+	org.web3j.protocol.core.methods.response.EthProtocolVersion
+	org.web3j.protocol.core.methods.response.EthCoinbase
+	org.web3j.protocol.core.methods.response.EthSyncing
+	org.web3j.protocol.core.methods.response.EthMining
+	org.web3j.protocol.core.methods.response.EthHashrate
+	org.web3j.protocol.core.methods.response.EthGasPrice
+	org.web3j.protocol.core.methods.response.EthAccounts
+	org.web3j.protocol.core.methods.response.EthBlockNumber
+	org.web3j.protocol.core.methods.response.EthGetBalance
+	org.web3j.protocol.core.methods.response.EthGetStorageAt
+	org.web3j.protocol.core.methods.response.EthGetTransactionCount
+	org.web3j.protocol.core.methods.response.EthGetBlockTransactionCountByHash
+	org.web3j.protocol.core.methods.response.EthGetBlockTransactionCountByNumber
+	org.web3j.protocol.core.methods.response.EthGetUncleCountByBlockHash
+	org.web3j.protocol.core.methods.response.EthGetUncleCountByBlockNumber
+	org.web3j.protocol.core.methods.response.EthGetCode
+	org.web3j.protocol.core.methods.response.EthSign
+	org.web3j.protocol.core.methods.response.EthSendTransaction
+	org.web3j.protocol.core.methods.response.EthSendTransaction
+	org.web3j.protocol.core.methods.response.EthCall
+	org.web3j.protocol.core.methods.response.EthEstimateGas
+	org.web3j.protocol.core.methods.response.EthBlock
+	org.web3j.protocol.core.methods.response.EthBlock.Block
+	org.web3j.protocol.core.methods.response.EthBlock
+	org.web3j.protocol.core.methods.response.EthBlock.Block
+	org.web3j.protocol.core.methods.response.EthTransaction
+	org.web3j.protocol.core.methods.response.Transaction
+	org.web3j.protocol.core.methods.response.EthTransaction
+	org.web3j.protocol.core.methods.response.Transaction
+	org.web3j.protocol.core.methods.response.EthTransaction
+	org.web3j.protocol.core.methods.response.Transaction
+	org.web3j.protocol.core.methods.response.EthGetTransactionReceipt
+	java.util.Optional
+	org.web3j.protocol.core.methods.response.EthBlock
+	org.web3j.protocol.core.methods.response.EthBlock.Block
+	org.web3j.protocol.core.methods.response.EthGetCompilers
+	org.web3j.protocol.core.methods.response.EthCompileLLL
+	org.web3j.protocol.core.methods.response.EthCompileSolidity
+	org.web3j.protocol.core.methods.response.EthCompileSerpent
+	org.web3j.protocol.core.methods.response.EthFilter
+	org.web3j.protocol.core.methods.response.EthFilter
+	org.web3j.protocol.core.methods.response.EthFilter
+	org.web3j.protocol.core.methods.response.EthUninstallFilter
+	org.web3j.protocol.core.methods.response.EthLog
+	org.web3j.protocol.core.methods.response.EthLog
+	org.web3j.protocol.core.methods.response.EthLog
+	org.web3j.protocol.core.methods.response.EthGetWork
+	org.web3j.protocol.core.methods.response.EthSubmitWork
+	org.web3j.protocol.core.methods.response.EthSubmitHashrate
+	org.web3j.protocol.core.methods.response.DbPutString
+	org.web3j.protocol.core.methods.response.DbGetString
+	org.web3j.protocol.core.methods.response.DbPutHex
+	org.web3j.protocol.core.methods.response.DbGetHex
+	org.web3j.protocol.core.methods.response.ShhPost
+	org.web3j.protocol.core.methods.response.ShhVersion
+	org.web3j.protocol.core.methods.response.ShhNewIdentity
+	org.web3j.protocol.core.methods.response.ShhHasIdentity
+	org.web3j.protocol.core.methods.response.ShhNewGroup
+	org.web3j.protocol.core.methods.response.ShhAddToGroup
+	org.web3j.protocol.core.methods.response.ShhNewFilter
+	org.web3j.protocol.core.methods.response.ShhUninstallFilter
+	org.web3j.protocol.core.methods.response.ShhMessages
+	org.web3j.protocol.core.methods.response.ShhMessages
+	org.web3j.protocol.core.methods.response.Web3ClientVersion
+	org.web3j.protocol.core.methods.response.Web3ClientVersion
+	org.web3j.protocol.core.Response.Error
+/camel-web3j/src/test/java/org/apache/camel/component/web3j/Web3jConsumerCatchUpToLatestAndSubscribeToNewBlocksObservableMockTest.java
+	rx.Observable<org.web3j.protocol.core.methods.response.EthBlock>
+/camel-web3j/src/test/java/org/apache/camel/component/web3j/Web3jConsumerReplyTransactionsObservableMockTest.java
+	rx.Observable<org.web3j.protocol.core.methods.response.Transaction>
+/camel-web3j/src/test/java/org/apache/camel/component/web3j/Web3jConsumerTransactionObservableMockTest.java
+	rx.Observable<org.web3j.protocol.core.methods.response.Transaction>
+/camel-web3j/src/test/java/org/apache/camel/component/web3j/Web3jConsumerEthBlockHashObservableMockTest.java
+	rx.Observable<java.lang.String>
+/camel-web3j/src/test/java/org/apache/camel/component/web3j/Web3jQuorumProducerTest.java
+	org.web3j.quorum.Quorum
+	org.web3j.protocol.core.Request
+	org.web3j.quorum.methods.response.QuorumNodeInfo
+	org.web3j.quorum.methods.response.CanonicalHash
+	org.web3j.quorum.methods.response.Vote
+	org.web3j.quorum.methods.response.MakeBlock
+	org.web3j.protocol.core.methods.response.VoidResponse
+	org.web3j.protocol.core.methods.response.VoidResponse
+	org.web3j.quorum.methods.response.BlockMaker
+	org.web3j.quorum.methods.response.Voter
+	org.web3j.quorum.methods.response.PrivatePayload
+	org.web3j.protocol.core.methods.response.EthSendTransaction
+/camel-web3j/src/test/java/org/apache/camel/component/web3j/Web3jConsumerEthLogObservableMockTest.java
+	rx.Observable<org.web3j.protocol.core.methods.response.Log>
+/camel-web3j/src/test/java/org/apache/camel/component/web3j/Web3jConsumerBlockObservableMockTest.java
+	rx.Observable<org.web3j.protocol.core.methods.response.EthBlock>
+/camel-web3j/src/test/java/org/apache/camel/component/web3j/Web3jConsumerCatchUpToLatestAndSubscribeToNewTransactionsObservableMockTest.java
+	rx.Observable<org.web3j.protocol.core.methods.response.Transaction>
+/camel-web3j/src/test/java/org/apache/camel/component/web3j/Web3jConsumerEthPendingTransactionHashObservableMockTest.java
+	rx.Observable<java.lang.String>
+/camel-websocket/src/test/java/org/apache/camel/component/websocket/MemoryWebsocketStoreTest.java
+	org.apache.camel.component.websocket.WebsocketConsumer
+	org.apache.camel.component.websocket.NodeSynchronization
+	org.apache.camel.component.websocket.DefaultWebsocket
+	org.apache.camel.component.websocket.DefaultWebsocket
+/camel-websocket/src/test/java/org/apache/camel/component/websocket/DefaultWebsocketTest.java
+	org.eclipse.jetty.websocket.api.Session
+	org.apache.camel.component.websocket.WebsocketConsumer
+	org.apache.camel.component.websocket.NodeSynchronization
+/camel-websocket/src/test/java/org/apache/camel/component/websocket/WebsocketComponentServletTest.java
+	org.eclipse.jetty.websocket.api.Session
+	org.apache.camel.component.websocket.WebsocketConsumer
+	org.apache.camel.component.websocket.NodeSynchronization
+	org.eclipse.jetty.websocket.servlet.ServletUpgradeRequest
+	org.eclipse.jetty.websocket.servlet.ServletUpgradeResponse
+/camel-websocket/src/test/java/org/apache/camel/component/websocket/WebsocketSubprotocolNegotiationTest.java
+	org.apache.camel.component.websocket.NodeSynchronization
+	java.util.Map
+	org.eclipse.jetty.websocket.servlet.ServletUpgradeRequest
+	org.eclipse.jetty.websocket.servlet.ServletUpgradeResponse
+	org.apache.camel.component.websocket.WebsocketConsumer
+	org.apache.camel.component.websocket.WebsocketEndpoint
+	org.apache.camel.component.websocket.DefaultWebsocket
+	org.apache.camel.component.websocket.WebSocketFactory
+/camel-websocket/src/test/java/org/apache/camel/component/websocket/WebsocketEndpointTest.java
+	org.apache.camel.component.websocket.WebsocketComponent
+	org.apache.camel.Processor
+/camel-websocket/src/test/java/org/apache/camel/component/websocket/WebsocketProducerTest.java
+	org.apache.camel.component.websocket.WebsocketEndpoint
+	org.apache.camel.component.websocket.WebsocketStore
+	org.eclipse.jetty.websocket.api.Session
+	org.apache.camel.component.websocket.DefaultWebsocket
+	org.apache.camel.component.websocket.DefaultWebsocket
+	org.apache.camel.Exchange
+	org.apache.camel.Message
+	org.eclipse.jetty.websocket.api.RemoteEndpoint
+	java.util.concurrent.Future<java.lang.Void>
+/camel-websocket/src/test/java/org/apache/camel/component/websocket/WebsocketComponentTest.java
+	org.apache.camel.component.websocket.WebsocketConsumer
+	org.apache.camel.component.websocket.NodeSynchronization
+	org.apache.camel.component.websocket.WebsocketComponentServlet
+	java.util.Map<java.lang.String,org.apache.camel.component.websocket.WebsocketComponentServlet>
+	org.eclipse.jetty.servlet.ServletContextHandler
+/camel-websocket/src/test/java/org/apache/camel/component/websocket/WebsocketConsumerTest.java
+	org.apache.camel.component.websocket.WebsocketEndpoint
+	org.apache.camel.spi.ExceptionHandler
+	org.apache.camel.Processor
+	org.apache.camel.ExtendedExchange
+	org.apache.camel.Message
+	org.apache.camel.ExtendedCamelContext
+	org.apache.camel.spi.ExchangeFactory
+/camel-xml-jaxb-dsl-test-jbpm/src/test/java/org/apache/camel/component/jbpm/server/CamelKieServerExtensionTest.java
+	org.kie.internal.runtime.manager.InternalRuntimeManager
+	org.kie.internal.runtime.manager.RuntimeEnvironment
+	org.kie.server.services.api.KieContainerInstance
+	org.kie.api.runtime.KieContainer
+/camel-zipkin/src/test/java/org/apache/camel/zipkin/CamelRequestTest.java
+	org.apache.camel.Message
+/camel-zipkin/src/test/java/org/apache/camel/zipkin/ZipkinTracerTest.java
+	org.apache.camel.Endpoint
+	org.apache.camel.Endpoint
+	org.apache.camel.Endpoint
+	org.apache.camel.Endpoint
+	org.apache.camel.Endpoint
+	org.apache.camel.Endpoint
+	org.apache.camel.Endpoint
+	org.apache.camel.Endpoint
+	org.apache.camel.Endpoint
+	org.apache.camel.Endpoint
+	org.apache.camel.Endpoint
+	org.apache.camel.Endpoint

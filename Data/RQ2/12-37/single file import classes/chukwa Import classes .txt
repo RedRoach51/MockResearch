@@ -1,0 +1,22 @@
+/chukwa-core/src/test/java/org/apache/hadoop/chukwa/datacollection/agent/rest/TestAdaptorController.java
+	junit.framework.Assert
+	junit.framework.TestCase
+	org.apache.commons.logging.Log
+	org.apache.commons.logging.LogFactory
+	org.apache.hadoop.chukwa.datacollection.agent.ChukwaAgent
+	org.springframework.mock.web.MockHttpServletRequest
+	org.springframework.mock.web.MockHttpServletResponse
+	org.json.simple.JSONObject
+	org.json.simple.JSONValue
+	org.mortbay.jetty.servlet.ServletHolder
+	org.mortbay.jetty.servlet.Context
+	org.mortbay.jetty.servlet.ServletHandler
+	org.mortbay.jetty.Server
+	javax.servlet.ServletException
+	javax.servlet.Servlet
+	javax.ws.rs.core.MediaType
+	java.io.File
+	java.io.FilenameFilter
+	java.io.IOException
+	java.io.UnsupportedEncodingException
+	com.sun.jersey.spi.container.servlet.ServletContainer

@@ -1,0 +1,5 @@
+/druid/src/test/java/org/apache/calcite/adapter/druid/DruidQueryFilterTest.java
+	org.apache.calcite.adapter.druid.DruidQuery
+	org.apache.calcite.config.CalciteConnectionConfig
+	org.apache.calcite.adapter.druid.DruidSchema
+	org.apache.calcite.adapter.druid.DruidSchema

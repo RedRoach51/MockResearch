@@ -1,0 +1,60 @@
+/axis2-adb-tests/src/test/java/org/apache/axis2/schema/axis2_5771/IgnoreUnexpectedTest.java
+	org.assertj.core.api.Assertions.assertThat
+	org.mockito.Mockito.any
+	org.mockito.Mockito.mock
+	org.mockito.Mockito.verify
+	org.mockito.Mockito.verifyZeroInteractions
+	java.util.logging.Handler
+	java.util.logging.LogRecord
+	java.util.logging.Logger
+	org.junit.Test
+/axis2-integration/test/org/apache/axis2/transport/http/TransportHeadersTest.java
+	junit.framework.TestCase
+	org.springframework.mock.web.MockHttpServletRequest
+/axis2-jaxws/test/org/apache/axis2/datasource/jaxb/JAXBCustomBuilderDisableStreamingTests.java
+	org.assertj.core.api.Assertions.assertThat
+	org.mockito.Mockito.mock
+	org.apache.axiom.soap.SOAPBody
+	org.apache.axis2.context.MessageContext
+	org.apache.axis2.description.AxisService
+	org.apache.axis2.jaxws.Constants
+	junit.framework.TestCase
+/axis2-kernel/test/org/apache/axis2/deployment/repository/util/DeploymentFileDataTest.java
+	org.assertj.core.api.Assertions.assertThat
+	org.mockito.Mockito.mock
+	java.io.File
+	java.net.URL
+	org.apache.axis2.deployment.Deployer
+	org.junit.Test
+/axis2-transport-jms/src/test/java/org/apache/axis2/transport/jms/JNDIEnvironment.java
+	javax.naming.Context
+	javax.naming.InitialContext
+	org.apache.axis2.transport.testkit.tests.Setup
+	org.apache.axis2.transport.testkit.tests.Transient
+	org.mockejb.jndi.MockContextFactory
+/axis2-transport-jms/src/test/java/org/apache/axis2/transport/jms/JMSUtilsTest.java
+	org.assertj.core.api.Assertions.assertThat
+	org.mockito.Mockito.mock
+	org.mockito.Mockito.when
+	javax.jms.MessageConsumer
+	javax.jms.Queue
+	javax.jms.Session
+	org.junit.Test
+/axis2-transport-jms/src/test/java/org/apache/axis2/transport/jms/JMSTransportDescriptionFactory.java
+	javax.jms.ConnectionFactory
+	javax.naming.Context
+	javax.xml.namespace.QName
+	org.apache.axiom.om.OMAbstractFactory
+	org.apache.axiom.om.OMElement
+	org.apache.axiom.om.OMFactory
+	org.apache.axis2.AxisFault
+	org.apache.axis2.description.Parameter
+	org.apache.axis2.description.ParameterInclude
+	org.apache.axis2.description.TransportInDescription
+	org.apache.axis2.description.TransportOutDescription
+	org.apache.axis2.transport.testkit.axis2.TransportDescriptionFactory
+	org.apache.axis2.transport.testkit.name.Key
+	org.apache.axis2.transport.testkit.tests.Setup
+	org.apache.axis2.transport.testkit.tests.TearDown
+	org.apache.axis2.transport.testkit.tests.Transient
+	org.mockejb.jndi.MockContextFactory

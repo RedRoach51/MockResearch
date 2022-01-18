@@ -1,0 +1,16 @@
+/chemistry-opencmis-server-bindings/src/test/java/org/apache/chemistry/opencmis/server/impl/HttpUtilsTest.java
+	javax.servlet.http.HttpServletRequest
+/chemistry-opencmis-server-bindings/src/test/java/org/apache/chemistry/opencmis/server/impl/ProxyRequestTest.java
+	javax.servlet.http.HttpServletRequest
+/chemistry-opencmis-server-bindings/src/test/java/org/apache/chemistry/opencmis/server/impl/HttpRequestHeadMethodTest.java
+	org.apache.chemistry.opencmis.commons.server.CmisServiceFactory
+	org.apache.chemistry.opencmis.commons.server.CmisService
+	org.apache.chemistry.opencmis.commons.data.CacheHeaderContentStream
+	javax.servlet.http.HttpServletRequest
+	javax.servlet.ServletConfig
+	javax.servlet.ServletContext
+	javax.servlet.http.HttpServletResponse
+/chemistry-opencmis-server-bindings/src/test/java/org/apache/chemistry/opencmis/server/impl/HttpRequestMockHelper.java
+	javax.servlet.http.HttpServletRequest
+	javax.servlet.http.HttpServletRequest
+	javax.servlet.http.HttpServletRequest

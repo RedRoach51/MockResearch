@@ -1,0 +1,369 @@
+/cayenne-ant/src/test/java/org/apache/cayenne/tools/DbGeneratorTaskTest.java
+	javax.sql.DataSource
+	org.slf4j.Logger
+/cayenne-cgen/src/test/java/org/apache/cayenne/gen/ClassGenerationActionTest.java
+	java.io.File
+	java.io.File
+/cayenne-cgen/src/test/java/org/apache/cayenne/gen/PropertyUtilsTest.java
+	org.apache.cayenne.map.ObjEntity
+	org.apache.cayenne.map.ObjRelationship
+	org.apache.cayenne.map.ObjEntity
+	org.apache.cayenne.map.ObjRelationship
+	org.apache.cayenne.map.ObjEntity
+	org.apache.cayenne.map.ObjRelationship
+	org.apache.cayenne.map.ObjEntity
+	org.apache.cayenne.map.ObjRelationship
+	org.apache.cayenne.map.ObjAttribute
+	org.apache.cayenne.map.ObjEntity
+	org.apache.cayenne.map.ObjRelationship
+/cayenne-client/src/test/java/org/apache/cayenne/CayenneContextIT.java
+	org.apache.cayenne.graph.GraphDiff
+	org.apache.cayenne.remote.ClientConnection
+	org.apache.cayenne.remote.ClientConnection
+/cayenne-client/src/test/java/org/apache/cayenne/CayenneContextMergeHandlerIT.java
+	org.apache.cayenne.ObjectContext
+	org.apache.cayenne.ObjectContext
+/cayenne-client/src/test/java/org/apache/cayenne/access/ClientServerChannelIT.java
+	org.apache.cayenne.graph.GraphDiff
+/cayenne-client/src/test/java/org/apache/cayenne/configuration/rop/client/ClientRuntimeBuilderTest.java
+	org.apache.cayenne.di.Module
+/cayenne-client/src/test/java/org/apache/cayenne/configuration/rop/client/ClientLocalRuntimeTest.java
+	org.apache.cayenne.access.DataContext
+/cayenne-client/src/test/java/org/apache/cayenne/remote/ClientChannelTest.java
+	org.apache.cayenne.remote.ClientConnection
+/cayenne-client/src/test/java/org/apache/cayenne/remote/SyncMessageTest.java
+	org.apache.cayenne.ObjectContext
+	org.apache.cayenne.ObjectContext
+	org.apache.cayenne.ObjectContext
+/cayenne-commitlog/src/test/java/org/apache/cayenne/commitlog/CommitLogFilterIT.java
+	org.apache.cayenne.commitlog.CommitLogListener
+/cayenne-commitlog/src/test/java/org/apache/cayenne/commitlog/CommitLogFilter_ListenerInducedChangesIT.java
+	org.apache.cayenne.commitlog.CommitLogListener
+/cayenne-commitlog/src/test/java/org/apache/cayenne/commitlog/CommitLogFilter_All_FlattenedIT.java
+	org.apache.cayenne.commitlog.CommitLogListener
+/cayenne-commitlog/src/test/java/org/apache/cayenne/commitlog/CommitLogFilter_FilteredIT.java
+	org.apache.cayenne.commitlog.CommitLogListener
+/cayenne-dbsync/src/test/java/org/apache/cayenne/dbsync/reverse/configuration/ToolsModuleTest.java
+	org.slf4j.Logger
+	org.slf4j.Logger
+	org.apache.cayenne.configuration.DataNodeDescriptor
+	javax.sql.DataSource
+/cayenne-dbsync/src/test/java/org/apache/cayenne/dbsync/reverse/dbimport/DefaultDbImportActionTest.java
+	org.apache.cayenne.dba.DbAdapter
+	java.sql.Connection
+	org.apache.cayenne.dbsync.reverse.dbload.DbLoaderDelegate
+	org.apache.cayenne.dbsync.naming.ObjectNameGenerator
+	org.apache.cayenne.dbsync.reverse.dbimport.DbImportConfiguration
+	org.apache.cayenne.dbsync.reverse.dbimport.DbImportConfiguration
+	org.apache.cayenne.dbsync.reverse.dbimport.DbImportConfiguration
+	org.apache.cayenne.project.FileProjectSaver
+	org.apache.cayenne.configuration.DataMapLoader
+	org.apache.cayenne.dbsync.reverse.dbload.DbLoader
+	org.apache.cayenne.dbsync.reverse.dbimport.DbImportConfiguration
+	org.apache.cayenne.project.FileProjectSaver
+	org.apache.cayenne.configuration.DataMapLoader
+	org.slf4j.Logger
+	org.apache.cayenne.dba.DbAdapter
+	org.apache.cayenne.configuration.server.DbAdapterFactory
+	org.apache.cayenne.configuration.server.DataSourceFactory
+	javax.sql.DataSource
+	org.apache.cayenne.configuration.xml.DataChannelMetaData
+	org.apache.cayenne.dbsync.merge.factory.MergerTokenFactoryProvider
+	org.apache.cayenne.configuration.DataChannelDescriptorLoader
+	org.slf4j.Logger
+	org.apache.cayenne.dbsync.reverse.dbimport.DbImportConfiguration
+	org.slf4j.Logger
+	org.apache.cayenne.dbsync.reverse.dbimport.DbImportConfiguration
+	org.slf4j.Logger
+	org.apache.cayenne.dbsync.reverse.dbimport.DbImportConfiguration
+	org.slf4j.Logger
+	org.apache.cayenne.dbsync.reverse.dbimport.DbImportConfiguration
+/cayenne-dbsync/src/test/java/org/apache/cayenne/dbsync/reverse/dbimport/DbImportModuleTest.java
+	org.slf4j.Logger
+/cayenne-dbsync/src/test/java/org/apache/cayenne/dbsync/reverse/dbload/ExportedKeyTest.java
+	java.sql.ResultSet
+	java.sql.ResultSet
+/cayenne-joda/src/test/java/org/apache/cayenne/joda/access/types/JodaTestCase.java
+/cayenne-joda/src/test/java/org/apache/cayenne/joda/access/types/DateTimeTypeTest.java
+/cayenne-joda/src/test/java/org/apache/cayenne/joda/access/types/LocalTimeTypeTest.java
+/cayenne-joda/src/test/java/org/apache/cayenne/joda/access/types/LocalDateTimeTypeTest.java
+/cayenne-joda/src/test/java/org/apache/cayenne/joda/access/types/LocalDateTypeTest.java
+/cayenne-lifecycle/src/test/java/org/apache/cayenne/lifecycle/id/EntityIdCoderTest.java
+	org.apache.cayenne.map.ObjEntity
+	org.apache.cayenne.map.ObjEntity
+	org.apache.cayenne.map.ObjEntity
+	org.apache.cayenne.map.ObjEntity
+	org.apache.cayenne.map.ObjEntity
+/cayenne-maven-plugin/src/test/java/org/apache/cayenne/tools/DbImporterMojoConfigurationTest.java
+	org.slf4j.Logger
+	org.slf4j.Logger
+/cayenne-maven-plugin/src/test/java/org/apache/cayenne/tools/DbImporterMojoTest.java
+	org.slf4j.Logger
+	org.slf4j.Logger
+	org.slf4j.Logger
+	org.slf4j.Logger
+	org.slf4j.Logger
+/cayenne-osgi/src/test/java/org/apache/cayenne/configuration/osgi/OsgiClassLoaderManagerTest.java
+	java.lang.ClassLoader
+	java.lang.ClassLoader
+	java.lang.ClassLoader
+/cayenne-project/src/test/java/org/apache/cayenne/project/upgrade/DefaultUpgradeServiceTest.java
+	org.apache.cayenne.project.upgrade.DefaultUpgradeService
+	org.apache.cayenne.project.upgrade.handlers.UpgradeHandler
+/cayenne-project/src/test/java/org/apache/cayenne/project/upgrade/handlers/UpgradeHandler_V7Test.java
+	org.apache.cayenne.configuration.DataChannelDescriptor
+/cayenne-project/src/test/java/org/apache/cayenne/project/upgrade/handlers/UpgradeHandler_V9Test.java
+	org.apache.cayenne.configuration.DataChannelDescriptor
+/cayenne-project/src/test/java/org/apache/cayenne/project/upgrade/handlers/UpgradeHandler_V10Test.java
+	org.apache.cayenne.configuration.DataChannelDescriptor
+/cayenne-project/src/test/java/org/apache/cayenne/project/upgrade/handlers/UpgradeHandler_V8Test.java
+	org.apache.cayenne.configuration.DataChannelDescriptor
+/cayenne-project-compatibility/src/test/java/org/apache/cayenne/project/compatibility/CompatibilityTestModule.java
+	org.apache.cayenne.project.ProjectSaver
+	org.apache.cayenne.configuration.DataChannelDescriptorLoader
+/cayenne-rop-server/src/test/java/org/apache/cayenne/CayenneContextGraphManagerTest.java
+	org.apache.cayenne.CayenneContext
+	org.apache.cayenne.Persistent
+	org.apache.cayenne.Persistent
+/cayenne-rop-server/src/test/java/org/apache/cayenne/configuration/rop/server/ROPServletTest.java
+/cayenne-rop-server/src/test/java/org/apache/cayenne/remote/hessian/service/HessianServiceTest.java
+/cayenne-rop-server/src/test/java/org/apache/cayenne/remote/service/DispatchHelperTest.java
+	org.apache.cayenne.remote.ClientMessage
+/cayenne-server/src/test/java/org/apache/cayenne/ContextStateRecorderTest.java
+	org.apache.cayenne.graph.GraphManager
+/cayenne-server/src/test/java/org/apache/cayenne/PersistentObjectIT.java
+	org.apache.cayenne.ObjectContext
+/cayenne-server/src/test/java/org/apache/cayenne/BaseContextTest.java
+	org.apache.cayenne.DataChannel
+	org.apache.cayenne.cache.QueryCache
+/cayenne-server/src/test/java/org/apache/cayenne/access/ObjectStoreTest.java
+	org.apache.cayenne.access.DataRowStore
+	org.apache.cayenne.Persistent
+	org.apache.cayenne.Persistent
+/cayenne-server/src/test/java/org/apache/cayenne/access/DataContextCommitIT.java
+	org.apache.cayenne.graph.GraphChangeHandler
+	org.apache.cayenne.graph.GraphChangeHandler
+/cayenne-server/src/test/java/org/apache/cayenne/access/DataContextIT.java
+	org.apache.cayenne.query.Query
+	org.apache.cayenne.query.QueryMetadata
+/cayenne-server/src/test/java/org/apache/cayenne/access/dbsync/BaseSchemaUpdateStrategy_ConcurrencyTest.java
+	org.apache.cayenne.access.DataNode
+/cayenne-server/src/test/java/org/apache/cayenne/access/dbsync/ThrowOnPartialOrCreateSchemaStrategyIT.java
+	org.apache.cayenne.access.OperationObserver
+	org.apache.cayenne.access.OperationObserver
+	org.apache.cayenne.access.OperationObserver
+	org.apache.cayenne.access.OperationObserver
+/cayenne-server/src/test/java/org/apache/cayenne/access/flush/ArcValuesCreationHandlerTest.java
+	org.apache.cayenne.access.flush.DbRowOpFactory
+	org.apache.cayenne.access.flush.operation.InsertDbRowOp
+	org.apache.cayenne.access.ObjectDiff
+	org.apache.cayenne.reflect.ClassDescriptor
+	org.apache.cayenne.map.ObjEntity
+	org.apache.cayenne.map.ObjRelationship
+	org.apache.cayenne.map.DbRelationship
+	org.apache.cayenne.access.ObjectStore
+	org.apache.cayenne.Persistent
+	org.apache.cayenne.map.DbRelationship
+	org.apache.cayenne.map.DbJoin
+	org.apache.cayenne.map.DbRelationship
+/cayenne-server/src/test/java/org/apache/cayenne/access/flush/DefaultDbRowOpSorterTest.java
+	org.apache.cayenne.map.EntitySorter
+	org.apache.cayenne.map.EntityResolver
+	org.apache.cayenne.access.DataDomain
+	org.apache.cayenne.Persistent
+/cayenne-server/src/test/java/org/apache/cayenne/access/flush/DefaultDataDomainFlushActionTest.java
+	org.apache.cayenne.access.flush.DefaultDataDomainFlushAction
+	org.apache.cayenne.access.flush.DefaultDataDomainFlushAction
+	org.apache.cayenne.Persistent
+/cayenne-server/src/test/java/org/apache/cayenne/access/flush/operation/ValuesTest.java
+	org.apache.cayenne.access.flush.operation.DbRowOp
+	org.apache.cayenne.Persistent
+/cayenne-server/src/test/java/org/apache/cayenne/access/flush/operation/BaseDbRowOpTest.java
+	org.apache.cayenne.Persistent
+/cayenne-server/src/test/java/org/apache/cayenne/access/flush/operation/DbRowOpMergerTest.java
+	org.apache.cayenne.Persistent
+/cayenne-server/src/test/java/org/apache/cayenne/access/flush/operation/QualifierTest.java
+	org.apache.cayenne.access.flush.operation.DbRowOp
+	org.apache.cayenne.Persistent
+/cayenne-server/src/test/java/org/apache/cayenne/access/jdbc/BatchActionLockingIT.java
+	org.apache.cayenne.access.jdbc.reader.RowReaderFactory
+	org.apache.cayenne.access.jdbc.reader.RowReaderFactory
+/cayenne-server/src/test/java/org/apache/cayenne/access/jdbc/JDBCResultIteratorTest.java
+	org.apache.cayenne.dba.DbAdapter
+	org.apache.cayenne.access.jdbc.reader.RowReader
+/cayenne-server/src/test/java/org/apache/cayenne/access/jdbc/BatchActionIT.java
+	org.apache.cayenne.access.jdbc.reader.RowReaderFactory
+	org.apache.cayenne.access.jdbc.reader.RowReaderFactory
+/cayenne-server/src/test/java/org/apache/cayenne/access/jdbc/BatchActionGeneratedIT.java
+	org.apache.cayenne.access.jdbc.reader.RowReaderFactory
+	org.apache.cayenne.access.jdbc.reader.RowReaderFactory
+/cayenne-server/src/test/java/org/apache/cayenne/access/translator/batch/DeleteBatchTranslatorIT.java
+	org.apache.cayenne.query.DeleteBatchQuery
+/cayenne-server/src/test/java/org/apache/cayenne/access/translator/batch/InsertBatchTranslatorIT.java
+	org.apache.cayenne.query.InsertBatchQuery
+/cayenne-server/src/test/java/org/apache/cayenne/access/translator/batch/UpdateBatchTranslatorIT.java
+	org.apache.cayenne.query.UpdateBatchQuery
+/cayenne-server/src/test/java/org/apache/cayenne/access/translator/batch/legacy/UpdateBatchTranslatorIT.java
+	org.apache.cayenne.query.UpdateBatchQuery
+/cayenne-server/src/test/java/org/apache/cayenne/access/translator/batch/legacy/DeleteBatchTranslatorIT.java
+	org.apache.cayenne.query.DeleteBatchQuery
+/cayenne-server/src/test/java/org/apache/cayenne/access/translator/batch/legacy/InsertBatchTranslatorIT.java
+	org.apache.cayenne.query.InsertBatchQuery
+/cayenne-server/src/test/java/org/apache/cayenne/access/translator/batch/legacy/DefaultBatchTranslatorIT.java
+	org.apache.cayenne.query.BatchQuery
+	org.apache.cayenne.query.BatchQuery
+	org.apache.cayenne.query.BatchQuery
+/cayenne-server/src/test/java/org/apache/cayenne/access/translator/select/DescriptorColumnExtractorTest.java
+	org.apache.cayenne.access.types.ValueObjectTypeRegistry
+/cayenne-server/src/test/java/org/apache/cayenne/access/translator/select/ObjPathProcessorIT4.java
+	org.apache.cayenne.dba.DbAdapter
+/cayenne-server/src/test/java/org/apache/cayenne/access/translator/select/ObjPathProcessorIT2.java
+	org.apache.cayenne.dba.DbAdapter
+/cayenne-server/src/test/java/org/apache/cayenne/access/translator/select/MockTranslatorContext.java
+	org.apache.cayenne.dba.DbAdapter
+	org.apache.cayenne.dba.DbAdapter
+/cayenne-server/src/test/java/org/apache/cayenne/access/translator/select/ObjPathProcessorIT3.java
+	org.apache.cayenne.dba.DbAdapter
+/cayenne-server/src/test/java/org/apache/cayenne/access/translator/select/ObjPathProcessorIT.java
+	org.apache.cayenne.dba.DbAdapter
+/cayenne-server/src/test/java/org/apache/cayenne/access/types/DefaultValueObjectTypeRegistryTest.java
+	org.apache.cayenne.access.types.ValueObjectType
+	org.apache.cayenne.access.types.ValueObjectType
+/cayenne-server/src/test/java/org/apache/cayenne/access/types/EnumTypeTest.java
+/cayenne-server/src/test/java/org/apache/cayenne/access/types/ValueObjectTypeFactoryTest.java
+	org.apache.cayenne.access.types.ExtendedType
+	org.apache.cayenne.access.types.ExtendedType
+	org.apache.cayenne.access.types.ValueObjectType
+	org.apache.cayenne.access.types.ValueObjectType
+/cayenne-server/src/test/java/org/apache/cayenne/access/types/ValueObjectTypeFactoryOrderTest.java
+	org.apache.cayenne.access.types.ExtendedType
+	org.apache.cayenne.access.types.ValueObjectType
+/cayenne-server/src/test/java/org/apache/cayenne/configuration/CayenneRuntimeTest.java
+	org.apache.cayenne.di.Injector
+/cayenne-server/src/test/java/org/apache/cayenne/configuration/server/DefaultDbAdapterFactoryTest.java
+	org.apache.cayenne.dba.JdbcAdapter
+	org.apache.cayenne.access.translator.batch.BatchTranslatorFactory
+	org.apache.cayenne.access.translator.batch.BatchTranslatorFactory
+	org.apache.cayenne.access.translator.batch.BatchTranslatorFactory
+	org.apache.cayenne.dba.JdbcAdapter
+	org.apache.cayenne.access.translator.batch.BatchTranslatorFactory
+/cayenne-server/src/test/java/org/apache/cayenne/configuration/server/ServerRuntimeTest.java
+	org.apache.cayenne.tx.BaseTransaction
+	org.apache.cayenne.tx.TransactionFactory
+/cayenne-server/src/test/java/org/apache/cayenne/configuration/server/SyntheticNodeDataDomainProviderTest.java
+	org.apache.cayenne.access.DataDomain
+/cayenne-server/src/test/java/org/apache/cayenne/configuration/server/DataDomainProviderTest.java
+	org.apache.cayenne.cache.QueryCache
+	org.apache.cayenne.access.jdbc.reader.RowReaderFactory
+	org.apache.cayenne.access.jdbc.SQLTemplateProcessor
+	org.apache.cayenne.Persistent
+	org.apache.cayenne.ObjectId
+/cayenne-server/src/test/java/org/apache/cayenne/configuration/server/ServerRuntimeBuilderTest.java
+	org.apache.cayenne.di.Module
+/cayenne-server/src/test/java/org/apache/cayenne/configuration/server/ServerRuntimeIT.java
+	org.apache.cayenne.configuration.server.ServerRuntimeIT.DefaultListenerImpl
+	org.apache.cayenne.tx.TransactionListener
+/cayenne-server/src/test/java/org/apache/cayenne/configuration/server/DefaultDataSourceFactoryLoaderTest.java
+	org.apache.cayenne.configuration.RuntimeProperties
+	org.apache.cayenne.configuration.RuntimeProperties
+	org.apache.cayenne.configuration.RuntimeProperties
+/cayenne-server/src/test/java/org/apache/cayenne/datasource/PoolDataSourceManagerTest.java
+	org.apache.cayenne.datasource.UnmanagedPoolingDataSource
+/cayenne-server/src/test/java/org/apache/cayenne/datasource/ManagedPoolingDataSourceTest.java
+	java.sql.Connection
+	org.apache.cayenne.datasource.UnmanagedPoolingDataSource
+/cayenne-server/src/test/java/org/apache/cayenne/datasource/ManagedPoolingDataSourceIT.java
+	javax.sql.DataSource
+	java.sql.Connection
+	java.sql.ResultSet
+	java.sql.Statement
+/cayenne-server/src/test/java/org/apache/cayenne/datasource/PoolingDataSourceTest.java
+	javax.sql.DataSource
+	java.sql.Connection
+	java.sql.Connection
+	org.apache.cayenne.datasource.PoolAwareConnection
+	java.sql.Connection
+	org.apache.cayenne.datasource.PoolAwareConnection
+/cayenne-server/src/test/java/org/apache/cayenne/datasource/PoolAwareConnectionTest.java
+	java.sql.Connection
+	org.apache.cayenne.datasource.UnmanagedPoolingDataSource
+	java.sql.SQLException
+	java.sql.PreparedStatement
+	java.sql.PreparedStatement
+	java.sql.PreparedStatement
+/cayenne-server/src/test/java/org/apache/cayenne/dba/PerAdapterProviderTest.java
+	org.apache.cayenne.configuration.RuntimeProperties
+	org.apache.cayenne.access.types.ValueObjectTypeRegistry
+/cayenne-server/src/test/java/org/apache/cayenne/exp/parser/ASTListTest.java
+	org.apache.cayenne.Persistent
+	org.apache.cayenne.Persistent
+	org.apache.cayenne.Persistent
+/cayenne-server/src/test/java/org/apache/cayenne/exp/parser/EvaluatorTest.java
+	org.apache.cayenne.Persistent
+	org.apache.cayenne.Persistent
+	org.apache.cayenne.Persistent
+	org.apache.cayenne.Persistent
+	org.apache.cayenne.Persistent
+	org.apache.cayenne.Persistent
+	org.apache.cayenne.Persistent
+	org.apache.cayenne.Persistent
+	org.apache.cayenne.Persistent
+/cayenne-server/src/test/java/org/apache/cayenne/map/EntityResolverClassDescriptorIT.java
+	org.apache.cayenne.reflect.ClassDescriptor
+	org.apache.cayenne.reflect.ClassDescriptorFactory
+/cayenne-server/src/test/java/org/apache/cayenne/map/DataMapTest.java
+	java.net.URL
+	java.net.URL
+/cayenne-server/src/test/java/org/apache/cayenne/query/SelectQueryMetadataCacheKeyTest.java
+	org.apache.cayenne.access.types.ValueObjectTypeRegistry
+	org.apache.cayenne.access.types.ValueObjectType
+	org.apache.cayenne.Persistent
+	org.apache.cayenne.ObjectId
+	org.apache.cayenne.Persistent
+	org.apache.cayenne.ObjectId
+/cayenne-server/src/test/java/org/apache/cayenne/query/SQLSelectTest.java
+	org.apache.cayenne.map.EntityResolver
+	org.apache.cayenne.map.EntityResolver
+	org.apache.cayenne.map.EntityResolver
+	org.apache.cayenne.map.EntityResolver
+/cayenne-server/src/test/java/org/apache/cayenne/reflect/BasePropertyTest.java
+	org.apache.cayenne.reflect.ClassDescriptor
+	org.apache.cayenne.reflect.Accessor
+/cayenne-server/src/test/java/org/apache/cayenne/reflect/LifecycleCallbackRegistryTest.java
+	org.apache.cayenne.map.EntityResolver
+	org.apache.cayenne.LifecycleListener
+	org.apache.cayenne.LifecycleListener
+	org.apache.cayenne.LifecycleListener
+	org.apache.cayenne.LifecycleListener
+/cayenne-server/src/test/java/org/apache/cayenne/reflect/PersistentDescriptorTest.java
+	org.apache.cayenne.map.ObjAttribute
+/cayenne-server/src/test/java/org/apache/cayenne/reflect/generic/DataObjectDescriptorFactory_InheritanceMapsIT.java
+	org.apache.cayenne.access.types.ValueObjectTypeRegistry
+/cayenne-server/src/test/java/org/apache/cayenne/reflect/generic/DataObjectDescriptorFactoryIT.java
+	org.apache.cayenne.access.types.ValueObjectTypeRegistry
+	org.apache.cayenne.access.types.ValueObjectTypeRegistry
+/cayenne-server/src/test/java/org/apache/cayenne/tx/TransactionCustomConnectionIT.java
+	
+	org.apache.cayenne.tx.TransactionDescriptor
+/cayenne-server/src/test/java/org/apache/cayenne/tx/DefaultTransactionManagerIT.java
+	org.apache.cayenne.tx.BaseTransaction
+	org.apache.cayenne.tx.BaseTransaction
+	org.apache.cayenne.tx.BaseTransaction
+	org.apache.cayenne.tx.BaseTransaction
+	org.apache.cayenne.tx.BaseTransaction
+	org.apache.cayenne.tx.BaseTransaction
+	org.apache.cayenne.tx.BaseTransaction
+	org.apache.cayenne.tx.BaseTransaction
+	org.apache.cayenne.log.JdbcEventLogger
+	org.apache.cayenne.tx.TransactionFactory
+/cayenne-server/src/test/java/org/apache/cayenne/util/PersistentObjectHolderTest.java
+	org.apache.cayenne.ObjectContext
+	org.apache.cayenne.ObjectContext
+/cayenne-web/src/test/java/org/apache/cayenne/configuration/web/WebUtilTest.java
+	org.apache.cayenne.configuration.CayenneRuntime
+	org.apache.cayenne.configuration.CayenneRuntime
+/cayenne-web/src/test/java/org/apache/cayenne/configuration/web/ServletContextHandlerTest.java
+	org.apache.cayenne.ObjectContext
+	org.apache.cayenne.ObjectContext
+/cayenne-web/src/test/java/org/apache/cayenne/configuration/web/WebConfigurationTest.java
+/cayenne-web/src/test/java/org/apache/cayenne/configuration/web/CayenneFilterTest.java

@@ -4,20 +4,20 @@ get,java.util.Map<java.lang.String|com.cloud.agent.mockvm.MockVm>,29
 getHostFreeMemory,com.cloud.agent.mockvm.MockVmMgr,2
 allocVncPort,com.cloud.agent.mockvm.MockVmMgr,2
 put,java.util.Map<java.lang.String|com.cloud.agent.mockvm.MockVm>,2
-when,org.mockito.stubbing.Stubber,2990
+when,org.mockito.stubbing.Stubber,3012
 doReturn,org.mockito.Mockito,424
 mockStatic,org.powermock.api.mockito.PowerMockito,51
 anyString,org.mockito.ArgumentMatchers,147
-mock,org.mockito.Mockito,2334
+mock,org.mockito.Mockito,2346
 thenReturn,org.mockito.stubbing.OngoingStubbing<java.lang.Long>,665
-initMocks,org.mockito.MockitoAnnotations,43
-spy,org.mockito.Mockito,110
+initMocks,org.mockito.MockitoAnnotations,44
+spy,org.mockito.Mockito,111
 anyLong,org.mockito.ArgumentMatchers,510
 withAnyArguments,org.powermock.api.mockito.expectation.WithAnyArguments<com.cloud.utils.script.Script>,13
 whenNew,org.powermock.api.mockito.PowerMockito,14
 verify,org.mockito.Mockito,257
 times,org.mockito.Mockito,212
-any,org.mockito.ArgumentMatchers,210
+any,org.mockito.ArgumentMatchers,211
 isNull,org.mockito.ArgumentMatchers,10
 setInternalState,org.powermock.reflect.Whitebox,7
 eq,org.mockito.ArgumentMatchers,39
@@ -26,6 +26,7 @@ nullable,org.mockito.ArgumentMatchers,24
 verifyStatic,org.powermock.api.mockito.PowerMockito,6
 anyListOf,org.mockito.ArgumentMatchers,10
 anyMap,org.mockito.ArgumentMatchers,5
+doNothing,org.mockito.Mockito,9
 lenient,org.mockito.Mockito,98
 anyMapOf,org.mockito.ArgumentMatchers,1
 stubFor,com.github.tomakehurst.wiremock.WireMockServer,35
@@ -38,7 +39,6 @@ withStatus,com.github.tomakehurst.wiremock.client.ResponseDefinitionBuilder,21
 aResponse,com.github.tomakehurst.wiremock.client.WireMock,29
 withBasicAuth,com.github.tomakehurst.wiremock.matching.RequestPatternBuilder,1
 postRequestedFor,com.github.tomakehurst.wiremock.client.WireMock,1
-doNothing,org.mockito.Mockito,8
 anyInt,org.mockito.ArgumentMatchers,19
 findByUrl,com.cloud.simulator.dao.MockSecStorageDao,12
 getMountPoint,com.cloud.simulator.MockSecStorageVO,24
@@ -141,6 +141,6 @@ waitUntilShutdowned,streamer.debug.MockServer,2
 getException,streamer.debug.MockServer,2
 isShutdowned,streamer.debug.MockServer,2
 
-MockedObjects: ,2334
+MockedObjects: ,2346
 
-# of Mocked objects each file:,1|2|2|4|3|3|2|7|1|3|2|1|4|7|9|5|5|3|6|4|3|12|2|21|1|4|5|4|1|1|1|3|6|29|4|36|11|9|2|4|17|1|3|4|3|30|1|12|4|2|2|396|2|3|5|2|1|6|1|1|1|31|24|4|117|3|70|3|3|2|10|24|24|13|66|1|67|1|15|7|6|7|12|3|14|21|59|85|2|5|12|28|3|1|17|3|16|102|7|40|54|2|4|1|10|2|2|4|1|1|1|2|9|15|5|5|6|8|15|5|19|13|15|9|1|8|3|20|4|5|2|2|74|3|26|11|54|41|29|1|131|2|3|10|2|19|1|3|6|4|1|2|
+# of Mocked objects each file:,1|2|2|6|4|3|3|2|7|1|3|2|1|4|7|9|5|5|3|6|4|3|12|2|21|1|4|5|4|1|1|1|3|6|29|4|36|11|9|2|4|17|1|3|4|3|30|1|12|4|2|2|401|2|3|5|2|1|6|1|1|1|31|24|4|117|3|70|3|3|2|10|24|24|13|66|1|67|1|15|7|6|7|12|3|14|21|59|85|2|5|12|28|3|1|17|3|16|102|7|40|54|2|4|1|10|2|2|4|1|1|1|2|9|15|5|5|6|8|15|5|19|13|15|9|1|8|3|20|4|5|2|2|74|3|26|11|54|42|29|1|131|2|3|10|2|19|1|3|6|4|1|2|

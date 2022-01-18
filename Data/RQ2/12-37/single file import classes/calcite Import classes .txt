@@ -1,0 +1,23 @@
+/druid/src/test/java/org/apache/calcite/adapter/druid/DruidQueryFilterTest.java
+	org.apache.calcite.config.CalciteConnectionConfig
+	org.apache.calcite.jdbc.JavaTypeFactoryImpl
+	org.apache.calcite.rel.type.RelDataType
+	org.apache.calcite.rel.type.RelDataTypeSystem
+	org.apache.calcite.rex.RexBuilder
+	org.apache.calcite.rex.RexNode
+	org.apache.calcite.sql.fun.SqlInternalOperators
+	org.apache.calcite.sql.type.SqlTypeName
+	com.fasterxml.jackson.core.JsonFactory
+	com.fasterxml.jackson.core.JsonGenerator
+	com.google.common.collect.ImmutableList
+	com.google.common.collect.ImmutableSet
+	org.junit.jupiter.api.BeforeEach
+	org.junit.jupiter.api.Test
+	org.mockito.Mockito
+	java.io.IOException
+	java.io.StringWriter
+	java.math.BigDecimal
+	java.util.List
+	org.hamcrest.CoreMatchers.notNullValue
+	org.hamcrest.MatcherAssert.assertThat
+	org.hamcrest.core.Is.is

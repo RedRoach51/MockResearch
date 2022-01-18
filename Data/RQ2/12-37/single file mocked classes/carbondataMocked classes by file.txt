@@ -1,0 +1,5 @@
+/carbondata-common/src/test/java/org/apache/carbondata/common/logging/impl/AuditExtendedRollingFileAppenderTest_UT.java
+/carbondata-common/src/test/java/org/apache/carbondata/common/logging/impl/ExtendedRollingFileAppenderTest_UT.java
+/carbondata-core/src/test/java/org/apache/carbondata/core/indexstore/blockletindex/TestBlockletIndexFactory.java
+/carbondata-core/src/test/java/org/apache/carbondata/core/util/RangeFilterProcessorTest.java
+/carbondata-processing/src/test/java/org/apache/carbondata/core/keygenerator/directdictionary/timestamp/TimeStampDirectDictionaryGeneratorTest.java

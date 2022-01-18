@@ -1,0 +1,10 @@
+/apache-any23-core/src/test/java/org/apache/any23/extractor/ExtractionResultImplTest.java
+	org.apache.any23.writer.TripleHandler
+/apache-any23-core/src/test/java/org/apache/any23/extractor/rdfa/ExtractionExceptionTest.java
+	org.apache.any23.extractor.Extractor
+	org.apache.any23.extractor.ExtractorDescription
+	org.apache.any23.writer.TripleHandler
+/apache-any23-core/src/test/java/org/apache/any23/extractor/xpath/TemplateXPathExtractorRuleImplTest.java
+	org.apache.any23.extractor.ExtractionResult
+/apache-any23-core/src/test/java/org/apache/any23/filter/IgnoreAccidentalRDFaTest.java
+	org.apache.any23.writer.TripleHandler

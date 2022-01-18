@@ -20,6 +20,14 @@ org.jclouds.compute.extensions.SecurityGroupExtension
 org.jclouds.compute.ComputeService
 org.jclouds.compute.domain.Template
 org.jclouds.compute.options.TemplateOptions
+org.jclouds.compute.ComputeServiceContext
+org.jclouds.azurecompute.arm.AzureComputeApi
+org.jclouds.azurecompute.arm.features.ResourceGroupApi
+org.jclouds.azurecompute.arm.features.VirtualNetworkApi
+org.jclouds.azurecompute.arm.features.SubnetApi
+org.jclouds.azurecompute.arm.domain.VirtualNetwork
+org.jclouds.azurecompute.arm.domain.ResourceGroup
+org.jclouds.azurecompute.arm.domain.Subnet
 javax.servlet.http.HttpSession
 javax.servlet.http.HttpServletRequest
 org.slf4j.Logger
