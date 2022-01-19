@@ -31,7 +31,7 @@ public class ImportVisitor extends ASTVisitor{
     		if(x instanceof Annotation) {
     			Annotation annotation = (Annotation)x;
     			
-    			if(annotation.resolveTypeBinding().getQualifiedName().toLowerCase().contains("mock")) {
+    			if(node.getType().resolveBinding()!= null && annotation.resolveTypeBinding().getQualifiedName().toLowerCase().contains("mock")) {
     				System.out.println(annotation.resolveTypeBinding().getQualifiedName());
     				System.out.println(node.getType().resolveBinding().getQualifiedName());
         			System.out.println(node);

@@ -365,7 +365,7 @@ public class GetInfo extends AbstractHandler{
     	
 //    	String target = project.getName();
     	
-    	String target = "apex";
+    	String target = "credur-whisker";
     	
     	
 //    	PrintWriter writer = new PrintWriter("D:\\Stevens\\2021 summer general\\Mocking framework API calls data"
