@@ -1,0 +1,41 @@
+/commons-text/src/test/java/org/apache/commons/text/TextStringBuilderAppendInsertTest.java
+	org.assertj.core.api.Assertions.assertThat
+	org.assertj.core.api.Assertions.fail
+	org.junit.jupiter.api.Assertions.assertThrows
+	org.mockito.ArgumentMatchers.any
+	org.mockito.ArgumentMatchers.anyInt
+	org.mockito.ArgumentMatchers.anyString
+	org.mockito.Mockito.spy
+	org.mockito.Mockito.times
+	org.mockito.Mockito.verify
+	java.text.DecimalFormatSymbols
+	java.util.Arrays
+	java.util.Collection
+	java.util.Collections
+	java.util.Iterator
+	org.apache.commons.lang3.ArrayUtils
+	org.junit.jupiter.api.Test
+/commons-text/src/test/java/org/apache/commons/text/lookup/UrlDecoderStringLookupTest.java
+	org.junit.jupiter.api.Assertions.assertThrows
+	org.mockito.Mockito.spy
+	org.mockito.Mockito.when
+	java.io.UnsupportedEncodingException
+	java.nio.charset.StandardCharsets
+	org.junit.jupiter.api.Assertions
+	org.junit.jupiter.api.Test
+/commons-text/src/test/java/org/apache/commons/text/lookup/ResourceBundleStringLookupTest.java
+	org.junit.jupiter.api.Assertions.assertNull
+	org.junit.jupiter.api.Assertions.assertThrows
+	org.mockito.Mockito.spy
+	org.mockito.Mockito.when
+	java.util.ResourceBundle
+	org.junit.jupiter.api.Assertions
+	org.junit.jupiter.api.Test
+/commons-text/src/test/java/org/apache/commons/text/lookup/UrlEncoderStringLookupTest.java
+	org.junit.jupiter.api.Assertions.assertThrows
+	org.mockito.Mockito.spy
+	org.mockito.Mockito.when
+	java.io.UnsupportedEncodingException
+	java.nio.charset.StandardCharsets
+	org.junit.jupiter.api.Assertions
+	org.junit.jupiter.api.Test

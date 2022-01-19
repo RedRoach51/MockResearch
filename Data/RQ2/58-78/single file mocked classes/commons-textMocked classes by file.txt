@@ -1,0 +1,4 @@
+/commons-text/src/test/java/org/apache/commons/text/TextStringBuilderAppendInsertTest.java
+/commons-text/src/test/java/org/apache/commons/text/lookup/UrlDecoderStringLookupTest.java
+/commons-text/src/test/java/org/apache/commons/text/lookup/ResourceBundleStringLookupTest.java
+/commons-text/src/test/java/org/apache/commons/text/lookup/UrlEncoderStringLookupTest.java

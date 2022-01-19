@@ -1,0 +1,12 @@
+/commons-jxpath/src/test/java/org/apache/commons/jxpath/servlet/JXPathServletContextTest.java
+	java.util.Iterator
+	javax.servlet.ServletContext
+	org.apache.commons.jxpath.JXPathContext
+	org.apache.commons.jxpath.Pointer
+	org.apache.commons.jxpath.Variables
+	com.mockrunner.mock.web.MockHttpServletRequest
+	com.mockrunner.mock.web.MockHttpSession
+	com.mockrunner.mock.web.MockPageContext
+	com.mockrunner.mock.web.MockServletConfig
+	com.mockrunner.mock.web.MockServletContext
+	junit.framework.TestCase

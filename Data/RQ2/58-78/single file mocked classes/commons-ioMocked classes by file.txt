@@ -1,0 +1,55 @@
+/commons-io/src/test/java/org/apache/commons/io/input/TeeReaderTest.java
+	java.io.StringReader
+	java.io.StringWriter
+/commons-io/src/test/java/org/apache/commons/io/input/TeeInputStreamTest.java
+	java.io.ByteArrayInputStream
+	java.io.ByteArrayOutputStream
+/commons-io/src/test/java/org/apache/commons/io/input/CloseShieldReaderTest.java
+/commons-io/src/test/java/org/apache/commons/io/output/TeeWriterTest.java
+	java.io.StringWriter
+	java.io.StringWriter
+	java.io.StringWriter
+	java.io.StringWriter
+	java.io.StringWriter
+	java.io.StringWriter
+	java.io.StringWriter
+	java.io.StringWriter
+	java.io.StringWriter
+	java.io.StringWriter
+	java.io.StringWriter
+	java.io.StringWriter
+	java.io.StringWriter
+	java.io.StringWriter
+	java.io.StringWriter
+	java.io.StringWriter
+	java.io.StringWriter
+	java.io.StringWriter
+	java.io.StringWriter
+	java.io.StringWriter
+	java.io.StringWriter
+/commons-io/src/test/java/org/apache/commons/io/output/TeeOutputStreamTest.java
+	java.io.ByteArrayOutputStream
+	java.io.ByteArrayOutputStream
+/commons-io/src/test/java/org/apache/commons/io/output/CloseShieldWriterTest.java
+/commons-io/src/test/java/org/apache/commons/io/output/ProxyCollectionWriterTest.java
+	java.io.StringWriter
+	java.io.StringWriter
+	java.io.StringWriter
+	java.io.StringWriter
+	java.io.StringWriter
+	java.io.StringWriter
+	java.io.StringWriter
+	java.io.StringWriter
+	java.io.StringWriter
+	java.io.StringWriter
+	java.io.StringWriter
+	java.io.StringWriter
+	java.io.StringWriter
+	java.io.StringWriter
+	java.io.StringWriter
+	java.io.StringWriter
+	java.io.StringWriter
+	java.io.StringWriter
+	java.io.StringWriter
+	java.io.StringWriter
+	java.io.StringWriter
