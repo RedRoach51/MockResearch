@@ -1,0 +1,66 @@
+/commons-dbcp2/src/test/java/org/apache/commons/dbcp2/TestDelegatingStatement.java
+	org.junit.jupiter.api.Assertions.assertEquals
+	org.junit.jupiter.api.Assertions.assertFalse
+	org.junit.jupiter.api.Assertions.assertNull
+	org.junit.jupiter.api.Assertions.assertTrue
+	org.junit.jupiter.api.Assertions.fail
+	org.mockito.Mockito.mock
+	org.mockito.Mockito.times
+	org.mockito.Mockito.verify
+	java.lang.reflect.Proxy
+	java.sql.Connection
+	java.sql.SQLException
+	java.sql.Statement
+	org.junit.jupiter.api.Assertions
+	org.junit.jupiter.api.BeforeEach
+	org.junit.jupiter.api.Test
+/commons-dbcp2/src/test/java/org/apache/commons/dbcp2/TestDelegatingPreparedStatement.java
+	org.junit.jupiter.api.Assertions.assertEquals
+	org.junit.jupiter.api.Assertions.assertNotNull
+	org.junit.jupiter.api.Assertions.assertNull
+	org.mockito.Mockito.mock
+	org.mockito.Mockito.times
+	org.mockito.Mockito.verify
+	java.sql.PreparedStatement
+	java.sql.SQLException
+	org.junit.jupiter.api.BeforeEach
+	org.junit.jupiter.api.Test
+/commons-dbcp2/src/test/java/org/apache/commons/dbcp2/TestDelegatingResultSet.java
+	org.junit.jupiter.api.Assertions.assertEquals
+	org.junit.jupiter.api.Assertions.assertFalse
+	org.junit.jupiter.api.Assertions.assertNull
+	org.junit.jupiter.api.Assertions.assertTrue
+	org.mockito.Mockito.mock
+	org.mockito.Mockito.times
+	org.mockito.Mockito.verify
+	java.sql.Connection
+	java.sql.ResultSet
+	java.sql.SQLException
+	org.junit.jupiter.api.BeforeEach
+	org.junit.jupiter.api.Disabled
+	org.junit.jupiter.api.Test
+/commons-dbcp2/src/test/java/org/apache/commons/dbcp2/TestDelegatingDatabaseMetaData.java
+	org.junit.jupiter.api.Assertions.assertEquals
+	org.junit.jupiter.api.Assertions.assertFalse
+	org.junit.jupiter.api.Assertions.assertNull
+	org.junit.jupiter.api.Assertions.assertTrue
+	org.mockito.Mockito.mock
+	org.mockito.Mockito.times
+	org.mockito.Mockito.verify
+	java.sql.DatabaseMetaData
+	java.sql.ResultSet
+	java.sql.SQLException
+	org.junit.jupiter.api.BeforeEach
+	org.junit.jupiter.api.Test
+/commons-dbcp2/src/test/java/org/apache/commons/dbcp2/TestDelegatingCallableStatement.java
+	org.junit.jupiter.api.Assertions.assertEquals
+	org.junit.jupiter.api.Assertions.assertNotNull
+	org.junit.jupiter.api.Assertions.assertNull
+	org.mockito.Mockito.mock
+	org.mockito.Mockito.times
+	org.mockito.Mockito.verify
+	java.sql.CallableStatement
+	java.sql.Connection
+	java.sql.SQLException
+	org.junit.jupiter.api.BeforeEach
+	org.junit.jupiter.api.Test

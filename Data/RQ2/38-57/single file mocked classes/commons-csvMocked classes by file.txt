@@ -1,0 +1,6 @@
+/commons-csv/src/test/java/org/apache/commons/csv/CSVPrinterTest.java
+	java.io.Writer
+	java.io.Writer
+	java.io.Writer
+	java.io.Writer
+	java.io.Writer

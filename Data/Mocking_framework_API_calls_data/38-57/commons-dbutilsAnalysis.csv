@@ -1,11 +1,11 @@
 method, origin, count
-initMocks,org.mockito.MockitoAnnotations,10
-thenReturn,org.mockito.stubbing.OngoingStubbing<java.sql.Connection>,94
-when,org.mockito.Mockito,354
-verify,org.mockito.Mockito,96
-times,org.mockito.Mockito,12
-mock,org.mockito.Mockito,68
+initMocks,org.mockito.MockitoAnnotations,5
+thenReturn,org.mockito.stubbing.OngoingStubbing<java.sql.Connection>,47
+when,org.mockito.Mockito,177
+verify,org.mockito.Mockito,48
+times,org.mockito.Mockito,6
+mock,org.mockito.Mockito,34
 
-MockedObjects: ,68
+MockedObjects: ,34
 
-# of Mocked objects each file:,31|1|1|1|31|1|1|1|
+# of Mocked objects each file:,31|1|1|1|

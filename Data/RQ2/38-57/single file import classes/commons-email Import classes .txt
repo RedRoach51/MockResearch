@@ -1,0 +1,25 @@
+/commons-email/src/test/java/org/apache/commons/mail/AbstractEmailTest.java
+	org.easymock.EasyMock.expect
+	org.hamcrest.CoreMatchers.containsString
+	org.junit.Assert
+	org.powermock.api.easymock.PowerMock.createMock
+	org.powermock.api.easymock.PowerMock.replay
+	java.io.BufferedOutputStream
+	java.io.ByteArrayOutputStream
+	java.io.File
+	java.io.IOException
+	java.net.URL
+	java.util.Date
+	java.util.Enumeration
+	java.util.List
+	javax.activation.DataHandler
+	javax.mail.Header
+	javax.mail.MessagingException
+	javax.mail.Multipart
+	javax.mail.internet.InternetAddress
+	javax.mail.internet.MimeMessage
+	org.apache.commons.mail.settings.EmailConfiguration
+	org.junit.After
+	org.junit.Before
+	org.subethamail.wiser.Wiser
+	org.subethamail.wiser.WiserMessage

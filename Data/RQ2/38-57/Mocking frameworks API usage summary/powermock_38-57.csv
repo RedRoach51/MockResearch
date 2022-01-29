@@ -1,3 +1,0 @@
-method, origin, count
-createMock,org.powermock.api.easymock.PowerMock,1
-replay,org.powermock.api.easymock.PowerMock,1

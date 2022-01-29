@@ -1,15 +1,5 @@
-	Method name: mock
-	Class origin: org.mockito.Mockito
-	Count: 5
- 
-	Method name: verify
-	Class origin: org.mockito.Mockito
-	Count: 9
- 
-	Method name: never
-	Class origin: org.mockito.Mockito
-	Count: 3
- 
+/commons-csv/src/test/java/org/apache/commons/csv/CSVPrinterTest.java
+Methods Invoked: 
 	Method name: mock
 	Class origin: org.mockito.Mockito
 	Count: 5

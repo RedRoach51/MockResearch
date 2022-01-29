@@ -1,0 +1,2 @@
+/commons-compress/src/test/java/org/apache/commons/compress/compressors/deflate64/Deflate64CompressorInputStreamTest.java
+	org.apache.commons.compress.compressors.deflate64.HuffmanDecoder

@@ -1,0 +1,10 @@
+/commons-dbcp2/src/test/java/org/apache/commons/dbcp2/TestDelegatingStatement.java
+	java.sql.Statement
+/commons-dbcp2/src/test/java/org/apache/commons/dbcp2/TestDelegatingPreparedStatement.java
+	java.sql.PreparedStatement
+/commons-dbcp2/src/test/java/org/apache/commons/dbcp2/TestDelegatingResultSet.java
+	java.sql.ResultSet
+/commons-dbcp2/src/test/java/org/apache/commons/dbcp2/TestDelegatingDatabaseMetaData.java
+	java.sql.DatabaseMetaData
+/commons-dbcp2/src/test/java/org/apache/commons/dbcp2/TestDelegatingCallableStatement.java
+	java.sql.CallableStatement

@@ -16,7 +16,7 @@ commons-collections,commons-collections\src\test\java\org\apache\commons\collect
 commons-compress,commons-compress\src\test\java\org\apache\commons\compress\compressors\deflate64\Deflate64CompressorInputStreamTest.java,mockito,static org.mockito.Mockito.times
 commons-compress,commons-compress\src\test\java\org\apache\commons\compress\compressors\deflate64\Deflate64CompressorInputStreamTest.java,mockito,org.mockito.Mock
 commons-compress,commons-compress\src\test\java\org\apache\commons\compress\compressors\deflate64\Deflate64CompressorInputStreamTest.java,mockito,org.mockito.Mockito
-commons-compress,commons-compress\src\test\java\org\apache\commons\compress\compressors\deflate64\Deflate64CompressorInputStreamTest.java,mockito,org.mockito.junit.MockitoJUnitRunner
+commons-compress,commons-compress\src\test\java\org\apache\commons\compress\compressors\deflate64\Deflate64CompressorInputStreamTest.java,mockito,org.mockito.junit.jupiter.MockitoExtension
 commons-configuration,commons-configuration\src\test\java\org\apache\commons\configuration2\MockInitialContextFactory.java,mockobjects,com.mockobjects.dynamic.C
 commons-configuration,commons-configuration\src\test\java\org\apache\commons\configuration2\MockInitialContextFactory.java,mockobjects,com.mockobjects.dynamic.Mock
 commons-configuration,commons-configuration\src\test\java\org\apache\commons\configuration2\TestAbstractConfigurationBasicFeatures.java,easymock,org.easymock.EasyMock
@@ -109,7 +109,7 @@ commons-dbcp,commons-dbcp\src\test\java\org\apache\commons\dbcp2\TestDelegatingR
 commons-dbcp,commons-dbcp\src\test\java\org\apache\commons\dbcp2\TestDelegatingStatement.java,mockito,static org.mockito.Mockito.mock
 commons-dbcp,commons-dbcp\src\test\java\org\apache\commons\dbcp2\TestDelegatingStatement.java,mockito,static org.mockito.Mockito.times
 commons-dbcp,commons-dbcp\src\test\java\org\apache\commons\dbcp2\TestDelegatingStatement.java,mockito,static org.mockito.Mockito.verify
-commons-dbutils,commons-dbutils\src\test\java\org\apache\commons\dbutils\AsyncQueryRunnerTest.java,mockito,static org.mockito.Matchers.any
+commons-dbutils,commons-dbutils\src\test\java\org\apache\commons\dbutils\AsyncQueryRunnerTest.java,mockito,static org.mockito.ArgumentMatchers.any
 commons-dbutils,commons-dbutils\src\test\java\org\apache\commons\dbutils\AsyncQueryRunnerTest.java,mockito,static org.mockito.Mockito.doThrow
 commons-dbutils,commons-dbutils\src\test\java\org\apache\commons\dbutils\AsyncQueryRunnerTest.java,mockito,static org.mockito.Mockito.mock
 commons-dbutils,commons-dbutils\src\test\java\org\apache\commons\dbutils\AsyncQueryRunnerTest.java,mockito,static org.mockito.Mockito.times
@@ -191,7 +191,7 @@ httpcomponents-client,httpcomponents-client\httpclient5-cache\src\test\java\org\
 httpcomponents-client,httpcomponents-client\httpclient5-cache\src\test\java\org\apache\hc\client5\http\impl\cache\TestAbstractSerializingAsyncCacheStorage.java,mockito,org.mockito.ArgumentMatchers
 httpcomponents-client,httpcomponents-client\httpclient5-cache\src\test\java\org\apache\hc\client5\http\impl\cache\TestAbstractSerializingAsyncCacheStorage.java,mockito,org.mockito.Mock
 httpcomponents-client,httpcomponents-client\httpclient5-cache\src\test\java\org\apache\hc\client5\http\impl\cache\TestAbstractSerializingAsyncCacheStorage.java,mockito,org.mockito.Mockito
-httpcomponents-client,httpcomponents-client\httpclient5-cache\src\test\java\org\apache\hc\client5\http\impl\cache\TestAbstractSerializingAsyncCacheStorage.java,mockito,org.mockito.junit.MockitoJUnitRunner
+httpcomponents-client,httpcomponents-client\httpclient5-cache\src\test\java\org\apache\hc\client5\http\impl\cache\TestAbstractSerializingAsyncCacheStorage.java,mockito,org.mockito.MockitoAnnotations
 httpcomponents-client,httpcomponents-client\httpclient5-cache\src\test\java\org\apache\hc\client5\http\impl\cache\TestAbstractSerializingAsyncCacheStorage.java,mockito,org.mockito.stubbing.Answer
 httpcomponents-client,httpcomponents-client\httpclient5-cache\src\test\java\org\apache\hc\client5\http\impl\cache\TestAbstractSerializingCacheStorage.java,mockito,static org.mockito.ArgumentMatchers.eq
 httpcomponents-client,httpcomponents-client\httpclient5-cache\src\test\java\org\apache\hc\client5\http\impl\cache\TestAbstractSerializingCacheStorage.java,mockito,static org.mockito.Mockito.verify
@@ -209,7 +209,7 @@ httpcomponents-client,httpcomponents-client\httpclient5-cache\src\test\java\org\
 httpcomponents-client,httpcomponents-client\httpclient5-cache\src\test\java\org\apache\hc\client5\http\impl\cache\TestCacheRevalidatorBase.java,mockito,static org.mockito.Mockito.when
 httpcomponents-client,httpcomponents-client\httpclient5-cache\src\test\java\org\apache\hc\client5\http\impl\cache\TestCacheRevalidatorBase.java,mockito,org.mockito.ArgumentMatchers
 httpcomponents-client,httpcomponents-client\httpclient5-cache\src\test\java\org\apache\hc\client5\http\impl\cache\TestCacheRevalidatorBase.java,mockito,org.mockito.Mock
-httpcomponents-client,httpcomponents-client\httpclient5-cache\src\test\java\org\apache\hc\client5\http\impl\cache\TestCacheRevalidatorBase.java,mockito,org.mockito.junit.MockitoJUnitRunner
+httpcomponents-client,httpcomponents-client\httpclient5-cache\src\test\java\org\apache\hc\client5\http\impl\cache\TestCacheRevalidatorBase.java,mockito,org.mockito.MockitoAnnotations
 httpcomponents-client,httpcomponents-client\httpclient5-cache\src\test\java\org\apache\hc\client5\http\impl\cache\TestCachedHttpResponseGenerator.java,mockito,static org.mockito.ArgumentMatchers.isA
 httpcomponents-client,httpcomponents-client\httpclient5-cache\src\test\java\org\apache\hc\client5\http\impl\cache\TestCachedHttpResponseGenerator.java,mockito,static org.mockito.ArgumentMatchers.same
 httpcomponents-client,httpcomponents-client\httpclient5-cache\src\test\java\org\apache\hc\client5\http\impl\cache\TestCachedHttpResponseGenerator.java,mockito,static org.mockito.Mockito.mock
@@ -218,8 +218,8 @@ httpcomponents-client,httpcomponents-client\httpclient5-cache\src\test\java\org\
 httpcomponents-client,httpcomponents-client\httpclient5-cache\src\test\java\org\apache\hc\client5\http\impl\cache\TestCachingExecChain.java,mockito,org.mockito.ArgumentCaptor
 httpcomponents-client,httpcomponents-client\httpclient5-cache\src\test\java\org\apache\hc\client5\http\impl\cache\TestCachingExecChain.java,mockito,org.mockito.Mock
 httpcomponents-client,httpcomponents-client\httpclient5-cache\src\test\java\org\apache\hc\client5\http\impl\cache\TestCachingExecChain.java,mockito,org.mockito.Mockito
+httpcomponents-client,httpcomponents-client\httpclient5-cache\src\test\java\org\apache\hc\client5\http\impl\cache\TestCachingExecChain.java,mockito,org.mockito.MockitoAnnotations
 httpcomponents-client,httpcomponents-client\httpclient5-cache\src\test\java\org\apache\hc\client5\http\impl\cache\TestCachingExecChain.java,mockito,org.mockito.Spy
-httpcomponents-client,httpcomponents-client\httpclient5-cache\src\test\java\org\apache\hc\client5\http\impl\cache\TestCachingExecChain.java,mockito,org.mockito.junit.MockitoJUnitRunner
 httpcomponents-client,httpcomponents-client\httpclient5-cache\src\test\java\org\apache\hc\client5\http\impl\cache\TestCombinedEntity.java,mockito,static org.mockito.Mockito.mock
 httpcomponents-client,httpcomponents-client\httpclient5-cache\src\test\java\org\apache\hc\client5\http\impl\cache\TestCombinedEntity.java,mockito,static org.mockito.Mockito.verify
 httpcomponents-client,httpcomponents-client\httpclient5-cache\src\test\java\org\apache\hc\client5\http\impl\cache\TestCombinedEntity.java,mockito,static org.mockito.Mockito.when
@@ -229,14 +229,14 @@ httpcomponents-client,httpcomponents-client\httpclient5-cache\src\test\java\org\
 httpcomponents-client,httpcomponents-client\httpclient5-cache\src\test\java\org\apache\hc\client5\http\impl\cache\TestDefaultAsyncCacheInvalidator.java,mockito,org.mockito.ArgumentMatchers
 httpcomponents-client,httpcomponents-client\httpclient5-cache\src\test\java\org\apache\hc\client5\http\impl\cache\TestDefaultAsyncCacheInvalidator.java,mockito,org.mockito.Mock
 httpcomponents-client,httpcomponents-client\httpclient5-cache\src\test\java\org\apache\hc\client5\http\impl\cache\TestDefaultAsyncCacheInvalidator.java,mockito,org.mockito.Mockito
-httpcomponents-client,httpcomponents-client\httpclient5-cache\src\test\java\org\apache\hc\client5\http\impl\cache\TestDefaultAsyncCacheInvalidator.java,mockito,org.mockito.junit.MockitoJUnitRunner
+httpcomponents-client,httpcomponents-client\httpclient5-cache\src\test\java\org\apache\hc\client5\http\impl\cache\TestDefaultAsyncCacheInvalidator.java,mockito,org.mockito.MockitoAnnotations
 httpcomponents-client,httpcomponents-client\httpclient5-cache\src\test\java\org\apache\hc\client5\http\impl\cache\TestDefaultAsyncCacheInvalidator.java,mockito,org.mockito.stubbing.Answer
 httpcomponents-client,httpcomponents-client\httpclient5-cache\src\test\java\org\apache\hc\client5\http\impl\cache\TestDefaultCacheInvalidator.java,mockito,static org.mockito.Mockito.verify
 httpcomponents-client,httpcomponents-client\httpclient5-cache\src\test\java\org\apache\hc\client5\http\impl\cache\TestDefaultCacheInvalidator.java,mockito,static org.mockito.Mockito.verifyNoMoreInteractions
 httpcomponents-client,httpcomponents-client\httpclient5-cache\src\test\java\org\apache\hc\client5\http\impl\cache\TestDefaultCacheInvalidator.java,mockito,static org.mockito.Mockito.when
 httpcomponents-client,httpcomponents-client\httpclient5-cache\src\test\java\org\apache\hc\client5\http\impl\cache\TestDefaultCacheInvalidator.java,mockito,org.mockito.ArgumentMatchers
 httpcomponents-client,httpcomponents-client\httpclient5-cache\src\test\java\org\apache\hc\client5\http\impl\cache\TestDefaultCacheInvalidator.java,mockito,org.mockito.Mock
-httpcomponents-client,httpcomponents-client\httpclient5-cache\src\test\java\org\apache\hc\client5\http\impl\cache\TestDefaultCacheInvalidator.java,mockito,org.mockito.junit.MockitoJUnitRunner
+httpcomponents-client,httpcomponents-client\httpclient5-cache\src\test\java\org\apache\hc\client5\http\impl\cache\TestDefaultCacheInvalidator.java,mockito,org.mockito.MockitoAnnotations
 httpcomponents-client,httpcomponents-client\httpclient5-cache\src\test\java\org\apache\hc\client5\http\impl\cache\TestDefaultCacheInvalidator.java,mockito,org.mockito.stubbing.Answer
 httpcomponents-client,httpcomponents-client\httpclient5-cache\src\test\java\org\apache\hc\client5\http\impl\cache\TestHttpByteArrayCacheEntrySerializer.java,mockito,org.mockito.Mockito
 httpcomponents-client,httpcomponents-client\httpclient5-cache\src\test\java\org\apache\hc\client5\http\impl\cache\TestHttpCacheJiraNumber1147.java,mockito,static org.mockito.ArgumentMatchers.isA
@@ -247,21 +247,21 @@ httpcomponents-client,httpcomponents-client\httpclient5-cache\src\test\java\org\
 httpcomponents-client,httpcomponents-client\httpclient5-cache\src\test\java\org\apache\hc\client5\http\impl\cache\TestHttpCacheJiraNumber1147.java,mockito,org.mockito.Mockito
 httpcomponents-client,httpcomponents-client\httpclient5-cache\src\test\java\org\apache\hc\client5\http\impl\cache\TestProtocolAllowedBehavior.java,mockito,org.mockito.Mock
 httpcomponents-client,httpcomponents-client\httpclient5-cache\src\test\java\org\apache\hc\client5\http\impl\cache\TestProtocolAllowedBehavior.java,mockito,org.mockito.Mockito
-httpcomponents-client,httpcomponents-client\httpclient5-cache\src\test\java\org\apache\hc\client5\http\impl\cache\TestProtocolAllowedBehavior.java,mockito,org.mockito.junit.MockitoJUnitRunner
+httpcomponents-client,httpcomponents-client\httpclient5-cache\src\test\java\org\apache\hc\client5\http\impl\cache\TestProtocolAllowedBehavior.java,mockito,org.mockito.MockitoAnnotations
 httpcomponents-client,httpcomponents-client\httpclient5-cache\src\test\java\org\apache\hc\client5\http\impl\cache\TestProtocolDeviations.java,mockito,org.mockito.Mock
 httpcomponents-client,httpcomponents-client\httpclient5-cache\src\test\java\org\apache\hc\client5\http\impl\cache\TestProtocolDeviations.java,mockito,org.mockito.Mockito
-httpcomponents-client,httpcomponents-client\httpclient5-cache\src\test\java\org\apache\hc\client5\http\impl\cache\TestProtocolDeviations.java,mockito,org.mockito.junit.MockitoJUnitRunner
+httpcomponents-client,httpcomponents-client\httpclient5-cache\src\test\java\org\apache\hc\client5\http\impl\cache\TestProtocolDeviations.java,mockito,org.mockito.MockitoAnnotations
 httpcomponents-client,httpcomponents-client\httpclient5-cache\src\test\java\org\apache\hc\client5\http\impl\cache\TestProtocolRecommendations.java,mockito,org.mockito.ArgumentCaptor
 httpcomponents-client,httpcomponents-client\httpclient5-cache\src\test\java\org\apache\hc\client5\http\impl\cache\TestProtocolRecommendations.java,mockito,org.mockito.Mock
 httpcomponents-client,httpcomponents-client\httpclient5-cache\src\test\java\org\apache\hc\client5\http\impl\cache\TestProtocolRecommendations.java,mockito,org.mockito.Mockito
-httpcomponents-client,httpcomponents-client\httpclient5-cache\src\test\java\org\apache\hc\client5\http\impl\cache\TestProtocolRecommendations.java,mockito,org.mockito.junit.MockitoJUnitRunner
+httpcomponents-client,httpcomponents-client\httpclient5-cache\src\test\java\org\apache\hc\client5\http\impl\cache\TestProtocolRecommendations.java,mockito,org.mockito.MockitoAnnotations
 httpcomponents-client,httpcomponents-client\httpclient5-cache\src\test\java\org\apache\hc\client5\http\impl\cache\TestProtocolRequirements.java,mockito,org.mockito.ArgumentCaptor
 httpcomponents-client,httpcomponents-client\httpclient5-cache\src\test\java\org\apache\hc\client5\http\impl\cache\TestProtocolRequirements.java,mockito,org.mockito.Mock
 httpcomponents-client,httpcomponents-client\httpclient5-cache\src\test\java\org\apache\hc\client5\http\impl\cache\TestProtocolRequirements.java,mockito,org.mockito.Mockito
-httpcomponents-client,httpcomponents-client\httpclient5-cache\src\test\java\org\apache\hc\client5\http\impl\cache\TestProtocolRequirements.java,mockito,org.mockito.junit.MockitoJUnitRunner
+httpcomponents-client,httpcomponents-client\httpclient5-cache\src\test\java\org\apache\hc\client5\http\impl\cache\TestProtocolRequirements.java,mockito,org.mockito.MockitoAnnotations
 httpcomponents-client,httpcomponents-client\httpclient5-cache\src\test\java\org\apache\hc\client5\http\impl\cache\TestRFC5861Compliance.java,mockito,org.mockito.Mock
 httpcomponents-client,httpcomponents-client\httpclient5-cache\src\test\java\org\apache\hc\client5\http\impl\cache\TestRFC5861Compliance.java,mockito,org.mockito.Mockito
-httpcomponents-client,httpcomponents-client\httpclient5-cache\src\test\java\org\apache\hc\client5\http\impl\cache\TestRFC5861Compliance.java,mockito,org.mockito.junit.MockitoJUnitRunner
+httpcomponents-client,httpcomponents-client\httpclient5-cache\src\test\java\org\apache\hc\client5\http\impl\cache\TestRFC5861Compliance.java,mockito,org.mockito.MockitoAnnotations
 httpcomponents-client,httpcomponents-client\httpclient5-testing\src\test\java\org\apache\hc\client5\testing\async\AbstractHttpAsyncClientAuthentication.java,mockito,org.mockito.Mockito
 httpcomponents-client,httpcomponents-client\httpclient5-testing\src\test\java\org\apache\hc\client5\testing\async\TestHttp1ClientAuthentication.java,mockito,org.mockito.Mockito
 httpcomponents-client,httpcomponents-client\httpclient5-testing\src\test\java\org\apache\hc\client5\testing\sync\TestClientAuthentication.java,mockito,org.mockito.Mockito
@@ -282,48 +282,48 @@ httpcomponents-client,httpcomponents-client\httpclient5\src\test\java\org\apache
 httpcomponents-client,httpcomponents-client\httpclient5\src\test\java\org\apache\hc\client5\http\impl\classic\TestConnectExec.java,mockito,org.mockito.ArgumentCaptor
 httpcomponents-client,httpcomponents-client\httpclient5\src\test\java\org\apache\hc\client5\http\impl\classic\TestConnectExec.java,mockito,org.mockito.Mock
 httpcomponents-client,httpcomponents-client\httpclient5\src\test\java\org\apache\hc\client5\http\impl\classic\TestConnectExec.java,mockito,org.mockito.Mockito
-httpcomponents-client,httpcomponents-client\httpclient5\src\test\java\org\apache\hc\client5\http\impl\classic\TestConnectExec.java,mockito,org.mockito.junit.MockitoJUnitRunner
+httpcomponents-client,httpcomponents-client\httpclient5\src\test\java\org\apache\hc\client5\http\impl\classic\TestConnectExec.java,mockito,org.mockito.MockitoAnnotations
 httpcomponents-client,httpcomponents-client\httpclient5\src\test\java\org\apache\hc\client5\http\impl\classic\TestConnectExec.java,mockito,org.mockito.stubbing.Answer
 httpcomponents-client,httpcomponents-client\httpclient5\src\test\java\org\apache\hc\client5\http\impl\classic\TestContentCompressionExec.java,mockito,org.mockito.Mock
 httpcomponents-client,httpcomponents-client\httpclient5\src\test\java\org\apache\hc\client5\http\impl\classic\TestContentCompressionExec.java,mockito,org.mockito.Mockito
-httpcomponents-client,httpcomponents-client\httpclient5\src\test\java\org\apache\hc\client5\http\impl\classic\TestContentCompressionExec.java,mockito,org.mockito.junit.MockitoJUnitRunner
+httpcomponents-client,httpcomponents-client\httpclient5\src\test\java\org\apache\hc\client5\http\impl\classic\TestContentCompressionExec.java,mockito,org.mockito.MockitoAnnotations
 httpcomponents-client,httpcomponents-client\httpclient5\src\test\java\org\apache\hc\client5\http\impl\classic\TestHttpRequestRetryExec.java,mockito,org.mockito.Mock
 httpcomponents-client,httpcomponents-client\httpclient5\src\test\java\org\apache\hc\client5\http\impl\classic\TestHttpRequestRetryExec.java,mockito,org.mockito.Mockito
-httpcomponents-client,httpcomponents-client\httpclient5\src\test\java\org\apache\hc\client5\http\impl\classic\TestHttpRequestRetryExec.java,mockito,org.mockito.junit.MockitoJUnitRunner
+httpcomponents-client,httpcomponents-client\httpclient5\src\test\java\org\apache\hc\client5\http\impl\classic\TestHttpRequestRetryExec.java,mockito,org.mockito.MockitoAnnotations
 httpcomponents-client,httpcomponents-client\httpclient5\src\test\java\org\apache\hc\client5\http\impl\classic\TestInternalExecRuntime.java,mockito,org.mockito.Mock
 httpcomponents-client,httpcomponents-client\httpclient5\src\test\java\org\apache\hc\client5\http\impl\classic\TestInternalExecRuntime.java,mockito,org.mockito.Mockito
-httpcomponents-client,httpcomponents-client\httpclient5\src\test\java\org\apache\hc\client5\http\impl\classic\TestInternalExecRuntime.java,mockito,org.mockito.junit.MockitoJUnitRunner
+httpcomponents-client,httpcomponents-client\httpclient5\src\test\java\org\apache\hc\client5\http\impl\classic\TestInternalExecRuntime.java,mockito,org.mockito.MockitoAnnotations
 httpcomponents-client,httpcomponents-client\httpclient5\src\test\java\org\apache\hc\client5\http\impl\classic\TestInternalHttpClient.java,mockito,org.mockito.Mock
 httpcomponents-client,httpcomponents-client\httpclient5\src\test\java\org\apache\hc\client5\http\impl\classic\TestInternalHttpClient.java,mockito,org.mockito.Mockito
-httpcomponents-client,httpcomponents-client\httpclient5\src\test\java\org\apache\hc\client5\http\impl\classic\TestInternalHttpClient.java,mockito,org.mockito.junit.MockitoJUnitRunner
+httpcomponents-client,httpcomponents-client\httpclient5\src\test\java\org\apache\hc\client5\http\impl\classic\TestInternalHttpClient.java,mockito,org.mockito.MockitoAnnotations
 httpcomponents-client,httpcomponents-client\httpclient5\src\test\java\org\apache\hc\client5\http\impl\classic\TestMainClientExec.java,mockito,org.mockito.Mock
 httpcomponents-client,httpcomponents-client\httpclient5\src\test\java\org\apache\hc\client5\http\impl\classic\TestMainClientExec.java,mockito,org.mockito.Mockito
-httpcomponents-client,httpcomponents-client\httpclient5\src\test\java\org\apache\hc\client5\http\impl\classic\TestMainClientExec.java,mockito,org.mockito.junit.MockitoJUnitRunner
+httpcomponents-client,httpcomponents-client\httpclient5\src\test\java\org\apache\hc\client5\http\impl\classic\TestMainClientExec.java,mockito,org.mockito.MockitoAnnotations
 httpcomponents-client,httpcomponents-client\httpclient5\src\test\java\org\apache\hc\client5\http\impl\classic\TestMainClientExec.java,mockito,org.mockito.stubbing.Answer
 httpcomponents-client,httpcomponents-client\httpclient5\src\test\java\org\apache\hc\client5\http\impl\classic\TestProtocolExec.java,mockito,org.mockito.Mock
 httpcomponents-client,httpcomponents-client\httpclient5\src\test\java\org\apache\hc\client5\http\impl\classic\TestProtocolExec.java,mockito,org.mockito.Mockito
-httpcomponents-client,httpcomponents-client\httpclient5\src\test\java\org\apache\hc\client5\http\impl\classic\TestProtocolExec.java,mockito,org.mockito.junit.MockitoJUnitRunner
+httpcomponents-client,httpcomponents-client\httpclient5\src\test\java\org\apache\hc\client5\http\impl\classic\TestProtocolExec.java,mockito,org.mockito.MockitoAnnotations
 httpcomponents-client,httpcomponents-client\httpclient5\src\test\java\org\apache\hc\client5\http\impl\classic\TestProtocolExec.java,mockito,org.mockito.stubbing.Answer
 httpcomponents-client,httpcomponents-client\httpclient5\src\test\java\org\apache\hc\client5\http\impl\classic\TestRedirectExec.java,mockito,org.mockito.ArgumentCaptor
 httpcomponents-client,httpcomponents-client\httpclient5\src\test\java\org\apache\hc\client5\http\impl\classic\TestRedirectExec.java,mockito,org.mockito.ArgumentMatcher
 httpcomponents-client,httpcomponents-client\httpclient5\src\test\java\org\apache\hc\client5\http\impl\classic\TestRedirectExec.java,mockito,org.mockito.ArgumentMatchers
 httpcomponents-client,httpcomponents-client\httpclient5\src\test\java\org\apache\hc\client5\http\impl\classic\TestRedirectExec.java,mockito,org.mockito.Mock
 httpcomponents-client,httpcomponents-client\httpclient5\src\test\java\org\apache\hc\client5\http\impl\classic\TestRedirectExec.java,mockito,org.mockito.Mockito
-httpcomponents-client,httpcomponents-client\httpclient5\src\test\java\org\apache\hc\client5\http\impl\classic\TestRedirectExec.java,mockito,org.mockito.junit.MockitoJUnitRunner
+httpcomponents-client,httpcomponents-client\httpclient5\src\test\java\org\apache\hc\client5\http\impl\classic\TestRedirectExec.java,mockito,org.mockito.MockitoAnnotations
 httpcomponents-client,httpcomponents-client\httpclient5\src\test\java\org\apache\hc\client5\http\impl\classic\TestResponseEntityProxy.java,mockito,org.mockito.ArgumentCaptor
 httpcomponents-client,httpcomponents-client\httpclient5\src\test\java\org\apache\hc\client5\http\impl\classic\TestResponseEntityProxy.java,mockito,org.mockito.Mock
 httpcomponents-client,httpcomponents-client\httpclient5\src\test\java\org\apache\hc\client5\http\impl\classic\TestResponseEntityProxy.java,mockito,org.mockito.Mockito
-httpcomponents-client,httpcomponents-client\httpclient5\src\test\java\org\apache\hc\client5\http\impl\classic\TestResponseEntityProxy.java,mockito,org.mockito.junit.MockitoJUnitRunner
+httpcomponents-client,httpcomponents-client\httpclient5\src\test\java\org\apache\hc\client5\http\impl\classic\TestResponseEntityProxy.java,mockito,org.mockito.MockitoAnnotations
 httpcomponents-client,httpcomponents-client\httpclient5\src\test\java\org\apache\hc\client5\http\impl\classic\TestResponseEntityWrapper.java,mockito,org.mockito.Mockito
 httpcomponents-client,httpcomponents-client\httpclient5\src\test\java\org\apache\hc\client5\http\impl\cookie\TestRFC6265CookieSpec.java,mockito,org.mockito.ArgumentMatchers
 httpcomponents-client,httpcomponents-client\httpclient5\src\test\java\org\apache\hc\client5\http\impl\cookie\TestRFC6265CookieSpec.java,mockito,org.mockito.Mockito
 httpcomponents-client,httpcomponents-client\httpclient5\src\test\java\org\apache\hc\client5\http\impl\io\TestBasicHttpClientConnectionManager.java,mockito,org.mockito.Mock
 httpcomponents-client,httpcomponents-client\httpclient5\src\test\java\org\apache\hc\client5\http\impl\io\TestBasicHttpClientConnectionManager.java,mockito,org.mockito.Mockito
-httpcomponents-client,httpcomponents-client\httpclient5\src\test\java\org\apache\hc\client5\http\impl\io\TestBasicHttpClientConnectionManager.java,mockito,org.mockito.junit.MockitoJUnitRunner
+httpcomponents-client,httpcomponents-client\httpclient5\src\test\java\org\apache\hc\client5\http\impl\io\TestBasicHttpClientConnectionManager.java,mockito,org.mockito.MockitoAnnotations
 httpcomponents-client,httpcomponents-client\httpclient5\src\test\java\org\apache\hc\client5\http\impl\io\TestHttpClientConnectionOperator.java,mockito,org.mockito.Mockito
 httpcomponents-client,httpcomponents-client\httpclient5\src\test\java\org\apache\hc\client5\http\impl\io\TestPoolingHttpClientConnectionManager.java,mockito,org.mockito.Mock
 httpcomponents-client,httpcomponents-client\httpclient5\src\test\java\org\apache\hc\client5\http\impl\io\TestPoolingHttpClientConnectionManager.java,mockito,org.mockito.Mockito
-httpcomponents-client,httpcomponents-client\httpclient5\src\test\java\org\apache\hc\client5\http\impl\io\TestPoolingHttpClientConnectionManager.java,mockito,org.mockito.junit.MockitoJUnitRunner
+httpcomponents-client,httpcomponents-client\httpclient5\src\test\java\org\apache\hc\client5\http\impl\io\TestPoolingHttpClientConnectionManager.java,mockito,org.mockito.MockitoAnnotations
 httpcomponents-client,httpcomponents-client\httpclient5\src\test\java\org\apache\hc\client5\http\impl\routing\TestDefaultProxyRoutePlanner.java,mockito,org.mockito.Mockito
 httpcomponents-client,httpcomponents-client\httpclient5\src\test\java\org\apache\hc\client5\http\impl\routing\TestDefaultRoutePlanner.java,mockito,org.mockito.Mockito
 httpcomponents-client,httpcomponents-client\httpclient5\src\test\java\org\apache\hc\client5\http\impl\routing\TestSystemDefaultRoutePlanner.java,mockito,org.mockito.ArgumentMatchers

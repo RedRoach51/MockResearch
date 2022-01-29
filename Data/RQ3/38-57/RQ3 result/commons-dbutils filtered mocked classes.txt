@@ -5,10 +5,15 @@ Inside classes:
  
 Outside classes: 
  
+javax.sql.DataSource
+java.sql.Connection
+java.sql.PreparedStatement
+java.sql.Statement
+java.sql.CallableStatement
+java.sql.ParameterMetaData
 java.sql.ResultSet
 java.sql.ResultSetMetaData
-java.sql.Connection
-java.sql.Statement
 java.sql.Driver
 org.apache.commons.dbutils.QueryRunner
 org.apache.commons.dbutils.RowProcessor
+java.sql.SQLXML

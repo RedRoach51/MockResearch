@@ -1,0 +1,19 @@
+/commons-collections4/src/test/java/org/apache/commons/collections4/MockTestCase.java
+	java.lang.Object
+/commons-collections4/src/test/java/org/apache/commons/collections4/IteratorUtilsTest.java
+	org.w3c.dom.Node
+	org.w3c.dom.Node
+	org.w3c.dom.Node
+	org.w3c.dom.Node
+	org.w3c.dom.Node
+	java.util.Dictionary
+	org.w3c.dom.Node
+/commons-collections4/src/test/java/org/apache/commons/collections4/CollectionUtilsTest.java
+/commons-collections4/src/test/java/org/apache/commons/collections4/functors/AbstractMockPredicateTest.java
+	org.apache.commons.collections4.Predicate<T>
+/commons-collections4/src/test/java/org/apache/commons/collections4/iterators/NodeListIteratorTest.java
+	org.w3c.dom.Node
+	org.w3c.dom.Node
+	org.w3c.dom.Node
+	org.w3c.dom.Node
+	org.w3c.dom.Node

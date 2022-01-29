@@ -1,0 +1,253 @@
+/httpclient5/src/test/java/org/apache/hc/client5/http/entity/TestGZip.java
+	org.apache.hc.core5.http.HttpEntity
+	java.io.OutputStream
+/httpclient5/src/test/java/org/apache/hc/client5/http/entity/TestEntityBuilder.java
+	java.io.InputStream
+/httpclient5/src/test/java/org/apache/hc/client5/http/impl/TestIdleConnectionEvictor.java
+	org.apache.hc.core5.pool.ConnPoolControl
+	org.apache.hc.core5.pool.ConnPoolControl
+/httpclient5/src/test/java/org/apache/hc/client5/http/impl/auth/TestHttpAuthenticator.java
+	org.apache.hc.client5.http.impl.auth.TestHttpAuthenticator.CacheableAuthState
+	org.apache.hc.client5.http.auth.CredentialsProvider
+	org.apache.hc.client5.http.auth.AuthScheme
+	org.apache.hc.client5.http.auth.AuthScheme
+/httpclient5/src/test/java/org/apache/hc/client5/http/impl/auth/TestSystemDefaultCredentialsProvider.java
+	org.apache.hc.client5.http.impl.auth.TestSystemDefaultCredentialsProvider.AuthenticatorDelegate
+/httpclient5/src/test/java/org/apache/hc/client5/http/impl/classic/TestAbstractHttpClientResponseHandler.java
+	org.apache.hc.core5.http.ClassicHttpResponse
+	java.io.InputStream
+	org.apache.hc.core5.http.HttpEntity
+	org.apache.hc.core5.http.ClassicHttpResponse
+	java.io.InputStream
+	org.apache.hc.core5.http.HttpEntity
+	org.apache.hc.core5.http.ClassicHttpResponse
+/httpclient5/src/test/java/org/apache/hc/client5/http/impl/classic/TestInternalHttpClient.java
+	org.apache.hc.client5.http.io.HttpClientConnectionManager
+	org.apache.hc.core5.http.impl.io.HttpRequestExecutor
+	org.apache.hc.client5.http.classic.ExecChainHandler
+	org.apache.hc.client5.http.routing.HttpRoutePlanner
+	org.apache.hc.core5.http.config.Lookup<org.apache.hc.client5.http.cookie.CookieSpecFactory>
+	org.apache.hc.core5.http.config.Lookup<org.apache.hc.client5.http.auth.AuthSchemeFactory>
+	org.apache.hc.client5.http.cookie.CookieStore
+	org.apache.hc.client5.http.auth.CredentialsProvider
+	org.apache.hc.client5.http.config.RequestConfig
+	java.io.Closeable
+	java.io.Closeable
+	org.apache.hc.core5.http.config.Lookup
+	org.apache.hc.core5.http.config.Lookup
+	org.apache.hc.client5.http.cookie.CookieStore
+	org.apache.hc.client5.http.auth.CredentialsProvider
+/httpclient5/src/test/java/org/apache/hc/client5/http/impl/classic/TestProtocolExec.java
+	org.apache.hc.core5.http.protocol.HttpProcessor
+	org.apache.hc.client5.http.AuthenticationStrategy
+	org.apache.hc.client5.http.AuthenticationStrategy
+	org.apache.hc.client5.http.classic.ExecChain
+	org.apache.hc.client5.http.classic.ExecRuntime
+	org.apache.hc.core5.http.ClassicHttpResponse
+	org.apache.hc.core5.http.ClassicHttpResponse
+	org.apache.hc.core5.http.ClassicHttpResponse
+	org.apache.hc.core5.http.ClassicHttpResponse
+/httpclient5/src/test/java/org/apache/hc/client5/http/impl/classic/TestContentCompressionExec.java
+	org.apache.hc.client5.http.classic.ExecRuntime
+	org.apache.hc.client5.http.classic.ExecChain
+	org.apache.hc.core5.http.ClassicHttpRequest
+/httpclient5/src/test/java/org/apache/hc/client5/http/impl/classic/TestResponseEntityWrapper.java
+	java.io.InputStream
+	org.apache.hc.core5.http.HttpEntity
+	org.apache.hc.client5.http.classic.ExecRuntime
+	java.io.OutputStream
+	java.io.OutputStream
+/httpclient5/src/test/java/org/apache/hc/client5/http/impl/classic/TestResponseEntityProxy.java
+	org.apache.hc.core5.http.ClassicHttpResponse
+	org.apache.hc.client5.http.classic.ExecRuntime
+	org.apache.hc.core5.http.HttpEntity
+/httpclient5/src/test/java/org/apache/hc/client5/http/impl/classic/TestCloseableHttpClient.java
+	java.io.InputStream
+	org.apache.hc.core5.http.HttpEntity
+	org.apache.hc.core5.http.ClassicHttpResponse
+	org.apache.hc.client5.http.impl.classic.TestCloseableHttpClient.NoopCloseableHttpClient
+	org.apache.hc.core5.http.io.HttpClientResponseHandler
+	org.apache.hc.core5.http.io.HttpClientResponseHandler
+	org.apache.hc.core5.http.io.HttpClientResponseHandler
+/httpclient5/src/test/java/org/apache/hc/client5/http/impl/classic/TestBasicResponseHandler.java
+	org.apache.hc.core5.http.ClassicHttpResponse
+	java.io.InputStream
+	org.apache.hc.core5.http.HttpEntity
+	org.apache.hc.core5.http.ClassicHttpResponse
+/httpclient5/src/test/java/org/apache/hc/client5/http/impl/classic/TestMainClientExec.java
+	org.apache.hc.client5.http.io.HttpClientConnectionManager
+	org.apache.hc.core5.http.ConnectionReuseStrategy
+	org.apache.hc.client5.http.ConnectionKeepAliveStrategy
+	org.apache.hc.client5.http.UserTokenHandler
+	org.apache.hc.client5.http.classic.ExecRuntime
+/httpclient5/src/test/java/org/apache/hc/client5/http/impl/classic/TestHttpRequestRetryExec.java
+	org.apache.hc.client5.http.HttpRequestRetryStrategy
+	org.apache.hc.client5.http.classic.ExecChain
+	org.apache.hc.client5.http.classic.ExecRuntime
+	org.apache.hc.core5.http.ClassicHttpResponse
+	org.apache.hc.core5.http.ClassicHttpResponse
+	org.apache.hc.core5.http.ClassicHttpResponse
+	org.apache.hc.core5.http.ClassicHttpResponse
+	org.apache.hc.core5.http.ClassicHttpResponse
+/httpclient5/src/test/java/org/apache/hc/client5/http/impl/classic/TestInternalExecRuntime.java
+	org.slf4j.Logger
+	org.apache.hc.client5.http.io.HttpClientConnectionManager
+	org.apache.hc.client5.http.io.LeaseRequest
+	org.apache.hc.core5.http.impl.io.HttpRequestExecutor
+	org.apache.hc.core5.concurrent.CancellableDependency
+	org.apache.hc.client5.http.io.ConnectionEndpoint
+/httpclient5/src/test/java/org/apache/hc/client5/http/impl/classic/TestConnectExec.java
+	org.apache.hc.core5.http.ConnectionReuseStrategy
+	org.apache.hc.core5.http.protocol.HttpProcessor
+	org.apache.hc.client5.http.AuthenticationStrategy
+	org.apache.hc.client5.http.classic.ExecRuntime
+	org.apache.hc.client5.http.classic.ExecChain
+/httpclient5/src/test/java/org/apache/hc/client5/http/impl/classic/TestRedirectExec.java
+	org.apache.hc.client5.http.routing.HttpRoutePlanner
+	org.apache.hc.client5.http.classic.ExecChain
+	org.apache.hc.client5.http.classic.ExecRuntime
+/httpclient5/src/test/java/org/apache/hc/client5/http/impl/cookie/TestRFC6265CookieSpec.java
+	org.apache.hc.client5.http.cookie.CommonCookieAttributeHandler
+	org.apache.hc.client5.http.cookie.CommonCookieAttributeHandler
+	org.apache.hc.client5.http.cookie.CommonCookieAttributeHandler
+	org.apache.hc.client5.http.cookie.CommonCookieAttributeHandler
+	org.apache.hc.client5.http.cookie.CommonCookieAttributeHandler
+	org.apache.hc.client5.http.cookie.CommonCookieAttributeHandler
+	org.apache.hc.client5.http.cookie.CommonCookieAttributeHandler
+	org.apache.hc.client5.http.cookie.CommonCookieAttributeHandler
+	org.apache.hc.client5.http.cookie.CommonCookieAttributeHandler
+	org.apache.hc.client5.http.cookie.CommonCookieAttributeHandler
+	org.apache.hc.client5.http.cookie.CommonCookieAttributeHandler
+	org.apache.hc.client5.http.cookie.CommonCookieAttributeHandler
+	org.apache.hc.client5.http.cookie.CommonCookieAttributeHandler
+	org.apache.hc.client5.http.cookie.CommonCookieAttributeHandler
+	org.apache.hc.client5.http.cookie.CommonCookieAttributeHandler
+	org.apache.hc.client5.http.cookie.CommonCookieAttributeHandler
+	org.apache.hc.client5.http.cookie.CommonCookieAttributeHandler
+/httpclient5/src/test/java/org/apache/hc/client5/http/impl/io/TestHttpClientConnectionOperator.java
+	org.apache.hc.client5.http.io.ManagedHttpClientConnection
+	java.net.Socket
+	org.apache.hc.client5.http.socket.ConnectionSocketFactory
+	org.apache.hc.client5.http.socket.LayeredConnectionSocketFactory
+	org.apache.hc.core5.http.config.Lookup
+	org.apache.hc.client5.http.SchemePortResolver
+	org.apache.hc.client5.http.DnsResolver
+/httpclient5/src/test/java/org/apache/hc/client5/http/impl/io/TestBasicHttpClientConnectionManager.java
+	org.apache.hc.client5.http.io.ManagedHttpClientConnection
+	org.apache.hc.core5.http.io.HttpConnectionFactory<org.apache.hc.client5.http.io.ManagedHttpClientConnection>
+	org.apache.hc.core5.http.config.Lookup<org.apache.hc.client5.http.socket.ConnectionSocketFactory>
+	org.apache.hc.client5.http.socket.ConnectionSocketFactory
+	org.apache.hc.client5.http.socket.LayeredConnectionSocketFactory
+	java.net.Socket
+	org.apache.hc.client5.http.SchemePortResolver
+	org.apache.hc.client5.http.DnsResolver
+	org.apache.hc.client5.http.io.ConnectionEndpoint
+/httpclient5/src/test/java/org/apache/hc/client5/http/impl/io/TestPoolingHttpClientConnectionManager.java
+	org.apache.hc.client5.http.io.ManagedHttpClientConnection
+	org.apache.hc.core5.http.config.Lookup<org.apache.hc.client5.http.socket.ConnectionSocketFactory>
+	org.apache.hc.client5.http.socket.ConnectionSocketFactory
+	org.apache.hc.client5.http.socket.ConnectionSocketFactory
+	java.net.Socket
+	org.apache.hc.client5.http.SchemePortResolver
+	org.apache.hc.client5.http.DnsResolver
+	java.util.concurrent.Future<org.apache.hc.core5.pool.PoolEntry<org.apache.hc.client5.http.HttpRoute,org.apache.hc.client5.http.io.ManagedHttpClientConnection>>
+	org.apache.hc.core5.pool.StrictConnPool<org.apache.hc.client5.http.HttpRoute,org.apache.hc.client5.http.io.ManagedHttpClientConnection>
+	org.apache.hc.client5.http.socket.ConnectionSocketFactory
+	org.apache.hc.client5.http.socket.LayeredConnectionSocketFactory
+	java.net.Socket
+/httpclient5/src/test/java/org/apache/hc/client5/http/impl/routing/TestDefaultProxyRoutePlanner.java
+	org.apache.hc.client5.http.SchemePortResolver
+/httpclient5/src/test/java/org/apache/hc/client5/http/impl/routing/TestDefaultRoutePlanner.java
+	org.apache.hc.client5.http.SchemePortResolver
+/httpclient5/src/test/java/org/apache/hc/client5/http/impl/routing/TestSystemDefaultRoutePlanner.java
+	org.apache.hc.client5.http.SchemePortResolver
+	java.net.ProxySelector
+/httpclient5/src/test/java/org/apache/hc/client5/http/protocol/TestRequestAddCookies.java
+/httpclient5-cache/src/test/java/org/apache/hc/client5/http/cache/TestHttpCacheEntry.java
+	org.apache.hc.client5.http.cache.Resource
+/httpclient5-cache/src/test/java/org/apache/hc/client5/http/impl/cache/TestCombinedEntity.java
+	org.apache.hc.core5.http.HttpEntity
+/httpclient5-cache/src/test/java/org/apache/hc/client5/http/impl/cache/TestProtocolRequirements.java
+	org.apache.hc.client5.http.classic.ExecChain
+	org.apache.hc.client5.http.classic.ExecRuntime
+	org.apache.hc.client5.http.impl.cache.HttpCache
+/httpclient5-cache/src/test/java/org/apache/hc/client5/http/impl/cache/TestCacheRevalidatorBase.java
+	org.apache.hc.client5.http.schedule.SchedulingStrategy
+	org.apache.hc.client5.http.impl.cache.CacheRevalidatorBase.ScheduledExecutor
+	java.lang.Runnable
+/httpclient5-cache/src/test/java/org/apache/hc/client5/http/impl/cache/TestAbstractSerializingAsyncCacheStorage.java
+	org.apache.hc.core5.concurrent.Cancellable
+	org.apache.hc.core5.concurrent.FutureCallback<java.lang.Boolean>
+	org.apache.hc.core5.concurrent.FutureCallback<org.apache.hc.client5.http.cache.HttpCacheEntry>
+	org.apache.hc.core5.concurrent.FutureCallback<java.util.Map<java.lang.String,org.apache.hc.client5.http.cache.HttpCacheEntry>>
+	org.apache.hc.client5.http.impl.cache.AbstractBinaryAsyncCacheStorage
+/httpclient5-cache/src/test/java/org/apache/hc/client5/http/impl/cache/TestCachingExecChain.java
+	org.apache.hc.client5.http.classic.ExecChain
+	org.apache.hc.client5.http.classic.ExecRuntime
+	org.apache.hc.client5.http.cache.HttpCacheStorage
+	org.apache.hc.client5.http.impl.cache.HttpCache
+	org.apache.hc.client5.http.impl.cache.HttpCache
+/httpclient5-cache/src/test/java/org/apache/hc/client5/http/impl/cache/ResponseEquivalent.java
+/httpclient5-cache/src/test/java/org/apache/hc/client5/http/impl/cache/TestAbstractSerializingCacheStorage.java
+	org.apache.hc.client5.http.impl.cache.AbstractBinaryCacheStorage
+/httpclient5-cache/src/test/java/org/apache/hc/client5/http/impl/cache/TestHttpCacheJiraNumber1147.java
+	org.apache.hc.client5.http.classic.ExecChain
+	org.apache.hc.client5.http.classic.ExecRuntime
+/httpclient5-cache/src/test/java/org/apache/hc/client5/http/impl/cache/TestHttpByteArrayCacheEntrySerializer.java
+	org.apache.hc.core5.http.impl.io.AbstractMessageParser
+	org.apache.hc.core5.http.impl.io.AbstractMessageWriter
+/httpclient5-cache/src/test/java/org/apache/hc/client5/http/impl/cache/TestCacheKeyGenerator.java
+	org.apache.hc.client5.http.cache.HttpCacheEntry
+	org.apache.hc.core5.http.HttpRequest
+/httpclient5-cache/src/test/java/org/apache/hc/client5/http/impl/cache/TestDefaultAsyncCacheInvalidator.java
+	org.apache.hc.client5.http.cache.HttpCacheEntry
+	org.apache.hc.core5.function.Resolver<java.net.URI,java.lang.String>
+	org.apache.hc.client5.http.cache.HttpAsyncCacheStorage
+	org.apache.hc.core5.concurrent.FutureCallback<java.lang.Boolean>
+	org.apache.hc.core5.concurrent.Cancellable
+/httpclient5-cache/src/test/java/org/apache/hc/client5/http/impl/cache/TestProtocolAllowedBehavior.java
+	org.apache.hc.client5.http.classic.ExecChain
+	org.apache.hc.client5.http.classic.ExecRuntime
+	org.apache.hc.client5.http.impl.cache.HttpCache
+/httpclient5-cache/src/test/java/org/apache/hc/client5/http/impl/cache/RequestEquivalent.java
+/httpclient5-cache/src/test/java/org/apache/hc/client5/http/impl/cache/TestProtocolDeviations.java
+	org.apache.hc.client5.http.classic.ExecRuntime
+	org.apache.hc.client5.http.classic.ExecChain
+/httpclient5-cache/src/test/java/org/apache/hc/client5/http/impl/cache/TestProtocolRecommendations.java
+	org.apache.hc.client5.http.classic.ExecChain
+	org.apache.hc.client5.http.classic.ExecRuntime
+/httpclient5-cache/src/test/java/org/apache/hc/client5/http/impl/cache/TestCachedHttpResponseGenerator.java
+	org.apache.hc.client5.http.impl.cache.CacheValidityPolicy
+/httpclient5-cache/src/test/java/org/apache/hc/client5/http/impl/cache/TestDefaultCacheInvalidator.java
+	org.apache.hc.client5.http.cache.HttpCacheEntry
+	org.apache.hc.core5.function.Resolver<java.net.URI,java.lang.String>
+	org.apache.hc.client5.http.cache.HttpCacheStorage
+/httpclient5-cache/src/test/java/org/apache/hc/client5/http/impl/cache/TestRFC5861Compliance.java
+	org.apache.hc.client5.http.classic.ExecChain
+	org.apache.hc.client5.http.classic.ExecRuntime
+/httpclient5-testing/src/test/java/org/apache/hc/client5/testing/async/AbstractHttpAsyncClientAuthentication.java
+	org.apache.hc.client5.http.auth.CredentialsProvider
+	org.apache.hc.client5.http.auth.CredentialsProvider
+	org.apache.hc.client5.http.auth.CredentialsProvider
+	org.apache.hc.client5.http.auth.CredentialsProvider
+	org.apache.hc.client5.http.auth.CredentialsProvider
+	org.apache.hc.client5.http.auth.CredentialsProvider
+	org.apache.hc.client5.http.auth.CredentialsProvider
+	org.apache.hc.client5.http.auth.CredentialsProvider
+/httpclient5-testing/src/test/java/org/apache/hc/client5/testing/async/TestHttp1ClientAuthentication.java
+	org.apache.hc.client5.http.auth.CredentialsProvider
+/httpclient5-testing/src/test/java/org/apache/hc/client5/testing/sync/TestClientAuthentication.java
+	org.apache.hc.client5.http.auth.CredentialsProvider
+	org.apache.hc.client5.http.auth.CredentialsProvider
+	org.apache.hc.client5.http.auth.CredentialsProvider
+	org.apache.hc.client5.http.auth.CredentialsProvider
+	org.apache.hc.client5.http.auth.CredentialsProvider
+	org.apache.hc.client5.http.auth.CredentialsProvider
+	org.apache.hc.client5.http.auth.CredentialsProvider
+	org.apache.hc.client5.http.auth.CredentialsProvider
+	org.apache.hc.client5.http.auth.CredentialsProvider
+	org.apache.hc.client5.http.auth.CredentialsProvider
+/httpclient5-testing/src/test/java/org/apache/hc/client5/testing/sync/TestSPNegoScheme.java
+	org.ietf.jgss.GSSManager
+	org.ietf.jgss.GSSName
+	org.ietf.jgss.GSSContext

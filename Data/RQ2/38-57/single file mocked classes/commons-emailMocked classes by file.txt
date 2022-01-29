@@ -1,0 +1,2 @@
+/commons-email/src/test/java/org/apache/commons/mail/AbstractEmailTest.java
+	java.net.URL

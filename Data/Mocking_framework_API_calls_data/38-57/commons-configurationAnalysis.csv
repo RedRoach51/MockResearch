@@ -1,24 +1,24 @@
 method, origin, count
-createMock,org.easymock.EasyMock,458
-replay,org.easymock.EasyMock,348
-expect,org.easymock.EasyMock,232
-verify,org.easymock.EasyMock,60
-createNiceMock,org.easymock.EasyMock,8
-expectAndReturn,com.mockobjects.dynamic.Mock,6
-createStrictMock,org.easymock.EasyMock,2
-andReturn,org.easymock.IExpectationSetters<java.util.Iterator<java.lang.String>>,80
-andThrow,org.easymock.IExpectationSetters<java.sql.Connection>,10
-anyObject,org.easymock.EasyMock,28
-anyTimes,org.easymock.IExpectationSetters<java.lang.Object>,14
-andAnswer,org.easymock.IExpectationSetters<java.lang.Object>,6
-expectLastCall,org.easymock.EasyMock,10
-getCurrentArguments,org.easymock.EasyMock,6
-reset,org.easymock.EasyMock,6
-eq,org.easymock.EasyMock,6
-anyString,org.easymock.EasyMock,4
-setInitParameter,com.mockobjects.servlet.MockServletConfig,8
-setServletContext,com.mockobjects.servlet.MockServletConfig,2
+createMock,org.easymock.EasyMock,229
+replay,org.easymock.EasyMock,174
+expect,org.easymock.EasyMock,116
+verify,org.easymock.EasyMock,30
+createNiceMock,org.easymock.EasyMock,4
+expectAndReturn,com.mockobjects.dynamic.Mock,3
+createStrictMock,org.easymock.EasyMock,1
+andReturn,org.easymock.IExpectationSetters<java.util.Iterator<java.lang.String>>,40
+andThrow,org.easymock.IExpectationSetters<java.sql.Connection>,5
+anyObject,org.easymock.EasyMock,14
+anyTimes,org.easymock.IExpectationSetters<java.lang.Object>,7
+andAnswer,org.easymock.IExpectationSetters<java.lang.Object>,3
+expectLastCall,org.easymock.EasyMock,5
+getCurrentArguments,org.easymock.EasyMock,3
+reset,org.easymock.EasyMock,3
+eq,org.easymock.EasyMock,3
+anyString,org.easymock.EasyMock,2
+setInitParameter,com.mockobjects.servlet.MockServletConfig,4
+setServletContext,com.mockobjects.servlet.MockServletConfig,1
 
-MockedObjects: ,466
+MockedObjects: ,233
 
-# of Mocked objects each file:,1|1|1|5|3|5|1|1|9|2|1|3|1|1|6|1|3|2|2|1|1|2|1|9|4|29|3|5|6|1|2|2|1|2|16|1|11|2|1|1|1|15|1|9|1|3|1|1|1|2|8|4|8|2|1|2|5|3|2|1|5|1|1|2|3|1|1|1|5|3|5|1|1|9|2|1|3|1|1|6|1|3|2|2|1|1|2|1|9|4|29|3|5|6|1|2|2|1|2|16|1|11|2|1|1|1|15|1|9|1|3|1|1|1|2|8|4|8|2|1|2|5|3|2|1|5|1|1|2|3|
+# of Mocked objects each file:,1|1|1|5|3|5|1|1|9|2|1|3|1|1|6|1|3|2|2|1|1|2|1|9|4|29|3|5|6|1|2|2|1|2|16|1|11|2|1|1|1|15|1|9|1|3|1|1|1|2|8|4|8|2|1|2|5|3|2|1|5|1|1|2|3|

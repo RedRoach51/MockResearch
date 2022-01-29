@@ -1,3 +1,5 @@
+/commons-dbcp2/src/test/java/org/apache/commons/dbcp2/TestDelegatingStatement.java
+Methods Invoked: 
 	Method name: mock
 	Class origin: org.mockito.Mockito
 	Count: 1
@@ -10,6 +12,8 @@
 	Class origin: org.mockito.Mockito
 	Count: 51
  
+/commons-dbcp2/src/test/java/org/apache/commons/dbcp2/TestDelegatingPreparedStatement.java
+Methods Invoked: 
 	Method name: mock
 	Class origin: org.mockito.Mockito
 	Count: 1
@@ -22,6 +26,8 @@
 	Class origin: org.mockito.Mockito
 	Count: 58
  
+/commons-dbcp2/src/test/java/org/apache/commons/dbcp2/TestDelegatingResultSet.java
+Methods Invoked: 
 	Method name: mock
 	Class origin: org.mockito.Mockito
 	Count: 1
@@ -34,6 +40,8 @@
 	Class origin: org.mockito.Mockito
 	Count: 194
  
+/commons-dbcp2/src/test/java/org/apache/commons/dbcp2/TestDelegatingDatabaseMetaData.java
+Methods Invoked: 
 	Method name: mock
 	Class origin: org.mockito.Mockito
 	Count: 1
@@ -46,66 +54,8 @@
 	Class origin: org.mockito.Mockito
 	Count: 176
  
-	Method name: mock
-	Class origin: org.mockito.Mockito
-	Count: 1
- 
-	Method name: verify
-	Class origin: org.mockito.Mockito
-	Count: 121
- 
-	Method name: times
-	Class origin: org.mockito.Mockito
-	Count: 121
- 
-	Method name: mock
-	Class origin: org.mockito.Mockito
-	Count: 1
- 
-	Method name: verify
-	Class origin: org.mockito.Mockito
-	Count: 51
- 
-	Method name: times
-	Class origin: org.mockito.Mockito
-	Count: 51
- 
-	Method name: mock
-	Class origin: org.mockito.Mockito
-	Count: 1
- 
-	Method name: verify
-	Class origin: org.mockito.Mockito
-	Count: 58
- 
-	Method name: times
-	Class origin: org.mockito.Mockito
-	Count: 58
- 
-	Method name: mock
-	Class origin: org.mockito.Mockito
-	Count: 1
- 
-	Method name: verify
-	Class origin: org.mockito.Mockito
-	Count: 194
- 
-	Method name: times
-	Class origin: org.mockito.Mockito
-	Count: 194
- 
-	Method name: mock
-	Class origin: org.mockito.Mockito
-	Count: 1
- 
-	Method name: verify
-	Class origin: org.mockito.Mockito
-	Count: 176
- 
-	Method name: times
-	Class origin: org.mockito.Mockito
-	Count: 176
- 
+/commons-dbcp2/src/test/java/org/apache/commons/dbcp2/TestDelegatingCallableStatement.java
+Methods Invoked: 
 	Method name: mock
 	Class origin: org.mockito.Mockito
 	Count: 1

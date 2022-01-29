@@ -1,0 +1,77 @@
+/commons-dbutils/src/test/java/org/apache/commons/dbutils/QueryRunnerTest.java
+	javax.sql.DataSource
+	java.sql.Connection
+	java.sql.PreparedStatement
+	java.sql.Statement
+	java.sql.CallableStatement
+	java.sql.ParameterMetaData
+	java.sql.ResultSet
+	java.sql.ResultSetMetaData
+	java.sql.ResultSet
+	java.sql.ResultSet
+	java.sql.ResultSetMetaData
+/commons-dbutils/src/test/java/org/apache/commons/dbutils/GenerousBeanProcessorTest.java
+	java.sql.ResultSetMetaData
+/commons-dbutils/src/test/java/org/apache/commons/dbutils/OutParameterTest.java
+	java.sql.CallableStatement
+/commons-dbutils/src/test/java/org/apache/commons/dbutils/DbUtilsTest.java
+	java.sql.Connection
+	java.sql.ResultSet
+	java.sql.Statement
+	java.sql.Connection
+	java.sql.Connection
+	java.sql.ResultSet
+	java.sql.ResultSet
+	java.sql.Statement
+	java.sql.Statement
+	java.sql.Connection
+	java.sql.ResultSet
+	java.sql.Statement
+	java.sql.Connection
+	java.sql.ResultSet
+	java.sql.Statement
+	java.sql.Connection
+	java.sql.ResultSet
+	java.sql.Statement
+	java.sql.Connection
+	java.sql.ResultSet
+	java.sql.Statement
+	java.sql.Connection
+	java.sql.Connection
+	java.sql.Connection
+	java.sql.Connection
+	java.sql.Connection
+	java.sql.Connection
+	java.sql.Connection
+	java.sql.Connection
+	java.sql.Connection
+	java.sql.Driver
+/commons-dbutils/src/test/java/org/apache/commons/dbutils/AsyncQueryRunnerTest.java
+	javax.sql.DataSource
+	java.sql.Connection
+	java.sql.PreparedStatement
+	java.sql.Statement
+	java.sql.ParameterMetaData
+	java.sql.ResultSet
+	org.apache.commons.dbutils.QueryRunner
+/commons-dbutils/src/test/java/org/apache/commons/dbutils/ResultSetIteratorTest.java
+	java.sql.ResultSet
+/commons-dbutils/src/test/java/org/apache/commons/dbutils/handlers/KeyedHandlerTest.java
+	org.apache.commons.dbutils.RowProcessor
+/commons-dbutils/src/test/java/org/apache/commons/dbutils/handlers/BeanMapHandlerTest.java
+	java.sql.ResultSet
+	java.sql.ResultSetMetaData
+	org.apache.commons.dbutils.RowProcessor
+/commons-dbutils/src/test/java/org/apache/commons/dbutils/handlers/columns/TimestampColumnHandlerTest.java
+/commons-dbutils/src/test/java/org/apache/commons/dbutils/handlers/columns/DoubleColumnHandlerTest.java
+/commons-dbutils/src/test/java/org/apache/commons/dbutils/handlers/columns/IntegerColumnHandlerTest.java
+/commons-dbutils/src/test/java/org/apache/commons/dbutils/handlers/columns/BooleanColumnHandlerTest.java
+/commons-dbutils/src/test/java/org/apache/commons/dbutils/handlers/columns/ByteColumnHandlerTest.java
+/commons-dbutils/src/test/java/org/apache/commons/dbutils/handlers/columns/SQLXMLColumnHandlerTest.java
+	java.sql.SQLXML
+/commons-dbutils/src/test/java/org/apache/commons/dbutils/handlers/columns/FloatColumnHandlerTest.java
+/commons-dbutils/src/test/java/org/apache/commons/dbutils/handlers/columns/LongColumnHandlerTest.java
+/commons-dbutils/src/test/java/org/apache/commons/dbutils/handlers/columns/ShortColumnHandlerTest.java
+/commons-dbutils/src/test/java/org/apache/commons/dbutils/handlers/columns/StringColumnHandlerTest.java
+/commons-dbutils/src/test/java/org/apache/commons/dbutils/wrappers/SqlNullCheckedResultSetTest.java
+	java.sql.ResultSet

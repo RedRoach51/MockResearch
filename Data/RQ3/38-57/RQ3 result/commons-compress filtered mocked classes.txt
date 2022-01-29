@@ -5,3 +5,4 @@ Inside classes:
  
 Outside classes: 
  
+org.apache.commons.compress.compressors.deflate64.HuffmanDecoder

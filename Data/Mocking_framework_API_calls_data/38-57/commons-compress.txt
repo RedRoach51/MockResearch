@@ -1,27 +1,5 @@
-	Method name: thenReturn
-	Class origin: org.mockito.stubbing.OngoingStubbing<java.lang.Integer>
-	Count: 1
- 
-	Method name: when
-	Class origin: org.mockito.Mockito
-	Count: 1
- 
-	Method name: verify
-	Class origin: org.mockito.Mockito
-	Count: 2
- 
-	Method name: times
-	Class origin: org.mockito.Mockito
-	Count: 2
- 
-	Method name: thenReturn
-	Class origin: org.mockito.stubbing.OngoingStubbing<java.lang.Integer>
-	Count: 1
- 
-	Method name: when
-	Class origin: org.mockito.Mockito
-	Count: 1
- 
+/commons-compress/src/test/java/org/apache/commons/compress/compressors/deflate64/Deflate64CompressorInputStreamTest.java
+Methods Invoked: 
 	Method name: verify
 	Class origin: org.mockito.Mockito
 	Count: 2

@@ -1,6 +1,7 @@
 org.apache.commons.configuration2.Configuration
 org.apache.commons.configuration2.tree.TrackedNodeModel
 org.apache.commons.configuration2.Configuration
+org.apache.commons.configuration2.Configuration
 javax.sql.DataSource
 java.sql.ResultSet
 java.sql.Clob

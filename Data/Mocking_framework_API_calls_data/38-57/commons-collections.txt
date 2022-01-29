@@ -1,3 +1,5 @@
+/commons-collections4/src/test/java/org/apache/commons/collections4/MockTestCase.java
+Methods Invoked: 
 	Method name: createMock
 	Class origin: org.easymock.EasyMock
 	Count: 1
@@ -14,10 +16,14 @@
 	Class origin: org.easymock.EasyMock
 	Count: 1
  
+/commons-collections4/src/test/java/org/apache/commons/collections4/IteratorUtilsTest.java
+Methods Invoked: 
 	Method name: createMock
 	Class origin: org.easymock.EasyMock
 	Count: 7
  
+/commons-collections4/src/test/java/org/apache/commons/collections4/CollectionUtilsTest.java
+Methods Invoked: 
 	Method name: andReturn
 	Class origin: org.easymock.IExpectationSetters<java.util.Iterator<java.lang.Long>>
 	Count: 2
@@ -26,6 +32,8 @@
 	Class origin: org.easymock.IExpectationSetters<java.lang.Boolean>
 	Count: 9
  
+/commons-collections4/src/test/java/org/apache/commons/collections4/functors/AbstractMockPredicateTest.java
+Methods Invoked: 
 	Method name: verify
 	Class origin: org.easymock.EasyMock
 	Count: 1
@@ -46,58 +54,8 @@
 	Class origin: org.easymock.EasyMock
 	Count: 1
  
-	Method name: createMock
-	Class origin: org.easymock.EasyMock
-	Count: 5
- 
-	Method name: createMock
-	Class origin: org.easymock.EasyMock
-	Count: 1
- 
-	Method name: expect
-	Class origin: org.easymock.EasyMock
-	Count: 1
- 
-	Method name: replay
-	Class origin: org.easymock.EasyMock
-	Count: 1
- 
-	Method name: verify
-	Class origin: org.easymock.EasyMock
-	Count: 1
- 
-	Method name: createMock
-	Class origin: org.easymock.EasyMock
-	Count: 7
- 
-	Method name: andReturn
-	Class origin: org.easymock.IExpectationSetters<java.util.Iterator<java.lang.Long>>
-	Count: 2
- 
-	Method name: andReturn
-	Class origin: org.easymock.IExpectationSetters<java.lang.Boolean>
-	Count: 9
- 
-	Method name: verify
-	Class origin: org.easymock.EasyMock
-	Count: 1
- 
-	Method name: createMock
-	Class origin: org.easymock.EasyMock
-	Count: 1
- 
-	Method name: andReturn
-	Class origin: org.easymock.IExpectationSetters<java.lang.Boolean>
-	Count: 1
- 
-	Method name: expect
-	Class origin: org.easymock.EasyMock
-	Count: 1
- 
-	Method name: replay
-	Class origin: org.easymock.EasyMock
-	Count: 1
- 
+/commons-collections4/src/test/java/org/apache/commons/collections4/iterators/NodeListIteratorTest.java
+Methods Invoked: 
 	Method name: createMock
 	Class origin: org.easymock.EasyMock
 	Count: 5

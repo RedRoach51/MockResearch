@@ -1,0 +1,21 @@
+/commons-compress/src/test/java/org/apache/commons/compress/compressors/deflate64/Deflate64CompressorInputStreamTest.java
+	org.junit.jupiter.api.Assertions.assertEquals
+	org.junit.jupiter.api.Assertions.assertNull
+	org.junit.jupiter.api.Assertions.assertThrows
+	org.mockito.Mockito.times
+	java.io.BufferedReader
+	java.io.ByteArrayInputStream
+	java.io.EOFException
+	java.io.IOException
+	java.io.InputStream
+	java.io.InputStreamReader
+	org.apache.commons.compress.archivers.ArchiveException
+	org.apache.commons.compress.archivers.ArchiveInputStream
+	org.apache.commons.compress.archivers.ArchiveStreamFactory
+	org.apache.commons.compress.compressors.CompressorStreamFactory
+	org.apache.commons.compress.utils.IOUtils
+	org.junit.jupiter.api.Test
+	org.junit.jupiter.api.extension.ExtendWith
+	org.mockito.Mock
+	org.mockito.Mockito
+	org.mockito.junit.jupiter.MockitoExtension

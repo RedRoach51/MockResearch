@@ -1,0 +1,17 @@
+/chain-cookbook-examples/src/test/java/org/apache/commons/chain2/cookbook/mailreader/CatalogTest.java
+	org.apache.commons.chain2.Catalog
+	org.apache.commons.chain2.Command
+	org.apache.commons.chain2.Processing
+	org.junit.Before
+	org.junit.Test
+	org.mockito.Mock
+	org.mockito.MockitoAnnotations
+	javax.servlet.ServletContext
+	javax.servlet.http.HttpServletRequest
+	javax.servlet.http.HttpSession
+	java.util.Locale
+	org.junit.Assert.assertEquals
+	org.junit.Assert.assertTrue
+	org.mockito.Matchers.anyString
+	org.mockito.Mockito.verify
+	org.mockito.Mockito.when

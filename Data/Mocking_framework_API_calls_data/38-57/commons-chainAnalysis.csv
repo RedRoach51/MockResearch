@@ -1,8 +1,8 @@
 method, origin, count
-initMocks,org.mockito.MockitoAnnotations,2
-thenReturn,org.mockito.stubbing.OngoingStubbing<java.lang.Object>,4
-when,org.mockito.Mockito,10
-anyString,org.mockito.Matchers,2
+initMocks,org.mockito.MockitoAnnotations,1
+thenReturn,org.mockito.stubbing.OngoingStubbing<java.lang.Object>,2
+when,org.mockito.Mockito,5
+anyString,org.mockito.Matchers,1
 
 MockedObjects: ,0
 
