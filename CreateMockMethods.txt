@@ -4,4 +4,3 @@ createStrictMock
 mock
 niceMock
 strictMock
-build
