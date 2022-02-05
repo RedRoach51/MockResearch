@@ -44,6 +44,12 @@ public class DependecyMockedCalculation {
 		
 		for(int i = 0; i<fileContent.size();i++) {
 			
+			if(fileContent.get(i).contains(".java") && fileContent.get(i).contains("/")) {//start of a file
+				files.add(fileContent.get(i));
+				file_counter ++;
+				class_counter = 0;
+				
+			}
 			
 			if(i == fileContent.size()-1) {
 				class_counter++;
@@ -51,20 +57,20 @@ public class DependecyMockedCalculation {
 				break;
 			}
 			
-			if(fileContent.get(i).contains(".java") && fileContent.get(i).contains("/")) {
-				files.add(fileContent.get(i));
-				file_counter ++;
-				class_counter = 0;
-			}
-			
 			else if((fileContent.get(i+1).contains(".java") && fileContent.get(i+1).contains("/"))) {//end of a file
 				
-				class_counter++;
+				
+				if(!fileContent.get(i).contains(".java") && !fileContent.get(i).contains("/")) {
+					class_counter++;
+				}
+				
 				num_of_dependencies.add(Integer.toString(class_counter));
 			}
 			
 			else {
-				class_counter ++;
+				if(!fileContent.get(i).contains(".java") && !fileContent.get(i).contains("/")) {
+					class_counter++;
+				}
 			}
 		}
 		

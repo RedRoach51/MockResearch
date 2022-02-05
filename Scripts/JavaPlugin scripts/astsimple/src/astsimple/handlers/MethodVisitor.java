@@ -4,8 +4,10 @@ import java.util.ArrayList;
 import java.util.List;
 
 import org.eclipse.jdt.core.dom.ASTVisitor;
+import org.eclipse.jdt.core.dom.ClassInstanceCreation;
 import org.eclipse.jdt.core.dom.MethodDeclaration;
 import org.eclipse.jdt.core.dom.MethodInvocation;
+import org.eclipse.jdt.core.dom.TypeDeclaration;
 
 
 public class MethodVisitor extends ASTVisitor{
@@ -35,6 +37,38 @@ public class MethodVisitor extends ASTVisitor{
     public List<MethodInvocation> getMethodInvocations(){
     	return methodInvocation;
     }
+    
+    
+    List<TypeDeclaration> TypeDeclaration = new ArrayList<>();
+    
+    @Override
+    public boolean visit(TypeDeclaration node) {
+    	
+    	TypeDeclaration.add(node);
+    	return super.visit(node);
+    }
+    
+    public List<TypeDeclaration> getTypeDeclarations(){
+    	return TypeDeclaration;
+    }
+    
+    
+    
+    List<ClassInstanceCreation> ClassCreation = new ArrayList<>();
+    
+    @Override
+    public boolean visit(ClassInstanceCreation node) {
+    	
+    	ClassCreation.add(node);
+    	return super.visit(node);
+    }
+    
+    public List<ClassInstanceCreation> getClassCreation(){
+    	return ClassCreation;
+    }
+    
+    
+    
     
     
 }

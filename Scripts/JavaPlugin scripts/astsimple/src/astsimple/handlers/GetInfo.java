@@ -24,12 +24,14 @@ import org.eclipse.jdt.core.JavaCore;
 import org.eclipse.jdt.core.JavaModelException;
 import org.eclipse.jdt.core.dom.AST;
 import org.eclipse.jdt.core.dom.ASTParser;
+import org.eclipse.jdt.core.dom.ClassInstanceCreation;
 import org.eclipse.jdt.core.dom.CompilationUnit;
 import org.eclipse.jdt.core.dom.FieldDeclaration;
 import org.eclipse.jdt.core.dom.ITypeBinding;
 import org.eclipse.jdt.core.dom.ImportDeclaration;
 import org.eclipse.jdt.core.dom.MethodDeclaration;
 import org.eclipse.jdt.core.dom.MethodInvocation;
+import org.eclipse.jdt.core.dom.TypeDeclaration;
 
 public class GetInfo extends AbstractHandler{
 	private static final String JDT_NATURE = "org.eclipse.jdt.core.javanature";
@@ -49,6 +51,8 @@ public class GetInfo extends AbstractHandler{
 	private ArrayList<String> ALL = new ArrayList<>();
 //	private ArrayList<String> mock_methodnames = new ArrayList<>(Arrays.asList("mock","createMock","createNiceMock"));
 	private ArrayList<String> mock_methodnames = new ArrayList<>();
+	private ArrayList<String> mock_methodnames_springframework = new ArrayList<>();
+	
 	
 	private ArrayList<String> mocked_classes = new ArrayList<>();//separarated by single file
 	private ArrayList<String> mocked_classes_2 = new ArrayList<>();//not separated by single file, all mocked classes in one projet.
@@ -76,6 +80,16 @@ public class GetInfo extends AbstractHandler{
 			while(sc.hasNextLine()) {
 				mock_methodnames.add(sc.nextLine());
 			}
+			
+			File file2 = new File("D:\\Stevens\\2021 summer general\\SpringframeworkMockMethods.txt");
+			Scanner sc2 = new Scanner(file2);
+			
+			while(sc2.hasNextLine()) {
+				mock_methodnames_springframework.add(sc2.nextLine());
+			}
+			
+			
+			
 		} catch (FileNotFoundException e1) {
 			// TODO Auto-generated catch block
 			e1.printStackTrace();
@@ -164,12 +178,63 @@ public class GetInfo extends AbstractHandler{
         	
         	
         	
+        	
+        	
+        	
+//        	this is only for the case when we need to the the mocked classes from springframework methods, thus  
+        	for(ClassInstanceCreation creation : visitor.getClassCreation()) {//method level
+        		
+        		if(mock_methodnames_springframework.contains(creation.getType().toString())) {
+        			
+        			
+        			if(file_stated == false) {
+        				
+        				System.out.println(unit.getPath().toString());
+            			System.out.println("Methods Invoked: ");
+        				
+        				ALL.add(unit.getPath().toString());
+            			ALL.add("Methods Invoked: ");
+            			
+            			all_imports.add(unit.getPath().toString());
+            			
+            			mocked_classes.add(unit.getPath().toString());
+              	      
+            			file_stated = true;
+            		}
+        			
+        			
+        			
+        			
+
+        			
+        			if(creation.resolveTypeBinding().getInterfaces().length > 0) {
+//        				System.out.println("aaaaaaaaaaaaaaaaaaaa" + creation.resolveTypeBinding().getInterfaces().length);
+            			System.out.println("aaaaaaaaaaaaaaaaaaaa" + creation.resolveTypeBinding().getInterfaces()[0].getQualifiedName());
+            			
+            			mocked_classes.add("	"+ creation.resolveTypeBinding().getInterfaces()[0].getQualifiedName());
+            			mocked_classes_2.add( creation.resolveTypeBinding().getInterfaces()[0].getQualifiedName());
+        			}
+        			else {
+        				System.out.println("bbbbbbbbbbbbbbbbbbbb" + creation.resolveTypeBinding().getSuperclass().getQualifiedName());
+        				
+        				mocked_classes.add("	"+creation.resolveTypeBinding().getSuperclass().getQualifiedName());
+        				mocked_classes_2.add(creation.resolveTypeBinding().getSuperclass().getQualifiedName());
+        			}
+        			
+        			
+        		}
+        		
+        		
+        	}
+        	
+        	
+        	
             for(MethodInvocation method: visitor.getMethodInvocations()) {//method level
             	
             	
             	
             	
-//            	System.out.println("	Method Name: "+method.getName());
+//            	System.out.println("	Method Name: "+method.getName());if(
             	if(method.resolveMethodBinding() != null && method.resolveMethodBinding().getDeclaringClass()!= null
             			&& (method.resolveMethodBinding().getDeclaringClass().getQualifiedName()
             			.toLowerCase().contains("mock")&&!method.resolveMethodBinding().getDeclaringClass().getQualifiedName()
@@ -365,7 +430,7 @@ public class GetInfo extends AbstractHandler{
     	
 //    	String target = project.getName();
     	
-    	String target = "credur-whisker";
+    	String target = "any23";
     	
     	
 //    	PrintWriter writer = new PrintWriter("D:\\Stevens\\2021 summer general\\Mocking framework API calls data"
@@ -432,6 +497,8 @@ public class GetInfo extends AbstractHandler{
     	System.out.println("these are all the imports");
     	System.out.println(all_imports.size());
     	all_imports.clear();
+    	
+    	System.out.println(mock_methodnames_springframework);
     	
     	mocked_classes_2.clear();
     }

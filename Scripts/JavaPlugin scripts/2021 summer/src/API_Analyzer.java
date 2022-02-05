@@ -45,7 +45,7 @@ public class API_Analyzer {
 			
 			));
 	
-	public static String target = "apex-core";
+//	public static String target = "apex-core";
 	
 	
 	
@@ -313,7 +313,7 @@ public class API_Analyzer {
 		
 		GoOverALLFiles(folder);
 		
-		File RQ4_needed = new File("D:\\Stevens\\2021_summer_project\\UndProjects\\AllMockImports.csv");
+		File RQ4_needed = new File("D:\\Stevens\\2021_summer_project\\project folders 58-78\\UndProjects\\AllMockImports.csv");
 		
 		Analyze2(RQ4_needed);
 		
