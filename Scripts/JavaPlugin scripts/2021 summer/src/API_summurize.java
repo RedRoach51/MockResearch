@@ -27,7 +27,8 @@ public class API_summurize {
 	
 	static ArrayList<String> to_be_excluded = new ArrayList<>(Arrays.asList("okhttp3","org","io","com","compile","google","api","net","jvnet","javacrumbs"));
 	
-	
+	// "File path to directory where output data from GetInfo is stored."
+	private static String OutputDirectoryPath = "E:\\eclipse\\SummerResearch";
 	
 	
 	
@@ -107,7 +108,7 @@ public class API_summurize {
 	}
 	
 	public static void output2() throws IOException {
-		FileWriter newFile = new FileWriter("D:\\\\Stevens\\\\2021 summer general\\\\RQ2\\\\mocked objects in single file summary (not filtered).csv");
+		FileWriter newFile = new FileWriter(OutputDirectoryPath + "\\RQ2\\mocked objects in single file summary (not filtered).csv");
 		
 		newFile.append("# of Mocked objects in a single file, count");
 		newFile.append("\n");
@@ -419,7 +420,7 @@ public class API_summurize {
 			}
 			
 			try {
-				FileWriter newFile = new FileWriter("D:\\Stevens\\2021 summer general\\RQ2\\Mocking frameworks API usage summary\\" + frameworks.get(i) +".csv");
+				FileWriter newFile = new FileWriter(OutputDirectoryPath + "\\RQ2\\Mocking frameworks API usage summary\\" + frameworks.get(i) +".csv");
 				
 				newFile.append("method, origin, count");
 				newFile.append("\n");
@@ -442,13 +443,13 @@ public class API_summurize {
 	}
 	
 	public static void main(String[] args) throws IOException {
-		final File folder = new File("D:\\Stevens\\2021 summer general\\Mocking framework API calls data");
+		final File folder = new File(OutputDirectoryPath + "\\Mocking framework API calls data");
 		
 		ReadALLFiles(folder);
 		
 		System.out.println(fileContent.size());
 		
-		final File folder2 = new File("D:\\\\Stevens\\\\2021 summer general\\\\RQ2\\\\single file mocked classes");
+		final File folder2 = new File(OutputDirectoryPath + "\\RQ2\\single file mocked classes");
 		ReadAll2(folder2);
 		
 		

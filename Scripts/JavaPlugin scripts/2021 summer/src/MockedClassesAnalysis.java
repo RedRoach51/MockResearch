@@ -27,6 +27,10 @@ public class MockedClassesAnalysis {
 	static ArrayList<String> outsideClassName = new ArrayList<>();
 	static ArrayList<Integer> outsideCount = new ArrayList<>();
 	
+	// "File path to directory where output data from GetInfo is stored."
+	private static String OutputDirectoryPath = "E:\\eclipse\\SummerResearch";
+	// "File path to directory where UnderstandProject info is stored."
+	private static String UndProjectPath = "C:\\Users\\RedRo\\OneDrive\\Documents\\Academic Texts\\Summer Research\\UndProjects";
 	
 	
 
@@ -106,7 +110,7 @@ public class MockedClassesAnalysis {
 		}
 		
 		
-		PrintWriter writer = new PrintWriter ("D:\\Stevens\\2021 summer general\\RQ3\\RQ3 result\\" + ProjectName + " filtered mocked classes.txt", "UTF-8");
+		PrintWriter writer = new PrintWriter (OutputDirectoryPath + "\\RQ3\\RQ3 result\\" + ProjectName + " filtered mocked classes.txt", "UTF-8");
 		
 		writer.println("Inside classes: ");
 		writer.println(" ");
@@ -146,7 +150,7 @@ public class MockedClassesAnalysis {
 		
 		
 		
-		FileWriter newFile = new FileWriter("D:\\Stevens\\2021 summer general\\RQ3\\RQ3 result\\summary.csv");
+		FileWriter newFile = new FileWriter(OutputDirectoryPath + "RQ3\\RQ3 result\\summary.csv");
 		
 		newFile.append("project name, variety of inside mocked classes, variety of outside mocked classes, proportion of mocked classes");
 		newFile.append("\n");
@@ -195,7 +199,7 @@ public class MockedClassesAnalysis {
 		int test = 0;
 		int rest = 0;
 		
-		Scanner reader = new Scanner (new File("D:\\Stevens\\2021_summer_project\\UndProjects\\AllMetrics.csv"));
+		Scanner reader = new Scanner (new File(UndProjectPath + "\\AllMetrics.csv"));
 		
 		while(reader.hasNextLine()) {
 			metricContent.add(reader.nextLine());
@@ -260,7 +264,7 @@ public class MockedClassesAnalysis {
 	
 	
 	public static void output2() throws IOException {
-		FileWriter newFile = new FileWriter("D:\\Stevens\\2021 summer general\\RQ3\\RQ3 result\\proportion of mocked classes.csv");
+		FileWriter newFile = new FileWriter(OutputDirectoryPath + "\\RQ3\\RQ3 result\\proportion of mocked classes.csv");
 		
 		newFile.append("project name, # of total classes created, # of inside classes mocked");
 		newFile.append("\n");
@@ -301,7 +305,7 @@ public class MockedClassesAnalysis {
 	}
 	
 	public static void output3() throws IOException {
-		FileWriter newFile = new FileWriter("D:\\Stevens\\2021 summer general\\RQ3\\RQ3 result\\outside mocked classes summary.csv");
+		FileWriter newFile = new FileWriter(OutputDirectoryPath + "\\RQ3\\RQ3 result\\outside mocked classes summary.csv");
 		
 		newFile.append("class name, frequency");
 		newFile.append("\n");
@@ -327,7 +331,7 @@ public class MockedClassesAnalysis {
 //		
 //		System.out.println(a.substring(0,b));
 		
-		final File folder = new File("D:\\Stevens\\2021 summer general\\RQ3\\RQ3 data");
+		final File folder = new File(OutputDirectoryPath + "\\RQ3\\RQ3 data");
 		ReadAllFiles(folder);
 				
 		

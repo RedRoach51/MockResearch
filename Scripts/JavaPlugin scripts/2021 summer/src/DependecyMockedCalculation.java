@@ -12,6 +12,9 @@ public class DependecyMockedCalculation {
 	static ArrayList<String> num_of_dependencies = new ArrayList<>();
 	static ArrayList<String> num_of_mocked = new ArrayList<>();
 	
+	// "File path to directory where output data from GetInfo is stored."
+	private static String OutputDirectoryPath = "E:\\eclipse\\SummerResearch";
+	
 	
 	public static void ReadAll1(final File folder, final File folder2) throws FileNotFoundException, IOException{//import classes
 		
@@ -156,7 +159,7 @@ public class DependecyMockedCalculation {
 	}
 	
 	public static void output() throws IOException {
-		FileWriter newFile = new FileWriter("D:\\Stevens\\2021 summer general\\RQ2\\mocked dependencies calculation summary.csv");
+		FileWriter newFile = new FileWriter(OutputDirectoryPath + "\\RQ2\\mocked dependencies calculation summary.csv");
 		
 		newFile.append("project name, file path, num of dependency classes, num of mocked classes");
 		newFile.append("\n");
@@ -188,8 +191,8 @@ public class DependecyMockedCalculation {
 	public static void main (String[] args) throws IOException {
 		
 		
-		final File folder1 = new File("D:\\Stevens\\2021 summer general\\RQ2\\single file import classes");
-		final File folder2 = new File("D:\\Stevens\\2021 summer general\\RQ2\\single file mocked classes");
+		final File folder1 = new File(OutputDirectoryPath + "\\RQ2\\single file import classes");
+		final File folder2 = new File(OutputDirectoryPath + "\\RQ2\\single file mocked classes");
 		ReadAll1(folder1, folder2);
 				
 		

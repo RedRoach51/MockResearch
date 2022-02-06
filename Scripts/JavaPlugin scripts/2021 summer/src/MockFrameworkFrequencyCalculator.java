@@ -16,12 +16,17 @@ public class MockFrameworkFrequencyCalculator {
 	
 	static boolean second_time = false;
 	
+	// "File path to directory where output data from GetInfo is stored."
+	private static String OutputDirectoryPath = "E:\\eclipse\\SummerResearch";
+	// "File path to directory where UnderstandProject info is stored."
+	private static String UndProjectPath = "C:\\Users\\RedRo\\OneDrive\\Documents\\Academic Texts\\Summer Research\\UndProjects";
+	
 	public static void main (String[] args) throws FileNotFoundException {
 		
 		int project_with_multiple_frameworks = 0;
 		
 		
-		Scanner reader = new Scanner (new File("D:\\Stevens\\2021_summer_project\\UndProjects\\AllMockFrameworks.csv"));
+		Scanner reader = new Scanner (new File(UndProjectPath + "\\AllMockFrameworks.csv"));
 		
 		while(reader.hasNextLine()) {
 			fileContent.add(reader.nextLine());
@@ -61,7 +66,7 @@ public class MockFrameworkFrequencyCalculator {
 		
 		
 		try {
-			FileWriter newFile = new FileWriter("D:\\Stevens\\2021 summer general\\RQ2\\FrequencyByProject.csv");
+			FileWriter newFile = new FileWriter(OutputDirectoryPath + "\\RQ2\\FrequencyByProject.csv");
 			
 			newFile.append("Framework, count");
 			newFile.append("\n");

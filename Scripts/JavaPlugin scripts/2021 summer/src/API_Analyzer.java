@@ -47,6 +47,11 @@ public class API_Analyzer {
 	
 //	public static String target = "apex-core";
 	
+	// "File path to directory where output data from GetInfo is stored."
+	private static String OutputDirectoryPath = "E:\\eclipse\\SummerResearch";
+	// "File path to directory where UnderstandProject info is stored."
+	private static String UndProjectPath = "C:\\Users\\RedRo\\OneDrive\\Documents\\Academic Texts\\Summer Research\\UndProjects";
+	
 	
 	
 	public static void GoOverALLFiles(final File folder) throws FileNotFoundException {
@@ -159,7 +164,7 @@ public class API_Analyzer {
 		
 		
 		try {
-			FileWriter newFile = new FileWriter("D:\\Stevens\\2021 summer general\\Mocking framework API calls data\\" + file.getName().substring(0,positionOfDot) +"Analysis.csv");
+			FileWriter newFile = new FileWriter(OutputDirectoryPath + "\\Mocking framework API calls data\\" + file.getName().substring(0,positionOfDot) +"Analysis.csv");
 			
 			newFile.append("method, origin, count");
 			newFile.append("\n");
@@ -255,7 +260,7 @@ public class API_Analyzer {
 		
 		
 		try {
-			FileWriter newFile = new FileWriter("D:\\Stevens\\2021 summer general\\RQ4\\" +"non-test files with mocking framework" +".csv");
+			FileWriter newFile = new FileWriter(OutputDirectoryPath + "\\RQ4\\" + "non-test files with mocking framework" +".csv");
 			
 			newFile.append("project name, file path");
 			newFile.append("\n");
@@ -307,13 +312,13 @@ public class API_Analyzer {
 		
 //		test.Analyze();
 		
-		final File folder = new File("D:\\Stevens\\2021 summer general\\Mocking framework API calls data");
+		final File folder = new File(OutputDirectoryPath + "\\Mocking framework API calls data");
 		
 //		final File folder = new File("D:\\Stevens\\2021 summer general\\test");
 		
 		GoOverALLFiles(folder);
 		
-		File RQ4_needed = new File("D:\\Stevens\\2021_summer_project\\project folders 58-78\\UndProjects\\AllMockImports.csv");
+		File RQ4_needed = new File(UndProjectPath + "\\AllMockImports.csv");
 		
 		Analyze2(RQ4_needed);
 		

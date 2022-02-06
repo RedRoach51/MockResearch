@@ -59,7 +59,10 @@ public class GetInfo extends AbstractHandler{
 	
 	private ArrayList<String> all_imports = new ArrayList<>();
 	
-	
+	// "File path to the MockResarch repository, used to gather and use relevant files/scripts."
+	private String MockResarchRepoPath = "C:\\Users\\RedRo\\OneDrive\\Documents\\Academic Texts\\Summer Research\\MockResearch";
+	// "File path to directory where output will be located."
+	private String OutputDirectoryPath = "E:\\eclipse\\SummerResearch";
 	
 
     @Override
@@ -74,14 +77,14 @@ public class GetInfo extends AbstractHandler{
         
         try {
 //        	!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-        	File file = new File("D:\\Stevens\\2021 summer general\\CreateMockMethods.txt");
+        	File file = new File(MockResarchRepoPath + "\\CreateMockMethods.txt");
 			Scanner sc = new Scanner(file);
 			
 			while(sc.hasNextLine()) {
 				mock_methodnames.add(sc.nextLine());
 			}
 			
-			File file2 = new File("D:\\Stevens\\2021 summer general\\SpringframeworkMockMethods.txt");
+			File file2 = new File(MockResarchRepoPath + "\\SpringframeworkMockMethods.txt");
 			Scanner sc2 = new Scanner(file2);
 			
 			while(sc2.hasNextLine()) {
@@ -441,7 +444,7 @@ public class GetInfo extends AbstractHandler{
 //    	
 //    	writer.close();
     	
-    	PrintWriter writer = new PrintWriter("D:\\Stevens\\2021 summer general\\Mocking framework API calls data\\"
+    	PrintWriter writer = new PrintWriter(OutputDirectoryPath + "\\Mocking framework API calls data\\"
 				+ target + ".txt", "UTF-8");
     	
     	
@@ -452,7 +455,7 @@ public class GetInfo extends AbstractHandler{
     	writer.close();
     	
     	
-    	PrintWriter writer2 = new PrintWriter("D:\\Stevens\\2021 summer general\\RQ3\\RQ3 data\\" + target + 
+    	PrintWriter writer2 = new PrintWriter(OutputDirectoryPath + "\\RQ3\\RQ3 data\\" + target + 
     			"Mocked classes.txt","UTF-8");
     	
     	for(String item: mocked_classes_2) {
@@ -462,7 +465,7 @@ public class GetInfo extends AbstractHandler{
     	writer2.close();
     	
     	
-    	PrintWriter writer3 = new PrintWriter("D:\\Stevens\\2021 summer general\\RQ2\\single file import classes\\" + target + 
+    	PrintWriter writer3 = new PrintWriter(OutputDirectoryPath + "\\RQ2\\single file import classes\\" + target + 
     			" Import classes .txt","UTF-8");
     	
     	for(String item: all_imports) {
@@ -472,7 +475,7 @@ public class GetInfo extends AbstractHandler{
     	writer3.close();
     	
     	
-    	PrintWriter writer4 = new PrintWriter("D:\\Stevens\\2021 summer general\\RQ2\\single file mocked classes\\" + target + 
+    	PrintWriter writer4 = new PrintWriter(OutputDirectoryPath + "\\RQ2\\single file mocked classes\\" + target + 
     			"Mocked classes by file.txt","UTF-8");
     	
     	for(String item: mocked_classes) {
