@@ -28,7 +28,7 @@ public class MockedClassesAnalysis {
 	static ArrayList<Integer> outsideCount = new ArrayList<>();
 	
 	// "File path to directory where output data from GetInfo is stored."
-	private static String OutputDirectoryPath = "E:\\eclipse\\SummerResearch";
+	private static String OutputDirectoryPath = "E:\\eclipse\\SummerResearch2";
 	// "File path to directory where UnderstandProject info is stored."
 	private static String UndProjectPath = "C:\\Users\\RedRo\\OneDrive\\Documents\\Academic Texts\\Summer Research\\UndProjects";
 	
@@ -150,7 +150,7 @@ public class MockedClassesAnalysis {
 		
 		
 		
-		FileWriter newFile = new FileWriter(OutputDirectoryPath + "RQ3\\RQ3 result\\summary.csv");
+		FileWriter newFile = new FileWriter(OutputDirectoryPath + "\\RQ3\\RQ3 result\\summary.csv");
 		
 		newFile.append("project name, variety of inside mocked classes, variety of outside mocked classes, proportion of mocked classes");
 		newFile.append("\n");

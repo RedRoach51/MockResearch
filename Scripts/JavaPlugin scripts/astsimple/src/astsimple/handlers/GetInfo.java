@@ -62,7 +62,10 @@ public class GetInfo extends AbstractHandler{
 	// "File path to the MockResarch repository, used to gather and use relevant files/scripts."
 	private String MockResarchRepoPath = "C:\\Users\\RedRo\\OneDrive\\Documents\\Academic Texts\\Summer Research\\MockResearch";
 	// "File path to directory where output will be located."
-	private String OutputDirectoryPath = "E:\\eclipse\\SummerResearch";
+	private String OutputDirectoryPath = "E:\\eclipse\\SummerResearch2";
+	
+	// "Label of output files. (XXX.txt, etc.) Set to name of Java Project analyzed, or leave null to attempt to auto-read project name."
+	private String target = null;
 	
 
     @Override
@@ -207,18 +210,20 @@ public class GetInfo extends AbstractHandler{
         			
         			
         			
-        			
+        			if (creation.resolveTypeBinding() == null) {
+        				continue;
+        			}
 
         			
         			if(creation.resolveTypeBinding().getInterfaces().length > 0) {
 //        				System.out.println("aaaaaaaaaaaaaaaaaaaa" + creation.resolveTypeBinding().getInterfaces().length);
-            			System.out.println("aaaaaaaaaaaaaaaaaaaa" + creation.resolveTypeBinding().getInterfaces()[0].getQualifiedName());
+            			System.out.println("Implement - " + creation.resolveTypeBinding().getInterfaces()[0].getQualifiedName());
             			
             			mocked_classes.add("	"+ creation.resolveTypeBinding().getInterfaces()[0].getQualifiedName());
             			mocked_classes_2.add( creation.resolveTypeBinding().getInterfaces()[0].getQualifiedName());
         			}
         			else {
-        				System.out.println("bbbbbbbbbbbbbbbbbbbb" + creation.resolveTypeBinding().getSuperclass().getQualifiedName());
+        				System.out.println("Extend - " + creation.resolveTypeBinding().getSuperclass().getQualifiedName());
         				
         				mocked_classes.add("	"+creation.resolveTypeBinding().getSuperclass().getQualifiedName());
         				mocked_classes_2.add(creation.resolveTypeBinding().getSuperclass().getQualifiedName());
@@ -431,9 +436,12 @@ public class GetInfo extends AbstractHandler{
     
     private void outputTXT(IProject project) throws IOException{
     	
+    	if (target == null) {
+    		target = project.getName();
+    	}
 //    	String target = project.getName();
     	
-    	String target = "any23";
+//    	String target = "any23";
     	
     	
 //    	PrintWriter writer = new PrintWriter("D:\\Stevens\\2021 summer general\\Mocking framework API calls data"
