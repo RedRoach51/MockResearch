@@ -52,6 +52,7 @@ public class GetInfo extends AbstractHandler{
 //	private ArrayList<String> mock_methodnames = new ArrayList<>(Arrays.asList("mock","createMock","createNiceMock"));
 	private ArrayList<String> mock_methodnames = new ArrayList<>();
 	private ArrayList<String> mock_methodnames_springframework = new ArrayList<>();
+	private ArrayList<String> mock_methodnames_springframework_special = new ArrayList<>();
 	
 	
 	private ArrayList<String> mocked_classes = new ArrayList<>();//separarated by single file
@@ -87,11 +88,18 @@ public class GetInfo extends AbstractHandler{
 				mock_methodnames.add(sc.nextLine());
 			}
 			
-			File file2 = new File(MockResarchRepoPath + "\\SpringframeworkMockMethods.txt");
+			File file2 = new File(MockResarchRepoPath + "\\SpringframeworkMockMethods_fullname.txt");
 			Scanner sc2 = new Scanner(file2);
 			
 			while(sc2.hasNextLine()) {
 				mock_methodnames_springframework.add(sc2.nextLine());
+			}
+
+			File file3 = new File(MockResarchRepoPath + "SpringframeworkMockMethods_special.txt");
+			Scanner sc3 = new Scanner(file3);
+			
+			while(sc3.hasNextLine()) {
+				mock_methodnames_springframework_special.add(sc3.nextLine());
 			}
 			
 			
@@ -189,10 +197,19 @@ public class GetInfo extends AbstractHandler{
         	
 //        	this is only for the case when we need to the the mocked classes from springframework methods, thus  
         	for(ClassInstanceCreation creation : visitor.getClassCreation()) {//method level
+
+				if(creation.resolveTypeBinding() == null) {
+    				continue;
+    			}
         		
-        		if(mock_methodnames_springframework.contains(creation.getType().toString())) {
+        		// if(mock_methodnames_springframework.contains(creation.getType().toString())) {
+				if(mock_methodnames_springframework.contains((creation.resolveTypeBinding().getQualifiedName()))){
         			
-        			
+        			if (creation.resolveTypeBinding() == null) {
+        				continue;
+        			}
+
+
         			if(file_stated == false) {
         				
         				System.out.println(unit.getPath().toString());
@@ -210,9 +227,7 @@ public class GetInfo extends AbstractHandler{
         			
         			
         			
-        			if (creation.resolveTypeBinding() == null) {
-        				continue;
-        			}
+        			
 
         			
         			if(creation.resolveTypeBinding().getInterfaces().length > 0) {
@@ -368,6 +383,13 @@ public class GetInfo extends AbstractHandler{
                 		mocked_classes.add("	" + method.resolveTypeBinding().getQualifiedName());
                 		mocked_classes_2.add(method.resolveTypeBinding().getQualifiedName());
                 		
+                	}
+
+					if(method.getName().toString().equals("build")   &&  
+                			mock_methodnames_springframework_special.contains(method.resolveMethodBinding().getDeclaringClass().getQualifiedName())) {
+                		System.out.println(method.resolveMethodBinding().getDeclaringClass().getQualifiedName());
+                		mocked_classes.add("	" + method.getParent().toString());
+                		mocked_classes_2.add(method.getParent().toString());
                 	}
 
             	}
