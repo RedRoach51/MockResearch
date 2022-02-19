@@ -1,3 +1,5 @@
+/hop-action-columnsexist/src/test/java/org/apache/hop/workflow/actions/columnsexist/WorkflowActionColumnsExistTest.java
+Methods Invoked: 
 	Method name: spy
 	Class origin: org.mockito.Mockito
 	Count: 2
@@ -6,6 +8,8 @@
 	Class origin: org.mockito.Mockito
 	Count: 1
  
+/hop-action-copyfiles/src/test/java/org/apache/hop/workflow/actions/copyfiles/WorkflowActionCopyFilesTest.java
+Methods Invoked: 
 	Method name: mock
 	Class origin: org.mockito.Mockito
 	Count: 1
@@ -26,6 +30,8 @@
 	Class origin: org.mockito.Matchers
 	Count: 9
  
+/hop-action-deletefiles/src/test/java/org/apache/hop/workflow/actions/deletefiles/WorkflowEntryDeleteFilesTest.java
+Methods Invoked: 
 	Method name: mock
 	Class origin: org.mockito.Mockito
 	Count: 2
@@ -38,10 +44,14 @@
 	Class origin: org.mockito.Mockito
 	Count: 2
  
+/hop-action-evaluatetablecontent/src/test/java/org/apache/hop/workflow/actions/evaluatetablecontent/MockDriver.java
+Methods Invoked: 
 	Method name: mock
 	Class origin: org.mockito.Mockito
 	Count: 4
  
+/hop-action-evaluatetablecontent/src/test/java/org/apache/hop/workflow/actions/evaluatetablecontent/WorkflowActionEvalTableContentTest.java
+Methods Invoked: 
 	Method name: mock
 	Class origin: org.mockito.Mockito
 	Count: 1
@@ -58,22 +68,32 @@
 	Class origin: org.mockito.Matchers
 	Count: 1
  
+/hop-action-filesexist/src/test/java/org/apache/hop/workflow/actions/filesexist/WorkflowActionFilesExistTest.java
+Methods Invoked: 
 	Method name: mock
 	Class origin: org.mockito.Mockito
 	Count: 1
  
+/hop-action-folderisempty/src/test/java/org/apache/hop/workflow/actions/folderisempty/WorkflowActionFolderIsEmptyTest.java
+Methods Invoked: 
 	Method name: mock
 	Class origin: org.mockito.Mockito
 	Count: 1
  
+/hop-action-ftp/src/test/java/org/apache/hop/workflow/actions/sftp/SftpClientTest.java
+Methods Invoked: 
 	Method name: mock
 	Class origin: org.mockito.Mockito
 	Count: 4
  
+/hop-action-getpop/src/test/java/org/apache/hop/workflow/actions/getpop/MailConnectionTest.java
+Methods Invoked: 
 	Method name: mock
 	Class origin: org.mockito.Mockito
 	Count: 5
  
+/hop-action-getpop/src/test/java/org/apache/hop/workflow/actions/getpop/WorkflowEntryGetPOPTest.java
+Methods Invoked: 
 	Method name: initMocks
 	Class origin: org.mockito.MockitoAnnotations
 	Count: 1
@@ -86,6 +106,8 @@
 	Class origin: org.mockito.stubbing.OngoingStubbing<java.lang.Integer>
 	Count: 2
  
+/hop-action-pipeline/src/test/java/org/apache/hop/workflow/actions/pipeline/WorkflowEntryPipelineDialogTest.java
+Methods Invoked: 
 	Method name: mock
 	Class origin: org.mockito.Mockito
 	Count: 1
@@ -102,10 +124,14 @@
 	Class origin: org.mockito.Matchers
 	Count: 1
  
+/hop-action-setvariables/src/test/java/org/apache/hop/workflow/actions/setvariables/WorkflowEntrySetVariablesTest.java
+Methods Invoked: 
 	Method name: mock
 	Class origin: org.mockito.Mockito
 	Count: 4
  
+/hop-action-shell/src/test/java/org/apache/hop/workflow/actions/shell/WorkflowActionShellTest.java
+Methods Invoked: 
 	Method name: initMocks
 	Class origin: org.mockito.MockitoAnnotations
 	Count: 1
@@ -126,6 +152,8 @@
 	Class origin: org.mockito.Mockito
 	Count: 1
  
+/hop-action-unzip/src/test/java/org/apache/hop/workflow/actions/unzip/WorkflowActionUnZipTest.java
+Methods Invoked: 
 	Method name: mock
 	Class origin: org.mockito.Mockito
 	Count: 4
@@ -138,6 +166,8 @@
 	Class origin: org.mockito.Mockito
 	Count: 1
  
+/hop-action-writetolog/src/test/java/org/apache/hop/workflow/actions/writetolog/WorkflowActionWriteToLogTest.java
+Methods Invoked: 
 	Method name: mock
 	Class origin: org.mockito.Mockito
 	Count: 1
@@ -162,22 +192,32 @@
 	Class origin: org.mockito.Mockito
 	Count: 2
  
+/hop-action-zipfile/src/test/java/org/apache/hop/workflow/actions/zipfile/ZipWorkflowEntryPatternFileSelectorTest.java
+Methods Invoked: 
 	Method name: mock
 	Class origin: org.mockito.Mockito
 	Count: 3
  
+/hop-core/src/test/java/org/apache/hop/core/HopAttributeTest.java
+Methods Invoked: 
 	Method name: mock
 	Class origin: org.mockito.Mockito
 	Count: 1
  
+/hop-core/src/test/java/org/apache/hop/core/SqlStatementTest.java
+Methods Invoked: 
 	Method name: mock
 	Class origin: org.mockito.Mockito
 	Count: 1
  
+/hop-core/src/test/java/org/apache/hop/core/WriterOutputStreamTest.java
+Methods Invoked: 
 	Method name: mock
 	Class origin: org.mockito.Mockito
 	Count: 3
  
+/hop-core/src/test/java/org/apache/hop/core/CheckResultTest.java
+Methods Invoked: 
 	Method name: mock
 	Class origin: org.mockito.Mockito
 	Count: 1
@@ -190,10 +230,14 @@
 	Class origin: org.mockito.Mockito
 	Count: 1
  
+/hop-core/src/test/java/org/apache/hop/core/database/DatabaseConnectingTest.java
+Methods Invoked: 
 	Method name: mock
 	Class origin: org.mockito.Mockito
 	Count: 7
  
+/hop-core/src/test/java/org/apache/hop/core/database/DatabaseMetaTest.java
+Methods Invoked: 
 	Method name: mock
 	Class origin: org.mockito.Mockito
 	Count: 9
@@ -206,14 +250,20 @@
 	Class origin: org.mockito.Mockito
 	Count: 7
  
+/hop-core/src/test/java/org/apache/hop/core/database/DatabaseTest.java
+Methods Invoked: 
 	Method name: mock
 	Class origin: org.mockito.Mockito
 	Count: 17
  
+/hop-core/src/test/java/org/apache/hop/core/database/BaseDatabaseMetaTest.java
+Methods Invoked: 
 	Method name: mock
 	Class origin: org.mockito.Mockito
 	Count: 4
  
+/hop-core/src/test/java/org/apache/hop/core/extension/ExtensionPointHandlerTest.java
+Methods Invoked: 
 	Method name: mock
 	Class origin: org.mockito.Mockito
 	Count: 3
@@ -230,6 +280,8 @@
 	Class origin: org.mockito.stubbing.OngoingStubbing<java.lang.Class<>>
 	Count: 1
  
+/hop-core/src/test/java/org/apache/hop/core/extension/ExtensionPointMapTest.java
+Methods Invoked: 
 	Method name: mock
 	Class origin: org.mockito.Mockito
 	Count: 2
@@ -246,14 +298,20 @@
 	Class origin: org.mockito.stubbing.OngoingStubbing<java.lang.Class<>>
 	Count: 1
  
+/hop-core/src/test/java/org/apache/hop/core/extension/ExtensionPointIntegrationTest.java
+Methods Invoked: 
 	Method name: mock
 	Class origin: org.mockito.Mockito
 	Count: 2
  
+/hop-core/src/test/java/org/apache/hop/core/fileinput/FileInputListTest.java
+Methods Invoked: 
 	Method name: mock
 	Class origin: org.mockito.Mockito
 	Count: 2
  
+/hop-core/src/test/java/org/apache/hop/core/logging/LogChannelTest.java
+Methods Invoked: 
 	Method name: mock
 	Class origin: org.powermock.api.mockito.PowerMockito
 	Count: 3
@@ -262,6 +320,8 @@
 	Class origin: org.powermock.reflect.Whitebox
 	Count: 6
  
+/hop-core/src/test/java/org/apache/hop/core/logging/Slf4jLoggingEventListenerTest.java
+Methods Invoked: 
 	Method name: thenReturn
 	Class origin: org.mockito.stubbing.OngoingStubbing<java.lang.Object>
 	Count: 1
@@ -274,6 +334,8 @@
 	Class origin: org.mockito.stubbing.OngoingStubbing<java.lang.String>
 	Count: 7
  
+/hop-core/src/test/java/org/apache/hop/core/logging/LoggingPluginTypeTest.java
+Methods Invoked: 
 	Method name: mock
 	Class origin: org.mockito.Mockito
 	Count: 1
@@ -286,6 +348,8 @@
 	Class origin: org.mockito.Mockito
 	Count: 2
  
+/hop-core/src/test/java/org/apache/hop/core/parameters/DuplicateParamExceptionTest.java
+Methods Invoked: 
 	Method name: mock
 	Class origin: org.mockito.Mockito
 	Count: 1
@@ -298,6 +362,8 @@
 	Class origin: org.mockito.Mockito
 	Count: 1
  
+/hop-core/src/test/java/org/apache/hop/core/parameters/UnknownParamExceptionTest.java
+Methods Invoked: 
 	Method name: mock
 	Class origin: org.mockito.Mockito
 	Count: 1
@@ -310,10 +376,14 @@
 	Class origin: org.mockito.Mockito
 	Count: 1
  
+/hop-core/src/test/java/org/apache/hop/core/parameters/NamedParamsDefaultTest.java
+Methods Invoked: 
 	Method name: spy
 	Class origin: org.mockito.Mockito
 	Count: 1
  
+/hop-core/src/test/java/org/apache/hop/core/parameters/NamedParamsExceptionTest.java
+Methods Invoked: 
 	Method name: mock
 	Class origin: org.mockito.Mockito
 	Count: 1
@@ -326,6 +396,8 @@
 	Class origin: org.mockito.Mockito
 	Count: 1
  
+/hop-core/src/test/java/org/apache/hop/core/plugins/PluginRegistryUnitTest.java
+Methods Invoked: 
 	Method name: mock
 	Class origin: org.mockito.Mockito
 	Count: 6
@@ -342,6 +414,8 @@
 	Class origin: org.mockito.stubbing.OngoingStubbing<java.lang.Boolean>
 	Count: 5
  
+/hop-core/src/test/java/org/apache/hop/core/plugins/PluginTest.java
+Methods Invoked: 
 	Method name: mock
 	Class origin: org.mockito.Mockito
 	Count: 1
@@ -354,6 +428,8 @@
 	Class origin: org.mockito.Mockito
 	Count: 2
  
+/hop-core/src/test/java/org/apache/hop/core/row/ValueMetaAndDataTest.java
+Methods Invoked: 
 	Method name: mock
 	Class origin: org.mockito.Mockito
 	Count: 9
@@ -370,10 +446,14 @@
 	Class origin: org.mockito.Mockito
 	Count: 14
  
+/hop-core/src/test/java/org/apache/hop/core/row/RowMetaTest.java
+Methods Invoked: 
 	Method name: spy
 	Class origin: org.mockito.Mockito
 	Count: 1
  
+/hop-core/src/test/java/org/apache/hop/core/row/value/ValueMetaBaseSetPreparedStmntValueTest.java
+Methods Invoked: 
 	Method name: mock
 	Class origin: org.mockito.Mockito
 	Count: 2
@@ -386,6 +466,8 @@
 	Class origin: org.mockito.Mockito
 	Count: 1
  
+/hop-core/src/test/java/org/apache/hop/core/row/value/ValueMetaTimestampTest.java
+Methods Invoked: 
 	Method name: mock
 	Class origin: org.mockito.Mockito
 	Count: 2
@@ -410,6 +492,8 @@
 	Class origin: org.mockito.Matchers
 	Count: 1
  
+/hop-core/src/test/java/org/apache/hop/core/row/value/ValueMetaBaseTest.java
+Methods Invoked: 
 	Method name: spy
 	Class origin: org.mockito.Mockito
 	Count: 3
@@ -418,10 +502,14 @@
 	Class origin: org.mockito.Mockito
 	Count: 16
  
+/hop-core/src/test/java/org/apache/hop/core/svg/SvgImageTest.java
+Methods Invoked: 
 	Method name: mock
 	Class origin: org.mockito.Mockito
 	Count: 1
  
+/hop-core/src/test/java/org/apache/hop/core/variables/VariablesTest.java
+Methods Invoked: 
 	Method name: mock
 	Class origin: org.mockito.Mockito
 	Count: 2
@@ -438,6 +526,8 @@
 	Class origin: org.mockito.Matchers
 	Count: 1
  
+/hop-databases-generic/src/test/java/org/apache/hop/databases/generic/GenericDatabaseMetaTest.java
+Methods Invoked: 
 	Method name: mockStatic
 	Class origin: org.powermock.api.mockito.PowerMockito
 	Count: 1
@@ -458,6 +548,8 @@
 	Class origin: org.powermock.reflect.Whitebox
 	Count: 1
  
+/hop-databases-greenplum/src/test/java/org/apache/hop/databases/greenplum/GreenplumValueMetaBaseTest.java
+Methods Invoked: 
 	Method name: spy
 	Class origin: org.mockito.Mockito
 	Count: 4
@@ -466,6 +558,8 @@
 	Class origin: org.mockito.Mockito
 	Count: 3
  
+/hop-databases-mariadb/src/test/java/org/apache/hop/databases/mariadb/MariaDBDatabaseMetaTest.java
+Methods Invoked: 
 	Method name: mock
 	Class origin: org.mockito.Mockito
 	Count: 10
@@ -478,6 +572,8 @@
 	Class origin: org.mockito.Mockito
 	Count: 6
  
+/hop-databases-mssql/src/test/java/org/apache/hop/databases/mssql/MsSqlServerDatabaseMetaTest.java
+Methods Invoked: 
 	Method name: mock
 	Class origin: org.mockito.Mockito
 	Count: 5
@@ -486,6 +582,8 @@
 	Class origin: org.mockito.Mockito
 	Count: 1
  
+/hop-databases-mysql/src/test/java/org/apache/hop/databases/mysql/MySqlDatabaseMetaTest.java
+Methods Invoked: 
 	Method name: mock
 	Class origin: org.mockito.Mockito
 	Count: 24
@@ -498,6 +596,8 @@
 	Class origin: org.mockito.Mockito
 	Count: 12
  
+/hop-databases-mysql/src/test/java/org/apache/hop/databases/mysql/MySqlValueMetaBaseTest.java
+Methods Invoked: 
 	Method name: mock
 	Class origin: org.mockito.Mockito
 	Count: 9
@@ -506,6 +606,8 @@
 	Class origin: org.mockito.Mockito
 	Count: 3
  
+/hop-databases-netezza/src/test/java/org/apache/hop/core/row/value/NettezaValueMetaBaseTest.java
+Methods Invoked: 
 	Method name: spy
 	Class origin: org.mockito.Mockito
 	Count: 3
@@ -514,6 +616,8 @@
 	Class origin: org.mockito.Mockito
 	Count: 3
  
+/hop-databases-oracle/src/test/java/org/apache/hop/databases/oracle/OracleDatabaseMetaTest.java
+Methods Invoked: 
 	Method name: spy
 	Class origin: org.mockito.Mockito
 	Count: 1
@@ -522,10 +626,14 @@
 	Class origin: org.mockito.Mockito
 	Count: 4
  
+/hop-databases-oracle/src/test/java/org/apache/hop/databases/oracle/OracleValueMetaBaseTest.java
+Methods Invoked: 
 	Method name: spy
 	Class origin: org.mockito.Mockito
 	Count: 3
  
+/hop-databases-postgresql/src/test/java/org/apache/hop/databases/postgresql/PostgreSqlValueMetaBaseTest.java
+Methods Invoked: 
 	Method name: spy
 	Class origin: org.mockito.Mockito
 	Count: 3
@@ -534,6 +642,8 @@
 	Class origin: org.mockito.Mockito
 	Count: 8
  
+/hop-databases-sqlite/src/test/java/org/apache/hop/core/row/value/SQLiteValueMetaBaseTest.java
+Methods Invoked: 
 	Method name: spy
 	Class origin: org.mockito.Mockito
 	Count: 4
@@ -542,6 +652,8 @@
 	Class origin: org.mockito.Mockito
 	Count: 2
  
+/hop-databases-teradata/src/test/java/org/apache/hop/databases/teradata/TeradataValueMetaBaseTest.java
+Methods Invoked: 
 	Method name: spy
 	Class origin: org.mockito.Mockito
 	Count: 4
@@ -550,6 +662,8 @@
 	Class origin: org.mockito.Mockito
 	Count: 2
  
+/hop-databases-vertica/src/test/java/org/apache/hop/databases/vertica/VerticaDatabaseMetaTest.java
+Methods Invoked: 
 	Method name: spy
 	Class origin: org.mockito.Mockito
 	Count: 2
@@ -558,6 +672,8 @@
 	Class origin: org.mockito.Mockito
 	Count: 2
  
+/hop-databases-vertica/src/test/java/org/apache/hop/databases/vertica/Vertica5DatabaseMetaTest.java
+Methods Invoked: 
 	Method name: spy
 	Class origin: org.mockito.Mockito
 	Count: 4
@@ -566,6 +682,8 @@
 	Class origin: org.mockito.Mockito
 	Count: 7
  
+/hop-engine/src/test/java/org/apache/hop/base/AbstractMetaTest.java
+Methods Invoked: 
 	Method name: mock
 	Class origin: org.mockito.Mockito
 	Count: 9
@@ -582,10 +700,14 @@
 	Class origin: org.mockito.Mockito
 	Count: 3
  
+/hop-engine/src/test/java/org/apache/hop/base/LoadSaveBase.java
+Methods Invoked: 
 	Method name: mock
 	Class origin: org.mockito.Mockito
 	Count: 2
  
+/hop-engine/src/test/java/org/apache/hop/concurrency/WorkflowTrackerConcurrencyTest.java
+Methods Invoked: 
 	Method name: mock
 	Class origin: org.mockito.Mockito
 	Count: 2
@@ -598,14 +720,20 @@
 	Class origin: org.mockito.Mockito
 	Count: 2
  
+/hop-engine/src/test/java/org/apache/hop/concurrency/WorkflowMapConcurrencyTest.java
+Methods Invoked: 
 	Method name: mock
 	Class origin: org.mockito.Mockito
 	Count: 4
  
+/hop-engine/src/test/java/org/apache/hop/concurrency/BaseTransformConcurrencyTest.java
+Methods Invoked: 
 	Method name: mock
 	Class origin: org.mockito.Mockito
 	Count: 12
  
+/hop-engine/src/test/java/org/apache/hop/core/attributes/AttributesUtilTest.java
+Methods Invoked: 
 	Method name: mockStatic
 	Class origin: org.powermock.api.mockito.PowerMockito
 	Count: 1
@@ -622,6 +750,8 @@
 	Class origin: org.mockito.Matchers
 	Count: 10
  
+/hop-engine/src/test/java/org/apache/hop/core/auth/core/AuthenticationManagerTest.java
+Methods Invoked: 
 	Method name: mock
 	Class origin: org.mockito.Mockito
 	Count: 6
@@ -630,6 +760,8 @@
 	Class origin: org.mockito.Mockito
 	Count: 5
  
+/hop-engine/src/test/java/org/apache/hop/core/compress/CompressionInputStreamTest.java
+Methods Invoked: 
 	Method name: spy
 	Class origin: org.mockito.Mockito
 	Count: 2
@@ -642,10 +774,14 @@
 	Class origin: org.mockito.Matchers
 	Count: 2
  
+/hop-engine/src/test/java/org/apache/hop/core/gui/WorkflowTrackerTest.java
+Methods Invoked: 
 	Method name: mock
 	Class origin: org.mockito.Mockito
 	Count: 5
  
+/hop-engine/src/test/java/org/apache/hop/core/logging/LogChannelFileWriterTest.java
+Methods Invoked: 
 	Method name: when
 	Class origin: org.mockito.Mockito
 	Count: 2
@@ -654,6 +790,8 @@
 	Class origin: org.mockito.stubbing.OngoingStubbing<java.io.OutputStream>
 	Count: 1
  
+/hop-engine/src/test/java/org/apache/hop/core/row/ValueDataUtilTest.java
+Methods Invoked: 
 	Method name: mock
 	Class origin: org.mockito.Mockito
 	Count: 1
@@ -670,6 +808,8 @@
 	Class origin: org.mockito.Mockito
 	Count: 1
  
+/hop-engine/src/test/java/org/apache/hop/core/util/ConfigurableStreamLoggerTest.java
+Methods Invoked: 
 	Method name: mock
 	Class origin: org.mockito.Mockito
 	Count: 1
@@ -678,6 +818,8 @@
 	Class origin: org.mockito.Mockito
 	Count: 12
  
+/hop-engine/src/test/java/org/apache/hop/history/AuditManagerTest.java
+Methods Invoked: 
 	Method name: mock
 	Class origin: org.mockito.Mockito
 	Count: 4
@@ -694,6 +836,8 @@
 	Class origin: org.mockito.Matchers
 	Count: 1
  
+/hop-engine/src/test/java/org/apache/hop/pipeline/PDI_11948_PipelineTest.java
+Methods Invoked: 
 	Method name: mock
 	Class origin: org.mockito.Mockito
 	Count: 1
@@ -706,6 +850,8 @@
 	Class origin: org.mockito.Mockito
 	Count: 1
  
+/hop-engine/src/test/java/org/apache/hop/pipeline/PipelineTest.java
+Methods Invoked: 
 	Method name: mock
 	Class origin: org.mockito.Mockito
 	Count: 4
@@ -718,10 +864,14 @@
 	Class origin: org.mockito.Mockito
 	Count: 7
  
+/hop-engine/src/test/java/org/apache/hop/pipeline/RowProducerTest.java
+Methods Invoked: 
 	Method name: mock
 	Class origin: org.mockito.Mockito
 	Count: 5
  
+/hop-engine/src/test/java/org/apache/hop/pipeline/PipelineMetaTest.java
+Methods Invoked: 
 	Method name: mock
 	Class origin: org.mockito.Mockito
 	Count: 18
@@ -730,6 +880,8 @@
 	Class origin: org.mockito.Mockito
 	Count: 18
  
+/hop-engine/src/test/java/org/apache/hop/pipeline/transform/TransformOptionTest.java
+Methods Invoked: 
 	Method name: thenAnswer
 	Class origin: org.mockito.stubbing.OngoingStubbing<java.lang.String>
 	Count: 1
@@ -746,6 +898,8 @@
 	Class origin: org.mockito.invocation.InvocationOnMock
 	Count: 1
  
+/hop-engine/src/test/java/org/apache/hop/pipeline/transform/BaseTransformTest.java
+Methods Invoked: 
 	Method name: when
 	Class origin: org.mockito.Mockito
 	Count: 4
@@ -754,10 +908,14 @@
 	Class origin: org.mockito.Matchers
 	Count: 6
  
+/hop-engine/src/test/java/org/apache/hop/pipeline/transform/BaseTransformMetaCloningTest.java
+Methods Invoked: 
 	Method name: mock
 	Class origin: org.mockito.Mockito
 	Count: 7
  
+/hop-engine/src/test/java/org/apache/hop/pipeline/transform/TransformMetaTest.java
+Methods Invoked: 
 	Method name: mock
 	Class origin: org.mockito.Mockito
 	Count: 1
@@ -770,10 +928,14 @@
 	Class origin: org.mockito.Mockito
 	Count: 1
  
+/hop-engine/src/test/java/org/apache/hop/pipeline/transforms/mock/TransformMockHelper.java
+Methods Invoked: 
 	Method name: mock
 	Class origin: org.mockito.Mockito
 	Count: 7
  
+/hop-engine/src/test/java/org/apache/hop/server/HopServerTest.java
+Methods Invoked: 
 	Method name: spy
 	Class origin: org.mockito.Mockito
 	Count: 3
@@ -782,6 +944,8 @@
 	Class origin: org.mockito.Mockito
 	Count: 11
  
+/hop-engine/src/test/java/org/apache/hop/workflow/WorkflowMetaTest.java
+Methods Invoked: 
 	Method name: mock
 	Class origin: org.mockito.Mockito
 	Count: 9
@@ -798,66 +962,98 @@
 	Class origin: org.mockito.Matchers
 	Count: 2
  
+/hop-engine/src/test/java/org/apache/hop/workflow/WorkflowTest.java
+Methods Invoked: 
 	Method name: mock
 	Class origin: org.mockito.Mockito
 	Count: 11
  
+/hop-engine/src/test/java/org/apache/hop/workflow/action/WorkflowActionMetaTest.java
+Methods Invoked: 
 	Method name: mock
 	Class origin: org.mockito.Mockito
 	Count: 1
  
+/hop-engine/src/test/java/org/apache/hop/www/StartPipelineServletTest.java
+Methods Invoked: 
 	Method name: mock
 	Class origin: org.mockito.Mockito
 	Count: 8
  
+/hop-engine/src/test/java/org/apache/hop/www/PausePipelineServletTest.java
+Methods Invoked: 
 	Method name: mock
 	Class origin: org.mockito.Mockito
 	Count: 8
  
+/hop-engine/src/test/java/org/apache/hop/www/RemovePipelineServletTest.java
+Methods Invoked: 
 	Method name: mock
 	Class origin: org.mockito.Mockito
 	Count: 8
  
+/hop-engine/src/test/java/org/apache/hop/www/StartWorkflowServletTest.java
+Methods Invoked: 
 	Method name: mock
 	Class origin: org.mockito.Mockito
 	Count: 8
  
+/hop-engine/src/test/java/org/apache/hop/www/StopWorkflowServletTest.java
+Methods Invoked: 
 	Method name: mock
 	Class origin: org.mockito.Mockito
 	Count: 8
  
+/hop-engine/src/test/java/org/apache/hop/www/GetStatusServletTest.java
+Methods Invoked: 
 	Method name: mock
 	Class origin: org.mockito.Mockito
 	Count: 9
  
+/hop-engine/src/test/java/org/apache/hop/www/GetPipelineStatusServletTest.java
+Methods Invoked: 
 	Method name: mock
 	Class origin: org.mockito.Mockito
 	Count: 8
  
+/hop-engine/src/test/java/org/apache/hop/www/WebServerTest.java
+Methods Invoked: 
 	Method name: mock
 	Class origin: org.mockito.Mockito
 	Count: 5
  
+/hop-engine/src/test/java/org/apache/hop/www/GetWorkflowStatusServletTest.java
+Methods Invoked: 
 	Method name: mock
 	Class origin: org.mockito.Mockito
 	Count: 12
  
+/hop-engine/src/test/java/org/apache/hop/www/StartExecutionPipelineServletTest.java
+Methods Invoked: 
 	Method name: mock
 	Class origin: org.mockito.Mockito
 	Count: 8
  
+/hop-engine/src/test/java/org/apache/hop/www/PrepareExecutionPipelineServletTest.java
+Methods Invoked: 
 	Method name: mock
 	Class origin: org.mockito.Mockito
 	Count: 10
  
+/hop-engine/src/test/java/org/apache/hop/www/SniffTransformServletTest.java
+Methods Invoked: 
 	Method name: mock
 	Class origin: org.mockito.Mockito
 	Count: 9
  
+/hop-engine/src/test/java/org/apache/hop/www/BaseHopServerPluginTest.java
+Methods Invoked: 
 	Method name: mock
 	Class origin: org.mockito.Mockito
 	Count: 7
  
+/hop-engine/src/test/java/org/apache/hop/www/HopServerTest.java
+Methods Invoked: 
 	Method name: mock
 	Class origin: org.mockito.Mockito
 	Count: 3
@@ -870,10 +1066,14 @@
 	Class origin: org.mockito.Mockito
 	Count: 4
  
+/hop-engine/src/test/java/org/apache/hop/www/RemoveWorkflowServletTest.java
+Methods Invoked: 
 	Method name: mock
 	Class origin: org.mockito.Mockito
 	Count: 8
  
+/hop-engine/src/test/java/org/apache/hop/www/GetRootServletTest.java
+Methods Invoked: 
 	Method name: getMock
 	Class origin: org.mockito.stubbing.OngoingStubbing<java.lang.String>
 	Count: 1
@@ -890,6 +1090,8 @@
 	Class origin: org.mockito.Mockito
 	Count: 2
  
+/hop-plugins-misc-git/src/test/java/org/apache/hop/git/model/UIGitTest.java
+Methods Invoked: 
 	Method name: spy
 	Class origin: org.mockito.Mockito
 	Count: 1
@@ -906,22 +1108,32 @@
 	Class origin: org.mockito.Matchers
 	Count: 4
  
+/hop-plugins-tech-aws/src/test/java/org/apache/hop/vfs/s3/vfs/S3FileProviderTest.java
+Methods Invoked: 
 	Method name: mock
 	Class origin: org.mockito.Mockito
 	Count: 1
  
+/hop-plugins-tech-aws/src/test/java/org/apache/hop/vfs/s3/vfs/S3NFileSystemTest.java
+Methods Invoked: 
 	Method name: mock
 	Class origin: org.mockito.Mockito
 	Count: 2
  
+/hop-plugins-tech-aws/src/test/java/org/apache/hop/vfs/s3/vfs/S3FileNameParserTest.java
+Methods Invoked: 
 	Method name: mock
 	Class origin: org.mockito.Mockito
 	Count: 2
  
+/hop-plugins-tech-aws/src/test/java/org/apache/hop/vfs/s3/vfs/S3FileSystemTest.java
+Methods Invoked: 
 	Method name: mock
 	Class origin: org.mockito.Mockito
 	Count: 4
  
+/hop-plugins-tech-aws/src/test/java/org/apache/hop/vfs/s3/vfs/S3NFileObjectTest.java
+Methods Invoked: 
 	Method name: mock
 	Class origin: org.mockito.Mockito
 	Count: 11
@@ -930,22 +1142,32 @@
 	Class origin: org.mockito.Mockito
 	Count: 5
  
+/hop-plugins-tech-aws/src/test/java/org/apache/hop/vfs/s3/vfs/S3NFileNameParserTest.java
+Methods Invoked: 
 	Method name: mock
 	Class origin: org.mockito.Mockito
 	Count: 2
  
+/hop-plugins-tech-aws/src/test/java/org/apache/hop/vfs/s3/vfs/S3NFileProviderTest.java
+Methods Invoked: 
 	Method name: mock
 	Class origin: org.mockito.Mockito
 	Count: 1
  
+/hop-plugins-tech-aws/src/test/java/org/apache/hop/vfs/s3/vfs/S3FileObjectTest.java
+Methods Invoked: 
 	Method name: mock
 	Class origin: org.mockito.Mockito
 	Count: 14
  
+/hop-plugins-tech-cassandra/src/test/java/org/apache/hop/database/cassandra/datastax/DriverCqlRowHandlerTest.java
+Methods Invoked: 
 	Method name: mock
 	Class origin: org.mockito.Mockito
 	Count: 23
  
+/hop-plugins-tech-cassandra/src/test/java/org/apache/hop/database/cassandra/datastax/DriverConnectionTest.java
+Methods Invoked: 
 	Method name: mock
 	Class origin: org.mockito.Mockito
 	Count: 2
@@ -962,14 +1184,20 @@
 	Class origin: org.mockito.Matchers
 	Count: 1
  
+/hop-plugins-tech-cassandra/src/test/java/org/apache/hop/database/cassandra/util/CassandraUtilsTest.java
+Methods Invoked: 
 	Method name: mock
 	Class origin: org.mockito.Mockito
 	Count: 4
  
+/hop-plugins-tech-cassandra/src/test/java/org/apache/hop/pipeline/transforms/cassandraoutput/CassandraOutputTest.java
+Methods Invoked: 
 	Method name: mock
 	Class origin: org.mockito.Mockito
 	Count: 8
  
+/hop-plugins-tech-cassandra/src/test/java/org/apache/hop/pipeline/transforms/cassandrasstableoutput/SSTableOutputTest.java
+Methods Invoked: 
 	Method name: when
 	Class origin: org.mockito.Mockito
 	Count: 3
@@ -978,10 +1206,14 @@
 	Class origin: org.mockito.Matchers
 	Count: 2
  
+/hop-plugins-tech-cassandra/src/test/java/org/apache/hop/pipeline/transforms/cassandrasstableoutput/writer/SSTableWriterBuilderTest.java
+Methods Invoked: 
 	Method name: mock
 	Class origin: org.mockito.Mockito
 	Count: 1
  
+/hop-plugins-tech-cassandra/src/test/java/org/apache/hop/pipeline/transforms/cassandrasstableoutput/writer/Cql3SsTableWriterTest.java
+Methods Invoked: 
 	Method name: mock
 	Class origin: org.mockito.Mockito
 	Count: 2
@@ -994,14 +1226,20 @@
 	Class origin: org.mockito.Mockito
 	Count: 2
  
+/hop-plugins-tech-cassandra/src/test/java/org/apache/hop/pipeline/transforms/mock/TransformMockHelper.java
+Methods Invoked: 
 	Method name: mock
 	Class origin: org.mockito.Mockito
 	Count: 11
  
+/hop-transform-abort/src/test/java/org/apache/hop/pipeline/transforms/abort/AbortMetaTest.java
+Methods Invoked: 
 	Method name: mock
 	Class origin: org.mockito.Mockito
 	Count: 1
  
+/hop-transform-abort/src/test/java/org/apache/hop/pipeline/transforms/abort/AbortTest.java
+Methods Invoked: 
 	Method name: when
 	Class origin: org.mockito.Mockito
 	Count: 4
@@ -1010,6 +1248,8 @@
 	Class origin: org.mockito.Matchers
 	Count: 2
  
+/hop-transform-calculator/src/test/java/org/apache/hop/pipeline/transforms/calculator/CalculatorValueDataUtilTest.java
+Methods Invoked: 
 	Method name: mock
 	Class origin: org.mockito.Mockito
 	Count: 1
@@ -1026,6 +1266,8 @@
 	Class origin: org.mockito.Mockito
 	Count: 1
  
+/hop-transform-calculator/src/test/java/org/apache/hop/pipeline/transforms/calculator/CalculatorUnitTest.java
+Methods Invoked: 
 	Method name: when
 	Class origin: org.mockito.Mockito
 	Count: 2
@@ -1034,6 +1276,8 @@
 	Class origin: org.mockito.Matchers
 	Count: 2
  
+/hop-transform-clonerow/src/test/java/org/apache/hop/pipeline/transforms/clonerow/CloneRowTest.java
+Methods Invoked: 
 	Method name: when
 	Class origin: org.mockito.Mockito
 	Count: 6
@@ -1042,6 +1286,8 @@
 	Class origin: org.mockito.Matchers
 	Count: 3
  
+/hop-transform-combinationlookup/src/test/java/org/apache/hop/pipeline/transforms/combinationlookup/CombinationLookupTest.java
+Methods Invoked: 
 	Method name: mock
 	Class origin: org.mockito.Mockito
 	Count: 8
@@ -1058,10 +1304,14 @@
 	Class origin: org.mockito.Matchers
 	Count: 3
  
+/hop-transform-combinationlookup/src/test/java/org/apache/hop/pipeline/transforms/combinationlookup/CombinationLookupMetaTest.java
+Methods Invoked: 
 	Method name: mock
 	Class origin: org.mockito.Mockito
 	Count: 2
  
+/hop-transform-constant/src/test/java/org/apache/hop/pipeline/transforms/constant/ConstantTest.java
+Methods Invoked: 
 	Method name: mock
 	Class origin: org.mockito.Mockito
 	Count: 1
@@ -1074,10 +1324,14 @@
 	Class origin: org.mockito.Matchers
 	Count: 2
  
+/hop-transform-databasejoin/src/test/java/org/apache/hop/pipeline/transforms/databasejoin/DatabaseJoinTest.java
+Methods Invoked: 
 	Method name: mock
 	Class origin: org.mockito.Mockito
 	Count: 8
  
+/hop-transform-databaselookup/src/test/java/org/apache/hop/pipeline/transforms/databaselookup/DatabaseLookupUTest.java
+Methods Invoked: 
 	Method name: when
 	Class origin: org.mockito.Mockito
 	Count: 19
@@ -1086,10 +1340,14 @@
 	Class origin: org.mockito.Matchers
 	Count: 27
  
+/hop-transform-databaselookup/src/test/java/org/apache/hop/pipeline/transforms/databaselookup/DatabaseLookupMetaTest.java
+Methods Invoked: 
 	Method name: mock
 	Class origin: org.mockito.Mockito
 	Count: 1
  
+/hop-transform-denormaliser/src/test/java/org/apache/hop/pipeline/transforms/denormaliser/DenormaliserTest.java
+Methods Invoked: 
 	Method name: when
 	Class origin: org.mockito.Mockito
 	Count: 1
@@ -1098,6 +1356,8 @@
 	Class origin: org.mockito.Matchers
 	Count: 2
  
+/hop-transform-denormaliser/src/test/java/org/apache/hop/pipeline/transforms/denormaliser/DenormaliserAggregationsTest.java
+Methods Invoked: 
 	Method name: when
 	Class origin: org.mockito.Mockito
 	Count: 3
@@ -1106,6 +1366,8 @@
 	Class origin: org.mockito.Matchers
 	Count: 2
  
+/hop-transform-dimensionlookup/src/test/java/org/apache/hop/pipeline/transforms/dimensionlookup/DimensionLookupTest.java
+Methods Invoked: 
 	Method name: mock
 	Class origin: org.mockito.Mockito
 	Count: 11
@@ -1122,10 +1384,14 @@
 	Class origin: org.mockito.Matchers
 	Count: 3
  
+/hop-transform-dimensionlookup/src/test/java/org/apache/hop/pipeline/transforms/dimensionlookup/DimensionLookupMetaTest.java
+Methods Invoked: 
 	Method name: mock
 	Class origin: org.mockito.Mockito
 	Count: 6
  
+/hop-transform-excelinput/src/test/java/org/apache/hop/pipeline/transforms/excelinput/staxpoi/StaxPoiSheetTest.java
+Methods Invoked: 
 	Method name: spy
 	Class origin: org.mockito.Mockito
 	Count: 1
@@ -1146,6 +1412,8 @@
 	Class origin: org.mockito.Mockito
 	Count: 7
  
+/hop-transform-excelwriter/src/test/java/org/apache/hop/pipeline/transforms/excelwriter/TransformMockUtil.java
+Methods Invoked: 
 	Method name: when
 	Class origin: org.mockito.Mockito
 	Count: 3
@@ -1154,6 +1422,8 @@
 	Class origin: org.mockito.ArgumentMatchers
 	Count: 3
  
+/hop-transform-excelwriter/src/test/java/org/apache/hop/pipeline/transforms/excelwriter/ExcelWriterTransformTest.java
+Methods Invoked: 
 	Method name: when
 	Class origin: org.mockito.Mockito
 	Count: 25
@@ -1162,6 +1432,8 @@
 	Class origin: org.mockito.ArgumentMatchers
 	Count: 8
  
+/hop-transform-excelwriter/src/test/java/org/apache/hop/pipeline/transforms/excelwriter/ExcelWriterTransform_StyleFormatTest.java
+Methods Invoked: 
 	Method name: when
 	Class origin: org.mockito.Mockito
 	Count: 4
@@ -1170,6 +1442,8 @@
 	Class origin: org.mockito.ArgumentMatchers
 	Count: 3
  
+/hop-transform-excelwriter/src/test/java/org/apache/hop/pipeline/transforms/excelwriter/ExcelWriterTransform_FormulaRecalculationTest.java
+Methods Invoked: 
 	Method name: mock
 	Class origin: org.mockito.Mockito
 	Count: 2
@@ -1182,6 +1456,8 @@
 	Class origin: org.mockito.Mockito
 	Count: 2
  
+/hop-transform-fieldsplitter/src/test/java/org/apache/hop/pipeline/transforms/fieldsplitter/TransformMockUtil.java
+Methods Invoked: 
 	Method name: when
 	Class origin: org.mockito.Mockito
 	Count: 3
@@ -1190,6 +1466,8 @@
 	Class origin: org.mockito.Matchers
 	Count: 3
  
+/hop-transform-fieldsplitter/src/test/java/org/apache/hop/pipeline/transforms/fieldsplitter/FieldSplitterTest.java
+Methods Invoked: 
 	Method name: when
 	Class origin: org.mockito.Mockito
 	Count: 2
@@ -1198,6 +1476,8 @@
 	Class origin: org.mockito.Matchers
 	Count: 7
  
+/hop-transform-fieldsplitter/src/test/java/org/apache/hop/pipeline/transforms/fieldsplitter/FieldSplitter_EmptyStringVsNull_Test.java
+Methods Invoked: 
 	Method name: spy
 	Class origin: org.mockito.Mockito
 	Count: 1
@@ -1210,6 +1490,8 @@
 	Class origin: org.mockito.stubbing.Stubber
 	Count: 2
  
+/hop-transform-fuzzymatch/src/test/java/org/apache/hop/pipeline/transforms/fuzzymatch/FuzzyMatchTest.java
+Methods Invoked: 
 	Method name: when
 	Class origin: org.mockito.Mockito
 	Count: 12
@@ -1218,6 +1500,8 @@
 	Class origin: org.mockito.Matchers
 	Count: 2
  
+/hop-transform-gettablenames/src/test/java/org/apache/hop/pipeline/transforms/gettablenames/GetTableNamesTest.java
+Methods Invoked: 
 	Method name: when
 	Class origin: org.mockito.Mockito
 	Count: 11
@@ -1226,10 +1510,14 @@
 	Class origin: org.mockito.Matchers
 	Count: 3
  
+/hop-transform-http/src/test/java/org/apache/hop/pipeline/transforms/http/HttpTest.java
+Methods Invoked: 
 	Method name: mock
 	Class origin: org.mockito.Mockito
 	Count: 9
  
+/hop-transform-httppost/src/test/java/org/apache/hop/pipeline/transforms/httppost/HttpPostTest.java
+Methods Invoked: 
 	Method name: mock
 	Class origin: org.mockito.Mockito
 	Count: 1
@@ -1250,6 +1538,8 @@
 	Class origin: org.mockito.Matchers
 	Count: 1
  
+/hop-transform-ifnull/src/test/java/org/apache/hop/pipeline/transforms/ifnull/IfNullTest.java
+Methods Invoked: 
 	Method name: when
 	Class origin: org.mockito.Mockito
 	Count: 2
@@ -1258,6 +1548,8 @@
 	Class origin: org.mockito.Matchers
 	Count: 7
  
+/hop-transform-insertupdate/src/test/java/org/apache/hop/pipeline/transforms/insertupdate/InsertUpdateTestLazyConversion.java
+Methods Invoked: 
 	Method name: when
 	Class origin: org.mockito.Mockito
 	Count: 7
@@ -1266,6 +1558,8 @@
 	Class origin: org.mockito.Matchers
 	Count: 3
  
+/hop-transform-insertupdate/src/test/java/org/apache/hop/pipeline/transforms/insertupdate/InsertUpdateMetaTest.java
+Methods Invoked: 
 	Method name: when
 	Class origin: org.mockito.Mockito
 	Count: 4
@@ -1274,6 +1568,8 @@
 	Class origin: org.mockito.Matchers
 	Count: 6
  
+/hop-transform-janino/src/test/java/org/apache/hop/pipeline/transforms/userdefinedjavaclass/FieldHelperTest.java
+Methods Invoked: 
 	Method name: mock
 	Class origin: org.mockito.Mockito
 	Count: 10
@@ -1286,6 +1582,8 @@
 	Class origin: org.mockito.Mockito
 	Count: 1
  
+/hop-transform-janino/src/test/java/org/apache/hop/pipeline/transforms/userdefinedjavaclass/UserDefinedJavaClassMetaTest.java
+Methods Invoked: 
 	Method name: mock
 	Class origin: org.mockito.Mockito
 	Count: 5
@@ -1302,6 +1600,8 @@
 	Class origin: org.mockito.stubbing.OngoingStubbing<java.lang.String>
 	Count: 6
  
+/hop-transform-javascript/src/test/java/org/apache/hop/pipeline/transforms/javascript/ScriptValuesTest.java
+Methods Invoked: 
 	Method name: spy
 	Class origin: org.mockito.Mockito
 	Count: 2
@@ -1314,6 +1614,8 @@
 	Class origin: org.mockito.Mockito
 	Count: 2
  
+/hop-transform-javascript/src/test/java/org/apache/hop/pipeline/transforms/javascript/ScriptValueAddFunctions_SetVariableScopeTest.java
+Methods Invoked: 
 	Method name: verify
 	Class origin: org.mockito.Mockito
 	Count: 27
@@ -1322,6 +1624,8 @@
 	Class origin: org.mockito.ArgumentMatchers
 	Count: 54
  
+/hop-transform-javascript/src/test/java/org/apache/hop/pipeline/transforms/javascript/TransformMockUtil.java
+Methods Invoked: 
 	Method name: when
 	Class origin: org.mockito.Mockito
 	Count: 3
@@ -1330,18 +1634,26 @@
 	Class origin: org.mockito.ArgumentMatchers
 	Count: 3
  
+/hop-transform-javascript/src/test/java/org/apache/hop/pipeline/transforms/javascript/ScriptValuesMetaTest.java
+Methods Invoked: 
 	Method name: setInternalState
 	Class origin: org.powermock.reflect.Whitebox
 	Count: 3
  
+/hop-transform-joinrows/src/test/java/org/apache/hop/pipeline/transforms/joinrows/JoinRowsMetaTest.java
+Methods Invoked: 
 	Method name: mock
 	Class origin: org.mockito.Mockito
 	Count: 4
  
+/hop-transform-joinrows/src/test/java/org/apache/hop/pipeline/transforms/joinrows/JoinRowsTest.java
+Methods Invoked: 
 	Method name: mock
 	Class origin: org.mockito.Mockito
 	Count: 4
  
+/hop-transform-ldap/src/test/java/org/apache/hop/pipeline/transforms/ldapinput/LdapConnectionTest.java
+Methods Invoked: 
 	Method name: thenAnswer
 	Class origin: org.mockito.stubbing.OngoingStubbing<java.lang.String>
 	Count: 4
@@ -1358,10 +1670,14 @@
 	Class origin: org.mockito.AdditionalAnswers
 	Count: 4
  
+/hop-transform-ldap/src/test/java/org/apache/hop/pipeline/transforms/ldapinput/LdapMockProtocol.java
+Methods Invoked: 
 	Method name: mock
 	Class origin: org.mockito.Mockito
 	Count: 1
  
+/hop-transform-ldap/src/test/java/org/apache/hop/pipeline/transforms/ldapinput/LdapInputTest.java
+Methods Invoked: 
 	Method name: when
 	Class origin: org.mockito.Mockito
 	Count: 7
@@ -1370,10 +1686,14 @@
 	Class origin: org.mockito.Matchers
 	Count: 2
  
+/hop-transform-ldap/src/test/java/org/apache/hop/pipeline/transforms/ldapinput/LdapProtocolFactoryTest.java
+Methods Invoked: 
 	Method name: mock
 	Class origin: org.mockito.Mockito
 	Count: 9
  
+/hop-transform-loadfileinput/src/test/java/org/apache/hop/pipeline/transforms/loadfileinput/LoadFileInputTest.java
+Methods Invoked: 
 	Method name: spy
 	Class origin: org.mockito.Mockito
 	Count: 1
@@ -1394,6 +1714,8 @@
 	Class origin: org.mockito.Mockito
 	Count: 4
  
+/hop-transform-loadfileinput/src/test/java/org/apache/hop/pipeline/transforms/loadfileinput/PDI_6976_Test.java
+Methods Invoked: 
 	Method name: spy
 	Class origin: org.mockito.Mockito
 	Count: 1
@@ -1414,6 +1736,8 @@
 	Class origin: org.mockito.Mockito
 	Count: 1
  
+/hop-transform-mailinput/src/test/java/org/apache/hop/pipeline/transforms/mailinput/ParseMailInputTest.java
+Methods Invoked: 
 	Method name: when
 	Class origin: org.mockito.Mockito
 	Count: 28
@@ -1422,6 +1746,8 @@
 	Class origin: org.mockito.Matchers
 	Count: 6
  
+/hop-transform-mailinput/src/test/java/org/apache/hop/pipeline/transforms/mailinput/BatchFolderIteratorName.java
+Methods Invoked: 
 	Method name: mock
 	Class origin: org.mockito.Mockito
 	Count: 1
@@ -1438,6 +1764,8 @@
 	Class origin: org.mockito.stubbing.OngoingStubbing<javax.mail.Message[]>
 	Count: 1
  
+/hop-transform-mailinput/src/test/java/org/apache/hop/pipeline/transforms/mailinput/MailInputTest.java
+Methods Invoked: 
 	Method name: when
 	Class origin: org.mockito.Mockito
 	Count: 19
@@ -1446,6 +1774,8 @@
 	Class origin: org.mockito.Matchers
 	Count: 2
  
+/hop-transform-mapping/src/test/java/org/apache/hop/pipeline/transforms/mapping/SimpleMappingTest.java
+Methods Invoked: 
 	Method name: when
 	Class origin: org.mockito.Mockito
 	Count: 16
@@ -1454,6 +1784,8 @@
 	Class origin: org.mockito.Matchers
 	Count: 7
  
+/hop-transform-memgroupby/src/test/java/org/apache/hop/pipeline/transforms/memgroupby/MemoryGroupByAggregationNullsTest.java
+Methods Invoked: 
 	Method name: when
 	Class origin: org.mockito.Mockito
 	Count: 5
@@ -1462,6 +1794,8 @@
 	Class origin: org.mockito.Matchers
 	Count: 2
  
+/hop-transform-memgroupby/src/test/java/org/apache/hop/pipeline/transforms/memgroupby/MemoryGroupByAggregationTest.java
+Methods Invoked: 
 	Method name: mock
 	Class origin: org.mockito.Mockito
 	Count: 2
@@ -1474,6 +1808,8 @@
 	Class origin: org.mockito.Mockito
 	Count: 1
  
+/hop-transform-memgroupby/src/test/java/org/apache/hop/pipeline/transforms/memgroupby/MemoryGroupByNewAggregateTest.java
+Methods Invoked: 
 	Method name: when
 	Class origin: org.mockito.Mockito
 	Count: 4
@@ -1482,6 +1818,8 @@
 	Class origin: org.mockito.Matchers
 	Count: 2
  
+/hop-transform-memgroupby/src/test/java/org/apache/hop/pipeline/transforms/memgroupby/MemoryGroupByDataTest.java
+Methods Invoked: 
 	Method name: thenReturn
 	Class origin: org.mockito.stubbing.OngoingStubbing<java.lang.Integer>
 	Count: 1
@@ -1490,6 +1828,8 @@
 	Class origin: org.mockito.Mockito
 	Count: 3
  
+/hop-transform-memgroupby/src/test/java/org/apache/hop/pipeline/transforms/memgroupby/MemoryGroupByMetaGetFieldsTest.java
+Methods Invoked: 
 	Method name: mock
 	Class origin: org.mockito.Mockito
 	Count: 1
@@ -1514,10 +1854,14 @@
 	Class origin: org.mockito.Mockito
 	Count: 2
  
+/hop-transform-mergerows/src/test/java/org/apache/hop/pipeline/transforms/mergerows/MergeRowsMetaCheckTest.java
+Methods Invoked: 
 	Method name: mock
 	Class origin: org.mockito.Mockito
 	Count: 3
  
+/hop-transform-metainject/src/test/java/org/apache/hop/pipeline/transforms/metainject/TransformMockUtil.java
+Methods Invoked: 
 	Method name: when
 	Class origin: org.mockito.Mockito
 	Count: 3
@@ -1526,18 +1870,26 @@
 	Class origin: org.mockito.ArgumentMatchers
 	Count: 3
  
+/hop-transform-metainject/src/test/java/org/apache/hop/pipeline/transforms/metainject/MetaInjectMetaTest.java
+Methods Invoked: 
 	Method name: mock
 	Class origin: org.mockito.Mockito
 	Count: 8
  
+/hop-transform-metainject/src/test/java/org/apache/hop/pipeline/transforms/metainject/MetaInjectTest.java
+Methods Invoked: 
 	Method name: spy
 	Class origin: org.powermock.api.mockito.PowerMockito
 	Count: 3
  
+/hop-transform-mongodb/src/test/java/org/apache/hop/mongo/MongoPropertiesTest.java
+Methods Invoked: 
 	Method name: mock
 	Class origin: org.mockito.Mockito
 	Count: 2
  
+/hop-transform-mongodb/src/test/java/org/apache/hop/mongo/MongoPropToOptionTest.java
+Methods Invoked: 
 	Method name: initMocks
 	Class origin: org.mockito.MockitoAnnotations
 	Count: 1
@@ -1546,6 +1898,8 @@
 	Class origin: org.mockito.Mockito
 	Count: 1
  
+/hop-transform-mongodb/src/test/java/org/apache/hop/mongo/AuthContextTest.java
+Methods Invoked: 
 	Method name: mock
 	Class origin: org.mockito.Mockito
 	Count: 4
@@ -1554,10 +1908,14 @@
 	Class origin: org.mockito.Mockito
 	Count: 3
  
+/hop-transform-mongodb/src/test/java/org/apache/hop/mongo/wrapper/MongoClientWrapperFactoryTest.java
+Methods Invoked: 
 	Method name: initMocks
 	Class origin: org.mockito.MockitoAnnotations
 	Count: 1
  
+/hop-transform-mongodb/src/test/java/org/apache/hop/mongo/wrapper/HopMongoUtilLoggerTest.java
+Methods Invoked: 
 	Method name: initMocks
 	Class origin: org.mockito.MockitoAnnotations
 	Count: 1
@@ -1566,14 +1924,20 @@
 	Class origin: org.mockito.Mockito
 	Count: 4
  
+/hop-transform-mongodb/src/test/java/org/apache/hop/mongo/wrapper/KerberosMongoClientWrapperTest.java
+Methods Invoked: 
 	Method name: mock
 	Class origin: org.mockito.Mockito
 	Count: 4
  
+/hop-transform-mongodb/src/test/java/org/apache/hop/mongo/wrapper/KerberosInvocationHandlerTest.java
+Methods Invoked: 
 	Method name: mock
 	Class origin: org.mockito.Mockito
 	Count: 2
  
+/hop-transform-mongodb/src/test/java/org/apache/hop/mongo/wrapper/MongoFieldTest.java
+Methods Invoked: 
 	Method name: initMocks
 	Class origin: org.mockito.MockitoAnnotations
 	Count: 1
@@ -1594,10 +1958,14 @@
 	Class origin: org.mockito.invocation.InvocationOnMock
 	Count: 1
  
+/hop-transform-mongodb/src/test/java/org/apache/hop/mongo/wrapper/UsernamePasswordMongoClientWrapperTest.java
+Methods Invoked: 
 	Method name: initMocks
 	Class origin: org.mockito.MockitoAnnotations
 	Count: 1
  
+/hop-transform-mongodb/src/test/java/org/apache/hop/mongo/wrapper/NoAuthMongoClientWrapperTest.java
+Methods Invoked: 
 	Method name: initMocks
 	Class origin: org.mockito.MockitoAnnotations
 	Count: 1
@@ -1614,6 +1982,8 @@
 	Class origin: org.mockito.Matchers
 	Count: 2
  
+/hop-transform-mongodb/src/test/java/org/apache/hop/mongo/wrapper/collection/DefaultMongoCollectionWrapperTest.java
+Methods Invoked: 
 	Method name: initMocks
 	Class origin: org.mockito.MockitoAnnotations
 	Count: 1
@@ -1634,6 +2004,8 @@
 	Class origin: org.mockito.Mockito
 	Count: 3
  
+/hop-transform-mongodb/src/test/java/org/apache/hop/mongo/wrapper/field/MongodbInputDiscoverFieldsImplTest.java
+Methods Invoked: 
 	Method name: initMocks
 	Class origin: org.mockito.MockitoAnnotations
 	Count: 1
@@ -1646,10 +2018,14 @@
 	Class origin: org.mockito.Matchers
 	Count: 7
  
+/hop-transform-mongodb/src/test/java/org/apache/hop/pipeline/transforms/mongodbinput/MongoDbInputDataTest.java
+Methods Invoked: 
 	Method name: mock
 	Class origin: org.mockito.Mockito
 	Count: 10
  
+/hop-transform-mongodb/src/test/java/org/apache/hop/pipeline/transforms/mongodbinput/BaseMongoDbTransformTest.java
+Methods Invoked: 
 	Method name: spy
 	Class origin: org.mockito.Mockito
 	Count: 1
@@ -1666,10 +2042,14 @@
 	Class origin: org.mockito.Matchers
 	Count: 4
  
+/hop-transform-mongodb/src/test/java/org/apache/hop/pipeline/transforms/mongodboutput/MongoDbOutputMetaInjectionTest.java
+Methods Invoked: 
 	Method name: mock
 	Class origin: org.mockito.Mockito
 	Count: 2
  
+/hop-transform-mongodb/src/test/java/org/apache/hop/pipeline/transforms/mongodboutput/MongoDbOutputDataTest.java
+Methods Invoked: 
 	Method name: initMocks
 	Class origin: org.mockito.MockitoAnnotations
 	Count: 1
@@ -1690,6 +2070,8 @@
 	Class origin: org.mockito.invocation.InvocationOnMock
 	Count: 2
  
+/hop-transform-nullif/src/test/java/org/apache/hop/pipeline/transforms/nullif/NullIfTest.java
+Methods Invoked: 
 	Method name: when
 	Class origin: org.mockito.Mockito
 	Count: 2
@@ -1698,6 +2080,8 @@
 	Class origin: org.mockito.Matchers
 	Count: 12
  
+/hop-transform-pgbulkloader/src/test/java/org/apache/hop/pipeline/transforms/pgbulkloader/PGBulkLoaderTest.java
+Methods Invoked: 
 	Method name: when
 	Class origin: org.mockito.Mockito
 	Count: 4
@@ -1706,10 +2090,14 @@
 	Class origin: org.mockito.Matchers
 	Count: 2
  
+/hop-transform-propertyinput/src/test/java/org/apache/hop/pipeline/transforms/propertyinput/PropertyInputMetaTest.java
+Methods Invoked: 
 	Method name: mock
 	Class origin: org.mockito.Mockito
 	Count: 6
  
+/hop-transform-regexeval/src/test/java/org/apache/hop/pipeline/transforms/regexeval/RegexEvalUnitTest.java
+Methods Invoked: 
 	Method name: when
 	Class origin: org.mockito.Mockito
 	Count: 10
@@ -1718,6 +2106,8 @@
 	Class origin: org.mockito.Matchers
 	Count: 3
  
+/hop-transform-regexeval/src/test/java/org/apache/hop/pipeline/transforms/regexeval/TransformMockUtil.java
+Methods Invoked: 
 	Method name: when
 	Class origin: org.mockito.Mockito
 	Count: 3
@@ -1726,10 +2116,14 @@
 	Class origin: org.mockito.Matchers
 	Count: 3
  
+/hop-transform-regexeval/src/test/java/org/apache/hop/pipeline/transforms/regexeval/RegexEvalMetaTest.java
+Methods Invoked: 
 	Method name: mock
 	Class origin: org.mockito.Mockito
 	Count: 6
  
+/hop-transform-regexeval/src/test/java/org/apache/hop/pipeline/transforms/regexeval/RegexEval_EmptyStringVsNull_Test.java
+Methods Invoked: 
 	Method name: spy
 	Class origin: org.mockito.Mockito
 	Count: 1
@@ -1742,6 +2136,8 @@
 	Class origin: org.mockito.stubbing.Stubber
 	Count: 2
  
+/hop-transform-replacestring/src/test/java/org/apache/hop/pipeline/transforms/replacestring/ReplaceStringMetaTest.java
+Methods Invoked: 
 	Method name: mock
 	Class origin: org.mockito.Mockito
 	Count: 5
@@ -1754,6 +2150,8 @@
 	Class origin: org.mockito.Mockito
 	Count: 2
  
+/hop-transform-replacestring/src/test/java/org/apache/hop/pipeline/transforms/replacestring/ReplaceStringTest.java
+Methods Invoked: 
 	Method name: when
 	Class origin: org.mockito.Mockito
 	Count: 2
@@ -1762,10 +2160,14 @@
 	Class origin: org.mockito.Matchers
 	Count: 3
  
+/hop-transform-rest/src/test/java/org/apache/hop/pipeline/transforms/rest/RestTest.java
+Methods Invoked: 
 	Method name: mock
 	Class origin: org.mockito.Mockito
 	Count: 10
  
+/hop-transform-rowgenerator/src/test/java/org/apache/hop/pipeline/transforms/rowgenerator/RowGeneratorUnitTest.java
+Methods Invoked: 
 	Method name: spy
 	Class origin: org.mockito.Mockito
 	Count: 4
@@ -1774,6 +2176,8 @@
 	Class origin: org.mockito.Mockito
 	Count: 3
  
+/hop-transform-salesforce/src/test/java/org/apache/hop/pipeline/transforms/salesforce/SalesforceTransformTest.java
+Methods Invoked: 
 	Method name: when
 	Class origin: org.mockito.Mockito
 	Count: 6
@@ -1782,18 +2186,26 @@
 	Class origin: org.mockito.Matchers
 	Count: 2
  
+/hop-transform-salesforce/src/test/java/org/apache/hop/pipeline/transforms/salesforce/SalesforceConnectionTest.java
+Methods Invoked: 
 	Method name: mock
 	Class origin: org.mockito.Mockito
 	Count: 3
  
+/hop-transform-salesforce/src/test/java/org/apache/hop/pipeline/transforms/salesforce/SalesforceRecordValueTest.java
+Methods Invoked: 
 	Method name: mock
 	Class origin: org.mockito.Mockito
 	Count: 1
  
+/hop-transform-salesforce/src/test/java/org/apache/hop/pipeline/transforms/salesforce/SalesforceMetaTest.java
+Methods Invoked: 
 	Method name: mock
 	Class origin: org.mockito.Mockito
 	Count: 1
  
+/hop-transform-salesforce/src/test/java/org/apache/hop/pipeline/transforms/salesforceinput/SalesforceInputTest.java
+Methods Invoked: 
 	Method name: mock
 	Class origin: org.mockito.Mockito
 	Count: 3
@@ -1810,6 +2222,8 @@
 	Class origin: org.mockito.Matchers
 	Count: 3
  
+/hop-transform-salesforce/src/test/java/org/apache/hop/pipeline/transforms/salesforceinsert/SalesForceDateFieldTest.java
+Methods Invoked: 
 	Method name: when
 	Class origin: org.mockito.Mockito
 	Count: 1
@@ -1818,6 +2232,8 @@
 	Class origin: org.mockito.Matchers
 	Count: 2
  
+/hop-transform-salesforce/src/test/java/org/apache/hop/pipeline/transforms/salesforceinsert/SalesforceInsertTest.java
+Methods Invoked: 
 	Method name: when
 	Class origin: org.mockito.Mockito
 	Count: 2
@@ -1826,6 +2242,8 @@
 	Class origin: org.mockito.Matchers
 	Count: 2
  
+/hop-transform-salesforce/src/test/java/org/apache/hop/pipeline/transforms/salesforceupdate/SalesforceUpdateTest.java
+Methods Invoked: 
 	Method name: when
 	Class origin: org.mockito.Mockito
 	Count: 2
@@ -1834,6 +2252,8 @@
 	Class origin: org.mockito.Matchers
 	Count: 2
  
+/hop-transform-salesforce/src/test/java/org/apache/hop/pipeline/transforms/salesforceupsert/SalesforceUpsertTest.java
+Methods Invoked: 
 	Method name: when
 	Class origin: org.mockito.Mockito
 	Count: 2
@@ -1842,6 +2262,8 @@
 	Class origin: org.mockito.Matchers
 	Count: 2
  
+/hop-transform-salesforce/src/test/java/org/apache/hop/pipeline/transforms/salesforceutils/SalesforceUtilsTest.java
+Methods Invoked: 
 	Method name: mock
 	Class origin: org.mockito.Mockito
 	Count: 1
@@ -1854,6 +2276,8 @@
 	Class origin: org.mockito.Mockito
 	Count: 5
  
+/hop-transform-selectvalues/src/test/java/org/apache/hop/pipeline/transforms/selectvalues/SelectValuesTest.java
+Methods Invoked: 
 	Method name: thenReturn
 	Class origin: org.mockito.stubbing.OngoingStubbing<java.lang.Boolean>
 	Count: 1
@@ -1874,6 +2298,8 @@
 	Class origin: org.mockito.Mockito
 	Count: 7
  
+/hop-transform-selectvalues/src/test/java/org/apache/hop/pipeline/transforms/selectvalues/SelectValues_LocaleHandling_Test.java
+Methods Invoked: 
 	Method name: thenReturn
 	Class origin: org.mockito.stubbing.OngoingStubbing<java.lang.Boolean>
 	Count: 1
@@ -1898,6 +2324,8 @@
 	Class origin: org.mockito.Mockito
 	Count: 1
  
+/hop-transform-selectvalues/src/test/java/org/apache/hop/pipeline/transforms/selectvalues/TransformMockUtil.java
+Methods Invoked: 
 	Method name: when
 	Class origin: org.mockito.Mockito
 	Count: 3
@@ -1906,6 +2334,8 @@
 	Class origin: org.mockito.ArgumentMatchers
 	Count: 3
  
+/hop-transform-setvalueconstant/src/test/java/org/apache/hop/pipeline/transforms/setvalueconstant/SetValueConstantTest.java
+Methods Invoked: 
 	Method name: when
 	Class origin: org.mockito.Mockito
 	Count: 1
@@ -1914,10 +2344,14 @@
 	Class origin: org.mockito.Matchers
 	Count: 2
  
+/hop-transform-sort/src/test/java/org/apache/hop/pipeline/transforms/sort/SortRowsMetaTest.java
+Methods Invoked: 
 	Method name: spy
 	Class origin: org.mockito.Mockito
 	Count: 1
  
+/hop-transform-splitfieldtorows/src/test/java/org/apache/hop/pipeline/transforms/splitfieldtorows/SplitFieldToRowsTest.java
+Methods Invoked: 
 	Method name: when
 	Class origin: org.mockito.Mockito
 	Count: 2
@@ -1926,14 +2360,8 @@
 	Class origin: org.mockito.Matchers
 	Count: 2
  
-	Method name: mock
-	Class origin: org.mockito.Mockito
-	Count: 2
- 
-	Method name: mockStatic
-	Class origin: org.powermock.api.mockito.PowerMockito
-	Count: 2
- 
+/hop-transform-streamlookup/src/test/java/org/apache/hop/pipeline/transforms/streamlookup/StreamLookupTest.java
+Methods Invoked: 
 	Method name: when
 	Class origin: org.mockito.Mockito
 	Count: 3
@@ -1942,6 +2370,8 @@
 	Class origin: org.mockito.Matchers
 	Count: 7
  
+/hop-transform-streamlookup/src/test/java/org/apache/hop/pipeline/transforms/streamlookup/StreamLookupMetaTest.java
+Methods Invoked: 
 	Method name: mock
 	Class origin: org.mockito.Mockito
 	Count: 1
@@ -1954,10 +2384,14 @@
 	Class origin: org.mockito.Mockito
 	Count: 1
  
+/hop-transform-stringoperations/src/test/java/org/apache/hop/pipeline/transforms/stringoperations/StringOperationsMetaTest.java
+Methods Invoked: 
 	Method name: mock
 	Class origin: org.mockito.Mockito
 	Count: 1
  
+/hop-transform-stringoperations/src/test/java/org/apache/hop/pipeline/transforms/stringoperations/StringOperationsTest.java
+Methods Invoked: 
 	Method name: when
 	Class origin: org.mockito.Mockito
 	Count: 2
@@ -1966,6 +2400,8 @@
 	Class origin: org.mockito.Matchers
 	Count: 2
  
+/hop-transform-switchcase/src/test/java/org/apache/hop/pipeline/transforms/switchcase/SwitchCaseTest.java
+Methods Invoked: 
 	Method name: when
 	Class origin: org.mockito.Mockito
 	Count: 5
@@ -1974,6 +2410,8 @@
 	Class origin: org.mockito.Matchers
 	Count: 6
  
+/hop-transform-synchronizeaftermerge/src/test/java/org/apache/hop/pipeline/transforms/synchronizeaftermerge/SynchronizeAfterMergeTest.java
+Methods Invoked: 
 	Method name: mock
 	Class origin: org.mockito.Mockito
 	Count: 7
@@ -1986,6 +2424,8 @@
 	Class origin: org.mockito.Mockito
 	Count: 9
  
+/hop-transform-systemdata/src/test/java/org/apache/hop/pipeline/transforms/systemdata/SystemDataTest.java
+Methods Invoked: 
 	Method name: when
 	Class origin: org.mockito.Mockito
 	Count: 4
@@ -1994,10 +2434,14 @@
 	Class origin: org.mockito.Matchers
 	Count: 2
  
+/hop-transform-tableoutput/src/test/java/org/apache/hop/pipeline/transforms/tableoutput/TableOutputMetaTest.java
+Methods Invoked: 
 	Method name: mock
 	Class origin: org.mockito.Mockito
 	Count: 6
  
+/hop-transform-tableoutput/src/test/java/org/apache/hop/pipeline/transforms/tableoutput/TableOutputTest.java
+Methods Invoked: 
 	Method name: mock
 	Class origin: org.mockito.Mockito
 	Count: 12
@@ -2014,6 +2458,8 @@
 	Class origin: org.mockito.Matchers
 	Count: 10
  
+/hop-transform-textfile/src/test/java/org/apache/hop/pipeline/transforms/csvinput/CsvInputDoubleLineEndTest.java
+Methods Invoked: 
 	Method name: when
 	Class origin: org.mockito.Mockito
 	Count: 2
@@ -2022,6 +2468,8 @@
 	Class origin: org.mockito.Matchers
 	Count: 2
  
+/hop-transform-textfile/src/test/java/org/apache/hop/pipeline/transforms/csvinput/TransformMockUtil.java
+Methods Invoked: 
 	Method name: when
 	Class origin: org.mockito.Mockito
 	Count: 3
@@ -2030,10 +2478,14 @@
 	Class origin: org.mockito.Matchers
 	Count: 3
  
+/hop-transform-textfile/src/test/java/org/apache/hop/pipeline/transforms/csvinput/CsvInputTest.java
+Methods Invoked: 
 	Method name: mock
 	Class origin: org.mockito.Mockito
 	Count: 2
  
+/hop-transform-textfile/src/test/java/org/apache/hop/pipeline/transforms/csvinput/CsvInputUnicodeTest.java
+Methods Invoked: 
 	Method name: when
 	Class origin: org.mockito.Mockito
 	Count: 2
@@ -2042,10 +2494,14 @@
 	Class origin: org.mockito.Matchers
 	Count: 2
  
+/hop-transform-textfile/src/test/java/org/apache/hop/pipeline/transforms/fileinput/text/TextFileInputMetaTest.java
+Methods Invoked: 
 	Method name: mock
 	Class origin: org.mockito.Mockito
 	Count: 4
  
+/hop-transform-textfile/src/test/java/org/apache/hop/pipeline/transforms/fileinput/text/PDI_2875_Test.java
+Methods Invoked: 
 	Method name: when
 	Class origin: org.mockito.Mockito
 	Count: 2
@@ -2054,6 +2510,8 @@
 	Class origin: org.mockito.Matchers
 	Count: 2
  
+/hop-transform-textfile/src/test/java/org/apache/hop/pipeline/transforms/fileinput/text/TextFileInputTest.java
+Methods Invoked: 
 	Method name: mock
 	Class origin: org.mockito.Mockito
 	Count: 10
@@ -2062,10 +2520,14 @@
 	Class origin: org.mockito.Mockito
 	Count: 1
  
+/hop-transform-textfile/src/test/java/org/apache/hop/pipeline/transforms/fileinput/text/TextFileInputUtilsTest.java
+Methods Invoked: 
 	Method name: mock
 	Class origin: org.mockito.Mockito
 	Count: 16
  
+/hop-transform-textfile/src/test/java/org/apache/hop/pipeline/transforms/fileinput/text/TransformMockUtil.java
+Methods Invoked: 
 	Method name: when
 	Class origin: org.mockito.Mockito
 	Count: 3
@@ -2074,10 +2536,14 @@
 	Class origin: org.mockito.Matchers
 	Count: 3
  
+/hop-transform-textfile/src/test/java/org/apache/hop/pipeline/transforms/fileinput/text/PDI_11948_TransformsTestsParent.java
+Methods Invoked: 
 	Method name: mock
 	Class origin: org.mockito.Mockito
 	Count: 1
  
+/hop-transform-textfile/src/test/java/org/apache/hop/pipeline/transforms/textfileinput/TransformMockUtil.java
+Methods Invoked: 
 	Method name: when
 	Class origin: org.mockito.Mockito
 	Count: 3
@@ -2086,6 +2552,8 @@
 	Class origin: org.mockito.Matchers
 	Count: 3
  
+/hop-transform-textfile/src/test/java/org/apache/hop/pipeline/transforms/textfileinput/PDI_2875_Test.java
+Methods Invoked: 
 	Method name: when
 	Class origin: org.mockito.Mockito
 	Count: 2
@@ -2094,10 +2562,14 @@
 	Class origin: org.mockito.Matchers
 	Count: 2
  
+/hop-transform-textfile/src/test/java/org/apache/hop/pipeline/transforms/textfileinput/TextFileInputTest.java
+Methods Invoked: 
 	Method name: mock
 	Class origin: org.mockito.Mockito
 	Count: 10
  
+/hop-transform-textfile/src/test/java/org/apache/hop/pipeline/transforms/textfileoutput/TextFileOutputTest.java
+Methods Invoked: 
 	Method name: when
 	Class origin: org.mockito.Mockito
 	Count: 58
@@ -2106,6 +2578,8 @@
 	Class origin: org.mockito.Matchers
 	Count: 12
  
+/hop-transform-update/src/test/java/org/apache/hop/pipeline/transforms/update/PDI_11152_Test.java
+Methods Invoked: 
 	Method name: when
 	Class origin: org.mockito.Mockito
 	Count: 3
@@ -2114,6 +2588,8 @@
 	Class origin: org.mockito.Matchers
 	Count: 3
  
+/hop-transform-update/src/test/java/org/apache/hop/pipeline/transforms/update/UpdateMetaTest.java
+Methods Invoked: 
 	Method name: when
 	Class origin: org.mockito.Mockito
 	Count: 1
@@ -2122,6 +2598,8 @@
 	Class origin: org.mockito.Matchers
 	Count: 2
  
+/hop-transform-webservices/src/test/java/org/apache/hop/pipeline/transforms/webservices/WebServiceTest.java
+Methods Invoked: 
 	Method name: when
 	Class origin: org.mockito.Mockito
 	Count: 2
@@ -2130,10 +2608,14 @@
 	Class origin: org.mockito.Matchers
 	Count: 2
  
+/hop-transform-webservices/src/test/java/org/apache/hop/pipeline/transforms/webservices/WebServiceMetaTest.java
+Methods Invoked: 
 	Method name: mock
 	Class origin: org.mockito.Mockito
 	Count: 13
  
+/hop-transform-xml/src/test/java/org/apache/hop/pipeline/transforms/xml/addxml/AddXmlTest.java
+Methods Invoked: 
 	Method name: mock
 	Class origin: org.mockito.Mockito
 	Count: 2
@@ -2150,6 +2632,8 @@
 	Class origin: org.mockito.stubbing.OngoingStubbing<java.lang.Boolean>
 	Count: 2
  
+/hop-transform-xml/src/test/java/org/apache/hop/pipeline/transforms/xml/xmlinputstream/XmlInputStreamTest.java
+Methods Invoked: 
 	Method name: when
 	Class origin: org.mockito.Mockito
 	Count: 2
@@ -2158,6 +2642,8 @@
 	Class origin: org.mockito.Matchers
 	Count: 2
  
+/hop-transform-xml/src/test/java/org/apache/hop/pipeline/transforms/xml/xmljoin/XmlJoinOmitNullValuesTest.java
+Methods Invoked: 
 	Method name: when
 	Class origin: org.mockito.Mockito
 	Count: 21
@@ -2166,6 +2652,8 @@
 	Class origin: org.mockito.Matchers
 	Count: 2
  
+/hop-transform-xml/src/test/java/org/apache/hop/pipeline/transforms/xml/xmljoin/XmlJoinMetaGetFieldsTest.java
+Methods Invoked: 
 	Method name: mock
 	Class origin: org.mockito.Mockito
 	Count: 1
@@ -2178,10 +2666,14 @@
 	Class origin: org.mockito.Mockito
 	Count: 6
  
+/hop-transform-xml/src/test/java/org/apache/hop/pipeline/transforms/xml/xmloutput/XmlOutputMetaTest.java
+Methods Invoked: 
 	Method name: mock
 	Class origin: org.mockito.Mockito
 	Count: 18
  
+/hop-transform-xml/src/test/java/org/apache/hop/pipeline/transforms/xml/xmloutput/XmlOutputTest.java
+Methods Invoked: 
 	Method name: mock
 	Class origin: org.mockito.Mockito
 	Count: 4
@@ -2194,10 +2686,14 @@
 	Class origin: org.mockito.Matchers
 	Count: 8
  
+/hop-transform-zipfile/src/test/java/org/apache/hop/pipeline/transforms/zipfile/ZipFileMetaTest.java
+Methods Invoked: 
 	Method name: mock
 	Class origin: org.mockito.Mockito
 	Count: 12
  
+/hop-transforms-json/src/test/java/org/apache/hop/pipeline/transforms/jsoninput/JsonInputMetaTest.java
+Methods Invoked: 
 	Method name: thenReturn
 	Class origin: org.mockito.stubbing.OngoingStubbing<java.lang.Integer>
 	Count: 1
@@ -2210,6 +2706,8 @@
 	Class origin: org.mockito.Mockito
 	Count: 1
  
+/hop-transforms-json/src/test/java/org/apache/hop/pipeline/transforms/jsoninput/JsonInputTest.java
+Methods Invoked: 
 	Method name: when
 	Class origin: org.mockito.Mockito
 	Count: 4
@@ -2218,10 +2716,14 @@
 	Class origin: org.mockito.Matchers
 	Count: 2
  
+/hop-transforms-json/src/test/java/org/apache/hop/pipeline/transforms/jsoninput/reader/FastJsonReaderTest.java
+Methods Invoked: 
 	Method name: mock
 	Class origin: org.mockito.Mockito
 	Count: 1
  
+/hop-transforms-json/src/test/java/org/apache/hop/pipeline/transforms/jsonoutput/JsonOutputTest.java
+Methods Invoked: 
 	Method name: when
 	Class origin: org.mockito.Mockito
 	Count: 9
@@ -2230,6 +2732,8 @@
 	Class origin: org.mockito.Matchers
 	Count: 6
  
+/hop-transforms-kafka/src/test/java/org/apache/hop/pipeline/transforms/kafka/consumer/KafkaConsumerFieldTest.java
+Methods Invoked: 
 	Method name: thenReturn
 	Class origin: org.mockito.stubbing.OngoingStubbing<java.lang.Integer>
 	Count: 4
@@ -2238,6 +2742,8 @@
 	Class origin: org.mockito.Mockito
 	Count: 4
  
+/hop-ui/src/test/java/org/apache/hop/ui/core/dialog/EditRowsDialog_EmptyStringVsNull_Test.java
+Methods Invoked: 
 	Method name: mock
 	Class origin: org.mockito.Mockito
 	Count: 2
@@ -2266,6 +2772,8 @@
 	Class origin: org.mockito.Mockito
 	Count: 2
  
+/hop-ui/src/test/java/org/apache/hop/ui/core/dialog/PreviewRowsDialogTest.java
+Methods Invoked: 
 	Method name: mock
 	Class origin: org.mockito.Mockito
 	Count: 5
@@ -2278,6 +2786,8 @@
 	Class origin: org.mockito.Mockito
 	Count: 2
  
+/hop-ui/src/test/java/org/apache/hop/ui/pipeline/transform/common/CsvInputAwareImportProgressDialogTest.java
+Methods Invoked: 
 	Method name: mock
 	Class origin: org.mockito.Mockito
 	Count: 1
@@ -2294,6 +2804,8 @@
 	Class origin: org.mockito.stubbing.OngoingStubbing<java.lang.String>
 	Count: 1
  
+/hop-ui/src/test/java/org/apache/hop/ui/util/EnvironmentUtilsTest.java
+Methods Invoked: 
 	Method name: mockStatic
 	Class origin: org.powermock.api.mockito.PowerMockito
 	Count: 1

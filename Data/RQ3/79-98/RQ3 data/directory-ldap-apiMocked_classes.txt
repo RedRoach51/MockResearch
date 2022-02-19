@@ -1,6 +1,0 @@
-org.apache.directory.ldap.client.api.LdapConnection
-org.apache.directory.ldap.client.api.LdapConnectionValidator
-org.apache.directory.ldap.client.api.LdapConnection
-org.apache.directory.ldap.client.api.LdapConnectionValidator
-org.apache.directory.ldap.client.api.LdapConnection
-org.apache.directory.ldap.client.api.LdapConnectionValidator

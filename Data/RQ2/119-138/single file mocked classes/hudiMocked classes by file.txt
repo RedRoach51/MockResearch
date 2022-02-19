@@ -1,0 +1,140 @@
+/hudi-aws/src/test/java/org/apache/hudi/aws/cloudwatch/TestCloudWatchReporter.java
+	com.codahale.metrics.MetricRegistry
+	com.amazonaws.services.cloudwatch.AmazonCloudWatchAsync
+	java.util.concurrent.CompletableFuture<com.amazonaws.services.cloudwatch.model.PutMetricDataResult>
+	org.mockito.ArgumentCaptor<com.amazonaws.services.cloudwatch.model.PutMetricDataRequest>
+/hudi-client-common/src/test/java/org/apache/hudi/async/TestHoodieAsyncTableService.java
+/hudi-client-common/src/test/java/org/apache/hudi/async/TestAsyncArchiveService.java
+	org.apache.hudi.client.BaseHoodieWriteClient
+	org.apache.hudi.config.HoodieWriteConfig
+/hudi-client-common/src/test/java/org/apache/hudi/callback/http/TestCallbackHttpClient.java
+	org.apache.log4j.AppenderSkeleton
+	org.mockito.ArgumentCaptor<org.apache.log4j.spi.LoggingEvent>
+	org.apache.http.impl.client.CloseableHttpClient
+	org.apache.http.client.methods.CloseableHttpResponse
+	org.apache.http.StatusLine
+/hudi-client-common/src/test/java/org/apache/hudi/io/storage/TestHoodieOrcReaderWriter.java
+	org.apache.hudi.common.engine.TaskContextSupplier
+/hudi-client-common/src/test/java/org/apache/hudi/io/storage/TestHoodieHFileReaderWriter.java
+	org.apache.hudi.common.engine.TaskContextSupplier
+	java.util.function.Supplier
+/hudi-client-common/src/test/java/org/apache/hudi/metrics/TestHoodieMetrics.java
+	org.apache.hudi.config.HoodieWriteConfig
+	org.apache.hudi.common.model.HoodieCommitMetadata
+/hudi-client-common/src/test/java/org/apache/hudi/metrics/TestMetricsReporterFactory.java
+	org.apache.hudi.config.HoodieWriteConfig
+	com.codahale.metrics.MetricRegistry
+/hudi-client-common/src/test/java/org/apache/hudi/metrics/TestHoodieGraphiteMetrics.java
+	org.apache.hudi.config.HoodieWriteConfig
+/hudi-client-common/src/test/java/org/apache/hudi/metrics/TestHoodieJmxMetrics.java
+	org.apache.hudi.config.HoodieWriteConfig
+/hudi-client-common/src/test/java/org/apache/hudi/metrics/TestHoodieConsoleMetrics.java
+	org.apache.hudi.config.HoodieWriteConfig
+/hudi-client-common/src/test/java/org/apache/hudi/metrics/cloudwatch/TestCloudWatchMetricsReporter.java
+	org.apache.hudi.config.HoodieWriteConfig
+	com.codahale.metrics.MetricRegistry
+	org.apache.hudi.aws.cloudwatch.CloudWatchReporter
+/hudi-client-common/src/test/java/org/apache/hudi/metrics/datadog/TestDatadogHttpClient.java
+	org.apache.log4j.AppenderSkeleton
+	org.mockito.ArgumentCaptor<org.apache.log4j.spi.LoggingEvent>
+	org.apache.http.impl.client.CloseableHttpClient
+	org.apache.http.client.methods.CloseableHttpResponse
+	org.apache.http.StatusLine
+/hudi-client-common/src/test/java/org/apache/hudi/metrics/datadog/TestDatadogMetricsReporter.java
+	org.apache.hudi.config.HoodieWriteConfig
+	com.codahale.metrics.MetricRegistry
+/hudi-client-common/src/test/java/org/apache/hudi/metrics/datadog/TestDatadogReporter.java
+	org.apache.log4j.AppenderSkeleton
+	org.mockito.ArgumentCaptor<org.apache.log4j.spi.LoggingEvent>
+	com.codahale.metrics.MetricRegistry
+	org.apache.hudi.metrics.datadog.DatadogHttpClient
+/hudi-client-common/src/test/java/org/apache/hudi/metrics/prometheus/TestPrometheusReporter.java
+	org.apache.hudi.config.HoodieWriteConfig
+/hudi-client-common/src/test/java/org/apache/hudi/metrics/prometheus/TestPushGateWayReporter.java
+	org.apache.hudi.config.HoodieWriteConfig
+/hudi-client-common/src/test/java/org/apache/hudi/table/marker/TestWriteMarkersFactory.java
+	org.apache.hudi.config.HoodieWriteConfig
+	org.apache.hudi.common.table.HoodieTableMetaClient
+	org.apache.hudi.common.fs.HoodieWrapperFileSystem
+	org.apache.hudi.common.engine.HoodieEngineContext
+	org.apache.hudi.table.HoodieTable
+/hudi-common/src/test/java/org/apache/hudi/common/table/view/TestPriorityBasedFileSystemView.java
+	org.apache.hudi.common.table.view.SyncableFileSystemView
+	org.apache.hudi.common.table.view.SyncableFileSystemView
+	org.apache.hudi.common.table.view.PriorityBasedFileSystemView
+/hudi-common/src/test/java/org/apache/hudi/common/util/TestParquetReaderIterator.java
+	org.apache.parquet.hadoop.ParquetReader
+	org.apache.parquet.hadoop.ParquetReader
+/hudi-hadoop-mr/src/test/java/org/apache/hudi/hadoop/realtime/TestHoodieRealtimeFileSplit.java
+	java.io.DataOutput
+	java.io.DataInput
+/hudi-integ-test/src/test/java/org/apache/hudi/integ/testsuite/TestDFSHoodieTestSuiteWriterAdapter.java
+	org.apache.hudi.integ.testsuite.writer.AvroFileDeltaInputWriter
+	org.apache.hudi.integ.testsuite.writer.DeltaWriteStats
+	org.apache.hudi.integ.testsuite.writer.AvroFileDeltaInputWriter
+	org.apache.hudi.integ.testsuite.writer.DeltaWriteStats
+	java.util.Iterator
+/hudi-java-client/src/test/java/org/apache/hudi/table/action/commit/TestJavaCopyOnWriteActionExecutor.java
+	org.apache.hudi.common.model.HoodieRecord
+/hudi-kafka-connect/src/test/java/org/apache/hudi/connect/TestConnectTransactionCoordinator.java
+	org.apache.hudi.common.model.HoodieRecord
+	org.apache.hudi.common.model.HoodieRecord
+	org.apache.hudi.common.model.HoodieRecord
+/hudi-kafka-connect/src/test/java/org/apache/hudi/writers/TestBufferedConnectWriter.java
+	org.apache.hudi.client.HoodieJavaWriteClient
+/hudi-spark-client/src/test/java/org/apache/hudi/client/TestWriteStatus.java
+	org.apache.hudi.common.model.HoodieRecord
+	org.apache.hudi.common.model.HoodieRecord
+	org.apache.hudi.common.model.HoodieRecord
+/hudi-spark-client/src/test/java/org/apache/hudi/client/functional/TestHoodieClientOnCopyOnWriteStorage.java
+	org.apache.hudi.index.HoodieIndex
+	org.apache.hudi.index.HoodieIndex
+/hudi-spark-client/src/test/java/org/apache/hudi/execution/TestSparkBoundedInMemoryExecutor.java
+	org.apache.hudi.config.HoodieWriteConfig
+	org.apache.hudi.config.HoodieWriteConfig
+/hudi-spark-client/src/test/java/org/apache/hudi/execution/TestBoundedInMemoryQueue.java
+	java.util.Iterator
+/hudi-spark-client/src/test/java/org/apache/hudi/index/hbase/TestSparkHoodieHBaseIndex.java
+	org.apache.hadoop.hbase.client.Connection
+	org.apache.hadoop.hbase.client.HTable
+	org.apache.hadoop.hbase.client.Connection
+	org.apache.hadoop.hbase.client.HTable
+/hudi-spark-client/src/test/java/org/apache/hudi/index/hbase/TestHBaseIndexUsage.java
+	org.apache.hudi.config.HoodieWriteConfig
+/hudi-spark-client/src/test/java/org/apache/hudi/table/action/commit/TestUpsertPartitioner.java
+	org.apache.hudi.common.table.timeline.HoodieTimeline
+	org.apache.hudi.common.table.timeline.HoodieTimeline
+/hudi-spark-client/src/test/java/org/apache/hudi/table/action/commit/TestDeleteHelper.java
+	org.apache.hudi.index.HoodieIndex
+	org.apache.hudi.table.HoodieTable<org.apache.hudi.common.model.EmptyHoodieRecordPayload,org.apache.spark.api.java.JavaRDD<org.apache.hudi.common.model.HoodieRecord>,org.apache.spark.api.java.JavaRDD<org.apache.hudi.common.model.HoodieKey>,org.apache.spark.api.java.JavaRDD<org.apache.hudi.client.WriteStatus>>
+	org.apache.hudi.table.action.commit.BaseSparkCommitActionExecutor<org.apache.hudi.common.model.EmptyHoodieRecordPayload>
+	org.apache.hudi.table.action.HoodieWriteMetadata
+	org.apache.spark.api.java.JavaPairRDD
+	org.apache.spark.api.java.JavaSparkContext
+	org.apache.hudi.client.common.HoodieSparkEngineContext
+	org.apache.spark.api.java.JavaRDD
+	org.apache.spark.api.java.JavaRDD
+	java.util.List
+	org.apache.spark.api.java.JavaRDD
+/hudi-spark-client/src/test/java/org/apache/hudi/table/action/commit/TestCopyOnWriteActionExecutor.java
+	org.apache.hudi.common.model.HoodieRecord
+/hudi-spark_/src/test/java/org/apache/hudi/TestDataSourceUtils.java
+	org.apache.hudi.client.SparkRDDWriteClient
+	org.apache.spark.api.java.JavaRDD<org.apache.hudi.common.model.HoodieRecord>
+	org.mockito.ArgumentCaptor<org.apache.hudi.common.util.Option>
+/hudi-utilities_/src/test/java/org/apache/hudi/utilities/schema/TestSchemaRegistryProvider.java
+/hudi-utilities_/src/test/java/org/apache/hudi/utilities/sources/TestJsonKafkaSource.java
+	org.apache.hudi.utilities.deltastreamer.HoodieDeltaStreamerMetrics
+/hudi-utilities_/src/test/java/org/apache/hudi/utilities/sources/debezium/TestAbstractDebeziumSource.java
+	org.apache.hudi.utilities.deltastreamer.HoodieDeltaStreamerMetrics
+/hudi-utilities_/src/test/java/org/apache/hudi/utilities/sources/helpers/TestCloudObjectsSelector.java
+	com.amazonaws.services.sqs.AmazonSQS
+	org.apache.hudi.utilities.sources.helpers.CloudObjectsSelector
+/hudi-utilities_/src/test/java/org/apache/hudi/utilities/sources/helpers/TestKafkaOffsetGen.java
+	org.apache.hudi.utilities.deltastreamer.HoodieDeltaStreamerMetrics
+/hudi-utilities_/src/test/java/org/apache/hudi/utilities/sources/helpers/TestS3EventsMetaSelector.java
+	com.amazonaws.services.sqs.AmazonSQS
+	org.apache.hudi.utilities.sources.helpers.S3EventsMetaSelector
+/hudi-utilities_/src/test/java/org/apache/hudi/utilities/testutils/CloudObjectTestUtils.java
+/hudi-utilities_/src/test/java/org/apache/hudi/utilities/testutils/sources/AbstractCloudObjectsSourceTestBase.java
+	com.amazonaws.services.sqs.AmazonSQS

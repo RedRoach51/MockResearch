@@ -1,15 +1,15 @@
 method, origin, count
-mock,org.mockito.Mockito,156
-verify,org.mockito.Mockito,60
-when,org.mockito.Mockito,186
-thenReturn,org.mockito.stubbing.OngoingStubbing<java.lang.Long>,24
-spy,org.mockito.Mockito,6
-forClass,org.mockito.ArgumentCaptor,15
-doReturn,org.mockito.Mockito,15
-verifyNoMoreInteractions,org.mockito.Mockito,9
-any,org.mockito.ArgumentMatchers,3
-getArguments,org.mockito.invocation.InvocationOnMock,12
+mock,org.mockito.Mockito,52
+verify,org.mockito.Mockito,20
+when,org.mockito.Mockito,62
+thenReturn,org.mockito.stubbing.OngoingStubbing<java.lang.Long>,8
+spy,org.mockito.Mockito,2
+forClass,org.mockito.ArgumentCaptor,5
+doReturn,org.mockito.Mockito,5
+verifyNoMoreInteractions,org.mockito.Mockito,3
+any,org.mockito.ArgumentMatchers,1
+getArguments,org.mockito.invocation.InvocationOnMock,4
 
-MockedObjects: ,156
+MockedObjects: ,52
 
-# of Mocked objects each file:,4|3|4|1|1|5|21|5|1|2|4|1|4|3|4|1|1|5|21|5|1|2|4|1|4|3|4|1|1|5|21|5|1|2|4|1|
+# of Mocked objects each file:,4|3|4|1|1|5|21|5|1|2|4|1|

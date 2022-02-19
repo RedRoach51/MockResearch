@@ -1,0 +1,929 @@
+/hive-accumulo-handler/src/test/org/apache/hadoop/hive/accumulo/TestHiveAccumuloHelper.java
+	org.apache.hadoop.security.token.Token
+	org.apache.hadoop.security.UserGroupInformation
+	org.apache.hadoop.security.token.Token
+	org.apache.hadoop.hive.accumulo.HiveAccumuloHelper
+	org.apache.accumulo.core.client.security.tokens.AuthenticationToken
+	org.apache.hadoop.security.token.Token
+	org.apache.hadoop.hive.accumulo.AccumuloConnectionParameters
+	org.apache.accumulo.core.client.Connector
+	org.apache.hadoop.hive.accumulo.HiveAccumuloHelper
+	org.apache.accumulo.core.client.security.tokens.AuthenticationToken
+	org.apache.hadoop.security.token.Token
+	org.apache.hadoop.hive.accumulo.AccumuloConnectionParameters
+	org.apache.accumulo.core.client.Connector
+	org.apache.hadoop.hive.accumulo.HiveAccumuloHelper
+	org.apache.accumulo.core.client.security.tokens.AuthenticationToken
+	org.apache.hadoop.security.token.Token
+	org.apache.hadoop.hive.accumulo.AccumuloConnectionParameters
+	org.apache.accumulo.core.client.Connector
+	org.apache.hadoop.hive.accumulo.HiveAccumuloHelper
+	org.apache.accumulo.core.client.security.tokens.AuthenticationToken
+	org.apache.hadoop.security.token.Token
+	org.apache.hadoop.hive.accumulo.AccumuloConnectionParameters
+	org.apache.accumulo.core.client.Connector
+/hive-accumulo-handler/src/test/org/apache/hadoop/hive/accumulo/TestAccumuloConnectionParameters.java
+	org.apache.accumulo.core.client.Instance
+	org.apache.accumulo.core.client.Instance
+/hive-accumulo-handler/src/test/org/apache/hadoop/hive/accumulo/TestAccumuloDefaultIndexScanner.java
+	org.apache.hadoop.hive.accumulo.AccumuloConnectionParameters
+	org.apache.hadoop.hive.accumulo.AccumuloStorageHandler
+/hive-accumulo-handler/src/test/org/apache/hadoop/hive/accumulo/TestAccumuloStorageHandler.java
+	org.apache.hadoop.hive.ql.plan.TableDesc
+	org.apache.hadoop.hive.ql.plan.TableDesc
+	org.apache.hadoop.hive.ql.plan.TableDesc
+	org.apache.hadoop.hive.ql.plan.TableDesc
+	org.apache.hadoop.hive.accumulo.AccumuloStorageHandler
+	org.apache.hadoop.hive.ql.plan.TableDesc
+	org.apache.hadoop.hive.accumulo.AccumuloConnectionParameters
+	org.apache.hadoop.hive.accumulo.AccumuloStorageHandler
+	org.apache.hadoop.hive.metastore.api.StorageDescriptor
+	org.apache.hadoop.hive.metastore.api.Table
+	org.apache.hadoop.hive.metastore.api.SerDeInfo
+	org.apache.hadoop.hive.accumulo.AccumuloConnectionParameters
+	org.apache.hadoop.hive.accumulo.AccumuloStorageHandler
+	org.apache.hadoop.hive.metastore.api.StorageDescriptor
+	org.apache.hadoop.hive.metastore.api.Table
+	org.apache.hadoop.hive.metastore.api.SerDeInfo
+	org.apache.hadoop.hive.accumulo.AccumuloConnectionParameters
+	org.apache.hadoop.hive.accumulo.AccumuloStorageHandler
+	org.apache.hadoop.hive.metastore.api.StorageDescriptor
+	org.apache.hadoop.hive.metastore.api.Table
+	org.apache.hadoop.hive.metastore.api.SerDeInfo
+	org.apache.hadoop.hive.accumulo.AccumuloConnectionParameters
+	org.apache.hadoop.hive.accumulo.AccumuloStorageHandler
+	org.apache.hadoop.hive.metastore.api.StorageDescriptor
+	org.apache.hadoop.hive.metastore.api.Table
+	org.apache.hadoop.hive.metastore.api.SerDeInfo
+	org.apache.hadoop.hive.accumulo.AccumuloConnectionParameters
+	org.apache.hadoop.hive.accumulo.AccumuloStorageHandler
+	org.apache.hadoop.hive.metastore.api.StorageDescriptor
+	org.apache.hadoop.hive.metastore.api.Table
+	org.apache.hadoop.hive.metastore.api.SerDeInfo
+	org.apache.hadoop.hive.accumulo.AccumuloStorageHandler
+	org.apache.hadoop.hive.accumulo.AccumuloConnectionParameters
+	org.apache.hadoop.hive.metastore.api.Table
+	org.apache.hadoop.hive.accumulo.AccumuloStorageHandler
+	org.apache.hadoop.hive.accumulo.AccumuloConnectionParameters
+	org.apache.hadoop.hive.metastore.api.Table
+	org.apache.hadoop.hive.accumulo.AccumuloStorageHandler
+	org.apache.hadoop.hive.accumulo.AccumuloConnectionParameters
+	org.apache.hadoop.hive.metastore.api.Table
+	org.apache.hadoop.hive.accumulo.AccumuloStorageHandler
+	org.apache.hadoop.hive.accumulo.AccumuloConnectionParameters
+	org.apache.hadoop.hive.metastore.api.Table
+/hive-accumulo-handler/src/test/org/apache/hadoop/hive/accumulo/mr/TestHiveAccumuloTableInputFormat.java
+	org.apache.hadoop.hive.accumulo.predicate.AccumuloPredicateHandler
+	org.apache.hadoop.hive.accumulo.mr.HiveAccumuloTableInputFormat
+	org.apache.hadoop.hive.accumulo.HiveAccumuloHelper
+	org.apache.accumulo.core.client.ZooKeeperInstance
+	org.apache.hadoop.hive.accumulo.mr.HiveAccumuloTableInputFormat
+	org.apache.hadoop.hive.accumulo.HiveAccumuloHelper
+	org.apache.accumulo.core.client.ZooKeeperInstance
+	org.apache.hadoop.hive.accumulo.mr.HiveAccumuloTableInputFormat
+	org.apache.hadoop.hive.accumulo.HiveAccumuloHelper
+	org.apache.accumulo.core.client.ZooKeeperInstance
+	org.apache.hadoop.hive.accumulo.mr.HiveAccumuloTableInputFormat
+	org.apache.hadoop.hive.accumulo.HiveAccumuloHelper
+	org.apache.accumulo.core.client.ZooKeeperInstance
+	org.apache.hadoop.hive.accumulo.mr.HiveAccumuloTableInputFormat
+	org.apache.hadoop.hive.accumulo.HiveAccumuloHelper
+/hive-accumulo-handler/src/test/org/apache/hadoop/hive/accumulo/mr/TestHiveAccumuloTableOutputFormat.java
+	org.apache.hadoop.hive.accumulo.mr.HiveAccumuloTableOutputFormat
+	org.apache.hadoop.hive.accumulo.HiveAccumuloHelper
+	org.apache.hadoop.hive.accumulo.mr.HiveAccumuloTableOutputFormat
+	org.apache.accumulo.core.client.security.tokens.AuthenticationToken
+	org.apache.hadoop.security.token.Token
+	org.apache.hadoop.hive.accumulo.HiveAccumuloHelper
+	org.apache.hadoop.hive.accumulo.AccumuloConnectionParameters
+	org.apache.accumulo.core.client.Connector
+	org.apache.hadoop.hive.accumulo.mr.HiveAccumuloTableOutputFormat
+	org.apache.hadoop.hive.accumulo.HiveAccumuloHelper
+/hive-accumulo-handler/src/test/org/apache/hadoop/hive/accumulo/predicate/TestAccumuloPredicateHandler.java
+	org.apache.hadoop.hive.accumulo.predicate.AccumuloPredicateHandler
+	org.apache.hadoop.hive.ql.plan.ExprNodeDesc
+	org.apache.hadoop.hive.accumulo.predicate.AccumuloPredicateHandler
+	org.apache.hadoop.hive.ql.plan.ExprNodeDesc
+	org.apache.hadoop.hive.accumulo.predicate.AccumuloPredicateHandler
+	org.apache.hadoop.hive.ql.plan.ExprNodeDesc
+	org.apache.hadoop.hive.accumulo.predicate.AccumuloPredicateHandler
+	org.apache.hadoop.hive.ql.plan.ExprNodeDesc
+/hive-accumulo-handler/src/test/org/apache/hadoop/hive/accumulo/serde/TestAccumuloRowSerializer.java
+	org.apache.hadoop.hive.serde2.objectinspector.primitive.StringObjectInspector
+	org.apache.hadoop.hive.accumulo.columns.ColumnMapping
+	org.apache.hadoop.hive.accumulo.serde.AccumuloRowSerializer
+/hive-beeline/src/test/org/apache/hive/beeline/TestIncrementalRows.java
+	org.apache.hive.beeline.BeeLineOpts
+	org.apache.hive.beeline.BeeLine
+	java.sql.ResultSet
+	java.sql.ResultSetMetaData
+/hive-beeline/src/test/org/apache/hive/beeline/TestBufferedRows.java
+	org.apache.hive.beeline.BeeLine
+	org.apache.hive.beeline.BeeLineOpts
+	java.sql.ResultSet
+	java.sql.ResultSetMetaData
+/hive-beeline/src/test/org/apache/hive/beeline/TestJSONFileOutputFormat.java
+	java.sql.ResultSet
+	java.sql.ResultSetMetaData
+/hive-beeline/src/test/org/apache/hive/beeline/TestClientCommandHookFactory.java
+	org.apache.hive.beeline.BeeLine
+	org.apache.hive.beeline.DatabaseConnection
+	java.sql.Connection
+	org.apache.hive.beeline.BeeLineOpts
+/hive-beeline/src/test/org/apache/hive/beeline/TestTableOutputFormat.java
+	java.sql.ResultSet
+	java.sql.ResultSetMetaData
+/hive-beeline/src/test/org/apache/hive/beeline/TestBeeLineOpts.java
+	org.apache.hive.beeline.BeeLine
+/hive-beeline/src/test/org/apache/hive/beeline/TestJSONOutputFormat.java
+	java.sql.ResultSet
+	java.sql.ResultSetMetaData
+/hive-beeline/src/test/org/apache/hive/beeline/schematool/TestHiveSchemaTool.java
+	org.apache.hadoop.hive.conf.HiveConf
+/hive-cli/src/test/org/apache/hadoop/hive/cli/TestCliDriverMethods.java
+	org.apache.hadoop.hive.metastore.api.Schema
+	org.apache.hadoop.hive.metastore.api.Schema
+	org.apache.hadoop.conf.Configuration
+	org.apache.hadoop.hive.ql.IDriver
+	org.apache.hadoop.hive.ql.processors.CommandProcessorResponse
+	org.apache.hadoop.hive.cli.CliSessionState
+	org.apache.hadoop.hive.common.io.SessionStream
+/hive-common/src/test/org/apache/hadoop/hive/common/TestFileUtils.java
+	org.apache.hadoop.fs.FileSystem
+	org.apache.hadoop.fs.ContentSummary
+	org.apache.hadoop.hive.shims.HadoopShims
+	org.apache.hadoop.hive.shims.HadoopShims
+/hive-common/src/test/org/apache/hadoop/hive/common/TestBlobStorageUtils.java
+	org.apache.hadoop.fs.FileSystem
+/hive-druid-handler/src/test/org/apache/hadoop/hive/druid/TestDruidStorageHandler.java
+	org.apache.hadoop.hive.metastore.api.StorageDescriptor
+	org.apache.hadoop.hive.metastore.api.Table
+/hive-druid-handler/src/test/org/apache/hadoop/hive/druid/serde/TestDruidSerDe.java
+	org.apache.druid.java.util.http.client.HttpClient
+/hive-exec/src/test/org/apache/hadoop/hive/ql/TestTxnCommands2.java
+/hive-exec/src/test/org/apache/hadoop/hive/ql/TestTxnCommands3.java
+/hive-exec/src/test/org/apache/hadoop/hive/ql/TestCompileLock.java
+/hive-exec/src/test/org/apache/hadoop/hive/ql/exec/TestContext.java
+/hive-exec/src/test/org/apache/hadoop/hive/ql/exec/TestMsckDropPartitionsInBatches.java
+/hive-exec/src/test/org/apache/hadoop/hive/ql/exec/TestExplainTask.java
+	org.apache.hadoop.hive.conf.HiveConf
+	java.io.PrintStream
+	org.apache.hadoop.hive.ql.QueryState
+	org.apache.hadoop.hive.ql.metadata.Table
+	org.apache.hadoop.hive.ql.hooks.ReadEntity
+	org.apache.hadoop.hive.ql.metadata.Partition
+	org.apache.hadoop.hive.ql.hooks.ReadEntity
+	org.apache.hadoop.hive.ql.QueryState
+	org.apache.hadoop.hive.ql.security.HiveAuthenticationProvider
+	org.apache.hadoop.hive.ql.security.authorization.HiveAuthorizationProvider
+	org.apache.hadoop.hive.ql.QueryState
+	org.apache.hadoop.hive.ql.plan.TezWork.Dependency
+	org.apache.hadoop.hive.ql.plan.SparkWork.Dependency
+	org.apache.hadoop.hive.ql.plan.ExplainWork
+	org.apache.hadoop.hive.ql.parse.BaseSemanticAnalyzer
+	org.apache.hadoop.hive.ql.exec.Task
+	org.apache.hadoop.hive.ql.exec.Task
+/hive-exec/src/test/org/apache/hadoop/hive/ql/exec/TestMsckCreatePartitionsInBatches.java
+/hive-exec/src/test/org/apache/hadoop/hive/ql/exec/TestUtilities.java
+	org.apache.hadoop.fs.FileSystem
+	org.apache.hadoop.fs.FileSystem
+	org.apache.hadoop.fs.FileSystem
+	org.apache.hadoop.hive.ql.plan.DynamicPartitionCtx
+	org.apache.hadoop.hive.ql.metadata.Table
+	org.apache.hadoop.hive.ql.plan.PartitionDesc
+	org.apache.hadoop.hive.ql.plan.TableDesc
+	org.apache.hadoop.hive.ql.exec.Operator
+	org.apache.hadoop.hive.ql.exec.Operator
+	org.apache.hadoop.hive.ql.Context
+	org.apache.hadoop.hive.ql.Context
+	org.apache.hadoop.hive.ql.plan.PartitionDesc
+	org.apache.hadoop.hive.ql.plan.TableDesc
+	org.apache.hadoop.hive.ql.exec.Operator
+	org.apache.hadoop.hive.ql.Context
+	org.apache.hadoop.hive.ql.exec.Operator
+	org.apache.hadoop.hive.ql.Context
+	java.util.concurrent.ExecutorService
+	java.util.concurrent.Future
+	org.apache.hadoop.mapred.JobConf
+	org.apache.hadoop.hive.ql.plan.MapWork
+	org.apache.hadoop.fs.Path
+	org.apache.hadoop.hive.ql.Context
+	java.util.concurrent.ExecutorService
+	java.util.concurrent.Future
+	org.apache.hadoop.mapred.JobConf
+	org.apache.hadoop.hive.ql.plan.MapWork
+	org.apache.hadoop.fs.Path
+	org.apache.hadoop.hive.ql.Context
+/hive-exec/src/test/org/apache/hadoop/hive/ql/exec/TestFileSinkOperator.java
+	org.apache.hadoop.mapred.Reporter
+/hive-exec/src/test/org/apache/hadoop/hive/ql/exec/TestOperators.java
+	org.apache.hadoop.hive.ql.optimizer.physical.LlapClusterStateForCompile
+/hive-exec/src/test/org/apache/hadoop/hive/ql/exec/TestGetInputSummary.java
+	java.util.concurrent.ExecutorService
+	java.util.concurrent.Future
+	org.apache.hadoop.hive.ql.plan.MapWork
+	java.util.concurrent.ExecutorService
+	java.util.concurrent.Future
+	org.apache.hadoop.hive.ql.plan.MapWork
+/hive-exec/src/test/org/apache/hadoop/hive/ql/exec/mr/TestMapRedTask.java
+	org.apache.hadoop.hive.common.metrics.common.Metrics
+	org.apache.hadoop.hive.ql.Context
+	org.apache.hadoop.hive.ql.plan.MapWork
+	org.apache.hadoop.hive.ql.exec.mr.HadoopJobExecHelper
+/hive-exec/src/test/org/apache/hadoop/hive/ql/exec/mr/TestMapredLocalTask.java
+	org.apache.hadoop.hive.common.metrics.common.Metrics
+/hive-exec/src/test/org/apache/hadoop/hive/ql/exec/repl/TestAtlasDumpTask.java
+	org.apache.hadoop.hive.ql.exec.repl.atlas.AtlasRestClient
+	org.apache.hadoop.hive.conf.HiveConf
+	org.apache.hadoop.hive.ql.exec.repl.AtlasDumpWork
+	org.apache.hadoop.hive.ql.parse.repl.metric.ReplicationMetricCollector
+	org.slf4j.Logger
+	org.apache.hadoop.security.UserGroupInformation
+	org.apache.atlas.AtlasClientV2
+	org.apache.atlas.model.impexp.AtlasExportRequest
+	org.apache.atlas.AtlasClientV2
+	org.apache.atlas.model.impexp.AtlasExportRequest
+	org.apache.atlas.AtlasServiceException
+	org.apache.atlas.AtlasClientV2
+	org.apache.atlas.model.impexp.AtlasServer
+	org.apache.atlas.AtlasClientV2
+	org.apache.atlas.AtlasClientV2
+	org.apache.hadoop.security.UserGroupInformation
+	org.apache.hadoop.fs.FileSystem
+	com.sun.jersey.api.client.ClientResponse
+/hive-exec/src/test/org/apache/hadoop/hive/ql/exec/repl/TestReplDumpTask.java
+	org.apache.hadoop.hive.ql.metadata.Hive
+	org.apache.hadoop.hive.conf.HiveConf
+	org.apache.hadoop.hive.ql.QueryState
+	org.apache.hadoop.hive.ql.parse.repl.metric.ReplicationMetricCollector
+	org.apache.hadoop.fs.Path
+	org.apache.hadoop.hive.ql.parse.repl.dump.HiveWrapper
+	org.apache.hadoop.fs.Path
+/hive-exec/src/test/org/apache/hadoop/hive/ql/exec/repl/TestRangerLoadTask.java
+	org.apache.hadoop.hive.ql.exec.repl.ranger.RangerRestClientImpl
+	org.apache.hadoop.hive.conf.HiveConf
+	org.apache.hadoop.hive.ql.exec.repl.RangerLoadWork
+	org.apache.hadoop.hive.ql.exec.repl.RangerDenyWork
+	org.apache.hadoop.hive.ql.parse.repl.metric.ReplicationMetricCollector
+	org.slf4j.Logger
+/hive-exec/src/test/org/apache/hadoop/hive/ql/exec/repl/TestRangerDumpTask.java
+	org.apache.hadoop.hive.ql.exec.repl.ranger.RangerRestClientImpl
+	org.apache.hadoop.hive.conf.HiveConf
+	org.apache.hadoop.hive.ql.exec.repl.RangerDumpWork
+	org.apache.hadoop.hive.ql.parse.repl.metric.ReplicationMetricCollector
+	org.slf4j.Logger
+/hive-exec/src/test/org/apache/hadoop/hive/ql/exec/repl/TestAtlasLoadTask.java
+	org.apache.hadoop.hive.conf.HiveConf
+	org.apache.hadoop.hive.ql.exec.repl.AtlasLoadWork
+	org.apache.hadoop.hive.ql.parse.repl.metric.ReplicationMetricCollector
+	org.slf4j.Logger
+/hive-exec/src/test/org/apache/hadoop/hive/ql/exec/repl/bootstrap/AddDependencyToLeavesTest.java
+	org.apache.hadoop.hive.conf.HiveConf
+	org.apache.hadoop.hive.ql.exec.Task
+	org.apache.hadoop.hive.ql.exec.Task
+	org.apache.hadoop.hive.ql.exec.Task
+/hive-exec/src/test/org/apache/hadoop/hive/ql/exec/repl/dump/TestUtils.java
+	org.apache.hadoop.fs.Path
+	org.apache.hadoop.fs.FileSystem
+	org.apache.hadoop.fs.FSDataOutputStream
+/hive-exec/src/test/org/apache/hadoop/hive/ql/exec/repl/ranger/TestRangerRestClient.java
+	org.apache.hadoop.hive.ql.exec.repl.ranger.RangerRestClientImpl
+	org.apache.hadoop.security.UserGroupInformation
+	org.apache.hadoop.hive.conf.HiveConf
+/hive-exec/src/test/org/apache/hadoop/hive/ql/exec/repl/util/TestFileList.java
+	org.apache.hadoop.hive.conf.HiveConf
+	org.apache.hadoop.fs.FileSystem
+/hive-exec/src/test/org/apache/hadoop/hive/ql/exec/spark/TestSparkUtilities.java
+	org.apache.hadoop.hive.conf.HiveConf
+	org.apache.hadoop.hive.ql.exec.spark.session.SparkSessionManager
+	org.apache.hadoop.hive.ql.exec.spark.session.SparkSession
+	org.apache.hadoop.hive.ql.session.SessionState
+	org.apache.hadoop.hive.ql.exec.FileSinkOperator
+	org.apache.hadoop.hive.ql.parse.ParseContext
+	org.apache.hadoop.hive.ql.plan.FileSinkDesc
+/hive-exec/src/test/org/apache/hadoop/hive/ql/exec/spark/TestHiveSparkClient.java
+	org.apache.hive.spark.client.JobContext
+/hive-exec/src/test/org/apache/hadoop/hive/ql/exec/spark/TestSparkTask.java
+	org.apache.hadoop.hive.common.metrics.common.Metrics
+	org.apache.hadoop.hive.ql.exec.spark.status.impl.RemoteSparkJobStatus
+	org.apache.hadoop.hive.ql.exec.spark.status.SparkJobStatus
+	org.apache.hadoop.hive.ql.exec.spark.status.SparkJobStatus
+	org.apache.hadoop.hive.ql.exec.spark.status.SparkJobStatus
+	org.apache.hadoop.hive.ql.exec.spark.status.SparkJobStatus
+	org.apache.hadoop.hive.ql.plan.SparkWork
+	org.apache.hadoop.hive.ql.TaskQueue
+	org.apache.hadoop.hive.ql.QueryState
+	org.apache.hadoop.hive.ql.exec.spark.status.SparkJobStatus
+	org.apache.hadoop.hive.ql.exec.spark.session.SparkSession
+	org.apache.hadoop.hive.ql.exec.spark.status.SparkJobRef
+/hive-exec/src/test/org/apache/hadoop/hive/ql/exec/tez/TestTezProcessor.java
+	org.apache.tez.runtime.api.ProcessorContext
+/hive-exec/src/test/org/apache/hadoop/hive/ql/exec/tez/TestHostAffinitySplitLocationProvider.java
+	java.util.List
+	org.apache.hadoop.mapred.InputSplit
+	org.apache.hadoop.hive.ql.io.orc.OrcSplit
+	org.apache.hadoop.mapred.FileSplit
+/hive-exec/src/test/org/apache/hadoop/hive/ql/exec/tez/TestTezTask.java
+	org.apache.hadoop.hive.ql.exec.tez.DagUtils
+	org.apache.hadoop.fs.FileSystem
+	org.apache.hadoop.fs.Path
+	org.apache.tez.dag.api.ProcessorDescriptor
+	org.apache.hadoop.yarn.api.records.Resource
+	org.apache.tez.dag.api.EdgeProperty
+	org.apache.hadoop.hive.ql.exec.Operator
+	org.apache.hadoop.hive.ql.session.SessionState.LogHelper
+	org.apache.hadoop.hive.ql.QueryPlan
+	org.apache.tez.client.TezClient
+	org.apache.hadoop.hive.ql.exec.tez.TezSessionState
+	org.apache.tez.dag.api.client.DAGClient
+	org.apache.hadoop.hive.ql.exec.tez.TezSessionState
+	org.apache.tez.client.TezClient
+	org.apache.hadoop.hive.ql.exec.tez.SampleTezSessionState
+	org.apache.tez.client.TezClient
+	org.apache.hadoop.yarn.api.records.LocalResource
+	org.apache.hadoop.hive.common.metrics.common.Metrics
+/hive-exec/src/test/org/apache/hadoop/hive/ql/exec/tez/TestUtils.java
+	org.apache.hadoop.hive.llap.registry.impl.LlapRegistryService
+	org.apache.hadoop.hive.llap.registry.LlapServiceInstanceSet
+/hive-exec/src/test/org/apache/hadoop/hive/ql/exec/tez/TestCustomPartitionVertex.java
+	org.apache.tez.dag.api.VertexManagerPluginContext
+/hive-exec/src/test/org/apache/hadoop/hive/ql/exec/tez/TestTezSessionPool.java
+	org.apache.hadoop.hive.ql.exec.tez.TezSessionState
+	org.apache.hadoop.hive.ql.exec.tez.TezSessionState
+	org.apache.hadoop.hive.ql.exec.tez.TezSessionState
+/hive-exec/src/test/org/apache/hadoop/hive/ql/exec/tez/TestWorkloadManager.java
+	org.apache.hadoop.hive.ql.exec.tez.TezSessionState
+	org.apache.hadoop.hive.ql.exec.tez.TezSessionPoolSession
+/hive-exec/src/test/org/apache/hadoop/hive/ql/exec/tez/TestDagUtils.java
+	org.apache.hadoop.security.token.Token
+	org.apache.hadoop.hive.ql.plan.BaseWork
+/hive-exec/src/test/org/apache/hadoop/hive/ql/exec/tez/TestDynamicPartitionPruner.java
+	org.apache.tez.runtime.api.InputInitializerContext
+	org.apache.hadoop.hive.ql.plan.MapWork
+	org.apache.tez.runtime.api.InputInitializerContext
+	org.apache.tez.runtime.api.InputInitializerContext
+	org.apache.tez.runtime.api.InputInitializerContext
+	org.apache.tez.runtime.api.InputInitializerContext
+	org.apache.tez.runtime.api.InputInitializerContext
+	org.apache.tez.runtime.api.InputInitializerContext
+	org.apache.tez.runtime.api.InputInitializerContext
+	org.apache.tez.runtime.api.InputInitializerContext
+	org.apache.tez.runtime.api.InputInitializerContext
+	org.apache.hadoop.hive.ql.plan.MapWork
+	org.apache.hadoop.hive.ql.plan.TableDesc
+	org.apache.hadoop.hive.ql.plan.ExprNodeDesc
+	org.apache.hadoop.hive.ql.plan.ExprNodeDesc
+/hive-exec/src/test/org/apache/hadoop/hive/ql/exec/tez/monitoring/TestTezProgressMonitor.java
+	org.apache.tez.dag.api.client.DAGClient
+	org.apache.hadoop.hive.ql.session.SessionState.LogHelper
+	org.apache.tez.dag.api.client.DAGStatus
+	org.apache.tez.dag.api.client.Progress
+	org.apache.tez.dag.api.client.Progress
+	org.apache.tez.dag.api.client.VertexStatus
+	org.apache.tez.dag.api.client.VertexStatus
+/hive-exec/src/test/org/apache/hadoop/hive/ql/exec/util/TestRetryable.java
+	org.apache.hadoop.security.UserGroupInformation
+/hive-exec/src/test/org/apache/hadoop/hive/ql/exec/util/DAGTraversalTest.java
+	org.apache.hadoop.hive.ql.exec.Task
+	org.apache.hadoop.hive.ql.exec.Task
+/hive-exec/src/test/org/apache/hadoop/hive/ql/exec/vector/TestVectorGroupByOperator.java
+	org.apache.hadoop.hive.ql.exec.vector.VectorAggregationDesc
+	org.apache.hadoop.hive.ql.exec.vector.VectorAggregationDesc
+/hive-exec/src/test/org/apache/hadoop/hive/ql/hooks/TestQueryHooks.java
+	org.apache.hadoop.hive.ql.hooks.QueryLifeTimeHookWithParseHooks
+	org.apache.hadoop.hive.ql.hooks.QueryLifeTimeHookWithParseHooks
+	org.apache.hadoop.hive.ql.hooks.QueryLifeTimeHookWithParseHooks
+	org.apache.hadoop.hive.ql.hooks.QueryLifeTimeHook
+	org.apache.hadoop.hive.ql.hooks.QueryLifeTimeHook
+/hive-exec/src/test/org/apache/hadoop/hive/ql/io/TestHiveBinarySearchRecordReader.java
+	org.apache.hadoop.hive.ql.io.RCFileRecordReader
+/hive-exec/src/test/org/apache/hadoop/hive/ql/io/TestAcidInputFormat.java
+	java.io.DataInput
+/hive-exec/src/test/org/apache/hadoop/hive/ql/io/avro/TestAvroGenericRecordReader.java
+	org.apache.hadoop.mapred.JobConf
+	org.apache.hadoop.mapred.FileSplit
+	org.apache.hadoop.mapred.Reporter
+/hive-exec/src/test/org/apache/hadoop/hive/ql/io/orc/TestOrcRawRecordMerger.java
+	org.apache.hadoop.hive.ql.io.orc.Reader
+	org.apache.hadoop.hive.ql.io.orc.RecordReader
+	org.apache.hadoop.hive.ql.io.orc.Reader
+	org.apache.hadoop.hive.ql.io.orc.RecordReader
+	org.apache.hadoop.hive.ql.io.orc.Reader
+	org.apache.hadoop.hive.ql.io.orc.RecordReader
+/hive-exec/src/test/org/apache/hadoop/hive/ql/io/orc/TestOrcRecordUpdater.java
+	org.apache.hadoop.hive.ql.io.orc.Reader
+/hive-exec/src/test/org/apache/hadoop/hive/ql/io/orc/TestInputOutputFormat.java
+	org.apache.hadoop.hdfs.protocol.HdfsLocatedFileStatus
+/hive-exec/src/test/org/apache/hadoop/hive/ql/io/parquet/TestMapredParquetInputFormat.java
+	org.apache.parquet.hadoop.ParquetInputFormat
+/hive-exec/src/test/org/apache/hadoop/hive/ql/io/parquet/TestDataWritableWriter.java
+	org.apache.parquet.io.api.RecordConsumer
+/hive-exec/src/test/org/apache/hadoop/hive/ql/io/parquet/TestMapredParquetOutputFormat.java
+	org.apache.parquet.hadoop.ParquetOutputFormat
+	org.apache.hadoop.util.Progressable
+	org.apache.parquet.hadoop.ParquetOutputFormat
+/hive-exec/src/test/org/apache/hadoop/hive/ql/lockmgr/TestDbTxnManager2.java
+/hive-exec/src/test/org/apache/hadoop/hive/ql/lockmgr/TestDummyTxnManager.java
+	org.apache.hadoop.hive.ql.lockmgr.HiveLockManager
+	org.apache.hadoop.hive.ql.lockmgr.HiveLockManagerCtx
+	org.apache.hadoop.hive.ql.QueryPlan
+/hive-exec/src/test/org/apache/hadoop/hive/ql/metadata/TestHiveCopyFiles.java
+/hive-exec/src/test/org/apache/hadoop/hive/ql/optimizer/TestGenMapRedUtilsCreateConditionalTask.java
+	org.apache.hadoop.hive.ql.plan.MoveWork
+	org.apache.hadoop.hive.ql.plan.LoadFileDesc
+	org.apache.hadoop.hive.ql.plan.LoadTableDesc
+	org.apache.hadoop.hive.ql.plan.MoveWork
+	org.apache.hadoop.hive.ql.plan.MoveWork
+	org.apache.hadoop.hive.ql.plan.MoveWork
+	org.apache.hadoop.hive.ql.exec.FileSinkOperator
+	org.apache.hadoop.hive.ql.exec.RowSchema
+	org.apache.hadoop.hive.ql.CompilationOpContext
+	org.apache.hadoop.hive.ql.exec.MoveTask
+/hive-exec/src/test/org/apache/hadoop/hive/ql/optimizer/TestColumnPrunerProcCtx.java
+	org.apache.hadoop.hive.ql.udf.generic.GenericUDF
+	org.apache.hadoop.hive.ql.udf.generic.GenericUDFBridge
+	org.apache.hadoop.hive.ql.udf.generic.GenericUDFPower
+	org.apache.hadoop.hive.ql.exec.SelectOperator
+/hive-exec/src/test/org/apache/hadoop/hive/ql/optimizer/calcite/rules/TestHiveReduceExpressionsWithStatsRule.java
+	org.apache.calcite.plan.RelOptSchema
+	org.apache.hadoop.hive.ql.optimizer.calcite.RelOptHiveTable
+	org.apache.hadoop.hive.ql.metadata.Table
+/hive-exec/src/test/org/apache/hadoop/hive/ql/optimizer/calcite/rules/TestHivePointLookupOptimizerRule.java
+	org.apache.calcite.plan.RelOptSchema
+	org.apache.hadoop.hive.ql.optimizer.calcite.RelOptHiveTable
+	org.apache.hadoop.hive.ql.metadata.Table
+/hive-exec/src/test/org/apache/hadoop/hive/ql/optimizer/calcite/translator/TestRexNodeConverter.java
+	org.apache.calcite.plan.RelOptSchema
+	org.apache.hadoop.hive.ql.optimizer.calcite.RelOptHiveTable
+/hive-exec/src/test/org/apache/hadoop/hive/ql/optimizer/physical/TestNullScanTaskDispatcher.java
+	org.apache.hadoop.hive.ql.CompilationOpContext
+	org.apache.hadoop.hive.ql.plan.GroupByDesc
+	org.apache.hadoop.hive.ql.CompilationOpContext
+	org.apache.hadoop.hive.ql.CompilationOpContext
+	org.apache.hadoop.hive.ql.plan.TableScanDesc
+	org.apache.hadoop.hive.ql.metadata.Table
+	org.apache.hadoop.hive.metastore.api.Table
+	org.apache.hadoop.hive.ql.plan.TableDesc
+	org.apache.hadoop.hive.ql.metadata.Partition
+	org.apache.hadoop.hive.ql.parse.PrunedPartitionList
+/hive-exec/src/test/org/apache/hadoop/hive/ql/optimizer/signature/TestOpSigFactory.java
+	org.apache.hadoop.hive.ql.optimizer.signature.OpTreeSignatureFactory
+/hive-exec/src/test/org/apache/hadoop/hive/ql/optimizer/signature/TestRelSignature.java
+	org.apache.calcite.plan.RelOptSchema
+	org.apache.hadoop.hive.ql.optimizer.calcite.RelOptHiveTable
+	org.apache.hadoop.hive.ql.metadata.Table
+/hive-exec/src/test/org/apache/hadoop/hive/ql/parse/authorization/TestPrivilegesV2.java
+	org.apache.hadoop.hive.ql.metadata.Hive
+/hive-exec/src/test/org/apache/hadoop/hive/ql/parse/authorization/TestPrivilegesV1.java
+	org.apache.hadoop.hive.ql.metadata.Hive
+/hive-exec/src/test/org/apache/hadoop/hive/ql/parse/authorization/TestHiveAuthorizationTaskFactory.java
+	org.apache.hadoop.hive.ql.metadata.Hive
+/hive-exec/src/test/org/apache/hadoop/hive/ql/parse/authorization/TestSessionUserName.java
+	org.apache.hadoop.hive.ql.metadata.Hive
+	org.apache.hadoop.hive.ql.security.authorization.plugin.HiveAccessController
+/hive-exec/src/test/org/apache/hadoop/hive/ql/parse/repl/TestCopyUtils.java
+	org.apache.hadoop.security.UserGroupInformation
+	org.apache.hadoop.security.UserGroupInformation
+	org.apache.hadoop.fs.Path
+	org.apache.hadoop.fs.Path
+	org.apache.hadoop.fs.FileSystem
+	org.apache.hadoop.hive.conf.HiveConf
+	org.apache.hadoop.security.UserGroupInformation
+	org.apache.hadoop.security.UserGroupInformation
+	org.apache.hadoop.hive.conf.HiveConf
+	org.apache.hadoop.fs.FileSystem
+	org.apache.hadoop.fs.Path
+	org.apache.hadoop.fs.Path
+	org.apache.hadoop.fs.ContentSummary
+	org.apache.hadoop.security.UserGroupInformation
+	org.apache.hadoop.hive.conf.HiveConf
+	org.apache.hadoop.fs.FileSystem
+	org.apache.hadoop.fs.Path
+	org.apache.hadoop.fs.Path
+	org.apache.hadoop.fs.ContentSummary
+	org.apache.hadoop.security.UserGroupInformation
+	org.apache.hadoop.fs.FileSystem
+	org.apache.hadoop.fs.Path
+	org.apache.hadoop.fs.FileSystem
+/hive-exec/src/test/org/apache/hadoop/hive/ql/parse/repl/dump/TestHiveWrapper.java
+	org.apache.hadoop.hive.ql.parse.repl.dump.HiveWrapper.Tuple.Function<org.apache.hadoop.hive.ql.parse.ReplicationSpec>
+	org.apache.hadoop.hive.ql.parse.repl.dump.HiveWrapper.Tuple.Function<org.apache.hadoop.hive.metastore.api.Table>
+/hive-exec/src/test/org/apache/hadoop/hive/ql/parse/repl/load/message/TestPrimaryToReplicaResourceFunction.java
+	org.apache.hadoop.hive.conf.HiveConf
+	org.apache.hadoop.hive.metastore.api.Function
+	org.apache.hadoop.fs.FileSystem
+	org.apache.hadoop.hive.ql.exec.Task
+/hive-exec/src/test/org/apache/hadoop/hive/ql/parse/repl/metric/TestReplicationMetricSink.java
+	org.apache.hadoop.hive.ql.parse.repl.load.FailoverMetaData
+	org.apache.hadoop.hive.ql.exec.repl.ReplStatsTracker
+/hive-exec/src/test/org/apache/hadoop/hive/ql/parse/repl/metric/TestReplicationMetricUpdateOnFailure.java
+	org.apache.hadoop.hive.ql.exec.repl.ReplDumpWork
+	org.apache.hadoop.hive.ql.exec.repl.ReplDumpWork
+	org.apache.hadoop.hive.ql.exec.repl.ReplDumpWork
+	org.apache.hadoop.hive.ql.exec.repl.ReplLoadWork
+	org.apache.hadoop.hive.ql.exec.repl.ReplLoadWork
+	org.apache.hadoop.hive.ql.exec.repl.ReplLoadWork
+	org.apache.hadoop.hive.ql.ddl.DDLWork
+	org.apache.hadoop.hive.ql.Context
+	org.apache.hadoop.hive.ql.ddl.DDLWork
+	org.apache.hadoop.hive.ql.Context
+	org.apache.hadoop.hive.ql.ddl.DDLWork
+	org.apache.hadoop.hive.ql.Context
+/hive-exec/src/test/org/apache/hadoop/hive/ql/parse/repl/metric/TestReplicationMetricCollector.java
+	org.apache.hadoop.hive.ql.parse.repl.load.FailoverMetaData
+/hive-exec/src/test/org/apache/hadoop/hive/ql/parse/type/TestTypeCheckProcFactory.java
+	org.apache.hadoop.hive.serde2.typeinfo.PrimitiveTypeInfo
+	org.apache.hadoop.hive.ql.plan.ExprNodeConstantDesc
+/hive-exec/src/test/org/apache/hadoop/hive/ql/plan/TestTezWork.java
+	org.apache.hadoop.hive.ql.plan.BaseWork
+	org.apache.hadoop.hive.ql.plan.BaseWork
+	org.apache.hadoop.hive.ql.plan.BaseWork
+	org.apache.hadoop.hive.ql.plan.BaseWork
+/hive-exec/src/test/org/apache/hadoop/hive/ql/processors/TestResetProcessor.java
+	org.apache.hadoop.hive.ql.session.SessionState
+/hive-exec/src/test/org/apache/hadoop/hive/ql/secrets/AWSSecretsManagerSecretSourceTest.java
+	com.amazonaws.secretsmanager.caching.SecretCache
+/hive-exec/src/test/org/apache/hadoop/hive/ql/security/authorization/plugin/TestHivePrivilegeObjectOwnerNameAndType.java
+	org.apache.hadoop.hive.ql.security.authorization.plugin.HiveAuthorizer
+/hive-exec/src/test/org/apache/hadoop/hive/ql/session/TestAddResource.java
+/hive-exec/src/test/org/apache/hadoop/hive/ql/stats/TestBasicStats.java
+	org.apache.hadoop.hive.ql.metadata.Partition
+	org.apache.hadoop.hive.metastore.api.Partition
+/hive-exec/src/test/org/apache/hadoop/hive/ql/txn/compactor/TestInitiator.java
+/hive-exec/src/test/org/apache/hadoop/hive/ql/txn/compactor/TestWorker.java
+/hive-exec/src/test/org/apache/hadoop/hive/ql/udf/generic/TestGenericUDFSurrogateKey.java
+	org.apache.hadoop.hive.ql.exec.tez.TezContext
+	org.apache.tez.runtime.api.ProcessorContext
+	org.apache.hadoop.hive.ql.exec.MapredContext
+/hive-exec/src/test/org/apache/hadoop/hive/ql/udf/generic/TestGenericUDFExtractUnion.java
+	org.apache.hadoop.hive.ql.udf.generic.GenericUDFExtractUnion.ObjectInspectorConverter
+	org.apache.hadoop.hive.ql.udf.generic.GenericUDFExtractUnion.ValueConverter
+	org.apache.hadoop.hive.serde2.objectinspector.UnionObjectInspector
+	org.apache.hadoop.hive.serde2.objectinspector.primitive.WritableConstantIntObjectInspector
+	org.apache.hadoop.hive.serde2.objectinspector.ObjectInspector
+	org.apache.hadoop.hive.ql.udf.generic.GenericUDF.DeferredObject
+/hive-exec/src/test/org/apache/hadoop/hive/ql/udf/ptf/TestBoundaryCache.java
+	org.apache.hadoop.hive.ql.exec.PTFPartition
+	org.apache.hadoop.hive.ql.plan.ptf.OrderExpressionDef
+/hive-hbase-handler/src/test/org/apache/hadoop/hive/hbase/TestHiveHBaseTableOutputFormat.java
+	org.apache.hadoop.hive.hbase.HiveHBaseTableOutputFormat
+/hive-hbase-handler/src/test/org/apache/hadoop/hive/hbase/TestHBaseStorageHandler.java
+	org.apache.hadoop.hive.ql.plan.TableDesc
+/hive-hcatalog-core/src/test/java/org/apache/hive/hcatalog/cli/SemanticAnalysis/TestHCatAuthUtil.java
+	org.apache.hadoop.hive.ql.security.authorization.plugin.HiveAuthorizer
+/hive-iceberg-catalog/src/test/java/org/apache/iceberg/hive/TestHiveClientPool.java
+	org.apache.hadoop.hive.metastore.HiveMetaStoreClient
+	org.apache.hadoop.hive.metastore.HiveMetaStoreClient
+	org.apache.hadoop.hive.metastore.HiveMetaStoreClient
+/hive-iceberg-catalog/src/test/java/org/apache/iceberg/hive/TestHiveCommits.java
+/hive-iceberg-catalog/src/test/java/org/apache/iceberg/hive/TestClientPoolImpl.java
+	org.apache.hadoop.hive.metastore.HiveMetaStoreClient
+	org.apache.hadoop.hive.metastore.HiveMetaStoreClient
+	org.apache.hadoop.hive.metastore.HiveMetaStoreClient
+/hive-iceberg-catalog/src/test/java/org/apache/iceberg/hive/TestHiveCommitLocks.java
+/hive-iceberg-handler/src/test/java/org/apache/iceberg/mr/hive/TestHiveIcebergOutputCommitter.java
+/hive-iceberg-handler/src/test/java/org/apache/iceberg/mr/hive/TestHiveIcebergMigration.java
+/hive-it-unit/src/test/java/org/apache/hadoop/hive/io/TestHadoopFileStatus.java
+	org.apache.hadoop.hdfs.DistributedFileSystem
+	org.apache.hadoop.fs.Path
+	org.apache.hadoop.fs.FileStatus
+/hive-it-unit/src/test/java/org/apache/hadoop/hive/ql/security/authorization/plugin/TestHiveAuthorizerCheckInvocation.java
+	org.apache.hadoop.hive.ql.security.authorization.plugin.HiveAuthorizer
+	org.apache.hive.service.cli.operation.OperationManager
+	org.apache.hive.service.server.KillQueryZookeeperManager
+/hive-it-unit/src/test/java/org/apache/hadoop/hive/ql/security/authorization/plugin/TestHiveAuthorizerShowFilters.java
+	org.apache.hadoop.hive.ql.security.authorization.plugin.TestHiveAuthorizerShowFilters.MockedHiveAuthorizerFactory.AuthorizerWithFilterCmdImpl
+/hive-it-unit/src/test/java/org/apache/hadoop/hive/ql/txn/compactor/TestCompactor.java
+/hive-it-unit/src/test/java/org/apache/hadoop/hive/ql/txn/compactor/TestCrudCompactorOnTez.java
+	org.apache.hadoop.hive.metastore.api.StorageDescriptor
+	org.apache.hadoop.hive.metastore.txn.CompactionInfo
+/hive-it-unit/src/test/java/org/apache/hadoop/hive/serde2/TestSerdeWithFieldComments.java
+	org.apache.hadoop.hive.serde2.objectinspector.StructField
+	org.apache.hadoop.hive.serde2.objectinspector.ObjectInspector
+	org.apache.hadoop.hive.serde2.objectinspector.StructObjectInspector
+	org.apache.hadoop.hive.serde2.Deserializer
+/hive-it-unit/src/test/java/org/apache/hive/jdbc/authorization/TestHS2AuthzSessionContext.java
+	org.apache.hadoop.hive.ql.security.authorization.plugin.HiveAuthorizer
+/hive-it-unit/src/test/java/org/apache/hive/jdbc/authorization/TestHS2AuthzContext.java
+	org.apache.hadoop.hive.ql.security.authorization.plugin.HiveAuthorizer
+/hive-it-unit/src/test/java/org/apache/hive/jdbc/authorization/TestCLIAuthzSessionContext.java
+	org.apache.hadoop.hive.ql.security.authorization.plugin.HiveAuthorizer
+/hive-it-unit/src/test/java/org/apache/hive/service/cli/session/TestHiveSessionImpl.java
+	org.apache.hive.service.cli.operation.OperationManager
+	org.apache.hive.service.cli.operation.ExecuteStatementOperation
+	org.apache.hive.service.cli.OperationHandle
+/hive-it-unit/src/test/java/org/apache/hive/service/cli/thrift/TestThriftHttpCLIServiceFeatures.java
+	org.apache.hadoop.hive.ql.security.authorization.plugin.HiveAuthorizer
+/hive-jdbc/src/test/org/apache/hive/jdbc/TestHivePreparedStatement.java
+	org.apache.hive.jdbc.HiveConnection
+/hive-jdbc/src/test/org/apache/hive/jdbc/TestHiveStatement.java
+	org.apache.hive.jdbc.HiveConnection
+	org.apache.hive.jdbc.HiveConnection
+	org.apache.hive.jdbc.HiveConnection
+	org.apache.hive.jdbc.HiveConnection
+	org.apache.hive.jdbc.HiveConnection
+	org.apache.hive.jdbc.HiveConnection
+/hive-jdbc/src/test/org/apache/hive/jdbc/TestHiveBaseResultSet.java
+	org.apache.hive.jdbc.HiveBaseResultSet
+	org.apache.hive.jdbc.HiveBaseResultSet
+	org.apache.hive.jdbc.HiveBaseResultSet
+	org.apache.hive.jdbc.HiveBaseResultSet
+	org.apache.hive.jdbc.HiveBaseResultSet
+	org.apache.hive.jdbc.HiveBaseResultSet
+	org.apache.hive.jdbc.HiveBaseResultSet
+	org.apache.hive.jdbc.HiveBaseResultSet
+	org.apache.hive.jdbc.HiveBaseResultSet
+	org.apache.hive.jdbc.HiveBaseResultSet
+	org.apache.hive.jdbc.HiveBaseResultSet
+	org.apache.hive.jdbc.HiveBaseResultSet
+	org.apache.hive.jdbc.HiveBaseResultSet
+/hive-jdbc-handler/src/test/java/org/apache/hive/storage/jdbc/TestJdbcInputFormat.java
+	org.apache.hive.storage.jdbc.dao.DatabaseAccessor
+/hive-llap-client/src/test/org/apache/hadoop/hive/llap/TestAsyncPbRpcProxy.java
+	com.google.protobuf.Message
+	org.apache.hadoop.hive.llap.AsyncPbRpcProxy.ExecuteRequestCallback
+	com.google.protobuf.Message
+	org.apache.hadoop.hive.llap.AsyncPbRpcProxy.ExecuteRequestCallback
+/hive-llap-client/src/test/org/apache/hadoop/hive/llap/registry/impl/TestLlapZookeeperRegistryImpl.java
+/hive-llap-client/src/test/org/apache/hadoop/hive/registry/impl/TestZookeeperUtils.java
+	org.apache.hadoop.security.UserGroupInformation
+/hive-llap-common/src/test/org/apache/hadoop/hive/llap/AsyncResponseHandlerTest.java
+	org.apache.hadoop.hive.llap.AsyncPbRpcProxy.RequestManager
+	org.apache.hadoop.hive.llap.AsyncPbRpcProxy.ExecuteRequestCallback
+	com.google.protobuf.Message
+	org.apache.hadoop.hive.llap.AsyncPbRpcProxy.ExecuteRequestCallback
+	org.apache.hadoop.hive.llap.AsyncPbRpcProxy.ExecuteRequestCallback
+	org.apache.hadoop.hive.llap.LlapNodeId
+	com.google.protobuf.Message
+/hive-llap-server/src/test/org/apache/hadoop/hive/llap/cache/TestCacheContentsTracker.java
+	org.apache.hadoop.hive.llap.cache.LowLevelCachePolicy
+	org.apache.hadoop.hive.llap.cache.EvictionListener
+	org.apache.hadoop.hive.llap.cache.LlapCacheableBuffer
+/hive-llap-server/src/test/org/apache/hadoop/hive/llap/cache/TestBasicLlapCacheHydration.java
+	org.apache.hadoop.hive.llap.io.api.LlapIo
+/hive-llap-server/src/test/org/apache/hadoop/hive/llap/cache/TestLowLevelLrfuCachePolicy.java
+	org.apache.hadoop.hive.llap.metrics.LlapDaemonCacheMetrics
+/hive-llap-server/src/test/org/apache/hadoop/hive/llap/cache/TestCacheAllocationsEvictionsCycles.java
+	org.apache.hadoop.hive.llap.cache.LowLevelCache
+	org.apache.hadoop.hive.llap.cache.SerDeLowLevelCacheImpl
+	org.apache.hadoop.hive.llap.io.metadata.MetadataCache
+/hive-llap-server/src/test/org/apache/hadoop/hive/llap/daemon/impl/TestLlapDaemon.java
+	org.apache.hadoop.hive.llap.registry.impl.LlapRegistryService
+	org.mockito.ArgumentCaptor<java.lang.Iterable<java.util.Map.Entry<java.lang.String,java.lang.String>>>
+/hive-llap-server/src/test/org/apache/hadoop/hive/llap/daemon/impl/TestLlapDaemonProtocolServerImpl.java
+	org.apache.hadoop.hive.llap.daemon.ContainerRunner
+	org.apache.hadoop.hive.llap.daemon.ContainerRunner
+/hive-llap-server/src/test/org/apache/hadoop/hive/llap/daemon/impl/TaskExecutorTestHelpers.java
+	org.apache.hadoop.hive.llap.daemon.impl.AMReporter
+	org.apache.hadoop.hive.llap.metrics.LlapDaemonExecutorMetrics
+	org.apache.hadoop.hive.llap.daemon.KilledTaskHandler
+	org.apache.hadoop.hive.llap.daemon.FragmentCompletionHandler
+	org.apache.hadoop.hive.llap.daemon.SchedulerFragmentCompletingListener
+	javax.net.SocketFactory
+/hive-llap-server/src/test/org/apache/hadoop/hive/llap/daemon/impl/TestContainerRunnerImpl.java
+	org.apache.hadoop.hive.llap.daemon.impl.AMReporter
+/hive-llap-server/src/test/org/apache/hadoop/hive/llap/daemon/impl/TestTaskExecutorService.java
+	org.apache.hadoop.hive.llap.metrics.LlapDaemonExecutorMetrics
+/hive-llap-server/src/test/org/apache/hadoop/hive/llap/daemon/impl/comparator/TestAMReporter.java
+	org.apache.hadoop.hive.llap.daemon.QueryFailedHandler
+	org.apache.hadoop.hive.llap.DaemonId
+	javax.net.SocketFactory
+	org.apache.tez.dag.records.TezTaskAttemptID
+	org.apache.tez.dag.records.TezTaskAttemptID
+	org.apache.hadoop.hive.llap.protocol.LlapTaskUmbilicalProtocol
+/hive-llap-server/src/test/org/apache/hadoop/hive/llap/io/encoded/TestVectorDeserializeOrcWriter.java
+	org.apache.hadoop.hive.ql.io.orc.WriterImpl
+	org.apache.hadoop.hive.llap.io.encoded.VectorDeserializeOrcWriter
+/hive-llap-tez/src/test/org/apache/hadoop/hive/llap/tezplugins/TestLlapTaskCommunicator.java
+	org.apache.hadoop.hive.llap.tez.LlapProtocolClientProxy
+	org.apache.tez.serviceplugins.api.TaskCommunicatorContext
+	org.apache.tez.serviceplugins.api.DagInfo
+	org.apache.tez.runtime.api.impl.TaskSpec
+	org.apache.hadoop.yarn.api.records.ContainerId
+	org.apache.tez.dag.records.TezTaskAttemptID
+	org.apache.hadoop.hive.llap.tez.LlapProtocolClientProxy
+/hive-llap-tez/src/test/org/apache/hadoop/hive/llap/tezplugins/TestLlapTaskSchedulerService.java
+	org.apache.hadoop.yarn.api.records.Priority
+	org.apache.hadoop.yarn.api.records.Resource
+	org.apache.hadoop.yarn.api.records.Priority
+	org.apache.hadoop.yarn.api.records.Resource
+	org.apache.hadoop.yarn.api.records.Priority
+	org.apache.hadoop.yarn.api.records.Resource
+	org.apache.hadoop.yarn.api.records.Priority
+	org.apache.hadoop.yarn.api.records.Resource
+	org.apache.hadoop.yarn.api.records.Priority
+	org.apache.hadoop.yarn.api.records.Resource
+	org.apache.hadoop.yarn.api.records.Resource
+	org.apache.hadoop.yarn.api.records.Priority
+	org.apache.tez.serviceplugins.api.TaskSchedulerContext
+	org.apache.hadoop.hive.llap.registry.LlapServiceInstanceSet
+	org.apache.hadoop.hive.llap.registry.impl.InactiveServiceInstance
+	org.apache.hadoop.hive.llap.registry.LlapServiceInstance
+	org.apache.hadoop.hive.llap.registry.LlapServiceInstance
+/hive-llap-tez/src/test/org/apache/hadoop/hive/llap/tezplugins/metrics/TestBlacklistingLlapMetricsListener.java
+	org.apache.hadoop.hive.llap.registry.impl.LlapRegistryService
+	org.apache.hadoop.hive.llap.tezplugins.metrics.LlapManagementProtocolClientImplFactory
+	org.apache.hadoop.hive.llap.impl.LlapManagementProtocolClientImpl
+	org.apache.hadoop.hive.llap.registry.LlapServiceInstanceSet
+	org.apache.hadoop.hive.llap.registry.LlapServiceInstance
+/hive-llap-tez/src/test/org/apache/hadoop/hive/llap/tezplugins/metrics/TestLlapMetricsCollector.java
+	org.apache.hadoop.conf.Configuration
+	org.apache.hadoop.hive.llap.tezplugins.metrics.LlapManagementProtocolClientImplFactory
+	org.apache.hadoop.hive.llap.impl.LlapManagementProtocolClientImpl
+	java.util.concurrent.ScheduledExecutorService
+	org.apache.hadoop.hive.llap.registry.LlapServiceInstance
+	org.apache.hadoop.hive.llap.registry.LlapServiceInstance
+	org.apache.hadoop.hive.llap.registry.LlapServiceInstance
+	org.apache.hadoop.hive.llap.registry.LlapServiceInstance
+	org.apache.hadoop.hive.llap.registry.LlapServiceInstance
+	org.apache.hadoop.hive.llap.registry.LlapServiceInstance
+	org.apache.hadoop.hive.llap.registry.LlapServiceInstance
+	org.apache.hadoop.hive.llap.registry.LlapServiceInstance
+	org.apache.hadoop.hive.llap.registry.LlapServiceInstanceSet
+	org.apache.hadoop.hive.llap.registry.impl.LlapRegistryService
+	org.apache.hadoop.hive.llap.registry.LlapServiceInstance
+	org.apache.hadoop.hive.llap.registry.LlapServiceInstance
+	org.apache.hadoop.hive.llap.registry.LlapServiceInstance
+	org.apache.hadoop.hive.llap.registry.LlapServiceInstance
+/hive-service/src/test/org/apache/hive/http/TestJdbcJarDownloadServlet.java
+	javax.servlet.http.HttpServletResponse
+/hive-service/src/test/org/apache/hive/service/auth/TestLdapAuthenticationProviderImpl.java
+	org.apache.hive.service.auth.ldap.DirSearchFactory
+	org.apache.hive.service.auth.ldap.DirSearch
+	org.apache.hive.service.auth.ldap.DirSearchFactory
+/hive-service/src/test/org/apache/hive/service/auth/ldap/TestSearchResultHandler.java
+/hive-service/src/test/org/apache/hive/service/auth/ldap/TestLdapSearch.java
+	javax.naming.directory.DirContext
+/hive-service/src/test/org/apache/hive/service/auth/ldap/TestCustomQueryFilter.java
+	org.apache.hive.service.auth.ldap.DirSearch
+/hive-service/src/test/org/apache/hive/service/auth/ldap/TestChainFilter.java
+	org.apache.hive.service.auth.ldap.Filter
+	org.apache.hive.service.auth.ldap.Filter
+	org.apache.hive.service.auth.ldap.Filter
+	org.apache.hive.service.auth.ldap.FilterFactory
+	org.apache.hive.service.auth.ldap.FilterFactory
+	org.apache.hive.service.auth.ldap.FilterFactory
+	org.apache.hive.service.auth.ldap.DirSearch
+/hive-service/src/test/org/apache/hive/service/auth/ldap/TestGroupFilter.java
+	org.apache.hive.service.auth.ldap.DirSearch
+/hive-service/src/test/org/apache/hive/service/auth/ldap/TestUserSearchFilter.java
+	org.apache.hive.service.auth.ldap.DirSearch
+/hive-service/src/test/org/apache/hive/service/auth/ldap/LdapTestUtils.java
+	javax.naming.NamingEnumeration
+	javax.naming.directory.SearchResult
+/hive-service/src/test/org/apache/hive/service/cli/operation/TestSQLOperationMetrics.java
+	org.apache.hive.service.cli.session.HiveSession
+	org.apache.hadoop.hive.ql.session.SessionState
+/hive-service/src/test/org/apache/hive/service/cli/operation/TestQueryLifeTimeHooksWithSQLOperation.java
+	org.apache.hive.service.cli.session.HiveSession
+/hive-service/src/test/org/apache/hive/service/cli/session/TestSessionManagerMetrics.java
+	org.apache.hadoop.hive.ql.metadata.Hive
+	org.apache.hive.service.cli.operation.OperationManager
+	org.apache.hive.service.cli.operation.OperationManager
+/hive-service/src/test/org/apache/hive/service/cli/thrift/ThriftHttpServletTest.java
+	javax.servlet.http.HttpServletRequest
+	javax.servlet.http.HttpServletRequest
+/hive-shims-0.23/src/main/test/org/apache/hadoop/hive/shims/TestHadoop23Shims.java
+	org.apache.hadoop.fs.FileSystem
+	org.apache.hadoop.fs.Path
+	org.apache.hadoop.hdfs.DistributedFileSystem
+	org.apache.hadoop.hdfs.DFSClient
+/hive-shims-common/src/main/test/org/apache/hadoop/fs/TestProxyFileSystem.java
+	org.apache.hadoop.fs.FileStatus
+	org.apache.hadoop.fs.FileSystem
+/hive-shims-common/src/main/test/org/apache/hadoop/hive/io/TestHdfsUtils.java
+	org.apache.hadoop.hive.io.HdfsUtils.HadoopFileStatus
+	org.apache.hadoop.fs.FileStatus
+	org.apache.hadoop.fs.FileSystem
+	org.apache.hadoop.hive.io.HdfsUtils.HadoopFileStatus
+	org.apache.hadoop.fs.FileStatus
+	org.apache.hadoop.fs.permission.AclStatus
+	org.apache.hadoop.fs.FileSystem
+	org.apache.hadoop.hive.io.HdfsUtils.HadoopFileStatus
+	org.apache.hadoop.fs.FileStatus
+	org.apache.hadoop.fs.FileSystem
+	org.apache.hadoop.hive.io.HdfsUtils.HadoopFileStatus
+	org.apache.hadoop.fs.FileStatus
+	org.apache.hadoop.fs.FsShell
+	org.apache.hadoop.fs.FileSystem
+	org.apache.hadoop.hive.io.HdfsUtils.HadoopFileStatus
+	org.apache.hadoop.fs.FileStatus
+	org.apache.hadoop.fs.FsShell
+	org.apache.hadoop.fs.permission.AclStatus
+	org.apache.hadoop.fs.FileSystem
+	org.apache.hadoop.hive.io.HdfsUtils.HadoopFileStatus
+	org.apache.hadoop.fs.FileStatus
+	org.apache.hadoop.fs.FsShell
+	org.apache.hadoop.fs.FileSystem
+/hive-spark-client/src/test/java/org/apache/hive/spark/client/TestJobHandle.java
+	org.apache.hive.spark.client.SparkClient
+	io.netty.util.concurrent.Promise<java.io.Serializable>
+	org.apache.hive.spark.client.JobHandle.Listener<java.io.Serializable>
+	org.apache.hive.spark.client.JobHandle.Listener<java.io.Serializable>
+/hive-spark-client/src/test/java/org/apache/hive/spark/client/TestSparkClient.java
+	org.apache.hive.spark.client.JobHandle.Listener
+/hive-spark-client/src/test/java/org/apache/hive/spark/client/TestSparkLauncherSparkClient.java
+	org.apache.spark.launcher.SparkAppHandle
+	org.apache.hive.spark.client.rpc.RpcServer
+/hive-standalone-metastore-server/src/test/java/org/apache/hadoop/hive/metastore/TestMetaStoreLdapAuthenticationProviderImpl.java
+	org.apache.hadoop.hive.metastore.ldap.DirSearchFactory
+	org.apache.hadoop.hive.metastore.ldap.DirSearch
+	org.apache.hadoop.hive.metastore.ldap.DirSearchFactory
+/hive-standalone-metastore-server/src/test/java/org/apache/hadoop/hive/metastore/TestHiveAlterHandler.java
+	org.apache.hadoop.hive.metastore.RawStore
+	org.apache.hadoop.hive.metastore.RawStore
+	org.apache.hadoop.hive.metastore.RawStore
+/hive-standalone-metastore-server/src/test/java/org/apache/hadoop/hive/metastore/TestHiveMetaStore.java
+	org.apache.hadoop.hive.metastore.Warehouse
+/hive-standalone-metastore-server/src/test/java/org/apache/hadoop/hive/metastore/TestPartitionProjectionEvaluator.java
+	javax.jdo.PersistenceManager
+	javax.jdo.PersistenceManager
+	javax.jdo.PersistenceManager
+	javax.jdo.PersistenceManager
+	javax.jdo.PersistenceManager
+/hive-standalone-metastore-server/src/test/java/org/apache/hadoop/hive/metastore/TestRetriesInRetryingHMSHandler.java
+	org.apache.hadoop.hive.metastore.IHMSHandler
+	org.apache.hadoop.hive.metastore.IHMSHandler
+	org.apache.hadoop.hive.metastore.IHMSHandler
+	org.apache.hadoop.hive.metastore.IHMSHandler
+/hive-standalone-metastore-server/src/test/java/org/apache/hadoop/hive/metastore/TestMsckCheckPartitions.java
+	org.apache.hadoop.fs.LocalFileSystem
+	org.apache.hadoop.hive.metastore.IMetaStoreClient
+	org.apache.hadoop.fs.FileStatus
+/hive-standalone-metastore-server/src/test/java/org/apache/hadoop/hive/metastore/TestObjectStore.java
+/hive-standalone-metastore-server/src/test/java/org/apache/hadoop/hive/metastore/TestTableIterable.java
+	org.apache.hadoop.hive.metastore.HiveMetaStoreClient
+/hive-standalone-metastore-server/src/test/java/org/apache/hadoop/hive/metastore/client/TestMetastoreScheduledQueries.java
+/hive-standalone-metastore-server/src/test/java/org/apache/hadoop/hive/metastore/ldap/TestChainFilter.java
+	org.apache.hadoop.hive.metastore.ldap.Filter
+	org.apache.hadoop.hive.metastore.ldap.Filter
+	org.apache.hadoop.hive.metastore.ldap.Filter
+	org.apache.hadoop.hive.metastore.ldap.FilterFactory
+	org.apache.hadoop.hive.metastore.ldap.FilterFactory
+	org.apache.hadoop.hive.metastore.ldap.FilterFactory
+	org.apache.hadoop.hive.metastore.ldap.DirSearch
+/hive-standalone-metastore-server/src/test/java/org/apache/hadoop/hive/metastore/ldap/LdapTestUtils.java
+	javax.naming.NamingEnumeration
+	javax.naming.directory.SearchResult
+/hive-standalone-metastore-server/src/test/java/org/apache/hadoop/hive/metastore/ldap/TestCustomQueryFilter.java
+	org.apache.hadoop.hive.metastore.ldap.DirSearch
+/hive-standalone-metastore-server/src/test/java/org/apache/hadoop/hive/metastore/ldap/TestUserSearchFilter.java
+	org.apache.hadoop.hive.metastore.ldap.DirSearch
+/hive-standalone-metastore-server/src/test/java/org/apache/hadoop/hive/metastore/ldap/TestGroupFilter.java
+	org.apache.hadoop.hive.metastore.ldap.DirSearch
+/hive-standalone-metastore-server/src/test/java/org/apache/hadoop/hive/metastore/ldap/TestSearchResultHandler.java
+/hive-standalone-metastore-server/src/test/java/org/apache/hadoop/hive/metastore/ldap/TestLdapSearch.java
+	javax.naming.directory.DirContext
+/hive-standalone-metastore-server/src/test/java/org/apache/hadoop/hive/metastore/tools/metatool/TestMetaToolTaskListFSRoot.java
+	org.apache.hadoop.hive.metastore.ObjectStore
+/hive-standalone-metastore-server/src/test/java/org/apache/hadoop/hive/metastore/tools/metatool/TestMetaToolTaskUpdateLocation.java
+	org.apache.hadoop.hive.metastore.ObjectStore
+/hive-standalone-metastore-server/src/test/java/org/apache/hadoop/hive/metastore/tools/metatool/TestMetaToolTaskExecuteJDOQLQuery.java
+	org.apache.hadoop.hive.metastore.ObjectStore
+	org.apache.hadoop.hive.metastore.ObjectStore
+/hive-standalone-metastore-server/src/test/java/org/apache/hadoop/hive/metastore/tools/schematool/TestSchemaToolTaskDrop.java
+	org.apache.hadoop.hive.metastore.tools.schematool.MetastoreSchemaTool
+	java.sql.Connection
+	java.sql.Statement
+	java.sql.ResultSet
+	java.sql.ResultSet
+/hive-standalone-metastore-server/src/test/java/org/apache/hadoop/hive/metastore/utils/TestHdfsUtils.java
+	org.apache.hadoop.security.UserGroupInformation
+	org.apache.hadoop.security.UserGroupInformation
+	org.apache.hadoop.hive.metastore.utils.HdfsUtils.HadoopFileStatus
+	org.apache.hadoop.fs.FileStatus
+	org.apache.hadoop.fs.FileSystem
+	org.apache.hadoop.hive.metastore.utils.HdfsUtils.HadoopFileStatus
+	org.apache.hadoop.fs.FileStatus
+	org.apache.hadoop.fs.permission.AclStatus
+	org.apache.hadoop.fs.FileSystem
+	org.apache.hadoop.hive.metastore.utils.HdfsUtils.HadoopFileStatus
+	org.apache.hadoop.fs.FileStatus
+	org.apache.hadoop.fs.FileSystem
+	org.apache.hadoop.hive.metastore.utils.HdfsUtils.HadoopFileStatus
+	org.apache.hadoop.fs.FileStatus
+	org.apache.hadoop.fs.FsShell
+	org.apache.hadoop.fs.FileSystem
+	org.apache.hadoop.hive.metastore.utils.HdfsUtils.HadoopFileStatus
+	org.apache.hadoop.fs.FileStatus
+	org.apache.hadoop.fs.FsShell
+	org.apache.hadoop.fs.permission.AclStatus
+	org.apache.hadoop.fs.FileSystem
+	org.apache.hadoop.hive.metastore.utils.HdfsUtils.HadoopFileStatus
+	org.apache.hadoop.fs.FileStatus
+	org.apache.hadoop.fs.FsShell
+	org.apache.hadoop.fs.FileSystem
+/hive-standalone-metastore-server/src/test/java/org/apache/hadoop/hive/metastore/utils/TestMetaStoreServerUtils.java
+	org.apache.hadoop.hive.metastore.Warehouse
+	org.apache.hadoop.hive.metastore.Warehouse
+	org.apache.hadoop.hive.metastore.Warehouse
+/hive-webhcat/src/test/java/org/apache/hive/hcatalog/templeton/ConcurrentJobRequestsTestBase.java
+	org.apache.hive.hcatalog.templeton.tool.TempletonControllerJob
+/hive-webhcat-java-client/src/test/java/org/apache/hive/hcatalog/api/repl/ReplicationV1CompatRule.java
+	org.apache.hadoop.hive.ql.metadata.Hive
+/kafka-handler/src/test/org/apache/hadoop/hive/kafka/KafkaStorageHandlerTest.java
+	org.apache.hadoop.hive.ql.plan.TableDesc
+	org.apache.hadoop.hive.ql.plan.TableDesc
+	org.apache.hadoop.hive.ql.plan.TableDesc
+/kafka-handler/src/test/org/apache/hadoop/hive/kafka/TransactionalKafkaWriterTest.java
+	org.apache.hadoop.hive.metastore.api.Table

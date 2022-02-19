@@ -1,0 +1,222 @@
+/helix-core/src/test/java/org/apache/helix/cloud/MockHttpClient.java
+	org.apache.http.HttpEntity
+	org.apache.http.StatusLine
+	org.apache.http.client.methods.CloseableHttpResponse
+	org.apache.http.impl.client.CloseableHttpClient
+/helix-core/src/test/java/org/apache/helix/common/caches/TestPropertyCache.java
+	org.apache.helix.common.caches.PropertyCache.PropertyCacheKeyFuncs
+	org.apache.helix.HelixDataAccessor
+	org.apache.helix.HelixDataAccessor
+	org.apache.helix.PropertyKey
+	org.apache.helix.common.caches.PropertyCache.PropertyCacheKeyFuncs
+	org.apache.helix.common.caches.PropertyCache.PropertyCacheKeyFuncs
+	org.apache.helix.common.caches.PropertyCache.PropertyCacheKeyFuncs
+/helix-core/src/test/java/org/apache/helix/controller/changedetector/trimmer/TestHelixPropoertyTimmer.java
+	org.apache.helix.controller.dataproviders.ResourceControllerDataProvider
+/helix-core/src/test/java/org/apache/helix/controller/dataproviders/TestResourceControllerDataProvider.java
+	org.apache.helix.model.IdealState
+/helix-core/src/test/java/org/apache/helix/controller/rebalancer/waged/TestWagedRebalancerMetrics.java
+/helix-core/src/test/java/org/apache/helix/controller/rebalancer/waged/MockAssignmentMetadataStore.java
+	org.apache.helix.BucketDataAccessor
+/helix-core/src/test/java/org/apache/helix/controller/rebalancer/waged/TestWagedRebalancer.java
+	org.apache.helix.controller.rebalancer.waged.RebalanceAlgorithm
+	org.apache.helix.controller.rebalancer.waged.model.OptimalAssignment
+	org.apache.helix.controller.rebalancer.waged.AssignmentMetadataStore
+	org.apache.helix.controller.rebalancer.waged.RebalanceAlgorithm
+/helix-core/src/test/java/org/apache/helix/controller/rebalancer/waged/constraints/TestResourcePartitionAntiAffinityConstraint.java
+	org.apache.helix.controller.rebalancer.waged.model.AssignableReplica
+	org.apache.helix.controller.rebalancer.waged.model.AssignableNode
+	org.apache.helix.controller.rebalancer.waged.model.ClusterContext
+/helix-core/src/test/java/org/apache/helix/controller/rebalancer/waged/constraints/TestNodeCapacityConstraint.java
+	org.apache.helix.controller.rebalancer.waged.model.AssignableReplica
+	org.apache.helix.controller.rebalancer.waged.model.AssignableNode
+	org.apache.helix.controller.rebalancer.waged.model.ClusterContext
+/helix-core/src/test/java/org/apache/helix/controller/rebalancer/waged/constraints/TestConstraintBasedAlgorithm.java
+	org.apache.helix.controller.rebalancer.waged.constraints.HardConstraint
+	org.apache.helix.controller.rebalancer.waged.constraints.SoftConstraint
+	org.apache.helix.controller.rebalancer.waged.constraints.HardConstraint
+	org.apache.helix.controller.rebalancer.waged.constraints.SoftConstraint
+	org.apache.helix.controller.rebalancer.waged.constraints.HardConstraint
+	org.apache.helix.controller.rebalancer.waged.constraints.SoftConstraint
+/helix-core/src/test/java/org/apache/helix/controller/rebalancer/waged/constraints/TestValidGroupTagConstraint.java
+	org.apache.helix.controller.rebalancer.waged.model.AssignableReplica
+	org.apache.helix.controller.rebalancer.waged.model.AssignableNode
+	org.apache.helix.controller.rebalancer.waged.model.ClusterContext
+/helix-core/src/test/java/org/apache/helix/controller/rebalancer/waged/constraints/MockRebalanceAlgorithm.java
+	org.apache.helix.controller.rebalancer.waged.model.OptimalAssignment
+/helix-core/src/test/java/org/apache/helix/controller/rebalancer/waged/constraints/TestFaultZoneAwareConstraint.java
+	org.apache.helix.controller.rebalancer.waged.model.AssignableReplica
+	org.apache.helix.controller.rebalancer.waged.model.AssignableNode
+	org.apache.helix.controller.rebalancer.waged.model.ClusterContext
+/helix-core/src/test/java/org/apache/helix/controller/rebalancer/waged/constraints/TestPartitionMovementConstraint.java
+	org.apache.helix.controller.rebalancer.waged.model.AssignableNode
+	org.apache.helix.controller.rebalancer.waged.model.AssignableReplica
+	org.apache.helix.controller.rebalancer.waged.model.ClusterContext
+	org.apache.helix.model.ResourceAssignment
+	org.apache.helix.controller.rebalancer.waged.model.AssignableNode
+	org.apache.helix.model.ResourceAssignment
+	org.apache.helix.model.ResourceAssignment
+/helix-core/src/test/java/org/apache/helix/controller/rebalancer/waged/constraints/TestResourceTopStateAntiAffinityConstraint.java
+	org.apache.helix.controller.rebalancer.waged.model.AssignableReplica
+	org.apache.helix.controller.rebalancer.waged.model.AssignableNode
+	org.apache.helix.controller.rebalancer.waged.model.ClusterContext
+/helix-core/src/test/java/org/apache/helix/controller/rebalancer/waged/constraints/TestTopStateMaxCapacityUsageInstanceConstraint.java
+	org.apache.helix.controller.rebalancer.waged.model.AssignableNode
+	org.apache.helix.controller.rebalancer.waged.model.AssignableReplica
+	org.apache.helix.controller.rebalancer.waged.model.ClusterContext
+/helix-core/src/test/java/org/apache/helix/controller/rebalancer/waged/constraints/TestSamePartitionOnInstanceConstraint.java
+	org.apache.helix.controller.rebalancer.waged.model.AssignableReplica
+	org.apache.helix.controller.rebalancer.waged.model.AssignableNode
+	org.apache.helix.controller.rebalancer.waged.model.ClusterContext
+/helix-core/src/test/java/org/apache/helix/controller/rebalancer/waged/constraints/TestNodeMaxPartitionLimitConstraint.java
+	org.apache.helix.controller.rebalancer.waged.model.AssignableReplica
+	org.apache.helix.controller.rebalancer.waged.model.AssignableNode
+	org.apache.helix.controller.rebalancer.waged.model.ClusterContext
+/helix-core/src/test/java/org/apache/helix/controller/rebalancer/waged/constraints/TestMaxCapacityUsageInstanceConstraint.java
+	org.apache.helix.controller.rebalancer.waged.model.AssignableNode
+	org.apache.helix.controller.rebalancer.waged.model.AssignableReplica
+	org.apache.helix.controller.rebalancer.waged.model.ClusterContext
+/helix-core/src/test/java/org/apache/helix/controller/rebalancer/waged/constraints/TestPartitionActivateConstraint.java
+	org.apache.helix.controller.rebalancer.waged.model.AssignableReplica
+	org.apache.helix.controller.rebalancer.waged.model.AssignableNode
+	org.apache.helix.controller.rebalancer.waged.model.ClusterContext
+/helix-core/src/test/java/org/apache/helix/controller/rebalancer/waged/constraints/TestInstancePartitionsCountConstraint.java
+	org.apache.helix.controller.rebalancer.waged.model.AssignableReplica
+	org.apache.helix.controller.rebalancer.waged.model.AssignableNode
+	org.apache.helix.controller.rebalancer.waged.model.ClusterContext
+/helix-core/src/test/java/org/apache/helix/controller/rebalancer/waged/model/AbstractTestClusterModel.java
+	org.apache.helix.controller.dataproviders.ResourceControllerDataProvider
+	org.apache.helix.model.CurrentState
+	org.apache.helix.model.CurrentState
+	org.apache.helix.model.CurrentState
+	org.apache.helix.model.CurrentState
+/helix-core/src/test/java/org/apache/helix/controller/rebalancer/waged/model/TestClusterModelProvider.java
+/helix-core/src/test/java/org/apache/helix/controller/rebalancer/waged/model/TestAssignableNode.java
+/helix-core/src/test/java/org/apache/helix/controller/rebalancer/waged/model/ClusterModelTestHelper.java
+/helix-core/src/test/java/org/apache/helix/controller/stages/TestManagementMessageGeneration.java
+	org.apache.helix.controller.stages.CurrentStateOutput
+	org.apache.helix.model.Partition
+	org.apache.helix.model.Message
+	org.apache.helix.HelixManager
+	org.apache.helix.controller.dataproviders.ManagementControllerDataProvider
+	java.util.Map
+	org.apache.helix.model.LiveInstance
+	org.apache.helix.model.ClusterConfig
+	org.apache.helix.model.PauseSignal
+	org.apache.helix.model.Resource
+/helix-core/src/test/java/org/apache/helix/controller/stages/TestReplicaLevelThrottling.java
+	org.apache.helix.controller.dataproviders.ResourceControllerDataProvider
+/helix-core/src/test/java/org/apache/helix/controller/stages/TestCancellationMessageGeneration.java
+	org.apache.helix.controller.stages.CurrentStateOutput
+	org.apache.helix.model.Partition
+	org.apache.helix.model.Message
+	org.apache.helix.HelixManager
+	org.apache.helix.controller.dataproviders.BaseControllerDataProvider
+	java.util.Map
+	org.apache.helix.model.LiveInstance
+	org.apache.helix.model.ClusterConfig
+	org.apache.helix.model.Resource
+	org.apache.helix.controller.stages.CurrentStateOutput
+	org.apache.helix.model.Partition
+	org.apache.helix.model.Message
+	org.apache.helix.HelixManager
+	org.apache.helix.controller.dataproviders.BaseControllerDataProvider
+	java.util.Map
+	org.apache.helix.model.LiveInstance
+	org.apache.helix.model.ClusterConfig
+	org.apache.helix.model.Resource
+/helix-core/src/test/java/org/apache/helix/controller/strategy/crushMapping/TestCardDealingAdjustmentAlgorithmV2.java
+	org.apache.helix.controller.rebalancer.topology.Topology
+/helix-core/src/test/java/org/apache/helix/integration/rebalancer/TestCustomRebalancer.java
+	org.apache.helix.controller.dataproviders.ResourceControllerDataProvider
+/helix-core/src/test/java/org/apache/helix/integration/spectator/TestRoutingTableProvider.java
+/helix-core/src/test/java/org/apache/helix/manager/zk/TestZkHelixAdmin.java
+	org.apache.helix.zookeeper.api.client.RealmAwareZkClient
+/helix-core/src/test/java/org/apache/helix/manager/zk/TestZkBaseDataAccessor.java
+	org.apache.helix.zookeeper.api.client.RealmAwareZkClient
+/helix-core/src/test/java/org/apache/helix/messaging/p2pMessage/TestP2PWithStateCancellationMessage.java
+	org.apache.helix.controller.dataproviders.ResourceControllerDataProvider
+	org.apache.helix.manager.zk.ZKHelixManager
+	org.apache.helix.manager.zk.ZKHelixDataAccessor
+/helix-core/src/test/java/org/apache/helix/monitoring/TestZKPathDataDumpTask.java
+	org.apache.helix.HelixManager
+	org.apache.helix.HelixManager
+/helix-core/src/test/java/org/apache/helix/monitoring/mbeans/TestClusterStatusMonitor.java
+	org.apache.helix.common.caches.TaskDataCache
+	org.apache.helix.task.assigner.TaskAssignResult
+/helix-core/src/test/java/org/apache/helix/task/TestTargetedTaskStateChange.java
+	org.apache.helix.controller.dataproviders.WorkflowControllerDataProvider
+	org.apache.helix.common.caches.TaskDataCache
+	org.apache.helix.task.RuntimeJobDag
+/helix-core/src/test/java/org/apache/helix/task/TestDropTerminalTasksUponReset.java
+	org.apache.helix.controller.stages.CurrentStateOutput
+/helix-core/src/test/java/org/apache/helix/task/TestTaskUtil.java
+	org.apache.helix.task.WorkflowContext
+	org.apache.helix.task.JobConfig
+	org.apache.helix.controller.dataproviders.WorkflowControllerDataProvider
+	org.apache.helix.task.JobContext
+	org.apache.helix.task.WorkflowContext
+	org.apache.helix.task.JobConfig
+	org.apache.helix.controller.dataproviders.WorkflowControllerDataProvider
+	org.apache.helix.task.JobContext
+	org.apache.helix.task.JobContext
+/helix-core/src/test/java/org/apache/helix/task/TestTaskStateModelFactory.java
+/helix-core/src/test/java/org/apache/helix/task/TestCurrentInstanceToTaskAssignmentsWithPendingMessage.java
+	org.apache.helix.controller.stages.CurrentStateOutput
+/helix-core/src/test/java/org/apache/helix/util/TestInstanceValidationUtil.java
+	org.apache.helix.model.CurrentState
+	org.apache.helix.model.CurrentState
+	org.apache.helix.model.InstanceConfig
+	org.apache.helix.model.InstanceConfig
+	org.apache.helix.model.InstanceConfig
+	org.apache.helix.model.CurrentState
+	org.apache.helix.model.CurrentState
+	org.apache.helix.model.IdealState
+	org.apache.helix.model.IdealState
+	org.apache.helix.model.IdealState
+	org.apache.helix.model.IdealState
+	org.apache.helix.model.ExternalView
+	org.apache.helix.model.StateModelDefinition
+	org.apache.helix.model.IdealState
+	org.apache.helix.model.ExternalView
+	org.apache.helix.model.StateModelDefinition
+	org.apache.helix.model.IdealState
+	org.apache.helix.model.ExternalView
+	org.apache.helix.model.IdealState
+	org.apache.helix.HelixDataAccessor
+	org.apache.helix.ConfigAccessor
+/helix-rest/src/test/java/org/apache/helix/rest/client/TestCustomRestClient.java
+	org.apache.http.client.HttpClient
+	org.apache.http.HttpResponse
+	org.apache.http.StatusLine
+	org.apache.http.HttpResponse
+	org.apache.http.StatusLine
+	org.apache.http.HttpResponse
+	org.apache.http.StatusLine
+	org.apache.http.HttpResponse
+	org.apache.http.StatusLine
+	org.apache.http.HttpResponse
+	org.apache.http.StatusLine
+	org.apache.http.HttpResponse
+	org.apache.http.StatusLine
+	org.apache.http.HttpResponse
+	org.apache.http.StatusLine
+/helix-rest/src/test/java/org/apache/helix/rest/clusterMaintenanceService/TestMaintenanceManagementService.java
+	org.apache.helix.rest.common.HelixDataAccessorWrapper
+	org.apache.helix.ConfigAccessor
+	org.apache.helix.rest.client.CustomRestClient
+	org.apache.helix.manager.zk.ZkBaseDataAccessor
+	org.apache.helix.manager.zk.ZkBaseDataAccessor
+/helix-rest/src/test/java/org/apache/helix/rest/common/TestHelixDataAccessorWrapper.java
+	org.apache.helix.rest.common.TestHelixDataAccessorWrapper.MockHelixDataAccessorWrapper
+	org.apache.helix.model.RESTConfig
+	org.apache.helix.rest.client.CustomRestClient
+/helix-rest/src/test/java/org/apache/helix/rest/server/service/TestClusterService.java
+	org.apache.helix.HelixDataAccessor
+	org.apache.helix.ConfigAccessor
+/helix-rest/src/test/java/org/apache/helix/rest/server/util/TestInstanceValidationUtilInRest.java
+	org.apache.helix.HelixDataAccessor
+	org.apache.helix.model.StateModelDefinition
+/zookeeper-api/src/test/java/org/apache/helix/zookeeper/zkclient/TestZkConnection.java
+	org.apache.zookeeper.ZooKeeper
+	org.apache.zookeeper.ZooKeeper

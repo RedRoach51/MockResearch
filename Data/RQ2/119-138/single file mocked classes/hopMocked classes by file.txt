@@ -1,0 +1,1361 @@
+/hop-action-columnsexist/src/test/java/org/apache/hop/workflow/actions/columnsexist/WorkflowActionColumnsExistTest.java
+	org.apache.hop.core.database.DatabaseMeta
+/hop-action-copyfiles/src/test/java/org/apache/hop/workflow/actions/copyfiles/WorkflowActionCopyFilesTest.java
+	org.apache.hop.workflow.WorkflowMeta
+/hop-action-deletefiles/src/test/java/org/apache/hop/workflow/actions/deletefiles/WorkflowEntryDeleteFilesTest.java
+	org.apache.hop.workflow.Workflow
+	org.apache.hop.workflow.WorkflowMeta
+/hop-action-evaluatetablecontent/src/test/java/org/apache/hop/workflow/actions/evaluatetablecontent/MockDriver.java
+	java.sql.Connection
+	java.sql.Statement
+	java.sql.ResultSet
+	java.sql.ResultSetMetaData
+/hop-action-evaluatetablecontent/src/test/java/org/apache/hop/workflow/actions/evaluatetablecontent/WorkflowActionEvalTableContentTest.java
+	org.apache.hop.core.plugins.IPlugin
+/hop-action-filesexist/src/test/java/org/apache/hop/workflow/actions/filesexist/WorkflowActionFilesExistTest.java
+	org.apache.hop.workflow.WorkflowMeta
+/hop-action-folderisempty/src/test/java/org/apache/hop/workflow/actions/folderisempty/WorkflowActionFolderIsEmptyTest.java
+	org.apache.hop.workflow.WorkflowMeta
+/hop-action-ftp/src/test/java/org/apache/hop/workflow/actions/sftp/SftpClientTest.java
+	com.jcraft.jsch.Session
+	com.jcraft.jsch.ChannelSftp
+	java.net.InetAddress
+	com.jcraft.jsch.JSch
+/hop-action-getpop/src/test/java/org/apache/hop/workflow/actions/getpop/MailConnectionTest.java
+	javax.mail.Store
+	javax.mail.Folder
+	javax.mail.Folder
+	javax.mail.Folder
+	javax.mail.Folder
+/hop-action-getpop/src/test/java/org/apache/hop/workflow/actions/getpop/WorkflowEntryGetPOPTest.java
+	org.apache.hop.workflow.actions.getpop.MailConnection
+	org.apache.hop.workflow.engine.IWorkflowEngine<org.apache.hop.workflow.WorkflowMeta>
+	javax.mail.Message
+	java.text.SimpleDateFormat
+	java.text.SimpleDateFormat
+	java.text.SimpleDateFormat
+/hop-action-pipeline/src/test/java/org/apache/hop/workflow/actions/pipeline/WorkflowEntryPipelineDialogTest.java
+	org.apache.hop.workflow.actions.pipeline.ActionPipelineDialog
+/hop-action-setvariables/src/test/java/org/apache/hop/workflow/actions/setvariables/WorkflowEntrySetVariablesTest.java
+	org.apache.hop.metadata.api.IHopMetadataProvider
+	org.apache.hop.metadata.api.IHopMetadataProvider
+	org.apache.hop.metadata.api.IHopMetadataProvider
+	org.apache.hop.metadata.api.IHopMetadataProvider
+/hop-action-shell/src/test/java/org/apache/hop/workflow/actions/shell/WorkflowActionShellTest.java
+	org.apache.hop.workflow.actions.shell.ActionShell
+/hop-action-unzip/src/test/java/org/apache/hop/workflow/actions/unzip/WorkflowActionUnZipTest.java
+	org.apache.commons.vfs2.FileObject
+	org.apache.commons.vfs2.FileName
+	org.apache.commons.vfs2.FileObject
+	org.apache.commons.vfs2.FileObject
+/hop-action-writetolog/src/test/java/org/apache/hop/workflow/actions/writetolog/WorkflowActionWriteToLogTest.java
+	org.apache.hop.workflow.Workflow
+/hop-action-zipfile/src/test/java/org/apache/hop/workflow/actions/zipfile/ZipWorkflowEntryPatternFileSelectorTest.java
+	org.apache.commons.vfs2.FileSelectInfo
+	org.apache.commons.vfs2.FileObject
+	org.apache.commons.vfs2.FileName
+/hop-core/src/test/java/org/apache/hop/core/HopAttributeTest.java
+	org.apache.hop.core.IHopAttribute
+/hop-core/src/test/java/org/apache/hop/core/SqlStatementTest.java
+	org.apache.hop.core.database.DatabaseMeta
+/hop-core/src/test/java/org/apache/hop/core/WriterOutputStreamTest.java
+	java.io.Writer
+	java.io.Writer
+	java.io.Writer
+/hop-core/src/test/java/org/apache/hop/core/CheckResultTest.java
+	org.apache.hop.core.ICheckResultSource
+/hop-core/src/test/java/org/apache/hop/core/database/DatabaseConnectingTest.java
+	java.sql.Connection
+	java.sql.Connection
+	java.sql.Connection
+	java.sql.Connection
+	java.sql.Connection
+	java.sql.Connection
+	java.sql.Connection
+/hop-core/src/test/java/org/apache/hop/core/database/DatabaseMetaTest.java
+	org.apache.hop.core.database.IDatabase
+	org.apache.hop.core.database.DatabaseMeta
+	org.apache.hop.core.database.DatabaseMeta
+	org.apache.hop.core.database.IDatabase
+	org.apache.hop.core.database.DatabaseMeta
+	org.apache.hop.core.database.DatabaseMeta
+	org.apache.hop.core.database.IDatabase
+	org.apache.hop.core.database.DatabaseMeta
+	org.apache.hop.core.database.BaseDatabaseMeta
+/hop-core/src/test/java/org/apache/hop/core/database/DatabaseTest.java
+	java.sql.ResultSet
+	org.apache.hop.core.database.DatabaseMeta
+	java.sql.DatabaseMetaData
+	org.apache.hop.core.logging.ILoggingObject
+	org.apache.hop.core.database.IDatabase
+	org.apache.hop.core.database.DatabaseMeta
+	java.sql.PreparedStatement
+	java.sql.DatabaseMetaData
+	java.sql.ResultSetMetaData
+	java.sql.DatabaseMetaData
+	org.apache.hop.core.database.DatabaseMeta
+	java.sql.DatabaseMetaData
+	java.sql.ResultSet
+	java.sql.Connection
+	org.apache.hop.core.row.IValueMeta
+	org.apache.hop.core.row.IRowMeta
+	java.sql.Connection
+/hop-core/src/test/java/org/apache/hop/core/database/BaseDatabaseMetaTest.java
+	org.apache.hop.core.database.Database
+	java.sql.ResultSet
+	java.sql.DatabaseMetaData
+	org.apache.hop.core.database.DatabaseMeta
+/hop-core/src/test/java/org/apache/hop/core/extension/ExtensionPointHandlerTest.java
+	org.apache.hop.core.extension.IPluginMock
+	org.apache.hop.core.extension.IExtensionPoint
+	org.apache.hop.core.logging.ILogChannel
+/hop-core/src/test/java/org/apache/hop/core/extension/ExtensionPointMapTest.java
+	org.apache.hop.core.extension.IPluginMock
+	org.apache.hop.core.extension.IExtensionPoint
+/hop-core/src/test/java/org/apache/hop/core/extension/ExtensionPointIntegrationTest.java
+	org.apache.hop.core.logging.ILogChannel
+	org.apache.hop.core.logging.ILogChannel
+/hop-core/src/test/java/org/apache/hop/core/fileinput/FileInputListTest.java
+	org.apache.commons.vfs2.FileObject
+	org.apache.commons.vfs2.FileObject
+/hop-core/src/test/java/org/apache/hop/core/logging/LogChannelTest.java
+	org.apache.hop.core.logging.LogLevel
+	org.apache.hop.core.logging.LogChannelFileWriterBuffer
+	org.apache.hop.core.logging.LoggingRegistry
+	org.apache.hop.core.logging.LogLevel
+	org.apache.hop.core.logging.ILogMessage
+	org.apache.hop.core.logging.LoggingBuffer
+	org.apache.hop.core.logging.LogLevel
+	org.apache.hop.core.logging.ILogMessage
+/hop-core/src/test/java/org/apache/hop/core/logging/Slf4jLoggingEventListenerTest.java
+	org.slf4j.Logger
+	org.apache.hop.core.logging.HopLoggingEvent
+	org.apache.hop.core.logging.ILoggingObject
+	org.apache.hop.core.logging.LogMessage
+	java.util.function.Function<java.lang.String,org.apache.hop.core.logging.ILoggingObject>
+/hop-core/src/test/java/org/apache/hop/core/logging/LoggingPluginTypeTest.java
+	org.apache.hop.core.logging.LoggingPlugin
+/hop-core/src/test/java/org/apache/hop/core/parameters/DuplicateParamExceptionTest.java
+	java.lang.Throwable
+/hop-core/src/test/java/org/apache/hop/core/parameters/UnknownParamExceptionTest.java
+	java.lang.Throwable
+/hop-core/src/test/java/org/apache/hop/core/parameters/NamedParamsDefaultTest.java
+/hop-core/src/test/java/org/apache/hop/core/parameters/NamedParamsExceptionTest.java
+	java.lang.Throwable
+/hop-core/src/test/java/org/apache/hop/core/plugins/PluginRegistryUnitTest.java
+	org.apache.hop.core.plugins.IPlugin
+	org.apache.hop.core.plugins.IPlugin
+	org.apache.hop.core.plugins.IPlugin
+	org.apache.hop.core.extension.IPluginMock
+	org.apache.hop.core.plugins.IPlugin
+	org.apache.hop.core.plugins.IPlugin
+/hop-core/src/test/java/org/apache/hop/core/plugins/PluginTest.java
+	org.apache.hop.core.plugins.IPlugin
+/hop-core/src/test/java/org/apache/hop/core/row/ValueMetaAndDataTest.java
+	org.apache.hop.core.plugins.PluginRegistry
+	org.apache.hop.core.row.IValueMeta
+	org.apache.hop.core.plugins.IPlugin
+	org.w3c.dom.NodeList
+	org.w3c.dom.Node
+	org.w3c.dom.Node
+	org.w3c.dom.Node
+	org.w3c.dom.Node
+	org.w3c.dom.Node
+/hop-core/src/test/java/org/apache/hop/core/row/RowMetaTest.java
+/hop-core/src/test/java/org/apache/hop/core/row/value/ValueMetaBaseSetPreparedStmntValueTest.java
+	org.apache.hop.core.database.DatabaseMeta
+	java.sql.PreparedStatement
+/hop-core/src/test/java/org/apache/hop/core/row/value/ValueMetaTimestampTest.java
+	java.sql.PreparedStatement
+	org.apache.hop.core.database.DatabaseMeta
+/hop-core/src/test/java/org/apache/hop/core/row/value/ValueMetaBaseTest.java
+	org.apache.hop.core.database.DatabaseMeta
+	java.sql.PreparedStatement
+	java.sql.ResultSet
+	org.apache.hop.core.database.DatabaseMeta
+	org.apache.hop.core.database.IDatabase
+	java.sql.ResultSetMetaData
+	org.apache.hop.core.database.DatabaseMeta
+	java.sql.PreparedStatement
+	java.lang.Object
+	java.lang.Object
+	java.lang.Object
+	java.lang.Object
+	java.lang.Object
+	java.lang.Object
+	java.lang.Object
+	java.lang.Object
+	java.lang.Object
+/hop-core/src/test/java/org/apache/hop/core/svg/SvgImageTest.java
+	org.w3c.dom.Document
+/hop-core/src/test/java/org/apache/hop/core/variables/VariablesTest.java
+	org.apache.hop.core.variables.Variables
+	java.util.Map
+/hop-databases-generic/src/test/java/org/apache/hop/databases/generic/GenericDatabaseMetaTest.java
+	org.apache.hop.databases.generic.GenericDatabaseMeta
+/hop-databases-greenplum/src/test/java/org/apache/hop/databases/greenplum/GreenplumValueMetaBaseTest.java
+	org.apache.hop.core.database.DatabaseMeta
+	java.sql.PreparedStatement
+	java.sql.ResultSet
+	java.lang.Object
+/hop-databases-mariadb/src/test/java/org/apache/hop/databases/mariadb/MariaDBDatabaseMetaTest.java
+	java.sql.ResultSetMetaData
+	java.sql.ResultSetMetaData
+	java.sql.DatabaseMetaData
+	java.sql.DatabaseMetaData
+	java.sql.DatabaseMetaData
+	java.sql.DatabaseMetaData
+	java.sql.DatabaseMetaData
+	java.sql.DatabaseMetaData
+	java.sql.DatabaseMetaData
+	java.sql.DatabaseMetaData
+/hop-databases-mssql/src/test/java/org/apache/hop/databases/mssql/MsSqlServerDatabaseMetaTest.java
+	org.apache.hop.core.database.IDatabase
+	org.apache.hop.core.database.Database
+	org.apache.hop.core.row.IRowMeta
+	java.sql.ResultSet
+	org.apache.hop.core.database.DatabaseMeta
+/hop-databases-mysql/src/test/java/org/apache/hop/databases/mysql/MySqlDatabaseMetaTest.java
+	java.sql.ResultSetMetaData
+	java.sql.ResultSetMetaData
+	java.sql.DatabaseMetaData
+	java.sql.DatabaseMetaData
+	java.sql.DatabaseMetaData
+	java.sql.DatabaseMetaData
+	java.sql.DatabaseMetaData
+	java.sql.DatabaseMetaData
+	java.sql.DatabaseMetaData
+	java.sql.DatabaseMetaData
+	java.sql.DatabaseMetaData
+	java.sql.DatabaseMetaData
+	java.sql.DatabaseMetaData
+	java.sql.DatabaseMetaData
+	java.sql.DatabaseMetaData
+	java.sql.DatabaseMetaData
+	java.sql.DatabaseMetaData
+	java.sql.Connection
+	org.apache.hop.core.logging.ILoggingObject
+	java.sql.PreparedStatement
+	java.sql.DatabaseMetaData
+	org.apache.hop.core.variables.IVariables
+	java.sql.ResultSet
+	java.sql.ResultSetMetaData
+/hop-databases-mysql/src/test/java/org/apache/hop/databases/mysql/MySqlValueMetaBaseTest.java
+	java.sql.PreparedStatement
+	java.sql.ResultSet
+	java.sql.ResultSetMetaData
+	java.lang.Object
+	org.apache.hop.databases.mysql.MySqlDatabaseMeta
+	org.apache.hop.databases.mysql.MySqlDatabaseMeta
+	java.util.Properties
+	org.apache.hop.databases.mysql.MySqlDatabaseMeta
+	org.apache.hop.databases.mysql.MySqlDatabaseMeta
+/hop-databases-netezza/src/test/java/org/apache/hop/core/row/value/NettezaValueMetaBaseTest.java
+	org.apache.hop.core.database.DatabaseMeta
+	java.sql.PreparedStatement
+	java.sql.ResultSet
+	java.sql.ResultSetMetaData
+/hop-databases-oracle/src/test/java/org/apache/hop/databases/oracle/OracleDatabaseMetaTest.java
+	org.apache.hop.core.database.Database
+	org.apache.hop.core.row.IRowMeta
+	java.sql.ResultSet
+	org.apache.hop.core.database.DatabaseMeta
+/hop-databases-oracle/src/test/java/org/apache/hop/databases/oracle/OracleValueMetaBaseTest.java
+	java.sql.ResultSet
+	java.lang.Object
+	java.lang.Object
+/hop-databases-postgresql/src/test/java/org/apache/hop/databases/postgresql/PostgreSqlValueMetaBaseTest.java
+	org.apache.hop.core.database.DatabaseMeta
+	java.sql.PreparedStatement
+	java.sql.ResultSet
+	java.lang.Object
+	org.apache.hop.databases.postgresql.PostgreSqlDatabaseMeta
+	org.apache.hop.databases.postgresql.PostgreSqlDatabaseMeta
+	org.apache.hop.databases.postgresql.PostgreSqlDatabaseMeta
+	org.apache.hop.databases.postgresql.PostgreSqlDatabaseMeta
+	org.apache.hop.databases.postgresql.PostgreSqlDatabaseMeta
+/hop-databases-sqlite/src/test/java/org/apache/hop/core/row/value/SQLiteValueMetaBaseTest.java
+	org.apache.hop.core.database.DatabaseMeta
+	java.sql.PreparedStatement
+	java.sql.ResultSet
+/hop-databases-teradata/src/test/java/org/apache/hop/databases/teradata/TeradataValueMetaBaseTest.java
+	org.apache.hop.core.database.DatabaseMeta
+	java.sql.PreparedStatement
+	java.sql.ResultSet
+/hop-databases-vertica/src/test/java/org/apache/hop/databases/vertica/VerticaDatabaseMetaTest.java
+	org.apache.hop.core.database.DatabaseMeta
+	java.sql.PreparedStatement
+	java.sql.ResultSet
+/hop-databases-vertica/src/test/java/org/apache/hop/databases/vertica/Vertica5DatabaseMetaTest.java
+	org.apache.hop.core.database.DatabaseMeta
+	java.sql.PreparedStatement
+	java.sql.ResultSet
+	java.sql.ResultSet
+	java.sql.ResultSetMetaData
+	java.sql.ResultSetMetaData
+	java.sql.ResultSetMetaData
+	org.apache.hop.core.row.value.ValueMetaInternetAddress
+/hop-engine/src/test/java/org/apache/hop/base/AbstractMetaTest.java
+	org.apache.hop.core.listeners.INameChangedListener
+	org.apache.hop.core.listeners.IFilenameChangedListener
+	org.apache.hop.core.listeners.IContentChangedListener
+	org.apache.hop.core.listeners.ICurrentDirectoryChangedListener
+	org.apache.hop.pipeline.transform.TransformMeta
+	org.apache.hop.pipeline.transform.TransformMeta
+	org.apache.hop.core.NotePadMeta
+	org.apache.hop.core.NotePadMeta
+	org.apache.hop.core.changed.IHopObserver
+/hop-engine/src/test/java/org/apache/hop/base/LoadSaveBase.java
+	org.apache.hop.pipeline.transform.TransformMeta
+	org.apache.hop.pipeline.PipelineMeta
+/hop-engine/src/test/java/org/apache/hop/concurrency/WorkflowTrackerConcurrencyTest.java
+	org.apache.hop.workflow.WorkflowMeta
+	org.apache.hop.workflow.action.ActionMeta
+/hop-engine/src/test/java/org/apache/hop/concurrency/WorkflowMapConcurrencyTest.java
+	org.apache.hop.workflow.WorkflowConfiguration
+	org.apache.hop.workflow.engines.local.LocalWorkflowEngine
+	org.apache.hop.workflow.WorkflowConfiguration
+	org.apache.hop.workflow.WorkflowConfiguration
+/hop-engine/src/test/java/org/apache/hop/concurrency/BaseTransformConcurrencyTest.java
+	org.apache.hop.pipeline.transform.TransformMeta
+	org.apache.hop.pipeline.PipelineMeta
+	org.apache.hop.pipeline.transform.TransformPartitioningMeta
+	org.apache.hop.pipeline.transform.TransformMeta
+	org.apache.hop.pipeline.PipelineMeta
+	org.apache.hop.pipeline.transform.TransformPartitioningMeta
+	org.apache.hop.core.IRowSet
+	org.apache.hop.core.IRowSet
+	org.apache.hop.core.row.IRowMeta
+	org.apache.hop.core.row.IRowMeta
+	org.apache.hop.pipeline.transform.IRowListener
+	org.apache.hop.core.row.IRowMeta
+/hop-engine/src/test/java/org/apache/hop/core/attributes/AttributesUtilTest.java
+/hop-engine/src/test/java/org/apache/hop/core/auth/core/AuthenticationManagerTest.java
+	org.apache.hop.core.auth.core.IAuthenticationConsumer
+	org.apache.hop.core.auth.core.IAuthenticationConsumer
+	org.apache.hop.core.auth.core.IAuthenticationConsumer
+	org.apache.hop.core.auth.core.IAuthenticationConsumer
+	org.apache.hop.core.auth.core.IAuthenticationConsumerFactory
+	org.apache.hop.core.auth.core.IAuthenticationConsumer
+/hop-engine/src/test/java/org/apache/hop/core/compress/CompressionInputStreamTest.java
+/hop-engine/src/test/java/org/apache/hop/core/gui/WorkflowTrackerTest.java
+	org.apache.hop.workflow.WorkflowMeta
+	org.apache.hop.core.gui.WorkflowTracker
+	org.apache.hop.workflow.WorkflowMeta
+	org.apache.hop.workflow.ActionResult
+	org.apache.hop.workflow.action.IAction
+/hop-engine/src/test/java/org/apache/hop/core/logging/LogChannelFileWriterTest.java
+	org.apache.commons.vfs2.FileObject
+	org.apache.commons.vfs2.FileContent
+	java.io.OutputStream
+	org.mockito.ArgumentCaptor<byte[]>
+/hop-engine/src/test/java/org/apache/hop/core/row/ValueDataUtilTest.java
+	org.apache.hop.core.row.value.ValueMetaInteger
+/hop-engine/src/test/java/org/apache/hop/core/util/ConfigurableStreamLoggerTest.java
+	org.apache.hop.core.logging.LogChannel
+/hop-engine/src/test/java/org/apache/hop/history/AuditManagerTest.java
+	org.apache.hop.history.IAuditManager
+	org.apache.hop.history.IAuditManager
+	org.apache.hop.history.IAuditManager
+	org.apache.hop.history.IAuditManager
+/hop-engine/src/test/java/org/apache/hop/pipeline/PDI_11948_PipelineTest.java
+	org.apache.hop.pipeline.Pipeline
+/hop-engine/src/test/java/org/apache/hop/pipeline/PipelineTest.java
+	org.apache.hop.pipeline.transform.ITransform
+	org.apache.hop.pipeline.transform.ITransformData
+	org.apache.hop.pipeline.transform.TransformMeta
+	org.apache.hop.pipeline.PipelineMeta
+	org.apache.hop.core.logging.ILogChannel
+	org.apache.hop.pipeline.IExecutionFinishedListener
+	org.apache.hop.pipeline.IExecutionFinishedListener
+	org.apache.hop.pipeline.PipelineMeta
+/hop-engine/src/test/java/org/apache/hop/pipeline/RowProducerTest.java
+	org.apache.hop.pipeline.transform.ITransform
+	org.apache.hop.core.IRowSet
+	org.apache.hop.core.row.IRowMeta
+	org.apache.hop.core.IRowSet
+	org.apache.hop.pipeline.transform.ITransform
+/hop-engine/src/test/java/org/apache/hop/pipeline/PipelineMetaTest.java
+	org.apache.hop.pipeline.transform.TransformMeta
+	org.apache.hop.pipeline.transform.ITransformMeta
+	org.apache.hop.pipeline.transform.TransformIOMeta
+	org.apache.hop.pipeline.transform.ITransformMeta
+	org.apache.hop.pipeline.transform.TransformIOMeta
+	org.apache.hop.core.listeners.IContentChangedListener
+	org.apache.hop.pipeline.transform.TransformMeta
+	org.apache.hop.pipeline.PipelineMetaTest.TransformMetaChangeListenerInterfaceMock
+	org.apache.hop.pipeline.transform.TransformMeta
+	org.w3c.dom.Node
+	org.w3c.dom.Node
+	org.w3c.dom.Node
+	org.w3c.dom.Node
+	org.apache.hop.core.variables.IVariables
+	org.apache.hop.core.IProgressMonitor
+	org.apache.hop.core.IProgressMonitor
+	org.apache.hop.pipeline.transform.TransformIOMeta
+	org.apache.hop.pipeline.transform.TransformMeta
+/hop-engine/src/test/java/org/apache/hop/pipeline/transform/TransformOptionTest.java
+	org.apache.hop.pipeline.transform.TransformMeta
+	org.apache.hop.core.variables.IVariables
+/hop-engine/src/test/java/org/apache/hop/pipeline/transform/BaseTransformTest.java
+	org.apache.hop.pipeline.transform.IRowHandler
+	org.apache.hop.pipeline.transform.ITransformFinishedListener
+	org.apache.hop.core.row.IRowMeta
+	org.apache.hop.core.row.IRowMeta
+	org.apache.hop.core.row.IRowMeta
+/hop-engine/src/test/java/org/apache/hop/pipeline/transform/BaseTransformMetaCloningTest.java
+	org.apache.hop.core.database.Database
+	org.apache.hop.core.database.Database
+	org.apache.hop.pipeline.transform.TransformMeta
+	org.apache.hop.core.database.Database
+	org.apache.hop.core.database.Database
+	org.apache.hop.pipeline.transform.TransformMeta
+	org.apache.hop.pipeline.transform.TransformMeta
+/hop-engine/src/test/java/org/apache/hop/pipeline/transform/TransformMetaTest.java
+	org.apache.hop.core.util.AbstractTransformMeta
+/hop-engine/src/test/java/org/apache/hop/pipeline/transforms/mock/TransformMockHelper.java
+	org.apache.hop.core.logging.ILogChannelFactory
+	org.apache.hop.core.logging.ILogChannel
+	org.apache.hop.pipeline.transform.TransformMeta
+	Data
+	Meta
+	org.apache.hop.pipeline.PipelineMeta
+	org.apache.hop.core.IRowSet
+/hop-engine/src/test/java/org/apache/hop/server/HopServerTest.java
+	org.apache.http.client.methods.CloseableHttpResponse
+	org.apache.http.StatusLine
+	org.apache.http.HttpEntity
+	org.apache.http.HttpResponse
+	org.apache.http.StatusLine
+	org.apache.http.HttpEntity
+	org.apache.http.client.methods.HttpGet
+	org.apache.http.client.methods.HttpPost
+	org.apache.http.client.methods.HttpPost
+	org.apache.http.client.methods.HttpPost
+	org.apache.http.client.HttpClient
+/hop-engine/src/test/java/org/apache/hop/workflow/WorkflowMetaTest.java
+	org.apache.hop.core.listeners.IContentChangedListener
+	org.apache.hop.workflow.action.ActionMeta
+	org.apache.hop.core.NotePadMeta
+	org.w3c.dom.Node
+	org.w3c.dom.Node
+	org.w3c.dom.Node
+	org.apache.hop.metadata.api.IHopMetadataProvider
+	org.apache.hop.workflow.action.ActionMeta
+	org.apache.hop.workflow.action.IAction
+/hop-engine/src/test/java/org/apache/hop/workflow/WorkflowTest.java
+	org.apache.hop.core.database.Database
+	org.apache.hop.workflow.Workflow
+	org.apache.hop.core.variables.IVariables
+	org.apache.hop.metadata.api.IHopMetadataProvider
+	org.apache.hop.workflow.WorkflowMeta
+	org.apache.hop.workflow.action.ActionMeta
+	org.apache.hop.workflow.actions.start.ActionStart
+	org.apache.hop.core.logging.LogChannel
+	org.apache.hop.workflow.WorkflowMeta
+	org.apache.hop.workflow.WorkflowMeta
+	org.apache.hop.workflow.WorkflowMeta
+/hop-engine/src/test/java/org/apache/hop/workflow/action/WorkflowActionMetaTest.java
+	org.apache.hop.workflow.WorkflowMeta
+/hop-engine/src/test/java/org/apache/hop/www/StartPipelineServletTest.java
+	org.apache.hop.www.PipelineMap
+	javax.servlet.http.HttpServletRequest
+	javax.servlet.http.HttpServletResponse
+	javax.servlet.http.HttpServletRequest
+	javax.servlet.http.HttpServletResponse
+	org.apache.hop.pipeline.Pipeline
+	org.apache.hop.pipeline.PipelineMeta
+	org.apache.hop.core.logging.ILogChannel
+/hop-engine/src/test/java/org/apache/hop/www/PausePipelineServletTest.java
+	org.apache.hop.www.PipelineMap
+	javax.servlet.http.HttpServletRequest
+	javax.servlet.http.HttpServletResponse
+	javax.servlet.http.HttpServletRequest
+	javax.servlet.http.HttpServletResponse
+	org.apache.hop.pipeline.Pipeline
+	org.apache.hop.pipeline.PipelineMeta
+	org.apache.hop.core.logging.ILogChannel
+/hop-engine/src/test/java/org/apache/hop/www/RemovePipelineServletTest.java
+	org.apache.hop.www.PipelineMap
+	javax.servlet.http.HttpServletRequest
+	javax.servlet.http.HttpServletResponse
+	javax.servlet.http.HttpServletRequest
+	javax.servlet.http.HttpServletResponse
+	org.apache.hop.pipeline.Pipeline
+	org.apache.hop.pipeline.PipelineMeta
+	org.apache.hop.core.logging.ILogChannel
+/hop-engine/src/test/java/org/apache/hop/www/StartWorkflowServletTest.java
+	org.apache.hop.www.WorkflowMap
+	javax.servlet.http.HttpServletRequest
+	javax.servlet.http.HttpServletResponse
+	javax.servlet.http.HttpServletRequest
+	javax.servlet.http.HttpServletResponse
+	org.apache.hop.workflow.Workflow
+	org.apache.hop.workflow.WorkflowMeta
+	org.apache.hop.core.logging.ILogChannel
+/hop-engine/src/test/java/org/apache/hop/www/StopWorkflowServletTest.java
+	org.apache.hop.www.WorkflowMap
+	javax.servlet.http.HttpServletRequest
+	javax.servlet.http.HttpServletResponse
+	javax.servlet.http.HttpServletRequest
+	javax.servlet.http.HttpServletResponse
+	org.apache.hop.workflow.Workflow
+	org.apache.hop.workflow.WorkflowMeta
+	org.apache.hop.core.logging.ILogChannel
+/hop-engine/src/test/java/org/apache/hop/www/GetStatusServletTest.java
+	org.apache.hop.www.PipelineMap
+	org.apache.hop.www.WorkflowMap
+	javax.servlet.http.HttpServletRequest
+	javax.servlet.http.HttpServletResponse
+	javax.servlet.http.HttpServletRequest
+	javax.servlet.http.HttpServletResponse
+	org.apache.hop.pipeline.Pipeline
+	org.apache.hop.pipeline.PipelineMeta
+	org.apache.hop.core.logging.ILogChannel
+/hop-engine/src/test/java/org/apache/hop/www/GetPipelineStatusServletTest.java
+	org.apache.hop.www.PipelineMap
+	javax.servlet.http.HttpServletRequest
+	javax.servlet.http.HttpServletResponse
+	javax.servlet.http.HttpServletRequest
+	javax.servlet.http.HttpServletResponse
+	org.apache.hop.pipeline.Pipeline
+	org.apache.hop.pipeline.PipelineMeta
+	org.apache.hop.core.logging.ILogChannel
+/hop-engine/src/test/java/org/apache/hop/www/WebServerTest.java
+	org.apache.hop.www.PipelineMap
+	org.apache.hop.www.HopServerConfig
+	org.apache.hop.server.HopServer
+	org.apache.hop.www.WorkflowMap
+	org.apache.hop.core.logging.ILogChannel
+/hop-engine/src/test/java/org/apache/hop/www/GetWorkflowStatusServletTest.java
+	org.apache.hop.www.WorkflowMap
+	javax.servlet.http.HttpServletRequest
+	javax.servlet.http.HttpServletResponse
+	javax.servlet.http.HttpServletRequest
+	javax.servlet.http.HttpServletResponse
+	org.apache.hop.workflow.Workflow
+	org.apache.hop.workflow.WorkflowMeta
+	org.apache.hop.core.logging.ILogChannel
+	javax.servlet.http.HttpServletRequest
+	javax.servlet.http.HttpServletResponse
+	org.apache.hop.workflow.Workflow
+	org.apache.hop.workflow.WorkflowMeta
+	org.apache.hop.core.logging.ILogChannel
+	javax.servlet.ServletOutputStream
+/hop-engine/src/test/java/org/apache/hop/www/StartExecutionPipelineServletTest.java
+	org.apache.hop.www.PipelineMap
+	javax.servlet.http.HttpServletRequest
+	javax.servlet.http.HttpServletResponse
+	javax.servlet.http.HttpServletRequest
+	javax.servlet.http.HttpServletResponse
+	org.apache.hop.pipeline.Pipeline
+	org.apache.hop.pipeline.PipelineMeta
+	org.apache.hop.core.logging.ILogChannel
+/hop-engine/src/test/java/org/apache/hop/www/PrepareExecutionPipelineServletTest.java
+	org.apache.hop.www.PipelineMap
+	javax.servlet.http.HttpServletRequest
+	javax.servlet.http.HttpServletResponse
+	javax.servlet.http.HttpServletRequest
+	javax.servlet.http.HttpServletResponse
+	org.apache.hop.pipeline.Pipeline
+	org.apache.hop.pipeline.PipelineConfiguration
+	org.apache.hop.pipeline.PipelineMeta
+	org.apache.hop.pipeline.PipelineExecutionConfiguration
+	org.apache.hop.core.logging.ILogChannel
+/hop-engine/src/test/java/org/apache/hop/www/SniffTransformServletTest.java
+	org.apache.hop.www.PipelineMap
+	javax.servlet.http.HttpServletRequest
+	javax.servlet.http.HttpServletResponse
+	javax.servlet.http.HttpServletRequest
+	javax.servlet.http.HttpServletResponse
+	org.apache.hop.pipeline.Pipeline
+	org.apache.hop.pipeline.PipelineMeta
+	org.apache.hop.pipeline.transform.ITransform
+	org.apache.hop.core.logging.ILogChannel
+/hop-engine/src/test/java/org/apache/hop/www/BaseHopServerPluginTest.java
+	javax.servlet.http.HttpServletRequest
+	javax.servlet.http.HttpServletResponse
+	org.apache.hop.core.logging.ILogChannel
+	org.apache.hop.www.IHopServerRequestHandler.IWriterResponse
+	org.apache.hop.www.IHopServerRequestHandler.IOutputStreamResponse
+	java.io.PrintWriter
+	javax.servlet.ServletOutputStream
+/hop-engine/src/test/java/org/apache/hop/www/HopServerTest.java
+	com.sun.jersey.api.client.WebResource
+	com.sun.jersey.api.client.WebResource
+	com.sun.jersey.api.client.Client
+/hop-engine/src/test/java/org/apache/hop/www/RemoveWorkflowServletTest.java
+	org.apache.hop.www.WorkflowMap
+	javax.servlet.http.HttpServletRequest
+	javax.servlet.http.HttpServletResponse
+	javax.servlet.http.HttpServletRequest
+	javax.servlet.http.HttpServletResponse
+	org.apache.hop.workflow.Workflow
+	org.apache.hop.workflow.WorkflowMeta
+	org.apache.hop.core.logging.ILogChannel
+/hop-engine/src/test/java/org/apache/hop/www/GetRootServletTest.java
+	javax.servlet.http.HttpServletRequest
+	javax.servlet.http.HttpServletResponse
+/hop-plugins-misc-git/src/test/java/org/apache/hop/git/model/UIGitTest.java
+	org.apache.hop.ui.core.dialog.EnterSelectionDialog
+/hop-plugins-tech-aws/src/test/java/org/apache/hop/vfs/s3/vfs/S3FileProviderTest.java
+	org.apache.commons.vfs2.FileName
+/hop-plugins-tech-aws/src/test/java/org/apache/hop/vfs/s3/vfs/S3NFileSystemTest.java
+	org.apache.commons.vfs2.UserAuthenticator
+	org.apache.commons.vfs2.UserAuthenticationData
+/hop-plugins-tech-aws/src/test/java/org/apache/hop/vfs/s3/vfs/S3FileNameParserTest.java
+	org.apache.commons.vfs2.provider.VfsComponentContext
+	org.apache.commons.vfs2.FileName
+/hop-plugins-tech-aws/src/test/java/org/apache/hop/vfs/s3/vfs/S3FileSystemTest.java
+	org.apache.commons.vfs2.UserAuthenticator
+	org.apache.commons.vfs2.UserAuthenticationData
+	org.apache.hop.vfs.s3.s3common.S3HopProperty
+	org.apache.commons.vfs2.FileName
+/hop-plugins-tech-aws/src/test/java/org/apache/hop/vfs/s3/vfs/S3NFileObjectTest.java
+	com.amazonaws.services.s3.AmazonS3
+	org.apache.commons.vfs2.provider.VfsComponentContext
+	org.apache.commons.vfs2.FilesCache
+	com.amazonaws.services.s3.model.ObjectListing
+	com.amazonaws.services.s3.model.S3Object
+	com.amazonaws.services.s3.model.S3ObjectInputStream
+	com.amazonaws.services.s3.model.ObjectMetadata
+	org.apache.commons.vfs2.FileName
+	org.apache.commons.vfs2.FileObject
+	com.amazonaws.services.s3.model.ObjectListing
+	com.amazonaws.services.s3.model.ObjectListing
+/hop-plugins-tech-aws/src/test/java/org/apache/hop/vfs/s3/vfs/S3NFileNameParserTest.java
+	org.apache.commons.vfs2.provider.VfsComponentContext
+	org.apache.commons.vfs2.FileName
+/hop-plugins-tech-aws/src/test/java/org/apache/hop/vfs/s3/vfs/S3NFileProviderTest.java
+	org.apache.commons.vfs2.FileName
+/hop-plugins-tech-aws/src/test/java/org/apache/hop/vfs/s3/vfs/S3FileObjectTest.java
+	com.amazonaws.services.s3.AmazonS3
+	org.apache.hop.vfs.s3.s3common.S3HopProperty
+	org.apache.commons.vfs2.provider.VfsComponentContext
+	org.apache.commons.vfs2.FilesCache
+	com.amazonaws.services.s3.model.ObjectListing
+	com.amazonaws.services.s3.model.S3Object
+	com.amazonaws.services.s3.model.S3ObjectInputStream
+	com.amazonaws.services.s3.model.ObjectMetadata
+	com.amazonaws.services.s3.model.InitiateMultipartUploadResult
+	com.amazonaws.services.s3.model.UploadPartResult
+	com.amazonaws.services.s3.model.PartETag
+	org.apache.commons.vfs2.FileName
+	org.apache.commons.vfs2.FileObject
+	com.amazonaws.services.s3.model.ObjectListing
+/hop-plugins-tech-cassandra/src/test/java/org/apache/hop/database/cassandra/datastax/DriverCqlRowHandlerTest.java
+	org.apache.hop.databases.cassandra.datastax.DriverKeyspace
+	com.datastax.driver.core.Session
+	org.apache.hop.databases.cassandra.datastax.DriverKeyspace
+	com.datastax.driver.core.Session
+	com.datastax.driver.core.ResultSet
+	com.datastax.driver.core.Row
+	org.apache.hop.pipeline.transform.ITransform
+	org.apache.hop.core.logging.ILogChannel
+	org.apache.hop.databases.cassandra.datastax.DriverKeyspace
+	com.datastax.driver.core.Session
+	com.datastax.driver.core.ResultSet
+	com.datastax.driver.core.Row
+	org.apache.hop.pipeline.transform.ITransform
+	org.apache.hop.core.logging.ILogChannel
+	org.apache.hop.databases.cassandra.datastax.DriverKeyspace
+	com.datastax.driver.core.Session
+	org.apache.hop.databases.cassandra.datastax.TableMetaData
+	org.apache.hop.databases.cassandra.datastax.DriverKeyspace
+	com.datastax.driver.core.Session
+	org.apache.hop.databases.cassandra.datastax.TableMetaData
+	com.datastax.driver.core.Row
+	com.datastax.driver.core.ColumnDefinitions
+	com.datastax.driver.core.ColumnDefinitions
+/hop-plugins-tech-cassandra/src/test/java/org/apache/hop/database/cassandra/datastax/DriverConnectionTest.java
+	com.datastax.driver.core.Cluster
+	com.datastax.driver.core.Session
+/hop-plugins-tech-cassandra/src/test/java/org/apache/hop/database/cassandra/util/CassandraUtilsTest.java
+	org.apache.hop.core.row.value.ValueMetaDate
+	org.apache.hop.core.row.value.ValueMetaTimestamp
+	org.apache.hop.databases.cassandra.datastax.TableMetaData
+	org.apache.hop.core.row.IRowMeta
+/hop-plugins-tech-cassandra/src/test/java/org/apache/hop/pipeline/transforms/cassandraoutput/CassandraOutputTest.java
+	org.apache.hop.pipeline.transforms.cassandraoutput.CassandraOutput
+	org.apache.hop.pipeline.transforms.cassandraoutput.CassandraOutputMeta
+	java.util.Map
+	org.apache.hop.databases.cassandra.datastax.DriverCqlRowHandler
+	org.apache.hop.pipeline.transforms.cassandraoutput.CassandraOutput
+	org.apache.hop.databases.cassandra.datastax.DriverCqlRowHandler
+	org.apache.hop.pipeline.transforms.cassandraoutput.CassandraOutput
+	org.apache.hop.databases.cassandra.datastax.DriverCqlRowHandler
+/hop-plugins-tech-cassandra/src/test/java/org/apache/hop/pipeline/transforms/cassandrasstableoutput/SSTableOutputTest.java
+/hop-plugins-tech-cassandra/src/test/java/org/apache/hop/pipeline/transforms/cassandrasstableoutput/writer/SSTableWriterBuilderTest.java
+	org.apache.hop.core.row.IRowMeta
+/hop-plugins-tech-cassandra/src/test/java/org/apache/hop/pipeline/transforms/cassandrasstableoutput/writer/Cql3SsTableWriterTest.java
+	org.apache.cassandra.io.sstable.CQLSSTableWriter
+	org.apache.hop.core.row.IRowMeta
+/hop-plugins-tech-cassandra/src/test/java/org/apache/hop/pipeline/transforms/mock/TransformMockHelper.java
+	org.apache.hop.core.logging.ILogChannelFactory
+	org.apache.hop.core.logging.ILogChannel
+	org.apache.hop.pipeline.transform.TransformMeta
+	Data
+	org.apache.hop.pipeline.PipelineMeta
+	org.apache.hop.pipeline.Pipeline
+	Meta
+	Data
+	Data
+	Meta
+	org.apache.hop.core.IRowSet
+/hop-transform-abort/src/test/java/org/apache/hop/pipeline/transforms/abort/AbortMetaTest.java
+	org.apache.hop.metadata.api.IHopMetadataProvider
+/hop-transform-abort/src/test/java/org/apache/hop/pipeline/transforms/abort/AbortTest.java
+/hop-transform-calculator/src/test/java/org/apache/hop/pipeline/transforms/calculator/CalculatorValueDataUtilTest.java
+	org.apache.hop.core.row.value.ValueMetaInteger
+/hop-transform-calculator/src/test/java/org/apache/hop/pipeline/transforms/calculator/CalculatorUnitTest.java
+/hop-transform-clonerow/src/test/java/org/apache/hop/pipeline/transforms/clonerow/CloneRowTest.java
+	org.apache.hop.core.row.IRowMeta
+/hop-transform-combinationlookup/src/test/java/org/apache/hop/pipeline/transforms/combinationlookup/CombinationLookupTest.java
+	org.apache.hop.core.database.DatabaseMeta
+	org.apache.hop.pipeline.transforms.combinationlookup.CombinationLookupMeta
+	org.apache.hop.pipeline.transform.TransformMeta
+	org.apache.hop.pipeline.transform.TransformPartitioningMeta
+	org.apache.hop.core.database.Database
+	java.sql.Connection
+	org.apache.hop.pipeline.transforms.combinationlookup.CombinationLookupData
+	org.apache.hop.pipeline.PipelineMeta
+/hop-transform-combinationlookup/src/test/java/org/apache/hop/pipeline/transforms/combinationlookup/CombinationLookupMetaTest.java
+	org.apache.hop.core.row.RowMeta
+	org.apache.hop.core.database.Database
+/hop-transform-constant/src/test/java/org/apache/hop/pipeline/transforms/constant/ConstantTest.java
+	org.apache.hop.core.RowMetaAndData
+/hop-transform-databasejoin/src/test/java/org/apache/hop/pipeline/transforms/databasejoin/DatabaseJoinTest.java
+	org.apache.hop.pipeline.transform.TransformMeta
+	org.apache.hop.pipeline.PipelineMeta
+	org.apache.hop.pipeline.transform.TransformPartitioningMeta
+	org.apache.hop.pipeline.transforms.databasejoin.DatabaseJoinMeta
+	org.apache.hop.pipeline.transforms.databasejoin.DatabaseJoinData
+	org.apache.hop.core.database.Database
+	java.sql.PreparedStatement
+	java.sql.Connection
+/hop-transform-databaselookup/src/test/java/org/apache/hop/pipeline/transforms/databaselookup/DatabaseLookupUTest.java
+	org.apache.hop.core.IRowSet
+	org.apache.hop.pipeline.transform.TransformMeta
+	org.apache.hop.pipeline.transform.TransformMeta
+	java.sql.ResultSet
+	java.sql.ResultSetMetaData
+	java.sql.PreparedStatement
+	java.sql.Connection
+	org.apache.hop.core.logging.ILoggingObject
+	org.apache.hop.core.database.Database
+	org.apache.hop.core.database.Database
+/hop-transform-databaselookup/src/test/java/org/apache/hop/pipeline/transforms/databaselookup/DatabaseLookupMetaTest.java
+	org.apache.hop.core.row.RowMeta
+/hop-transform-denormaliser/src/test/java/org/apache/hop/pipeline/transforms/denormaliser/DenormaliserTest.java
+/hop-transform-denormaliser/src/test/java/org/apache/hop/pipeline/transforms/denormaliser/DenormaliserAggregationsTest.java
+/hop-transform-dimensionlookup/src/test/java/org/apache/hop/pipeline/transforms/dimensionlookup/DimensionLookupTest.java
+	org.apache.hop.core.database.DatabaseMeta
+	org.apache.hop.pipeline.transforms.dimensionlookup.DimensionLookupMeta
+	org.apache.hop.pipeline.transform.TransformMeta
+	org.apache.hop.pipeline.transform.TransformPartitioningMeta
+	org.apache.hop.core.database.Database
+	java.sql.Connection
+	org.apache.hop.pipeline.transforms.dimensionlookup.DimensionLookupData
+	org.apache.hop.pipeline.PipelineMeta
+	org.apache.hop.core.row.IRowMeta
+	java.util.List
+	java.util.Date
+/hop-transform-dimensionlookup/src/test/java/org/apache/hop/pipeline/transforms/dimensionlookup/DimensionLookupMetaTest.java
+	org.apache.hop.core.logging.ILogChannelFactory
+	org.apache.hop.core.logging.ILogChannel
+	org.apache.hop.core.database.DatabaseMeta
+	org.apache.hop.core.logging.ILogChannel
+	org.apache.hop.core.row.RowMeta
+	org.apache.hop.core.database.Database
+/hop-transform-excelinput/src/test/java/org/apache/hop/pipeline/transforms/excelinput/staxpoi/StaxPoiSheetTest.java
+	org.apache.poi.xssf.model.SharedStringsTable
+	org.apache.poi.xssf.model.StylesTable
+	org.apache.poi.xssf.eventusermodel.XSSFReader
+	org.apache.poi.xssf.model.StylesTable
+	org.apache.poi.xssf.model.SharedStringsTable
+	org.apache.poi.xssf.model.StylesTable
+	org.apache.poi.xssf.model.StylesTable
+/hop-transform-excelwriter/src/test/java/org/apache/hop/pipeline/transforms/excelwriter/TransformMockUtil.java
+/hop-transform-excelwriter/src/test/java/org/apache/hop/pipeline/transforms/excelwriter/ExcelWriterTransformTest.java
+	org.apache.hop.pipeline.transforms.excelwriter.ExcelWriterTransformMeta
+	org.apache.hop.pipeline.transforms.excelwriter.ExcelWriterFileField
+	org.apache.hop.pipeline.transforms.excelwriter.ExcelWriterTemplateField
+	org.apache.hop.pipeline.transforms.excelwriter.ExcelWriterTransformData
+	org.apache.hop.core.row.IRowMeta
+	org.apache.hop.core.row.value.ValueMetaInteger
+	org.apache.hop.core.row.value.ValueMetaBigNumber
+	org.apache.hop.core.row.value.ValueMetaBinary
+	org.apache.hop.core.row.value.ValueMetaInteger
+	org.apache.hop.core.row.value.ValueMetaDate
+	org.apache.hop.core.row.value.ValueMetaInteger
+	org.apache.hop.core.row.value.ValueMetaInternetAddress
+	org.apache.hop.core.row.value.ValueMetaNumber
+	org.apache.hop.core.row.value.ValueMetaString
+	org.apache.hop.core.row.value.ValueMetaTimestamp
+	org.apache.hop.core.row.value.ValueMetaTimestamp
+	org.apache.hop.core.row.value.ValueMetaTimestamp
+	org.apache.hop.core.row.value.ValueMetaTimestamp
+	org.apache.hop.core.row.value.ValueMetaTimestamp
+	org.apache.hop.core.row.value.ValueMetaTimestamp
+	org.apache.hop.core.row.value.ValueMetaTimestamp
+	org.apache.hop.core.row.IRowMeta
+/hop-transform-excelwriter/src/test/java/org/apache/hop/pipeline/transforms/excelwriter/ExcelWriterTransform_StyleFormatTest.java
+	org.apache.hop.core.row.IRowMeta
+/hop-transform-excelwriter/src/test/java/org/apache/hop/pipeline/transforms/excelwriter/ExcelWriterTransform_FormulaRecalculationTest.java
+	org.apache.hop.pipeline.transforms.excelwriter.ExcelWriterFileField
+	org.apache.hop.pipeline.transforms.excelwriter.ExcelWriterTemplateField
+/hop-transform-fieldsplitter/src/test/java/org/apache/hop/pipeline/transforms/fieldsplitter/TransformMockUtil.java
+/hop-transform-fieldsplitter/src/test/java/org/apache/hop/pipeline/transforms/fieldsplitter/FieldSplitterTest.java
+/hop-transform-fieldsplitter/src/test/java/org/apache/hop/pipeline/transforms/fieldsplitter/FieldSplitter_EmptyStringVsNull_Test.java
+/hop-transform-fuzzymatch/src/test/java/org/apache/hop/pipeline/transforms/fuzzymatch/FuzzyMatchTest.java
+	org.apache.hop.pipeline.transforms.fuzzymatch.FuzzyMatchTest.FuzzyMatchHandler
+	java.util.HashSet
+	org.apache.hop.pipeline.transform.ITransformIOMeta
+	org.apache.hop.pipeline.transform.errorhandling.IStream
+/hop-transform-gettablenames/src/test/java/org/apache/hop/pipeline/transforms/gettablenames/GetTableNamesTest.java
+	org.apache.hop.core.database.Database
+	org.apache.hop.pipeline.transforms.gettablenames.GetTableNamesMeta
+	org.apache.hop.pipeline.transforms.gettablenames.GetTableNamesData
+/hop-transform-http/src/test/java/org/apache/hop/pipeline/transforms/http/HttpTest.java
+	org.apache.hop.core.logging.ILogChannel
+	org.apache.hop.core.row.IRowMeta
+	org.apache.hop.pipeline.transforms.http.HttpData
+	org.apache.hop.pipeline.transforms.http.HttpMeta
+	org.apache.hop.pipeline.transforms.http.Http
+	org.apache.hop.core.util.HttpClientManager.HttpClientBuilderFacade
+	org.apache.hop.core.util.HttpClientManager
+	org.apache.http.impl.client.CloseableHttpClient
+	org.apache.http.client.methods.CloseableHttpResponse
+/hop-transform-httppost/src/test/java/org/apache/hop/pipeline/transforms/httppost/HttpPostTest.java
+	org.apache.hop.pipeline.transforms.httppost.HttpPost
+/hop-transform-ifnull/src/test/java/org/apache/hop/pipeline/transforms/ifnull/IfNullTest.java
+/hop-transform-insertupdate/src/test/java/org/apache/hop/pipeline/transforms/insertupdate/InsertUpdateTestLazyConversion.java
+	org.apache.hop.core.database.Database
+	org.apache.hop.pipeline.transforms.insertupdate.InsertUpdateLookupField
+	java.util.ArrayList
+	org.apache.hop.pipeline.transforms.insertupdate.InsertUpdateValue
+	org.apache.hop.core.row.RowMeta
+/hop-transform-insertupdate/src/test/java/org/apache/hop/pipeline/transforms/insertupdate/InsertUpdateMetaTest.java
+	org.apache.hop.core.row.RowMeta
+	org.apache.hop.core.row.IRowMeta
+	org.apache.hop.core.database.Database
+/hop-transform-janino/src/test/java/org/apache/hop/pipeline/transforms/userdefinedjavaclass/FieldHelperTest.java
+	org.apache.hop.core.row.IValueMeta
+	org.apache.hop.core.logging.LogChannel
+	org.apache.hop.core.logging.LogChannel
+	org.apache.hop.core.row.IRowMeta
+	org.apache.hop.core.row.IRowMeta
+	org.apache.hop.core.row.IRowMeta
+	org.apache.hop.core.row.IRowMeta
+	org.apache.hop.core.row.IRowMeta
+	org.apache.hop.core.row.IRowMeta
+	org.apache.hop.core.row.IRowMeta
+/hop-transform-janino/src/test/java/org/apache/hop/pipeline/transforms/userdefinedjavaclass/UserDefinedJavaClassMetaTest.java
+	org.apache.hop.pipeline.transforms.userdefinedjavaclass.UserDefinedJavaClassDef
+	org.apache.hop.pipeline.transform.TransformMeta
+	org.apache.hop.pipeline.transform.TransformMeta
+	org.apache.hop.pipeline.transform.TransformMeta
+	org.apache.hop.pipeline.transform.TransformMeta
+/hop-transform-javascript/src/test/java/org/apache/hop/pipeline/transforms/javascript/ScriptValuesTest.java
+/hop-transform-javascript/src/test/java/org/apache/hop/pipeline/transforms/javascript/ScriptValueAddFunctions_SetVariableScopeTest.java
+/hop-transform-javascript/src/test/java/org/apache/hop/pipeline/transforms/javascript/TransformMockUtil.java
+/hop-transform-javascript/src/test/java/org/apache/hop/pipeline/transforms/javascript/ScriptValuesMetaTest.java
+/hop-transform-joinrows/src/test/java/org/apache/hop/pipeline/transforms/joinrows/JoinRowsMetaTest.java
+	org.apache.hop.pipeline.transform.ITransformMeta
+	org.apache.hop.pipeline.transform.ITransformMeta
+	org.apache.hop.pipeline.transform.ITransformMeta
+	org.apache.hop.pipeline.transform.ITransformMeta
+/hop-transform-joinrows/src/test/java/org/apache/hop/pipeline/transforms/joinrows/JoinRowsTest.java
+	org.apache.hop.core.logging.ILogChannelFactory
+	org.apache.hop.core.logging.ILogChannel
+	java.io.File
+	java.io.File
+/hop-transform-ldap/src/test/java/org/apache/hop/pipeline/transforms/ldapinput/LdapConnectionTest.java
+	org.apache.hop.core.logging.ILogChannel
+	org.apache.hop.core.variables.IVariables
+/hop-transform-ldap/src/test/java/org/apache/hop/pipeline/transforms/ldapinput/LdapMockProtocol.java
+	javax.naming.ldap.InitialLdapContext
+/hop-transform-ldap/src/test/java/org/apache/hop/pipeline/transforms/ldapinput/LdapInputTest.java
+	org.apache.hop.pipeline.transforms.ldapinput.LdapInputMeta
+/hop-transform-ldap/src/test/java/org/apache/hop/pipeline/transforms/ldapinput/LdapProtocolFactoryTest.java
+	org.apache.hop.core.logging.ILogChannel
+	org.apache.hop.core.variables.IVariables
+	org.apache.hop.pipeline.transforms.ldapinput.ILdapMeta
+	org.apache.hop.core.logging.ILogChannel
+	org.apache.hop.core.variables.IVariables
+	org.apache.hop.pipeline.transforms.ldapinput.ILdapMeta
+	org.apache.hop.core.logging.ILogChannel
+	org.apache.hop.core.variables.IVariables
+	org.apache.hop.pipeline.transforms.ldapinput.ILdapMeta
+/hop-transform-loadfileinput/src/test/java/org/apache/hop/pipeline/transforms/loadfileinput/LoadFileInputTest.java
+	org.apache.hop.core.row.IRowMeta
+	org.apache.hop.pipeline.transforms.loadfileinput.LoadFileInput
+	org.apache.hop.pipeline.transforms.loadfileinput.LoadFileInput
+	org.apache.hop.pipeline.transforms.loadfileinput.LoadFileInput
+/hop-transform-loadfileinput/src/test/java/org/apache/hop/pipeline/transforms/loadfileinput/PDI_6976_Test.java
+	org.apache.hop.core.fileinput.FileInputList
+	java.util.List
+	java.util.List
+	org.apache.hop.pipeline.PipelineMeta
+	org.apache.hop.pipeline.transform.TransformMeta
+	org.apache.hop.core.row.IRowMeta
+	org.apache.hop.core.row.IRowMeta
+	org.apache.hop.core.variables.IVariables
+	org.apache.hop.metadata.api.IHopMetadataProvider
+/hop-transform-mailinput/src/test/java/org/apache/hop/pipeline/transforms/mailinput/ParseMailInputTest.java
+	javax.mail.Message
+	org.apache.hop.workflow.actions.getpop.MailConnection
+	org.apache.hop.pipeline.transforms.mailinput.MailInputData
+	javax.mail.Address
+	javax.mail.Address
+	javax.mail.Address
+	javax.mail.Address
+	javax.mail.Address
+	javax.mail.Address
+	javax.mail.Message
+	org.apache.hop.pipeline.transforms.mailinput.MailInputMeta
+/hop-transform-mailinput/src/test/java/org/apache/hop/pipeline/transforms/mailinput/BatchFolderIteratorName.java
+	javax.mail.Folder
+/hop-transform-mailinput/src/test/java/org/apache/hop/pipeline/transforms/mailinput/MailInputTest.java
+	org.apache.hop.pipeline.transforms.mailinput.MailInputMeta
+	org.apache.hop.pipeline.transforms.mailinput.MailInputMeta
+	org.apache.hop.pipeline.transforms.mailinput.MailInputMeta
+	org.apache.hop.pipeline.transforms.mailinput.MailInputMeta
+/hop-transform-mapping/src/test/java/org/apache/hop/pipeline/transforms/mapping/SimpleMappingTest.java
+	org.apache.hop.pipeline.transforms.input.MappingInput
+	org.apache.hop.pipeline.transforms.output.MappingOutput
+	org.apache.hop.pipeline.transforms.mapping.RowDataInputMapper
+	org.apache.hop.core.row.RowMeta
+	org.apache.hop.pipeline.RowProducer
+	org.apache.hop.pipeline.transforms.mapping.MappingIODefinition
+	org.apache.hop.pipeline.transforms.input.MappingInput
+	org.apache.hop.pipeline.RowProducer
+	org.apache.hop.pipeline.transform.ITransform
+	org.apache.hop.pipeline.Pipeline
+	org.apache.hop.pipeline.transforms.output.MappingOutput
+/hop-transform-memgroupby/src/test/java/org/apache/hop/pipeline/transforms/memgroupby/MemoryGroupByAggregationNullsTest.java
+	org.apache.hop.core.row.IRowMeta
+/hop-transform-memgroupby/src/test/java/org/apache/hop/pipeline/transforms/memgroupby/MemoryGroupByAggregationTest.java
+	org.apache.hop.pipeline.PipelineMeta
+	org.apache.hop.pipeline.Pipeline
+/hop-transform-memgroupby/src/test/java/org/apache/hop/pipeline/transforms/memgroupby/MemoryGroupByNewAggregateTest.java
+	org.apache.hop.core.row.IRowMeta
+/hop-transform-memgroupby/src/test/java/org/apache/hop/pipeline/transforms/memgroupby/MemoryGroupByDataTest.java
+	org.apache.hop.core.row.IRowMeta
+	org.apache.hop.core.row.IValueMeta
+/hop-transform-memgroupby/src/test/java/org/apache/hop/pipeline/transforms/memgroupby/MemoryGroupByMetaGetFieldsTest.java
+	org.apache.hop.core.variables.IVariables
+/hop-transform-mergerows/src/test/java/org/apache/hop/pipeline/transforms/mergerows/MergeRowsMetaCheckTest.java
+	org.apache.hop.pipeline.PipelineMeta
+	org.apache.hop.pipeline.transform.TransformMeta
+	org.apache.hop.pipeline.transform.TransformMeta
+/hop-transform-metainject/src/test/java/org/apache/hop/pipeline/transforms/metainject/TransformMockUtil.java
+/hop-transform-metainject/src/test/java/org/apache/hop/pipeline/transforms/metainject/MetaInjectMetaTest.java
+	org.apache.hop.pipeline.PipelineMeta
+	org.apache.hop.pipeline.transform.TransformMeta
+	org.apache.hop.pipeline.PipelineMeta
+	org.apache.hop.pipeline.transform.TransformMeta
+	org.apache.hop.core.variables.IVariables
+	org.apache.hop.resource.IResourceNaming
+	org.apache.hop.metadata.api.IHopMetadataProvider
+	org.apache.hop.pipeline.PipelineMeta
+/hop-transform-metainject/src/test/java/org/apache/hop/pipeline/transforms/metainject/MetaInjectTest.java
+	org.apache.hop.metadata.api.IHopMetadataProvider
+	org.apache.hop.pipeline.PipelineMeta
+	org.apache.hop.pipeline.transform.TransformMeta
+	org.apache.hop.pipeline.transform.ITransformMeta
+	org.apache.hop.pipeline.PipelineMeta
+	org.apache.hop.pipeline.transform.TransformMeta
+	org.apache.hop.pipeline.PipelineMeta
+	org.apache.hop.pipeline.transform.TransformMeta
+	org.apache.hop.pipeline.PipelineMeta
+/hop-transform-mongodb/src/test/java/org/apache/hop/mongo/MongoPropertiesTest.java
+	org.apache.hop.mongo.MongoUtilLogger
+	org.apache.hop.mongo.MongoUtilLogger
+/hop-transform-mongodb/src/test/java/org/apache/hop/mongo/MongoPropToOptionTest.java
+	org.apache.hop.mongo.MongoUtilLogger
+	org.apache.hop.mongo.MongoUtilLogger
+/hop-transform-mongodb/src/test/java/org/apache/hop/mongo/AuthContextTest.java
+	java.security.PrivilegedAction
+	java.security.PrivilegedExceptionAction
+	java.security.PrivilegedExceptionAction
+	java.lang.RuntimeException
+/hop-transform-mongodb/src/test/java/org/apache/hop/mongo/wrapper/MongoClientWrapperFactoryTest.java
+	org.apache.hop.mongo.wrapper.DefaultMongoClientFactory
+	org.apache.hop.mongo.MongoUtilLogger
+/hop-transform-mongodb/src/test/java/org/apache/hop/mongo/wrapper/HopMongoUtilLoggerTest.java
+	org.apache.hop.core.logging.ILogChannel
+	java.lang.Exception
+/hop-transform-mongodb/src/test/java/org/apache/hop/mongo/wrapper/KerberosMongoClientWrapperTest.java
+	com.mongodb.MongoClient
+	org.apache.hop.mongo.AuthContext
+	org.apache.hop.mongo.MongoUtilLogger
+	com.mongodb.DBCollection
+/hop-transform-mongodb/src/test/java/org/apache/hop/mongo/wrapper/KerberosInvocationHandlerTest.java
+	org.apache.hop.mongo.wrapper.MongoClientWrapper
+	org.apache.hop.mongo.AuthContext
+/hop-transform-mongodb/src/test/java/org/apache/hop/mongo/wrapper/MongoFieldTest.java
+	org.apache.hop.core.variables.IVariables
+/hop-transform-mongodb/src/test/java/org/apache/hop/mongo/wrapper/UsernamePasswordMongoClientWrapperTest.java
+	org.apache.hop.mongo.MongoUtilLogger
+/hop-transform-mongodb/src/test/java/org/apache/hop/mongo/wrapper/NoAuthMongoClientWrapperTest.java
+	com.mongodb.MongoClient
+	org.apache.hop.mongo.MongoUtilLogger
+	org.apache.hop.mongo.MongoProperties
+	org.apache.hop.mongo.wrapper.DefaultMongoClientFactory
+	com.mongodb.MongoClientOptions
+	com.mongodb.DB
+	com.mongodb.DBCollection
+	java.lang.RuntimeException
+	org.mockito.ArgumentCaptor<java.util.List<com.mongodb.ServerAddress>>
+	org.mockito.ArgumentCaptor<java.util.List<com.mongodb.MongoCredential>>
+	org.apache.hop.mongo.wrapper.MongoDBAction
+	com.mongodb.DBCollection
+	com.mongodb.MongoClientOptions
+	com.mongodb.DBCollection
+	com.mongodb.DBObject
+	com.mongodb.DBCollection
+	com.mongodb.DBObject
+	com.mongodb.DBObject
+/hop-transform-mongodb/src/test/java/org/apache/hop/mongo/wrapper/collection/DefaultMongoCollectionWrapperTest.java
+	com.mongodb.DBCollection
+	com.mongodb.BasicDBObject
+	java.util.List<com.mongodb.DBObject>
+	com.mongodb.BasicDBObject
+	com.mongodb.BasicDBObject
+	com.mongodb.Cursor
+/hop-transform-mongodb/src/test/java/org/apache/hop/mongo/wrapper/field/MongodbInputDiscoverFieldsImplTest.java
+	org.apache.hop.mongo.metadata.MongoDbConnection
+	org.apache.hop.mongo.wrapper.MongoWrapperClientFactory
+	org.apache.hop.mongo.wrapper.MongoClientWrapper
+	com.mongodb.DB
+	org.apache.hop.pipeline.transforms.mongodbinput.MongoDbInputMeta
+	com.mongodb.DBCollection
+	com.mongodb.DBCursor
+	org.mockito.ArgumentCaptor<org.apache.hop.mongo.MongoProperties.Builder>
+	org.mockito.ArgumentCaptor<com.mongodb.DBObject>
+	org.mockito.ArgumentCaptor<com.mongodb.DBObject[]>
+	org.apache.hop.mongo.wrapper.field.MongodbInputDiscoverFieldsImpl
+	org.apache.hop.mongo.wrapper.MongoClientWrapper
+/hop-transform-mongodb/src/test/java/org/apache/hop/pipeline/transforms/mongodbinput/MongoDbInputDataTest.java
+	org.apache.hop.metadata.api.IHopMetadataProvider
+	org.apache.hop.pipeline.transforms.mongodbinput.MongoDbInputMeta
+	org.apache.hop.core.variables.IVariables
+	org.apache.hop.pipeline.transforms.mongodbinput.MongoDbInputDiscoverFields
+	org.apache.hop.pipeline.transforms.mongodbinput.MongoDbInputMeta
+	org.apache.hop.core.variables.IVariables
+	org.apache.hop.pipeline.transforms.mongodbinput.MongoDbInputDiscoverFields
+	org.apache.hop.pipeline.transforms.mongodbinput.MongoDbInputMeta
+	org.apache.hop.core.variables.IVariables
+	org.apache.hop.pipeline.transforms.mongodbinput.MongoDbInputDiscoverFields
+/hop-transform-mongodb/src/test/java/org/apache/hop/pipeline/transforms/mongodbinput/BaseMongoDbTransformTest.java
+	org.apache.hop.pipeline.transform.TransformMeta
+	org.apache.hop.pipeline.PipelineMeta
+	org.apache.hop.core.logging.ILogChannel
+	org.apache.hop.mongo.wrapper.MongoWrapperClientFactory
+	org.apache.hop.mongo.wrapper.MongoClientWrapper
+	org.apache.hop.mongo.wrapper.collection.MongoCollectionWrapper
+	org.apache.hop.core.logging.ILogChannelFactory
+	com.mongodb.Cursor
+	org.mockito.ArgumentCaptor<java.lang.String>
+	org.mockito.ArgumentCaptor<com.mongodb.DBObject>
+	org.mockito.ArgumentCaptor<java.lang.Throwable>
+/hop-transform-mongodb/src/test/java/org/apache/hop/pipeline/transforms/mongodboutput/MongoDbOutputMetaInjectionTest.java
+	org.apache.hop.core.logging.ILogChannelFactory
+	org.apache.hop.core.logging.ILogChannel
+/hop-transform-mongodb/src/test/java/org/apache/hop/pipeline/transforms/mongodboutput/MongoDbOutputDataTest.java
+	org.apache.hop.core.variables.IVariables
+	org.apache.hop.mongo.wrapper.MongoClientWrapper
+	org.apache.hop.mongo.wrapper.collection.MongoCollectionWrapper
+	org.apache.hop.core.row.IRowMeta
+	org.apache.hop.core.row.IValueMeta
+	com.mongodb.DBCollection
+	com.mongodb.DBCollection
+/hop-transform-nullif/src/test/java/org/apache/hop/pipeline/transforms/nullif/NullIfTest.java
+/hop-transform-pgbulkloader/src/test/java/org/apache/hop/pipeline/transforms/pgbulkloader/PGBulkLoaderTest.java
+	org.apache.hop.pipeline.transforms.pgbulkloader.PGBulkLoaderMeta
+	org.apache.hop.pipeline.transforms.pgbulkloader.PGBulkLoaderData
+	org.apache.hop.pipeline.transforms.pgbulkloader.PGBulkLoader
+	org.apache.hop.pipeline.transforms.pgbulkloader.PGBulkLoaderMeta
+	org.apache.hop.pipeline.transforms.pgbulkloader.PGBulkLoaderData
+	org.apache.hop.pipeline.transforms.pgbulkloader.PGBulkLoaderMeta
+/hop-transform-propertyinput/src/test/java/org/apache/hop/pipeline/transforms/propertyinput/PropertyInputMetaTest.java
+	org.apache.hop.pipeline.transforms.propertyinput.PropertyInputMeta
+	org.apache.commons.vfs2.FileObject
+	org.apache.commons.vfs2.FileName
+	org.apache.commons.vfs2.FileContent
+	org.apache.hop.pipeline.transforms.propertyinput.PropertyInput
+	org.apache.hop.core.logging.ILogChannel
+/hop-transform-regexeval/src/test/java/org/apache/hop/pipeline/transforms/regexeval/RegexEvalUnitTest.java
+	org.apache.hop.core.row.IRowMeta
+	org.apache.hop.core.row.IRowMeta
+/hop-transform-regexeval/src/test/java/org/apache/hop/pipeline/transforms/regexeval/TransformMockUtil.java
+/hop-transform-regexeval/src/test/java/org/apache/hop/pipeline/transforms/regexeval/RegexEvalMetaTest.java
+	org.apache.hop.core.row.IRowMeta
+	org.apache.hop.core.variables.IVariables
+	org.apache.hop.core.row.IValueMeta
+	org.apache.hop.core.row.IValueMeta
+	org.apache.hop.core.row.IValueMeta
+	org.apache.hop.core.row.IValueMeta
+/hop-transform-regexeval/src/test/java/org/apache/hop/pipeline/transforms/regexeval/RegexEval_EmptyStringVsNull_Test.java
+/hop-transform-replacestring/src/test/java/org/apache/hop/pipeline/transforms/replacestring/ReplaceStringMetaTest.java
+	org.apache.hop.core.row.IValueMeta
+	org.apache.hop.core.row.IRowMeta
+	org.apache.hop.pipeline.transform.TransformMeta
+	org.apache.hop.core.variables.IVariables
+	org.apache.hop.metadata.api.IHopMetadataProvider
+/hop-transform-replacestring/src/test/java/org/apache/hop/pipeline/transforms/replacestring/ReplaceStringTest.java
+/hop-transform-rest/src/test/java/org/apache/hop/pipeline/transforms/rest/RestTest.java
+	org.apache.hop.pipeline.transforms.rest.RestMeta
+	org.apache.hop.pipeline.transforms.rest.RestData
+	com.sun.jersey.api.client.ClientResponse
+	com.sun.jersey.api.client.WebResource.Builder
+	com.sun.jersey.api.client.WebResource
+	com.sun.jersey.client.apache4.ApacheHttpClient4
+	org.apache.hop.pipeline.transforms.rest.RestMeta
+	org.apache.hop.core.row.IRowMeta
+	org.apache.hop.pipeline.transforms.rest.RestData
+	org.apache.hop.pipeline.transforms.rest.Rest
+/hop-transform-rowgenerator/src/test/java/org/apache/hop/pipeline/transforms/rowgenerator/RowGeneratorUnitTest.java
+/hop-transform-salesforce/src/test/java/org/apache/hop/pipeline/transforms/salesforce/SalesforceTransformTest.java
+	org.apache.hop.pipeline.transforms.salesforce.SalesforceTransformMeta
+	org.apache.hop.pipeline.transforms.salesforce.SalesforceTransformMeta
+	org.apache.hop.core.row.IValueMeta
+	org.apache.hop.core.row.IValueMeta
+/hop-transform-salesforce/src/test/java/org/apache/hop/pipeline/transforms/salesforce/SalesforceConnectionTest.java
+	org.apache.hop.core.logging.ILogChannel
+	org.apache.hop.pipeline.transforms.salesforce.SalesforceConnection
+	org.apache.hop.pipeline.transforms.salesforce.SalesforceConnection
+/hop-transform-salesforce/src/test/java/org/apache/hop/pipeline/transforms/salesforce/SalesforceRecordValueTest.java
+	com.sforce.soap.partner.sobject.SObject
+/hop-transform-salesforce/src/test/java/org/apache/hop/pipeline/transforms/salesforce/SalesforceMetaTest.java
+	org.apache.hop.pipeline.transforms.salesforce.SalesforceTransformMeta
+/hop-transform-salesforce/src/test/java/org/apache/hop/pipeline/transforms/salesforceinput/SalesforceInputTest.java
+	org.apache.hop.pipeline.PipelineMeta
+	org.apache.hop.core.row.RowMeta
+	org.apache.hop.core.row.RowMeta
+/hop-transform-salesforce/src/test/java/org/apache/hop/pipeline/transforms/salesforceinsert/SalesForceDateFieldTest.java
+/hop-transform-salesforce/src/test/java/org/apache/hop/pipeline/transforms/salesforceinsert/SalesforceInsertTest.java
+/hop-transform-salesforce/src/test/java/org/apache/hop/pipeline/transforms/salesforceupdate/SalesforceUpdateTest.java
+/hop-transform-salesforce/src/test/java/org/apache/hop/pipeline/transforms/salesforceupsert/SalesforceUpsertTest.java
+/hop-transform-salesforce/src/test/java/org/apache/hop/pipeline/transforms/salesforceutils/SalesforceUtilsTest.java
+	org.apache.hop.core.logging.ILogChannel
+/hop-transform-selectvalues/src/test/java/org/apache/hop/pipeline/transforms/selectvalues/SelectValuesTest.java
+/hop-transform-selectvalues/src/test/java/org/apache/hop/pipeline/transforms/selectvalues/SelectValues_LocaleHandling_Test.java
+/hop-transform-selectvalues/src/test/java/org/apache/hop/pipeline/transforms/selectvalues/TransformMockUtil.java
+/hop-transform-setvalueconstant/src/test/java/org/apache/hop/pipeline/transforms/setvalueconstant/SetValueConstantTest.java
+/hop-transform-sort/src/test/java/org/apache/hop/pipeline/transforms/sort/SortRowsMetaTest.java
+/hop-transform-splitfieldtorows/src/test/java/org/apache/hop/pipeline/transforms/splitfieldtorows/SplitFieldToRowsTest.java
+/hop-transform-streamlookup/src/test/java/org/apache/hop/pipeline/transforms/streamlookup/StreamLookupTest.java
+	org.apache.hop.pipeline.transform.TransformMeta
+/hop-transform-streamlookup/src/test/java/org/apache/hop/pipeline/transforms/streamlookup/StreamLookupMetaTest.java
+	org.apache.hop.pipeline.transform.TransformMeta
+/hop-transform-stringoperations/src/test/java/org/apache/hop/pipeline/transforms/stringoperations/StringOperationsMetaTest.java
+	org.apache.hop.core.variables.IVariables
+/hop-transform-stringoperations/src/test/java/org/apache/hop/pipeline/transforms/stringoperations/StringOperationsTest.java
+	org.apache.hop.pipeline.transforms.stringoperations.StringOperationsMeta
+	org.apache.hop.pipeline.transforms.stringoperations.StringOperationsData
+/hop-transform-switchcase/src/test/java/org/apache/hop/pipeline/transforms/switchcase/SwitchCaseTest.java
+	org.apache.hop.core.row.IValueMeta
+	org.apache.hop.core.row.IRowMeta
+/hop-transform-synchronizeaftermerge/src/test/java/org/apache/hop/pipeline/transforms/synchronizeaftermerge/SynchronizeAfterMergeTest.java
+	org.apache.hop.pipeline.transform.TransformMeta
+	org.apache.hop.pipeline.transforms.synchronizeaftermerge.SynchronizeAfterMergeMeta
+	org.apache.hop.pipeline.transforms.synchronizeaftermerge.SynchronizeAfterMergeData
+	org.apache.hop.core.database.DatabaseMeta
+	org.apache.hop.core.database.NoneDatabaseMeta
+	org.apache.hop.pipeline.PipelineMeta
+	org.apache.hop.pipeline.transforms.synchronizeaftermerge.SynchronizeAfterMerge
+/hop-transform-systemdata/src/test/java/org/apache/hop/pipeline/transforms/systemdata/SystemDataTest.java
+	org.apache.hop.core.row.IRowMeta
+/hop-transform-tableoutput/src/test/java/org/apache/hop/pipeline/transforms/tableoutput/TableOutputMetaTest.java
+	org.apache.hop.core.variables.IVariables
+	java.util.List
+	org.apache.hop.core.database.DatabaseMeta
+	org.apache.hop.core.row.RowMeta
+	org.apache.hop.core.database.DatabaseMeta
+	org.apache.hop.core.database.IDatabase
+/hop-transform-tableoutput/src/test/java/org/apache/hop/pipeline/transforms/tableoutput/TableOutputTest.java
+	org.apache.hop.core.database.DatabaseMeta
+	org.apache.hop.pipeline.transforms.tableoutput.TableOutputMeta
+	org.apache.hop.pipeline.transform.TransformMeta
+	org.apache.hop.pipeline.transform.TransformPartitioningMeta
+	org.apache.hop.core.database.Database
+	java.sql.Connection
+	org.apache.hop.pipeline.transforms.tableoutput.TableOutputData
+	java.util.Map
+	java.util.Map
+	org.apache.hop.pipeline.PipelineMeta
+	org.apache.hop.core.row.IRowMeta
+	org.apache.hop.core.database.IDatabase
+/hop-transform-textfile/src/test/java/org/apache/hop/pipeline/transforms/csvinput/CsvInputDoubleLineEndTest.java
+/hop-transform-textfile/src/test/java/org/apache/hop/pipeline/transforms/csvinput/TransformMockUtil.java
+/hop-transform-textfile/src/test/java/org/apache/hop/pipeline/transforms/csvinput/CsvInputTest.java
+	org.apache.hop.core.logging.ILogChannel
+	org.apache.hop.pipeline.transforms.csvinput.CsvInputMeta
+/hop-transform-textfile/src/test/java/org/apache/hop/pipeline/transforms/csvinput/CsvInputUnicodeTest.java
+/hop-transform-textfile/src/test/java/org/apache/hop/pipeline/transforms/fileinput/text/TextFileInputMetaTest.java
+	org.apache.hop.pipeline.PipelineMeta
+	org.apache.hop.pipeline.transform.TransformMeta
+	org.apache.hop.core.variables.IVariables
+	org.apache.commons.vfs2.FileObject
+/hop-transform-textfile/src/test/java/org/apache/hop/pipeline/transforms/fileinput/text/PDI_2875_Test.java
+/hop-transform-textfile/src/test/java/org/apache/hop/pipeline/transforms/fileinput/text/TextFileInputTest.java
+	org.apache.hop.pipeline.transform.errorhandling.IFileErrorHandler
+	org.apache.hop.pipeline.transform.errorhandling.IFileErrorHandler
+	org.apache.hop.core.IRowSet
+	org.apache.hop.core.row.IRowMeta
+	org.apache.commons.vfs2.FileContent
+	java.io.InputStream
+	org.apache.commons.vfs2.FileObject
+	org.apache.hop.pipeline.transforms.file.IBaseFileInputTransformControl
+	org.apache.hop.core.logging.ILogChannel
+	org.apache.hop.pipeline.transform.errorhandling.IFileErrorHandler
+/hop-transform-textfile/src/test/java/org/apache/hop/pipeline/transforms/fileinput/text/TextFileInputUtilsTest.java
+	org.apache.hop.pipeline.transforms.fileinput.text.TextFileInputMeta
+	org.apache.hop.core.variables.IVariables
+	org.apache.hop.core.logging.ILogChannel
+	org.apache.hop.pipeline.transforms.fileinput.text.TextFileInputMeta
+	org.apache.hop.core.logging.ILogChannel
+	org.apache.hop.pipeline.transforms.fileinput.text.TextFileInputMeta
+	org.apache.hop.core.logging.ILogChannel
+	org.apache.hop.core.logging.ILogChannel
+	org.apache.hop.core.logging.ILogChannel
+	org.apache.hop.core.logging.ILogChannel
+	org.apache.hop.core.logging.ILogChannel
+	org.apache.hop.core.logging.ILogChannel
+	org.apache.hop.pipeline.transforms.fileinput.text.TextFileInputMeta
+	org.apache.hop.core.logging.ILogChannel
+	org.apache.hop.core.logging.ILogChannel
+	org.apache.hop.core.logging.ILogChannel
+/hop-transform-textfile/src/test/java/org/apache/hop/pipeline/transforms/fileinput/text/TransformMockUtil.java
+/hop-transform-textfile/src/test/java/org/apache/hop/pipeline/transforms/fileinput/text/PDI_11948_TransformsTestsParent.java
+	org.apache.hop.pipeline.Pipeline
+/hop-transform-textfile/src/test/java/org/apache/hop/pipeline/transforms/textfileinput/TransformMockUtil.java
+	org.apache.hop.pipeline.transform.TransformMeta
+	org.apache.hop.pipeline.PipelineMeta
+	org.apache.hop.pipeline.Pipeline
+/hop-transform-textfile/src/test/java/org/apache/hop/pipeline/transforms/textfileinput/PDI_2875_Test.java
+/hop-transform-textfile/src/test/java/org/apache/hop/pipeline/transforms/textfileinput/TextFileInputTest.java
+	org.apache.hop.pipeline.transform.errorhandling.IFileErrorHandler
+	org.apache.hop.pipeline.transform.errorhandling.IFileErrorHandler
+	org.apache.hop.pipeline.transform.errorhandling.IFileErrorHandler
+	org.apache.hop.core.logging.ILogChannel
+	org.apache.hop.pipeline.transforms.fileinput.TextFileLine
+	org.apache.hop.core.file.IInputFileMeta
+	org.apache.hop.core.row.IRowMeta
+	org.apache.hop.core.row.IValueMeta
+	org.apache.hop.core.row.IRowMeta
+	org.apache.hop.pipeline.transform.errorhandling.IFileErrorHandler
+/hop-transform-textfile/src/test/java/org/apache/hop/pipeline/transforms/textfileoutput/TextFileOutputTest.java
+	org.apache.hop.pipeline.transforms.textfileoutput.TextFileOutputData
+	org.apache.hop.pipeline.transforms.textfileoutput.TextFileOutputData
+	org.apache.hop.core.compress.CompressionOutputStream
+	org.apache.hop.pipeline.transforms.textfileoutput.TextFileField
+	org.apache.hop.core.row.IRowMeta
+	org.apache.hop.pipeline.transforms.textfileoutput.TextFileField
+	org.apache.hop.core.row.IRowMeta
+	org.apache.hop.core.row.IValueMeta
+	org.apache.hop.pipeline.transforms.textfileoutput.TextFileField
+	org.apache.hop.core.row.IRowMeta
+	org.apache.hop.core.row.IValueMeta
+	java.io.BufferedOutputStream
+/hop-transform-update/src/test/java/org/apache/hop/pipeline/transforms/update/PDI_11152_Test.java
+	org.apache.hop.core.database.Database
+	org.apache.hop.core.row.RowMeta
+/hop-transform-update/src/test/java/org/apache/hop/pipeline/transforms/update/UpdateMetaTest.java
+/hop-transform-webservices/src/test/java/org/apache/hop/pipeline/transforms/webservices/WebServiceTest.java
+	org.apache.http.client.methods.HttpPost
+/hop-transform-webservices/src/test/java/org/apache/hop/pipeline/transforms/webservices/WebServiceMetaTest.java
+	org.apache.hop.core.database.DatabaseMeta
+	org.apache.hop.metadata.api.IHopMetadataProvider
+	org.apache.hop.core.row.IRowMeta
+	org.apache.hop.core.row.IRowMeta
+	org.apache.hop.pipeline.transform.TransformMeta
+	org.apache.hop.metadata.api.IHopMetadataProvider
+	org.apache.hop.pipeline.PipelineMeta
+	org.apache.hop.pipeline.transform.TransformMeta
+	org.apache.hop.core.row.IRowMeta
+	org.apache.hop.core.row.IRowMeta
+	org.apache.hop.metadata.api.IHopMetadataProvider
+	org.apache.hop.core.database.DatabaseMeta
+	org.apache.hop.metadata.api.IHopMetadataProvider
+/hop-transform-xml/src/test/java/org/apache/hop/pipeline/transforms/xml/addxml/AddXmlTest.java
+	org.apache.hop.pipeline.transforms.xml.addxml.XmlField
+	org.apache.hop.core.row.IRowMeta
+/hop-transform-xml/src/test/java/org/apache/hop/pipeline/transforms/xml/xmlinputstream/XmlInputStreamTest.java
+/hop-transform-xml/src/test/java/org/apache/hop/pipeline/transforms/xml/xmljoin/XmlJoinOmitNullValuesTest.java
+	org.apache.hop.pipeline.transform.ITransformIOMeta
+	org.apache.hop.pipeline.transform.errorhandling.IStream
+	org.apache.hop.pipeline.transform.errorhandling.IStream
+	java.util.List
+	org.apache.hop.core.row.IRowMeta
+	org.apache.hop.core.row.IRowMeta
+/hop-transform-xml/src/test/java/org/apache/hop/pipeline/transforms/xml/xmljoin/XmlJoinMetaGetFieldsTest.java
+	org.apache.hop.pipeline.PipelineMeta
+/hop-transform-xml/src/test/java/org/apache/hop/pipeline/transforms/xml/xmloutput/XmlOutputMetaTest.java
+	org.apache.hop.core.database.DatabaseMeta
+	org.apache.hop.metadata.api.IHopMetadataProvider
+	org.apache.hop.core.database.DatabaseMeta
+	org.apache.hop.metadata.api.IHopMetadataProvider
+	org.apache.hop.core.row.IRowMeta
+	org.apache.hop.core.row.IRowMeta
+	org.apache.hop.pipeline.transform.TransformMeta
+	org.apache.hop.metadata.api.IHopMetadataProvider
+	org.apache.hop.core.row.IValueMeta
+	org.apache.hop.core.database.DatabaseMeta
+	org.apache.hop.metadata.api.IHopMetadataProvider
+	org.w3c.dom.Node
+	org.apache.hop.resource.IResourceNaming
+	org.apache.hop.pipeline.PipelineMeta
+	org.apache.hop.pipeline.transform.TransformMeta
+	org.apache.hop.core.row.IRowMeta
+	org.apache.hop.metadata.api.IHopMetadataProvider
+	org.apache.hop.core.row.IRowMeta
+/hop-transform-xml/src/test/java/org/apache/hop/pipeline/transforms/xml/xmloutput/XmlOutputTest.java
+	org.apache.hop.pipeline.Pipeline
+	org.apache.hop.pipeline.transform.TransformMeta
+	javax.xml.stream.XMLStreamWriter
+	javax.xml.stream.XMLStreamWriter
+/hop-transform-zipfile/src/test/java/org/apache/hop/pipeline/transforms/zipfile/ZipFileMetaTest.java
+	org.apache.hop.core.database.DatabaseMeta
+	org.apache.hop.metadata.api.IHopMetadataProvider
+	org.apache.hop.pipeline.transform.TransformMeta
+	org.apache.hop.pipeline.PipelineMeta
+	org.apache.hop.pipeline.PipelineMeta
+	org.apache.hop.pipeline.transform.TransformMeta
+	org.apache.hop.core.row.IRowMeta
+	org.apache.hop.metadata.api.IHopMetadataProvider
+	org.apache.hop.core.row.IRowMeta
+	org.apache.hop.pipeline.transform.TransformMeta
+	org.apache.hop.pipeline.transforms.zipfile.ZipFileData
+	org.apache.hop.pipeline.PipelineMeta
+/hop-transforms-json/src/test/java/org/apache/hop/pipeline/transforms/jsoninput/JsonInputMetaTest.java
+	org.apache.hop.core.row.IRowMeta
+	org.apache.hop.core.row.IRowMeta
+	org.apache.hop.pipeline.transform.TransformMeta
+	org.apache.hop.core.variables.IVariables
+	org.apache.hop.metadata.api.IHopMetadataProvider
+	org.apache.hop.pipeline.transforms.jsoninput.JsonInputMeta.InputFiles
+	org.apache.hop.pipeline.transforms.jsoninput.JsonInputField
+/hop-transforms-json/src/test/java/org/apache/hop/pipeline/transforms/jsoninput/JsonInputTest.java
+/hop-transforms-json/src/test/java/org/apache/hop/pipeline/transforms/jsoninput/reader/FastJsonReaderTest.java
+	org.apache.hop.core.logging.ILogChannel
+/hop-transforms-json/src/test/java/org/apache/hop/pipeline/transforms/jsonoutput/JsonOutputTest.java
+	java.io.Writer
+/hop-transforms-kafka/src/test/java/org/apache/hop/pipeline/transforms/kafka/consumer/KafkaConsumerFieldTest.java
+	org.apache.hop.core.row.IValueMeta
+/hop-ui/src/test/java/org/apache/hop/ui/core/dialog/EditRowsDialog_EmptyStringVsNull_Test.java
+	org.apache.hop.ui.core.dialog.EditRowsDialog
+	org.eclipse.swt.widgets.TableItem
+/hop-ui/src/test/java/org/apache/hop/ui/core/dialog/PreviewRowsDialogTest.java
+	org.apache.hop.core.row.IRowMeta
+	org.apache.hop.core.row.IValueMeta
+	org.eclipse.swt.widgets.Shell
+	org.apache.hop.core.variables.IVariables
+	org.eclipse.swt.widgets.TableItem
+/hop-ui/src/test/java/org/apache/hop/ui/pipeline/transform/common/CsvInputAwareImportProgressDialogTest.java
+	org.apache.hop.core.row.RowMeta
+/hop-ui/src/test/java/org/apache/hop/ui/util/EnvironmentUtilsTest.java
+	java.lang.Process
+	java.io.BufferedReader

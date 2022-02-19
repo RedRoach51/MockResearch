@@ -1,8 +1,8 @@
 method, origin, count
-mock,org.mockito.Mockito,8
-thenReturn,org.mockito.stubbing.OngoingStubbing<java.lang.Integer>,8
-when,org.mockito.Mockito,8
+mock,org.mockito.Mockito,4
+thenReturn,org.mockito.stubbing.OngoingStubbing<java.lang.Integer>,4
+when,org.mockito.Mockito,4
 
-MockedObjects: ,8
+MockedObjects: ,4
 
-# of Mocked objects each file:,2|2|2|2|
+# of Mocked objects each file:,2|2|

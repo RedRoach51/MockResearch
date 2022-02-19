@@ -1,13 +1,17 @@
 Inside classes: 
  
 org.apache.iotdb.session.pool.SessionPool
+org.apache.iotdb.jdbc.IoTDBConnection
+org.apache.iotdb.jdbc.IoTDBDatabaseMetadata
 org.apache.iotdb.db.conf.IoTDBDescriptor
 org.apache.iotdb.cluster.config.ClusterDescriptor
 org.apache.iotdb.db.query.reader.series.SeriesRawDataPointReader
 org.apache.iotdb.cluster.log.manage.PartitionedSnapshotLogManager
-org.apache.iotdb.db.qp.executor.IPlanExecutor
+org.apache.iotdb.jdbc.IoTDBStatement
  
  
  
 Outside classes: 
  
+java.sql.Statement
+java.sql.DatabaseMetaData

@@ -1,27 +1,5 @@
-	Method name: spy
-	Class origin: org.mockito.Mockito
-	Count: 1
- 
-	Method name: verify
-	Class origin: org.mockito.Mockito
-	Count: 2
- 
-	Method name: never
-	Class origin: org.mockito.Mockito
-	Count: 1
- 
-	Method name: spy
-	Class origin: org.mockito.Mockito
-	Count: 1
- 
-	Method name: verify
-	Class origin: org.mockito.Mockito
-	Count: 2
- 
-	Method name: never
-	Class origin: org.mockito.Mockito
-	Count: 1
- 
+/commons-vfs2/src/test/java/org/apache/commons/vfs2/impl/DefaultFileSystemManagerTest.java
+Methods Invoked: 
 	Method name: spy
 	Class origin: org.mockito.Mockito
 	Count: 1

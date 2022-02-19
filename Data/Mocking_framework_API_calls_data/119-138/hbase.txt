@@ -1,3 +1,5 @@
+/hbase-asyncfs/src/test/java/org/apache/hadoop/hbase/util/TestRecoverLeaseFSUtils.java
+Methods Invoked: 
 	Method name: mock
 	Class origin: org.mockito.Mockito
 	Count: 4
@@ -10,6 +12,8 @@
 	Class origin: org.mockito.Mockito
 	Count: 5
  
+/hbase-balancer/src/test/java/org/apache/hadoop/hbase/favored/TestFavoredNodeAssignmentHelper.java
+Methods Invoked: 
 	Method name: mock
 	Class origin: org.mockito.Mockito
 	Count: 1
@@ -30,18 +34,24 @@
 	Class origin: org.mockito.invocation.InvocationOnMock
 	Count: 1
  
+/hbase-balancer/src/test/java/org/apache/hadoop/hbase/master/balancer/TestRegionHDFSBlockLocationFinder.java
+Methods Invoked: 
 	Method name: mock
 	Class origin: org.mockito.Mockito
-	Count: 2
+	Count: 5
  
 	Method name: when
 	Class origin: org.mockito.Mockito
-	Count: 2
+	Count: 5
  
+/hbase-balancer/src/test/java/org/apache/hadoop/hbase/master/balancer/TestStochasticLoadBalancer.java
+Methods Invoked: 
 	Method name: mock
 	Class origin: org.mockito.Mockito
 	Count: 9
  
+/hbase-balancer/src/test/java/org/apache/hadoop/hbase/master/balancer/TestBaseLoadBalancer.java
+Methods Invoked: 
 	Method name: mock
 	Class origin: org.mockito.Mockito
 	Count: 2
@@ -54,6 +64,8 @@
 	Class origin: org.mockito.Mockito
 	Count: 7
  
+/hbase-client/src/test/java/org/apache/hadoop/hbase/client/TestAsyncTableTracing.java
+Methods Invoked: 
 	Method name: when
 	Class origin: org.mockito.stubbing.Stubber
 	Count: 6
@@ -66,6 +78,8 @@
 	Class origin: org.mockito.ArgumentMatchers
 	Count: 14
  
+/hbase-client/src/test/java/org/apache/hadoop/hbase/client/TestAsyncTableRpcPriority.java
+Methods Invoked: 
 	Method name: when
 	Class origin: org.mockito.stubbing.Stubber
 	Count: 6
@@ -78,6 +92,8 @@
 	Class origin: org.mockito.ArgumentMatchers
 	Count: 53
  
+/hbase-client/src/test/java/org/apache/hadoop/hbase/client/TestAsyncAdminRpcPriority.java
+Methods Invoked: 
 	Method name: when
 	Class origin: org.mockito.stubbing.Stubber
 	Count: 5
@@ -90,18 +106,26 @@
 	Class origin: org.mockito.ArgumentMatchers
 	Count: 16
  
+/hbase-client/src/test/java/org/apache/hadoop/hbase/client/TestImmutableScan.java
+Methods Invoked: 
 	Method name: mock
 	Class origin: org.mockito.Mockito
 	Count: 1
  
+/hbase-client/src/test/java/org/apache/hadoop/hbase/client/TestRetriesExhaustedWithDetailsException.java
+Methods Invoked: 
 	Method name: mock
 	Class origin: org.mockito.Mockito
 	Count: 1
  
+/hbase-client/src/test/java/org/apache/hadoop/hbase/client/TestClientExponentialBackoff.java
+Methods Invoked: 
 	Method name: mock
 	Class origin: org.mockito.Mockito
 	Count: 1
  
+/hbase-client/src/test/java/org/apache/hadoop/hbase/ipc/TestFailedServersLog.java
+Methods Invoked: 
 	Method name: mock
 	Class origin: org.mockito.Mockito
 	Count: 1
@@ -118,10 +142,14 @@
 	Class origin: org.mockito.stubbing.OngoingStubbing<java.lang.Boolean>
 	Count: 1
  
+/hbase-client/src/test/java/org/apache/hadoop/hbase/security/TestHBaseSaslRpcClient.java
+Methods Invoked: 
 	Method name: mock
 	Class origin: org.mockito.Mockito
 	Count: 22
  
+/hbase-common/src/test/java/org/apache/hadoop/hbase/TestChoreService.java
+Methods Invoked: 
 	Method name: spy
 	Class origin: org.mockito.Mockito
 	Count: 2
@@ -134,6 +162,8 @@
 	Class origin: org.mockito.Mockito
 	Count: 2
  
+/hbase-common/src/test/java/org/apache/hadoop/hbase/TestCellUtil.java
+Methods Invoked: 
 	Method name: mock
 	Class origin: org.mockito.Mockito
 	Count: 1
@@ -146,6 +176,8 @@
 	Class origin: org.mockito.stubbing.OngoingStubbing<java.lang.Byte>
 	Count: 3
  
+/hbase-common/src/test/java/org/apache/hadoop/hbase/io/encoding/TestEncodedDataBlock.java
+Methods Invoked: 
 	Method name: mock
 	Class origin: org.mockito.Mockito
 	Count: 1
@@ -162,6 +194,8 @@
 	Class origin: org.mockito.ArgumentMatchers
 	Count: 4
  
+/hbase-common/src/test/java/org/apache/hadoop/hbase/logging/TestJul2Slf4j.java
+Methods Invoked: 
 	Method name: mock
 	Class origin: org.mockito.Mockito
 	Count: 1
@@ -178,6 +212,8 @@
 	Class origin: org.mockito.stubbing.OngoingStubbing<java.lang.Boolean>
 	Count: 1
  
+/hbase-common/src/test/java/org/apache/hadoop/hbase/util/TestEnvironmentEdgeManager.java
+Methods Invoked: 
 	Method name: mock
 	Class origin: org.mockito.Mockito
 	Count: 1
@@ -194,6 +230,8 @@
 	Class origin: org.mockito.Mockito
 	Count: 1
  
+/hbase-examples/src/test/java/org/apache/hadoop/hbase/mapreduce/TestMapReduceExamples.java
+Methods Invoked: 
 	Method name: mock
 	Class origin: org.mockito.Mockito
 	Count: 3
@@ -210,6 +248,8 @@
 	Class origin: org.mockito.invocation.InvocationOnMock
 	Count: 4
  
+/hbase-hbtop/src/test/java/org/apache/hadoop/hbase/hbtop/screen/field/TestFieldScreenPresenter.java
+Methods Invoked: 
 	Method name: verify
 	Class origin: org.mockito.Mockito
 	Count: 2
@@ -218,6 +258,8 @@
 	Class origin: org.mockito.ArgumentMatchers
 	Count: 14
  
+/hbase-hbtop/src/test/java/org/apache/hadoop/hbase/hbtop/screen/help/TestHelpScreenPresenter.java
+Methods Invoked: 
 	Method name: verify
 	Class origin: org.mockito.Mockito
 	Count: 1
@@ -230,6 +272,8 @@
 	Class origin: org.mockito.ArgumentMatchers
 	Count: 1
  
+/hbase-hbtop/src/test/java/org/apache/hadoop/hbase/hbtop/screen/mode/TestModeScreenPresenter.java
+Methods Invoked: 
 	Method name: verify
 	Class origin: org.mockito.Mockito
 	Count: 8
@@ -238,6 +282,8 @@
 	Class origin: org.mockito.ArgumentMatchers
 	Count: 11
  
+/hbase-hbtop/src/test/java/org/apache/hadoop/hbase/hbtop/screen/top/TestFilterDisplayModeScreenPresenter.java
+Methods Invoked: 
 	Method name: verify
 	Class origin: org.mockito.Mockito
 	Count: 1
@@ -246,6 +292,8 @@
 	Class origin: org.mockito.ArgumentMatchers
 	Count: 1
  
+/hbase-hbtop/src/test/java/org/apache/hadoop/hbase/hbtop/screen/top/TestInputModeScreenPresenter.java
+Methods Invoked: 
 	Method name: verify
 	Class origin: org.mockito.Mockito
 	Count: 2
@@ -254,6 +302,8 @@
 	Class origin: org.mockito.ArgumentMatchers
 	Count: 72
  
+/hbase-hbtop/src/test/java/org/apache/hadoop/hbase/hbtop/screen/top/TestMessageModeScreenPresenter.java
+Methods Invoked: 
 	Method name: verify
 	Class origin: org.mockito.Mockito
 	Count: 1
@@ -262,10 +312,14 @@
 	Class origin: org.mockito.ArgumentMatchers
 	Count: 1
  
+/hbase-hbtop/src/test/java/org/apache/hadoop/hbase/hbtop/screen/top/TestTopScreenModel.java
+Methods Invoked: 
 	Method name: when
 	Class origin: org.mockito.Mockito
 	Count: 1
  
+/hbase-hbtop/src/test/java/org/apache/hadoop/hbase/hbtop/screen/top/TestTopScreenPresenter.java
+Methods Invoked: 
 	Method name: when
 	Class origin: org.mockito.Mockito
 	Count: 6
@@ -274,6 +328,8 @@
 	Class origin: org.mockito.stubbing.OngoingStubbing<java.lang.Integer>
 	Count: 1
  
+/hbase-http/src/test/java/org/apache/hadoop/hbase/http/TestHttpServer.java
+Methods Invoked: 
 	Method name: mock
 	Class origin: org.mockito.Mockito
 	Count: 14
@@ -286,6 +342,8 @@
 	Class origin: org.mockito.Mockito
 	Count: 2
  
+/hbase-http/src/test/java/org/apache/hadoop/hbase/http/TestHtmlQuoting.java
+Methods Invoked: 
 	Method name: mock
 	Class origin: org.mockito.Mockito
 	Count: 1
@@ -298,6 +356,8 @@
 	Class origin: org.mockito.Mockito
 	Count: 4
  
+/hbase-http/src/test/java/org/apache/hadoop/hbase/http/lib/TestStaticUserWebFilter.java
+Methods Invoked: 
 	Method name: mock
 	Class origin: org.mockito.Mockito
 	Count: 4
@@ -314,6 +374,8 @@
 	Class origin: org.mockito.ArgumentCaptor
 	Count: 1
  
+/hbase-http/src/test/java/org/apache/hadoop/hbase/util/TestJSONBean.java
+Methods Invoked: 
 	Method name: mock
 	Class origin: org.mockito.Mockito
 	Count: 2
@@ -330,6 +392,8 @@
 	Class origin: org.mockito.ArgumentMatchers
 	Count: 8
  
+/hbase-it/src/test/java/org/apache/hadoop/hbase/chaos/actions/TestChangeSplitPolicyAction.java
+Methods Invoked: 
 	Method name: mock
 	Class origin: org.mockito.Mockito
 	Count: 1
@@ -338,6 +402,8 @@
 	Class origin: org.mockito.Mockito
 	Count: 2
  
+/hbase-mapreduce/src/test/java/org/apache/hadoop/hbase/mapred/TestTableInputFormat.java
+Methods Invoked: 
 	Method name: mock
 	Class origin: org.mockito.Mockito
 	Count: 4
@@ -350,22 +416,32 @@
 	Class origin: org.mockito.Mockito
 	Count: 2
  
+/hbase-mapreduce/src/test/java/org/apache/hadoop/hbase/mapred/TestGroupingTableMap.java
+Methods Invoked: 
 	Method name: mock
 	Class origin: org.mockito.Mockito
 	Count: 8
  
+/hbase-mapreduce/src/test/java/org/apache/hadoop/hbase/mapred/TestRowCounter.java
+Methods Invoked: 
 	Method name: mock
 	Class origin: org.mockito.Mockito
 	Count: 4
  
+/hbase-mapreduce/src/test/java/org/apache/hadoop/hbase/mapred/TestTableSnapshotInputFormat.java
+Methods Invoked: 
 	Method name: mock
 	Class origin: org.mockito.Mockito
 	Count: 2
  
+/hbase-mapreduce/src/test/java/org/apache/hadoop/hbase/mapred/TestIdentityTableMap.java
+Methods Invoked: 
 	Method name: mock
 	Class origin: org.mockito.Mockito
 	Count: 4
  
+/hbase-mapreduce/src/test/java/org/apache/hadoop/hbase/mapred/TestDriver.java
+Methods Invoked: 
 	Method name: mock
 	Class origin: org.mockito.Mockito
 	Count: 1
@@ -378,6 +454,8 @@
 	Class origin: org.mockito.ArgumentMatchers
 	Count: 1
  
+/hbase-mapreduce/src/test/java/org/apache/hadoop/hbase/mapreduce/TestMultiTableInputFormatBase.java
+Methods Invoked: 
 	Method name: mock
 	Class origin: org.mockito.Mockito
 	Count: 5
@@ -386,6 +464,8 @@
 	Class origin: org.mockito.Mockito
 	Count: 7
  
+/hbase-mapreduce/src/test/java/org/apache/hadoop/hbase/mapreduce/TestTableSnapshotInputFormat.java
+Methods Invoked: 
 	Method name: mock
 	Class origin: org.mockito.Mockito
 	Count: 1
@@ -394,6 +474,8 @@
 	Class origin: org.mockito.Mockito
 	Count: 1
  
+/hbase-mapreduce/src/test/java/org/apache/hadoop/hbase/mapreduce/TestImportExport.java
+Methods Invoked: 
 	Method name: mock
 	Class origin: org.mockito.Mockito
 	Count: 2
@@ -414,6 +496,8 @@
 	Class origin: org.mockito.invocation.InvocationOnMock
 	Count: 2
  
+/hbase-mapreduce/src/test/java/org/apache/hadoop/hbase/mapreduce/TestRegionSizeCalculator.java
+Methods Invoked: 
 	Method name: mock
 	Class origin: org.mockito.Mockito
 	Count: 4
@@ -422,6 +506,8 @@
 	Class origin: org.mockito.Mockito
 	Count: 8
  
+/hbase-mapreduce/src/test/java/org/apache/hadoop/hbase/mapreduce/TestWALInputFormat.java
+Methods Invoked: 
 	Method name: mock
 	Class origin: org.mockito.Mockito
 	Count: 1
@@ -430,10 +516,14 @@
 	Class origin: org.mockito.Mockito
 	Count: 4
  
+/hbase-mapreduce/src/test/java/org/apache/hadoop/hbase/mapreduce/TestGroupingTableMapper.java
+Methods Invoked: 
 	Method name: mock
 	Class origin: org.mockito.Mockito
 	Count: 2
  
+/hbase-mapreduce/src/test/java/org/apache/hadoop/hbase/mapreduce/TestRoundRobinTableInputFormat.java
+Methods Invoked: 
 	Method name: mock
 	Class origin: org.mockito.Mockito
 	Count: 1
@@ -442,6 +532,8 @@
 	Class origin: org.mockito.Mockito
 	Count: 1
  
+/hbase-mapreduce/src/test/java/org/apache/hadoop/hbase/mapreduce/TestWALPlayer.java
+Methods Invoked: 
 	Method name: mock
 	Class origin: org.mockito.Mockito
 	Count: 3
@@ -450,6 +542,8 @@
 	Class origin: org.mockito.Mockito
 	Count: 3
  
+/hbase-mapreduce/src/test/java/org/apache/hadoop/hbase/mapreduce/TestTableInputFormat.java
+Methods Invoked: 
 	Method name: mock
 	Class origin: org.mockito.Mockito
 	Count: 4
@@ -462,10 +556,14 @@
 	Class origin: org.mockito.Mockito
 	Count: 2
  
+/hbase-mapreduce/src/test/java/org/apache/hadoop/hbase/mapreduce/TestHFileOutputFormat2.java
+Methods Invoked: 
 	Method name: mock
 	Class origin: org.mockito.Mockito
 	Count: 9
  
+/hbase-mapreduce/src/test/java/org/apache/hadoop/hbase/mapreduce/TestTableInputFormatBase.java
+Methods Invoked: 
 	Method name: mock
 	Class origin: org.mockito.Mockito
 	Count: 5
@@ -474,6 +572,8 @@
 	Class origin: org.mockito.Mockito
 	Count: 5
  
+/hbase-mapreduce/src/test/java/org/apache/hadoop/hbase/mapreduce/TestMultiTableSnapshotInputFormatImpl.java
+Methods Invoked: 
 	Method name: spy
 	Class origin: org.mockito.Mockito
 	Count: 1
@@ -490,6 +590,8 @@
 	Class origin: org.mockito.ArgumentMatchers
 	Count: 6
  
+/hbase-metrics/src/test/java/org/apache/hadoop/hbase/metrics/impl/TestDropwizardMeter.java
+Methods Invoked: 
 	Method name: mock
 	Class origin: org.mockito.Mockito
 	Count: 1
@@ -502,10 +604,14 @@
 	Class origin: org.mockito.Mockito
 	Count: 1
  
+/hbase-metrics-api/src/test/java/org/apache/hadoop/hbase/metrics/TestMetricRegistriesLoader.java
+Methods Invoked: 
 	Method name: mock
 	Class origin: org.mockito.Mockito
 	Count: 4
  
+/hbase-procedure/src/test/java/org/apache/hadoop/hbase/procedure2/store/wal/TestWALProcedureStore.java
+Methods Invoked: 
 	Method name: spy
 	Class origin: org.mockito.Mockito
 	Count: 1
@@ -526,6 +632,8 @@
 	Class origin: org.mockito.Mockito
 	Count: 2
  
+/hbase-rest/src/test/java/org/apache/hadoop/hbase/rest/TestGZIPResponseWrapper.java
+Methods Invoked: 
 	Method name: mock
 	Class origin: org.mockito.Mockito
 	Count: 3
@@ -534,6 +642,8 @@
 	Class origin: org.mockito.Mockito
 	Count: 14
  
+/hbase-rest/src/test/java/org/apache/hadoop/hbase/rest/client/TestRemoteAdminRetries.java
+Methods Invoked: 
 	Method name: mock
 	Class origin: org.mockito.Mockito
 	Count: 1
@@ -546,6 +656,8 @@
 	Class origin: org.mockito.ArgumentMatchers
 	Count: 12
  
+/hbase-rest/src/test/java/org/apache/hadoop/hbase/rest/client/TestRemoteHTableRetries.java
+Methods Invoked: 
 	Method name: mock
 	Class origin: org.mockito.Mockito
 	Count: 1
@@ -558,6 +670,8 @@
 	Class origin: org.mockito.ArgumentMatchers
 	Count: 18
  
+/hbase-rest/src/test/java/org/apache/hadoop/hbase/rest/client/TestXmlParsing.java
+Methods Invoked: 
 	Method name: mock
 	Class origin: org.mockito.Mockito
 	Count: 2
@@ -566,6 +680,8 @@
 	Class origin: org.mockito.Mockito
 	Count: 2
  
+/hbase-server/src/test/java/org/apache/hadoop/hbase/TestMetaTableAccessor.java
+Methods Invoked: 
 	Method name: mock
 	Class origin: org.mockito.Mockito
 	Count: 1
@@ -590,6 +706,8 @@
 	Class origin: org.mockito.Mockito
 	Count: 4
  
+/hbase-server/src/test/java/org/apache/hadoop/hbase/TestMetaTableLocator.java
+Methods Invoked: 
 	Method name: when
 	Class origin: org.mockito.Mockito
 	Count: 1
@@ -598,6 +716,8 @@
 	Class origin: org.mockito.ArgumentMatchers
 	Count: 2
  
+/hbase-server/src/test/java/org/apache/hadoop/hbase/TestHBaseTestingUtil.java
+Methods Invoked: 
 	Method name: mock
 	Class origin: org.mockito.Mockito
 	Count: 2
@@ -614,6 +734,8 @@
 	Class origin: org.mockito.ArgumentMatchers
 	Count: 3
  
+/hbase-server/src/test/java/org/apache/hadoop/hbase/TestExecutorStatusChore.java
+Methods Invoked: 
 	Method name: mock
 	Class origin: org.mockito.Mockito
 	Count: 1
@@ -622,6 +744,8 @@
 	Class origin: org.mockito.Mockito
 	Count: 1
  
+/hbase-server/src/test/java/org/apache/hadoop/hbase/backup/TestHFileArchiving.java
+Methods Invoked: 
 	Method name: mock
 	Class origin: org.mockito.Mockito
 	Count: 3
@@ -638,6 +762,8 @@
 	Class origin: org.mockito.stubbing.OngoingStubbing<java.lang.Boolean>
 	Count: 3
  
+/hbase-server/src/test/java/org/apache/hadoop/hbase/backup/example/TestZooKeeperTableArchiveClient.java
+Methods Invoked: 
 	Method name: mock
 	Class origin: org.mockito.Mockito
 	Count: 1
@@ -650,6 +776,8 @@
 	Class origin: org.mockito.Mockito
 	Count: 3
  
+/hbase-server/src/test/java/org/apache/hadoop/hbase/client/TestIllegalTableDescriptor.java
+Methods Invoked: 
 	Method name: mock
 	Class origin: org.mockito.Mockito
 	Count: 1
@@ -662,6 +790,22 @@
 	Class origin: org.mockito.ArgumentMatchers
 	Count: 1
  
+/hbase-server/src/test/java/org/apache/hadoop/hbase/client/TestFallbackToUseReplay.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 2
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+	Method name: any
+	Class origin: org.mockito.ArgumentMatchers
+	Count: 9
+ 
+/hbase-server/src/test/java/org/apache/hadoop/hbase/client/TestMalformedCellFromClient.java
+Methods Invoked: 
 	Method name: mock
 	Class origin: org.mockito.Mockito
 	Count: 1
@@ -670,6 +814,8 @@
 	Class origin: org.mockito.Mockito
 	Count: 1
  
+/hbase-server/src/test/java/org/apache/hadoop/hbase/client/HConnectionTestingUtility.java
+Methods Invoked: 
 	Method name: mock
 	Class origin: org.mockito.Mockito
 	Count: 3
@@ -678,6 +824,8 @@
 	Class origin: org.mockito.Mockito
 	Count: 3
  
+/hbase-server/src/test/java/org/apache/hadoop/hbase/client/locking/TestEntityLocks.java
+Methods Invoked: 
 	Method name: when
 	Class origin: org.mockito.Mockito
 	Count: 6
@@ -686,10 +834,14 @@
 	Class origin: org.mockito.ArgumentMatchers
 	Count: 16
  
+/hbase-server/src/test/java/org/apache/hadoop/hbase/coprocessor/TestCoprocessorInterface.java
+Methods Invoked: 
 	Method name: mock
 	Class origin: org.mockito.Mockito
 	Count: 2
  
+/hbase-server/src/test/java/org/apache/hadoop/hbase/coprocessor/TestCoprocessorConfiguration.java
+Methods Invoked: 
 	Method name: mock
 	Class origin: org.mockito.Mockito
 	Count: 10
@@ -698,6 +850,8 @@
 	Class origin: org.mockito.Mockito
 	Count: 8
  
+/hbase-server/src/test/java/org/apache/hadoop/hbase/coprocessor/TestRegionCoprocessorHost.java
+Methods Invoked: 
 	Method name: mock
 	Class origin: org.mockito.Mockito
 	Count: 10
@@ -706,14 +860,20 @@
 	Class origin: org.mockito.Mockito
 	Count: 6
  
+/hbase-server/src/test/java/org/apache/hadoop/hbase/coprocessor/TestRegionObserverStacking.java
+Methods Invoked: 
 	Method name: mock
 	Class origin: org.mockito.Mockito
 	Count: 1
  
+/hbase-server/src/test/java/org/apache/hadoop/hbase/coprocessor/TestRegionObserverInterface.java
+Methods Invoked: 
 	Method name: mock
 	Class origin: org.mockito.Mockito
 	Count: 1
  
+/hbase-server/src/test/java/org/apache/hadoop/hbase/coprocessor/TestRegionObserverPreFlushAndPreCompact.java
+Methods Invoked: 
 	Method name: mock
 	Class origin: org.mockito.Mockito
 	Count: 2
@@ -722,10 +882,14 @@
 	Class origin: org.mockito.Mockito
 	Count: 2
  
+/hbase-server/src/test/java/org/apache/hadoop/hbase/errorhandling/TestForeignExceptionDispatcher.java
+Methods Invoked: 
 	Method name: mock
 	Class origin: org.mockito.Mockito
 	Count: 6
  
+/hbase-server/src/test/java/org/apache/hadoop/hbase/errorhandling/TestTimeoutExceptionInjector.java
+Methods Invoked: 
 	Method name: mock
 	Class origin: org.mockito.Mockito
 	Count: 4
@@ -742,6 +906,8 @@
 	Class origin: org.mockito.ArgumentMatchers
 	Count: 3
  
+/hbase-server/src/test/java/org/apache/hadoop/hbase/executor/TestExecutorService.java
+Methods Invoked: 
 	Method name: mock
 	Class origin: org.mockito.Mockito
 	Count: 3
@@ -750,6 +916,8 @@
 	Class origin: org.mockito.Mockito
 	Count: 3
  
+/hbase-server/src/test/java/org/apache/hadoop/hbase/filter/TestFilterList.java
+Methods Invoked: 
 	Method name: mock
 	Class origin: org.mockito.Mockito
 	Count: 6
@@ -758,6 +926,8 @@
 	Class origin: org.mockito.Mockito
 	Count: 13
  
+/hbase-server/src/test/java/org/apache/hadoop/hbase/io/hfile/TestBlockIOUtils.java
+Methods Invoked: 
 	Method name: mock
 	Class origin: org.mockito.Mockito
 	Count: 8
@@ -774,14 +944,20 @@
 	Class origin: org.mockito.stubbing.OngoingStubbing<java.lang.Boolean>
 	Count: 8
  
+/hbase-server/src/test/java/org/apache/hadoop/hbase/io/hfile/TestLruCachedBlock.java
+Methods Invoked: 
 	Method name: mock
 	Class origin: org.mockito.Mockito
 	Count: 2
  
+/hbase-server/src/test/java/org/apache/hadoop/hbase/io/hfile/TestHFile.java
+Methods Invoked: 
 	Method name: mock
 	Class origin: org.mockito.Mockito
 	Count: 1
  
+/hbase-server/src/test/java/org/apache/hadoop/hbase/io/hfile/TestHFileBlock.java
+Methods Invoked: 
 	Method name: mock
 	Class origin: org.mockito.Mockito
 	Count: 1
@@ -790,6 +966,8 @@
 	Class origin: org.mockito.Mockito
 	Count: 1
  
+/hbase-server/src/test/java/org/apache/hadoop/hbase/io/hfile/bucket/TestBucketCache.java
+Methods Invoked: 
 	Method name: mock
 	Class origin: org.mockito.Mockito
 	Count: 1
@@ -818,6 +996,8 @@
 	Class origin: org.mockito.ArgumentMatchers
 	Count: 2
  
+/hbase-server/src/test/java/org/apache/hadoop/hbase/io/hfile/bucket/TestFileIOEngine.java
+Methods Invoked: 
 	Method name: mock
 	Class origin: org.mockito.Mockito
 	Count: 1
@@ -834,14 +1014,20 @@
 	Class origin: org.mockito.invocation.InvocationOnMock
 	Count: 1
  
+/hbase-server/src/test/java/org/apache/hadoop/hbase/io/hfile/bucket/TestBucketWriterThread.java
+Methods Invoked: 
 	Method name: mock
 	Class origin: org.mockito.Mockito
 	Count: 3
  
+/hbase-server/src/test/java/org/apache/hadoop/hbase/ipc/TestBufferChain.java
+Methods Invoked: 
 	Method name: spy
 	Class origin: org.mockito.Mockito
 	Count: 1
  
+/hbase-server/src/test/java/org/apache/hadoop/hbase/ipc/TestCallRunner.java
+Methods Invoked: 
 	Method name: mock
 	Class origin: org.mockito.Mockito
 	Count: 6
@@ -854,6 +1040,8 @@
 	Class origin: org.mockito.Mockito
 	Count: 5
  
+/hbase-server/src/test/java/org/apache/hadoop/hbase/ipc/TestSimpleRpcScheduler.java
+Methods Invoked: 
 	Method name: mock
 	Class origin: org.mockito.Mockito
 	Count: 37
@@ -866,14 +1054,20 @@
 	Class origin: org.mockito.Mockito
 	Count: 2
  
+/hbase-server/src/test/java/org/apache/hadoop/hbase/ipc/TestRpcHandlerException.java
+Methods Invoked: 
 	Method name: mock
 	Class origin: org.mockito.Mockito
 	Count: 1
  
+/hbase-server/src/test/java/org/apache/hadoop/hbase/ipc/TestMasterFifoRpcScheduler.java
+Methods Invoked: 
 	Method name: mock
 	Class origin: org.mockito.Mockito
 	Count: 2
  
+/hbase-server/src/test/java/org/apache/hadoop/hbase/ipc/AbstractTestIPC.java
+Methods Invoked: 
 	Method name: spy
 	Class origin: org.mockito.Mockito
 	Count: 1
@@ -886,10 +1080,14 @@
 	Class origin: org.mockito.ArgumentMatchers
 	Count: 2
  
+/hbase-server/src/test/java/org/apache/hadoop/hbase/ipc/TestFifoRpcScheduler.java
+Methods Invoked: 
 	Method name: mock
 	Class origin: org.mockito.Mockito
 	Count: 2
  
+/hbase-server/src/test/java/org/apache/hadoop/hbase/ipc/TestRpcServerTraceLogging.java
+Methods Invoked: 
 	Method name: mock
 	Class origin: org.mockito.Mockito
 	Count: 1
@@ -902,10 +1100,14 @@
 	Class origin: org.mockito.stubbing.OngoingStubbing<java.lang.String>
 	Count: 1
  
+/hbase-server/src/test/java/org/apache/hadoop/hbase/master/TestActiveMasterManager.java
+Methods Invoked: 
 	Method name: mock
 	Class origin: org.mockito.Mockito
 	Count: 4
  
+/hbase-server/src/test/java/org/apache/hadoop/hbase/master/TestMasterCoprocessorServices.java
+Methods Invoked: 
 	Method name: mock
 	Class origin: org.mockito.Mockito
 	Count: 1
@@ -922,6 +1124,8 @@
 	Class origin: org.mockito.ArgumentMatchers
 	Count: 4
  
+/hbase-server/src/test/java/org/apache/hadoop/hbase/master/TestMasterQosFunction.java
+Methods Invoked: 
 	Method name: mock
 	Class origin: org.mockito.Mockito
 	Count: 1
@@ -930,10 +1134,14 @@
 	Class origin: org.mockito.Mockito
 	Count: 1
  
+/hbase-server/src/test/java/org/apache/hadoop/hbase/master/MockNoopMasterServices.java
+Methods Invoked: 
 	Method name: mock
 	Class origin: org.mockito.Mockito
 	Count: 1
  
+/hbase-server/src/test/java/org/apache/hadoop/hbase/master/TestMasterDryRunBalancer.java
+Methods Invoked: 
 	Method name: spy
 	Class origin: org.mockito.Mockito
 	Count: 1
@@ -950,10 +1158,14 @@
 	Class origin: org.mockito.ArgumentMatchers
 	Count: 1
  
+/hbase-server/src/test/java/org/apache/hadoop/hbase/master/TestRegionsRecoveryChore.java
+Methods Invoked: 
 	Method name: mock
 	Class origin: org.mockito.Mockito
 	Count: 2
  
+/hbase-server/src/test/java/org/apache/hadoop/hbase/master/TestSplitLogManager.java
+Methods Invoked: 
 	Method name: mock
 	Class origin: org.mockito.Mockito
 	Count: 1
@@ -970,6 +1182,30 @@
 	Class origin: org.mockito.ArgumentMatchers
 	Count: 1
  
+/hbase-server/src/test/java/org/apache/hadoop/hbase/master/TestMasterBalancerNPE.java
+Methods Invoked: 
+	Method name: spy
+	Class origin: org.mockito.Mockito
+	Count: 2
+ 
+	Method name: when
+	Class origin: org.mockito.stubbing.Stubber
+	Count: 2
+ 
+	Method name: doAnswer
+	Class origin: org.mockito.Mockito
+	Count: 2
+ 
+	Method name: getArgument
+	Class origin: org.mockito.invocation.InvocationOnMock
+	Count: 2
+ 
+	Method name: anyMap
+	Class origin: org.mockito.ArgumentMatchers
+	Count: 1
+ 
+/hbase-server/src/test/java/org/apache/hadoop/hbase/master/assignment/TestHbckChore.java
+Methods Invoked: 
 	Method name: thenReturn
 	Class origin: org.mockito.stubbing.OngoingStubbing<java.lang.Boolean>
 	Count: 1
@@ -978,6 +1214,8 @@
 	Class origin: org.mockito.Mockito
 	Count: 1
  
+/hbase-server/src/test/java/org/apache/hadoop/hbase/master/assignment/MockMasterServices.java
+Methods Invoked: 
 	Method name: mock
 	Class origin: org.mockito.Mockito
 	Count: 1
@@ -990,6 +1228,8 @@
 	Class origin: org.mockito.ArgumentMatchers
 	Count: 5
  
+/hbase-server/src/test/java/org/apache/hadoop/hbase/master/balancer/TestBalancerDecision.java
+Methods Invoked: 
 	Method name: mock
 	Class origin: org.mockito.Mockito
 	Count: 1
@@ -998,6 +1238,8 @@
 	Class origin: org.mockito.Mockito
 	Count: 1
  
+/hbase-server/src/test/java/org/apache/hadoop/hbase/master/balancer/TestBalancerRejection.java
+Methods Invoked: 
 	Method name: mock
 	Class origin: org.mockito.Mockito
 	Count: 1
@@ -1006,10 +1248,14 @@
 	Class origin: org.mockito.Mockito
 	Count: 1
  
+/hbase-server/src/test/java/org/apache/hadoop/hbase/master/balancer/TestRSGroupBasedLoadBalancerWithStochasticLoadBalancerAsInternal.java
+Methods Invoked: 
 	Method name: mock
 	Class origin: org.mockito.Mockito
 	Count: 4
  
+/hbase-server/src/test/java/org/apache/hadoop/hbase/master/balancer/RSGroupableBalancerTestBase.java
+Methods Invoked: 
 	Method name: mock
 	Class origin: org.mockito.Mockito
 	Count: 4
@@ -1018,6 +1264,8 @@
 	Class origin: org.mockito.Mockito
 	Count: 11
  
+/hbase-server/src/test/java/org/apache/hadoop/hbase/master/cleaner/TestReplicationBarrierCleaner.java
+Methods Invoked: 
 	Method name: mock
 	Class origin: org.mockito.Mockito
 	Count: 4
@@ -1030,6 +1278,8 @@
 	Class origin: org.mockito.stubbing.OngoingStubbing<java.util.List<java.lang.String>>
 	Count: 2
  
+/hbase-server/src/test/java/org/apache/hadoop/hbase/master/cleaner/TestReplicationHFileCleaner.java
+Methods Invoked: 
 	Method name: spy
 	Class origin: org.mockito.Mockito
 	Count: 1
@@ -1042,6 +1292,8 @@
 	Class origin: org.mockito.Mockito
 	Count: 1
  
+/hbase-server/src/test/java/org/apache/hadoop/hbase/master/cleaner/TestSnapshotCleanerChore.java
+Methods Invoked: 
 	Method name: mock
 	Class origin: org.mockito.Mockito
 	Count: 5
@@ -1054,6 +1306,8 @@
 	Class origin: org.mockito.Mockito
 	Count: 5
  
+/hbase-server/src/test/java/org/apache/hadoop/hbase/master/cleaner/TestSnapshotFromMaster.java
+Methods Invoked: 
 	Method name: mock
 	Class origin: org.mockito.Mockito
 	Count: 1
@@ -1062,6 +1316,8 @@
 	Class origin: org.mockito.Mockito
 	Count: 4
  
+/hbase-server/src/test/java/org/apache/hadoop/hbase/master/cleaner/TestCleanerChore.java
+Methods Invoked: 
 	Method name: spy
 	Class origin: org.mockito.Mockito
 	Count: 3
@@ -1078,6 +1334,8 @@
 	Class origin: org.mockito.Mockito
 	Count: 2
  
+/hbase-server/src/test/java/org/apache/hadoop/hbase/master/cleaner/TestLogsCleaner.java
+Methods Invoked: 
 	Method name: spy
 	Class origin: org.mockito.Mockito
 	Count: 2
@@ -1094,6 +1352,8 @@
 	Class origin: org.mockito.invocation.InvocationOnMock
 	Count: 1
  
+/hbase-server/src/test/java/org/apache/hadoop/hbase/master/http/TestMasterStatusServlet.java
+Methods Invoked: 
 	Method name: mock
 	Class origin: org.mockito.Mockito
 	Count: 7
@@ -1106,10 +1366,14 @@
 	Class origin: org.mockito.Mockito
 	Count: 14
  
+/hbase-server/src/test/java/org/apache/hadoop/hbase/master/http/TestMetaBrowserNoCluster.java
+Methods Invoked: 
 	Method name: initMocks
 	Class origin: org.mockito.MockitoAnnotations
 	Count: 1
  
+/hbase-server/src/test/java/org/apache/hadoop/hbase/master/http/TestMetaBrowser.java
+Methods Invoked: 
 	Method name: mock
 	Class origin: org.mockito.Mockito
 	Count: 1
@@ -1122,6 +1386,8 @@
 	Class origin: org.mockito.Mockito
 	Count: 6
  
+/hbase-server/src/test/java/org/apache/hadoop/hbase/master/janitor/TestCatalogJanitor.java
+Methods Invoked: 
 	Method name: spy
 	Class origin: org.mockito.Mockito
 	Count: 1
@@ -1134,10 +1400,14 @@
 	Class origin: org.mockito.Mockito
 	Count: 1
  
+/hbase-server/src/test/java/org/apache/hadoop/hbase/master/normalizer/TestRegionNormalizerManagerConfigurationObserver.java
+Methods Invoked: 
 	Method name: initMocks
 	Class origin: org.mockito.MockitoAnnotations
 	Count: 1
  
+/hbase-server/src/test/java/org/apache/hadoop/hbase/master/normalizer/TestSimpleRegionNormalizer.java
+Methods Invoked: 
 	Method name: when
 	Class origin: org.mockito.Mockito
 	Count: 21
@@ -1150,6 +1420,8 @@
 	Class origin: org.mockito.stubbing.OngoingStubbing<java.lang.Long>
 	Count: 2
  
+/hbase-server/src/test/java/org/apache/hadoop/hbase/master/normalizer/TestRegionNormalizerWorker.java
+Methods Invoked: 
 	Method name: rule
 	Class origin: org.mockito.junit.MockitoJUnit
 	Count: 1
@@ -1170,6 +1442,8 @@
 	Class origin: org.mockito.ArgumentMatchers
 	Count: 7
  
+/hbase-server/src/test/java/org/apache/hadoop/hbase/master/region/MasterRegionTestBase.java
+Methods Invoked: 
 	Method name: mock
 	Class origin: org.mockito.Mockito
 	Count: 1
@@ -1178,6 +1452,8 @@
 	Class origin: org.mockito.Mockito
 	Count: 3
  
+/hbase-server/src/test/java/org/apache/hadoop/hbase/master/region/TestMasterRegionOnTwoFileSystems.java
+Methods Invoked: 
 	Method name: mock
 	Class origin: org.mockito.Mockito
 	Count: 1
@@ -1186,10 +1462,14 @@
 	Class origin: org.mockito.Mockito
 	Count: 2
  
+/hbase-server/src/test/java/org/apache/hadoop/hbase/master/region/TestMasterRegionFlush.java
+Methods Invoked: 
 	Method name: mock
 	Class origin: org.mockito.Mockito
 	Count: 2
  
+/hbase-server/src/test/java/org/apache/hadoop/hbase/master/replication/TestSyncReplicationReplayWALManager.java
+Methods Invoked: 
 	Method name: mock
 	Class origin: org.mockito.Mockito
 	Count: 7
@@ -1210,22 +1490,32 @@
 	Class origin: org.mockito.ArgumentMatchers
 	Count: 2
  
+/hbase-server/src/test/java/org/apache/hadoop/hbase/master/snapshot/TestSnapshotManager.java
+Methods Invoked: 
 	Method name: mock
 	Class origin: org.mockito.Mockito
 	Count: 6
  
+/hbase-server/src/test/java/org/apache/hadoop/hbase/master/snapshot/TestSnapshotFileCache.java
+Methods Invoked: 
 	Method name: mock
 	Class origin: org.mockito.Mockito
 	Count: 2
  
+/hbase-server/src/test/java/org/apache/hadoop/hbase/procedure/TestProcedure.java
+Methods Invoked: 
 	Method name: mock
 	Class origin: org.mockito.Mockito
 	Count: 2
  
+/hbase-server/src/test/java/org/apache/hadoop/hbase/procedure/TestProcedureCoordinator.java
+Methods Invoked: 
 	Method name: mock
 	Class origin: org.mockito.Mockito
 	Count: 3
  
+/hbase-server/src/test/java/org/apache/hadoop/hbase/procedure/TestProcedureMember.java
+Methods Invoked: 
 	Method name: spy
 	Class origin: org.mockito.Mockito
 	Count: 6
@@ -1234,6 +1524,8 @@
 	Class origin: org.mockito.Mockito
 	Count: 3
  
+/hbase-server/src/test/java/org/apache/hadoop/hbase/procedure/TestZKProcedure.java
+Methods Invoked: 
 	Method name: times
 	Class origin: org.mockito.Mockito
 	Count: 2
@@ -1246,6 +1538,8 @@
 	Class origin: org.mockito.Mockito
 	Count: 2
  
+/hbase-server/src/test/java/org/apache/hadoop/hbase/procedure/TestZKProcedureControllers.java
+Methods Invoked: 
 	Method name: times
 	Class origin: org.mockito.Mockito
 	Count: 5
@@ -1266,6 +1560,8 @@
 	Class origin: org.mockito.Mockito
 	Count: 1
  
+/hbase-server/src/test/java/org/apache/hadoop/hbase/procedure2/store/region/RegionProcedureStoreTestHelper.java
+Methods Invoked: 
 	Method name: mock
 	Class origin: org.mockito.Mockito
 	Count: 1
@@ -1274,10 +1570,14 @@
 	Class origin: org.mockito.Mockito
 	Count: 2
  
+/hbase-server/src/test/java/org/apache/hadoop/hbase/quotas/TestTableQuotaViolationStore.java
+Methods Invoked: 
 	Method name: mock
 	Class origin: org.mockito.Mockito
 	Count: 5
  
+/hbase-server/src/test/java/org/apache/hadoop/hbase/quotas/TestMasterQuotasObserverWithMocks.java
+Methods Invoked: 
 	Method name: mock
 	Class origin: org.mockito.Mockito
 	Count: 1
@@ -1294,34 +1594,50 @@
 	Class origin: org.mockito.ArgumentMatchers
 	Count: 1
  
+/hbase-server/src/test/java/org/apache/hadoop/hbase/quotas/TestSpaceQuotaViolationPolicyRefresherChore.java
+Methods Invoked: 
 	Method name: mock
 	Class origin: org.mockito.Mockito
 	Count: 10
  
+/hbase-server/src/test/java/org/apache/hadoop/hbase/quotas/TestRegionServerSpaceQuotaManager.java
+Methods Invoked: 
 	Method name: mock
 	Class origin: org.mockito.Mockito
 	Count: 8
  
+/hbase-server/src/test/java/org/apache/hadoop/hbase/quotas/TestTablesWithQuotas.java
+Methods Invoked: 
 	Method name: mock
 	Class origin: org.mockito.Mockito
 	Count: 3
  
+/hbase-server/src/test/java/org/apache/hadoop/hbase/quotas/TestActivePolicyEnforcement.java
+Methods Invoked: 
 	Method name: mock
 	Class origin: org.mockito.Mockito
 	Count: 4
  
+/hbase-server/src/test/java/org/apache/hadoop/hbase/quotas/TestMasterQuotaManager.java
+Methods Invoked: 
 	Method name: mock
 	Class origin: org.mockito.Mockito
 	Count: 3
  
+/hbase-server/src/test/java/org/apache/hadoop/hbase/quotas/TestTableSpaceQuotaViolationNotifier.java
+Methods Invoked: 
 	Method name: mock
 	Class origin: org.mockito.Mockito
 	Count: 2
  
+/hbase-server/src/test/java/org/apache/hadoop/hbase/quotas/TestQuotaObserverChore.java
+Methods Invoked: 
 	Method name: mock
 	Class origin: org.mockito.Mockito
 	Count: 2
  
+/hbase-server/src/test/java/org/apache/hadoop/hbase/quotas/TestFileSystemUtilizationChore.java
+Methods Invoked: 
 	Method name: when
 	Class origin: org.mockito.stubbing.Stubber
 	Count: 16
@@ -1334,10 +1650,14 @@
 	Class origin: org.mockito.ArgumentMatchers
 	Count: 8
  
+/hbase-server/src/test/java/org/apache/hadoop/hbase/quotas/TestNamespaceQuotaViolationStore.java
+Methods Invoked: 
 	Method name: mock
 	Class origin: org.mockito.Mockito
 	Count: 4
  
+/hbase-server/src/test/java/org/apache/hadoop/hbase/quotas/TestRegionSizeReportingChore.java
+Methods Invoked: 
 	Method name: mock
 	Class origin: org.mockito.Mockito
 	Count: 1
@@ -1346,22 +1666,14 @@
 	Class origin: org.mockito.Mockito
 	Count: 1
  
+/hbase-server/src/test/java/org/apache/hadoop/hbase/quotas/policies/TestBulkLoadCheckingViolationPolicyEnforcement.java
+Methods Invoked: 
 	Method name: mock
 	Class origin: org.mockito.Mockito
 	Count: 6
  
-	Method name: mock
-	Class origin: org.mockito.Mockito
-	Count: 2
- 
-	Method name: when
-	Class origin: org.mockito.Mockito
-	Count: 8
- 
-	Method name: thenReturn
-	Class origin: org.mockito.stubbing.OngoingStubbing<java.lang.Boolean>
-	Count: 6
- 
+/hbase-server/src/test/java/org/apache/hadoop/hbase/regionserver/TestCompactionArchiveIOException.java
+Methods Invoked: 
 	Method name: mock
 	Class origin: org.mockito.Mockito
 	Count: 1
@@ -1378,14 +1690,8 @@
 	Class origin: org.mockito.Mockito
 	Count: 1
  
-	Method name: mock
-	Class origin: org.mockito.Mockito
-	Count: 2
- 
-	Method name: mock
-	Class origin: org.mockito.Mockito
-	Count: 2
- 
+/hbase-server/src/test/java/org/apache/hadoop/hbase/regionserver/StatefulStoreMockMaker.java
+Methods Invoked: 
 	Method name: getArgument
 	Class origin: org.mockito.invocation.InvocationOnMock
 	Count: 1
@@ -1406,14 +1712,8 @@
 	Class origin: org.mockito.ArgumentMatchers
 	Count: 3
  
-	Method name: mock
-	Class origin: org.mockito.Mockito
-	Count: 1
- 
-	Method name: when
-	Class origin: org.mockito.Mockito
-	Count: 1
- 
+/hbase-server/src/test/java/org/apache/hadoop/hbase/regionserver/TestBootstrapNodeManager.java
+Methods Invoked: 
 	Method name: mock
 	Class origin: org.mockito.Mockito
 	Count: 2
@@ -1422,73 +1722,21 @@
 	Class origin: org.mockito.Mockito
 	Count: 8
  
-	Method name: spy
-	Class origin: org.mockito.Mockito
-	Count: 1
- 
-	Method name: when
-	Class origin: org.mockito.stubbing.Stubber
-	Count: 1
- 
-	Method name: doAnswer
-	Class origin: org.mockito.Mockito
-	Count: 1
- 
-	Method name: any
-	Class origin: org.mockito.ArgumentMatchers
-	Count: 4
- 
-	Method name: mock
-	Class origin: org.mockito.Mockito
-	Count: 1
- 
-	Method name: when
-	Class origin: org.mockito.stubbing.Stubber
-	Count: 2
- 
-	Method name: doCallRealMethod
-	Class origin: org.mockito.Mockito
-	Count: 2
- 
-	Method name: any
-	Class origin: org.mockito.ArgumentMatchers
-	Count: 2
- 
-	Method name: mock
-	Class origin: org.mockito.Mockito
-	Count: 1
- 
-	Method name: when
-	Class origin: org.mockito.stubbing.Stubber
-	Count: 1
- 
-	Method name: doReturn
-	Class origin: org.mockito.Mockito
-	Count: 1
- 
-	Method name: spy
-	Class origin: org.mockito.Mockito
-	Count: 1
- 
-	Method name: thenReturn
-	Class origin: org.mockito.stubbing.OngoingStubbing<java.util.concurrent.ThreadPoolExecutor>
-	Count: 1
- 
-	Method name: when
-	Class origin: org.mockito.Mockito
-	Count: 1
- 
+/hbase-server/src/test/java/org/apache/hadoop/hbase/regionserver/TestHMobStore.java
+Methods Invoked: 
 	Method name: mock
 	Class origin: org.mockito.Mockito
 	Count: 2
  
+/hbase-server/src/test/java/org/apache/hadoop/hbase/regionserver/TestStripeStoreEngine.java
+Methods Invoked: 
 	Method name: mock
-	Class origin: org.mockito.Mockito
-	Count: 5
- 
-	Method name: when
 	Class origin: org.mockito.Mockito
 	Count: 6
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 7
  
 	Method name: any
 	Class origin: org.mockito.ArgumentMatchers
@@ -1502,6 +1750,8 @@
 	Class origin: org.mockito.ArgumentMatchers
 	Count: 1
  
+/hbase-server/src/test/java/org/apache/hadoop/hbase/regionserver/TestFailedAppendAndSync.java
+Methods Invoked: 
 	Method name: mock
 	Class origin: org.mockito.Mockito
 	Count: 1
@@ -1514,26 +1764,8 @@
 	Class origin: org.mockito.stubbing.OngoingStubbing<java.lang.Boolean>
 	Count: 3
  
-	Method name: initMocks
-	Class origin: org.mockito.MockitoAnnotations
-	Count: 1
- 
-	Method name: thenReturn
-	Class origin: org.mockito.stubbing.OngoingStubbing<java.lang.String>
-	Count: 9
- 
-	Method name: when
-	Class origin: org.mockito.Mockito
-	Count: 9
- 
-	Method name: mock
-	Class origin: org.mockito.Mockito
-	Count: 1
- 
-	Method name: when
-	Class origin: org.mockito.Mockito
-	Count: 1
- 
+/hbase-server/src/test/java/org/apache/hadoop/hbase/regionserver/TestWalAndCompactingMemStoreFlush.java
+Methods Invoked: 
 	Method name: spy
 	Class origin: org.mockito.Mockito
 	Count: 1
@@ -1546,6 +1778,8 @@
 	Class origin: org.mockito.Mockito
 	Count: 1
  
+/hbase-server/src/test/java/org/apache/hadoop/hbase/regionserver/TestMemStoreFlusher.java
+Methods Invoked: 
 	Method name: mock
 	Class origin: org.mockito.Mockito
 	Count: 2
@@ -1558,10 +1792,8 @@
 	Class origin: org.mockito.Mockito
 	Count: 2
  
-	Method name: spy
-	Class origin: org.mockito.Mockito
-	Count: 1
- 
+/hbase-server/src/test/java/org/apache/hadoop/hbase/regionserver/TestRSRpcServices.java
+Methods Invoked: 
 	Method name: mock
 	Class origin: org.mockito.Mockito
 	Count: 2
@@ -1578,26 +1810,8 @@
 	Class origin: org.mockito.stubbing.OngoingStubbing<java.net.InetAddress>
 	Count: 1
  
-	Method name: mock
-	Class origin: org.mockito.Mockito
-	Count: 1
- 
-	Method name: when
-	Class origin: org.mockito.Mockito
-	Count: 5
- 
-	Method name: mock
-	Class origin: org.mockito.Mockito
-	Count: 15
- 
-	Method name: when
-	Class origin: org.mockito.stubbing.Stubber
-	Count: 48
- 
-	Method name: doReturn
-	Class origin: org.mockito.Mockito
-	Count: 48
- 
+/hbase-server/src/test/java/org/apache/hadoop/hbase/regionserver/TestRecoveredEditsReplayAndAbort.java
+Methods Invoked: 
 	Method name: mock
 	Class origin: org.mockito.Mockito
 	Count: 1
@@ -1610,14 +1824,8 @@
 	Class origin: org.mockito.stubbing.OngoingStubbing<java.lang.Boolean>
 	Count: 1
  
-	Method name: mock
-	Class origin: org.mockito.Mockito
-	Count: 1
- 
-	Method name: mock
-	Class origin: org.mockito.Mockito
-	Count: 9
- 
+/hbase-server/src/test/java/org/apache/hadoop/hbase/regionserver/TestHStore.java
+Methods Invoked: 
 	Method name: spy
 	Class origin: org.mockito.Mockito
 	Count: 2
@@ -1634,30 +1842,14 @@
 	Class origin: org.mockito.Mockito
 	Count: 17
  
-	Method name: spy
+/hbase-server/src/test/java/org/apache/hadoop/hbase/regionserver/TestInputStreamBlockDistribution.java
+Methods Invoked: 
+	Method name: mock
 	Class origin: org.mockito.Mockito
 	Count: 3
  
-	Method name: when
-	Class origin: org.mockito.stubbing.Stubber
-	Count: 2
- 
-	Method name: doAnswer
-	Class origin: org.mockito.Mockito
-	Count: 2
- 
-	Method name: callRealMethod
-	Class origin: org.mockito.invocation.InvocationOnMock
-	Count: 2
- 
-	Method name: mock
-	Class origin: org.mockito.Mockito
-	Count: 1
- 
-	Method name: when
-	Class origin: org.mockito.Mockito
-	Count: 1
- 
+/hbase-server/src/test/java/org/apache/hadoop/hbase/regionserver/TestHRegionReplayEvents.java
+Methods Invoked: 
 	Method name: mock
 	Class origin: org.mockito.Mockito
 	Count: 1
@@ -1666,18 +1858,8 @@
 	Class origin: org.mockito.Mockito
 	Count: 4
  
-	Method name: thenAnswer
-	Class origin: org.mockito.stubbing.OngoingStubbing<java.lang.Long>
-	Count: 4
- 
-	Method name: when
-	Class origin: org.mockito.Mockito
-	Count: 4
- 
-	Method name: any
-	Class origin: org.mockito.ArgumentMatchers
-	Count: 8
- 
+/hbase-server/src/test/java/org/apache/hadoop/hbase/regionserver/TestMultiLogThreshold.java
+Methods Invoked: 
 	Method name: mock
 	Class origin: org.mockito.Mockito
 	Count: 2
@@ -1694,30 +1876,14 @@
 	Class origin: org.mockito.stubbing.OngoingStubbing<java.lang.Boolean>
 	Count: 1
  
+/hbase-server/src/test/java/org/apache/hadoop/hbase/regionserver/TestDefaultStoreEngine.java
+Methods Invoked: 
 	Method name: mock
 	Class origin: org.mockito.Mockito
-	Count: 1
+	Count: 2
  
-	Method name: when
-	Class origin: org.mockito.Mockito
-	Count: 1
- 
-	Method name: mock
-	Class origin: org.mockito.Mockito
-	Count: 3
- 
-	Method name: when
-	Class origin: org.mockito.Mockito
-	Count: 3
- 
-	Method name: mock
-	Class origin: org.mockito.Mockito
-	Count: 8
- 
-	Method name: mock
-	Class origin: org.mockito.Mockito
-	Count: 1
- 
+/hbase-server/src/test/java/org/apache/hadoop/hbase/regionserver/TestCompactionArchiveConcurrentClose.java
+Methods Invoked: 
 	Method name: mock
 	Class origin: org.mockito.Mockito
 	Count: 1
@@ -1730,10 +1896,44 @@
 	Class origin: org.mockito.Mockito
 	Count: 1
  
+/hbase-server/src/test/java/org/apache/hadoop/hbase/regionserver/TestReplicateToReplica.java
+Methods Invoked: 
 	Method name: mock
 	Class origin: org.mockito.Mockito
 	Count: 3
  
+	Method name: thenAnswer
+	Class origin: org.mockito.stubbing.OngoingStubbing<java.util.concurrent.CompletableFuture<java.lang.Void>>
+	Count: 1
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 9
+ 
+	Method name: any
+	Class origin: org.mockito.ArgumentMatchers
+	Count: 9
+ 
+	Method name: anyList
+	Class origin: org.mockito.ArgumentMatchers
+	Count: 5
+ 
+	Method name: anyInt
+	Class origin: org.mockito.ArgumentMatchers
+	Count: 1
+ 
+	Method name: anyLong
+	Class origin: org.mockito.ArgumentMatchers
+	Count: 2
+ 
+/hbase-server/src/test/java/org/apache/hadoop/hbase/regionserver/TestServerNonceManager.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 3
+ 
+/hbase-server/src/test/java/org/apache/hadoop/hbase/regionserver/TestHRegion.java
+Methods Invoked: 
 	Method name: mock
 	Class origin: org.mockito.Mockito
 	Count: 5
@@ -1750,6 +1950,8 @@
 	Class origin: org.mockito.ArgumentMatchers
 	Count: 22
  
+/hbase-server/src/test/java/org/apache/hadoop/hbase/regionserver/TestStoreFileRefresherChore.java
+Methods Invoked: 
 	Method name: mock
 	Class origin: org.mockito.Mockito
 	Count: 1
@@ -1758,18 +1960,84 @@
 	Class origin: org.mockito.Mockito
 	Count: 2
  
+/hbase-server/src/test/java/org/apache/hadoop/hbase/regionserver/TestWALLockup.java
+Methods Invoked: 
 	Method name: mock
 	Class origin: org.mockito.Mockito
-	Count: 1
+	Count: 2
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 8
  
 	Method name: thenReturn
-	Class origin: org.mockito.stubbing.OngoingStubbing<java.lang.Long>
-	Count: 2
+	Class origin: org.mockito.stubbing.OngoingStubbing<java.lang.Boolean>
+	Count: 6
+ 
+/hbase-server/src/test/java/org/apache/hadoop/hbase/regionserver/TestCompactionAfterBulkLoad.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 1
  
 	Method name: when
 	Class origin: org.mockito.Mockito
-	Count: 3
+	Count: 6
  
+/hbase-server/src/test/java/org/apache/hadoop/hbase/regionserver/TestSplitTransactionOnCluster.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 2
+ 
+/hbase-server/src/test/java/org/apache/hadoop/hbase/regionserver/TestRSQosFunction.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+/hbase-server/src/test/java/org/apache/hadoop/hbase/regionserver/TestSplitWalDataLoss.java
+Methods Invoked: 
+	Method name: spy
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+	Method name: when
+	Class origin: org.mockito.stubbing.Stubber
+	Count: 1
+ 
+	Method name: doAnswer
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+	Method name: any
+	Class origin: org.mockito.ArgumentMatchers
+	Count: 4
+ 
+/hbase-server/src/test/java/org/apache/hadoop/hbase/regionserver/TestRegionServerRegionSpaceUseReport.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+	Method name: when
+	Class origin: org.mockito.stubbing.Stubber
+	Count: 2
+ 
+	Method name: doCallRealMethod
+	Class origin: org.mockito.Mockito
+	Count: 2
+ 
+	Method name: any
+	Class origin: org.mockito.ArgumentMatchers
+	Count: 2
+ 
+/hbase-server/src/test/java/org/apache/hadoop/hbase/regionserver/TestFlushRegionEntry.java
+Methods Invoked: 
 	Method name: mock
 	Class origin: org.mockito.Mockito
 	Count: 1
@@ -1782,30 +2050,212 @@
 	Class origin: org.mockito.Mockito
 	Count: 1
  
+/hbase-server/src/test/java/org/apache/hadoop/hbase/regionserver/TestCompactingMemStore.java
+Methods Invoked: 
+	Method name: spy
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<java.util.concurrent.ThreadPoolExecutor>
+	Count: 1
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+/hbase-server/src/test/java/org/apache/hadoop/hbase/regionserver/TestRegionSplitRestriction.java
+Methods Invoked: 
+	Method name: initMocks
+	Class origin: org.mockito.MockitoAnnotations
+	Count: 1
+ 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<java.lang.String>
+	Count: 9
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 9
+ 
+/hbase-server/src/test/java/org/apache/hadoop/hbase/regionserver/TestCompoundBloomFilter.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+/hbase-server/src/test/java/org/apache/hadoop/hbase/regionserver/TestOpenRegionFailedMemoryLeak.java
+Methods Invoked: 
+	Method name: spy
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+/hbase-server/src/test/java/org/apache/hadoop/hbase/regionserver/TestSplitLogWorker.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 5
+ 
+/hbase-server/src/test/java/org/apache/hadoop/hbase/regionserver/TestRegionSplitPolicy.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 15
+ 
+	Method name: when
+	Class origin: org.mockito.stubbing.Stubber
+	Count: 48
+ 
+	Method name: doReturn
+	Class origin: org.mockito.Mockito
+	Count: 48
+ 
+/hbase-server/src/test/java/org/apache/hadoop/hbase/regionserver/TestBulkloadBase.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+/hbase-server/src/test/java/org/apache/hadoop/hbase/regionserver/TestHStoreFile.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 12
+ 
+/hbase-server/src/test/java/org/apache/hadoop/hbase/regionserver/TestCompaction.java
+Methods Invoked: 
+	Method name: spy
+	Class origin: org.mockito.Mockito
+	Count: 3
+ 
+	Method name: when
+	Class origin: org.mockito.stubbing.Stubber
+	Count: 2
+ 
+	Method name: doAnswer
+	Class origin: org.mockito.Mockito
+	Count: 2
+ 
+	Method name: callRealMethod
+	Class origin: org.mockito.invocation.InvocationOnMock
+	Count: 2
+ 
+/hbase-server/src/test/java/org/apache/hadoop/hbase/regionserver/TestLogRoller.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+/hbase-server/src/test/java/org/apache/hadoop/hbase/regionserver/TestBulkLoad.java
+Methods Invoked: 
+	Method name: thenAnswer
+	Class origin: org.mockito.stubbing.OngoingStubbing<java.lang.Long>
+	Count: 4
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 4
+ 
+	Method name: any
+	Class origin: org.mockito.ArgumentMatchers
+	Count: 8
+ 
+/hbase-server/src/test/java/org/apache/hadoop/hbase/regionserver/TestRowPrefixBloomFilter.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 3
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 3
+ 
+/hbase-server/src/test/java/org/apache/hadoop/hbase/regionserver/TestPriorityRpc.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 8
+ 
+/hbase-server/src/test/java/org/apache/hadoop/hbase/regionserver/TestStripeStoreFileManager.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+/hbase-server/src/test/java/org/apache/hadoop/hbase/regionserver/compactions/PerfTestCompactionPolicies.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<java.lang.Long>
+	Count: 2
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 3
+ 
+/hbase-server/src/test/java/org/apache/hadoop/hbase/regionserver/compactions/TestCompactedHFilesDischarger.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+	Method name: when
+	Class origin: org.mockito.stubbing.Stubber
+	Count: 1
+ 
+	Method name: doReturn
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+/hbase-server/src/test/java/org/apache/hadoop/hbase/regionserver/compactions/MockStoreFileGenerator.java
+Methods Invoked: 
 	Method name: mock
 	Class origin: org.mockito.Mockito
 	Count: 2
  
+/hbase-server/src/test/java/org/apache/hadoop/hbase/regionserver/compactions/TestDateTieredCompactor.java
+Methods Invoked: 
 	Method name: mock
 	Class origin: org.mockito.Mockito
-	Count: 2
+	Count: 3
  
 	Method name: when
 	Class origin: org.mockito.Mockito
 	Count: 10
  
+/hbase-server/src/test/java/org/apache/hadoop/hbase/regionserver/compactions/TestStripeCompactor.java
+Methods Invoked: 
 	Method name: mock
 	Class origin: org.mockito.Mockito
-	Count: 2
+	Count: 3
  
 	Method name: when
 	Class origin: org.mockito.Mockito
 	Count: 8
  
+/hbase-server/src/test/java/org/apache/hadoop/hbase/regionserver/compactions/TestCompactor.java
+Methods Invoked: 
 	Method name: mock
 	Class origin: org.mockito.Mockito
 	Count: 5
  
+/hbase-server/src/test/java/org/apache/hadoop/hbase/regionserver/compactions/TestCloseChecker.java
+Methods Invoked: 
 	Method name: mock
 	Class origin: org.mockito.Mockito
 	Count: 2
@@ -1818,22 +2268,70 @@
 	Class origin: org.mockito.Mockito
 	Count: 2
  
+/hbase-server/src/test/java/org/apache/hadoop/hbase/regionserver/compactions/TestStripeCompactionPolicy.java
+Methods Invoked: 
 	Method name: mock
 	Class origin: org.mockito.Mockito
-	Count: 14
+	Count: 15
  
 	Method name: when
 	Class origin: org.mockito.Mockito
-	Count: 34
+	Count: 36
  
+/hbase-server/src/test/java/org/apache/hadoop/hbase/regionserver/http/TestRSStatusServlet.java
+Methods Invoked: 
 	Method name: mock
 	Class origin: org.mockito.Mockito
 	Count: 7
  
+/hbase-server/src/test/java/org/apache/hadoop/hbase/regionserver/regionreplication/TestRegionReplicationSink.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 34
+ 
+/hbase-server/src/test/java/org/apache/hadoop/hbase/regionserver/regionreplication/TestRegionReplicationBufferManager.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 4
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 8
+ 
+/hbase-server/src/test/java/org/apache/hadoop/hbase/regionserver/regionreplication/TestRegionReplicationFlushRequester.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+	Method name: verify
+	Class origin: org.mockito.Mockito
+	Count: 6
+ 
+	Method name: times
+	Class origin: org.mockito.Mockito
+	Count: 6
+ 
+/hbase-server/src/test/java/org/apache/hadoop/hbase/regionserver/storefiletracker/TestStoreFileListFile.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+/hbase-server/src/test/java/org/apache/hadoop/hbase/regionserver/throttle/TestStoreHotnessProtector.java
+Methods Invoked: 
 	Method name: mock
 	Class origin: org.mockito.Mockito
 	Count: 5
  
+/hbase-server/src/test/java/org/apache/hadoop/hbase/regionserver/wal/AbstractTestFSWAL.java
+Methods Invoked: 
 	Method name: mock
 	Class origin: org.mockito.Mockito
 	Count: 1
@@ -1842,6 +2340,8 @@
 	Class origin: org.mockito.Mockito
 	Count: 2
  
+/hbase-server/src/test/java/org/apache/hadoop/hbase/regionserver/wal/TestMetricsWAL.java
+Methods Invoked: 
 	Method name: mock
 	Class origin: org.mockito.Mockito
 	Count: 3
@@ -1854,6 +2354,8 @@
 	Class origin: org.mockito.Mockito
 	Count: 8
  
+/hbase-server/src/test/java/org/apache/hadoop/hbase/regionserver/wal/TestAsyncFSWAL.java
+Methods Invoked: 
 	Method name: mock
 	Class origin: org.mockito.Mockito
 	Count: 1
@@ -1862,6 +2364,8 @@
 	Class origin: org.mockito.Mockito
 	Count: 1
  
+/hbase-server/src/test/java/org/apache/hadoop/hbase/regionserver/wal/AbstractTestWALReplay.java
+Methods Invoked: 
 	Method name: mock
 	Class origin: org.mockito.Mockito
 	Count: 2
@@ -1878,6 +2382,8 @@
 	Class origin: org.mockito.Mockito
 	Count: 2
  
+/hbase-server/src/test/java/org/apache/hadoop/hbase/replication/TestReplicationWALEntryFilters.java
+Methods Invoked: 
 	Method name: mock
 	Class origin: org.mockito.Mockito
 	Count: 2
@@ -1886,6 +2392,8 @@
 	Class origin: org.mockito.Mockito
 	Count: 21
  
+/hbase-server/src/test/java/org/apache/hadoop/hbase/replication/TestReplicationProcedureRetry.java
+Methods Invoked: 
 	Method name: callRealMethod
 	Class origin: org.mockito.invocation.InvocationOnMock
 	Count: 6
@@ -1902,14 +2410,20 @@
 	Class origin: org.mockito.Mockito
 	Count: 5
  
+/hbase-server/src/test/java/org/apache/hadoop/hbase/replication/TestReplicationEndpoint.java
+Methods Invoked: 
 	Method name: mock
 	Class origin: org.mockito.Mockito
 	Count: 3
  
+/hbase-server/src/test/java/org/apache/hadoop/hbase/replication/TestHBaseReplicationEndpoint.java
+Methods Invoked: 
 	Method name: mock
 	Class origin: org.mockito.Mockito
 	Count: 12
  
+/hbase-server/src/test/java/org/apache/hadoop/hbase/replication/regionserver/TestBasicWALEntryStream.java
+Methods Invoked: 
 	Method name: mock
 	Class origin: org.mockito.Mockito
 	Count: 9
@@ -1926,22 +2440,8 @@
 	Class origin: org.mockito.stubbing.OngoingStubbing<java.lang.Long>
 	Count: 1
  
-	Method name: mock
-	Class origin: org.mockito.Mockito
-	Count: 1
- 
-	Method name: verify
-	Class origin: org.mockito.Mockito
-	Count: 1
- 
-	Method name: times
-	Class origin: org.mockito.Mockito
-	Count: 1
- 
-	Method name: eq
-	Class origin: org.mockito.ArgumentMatchers
-	Count: 1
- 
+/hbase-server/src/test/java/org/apache/hadoop/hbase/replication/regionserver/TestReplicationSourceManager.java
+Methods Invoked: 
 	Method name: mock
 	Class origin: org.mockito.Mockito
 	Count: 5
@@ -1958,6 +2458,8 @@
 	Class origin: org.mockito.stubbing.OngoingStubbing<java.lang.Boolean>
 	Count: 6
  
+/hbase-server/src/test/java/org/apache/hadoop/hbase/replication/regionserver/TestReplicationSource.java
+Methods Invoked: 
 	Method name: mock
 	Class origin: org.mockito.Mockito
 	Count: 28
@@ -1970,10 +2472,14 @@
 	Class origin: org.mockito.stubbing.OngoingStubbing<java.lang.Long>
 	Count: 10
  
+/hbase-server/src/test/java/org/apache/hadoop/hbase/replication/regionserver/TestDumpReplicationQueues.java
+Methods Invoked: 
 	Method name: mock
 	Class origin: org.mockito.Mockito
 	Count: 2
  
+/hbase-server/src/test/java/org/apache/hadoop/hbase/replication/regionserver/TestSerialReplicationChecker.java
+Methods Invoked: 
 	Method name: mock
 	Class origin: org.mockito.Mockito
 	Count: 5
@@ -1986,6 +2492,8 @@
 	Class origin: org.mockito.Mockito
 	Count: 9
  
+/hbase-server/src/test/java/org/apache/hadoop/hbase/replication/regionserver/TestReplicationSourceLogQueue.java
+Methods Invoked: 
 	Method name: mock
 	Class origin: org.mockito.Mockito
 	Count: 1
@@ -1998,22 +2506,20 @@
 	Class origin: org.mockito.Mockito
 	Count: 1
  
+/hbase-server/src/test/java/org/apache/hadoop/hbase/replication/regionserver/TestHBaseInterClusterReplicationEndpointFilterEdits.java
+Methods Invoked: 
 	Method name: mock
 	Class origin: org.mockito.Mockito
 	Count: 2
  
-	Method name: when
-	Class origin: org.mockito.Mockito
-	Count: 4
- 
-	Method name: mock
-	Class origin: org.mockito.Mockito
-	Count: 2
- 
+/hbase-server/src/test/java/org/apache/hadoop/hbase/replication/regionserver/WALEntryStreamTestBase.java
+Methods Invoked: 
 	Method name: mock
 	Class origin: org.mockito.Mockito
 	Count: 1
  
+/hbase-server/src/test/java/org/apache/hadoop/hbase/security/TestSecureIPC.java
+Methods Invoked: 
 	Method name: mock
 	Class origin: org.mockito.Mockito
 	Count: 1
@@ -2026,10 +2532,14 @@
 	Class origin: org.mockito.Mockito
 	Count: 1
  
+/hbase-server/src/test/java/org/apache/hadoop/hbase/security/token/TestFsDelegationToken.java
+Methods Invoked: 
 	Method name: mock
 	Class origin: org.mockito.Mockito
 	Count: 8
  
+/hbase-server/src/test/java/org/apache/hadoop/hbase/security/token/TestTokenAuthentication.java
+Methods Invoked: 
 	Method name: mock
 	Class origin: org.mockito.Mockito
 	Count: 2
@@ -2050,6 +2560,8 @@
 	Class origin: org.mockito.stubbing.OngoingStubbing<java.lang.ClassLoader>
 	Count: 1
  
+/hbase-server/src/test/java/org/apache/hadoop/hbase/security/token/TestAuthenticationKey.java
+Methods Invoked: 
 	Method name: mock
 	Class origin: org.mockito.Mockito
 	Count: 2
@@ -2062,6 +2574,8 @@
 	Class origin: org.mockito.Mockito
 	Count: 2
  
+/hbase-server/src/test/java/org/apache/hadoop/hbase/snapshot/TestRegionSnapshotTask.java
+Methods Invoked: 
 	Method name: spy
 	Class origin: org.mockito.Mockito
 	Count: 1
@@ -2074,10 +2588,14 @@
 	Class origin: org.mockito.Mockito
 	Count: 1
  
+/hbase-server/src/test/java/org/apache/hadoop/hbase/snapshot/TestRestoreSnapshotHelper.java
+Methods Invoked: 
 	Method name: mock
 	Class origin: org.mockito.Mockito
 	Count: 2
  
+/hbase-server/src/test/java/org/apache/hadoop/hbase/tool/TestCanaryTool.java
+Methods Invoked: 
 	Method name: mock
 	Class origin: org.mockito.Mockito
 	Count: 1
@@ -2094,6 +2612,8 @@
 	Class origin: org.mockito.stubbing.OngoingStubbing<java.lang.Boolean>
 	Count: 1
  
+/hbase-server/src/test/java/org/apache/hadoop/hbase/tool/TestBulkLoadHFilesSplitRecovery.java
+Methods Invoked: 
 	Method name: spy
 	Class origin: org.mockito.Mockito
 	Count: 1
@@ -2114,22 +2634,32 @@
 	Class origin: org.mockito.ArgumentMatchers
 	Count: 2
  
+/hbase-server/src/test/java/org/apache/hadoop/hbase/tool/coprocessor/CoprocessorValidatorTest.java
+Methods Invoked: 
 	Method name: mock
 	Class origin: org.mockito.Mockito
 	Count: 3
  
+/hbase-server/src/test/java/org/apache/hadoop/hbase/util/compaction/TestMajorCompactionRequest.java
+Methods Invoked: 
 	Method name: mock
 	Class origin: org.mockito.Mockito
-	Count: 11
+	Count: 9
  
+/hbase-server/src/test/java/org/apache/hadoop/hbase/util/compaction/TestMajorCompactionTTLRequest.java
+Methods Invoked: 
 	Method name: mock
 	Class origin: org.mockito.Mockito
-	Count: 6
+	Count: 5
  
+/hbase-server/src/test/java/org/apache/hadoop/hbase/wal/TestRaceBetweenGetWALAndGetWALs.java
+Methods Invoked: 
 	Method name: mock
 	Class origin: org.mockito.Mockito
 	Count: 1
  
+/hbase-server/src/test/java/org/apache/hadoop/hbase/wal/TestWALSplit.java
+Methods Invoked: 
 	Method name: mock
 	Class origin: org.mockito.Mockito
 	Count: 4
@@ -2150,6 +2680,8 @@
 	Class origin: org.mockito.Mockito
 	Count: 3
  
+/hbase-server/src/test/java/org/apache/hadoop/hbase/wal/TestWALSplitToHFile.java
+Methods Invoked: 
 	Method name: mock
 	Class origin: org.mockito.Mockito
 	Count: 1
@@ -2166,6 +2698,8 @@
 	Class origin: org.mockito.Mockito
 	Count: 2
  
+/hbase-zookeeper/src/test/java/org/apache/hadoop/hbase/zookeeper/TestZKUtilNoServer.java
+Methods Invoked: 
 	Method name: mock
 	Class origin: org.mockito.Mockito
 	Count: 1
@@ -2178,6 +2712,8 @@
 	Class origin: org.mockito.Mockito
 	Count: 1
  
+/hbase-zookeeper/src/test/java/org/apache/hadoop/hbase/zookeeper/TestReadOnlyZKClient.java
+Methods Invoked: 
 	Method name: mock
 	Class origin: org.mockito.Mockito
 	Count: 1

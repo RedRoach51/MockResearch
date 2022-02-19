@@ -876,6 +876,10 @@ Methods Invoked:
 	Class origin: com.mockobjects.servlet.MockServletConfig
 	Count: 4
  
+/commons-configuration2/src/test/java/org/apache/commons/configuration2/web/TestServletFilterConfiguration.java
+Methods Invoked: 
+/commons-configuration2/src/test/java/org/apache/commons/configuration2/web/TestServletRequestConfiguration.java
+Methods Invoked: 
 /commons-configuration2/src/test/java/org/apache/commons/configuration2/web/TestServletContextConfiguration.java
 Methods Invoked: 
 	Method name: setServletContext

@@ -1,29 +1,30 @@
 method, origin, count
-mock,org.mockito.Mockito,204
-when,org.mockito.stubbing.Stubber,1328
-doThrow,org.mockito.Mockito,6
-any,org.mockito.ArgumentMatchers,2128
-verify,org.mockito.Mockito,480
-atLeast,org.mockito.Mockito,6
-defaultAnswer,org.mockito.MockSettings,6
-withSettings,org.mockito.Mockito,6
-thenReturn,org.mockito.stubbing.OngoingStubbing<java.lang.Boolean>,162
-eq,org.mockito.ArgumentMatchers,106
-anyString,org.mockito.ArgumentMatchers,18
-same,org.mockito.ArgumentMatchers,72
-spy,org.mockito.Mockito,26
-times,org.mockito.Mockito,58
-never,org.mockito.Mockito,4
-anyInt,org.mockito.ArgumentMatchers,10
-useConstructor,org.mockito.MockSettings,4
-argThat,org.mockito.ArgumentMatchers,4
-forClass,org.mockito.ArgumentCaptor,2
-capture,org.mockito.ArgumentCaptor<byte[]>,2
-getValue,org.mockito.ArgumentCaptor<byte[]>,2
-thenAnswer,org.mockito.stubbing.OngoingStubbing<java.lang.String>,4
-getArgument,org.mockito.invocation.InvocationOnMock,6
-isA,org.mockito.ArgumentMatchers,8
+mock,org.mockito.Mockito,102
+when,org.mockito.stubbing.Stubber,669
+doThrow,org.mockito.Mockito,3
+any,org.mockito.ArgumentMatchers,1079
+verify,org.mockito.Mockito,235
+atLeast,org.mockito.Mockito,3
+defaultAnswer,org.mockito.MockSettings,3
+withSettings,org.mockito.Mockito,3
+thenReturn,org.mockito.stubbing.OngoingStubbing<java.lang.Boolean>,81
+openMocks,org.mockito.MockitoAnnotations,21
+eq,org.mockito.ArgumentMatchers,53
+anyString,org.mockito.ArgumentMatchers,9
+same,org.mockito.ArgumentMatchers,36
+spy,org.mockito.Mockito,13
+times,org.mockito.Mockito,29
+never,org.mockito.Mockito,2
+anyInt,org.mockito.ArgumentMatchers,5
+useConstructor,org.mockito.MockSettings,2
+argThat,org.mockito.ArgumentMatchers,2
+forClass,org.mockito.ArgumentCaptor,1
+capture,org.mockito.ArgumentCaptor<byte[]>,1
+getValue,org.mockito.ArgumentCaptor<byte[]>,1
+thenAnswer,org.mockito.stubbing.OngoingStubbing<java.lang.String>,2
+getArgument,org.mockito.invocation.InvocationOnMock,3
+isA,org.mockito.ArgumentMatchers,4
 
-MockedObjects: ,204
+MockedObjects: ,102
 
-# of Mocked objects each file:,2|1|2|4|7|4|5|7|4|5|17|7|1|1|2|1|1|1|1|2|2|2|1|8|1|10|3|2|1|2|4|7|4|5|7|4|5|17|7|1|1|2|1|1|1|1|2|2|2|1|8|1|10|3|
+# of Mocked objects each file:,2|1|2|4|7|4|5|7|4|5|17|7|1|1|2|1|1|1|1|2|2|2|1|8|1|10|3|

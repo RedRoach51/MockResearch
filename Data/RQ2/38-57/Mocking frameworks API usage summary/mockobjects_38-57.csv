@@ -1,0 +1,4 @@
+method, origin, count
+expectAndReturn,com.mockobjects.dynamic.Mock,3
+setInitParameter,com.mockobjects.servlet.MockServletConfig,4
+setServletContext,com.mockobjects.servlet.MockServletConfig,1

@@ -10,3 +10,5 @@ javax.servlet.http.HttpSession
 javax.servlet.http.HttpServletRequest
 org.apache.commons.chain2.Catalog<java.lang.String,java.lang.Object,org.apache.commons.chain2.cookbook.mailreader.MailReader>
 org.apache.commons.chain2.Command<java.lang.String,java.lang.Object,org.apache.commons.chain2.cookbook.mailreader.MailReader>
+javax.servlet.http.HttpServletResponse
+javax.servlet.ServletConfig

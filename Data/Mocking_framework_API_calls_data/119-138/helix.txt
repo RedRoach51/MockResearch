@@ -1,7 +1,11 @@
+/helix-core/src/test/java/org/apache/helix/cloud/MockHttpClient.java
+Methods Invoked: 
 	Method name: mock
 	Class origin: org.mockito.Mockito
 	Count: 4
  
+/helix-core/src/test/java/org/apache/helix/common/caches/TestPropertyCache.java
+Methods Invoked: 
 	Method name: mock
 	Class origin: org.mockito.Mockito
 	Count: 7
@@ -14,6 +18,8 @@
 	Class origin: org.mockito.ArgumentMatchers
 	Count: 3
  
+/helix-core/src/test/java/org/apache/helix/controller/changedetector/trimmer/TestHelixPropoertyTimmer.java
+Methods Invoked: 
 	Method name: mock
 	Class origin: org.mockito.Mockito
 	Count: 1
@@ -22,6 +28,8 @@
 	Class origin: org.mockito.Mockito
 	Count: 6
  
+/helix-core/src/test/java/org/apache/helix/controller/dataproviders/TestResourceControllerDataProvider.java
+Methods Invoked: 
 	Method name: mock
 	Class origin: org.mockito.Mockito
 	Count: 1
@@ -38,14 +46,20 @@
 	Class origin: org.mockito.stubbing.OngoingStubbing<java.lang.String>
 	Count: 1
  
+/helix-core/src/test/java/org/apache/helix/controller/rebalancer/waged/TestWagedRebalancerMetrics.java
+Methods Invoked: 
 	Method name: when
 	Class origin: org.mockito.Mockito
 	Count: 9
  
+/helix-core/src/test/java/org/apache/helix/controller/rebalancer/waged/MockAssignmentMetadataStore.java
+Methods Invoked: 
 	Method name: mock
 	Class origin: org.mockito.Mockito
 	Count: 1
  
+/helix-core/src/test/java/org/apache/helix/controller/rebalancer/waged/TestWagedRebalancer.java
+Methods Invoked: 
 	Method name: when
 	Class origin: org.mockito.Mockito
 	Count: 23
@@ -58,22 +72,32 @@
 	Class origin: org.mockito.invocation.InvocationOnMock
 	Count: 2
  
+/helix-core/src/test/java/org/apache/helix/controller/rebalancer/waged/constraints/TestResourcePartitionAntiAffinityConstraint.java
+Methods Invoked: 
 	Method name: mock
 	Class origin: org.mockito.Mockito
 	Count: 3
  
+/helix-core/src/test/java/org/apache/helix/controller/rebalancer/waged/constraints/TestNodeCapacityConstraint.java
+Methods Invoked: 
 	Method name: mock
 	Class origin: org.mockito.Mockito
 	Count: 3
  
+/helix-core/src/test/java/org/apache/helix/controller/rebalancer/waged/constraints/TestConstraintBasedAlgorithm.java
+Methods Invoked: 
 	Method name: mock
 	Class origin: org.mockito.Mockito
 	Count: 6
  
+/helix-core/src/test/java/org/apache/helix/controller/rebalancer/waged/constraints/TestValidGroupTagConstraint.java
+Methods Invoked: 
 	Method name: mock
 	Class origin: org.mockito.Mockito
 	Count: 3
  
+/helix-core/src/test/java/org/apache/helix/controller/rebalancer/waged/constraints/MockRebalanceAlgorithm.java
+Methods Invoked: 
 	Method name: mock
 	Class origin: org.mockito.Mockito
 	Count: 1
@@ -82,50 +106,72 @@
 	Class origin: org.mockito.Mockito
 	Count: 1
  
+/helix-core/src/test/java/org/apache/helix/controller/rebalancer/waged/constraints/TestFaultZoneAwareConstraint.java
+Methods Invoked: 
 	Method name: mock
 	Class origin: org.mockito.Mockito
 	Count: 3
  
+/helix-core/src/test/java/org/apache/helix/controller/rebalancer/waged/constraints/TestPartitionMovementConstraint.java
+Methods Invoked: 
 	Method name: mock
 	Class origin: org.mockito.Mockito
 	Count: 7
  
+/helix-core/src/test/java/org/apache/helix/controller/rebalancer/waged/constraints/TestResourceTopStateAntiAffinityConstraint.java
+Methods Invoked: 
 	Method name: mock
 	Class origin: org.mockito.Mockito
 	Count: 3
  
+/helix-core/src/test/java/org/apache/helix/controller/rebalancer/waged/constraints/TestTopStateMaxCapacityUsageInstanceConstraint.java
+Methods Invoked: 
 	Method name: mock
 	Class origin: org.mockito.Mockito
 	Count: 3
  
+/helix-core/src/test/java/org/apache/helix/controller/rebalancer/waged/constraints/TestSamePartitionOnInstanceConstraint.java
+Methods Invoked: 
 	Method name: mock
 	Class origin: org.mockito.Mockito
 	Count: 3
  
+/helix-core/src/test/java/org/apache/helix/controller/rebalancer/waged/constraints/TestNodeMaxPartitionLimitConstraint.java
+Methods Invoked: 
 	Method name: mock
 	Class origin: org.mockito.Mockito
 	Count: 3
  
+/helix-core/src/test/java/org/apache/helix/controller/rebalancer/waged/constraints/TestMaxCapacityUsageInstanceConstraint.java
+Methods Invoked: 
 	Method name: mock
 	Class origin: org.mockito.Mockito
 	Count: 3
  
+/helix-core/src/test/java/org/apache/helix/controller/rebalancer/waged/constraints/TestPartitionActivateConstraint.java
+Methods Invoked: 
 	Method name: mock
 	Class origin: org.mockito.Mockito
 	Count: 3
  
+/helix-core/src/test/java/org/apache/helix/controller/rebalancer/waged/constraints/TestInstancePartitionsCountConstraint.java
+Methods Invoked: 
 	Method name: mock
 	Class origin: org.mockito.Mockito
 	Count: 3
  
+/helix-core/src/test/java/org/apache/helix/controller/rebalancer/waged/model/AbstractTestClusterModel.java
+Methods Invoked: 
 	Method name: mock
 	Class origin: org.mockito.Mockito
-	Count: 4
+	Count: 5
  
 	Method name: when
 	Class origin: org.mockito.Mockito
-	Count: 32
+	Count: 42
  
+/helix-core/src/test/java/org/apache/helix/controller/rebalancer/waged/model/TestClusterModelProvider.java
+Methods Invoked: 
 	Method name: when
 	Class origin: org.mockito.Mockito
 	Count: 3
@@ -138,26 +184,38 @@
 	Class origin: org.mockito.invocation.InvocationOnMock
 	Count: 1
  
+/helix-core/src/test/java/org/apache/helix/controller/rebalancer/waged/model/TestAssignableNode.java
+Methods Invoked: 
 	Method name: when
 	Class origin: org.mockito.Mockito
 	Count: 6
  
+/helix-core/src/test/java/org/apache/helix/controller/rebalancer/waged/model/ClusterModelTestHelper.java
+Methods Invoked: 
 	Method name: when
 	Class origin: org.mockito.Mockito
 	Count: 1
  
+/helix-core/src/test/java/org/apache/helix/controller/stages/TestManagementMessageGeneration.java
+Methods Invoked: 
 	Method name: mock
 	Class origin: org.mockito.Mockito
 	Count: 10
  
+/helix-core/src/test/java/org/apache/helix/controller/stages/TestReplicaLevelThrottling.java
+Methods Invoked: 
 	Method name: when
 	Class origin: org.mockito.Mockito
 	Count: 5
  
+/helix-core/src/test/java/org/apache/helix/controller/stages/TestCancellationMessageGeneration.java
+Methods Invoked: 
 	Method name: mock
 	Class origin: org.mockito.Mockito
 	Count: 18
  
+/helix-core/src/test/java/org/apache/helix/controller/strategy/crushMapping/TestCardDealingAdjustmentAlgorithmV2.java
+Methods Invoked: 
 	Method name: mock
 	Class origin: org.mockito.Mockito
 	Count: 1
@@ -166,6 +224,8 @@
 	Class origin: org.mockito.Mockito
 	Count: 3
  
+/helix-core/src/test/java/org/apache/helix/integration/rebalancer/TestCustomRebalancer.java
+Methods Invoked: 
 	Method name: mock
 	Class origin: org.mockito.Mockito
 	Count: 1
@@ -178,10 +238,14 @@
 	Class origin: org.mockito.stubbing.OngoingStubbing<java.util.Set<java.lang.String>>
 	Count: 1
  
+/helix-core/src/test/java/org/apache/helix/integration/spectator/TestRoutingTableProvider.java
+Methods Invoked: 
 	Method name: newSet
 	Class origin: org.mockito.internal.util.collections.Sets
 	Count: 20
  
+/helix-core/src/test/java/org/apache/helix/manager/zk/TestZkHelixAdmin.java
+Methods Invoked: 
 	Method name: mock
 	Class origin: org.mockito.Mockito
 	Count: 1
@@ -194,6 +258,8 @@
 	Class origin: org.mockito.Mockito
 	Count: 3
  
+/helix-core/src/test/java/org/apache/helix/manager/zk/TestZkBaseDataAccessor.java
+Methods Invoked: 
 	Method name: mock
 	Class origin: org.mockito.Mockito
 	Count: 1
@@ -206,6 +272,8 @@
 	Class origin: org.mockito.Mockito
 	Count: 2
  
+/helix-core/src/test/java/org/apache/helix/messaging/p2pMessage/TestP2PWithStateCancellationMessage.java
+Methods Invoked: 
 	Method name: when
 	Class origin: org.mockito.Mockito
 	Count: 6
@@ -214,6 +282,8 @@
 	Class origin: org.mockito.stubbing.OngoingStubbing<java.lang.String>
 	Count: 2
  
+/helix-core/src/test/java/org/apache/helix/monitoring/TestZKPathDataDumpTask.java
+Methods Invoked: 
 	Method name: mock
 	Class origin: org.mockito.Mockito
 	Count: 2
@@ -226,6 +296,8 @@
 	Class origin: org.mockito.stubbing.OngoingStubbing<java.lang.String>
 	Count: 2
  
+/helix-core/src/test/java/org/apache/helix/monitoring/mbeans/TestClusterStatusMonitor.java
+Methods Invoked: 
 	Method name: mock
 	Class origin: org.mockito.Mockito
 	Count: 2
@@ -234,10 +306,14 @@
 	Class origin: org.mockito.Mockito
 	Count: 3
  
+/helix-core/src/test/java/org/apache/helix/task/TestTargetedTaskStateChange.java
+Methods Invoked: 
 	Method name: when
 	Class origin: org.mockito.Mockito
 	Count: 24
  
+/helix-core/src/test/java/org/apache/helix/task/TestDropTerminalTasksUponReset.java
+Methods Invoked: 
 	Method name: mock
 	Class origin: org.mockito.Mockito
 	Count: 1
@@ -250,6 +326,8 @@
 	Class origin: org.mockito.stubbing.OngoingStubbing<java.lang.String>
 	Count: 2
  
+/helix-core/src/test/java/org/apache/helix/task/TestTaskUtil.java
+Methods Invoked: 
 	Method name: mock
 	Class origin: org.mockito.Mockito
 	Count: 9
@@ -258,6 +336,8 @@
 	Class origin: org.mockito.Mockito
 	Count: 24
  
+/helix-core/src/test/java/org/apache/helix/task/TestTaskStateModelFactory.java
+Methods Invoked: 
 	Method name: spy
 	Class origin: org.mockito.Mockito
 	Count: 1
@@ -270,6 +350,8 @@
 	Class origin: org.mockito.Mockito
 	Count: 3
  
+/helix-core/src/test/java/org/apache/helix/task/TestCurrentInstanceToTaskAssignmentsWithPendingMessage.java
+Methods Invoked: 
 	Method name: mock
 	Class origin: org.mockito.Mockito
 	Count: 1
@@ -278,6 +360,8 @@
 	Class origin: org.mockito.Mockito
 	Count: 2
  
+/helix-core/src/test/java/org/apache/helix/util/TestInstanceValidationUtil.java
+Methods Invoked: 
 	Method name: when
 	Class origin: org.mockito.stubbing.Stubber
 	Count: 45
@@ -286,6 +370,8 @@
 	Class origin: org.mockito.Mockito
 	Count: 45
  
+/helix-rest/src/test/java/org/apache/helix/rest/client/TestCustomRestClient.java
+Methods Invoked: 
 	Method name: initMocks
 	Class origin: org.mockito.MockitoAnnotations
 	Count: 1
@@ -294,14 +380,8 @@
 	Class origin: org.mockito.Mockito
 	Count: 14
  
-	Method name: mock
-	Class origin: org.mockito.Mockito
-	Count: 3
- 
-	Method name: when
-	Class origin: org.mockito.Mockito
-	Count: 7
- 
+/helix-rest/src/test/java/org/apache/helix/rest/clusterMaintenanceService/TestMaintenanceManagementService.java
+Methods Invoked: 
 	Method name: initMocks
 	Class origin: org.mockito.MockitoAnnotations
 	Count: 1
@@ -314,11 +394,47 @@
 	Class origin: org.mockito.Mockito
 	Count: 2
  
+/helix-rest/src/test/java/org/apache/helix/rest/common/TestHelixDataAccessorWrapper.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 3
+ 
+/helix-rest/src/test/java/org/apache/helix/rest/server/service/TestClusterService.java
+Methods Invoked: 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 7
+ 
+/helix-rest/src/test/java/org/apache/helix/rest/server/util/TestInstanceValidationUtilInRest.java
+Methods Invoked: 
 	Method name: when
 	Class origin: org.mockito.Mockito
 	Count: 7
  
 	Method name: thenReturn
 	Class origin: org.mockito.stubbing.OngoingStubbing<java.lang.Object>
+	Count: 2
+ 
+/zookeeper-api/src/test/java/org/apache/helix/zookeeper/zkclient/TestZkConnection.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 2
+ 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<java.util.List<java.lang.String>>
+	Count: 1
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 2
+ 
+	Method name: anyString
+	Class origin: org.mockito.ArgumentMatchers
+	Count: 2
+ 
+	Method name: anyBoolean
+	Class origin: org.mockito.ArgumentMatchers
 	Count: 2
  

@@ -1,0 +1,17 @@
+project name, variety of inside mocked classes, variety of outside mocked classes, proportion of mocked classes
+commons-vfs,0,0,
+commons-weaver,0,0,
+continuum,0,0,
+crunch,20,9,
+ctakes,0,0,
+curator,4,2,
+cxf,163,72,
+deltaspike,2,5,
+derby,0,0,
+directmemory,0,4,
+directory-ldap-api,0,2,
+directory-server,0,0,
+directory-studio,0,0,
+ 
+more inside classes mocked: ,more outside classes mocked: 
+3,3

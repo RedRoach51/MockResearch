@@ -1,0 +1,1420 @@
+/cxf-core/src/test/java/org/apache/cxf/attachment/AttachmentUtilTest.java
+	org.apache.cxf.io.CachedOutputStream
+	org.apache.cxf.io.CachedOutputStream
+	org.apache.cxf.io.CachedOutputStream
+	org.apache.cxf.io.CachedOutputStream
+	org.apache.cxf.io.CachedOutputStream
+	org.apache.cxf.io.CachedOutputStream
+	org.apache.cxf.io.CachedOutputStream
+	org.apache.cxf.io.CachedOutputStream
+	org.apache.cxf.io.CachedOutputStream
+/cxf-core/src/test/java/org/apache/cxf/bus/CXFBusImplTest.java
+	org.apache.cxf.binding.BindingFactoryManager
+	org.apache.cxf.management.InstrumentationManager
+	org.apache.cxf.phase.PhaseManager
+	org.apache.cxf.buslifecycle.BusLifeCycleListener
+/cxf-core/src/test/java/org/apache/cxf/bus/managers/EndpointResolverRegistryImplTest.java
+	org.apache.cxf.endpoint.EndpointResolver
+	org.apache.cxf.endpoint.EndpointResolver
+	org.apache.cxf.ws.addressing.EndpointReferenceType
+	org.apache.cxf.ws.addressing.EndpointReferenceType
+	org.apache.cxf.ws.addressing.EndpointReferenceType
+/cxf-core/src/test/java/org/apache/cxf/bus/managers/ServiceContractResolverRegistryImplTest.java
+	org.apache.cxf.endpoint.ServiceContractResolver
+	org.apache.cxf.endpoint.ServiceContractResolver
+/cxf-core/src/test/java/org/apache/cxf/bus/osgi/OSGiBusListenerTest.java
+	org.apache.cxf.Bus
+	org.apache.cxf.buslifecycle.BusLifeCycleManager
+	org.osgi.framework.BundleContext
+	org.osgi.framework.BundleContext
+	org.osgi.framework.Bundle
+	org.apache.cxf.endpoint.ClientLifeCycleManager
+	org.apache.cxf.endpoint.ClientLifeCycleListener
+	org.apache.cxf.endpoint.ServerLifeCycleManager
+	org.apache.cxf.endpoint.ServerLifeCycleListener
+	org.apache.cxf.feature.Feature
+	org.osgi.framework.ServiceReference<java.lang.Object>
+	org.osgi.framework.Bundle
+/cxf-core/src/test/java/org/apache/cxf/bus/spring/SpringBusFactoryTest.java
+	org.apache.cxf.buslifecycle.BusLifeCycleListener
+/cxf-core/src/test/java/org/apache/cxf/bus/spring/BusApplicationListenerTest.java
+	org.apache.cxf.buslifecycle.BusLifeCycleListener
+/cxf-core/src/test/java/org/apache/cxf/buslifecycle/CXFBusLifeCycleManagerTest.java
+	org.apache.cxf.buslifecycle.BusLifeCycleListener
+	org.apache.cxf.buslifecycle.BusLifeCycleListener
+	org.apache.cxf.buslifecycle.BusLifeCycleListener
+	org.apache.cxf.buslifecycle.BusLifeCycleListener
+	org.apache.cxf.buslifecycle.BusLifeCycleListener
+	org.apache.cxf.buslifecycle.BusLifeCycleListener
+/cxf-core/src/test/java/org/apache/cxf/common/annotation/AnnotationProcessorTest.java
+	org.apache.cxf.common.annotation.AnnotationVisitor
+/cxf-core/src/test/java/org/apache/cxf/common/injection/ResourceInjectorTest.java
+	org.apache.cxf.resource.ResourceManager
+/cxf-core/src/test/java/org/apache/cxf/common/logging/LogUtilsTest.java
+	java.util.logging.Handler
+	java.util.logging.Handler
+	java.util.logging.Handler
+	java.util.logging.Handler
+	java.util.logging.Handler
+/cxf-core/src/test/java/org/apache/cxf/common/util/ClassHelperTest.java
+	org.apache.cxf.Bus
+/cxf-core/src/test/java/org/apache/cxf/helpers/ServiceUtilsTest.java
+	org.apache.cxf.message.Message
+/cxf-core/src/test/java/org/apache/cxf/interceptor/OutgoingChainInterceptorTest.java
+	org.apache.cxf.Bus
+	org.apache.cxf.service.Service
+	org.apache.cxf.endpoint.Endpoint
+	org.apache.cxf.binding.Binding
+	org.apache.cxf.service.model.BindingOperationInfo
+	org.apache.cxf.service.model.OperationInfo
+	org.apache.cxf.service.model.MessageInfo
+	org.apache.cxf.service.model.BindingMessageInfo
+/cxf-core/src/test/java/org/apache/cxf/interceptor/ServiceInvokerInterceptorTest.java
+	org.apache.cxf.endpoint.Endpoint
+/cxf-core/src/test/java/org/apache/cxf/interceptor/LoggingOutInterceptorTest.java
+	org.apache.cxf.endpoint.Endpoint
+	org.apache.cxf.service.model.EndpointInfo
+	org.apache.cxf.endpoint.Endpoint
+	org.apache.cxf.service.model.EndpointInfo
+	org.apache.cxf.service.model.BindingInfo
+/cxf-core/src/test/java/org/apache/cxf/interceptor/LoggingInInterceptorTest.java
+	java.io.InputStream
+/cxf-core/src/test/java/org/apache/cxf/interceptor/security/JAASLoginInterceptorTest.java
+	java.security.cert.X509Certificate
+	java.security.Principal
+/cxf-core/src/test/java/org/apache/cxf/interceptor/security/SecureAnnotationsInterceptorTest.java
+	org.apache.cxf.service.Service
+	org.apache.cxf.service.invoker.MethodDispatcher
+	org.apache.cxf.service.model.BindingOperationInfo
+/cxf-core/src/test/java/org/apache/cxf/interceptor/security/SimpleAuthorizingInterceptorTest.java
+	org.apache.cxf.service.Service
+	org.apache.cxf.service.invoker.MethodDispatcher
+	org.apache.cxf.service.model.BindingOperationInfo
+/cxf-core/src/test/java/org/apache/cxf/interceptor/security/OperationInfoAuthorizingInterceptorTest.java
+	org.apache.cxf.service.Service
+	org.apache.cxf.service.invoker.MethodDispatcher
+	org.apache.cxf.service.model.BindingOperationInfo
+	org.apache.cxf.service.model.OperationInfo
+/cxf-core/src/test/java/org/apache/cxf/io/CachedStreamTestBase.java
+	org.apache.cxf.Bus
+/cxf-core/src/test/java/org/apache/cxf/phase/PhaseInterceptorChainTest.java
+	org.apache.cxf.message.Message
+	org.apache.cxf.phase.AbstractPhaseInterceptor<org.apache.cxf.message.Message>
+	org.apache.cxf.logging.FaultListener
+/cxf-core/src/test/java/org/apache/cxf/staxutils/validation/Stax2ValidationUtilsTest.java
+	org.apache.cxf.endpoint.Endpoint
+/cxf-core/src/test/java/org/apache/cxf/transport/ChainInitiationObserverTest.java
+	org.apache.cxf.message.Message
+/cxf-core/src/test/java/org/apache/cxf/transport/common/gzip/GZIPAcceptEncodingTest.java
+	org.apache.cxf.interceptor.InterceptorChain
+/cxf-integration-cdi/src/test/java/org/apache/cxf/cdi/JAXRSCdiResourceExtensionTest.java
+	javax.enterprise.inject.spi.BeanManager
+	javax.enterprise.inject.spi.AfterBeanDiscovery
+	javax.enterprise.inject.spi.Bean<org.apache.cxf.Bus>
+	javax.enterprise.inject.spi.ProcessBean<org.apache.cxf.Bus>
+	javax.enterprise.inject.spi.Annotated
+/cxf-integration-cdi/src/test/java/org/apache/cxf/cdi/CdiResourceProviderTest.java
+	javax.enterprise.inject.spi.BeanManager
+	javax.enterprise.inject.spi.Bean<?>
+/cxf-integration-jca/src/test/java/org/apache/cxf/jca/core/resourceadapter/ManagedConnectionImplTest.java
+	javax.resource.spi.ConnectionEventListener
+	javax.resource.spi.ConnectionEventListener
+	javax.resource.spi.ConnectionEventListener
+	javax.resource.spi.ConnectionEventListener
+	javax.resource.spi.ConnectionEventListener
+	javax.resource.spi.ConnectionEventListener
+	javax.resource.spi.ConnectionEventListener
+/cxf-integration-jca/src/test/java/org/apache/cxf/jca/cxf/AssociatedManagedConnectionFactoryImplTest.java
+	javax.resource.spi.ResourceAdapter
+/cxf-integration-jca/src/test/java/org/apache/cxf/jca/cxf/ManagedConnectionTestBase.java
+	org.apache.cxf.jca.cxf.ManagedConnectionFactoryImpl
+	javax.resource.spi.ConnectionEventListener
+/cxf-integration-jca/src/test/java/org/apache/cxf/jca/cxf/ResourceAdapterImplTest.java
+	org.apache.cxf.Bus
+	javax.resource.spi.BootstrapContext
+	org.apache.cxf.Bus
+/cxf-integration-jca/src/test/java/org/apache/cxf/jca/cxf/ConnectionFactoryImplTest.java
+	javax.resource.spi.ManagedConnectionFactory
+	javax.resource.spi.ConnectionManager
+	javax.naming.Reference
+/cxf-integration-jca/src/test/java/org/apache/cxf/jca/cxf/JCABusFactoryTest.java
+	org.apache.cxf.Bus
+	org.apache.cxf.Bus
+/cxf-integration-jca/src/test/java/org/apache/cxf/jca/cxf/ManagedConnectionFactoryImplTest.java
+	org.apache.cxf.jca.cxf.ManagedConnectionFactoryImpl
+	javax.resource.spi.ConnectionManager
+/cxf-integration-jca/src/test/java/org/apache/cxf/jca/cxf/ManagedConnectionImplTest.java
+	java.lang.reflect.InvocationHandler
+/cxf-integration-jca/src/test/java/org/apache/cxf/jca/cxf/handlers/HandlerTestBase.java
+	org.apache.cxf.Bus
+	org.apache.cxf.jca.cxf.CXFManagedConnection
+	org.apache.cxf.jca.cxf.CXFInvocationHandler
+	org.apache.cxf.jca.cxf.ManagedConnectionFactoryImpl
+	org.apache.cxf.jca.cxf.ManagedConnectionImpl
+/cxf-integration-jca/src/test/java/org/apache/cxf/jca/outbound/ManagedConnectionImplTest.java
+	org.apache.cxf.jca.outbound.ManagedConnectionFactoryImpl
+/cxf-rt-bindings-coloc/src/test/java/org/apache/cxf/binding/coloc/ColocMessageObserverTest.java
+	org.apache.cxf.endpoint.Endpoint
+	org.apache.cxf.Bus
+	org.apache.cxf.service.Service
+	org.apache.cxf.binding.Binding
+	org.apache.cxf.service.model.EndpointInfo
+	org.apache.cxf.service.model.BindingInfo
+	org.apache.cxf.service.model.BindingOperationInfo
+	org.apache.cxf.binding.Binding
+/cxf-rt-bindings-coloc/src/test/java/org/apache/cxf/binding/coloc/ColocUtilTest.java
+	org.apache.cxf.Bus
+	org.apache.cxf.endpoint.Endpoint
+	org.apache.cxf.service.Service
+	org.apache.cxf.endpoint.Endpoint
+	org.apache.cxf.service.Service
+	org.apache.cxf.service.model.OperationInfo
+	org.apache.cxf.service.model.OperationInfo
+/cxf-rt-bindings-coloc/src/test/java/org/apache/cxf/binding/coloc/ColocOutInterceptorTest.java
+	org.apache.cxf.endpoint.ServerRegistry
+	org.apache.cxf.endpoint.ServerRegistry
+	org.apache.cxf.endpoint.Endpoint
+	org.apache.cxf.endpoint.ServerRegistry
+	org.apache.cxf.endpoint.Server
+	org.apache.cxf.endpoint.Endpoint
+	org.apache.cxf.service.model.BindingInfo
+	org.apache.cxf.service.model.BindingOperationInfo
+	org.apache.cxf.service.model.BindingOperationInfo
+	org.apache.cxf.service.Service
+	org.apache.cxf.service.model.EndpointInfo
+	org.apache.cxf.endpoint.Endpoint
+	org.apache.cxf.service.Service
+	org.apache.cxf.service.model.BindingInfo
+	org.apache.cxf.service.model.EndpointInfo
+	org.apache.cxf.interceptor.InterceptorChain
+	org.apache.cxf.endpoint.Endpoint
+	org.apache.cxf.binding.Binding
+	org.apache.cxf.service.Service
+	org.apache.cxf.endpoint.Endpoint
+	org.apache.cxf.service.Service
+	org.apache.cxf.service.model.EndpointInfo
+	org.apache.cxf.endpoint.Server
+	org.apache.cxf.endpoint.Endpoint
+	org.apache.cxf.service.Service
+	org.apache.cxf.endpoint.Endpoint
+	org.apache.cxf.service.Service
+	org.apache.cxf.endpoint.Server
+	org.apache.cxf.endpoint.Endpoint
+	org.apache.cxf.service.model.BindingOperationInfo
+	org.apache.cxf.service.Service
+	org.apache.cxf.service.model.EndpointInfo
+	org.apache.cxf.endpoint.Endpoint
+	org.apache.cxf.service.Service
+	org.apache.cxf.service.model.EndpointInfo
+	org.apache.cxf.endpoint.Server
+	org.apache.cxf.endpoint.Endpoint
+	org.apache.cxf.service.model.BindingOperationInfo
+	org.apache.cxf.service.Service
+	org.apache.cxf.service.model.ServiceInfo
+	org.apache.cxf.service.model.EndpointInfo
+	org.apache.cxf.endpoint.Endpoint
+	org.apache.cxf.service.Service
+	org.apache.cxf.service.model.EndpointInfo
+	org.apache.cxf.endpoint.Server
+	org.apache.cxf.endpoint.Endpoint
+	org.apache.cxf.service.model.BindingOperationInfo
+	org.apache.cxf.service.Service
+	org.apache.cxf.service.model.EndpointInfo
+	org.apache.cxf.service.model.BindingInfo
+	org.apache.cxf.endpoint.Endpoint
+	org.apache.cxf.service.Service
+	org.apache.cxf.service.model.EndpointInfo
+	org.apache.cxf.service.model.BindingOperationInfo
+	org.apache.cxf.endpoint.Server
+	org.apache.cxf.endpoint.Endpoint
+	org.apache.cxf.service.model.BindingOperationInfo
+	org.apache.cxf.service.Service
+	org.apache.cxf.service.model.EndpointInfo
+	org.apache.cxf.service.model.BindingInfo
+	org.apache.cxf.endpoint.Endpoint
+	org.apache.cxf.service.Service
+	org.apache.cxf.service.model.EndpointInfo
+	org.apache.cxf.service.model.BindingOperationInfo
+	org.apache.cxf.Bus
+/cxf-rt-bindings-corba/src/test/java/org/apache/cxf/binding/corba/CorbaBindingFactoryTest.java
+	org.apache.cxf.service.model.BindingInfo
+	org.apache.cxf.ws.addressing.EndpointReferenceType
+/cxf-rt-bindings-corba/src/test/java/org/apache/cxf/binding/corba/CorbaConduitTest.java
+	org.apache.cxf.binding.corba.CorbaConduit
+	org.omg.CORBA.Object
+	org.apache.cxf.binding.corba.CorbaMessage
+	org.apache.cxf.message.Exchange
+	org.apache.cxf.service.model.BindingOperationInfo
+	org.apache.cxf.binding.corba.wsdl.OperationType
+	java.io.OutputStream
+	org.apache.cxf.binding.corba.CorbaConduit
+	org.apache.cxf.binding.corba.wsdl.OperationType
+	org.apache.cxf.binding.corba.CorbaTypeMap
+	java.util.List<org.apache.cxf.binding.corba.wsdl.RaisesType>
+	org.apache.cxf.binding.corba.wsdl.RaisesType
+	org.apache.cxf.binding.corba.CorbaMessage
+	org.apache.cxf.message.Exchange
+	org.apache.cxf.service.model.ServiceInfo
+	java.util.List<org.apache.cxf.binding.corba.CorbaTypeMap>
+	org.apache.cxf.binding.corba.CorbaTypeMap
+	org.apache.cxf.binding.corba.wsdl.OperationType
+	org.apache.cxf.binding.corba.CorbaMessage
+	org.omg.CORBA.Object
+	org.omg.CORBA.Request
+	org.omg.CORBA.NamedValue
+	org.omg.CORBA.ExceptionList
+	org.apache.cxf.ws.addressing.EndpointReferenceType
+	org.apache.cxf.service.model.EndpointInfo
+/cxf-rt-bindings-corba/src/test/java/org/apache/cxf/binding/corba/CorbaMessageTest.java
+	org.apache.cxf.message.Message
+/cxf-rt-bindings-corba/src/test/java/org/apache/cxf/binding/corba/CorbaServerConduitTest.java
+	org.omg.CORBA.Object
+	org.apache.cxf.binding.corba.CorbaServerConduit
+	org.apache.cxf.binding.corba.CorbaMessage
+	java.io.OutputStream
+	org.apache.cxf.binding.corba.CorbaMessage
+	org.apache.cxf.message.Exchange
+	org.omg.CORBA.ServerRequest
+	org.apache.cxf.binding.corba.CorbaMessage
+	org.apache.cxf.binding.corba.CorbaMessage
+	org.apache.cxf.message.Exchange
+	org.omg.CORBA.ServerRequest
+	org.apache.cxf.binding.corba.CorbaMessage
+	org.apache.cxf.binding.corba.CorbaMessage
+	org.apache.cxf.message.Exchange
+	org.omg.CORBA.ServerRequest
+	org.apache.cxf.ws.addressing.EndpointReferenceType
+	org.apache.cxf.service.model.EndpointInfo
+/cxf-rt-bindings-corba/src/test/java/org/apache/cxf/binding/corba/runtime/CorbaStreamReaderTest.java
+	org.apache.cxf.binding.corba.types.CorbaTypeEventProducer
+/cxf-rt-bindings-soap/src/test/java/org/apache/cxf/binding/soap/RPCOutInterceptorTest.java
+	org.apache.cxf.service.Service
+/cxf-rt-bindings-soap/src/test/java/org/apache/cxf/binding/soap/SoapBindingFactoryTest.java
+	org.apache.cxf.Bus
+	org.apache.cxf.transport.DestinationFactoryManager
+	org.apache.cxf.transport.DestinationFactoryManager
+	org.apache.cxf.transport.DestinationFactoryManager
+/cxf-rt-bindings-soap/src/test/java/org/apache/cxf/binding/soap/TestBase.java
+	org.apache.cxf.Bus
+	org.apache.cxf.binding.BindingFactoryManager
+	org.apache.cxf.transport.DestinationFactoryManager
+/cxf-rt-bindings-soap/src/test/java/org/apache/cxf/binding/soap/RPCInInterceptorTest.java
+	org.apache.cxf.service.Service
+/cxf-rt-bindings-soap/src/test/java/org/apache/cxf/binding/soap/ServiceModelUtilTest.java
+	org.apache.cxf.Bus
+	org.apache.cxf.binding.BindingFactoryManager
+	org.apache.cxf.transport.DestinationFactoryManager
+/cxf-rt-bindings-soap/src/test/java/org/apache/cxf/binding/soap/interceptor/SoapActionInInterceptorTest.java
+	org.apache.cxf.binding.soap.SoapMessage
+/cxf-rt-bindings-soap/src/test/java/org/apache/cxf/binding/soap/interceptor/SoapPreProtocolOutInterceptorTest.java
+/cxf-rt-bindings-soap/src/test/java/org/apache/cxf/binding/soap/jms/interceptor/SoapFaultFactoryTest.java
+	org.apache.cxf.binding.soap.jms.interceptor.JMSFault
+	org.apache.cxf.binding.soap.SoapBinding
+	org.apache.cxf.binding.soap.SoapBinding
+/cxf-rt-databinding-aegis/src/test/java/org/apache/cxf/aegis/type/mtom/DataSourceTypeTest.java
+	javax.activation.DataSource
+	java.io.InputStream
+	javax.activation.DataSource
+	java.io.InputStream
+/cxf-rt-databinding-jaxb/src/test/java/org/apache/cxf/jaxb/DocLiteralInInterceptorTest.java
+	org.apache.cxf.binding.BindingFactory
+	org.apache.cxf.binding.Binding
+/cxf-rt-databinding-jaxb/src/test/java/org/apache/cxf/jaxb/BareOutInterceptorTest.java
+	org.apache.cxf.interceptor.InterceptorChain
+/cxf-rt-databinding-jaxb/src/test/java/org/apache/cxf/jaxb/BareInInterceptorTest.java
+	org.apache.cxf.binding.BindingFactory
+	org.apache.cxf.binding.Binding
+/cxf-rt-databinding-jaxb/src/test/java/org/apache/cxf/jaxb/JAXBDataBindingTest.java
+	org.apache.cxf.Bus
+	org.apache.cxf.binding.BindingFactoryManager
+	org.apache.cxf.transport.DestinationFactoryManager
+/cxf-rt-databinding-jaxb/src/test/java/org/apache/cxf/jaxb/TestBase.java
+	org.apache.cxf.binding.BindingFactory
+	org.apache.cxf.binding.Binding
+/cxf-rt-features-metrics/src/test/java/org/apache/cxf/metrics/micrometer/MicrometerServerMetricsContextTest.java
+	org.mockito.ArgumentCaptor<org.apache.cxf.metrics.micrometer.MicrometerMetricsContext.TimingContext>
+	org.mockito.ArgumentCaptor<io.micrometer.core.instrument.Timer>
+	io.micrometer.core.instrument.Timer.Sample
+	org.apache.cxf.metrics.micrometer.provider.TagsProvider
+	org.apache.cxf.metrics.micrometer.provider.TimedAnnotationProvider
+	org.apache.cxf.message.Message
+	org.apache.cxf.message.Exchange
+	io.micrometer.core.annotation.Timed
+	io.micrometer.core.annotation.Timed
+	org.apache.cxf.metrics.micrometer.provider.TagsCustomizer
+	org.apache.cxf.metrics.micrometer.provider.TagsCustomizer
+/cxf-rt-features-metrics/src/test/java/org/apache/cxf/metrics/micrometer/MicrometerClientMetricsContextTest.java
+	org.mockito.ArgumentCaptor<org.apache.cxf.metrics.micrometer.MicrometerMetricsContext.TimingContext>
+	org.mockito.ArgumentCaptor<io.micrometer.core.instrument.Timer>
+	io.micrometer.core.instrument.Timer.Sample
+	org.apache.cxf.metrics.micrometer.provider.TagsProvider
+	org.apache.cxf.metrics.micrometer.provider.TimedAnnotationProvider
+	org.apache.cxf.message.Message
+	org.apache.cxf.message.Exchange
+	io.micrometer.core.annotation.Timed
+	io.micrometer.core.annotation.Timed
+	org.apache.cxf.metrics.micrometer.provider.TagsCustomizer
+	org.apache.cxf.metrics.micrometer.provider.TagsCustomizer
+/cxf-rt-features-metrics/src/test/java/org/apache/cxf/metrics/micrometer/MicrometerMetricsProviderTest.java
+	io.micrometer.core.instrument.MeterRegistry
+	org.apache.cxf.metrics.micrometer.provider.TagsProvider
+	org.apache.cxf.metrics.micrometer.provider.TimedAnnotationProvider
+	org.apache.cxf.endpoint.Endpoint
+	org.apache.cxf.service.model.BindingOperationInfo
+	org.apache.cxf.metrics.micrometer.provider.TagsCustomizer
+/cxf-rt-features-metrics/src/test/java/org/apache/cxf/metrics/micrometer/provider/DefaultTimedAnnotationProviderTest.java
+	org.apache.cxf.message.Exchange
+	org.apache.cxf.service.Service
+	org.apache.cxf.service.model.BindingOperationInfo
+	org.apache.cxf.service.invoker.MethodDispatcher
+	org.apache.cxf.message.Message
+/cxf-rt-features-metrics/src/test/java/org/apache/cxf/metrics/micrometer/provider/StandardTagsTest.java
+	org.apache.cxf.message.Message
+	org.apache.cxf.message.Message
+	org.apache.cxf.message.Exchange
+	org.apache.cxf.service.model.BindingOperationInfo
+/cxf-rt-features-metrics/src/test/java/org/apache/cxf/metrics/micrometer/provider/StandardTagsProviderTest.java
+	org.apache.cxf.metrics.micrometer.provider.ExceptionClassProvider
+	org.apache.cxf.message.Exchange
+	org.apache.cxf.message.Message
+	org.apache.cxf.message.Message
+	org.apache.cxf.metrics.micrometer.provider.StandardTags
+/cxf-rt-features-metrics/src/test/java/org/apache/cxf/metrics/micrometer/provider/DefaultExceptionClassProviderTest.java
+	org.apache.cxf.message.Exchange
+	org.apache.cxf.message.Message
+	org.apache.cxf.message.Message
+/cxf-rt-features-metrics/src/test/java/org/apache/cxf/metrics/micrometer/provider/jaxws/JaxwsOperationTagsCustomizerTest.java
+	org.apache.cxf.message.Exchange
+	org.apache.cxf.message.Message
+	org.apache.cxf.metrics.micrometer.provider.jaxws.JaxwsTags
+/cxf-rt-features-metrics/src/test/java/org/apache/cxf/metrics/micrometer/provider/jaxws/JaxwsTagsTest.java
+	org.apache.cxf.message.Message
+	org.apache.cxf.message.Exchange
+	org.apache.cxf.service.model.BindingOperationInfo
+/cxf-rt-features-metrics/src/test/java/org/apache/cxf/metrics/micrometer/provider/jaxws/JaxwsFaultCodeTagsCustomizerTest.java
+	org.apache.cxf.message.Exchange
+	org.apache.cxf.metrics.micrometer.provider.jaxws.JaxwsTags
+	org.apache.cxf.metrics.micrometer.provider.jaxws.JaxwsFaultCodeProvider
+/cxf-rt-features-metrics/src/test/java/org/apache/cxf/metrics/micrometer/provider/jaxws/JaxwsFaultCodeProviderTest.java
+	org.apache.cxf.message.Exchange
+	org.apache.cxf.message.Message
+/cxf-rt-frontend-jaxrs/src/test/java/org/apache/cxf/jaxrs/SelectMethodCandidatesTest.java
+	org.apache.cxf.endpoint.Endpoint
+/cxf-rt-frontend-jaxrs/src/test/java/org/apache/cxf/jaxrs/ext/MessageContextImplTest.java
+	javax.servlet.http.HttpServletRequest
+	javax.servlet.http.HttpServletResponse
+	javax.servlet.ServletContext
+	javax.servlet.ServletConfig
+	org.apache.cxf.endpoint.Endpoint
+	org.apache.cxf.endpoint.Endpoint
+/cxf-rt-frontend-jaxrs/src/test/java/org/apache/cxf/jaxrs/impl/AsyncResponseImplTest.java
+	javax.servlet.http.HttpServletRequest
+	javax.servlet.http.HttpServletResponse
+	javax.servlet.AsyncContext
+	javax.servlet.http.HttpServletRequest
+	javax.servlet.http.HttpServletResponse
+	javax.servlet.AsyncContext
+	javax.servlet.http.HttpServletRequest
+	javax.servlet.http.HttpServletResponse
+	javax.servlet.AsyncContext
+	javax.servlet.http.HttpServletRequest
+	javax.servlet.AsyncContext
+/cxf-rt-frontend-jaxrs/src/test/java/org/apache/cxf/jaxrs/impl/ResponseImplTest.java
+	org.apache.cxf.endpoint.Endpoint
+	java.io.InputStream
+	java.io.InputStream
+	java.io.InputStream
+	java.io.InputStream
+	java.io.InputStream
+/cxf-rt-frontend-jaxrs/src/test/java/org/apache/cxf/jaxrs/impl/UriInfoImplTest.java
+	org.apache.cxf.transport.servlet.ServletDestination
+/cxf-rt-frontend-jaxrs/src/test/java/org/apache/cxf/jaxrs/impl/RequestPreprocessorTest.java
+	org.apache.cxf.endpoint.Endpoint
+	org.apache.cxf.transport.servlet.ServletDestination
+	org.apache.cxf.service.model.BindingInfo
+/cxf-rt-frontend-jaxrs/src/test/java/org/apache/cxf/jaxrs/lifecycle/PerRequestResourceProviderTest.java
+	org.apache.cxf.endpoint.Endpoint
+/cxf-rt-frontend-jaxrs/src/test/java/org/apache/cxf/jaxrs/model/OperationResourceInfoTest.java
+	org.apache.cxf.endpoint.Endpoint
+/cxf-rt-frontend-jaxrs/src/test/java/org/apache/cxf/jaxrs/provider/AbstractConfigurableProviderTest.java
+	org.apache.cxf.Bus
+/cxf-rt-frontend-jaxrs/src/test/java/org/apache/cxf/jaxrs/provider/ProviderFactoryTest.java
+	org.apache.cxf.endpoint.Endpoint
+/cxf-rt-frontend-jaxrs/src/test/java/org/apache/cxf/jaxrs/provider/XSLTJaxbProviderTest.java
+	org.apache.cxf.endpoint.Endpoint
+/cxf-rt-frontend-jaxrs/src/test/java/org/apache/cxf/jaxrs/provider/JAXBElementProviderTest.java
+	org.apache.cxf.endpoint.Endpoint
+/cxf-rt-frontend-jaxrs/src/test/java/org/apache/cxf/jaxrs/springmvc/SpringViewResolverProviderTest.java
+	org.springframework.web.servlet.ViewResolver
+	org.springframework.web.servlet.LocaleResolver
+	org.springframework.web.servlet.View
+	javax.servlet.http.HttpServletRequest
+	javax.servlet.http.HttpServletResponse
+	javax.servlet.ServletContext
+	javax.servlet.RequestDispatcher
+/cxf-rt-frontend-jaxrs/src/test/java/org/apache/cxf/jaxrs/utils/JAXRSUtilsTest.java
+	javax.servlet.http.HttpServletRequest
+	javax.servlet.http.HttpServletResponse
+	javax.servlet.ServletContext
+	javax.servlet.ServletConfig
+	javax.servlet.http.HttpServletResponse
+	javax.servlet.ServletContext
+	javax.servlet.http.HttpServletRequest
+	javax.servlet.http.HttpServletResponse
+	javax.servlet.ServletContext
+	javax.servlet.http.HttpServletRequest
+	javax.servlet.http.HttpServletResponse
+	javax.servlet.http.HttpServletResponse
+	javax.servlet.http.HttpServletRequest
+	javax.servlet.http.HttpServletResponse
+	javax.servlet.ServletContext
+	org.apache.cxf.endpoint.Endpoint
+/cxf-rt-frontend-jaxrs/src/test/java/org/apache/cxf/jaxrs/utils/FormUtilsTest.java
+	org.apache.cxf.message.Message
+	javax.servlet.http.HttpServletRequest
+/cxf-rt-frontend-jaxrs/src/test/java/org/apache/cxf/jaxrs/utils/HttpUtilsTest.java
+	javax.servlet.http.HttpServletRequest
+	javax.servlet.http.HttpServletRequest
+	org.apache.cxf.transport.Destination
+/cxf-rt-frontend-jaxrs/src/test/java/org/apache/cxf/jaxrs/utils/InjectionUtilsTest.java
+	org.apache.cxf.endpoint.Endpoint
+/cxf-rt-frontend-jaxws/src/test/java/org/apache/cxf/jaxws/JAXWSMethodInvokerTest.java
+	org.apache.cxf.service.invoker.Factory
+	java.lang.Object
+	org.apache.cxf.message.Exchange
+	org.apache.cxf.service.Service
+	org.apache.cxf.service.invoker.MethodDispatcher
+/cxf-rt-frontend-jaxws/src/test/java/org/apache/cxf/jaxws/handler/AbstractProtocolHandlerInterceptorTest.java
+	org.apache.cxf.jaxws.handler.HandlerChainInvoker
+	org.apache.cxf.jaxws.handler.AbstractProtocolHandlerInterceptorTest.IIOPMessage
+	org.apache.cxf.message.Exchange
+	javax.xml.ws.Binding
+/cxf-rt-frontend-jaxws/src/test/java/org/apache/cxf/jaxws/handler/HandlerChainBuilderTest.java
+	javax.xml.ws.handler.Handler
+	javax.xml.ws.handler.Handler
+	javax.xml.ws.handler.Handler
+	javax.xml.ws.handler.Handler
+	org.apache.cxf.Bus
+/cxf-rt-frontend-jaxws/src/test/java/org/apache/cxf/jaxws/handler/LogicalHandlerInterceptorTest.java
+	javax.xml.ws.Binding
+	org.apache.cxf.jaxws.handler.HandlerChainInvoker
+	org.apache.cxf.message.Message
+	org.apache.cxf.message.Exchange
+	javax.xml.ws.Binding
+	org.apache.cxf.message.Exchange
+	org.apache.cxf.interceptor.InterceptorChain
+	org.apache.cxf.transport.MessageObserver
+/cxf-rt-frontend-jaxws/src/test/java/org/apache/cxf/jaxws/handler/soap/SOAPHandlerInterceptorTest.java
+	javax.xml.ws.Binding
+	org.apache.cxf.message.Exchange
+	javax.xml.ws.Binding
+	org.apache.cxf.message.Exchange
+	javax.xml.ws.Binding
+	org.apache.cxf.message.Exchange
+	javax.xml.ws.Binding
+	org.apache.cxf.message.Exchange
+	javax.xml.ws.Binding
+	org.apache.cxf.binding.soap.SoapMessage
+	org.apache.cxf.message.Exchange
+/cxf-rt-frontend-jaxws/src/test/java/org/apache/cxf/jaxws/support/JaxWsServiceConfigurationTest.java
+	org.apache.cxf.Bus
+	org.apache.cxf.binding.BindingFactoryManager
+	org.apache.cxf.transport.DestinationFactoryManager
+/cxf-rt-frontend-jaxws/src/test/java/org/apache/cxf/transport/http_jaxws_spi/JAXWSHttpSpiDestinationTest.java
+	org.apache.cxf.Bus
+	org.apache.cxf.transport.MessageObserver
+	javax.xml.ws.spi.http.HttpContext
+	javax.xml.ws.spi.http.HttpExchange
+	java.io.OutputStream
+/cxf-rt-frontend-jaxws/src/test/java/org/apache/cxf/transport/http_jaxws_spi/JAXWSHttpSpiTransportFactoryTest.java
+	javax.xml.ws.spi.http.HttpContext
+	org.apache.cxf.Bus
+/cxf-rt-frontend-jaxws/src/test/java/org/apache/cxf/transport/http_jaxws_spi/HttpHandlerImplTest.java
+	org.apache.cxf.transport.http_jaxws_spi.JAXWSHttpSpiDestination
+	javax.xml.ws.spi.http.HttpExchange
+/cxf-rt-frontend-js/src/test/java/org/apache/cxf/js/rhino/ProviderFactoryTest.java
+	org.apache.cxf.js.rhino.AbstractDOMProvider
+/cxf-rt-frontend-js/src/test/java/org/apache/cxf/js/rhino/AbstractDOMProviderTest.java
+	org.mozilla.javascript.Scriptable
+/cxf-rt-frontend-js/src/test/java/org/apache/cxf/js/rhino/ServerAppTest.java
+	org.apache.cxf.js.rhino.ProviderFactory
+/cxf-rt-management/src/test/java/org/apache/cxf/management/counters/CounterRepositoryTest.java
+	org.apache.cxf.Bus
+	org.apache.cxf.management.counters.MessageHandlingTimeRecorder
+	org.apache.cxf.management.counters.MessageHandlingTimeRecorder
+	org.apache.cxf.management.counters.MessageHandlingTimeRecorder
+	org.apache.cxf.management.counters.MessageHandlingTimeRecorder
+/cxf-rt-management/src/test/java/org/apache/cxf/management/interceptor/AbstractMessageResponseTestBase.java
+	org.apache.cxf.message.Message
+	org.apache.cxf.message.Exchange
+	org.apache.cxf.Bus
+	org.apache.cxf.management.counters.CounterRepository
+	org.apache.cxf.service.Service
+	org.apache.cxf.endpoint.Endpoint
+	org.apache.cxf.service.model.EndpointInfo
+	org.apache.cxf.service.model.OperationInfo
+	org.apache.cxf.service.model.BindingOperationInfo
+/cxf-rt-management/src/test/java/org/apache/cxf/management/interceptor/ResponseTimeMessageInvokerInterceptorTest.java
+	org.apache.cxf.management.counters.MessageHandlingTimeRecorder
+/cxf-rt-management/src/test/java/org/apache/cxf/management/interceptor/ResponseTimeMessageOutInterceptorTest.java
+	org.apache.cxf.management.counters.MessageHandlingTimeRecorder
+	org.apache.cxf.management.counters.MessageHandlingTimeRecorder
+	org.apache.cxf.management.counters.MessageHandlingTimeRecorder
+	org.apache.cxf.interceptor.InterceptorChain
+/cxf-rt-management/src/test/java/org/apache/cxf/management/interceptor/ResponseTimeMessageInInterceptorTest.java
+	org.apache.cxf.management.counters.MessageHandlingTimeRecorder
+	org.apache.cxf.management.counters.MessageHandlingTimeRecorder
+	org.apache.cxf.management.counters.MessageHandlingTimeRecorder
+/cxf-rt-rs-extension-providers/src/test/java/org/apache/cxf/jaxrs/provider/dom4j/DOM4JProviderTest.java
+	org.apache.cxf.endpoint.Endpoint
+	org.apache.cxf.endpoint.Endpoint
+/cxf-rt-rs-mp-client/src/test/java/org/apache/cxf/microprofile/client/AsyncTest.java
+/cxf-rt-rs-mp-client/src/test/java/org/apache/cxf/microprofile/client/cdi/RestClientCdiTest.java
+	javax.enterprise.inject.spi.BeanManager
+	javax.enterprise.inject.spi.BeanManager
+	javax.enterprise.context.spi.CreationalContext<>
+	javax.enterprise.inject.spi.Bean<>
+	javax.enterprise.inject.spi.BeanManager
+	javax.enterprise.context.spi.CreationalContext<>
+	javax.enterprise.inject.spi.Bean<>
+/cxf-rt-rs-security-http-signature/src/test/java/org/apache/cxf/rs/security/httpsignature/SpecExamplesTest.java
+	javax.ws.rs.client.ClientRequestContext
+	javax.ws.rs.container.ContainerRequestContext
+	javax.ws.rs.core.UriInfo
+/cxf-rt-rs-security-oauth2/src/test/java/org/apache/cxf/rs/security/oauth2/client/OAuthClientUtilsTest.java
+	org.apache.cxf.jaxrs.client.WebClient
+	org.apache.cxf.jaxrs.client.WebClient
+/cxf-rt-rs-security-oauth2/src/test/java/org/apache/cxf/rs/security/oauth2/grants/jwt/AbstractJwtHandlerTest.java
+	org.apache.cxf.rs.security.jose.jws.JwsSignatureVerifier
+	org.apache.cxf.rs.security.jose.jws.JwsHeaders
+/cxf-rt-rs-security-oauth2/src/test/java/org/apache/cxf/rs/security/oauth2/tokens/hawk/HawkAccessTokenValidatorTest.java
+	org.apache.cxf.rs.security.oauth2.provider.OAuthDataProvider
+	org.apache.cxf.jaxrs.ext.MessageContext
+	javax.servlet.http.HttpServletRequest
+	javax.ws.rs.core.UriInfo
+/cxf-rt-rs-security-oauth2/src/test/java/org/apache/cxf/rs/security/oauth2/tokens/hawk/NonceVerifierImplTest.java
+	org.apache.cxf.rs.security.oauth2.tokens.hawk.NonceStore
+/cxf-rt-rs-service-description/src/test/java/org/apache/cxf/jaxrs/model/wadl/WadlGeneratorTest.java
+	org.apache.cxf.transport.servlet.ServletDestination
+	org.apache.cxf.service.model.BindingInfo
+/cxf-rt-rs-service-description/src/test/java/org/apache/cxf/jaxrs/model/wadl/WadlGeneratorJsonTest.java
+	org.apache.cxf.transport.servlet.ServletDestination
+	org.apache.cxf.service.model.BindingInfo
+/cxf-rt-rs-sse/src/test/java/org/apache/cxf/jaxrs/sse/SseEventSinkContextProviderTest.java
+	javax.servlet.http.HttpServletResponse
+	javax.servlet.http.HttpServletRequest
+	org.springframework.mock.web.MockAsyncContext
+	org.apache.cxf.message.Exchange
+	org.apache.cxf.endpoint.Endpoint
+	org.apache.cxf.continuations.ContinuationProvider
+/cxf-rt-rs-sse/src/test/java/org/apache/cxf/jaxrs/sse/SseBroadcasterImplTest.java
+	javax.servlet.http.HttpServletResponse
+	javax.servlet.AsyncContext
+	javax.servlet.http.HttpServletRequest
+	javax.ws.rs.ext.MessageBodyWriter
+/cxf-rt-transports-http/src/test/java/org/apache/cxf/transport/http/DestinationRegistryImplTest.java
+	org.apache.cxf.transport.MessageObserver
+	org.apache.cxf.transport.http.AbstractHTTPDestination
+/cxf-rt-transports-http/src/test/java/org/apache/cxf/transport/http/HTTPConduitURLEasyMockTest.java
+	org.apache.cxf.message.Exchange
+	org.apache.cxf.transport.https.HttpsURLConnectionFactory
+	java.net.HttpURLConnection
+	java.io.OutputStream
+	java.io.InputStream
+	java.io.InputStream
+	java.io.InputStream
+/cxf-rt-transports-http/src/test/java/org/apache/cxf/transport/http/HeadersTest.java
+	javax.servlet.http.HttpServletRequest
+	javax.servlet.http.HttpServletRequest
+	javax.servlet.http.HttpServletRequest
+/cxf-rt-transports-http/src/test/java/org/apache/cxf/transport/http/policy/PolicyUtilsTest.java
+	org.apache.cxf.message.Message
+	org.apache.cxf.message.Message
+	org.apache.cxf.message.Exchange
+	org.apache.cxf.message.Message
+	org.apache.cxf.message.Exchange
+/cxf-rt-transports-http/src/test/java/org/apache/cxf/transport/https/HttpsURLConnectionFactoryTest.java
+	javax.net.ssl.HttpsURLConnection
+	javax.net.ssl.HttpsURLConnection
+	javax.net.ssl.HttpsURLConnection
+	javax.net.ssl.HttpsURLConnection
+/cxf-rt-transports-http/src/test/java/org/apache/cxf/transport/servlet/BaseUrlHelperTest.java
+	javax.servlet.http.HttpServletRequest
+/cxf-rt-transports-http/src/test/java/org/apache/cxf/transport/servlet/HttpServletRequestXForwardedFilterTest.java
+	javax.servlet.http.HttpServletRequest
+	javax.servlet.http.HttpServletResponse
+	javax.servlet.ServletConfig
+/cxf-rt-transports-http/src/test/java/org/apache/cxf/transport/servlet/ServletControllerTest.java
+	javax.servlet.http.HttpServletRequest
+	javax.servlet.http.HttpServletResponse
+	org.apache.cxf.transport.http.DestinationRegistry
+	javax.servlet.http.HttpServlet
+	org.apache.cxf.transport.http.AbstractHTTPDestination
+	java.lang.Object
+/cxf-rt-transports-http-jetty/src/test/java/org/apache/cxf/transport/http_jetty/JettyHTTPServerEngineTest.java
+	org.apache.cxf.Bus
+	org.apache.cxf.management.InstrumentationManager
+/cxf-rt-transports-http-jetty/src/test/java/org/apache/cxf/transport/http_jetty/JettyHTTPDestinationTest.java
+	javax.servlet.http.HttpServletRequest
+	org.apache.cxf.transport.http_jetty.JettyHTTPServerEngine
+	org.apache.cxf.ws.addressing.AddressingProperties
+	org.apache.cxf.Bus
+	org.apache.cxf.transport.http_jetty.JettyHTTPServerEngine
+	javax.servlet.ServletInputStream
+	javax.servlet.ServletOutputStream
+	org.eclipse.jetty.server.Request
+	org.eclipse.jetty.server.Response
+	org.apache.cxf.transport.Conduit
+/cxf-rt-transports-http-netty-server/src/test/java/org/apache/cxf/transport/http/netty/server/NettyHttpDestinationTest.java
+	javax.servlet.http.HttpServletRequest
+	org.apache.cxf.transport.http.netty.server.NettyHttpServerEngine
+	org.apache.cxf.ws.addressing.AddressingProperties
+	org.apache.cxf.Bus
+	org.apache.cxf.transport.http.netty.server.NettyHttpServerEngine
+	javax.servlet.ServletInputStream
+	javax.servlet.ServletOutputStream
+	javax.servlet.http.HttpServletRequest
+	javax.servlet.http.HttpServletResponse
+	org.apache.cxf.transport.Conduit
+/cxf-rt-transports-http-netty-server/src/test/java/org/apache/cxf/transport/http/netty/server/NettyHttpServerEngineTest.java
+	org.apache.cxf.Bus
+	org.apache.cxf.configuration.Configurer
+/cxf-rt-transports-http-undertow/src/test/java/org/apache/cxf/transport/http_undertow/UndertowHTTPServerEngineTest.java
+	org.apache.cxf.Bus
+	org.apache.cxf.management.InstrumentationManager
+/cxf-rt-transports-http-undertow/src/test/java/org/apache/cxf/transport/http_undertow/UndertowHTTPDestinationTest.java
+	javax.servlet.http.HttpServletRequest
+	org.apache.cxf.transport.http_undertow.UndertowHTTPServerEngine
+	org.apache.cxf.ws.addressing.AddressingProperties
+	org.apache.cxf.Bus
+	org.apache.cxf.transport.http_undertow.UndertowHTTPServerEngine
+	javax.servlet.ServletInputStream
+	javax.servlet.ServletOutputStream
+	javax.servlet.http.HttpServletRequest
+	javax.servlet.http.HttpServletResponse
+	org.apache.cxf.transport.Conduit
+/cxf-rt-transports-jms/src/test/java/org/apache/cxf/transport/jms/continuations/JMSContinuationTest.java
+	org.apache.cxf.interceptor.InterceptorChain
+	org.apache.cxf.transport.MessageObserver
+	org.apache.cxf.transport.jms.continuations.Counter
+/cxf-rt-transports-jms/src/test/java/org/apache/cxf/transport/jms/continuations/JMSContinuationProviderTest.java
+	org.apache.cxf.transport.jms.continuations.Counter
+	org.apache.cxf.transport.jms.continuations.Counter
+	org.apache.cxf.transport.jms.continuations.Counter
+/cxf-rt-transports-websocket/src/test/java/org/apache/cxf/transport/websocket/jetty/JettyWebSocketDestinationTest.java
+	org.apache.cxf.transport.http_jetty.JettyHTTPServerEngine
+/cxf-rt-ws-addr/src/test/java/org/apache/cxf/ws/addressing/impl/ContextUtilsTest.java
+	org.apache.cxf.service.model.Extensible
+	org.apache.cxf.message.Message
+	org.apache.cxf.message.Exchange
+/cxf-rt-ws-addr/src/test/java/org/apache/cxf/ws/addressing/impl/MAPAggregatorTest.java
+	org.apache.cxf.transport.DestinationFactoryManager
+	org.apache.cxf.transport.DestinationFactory
+	org.apache.cxf.transport.Destination
+	org.apache.cxf.endpoint.Endpoint
+	org.apache.cxf.service.Service
+	org.apache.cxf.endpoint.Endpoint
+	org.apache.cxf.service.model.EndpointInfo
+	org.apache.cxf.service.model.BindingInfo
+	org.apache.cxf.service.model.ServiceInfo
+	javax.wsdl.extensions.ExtensibilityElement
+	org.apache.cxf.binding.Binding
+	org.apache.cxf.transport.Destination
+	org.apache.cxf.transport.Conduit
+	org.apache.cxf.transport.Conduit
+	org.apache.cxf.Bus
+	org.apache.cxf.message.Exchange
+/cxf-rt-ws-addr/src/test/java/org/apache/cxf/ws/addressing/soap/DecoupledFaultHandlerTest.java
+	org.apache.cxf.transport.Destination
+/cxf-rt-ws-addr/src/test/java/org/apache/cxf/ws/addressing/soap/MAPCodecTest.java
+	org.w3c.dom.Element
+	javax.xml.bind.JAXBContext
+	javax.xml.bind.Unmarshaller
+	org.w3c.dom.Element
+/cxf-rt-ws-policy/src/test/java/org/apache/cxf/ws/policy/NormalizeTest.java
+	org.apache.cxf.Bus
+/cxf-rt-ws-policy/src/test/java/org/apache/cxf/ws/policy/PolicyDataEngineImplTest.java
+	org.apache.cxf.message.Message
+/cxf-rt-ws-policy/src/test/java/org/apache/cxf/ws/policy/AssertionInfoMapTest.java
+	org.apache.cxf.ws.policy.PolicyAssertion
+	org.apache.cxf.ws.policy.PolicyAssertion
+	org.apache.cxf.ws.policy.PolicyAssertion
+	org.apache.cxf.ws.policy.PolicyAssertion
+/cxf-rt-ws-policy/src/test/java/org/apache/cxf/ws/policy/PolicyVerificationOutInterceptorTest.java
+	org.apache.cxf.ws.policy.PolicyVerificationOutInterceptor
+	org.apache.cxf.message.Message
+	org.apache.cxf.ws.policy.AssertionInfoMap
+	org.apache.cxf.ws.policy.EffectivePolicy
+/cxf-rt-ws-policy/src/test/java/org/apache/cxf/ws/policy/PolicyRegistryImplTest.java
+	org.apache.neethi.Policy
+/cxf-rt-ws-policy/src/test/java/org/apache/cxf/ws/policy/PolicyInterceptorProviderRegistryImplTest.java
+	org.apache.cxf.ws.policy.PolicyInterceptorProvider
+	org.apache.cxf.interceptor.Interceptor<org.apache.cxf.message.Message>
+	org.apache.cxf.interceptor.Interceptor<org.apache.cxf.message.Message>
+	org.apache.cxf.interceptor.Interceptor<org.apache.cxf.message.Message>
+	org.apache.cxf.interceptor.Interceptor<org.apache.cxf.message.Message>
+	org.apache.cxf.interceptor.Interceptor<org.apache.cxf.message.Message>
+/cxf-rt-ws-policy/src/test/java/org/apache/cxf/ws/policy/PolicyEngineTest.java
+	org.apache.neethi.PolicyRegistry
+	org.apache.cxf.ws.policy.AlternativeSelector
+	org.apache.cxf.ws.policy.PolicyEngineImpl
+	org.apache.cxf.ws.policy.PolicyEngineTest.AssertingConduit
+	org.apache.cxf.ws.policy.EffectivePolicyImpl
+	org.apache.cxf.ws.policy.EffectivePolicy
+	org.apache.cxf.ws.policy.PolicyEngineImpl
+	org.apache.cxf.ws.policy.PolicyEngineTest.AssertingDestination
+	org.apache.cxf.ws.policy.EffectivePolicyImpl
+	org.apache.cxf.ws.policy.EffectivePolicy
+	org.apache.cxf.ws.policy.PolicyEngineImpl
+	org.apache.cxf.ws.policy.PolicyEngineTest.AssertingDestination
+	org.apache.cxf.ws.policy.EffectivePolicyImpl
+	org.apache.cxf.ws.policy.EffectivePolicy
+	org.apache.cxf.ws.policy.PolicyEngineImpl
+	org.apache.cxf.ws.policy.EffectivePolicyImpl
+	org.apache.cxf.ws.policy.EffectivePolicy
+	org.apache.cxf.ws.policy.PolicyEngineImpl
+	org.apache.cxf.ws.policy.EffectivePolicyImpl
+	org.apache.cxf.ws.policy.EffectivePolicy
+	org.apache.cxf.ws.policy.PolicyEngineImpl
+	org.apache.cxf.ws.policy.EffectivePolicyImpl
+	org.apache.cxf.ws.policy.EffectivePolicy
+	org.apache.cxf.ws.policy.PolicyEngineImpl
+	org.apache.cxf.ws.policy.PolicyEngineTest.AssertingConduit
+	org.apache.cxf.ws.policy.EndpointPolicyImpl
+	org.apache.cxf.ws.policy.PolicyEngineImpl
+	org.apache.cxf.ws.policy.PolicyEngineTest.AssertingDestination
+	org.apache.cxf.ws.policy.EndpointPolicyImpl
+	org.apache.cxf.ws.policy.PolicyEngineImpl
+	org.apache.cxf.ws.policy.Assertor
+	org.apache.cxf.ws.policy.EndpointPolicyImpl
+	org.apache.cxf.service.model.ServiceInfo
+	org.apache.cxf.ws.policy.EndpointPolicyImpl
+	org.apache.cxf.Bus
+	org.apache.cxf.service.model.ServiceInfo
+	org.apache.cxf.ws.policy.PolicyProvider
+	org.apache.neethi.Policy
+	org.apache.cxf.ws.policy.PolicyProvider
+	org.apache.neethi.Policy
+	org.apache.neethi.Policy
+	org.apache.cxf.ws.policy.PolicyProvider
+	org.apache.neethi.Policy
+	org.apache.cxf.ws.policy.PolicyProvider
+	org.apache.neethi.Policy
+	org.apache.neethi.Policy
+	org.apache.cxf.ws.policy.PolicyProvider
+	org.apache.neethi.Policy
+	org.apache.cxf.ws.policy.PolicyProvider
+	org.apache.neethi.Policy
+	org.apache.neethi.Policy
+	org.apache.cxf.service.model.BindingMessageInfo
+	org.apache.cxf.ws.policy.PolicyProvider
+	org.apache.neethi.Policy
+	org.apache.cxf.ws.policy.PolicyProvider
+	org.apache.neethi.Policy
+	org.apache.neethi.Policy
+	org.apache.cxf.service.model.BindingFaultInfo
+	org.apache.cxf.ws.policy.PolicyProvider
+	org.apache.neethi.Policy
+	org.apache.cxf.ws.policy.PolicyProvider
+	org.apache.neethi.Policy
+	org.apache.neethi.Policy
+	org.apache.cxf.ws.policy.PolicyEngineImpl
+	org.apache.cxf.ws.policy.PolicyAssertion
+	org.apache.neethi.Policy
+	org.apache.neethi.Assertion
+/cxf-rt-ws-policy/src/test/java/org/apache/cxf/ws/policy/AssertionBuilderRegistryImplTest.java
+	org.apache.cxf.Bus
+	org.apache.cxf.ws.policy.PolicyBuilder
+	org.w3c.dom.Element
+/cxf-rt-ws-policy/src/test/java/org/apache/cxf/ws/policy/PolicyVerificationInInterceptorTest.java
+	org.apache.cxf.Bus
+	org.apache.cxf.ws.policy.PolicyVerificationInInterceptor
+	org.apache.cxf.ws.policy.EffectivePolicy
+	org.apache.neethi.Policy
+	org.apache.cxf.ws.policy.EffectivePolicy
+	org.apache.neethi.Policy
+	org.apache.cxf.message.Message
+	org.apache.cxf.message.Exchange
+	org.apache.cxf.ws.policy.AssertionInfoMap
+	org.apache.cxf.service.model.BindingOperationInfo
+	org.apache.cxf.endpoint.Endpoint
+	org.apache.cxf.service.model.EndpointInfo
+	org.apache.cxf.ws.policy.PolicyEngine
+/cxf-rt-ws-policy/src/test/java/org/apache/cxf/ws/policy/EndpointPolicyImplTest.java
+	org.apache.cxf.interceptor.Interceptor<>
+	org.apache.neethi.Policy
+	org.apache.neethi.Assertion
+	org.apache.cxf.ws.policy.EndpointPolicyImpl
+	org.apache.cxf.service.model.EndpointInfo
+	org.apache.cxf.ws.policy.PolicyEngineImpl
+	org.apache.cxf.service.model.ServiceInfo
+	org.apache.neethi.Policy
+	org.apache.neethi.Policy
+	org.apache.neethi.Policy
+	org.apache.cxf.ws.policy.PolicyEngineImpl
+	org.apache.cxf.ws.policy.Assertor
+	org.apache.cxf.ws.policy.AlternativeSelector
+	org.apache.cxf.ws.policy.PolicyAssertion
+	org.apache.cxf.service.model.EndpointInfo
+	org.apache.cxf.ws.policy.PolicyEngineImpl
+	org.apache.cxf.ws.policy.PolicyInterceptorProviderRegistry
+	org.apache.cxf.Bus
+/cxf-rt-ws-policy/src/test/java/org/apache/cxf/ws/policy/PolicyVerificationInFaultInterceptorTest.java
+	org.apache.cxf.Bus
+	org.apache.cxf.ws.policy.PolicyVerificationInFaultInterceptor
+	org.apache.cxf.ws.policy.EffectivePolicyImpl
+	org.apache.neethi.Policy
+	org.apache.cxf.message.Message
+	org.apache.cxf.ws.policy.AssertionInfoMap
+	org.apache.cxf.message.Exchange
+	org.apache.cxf.service.model.BindingOperationInfo
+	org.apache.cxf.endpoint.Endpoint
+	org.apache.cxf.service.model.EndpointInfo
+	org.apache.cxf.ws.policy.PolicyEngine
+	java.lang.Exception
+	org.apache.cxf.service.model.BindingFaultInfo
+/cxf-rt-ws-policy/src/test/java/org/apache/cxf/ws/policy/EffectivePolicyImplTest.java
+	org.apache.cxf.interceptor.Interceptor<>
+	org.apache.neethi.Policy
+	org.apache.neethi.Assertion
+	org.apache.cxf.ws.policy.EffectivePolicyImpl
+	org.apache.cxf.ws.policy.EndpointPolicyImpl
+	org.apache.neethi.Policy
+	org.apache.cxf.ws.policy.EffectivePolicyImpl
+	org.apache.cxf.service.model.EndpointInfo
+	org.apache.cxf.service.model.BindingOperationInfo
+	org.apache.cxf.ws.policy.Assertor
+	org.apache.cxf.ws.policy.EffectivePolicyImpl
+	org.apache.cxf.service.model.EndpointInfo
+	org.apache.cxf.service.model.BindingFaultInfo
+	org.apache.cxf.ws.policy.Assertor
+	org.apache.cxf.service.model.EndpointInfo
+	org.apache.cxf.service.model.BindingOperationInfo
+	org.apache.cxf.ws.policy.PolicyEngineImpl
+	org.apache.cxf.service.model.BindingMessageInfo
+	org.apache.cxf.ws.policy.EndpointPolicy
+	org.apache.neethi.Policy
+	org.apache.neethi.Policy
+	org.apache.neethi.Policy
+	org.apache.neethi.Policy
+	org.apache.cxf.service.model.EndpointInfo
+	org.apache.cxf.service.model.BindingFaultInfo
+	org.apache.cxf.ws.policy.PolicyEngineImpl
+	org.apache.cxf.service.model.BindingOperationInfo
+	org.apache.cxf.ws.policy.EndpointPolicy
+	org.apache.neethi.Policy
+	org.apache.neethi.Policy
+	org.apache.neethi.Policy
+	org.apache.neethi.Policy
+	org.apache.cxf.ws.policy.PolicyEngineImpl
+	org.apache.cxf.ws.policy.Assertor
+	org.apache.cxf.ws.policy.AlternativeSelector
+	org.apache.cxf.ws.policy.PolicyEngineImpl
+	org.apache.cxf.ws.policy.PolicyInterceptorProviderRegistry
+	org.apache.cxf.ws.policy.PolicyAssertion
+	org.apache.cxf.interceptor.Interceptor<org.apache.cxf.message.Message>
+	org.apache.cxf.Bus
+/cxf-rt-ws-policy/src/test/java/org/apache/cxf/ws/policy/PolicyInterceptorsTest.java
+	org.apache.cxf.Bus
+	org.apache.cxf.interceptor.Interceptor<>
+	org.apache.cxf.ws.policy.EffectivePolicy
+	org.apache.cxf.interceptor.InterceptorChain
+	org.apache.cxf.ws.policy.EffectivePolicy
+	org.apache.cxf.interceptor.Interceptor<>
+	org.apache.cxf.interceptor.InterceptorChain
+	org.apache.cxf.ws.policy.EndpointPolicy
+	org.apache.cxf.interceptor.InterceptorChain
+	org.apache.cxf.ws.policy.EndpointPolicy
+	org.apache.cxf.interceptor.InterceptorChain
+	org.apache.cxf.ws.policy.EffectivePolicy
+	org.apache.cxf.interceptor.InterceptorChain
+	org.apache.cxf.ws.policy.ServerPolicyOutFaultInterceptor
+	java.lang.Exception
+	org.apache.cxf.service.model.BindingFaultInfo
+	org.apache.cxf.ws.policy.EffectivePolicy
+	org.apache.cxf.interceptor.InterceptorChain
+	org.apache.cxf.message.Message
+	org.apache.cxf.service.model.BindingOperationInfo
+	org.apache.cxf.service.model.BindingFaultInfo
+	org.apache.cxf.service.model.BindingOperationInfo
+	org.apache.cxf.service.model.FaultInfo
+	org.apache.cxf.message.Message
+	org.apache.cxf.message.Exchange
+	org.apache.cxf.service.model.BindingOperationInfo
+	org.apache.cxf.endpoint.Endpoint
+	org.apache.cxf.service.model.EndpointInfo
+	org.apache.cxf.ws.policy.PolicyEngineImpl
+	org.apache.cxf.transport.Conduit
+	org.apache.cxf.transport.Destination
+	org.apache.neethi.Assertion
+	org.apache.neethi.Policy
+	org.apache.cxf.ws.policy.AlternativeSelector
+	org.apache.cxf.ws.policy.PolicyInterceptorProviderRegistry
+	org.apache.cxf.interceptor.InterceptorChain
+/cxf-rt-ws-policy/src/test/java/org/apache/cxf/ws/policy/attachment/external/URIDomainExpressionTest.java
+	org.apache.cxf.service.model.ServiceInfo
+	org.apache.cxf.service.model.EndpointInfo
+	org.apache.cxf.service.model.BindingOperationInfo
+	org.apache.cxf.service.model.BindingMessageInfo
+	org.apache.cxf.service.model.BindingFaultInfo
+	org.apache.cxf.service.model.InterfaceInfo
+	org.apache.cxf.service.model.BindingInfo
+	org.apache.cxf.service.model.OperationInfo
+	org.apache.cxf.service.model.MessageInfo
+	org.apache.cxf.service.model.FaultInfo
+	org.apache.cxf.service.model.BindingFaultInfo
+/cxf-rt-ws-policy/src/test/java/org/apache/cxf/ws/policy/attachment/external/EndpointReferenceDomainExpressionTest.java
+	org.apache.cxf.ws.addressing.EndpointReferenceType
+	org.apache.cxf.service.model.ServiceInfo
+	org.apache.cxf.service.model.BindingOperationInfo
+	org.apache.cxf.service.model.BindingMessageInfo
+	org.apache.cxf.service.model.BindingFaultInfo
+	org.apache.cxf.service.model.EndpointInfo
+	org.apache.cxf.ws.addressing.AttributedURIType
+/cxf-rt-ws-policy/src/test/java/org/apache/cxf/ws/policy/attachment/external/ExternalAttachmentProviderTest.java
+	org.springframework.core.io.Resource
+	org.apache.cxf.service.model.BindingFaultInfo
+	org.apache.cxf.service.model.BindingMessageInfo
+	org.apache.cxf.service.model.BindingOperationInfo
+	org.apache.cxf.service.model.EndpointInfo
+	org.apache.cxf.service.model.ServiceInfo
+	org.apache.cxf.Bus
+	org.apache.cxf.ws.policy.attachment.external.DomainExpressionBuilderRegistry
+	org.apache.cxf.Bus
+	org.apache.cxf.ws.policy.attachment.external.DomainExpressionBuilderRegistry
+	org.apache.cxf.ws.policy.attachment.external.DomainExpression
+	org.apache.cxf.ws.policy.PolicyBuilder
+	org.apache.neethi.Policy
+	org.apache.cxf.ws.policy.attachment.external.PolicyAttachment
+/cxf-rt-ws-policy/src/test/java/org/apache/cxf/ws/policy/attachment/external/PolicyAttachmentTest.java
+	org.apache.neethi.Policy
+	org.apache.cxf.service.model.ServiceInfo
+	org.apache.cxf.service.model.ServiceInfo
+	org.apache.cxf.ws.policy.attachment.external.DomainExpression
+	org.apache.cxf.service.model.EndpointInfo
+	org.apache.cxf.service.model.EndpointInfo
+	org.apache.cxf.ws.policy.attachment.external.DomainExpression
+	org.apache.cxf.service.model.BindingOperationInfo
+	org.apache.cxf.service.model.BindingOperationInfo
+	org.apache.cxf.ws.policy.attachment.external.DomainExpression
+	org.apache.cxf.service.model.BindingMessageInfo
+	org.apache.cxf.service.model.BindingMessageInfo
+	org.apache.cxf.ws.policy.attachment.external.DomainExpression
+	org.apache.cxf.service.model.BindingFaultInfo
+	org.apache.cxf.service.model.BindingFaultInfo
+	org.apache.cxf.ws.policy.attachment.external.DomainExpression
+/cxf-rt-ws-policy/src/test/java/org/apache/cxf/ws/policy/attachment/external/DomainExpressionBuilderRegistryTest.java
+	org.w3c.dom.Element
+	org.apache.cxf.ws.policy.attachment.external.DomainExpressionBuilder
+	org.w3c.dom.Element
+	org.apache.cxf.ws.policy.attachment.external.DomainExpression
+/cxf-rt-ws-policy/src/test/java/org/apache/cxf/ws/policy/attachment/reference/ReferenceResolverTest.java
+	org.apache.cxf.service.model.DescriptionInfo
+	org.apache.cxf.ws.policy.PolicyBuilder
+	javax.wsdl.extensions.UnknownExtensibilityElement
+	org.w3c.dom.Element
+	org.w3c.dom.Document
+	org.apache.neethi.Policy
+	org.apache.cxf.ws.policy.PolicyBuilder
+	org.apache.neethi.Policy
+/cxf-rt-ws-policy/src/test/java/org/apache/cxf/ws/policy/attachment/wsdl11/Wsdl11AttachmentPolicyProviderTest.java
+	org.apache.cxf.Bus
+	org.apache.cxf.transport.DestinationFactoryManager
+	org.apache.cxf.binding.BindingFactoryManager
+	org.apache.cxf.Bus
+/cxf-rt-ws-policy/src/test/java/org/apache/cxf/ws/policy/builder/jaxb/JaxbAssertionTest.java
+	org.apache.cxf.ws.policy.builder.primitive.PrimitiveAssertion
+/cxf-rt-ws-policy/src/test/java/org/apache/cxf/ws/policy/selector/MinimalMaximalAlternativeSelectorTest.java
+	org.apache.cxf.ws.policy.PolicyEngine
+	org.apache.cxf.ws.policy.Assertor
+	org.apache.cxf.ws.policy.PolicyEngine
+	org.apache.cxf.ws.policy.Assertor
+/cxf-rt-ws-policy/src/test/java/org/apache/cxf/ws/policy/selector/FirstAlternativeSelectorTest.java
+	org.apache.cxf.ws.policy.PolicyEngine
+	org.apache.cxf.ws.policy.Assertor
+/cxf-rt-ws-rm/src/test/java/org/apache/cxf/ws/rm/RMInInterceptorTest.java
+	org.apache.cxf.ws.rm.RMProperties
+	org.apache.cxf.ws.rm.Servant
+	org.apache.cxf.ws.rm.v200702.CreateSequenceResponseType
+	org.apache.cxf.ws.rm.Proxy
+	org.apache.cxf.ws.rm.RMInInterceptor
+	org.apache.cxf.ws.rm.RMInInterceptor
+	org.apache.cxf.ws.rm.Destination
+	org.apache.cxf.message.Exchange
+	org.apache.cxf.interceptor.InterceptorChain
+	org.apache.cxf.ws.rm.RMManager
+	org.apache.cxf.ws.rm.Source
+	org.apache.cxf.ws.rm.RMEndpoint
+	org.apache.cxf.ws.rm.v200702.SequenceAcknowledgement
+	org.apache.cxf.ws.rm.v200702.SequenceAcknowledgement
+	org.apache.cxf.ws.rm.v200702.Identifier
+	org.apache.cxf.ws.rm.SourceSequence
+	org.apache.cxf.ws.rm.v200702.Identifier
+	org.apache.cxf.ws.rm.Destination
+	org.apache.cxf.message.Message
+	org.apache.cxf.message.Message
+	org.apache.cxf.message.Exchange
+	org.apache.cxf.transport.Destination
+	org.apache.cxf.ws.addressing.AddressingProperties
+	org.apache.cxf.ws.addressing.AttributedURIType
+	org.apache.cxf.ws.rm.RMManager
+	org.apache.cxf.message.Message
+	org.apache.cxf.message.Exchange
+	org.apache.cxf.transport.Destination
+	org.apache.cxf.ws.rm.RedeliveryQueue
+	org.apache.cxf.ws.rm.RMManager
+	org.apache.cxf.message.Message
+	org.apache.cxf.message.Exchange
+	org.apache.cxf.ws.addressing.AddressingProperties
+	org.apache.cxf.ws.rm.Destination
+	org.apache.cxf.endpoint.Endpoint
+	org.apache.cxf.service.model.EndpointInfo
+	org.apache.cxf.message.Message
+	org.apache.cxf.message.Exchange
+	org.apache.cxf.ws.addressing.AddressingProperties
+	org.apache.cxf.ws.addressing.AttributedURIType
+	org.apache.cxf.transport.Destination
+	org.apache.cxf.ws.rm.RMManager
+	org.apache.cxf.ws.rm.RMEndpoint
+/cxf-rt-ws-rm/src/test/java/org/apache/cxf/ws/rm/DestinationSequenceTest.java
+	org.apache.cxf.ws.addressing.EndpointReferenceType
+	java.util.Timer
+	java.util.Timer
+	java.util.Timer
+	java.util.Timer
+	java.util.Timer
+	java.util.Timer
+	org.apache.cxf.ws.rm.RMEndpoint
+	org.apache.cxf.ws.rm.Proxy
+	org.apache.cxf.ws.rm.v200702.SequenceAcknowledgement
+	org.apache.cxf.ws.rm.v200702.SequenceAcknowledgement.AcknowledgementRange
+	org.apache.cxf.ws.rm.RMEndpoint
+	org.apache.cxf.ws.rm.Proxy
+	org.apache.cxf.ws.rm.Destination
+	org.apache.cxf.ws.rm.RMEndpoint
+	org.apache.cxf.ws.rm.Destination
+	org.apache.cxf.ws.rm.RMManager
+	org.apache.cxf.ws.rm.RMEndpoint
+	org.apache.cxf.ws.addressing.AttributedURIType
+	org.apache.cxf.ws.rm.Destination
+	org.apache.cxf.ws.rm.RMManager
+	org.apache.cxf.ws.rm.persistence.RMStore
+	org.apache.cxf.ws.rm.Destination
+	org.apache.cxf.ws.rm.RMManager
+	org.apache.cxf.ws.rm.Destination
+	org.apache.cxf.ws.rm.RMManager
+	org.apache.cxf.ws.rm.RMManager
+	org.apache.cxf.ws.rm.RMEndpoint
+	org.apache.cxf.ws.rm.Destination
+	org.apache.cxf.message.Message
+	org.apache.cxf.message.Exchange
+	org.apache.cxf.ws.rm.RMProperties
+	org.apache.cxf.ws.rm.v200702.SequenceType
+/cxf-rt-ws-rm/src/test/java/org/apache/cxf/ws/rm/ManagedRMManagerTest.java
+	org.apache.cxf.ws.rm.RMEndpoint
+	org.apache.cxf.ws.rm.RMEndpoint
+	org.apache.cxf.message.Message
+	org.apache.cxf.message.Exchange
+/cxf-rt-ws-rm/src/test/java/org/apache/cxf/ws/rm/SourceSequenceTest.java
+	org.apache.cxf.ws.rm.Source
+	org.apache.cxf.ws.rm.RMManager
+	org.apache.cxf.ws.rm.RetransmissionQueue
+	org.apache.cxf.ws.rm.RMEndpoint
+	org.apache.cxf.ws.rm.Destination
+	org.apache.cxf.ws.rm.DestinationSequence
+	org.apache.cxf.ws.rm.v200702.Identifier
+/cxf-rt-ws-rm/src/test/java/org/apache/cxf/ws/rm/ServantTest.java
+	org.apache.cxf.ws.rm.RMEndpoint
+	org.apache.cxf.ws.rm.RMEndpoint
+	org.apache.cxf.ws.rm.DestinationSequence
+	org.apache.cxf.ws.rm.RMEndpoint
+	org.apache.cxf.ws.rm.DestinationSequence
+	org.apache.cxf.service.model.BindingOperationInfo
+	org.apache.cxf.service.model.OperationInfo
+/cxf-rt-ws-rm/src/test/java/org/apache/cxf/ws/rm/RMContextUtilsTest.java
+	org.apache.cxf.message.Message
+	org.apache.cxf.message.Exchange
+	org.apache.cxf.message.Message
+	org.apache.cxf.ws.rm.RMProperties
+	org.apache.cxf.message.Message
+	org.apache.cxf.message.Exchange
+	org.apache.cxf.message.Message
+	org.apache.cxf.ws.rm.RMProperties
+	org.apache.cxf.message.Message
+	org.apache.cxf.message.Exchange
+	org.apache.cxf.ws.rm.RMProperties
+	org.apache.cxf.message.Message
+	org.apache.cxf.ws.rm.RMProperties
+	org.apache.cxf.message.Message
+	org.apache.cxf.ws.addressing.AddressingProperties
+	org.apache.cxf.message.Message
+	org.apache.cxf.ws.addressing.AddressingProperties
+/cxf-rt-ws-rm/src/test/java/org/apache/cxf/ws/rm/RMManagerTest.java
+	T
+	T
+/cxf-rt-ws-rm/src/test/java/org/apache/cxf/ws/rm/AbstractEndpointTest.java
+	org.apache.cxf.ws.rm.RMEndpoint
+	org.apache.cxf.endpoint.Endpoint
+	org.apache.cxf.ws.rm.RMManager
+	org.apache.cxf.ws.rm.RMManager
+	org.apache.cxf.ws.rm.SequenceIdentifierGenerator
+	org.apache.cxf.ws.rm.v200702.Identifier
+/cxf-rt-ws-rm/src/test/java/org/apache/cxf/ws/rm/RMEndpointTest.java
+	org.apache.cxf.ws.rm.RMManager
+	org.apache.cxf.endpoint.Endpoint
+	org.apache.cxf.ws.rm.Destination
+	org.apache.cxf.ws.rm.Source
+	org.apache.cxf.ws.rm.RMEndpoint
+	org.apache.cxf.transport.Conduit
+	org.apache.cxf.ws.addressing.EndpointReferenceType
+	org.apache.cxf.service.Service
+	org.apache.cxf.service.Service
+	org.apache.cxf.ws.rm.RMEndpoint
+	org.apache.cxf.binding.soap.model.SoapBindingInfo
+	javax.wsdl.extensions.ExtensibilityElement
+	org.apache.cxf.service.model.EndpointInfo
+	org.apache.cxf.service.model.BindingInfo
+	org.apache.cxf.service.model.ServiceInfo
+	javax.wsdl.extensions.ExtensibilityElement
+	org.apache.cxf.Bus
+	org.apache.cxf.Bus
+	org.apache.cxf.ws.policy.PolicyEngineImpl
+	org.apache.cxf.ws.rm.DestinationSequence
+	org.apache.cxf.ws.rm.v200702.Identifier
+	org.apache.cxf.ws.rm.SourceSequence
+	org.apache.cxf.ws.rm.v200702.Identifier
+	org.apache.cxf.ws.rm.RetransmissionQueue
+	org.apache.cxf.ws.rm.RedeliveryQueue
+/cxf-rt-ws-rm/src/test/java/org/apache/cxf/ws/rm/RMOutInterceptorTest.java
+	org.apache.cxf.ws.rm.RMOutInterceptor
+	org.apache.cxf.message.Message
+	org.apache.cxf.ws.rm.RMOutInterceptor
+	org.apache.cxf.message.Message
+	org.apache.cxf.ws.rm.RMOutInterceptor
+	org.apache.cxf.ws.rm.RMManager
+	org.apache.cxf.message.Message
+	org.apache.cxf.message.Exchange
+	org.apache.cxf.interceptor.InterceptorChain
+	org.apache.cxf.ws.rm.RMEndpoint
+	org.apache.cxf.ws.rm.Source
+	org.apache.cxf.ws.rm.Destination
+	org.apache.cxf.ws.rm.SourceSequence
+	org.apache.cxf.ws.rm.v200702.Identifier
+	org.apache.cxf.message.Message
+	org.apache.cxf.message.Exchange
+	org.apache.cxf.message.Message
+	org.apache.cxf.message.Exchange
+	org.apache.cxf.ws.rm.RMManager
+/cxf-rt-ws-rm/src/test/java/org/apache/cxf/ws/rm/DestinationTest.java
+	org.apache.cxf.ws.rm.RMEndpoint
+	org.apache.cxf.ws.rm.v200702.Identifier
+	org.apache.cxf.ws.rm.DestinationSequence
+	org.apache.cxf.ws.rm.v200702.Identifier
+	org.apache.cxf.ws.rm.RMManager
+	org.apache.cxf.ws.rm.persistence.RMStore
+	org.apache.cxf.ws.rm.RMProperties
+	org.apache.cxf.ws.rm.RMProperties
+	org.apache.cxf.ws.rm.v200702.SequenceType
+	org.apache.cxf.ws.rm.v200702.Identifier
+	org.apache.cxf.ws.rm.Destination
+	org.apache.cxf.ws.rm.RMProperties
+	org.apache.cxf.ws.rm.v200702.SequenceType
+	org.apache.cxf.ws.rm.v200702.Identifier
+	org.apache.cxf.ws.rm.DestinationSequence
+	org.apache.cxf.interceptor.InterceptorChain
+	org.apache.cxf.message.Message
+	org.apache.cxf.message.Exchange
+	org.apache.cxf.transport.Destination
+/cxf-rt-ws-rm/src/test/java/org/apache/cxf/ws/rm/RMUtilsTest.java
+	org.apache.cxf.endpoint.Endpoint
+	org.apache.cxf.service.model.EndpointInfo
+	org.apache.cxf.service.model.ServiceInfo
+	org.apache.cxf.Bus
+/cxf-rt-ws-rm/src/test/java/org/apache/cxf/ws/rm/ProxyTest.java
+	org.apache.cxf.ws.rm.RMEndpoint
+	org.apache.cxf.ws.rm.v200702.OfferType
+	org.apache.cxf.ws.rm.v200702.Identifier
+	org.apache.cxf.ws.rm.DestinationSequence
+	org.apache.cxf.ws.addressing.EndpointReferenceType
+	org.apache.cxf.ws.addressing.AttributedURIType
+	org.apache.cxf.ws.rm.Proxy
+	org.apache.cxf.ws.rm.DestinationSequence
+	org.apache.cxf.ws.addressing.EndpointReferenceType
+	org.apache.cxf.ws.addressing.AttributedURIType
+	org.apache.cxf.endpoint.Endpoint
+	org.apache.cxf.service.model.EndpointInfo
+	org.apache.cxf.service.model.ServiceInfo
+	org.apache.cxf.service.model.InterfaceInfo
+	org.apache.cxf.service.model.OperationInfo
+	org.apache.cxf.ws.rm.Proxy
+	org.apache.cxf.ws.rm.SourceSequence
+	org.apache.cxf.endpoint.Endpoint
+	org.apache.cxf.service.model.EndpointInfo
+	org.apache.cxf.service.model.ServiceInfo
+	org.apache.cxf.service.model.InterfaceInfo
+	org.apache.cxf.service.model.OperationInfo
+	org.apache.cxf.ws.rm.Proxy
+	org.apache.cxf.endpoint.Endpoint
+	org.apache.cxf.service.model.EndpointInfo
+	org.apache.cxf.service.model.ServiceInfo
+	org.apache.cxf.service.model.InterfaceInfo
+	org.apache.cxf.service.model.OperationInfo
+	org.apache.cxf.ws.rm.SourceSequence
+	org.apache.cxf.ws.rm.v200702.Identifier
+	org.apache.cxf.ws.rm.Proxy
+	org.apache.cxf.endpoint.Endpoint
+	org.apache.cxf.service.model.EndpointInfo
+	org.apache.cxf.service.model.ServiceInfo
+	org.apache.cxf.service.model.InterfaceInfo
+	org.apache.cxf.service.model.OperationInfo
+	org.apache.cxf.ws.rm.v200702.CreateSequenceResponseType
+	org.apache.cxf.ws.rm.Proxy
+	org.apache.cxf.ws.rm.RMManager
+	org.apache.cxf.Bus
+	org.apache.cxf.endpoint.Endpoint
+	org.apache.cxf.service.model.BindingInfo
+	org.apache.cxf.transport.Conduit
+	org.apache.cxf.ws.addressing.EndpointReferenceType
+	org.apache.cxf.service.model.OperationInfo
+	org.apache.cxf.service.model.BindingOperationInfo
+	org.apache.cxf.endpoint.Client
+	org.apache.cxf.message.Exchange
+	org.apache.cxf.Bus
+	org.apache.cxf.endpoint.Endpoint
+	org.apache.cxf.transport.Conduit
+	org.apache.cxf.ws.addressing.EndpointReferenceType
+	org.apache.cxf.Bus
+	org.apache.cxf.endpoint.Endpoint
+	org.apache.cxf.transport.Conduit
+	org.apache.cxf.endpoint.ConduitSelector
+	org.apache.cxf.ws.rm.Proxy
+	org.apache.cxf.ws.rm.RMManager
+	org.apache.cxf.ws.rm.manager.SourcePolicyType
+	org.apache.cxf.ws.rm.Source
+	org.apache.cxf.ws.rm.v200702.Identifier
+	org.apache.cxf.endpoint.Endpoint
+	org.apache.cxf.service.model.EndpointInfo
+	org.apache.cxf.service.model.ServiceInfo
+	org.apache.cxf.service.model.InterfaceInfo
+	org.apache.cxf.service.model.OperationInfo
+	org.apache.cxf.endpoint.Endpoint
+	org.apache.cxf.ws.addressing.EndpointReferenceType
+	org.apache.cxf.ws.addressing.AttributedURIType
+	org.apache.cxf.ws.addressing.RelatesToType
+/cxf-rt-ws-rm/src/test/java/org/apache/cxf/ws/rm/AbstractRMInterceptorTest.java
+	org.apache.cxf.Bus
+	org.apache.cxf.ws.rm.RMManager
+	org.apache.cxf.ws.rm.RMManager
+	org.apache.cxf.message.Message
+	org.apache.cxf.ws.rm.SequenceFault
+	org.apache.cxf.message.Exchange
+	org.apache.cxf.endpoint.Endpoint
+	org.apache.cxf.message.Message
+	org.apache.cxf.ws.rm.SequenceFault
+	org.apache.cxf.message.Exchange
+	org.apache.cxf.endpoint.Endpoint
+	org.apache.cxf.binding.Binding
+	org.apache.cxf.ws.rm.RMManager
+	org.apache.cxf.ws.rm.BindingFaultFactory
+	org.apache.cxf.interceptor.Fault
+	org.apache.cxf.message.Message
+	org.apache.cxf.ws.rm.RMException
+	org.apache.cxf.message.Message
+	org.apache.cxf.ws.policy.AssertionInfoMap
+	org.apache.cxf.ws.policy.PolicyAssertion
+/cxf-rt-ws-rm/src/test/java/org/apache/cxf/ws/rm/persistence/jdbc/RMTxStoreTest.java
+	org.apache.cxf.ws.rm.SourceSequence
+/cxf-rt-ws-rm/src/test/java/org/apache/cxf/ws/rm/persistence/jdbc/RMTxStoreTestBase.java
+	org.apache.cxf.ws.rm.SourceSequence
+	org.apache.cxf.ws.rm.DestinationSequence
+	org.apache.cxf.ws.rm.persistence.RMMessage
+	org.apache.cxf.ws.rm.persistence.RMMessage
+	org.apache.cxf.ws.rm.DestinationSequence
+	org.apache.cxf.ws.rm.SourceSequence
+	org.apache.cxf.ws.rm.SourceSequence
+	org.apache.cxf.ws.rm.DestinationSequence
+	org.apache.cxf.ws.rm.DestinationSequence
+	org.apache.cxf.ws.rm.SourceSequence
+	org.apache.cxf.ws.rm.persistence.RMMessage
+/cxf-rt-ws-rm/src/test/java/org/apache/cxf/ws/rm/persistence/jdbc/RMTxStoreTwoSchemasTest.java
+	org.apache.cxf.ws.rm.SourceSequence
+/cxf-rt-ws-rm/src/test/java/org/apache/cxf/ws/rm/policy/PolicyUtilsTest.java
+	org.apache.cxf.message.Message
+	org.apache.cxf.ws.policy.AssertionInfoMap
+/cxf-rt-ws-rm/src/test/java/org/apache/cxf/ws/rm/soap/SoapFaultFactoryTest.java
+	org.apache.cxf.ws.rm.SequenceFault
+	org.apache.cxf.binding.soap.SoapBinding
+	org.apache.cxf.binding.soap.SoapBinding
+	org.apache.cxf.binding.soap.SoapBinding
+	org.apache.cxf.binding.soap.SoapBinding
+	org.apache.cxf.binding.soap.SoapBinding
+	org.apache.cxf.binding.soap.SoapBinding
+	org.apache.cxf.binding.soap.SoapFault
+/cxf-rt-ws-rm/src/test/java/org/apache/cxf/ws/rm/soap/RetransmissionQueueImplTest.java
+	org.apache.cxf.ws.rm.manager.SourcePolicyType
+	org.apache.cxf.ws.rm.manager.RetryPolicyType
+	T
+/cxf-rt-ws-security/src/test/java/org/apache/cxf/ws/security/wss4j/SecurityVerificationOutTest.java
+	org.apache.cxf.binding.soap.SoapMessage
+/cxf-rt-ws-security/src/test/java/org/apache/cxf/ws/security/wss4j/AttachmentCallbackHandlerTest.java
+	javax.activation.DataHandler
+/cxf-rt-ws-transfer/src/test/java/org/apache/cxf/ws/transfer/integration/ResourceFactoryTest.java
+	org.apache.cxf.ws.transfer.manager.ResourceManager
+	org.apache.cxf.ws.transfer.manager.ResourceManager
+/cxf-rt-ws-transfer/src/test/java/org/apache/cxf/ws/transfer/integration/ResourceTest.java
+	org.apache.cxf.ws.transfer.manager.ResourceManager
+	org.apache.cxf.ws.transfer.manager.ResourceManager
+	org.apache.cxf.ws.transfer.manager.ResourceManager
+/cxf-rt-wsdl/src/test/java/org/apache/cxf/wsdl/interceptors/DocLiteralInInterceptorTest.java
+	org.apache.cxf.service.Service
+	org.apache.cxf.endpoint.Endpoint
+	org.apache.cxf.service.model.EndpointInfo
+	org.apache.cxf.service.model.BindingInfo
+	org.apache.cxf.service.model.ServiceInfo
+	org.apache.cxf.service.model.InterfaceInfo
+	org.apache.cxf.service.Service
+	org.apache.cxf.endpoint.Endpoint
+	org.apache.cxf.service.model.ServiceInfo
+	org.apache.cxf.service.model.InterfaceInfo
+	org.apache.cxf.service.model.EndpointInfo
+	org.apache.cxf.service.model.BindingInfo
+/cxf-rt-wsdl/src/test/java/org/apache/cxf/wsdl/service/factory/ReflectionServiceFactorBeanTest.java
+	org.apache.cxf.Bus
+	org.apache.cxf.wsdl.WSDLManager
+/cxf-rt-wsdl/src/test/java/org/apache/cxf/wsdl11/ServiceWSDLBuilderTest.java
+	org.apache.cxf.Bus
+	org.apache.cxf.binding.BindingFactoryManager
+	org.apache.cxf.transport.DestinationFactoryManager
+	org.apache.cxf.transport.DestinationFactory
+/cxf-rt-wsdl/src/test/java/org/apache/cxf/wsdl11/WSDLServiceBuilderTest.java
+	org.apache.cxf.Bus
+	org.apache.cxf.binding.BindingFactoryManager
+	org.apache.cxf.transport.DestinationFactoryManager
+	org.apache.cxf.transport.DestinationFactory
+/cxf-services-xkms-x509-handlers/src/test/java/org/apache/cxf/xkms/x509/handlers/X509LocatorTest.java
+	org.apache.cxf.xkms.x509.repo.CertificateRepo
+/cxf-spring-boot-autoconfigure/src/test/java/org/apache/cxf/spring/boot/autoconfigure/CxfAutoConfigurationTest.java
+	javax.servlet.ServletContext
+/cxf-spring-boot-autoconfigure/src/test/java/org/apache/cxf/spring/boot/autoconfigure/micrometer/provider/SpringBasedTimedAnnotationProviderTest.java
+	org.apache.cxf.message.Exchange
+	org.apache.cxf.service.Service
+	org.apache.cxf.service.model.BindingOperationInfo
+	org.apache.cxf.service.invoker.MethodDispatcher
+/cxf-systests-cdi-owb-producers/src/test/java/org/apache/cxf/systest/jaxrs/cdi/unwrapper/ClassUnwrapperTest.java
+	javax.servlet.ServletContext
+/cxf-systests-jaxrs/src/test/java/org/apache/cxf/systest/jaxrs/metrics/JAXRSServerMetricsTest.java
+	org.apache.cxf.metrics.MetricsContext
+	org.apache.cxf.metrics.MetricsContext
+	org.apache.cxf.metrics.MetricsContext
+/cxf-systests-jaxrs/src/test/java/org/apache/cxf/systest/jaxrs/metrics/JAXRSClientMetricsTest.java
+	org.apache.cxf.metrics.MetricsContext
+	org.apache.cxf.metrics.MetricsContext
+	org.apache.cxf.metrics.MetricsContext
+/cxf-systests-jaxws/src/test/java/org/apache/cxf/systest/jaxws/metrics/JAXWSClientMetricsTest.java
+	org.apache.cxf.metrics.MetricsContext
+	org.apache.cxf.metrics.MetricsContext
+	org.apache.cxf.metrics.MetricsContext
+/cxf-systests-microprofile-async/src/test/java/org/apache/cxf/systest/microprofile/rest/client/AsyncThreadingTest.java
+/cxf-systests-microprofile-async/src/test/java/org/apache/cxf/systest/microprofile/rest/client/AsyncMethodTest.java
+/cxf-systests-microprofile-nocdi/src/test/java/org/apache/cxf/systest/microprofile/rest/client/AsyncMethodTest.java
+/cxf-systests-microprofile-nocdi/src/test/java/org/apache/cxf/systest/microprofile/rest/client/AsyncThreadingTest.java

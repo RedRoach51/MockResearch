@@ -4,3 +4,24 @@
 	javax.servlet.http.HttpServletRequest
 	org.apache.commons.chain2.Catalog<java.lang.String,java.lang.Object,org.apache.commons.chain2.cookbook.mailreader.MailReader>
 	org.apache.commons.chain2.Command<java.lang.String,java.lang.Object,org.apache.commons.chain2.cookbook.mailreader.MailReader>
+/commons-chain2-web/src/test/java/org/apache/commons/chain2/web/servlet/ServletGetLocaleCommandTestCase.java
+	javax.servlet.ServletContext
+	javax.servlet.http.HttpSession
+	javax.servlet.http.HttpServletRequest
+	javax.servlet.http.HttpServletResponse
+/commons-chain2-web/src/test/java/org/apache/commons/chain2/web/servlet/ServletSetLocaleCommandTestCase.java
+	javax.servlet.ServletContext
+	javax.servlet.http.HttpSession
+	javax.servlet.http.HttpServletRequest
+	javax.servlet.http.HttpServletResponse
+/commons-chain2-web/src/test/java/org/apache/commons/chain2/web/servlet/ServletWebContextBaseTestCase.java
+	javax.servlet.ServletContext
+	javax.servlet.http.HttpSession
+	javax.servlet.http.HttpServletRequest
+	javax.servlet.http.HttpServletResponse
+	javax.servlet.http.HttpServletRequest
+/commons-chain2-web/src/test/java/org/apache/commons/chain2/web/servlet/MockServletConfig.java
+	javax.servlet.ServletContext
+	javax.servlet.ServletContext
+/commons-chain2-web/src/test/java/org/apache/commons/chain2/web/servlet/ChainProcessorTestCase.java
+	javax.servlet.ServletConfig

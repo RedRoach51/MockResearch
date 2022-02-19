@@ -5,6 +5,9 @@ org.apache.crunch.Emitter
 org.apache.crunch.hadoop.mapreduce.lib.jobcontrol.CrunchControlledJob.Hook
 org.apache.crunch.impl.dist.DistributedPipeline
 org.apache.crunch.impl.dist.collect.PCollectionImpl
+org.apache.crunch.impl.dist.collect.PCollectionImpl<java.lang.String>
+org.apache.crunch.io.ReadableSourceTarget<java.lang.String>
+org.apache.crunch.SourceTarget<java.lang.String>
 org.apache.crunch.impl.mr.run.RTNode
 org.apache.crunch.impl.mr.plan.JobPrototype
 org.apache.crunch.impl.mr.collect.InputCollection
@@ -12,6 +15,11 @@ org.apache.crunch.impl.mr.collect.PGroupedTableImpl
 org.apache.crunch.Target
 org.apache.crunch.Source
 org.apache.crunch.SourceTarget
+org.apache.crunch.io.impl.FileTargetImpl
+org.apache.crunch.impl.mr.collect.PGroupedTableImpl<java.lang.String,java.lang.String>
+java.util.Set<org.apache.crunch.impl.mr.plan.NodePath>
+org.apache.crunch.PCollection<java.lang.String>
+org.apache.crunch.Pipeline
  
  
  
@@ -19,5 +27,10 @@ Outside classes:
  
 org.apache.hadoop.mapreduce.TaskInputOutputContext
 org.apache.hadoop.mapreduce.Job
+org.apache.hadoop.fs.Path
 org.apache.hadoop.fs.FileSystem
 org.apache.hadoop.mapreduce.JobContext
+org.apache.kafka.clients.consumer.KafkaConsumer<java.lang.String,java.lang.String>
+org.apache.hadoop.mapreduce.TaskAttemptContext
+org.apache.kafka.clients.consumer.Consumer<java.lang.String,java.lang.String>
+org.apache.kafka.clients.consumer.ConsumerRecords<java.lang.String,java.lang.String>

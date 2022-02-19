@@ -232,3 +232,12 @@ org.apache.commons.configuration2.tree.ConfigurationNodeVisitor<org.apache.commo
 org.apache.commons.configuration2.tree.xpath.XPathContextFactory
 org.apache.commons.jxpath.JXPathContext
 org.apache.commons.configuration2.tree.xpath.XPathContextFactory
+javax.servlet.ServletConfig
+javax.servlet.ServletConfig
+javax.servlet.FilterConfig
+javax.servlet.FilterConfig
+com.mockobjects.servlet.MockHttpServletRequest
+com.mockobjects.servlet.MockHttpServletRequest
+com.mockobjects.servlet.MockServletContext
+javax.servlet.ServletConfig
+com.mockobjects.servlet.MockServletContext

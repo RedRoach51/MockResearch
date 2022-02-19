@@ -1,3 +1,5 @@
+/flink-iotdb-connector/src/test/java/org/apache/iotdb/flink/IoTDBSinkBatchInsertTest.java
+Methods Invoked: 
 	Method name: mock
 	Class origin: org.mockito.Mockito
 	Count: 1
@@ -6,6 +8,8 @@
 	Class origin: org.mockito.Mockito
 	Count: 4
  
+/flink-iotdb-connector/src/test/java/org/apache/iotdb/flink/IoTDBSinkBatchTimerTest.java
+Methods Invoked: 
 	Method name: mock
 	Class origin: org.mockito.Mockito
 	Count: 1
@@ -18,6 +22,8 @@
 	Class origin: org.mockito.ArgumentMatchers
 	Count: 5
  
+/flink-iotdb-connector/src/test/java/org/apache/iotdb/flink/IoTDBSinkInsertTest.java
+Methods Invoked: 
 	Method name: mock
 	Class origin: org.mockito.Mockito
 	Count: 1
@@ -30,6 +36,8 @@
 	Class origin: org.mockito.ArgumentMatchers
 	Count: 5
  
+/iotdb-cli/src/test/java/org/apache/iotdb/cli/AbstractCliIT.java
+Methods Invoked: 
 	Method name: initMocks
 	Class origin: org.mockito.MockitoAnnotations
 	Count: 1
@@ -46,14 +54,20 @@
 	Class origin: org.mockito.stubbing.OngoingStubbing<java.lang.String>
 	Count: 1
  
+/iotdb-cluster/src/test/java/org/apache/iotdb/cluster/partition/MManagerWhiteBox.java
+Methods Invoked: 
 	Method name: setInternalState
 	Class origin: org.powermock.reflect.Whitebox
 	Count: 1
  
+/iotdb-cluster/src/test/java/org/apache/iotdb/cluster/partition/SlotPartitionTableTest.java
+Methods Invoked: 
 	Method name: setInternalState
 	Class origin: org.powermock.reflect.Whitebox
 	Count: 1
  
+/iotdb-cluster/src/test/java/org/apache/iotdb/cluster/query/LoadConfigurationTest.java
+Methods Invoked: 
 	Method name: mock
 	Class origin: org.powermock.api.mockito.PowerMockito
 	Count: 2
@@ -78,6 +92,8 @@
 	Class origin: org.mockito.Mockito
 	Count: 2
  
+/iotdb-cluster/src/test/java/org/apache/iotdb/cluster/query/reader/mult/MultSeriesRawDataPointReaderTest.java
+Methods Invoked: 
 	Method name: mock
 	Class origin: org.mockito.Mockito
 	Count: 1
@@ -90,6 +106,8 @@
 	Class origin: org.mockito.Mockito
 	Count: 2
  
+/iotdb-cluster/src/test/java/org/apache/iotdb/cluster/server/member/RaftMemberTest.java
+Methods Invoked: 
 	Method name: mock
 	Class origin: org.mockito.Mockito
 	Count: 5
@@ -102,6 +120,8 @@
 	Class origin: org.mockito.Mockito
 	Count: 5
  
+/iotdb-jdbc/src/test/java/org/apache/iotdb/jdbc/IoTDBJDBCResultSetTest.java
+Methods Invoked: 
 	Method name: initMocks
 	Class origin: org.mockito.MockitoAnnotations
 	Count: 1
@@ -114,6 +134,8 @@
 	Class origin: org.mockito.Mockito
 	Count: 17
  
+/iotdb-jdbc/src/test/java/org/apache/iotdb/jdbc/IoTDBPreparedStatementTest.java
+Methods Invoked: 
 	Method name: initMocks
 	Class origin: org.mockito.MockitoAnnotations
 	Count: 1
@@ -122,6 +144,8 @@
 	Class origin: org.mockito.Mockito
 	Count: 3
  
+/iotdb-jdbc/src/test/java/org/apache/iotdb/jdbc/IoTDBDatabaseMetadataTest.java
+Methods Invoked: 
 	Method name: initMocks
 	Class origin: org.mockito.MockitoAnnotations
 	Count: 1
@@ -134,6 +158,8 @@
 	Class origin: org.mockito.Mockito
 	Count: 15
  
+/iotdb-jdbc/src/test/java/org/apache/iotdb/jdbc/IoTDBStatementTest.java
+Methods Invoked: 
 	Method name: initMocks
 	Class origin: org.mockito.MockitoAnnotations
 	Count: 1
@@ -150,6 +176,8 @@
 	Class origin: org.mockito.stubbing.OngoingStubbing<java.lang.Boolean>
 	Count: 1
  
+/iotdb-jdbc/src/test/java/org/apache/iotdb/jdbc/BatchTest.java
+Methods Invoked: 
 	Method name: initMocks
 	Class origin: org.mockito.MockitoAnnotations
 	Count: 1
@@ -162,6 +190,8 @@
 	Class origin: org.mockito.Mockito
 	Count: 4
  
+/iotdb-jdbc/src/test/java/org/apache/iotdb/jdbc/IoTDBConnectionTest.java
+Methods Invoked: 
 	Method name: initMocks
 	Class origin: org.mockito.MockitoAnnotations
 	Count: 1
@@ -170,6 +200,8 @@
 	Class origin: org.mockito.Mockito
 	Count: 3
  
+/iotdb-server/src/test/java/org/apache/iotdb/db/conf/directories/strategy/DirectoryStrategyTest.java
+Methods Invoked: 
 	Method name: mockStatic
 	Class origin: org.powermock.api.mockito.PowerMockito
 	Count: 1
@@ -185,16 +217,4 @@
 	Method name: thenReturn
 	Class origin: org.mockito.stubbing.OngoingStubbing<java.lang.Long>
 	Count: 5
- 
-	Method name: mock
-	Class origin: org.mockito.Mockito
-	Count: 1
- 
-	Method name: verify
-	Class origin: org.mockito.Mockito
-	Count: 1
- 
-	Method name: any
-	Class origin: org.mockito.ArgumentMatchers
-	Count: 1
  

@@ -1,0 +1,22 @@
+/api-ldap-client-api/src/test/java/org/apache/directory/ldap/client/api/ValidatingPoolableLdapConnectionFactoryTest.java
+	org.junit.jupiter.api.Assertions.assertNotNull
+	org.junit.jupiter.api.Assertions.fail
+	org.mockito.Matchers.any
+	org.mockito.Mockito.mock
+	org.mockito.Mockito.times
+	org.mockito.Mockito.when
+	org.apache.directory.api.asn1.DecoderException
+	org.apache.directory.api.asn1.util.Oid
+	org.apache.directory.api.ldap.extras.extended.startTls.StartTlsRequest
+	org.apache.directory.api.ldap.extras.extended.startTls.StartTlsRequestImpl
+	org.apache.directory.api.ldap.model.exception.LdapException
+	org.apache.directory.api.ldap.model.message.BindRequest
+	org.apache.directory.api.ldap.model.message.BindRequestImpl
+	org.apache.directory.api.ldap.model.message.BindResponse
+	org.apache.directory.api.ldap.model.message.ExtendedRequest
+	org.apache.directory.api.ldap.model.message.ExtendedResponse
+	org.apache.directory.api.ldap.model.name.Dn
+	org.junit.jupiter.api.Test
+	org.mockito.exceptions.misusing.NotAMockException
+	org.mockito.internal.util.MockUtil
+	org.mockito.verification.VerificationMode

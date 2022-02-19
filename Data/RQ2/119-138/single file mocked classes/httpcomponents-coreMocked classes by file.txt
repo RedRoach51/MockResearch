@@ -1,0 +1,157 @@
+/httpcore5/src/test/java/org/apache/hc/core5/concurrent/TestBasicFuture.java
+	org.apache.hc.core5.concurrent.FutureCallback
+	org.apache.hc.core5.concurrent.FutureCallback
+	org.apache.hc.core5.concurrent.FutureCallback
+	org.apache.hc.core5.concurrent.FutureCallback
+/httpcore5/src/test/java/org/apache/hc/core5/http/impl/io/TestHttpRequestExecutor.java
+	org.apache.hc.core5.http.io.HttpClientConnection
+	org.apache.hc.core5.http.protocol.HttpProcessor
+	org.apache.hc.core5.http.protocol.HttpProcessor
+	org.apache.hc.core5.http.io.HttpClientConnection
+	org.apache.hc.core5.http.protocol.HttpProcessor
+	org.apache.hc.core5.http.io.HttpClientConnection
+	org.apache.hc.core5.http.io.HttpResponseInformationCallback
+	org.apache.hc.core5.http.protocol.HttpProcessor
+	org.apache.hc.core5.http.io.HttpClientConnection
+	org.apache.hc.core5.http.protocol.HttpProcessor
+	org.apache.hc.core5.http.io.HttpClientConnection
+	org.apache.hc.core5.http.protocol.HttpProcessor
+	org.apache.hc.core5.http.io.HttpClientConnection
+	org.apache.hc.core5.http.HttpEntity
+	org.apache.hc.core5.http.protocol.HttpProcessor
+	org.apache.hc.core5.http.io.HttpClientConnection
+	org.apache.hc.core5.http.HttpEntity
+	org.apache.hc.core5.http.protocol.HttpProcessor
+	org.apache.hc.core5.http.io.HttpClientConnection
+	org.apache.hc.core5.http.HttpEntity
+	org.apache.hc.core5.http.protocol.HttpProcessor
+	org.apache.hc.core5.http.io.HttpClientConnection
+	org.apache.hc.core5.http.HttpEntity
+	org.apache.hc.core5.http.io.HttpResponseInformationCallback
+	org.apache.hc.core5.http.protocol.HttpProcessor
+	org.apache.hc.core5.http.io.HttpClientConnection
+	org.apache.hc.core5.http.HttpEntity
+	org.apache.hc.core5.http.io.HttpClientConnection
+	org.apache.hc.core5.http.io.HttpClientConnection
+/httpcore5/src/test/java/org/apache/hc/core5/http/impl/io/TestBHttpConnectionBase.java
+	java.net.Socket
+	java.io.OutputStream
+	java.io.OutputStream
+	java.io.InputStream
+	java.io.InputStream
+	java.io.InputStream
+	java.io.InputStream
+	java.io.OutputStream
+	java.io.InputStream
+	java.io.InputStream
+	java.io.InputStream
+/httpcore5/src/test/java/org/apache/hc/core5/http/impl/io/TestDefaultBHttpServerConnection.java
+	java.net.Socket
+/httpcore5/src/test/java/org/apache/hc/core5/http/impl/io/TestSessionInOutBuffers.java
+	java.io.OutputStream
+	java.io.OutputStream
+/httpcore5/src/test/java/org/apache/hc/core5/http/impl/io/TestDefaultBHttpClientConnection.java
+	java.net.Socket
+/httpcore5/src/test/java/org/apache/hc/core5/http/impl/io/TestMonitoringResponseOutOfOrderStrategy.java
+	java.io.InputStream
+	org.apache.hc.core5.http.io.HttpClientConnection
+	javax.net.ssl.SSLSession
+/httpcore5/src/test/java/org/apache/hc/core5/http/impl/io/TestHttpService.java
+	org.apache.hc.core5.http.protocol.HttpProcessor
+	org.apache.hc.core5.http.ConnectionReuseStrategy
+	org.apache.hc.core5.http.ClassicHttpResponse
+	org.apache.hc.core5.http.HttpResponseFactory<org.apache.hc.core5.http.ClassicHttpResponse>
+	org.apache.hc.core5.http.HttpRequestMapper<org.apache.hc.core5.http.io.HttpRequestHandler>
+	org.apache.hc.core5.http.io.HttpRequestHandler
+	org.apache.hc.core5.http.io.HttpServerConnection
+	java.io.InputStream
+	java.io.InputStream
+/httpcore5/src/test/java/org/apache/hc/core5/http/impl/nio/TestLengthDelimitedEncoder.java
+/httpcore5/src/test/java/org/apache/hc/core5/http/impl/nio/TestIdentityEncoder.java
+/httpcore5/src/test/java/org/apache/hc/core5/http/impl/nio/TestAbstractHttp1StreamDuplexerCapacityWindow.java
+	org.apache.hc.core5.reactor.IOSession
+/httpcore5/src/test/java/org/apache/hc/core5/http/impl/nio/TestChunkEncoder.java
+/httpcore5/src/test/java/org/apache/hc/core5/http/io/TestEofSensorInputStream.java
+	java.io.InputStream
+	org.apache.hc.core5.http.io.EofSensorWatcher
+/httpcore5/src/test/java/org/apache/hc/core5/http/io/support/ClassicResponseBuilderTest.java
+	java.net.Socket
+/httpcore5/src/test/java/org/apache/hc/core5/http/nio/ssl/BasicClientTlsStrategyTest.java
+	org.apache.hc.core5.reactor.ssl.SSLSessionVerifier
+/httpcore5/src/test/java/org/apache/hc/core5/http/nio/ssl/BasicServerTlsStrategyTest.java
+	org.apache.hc.core5.reactor.ssl.SSLSessionVerifier
+/httpcore5/src/test/java/org/apache/hc/core5/http/nio/support/classic/TestSharedInputBuffer.java
+	org.apache.hc.core5.http.nio.CapacityChannel
+	org.apache.hc.core5.http.nio.CapacityChannel
+	org.apache.hc.core5.http.nio.CapacityChannel
+	org.apache.hc.core5.http.nio.CapacityChannel
+	org.apache.hc.core5.http.nio.CapacityChannel
+/httpcore5/src/test/java/org/apache/hc/core5/http/nio/support/classic/TestSharedOutputBuffer.java
+	org.apache.hc.core5.http.nio.DataStreamChannel
+/httpcore5/src/test/java/org/apache/hc/core5/pool/TestLaxConnPool.java
+	org.apache.hc.core5.http.HttpConnection
+	org.apache.hc.core5.http.HttpConnection
+	org.apache.hc.core5.http.HttpConnection
+	org.apache.hc.core5.http.HttpConnection
+	org.apache.hc.core5.http.HttpConnection
+	org.apache.hc.core5.http.HttpConnection
+	org.apache.hc.core5.http.HttpConnection
+	org.apache.hc.core5.http.HttpConnection
+	org.apache.hc.core5.http.HttpConnection
+	org.apache.hc.core5.http.HttpConnection
+	org.apache.hc.core5.http.HttpConnection
+	org.apache.hc.core5.http.HttpConnection
+	org.apache.hc.core5.http.HttpConnection
+/httpcore5/src/test/java/org/apache/hc/core5/pool/TestStrictConnPool.java
+	org.apache.hc.core5.http.HttpConnection
+	org.apache.hc.core5.http.HttpConnection
+	org.apache.hc.core5.http.HttpConnection
+	org.apache.hc.core5.http.HttpConnection
+	org.apache.hc.core5.http.HttpConnection
+	org.apache.hc.core5.http.HttpConnection
+	org.apache.hc.core5.http.HttpConnection
+	org.apache.hc.core5.http.HttpConnection
+	org.apache.hc.core5.http.HttpConnection
+	org.apache.hc.core5.http.HttpConnection
+	org.apache.hc.core5.http.HttpConnection
+	org.apache.hc.core5.http.HttpConnection
+	org.apache.hc.core5.http.HttpConnection
+	org.apache.hc.core5.http.HttpConnection
+	org.apache.hc.core5.http.HttpConnection
+	org.apache.hc.core5.http.HttpConnection
+	org.apache.hc.core5.http.HttpConnection
+	org.apache.hc.core5.http.HttpConnection
+	org.apache.hc.core5.http.HttpConnection
+	org.apache.hc.core5.http.HttpConnection
+/httpcore5/src/test/java/org/apache/hc/core5/pool/TestPoolEntry.java
+	org.apache.hc.core5.http.HttpConnection
+	org.apache.hc.core5.http.HttpConnection
+	org.apache.hc.core5.http.HttpConnection
+	org.apache.hc.core5.http.HttpConnection
+	org.apache.hc.core5.http.HttpConnection
+/httpcore5/src/test/java/org/apache/hc/core5/reactor/IOWorkersTest.java
+	org.apache.hc.core5.reactor.IOEventHandlerFactory
+/httpcore5/src/test/java/org/apache/hc/core5/reactor/TestAbstractIOSessionPool.java
+	java.util.concurrent.Future<org.apache.hc.core5.reactor.IOSession>
+	org.apache.hc.core5.concurrent.FutureCallback<org.apache.hc.core5.reactor.IOSession>
+	org.apache.hc.core5.concurrent.FutureCallback<org.apache.hc.core5.reactor.IOSession>
+	org.apache.hc.core5.reactor.IOSession
+	org.apache.hc.core5.reactor.IOSession
+	org.mockito.ArgumentCaptor<org.apache.hc.core5.concurrent.FutureCallback<org.apache.hc.core5.reactor.IOSession>>
+	org.apache.hc.core5.reactor.AbstractIOSessionPool
+/httpcore5-h2/src/test/java/org/apache/hc/core5/http2/ssl/ConscryptClientTlsStrategyTest.java
+	org.apache.hc.core5.reactor.ssl.SSLSessionVerifier
+/httpcore5-testing/src/test/java/org/apache/hc/core5/testing/framework/TestClassicTestClientTestingAdapter.java
+	org.apache.hc.core5.testing.framework.TestingFrameworkRequestHandler
+	org.apache.hc.core5.testing.framework.TestingFrameworkRequestHandler
+	org.apache.hc.core5.testing.framework.TestingFrameworkRequestHandler
+	org.apache.hc.core5.testing.framework.TestingFrameworkRequestHandler
+	org.apache.hc.core5.testing.framework.TestingFrameworkRequestHandler
+	org.apache.hc.core5.testing.framework.TestingFrameworkRequestHandler
+	org.apache.hc.core5.testing.framework.TestingFrameworkRequestHandler
+/httpcore5-testing/src/test/java/org/apache/hc/core5/testing/framework/TestTestingFramework.java
+	org.apache.hc.core5.testing.framework.ClientTestingAdapter
+	org.apache.hc.core5.testing.framework.ClientTestingAdapter
+	org.apache.hc.core5.testing.framework.TestingFrameworkRequestHandler
+	org.apache.hc.core5.testing.framework.TestingFrameworkRequestHandler
+	org.apache.hc.core5.testing.framework.TestingFrameworkRequestHandler

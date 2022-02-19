@@ -16,3 +16,13 @@ Methods Invoked:
 	Class origin: org.mockito.Matchers
 	Count: 1
  
+/commons-chain2-web/src/test/java/org/apache/commons/chain2/web/servlet/ServletGetLocaleCommandTestCase.java
+Methods Invoked: 
+/commons-chain2-web/src/test/java/org/apache/commons/chain2/web/servlet/ServletSetLocaleCommandTestCase.java
+Methods Invoked: 
+/commons-chain2-web/src/test/java/org/apache/commons/chain2/web/servlet/ServletWebContextBaseTestCase.java
+Methods Invoked: 
+/commons-chain2-web/src/test/java/org/apache/commons/chain2/web/servlet/MockServletConfig.java
+Methods Invoked: 
+/commons-chain2-web/src/test/java/org/apache/commons/chain2/web/servlet/ChainProcessorTestCase.java
+Methods Invoked: 

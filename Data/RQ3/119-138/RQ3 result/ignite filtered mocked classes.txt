@@ -30,8 +30,10 @@ org.apache.ignite.internal.processors.subscription.GridInternalSubscriptionProce
 org.apache.ignite.internal.processors.cache.persistence.IgniteCacheDatabaseSharedManager
 org.apache.ignite.internal.processors.query.stat.IgniteStatisticsHelper
 org.apache.ignite.ml.clustering.gmm.GmmModel
+org.apache.ignite.cache.affinity.AffinityFunction
 org.apache.ignite.cluster.ClusterNode
 org.apache.ignite.cache.affinity.AffinityFunctionContext
+org.apache.ignite.ml.dataset.Dataset<java.io.Serializable,java.lang.AutoCloseable>
 org.apache.ignite.ml.math.functions.IgniteTriFunction
 org.apache.ignite.ml.math.functions.IgniteBinaryOperator
 org.apache.ignite.ml.math.functions.IgniteBiFunction

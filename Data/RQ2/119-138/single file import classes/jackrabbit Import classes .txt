@@ -1,0 +1,56 @@
+/jackrabbit-core/src/test/java/org/apache/jackrabbit/core/integration/UtilsGetPathTest.java
+	javax.jcr.AccessDeniedException
+	javax.jcr.Node
+	javax.jcr.RepositoryException
+	javax.jcr.Session
+	org.apache.jackrabbit.commons.JcrUtils
+	org.apache.jackrabbit.test.AbstractJCRTest
+	org.junit.Test
+	org.mockito.Mockito
+/jackrabbit-core/src/test/java/org/apache/jackrabbit/core/security/principal/PrincipalManagerTest.java
+	java.security.Principal
+	java.util.Properties
+	javax.jcr.RepositoryException
+	javax.jcr.Session
+	org.apache.jackrabbit.api.security.principal.GroupPrincipal
+	org.apache.jackrabbit.api.security.principal.JackrabbitPrincipal
+	org.apache.jackrabbit.api.security.principal.PrincipalIterator
+	org.apache.jackrabbit.test.AbstractJCRTest
+	org.apache.jackrabbit.test.NotExecutableException
+	org.mockito.Mockito
+/jackrabbit-jcr-server/src/test/java/org/apache/jackrabbit/server/remoting/davex/JsonWriterTest.java
+	org.apache.jackrabbit.commons.iterator.NodeIteratorAdapter
+	org.apache.jackrabbit.commons.iterator.PropertyIteratorAdapter
+	org.easymock.EasyMockSupport
+	org.easymock.IAnswer
+	org.junit.Test
+	javax.jcr.Node
+	javax.jcr.NodeIterator
+	javax.jcr.Property
+	javax.jcr.PropertyIterator
+	javax.jcr.PropertyType
+	javax.jcr.Value
+	java.io.StringWriter
+	java.util.ArrayList
+	java.util.Collections
+	java.util.List
+	org.junit.Assert
+	org.easymock.EasyMock
+/jackrabbit-jcr-server/src/test/java/org/apache/jackrabbit/webdav/jcr/observation/InfoMapTest.java
+	java.io.ByteArrayInputStream
+	java.io.ByteArrayOutputStream
+	java.io.IOException
+	java.util.HashMap
+	java.util.Map
+	javax.jcr.RepositoryException
+	javax.jcr.Session
+	javax.xml.parsers.ParserConfigurationException
+	javax.xml.transform.TransformerException
+	org.apache.jackrabbit.webdav.observation.ObservationConstants
+	org.apache.jackrabbit.webdav.xml.DomUtil
+	org.apache.jackrabbit.webdav.xml.Namespace
+	org.mockito.Mockito
+	org.w3c.dom.Document
+	org.w3c.dom.Element
+	org.xml.sax.SAXException
+	junit.framework.TestCase

@@ -1,0 +1,140 @@
+/ignite-benchmarks/src/main/java/org/apache/ignite/internal/benchmarks/jmh/misc/GridDhtPartitionsStateValidatorBenchmark.java
+	org.apache.ignite.internal.processors.cache.distributed.dht.topology.GridDhtLocalPartition
+	org.apache.ignite.internal.processors.cache.GridCacheSharedContext
+	org.apache.ignite.internal.processors.cache.distributed.dht.topology.GridDhtPartitionTopology
+/ignite-benchmarks/src/main/java/org/apache/ignite/internal/benchmarks/jmh/tree/BPlusTreeBenchmark.java
+	org.apache.ignite.internal.processors.cache.persistence.diagnostic.pagelocktracker.PageLockTrackerManager
+	org.apache.ignite.internal.processors.cache.persistence.DataRegionMetricsImpl
+	org.apache.ignite.internal.processors.cache.persistence.pagemem.PageMetrics
+/ignite-cassandra-store/src/test/java/org/apache/ignite/tests/CassandraSessionImplTest.java
+	com.datastax.driver.core.Session
+	com.datastax.driver.core.Session
+	com.datastax.driver.core.ResultSetFuture
+	com.datastax.driver.core.ResultSet
+	java.util.Iterator
+	com.datastax.driver.core.Row
+	com.datastax.driver.core.Cluster
+	com.datastax.driver.core.Cluster.Builder
+	org.apache.ignite.IgniteLogger
+	com.datastax.driver.core.PreparedStatement
+	com.datastax.driver.core.ColumnDefinitions
+	com.datastax.driver.core.PreparedId
+/ignite-core/src/test/java/org/apache/ignite/cache/ReleaseSegmentOnHistoricalRebalanceTest.java
+/ignite-core/src/test/java/org/apache/ignite/internal/GridCollisionManagerLoggingSelfTest.java
+	org.apache.ignite.IgniteLogger
+/ignite-core/src/test/java/org/apache/ignite/internal/client/thin/ReliableChannelTest.java
+	org.apache.ignite.internal.client.thin.ClientBinaryMarshaller
+	org.apache.ignite.internal.client.thin.TcpClientTransactions
+/ignite-core/src/test/java/org/apache/ignite/internal/managers/GridManagerMxBeanIllegalArgumentHandleTest.java
+	java.lang.management.MemoryMXBean
+	org.apache.ignite.IgniteLogger
+	org.apache.ignite.internal.GridKernalContext
+/ignite-core/src/test/java/org/apache/ignite/internal/managers/communication/GridIoManagerSelfTest.java
+	org.apache.ignite.internal.managers.discovery.GridDiscoveryManager
+/ignite-core/src/test/java/org/apache/ignite/internal/processors/cache/ClientSlowDiscoveryTransactionRemapTest.java
+/ignite-core/src/test/java/org/apache/ignite/internal/processors/cache/distributed/dht/GridCachePartitionsStateValidatorSelfTest.java
+	org.apache.ignite.internal.processors.cache.GridCacheSharedContext
+	org.apache.ignite.internal.processors.cache.distributed.dht.topology.GridDhtPartitionTopology
+	org.apache.ignite.internal.processors.cache.distributed.dht.topology.GridDhtLocalPartition
+/ignite-core/src/test/java/org/apache/ignite/internal/processors/cache/distributed/dht/topology/BlockedEvictionsTest.java
+/ignite-core/src/test/java/org/apache/ignite/internal/processors/cache/distributed/dht/topology/GridDhtLocalPartitionSyncEviction.java
+/ignite-core/src/test/java/org/apache/ignite/internal/processors/cache/persistence/RestorePartitionStateDuringCheckpointTest.java
+/ignite-core/src/test/java/org/apache/ignite/internal/processors/cache/persistence/IgnitePdsDestroyCacheTest.java
+/ignite-core/src/test/java/org/apache/ignite/internal/processors/cache/persistence/db/wal/reader/MockWalIteratorFactory.java
+	org.apache.ignite.IgniteLogger
+	org.apache.ignite.configuration.DataStorageConfiguration
+	org.apache.ignite.configuration.IgniteConfiguration
+	org.apache.ignite.internal.GridKernalContext
+	org.apache.ignite.internal.managers.discovery.GridDiscoveryManager
+	org.apache.ignite.internal.processors.cache.GridCacheSharedContext
+	org.apache.ignite.internal.processors.cache.persistence.GridCacheDatabaseSharedManager
+/ignite-core/src/test/java/org/apache/ignite/internal/processors/cache/persistence/defragmentation/LinkMapTest.java
+	org.apache.ignite.internal.processors.cache.persistence.diagnostic.pagelocktracker.PageLockTrackerManager
+/ignite-core/src/test/java/org/apache/ignite/internal/processors/cache/persistence/pagemem/IndexStoragePageMemoryImplTest.java
+	org.apache.ignite.internal.processors.cache.persistence.checkpoint.CheckpointProgressImpl
+/ignite-core/src/test/java/org/apache/ignite/internal/processors/cache/persistence/pagemem/IgnitePageMemReplaceDelayedWriteUnitTest.java
+	org.apache.ignite.internal.processors.cache.persistence.GridCacheDatabaseSharedManager
+	org.apache.ignite.internal.processors.cache.GridCacheSharedContext
+	org.apache.ignite.internal.GridKernalContext
+	org.apache.ignite.internal.processors.cache.persistence.checkpoint.CheckpointProgressImpl
+/ignite-core/src/test/java/org/apache/ignite/internal/processors/cache/persistence/pagemem/IgniteThrottlingUnitTest.java
+	org.apache.ignite.internal.processors.cache.persistence.pagemem.PageMemoryImpl
+	org.apache.ignite.IgniteLogger
+	org.apache.ignite.internal.processors.cache.persistence.checkpoint.CheckpointProgressImpl
+	org.apache.ignite.lang.IgniteOutClosure
+/ignite-core/src/test/java/org/apache/ignite/internal/processors/cache/persistence/pagemem/BPlusTreePageMemoryImplTest.java
+	org.apache.ignite.internal.processors.cache.persistence.checkpoint.CheckpointProgressImpl
+/ignite-core/src/test/java/org/apache/ignite/internal/processors/cache/persistence/pagemem/BPlusTreeReuseListPageMemoryImplTest.java
+	org.apache.ignite.internal.processors.cache.persistence.checkpoint.CheckpointProgressImpl
+/ignite-core/src/test/java/org/apache/ignite/internal/processors/cache/persistence/pagemem/PageMemoryImplNoLoadTest.java
+	org.apache.ignite.internal.processors.cache.persistence.checkpoint.CheckpointProgressImpl
+/ignite-core/src/test/java/org/apache/ignite/internal/processors/cache/persistence/pagemem/PageMemoryImplTest.java
+	org.apache.ignite.internal.processors.cache.persistence.pagemem.CheckpointMetricsTracker
+	org.apache.ignite.internal.processors.cache.persistence.checkpoint.CheckpointProgressImpl
+	org.apache.ignite.lang.IgniteOutClosure
+/ignite-core/src/test/java/org/apache/ignite/internal/processors/cache/persistence/wal/memtracker/PageMemoryTracker.java
+	org.apache.ignite.internal.pagemem.PageMemory
+/ignite-core/src/test/java/org/apache/ignite/internal/processors/cache/persistence/wal/reader/FilteredWalIteratorTest.java
+	org.apache.ignite.internal.pagemem.wal.WALIterator
+/ignite-core/src/test/java/org/apache/ignite/internal/processors/cache/persistence/wal/scanner/WalScannerTest.java
+	org.apache.ignite.internal.processors.cache.persistence.wal.reader.IgniteWalIteratorFactory
+	org.apache.ignite.internal.processors.cache.persistence.wal.reader.IgniteWalIteratorFactory
+	org.apache.ignite.IgniteLogger
+	org.apache.ignite.internal.processors.cache.persistence.wal.reader.IgniteWalIteratorFactory
+	org.apache.ignite.internal.processors.cache.persistence.wal.reader.IgniteWalIteratorFactory
+	org.apache.ignite.IgniteLogger
+	org.apache.ignite.internal.processors.cache.persistence.wal.reader.IgniteWalIteratorFactory
+	org.apache.ignite.internal.pagemem.wal.WALIterator
+/ignite-core/src/test/java/org/apache/ignite/internal/processors/cache/transactions/TxDataConsistencyOnCommitFailureTest.java
+/ignite-core/src/test/java/org/apache/ignite/internal/processors/cluster/GridUpdateNotifierSelfTest.java
+	org.apache.ignite.internal.processors.cluster.HttpIgniteUpdatesChecker
+/ignite-core/src/test/java/org/apache/ignite/internal/processors/database/BPlusTreeReuseSelfTest.java
+	org.apache.ignite.internal.processors.cache.persistence.diagnostic.pagelocktracker.PageLockTrackerManager
+/ignite-core/src/test/java/org/apache/ignite/internal/processors/database/IndexStorageSelfTest.java
+	org.apache.ignite.internal.processors.cache.persistence.diagnostic.pagelocktracker.PageLockTrackerManager
+/ignite-core/src/test/java/org/apache/ignite/internal/processors/database/CacheFreeListSelfTest.java
+	org.apache.ignite.internal.processors.cache.persistence.diagnostic.pagelocktracker.PageLockTrackerManager
+/ignite-core/src/test/java/org/apache/ignite/internal/processors/security/IgniteSecurityProcessorTest.java
+	org.apache.ignite.internal.GridKernalContext
+	org.apache.ignite.internal.managers.discovery.GridDiscoveryManager
+	org.apache.ignite.internal.processors.security.GridSecurityProcessor
+/ignite-core/src/test/java/org/apache/ignite/internal/processors/service/ServiceReassignmentFunctionSelfTest.java
+	org.apache.ignite.internal.managers.eventstorage.GridEventStorageManager
+	org.apache.ignite.internal.managers.communication.GridIoManager
+	org.apache.ignite.internal.managers.systemview.GridSystemViewManager
+	org.apache.ignite.internal.managers.discovery.GridDiscoveryManager
+/ignite-indexing/src/test/java/org/apache/ignite/internal/processors/cache/ReservationsOnDoneAfterTopologyUnlockFailTest.java
+/ignite-indexing/src/test/java/org/apache/ignite/internal/processors/query/stat/IgniteStatisticsRepositoryTest.java
+	org.apache.ignite.internal.managers.systemview.GridSystemViewManager
+	org.apache.ignite.internal.processors.subscription.GridInternalSubscriptionProcessor
+	org.apache.ignite.internal.processors.cache.persistence.IgniteCacheDatabaseSharedManager
+	org.apache.ignite.internal.processors.query.stat.IgniteStatisticsHelper
+/ignite-indexing/src/test/java/org/apache/ignite/internal/processors/query/stat/StatisticsStorageRestartTest.java
+	org.apache.ignite.internal.processors.subscription.GridInternalSubscriptionProcessor
+/ignite-indexing/src/test/java/org/apache/ignite/internal/processors/query/stat/StatisticsStorageUnitTest.java
+	org.apache.ignite.internal.processors.query.stat.IgniteStatisticsHelper
+	org.apache.ignite.internal.processors.subscription.GridInternalSubscriptionProcessor
+	org.apache.ignite.internal.managers.systemview.GridSystemViewManager
+/ignite-kubernetes/src/test/java/org/apache/ignite/internal/kubernetes/connection/KubernetesServiceAddressResolverTest.java
+/ignite-kubernetes/src/test/java/org/apache/ignite/kubernetes/discovery/KubernetesDiscoveryAbstractTest.java
+/ignite-ml/src/test/java/org/apache/ignite/ml/clustering/gmm/NewComponentStatisticsAggregatorTest.java
+	org.apache.ignite.ml.clustering.gmm.GmmModel
+/ignite-ml/src/test/java/org/apache/ignite/ml/dataset/impl/cache/util/DatasetAffinityFunctionWrapperTest.java
+	org.apache.ignite.cache.affinity.AffinityFunction
+	org.apache.ignite.cluster.ClusterNode
+	org.apache.ignite.cache.affinity.AffinityFunctionContext
+/ignite-ml/src/test/java/org/apache/ignite/ml/dataset/primitive/DatasetWrapperTest.java
+	org.apache.ignite.ml.dataset.Dataset<java.io.Serializable,java.lang.AutoCloseable>
+	org.apache.ignite.ml.math.functions.IgniteTriFunction
+	org.apache.ignite.ml.math.functions.IgniteBinaryOperator
+	org.apache.ignite.ml.math.functions.IgniteBiFunction
+	org.apache.ignite.ml.math.functions.IgniteBinaryOperator
+	org.apache.ignite.ml.math.functions.IgniteBiFunction
+	org.apache.ignite.ml.math.functions.IgniteBinaryOperator
+	org.apache.ignite.ml.math.functions.IgniteFunction
+	org.apache.ignite.ml.math.functions.IgniteBinaryOperator
+/ignite-ml/src/test/java/org/apache/ignite/ml/inference/storage/model/DefaultModelStorageTest.java
+	java.util.concurrent.locks.Lock
+	java.util.concurrent.locks.Lock
+	java.util.concurrent.locks.Lock
+	java.util.concurrent.locks.Lock

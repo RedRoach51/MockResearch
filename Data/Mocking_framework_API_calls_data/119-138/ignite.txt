@@ -1,3 +1,5 @@
+/ignite-benchmarks/src/main/java/org/apache/ignite/internal/benchmarks/jmh/misc/GridDhtPartitionsStateValidatorBenchmark.java
+Methods Invoked: 
 	Method name: mock
 	Class origin: org.mockito.Mockito
 	Count: 3
@@ -14,6 +16,8 @@
 	Class origin: org.mockito.stubbing.OngoingStubbing<java.lang.Long>
 	Count: 2
  
+/ignite-benchmarks/src/main/java/org/apache/ignite/internal/benchmarks/jmh/tree/BPlusTreeBenchmark.java
+Methods Invoked: 
 	Method name: mock
 	Class origin: org.mockito.Mockito
 	Count: 3
@@ -26,10 +30,14 @@
 	Class origin: org.mockito.ArgumentMatchers
 	Count: 1
  
+/ignite-cassandra-store/src/test/java/org/apache/ignite/tests/CassandraSessionImplTest.java
+Methods Invoked: 
 	Method name: mock
 	Class origin: org.mockito.Mockito
 	Count: 12
  
+/ignite-core/src/test/java/org/apache/ignite/cache/ReleaseSegmentOnHistoricalRebalanceTest.java
+Methods Invoked: 
 	Method name: spy
 	Class origin: org.mockito.Mockito
 	Count: 8
@@ -46,6 +54,8 @@
 	Class origin: org.mockito.invocation.InvocationOnMock
 	Count: 6
  
+/ignite-core/src/test/java/org/apache/ignite/internal/GridCollisionManagerLoggingSelfTest.java
+Methods Invoked: 
 	Method name: mock
 	Class origin: org.mockito.Mockito
 	Count: 1
@@ -66,10 +76,14 @@
 	Class origin: org.mockito.Mockito
 	Count: 1
  
+/ignite-core/src/test/java/org/apache/ignite/internal/client/thin/ReliableChannelTest.java
+Methods Invoked: 
 	Method name: mock
 	Class origin: org.mockito.Mockito
 	Count: 2
  
+/ignite-core/src/test/java/org/apache/ignite/internal/managers/GridManagerMxBeanIllegalArgumentHandleTest.java
+Methods Invoked: 
 	Method name: mock
 	Class origin: org.mockito.Mockito
 	Count: 3
@@ -82,6 +96,8 @@
 	Class origin: org.mockito.Mockito
 	Count: 5
  
+/ignite-core/src/test/java/org/apache/ignite/internal/managers/communication/GridIoManagerSelfTest.java
+Methods Invoked: 
 	Method name: mock
 	Class origin: org.mockito.Mockito
 	Count: 1
@@ -90,10 +106,14 @@
 	Class origin: org.mockito.Mockito
 	Count: 2
  
+/ignite-core/src/test/java/org/apache/ignite/internal/processors/cache/ClientSlowDiscoveryTransactionRemapTest.java
+Methods Invoked: 
 	Method name: newSet
 	Class origin: org.mockito.internal.util.collections.Sets
 	Count: 4
  
+/ignite-core/src/test/java/org/apache/ignite/internal/processors/cache/distributed/dht/GridCachePartitionsStateValidatorSelfTest.java
+Methods Invoked: 
 	Method name: mock
 	Class origin: org.mockito.Mockito
 	Count: 3
@@ -106,6 +126,8 @@
 	Class origin: org.mockito.Mockito
 	Count: 10
  
+/ignite-core/src/test/java/org/apache/ignite/internal/processors/cache/distributed/dht/topology/BlockedEvictionsTest.java
+Methods Invoked: 
 	Method name: spy
 	Class origin: org.mockito.Mockito
 	Count: 1
@@ -122,6 +144,8 @@
 	Class origin: org.mockito.invocation.InvocationOnMock
 	Count: 1
  
+/ignite-core/src/test/java/org/apache/ignite/internal/processors/cache/distributed/dht/topology/GridDhtLocalPartitionSyncEviction.java
+Methods Invoked: 
 	Method name: spy
 	Class origin: org.mockito.Mockito
 	Count: 1
@@ -138,6 +162,8 @@
 	Class origin: org.mockito.invocation.InvocationOnMock
 	Count: 1
  
+/ignite-core/src/test/java/org/apache/ignite/internal/processors/cache/persistence/RestorePartitionStateDuringCheckpointTest.java
+Methods Invoked: 
 	Method name: spy
 	Class origin: org.mockito.Mockito
 	Count: 1
@@ -162,6 +188,8 @@
 	Class origin: org.mockito.ArgumentMatchers
 	Count: 2
  
+/ignite-core/src/test/java/org/apache/ignite/internal/processors/cache/persistence/IgnitePdsDestroyCacheTest.java
+Methods Invoked: 
 	Method name: spy
 	Class origin: org.mockito.Mockito
 	Count: 1
@@ -186,10 +214,14 @@
 	Class origin: org.mockito.ArgumentMatchers
 	Count: 1
  
+/ignite-core/src/test/java/org/apache/ignite/internal/processors/cache/persistence/db/wal/reader/MockWalIteratorFactory.java
+Methods Invoked: 
 	Method name: mock
 	Class origin: org.mockito.Mockito
 	Count: 7
  
+/ignite-core/src/test/java/org/apache/ignite/internal/processors/cache/persistence/defragmentation/LinkMapTest.java
+Methods Invoked: 
 	Method name: mock
 	Class origin: org.mockito.Mockito
 	Count: 1
@@ -202,10 +234,14 @@
 	Class origin: org.mockito.ArgumentMatchers
 	Count: 1
  
+/ignite-core/src/test/java/org/apache/ignite/internal/processors/cache/persistence/pagemem/IndexStoragePageMemoryImplTest.java
+Methods Invoked: 
 	Method name: mock
 	Class origin: org.mockito.Mockito
 	Count: 1
  
+/ignite-core/src/test/java/org/apache/ignite/internal/processors/cache/persistence/pagemem/IgnitePageMemReplaceDelayedWriteUnitTest.java
+Methods Invoked: 
 	Method name: mock
 	Class origin: org.mockito.Mockito
 	Count: 4
@@ -218,6 +254,8 @@
 	Class origin: org.mockito.Mockito
 	Count: 14
  
+/ignite-core/src/test/java/org/apache/ignite/internal/processors/cache/persistence/pagemem/IgniteThrottlingUnitTest.java
+Methods Invoked: 
 	Method name: mock
 	Class origin: org.mockito.Mockito
 	Count: 4
@@ -230,22 +268,32 @@
 	Class origin: org.mockito.Mockito
 	Count: 7
  
+/ignite-core/src/test/java/org/apache/ignite/internal/processors/cache/persistence/pagemem/BPlusTreePageMemoryImplTest.java
+Methods Invoked: 
 	Method name: mock
 	Class origin: org.mockito.Mockito
 	Count: 1
  
+/ignite-core/src/test/java/org/apache/ignite/internal/processors/cache/persistence/pagemem/BPlusTreeReuseListPageMemoryImplTest.java
+Methods Invoked: 
 	Method name: mock
 	Class origin: org.mockito.Mockito
 	Count: 1
  
+/ignite-core/src/test/java/org/apache/ignite/internal/processors/cache/persistence/pagemem/PageMemoryImplNoLoadTest.java
+Methods Invoked: 
 	Method name: mock
 	Class origin: org.mockito.Mockito
 	Count: 1
  
+/ignite-core/src/test/java/org/apache/ignite/internal/processors/cache/persistence/pagemem/PageMemoryImplTest.java
+Methods Invoked: 
 	Method name: mock
 	Class origin: org.mockito.Mockito
 	Count: 3
  
+/ignite-core/src/test/java/org/apache/ignite/internal/processors/cache/persistence/wal/memtracker/PageMemoryTracker.java
+Methods Invoked: 
 	Method name: mock
 	Class origin: org.mockito.Mockito
 	Count: 1
@@ -262,6 +310,8 @@
 	Class origin: org.mockito.stubbing.OngoingStubbing<java.lang.Integer>
 	Count: 1
  
+/ignite-core/src/test/java/org/apache/ignite/internal/processors/cache/persistence/wal/reader/FilteredWalIteratorTest.java
+Methods Invoked: 
 	Method name: mock
 	Class origin: org.mockito.Mockito
 	Count: 1
@@ -274,6 +324,8 @@
 	Class origin: org.mockito.Mockito
 	Count: 2
  
+/ignite-core/src/test/java/org/apache/ignite/internal/processors/cache/persistence/wal/scanner/WalScannerTest.java
+Methods Invoked: 
 	Method name: mock
 	Class origin: org.mockito.Mockito
 	Count: 8
@@ -286,6 +338,8 @@
 	Class origin: org.mockito.ArgumentMatchers
 	Count: 5
  
+/ignite-core/src/test/java/org/apache/ignite/internal/processors/cache/transactions/TxDataConsistencyOnCommitFailureTest.java
+Methods Invoked: 
 	Method name: spy
 	Class origin: org.mockito.Mockito
 	Count: 1
@@ -298,6 +352,8 @@
 	Class origin: org.mockito.Mockito
 	Count: 1
  
+/ignite-core/src/test/java/org/apache/ignite/internal/processors/cluster/GridUpdateNotifierSelfTest.java
+Methods Invoked: 
 	Method name: mock
 	Class origin: org.mockito.Mockito
 	Count: 1
@@ -310,6 +366,8 @@
 	Class origin: org.mockito.Mockito
 	Count: 1
  
+/ignite-core/src/test/java/org/apache/ignite/internal/processors/database/BPlusTreeReuseSelfTest.java
+Methods Invoked: 
 	Method name: mock
 	Class origin: org.mockito.Mockito
 	Count: 1
@@ -322,6 +380,8 @@
 	Class origin: org.mockito.ArgumentMatchers
 	Count: 1
  
+/ignite-core/src/test/java/org/apache/ignite/internal/processors/database/IndexStorageSelfTest.java
+Methods Invoked: 
 	Method name: mock
 	Class origin: org.mockito.Mockito
 	Count: 1
@@ -334,6 +394,8 @@
 	Class origin: org.mockito.ArgumentMatchers
 	Count: 1
  
+/ignite-core/src/test/java/org/apache/ignite/internal/processors/database/CacheFreeListSelfTest.java
+Methods Invoked: 
 	Method name: mock
 	Class origin: org.mockito.Mockito
 	Count: 1
@@ -346,6 +408,8 @@
 	Class origin: org.mockito.ArgumentMatchers
 	Count: 1
  
+/ignite-core/src/test/java/org/apache/ignite/internal/processors/security/IgniteSecurityProcessorTest.java
+Methods Invoked: 
 	Method name: mock
 	Class origin: org.mockito.Mockito
 	Count: 3
@@ -354,6 +418,8 @@
 	Class origin: org.mockito.Mockito
 	Count: 3
  
+/ignite-core/src/test/java/org/apache/ignite/internal/processors/service/ServiceReassignmentFunctionSelfTest.java
+Methods Invoked: 
 	Method name: spy
 	Class origin: org.mockito.Mockito
 	Count: 1
@@ -362,6 +428,8 @@
 	Class origin: org.mockito.Mockito
 	Count: 4
  
+/ignite-indexing/src/test/java/org/apache/ignite/internal/processors/cache/ReservationsOnDoneAfterTopologyUnlockFailTest.java
+Methods Invoked: 
 	Method name: spy
 	Class origin: org.mockito.Mockito
 	Count: 1
@@ -382,18 +450,26 @@
 	Class origin: org.mockito.ArgumentMatchers
 	Count: 1
  
+/ignite-indexing/src/test/java/org/apache/ignite/internal/processors/query/stat/IgniteStatisticsRepositoryTest.java
+Methods Invoked: 
 	Method name: mock
 	Class origin: org.mockito.Mockito
 	Count: 4
  
+/ignite-indexing/src/test/java/org/apache/ignite/internal/processors/query/stat/StatisticsStorageRestartTest.java
+Methods Invoked: 
 	Method name: mock
 	Class origin: org.mockito.Mockito
 	Count: 1
  
+/ignite-indexing/src/test/java/org/apache/ignite/internal/processors/query/stat/StatisticsStorageUnitTest.java
+Methods Invoked: 
 	Method name: mock
 	Class origin: org.mockito.Mockito
 	Count: 3
  
+/ignite-kubernetes/src/test/java/org/apache/ignite/internal/kubernetes/connection/KubernetesServiceAddressResolverTest.java
+Methods Invoked: 
 	Method name: startClientAndServer
 	Class origin: org.mockserver.integration.ClientAndServer
 	Count: 1
@@ -438,6 +514,8 @@
 	Class origin: org.mockserver.model.HttpResponse
 	Count: 2
  
+/ignite-kubernetes/src/test/java/org/apache/ignite/kubernetes/discovery/KubernetesDiscoveryAbstractTest.java
+Methods Invoked: 
 	Method name: startClientAndServer
 	Class origin: org.mockserver.integration.ClientAndServer
 	Count: 1
@@ -486,6 +564,8 @@
 	Class origin: org.mockserver.integration.ClientAndServer
 	Count: 1
  
+/ignite-ml/src/test/java/org/apache/ignite/ml/clustering/gmm/NewComponentStatisticsAggregatorTest.java
+Methods Invoked: 
 	Method name: mock
 	Class origin: org.mockito.Mockito
 	Count: 1
@@ -498,6 +578,8 @@
 	Class origin: org.mockito.Mockito
 	Count: 6
  
+/ignite-ml/src/test/java/org/apache/ignite/ml/dataset/impl/cache/util/DatasetAffinityFunctionWrapperTest.java
+Methods Invoked: 
 	Method name: verify
 	Class origin: org.mockito.Mockito
 	Count: 5
@@ -514,6 +596,8 @@
 	Class origin: org.mockito.Mockito
 	Count: 3
  
+/ignite-ml/src/test/java/org/apache/ignite/ml/dataset/primitive/DatasetWrapperTest.java
+Methods Invoked: 
 	Method name: when
 	Class origin: org.mockito.stubbing.Stubber
 	Count: 4
@@ -526,546 +610,8 @@
 	Class origin: org.mockito.ArgumentMatchers
 	Count: 27
  
-	Method name: mock
-	Class origin: org.mockito.Mockito
-	Count: 4
- 
-	Method name: verify
-	Class origin: org.mockito.Mockito
-	Count: 12
- 
-	Method name: times
-	Class origin: org.mockito.Mockito
-	Count: 12
- 
-	Method name: mock
-	Class origin: org.mockito.Mockito
-	Count: 3
- 
-	Method name: thenReturn
-	Class origin: org.mockito.stubbing.OngoingStubbing<java.lang.Integer>
-	Count: 3
- 
-	Method name: when
-	Class origin: org.mockito.Mockito
-	Count: 10
- 
-	Method name: thenReturn
-	Class origin: org.mockito.stubbing.OngoingStubbing<java.lang.Long>
-	Count: 2
- 
-	Method name: mock
-	Class origin: org.mockito.Mockito
-	Count: 3
- 
-	Method name: when
-	Class origin: org.mockito.Mockito
-	Count: 4
- 
-	Method name: anyString
-	Class origin: org.mockito.ArgumentMatchers
-	Count: 1
- 
-	Method name: mock
-	Class origin: org.mockito.Mockito
-	Count: 12
- 
-	Method name: spy
-	Class origin: org.mockito.Mockito
-	Count: 8
- 
-	Method name: when
-	Class origin: org.mockito.Mockito
-	Count: 3
- 
-	Method name: any
-	Class origin: org.mockito.ArgumentMatchers
-	Count: 6
- 
-	Method name: callRealMethod
-	Class origin: org.mockito.invocation.InvocationOnMock
-	Count: 6
- 
-	Method name: mock
-	Class origin: org.mockito.Mockito
-	Count: 1
- 
-	Method name: when
-	Class origin: org.mockito.stubbing.Stubber
-	Count: 1
- 
-	Method name: doReturn
-	Class origin: org.mockito.Mockito
-	Count: 1
- 
-	Method name: any
-	Class origin: org.mockito.ArgumentMatchers
-	Count: 1
- 
-	Method name: verify
-	Class origin: org.mockito.Mockito
-	Count: 1
- 
-	Method name: mock
-	Class origin: org.mockito.Mockito
-	Count: 2
- 
-	Method name: mock
-	Class origin: org.mockito.Mockito
-	Count: 3
- 
-	Method name: thenAnswer
-	Class origin: org.mockito.stubbing.OngoingStubbing<java.lang.management.MemoryUsage>
-	Count: 2
- 
-	Method name: when
-	Class origin: org.mockito.Mockito
-	Count: 5
- 
-	Method name: mock
-	Class origin: org.mockito.Mockito
-	Count: 1
- 
-	Method name: when
-	Class origin: org.mockito.Mockito
-	Count: 2
- 
-	Method name: newSet
-	Class origin: org.mockito.internal.util.collections.Sets
-	Count: 4
- 
-	Method name: mock
-	Class origin: org.mockito.Mockito
-	Count: 3
- 
-	Method name: thenReturn
-	Class origin: org.mockito.stubbing.OngoingStubbing<java.util.UUID>
-	Count: 1
- 
-	Method name: when
-	Class origin: org.mockito.Mockito
-	Count: 10
- 
-	Method name: spy
-	Class origin: org.mockito.Mockito
-	Count: 1
- 
-	Method name: when
-	Class origin: org.mockito.stubbing.Stubber
-	Count: 1
- 
-	Method name: doAnswer
-	Class origin: org.mockito.Mockito
-	Count: 1
- 
-	Method name: callRealMethod
-	Class origin: org.mockito.invocation.InvocationOnMock
-	Count: 1
- 
-	Method name: spy
-	Class origin: org.mockito.Mockito
-	Count: 1
- 
-	Method name: when
-	Class origin: org.mockito.stubbing.Stubber
-	Count: 1
- 
-	Method name: doAnswer
-	Class origin: org.mockito.Mockito
-	Count: 1
- 
-	Method name: callRealMethod
-	Class origin: org.mockito.invocation.InvocationOnMock
-	Count: 1
- 
-	Method name: spy
-	Class origin: org.mockito.Mockito
-	Count: 1
- 
-	Method name: when
-	Class origin: org.mockito.stubbing.Stubber
-	Count: 1
- 
-	Method name: doAnswer
-	Class origin: org.mockito.Mockito
-	Count: 1
- 
-	Method name: getArgument
-	Class origin: org.mockito.invocation.InvocationOnMock
-	Count: 1
- 
-	Method name: callRealMethod
-	Class origin: org.mockito.invocation.InvocationOnMock
-	Count: 1
- 
-	Method name: eq
-	Class origin: org.mockito.ArgumentMatchers
-	Count: 2
- 
-	Method name: spy
-	Class origin: org.mockito.Mockito
-	Count: 1
- 
-	Method name: when
-	Class origin: org.mockito.stubbing.Stubber
-	Count: 1
- 
-	Method name: doAnswer
-	Class origin: org.mockito.Mockito
-	Count: 1
- 
-	Method name: callRealMethod
-	Class origin: org.mockito.invocation.InvocationOnMock
-	Count: 1
- 
-	Method name: anyInt
-	Class origin: org.mockito.ArgumentMatchers
-	Count: 1
- 
-	Method name: anyBoolean
-	Class origin: org.mockito.ArgumentMatchers
-	Count: 1
- 
-	Method name: mock
-	Class origin: org.mockito.Mockito
-	Count: 7
- 
-	Method name: mock
-	Class origin: org.mockito.Mockito
-	Count: 1
- 
-	Method name: when
-	Class origin: org.mockito.Mockito
-	Count: 1
- 
-	Method name: anyString
-	Class origin: org.mockito.ArgumentMatchers
-	Count: 1
- 
-	Method name: mock
-	Class origin: org.mockito.Mockito
-	Count: 1
- 
-	Method name: mock
-	Class origin: org.mockito.Mockito
-	Count: 4
- 
-	Method name: thenReturn
-	Class origin: org.mockito.stubbing.OngoingStubbing<java.lang.Boolean>
-	Count: 1
- 
-	Method name: when
-	Class origin: org.mockito.Mockito
-	Count: 14
- 
-	Method name: mock
-	Class origin: org.mockito.Mockito
-	Count: 4
- 
-	Method name: thenReturn
-	Class origin: org.mockito.stubbing.OngoingStubbing<java.lang.Long>
-	Count: 1
- 
-	Method name: when
-	Class origin: org.mockito.Mockito
-	Count: 7
- 
-	Method name: mock
-	Class origin: org.mockito.Mockito
-	Count: 1
- 
-	Method name: mock
-	Class origin: org.mockito.Mockito
-	Count: 1
- 
-	Method name: mock
-	Class origin: org.mockito.Mockito
-	Count: 1
- 
-	Method name: mock
-	Class origin: org.mockito.Mockito
-	Count: 3
- 
-	Method name: mock
-	Class origin: org.mockito.Mockito
-	Count: 1
- 
-	Method name: thenReturn
-	Class origin: org.mockito.stubbing.OngoingStubbing<java.lang.Integer>
-	Count: 1
- 
-	Method name: when
-	Class origin: org.mockito.Mockito
-	Count: 4
- 
-	Method name: then
-	Class origin: org.mockito.stubbing.OngoingStubbing<java.lang.Integer>
-	Count: 1
- 
-	Method name: mock
-	Class origin: org.mockito.Mockito
-	Count: 1
- 
-	Method name: thenReturn
-	Class origin: org.mockito.stubbing.OngoingStubbing<java.lang.Boolean>
-	Count: 1
- 
-	Method name: when
-	Class origin: org.mockito.Mockito
-	Count: 2
- 
-	Method name: mock
-	Class origin: org.mockito.Mockito
-	Count: 8
- 
-	Method name: when
-	Class origin: org.mockito.Mockito
-	Count: 9
- 
-	Method name: any
-	Class origin: org.mockito.ArgumentMatchers
-	Count: 5
- 
-	Method name: spy
-	Class origin: org.mockito.Mockito
-	Count: 1
- 
-	Method name: when
-	Class origin: org.mockito.stubbing.Stubber
-	Count: 1
- 
-	Method name: doAnswer
-	Class origin: org.mockito.Mockito
-	Count: 1
- 
-	Method name: mock
-	Class origin: org.mockito.Mockito
-	Count: 1
- 
-	Method name: thenReturn
-	Class origin: org.mockito.stubbing.OngoingStubbing<java.lang.String>
-	Count: 1
- 
-	Method name: when
-	Class origin: org.mockito.Mockito
-	Count: 1
- 
-	Method name: mock
-	Class origin: org.mockito.Mockito
-	Count: 1
- 
-	Method name: when
-	Class origin: org.mockito.Mockito
-	Count: 1
- 
-	Method name: anyString
-	Class origin: org.mockito.ArgumentMatchers
-	Count: 1
- 
-	Method name: mock
-	Class origin: org.mockito.Mockito
-	Count: 1
- 
-	Method name: when
-	Class origin: org.mockito.Mockito
-	Count: 1
- 
-	Method name: anyString
-	Class origin: org.mockito.ArgumentMatchers
-	Count: 1
- 
-	Method name: mock
-	Class origin: org.mockito.Mockito
-	Count: 1
- 
-	Method name: when
-	Class origin: org.mockito.Mockito
-	Count: 1
- 
-	Method name: anyString
-	Class origin: org.mockito.ArgumentMatchers
-	Count: 1
- 
-	Method name: mock
-	Class origin: org.mockito.Mockito
-	Count: 3
- 
-	Method name: when
-	Class origin: org.mockito.Mockito
-	Count: 3
- 
-	Method name: spy
-	Class origin: org.mockito.Mockito
-	Count: 1
- 
-	Method name: mock
-	Class origin: org.mockito.Mockito
-	Count: 4
- 
-	Method name: spy
-	Class origin: org.mockito.Mockito
-	Count: 1
- 
-	Method name: when
-	Class origin: org.mockito.stubbing.Stubber
-	Count: 1
- 
-	Method name: doAnswer
-	Class origin: org.mockito.Mockito
-	Count: 1
- 
-	Method name: callRealMethod
-	Class origin: org.mockito.invocation.InvocationOnMock
-	Count: 1
- 
-	Method name: any
-	Class origin: org.mockito.ArgumentMatchers
-	Count: 1
- 
-	Method name: mock
-	Class origin: org.mockito.Mockito
-	Count: 4
- 
-	Method name: mock
-	Class origin: org.mockito.Mockito
-	Count: 1
- 
-	Method name: mock
-	Class origin: org.mockito.Mockito
-	Count: 3
- 
-	Method name: startClientAndServer
-	Class origin: org.mockserver.integration.ClientAndServer
-	Count: 1
- 
-	Method name: stop
-	Class origin: org.mockserver.integration.ClientAndServer
-	Count: 1
- 
-	Method name: getLocalPort
-	Class origin: org.mockserver.integration.ClientAndServer
-	Count: 1
- 
-	Method name: respond
-	Class origin: org.mockserver.client.ForwardChainExpectation
-	Count: 2
- 
-	Method name: when
-	Class origin: org.mockserver.client.MockServerClient
-	Count: 2
- 
-	Method name: withPath
-	Class origin: org.mockserver.model.HttpRequest
-	Count: 2
- 
-	Method name: withMethod
-	Class origin: org.mockserver.model.HttpRequest
-	Count: 2
- 
-	Method name: request
-	Class origin: org.mockserver.model.HttpRequest
-	Count: 2
- 
-	Method name: exactly
-	Class origin: org.mockserver.matchers.Times
-	Count: 2
- 
-	Method name: withStatusCode
-	Class origin: org.mockserver.model.HttpResponse
-	Count: 2
- 
-	Method name: response
-	Class origin: org.mockserver.model.HttpResponse
-	Count: 2
- 
-	Method name: startClientAndServer
-	Class origin: org.mockserver.integration.ClientAndServer
-	Count: 1
- 
-	Method name: stop
-	Class origin: org.mockserver.integration.ClientAndServer
-	Count: 1
- 
-	Method name: respond
-	Class origin: org.mockserver.client.ForwardChainExpectation
-	Count: 1
- 
-	Method name: when
-	Class origin: org.mockserver.client.MockServerClient
-	Count: 1
- 
-	Method name: withPath
-	Class origin: org.mockserver.model.HttpRequest
-	Count: 1
- 
-	Method name: withMethod
-	Class origin: org.mockserver.model.HttpRequest
-	Count: 1
- 
-	Method name: request
-	Class origin: org.mockserver.model.HttpRequest
-	Count: 1
- 
-	Method name: exactly
-	Class origin: org.mockserver.matchers.Times
-	Count: 1
- 
-	Method name: withBody
-	Class origin: org.mockserver.model.HttpResponse
-	Count: 1
- 
-	Method name: withStatusCode
-	Class origin: org.mockserver.model.HttpResponse
-	Count: 1
- 
-	Method name: response
-	Class origin: org.mockserver.model.HttpResponse
-	Count: 1
- 
-	Method name: getLocalPort
-	Class origin: org.mockserver.integration.ClientAndServer
-	Count: 1
- 
-	Method name: mock
-	Class origin: org.mockito.Mockito
-	Count: 1
- 
-	Method name: thenReturn
-	Class origin: org.mockito.stubbing.OngoingStubbing<java.lang.Double>
-	Count: 6
- 
-	Method name: when
-	Class origin: org.mockito.Mockito
-	Count: 6
- 
-	Method name: verify
-	Class origin: org.mockito.Mockito
-	Count: 5
- 
-	Method name: times
-	Class origin: org.mockito.Mockito
-	Count: 5
- 
-	Method name: when
-	Class origin: org.mockito.stubbing.Stubber
-	Count: 3
- 
-	Method name: doReturn
-	Class origin: org.mockito.Mockito
-	Count: 3
- 
-	Method name: when
-	Class origin: org.mockito.stubbing.Stubber
-	Count: 4
- 
-	Method name: doReturn
-	Class origin: org.mockito.Mockito
-	Count: 4
- 
-	Method name: any
-	Class origin: org.mockito.ArgumentMatchers
-	Count: 27
- 
+/ignite-ml/src/test/java/org/apache/ignite/ml/inference/storage/model/DefaultModelStorageTest.java
+Methods Invoked: 
 	Method name: mock
 	Class origin: org.mockito.Mockito
 	Count: 4

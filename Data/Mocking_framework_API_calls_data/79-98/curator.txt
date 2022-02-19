@@ -1,3 +1,5 @@
+/curator-client/src/test/java/org/apache/curator/TestRetryLoop.java
+Methods Invoked: 
 	Method name: mock
 	Class origin: org.mockito.Mockito
 	Count: 1
@@ -10,14 +12,20 @@
 	Class origin: org.mockito.Mockito
 	Count: 1
  
+/curator-client/src/test/java/org/apache/curator/BasicTests.java
+Methods Invoked: 
 	Method name: mock
 	Class origin: org.mockito.Mockito
 	Count: 1
  
+/curator-client/src/test/java/org/apache/curator/TestEnsurePath.java
+Methods Invoked: 
 	Method name: mock
 	Class origin: org.mockito.Mockito
 	Count: 6
  
+/curator-framework/src/test/java/org/apache/curator/framework/imps/TestWatcherIdentity.java
+Methods Invoked: 
 	Method name: mock
 	Class origin: org.mockito.Mockito
 	Count: 2
@@ -38,130 +46,26 @@
 	Class origin: org.mockito.Matchers
 	Count: 3
  
+/curator-recipes/src/test/java/org/apache/curator/framework/recipes/queue/TestDistributedQueue.java
+Methods Invoked: 
 	Method name: mock
 	Class origin: org.mockito.Mockito
 	Count: 5
  
+/curator-recipes/src/test/java/org/apache/curator/framework/recipes/queue/TestDistributedDelayQueue.java
+Methods Invoked: 
 	Method name: mock
 	Class origin: org.mockito.Mockito
 	Count: 4
  
+/curator-recipes/src/test/java/org/apache/curator/framework/recipes/queue/TestDistributedIdQueue.java
+Methods Invoked: 
 	Method name: mock
 	Class origin: org.mockito.Mockito
 	Count: 1
  
-	Method name: mock
-	Class origin: org.mockito.Mockito
-	Count: 3
- 
-	Method name: mock
-	Class origin: org.mockito.Mockito
-	Count: 1
- 
-	Method name: verify
-	Class origin: org.mockito.Mockito
-	Count: 1
- 
-	Method name: times
-	Class origin: org.mockito.Mockito
-	Count: 1
- 
-	Method name: mock
-	Class origin: org.mockito.Mockito
-	Count: 1
- 
-	Method name: mock
-	Class origin: org.mockito.Mockito
-	Count: 6
- 
-	Method name: mock
-	Class origin: org.mockito.Mockito
-	Count: 2
- 
-	Method name: verify
-	Class origin: org.mockito.Mockito
-	Count: 3
- 
-	Method name: times
-	Class origin: org.mockito.verification.VerificationWithTimeout
-	Count: 3
- 
-	Method name: timeout
-	Class origin: org.mockito.Mockito
-	Count: 3
- 
-	Method name: any
-	Class origin: org.mockito.Matchers
-	Count: 3
- 
-	Method name: mock
-	Class origin: org.mockito.Mockito
-	Count: 5
- 
-	Method name: mock
-	Class origin: org.mockito.Mockito
-	Count: 4
- 
-	Method name: mock
-	Class origin: org.mockito.Mockito
-	Count: 1
- 
-	Method name: mock
-	Class origin: org.mockito.Mockito
-	Count: 3
- 
-	Method name: mock
-	Class origin: org.mockito.Mockito
-	Count: 1
- 
-	Method name: verify
-	Class origin: org.mockito.Mockito
-	Count: 1
- 
-	Method name: times
-	Class origin: org.mockito.Mockito
-	Count: 1
- 
-	Method name: mock
-	Class origin: org.mockito.Mockito
-	Count: 1
- 
-	Method name: mock
-	Class origin: org.mockito.Mockito
-	Count: 6
- 
-	Method name: mock
-	Class origin: org.mockito.Mockito
-	Count: 2
- 
-	Method name: verify
-	Class origin: org.mockito.Mockito
-	Count: 3
- 
-	Method name: times
-	Class origin: org.mockito.verification.VerificationWithTimeout
-	Count: 3
- 
-	Method name: timeout
-	Class origin: org.mockito.Mockito
-	Count: 3
- 
-	Method name: any
-	Class origin: org.mockito.Matchers
-	Count: 3
- 
-	Method name: mock
-	Class origin: org.mockito.Mockito
-	Count: 5
- 
-	Method name: mock
-	Class origin: org.mockito.Mockito
-	Count: 4
- 
-	Method name: mock
-	Class origin: org.mockito.Mockito
-	Count: 1
- 
+/curator-recipes/src/test/java/org/apache/curator/framework/recipes/queue/TestDistributedPriorityQueue.java
+Methods Invoked: 
 	Method name: mock
 	Class origin: org.mockito.Mockito
 	Count: 3

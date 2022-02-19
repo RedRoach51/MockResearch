@@ -5,3 +5,7 @@ Inside classes:
  
 Outside classes: 
  
+javax.servlet.ServletContext
+javax.servlet.ServletConfig
+javax.servlet.http.HttpServletRequest
+javax.servlet.http.HttpServletResponse

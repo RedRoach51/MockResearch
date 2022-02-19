@@ -41,10 +41,11 @@ org.apache.helix.model.InstanceConfig
 org.apache.helix.model.ExternalView
 org.apache.helix.model.StateModelDefinition
 org.apache.helix.ConfigAccessor
-org.apache.helix.rest.common.TestHelixDataAccessorWrapper.MockHelixDataAccessorWrapper
-org.apache.helix.model.RESTConfig
+org.apache.helix.rest.common.HelixDataAccessorWrapper
 org.apache.helix.rest.client.CustomRestClient
 org.apache.helix.manager.zk.ZkBaseDataAccessor
+org.apache.helix.rest.common.TestHelixDataAccessorWrapper.MockHelixDataAccessorWrapper
+org.apache.helix.model.RESTConfig
  
  
  
@@ -55,4 +56,6 @@ org.apache.http.StatusLine
 org.apache.http.client.methods.CloseableHttpResponse
 org.apache.http.impl.client.CloseableHttpClient
 java.util.Map
+org.apache.http.client.HttpClient
 org.apache.http.HttpResponse
+org.apache.zookeeper.ZooKeeper

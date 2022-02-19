@@ -1,8 +1,8 @@
 method, origin, count
-mock,org.mockito.Mockito,12
+mock,org.mockito.Mockito,11
 verifyZeroInteractions,org.mockito.Mockito,4
-verify,org.mockito.Mockito,5
-any,org.mockito.ArgumentMatchers,11
+verify,org.mockito.Mockito,4
+any,org.mockito.ArgumentMatchers,10
 initMocks,org.mockito.MockitoAnnotations,7
 thenReturn,org.mockito.stubbing.OngoingStubbing<java.sql.DatabaseMetaData>,21
 when,org.mockito.Mockito,66
@@ -10,6 +10,6 @@ setInternalState,org.powermock.reflect.Whitebox,2
 mockStatic,org.powermock.api.mockito.PowerMockito,3
 doReturn,org.powermock.api.mockito.PowerMockito,2
 
-MockedObjects: ,12
+MockedObjects: ,11
 
-# of Mocked objects each file:,1|1|1|2|1|5|1|
+# of Mocked objects each file:,1|1|1|2|1|5|

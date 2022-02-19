@@ -1,6 +1,24 @@
+/httpcore5/src/test/java/org/apache/hc/core5/concurrent/TestBasicFuture.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 4
+ 
+	Method name: verify
+	Class origin: org.mockito.Mockito
+	Count: 12
+ 
+/httpcore5/src/test/java/org/apache/hc/core5/http/impl/io/TestHttpRequestExecutor.java
+Methods Invoked: 
 	Method name: mock
 	Class origin: org.mockito.Mockito
 	Count: 29
+ 
+/httpcore5/src/test/java/org/apache/hc/core5/http/impl/io/TestBHttpConnectionBase.java
+Methods Invoked: 
+	Method name: openMocks
+	Class origin: org.mockito.MockitoAnnotations
+	Count: 1
  
 	Method name: thenReturn
 	Class origin: org.mockito.stubbing.OngoingStubbing<java.net.SocketAddress>
@@ -10,6 +28,12 @@
 	Class origin: org.mockito.Mockito
 	Count: 17
  
+/httpcore5/src/test/java/org/apache/hc/core5/http/impl/io/TestDefaultBHttpServerConnection.java
+Methods Invoked: 
+	Method name: openMocks
+	Class origin: org.mockito.MockitoAnnotations
+	Count: 1
+ 
 	Method name: thenReturn
 	Class origin: org.mockito.stubbing.OngoingStubbing<java.io.InputStream>
 	Count: 5
@@ -18,6 +42,8 @@
 	Class origin: org.mockito.Mockito
 	Count: 11
  
+/httpcore5/src/test/java/org/apache/hc/core5/http/impl/io/TestSessionInOutBuffers.java
+Methods Invoked: 
 	Method name: mock
 	Class origin: org.mockito.Mockito
 	Count: 2
@@ -38,6 +64,12 @@
 	Class origin: org.mockito.ArgumentMatchers
 	Count: 6
  
+/httpcore5/src/test/java/org/apache/hc/core5/http/impl/io/TestDefaultBHttpClientConnection.java
+Methods Invoked: 
+	Method name: openMocks
+	Class origin: org.mockito.MockitoAnnotations
+	Count: 1
+ 
 	Method name: thenReturn
 	Class origin: org.mockito.stubbing.OngoingStubbing<java.io.InputStream>
 	Count: 6
@@ -46,6 +78,8 @@
 	Class origin: org.mockito.Mockito
 	Count: 14
  
+/httpcore5/src/test/java/org/apache/hc/core5/http/impl/io/TestMonitoringResponseOutOfOrderStrategy.java
+Methods Invoked: 
 	Method name: mock
 	Class origin: org.mockito.Mockito
 	Count: 3
@@ -58,18 +92,30 @@
 	Class origin: org.mockito.Mockito
 	Count: 3
  
+/httpcore5/src/test/java/org/apache/hc/core5/http/impl/io/TestHttpService.java
+Methods Invoked: 
+	Method name: openMocks
+	Class origin: org.mockito.MockitoAnnotations
+	Count: 1
+ 
 	Method name: when
 	Class origin: org.mockito.Mockito
 	Count: 30
  
+/httpcore5/src/test/java/org/apache/hc/core5/http/impl/nio/TestLengthDelimitedEncoder.java
+Methods Invoked: 
 	Method name: spy
 	Class origin: org.mockito.Mockito
 	Count: 24
  
+/httpcore5/src/test/java/org/apache/hc/core5/http/impl/nio/TestIdentityEncoder.java
+Methods Invoked: 
 	Method name: spy
 	Class origin: org.mockito.Mockito
 	Count: 22
  
+/httpcore5/src/test/java/org/apache/hc/core5/http/impl/nio/TestAbstractHttp1StreamDuplexerCapacityWindow.java
+Methods Invoked: 
 	Method name: openMocks
 	Class origin: org.mockito.MockitoAnnotations
 	Count: 1
@@ -86,6 +132,8 @@
 	Class origin: org.mockito.Mockito
 	Count: 2
  
+/httpcore5/src/test/java/org/apache/hc/core5/http/impl/nio/TestChunkEncoder.java
+Methods Invoked: 
 	Method name: spy
 	Class origin: org.mockito.Mockito
 	Count: 1
@@ -102,10 +150,40 @@
 	Class origin: org.mockito.ArgumentMatchers
 	Count: 1
  
+/httpcore5/src/test/java/org/apache/hc/core5/http/io/TestEofSensorInputStream.java
+Methods Invoked: 
 	Method name: mock
 	Class origin: org.mockito.Mockito
 	Count: 2
  
+/httpcore5/src/test/java/org/apache/hc/core5/http/io/support/ClassicResponseBuilderTest.java
+Methods Invoked: 
+	Method name: openMocks
+	Class origin: org.mockito.MockitoAnnotations
+	Count: 1
+ 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<java.io.OutputStream>
+	Count: 1
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+/httpcore5/src/test/java/org/apache/hc/core5/http/nio/ssl/BasicClientTlsStrategyTest.java
+Methods Invoked: 
+	Method name: openMocks
+	Class origin: org.mockito.MockitoAnnotations
+	Count: 1
+ 
+/httpcore5/src/test/java/org/apache/hc/core5/http/nio/ssl/BasicServerTlsStrategyTest.java
+Methods Invoked: 
+	Method name: openMocks
+	Class origin: org.mockito.MockitoAnnotations
+	Count: 1
+ 
+/httpcore5/src/test/java/org/apache/hc/core5/http/nio/support/classic/TestSharedInputBuffer.java
+Methods Invoked: 
 	Method name: mock
 	Class origin: org.mockito.Mockito
 	Count: 5
@@ -114,6 +192,8 @@
 	Class origin: org.mockito.Mockito
 	Count: 4
  
+/httpcore5/src/test/java/org/apache/hc/core5/http/nio/support/classic/TestSharedOutputBuffer.java
+Methods Invoked: 
 	Method name: spy
 	Class origin: org.mockito.Mockito
 	Count: 1
@@ -122,20 +202,34 @@
 	Class origin: org.mockito.Mockito
 	Count: 2
  
+/httpcore5/src/test/java/org/apache/hc/core5/pool/TestLaxConnPool.java
+Methods Invoked: 
 	Method name: mock
 	Class origin: org.mockito.Mockito
 	Count: 13
  
+/httpcore5/src/test/java/org/apache/hc/core5/pool/TestStrictConnPool.java
+Methods Invoked: 
 	Method name: mock
 	Class origin: org.mockito.Mockito
 	Count: 20
  
+/httpcore5/src/test/java/org/apache/hc/core5/pool/TestPoolEntry.java
+Methods Invoked: 
 	Method name: mock
 	Class origin: org.mockito.Mockito
 	Count: 5
  
+/httpcore5/src/test/java/org/apache/hc/core5/reactor/IOWorkersTest.java
+Methods Invoked: 
 	Method name: mock
 	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+/httpcore5/src/test/java/org/apache/hc/core5/reactor/TestAbstractIOSessionPool.java
+Methods Invoked: 
+	Method name: openMocks
+	Class origin: org.mockito.MockitoAnnotations
 	Count: 1
  
 	Method name: mock
@@ -166,210 +260,20 @@
 	Class origin: org.mockito.ArgumentMatchers
 	Count: 19
  
-	Method name: mock
-	Class origin: org.mockito.Mockito
-	Count: 7
- 
-	Method name: mock
-	Class origin: org.mockito.Mockito
-	Count: 5
- 
-	Method name: thenReturn
-	Class origin: org.mockito.stubbing.OngoingStubbing<java.lang.Boolean>
-	Count: 1
- 
-	Method name: when
-	Class origin: org.mockito.Mockito
-	Count: 1
- 
-	Method name: anyMap
-	Class origin: org.mockito.ArgumentMatchers
-	Count: 3
- 
-	Method name: verify
-	Class origin: org.mockito.Mockito
-	Count: 4
- 
-	Method name: never
-	Class origin: org.mockito.Mockito
-	Count: 1
- 
-	Method name: anyString
-	Class origin: org.mockito.ArgumentMatchers
-	Count: 1
- 
-	Method name: mock
-	Class origin: org.mockito.Mockito
-	Count: 29
- 
-	Method name: thenReturn
-	Class origin: org.mockito.stubbing.OngoingStubbing<java.net.SocketAddress>
-	Count: 2
- 
-	Method name: when
-	Class origin: org.mockito.Mockito
-	Count: 17
- 
-	Method name: thenReturn
-	Class origin: org.mockito.stubbing.OngoingStubbing<java.io.InputStream>
-	Count: 5
- 
-	Method name: when
-	Class origin: org.mockito.Mockito
-	Count: 11
- 
-	Method name: mock
-	Class origin: org.mockito.Mockito
-	Count: 2
- 
-	Method name: verify
-	Class origin: org.mockito.Mockito
-	Count: 4
- 
-	Method name: times
-	Class origin: org.mockito.Mockito
-	Count: 3
- 
-	Method name: any
-	Class origin: org.mockito.ArgumentMatchers
-	Count: 2
- 
-	Method name: anyInt
-	Class origin: org.mockito.ArgumentMatchers
-	Count: 6
- 
-	Method name: thenReturn
-	Class origin: org.mockito.stubbing.OngoingStubbing<java.io.InputStream>
-	Count: 6
- 
-	Method name: when
-	Class origin: org.mockito.Mockito
-	Count: 14
- 
-	Method name: mock
-	Class origin: org.mockito.Mockito
-	Count: 3
- 
-	Method name: thenReturn
-	Class origin: org.mockito.stubbing.OngoingStubbing<java.lang.Integer>
-	Count: 1
- 
-	Method name: when
-	Class origin: org.mockito.Mockito
-	Count: 3
- 
-	Method name: when
-	Class origin: org.mockito.Mockito
-	Count: 30
- 
-	Method name: spy
-	Class origin: org.mockito.Mockito
-	Count: 24
- 
-	Method name: spy
-	Class origin: org.mockito.Mockito
-	Count: 22
- 
+/httpcore5-h2/src/test/java/org/apache/hc/core5/http2/ssl/ConscryptClientTlsStrategyTest.java
+Methods Invoked: 
 	Method name: openMocks
 	Class origin: org.mockito.MockitoAnnotations
 	Count: 1
  
-	Method name: verify
-	Class origin: org.mockito.Mockito
-	Count: 2
- 
-	Method name: eq
-	Class origin: org.mockito.ArgumentMatchers
-	Count: 2
- 
-	Method name: verifyNoMoreInteractions
-	Class origin: org.mockito.Mockito
-	Count: 2
- 
-	Method name: spy
-	Class origin: org.mockito.Mockito
-	Count: 1
- 
-	Method name: verify
-	Class origin: org.mockito.Mockito
-	Count: 1
- 
-	Method name: never
-	Class origin: org.mockito.Mockito
-	Count: 1
- 
-	Method name: any
-	Class origin: org.mockito.ArgumentMatchers
-	Count: 1
- 
-	Method name: mock
-	Class origin: org.mockito.Mockito
-	Count: 2
- 
-	Method name: mock
-	Class origin: org.mockito.Mockito
-	Count: 5
- 
-	Method name: verifyNoInteractions
-	Class origin: org.mockito.Mockito
-	Count: 4
- 
-	Method name: spy
-	Class origin: org.mockito.Mockito
-	Count: 1
- 
-	Method name: verifyNoInteractions
-	Class origin: org.mockito.Mockito
-	Count: 2
- 
-	Method name: mock
-	Class origin: org.mockito.Mockito
-	Count: 13
- 
-	Method name: mock
-	Class origin: org.mockito.Mockito
-	Count: 20
- 
-	Method name: mock
-	Class origin: org.mockito.Mockito
-	Count: 5
- 
-	Method name: mock
-	Class origin: org.mockito.Mockito
-	Count: 1
- 
-	Method name: mock
-	Class origin: org.mockito.Mockito
-	Count: 1
- 
-	Method name: useConstructor
-	Class origin: org.mockito.MockSettings
-	Count: 1
- 
-	Method name: defaultAnswer
-	Class origin: org.mockito.MockSettings
-	Count: 1
- 
-	Method name: withSettings
-	Class origin: org.mockito.Mockito
-	Count: 1
- 
-	Method name: when
-	Class origin: org.mockito.Mockito
-	Count: 7
- 
-	Method name: anyString
-	Class origin: org.mockito.ArgumentMatchers
-	Count: 3
- 
-	Method name: any
-	Class origin: org.mockito.ArgumentMatchers
-	Count: 19
- 
+/httpcore5-testing/src/test/java/org/apache/hc/core5/testing/framework/TestClassicTestClientTestingAdapter.java
+Methods Invoked: 
 	Method name: mock
 	Class origin: org.mockito.Mockito
 	Count: 7
  
+/httpcore5-testing/src/test/java/org/apache/hc/core5/testing/framework/TestTestingFramework.java
+Methods Invoked: 
 	Method name: mock
 	Class origin: org.mockito.Mockito
 	Count: 5

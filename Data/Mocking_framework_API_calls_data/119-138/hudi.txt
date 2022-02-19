@@ -1,3 +1,43 @@
+/hudi-aws/src/test/java/org/apache/hudi/aws/cloudwatch/TestCloudWatchReporter.java
+Methods Invoked: 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<java.util.concurrent.Future<com.amazonaws.services.cloudwatch.model.PutMetricDataResult>>
+	Count: 1
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 6
+ 
+	Method name: any
+	Class origin: org.mockito.ArgumentMatchers
+	Count: 1
+ 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<java.util.SortedMap<java.lang.String,com.codahale.metrics.Gauge>>
+	Count: 1
+ 
+/hudi-client-common/src/test/java/org/apache/hudi/async/TestHoodieAsyncTableService.java
+Methods Invoked: 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<java.lang.Boolean>
+	Count: 1
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+/hudi-client-common/src/test/java/org/apache/hudi/async/TestAsyncArchiveService.java
+Methods Invoked: 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<java.lang.Boolean>
+	Count: 5
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 8
+ 
+/hudi-client-common/src/test/java/org/apache/hudi/callback/http/TestCallbackHttpClient.java
+Methods Invoked: 
 	Method name: reset
 	Class origin: org.mockito.Mockito
 	Count: 1
@@ -10,14 +50,20 @@
 	Class origin: org.mockito.Mockito
 	Count: 5
  
+/hudi-client-common/src/test/java/org/apache/hudi/io/storage/TestHoodieOrcReaderWriter.java
+Methods Invoked: 
 	Method name: mock
 	Class origin: org.mockito.Mockito
 	Count: 1
  
+/hudi-client-common/src/test/java/org/apache/hudi/io/storage/TestHoodieHFileReaderWriter.java
+Methods Invoked: 
 	Method name: mock
 	Class origin: org.mockito.Mockito
-	Count: 1
+	Count: 2
  
+/hudi-client-common/src/test/java/org/apache/hudi/metrics/TestHoodieMetrics.java
+Methods Invoked: 
 	Method name: thenReturn
 	Class origin: org.mockito.stubbing.OngoingStubbing<java.lang.Boolean>
 	Count: 1
@@ -30,6 +76,8 @@
 	Class origin: org.mockito.stubbing.OngoingStubbing<java.lang.String>
 	Count: 1
  
+/hudi-client-common/src/test/java/org/apache/hudi/metrics/TestMetricsReporterFactory.java
+Methods Invoked: 
 	Method name: when
 	Class origin: org.mockito.Mockito
 	Count: 5
@@ -38,6 +86,8 @@
 	Class origin: org.mockito.stubbing.OngoingStubbing<java.lang.String>
 	Count: 2
  
+/hudi-client-common/src/test/java/org/apache/hudi/metrics/TestHoodieGraphiteMetrics.java
+Methods Invoked: 
 	Method name: thenReturn
 	Class origin: org.mockito.stubbing.OngoingStubbing<java.lang.Boolean>
 	Count: 1
@@ -50,6 +100,8 @@
 	Class origin: org.mockito.stubbing.OngoingStubbing<java.lang.String>
 	Count: 2
  
+/hudi-client-common/src/test/java/org/apache/hudi/metrics/TestHoodieJmxMetrics.java
+Methods Invoked: 
 	Method name: thenReturn
 	Class origin: org.mockito.stubbing.OngoingStubbing<java.lang.Boolean>
 	Count: 2
@@ -62,6 +114,8 @@
 	Class origin: org.mockito.stubbing.OngoingStubbing<java.lang.String>
 	Count: 6
  
+/hudi-client-common/src/test/java/org/apache/hudi/metrics/TestHoodieConsoleMetrics.java
+Methods Invoked: 
 	Method name: thenReturn
 	Class origin: org.mockito.stubbing.OngoingStubbing<java.lang.String>
 	Count: 1
@@ -74,6 +128,26 @@
 	Class origin: org.mockito.stubbing.OngoingStubbing<java.lang.Boolean>
 	Count: 1
  
+/hudi-client-common/src/test/java/org/apache/hudi/metrics/cloudwatch/TestCloudWatchMetricsReporter.java
+Methods Invoked: 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<java.lang.Integer>
+	Count: 1
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+	Method name: verify
+	Class origin: org.mockito.Mockito
+	Count: 3
+ 
+	Method name: times
+	Class origin: org.mockito.Mockito
+	Count: 3
+ 
+/hudi-client-common/src/test/java/org/apache/hudi/metrics/datadog/TestDatadogHttpClient.java
+Methods Invoked: 
 	Method name: reset
 	Class origin: org.mockito.Mockito
 	Count: 1
@@ -86,6 +160,8 @@
 	Class origin: org.mockito.Mockito
 	Count: 6
  
+/hudi-client-common/src/test/java/org/apache/hudi/metrics/datadog/TestDatadogMetricsReporter.java
+Methods Invoked: 
 	Method name: thenReturn
 	Class origin: org.mockito.stubbing.OngoingStubbing<java.lang.String>
 	Count: 6
@@ -94,6 +170,8 @@
 	Class origin: org.mockito.Mockito
 	Count: 9
  
+/hudi-client-common/src/test/java/org/apache/hudi/metrics/datadog/TestDatadogReporter.java
+Methods Invoked: 
 	Method name: reset
 	Class origin: org.mockito.Mockito
 	Count: 1
@@ -110,6 +188,8 @@
 	Class origin: org.mockito.Mockito
 	Count: 1
  
+/hudi-client-common/src/test/java/org/apache/hudi/metrics/prometheus/TestPrometheusReporter.java
+Methods Invoked: 
 	Method name: thenReturn
 	Class origin: org.mockito.stubbing.OngoingStubbing<java.lang.Boolean>
 	Count: 1
@@ -122,6 +202,8 @@
 	Class origin: org.mockito.stubbing.OngoingStubbing<java.lang.String>
 	Count: 1
  
+/hudi-client-common/src/test/java/org/apache/hudi/metrics/prometheus/TestPushGateWayReporter.java
+Methods Invoked: 
 	Method name: thenReturn
 	Class origin: org.mockito.stubbing.OngoingStubbing<java.lang.Boolean>
 	Count: 3
@@ -134,14 +216,24 @@
 	Class origin: org.mockito.stubbing.OngoingStubbing<java.lang.String>
 	Count: 3
  
+/hudi-client-common/src/test/java/org/apache/hudi/table/marker/TestWriteMarkersFactory.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 5
+ 
+/hudi-common/src/test/java/org/apache/hudi/common/table/view/TestPriorityBasedFileSystemView.java
+Methods Invoked: 
 	Method name: reset
 	Class origin: org.mockito.Mockito
 	Count: 1
  
 	Method name: when
 	Class origin: org.mockito.Mockito
-	Count: 90
+	Count: 92
  
+/hudi-common/src/test/java/org/apache/hudi/common/util/TestParquetReaderIterator.java
+Methods Invoked: 
 	Method name: mock
 	Class origin: org.mockito.Mockito
 	Count: 2
@@ -150,6 +242,8 @@
 	Class origin: org.mockito.stubbing.OngoingStubbing<java.lang.Object>
 	Count: 4
  
+/hudi-hadoop-mr/src/test/java/org/apache/hudi/hadoop/realtime/TestHoodieRealtimeFileSplit.java
+Methods Invoked: 
 	Method name: mock
 	Class origin: org.mockito.Mockito
 	Count: 2
@@ -166,10 +260,14 @@
 	Class origin: org.mockito.ArgumentMatchers
 	Count: 6
  
+/hudi-integ-test/src/test/java/org/apache/hudi/integ/testsuite/TestDFSHoodieTestSuiteWriterAdapter.java
+Methods Invoked: 
 	Method name: mock
 	Class origin: org.mockito.Mockito
 	Count: 5
  
+/hudi-java-client/src/test/java/org/apache/hudi/table/action/commit/TestJavaCopyOnWriteActionExecutor.java
+Methods Invoked: 
 	Method name: mock
 	Class origin: org.mockito.Mockito
 	Count: 1
@@ -182,10 +280,14 @@
 	Class origin: org.mockito.Mockito
 	Count: 1
  
+/hudi-kafka-connect/src/test/java/org/apache/hudi/connect/TestConnectTransactionCoordinator.java
+Methods Invoked: 
 	Method name: mock
 	Class origin: org.mockito.Mockito
-	Count: 1
+	Count: 3
  
+/hudi-kafka-connect/src/test/java/org/apache/hudi/writers/TestBufferedConnectWriter.java
+Methods Invoked: 
 	Method name: mock
 	Class origin: org.mockito.Mockito
 	Count: 1
@@ -206,10 +308,14 @@
 	Class origin: org.mockito.ArgumentMatchers
 	Count: 4
  
+/hudi-spark-client/src/test/java/org/apache/hudi/client/TestWriteStatus.java
+Methods Invoked: 
 	Method name: mock
 	Class origin: org.mockito.Mockito
 	Count: 3
  
+/hudi-spark-client/src/test/java/org/apache/hudi/client/functional/TestHoodieClientOnCopyOnWriteStorage.java
+Methods Invoked: 
 	Method name: mock
 	Class origin: org.mockito.Mockito
 	Count: 2
@@ -222,10 +328,8 @@
 	Class origin: org.mockito.Mockito
 	Count: 2
  
-	Method name: mock
-	Class origin: org.mockito.Mockito
-	Count: 4
- 
+/hudi-spark-client/src/test/java/org/apache/hudi/execution/TestSparkBoundedInMemoryExecutor.java
+Methods Invoked: 
 	Method name: mock
 	Class origin: org.mockito.Mockito
 	Count: 2
@@ -238,6 +342,8 @@
 	Class origin: org.mockito.Mockito
 	Count: 2
  
+/hudi-spark-client/src/test/java/org/apache/hudi/execution/TestBoundedInMemoryQueue.java
+Methods Invoked: 
 	Method name: mock
 	Class origin: org.mockito.Mockito
 	Count: 1
@@ -250,10 +356,20 @@
 	Class origin: org.mockito.Mockito
 	Count: 2
  
+/hudi-spark-client/src/test/java/org/apache/hudi/index/hbase/TestSparkHoodieHBaseIndex.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 4
+ 
+/hudi-spark-client/src/test/java/org/apache/hudi/index/hbase/TestHBaseIndexUsage.java
+Methods Invoked: 
 	Method name: mock
 	Class origin: org.mockito.Mockito
 	Count: 1
  
+/hudi-spark-client/src/test/java/org/apache/hudi/table/action/commit/TestUpsertPartitioner.java
+Methods Invoked: 
 	Method name: mock
 	Class origin: org.mockito.Mockito
 	Count: 2
@@ -266,10 +382,14 @@
 	Class origin: org.mockito.Mockito
 	Count: 4
  
+/hudi-spark-client/src/test/java/org/apache/hudi/table/action/commit/TestDeleteHelper.java
+Methods Invoked: 
 	Method name: when
 	Class origin: org.mockito.Mockito
 	Count: 15
  
+/hudi-spark-client/src/test/java/org/apache/hudi/table/action/commit/TestCopyOnWriteActionExecutor.java
+Methods Invoked: 
 	Method name: mock
 	Class origin: org.mockito.Mockito
 	Count: 1
@@ -282,6 +402,8 @@
 	Class origin: org.mockito.Mockito
 	Count: 1
  
+/hudi-spark_/src/test/java/org/apache/hudi/TestDataSourceUtils.java
+Methods Invoked: 
 	Method name: when
 	Class origin: org.mockito.Mockito
 	Count: 2
@@ -302,6 +424,8 @@
 	Class origin: org.mockito.ArgumentMatchers
 	Count: 2
  
+/hudi-utilities_/src/test/java/org/apache/hudi/utilities/schema/TestSchemaRegistryProvider.java
+Methods Invoked: 
 	Method name: spy
 	Class origin: org.mockito.Mockito
 	Count: 1
@@ -330,10 +454,20 @@
 	Class origin: org.mockito.ArgumentMatchers
 	Count: 2
  
+/hudi-utilities_/src/test/java/org/apache/hudi/utilities/sources/TestJsonKafkaSource.java
+Methods Invoked: 
 	Method name: mock
 	Class origin: org.mockito.Mockito
 	Count: 1
  
+/hudi-utilities_/src/test/java/org/apache/hudi/utilities/sources/debezium/TestAbstractDebeziumSource.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+/hudi-utilities_/src/test/java/org/apache/hudi/utilities/sources/helpers/TestCloudObjectsSelector.java
+Methods Invoked: 
 	Method name: initMocks
 	Class origin: org.mockito.MockitoAnnotations
 	Count: 1
@@ -342,10 +476,14 @@
 	Class origin: org.mockito.Mockito
 	Count: 1
  
+/hudi-utilities_/src/test/java/org/apache/hudi/utilities/sources/helpers/TestKafkaOffsetGen.java
+Methods Invoked: 
 	Method name: mock
 	Class origin: org.mockito.Mockito
 	Count: 1
  
+/hudi-utilities_/src/test/java/org/apache/hudi/utilities/sources/helpers/TestS3EventsMetaSelector.java
+Methods Invoked: 
 	Method name: initMocks
 	Class origin: org.mockito.MockitoAnnotations
 	Count: 1
@@ -354,6 +492,8 @@
 	Class origin: org.mockito.Mockito
 	Count: 1
  
+/hudi-utilities_/src/test/java/org/apache/hudi/utilities/testutils/CloudObjectTestUtils.java
+Methods Invoked: 
 	Method name: thenReturn
 	Class origin: org.mockito.stubbing.OngoingStubbing<com.amazonaws.services.sqs.model.ReceiveMessageResult>
 	Count: 1
@@ -370,6 +510,8 @@
 	Class origin: org.mockito.stubbing.OngoingStubbing<com.amazonaws.services.sqs.model.GetQueueAttributesResult>
 	Count: 1
  
+/hudi-utilities_/src/test/java/org/apache/hudi/utilities/testutils/sources/AbstractCloudObjectsSourceTestBase.java
+Methods Invoked: 
 	Method name: initMocks
 	Class origin: org.mockito.MockitoAnnotations
 	Count: 1

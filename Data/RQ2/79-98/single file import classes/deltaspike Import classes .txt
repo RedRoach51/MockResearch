@@ -1,0 +1,27 @@
+/deltaspike-cdictrl-owb/src/main/java/org/apache/deltaspike/cdise/owb/OwbHelper.java
+/deltaspike-cdictrl-owb/src/main/java/org/apache/deltaspike/cdise/owb/MockServletContext.java
+/deltaspike-test-control-module-impl/src/main/java/org/apache/deltaspike/testcontrol/impl/jsf/MockedJsf2TestContainer.java
+/deltaspike-test-control-module-impl/src/test/java/org/apache/deltaspike/test/testcontrol/mock/uc010/MockedRequestScopedBeanTest.java
+	org.apache.deltaspike.test.category.SeCategory
+	org.apache.deltaspike.test.testcontrol.mock.shared.RequestScopedBean
+	org.apache.deltaspike.testcontrol.api.junit.CdiTestRunner
+	org.apache.deltaspike.testcontrol.api.mock.DynamicMockManager
+	org.junit.Assert
+	org.junit.Test
+	org.junit.experimental.categories.Category
+	org.junit.runner.RunWith
+	javax.inject.Inject
+	org.mockito.Mockito
+/deltaspike-test-control-module-impl/src/test/java/org/apache/deltaspike/test/testcontrol/mock/uc012/MockedRequestScopedBeanWithInjectionTest.java
+	org.apache.deltaspike.core.api.provider.BeanProvider
+	org.apache.deltaspike.test.category.SeCategory
+	org.apache.deltaspike.test.testcontrol.mock.shared.RequestScopedBean
+	org.apache.deltaspike.test.testcontrol.mock.shared.SessionScopedBean
+	org.apache.deltaspike.testcontrol.api.junit.CdiTestRunner
+	org.apache.deltaspike.testcontrol.api.mock.DynamicMockManager
+	org.junit.Assert
+	org.junit.Test
+	org.junit.experimental.categories.Category
+	org.junit.runner.RunWith
+	javax.inject.Inject
+	org.mockito.Mockito

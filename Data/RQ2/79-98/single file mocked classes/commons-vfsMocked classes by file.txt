@@ -1,0 +1,1 @@
+/commons-vfs2/src/test/java/org/apache/commons/vfs2/impl/DefaultFileSystemManagerTest.java

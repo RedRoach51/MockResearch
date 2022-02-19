@@ -1,5 +1,43 @@
 Project Name,File Path,Mocking Framework,Imported Mock Line
 commons-vfs,commons-vfs\commons-vfs2\src\test\java\org\apache\commons\vfs2\impl\DefaultFileSystemManagerTest.java,mockito,org.mockito.Mockito
+continuum,continuum\continuum-base\continuum-scm\src\test\java\org\apache\continuum\scm\DefaultContinuumScmTest.java,mockito,static org.mockito.Mockito.*
+continuum,continuum\continuum-buildagent\continuum-buildagent-core\src\test\java\org\apache\continuum\buildagent\build\execution\maven\m2\DefaultBuildAgentMavenBuilderHelperTest.java,mockito,static org.mockito.Mockito.mock
+continuum,continuum\continuum-buildagent\continuum-buildagent-core\src\test\java\org\apache\continuum\buildagent\build\execution\maven\m2\DefaultBuildAgentMavenBuilderHelperTest.java,mockito,static org.mockito.Mockito.when
+continuum,continuum\continuum-buildagent\continuum-buildagent-core\src\test\java\org\apache\continuum\buildagent\manager\BuildAgentPurgeManagerTest.java,mockito,static org.mockito.Mockito.mock
+continuum,continuum\continuum-buildagent\continuum-buildagent-core\src\test\java\org\apache\continuum\buildagent\manager\BuildAgentPurgeManagerTest.java,mockito,static org.mockito.Mockito.when
+continuum,continuum\continuum-buildagent\continuum-buildagent-core\src\test\java\org\apache\continuum\buildagent\manager\BuildAgentReleaseManagerTest.java,mockito,static org.mockito.Mockito.mock
+continuum,continuum\continuum-buildagent\continuum-buildagent-core\src\test\java\org\apache\continuum\buildagent\manager\BuildAgentReleaseManagerTest.java,mockito,static org.mockito.Mockito.when
+continuum,continuum\continuum-buildagent\continuum-buildagent-core\src\test\java\org\apache\continuum\buildagent\taskqueue\execution\BuildProjectTaskExecutorTest.java,mockito,static org.mockito.Mockito.*
+continuum,continuum\continuum-buildagent\continuum-buildagent-webdav\src\test\java\org\apache\continuum\webdav\ContinuumBuildAgentDavResourceFactoryTest.java,mockito,static org.mockito.Mockito.mock
+continuum,continuum\continuum-buildagent\continuum-buildagent-webdav\src\test\java\org\apache\continuum\webdav\ContinuumBuildAgentDavResourceFactoryTest.java,mockito,static org.mockito.Mockito.when
+continuum,continuum\continuum-buildagent\continuum-buildagent-webdav\src\test\java\org\apache\continuum\webdav\ContinuumBuildAgentDavSessionProviderTest.java,mockito,static org.mockito.Mockito.*
+continuum,continuum\continuum-commons\src\test\java\org\apache\maven\continuum\utils\DefaultWorkingDirectoryServiceTest.java,mockito,static org.mockito.Mockito.mock
+continuum,continuum\continuum-commons\src\test\java\org\apache\maven\continuum\utils\DefaultWorkingDirectoryServiceTest.java,mockito,static org.mockito.Mockito.when
+continuum,continuum\continuum-core\src\test\java\org\apache\continuum\builder\distributed\manager\DefaultDistributedBuildManagerTest.java,mockito,static org.mockito.Mockito.*
+continuum,continuum\continuum-core\src\test\java\org\apache\continuum\builder\distributed\work\DistributedBuildStatusUpdaterTest.java,mockito,static org.mockito.Mockito.*
+continuum,continuum\continuum-core\src\test\java\org\apache\continuum\buildmanager\ParallelBuildsManagerTest.java,mockito,static org.mockito.Mockito.*
+continuum,continuum\continuum-core\src\test\java\org\apache\continuum\release\distributed\manager\DefaultDistributedReleaseManagerTest.java,mockito,static org.mockito.Mockito.mock
+continuum,continuum\continuum-core\src\test\java\org\apache\continuum\release\distributed\manager\DefaultDistributedReleaseManagerTest.java,mockito,static org.mockito.Mockito.when
+continuum,continuum\continuum-core\src\test\java\org\apache\continuum\taskqueue\DefaultOverallBuildQueueTest.java,mockito,static org.mockito.Mockito.*
+continuum,continuum\continuum-core\src\test\java\org\apache\maven\continuum\DefaultContinuumTest.java,mockito,static org.mockito.Matchers.anyInt
+continuum,continuum\continuum-core\src\test\java\org\apache\maven\continuum\DefaultContinuumTest.java,mockito,static org.mockito.Mockito.mock
+continuum,continuum\continuum-core\src\test\java\org\apache\maven\continuum\DefaultContinuumTest.java,mockito,static org.mockito.Mockito.when
+continuum,continuum\continuum-core\src\test\java\org\apache\maven\continuum\core\action\CleanWorkingDirectoryActionTest.java,mockito,static org.mockito.Mockito.mock
+continuum,continuum\continuum-core\src\test\java\org\apache\maven\continuum\core\action\CleanWorkingDirectoryActionTest.java,mockito,static org.mockito.Mockito.when
+continuum,continuum\continuum-core\src\test\java\org\apache\maven\continuum\core\action\CreateProjectsFromMetadataTest.java,mockito,static org.mockito.Mockito.*
+continuum,continuum\continuum-core\src\test\java\org\apache\maven\continuum\execution\ContinuumBuildExecutorTest.java,mockito,static org.mockito.Mockito.*
+continuum,continuum\continuum-webapp\src\test\java\org\apache\continuum\web\action\AbstractReleaseActionTest.java,mockito,static org.mockito.Mockito.*
+continuum,continuum\continuum-webapp\src\test\java\org\apache\continuum\web\action\ViewBuildsReportActionTest.java,mockito,static org.mockito.Mockito.*
+continuum,continuum\continuum-webapp\src\test\java\org\apache\maven\continuum\web\action\AddMavenProjectActionTest.java,mockito,static org.mockito.Mockito.mock
+continuum,continuum\continuum-webapp\src\test\java\org\apache\maven\continuum\web\action\AddMavenProjectActionTest.java,mockito,static org.mockito.Mockito.when
+continuum,continuum\continuum-webapp\src\test\java\org\apache\maven\continuum\web\action\AddProjectActionTest.java,mockito,static org.mockito.Mockito.*
+continuum,continuum\continuum-webapp\src\test\java\org\apache\maven\continuum\web\action\BuildAgentActionTest.java,mockito,static org.mockito.Mockito.*
+continuum,continuum\continuum-webapp\src\test\java\org\apache\maven\continuum\web\action\BuildResultActionTest.java,mockito,static org.mockito.Mockito.*
+continuum,continuum\continuum-webapp\src\test\java\org\apache\maven\continuum\web\action\ProjectGroupActionTest.java,mockito,static org.mockito.Mockito.*
+continuum,continuum\continuum-webapp\src\test\java\org\apache\maven\continuum\web\action\ReleasePrepareActionTest.java,mockito,static org.mockito.Mockito.*
+continuum,continuum\continuum-webapp\src\test\java\org\apache\maven\continuum\web\action\SummaryActionTest.java,mockito,static org.mockito.Mockito.*
+continuum,continuum\continuum-xmlrpc\continuum-xmlrpc-server\src\test\java\org\apache\continuum\xmlrpc\server\ContinuumServiceImplTest.java,mockito,org.mockito.ArgumentCaptor
+continuum,continuum\continuum-xmlrpc\continuum-xmlrpc-server\src\test\java\org\apache\continuum\xmlrpc\server\ContinuumServiceImplTest.java,mockito,static org.mockito.Mockito.*
 crunch,crunch\crunch-archetype\src\main\resources\archetype-resources\src\test\java\TokenizerTest.java,mockito,static org.mockito.Mockito.verify
 crunch,crunch\crunch-archetype\src\main\resources\archetype-resources\src\test\java\TokenizerTest.java,mockito,static org.mockito.Mockito.verifyNoMoreInteractions
 crunch,crunch\crunch-archetype\src\main\resources\archetype-resources\src\test\java\TokenizerTest.java,mockito,org.mockito.Mock
@@ -330,8 +368,16 @@ cxf,cxf\rt\rs\description\src\test\java\org\apache\cxf\jaxrs\model\wadl\WadlGene
 cxf,cxf\rt\rs\description\src\test\java\org\apache\cxf\jaxrs\model\wadl\WadlGeneratorTest.java,easymock,org.easymock.EasyMock
 cxf,cxf\rt\rs\description\src\test\java\org\apache\cxf\jaxrs\model\wadl\WadlGeneratorTest.java,easymock,org.easymock.IMocksControl
 cxf,cxf\rt\rs\extensions\providers\src\test\java\org\apache\cxf\jaxrs\provider\dom4j\DOM4JProviderTest.java,easymock,org.easymock.EasyMock
-cxf,cxf\rt\rs\microprofile-client\src\test\java\org\apache\cxf\microprofile\client\AsyncTest.java,mockwebserver,okhttp3.mockwebserver.MockResponse
-cxf,cxf\rt\rs\microprofile-client\src\test\java\org\apache\cxf\microprofile\client\AsyncTest.java,mockwebserver,okhttp3.mockwebserver.MockWebServer
+cxf,cxf\rt\rs\microprofile-client\src\test\java\org\apache\cxf\microprofile\client\AsyncTest.java,wiremock,com.github.tomakehurst.wiremock.common.FileSource
+cxf,cxf\rt\rs\microprofile-client\src\test\java\org\apache\cxf\microprofile\client\AsyncTest.java,wiremock,com.github.tomakehurst.wiremock.extension.Parameters
+cxf,cxf\rt\rs\microprofile-client\src\test\java\org\apache\cxf\microprofile\client\AsyncTest.java,wiremock,com.github.tomakehurst.wiremock.extension.ResponseTransformer
+cxf,cxf\rt\rs\microprofile-client\src\test\java\org\apache\cxf\microprofile\client\AsyncTest.java,wiremock,com.github.tomakehurst.wiremock.http.Request
+cxf,cxf\rt\rs\microprofile-client\src\test\java\org\apache\cxf\microprofile\client\AsyncTest.java,wiremock,com.github.tomakehurst.wiremock.http.Response
+cxf,cxf\rt\rs\microprofile-client\src\test\java\org\apache\cxf\microprofile\client\AsyncTest.java,wiremock,com.github.tomakehurst.wiremock.junit.WireMockRule
+cxf,cxf\rt\rs\microprofile-client\src\test\java\org\apache\cxf\microprofile\client\AsyncTest.java,wiremock,static com.github.tomakehurst.wiremock.client.WireMock.get
+cxf,cxf\rt\rs\microprofile-client\src\test\java\org\apache\cxf\microprofile\client\AsyncTest.java,wiremock,static com.github.tomakehurst.wiremock.client.WireMock.notFound
+cxf,cxf\rt\rs\microprofile-client\src\test\java\org\apache\cxf\microprofile\client\AsyncTest.java,wiremock,static com.github.tomakehurst.wiremock.client.WireMock.ok
+cxf,cxf\rt\rs\microprofile-client\src\test\java\org\apache\cxf\microprofile\client\AsyncTest.java,wiremock,static com.github.tomakehurst.wiremock.core.WireMockConfiguration.wireMockConfig
 cxf,cxf\rt\rs\microprofile-client\src\test\java\org\apache\cxf\microprofile\client\cdi\RestClientCdiTest.java,easymock,org.easymock.EasyMock
 cxf,cxf\rt\rs\microprofile-client\src\test\java\org\apache\cxf\microprofile\client\cdi\RestClientCdiTest.java,easymock,org.easymock.IMocksControl
 cxf,cxf\rt\rs\security\http-signature\src\test\java\org\apache\cxf\rs\security\httpsignature\SpecExamplesTest.java,mockito,org.mockito.Mockito
@@ -535,8 +581,8 @@ cxf,cxf\systests\microprofile\client\nocdi\src\test\java\org\apache\cxf\systest\
 cxf,cxf\systests\microprofile\client\nocdi\src\test\java\org\apache\cxf\systest\microprofile\rest\client\AsyncThreadingTest.java,wiremock,static com.github.tomakehurst.wiremock.client.WireMock.aResponse
 cxf,cxf\systests\microprofile\client\nocdi\src\test\java\org\apache\cxf\systest\microprofile\rest\client\AsyncThreadingTest.java,wiremock,static com.github.tomakehurst.wiremock.client.WireMock.get
 cxf,cxf\systests\microprofile\client\nocdi\src\test\java\org\apache\cxf\systest\microprofile\rest\client\AsyncThreadingTest.java,wiremock,static com.github.tomakehurst.wiremock.client.WireMock.urlEqualTo
-deltaspike,deltaspike\deltaspike\modules\test-control\impl\src\test\java\org\apache\deltaspike\test\testcontrol\mock\uc010\MockedRequestScopedBeanTest.java,mockito,static org.mockito.Mockito.*
-deltaspike,deltaspike\deltaspike\modules\test-control\impl\src\test\java\org\apache\deltaspike\test\testcontrol\mock\uc012\MockedRequestScopedBeanWithInjectionTest.java,mockito,static org.mockito.Mockito.*
+deltaspike,deltaspike\deltaspike\\modules\test-control\impl\src\test\java\org\apache\deltaspike\test\testcontrol\mock\uc010\MockedRequestScopedBeanTest.java,mockito,static org.mockito.Mockito.*
+deltaspike,deltaspike\deltaspike\\modules\test-control\impl\src\test\java\org\apache\deltaspike\test\testcontrol\mock\uc012\MockedRequestScopedBeanWithInjectionTest.java,mockito,static org.mockito.Mockito.*
 directmemory,directmemory\server\directmemory-server\src\test\java\org\apache\directmemory\server\services\DirectMemoryServletTest.java,springframework,org.springframework.mock.web.MockHttpServletRequest
 directmemory,directmemory\server\directmemory-server\src\test\java\org\apache\directmemory\server\services\DirectMemoryServletTest.java,springframework,org.springframework.mock.web.MockHttpServletResponse
 directmemory,directmemory\server\directmemory-server\src\test\java\org\apache\directmemory\server\services\DirectMemoryServletTest.java,springframework,org.springframework.mock.web.MockServletConfig
@@ -560,6 +606,8 @@ drill,drill\contrib\storage-hive\core\src\test\java\org\apache\drill\exec\store\
 drill,drill\contrib\storage-http\src\test\java\org\apache\drill\exec\store\http\TestHttpPlugin.java,mockwebserver,okhttp3.mockwebserver.MockResponse
 drill,drill\contrib\storage-http\src\test\java\org\apache\drill\exec\store\http\TestHttpPlugin.java,mockwebserver,okhttp3.mockwebserver.MockWebServer
 drill,drill\contrib\storage-http\src\test\java\org\apache\drill\exec\store\http\TestHttpPlugin.java,mockwebserver,okhttp3.mockwebserver.RecordedRequest
+drill,drill\contrib\storage-http\src\test\java\org\apache\drill\exec\store\http\TestPagination.java,mockwebserver,okhttp3.mockwebserver.MockResponse
+drill,drill\contrib\storage-http\src\test\java\org\apache\drill\exec\store\http\TestPagination.java,mockwebserver,okhttp3.mockwebserver.MockWebServer
 drill,drill\contrib\storage-opentsdb\src\test\java\org\apache\drill\store\openTSDB\TestOpenTSDBPlugin.java,wiremock,com.github.tomakehurst.wiremock.junit.WireMockRule
 drill,drill\contrib\storage-opentsdb\src\test\java\org\apache\drill\store\openTSDB\TestOpenTSDBPlugin.java,wiremock,static com.github.tomakehurst.wiremock.client.WireMock.aResponse
 drill,drill\contrib\storage-opentsdb\src\test\java\org\apache\drill\store\openTSDB\TestOpenTSDBPlugin.java,wiremock,static com.github.tomakehurst.wiremock.client.WireMock.equalToJson

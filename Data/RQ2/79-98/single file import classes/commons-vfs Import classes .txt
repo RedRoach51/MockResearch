@@ -1,0 +1,20 @@
+/commons-vfs2/src/test/java/org/apache/commons/vfs2/impl/DefaultFileSystemManagerTest.java
+	java.io.File
+	java.nio.file.Paths
+	org.apache.commons.vfs2.CacheStrategy
+	org.apache.commons.vfs2.FileName
+	org.apache.commons.vfs2.FileObject
+	org.apache.commons.vfs2.FileSystemException
+	org.apache.commons.vfs2.FileSystemManager
+	org.apache.commons.vfs2.FilesCache
+	org.apache.commons.vfs2.VFS
+	org.apache.commons.vfs2.cache.NullFilesCache
+	org.apache.commons.vfs2.provider.bzip2.Bzip2FileObject
+	org.apache.commons.vfs2.provider.gzip.GzipFileObject
+	org.apache.commons.vfs2.provider.jar.JarFileObject
+	org.apache.commons.vfs2.provider.ram.RamFileProvider
+	org.apache.commons.vfs2.provider.zip.ZipFileObject
+	org.junit.Assert
+	org.junit.Ignore
+	org.junit.Test
+	org.mockito.Mockito

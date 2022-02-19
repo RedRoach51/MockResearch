@@ -1,7 +1,7 @@
 method, origin, count
-spy,org.mockito.Mockito,3
-verify,org.mockito.Mockito,6
-never,org.mockito.Mockito,3
+spy,org.mockito.Mockito,1
+verify,org.mockito.Mockito,2
+never,org.mockito.Mockito,1
 
 MockedObjects: ,0
 

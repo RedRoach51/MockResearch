@@ -1,11 +1,5 @@
-	Method name: times
-	Class origin: org.mockito.Mockito
-	Count: 25
- 
-	Method name: times
-	Class origin: org.mockito.Mockito
-	Count: 25
- 
+/api-ldap-client-api/src/test/java/org/apache/directory/ldap/client/api/ValidatingPoolableLdapConnectionFactoryTest.java
+Methods Invoked: 
 	Method name: times
 	Class origin: org.mockito.Mockito
 	Count: 25

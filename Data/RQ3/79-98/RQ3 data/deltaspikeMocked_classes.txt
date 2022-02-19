@@ -1,8 +1,0 @@
-org.apache.deltaspike.test.testcontrol.mock.shared.RequestScopedBean
-org.apache.deltaspike.test.testcontrol.mock.shared.RequestScopedBean
-org.apache.deltaspike.test.testcontrol.mock.shared.SessionScopedBean
-org.apache.deltaspike.test.testcontrol.mock.shared.SessionScopedBean
-org.apache.deltaspike.test.testcontrol.mock.shared.RequestScopedBean
-org.apache.deltaspike.test.testcontrol.mock.shared.RequestScopedBean
-org.apache.deltaspike.test.testcontrol.mock.shared.SessionScopedBean
-org.apache.deltaspike.test.testcontrol.mock.shared.SessionScopedBean

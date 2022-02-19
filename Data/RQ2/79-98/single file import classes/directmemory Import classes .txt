@@ -1,0 +1,20 @@
+/directmemory-server/src/test/java/org/apache/directmemory/server/services/DirectMemoryServletTest.java
+	org.apache.directmemory.serialization.Serializer
+	org.apache.directmemory.serialization.SerializerFactory
+	org.apache.directmemory.server.commons.DirectMemoryParser
+	org.apache.directmemory.server.commons.DirectMemoryRequest
+	org.apache.directmemory.server.commons.DirectMemoryResponse
+	org.apache.directmemory.server.commons.DirectMemoryWriter
+	org.apache.directmemory.test.Wine
+	org.junit.Before
+	org.junit.Test
+	org.slf4j.Logger
+	org.slf4j.LoggerFactory
+	org.springframework.mock.web.MockHttpServletRequest
+	org.springframework.mock.web.MockHttpServletResponse
+	org.springframework.mock.web.MockServletConfig
+	org.springframework.mock.web.MockServletContext
+	javax.servlet.http.HttpServletResponse
+	javax.ws.rs.core.MediaType
+	java.io.ByteArrayInputStream
+	org.junit.Assert.assertEquals

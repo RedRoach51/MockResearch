@@ -1,0 +1,12 @@
+/jackrabbit-core/src/test/java/org/apache/jackrabbit/core/integration/UtilsGetPathTest.java
+/jackrabbit-core/src/test/java/org/apache/jackrabbit/core/security/principal/PrincipalManagerTest.java
+	org.apache.jackrabbit.api.security.principal.GroupPrincipal
+/jackrabbit-jcr-server/src/test/java/org/apache/jackrabbit/server/remoting/davex/JsonWriterTest.java
+	javax.jcr.Node
+	javax.jcr.Property
+	javax.jcr.Value
+	javax.jcr.Property
+	javax.jcr.Value
+	javax.jcr.Value
+/jackrabbit-jcr-server/src/test/java/org/apache/jackrabbit/webdav/jcr/observation/InfoMapTest.java
+	javax.jcr.Session

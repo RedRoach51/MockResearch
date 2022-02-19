@@ -1,0 +1,92 @@
+/crunch-core/src/test/java/org/apache/crunch/fn/AndFnTest.java
+	org.apache.crunch.FilterFn
+	org.apache.crunch.FilterFn
+	org.apache.hadoop.mapreduce.TaskInputOutputContext
+	org.apache.crunch.Emitter
+/crunch-core/src/test/java/org/apache/crunch/fn/NotFnTest.java
+	org.apache.crunch.FilterFn
+	org.apache.hadoop.mapreduce.TaskInputOutputContext
+	org.apache.crunch.Emitter
+/crunch-core/src/test/java/org/apache/crunch/fn/OrFnTest.java
+	org.apache.crunch.FilterFn
+	org.apache.crunch.FilterFn
+	org.apache.hadoop.mapreduce.TaskInputOutputContext
+	org.apache.crunch.Emitter
+/crunch-core/src/test/java/org/apache/crunch/hadoop/mapreduce/lib/jobcontrol/CrunchJobControlTest.java
+	org.apache.hadoop.mapreduce.Job
+	org.apache.crunch.hadoop.mapreduce.lib.jobcontrol.CrunchControlledJob.Hook
+	org.apache.crunch.hadoop.mapreduce.lib.jobcontrol.CrunchControlledJob.Hook
+/crunch-core/src/test/java/org/apache/crunch/impl/dist/DistributedPipelineTest.java
+	org.apache.hadoop.mapreduce.Job
+	org.apache.hadoop.fs.Path
+	org.apache.crunch.impl.dist.DistributedPipeline
+/crunch-core/src/test/java/org/apache/crunch/impl/dist/collect/DoTableImplTest.java
+	org.apache.crunch.impl.dist.collect.PCollectionImpl
+/crunch-core/src/test/java/org/apache/crunch/impl/mr/MRPipelineTest.java
+	org.apache.crunch.impl.dist.collect.PCollectionImpl<java.lang.String>
+	org.apache.crunch.io.ReadableSourceTarget<java.lang.String>
+	org.apache.crunch.SourceTarget<java.lang.String>
+/crunch-core/src/test/java/org/apache/crunch/impl/mr/emit/IntermediateEmitterTest.java
+	org.apache.crunch.impl.mr.run.RTNode
+	org.apache.crunch.impl.mr.run.RTNode
+	org.apache.crunch.impl.mr.run.RTNode
+	org.apache.crunch.impl.mr.run.RTNode
+	org.apache.crunch.impl.mr.run.RTNode
+/crunch-core/src/test/java/org/apache/crunch/impl/mr/plan/DotfileWriterTest.java
+	org.apache.crunch.impl.dist.collect.PCollectionImpl
+	org.apache.crunch.impl.mr.plan.JobPrototype
+	org.apache.crunch.impl.mr.collect.InputCollection
+	org.apache.crunch.impl.mr.plan.JobPrototype
+	org.apache.crunch.impl.mr.collect.PGroupedTableImpl
+	org.apache.crunch.impl.mr.plan.JobPrototype
+	org.apache.crunch.impl.mr.collect.PGroupedTableImpl
+	org.apache.crunch.impl.mr.plan.JobPrototype
+	org.apache.crunch.Target
+	org.apache.crunch.impl.dist.collect.PCollectionImpl
+	org.apache.crunch.impl.mr.plan.JobPrototype
+	org.apache.crunch.impl.mr.collect.InputCollection
+	org.apache.crunch.Source
+	org.apache.crunch.impl.mr.plan.JobPrototype
+	org.apache.crunch.impl.dist.collect.PCollectionImpl
+	org.apache.crunch.impl.dist.collect.PCollectionImpl
+	org.apache.crunch.impl.mr.plan.JobPrototype
+	org.apache.crunch.impl.dist.collect.PCollectionImpl
+	org.apache.crunch.impl.dist.collect.PCollectionImpl
+	org.apache.crunch.SourceTarget
+	org.apache.crunch.impl.mr.plan.JobPrototype
+/crunch-core/src/test/java/org/apache/crunch/impl/mr/plan/JobPrototypeTest.java
+	org.apache.hadoop.fs.Path
+	org.apache.crunch.io.impl.FileTargetImpl
+	org.apache.hadoop.fs.FileSystem
+	org.apache.crunch.impl.mr.collect.PGroupedTableImpl<java.lang.String,java.lang.String>
+	java.util.Set<org.apache.crunch.impl.mr.plan.NodePath>
+/crunch-core/src/test/java/org/apache/crunch/io/impl/FileTargetImplTest.java
+	org.apache.hadoop.fs.FileSystem
+	org.apache.hadoop.fs.FileSystem
+	org.apache.hadoop.fs.FileSystem
+	org.apache.hadoop.fs.FileSystem
+	org.apache.hadoop.fs.FileSystem
+/crunch-core/src/test/java/org/apache/crunch/lib/join/JoinFnTestBase.java
+	org.apache.crunch.Emitter
+/crunch-core/src/test/java/org/apache/crunch/lib/join/LeftOuterJoinTest.java
+/crunch-core/src/test/java/org/apache/crunch/lib/join/BrokenLeftAndOuterJoinTest.java
+	org.apache.crunch.Emitter
+	org.apache.crunch.Emitter
+/crunch-core/src/test/java/org/apache/crunch/lib/join/InnerJoinFnTest.java
+/crunch-core/src/test/java/org/apache/crunch/lib/join/RightOuterJoinFnTest.java
+/crunch-core/src/test/java/org/apache/crunch/util/PartitionUtilsTest.java
+	org.apache.crunch.PCollection<java.lang.String>
+	org.apache.crunch.Pipeline
+/crunch-kafka/src/test/java/org/apache/crunch/kafka/record/KafkaInputFormatTest.java
+	org.apache.hadoop.mapreduce.JobContext
+	org.apache.hadoop.mapreduce.JobContext
+	org.apache.hadoop.mapreduce.JobContext
+	org.apache.hadoop.mapreduce.JobContext
+/crunch-kafka/src/test/java/org/apache/crunch/kafka/record/KafkaRecordReaderTest.java
+	org.apache.kafka.clients.consumer.KafkaConsumer<java.lang.String,java.lang.String>
+	org.apache.hadoop.mapreduce.TaskAttemptContext
+/crunch-kafka/src/test/java/org/apache/crunch/kafka/record/KafkaRecordsIterableIT.java
+	org.apache.kafka.clients.consumer.Consumer<java.lang.String,java.lang.String>
+	org.apache.kafka.clients.consumer.ConsumerRecords<java.lang.String,java.lang.String>
+/crunch-test/src/main/java/org/apache/crunch/test/CrunchTestSupport.java
+	org.apache.hadoop.mapreduce.TaskInputOutputContext

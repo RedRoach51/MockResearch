@@ -1,5 +1,0 @@
-method, origin, count
-isValid,javax.accessibility.AccessibleHyperlinkTest.MockAccessibleHyperlink,2
-setKey,javax.accessibility.AccessibleBundleTest.MockAccessibleBundle,4
-toDisplayString,javax.accessibility.AccessibleBundleTest.MockAccessibleBundle,2
-getKey,javax.accessibility.AccessibleBundleTest.MockAccessibleBundle,4

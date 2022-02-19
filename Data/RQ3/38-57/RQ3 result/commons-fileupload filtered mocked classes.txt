@@ -5,3 +5,5 @@ Inside classes:
  
 Outside classes: 
  
+javax.servlet.http.HttpServletRequest
+org.apache.commons.fileupload2.MockHttpServletRequest

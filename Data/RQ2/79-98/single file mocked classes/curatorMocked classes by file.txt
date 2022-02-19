@@ -1,0 +1,31 @@
+/curator-client/src/test/java/org/apache/curator/TestRetryLoop.java
+	org.apache.curator.RetrySleeper
+/curator-client/src/test/java/org/apache/curator/BasicTests.java
+	org.apache.zookeeper.ZooKeeper
+/curator-client/src/test/java/org/apache/curator/TestEnsurePath.java
+	org.apache.zookeeper.ZooKeeper
+	org.apache.curator.CuratorZookeeperClient
+	org.apache.zookeeper.data.Stat
+	org.apache.zookeeper.ZooKeeper
+	org.apache.curator.CuratorZookeeperClient
+	org.apache.zookeeper.data.Stat
+/curator-framework/src/test/java/org/apache/curator/framework/imps/TestWatcherIdentity.java
+	org.apache.curator.framework.api.CuratorWatcher
+	org.apache.curator.framework.api.CuratorWatcher
+/curator-recipes/src/test/java/org/apache/curator/framework/recipes/queue/TestDistributedQueue.java
+	org.apache.curator.framework.state.ConnectionStateListener
+	org.apache.curator.framework.state.ConnectionStateListener
+	org.apache.curator.framework.state.ConnectionStateListener
+	org.apache.curator.framework.state.ConnectionStateListener
+	org.apache.curator.framework.state.ConnectionStateListener
+/curator-recipes/src/test/java/org/apache/curator/framework/recipes/queue/TestDistributedDelayQueue.java
+	org.apache.curator.framework.state.ConnectionStateListener
+	org.apache.curator.framework.state.ConnectionStateListener
+	org.apache.curator.framework.state.ConnectionStateListener
+	org.apache.curator.framework.state.ConnectionStateListener
+/curator-recipes/src/test/java/org/apache/curator/framework/recipes/queue/TestDistributedIdQueue.java
+	org.apache.curator.framework.state.ConnectionStateListener
+/curator-recipes/src/test/java/org/apache/curator/framework/recipes/queue/TestDistributedPriorityQueue.java
+	org.apache.curator.framework.state.ConnectionStateListener
+	org.apache.curator.framework.state.ConnectionStateListener
+	org.apache.curator.framework.state.ConnectionStateListener

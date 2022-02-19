@@ -1,0 +1,40 @@
+/flink-iotdb-connector/src/test/java/org/apache/iotdb/flink/IoTDBSinkBatchInsertTest.java
+	org.apache.iotdb.session.pool.SessionPool
+/flink-iotdb-connector/src/test/java/org/apache/iotdb/flink/IoTDBSinkBatchTimerTest.java
+	org.apache.iotdb.session.pool.SessionPool
+/flink-iotdb-connector/src/test/java/org/apache/iotdb/flink/IoTDBSinkInsertTest.java
+	org.apache.iotdb.session.pool.SessionPool
+/iotdb-cli/src/test/java/org/apache/iotdb/cli/AbstractCliIT.java
+	org.apache.iotdb.jdbc.IoTDBConnection
+	org.apache.iotdb.jdbc.IoTDBDatabaseMetadata
+/iotdb-cluster/src/test/java/org/apache/iotdb/cluster/partition/MManagerWhiteBox.java
+/iotdb-cluster/src/test/java/org/apache/iotdb/cluster/partition/SlotPartitionTableTest.java
+/iotdb-cluster/src/test/java/org/apache/iotdb/cluster/query/LoadConfigurationTest.java
+	org.apache.iotdb.db.conf.IoTDBDescriptor
+	org.apache.iotdb.cluster.config.ClusterDescriptor
+	org.apache.iotdb.db.conf.IoTDBDescriptor
+	org.apache.iotdb.cluster.config.ClusterDescriptor
+/iotdb-cluster/src/test/java/org/apache/iotdb/cluster/query/reader/mult/MultSeriesRawDataPointReaderTest.java
+	org.apache.iotdb.db.query.reader.series.SeriesRawDataPointReader
+/iotdb-cluster/src/test/java/org/apache/iotdb/cluster/server/member/RaftMemberTest.java
+	org.apache.iotdb.cluster.log.manage.PartitionedSnapshotLogManager
+	org.apache.iotdb.cluster.log.manage.PartitionedSnapshotLogManager
+	org.apache.iotdb.cluster.log.manage.PartitionedSnapshotLogManager
+	org.apache.iotdb.cluster.log.manage.PartitionedSnapshotLogManager
+	org.apache.iotdb.cluster.log.manage.PartitionedSnapshotLogManager
+/iotdb-jdbc/src/test/java/org/apache/iotdb/jdbc/IoTDBJDBCResultSetTest.java
+	org.apache.iotdb.jdbc.IoTDBConnection
+	java.sql.Statement
+/iotdb-jdbc/src/test/java/org/apache/iotdb/jdbc/IoTDBPreparedStatementTest.java
+	org.apache.iotdb.jdbc.IoTDBConnection
+/iotdb-jdbc/src/test/java/org/apache/iotdb/jdbc/IoTDBDatabaseMetadataTest.java
+	org.apache.iotdb.jdbc.IoTDBConnection
+	java.sql.Statement
+	java.sql.DatabaseMetaData
+/iotdb-jdbc/src/test/java/org/apache/iotdb/jdbc/IoTDBStatementTest.java
+	org.apache.iotdb.jdbc.IoTDBConnection
+/iotdb-jdbc/src/test/java/org/apache/iotdb/jdbc/BatchTest.java
+	org.apache.iotdb.jdbc.IoTDBConnection
+	org.apache.iotdb.jdbc.IoTDBStatement
+/iotdb-jdbc/src/test/java/org/apache/iotdb/jdbc/IoTDBConnectionTest.java
+/iotdb-server/src/test/java/org/apache/iotdb/db/conf/directories/strategy/DirectoryStrategyTest.java

@@ -1,3 +1,5 @@
+/jackrabbit-core/src/test/java/org/apache/jackrabbit/core/integration/UtilsGetPathTest.java
+Methods Invoked: 
 	Method name: spy
 	Class origin: org.mockito.Mockito
 	Count: 1
@@ -10,14 +12,20 @@
 	Class origin: org.mockito.Mockito
 	Count: 7
  
+/jackrabbit-core/src/test/java/org/apache/jackrabbit/core/security/principal/PrincipalManagerTest.java
+Methods Invoked: 
 	Method name: mock
 	Class origin: org.mockito.Mockito
 	Count: 1
  
+/jackrabbit-jcr-server/src/test/java/org/apache/jackrabbit/server/remoting/davex/JsonWriterTest.java
+Methods Invoked: 
 	Method name: createMock
 	Class origin: org.easymock.EasyMockSupport
 	Count: 6
  
+/jackrabbit-jcr-server/src/test/java/org/apache/jackrabbit/webdav/jcr/observation/InfoMapTest.java
+Methods Invoked: 
 	Method name: mock
 	Class origin: org.mockito.Mockito
 	Count: 1

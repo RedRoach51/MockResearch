@@ -1,3 +1,5 @@
+/cxf-core/src/test/java/org/apache/cxf/attachment/AttachmentUtilTest.java
+Methods Invoked: 
 	Method name: createMock
 	Class origin: org.easymock.EasyMock
 	Count: 9
@@ -10,6 +12,8 @@
 	Class origin: org.easymock.EasyMock
 	Count: 9
  
+/cxf-core/src/test/java/org/apache/cxf/bus/CXFBusImplTest.java
+Methods Invoked: 
 	Method name: createNiceControl
 	Class origin: org.easymock.EasyMock
 	Count: 1
@@ -18,6 +22,8 @@
 	Class origin: org.easymock.IMocksControl
 	Count: 3
  
+/cxf-core/src/test/java/org/apache/cxf/bus/managers/EndpointResolverRegistryImplTest.java
+Methods Invoked: 
 	Method name: createNiceControl
 	Class origin: org.easymock.EasyMock
 	Count: 1
@@ -26,6 +32,8 @@
 	Class origin: org.easymock.IMocksControl
 	Count: 5
  
+/cxf-core/src/test/java/org/apache/cxf/bus/managers/ServiceContractResolverRegistryImplTest.java
+Methods Invoked: 
 	Method name: createNiceControl
 	Class origin: org.easymock.EasyMock
 	Count: 1
@@ -34,6 +42,8 @@
 	Class origin: org.easymock.IMocksControl
 	Count: 2
  
+/cxf-core/src/test/java/org/apache/cxf/bus/osgi/OSGiBusListenerTest.java
+Methods Invoked: 
 	Method name: createNiceControl
 	Class origin: org.easymock.EasyMock
 	Count: 1
@@ -42,6 +52,8 @@
 	Class origin: org.easymock.IMocksControl
 	Count: 12
  
+/cxf-core/src/test/java/org/apache/cxf/bus/spring/SpringBusFactoryTest.java
+Methods Invoked: 
 	Method name: createMock
 	Class origin: org.easymock.EasyMock
 	Count: 1
@@ -54,6 +66,8 @@
 	Class origin: org.easymock.EasyMock
 	Count: 2
  
+/cxf-core/src/test/java/org/apache/cxf/bus/spring/BusApplicationListenerTest.java
+Methods Invoked: 
 	Method name: createMock
 	Class origin: org.easymock.EasyMock
 	Count: 1
@@ -70,6 +84,8 @@
 	Class origin: org.easymock.EasyMock
 	Count: 2
  
+/cxf-core/src/test/java/org/apache/cxf/buslifecycle/CXFBusLifeCycleManagerTest.java
+Methods Invoked: 
 	Method name: createMock
 	Class origin: org.easymock.EasyMock
 	Count: 2
@@ -86,6 +102,8 @@
 	Class origin: org.easymock.EasyMock
 	Count: 6
  
+/cxf-core/src/test/java/org/apache/cxf/common/annotation/AnnotationProcessorTest.java
+Methods Invoked: 
 	Method name: createMock
 	Class origin: org.easymock.EasyMock
 	Count: 1
@@ -102,6 +120,8 @@
 	Class origin: org.easymock.EasyMock
 	Count: 8
  
+/cxf-core/src/test/java/org/apache/cxf/common/injection/ResourceInjectorTest.java
+Methods Invoked: 
 	Method name: createMock
 	Class origin: org.easymock.EasyMock
 	Count: 1
@@ -114,6 +134,8 @@
 	Class origin: org.easymock.EasyMock
 	Count: 4
  
+/cxf-core/src/test/java/org/apache/cxf/common/logging/LogUtilsTest.java
+Methods Invoked: 
 	Method name: createNiceMock
 	Class origin: org.easymock.EasyMock
 	Count: 5
@@ -130,6 +152,8 @@
 	Class origin: org.easymock.EasyMock
 	Count: 5
  
+/cxf-core/src/test/java/org/apache/cxf/common/util/ClassHelperTest.java
+Methods Invoked: 
 	Method name: mock
 	Class origin: org.easymock.EasyMock
 	Count: 1
@@ -142,6 +166,8 @@
 	Class origin: org.easymock.EasyMock
 	Count: 24
  
+/cxf-core/src/test/java/org/apache/cxf/helpers/ServiceUtilsTest.java
+Methods Invoked: 
 	Method name: createNiceControl
 	Class origin: org.easymock.EasyMock
 	Count: 1
@@ -162,6 +188,8 @@
 	Class origin: org.easymock.EasyMock
 	Count: 2
  
+/cxf-core/src/test/java/org/apache/cxf/interceptor/OutgoingChainInterceptorTest.java
+Methods Invoked: 
 	Method name: createNiceControl
 	Class origin: org.easymock.EasyMock
 	Count: 1
@@ -174,6 +202,8 @@
 	Class origin: org.easymock.EasyMock
 	Count: 11
  
+/cxf-core/src/test/java/org/apache/cxf/interceptor/ServiceInvokerInterceptorTest.java
+Methods Invoked: 
 	Method name: createNiceControl
 	Class origin: org.easymock.EasyMock
 	Count: 1
@@ -190,6 +220,8 @@
 	Class origin: org.easymock.IMocksControl
 	Count: 1
  
+/cxf-core/src/test/java/org/apache/cxf/interceptor/LoggingOutInterceptorTest.java
+Methods Invoked: 
 	Method name: createNiceControl
 	Class origin: org.easymock.EasyMock
 	Count: 1
@@ -202,6 +234,8 @@
 	Class origin: org.easymock.IMocksControl
 	Count: 6
  
+/cxf-core/src/test/java/org/apache/cxf/interceptor/LoggingInInterceptorTest.java
+Methods Invoked: 
 	Method name: createNiceControl
 	Class origin: org.easymock.EasyMock
 	Count: 1
@@ -230,6 +264,8 @@
 	Class origin: org.easymock.EasyMock
 	Count: 2
  
+/cxf-core/src/test/java/org/apache/cxf/interceptor/security/JAASLoginInterceptorTest.java
+Methods Invoked: 
 	Method name: createControl
 	Class origin: org.easymock.EasyMock
 	Count: 1
@@ -238,18 +274,26 @@
 	Class origin: org.easymock.IMocksControl
 	Count: 2
  
+/cxf-core/src/test/java/org/apache/cxf/interceptor/security/SecureAnnotationsInterceptorTest.java
+Methods Invoked: 
 	Method name: createMock
 	Class origin: org.easymock.EasyMock
 	Count: 3
  
+/cxf-core/src/test/java/org/apache/cxf/interceptor/security/SimpleAuthorizingInterceptorTest.java
+Methods Invoked: 
 	Method name: createMock
 	Class origin: org.easymock.EasyMock
 	Count: 3
  
+/cxf-core/src/test/java/org/apache/cxf/interceptor/security/OperationInfoAuthorizingInterceptorTest.java
+Methods Invoked: 
 	Method name: createMock
 	Class origin: org.easymock.EasyMock
 	Count: 4
  
+/cxf-core/src/test/java/org/apache/cxf/io/CachedStreamTestBase.java
+Methods Invoked: 
 	Method name: createControl
 	Class origin: org.easymock.EasyMock
 	Count: 1
@@ -266,6 +310,8 @@
 	Class origin: org.easymock.EasyMock
 	Count: 4
  
+/cxf-core/src/test/java/org/apache/cxf/phase/PhaseInterceptorChainTest.java
+Methods Invoked: 
 	Method name: createNiceControl
 	Class origin: org.easymock.EasyMock
 	Count: 1
@@ -294,6 +340,8 @@
 	Class origin: org.easymock.EasyMock
 	Count: 8
  
+/cxf-core/src/test/java/org/apache/cxf/staxutils/validation/Stax2ValidationUtilsTest.java
+Methods Invoked: 
 	Method name: mock
 	Class origin: org.easymock.EasyMock
 	Count: 1
@@ -314,6 +362,8 @@
 	Class origin: org.easymock.IExpectationSetters<java.lang.Boolean>
 	Count: 1
  
+/cxf-core/src/test/java/org/apache/cxf/transport/ChainInitiationObserverTest.java
+Methods Invoked: 
 	Method name: createNiceControl
 	Class origin: org.easymock.EasyMock
 	Count: 1
@@ -342,6 +392,8 @@
 	Class origin: org.easymock.IMocksControl
 	Count: 1
  
+/cxf-core/src/test/java/org/apache/cxf/transport/common/gzip/GZIPAcceptEncodingTest.java
+Methods Invoked: 
 	Method name: createMock
 	Class origin: org.easymock.EasyMock
 	Count: 1
@@ -350,6 +402,8 @@
 	Class origin: org.easymock.EasyMock
 	Count: 3
  
+/cxf-integration-cdi/src/test/java/org/apache/cxf/cdi/JAXRSCdiResourceExtensionTest.java
+Methods Invoked: 
 	Method name: verify
 	Class origin: org.mockito.Mockito
 	Count: 4
@@ -358,6 +412,8 @@
 	Class origin: org.mockito.ArgumentMatchers
 	Count: 4
  
+/cxf-integration-cdi/src/test/java/org/apache/cxf/cdi/CdiResourceProviderTest.java
+Methods Invoked: 
 	Method name: thenReturn
 	Class origin: org.mockito.stubbing.OngoingStubbing<java.lang.Class<>>
 	Count: 6
@@ -370,6 +426,8 @@
 	Class origin: org.mockito.stubbing.OngoingStubbing<java.lang.Boolean>
 	Count: 1
  
+/cxf-integration-jca/src/test/java/org/apache/cxf/jca/core/resourceadapter/ManagedConnectionImplTest.java
+Methods Invoked: 
 	Method name: createMock
 	Class origin: org.easymock.EasyMock
 	Count: 7
@@ -390,26 +448,38 @@
 	Class origin: org.easymock.EasyMock
 	Count: 6
  
+/cxf-integration-jca/src/test/java/org/apache/cxf/jca/cxf/AssociatedManagedConnectionFactoryImplTest.java
+Methods Invoked: 
 	Method name: createMock
 	Class origin: org.easymock.EasyMock
 	Count: 1
  
+/cxf-integration-jca/src/test/java/org/apache/cxf/jca/cxf/ManagedConnectionTestBase.java
+Methods Invoked: 
 	Method name: createMock
 	Class origin: org.easymock.EasyMock
 	Count: 2
  
+/cxf-integration-jca/src/test/java/org/apache/cxf/jca/cxf/ResourceAdapterImplTest.java
+Methods Invoked: 
 	Method name: createMock
 	Class origin: org.easymock.EasyMock
 	Count: 3
  
+/cxf-integration-jca/src/test/java/org/apache/cxf/jca/cxf/ConnectionFactoryImplTest.java
+Methods Invoked: 
 	Method name: createMock
 	Class origin: org.easymock.EasyMock
 	Count: 3
  
+/cxf-integration-jca/src/test/java/org/apache/cxf/jca/cxf/JCABusFactoryTest.java
+Methods Invoked: 
 	Method name: createMock
 	Class origin: org.easymock.EasyMock
 	Count: 2
  
+/cxf-integration-jca/src/test/java/org/apache/cxf/jca/cxf/ManagedConnectionFactoryImplTest.java
+Methods Invoked: 
 	Method name: createMock
 	Class origin: org.easymock.EasyMock
 	Count: 2
@@ -430,6 +500,8 @@
 	Class origin: org.easymock.EasyMock
 	Count: 1
  
+/cxf-integration-jca/src/test/java/org/apache/cxf/jca/cxf/ManagedConnectionImplTest.java
+Methods Invoked: 
 	Method name: reset
 	Class origin: org.easymock.EasyMock
 	Count: 1
@@ -450,10 +522,14 @@
 	Class origin: org.easymock.EasyMock
 	Count: 1
  
+/cxf-integration-jca/src/test/java/org/apache/cxf/jca/cxf/handlers/HandlerTestBase.java
+Methods Invoked: 
 	Method name: createMock
 	Class origin: org.easymock.EasyMock
 	Count: 5
  
+/cxf-integration-jca/src/test/java/org/apache/cxf/jca/outbound/ManagedConnectionImplTest.java
+Methods Invoked: 
 	Method name: createNiceControl
 	Class origin: org.easymock.EasyMock
 	Count: 1
@@ -466,6 +542,8 @@
 	Class origin: org.easymock.IMocksControl
 	Count: 1
  
+/cxf-rt-bindings-coloc/src/test/java/org/apache/cxf/binding/coloc/ColocMessageObserverTest.java
+Methods Invoked: 
 	Method name: createNiceControl
 	Class origin: org.easymock.EasyMock
 	Count: 1
@@ -474,6 +552,8 @@
 	Class origin: org.easymock.IMocksControl
 	Count: 8
  
+/cxf-rt-bindings-coloc/src/test/java/org/apache/cxf/binding/coloc/ColocUtilTest.java
+Methods Invoked: 
 	Method name: createNiceControl
 	Class origin: org.easymock.EasyMock
 	Count: 1
@@ -482,6 +562,8 @@
 	Class origin: org.easymock.IMocksControl
 	Count: 7
  
+/cxf-rt-bindings-coloc/src/test/java/org/apache/cxf/binding/coloc/ColocOutInterceptorTest.java
+Methods Invoked: 
 	Method name: createNiceControl
 	Class origin: org.easymock.EasyMock
 	Count: 1
@@ -502,6 +584,8 @@
 	Class origin: org.easymock.IMocksControl
 	Count: 10
  
+/cxf-rt-bindings-corba/src/test/java/org/apache/cxf/binding/corba/CorbaBindingFactoryTest.java
+Methods Invoked: 
 	Method name: createNiceControl
 	Class origin: org.easymock.EasyMock
 	Count: 1
@@ -514,6 +598,8 @@
 	Class origin: org.easymock.EasyMock
 	Count: 1
  
+/cxf-rt-bindings-corba/src/test/java/org/apache/cxf/binding/corba/CorbaConduitTest.java
+Methods Invoked: 
 	Method name: createNiceControl
 	Class origin: org.easymock.EasyMock
 	Count: 1
@@ -534,6 +620,8 @@
 	Class origin: org.easymock.IMocksControl
 	Count: 22
  
+/cxf-rt-bindings-corba/src/test/java/org/apache/cxf/binding/corba/CorbaMessageTest.java
+Methods Invoked: 
 	Method name: createNiceControl
 	Class origin: org.easymock.EasyMock
 	Count: 1
@@ -542,6 +630,8 @@
 	Class origin: org.easymock.IMocksControl
 	Count: 1
  
+/cxf-rt-bindings-corba/src/test/java/org/apache/cxf/binding/corba/CorbaServerConduitTest.java
+Methods Invoked: 
 	Method name: createNiceControl
 	Class origin: org.easymock.EasyMock
 	Count: 1
@@ -570,6 +660,8 @@
 	Class origin: org.easymock.EasyMock
 	Count: 2
  
+/cxf-rt-bindings-corba/src/test/java/org/apache/cxf/binding/corba/runtime/CorbaStreamReaderTest.java
+Methods Invoked: 
 	Method name: createMock
 	Class origin: org.easymock.EasyMock
 	Count: 1
@@ -586,6 +678,8 @@
 	Class origin: org.easymock.EasyMock
 	Count: 5
  
+/cxf-rt-bindings-soap/src/test/java/org/apache/cxf/binding/soap/RPCOutInterceptorTest.java
+Methods Invoked: 
 	Method name: createNiceControl
 	Class origin: org.easymock.EasyMock
 	Count: 1
@@ -622,6 +716,8 @@
 	Class origin: org.easymock.EasyMock
 	Count: 2
  
+/cxf-rt-bindings-soap/src/test/java/org/apache/cxf/binding/soap/SoapBindingFactoryTest.java
+Methods Invoked: 
 	Method name: createNiceControl
 	Class origin: org.easymock.EasyMock
 	Count: 1
@@ -642,6 +738,8 @@
 	Class origin: org.easymock.EasyMock
 	Count: 2
  
+/cxf-rt-bindings-soap/src/test/java/org/apache/cxf/binding/soap/TestBase.java
+Methods Invoked: 
 	Method name: createNiceControl
 	Class origin: org.easymock.EasyMock
 	Count: 1
@@ -650,6 +748,8 @@
 	Class origin: org.easymock.IMocksControl
 	Count: 3
  
+/cxf-rt-bindings-soap/src/test/java/org/apache/cxf/binding/soap/RPCInInterceptorTest.java
+Methods Invoked: 
 	Method name: createNiceControl
 	Class origin: org.easymock.EasyMock
 	Count: 1
@@ -674,6 +774,8 @@
 	Class origin: org.easymock.EasyMock
 	Count: 2
  
+/cxf-rt-bindings-soap/src/test/java/org/apache/cxf/binding/soap/ServiceModelUtilTest.java
+Methods Invoked: 
 	Method name: createNiceControl
 	Class origin: org.easymock.EasyMock
 	Count: 1
@@ -682,6 +784,8 @@
 	Class origin: org.easymock.IMocksControl
 	Count: 3
  
+/cxf-rt-bindings-soap/src/test/java/org/apache/cxf/binding/soap/interceptor/SoapActionInInterceptorTest.java
+Methods Invoked: 
 	Method name: createNiceControl
 	Class origin: org.easymock.EasyMock
 	Count: 1
@@ -694,6 +798,8 @@
 	Class origin: org.easymock.IMocksControl
 	Count: 11
  
+/cxf-rt-bindings-soap/src/test/java/org/apache/cxf/binding/soap/interceptor/SoapPreProtocolOutInterceptorTest.java
+Methods Invoked: 
 	Method name: createNiceControl
 	Class origin: org.easymock.EasyMock
 	Count: 1
@@ -706,6 +812,8 @@
 	Class origin: org.easymock.IMocksControl
 	Count: 1
  
+/cxf-rt-bindings-soap/src/test/java/org/apache/cxf/binding/soap/jms/interceptor/SoapFaultFactoryTest.java
+Methods Invoked: 
 	Method name: createNiceControl
 	Class origin: org.easymock.EasyMock
 	Count: 1
@@ -726,10 +834,14 @@
 	Class origin: org.easymock.IExpectationSetters<java.lang.Boolean>
 	Count: 1
  
+/cxf-rt-databinding-aegis/src/test/java/org/apache/cxf/aegis/type/mtom/DataSourceTypeTest.java
+Methods Invoked: 
 	Method name: mock
 	Class origin: org.easymock.EasyMock
 	Count: 4
  
+/cxf-rt-databinding-jaxb/src/test/java/org/apache/cxf/jaxb/DocLiteralInInterceptorTest.java
+Methods Invoked: 
 	Method name: createNiceControl
 	Class origin: org.easymock.EasyMock
 	Count: 1
@@ -738,6 +850,8 @@
 	Class origin: org.easymock.IMocksControl
 	Count: 2
  
+/cxf-rt-databinding-jaxb/src/test/java/org/apache/cxf/jaxb/BareOutInterceptorTest.java
+Methods Invoked: 
 	Method name: createNiceControl
 	Class origin: org.easymock.EasyMock
 	Count: 1
@@ -750,6 +864,8 @@
 	Class origin: org.easymock.IMocksControl
 	Count: 1
  
+/cxf-rt-databinding-jaxb/src/test/java/org/apache/cxf/jaxb/BareInInterceptorTest.java
+Methods Invoked: 
 	Method name: createNiceControl
 	Class origin: org.easymock.EasyMock
 	Count: 1
@@ -758,6 +874,8 @@
 	Class origin: org.easymock.IMocksControl
 	Count: 2
  
+/cxf-rt-databinding-jaxb/src/test/java/org/apache/cxf/jaxb/JAXBDataBindingTest.java
+Methods Invoked: 
 	Method name: createNiceControl
 	Class origin: org.easymock.EasyMock
 	Count: 1
@@ -766,6 +884,8 @@
 	Class origin: org.easymock.IMocksControl
 	Count: 3
  
+/cxf-rt-databinding-jaxb/src/test/java/org/apache/cxf/jaxb/TestBase.java
+Methods Invoked: 
 	Method name: createNiceControl
 	Class origin: org.easymock.EasyMock
 	Count: 1
@@ -774,6 +894,8 @@
 	Class origin: org.easymock.IMocksControl
 	Count: 2
  
+/cxf-rt-features-metrics/src/test/java/org/apache/cxf/metrics/micrometer/MicrometerServerMetricsContextTest.java
+Methods Invoked: 
 	Method name: openMocks
 	Class origin: org.mockito.MockitoAnnotations
 	Count: 1
@@ -786,6 +908,8 @@
 	Class origin: org.mockito.Mockito
 	Count: 13
  
+/cxf-rt-features-metrics/src/test/java/org/apache/cxf/metrics/micrometer/MicrometerClientMetricsContextTest.java
+Methods Invoked: 
 	Method name: openMocks
 	Class origin: org.mockito.MockitoAnnotations
 	Count: 1
@@ -798,10 +922,14 @@
 	Class origin: org.mockito.Mockito
 	Count: 13
  
+/cxf-rt-features-metrics/src/test/java/org/apache/cxf/metrics/micrometer/MicrometerMetricsProviderTest.java
+Methods Invoked: 
 	Method name: openMocks
 	Class origin: org.mockito.MockitoAnnotations
 	Count: 1
  
+/cxf-rt-features-metrics/src/test/java/org/apache/cxf/metrics/micrometer/provider/DefaultTimedAnnotationProviderTest.java
+Methods Invoked: 
 	Method name: openMocks
 	Class origin: org.mockito.MockitoAnnotations
 	Count: 1
@@ -814,6 +942,8 @@
 	Class origin: org.mockito.Mockito
 	Count: 6
  
+/cxf-rt-features-metrics/src/test/java/org/apache/cxf/metrics/micrometer/provider/StandardTagsTest.java
+Methods Invoked: 
 	Method name: openMocks
 	Class origin: org.mockito.MockitoAnnotations
 	Count: 1
@@ -826,6 +956,8 @@
 	Class origin: org.mockito.Mockito
 	Count: 15
  
+/cxf-rt-features-metrics/src/test/java/org/apache/cxf/metrics/micrometer/provider/StandardTagsProviderTest.java
+Methods Invoked: 
 	Method name: openMocks
 	Class origin: org.mockito.MockitoAnnotations
 	Count: 1
@@ -838,6 +970,8 @@
 	Class origin: org.mockito.Mockito
 	Count: 14
  
+/cxf-rt-features-metrics/src/test/java/org/apache/cxf/metrics/micrometer/provider/DefaultExceptionClassProviderTest.java
+Methods Invoked: 
 	Method name: openMocks
 	Class origin: org.mockito.MockitoAnnotations
 	Count: 1
@@ -850,6 +984,8 @@
 	Class origin: org.mockito.Mockito
 	Count: 6
  
+/cxf-rt-features-metrics/src/test/java/org/apache/cxf/metrics/micrometer/provider/jaxws/JaxwsOperationTagsCustomizerTest.java
+Methods Invoked: 
 	Method name: openMocks
 	Class origin: org.mockito.MockitoAnnotations
 	Count: 1
@@ -862,6 +998,8 @@
 	Class origin: org.mockito.Mockito
 	Count: 4
  
+/cxf-rt-features-metrics/src/test/java/org/apache/cxf/metrics/micrometer/provider/jaxws/JaxwsTagsTest.java
+Methods Invoked: 
 	Method name: openMocks
 	Class origin: org.mockito.MockitoAnnotations
 	Count: 1
@@ -874,6 +1012,8 @@
 	Class origin: org.mockito.Mockito
 	Count: 3
  
+/cxf-rt-features-metrics/src/test/java/org/apache/cxf/metrics/micrometer/provider/jaxws/JaxwsFaultCodeTagsCustomizerTest.java
+Methods Invoked: 
 	Method name: openMocks
 	Class origin: org.mockito.MockitoAnnotations
 	Count: 1
@@ -886,6 +1026,8 @@
 	Class origin: org.mockito.Mockito
 	Count: 2
  
+/cxf-rt-features-metrics/src/test/java/org/apache/cxf/metrics/micrometer/provider/jaxws/JaxwsFaultCodeProviderTest.java
+Methods Invoked: 
 	Method name: openMocks
 	Class origin: org.mockito.MockitoAnnotations
 	Count: 1
@@ -898,6 +1040,8 @@
 	Class origin: org.mockito.Mockito
 	Count: 23
  
+/cxf-rt-frontend-jaxrs/src/test/java/org/apache/cxf/jaxrs/SelectMethodCandidatesTest.java
+Methods Invoked: 
 	Method name: mock
 	Class origin: org.easymock.EasyMock
 	Count: 1
@@ -922,10 +1066,14 @@
 	Class origin: org.easymock.IExpectationSetters<java.lang.Integer>
 	Count: 1
  
+/cxf-rt-frontend-jaxrs/src/test/java/org/apache/cxf/jaxrs/ext/MessageContextImplTest.java
+Methods Invoked: 
 	Method name: createMock
 	Class origin: org.easymock.EasyMock
 	Count: 5
  
+/cxf-rt-frontend-jaxrs/src/test/java/org/apache/cxf/jaxrs/impl/AsyncResponseImplTest.java
+Methods Invoked: 
 	Method name: createNiceControl
 	Class origin: org.easymock.EasyMock
 	Count: 1
@@ -934,6 +1082,8 @@
 	Class origin: org.easymock.IMocksControl
 	Count: 11
  
+/cxf-rt-frontend-jaxrs/src/test/java/org/apache/cxf/jaxrs/impl/ResponseImplTest.java
+Methods Invoked: 
 	Method name: createMock
 	Class origin: org.easymock.EasyMock
 	Count: 1
@@ -946,6 +1096,8 @@
 	Class origin: org.easymock.IExpectationSetters<java.lang.Object>
 	Count: 2
  
+/cxf-rt-frontend-jaxrs/src/test/java/org/apache/cxf/jaxrs/impl/UriInfoImplTest.java
+Methods Invoked: 
 	Method name: createNiceControl
 	Class origin: org.easymock.EasyMock
 	Count: 1
@@ -978,6 +1130,8 @@
 	Class origin: org.easymock.IMocksControl
 	Count: 1
  
+/cxf-rt-frontend-jaxrs/src/test/java/org/apache/cxf/jaxrs/impl/RequestPreprocessorTest.java
+Methods Invoked: 
 	Method name: createNiceControl
 	Class origin: org.easymock.EasyMock
 	Count: 1
@@ -1014,6 +1168,8 @@
 	Class origin: org.easymock.IExpectationSetters<java.lang.Object>
 	Count: 1
  
+/cxf-rt-frontend-jaxrs/src/test/java/org/apache/cxf/jaxrs/lifecycle/PerRequestResourceProviderTest.java
+Methods Invoked: 
 	Method name: mock
 	Class origin: org.easymock.EasyMock
 	Count: 1
@@ -1026,6 +1182,8 @@
 	Class origin: org.easymock.IExpectationSetters<java.lang.Object>
 	Count: 2
  
+/cxf-rt-frontend-jaxrs/src/test/java/org/apache/cxf/jaxrs/model/OperationResourceInfoTest.java
+Methods Invoked: 
 	Method name: createMock
 	Class origin: org.easymock.EasyMock
 	Count: 1
@@ -1042,10 +1200,14 @@
 	Class origin: org.easymock.EasyMock
 	Count: 1
  
+/cxf-rt-frontend-jaxrs/src/test/java/org/apache/cxf/jaxrs/provider/AbstractConfigurableProviderTest.java
+Methods Invoked: 
 	Method name: createMock
 	Class origin: org.easymock.EasyMock
 	Count: 1
  
+/cxf-rt-frontend-jaxrs/src/test/java/org/apache/cxf/jaxrs/provider/ProviderFactoryTest.java
+Methods Invoked: 
 	Method name: createMock
 	Class origin: org.easymock.EasyMock
 	Count: 1
@@ -1062,6 +1224,8 @@
 	Class origin: org.easymock.EasyMock
 	Count: 1
  
+/cxf-rt-frontend-jaxrs/src/test/java/org/apache/cxf/jaxrs/provider/XSLTJaxbProviderTest.java
+Methods Invoked: 
 	Method name: mock
 	Class origin: org.easymock.EasyMock
 	Count: 1
@@ -1074,6 +1238,8 @@
 	Class origin: org.easymock.IExpectationSetters<java.lang.Object>
 	Count: 2
  
+/cxf-rt-frontend-jaxrs/src/test/java/org/apache/cxf/jaxrs/provider/JAXBElementProviderTest.java
+Methods Invoked: 
 	Method name: mock
 	Class origin: org.easymock.EasyMock
 	Count: 1
@@ -1086,18 +1252,26 @@
 	Class origin: org.easymock.IExpectationSetters<java.lang.Object>
 	Count: 2
  
+/cxf-rt-frontend-jaxrs/src/test/java/org/apache/cxf/jaxrs/springmvc/SpringViewResolverProviderTest.java
+Methods Invoked: 
 	Method name: replayAll
 	Class origin: org.easymock.EasyMockSupport
 	Count: 6
  
+/cxf-rt-frontend-jaxrs/src/test/java/org/apache/cxf/jaxrs/utils/JAXRSUtilsTest.java
+Methods Invoked: 
 	Method name: createMock
 	Class origin: org.easymock.EasyMock
 	Count: 11
  
+/cxf-rt-frontend-jaxrs/src/test/java/org/apache/cxf/jaxrs/utils/FormUtilsTest.java
+Methods Invoked: 
 	Method name: replay
 	Class origin: org.easymock.EasyMock
 	Count: 3
  
+/cxf-rt-frontend-jaxrs/src/test/java/org/apache/cxf/jaxrs/utils/HttpUtilsTest.java
+Methods Invoked: 
 	Method name: createMock
 	Class origin: org.easymock.EasyMock
 	Count: 3
@@ -1110,6 +1284,8 @@
 	Class origin: org.easymock.EasyMock
 	Count: 6
  
+/cxf-rt-frontend-jaxrs/src/test/java/org/apache/cxf/jaxrs/utils/InjectionUtilsTest.java
+Methods Invoked: 
 	Method name: mock
 	Class origin: org.easymock.EasyMock
 	Count: 1
@@ -1122,10 +1298,14 @@
 	Class origin: org.easymock.IExpectationSetters<java.lang.Object>
 	Count: 2
  
+/cxf-rt-frontend-jaxws/src/test/java/org/apache/cxf/jaxws/JAXWSMethodInvokerTest.java
+Methods Invoked: 
 	Method name: createMock
 	Class origin: org.easymock.EasyMock
 	Count: 5
  
+/cxf-rt-frontend-jaxws/src/test/java/org/apache/cxf/jaxws/handler/AbstractProtocolHandlerInterceptorTest.java
+Methods Invoked: 
 	Method name: createNiceControl
 	Class origin: org.easymock.EasyMock
 	Count: 1
@@ -1134,10 +1314,14 @@
 	Class origin: org.easymock.IMocksControl
 	Count: 4
  
+/cxf-rt-frontend-jaxws/src/test/java/org/apache/cxf/jaxws/handler/HandlerChainBuilderTest.java
+Methods Invoked: 
 	Method name: createMock
 	Class origin: org.easymock.EasyMock
 	Count: 4
  
+/cxf-rt-frontend-jaxws/src/test/java/org/apache/cxf/jaxws/handler/LogicalHandlerInterceptorTest.java
+Methods Invoked: 
 	Method name: createNiceControl
 	Class origin: org.easymock.EasyMock
 	Count: 2
@@ -1146,6 +1330,8 @@
 	Class origin: org.easymock.IMocksControl
 	Count: 8
  
+/cxf-rt-frontend-jaxws/src/test/java/org/apache/cxf/jaxws/handler/soap/SOAPHandlerInterceptorTest.java
+Methods Invoked: 
 	Method name: createNiceControl
 	Class origin: org.easymock.EasyMock
 	Count: 5
@@ -1166,6 +1352,8 @@
 	Class origin: org.easymock.EasyMock
 	Count: 16
  
+/cxf-rt-frontend-jaxws/src/test/java/org/apache/cxf/jaxws/support/JaxWsServiceConfigurationTest.java
+Methods Invoked: 
 	Method name: createNiceControl
 	Class origin: org.easymock.EasyMock
 	Count: 1
@@ -1174,6 +1362,8 @@
 	Class origin: org.easymock.IMocksControl
 	Count: 3
  
+/cxf-rt-frontend-jaxws/src/test/java/org/apache/cxf/transport/http_jaxws_spi/JAXWSHttpSpiDestinationTest.java
+Methods Invoked: 
 	Method name: createNiceControl
 	Class origin: org.easymock.EasyMock
 	Count: 1
@@ -1194,6 +1384,8 @@
 	Class origin: org.easymock.EasyMock
 	Count: 3
  
+/cxf-rt-frontend-jaxws/src/test/java/org/apache/cxf/transport/http_jaxws_spi/JAXWSHttpSpiTransportFactoryTest.java
+Methods Invoked: 
 	Method name: createNiceControl
 	Class origin: org.easymock.EasyMock
 	Count: 1
@@ -1202,6 +1394,8 @@
 	Class origin: org.easymock.IMocksControl
 	Count: 2
  
+/cxf-rt-frontend-jaxws/src/test/java/org/apache/cxf/transport/http_jaxws_spi/HttpHandlerImplTest.java
+Methods Invoked: 
 	Method name: createNiceControl
 	Class origin: org.easymock.EasyMock
 	Count: 1
@@ -1210,6 +1404,8 @@
 	Class origin: org.easymock.IMocksControl
 	Count: 2
  
+/cxf-rt-frontend-js/src/test/java/org/apache/cxf/js/rhino/ProviderFactoryTest.java
+Methods Invoked: 
 	Method name: createMock
 	Class origin: org.easymock.EasyMock
 	Count: 1
@@ -1222,6 +1418,8 @@
 	Class origin: org.easymock.EasyMock
 	Count: 7
  
+/cxf-rt-frontend-js/src/test/java/org/apache/cxf/js/rhino/AbstractDOMProviderTest.java
+Methods Invoked: 
 	Method name: createMock
 	Class origin: org.easymock.EasyMock
 	Count: 1
@@ -1242,6 +1440,8 @@
 	Class origin: org.easymock.EasyMock
 	Count: 7
  
+/cxf-rt-frontend-js/src/test/java/org/apache/cxf/js/rhino/ServerAppTest.java
+Methods Invoked: 
 	Method name: createMock
 	Class origin: org.easymock.EasyMock
 	Count: 1
@@ -1254,6 +1454,8 @@
 	Class origin: org.easymock.EasyMock
 	Count: 13
  
+/cxf-rt-management/src/test/java/org/apache/cxf/management/counters/CounterRepositoryTest.java
+Methods Invoked: 
 	Method name: createMock
 	Class origin: org.easymock.EasyMock
 	Count: 5
@@ -1262,10 +1464,14 @@
 	Class origin: org.easymock.EasyMock
 	Count: 16
  
+/cxf-rt-management/src/test/java/org/apache/cxf/management/interceptor/AbstractMessageResponseTestBase.java
+Methods Invoked: 
 	Method name: createMock
 	Class origin: org.easymock.EasyMock
 	Count: 9
  
+/cxf-rt-management/src/test/java/org/apache/cxf/management/interceptor/ResponseTimeMessageInvokerInterceptorTest.java
+Methods Invoked: 
 	Method name: expect
 	Class origin: org.easymock.EasyMock
 	Count: 5
@@ -1278,6 +1484,8 @@
 	Class origin: org.easymock.IExpectationSetters<java.lang.Object>
 	Count: 1
  
+/cxf-rt-management/src/test/java/org/apache/cxf/management/interceptor/ResponseTimeMessageOutInterceptorTest.java
+Methods Invoked: 
 	Method name: anyTimes
 	Class origin: org.easymock.IExpectationSetters<java.lang.Object>
 	Count: 6
@@ -1290,6 +1498,8 @@
 	Class origin: org.easymock.EasyMock
 	Count: 27
  
+/cxf-rt-management/src/test/java/org/apache/cxf/management/interceptor/ResponseTimeMessageInInterceptorTest.java
+Methods Invoked: 
 	Method name: expect
 	Class origin: org.easymock.EasyMock
 	Count: 25
@@ -1302,6 +1512,8 @@
 	Class origin: org.easymock.IExpectationSetters<java.lang.Object>
 	Count: 8
  
+/cxf-rt-rs-extension-providers/src/test/java/org/apache/cxf/jaxrs/provider/dom4j/DOM4JProviderTest.java
+Methods Invoked: 
 	Method name: createMock
 	Class origin: org.easymock.EasyMock
 	Count: 2
@@ -1318,18 +1530,58 @@
 	Class origin: org.easymock.EasyMock
 	Count: 10
  
-	Method name: url
-	Class origin: okhttp3.mockwebserver.MockWebServer
+/cxf-rt-rs-mp-client/src/test/java/org/apache/cxf/microprofile/client/AsyncTest.java
+Methods Invoked: 
+	Method name: extensions
+	Class origin: com.github.tomakehurst.wiremock.core.WireMockConfiguration
+	Count: 1
+ 
+	Method name: wireMockConfig
+	Class origin: com.github.tomakehurst.wiremock.core.WireMockConfiguration
+	Count: 1
+ 
+	Method name: build
+	Class origin: com.github.tomakehurst.wiremock.http.Response.Builder
+	Count: 1
+ 
+	Method name: body
+	Class origin: com.github.tomakehurst.wiremock.http.Response.Builder
+	Count: 1
+ 
+	Method name: but
+	Class origin: com.github.tomakehurst.wiremock.http.Response.Builder
+	Count: 1
+ 
+	Method name: like
+	Class origin: com.github.tomakehurst.wiremock.http.Response.Builder
+	Count: 1
+ 
+	Method name: baseUrl
+	Class origin: com.github.tomakehurst.wiremock.WireMockServer
 	Count: 2
  
-	Method name: enqueue
-	Class origin: okhttp3.mockwebserver.MockWebServer
-	Count: 3
- 
-	Method name: setBody
-	Class origin: okhttp3.mockwebserver.MockResponse
+	Method name: stubFor
+	Class origin: com.github.tomakehurst.wiremock.WireMockServer
 	Count: 2
  
+	Method name: willReturn
+	Class origin: com.github.tomakehurst.wiremock.client.MappingBuilder
+	Count: 2
+ 
+	Method name: get
+	Class origin: com.github.tomakehurst.wiremock.client.WireMock
+	Count: 2
+ 
+	Method name: withTransformers
+	Class origin: com.github.tomakehurst.wiremock.client.ResponseDefinitionBuilder
+	Count: 1
+ 
+	Method name: ok
+	Class origin: com.github.tomakehurst.wiremock.client.WireMock
+	Count: 1
+ 
+/cxf-rt-rs-mp-client/src/test/java/org/apache/cxf/microprofile/client/cdi/RestClientCdiTest.java
+Methods Invoked: 
 	Method name: createNiceControl
 	Class origin: org.easymock.EasyMock
 	Count: 1
@@ -1346,6 +1598,8 @@
 	Class origin: org.easymock.EasyMock
 	Count: 4
  
+/cxf-rt-rs-security-http-signature/src/test/java/org/apache/cxf/rs/security/httpsignature/SpecExamplesTest.java
+Methods Invoked: 
 	Method name: thenReturn
 	Class origin: org.mockito.stubbing.OngoingStubbing<java.io.InputStream>
 	Count: 1
@@ -1362,6 +1616,8 @@
 	Class origin: org.mockito.stubbing.OngoingStubbing<java.lang.Object>
 	Count: 1
  
+/cxf-rt-rs-security-oauth2/src/test/java/org/apache/cxf/rs/security/oauth2/client/OAuthClientUtilsTest.java
+Methods Invoked: 
 	Method name: mock
 	Class origin: org.easymock.EasyMock
 	Count: 2
@@ -1386,6 +1642,8 @@
 	Class origin: org.easymock.EasyMock
 	Count: 2
  
+/cxf-rt-rs-security-oauth2/src/test/java/org/apache/cxf/rs/security/oauth2/grants/jwt/AbstractJwtHandlerTest.java
+Methods Invoked: 
 	Method name: andReturn
 	Class origin: org.easymock.IExpectationSetters<java.lang.Boolean>
 	Count: 2
@@ -1402,10 +1660,14 @@
 	Class origin: org.easymock.EasyMock
 	Count: 2
  
+/cxf-rt-rs-security-oauth2/src/test/java/org/apache/cxf/rs/security/oauth2/tokens/hawk/HawkAccessTokenValidatorTest.java
+Methods Invoked: 
 	Method name: createMock
 	Class origin: org.easymock.EasyMock
 	Count: 4
  
+/cxf-rt-rs-security-oauth2/src/test/java/org/apache/cxf/rs/security/oauth2/tokens/hawk/NonceVerifierImplTest.java
+Methods Invoked: 
 	Method name: createMock
 	Class origin: org.easymock.EasyMock
 	Count: 1
@@ -1422,6 +1684,8 @@
 	Class origin: org.easymock.EasyMock
 	Count: 1
  
+/cxf-rt-rs-service-description/src/test/java/org/apache/cxf/jaxrs/model/wadl/WadlGeneratorTest.java
+Methods Invoked: 
 	Method name: createNiceControl
 	Class origin: org.easymock.EasyMock
 	Count: 1
@@ -1450,6 +1714,8 @@
 	Class origin: org.easymock.EasyMock
 	Count: 2
  
+/cxf-rt-rs-service-description/src/test/java/org/apache/cxf/jaxrs/model/wadl/WadlGeneratorJsonTest.java
+Methods Invoked: 
 	Method name: createNiceControl
 	Class origin: org.easymock.EasyMock
 	Count: 1
@@ -1478,10 +1744,14 @@
 	Class origin: org.easymock.EasyMock
 	Count: 2
  
+/cxf-rt-rs-sse/src/test/java/org/apache/cxf/jaxrs/sse/SseEventSinkContextProviderTest.java
+Methods Invoked: 
 	Method name: mock
 	Class origin: org.mockito.Mockito
 	Count: 3
  
+/cxf-rt-rs-sse/src/test/java/org/apache/cxf/jaxrs/sse/SseBroadcasterImplTest.java
+Methods Invoked: 
 	Method name: mock
 	Class origin: org.mockito.Mockito
 	Count: 1
@@ -1498,6 +1768,8 @@
 	Class origin: org.mockito.ArgumentMatchers
 	Count: 4
  
+/cxf-rt-transports-http/src/test/java/org/apache/cxf/transport/http/DestinationRegistryImplTest.java
+Methods Invoked: 
 	Method name: createNiceControl
 	Class origin: org.easymock.EasyMock
 	Count: 1
@@ -1510,10 +1782,14 @@
 	Class origin: org.easymock.EasyMock
 	Count: 4
  
+/cxf-rt-transports-http/src/test/java/org/apache/cxf/transport/http/HTTPConduitURLEasyMockTest.java
+Methods Invoked: 
 	Method name: createNiceControl
 	Class origin: org.easymock.EasyMock
 	Count: 10
  
+/cxf-rt-transports-http/src/test/java/org/apache/cxf/transport/http/HeadersTest.java
+Methods Invoked: 
 	Method name: createNiceControl
 	Class origin: org.easymock.EasyMock
 	Count: 3
@@ -1530,6 +1806,8 @@
 	Class origin: org.easymock.EasyMock
 	Count: 7
  
+/cxf-rt-transports-http/src/test/java/org/apache/cxf/transport/http/policy/PolicyUtilsTest.java
+Methods Invoked: 
 	Method name: createNiceControl
 	Class origin: org.easymock.EasyMock
 	Count: 1
@@ -1554,10 +1832,14 @@
 	Class origin: org.easymock.IMocksControl
 	Count: 1
  
+/cxf-rt-transports-http/src/test/java/org/apache/cxf/transport/https/HttpsURLConnectionFactoryTest.java
+Methods Invoked: 
 	Method name: createMock
 	Class origin: org.easymock.EasyMock
 	Count: 4
  
+/cxf-rt-transports-http/src/test/java/org/apache/cxf/transport/servlet/BaseUrlHelperTest.java
+Methods Invoked: 
 	Method name: createMock
 	Class origin: org.easymock.EasyMock
 	Count: 1
@@ -1574,14 +1856,20 @@
 	Class origin: org.easymock.IExpectationSetters<java.lang.Object>
 	Count: 2
  
+/cxf-rt-transports-http/src/test/java/org/apache/cxf/transport/servlet/HttpServletRequestXForwardedFilterTest.java
+Methods Invoked: 
 	Method name: mock
 	Class origin: org.mockito.Mockito
 	Count: 3
  
+/cxf-rt-transports-http/src/test/java/org/apache/cxf/transport/servlet/ServletControllerTest.java
+Methods Invoked: 
 	Method name: createMock
 	Class origin: org.easymock.EasyMock
 	Count: 6
  
+/cxf-rt-transports-http-jetty/src/test/java/org/apache/cxf/transport/http_jetty/JettyHTTPServerEngineTest.java
+Methods Invoked: 
 	Method name: createNiceControl
 	Class origin: org.easymock.EasyMock
 	Count: 1
@@ -1602,14 +1890,20 @@
 	Class origin: org.easymock.EasyMock
 	Count: 3
  
+/cxf-rt-transports-http-jetty/src/test/java/org/apache/cxf/transport/http_jetty/JettyHTTPDestinationTest.java
+Methods Invoked: 
 	Method name: createMock
 	Class origin: org.easymock.EasyMock
 	Count: 9
  
+/cxf-rt-transports-http-netty-server/src/test/java/org/apache/cxf/transport/http/netty/server/NettyHttpDestinationTest.java
+Methods Invoked: 
 	Method name: createMock
 	Class origin: org.easymock.EasyMock
 	Count: 9
  
+/cxf-rt-transports-http-netty-server/src/test/java/org/apache/cxf/transport/http/netty/server/NettyHttpServerEngineTest.java
+Methods Invoked: 
 	Method name: createNiceControl
 	Class origin: org.easymock.EasyMock
 	Count: 1
@@ -1618,6 +1912,8 @@
 	Class origin: org.easymock.IMocksControl
 	Count: 2
  
+/cxf-rt-transports-http-undertow/src/test/java/org/apache/cxf/transport/http_undertow/UndertowHTTPServerEngineTest.java
+Methods Invoked: 
 	Method name: createNiceControl
 	Class origin: org.easymock.EasyMock
 	Count: 1
@@ -1638,18 +1934,26 @@
 	Class origin: org.easymock.EasyMock
 	Count: 3
  
+/cxf-rt-transports-http-undertow/src/test/java/org/apache/cxf/transport/http_undertow/UndertowHTTPDestinationTest.java
+Methods Invoked: 
 	Method name: createMock
 	Class origin: org.easymock.EasyMock
 	Count: 9
  
+/cxf-rt-transports-jms/src/test/java/org/apache/cxf/transport/jms/continuations/JMSContinuationTest.java
+Methods Invoked: 
 	Method name: createMock
 	Class origin: org.easymock.EasyMock
 	Count: 3
  
+/cxf-rt-transports-jms/src/test/java/org/apache/cxf/transport/jms/continuations/JMSContinuationProviderTest.java
+Methods Invoked: 
 	Method name: createMock
 	Class origin: org.easymock.EasyMock
 	Count: 3
  
+/cxf-rt-transports-websocket/src/test/java/org/apache/cxf/transport/websocket/jetty/JettyWebSocketDestinationTest.java
+Methods Invoked: 
 	Method name: createNiceControl
 	Class origin: org.easymock.EasyMock
 	Count: 1
@@ -1662,6 +1966,8 @@
 	Class origin: org.easymock.IMocksControl
 	Count: 1
  
+/cxf-rt-ws-addr/src/test/java/org/apache/cxf/ws/addressing/impl/ContextUtilsTest.java
+Methods Invoked: 
 	Method name: createNiceControl
 	Class origin: org.easymock.EasyMock
 	Count: 1
@@ -1686,6 +1992,8 @@
 	Class origin: org.easymock.IExpectationSetters<java.lang.Object>
 	Count: 6
  
+/cxf-rt-ws-addr/src/test/java/org/apache/cxf/ws/addressing/impl/MAPAggregatorTest.java
+Methods Invoked: 
 	Method name: createNiceControl
 	Class origin: org.easymock.EasyMock
 	Count: 1
@@ -1694,10 +2002,14 @@
 	Class origin: org.easymock.IMocksControl
 	Count: 29
  
+/cxf-rt-ws-addr/src/test/java/org/apache/cxf/ws/addressing/soap/DecoupledFaultHandlerTest.java
+Methods Invoked: 
 	Method name: createMock
 	Class origin: org.easymock.EasyMock
 	Count: 1
  
+/cxf-rt-ws-addr/src/test/java/org/apache/cxf/ws/addressing/soap/MAPCodecTest.java
+Methods Invoked: 
 	Method name: createNiceControl
 	Class origin: org.easymock.EasyMock
 	Count: 1
@@ -1706,6 +2018,8 @@
 	Class origin: org.easymock.IMocksControl
 	Count: 18
  
+/cxf-rt-ws-policy/src/test/java/org/apache/cxf/ws/policy/NormalizeTest.java
+Methods Invoked: 
 	Method name: createNiceControl
 	Class origin: org.easymock.EasyMock
 	Count: 1
@@ -1722,6 +2036,8 @@
 	Class origin: org.easymock.IMocksControl
 	Count: 1
  
+/cxf-rt-ws-policy/src/test/java/org/apache/cxf/ws/policy/PolicyDataEngineImplTest.java
+Methods Invoked: 
 	Method name: createControl
 	Class origin: org.easymock.EasyMock
 	Count: 1
@@ -1734,6 +2050,8 @@
 	Class origin: org.easymock.EasyMock
 	Count: 2
  
+/cxf-rt-ws-policy/src/test/java/org/apache/cxf/ws/policy/AssertionInfoMapTest.java
+Methods Invoked: 
 	Method name: createNiceControl
 	Class origin: org.easymock.EasyMock
 	Count: 1
@@ -1754,6 +2072,8 @@
 	Class origin: org.easymock.EasyMock
 	Count: 11
  
+/cxf-rt-ws-policy/src/test/java/org/apache/cxf/ws/policy/PolicyVerificationOutInterceptorTest.java
+Methods Invoked: 
 	Method name: createNiceControl
 	Class origin: org.easymock.EasyMock
 	Count: 1
@@ -1794,6 +2114,8 @@
 	Class origin: org.easymock.IMocksControl
 	Count: 2
  
+/cxf-rt-ws-policy/src/test/java/org/apache/cxf/ws/policy/PolicyRegistryImplTest.java
+Methods Invoked: 
 	Method name: createNiceControl
 	Class origin: org.easymock.EasyMock
 	Count: 1
@@ -1802,6 +2124,8 @@
 	Class origin: org.easymock.IMocksControl
 	Count: 1
  
+/cxf-rt-ws-policy/src/test/java/org/apache/cxf/ws/policy/PolicyInterceptorProviderRegistryImplTest.java
+Methods Invoked: 
 	Method name: createNiceControl
 	Class origin: org.easymock.EasyMock
 	Count: 1
@@ -1810,6 +2134,8 @@
 	Class origin: org.easymock.IMocksControl
 	Count: 6
  
+/cxf-rt-ws-policy/src/test/java/org/apache/cxf/ws/policy/PolicyEngineTest.java
+Methods Invoked: 
 	Method name: createNiceControl
 	Class origin: org.easymock.EasyMock
 	Count: 1
@@ -1818,6 +2144,8 @@
 	Class origin: org.easymock.IMocksControl
 	Count: 57
  
+/cxf-rt-ws-policy/src/test/java/org/apache/cxf/ws/policy/AssertionBuilderRegistryImplTest.java
+Methods Invoked: 
 	Method name: createNiceControl
 	Class origin: org.easymock.EasyMock
 	Count: 1
@@ -1830,6 +2158,8 @@
 	Class origin: org.easymock.IMocksControl
 	Count: 3
  
+/cxf-rt-ws-policy/src/test/java/org/apache/cxf/ws/policy/PolicyVerificationInInterceptorTest.java
+Methods Invoked: 
 	Method name: createNiceControl
 	Class origin: org.easymock.EasyMock
 	Count: 1
@@ -1850,6 +2180,8 @@
 	Class origin: org.easymock.IMocksControl
 	Count: 5
  
+/cxf-rt-ws-policy/src/test/java/org/apache/cxf/ws/policy/EndpointPolicyImplTest.java
+Methods Invoked: 
 	Method name: createNiceControl
 	Class origin: org.easymock.EasyMock
 	Count: 1
@@ -1858,6 +2190,8 @@
 	Class origin: org.easymock.IMocksControl
 	Count: 17
  
+/cxf-rt-ws-policy/src/test/java/org/apache/cxf/ws/policy/PolicyVerificationInFaultInterceptorTest.java
+Methods Invoked: 
 	Method name: createNiceControl
 	Class origin: org.easymock.EasyMock
 	Count: 1
@@ -1890,6 +2224,8 @@
 	Class origin: org.easymock.IMocksControl
 	Count: 6
  
+/cxf-rt-ws-policy/src/test/java/org/apache/cxf/ws/policy/EffectivePolicyImplTest.java
+Methods Invoked: 
 	Method name: createNiceControl
 	Class origin: org.easymock.EasyMock
 	Count: 1
@@ -1898,6 +2234,8 @@
 	Class origin: org.easymock.IMocksControl
 	Count: 37
  
+/cxf-rt-ws-policy/src/test/java/org/apache/cxf/ws/policy/PolicyInterceptorsTest.java
+Methods Invoked: 
 	Method name: createNiceControl
 	Class origin: org.easymock.EasyMock
 	Count: 1
@@ -1906,6 +2244,8 @@
 	Class origin: org.easymock.IMocksControl
 	Count: 35
  
+/cxf-rt-ws-policy/src/test/java/org/apache/cxf/ws/policy/attachment/external/URIDomainExpressionTest.java
+Methods Invoked: 
 	Method name: createNiceControl
 	Class origin: org.easymock.EasyMock
 	Count: 1
@@ -1918,6 +2258,8 @@
 	Class origin: org.easymock.IMocksControl
 	Count: 7
  
+/cxf-rt-ws-policy/src/test/java/org/apache/cxf/ws/policy/attachment/external/EndpointReferenceDomainExpressionTest.java
+Methods Invoked: 
 	Method name: createNiceControl
 	Class origin: org.easymock.EasyMock
 	Count: 1
@@ -1926,6 +2268,8 @@
 	Class origin: org.easymock.IMocksControl
 	Count: 7
  
+/cxf-rt-ws-policy/src/test/java/org/apache/cxf/ws/policy/attachment/external/ExternalAttachmentProviderTest.java
+Methods Invoked: 
 	Method name: createNiceControl
 	Class origin: org.easymock.EasyMock
 	Count: 1
@@ -1934,6 +2278,8 @@
 	Class origin: org.easymock.IMocksControl
 	Count: 14
  
+/cxf-rt-ws-policy/src/test/java/org/apache/cxf/ws/policy/attachment/external/PolicyAttachmentTest.java
+Methods Invoked: 
 	Method name: createNiceControl
 	Class origin: org.easymock.EasyMock
 	Count: 1
@@ -1942,6 +2288,8 @@
 	Class origin: org.easymock.IMocksControl
 	Count: 16
  
+/cxf-rt-ws-policy/src/test/java/org/apache/cxf/ws/policy/attachment/external/DomainExpressionBuilderRegistryTest.java
+Methods Invoked: 
 	Method name: createNiceControl
 	Class origin: org.easymock.EasyMock
 	Count: 1
@@ -1958,6 +2306,8 @@
 	Class origin: org.easymock.EasyMock
 	Count: 5
  
+/cxf-rt-ws-policy/src/test/java/org/apache/cxf/ws/policy/attachment/reference/ReferenceResolverTest.java
+Methods Invoked: 
 	Method name: createNiceControl
 	Class origin: org.easymock.EasyMock
 	Count: 1
@@ -1966,10 +2316,14 @@
 	Class origin: org.easymock.IMocksControl
 	Count: 8
  
+/cxf-rt-ws-policy/src/test/java/org/apache/cxf/ws/policy/attachment/wsdl11/Wsdl11AttachmentPolicyProviderTest.java
+Methods Invoked: 
 	Method name: createNiceControl
 	Class origin: org.easymock.EasyMock
 	Count: 3
  
+/cxf-rt-ws-policy/src/test/java/org/apache/cxf/ws/policy/builder/jaxb/JaxbAssertionTest.java
+Methods Invoked: 
 	Method name: createNiceControl
 	Class origin: org.easymock.EasyMock
 	Count: 1
@@ -1990,6 +2344,8 @@
 	Class origin: org.easymock.IExpectationSetters<java.lang.Short>
 	Count: 1
  
+/cxf-rt-ws-policy/src/test/java/org/apache/cxf/ws/policy/selector/MinimalMaximalAlternativeSelectorTest.java
+Methods Invoked: 
 	Method name: createNiceControl
 	Class origin: org.easymock.EasyMock
 	Count: 1
@@ -1998,6 +2354,8 @@
 	Class origin: org.easymock.IMocksControl
 	Count: 4
  
+/cxf-rt-ws-policy/src/test/java/org/apache/cxf/ws/policy/selector/FirstAlternativeSelectorTest.java
+Methods Invoked: 
 	Method name: createNiceControl
 	Class origin: org.easymock.EasyMock
 	Count: 1
@@ -2006,6 +2364,8 @@
 	Class origin: org.easymock.IMocksControl
 	Count: 2
  
+/cxf-rt-ws-rm/src/test/java/org/apache/cxf/ws/rm/RMInInterceptorTest.java
+Methods Invoked: 
 	Method name: createNiceControl
 	Class origin: org.easymock.EasyMock
 	Count: 1
@@ -2030,6 +2390,8 @@
 	Class origin: org.easymock.EasyMock
 	Count: 73
  
+/cxf-rt-ws-rm/src/test/java/org/apache/cxf/ws/rm/DestinationSequenceTest.java
+Methods Invoked: 
 	Method name: createNiceControl
 	Class origin: org.easymock.EasyMock
 	Count: 1
@@ -2054,6 +2416,8 @@
 	Class origin: org.easymock.EasyMock
 	Count: 42
  
+/cxf-rt-ws-rm/src/test/java/org/apache/cxf/ws/rm/ManagedRMManagerTest.java
+Methods Invoked: 
 	Method name: createNiceControl
 	Class origin: org.easymock.EasyMock
 	Count: 1
@@ -2070,6 +2434,8 @@
 	Class origin: org.easymock.EasyMock
 	Count: 8
  
+/cxf-rt-ws-rm/src/test/java/org/apache/cxf/ws/rm/SourceSequenceTest.java
+Methods Invoked: 
 	Method name: createNiceControl
 	Class origin: org.easymock.EasyMock
 	Count: 1
@@ -2078,6 +2444,8 @@
 	Class origin: org.easymock.IMocksControl
 	Count: 7
  
+/cxf-rt-ws-rm/src/test/java/org/apache/cxf/ws/rm/ServantTest.java
+Methods Invoked: 
 	Method name: createNiceControl
 	Class origin: org.easymock.EasyMock
 	Count: 1
@@ -2094,6 +2462,8 @@
 	Class origin: org.easymock.EasyMock
 	Count: 12
  
+/cxf-rt-ws-rm/src/test/java/org/apache/cxf/ws/rm/RMContextUtilsTest.java
+Methods Invoked: 
 	Method name: createNiceControl
 	Class origin: org.easymock.EasyMock
 	Count: 1
@@ -2106,6 +2476,8 @@
 	Class origin: org.easymock.IMocksControl
 	Count: 10
  
+/cxf-rt-ws-rm/src/test/java/org/apache/cxf/ws/rm/RMManagerTest.java
+Methods Invoked: 
 	Method name: expect
 	Class origin: org.easymock.EasyMock
 	Count: 89
@@ -2114,6 +2486,8 @@
 	Class origin: org.easymock.EasyMock
 	Count: 16
  
+/cxf-rt-ws-rm/src/test/java/org/apache/cxf/ws/rm/AbstractEndpointTest.java
+Methods Invoked: 
 	Method name: createNiceControl
 	Class origin: org.easymock.EasyMock
 	Count: 1
@@ -2126,6 +2500,8 @@
 	Class origin: org.easymock.IMocksControl
 	Count: 2
  
+/cxf-rt-ws-rm/src/test/java/org/apache/cxf/ws/rm/RMEndpointTest.java
+Methods Invoked: 
 	Method name: createNiceControl
 	Class origin: org.easymock.EasyMock
 	Count: 1
@@ -2134,6 +2510,8 @@
 	Class origin: org.easymock.IMocksControl
 	Count: 23
  
+/cxf-rt-ws-rm/src/test/java/org/apache/cxf/ws/rm/RMOutInterceptorTest.java
+Methods Invoked: 
 	Method name: createNiceControl
 	Class origin: org.easymock.EasyMock
 	Count: 1
@@ -2174,6 +2552,8 @@
 	Class origin: org.easymock.IMocksControl
 	Count: 6
  
+/cxf-rt-ws-rm/src/test/java/org/apache/cxf/ws/rm/DestinationTest.java
+Methods Invoked: 
 	Method name: createNiceControl
 	Class origin: org.easymock.EasyMock
 	Count: 1
@@ -2186,6 +2566,8 @@
 	Class origin: org.easymock.IMocksControl
 	Count: 1
  
+/cxf-rt-ws-rm/src/test/java/org/apache/cxf/ws/rm/RMUtilsTest.java
+Methods Invoked: 
 	Method name: createNiceControl
 	Class origin: org.easymock.EasyMock
 	Count: 1
@@ -2198,6 +2580,8 @@
 	Class origin: org.easymock.IMocksControl
 	Count: 4
  
+/cxf-rt-ws-rm/src/test/java/org/apache/cxf/ws/rm/ProxyTest.java
+Methods Invoked: 
 	Method name: createNiceControl
 	Class origin: org.easymock.EasyMock
 	Count: 1
@@ -2214,6 +2598,8 @@
 	Class origin: org.easymock.IMocksControl
 	Count: 13
  
+/cxf-rt-ws-rm/src/test/java/org/apache/cxf/ws/rm/AbstractRMInterceptorTest.java
+Methods Invoked: 
 	Method name: createNiceControl
 	Class origin: org.easymock.EasyMock
 	Count: 1
@@ -2226,6 +2612,8 @@
 	Class origin: org.easymock.IMocksControl
 	Count: 20
  
+/cxf-rt-ws-rm/src/test/java/org/apache/cxf/ws/rm/persistence/jdbc/RMTxStoreTest.java
+Methods Invoked: 
 	Method name: createMock
 	Class origin: org.easymock.IMocksControl
 	Count: 1
@@ -2238,6 +2626,8 @@
 	Class origin: org.easymock.IExpectationSetters<java.util.Date>
 	Count: 2
  
+/cxf-rt-ws-rm/src/test/java/org/apache/cxf/ws/rm/persistence/jdbc/RMTxStoreTestBase.java
+Methods Invoked: 
 	Method name: createNiceControl
 	Class origin: org.easymock.EasyMock
 	Count: 1
@@ -2254,6 +2644,8 @@
 	Class origin: org.easymock.IExpectationSetters<java.util.Date>
 	Count: 6
  
+/cxf-rt-ws-rm/src/test/java/org/apache/cxf/ws/rm/persistence/jdbc/RMTxStoreTwoSchemasTest.java
+Methods Invoked: 
 	Method name: createNiceControl
 	Class origin: org.easymock.EasyMock
 	Count: 1
@@ -2270,6 +2662,8 @@
 	Class origin: org.easymock.IExpectationSetters<java.util.Date>
 	Count: 2
  
+/cxf-rt-ws-rm/src/test/java/org/apache/cxf/ws/rm/policy/PolicyUtilsTest.java
+Methods Invoked: 
 	Method name: createNiceControl
 	Class origin: org.easymock.EasyMock
 	Count: 1
@@ -2294,6 +2688,8 @@
 	Class origin: org.easymock.IMocksControl
 	Count: 2
  
+/cxf-rt-ws-rm/src/test/java/org/apache/cxf/ws/rm/soap/SoapFaultFactoryTest.java
+Methods Invoked: 
 	Method name: createNiceControl
 	Class origin: org.easymock.EasyMock
 	Count: 1
@@ -2314,6 +2710,8 @@
 	Class origin: org.easymock.IExpectationSetters<java.lang.Boolean>
 	Count: 1
  
+/cxf-rt-ws-rm/src/test/java/org/apache/cxf/ws/rm/soap/RetransmissionQueueImplTest.java
+Methods Invoked: 
 	Method name: createNiceControl
 	Class origin: org.easymock.EasyMock
 	Count: 1
@@ -2342,6 +2740,8 @@
 	Class origin: org.easymock.EasyMock
 	Count: 14
  
+/cxf-rt-ws-security/src/test/java/org/apache/cxf/ws/security/wss4j/SecurityVerificationOutTest.java
+Methods Invoked: 
 	Method name: createNiceControl
 	Class origin: org.easymock.EasyMock
 	Count: 1
@@ -2354,6 +2754,8 @@
 	Class origin: org.easymock.IMocksControl
 	Count: 4
  
+/cxf-rt-ws-security/src/test/java/org/apache/cxf/ws/security/wss4j/AttachmentCallbackHandlerTest.java
+Methods Invoked: 
 	Method name: mock
 	Class origin: org.easymock.EasyMock
 	Count: 1
@@ -2378,6 +2780,8 @@
 	Class origin: org.easymock.IExpectationSetters<java.lang.String>
 	Count: 1
  
+/cxf-rt-ws-transfer/src/test/java/org/apache/cxf/ws/transfer/integration/ResourceFactoryTest.java
+Methods Invoked: 
 	Method name: createMock
 	Class origin: org.easymock.EasyMock
 	Count: 2
@@ -2406,6 +2810,8 @@
 	Class origin: org.easymock.EasyMock
 	Count: 2
  
+/cxf-rt-ws-transfer/src/test/java/org/apache/cxf/ws/transfer/integration/ResourceTest.java
+Methods Invoked: 
 	Method name: createMock
 	Class origin: org.easymock.EasyMock
 	Count: 3
@@ -2434,6 +2840,8 @@
 	Class origin: org.easymock.EasyMock
 	Count: 3
  
+/cxf-rt-wsdl/src/test/java/org/apache/cxf/wsdl/interceptors/DocLiteralInInterceptorTest.java
+Methods Invoked: 
 	Method name: createNiceControl
 	Class origin: org.easymock.EasyMock
 	Count: 1
@@ -2458,6 +2866,8 @@
 	Class origin: org.easymock.IExpectationSetters<java.lang.Integer>
 	Count: 4
  
+/cxf-rt-wsdl/src/test/java/org/apache/cxf/wsdl/service/factory/ReflectionServiceFactorBeanTest.java
+Methods Invoked: 
 	Method name: createNiceControl
 	Class origin: org.easymock.EasyMock
 	Count: 1
@@ -2470,6 +2880,8 @@
 	Class origin: org.easymock.IMocksControl
 	Count: 2
  
+/cxf-rt-wsdl/src/test/java/org/apache/cxf/wsdl11/ServiceWSDLBuilderTest.java
+Methods Invoked: 
 	Method name: createNiceControl
 	Class origin: org.easymock.EasyMock
 	Count: 1
@@ -2478,6 +2890,8 @@
 	Class origin: org.easymock.IMocksControl
 	Count: 4
  
+/cxf-rt-wsdl/src/test/java/org/apache/cxf/wsdl11/WSDLServiceBuilderTest.java
+Methods Invoked: 
 	Method name: createNiceControl
 	Class origin: org.easymock.EasyMock
 	Count: 1
@@ -2486,6 +2900,8 @@
 	Class origin: org.easymock.IMocksControl
 	Count: 4
  
+/cxf-services-xkms-x509-handlers/src/test/java/org/apache/cxf/xkms/x509/handlers/X509LocatorTest.java
+Methods Invoked: 
 	Method name: createMock
 	Class origin: org.easymock.EasyMock
 	Count: 1
@@ -2506,6 +2922,10 @@
 	Class origin: org.easymock.EasyMock
 	Count: 1
  
+/cxf-spring-boot-autoconfigure/src/test/java/org/apache/cxf/spring/boot/autoconfigure/CxfAutoConfigurationTest.java
+Methods Invoked: 
+/cxf-spring-boot-autoconfigure/src/test/java/org/apache/cxf/spring/boot/autoconfigure/micrometer/provider/SpringBasedTimedAnnotationProviderTest.java
+Methods Invoked: 
 	Method name: openMocks
 	Class origin: org.mockito.MockitoAnnotations
 	Count: 1
@@ -2518,14 +2938,20 @@
 	Class origin: org.mockito.Mockito
 	Count: 4
  
+/cxf-systests-cdi-owb-producers/src/test/java/org/apache/cxf/systest/jaxrs/cdi/unwrapper/ClassUnwrapperTest.java
+Methods Invoked: 
 	Method name: mock
 	Class origin: org.mockito.Mockito
 	Count: 1
  
+/cxf-systests-jaxrs/src/test/java/org/apache/cxf/systest/jaxrs/metrics/JAXRSServerMetricsTest.java
+Methods Invoked: 
 	Method name: mock
 	Class origin: org.mockito.Mockito
 	Count: 3
  
+/cxf-systests-jaxrs/src/test/java/org/apache/cxf/systest/jaxrs/metrics/JAXRSClientMetricsTest.java
+Methods Invoked: 
 	Method name: dynamicPort
 	Class origin: com.github.tomakehurst.wiremock.core.WireMockConfiguration
 	Count: 1
@@ -2538,10 +2964,14 @@
 	Class origin: org.mockito.Mockito
 	Count: 3
  
+/cxf-systests-jaxws/src/test/java/org/apache/cxf/systest/jaxws/metrics/JAXWSClientMetricsTest.java
+Methods Invoked: 
 	Method name: mock
 	Class origin: org.mockito.Mockito
 	Count: 3
  
+/cxf-systests-microprofile-async/src/test/java/org/apache/cxf/systest/microprofile/rest/client/AsyncThreadingTest.java
+Methods Invoked: 
 	Method name: dynamicPort
 	Class origin: com.github.tomakehurst.wiremock.core.WireMockConfiguration
 	Count: 1
@@ -2574,6 +3004,8 @@
 	Class origin: com.github.tomakehurst.wiremock.client.WireMock
 	Count: 4
  
+/cxf-systests-microprofile-async/src/test/java/org/apache/cxf/systest/microprofile/rest/client/AsyncMethodTest.java
+Methods Invoked: 
 	Method name: dynamicPort
 	Class origin: com.github.tomakehurst.wiremock.core.WireMockConfiguration
 	Count: 1
@@ -2606,6 +3038,8 @@
 	Class origin: com.github.tomakehurst.wiremock.client.WireMock
 	Count: 4
  
+/cxf-systests-microprofile-nocdi/src/test/java/org/apache/cxf/systest/microprofile/rest/client/AsyncMethodTest.java
+Methods Invoked: 
 	Method name: dynamicPort
 	Class origin: com.github.tomakehurst.wiremock.core.WireMockConfiguration
 	Count: 1
@@ -2638,2678 +3072,8 @@
 	Class origin: com.github.tomakehurst.wiremock.client.WireMock
 	Count: 4
  
-	Method name: dynamicPort
-	Class origin: com.github.tomakehurst.wiremock.core.WireMockConfiguration
-	Count: 1
- 
-	Method name: options
-	Class origin: com.github.tomakehurst.wiremock.core.WireMockConfiguration
-	Count: 1
- 
-	Method name: stubFor
-	Class origin: com.github.tomakehurst.wiremock.WireMockServer
-	Count: 4
- 
-	Method name: willReturn
-	Class origin: com.github.tomakehurst.wiremock.client.MappingBuilder
-	Count: 4
- 
-	Method name: get
-	Class origin: com.github.tomakehurst.wiremock.client.WireMock
-	Count: 4
- 
-	Method name: urlEqualTo
-	Class origin: com.github.tomakehurst.wiremock.client.WireMock
-	Count: 4
- 
-	Method name: withStatus
-	Class origin: com.github.tomakehurst.wiremock.client.ResponseDefinitionBuilder
-	Count: 1
- 
-	Method name: aResponse
-	Class origin: com.github.tomakehurst.wiremock.client.WireMock
-	Count: 4
- 
-	Method name: createMock
-	Class origin: org.easymock.EasyMock
-	Count: 9
- 
-	Method name: replay
-	Class origin: org.easymock.EasyMock
-	Count: 9
- 
-	Method name: verify
-	Class origin: org.easymock.EasyMock
-	Count: 9
- 
-	Method name: createNiceControl
-	Class origin: org.easymock.EasyMock
-	Count: 1
- 
-	Method name: createMock
-	Class origin: org.easymock.IMocksControl
-	Count: 3
- 
-	Method name: createNiceControl
-	Class origin: org.easymock.EasyMock
-	Count: 1
- 
-	Method name: createMock
-	Class origin: org.easymock.IMocksControl
-	Count: 5
- 
-	Method name: createNiceControl
-	Class origin: org.easymock.EasyMock
-	Count: 1
- 
-	Method name: createMock
-	Class origin: org.easymock.IMocksControl
-	Count: 2
- 
-	Method name: createNiceControl
-	Class origin: org.easymock.EasyMock
-	Count: 1
- 
-	Method name: createMock
-	Class origin: org.easymock.IMocksControl
-	Count: 12
- 
-	Method name: createMock
-	Class origin: org.easymock.EasyMock
-	Count: 1
- 
-	Method name: reset
-	Class origin: org.easymock.EasyMock
-	Count: 1
- 
-	Method name: expectLastCall
-	Class origin: org.easymock.EasyMock
-	Count: 2
- 
-	Method name: createMock
-	Class origin: org.easymock.EasyMock
-	Count: 1
- 
-	Method name: reset
-	Class origin: org.easymock.EasyMock
-	Count: 1
- 
-	Method name: times
-	Class origin: org.easymock.IExpectationSetters<java.lang.Object>
-	Count: 2
- 
-	Method name: expectLastCall
-	Class origin: org.easymock.EasyMock
-	Count: 2
- 
-	Method name: createMock
-	Class origin: org.easymock.EasyMock
-	Count: 2
- 
-	Method name: reset
-	Class origin: org.easymock.EasyMock
-	Count: 6
- 
-	Method name: replay
-	Class origin: org.easymock.EasyMock
-	Count: 6
- 
-	Method name: verify
-	Class origin: org.easymock.EasyMock
-	Count: 6
- 
-	Method name: createMock
-	Class origin: org.easymock.EasyMock
-	Count: 1
- 
-	Method name: checkOrder
-	Class origin: org.easymock.EasyMock
-	Count: 1
- 
-	Method name: eq
-	Class origin: org.easymock.EasyMock
-	Count: 8
- 
-	Method name: isA
-	Class origin: org.easymock.EasyMock
-	Count: 8
- 
-	Method name: createMock
-	Class origin: org.easymock.EasyMock
-	Count: 1
- 
-	Method name: andReturn
-	Class origin: org.easymock.IExpectationSetters<java.lang.Object>
-	Count: 4
- 
-	Method name: expectLastCall
-	Class origin: org.easymock.EasyMock
-	Count: 4
- 
-	Method name: createNiceMock
-	Class origin: org.easymock.EasyMock
-	Count: 5
- 
-	Method name: reportMatcher
-	Class origin: org.easymock.EasyMock
-	Count: 5
- 
-	Method name: replay
-	Class origin: org.easymock.EasyMock
-	Count: 5
- 
-	Method name: verify
-	Class origin: org.easymock.EasyMock
-	Count: 5
- 
-	Method name: mock
-	Class origin: org.easymock.EasyMock
-	Count: 1
- 
-	Method name: andReturn
-	Class origin: org.easymock.IExpectationSetters<java.lang.Object>
-	Count: 24
- 
-	Method name: expect
-	Class origin: org.easymock.EasyMock
-	Count: 24
- 
-	Method name: createNiceControl
-	Class origin: org.easymock.EasyMock
-	Count: 1
- 
-	Method name: createMock
-	Class origin: org.easymock.IMocksControl
-	Count: 1
- 
-	Method name: reset
-	Class origin: org.easymock.IMocksControl
-	Count: 1
- 
-	Method name: andReturn
-	Class origin: org.easymock.IExpectationSetters<java.lang.Object>
-	Count: 2
- 
-	Method name: expect
-	Class origin: org.easymock.EasyMock
-	Count: 2
- 
-	Method name: createNiceControl
-	Class origin: org.easymock.EasyMock
-	Count: 1
- 
-	Method name: createMock
-	Class origin: org.easymock.IMocksControl
-	Count: 8
- 
-	Method name: expect
-	Class origin: org.easymock.EasyMock
-	Count: 11
- 
-	Method name: createNiceControl
-	Class origin: org.easymock.EasyMock
-	Count: 1
- 
-	Method name: createMock
-	Class origin: org.easymock.IMocksControl
-	Count: 1
- 
-	Method name: expect
-	Class origin: org.easymock.EasyMock
-	Count: 1
- 
-	Method name: replay
-	Class origin: org.easymock.IMocksControl
-	Count: 1
- 
-	Method name: createNiceControl
-	Class origin: org.easymock.EasyMock
-	Count: 1
- 
-	Method name: verify
-	Class origin: org.easymock.IMocksControl
-	Count: 1
- 
-	Method name: replay
-	Class origin: org.easymock.IMocksControl
-	Count: 6
- 
-	Method name: createNiceControl
-	Class origin: org.easymock.EasyMock
-	Count: 1
- 
-	Method name: createMock
-	Class origin: org.easymock.IMocksControl
-	Count: 1
- 
-	Method name: andStubReturn
-	Class origin: org.easymock.IExpectationSetters<java.lang.Integer>
-	Count: 1
- 
-	Method name: andAnswer
-	Class origin: org.easymock.IExpectationSetters<java.lang.Integer>
-	Count: 1
- 
-	Method name: expect
-	Class origin: org.easymock.EasyMock
-	Count: 1
- 
-	Method name: anyObject
-	Class origin: org.easymock.EasyMock
-	Count: 1
- 
-	Method name: anyInt
-	Class origin: org.easymock.EasyMock
-	Count: 2
- 
-	Method name: createControl
-	Class origin: org.easymock.EasyMock
-	Count: 1
- 
-	Method name: createMock
-	Class origin: org.easymock.IMocksControl
-	Count: 2
- 
-	Method name: createMock
-	Class origin: org.easymock.EasyMock
-	Count: 3
- 
-	Method name: createMock
-	Class origin: org.easymock.EasyMock
-	Count: 3
- 
-	Method name: createMock
-	Class origin: org.easymock.EasyMock
-	Count: 4
- 
-	Method name: createControl
-	Class origin: org.easymock.EasyMock
-	Count: 1
- 
-	Method name: createMock
-	Class origin: org.easymock.IMocksControl
-	Count: 1
- 
-	Method name: andReturn
-	Class origin: org.easymock.IExpectationSetters<java.lang.Object>
-	Count: 4
- 
-	Method name: expect
-	Class origin: org.easymock.EasyMock
-	Count: 4
- 
-	Method name: createNiceControl
-	Class origin: org.easymock.EasyMock
-	Count: 1
- 
-	Method name: createMock
-	Class origin: org.easymock.IMocksControl
-	Count: 3
- 
-	Method name: verify
-	Class origin: org.easymock.IMocksControl
-	Count: 1
- 
-	Method name: replay
-	Class origin: org.easymock.IMocksControl
-	Count: 21
- 
-	Method name: anyTimes
-	Class origin: org.easymock.IExpectationSetters<java.lang.Object>
-	Count: 3
- 
-	Method name: andReturn
-	Class origin: org.easymock.IExpectationSetters<java.lang.Object>
-	Count: 6
- 
-	Method name: expectLastCall
-	Class origin: org.easymock.EasyMock
-	Count: 8
- 
-	Method name: mock
-	Class origin: org.easymock.EasyMock
-	Count: 1
- 
-	Method name: andReturn
-	Class origin: org.easymock.IExpectationSetters<java.lang.Object>
-	Count: 2
- 
-	Method name: expect
-	Class origin: org.easymock.EasyMock
-	Count: 3
- 
-	Method name: anyObject
-	Class origin: org.easymock.EasyMock
-	Count: 3
- 
-	Method name: andReturn
-	Class origin: org.easymock.IExpectationSetters<java.lang.Boolean>
-	Count: 1
- 
-	Method name: createNiceControl
-	Class origin: org.easymock.EasyMock
-	Count: 1
- 
-	Method name: createMock
-	Class origin: org.easymock.IMocksControl
-	Count: 1
- 
-	Method name: verify
-	Class origin: org.easymock.IMocksControl
-	Count: 1
- 
-	Method name: times
-	Class origin: org.easymock.IExpectationSetters<java.lang.Object>
-	Count: 1
- 
-	Method name: andReturn
-	Class origin: org.easymock.IExpectationSetters<java.lang.Object>
-	Count: 1
- 
-	Method name: expectLastCall
-	Class origin: org.easymock.EasyMock
-	Count: 1
- 
-	Method name: replay
-	Class origin: org.easymock.IMocksControl
-	Count: 1
- 
-	Method name: createMock
-	Class origin: org.easymock.EasyMock
-	Count: 1
- 
-	Method name: replay
-	Class origin: org.easymock.EasyMock
-	Count: 3
- 
-	Method name: verify
-	Class origin: org.mockito.Mockito
-	Count: 4
- 
-	Method name: any
-	Class origin: org.mockito.ArgumentMatchers
-	Count: 4
- 
-	Method name: thenReturn
-	Class origin: org.mockito.stubbing.OngoingStubbing<java.lang.Class<>>
-	Count: 6
- 
-	Method name: when
-	Class origin: org.mockito.Mockito
-	Count: 8
- 
-	Method name: thenAnswer
-	Class origin: org.mockito.stubbing.OngoingStubbing<java.lang.Boolean>
-	Count: 1
- 
-	Method name: createMock
-	Class origin: org.easymock.EasyMock
-	Count: 7
- 
-	Method name: isA
-	Class origin: org.easymock.EasyMock
-	Count: 7
- 
-	Method name: expectLastCall
-	Class origin: org.easymock.EasyMock
-	Count: 7
- 
-	Method name: replay
-	Class origin: org.easymock.EasyMock
-	Count: 7
- 
-	Method name: verify
-	Class origin: org.easymock.EasyMock
-	Count: 6
- 
-	Method name: createMock
-	Class origin: org.easymock.EasyMock
-	Count: 1
- 
-	Method name: createMock
-	Class origin: org.easymock.EasyMock
-	Count: 2
- 
-	Method name: createMock
-	Class origin: org.easymock.EasyMock
-	Count: 3
- 
-	Method name: createMock
-	Class origin: org.easymock.EasyMock
-	Count: 3
- 
-	Method name: createMock
-	Class origin: org.easymock.EasyMock
-	Count: 2
- 
-	Method name: createMock
-	Class origin: org.easymock.EasyMock
-	Count: 2
- 
-	Method name: times
-	Class origin: org.easymock.IExpectationSetters<java.lang.Object>
-	Count: 1
- 
-	Method name: andReturn
-	Class origin: org.easymock.IExpectationSetters<java.lang.Object>
-	Count: 1
- 
-	Method name: expectLastCall
-	Class origin: org.easymock.EasyMock
-	Count: 1
- 
-	Method name: replay
-	Class origin: org.easymock.EasyMock
-	Count: 1
- 
-	Method name: reset
-	Class origin: org.easymock.EasyMock
-	Count: 1
- 
-	Method name: isA
-	Class origin: org.easymock.EasyMock
-	Count: 1
- 
-	Method name: expectLastCall
-	Class origin: org.easymock.EasyMock
-	Count: 1
- 
-	Method name: replay
-	Class origin: org.easymock.EasyMock
-	Count: 1
- 
-	Method name: createMock
-	Class origin: org.easymock.EasyMock
-	Count: 1
- 
-	Method name: createMock
-	Class origin: org.easymock.EasyMock
-	Count: 5
- 
-	Method name: createNiceControl
-	Class origin: org.easymock.EasyMock
-	Count: 1
- 
-	Method name: createMock
-	Class origin: org.easymock.IMocksControl
-	Count: 1
- 
-	Method name: replay
-	Class origin: org.easymock.IMocksControl
-	Count: 1
- 
-	Method name: createNiceControl
-	Class origin: org.easymock.EasyMock
-	Count: 1
- 
-	Method name: createMock
-	Class origin: org.easymock.IMocksControl
-	Count: 8
- 
-	Method name: createNiceControl
-	Class origin: org.easymock.EasyMock
-	Count: 1
- 
-	Method name: createMock
-	Class origin: org.easymock.IMocksControl
-	Count: 7
- 
-	Method name: createNiceControl
-	Class origin: org.easymock.EasyMock
-	Count: 1
- 
-	Method name: makeThreadSafe
-	Class origin: org.easymock.IMocksControl
-	Count: 1
- 
-	Method name: createMock
-	Class origin: org.easymock.IMocksControl
-	Count: 65
- 
-	Method name: expect
-	Class origin: org.easymock.EasyMock
-	Count: 85
- 
-	Method name: replay
-	Class origin: org.easymock.IMocksControl
-	Count: 10
- 
-	Method name: createNiceControl
-	Class origin: org.easymock.EasyMock
-	Count: 1
- 
-	Method name: createMock
-	Class origin: org.easymock.IMocksControl
-	Count: 1
- 
-	Method name: createMock
-	Class origin: org.easymock.EasyMock
-	Count: 1
- 
-	Method name: createNiceControl
-	Class origin: org.easymock.EasyMock
-	Count: 1
- 
-	Method name: createMock
-	Class origin: org.easymock.IMockBuilder<java.lang.Object>
-	Count: 1
- 
-	Method name: addMockedMethod
-	Class origin: org.easymock.IMockBuilder<java.lang.Object>
-	Count: 1
- 
-	Method name: createMockBuilder
-	Class origin: org.easymock.EasyMock
-	Count: 1
- 
-	Method name: createMock
-	Class origin: org.easymock.IMocksControl
-	Count: 22
- 
-	Method name: createNiceControl
-	Class origin: org.easymock.EasyMock
-	Count: 1
- 
-	Method name: createMock
-	Class origin: org.easymock.IMocksControl
-	Count: 1
- 
-	Method name: createNiceControl
-	Class origin: org.easymock.EasyMock
-	Count: 1
- 
-	Method name: createMock
-	Class origin: org.easymock.EasyMock
-	Count: 5
- 
-	Method name: createMock
-	Class origin: org.easymock.IMockBuilder<java.lang.Object>
-	Count: 1
- 
-	Method name: addMockedMethod
-	Class origin: org.easymock.IMockBuilder<java.lang.Object>
-	Count: 1
- 
-	Method name: createMockBuilder
-	Class origin: org.easymock.EasyMock
-	Count: 1
- 
-	Method name: createMock
-	Class origin: org.easymock.IMocksControl
-	Count: 11
- 
-	Method name: expectLastCall
-	Class origin: org.easymock.EasyMock
-	Count: 2
- 
-	Method name: createMock
-	Class origin: org.easymock.EasyMock
-	Count: 1
- 
-	Method name: andReturn
-	Class origin: org.easymock.IExpectationSetters<javax.xml.namespace.QName>
-	Count: 3
- 
-	Method name: expect
-	Class origin: org.easymock.EasyMock
-	Count: 5
- 
-	Method name: replay
-	Class origin: org.easymock.EasyMock
-	Count: 5
- 
-	Method name: createNiceControl
-	Class origin: org.easymock.EasyMock
-	Count: 1
- 
-	Method name: reset
-	Class origin: org.easymock.IMocksControl
-	Count: 1
- 
-	Method name: createMock
-	Class origin: org.easymock.IMocksControl
-	Count: 1
- 
-	Method name: anyTimes
-	Class origin: org.easymock.IExpectationSetters<java.lang.Boolean>
-	Count: 1
- 
-	Method name: andReturn
-	Class origin: org.easymock.IExpectationSetters<java.lang.Boolean>
-	Count: 1
- 
-	Method name: expect
-	Class origin: org.easymock.EasyMock
-	Count: 1
- 
-	Method name: anyTimes
-	Class origin: org.easymock.IExpectationSetters<java.lang.Object>
-	Count: 2
- 
-	Method name: andReturn
-	Class origin: org.easymock.IExpectationSetters<java.lang.Object>
-	Count: 2
- 
-	Method name: expectLastCall
-	Class origin: org.easymock.EasyMock
-	Count: 2
- 
-	Method name: createNiceControl
-	Class origin: org.easymock.EasyMock
-	Count: 1
- 
-	Method name: createMock
-	Class origin: org.easymock.IMocksControl
-	Count: 4
- 
-	Method name: anyTimes
-	Class origin: org.easymock.IExpectationSetters<java.lang.Object>
-	Count: 2
- 
-	Method name: andReturn
-	Class origin: org.easymock.IExpectationSetters<java.lang.Object>
-	Count: 2
- 
-	Method name: expectLastCall
-	Class origin: org.easymock.EasyMock
-	Count: 2
- 
-	Method name: createNiceControl
-	Class origin: org.easymock.EasyMock
-	Count: 1
- 
-	Method name: createMock
-	Class origin: org.easymock.IMocksControl
-	Count: 3
- 
-	Method name: createNiceControl
-	Class origin: org.easymock.EasyMock
-	Count: 1
- 
-	Method name: reset
-	Class origin: org.easymock.IMocksControl
-	Count: 1
- 
-	Method name: createMock
-	Class origin: org.easymock.IMocksControl
-	Count: 1
- 
-	Method name: anyTimes
-	Class origin: org.easymock.IExpectationSetters<java.lang.Object>
-	Count: 2
- 
-	Method name: andReturn
-	Class origin: org.easymock.IExpectationSetters<java.lang.Object>
-	Count: 2
- 
-	Method name: expectLastCall
-	Class origin: org.easymock.EasyMock
-	Count: 2
- 
-	Method name: createNiceControl
-	Class origin: org.easymock.EasyMock
-	Count: 1
- 
-	Method name: createMock
-	Class origin: org.easymock.IMocksControl
-	Count: 3
- 
-	Method name: createNiceControl
-	Class origin: org.easymock.EasyMock
-	Count: 1
- 
-	Method name: replay
-	Class origin: org.easymock.IMocksControl
-	Count: 11
- 
-	Method name: verify
-	Class origin: org.easymock.IMocksControl
-	Count: 11
- 
-	Method name: createNiceControl
-	Class origin: org.easymock.EasyMock
-	Count: 1
- 
-	Method name: verify
-	Class origin: org.easymock.IMocksControl
-	Count: 1
- 
-	Method name: replay
-	Class origin: org.easymock.IMocksControl
-	Count: 1
- 
-	Method name: createNiceControl
-	Class origin: org.easymock.EasyMock
-	Count: 1
- 
-	Method name: createMock
-	Class origin: org.easymock.IMocksControl
-	Count: 3
- 
-	Method name: andReturn
-	Class origin: org.easymock.IExpectationSetters<java.lang.String>
-	Count: 1
- 
-	Method name: expect
-	Class origin: org.easymock.EasyMock
-	Count: 6
- 
-	Method name: andReturn
-	Class origin: org.easymock.IExpectationSetters<java.lang.Boolean>
-	Count: 1
- 
-	Method name: mock
-	Class origin: org.easymock.EasyMock
-	Count: 4
- 
-	Method name: createNiceControl
-	Class origin: org.easymock.EasyMock
-	Count: 1
- 
-	Method name: createMock
-	Class origin: org.easymock.IMocksControl
-	Count: 2
- 
-	Method name: createNiceControl
-	Class origin: org.easymock.EasyMock
-	Count: 1
- 
-	Method name: createMock
-	Class origin: org.easymock.IMocksControl
-	Count: 1
- 
-	Method name: replay
-	Class origin: org.easymock.IMocksControl
-	Count: 1
- 
-	Method name: createNiceControl
-	Class origin: org.easymock.EasyMock
-	Count: 1
- 
-	Method name: createMock
-	Class origin: org.easymock.IMocksControl
-	Count: 2
- 
-	Method name: createNiceControl
-	Class origin: org.easymock.EasyMock
-	Count: 1
- 
-	Method name: createMock
-	Class origin: org.easymock.IMocksControl
-	Count: 3
- 
-	Method name: createNiceControl
-	Class origin: org.easymock.EasyMock
-	Count: 1
- 
-	Method name: createMock
-	Class origin: org.easymock.IMocksControl
-	Count: 2
- 
-	Method name: openMocks
-	Class origin: org.mockito.MockitoAnnotations
-	Count: 1
- 
-	Method name: when
-	Class origin: org.mockito.stubbing.Stubber
-	Count: 13
- 
-	Method name: doReturn
-	Class origin: org.mockito.Mockito
-	Count: 13
- 
-	Method name: openMocks
-	Class origin: org.mockito.MockitoAnnotations
-	Count: 1
- 
-	Method name: when
-	Class origin: org.mockito.stubbing.Stubber
-	Count: 13
- 
-	Method name: doReturn
-	Class origin: org.mockito.Mockito
-	Count: 13
- 
-	Method name: openMocks
-	Class origin: org.mockito.MockitoAnnotations
-	Count: 1
- 
-	Method name: openMocks
-	Class origin: org.mockito.MockitoAnnotations
-	Count: 1
- 
-	Method name: when
-	Class origin: org.mockito.stubbing.Stubber
-	Count: 6
- 
-	Method name: doReturn
-	Class origin: org.mockito.Mockito
-	Count: 6
- 
-	Method name: openMocks
-	Class origin: org.mockito.MockitoAnnotations
-	Count: 1
- 
-	Method name: when
-	Class origin: org.mockito.stubbing.Stubber
-	Count: 15
- 
-	Method name: doReturn
-	Class origin: org.mockito.Mockito
-	Count: 15
- 
-	Method name: openMocks
-	Class origin: org.mockito.MockitoAnnotations
-	Count: 1
- 
-	Method name: when
-	Class origin: org.mockito.stubbing.Stubber
-	Count: 14
- 
-	Method name: doReturn
-	Class origin: org.mockito.Mockito
-	Count: 14
- 
-	Method name: openMocks
-	Class origin: org.mockito.MockitoAnnotations
-	Count: 1
- 
-	Method name: when
-	Class origin: org.mockito.stubbing.Stubber
-	Count: 6
- 
-	Method name: doReturn
-	Class origin: org.mockito.Mockito
-	Count: 6
- 
-	Method name: openMocks
-	Class origin: org.mockito.MockitoAnnotations
-	Count: 1
- 
-	Method name: when
-	Class origin: org.mockito.stubbing.Stubber
-	Count: 4
- 
-	Method name: doReturn
-	Class origin: org.mockito.Mockito
-	Count: 4
- 
-	Method name: openMocks
-	Class origin: org.mockito.MockitoAnnotations
-	Count: 1
- 
-	Method name: when
-	Class origin: org.mockito.stubbing.Stubber
-	Count: 3
- 
-	Method name: doReturn
-	Class origin: org.mockito.Mockito
-	Count: 3
- 
-	Method name: openMocks
-	Class origin: org.mockito.MockitoAnnotations
-	Count: 1
- 
-	Method name: when
-	Class origin: org.mockito.stubbing.Stubber
-	Count: 2
- 
-	Method name: doReturn
-	Class origin: org.mockito.Mockito
-	Count: 2
- 
-	Method name: openMocks
-	Class origin: org.mockito.MockitoAnnotations
-	Count: 1
- 
-	Method name: when
-	Class origin: org.mockito.stubbing.Stubber
-	Count: 23
- 
-	Method name: doReturn
-	Class origin: org.mockito.Mockito
-	Count: 23
- 
-	Method name: mock
-	Class origin: org.easymock.EasyMock
-	Count: 1
- 
-	Method name: anyTimes
-	Class origin: org.easymock.IExpectationSetters<java.lang.Boolean>
-	Count: 1
- 
-	Method name: andReturn
-	Class origin: org.easymock.IExpectationSetters<java.lang.Boolean>
-	Count: 1
- 
-	Method name: expect
-	Class origin: org.easymock.EasyMock
-	Count: 5
- 
-	Method name: anyTimes
-	Class origin: org.easymock.IExpectationSetters<java.lang.Integer>
-	Count: 1
- 
-	Method name: andReturn
-	Class origin: org.easymock.IExpectationSetters<java.lang.Integer>
-	Count: 1
- 
-	Method name: createMock
-	Class origin: org.easymock.EasyMock
-	Count: 5
- 
-	Method name: createNiceControl
-	Class origin: org.easymock.EasyMock
-	Count: 1
- 
-	Method name: createMock
-	Class origin: org.easymock.IMocksControl
-	Count: 11
- 
-	Method name: createMock
-	Class origin: org.easymock.EasyMock
-	Count: 1
- 
-	Method name: expect
-	Class origin: org.easymock.EasyMock
-	Count: 17
- 
-	Method name: andReturn
-	Class origin: org.easymock.IExpectationSetters<java.lang.Object>
-	Count: 2
- 
-	Method name: createNiceControl
-	Class origin: org.easymock.EasyMock
-	Count: 1
- 
-	Method name: makeThreadSafe
-	Class origin: org.easymock.IMocksControl
-	Count: 1
- 
-	Method name: reset
-	Class origin: org.easymock.IMocksControl
-	Count: 1
- 
-	Method name: createMock
-	Class origin: org.easymock.IMocksControl
-	Count: 1
- 
-	Method name: anyTimes
-	Class origin: org.easymock.IExpectationSetters<java.lang.Object>
-	Count: 1
- 
-	Method name: andReturn
-	Class origin: org.easymock.IExpectationSetters<java.lang.Object>
-	Count: 1
- 
-	Method name: expectLastCall
-	Class origin: org.easymock.EasyMock
-	Count: 1
- 
-	Method name: replay
-	Class origin: org.easymock.IMocksControl
-	Count: 1
- 
-	Method name: createNiceControl
-	Class origin: org.easymock.EasyMock
-	Count: 1
- 
-	Method name: makeThreadSafe
-	Class origin: org.easymock.IMocksControl
-	Count: 1
- 
-	Method name: reset
-	Class origin: org.easymock.IMocksControl
-	Count: 1
- 
-	Method name: mock
-	Class origin: org.easymock.IMocksControl
-	Count: 1
- 
-	Method name: anyTimes
-	Class origin: org.easymock.IExpectationSetters<java.lang.Boolean>
-	Count: 1
- 
-	Method name: andReturn
-	Class origin: org.easymock.IExpectationSetters<java.lang.Boolean>
-	Count: 1
- 
-	Method name: expect
-	Class origin: org.easymock.EasyMock
-	Count: 5
- 
-	Method name: anyTimes
-	Class origin: org.easymock.IExpectationSetters<java.lang.Object>
-	Count: 1
- 
-	Method name: andReturn
-	Class origin: org.easymock.IExpectationSetters<java.lang.Object>
-	Count: 1
- 
-	Method name: mock
-	Class origin: org.easymock.EasyMock
-	Count: 1
- 
-	Method name: expect
-	Class origin: org.easymock.EasyMock
-	Count: 5
- 
-	Method name: andReturn
-	Class origin: org.easymock.IExpectationSetters<java.lang.Object>
-	Count: 2
- 
-	Method name: createMock
-	Class origin: org.easymock.EasyMock
-	Count: 1
- 
-	Method name: andReturn
-	Class origin: org.easymock.IExpectationSetters<java.lang.Object>
-	Count: 1
- 
-	Method name: expect
-	Class origin: org.easymock.EasyMock
-	Count: 1
- 
-	Method name: replay
-	Class origin: org.easymock.EasyMock
-	Count: 1
- 
-	Method name: createMock
-	Class origin: org.easymock.EasyMock
-	Count: 1
- 
-	Method name: createMock
-	Class origin: org.easymock.EasyMock
-	Count: 1
- 
-	Method name: andReturn
-	Class origin: org.easymock.IExpectationSetters<java.lang.Object>
-	Count: 1
- 
-	Method name: expect
-	Class origin: org.easymock.EasyMock
-	Count: 1
- 
-	Method name: replay
-	Class origin: org.easymock.EasyMock
-	Count: 1
- 
-	Method name: mock
-	Class origin: org.easymock.EasyMock
-	Count: 1
- 
-	Method name: expect
-	Class origin: org.easymock.EasyMock
-	Count: 5
- 
-	Method name: andReturn
-	Class origin: org.easymock.IExpectationSetters<java.lang.Object>
-	Count: 2
- 
-	Method name: mock
-	Class origin: org.easymock.EasyMock
-	Count: 1
- 
-	Method name: expect
-	Class origin: org.easymock.EasyMock
-	Count: 5
- 
-	Method name: andReturn
-	Class origin: org.easymock.IExpectationSetters<java.lang.Object>
-	Count: 2
- 
-	Method name: replayAll
-	Class origin: org.easymock.EasyMockSupport
-	Count: 6
- 
-	Method name: createMock
-	Class origin: org.easymock.EasyMock
-	Count: 11
- 
-	Method name: replay
-	Class origin: org.easymock.EasyMock
-	Count: 3
- 
-	Method name: createMock
-	Class origin: org.easymock.EasyMock
-	Count: 3
- 
-	Method name: andReturn
-	Class origin: org.easymock.IExpectationSetters<java.lang.Object>
-	Count: 6
- 
-	Method name: expectLastCall
-	Class origin: org.easymock.EasyMock
-	Count: 6
- 
-	Method name: mock
-	Class origin: org.easymock.EasyMock
-	Count: 1
- 
-	Method name: expect
-	Class origin: org.easymock.EasyMock
-	Count: 5
- 
-	Method name: andReturn
-	Class origin: org.easymock.IExpectationSetters<java.lang.Object>
-	Count: 2
- 
-	Method name: createMock
-	Class origin: org.easymock.EasyMock
-	Count: 5
- 
-	Method name: createNiceControl
-	Class origin: org.easymock.EasyMock
-	Count: 1
- 
-	Method name: createMock
-	Class origin: org.easymock.IMocksControl
-	Count: 4
- 
-	Method name: createMock
-	Class origin: org.easymock.EasyMock
-	Count: 4
- 
-	Method name: createNiceControl
-	Class origin: org.easymock.EasyMock
-	Count: 2
- 
-	Method name: createMock
-	Class origin: org.easymock.IMocksControl
-	Count: 8
- 
-	Method name: createNiceControl
-	Class origin: org.easymock.EasyMock
-	Count: 5
- 
-	Method name: createMock
-	Class origin: org.easymock.IMocksControl
-	Count: 11
- 
-	Method name: anyTimes
-	Class origin: org.easymock.IExpectationSetters<java.util.List<javax.xml.ws.handler.Handler>>
-	Count: 5
- 
-	Method name: andReturn
-	Class origin: org.easymock.IExpectationSetters<java.util.List<javax.xml.ws.handler.Handler>>
-	Count: 5
- 
-	Method name: expect
-	Class origin: org.easymock.EasyMock
-	Count: 16
- 
-	Method name: createNiceControl
-	Class origin: org.easymock.EasyMock
-	Count: 1
- 
-	Method name: createMock
-	Class origin: org.easymock.IMocksControl
-	Count: 3
- 
-	Method name: createNiceControl
-	Class origin: org.easymock.EasyMock
-	Count: 1
- 
-	Method name: createMock
-	Class origin: org.easymock.IMocksControl
-	Count: 5
- 
-	Method name: anyTimes
-	Class origin: org.easymock.IExpectationSetters<java.lang.Object>
-	Count: 1
- 
-	Method name: andReturn
-	Class origin: org.easymock.IExpectationSetters<java.lang.Object>
-	Count: 1
- 
-	Method name: expectLastCall
-	Class origin: org.easymock.EasyMock
-	Count: 3
- 
-	Method name: createNiceControl
-	Class origin: org.easymock.EasyMock
-	Count: 1
- 
-	Method name: createMock
-	Class origin: org.easymock.IMocksControl
-	Count: 2
- 
-	Method name: createNiceControl
-	Class origin: org.easymock.EasyMock
-	Count: 1
- 
-	Method name: createMock
-	Class origin: org.easymock.IMocksControl
-	Count: 2
- 
-	Method name: createMock
-	Class origin: org.easymock.EasyMock
-	Count: 1
- 
-	Method name: replay
-	Class origin: org.easymock.EasyMock
-	Count: 7
- 
-	Method name: verify
-	Class origin: org.easymock.EasyMock
-	Count: 7
- 
-	Method name: createMock
-	Class origin: org.easymock.EasyMock
-	Count: 1
- 
-	Method name: andReturn
-	Class origin: org.easymock.IExpectationSetters<java.lang.Object>
-	Count: 28
- 
-	Method name: expect
-	Class origin: org.easymock.EasyMock
-	Count: 28
- 
-	Method name: replay
-	Class origin: org.easymock.EasyMock
-	Count: 7
- 
-	Method name: verify
-	Class origin: org.easymock.EasyMock
-	Count: 7
- 
-	Method name: createMock
-	Class origin: org.easymock.EasyMock
-	Count: 1
- 
-	Method name: replay
-	Class origin: org.easymock.EasyMock
-	Count: 13
- 
-	Method name: verify
-	Class origin: org.easymock.EasyMock
-	Count: 13
- 
-	Method name: createMock
-	Class origin: org.easymock.EasyMock
-	Count: 5
- 
-	Method name: expect
-	Class origin: org.easymock.EasyMock
-	Count: 16
- 
-	Method name: createMock
-	Class origin: org.easymock.EasyMock
-	Count: 9
- 
-	Method name: expect
-	Class origin: org.easymock.EasyMock
-	Count: 5
- 
-	Method name: anyTimes
-	Class origin: org.easymock.IExpectationSetters<java.lang.Object>
-	Count: 1
- 
-	Method name: andReturn
-	Class origin: org.easymock.IExpectationSetters<java.lang.Object>
-	Count: 1
- 
-	Method name: anyTimes
-	Class origin: org.easymock.IExpectationSetters<java.lang.Object>
-	Count: 6
- 
-	Method name: andReturn
-	Class origin: org.easymock.IExpectationSetters<java.lang.Object>
-	Count: 10
- 
-	Method name: expect
-	Class origin: org.easymock.EasyMock
-	Count: 27
- 
-	Method name: expect
-	Class origin: org.easymock.EasyMock
-	Count: 25
- 
-	Method name: anyTimes
-	Class origin: org.easymock.IExpectationSetters<java.lang.Object>
-	Count: 4
- 
-	Method name: andReturn
-	Class origin: org.easymock.IExpectationSetters<java.lang.Object>
-	Count: 8
- 
-	Method name: createMock
-	Class origin: org.easymock.EasyMock
-	Count: 2
- 
-	Method name: anyTimes
-	Class origin: org.easymock.IExpectationSetters<java.lang.Object>
-	Count: 8
- 
-	Method name: andReturn
-	Class origin: org.easymock.IExpectationSetters<java.lang.Object>
-	Count: 10
- 
-	Method name: expectLastCall
-	Class origin: org.easymock.EasyMock
-	Count: 10
- 
-	Method name: url
-	Class origin: okhttp3.mockwebserver.MockWebServer
-	Count: 2
- 
-	Method name: enqueue
-	Class origin: okhttp3.mockwebserver.MockWebServer
-	Count: 3
- 
-	Method name: setBody
-	Class origin: okhttp3.mockwebserver.MockResponse
-	Count: 2
- 
-	Method name: createNiceControl
-	Class origin: org.easymock.EasyMock
-	Count: 1
- 
-	Method name: createMock
-	Class origin: org.easymock.IMocksControl
-	Count: 7
- 
-	Method name: andReturn
-	Class origin: org.easymock.IExpectationSetters<java.lang.Object>
-	Count: 5
- 
-	Method name: expectLastCall
-	Class origin: org.easymock.EasyMock
-	Count: 4
- 
-	Method name: thenReturn
-	Class origin: org.mockito.stubbing.OngoingStubbing<java.io.InputStream>
-	Count: 1
- 
-	Method name: when
-	Class origin: org.mockito.Mockito
-	Count: 9
- 
-	Method name: mock
-	Class origin: org.mockito.Mockito
-	Count: 3
- 
-	Method name: thenReturn
-	Class origin: org.mockito.stubbing.OngoingStubbing<java.lang.Object>
-	Count: 1
- 
-	Method name: mock
-	Class origin: org.easymock.EasyMock
-	Count: 2
- 
-	Method name: andReturn
-	Class origin: org.easymock.IExpectationSetters<javax.ws.rs.core.Response>
-	Count: 2
- 
-	Method name: expect
-	Class origin: org.easymock.EasyMock
-	Count: 2
- 
-	Method name: anyObject
-	Class origin: org.easymock.EasyMock
-	Count: 2
- 
-	Method name: replay
-	Class origin: org.easymock.EasyMock
-	Count: 2
- 
-	Method name: verify
-	Class origin: org.easymock.EasyMock
-	Count: 2
- 
-	Method name: andReturn
-	Class origin: org.easymock.IExpectationSetters<java.lang.Boolean>
-	Count: 2
- 
-	Method name: expect
-	Class origin: org.easymock.EasyMock
-	Count: 2
- 
-	Method name: replay
-	Class origin: org.easymock.EasyMock
-	Count: 2
- 
-	Method name: verify
-	Class origin: org.easymock.EasyMock
-	Count: 2
- 
-	Method name: createMock
-	Class origin: org.easymock.EasyMock
-	Count: 4
- 
-	Method name: createMock
-	Class origin: org.easymock.EasyMock
-	Count: 1
- 
-	Method name: expect
-	Class origin: org.easymock.EasyMock
-	Count: 3
- 
-	Method name: replay
-	Class origin: org.easymock.EasyMock
-	Count: 3
- 
-	Method name: verify
-	Class origin: org.easymock.EasyMock
-	Count: 1
- 
-	Method name: createNiceControl
-	Class origin: org.easymock.EasyMock
-	Count: 1
- 
-	Method name: makeThreadSafe
-	Class origin: org.easymock.IMocksControl
-	Count: 1
- 
-	Method name: reset
-	Class origin: org.easymock.IMocksControl
-	Count: 1
- 
-	Method name: createMock
-	Class origin: org.easymock.IMocksControl
-	Count: 2
- 
-	Method name: anyTimes
-	Class origin: org.easymock.IExpectationSetters<java.lang.Object>
-	Count: 2
- 
-	Method name: andReturn
-	Class origin: org.easymock.IExpectationSetters<java.lang.Object>
-	Count: 2
- 
-	Method name: expectLastCall
-	Class origin: org.easymock.EasyMock
-	Count: 2
- 
-	Method name: createNiceControl
-	Class origin: org.easymock.EasyMock
-	Count: 1
- 
-	Method name: makeThreadSafe
-	Class origin: org.easymock.IMocksControl
-	Count: 1
- 
-	Method name: reset
-	Class origin: org.easymock.IMocksControl
-	Count: 1
- 
-	Method name: createMock
-	Class origin: org.easymock.IMocksControl
-	Count: 2
- 
-	Method name: anyTimes
-	Class origin: org.easymock.IExpectationSetters<java.lang.Object>
-	Count: 2
- 
-	Method name: andReturn
-	Class origin: org.easymock.IExpectationSetters<java.lang.Object>
-	Count: 2
- 
-	Method name: expectLastCall
-	Class origin: org.easymock.EasyMock
-	Count: 2
- 
-	Method name: mock
-	Class origin: org.mockito.Mockito
-	Count: 3
- 
-	Method name: mock
-	Class origin: org.mockito.Mockito
-	Count: 1
- 
-	Method name: thenReturn
-	Class origin: org.mockito.stubbing.OngoingStubbing<java.lang.Boolean>
-	Count: 1
- 
-	Method name: when
-	Class origin: org.mockito.Mockito
-	Count: 1
- 
-	Method name: any
-	Class origin: org.mockito.ArgumentMatchers
-	Count: 4
- 
-	Method name: createNiceControl
-	Class origin: org.easymock.EasyMock
-	Count: 1
- 
-	Method name: createMock
-	Class origin: org.easymock.IMocksControl
-	Count: 2
- 
-	Method name: expect
-	Class origin: org.easymock.EasyMock
-	Count: 4
- 
-	Method name: createNiceControl
-	Class origin: org.easymock.EasyMock
-	Count: 10
- 
-	Method name: createNiceControl
-	Class origin: org.easymock.EasyMock
-	Count: 3
- 
-	Method name: createMock
-	Class origin: org.easymock.IMocksControl
-	Count: 3
- 
-	Method name: andReturn
-	Class origin: org.easymock.IExpectationSetters<java.util.Enumeration<java.lang.String>>
-	Count: 4
- 
-	Method name: expect
-	Class origin: org.easymock.EasyMock
-	Count: 7
- 
-	Method name: createNiceControl
-	Class origin: org.easymock.EasyMock
-	Count: 1
- 
-	Method name: createMock
-	Class origin: org.easymock.IMocksControl
-	Count: 5
- 
-	Method name: expect
-	Class origin: org.easymock.EasyMock
-	Count: 10
- 
-	Method name: replay
-	Class origin: org.easymock.IMocksControl
-	Count: 4
- 
-	Method name: verify
-	Class origin: org.easymock.IMocksControl
-	Count: 4
- 
-	Method name: reset
-	Class origin: org.easymock.IMocksControl
-	Count: 1
- 
-	Method name: createMock
-	Class origin: org.easymock.EasyMock
-	Count: 4
- 
-	Method name: createMock
-	Class origin: org.easymock.EasyMock
-	Count: 1
- 
-	Method name: andReturn
-	Class origin: org.easymock.IExpectationSetters<java.lang.Object>
-	Count: 5
- 
-	Method name: expectLastCall
-	Class origin: org.easymock.EasyMock
-	Count: 5
- 
-	Method name: anyTimes
-	Class origin: org.easymock.IExpectationSetters<java.lang.Object>
-	Count: 2
- 
-	Method name: mock
-	Class origin: org.mockito.Mockito
-	Count: 3
- 
-	Method name: createMock
-	Class origin: org.easymock.EasyMock
-	Count: 6
- 
-	Method name: createNiceControl
-	Class origin: org.easymock.EasyMock
-	Count: 1
- 
-	Method name: createMock
-	Class origin: org.easymock.IMocksControl
-	Count: 2
- 
-	Method name: anyTimes
-	Class origin: org.easymock.IExpectationSetters<java.lang.Object>
-	Count: 3
- 
-	Method name: andReturn
-	Class origin: org.easymock.IExpectationSetters<java.lang.Object>
-	Count: 3
- 
-	Method name: expectLastCall
-	Class origin: org.easymock.EasyMock
-	Count: 3
- 
-	Method name: createMock
-	Class origin: org.easymock.EasyMock
-	Count: 9
- 
-	Method name: createMock
-	Class origin: org.easymock.EasyMock
-	Count: 9
- 
-	Method name: createNiceControl
-	Class origin: org.easymock.EasyMock
-	Count: 1
- 
-	Method name: createMock
-	Class origin: org.easymock.IMocksControl
-	Count: 2
- 
-	Method name: createNiceControl
-	Class origin: org.easymock.EasyMock
-	Count: 1
- 
-	Method name: createMock
-	Class origin: org.easymock.IMocksControl
-	Count: 2
- 
-	Method name: anyTimes
-	Class origin: org.easymock.IExpectationSetters<java.lang.Object>
-	Count: 3
- 
-	Method name: andReturn
-	Class origin: org.easymock.IExpectationSetters<java.lang.Object>
-	Count: 3
- 
-	Method name: expectLastCall
-	Class origin: org.easymock.EasyMock
-	Count: 3
- 
-	Method name: createMock
-	Class origin: org.easymock.EasyMock
-	Count: 9
- 
-	Method name: createMock
-	Class origin: org.easymock.EasyMock
-	Count: 3
- 
-	Method name: createMock
-	Class origin: org.easymock.EasyMock
-	Count: 3
- 
-	Method name: createNiceControl
-	Class origin: org.easymock.EasyMock
-	Count: 1
- 
-	Method name: createMock
-	Class origin: org.easymock.EasyMock
-	Count: 1
- 
-	Method name: replay
-	Class origin: org.easymock.IMocksControl
-	Count: 1
- 
-	Method name: createNiceControl
-	Class origin: org.easymock.EasyMock
-	Count: 1
- 
-	Method name: createMock
-	Class origin: org.easymock.IMocksControl
-	Count: 3
- 
-	Method name: anyTimes
-	Class origin: org.easymock.IExpectationSetters<java.util.Map<javax.xml.namespace.QName,java.lang.Object>>
-	Count: 4
- 
-	Method name: andReturn
-	Class origin: org.easymock.IExpectationSetters<java.util.Map<javax.xml.namespace.QName,java.lang.Object>>
-	Count: 4
- 
-	Method name: expect
-	Class origin: org.easymock.EasyMock
-	Count: 28
- 
-	Method name: andReturn
-	Class origin: org.easymock.IExpectationSetters<java.lang.Object>
-	Count: 6
- 
-	Method name: createNiceControl
-	Class origin: org.easymock.EasyMock
-	Count: 1
- 
-	Method name: verify
-	Class origin: org.easymock.IMocksControl
-	Count: 29
- 
-	Method name: createMock
-	Class origin: org.easymock.EasyMock
-	Count: 1
- 
-	Method name: createNiceControl
-	Class origin: org.easymock.EasyMock
-	Count: 1
- 
-	Method name: verify
-	Class origin: org.easymock.IMocksControl
-	Count: 18
- 
-	Method name: createNiceControl
-	Class origin: org.easymock.EasyMock
-	Count: 1
- 
-	Method name: verify
-	Class origin: org.easymock.IMocksControl
-	Count: 1
- 
-	Method name: createMock
-	Class origin: org.easymock.IMocksControl
-	Count: 1
- 
-	Method name: replay
-	Class origin: org.easymock.IMocksControl
-	Count: 1
- 
-	Method name: createControl
-	Class origin: org.easymock.EasyMock
-	Count: 1
- 
-	Method name: createMock
-	Class origin: org.easymock.IMocksControl
-	Count: 1
- 
-	Method name: expect
-	Class origin: org.easymock.EasyMock
-	Count: 2
- 
-	Method name: createNiceControl
-	Class origin: org.easymock.EasyMock
-	Count: 1
- 
-	Method name: createMock
-	Class origin: org.easymock.IMocksControl
-	Count: 4
- 
-	Method name: anyTimes
-	Class origin: org.easymock.IExpectationSetters<javax.xml.namespace.QName>
-	Count: 4
- 
-	Method name: andReturn
-	Class origin: org.easymock.IExpectationSetters<javax.xml.namespace.QName>
-	Count: 4
- 
-	Method name: expect
-	Class origin: org.easymock.EasyMock
-	Count: 11
- 
-	Method name: createNiceControl
-	Class origin: org.easymock.EasyMock
-	Count: 1
- 
-	Method name: createMock
-	Class origin: org.easymock.IMockBuilder<java.lang.Object>
-	Count: 1
- 
-	Method name: addMockedMethod
-	Class origin: org.easymock.IMockBuilder<java.lang.Object>
-	Count: 1
- 
-	Method name: createMockBuilder
-	Class origin: org.easymock.EasyMock
-	Count: 1
- 
-	Method name: createMock
-	Class origin: org.easymock.IMocksControl
-	Count: 3
- 
-	Method name: andReturn
-	Class origin: org.easymock.IExpectationSetters<java.lang.Object>
-	Count: 4
- 
-	Method name: expect
-	Class origin: org.easymock.EasyMock
-	Count: 7
- 
-	Method name: replay
-	Class origin: org.easymock.IMocksControl
-	Count: 3
- 
-	Method name: verify
-	Class origin: org.easymock.IMocksControl
-	Count: 3
- 
-	Method name: reset
-	Class origin: org.easymock.IMocksControl
-	Count: 2
- 
-	Method name: createNiceControl
-	Class origin: org.easymock.EasyMock
-	Count: 1
- 
-	Method name: createMock
-	Class origin: org.easymock.IMocksControl
-	Count: 1
- 
-	Method name: createNiceControl
-	Class origin: org.easymock.EasyMock
-	Count: 1
- 
-	Method name: createMock
-	Class origin: org.easymock.IMocksControl
-	Count: 6
- 
-	Method name: createNiceControl
-	Class origin: org.easymock.EasyMock
-	Count: 1
- 
-	Method name: createMock
-	Class origin: org.easymock.IMocksControl
-	Count: 57
- 
-	Method name: createNiceControl
-	Class origin: org.easymock.EasyMock
-	Count: 1
- 
-	Method name: verify
-	Class origin: org.easymock.IMocksControl
-	Count: 1
- 
-	Method name: createMock
-	Class origin: org.easymock.IMocksControl
-	Count: 3
- 
-	Method name: createNiceControl
-	Class origin: org.easymock.EasyMock
-	Count: 1
- 
-	Method name: createMock
-	Class origin: org.easymock.IMocksControl
-	Count: 12
- 
-	Method name: replay
-	Class origin: org.easymock.IMocksControl
-	Count: 6
- 
-	Method name: verify
-	Class origin: org.easymock.IMocksControl
-	Count: 6
- 
-	Method name: reset
-	Class origin: org.easymock.IMocksControl
-	Count: 5
- 
-	Method name: createNiceControl
-	Class origin: org.easymock.EasyMock
-	Count: 1
- 
-	Method name: createMock
-	Class origin: org.easymock.IMocksControl
-	Count: 17
- 
-	Method name: createNiceControl
-	Class origin: org.easymock.EasyMock
-	Count: 1
- 
-	Method name: createMock
-	Class origin: org.easymock.IMocksControl
-	Count: 12
- 
-	Method name: createMock
-	Class origin: org.easymock.IMockBuilder<java.lang.Object>
-	Count: 1
- 
-	Method name: addMockedMethod
-	Class origin: org.easymock.IMockBuilder<java.lang.Object>
-	Count: 1
- 
-	Method name: createMockBuilder
-	Class origin: org.easymock.EasyMock
-	Count: 1
- 
-	Method name: replay
-	Class origin: org.easymock.IMocksControl
-	Count: 7
- 
-	Method name: verify
-	Class origin: org.easymock.IMocksControl
-	Count: 7
- 
-	Method name: reset
-	Class origin: org.easymock.IMocksControl
-	Count: 6
- 
-	Method name: createNiceControl
-	Class origin: org.easymock.EasyMock
-	Count: 1
- 
-	Method name: createMock
-	Class origin: org.easymock.IMocksControl
-	Count: 37
- 
-	Method name: createNiceControl
-	Class origin: org.easymock.EasyMock
-	Count: 1
- 
-	Method name: createMock
-	Class origin: org.easymock.IMocksControl
-	Count: 35
- 
-	Method name: createNiceControl
-	Class origin: org.easymock.EasyMock
-	Count: 1
- 
-	Method name: replay
-	Class origin: org.easymock.IMocksControl
-	Count: 7
- 
-	Method name: reset
-	Class origin: org.easymock.IMocksControl
-	Count: 7
- 
-	Method name: createNiceControl
-	Class origin: org.easymock.EasyMock
-	Count: 1
- 
-	Method name: createMock
-	Class origin: org.easymock.IMocksControl
-	Count: 7
- 
-	Method name: createNiceControl
-	Class origin: org.easymock.EasyMock
-	Count: 1
- 
-	Method name: createMock
-	Class origin: org.easymock.IMocksControl
-	Count: 14
- 
-	Method name: createNiceControl
-	Class origin: org.easymock.EasyMock
-	Count: 1
- 
-	Method name: createMock
-	Class origin: org.easymock.IMocksControl
-	Count: 16
- 
-	Method name: createNiceControl
-	Class origin: org.easymock.EasyMock
-	Count: 1
- 
-	Method name: createMock
-	Class origin: org.easymock.IMocksControl
-	Count: 4
- 
-	Method name: andReturn
-	Class origin: org.easymock.IExpectationSetters<java.lang.String>
-	Count: 4
- 
-	Method name: expect
-	Class origin: org.easymock.EasyMock
-	Count: 5
- 
-	Method name: createNiceControl
-	Class origin: org.easymock.EasyMock
-	Count: 1
- 
-	Method name: createMock
-	Class origin: org.easymock.IMocksControl
-	Count: 8
- 
-	Method name: createNiceControl
-	Class origin: org.easymock.EasyMock
-	Count: 3
- 
-	Method name: createNiceControl
-	Class origin: org.easymock.EasyMock
-	Count: 1
- 
-	Method name: createMock
-	Class origin: org.easymock.IMocksControl
-	Count: 1
- 
-	Method name: andReturn
-	Class origin: org.easymock.IExpectationSetters<javax.xml.namespace.QName>
-	Count: 1
- 
-	Method name: expect
-	Class origin: org.easymock.EasyMock
-	Count: 2
- 
-	Method name: andReturn
-	Class origin: org.easymock.IExpectationSetters<java.lang.Short>
-	Count: 1
- 
-	Method name: createNiceControl
-	Class origin: org.easymock.EasyMock
-	Count: 1
- 
-	Method name: createMock
-	Class origin: org.easymock.IMocksControl
-	Count: 4
- 
-	Method name: createNiceControl
-	Class origin: org.easymock.EasyMock
-	Count: 1
- 
-	Method name: createMock
-	Class origin: org.easymock.IMocksControl
-	Count: 2
- 
-	Method name: createNiceControl
-	Class origin: org.easymock.EasyMock
-	Count: 1
- 
-	Method name: createMock
-	Class origin: org.easymock.IMocksControl
-	Count: 41
- 
-	Method name: verify
-	Class origin: org.easymock.IMocksControl
-	Count: 3
- 
-	Method name: replay
-	Class origin: org.easymock.IMocksControl
-	Count: 19
- 
-	Method name: expectLastCall
-	Class origin: org.easymock.EasyMock
-	Count: 20
- 
-	Method name: expect
-	Class origin: org.easymock.EasyMock
-	Count: 73
- 
-	Method name: createNiceControl
-	Class origin: org.easymock.EasyMock
-	Count: 1
- 
-	Method name: makeThreadSafe
-	Class origin: org.easymock.IMocksControl
-	Count: 1
- 
-	Method name: createMock
-	Class origin: org.easymock.IMocksControl
-	Count: 33
- 
-	Method name: replay
-	Class origin: org.easymock.IMocksControl
-	Count: 20
- 
-	Method name: andReturn
-	Class origin: org.easymock.IExpectationSetters<java.lang.String>
-	Count: 4
- 
-	Method name: expect
-	Class origin: org.easymock.EasyMock
-	Count: 42
- 
-	Method name: createNiceControl
-	Class origin: org.easymock.EasyMock
-	Count: 1
- 
-	Method name: verify
-	Class origin: org.easymock.IMocksControl
-	Count: 1
- 
-	Method name: createMock
-	Class origin: org.easymock.IMocksControl
-	Count: 4
- 
-	Method name: expect
-	Class origin: org.easymock.EasyMock
-	Count: 8
- 
-	Method name: createNiceControl
-	Class origin: org.easymock.EasyMock
-	Count: 1
- 
-	Method name: createMock
-	Class origin: org.easymock.IMocksControl
-	Count: 7
- 
-	Method name: createNiceControl
-	Class origin: org.easymock.EasyMock
-	Count: 1
- 
-	Method name: verify
-	Class origin: org.easymock.IMocksControl
-	Count: 1
- 
-	Method name: createMock
-	Class origin: org.easymock.IMocksControl
-	Count: 7
- 
-	Method name: expect
-	Class origin: org.easymock.EasyMock
-	Count: 12
- 
-	Method name: createNiceControl
-	Class origin: org.easymock.EasyMock
-	Count: 1
- 
-	Method name: verify
-	Class origin: org.easymock.IMocksControl
-	Count: 1
- 
-	Method name: replay
-	Class origin: org.easymock.IMocksControl
-	Count: 10
- 
-	Method name: expect
-	Class origin: org.easymock.EasyMock
-	Count: 89
- 
-	Method name: expectLastCall
-	Class origin: org.easymock.EasyMock
-	Count: 16
- 
-	Method name: createNiceControl
-	Class origin: org.easymock.EasyMock
-	Count: 1
- 
-	Method name: createMock
-	Class origin: org.easymock.IMocksControl
-	Count: 6
- 
-	Method name: verify
-	Class origin: org.easymock.IMocksControl
-	Count: 2
- 
-	Method name: createNiceControl
-	Class origin: org.easymock.EasyMock
-	Count: 1
- 
-	Method name: createMock
-	Class origin: org.easymock.IMocksControl
-	Count: 23
- 
-	Method name: createNiceControl
-	Class origin: org.easymock.EasyMock
-	Count: 1
- 
-	Method name: createMock
-	Class origin: org.easymock.IMockBuilder<java.lang.Object>
-	Count: 3
- 
-	Method name: addMockedMethods
-	Class origin: org.easymock.IMockBuilder<java.lang.Object>
-	Count: 3
- 
-	Method name: createMockBuilder
-	Class origin: org.easymock.EasyMock
-	Count: 3
- 
-	Method name: createMock
-	Class origin: org.easymock.IMocksControl
-	Count: 16
- 
-	Method name: anyTimes
-	Class origin: org.easymock.IExpectationSetters<java.lang.Boolean>
-	Count: 4
- 
-	Method name: andReturn
-	Class origin: org.easymock.IExpectationSetters<java.lang.Boolean>
-	Count: 4
- 
-	Method name: expect
-	Class origin: org.easymock.EasyMock
-	Count: 34
- 
-	Method name: replay
-	Class origin: org.easymock.IMocksControl
-	Count: 6
- 
-	Method name: verify
-	Class origin: org.easymock.IMocksControl
-	Count: 6
- 
-	Method name: createNiceControl
-	Class origin: org.easymock.EasyMock
-	Count: 1
- 
-	Method name: createMock
-	Class origin: org.easymock.IMocksControl
-	Count: 18
- 
-	Method name: verify
-	Class origin: org.easymock.IMocksControl
-	Count: 1
- 
-	Method name: createNiceControl
-	Class origin: org.easymock.EasyMock
-	Count: 1
- 
-	Method name: verify
-	Class origin: org.easymock.IMocksControl
-	Count: 1
- 
-	Method name: createMock
-	Class origin: org.easymock.IMocksControl
-	Count: 4
- 
-	Method name: createNiceControl
-	Class origin: org.easymock.EasyMock
-	Count: 1
- 
-	Method name: createMock
-	Class origin: org.easymock.IMocksControl
-	Count: 64
- 
-	Method name: verify
-	Class origin: org.easymock.IMocksControl
-	Count: 3
- 
-	Method name: replay
-	Class origin: org.easymock.IMocksControl
-	Count: 13
- 
-	Method name: createNiceControl
-	Class origin: org.easymock.EasyMock
-	Count: 1
- 
-	Method name: verify
-	Class origin: org.easymock.IMocksControl
-	Count: 1
- 
-	Method name: createMock
-	Class origin: org.easymock.IMocksControl
-	Count: 20
- 
-	Method name: createMock
-	Class origin: org.easymock.IMocksControl
-	Count: 1
- 
-	Method name: expect
-	Class origin: org.easymock.EasyMock
-	Count: 10
- 
-	Method name: andReturn
-	Class origin: org.easymock.IExpectationSetters<java.util.Date>
-	Count: 2
- 
-	Method name: createNiceControl
-	Class origin: org.easymock.EasyMock
-	Count: 1
- 
-	Method name: createMock
-	Class origin: org.easymock.IMocksControl
-	Count: 11
- 
-	Method name: expect
-	Class origin: org.easymock.EasyMock
-	Count: 103
- 
-	Method name: andReturn
-	Class origin: org.easymock.IExpectationSetters<java.util.Date>
-	Count: 6
- 
-	Method name: createNiceControl
-	Class origin: org.easymock.EasyMock
-	Count: 1
- 
-	Method name: createMock
-	Class origin: org.easymock.IMocksControl
-	Count: 1
- 
-	Method name: expect
-	Class origin: org.easymock.EasyMock
-	Count: 10
- 
-	Method name: andReturn
-	Class origin: org.easymock.IExpectationSetters<java.util.Date>
-	Count: 2
- 
-	Method name: createNiceControl
-	Class origin: org.easymock.EasyMock
-	Count: 1
- 
-	Method name: createMock
-	Class origin: org.easymock.IMocksControl
-	Count: 2
- 
-	Method name: expect
-	Class origin: org.easymock.EasyMock
-	Count: 5
- 
-	Method name: replay
-	Class origin: org.easymock.IMocksControl
-	Count: 3
- 
-	Method name: verify
-	Class origin: org.easymock.IMocksControl
-	Count: 3
- 
-	Method name: reset
-	Class origin: org.easymock.IMocksControl
-	Count: 2
- 
-	Method name: createNiceControl
-	Class origin: org.easymock.EasyMock
-	Count: 1
- 
-	Method name: createMock
-	Class origin: org.easymock.IMocksControl
-	Count: 8
- 
-	Method name: andReturn
-	Class origin: org.easymock.IExpectationSetters<java.lang.String>
-	Count: 2
- 
-	Method name: expect
-	Class origin: org.easymock.EasyMock
-	Count: 13
- 
-	Method name: andReturn
-	Class origin: org.easymock.IExpectationSetters<java.lang.Boolean>
-	Count: 1
- 
-	Method name: createNiceControl
-	Class origin: org.easymock.EasyMock
-	Count: 1
- 
-	Method name: expect
-	Class origin: org.easymock.EasyMock
-	Count: 8
- 
-	Method name: anyObject
-	Class origin: org.easymock.EasyMock
-	Count: 1
- 
-	Method name: verify
-	Class origin: org.easymock.IMocksControl
-	Count: 1
- 
-	Method name: reset
-	Class origin: org.easymock.IMocksControl
-	Count: 1
- 
-	Method name: replay
-	Class origin: org.easymock.IMocksControl
-	Count: 3
- 
-	Method name: expectLastCall
-	Class origin: org.easymock.EasyMock
-	Count: 14
- 
-	Method name: createNiceControl
-	Class origin: org.easymock.EasyMock
-	Count: 1
- 
-	Method name: replay
-	Class origin: org.easymock.IMocksControl
-	Count: 4
- 
-	Method name: verify
-	Class origin: org.easymock.IMocksControl
-	Count: 4
- 
-	Method name: mock
-	Class origin: org.easymock.EasyMock
-	Count: 1
- 
-	Method name: anyObject
-	Class origin: org.easymock.EasyMock
-	Count: 1
- 
-	Method name: expectLastCall
-	Class origin: org.easymock.EasyMock
-	Count: 1
- 
-	Method name: andReturn
-	Class origin: org.easymock.IExpectationSetters<java.io.InputStream>
-	Count: 1
- 
-	Method name: expect
-	Class origin: org.easymock.EasyMock
-	Count: 2
- 
-	Method name: andReturn
-	Class origin: org.easymock.IExpectationSetters<java.lang.String>
-	Count: 1
- 
-	Method name: createMock
-	Class origin: org.easymock.EasyMock
-	Count: 2
- 
-	Method name: expect
-	Class origin: org.easymock.EasyMock
-	Count: 2
- 
-	Method name: isA
-	Class origin: org.easymock.EasyMock
-	Count: 2
- 
-	Method name: once
-	Class origin: org.easymock.IExpectationSetters<java.lang.Object>
-	Count: 2
- 
-	Method name: expectLastCall
-	Class origin: org.easymock.EasyMock
-	Count: 2
- 
-	Method name: replay
-	Class origin: org.easymock.EasyMock
-	Count: 2
- 
-	Method name: verify
-	Class origin: org.easymock.EasyMock
-	Count: 2
- 
-	Method name: createMock
-	Class origin: org.easymock.EasyMock
-	Count: 3
- 
-	Method name: expect
-	Class origin: org.easymock.EasyMock
-	Count: 2
- 
-	Method name: isA
-	Class origin: org.easymock.EasyMock
-	Count: 5
- 
-	Method name: once
-	Class origin: org.easymock.IExpectationSetters<java.lang.Object>
-	Count: 4
- 
-	Method name: expectLastCall
-	Class origin: org.easymock.EasyMock
-	Count: 4
- 
-	Method name: replay
-	Class origin: org.easymock.EasyMock
-	Count: 3
- 
-	Method name: verify
-	Class origin: org.easymock.EasyMock
-	Count: 3
- 
-	Method name: createNiceControl
-	Class origin: org.easymock.EasyMock
-	Count: 1
- 
-	Method name: verify
-	Class origin: org.easymock.IMocksControl
-	Count: 1
- 
-	Method name: createMock
-	Class origin: org.easymock.IMocksControl
-	Count: 12
- 
-	Method name: expect
-	Class origin: org.easymock.EasyMock
-	Count: 32
- 
-	Method name: anyTimes
-	Class origin: org.easymock.IExpectationSetters<java.lang.Integer>
-	Count: 4
- 
-	Method name: andReturn
-	Class origin: org.easymock.IExpectationSetters<java.lang.Integer>
-	Count: 4
- 
-	Method name: createNiceControl
-	Class origin: org.easymock.EasyMock
-	Count: 1
- 
-	Method name: verify
-	Class origin: org.easymock.IMocksControl
-	Count: 1
- 
-	Method name: createMock
-	Class origin: org.easymock.IMocksControl
-	Count: 2
- 
-	Method name: createNiceControl
-	Class origin: org.easymock.EasyMock
-	Count: 1
- 
-	Method name: createMock
-	Class origin: org.easymock.IMocksControl
-	Count: 4
- 
-	Method name: createNiceControl
-	Class origin: org.easymock.EasyMock
-	Count: 1
- 
-	Method name: createMock
-	Class origin: org.easymock.IMocksControl
-	Count: 4
- 
-	Method name: createMock
-	Class origin: org.easymock.EasyMock
-	Count: 1
- 
-	Method name: andReturn
-	Class origin: org.easymock.IExpectationSetters<java.security.cert.X509Certificate>
-	Count: 1
- 
-	Method name: expect
-	Class origin: org.easymock.EasyMock
-	Count: 1
- 
-	Method name: eq
-	Class origin: org.easymock.EasyMock
-	Count: 1
- 
-	Method name: replay
-	Class origin: org.easymock.EasyMock
-	Count: 1
- 
-	Method name: openMocks
-	Class origin: org.mockito.MockitoAnnotations
-	Count: 1
- 
-	Method name: when
-	Class origin: org.mockito.stubbing.Stubber
-	Count: 4
- 
-	Method name: doReturn
-	Class origin: org.mockito.Mockito
-	Count: 4
- 
-	Method name: mock
-	Class origin: org.mockito.Mockito
-	Count: 1
- 
-	Method name: mock
-	Class origin: org.mockito.Mockito
-	Count: 3
- 
-	Method name: dynamicPort
-	Class origin: com.github.tomakehurst.wiremock.core.WireMockConfiguration
-	Count: 1
- 
-	Method name: wireMockConfig
-	Class origin: com.github.tomakehurst.wiremock.core.WireMockConfiguration
-	Count: 1
- 
-	Method name: mock
-	Class origin: org.mockito.Mockito
-	Count: 3
- 
-	Method name: mock
-	Class origin: org.mockito.Mockito
-	Count: 3
- 
-	Method name: dynamicPort
-	Class origin: com.github.tomakehurst.wiremock.core.WireMockConfiguration
-	Count: 1
- 
-	Method name: options
-	Class origin: com.github.tomakehurst.wiremock.core.WireMockConfiguration
-	Count: 1
- 
-	Method name: stubFor
-	Class origin: com.github.tomakehurst.wiremock.WireMockServer
-	Count: 4
- 
-	Method name: willReturn
-	Class origin: com.github.tomakehurst.wiremock.client.MappingBuilder
-	Count: 4
- 
-	Method name: get
-	Class origin: com.github.tomakehurst.wiremock.client.WireMock
-	Count: 4
- 
-	Method name: urlEqualTo
-	Class origin: com.github.tomakehurst.wiremock.client.WireMock
-	Count: 4
- 
-	Method name: withStatus
-	Class origin: com.github.tomakehurst.wiremock.client.ResponseDefinitionBuilder
-	Count: 1
- 
-	Method name: aResponse
-	Class origin: com.github.tomakehurst.wiremock.client.WireMock
-	Count: 4
- 
-	Method name: dynamicPort
-	Class origin: com.github.tomakehurst.wiremock.core.WireMockConfiguration
-	Count: 1
- 
-	Method name: options
-	Class origin: com.github.tomakehurst.wiremock.core.WireMockConfiguration
-	Count: 1
- 
-	Method name: stubFor
-	Class origin: com.github.tomakehurst.wiremock.WireMockServer
-	Count: 4
- 
-	Method name: willReturn
-	Class origin: com.github.tomakehurst.wiremock.client.MappingBuilder
-	Count: 4
- 
-	Method name: put
-	Class origin: com.github.tomakehurst.wiremock.client.WireMock
-	Count: 2
- 
-	Method name: urlEqualTo
-	Class origin: com.github.tomakehurst.wiremock.client.WireMock
-	Count: 4
- 
-	Method name: withBody
-	Class origin: com.github.tomakehurst.wiremock.client.ResponseDefinitionBuilder
-	Count: 4
- 
-	Method name: aResponse
-	Class origin: com.github.tomakehurst.wiremock.client.WireMock
-	Count: 4
- 
-	Method name: dynamicPort
-	Class origin: com.github.tomakehurst.wiremock.core.WireMockConfiguration
-	Count: 1
- 
-	Method name: options
-	Class origin: com.github.tomakehurst.wiremock.core.WireMockConfiguration
-	Count: 1
- 
-	Method name: stubFor
-	Class origin: com.github.tomakehurst.wiremock.WireMockServer
-	Count: 4
- 
-	Method name: willReturn
-	Class origin: com.github.tomakehurst.wiremock.client.MappingBuilder
-	Count: 4
- 
-	Method name: put
-	Class origin: com.github.tomakehurst.wiremock.client.WireMock
-	Count: 2
- 
-	Method name: urlEqualTo
-	Class origin: com.github.tomakehurst.wiremock.client.WireMock
-	Count: 4
- 
-	Method name: withBody
-	Class origin: com.github.tomakehurst.wiremock.client.ResponseDefinitionBuilder
-	Count: 4
- 
-	Method name: aResponse
-	Class origin: com.github.tomakehurst.wiremock.client.WireMock
-	Count: 4
- 
+/cxf-systests-microprofile-nocdi/src/test/java/org/apache/cxf/systest/microprofile/rest/client/AsyncThreadingTest.java
+Methods Invoked: 
 	Method name: dynamicPort
 	Class origin: com.github.tomakehurst.wiremock.core.WireMockConfiguration
 	Count: 1

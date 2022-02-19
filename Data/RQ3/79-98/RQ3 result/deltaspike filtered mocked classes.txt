@@ -7,3 +7,8 @@ org.apache.deltaspike.test.testcontrol.mock.shared.SessionScopedBean
  
 Outside classes: 
  
+javax.servlet.http.HttpSession
+javax.servlet.ServletContext
+javax.servlet.ServletConfig
+javax.servlet.http.HttpServletRequest
+javax.servlet.http.HttpServletResponse

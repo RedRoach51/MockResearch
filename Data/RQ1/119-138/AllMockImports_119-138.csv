@@ -256,6 +256,12 @@ hbase,hbase\hbase-server\src\test\java\org\apache\hadoop\hbase\backup\example\Te
 hbase,hbase\hbase-server\src\test\java\org\apache\hadoop\hbase\backup\example\TestZooKeeperTableArchiveClient.java,mockito,org.mockito.invocation.InvocationOnMock
 hbase,hbase\hbase-server\src\test\java\org\apache\hadoop\hbase\backup\example\TestZooKeeperTableArchiveClient.java,mockito,org.mockito.stubbing.Answer
 hbase,hbase\hbase-server\src\test\java\org\apache\hadoop\hbase\client\HConnectionTestingUtility.java,mockito,org.mockito.Mockito
+hbase,hbase\hbase-server\src\test\java\org\apache\hadoop\hbase\client\TestFallbackToUseReplay.java,mockito,static org.mockito.ArgumentMatchers.any
+hbase,hbase\hbase-server\src\test\java\org\apache\hadoop\hbase\client\TestFallbackToUseReplay.java,mockito,static org.mockito.ArgumentMatchers.anyInt
+hbase,hbase\hbase-server\src\test\java\org\apache\hadoop\hbase\client\TestFallbackToUseReplay.java,mockito,static org.mockito.ArgumentMatchers.anyLong
+hbase,hbase\hbase-server\src\test\java\org\apache\hadoop\hbase\client\TestFallbackToUseReplay.java,mockito,static org.mockito.Mockito.doAnswer
+hbase,hbase\hbase-server\src\test\java\org\apache\hadoop\hbase\client\TestFallbackToUseReplay.java,mockito,static org.mockito.Mockito.mock
+hbase,hbase\hbase-server\src\test\java\org\apache\hadoop\hbase\client\TestFallbackToUseReplay.java,mockito,static org.mockito.Mockito.when
 hbase,hbase\hbase-server\src\test\java\org\apache\hadoop\hbase\client\TestIllegalTableDescriptor.java,mockito,static org.mockito.ArgumentMatchers.contains
 hbase,hbase\hbase-server\src\test\java\org\apache\hadoop\hbase\client\TestIllegalTableDescriptor.java,mockito,static org.mockito.Mockito.mock
 hbase,hbase\hbase-server\src\test\java\org\apache\hadoop\hbase\client\TestIllegalTableDescriptor.java,mockito,static org.mockito.Mockito.verify
@@ -329,6 +335,8 @@ hbase,hbase\hbase-server\src\test\java\org\apache\hadoop\hbase\ipc\TestSimpleRpc
 hbase,hbase\hbase-server\src\test\java\org\apache\hadoop\hbase\ipc\TestSimpleRpcScheduler.java,mockito,org.mockito.stubbing.Answer
 hbase,hbase\hbase-server\src\test\java\org\apache\hadoop\hbase\master\MockNoopMasterServices.java,mockito,static org.mockito.Mockito.mock
 hbase,hbase\hbase-server\src\test\java\org\apache\hadoop\hbase\master\TestActiveMasterManager.java,mockito,org.mockito.Mockito
+hbase,hbase\hbase-server\src\test\java\org\apache\hadoop\hbase\master\TestMasterBalancerNPE.java,mockito,org.mockito.Mockito
+hbase,hbase\hbase-server\src\test\java\org\apache\hadoop\hbase\master\TestMasterBalancerNPE.java,mockito,org.mockito.invocation.InvocationOnMock
 hbase,hbase\hbase-server\src\test\java\org\apache\hadoop\hbase\master\TestMasterCoprocessorServices.java,mockito,static org.mockito.ArgumentMatchers.any
 hbase,hbase\hbase-server\src\test\java\org\apache\hadoop\hbase\master\TestMasterCoprocessorServices.java,mockito,static org.mockito.Mockito.mock
 hbase,hbase\hbase-server\src\test\java\org\apache\hadoop\hbase\master\TestMasterCoprocessorServices.java,mockito,static org.mockito.Mockito.when
@@ -552,15 +560,9 @@ hbase,hbase\hbase-server\src\test\java\org\apache\hadoop\hbase\regionserver\Test
 hbase,hbase\hbase-server\src\test\java\org\apache\hadoop\hbase\regionserver\TestCompaction.java,mockito,org.mockito.invocation.InvocationOnMock
 hbase,hbase\hbase-server\src\test\java\org\apache\hadoop\hbase\regionserver\TestCompaction.java,mockito,org.mockito.stubbing.Answer
 hbase,hbase\hbase-server\src\test\java\org\apache\hadoop\hbase\regionserver\TestCompactionAfterBulkLoad.java,mockito,static org.mockito.ArgumentMatchers.any
-hbase,hbase\hbase-server\src\test\java\org\apache\hadoop\hbase\regionserver\TestCompactionAfterBulkLoad.java,mockito,static org.mockito.ArgumentMatchers.anyInt
-hbase,hbase\hbase-server\src\test\java\org\apache\hadoop\hbase\regionserver\TestCompactionAfterBulkLoad.java,mockito,static org.mockito.ArgumentMatchers.eq
-hbase,hbase\hbase-server\src\test\java\org\apache\hadoop\hbase\regionserver\TestCompactionAfterBulkLoad.java,mockito,static org.mockito.ArgumentMatchers.isA
 hbase,hbase\hbase-server\src\test\java\org\apache\hadoop\hbase\regionserver\TestCompactionAfterBulkLoad.java,mockito,static org.mockito.Mockito.mock
-hbase,hbase\hbase-server\src\test\java\org\apache\hadoop\hbase\regionserver\TestCompactionAfterBulkLoad.java,mockito,static org.mockito.Mockito.times
-hbase,hbase\hbase-server\src\test\java\org\apache\hadoop\hbase\regionserver\TestCompactionAfterBulkLoad.java,mockito,static org.mockito.Mockito.verify
 hbase,hbase\hbase-server\src\test\java\org\apache\hadoop\hbase\regionserver\TestCompactionAfterBulkLoad.java,mockito,static org.mockito.Mockito.when
 hbase,hbase\hbase-server\src\test\java\org\apache\hadoop\hbase\regionserver\TestCompactionAfterBulkLoad.java,mockito,static org.mockito.hamcrest.MockitoHamcrest.argThat
-hbase,hbase\hbase-server\src\test\java\org\apache\hadoop\hbase\regionserver\TestCompactionAfterBulkLoad.java,mockito,org.mockito.Mockito
 hbase,hbase\hbase-server\src\test\java\org\apache\hadoop\hbase\regionserver\TestCompactionAfterBulkLoad.java,mockito,org.mockito.invocation.InvocationOnMock
 hbase,hbase\hbase-server\src\test\java\org\apache\hadoop\hbase\regionserver\TestCompactionAfterBulkLoad.java,mockito,org.mockito.stubbing.Answer
 hbase,hbase\hbase-server\src\test\java\org\apache\hadoop\hbase\regionserver\TestCompactionArchiveConcurrentClose.java,mockito,static org.mockito.Mockito.mock
@@ -611,9 +613,12 @@ hbase,hbase\hbase-server\src\test\java\org\apache\hadoop\hbase\regionserver\Test
 hbase,hbase\hbase-server\src\test\java\org\apache\hadoop\hbase\regionserver\TestHStore.java,mockito,static org.mockito.Mockito.verify
 hbase,hbase\hbase-server\src\test\java\org\apache\hadoop\hbase\regionserver\TestHStore.java,mockito,static org.mockito.Mockito.when
 hbase,hbase\hbase-server\src\test\java\org\apache\hadoop\hbase\regionserver\TestHStore.java,mockito,org.mockito.Mockito
+hbase,hbase\hbase-server\src\test\java\org\apache\hadoop\hbase\regionserver\TestHStoreFile.java,mockito,static org.mockito.ArgumentMatchers.any
 hbase,hbase\hbase-server\src\test\java\org\apache\hadoop\hbase\regionserver\TestHStoreFile.java,mockito,static org.mockito.Mockito.mock
 hbase,hbase\hbase-server\src\test\java\org\apache\hadoop\hbase\regionserver\TestHStoreFile.java,mockito,static org.mockito.Mockito.when
 hbase,hbase\hbase-server\src\test\java\org\apache\hadoop\hbase\regionserver\TestHStoreFile.java,mockito,org.mockito.Mockito
+hbase,hbase\hbase-server\src\test\java\org\apache\hadoop\hbase\regionserver\TestInputStreamBlockDistribution.java,mockito,static org.mockito.Mockito.mock
+hbase,hbase\hbase-server\src\test\java\org\apache\hadoop\hbase\regionserver\TestInputStreamBlockDistribution.java,mockito,static org.mockito.Mockito.when
 hbase,hbase\hbase-server\src\test\java\org\apache\hadoop\hbase\regionserver\TestLogRoller.java,mockito,org.mockito.Mockito
 hbase,hbase\hbase-server\src\test\java\org\apache\hadoop\hbase\regionserver\TestMemStoreFlusher.java,mockito,static org.mockito.Mockito.doReturn
 hbase,hbase\hbase-server\src\test\java\org\apache\hadoop\hbase\regionserver\TestMemStoreFlusher.java,mockito,static org.mockito.Mockito.mock
@@ -642,6 +647,14 @@ hbase,hbase\hbase-server\src\test\java\org\apache\hadoop\hbase\regionserver\Test
 hbase,hbase\hbase-server\src\test\java\org\apache\hadoop\hbase\regionserver\TestRegionSplitRestriction.java,mockito,static org.mockito.Mockito.when
 hbase,hbase\hbase-server\src\test\java\org\apache\hadoop\hbase\regionserver\TestRegionSplitRestriction.java,mockito,org.mockito.Mock
 hbase,hbase\hbase-server\src\test\java\org\apache\hadoop\hbase\regionserver\TestRegionSplitRestriction.java,mockito,org.mockito.MockitoAnnotations
+hbase,hbase\hbase-server\src\test\java\org\apache\hadoop\hbase\regionserver\TestReplicateToReplica.java,mockito,static org.mockito.ArgumentMatchers.any
+hbase,hbase\hbase-server\src\test\java\org\apache\hadoop\hbase\regionserver\TestReplicateToReplica.java,mockito,static org.mockito.ArgumentMatchers.anyInt
+hbase,hbase\hbase-server\src\test\java\org\apache\hadoop\hbase\regionserver\TestReplicateToReplica.java,mockito,static org.mockito.ArgumentMatchers.anyList
+hbase,hbase\hbase-server\src\test\java\org\apache\hadoop\hbase\regionserver\TestReplicateToReplica.java,mockito,static org.mockito.ArgumentMatchers.anyLong
+hbase,hbase\hbase-server\src\test\java\org\apache\hadoop\hbase\regionserver\TestReplicateToReplica.java,mockito,static org.mockito.Mockito.mock
+hbase,hbase\hbase-server\src\test\java\org\apache\hadoop\hbase\regionserver\TestReplicateToReplica.java,mockito,static org.mockito.Mockito.times
+hbase,hbase\hbase-server\src\test\java\org\apache\hadoop\hbase\regionserver\TestReplicateToReplica.java,mockito,static org.mockito.Mockito.verify
+hbase,hbase\hbase-server\src\test\java\org\apache\hadoop\hbase\regionserver\TestReplicateToReplica.java,mockito,static org.mockito.Mockito.when
 hbase,hbase\hbase-server\src\test\java\org\apache\hadoop\hbase\regionserver\TestRowPrefixBloomFilter.java,mockito,static org.mockito.Mockito.mock
 hbase,hbase\hbase-server\src\test\java\org\apache\hadoop\hbase\regionserver\TestRowPrefixBloomFilter.java,mockito,static org.mockito.Mockito.when
 hbase,hbase\hbase-server\src\test\java\org\apache\hadoop\hbase\regionserver\TestServerNonceManager.java,mockito,org.mockito.Mockito
@@ -685,9 +698,6 @@ hbase,hbase\hbase-server\src\test\java\org\apache\hadoop\hbase\regionserver\comp
 hbase,hbase\hbase-server\src\test\java\org\apache\hadoop\hbase\regionserver\compactions\TestCompactor.java,mockito,org.mockito.invocation.InvocationOnMock
 hbase,hbase\hbase-server\src\test\java\org\apache\hadoop\hbase\regionserver\compactions\TestCompactor.java,mockito,org.mockito.stubbing.Answer
 hbase,hbase\hbase-server\src\test\java\org\apache\hadoop\hbase\regionserver\compactions\TestDateTieredCompactor.java,mockito,static org.mockito.ArgumentMatchers.any
-hbase,hbase\hbase-server\src\test\java\org\apache\hadoop\hbase\regionserver\compactions\TestDateTieredCompactor.java,mockito,static org.mockito.ArgumentMatchers.anyBoolean
-hbase,hbase\hbase-server\src\test\java\org\apache\hadoop\hbase\regionserver\compactions\TestDateTieredCompactor.java,mockito,static org.mockito.ArgumentMatchers.anyLong
-hbase,hbase\hbase-server\src\test\java\org\apache\hadoop\hbase\regionserver\compactions\TestDateTieredCompactor.java,mockito,static org.mockito.ArgumentMatchers.anyString
 hbase,hbase\hbase-server\src\test\java\org\apache\hadoop\hbase\regionserver\compactions\TestDateTieredCompactor.java,mockito,static org.mockito.Mockito.mock
 hbase,hbase\hbase-server\src\test\java\org\apache\hadoop\hbase\regionserver\compactions\TestDateTieredCompactor.java,mockito,static org.mockito.Mockito.when
 hbase,hbase\hbase-server\src\test\java\org\apache\hadoop\hbase\regionserver\compactions\TestStripeCompactionPolicy.java,mockito,static org.mockito.AdditionalMatchers.aryEq
@@ -695,7 +705,6 @@ hbase,hbase\hbase-server\src\test\java\org\apache\hadoop\hbase\regionserver\comp
 hbase,hbase\hbase-server\src\test\java\org\apache\hadoop\hbase\regionserver\compactions\TestStripeCompactionPolicy.java,mockito,static org.mockito.ArgumentMatchers.anyBoolean
 hbase,hbase\hbase-server\src\test\java\org\apache\hadoop\hbase\regionserver\compactions\TestStripeCompactionPolicy.java,mockito,static org.mockito.ArgumentMatchers.anyInt
 hbase,hbase\hbase-server\src\test\java\org\apache\hadoop\hbase\regionserver\compactions\TestStripeCompactionPolicy.java,mockito,static org.mockito.ArgumentMatchers.anyLong
-hbase,hbase\hbase-server\src\test\java\org\apache\hadoop\hbase\regionserver\compactions\TestStripeCompactionPolicy.java,mockito,static org.mockito.ArgumentMatchers.anyString
 hbase,hbase\hbase-server\src\test\java\org\apache\hadoop\hbase\regionserver\compactions\TestStripeCompactionPolicy.java,mockito,static org.mockito.ArgumentMatchers.argThat
 hbase,hbase\hbase-server\src\test\java\org\apache\hadoop\hbase\regionserver\compactions\TestStripeCompactionPolicy.java,mockito,static org.mockito.ArgumentMatchers.eq
 hbase,hbase\hbase-server\src\test\java\org\apache\hadoop\hbase\regionserver\compactions\TestStripeCompactionPolicy.java,mockito,static org.mockito.ArgumentMatchers.isNull
@@ -706,12 +715,29 @@ hbase,hbase\hbase-server\src\test\java\org\apache\hadoop\hbase\regionserver\comp
 hbase,hbase\hbase-server\src\test\java\org\apache\hadoop\hbase\regionserver\compactions\TestStripeCompactionPolicy.java,mockito,static org.mockito.Mockito.when
 hbase,hbase\hbase-server\src\test\java\org\apache\hadoop\hbase\regionserver\compactions\TestStripeCompactionPolicy.java,mockito,org.mockito.ArgumentMatcher
 hbase,hbase\hbase-server\src\test\java\org\apache\hadoop\hbase\regionserver\compactions\TestStripeCompactor.java,mockito,static org.mockito.ArgumentMatchers.any
-hbase,hbase\hbase-server\src\test\java\org\apache\hadoop\hbase\regionserver\compactions\TestStripeCompactor.java,mockito,static org.mockito.ArgumentMatchers.anyBoolean
-hbase,hbase\hbase-server\src\test\java\org\apache\hadoop\hbase\regionserver\compactions\TestStripeCompactor.java,mockito,static org.mockito.ArgumentMatchers.anyLong
-hbase,hbase\hbase-server\src\test\java\org\apache\hadoop\hbase\regionserver\compactions\TestStripeCompactor.java,mockito,static org.mockito.ArgumentMatchers.anyString
 hbase,hbase\hbase-server\src\test\java\org\apache\hadoop\hbase\regionserver\compactions\TestStripeCompactor.java,mockito,static org.mockito.Mockito.mock
 hbase,hbase\hbase-server\src\test\java\org\apache\hadoop\hbase\regionserver\compactions\TestStripeCompactor.java,mockito,static org.mockito.Mockito.when
 hbase,hbase\hbase-server\src\test\java\org\apache\hadoop\hbase\regionserver\http\TestRSStatusServlet.java,mockito,org.mockito.Mockito
+hbase,hbase\hbase-server\src\test\java\org\apache\hadoop\hbase\regionserver\regionreplication\TestRegionReplicationBufferManager.java,mockito,static org.mockito.ArgumentMatchers.any
+hbase,hbase\hbase-server\src\test\java\org\apache\hadoop\hbase\regionserver\regionreplication\TestRegionReplicationBufferManager.java,mockito,static org.mockito.ArgumentMatchers.anyBoolean
+hbase,hbase\hbase-server\src\test\java\org\apache\hadoop\hbase\regionserver\regionreplication\TestRegionReplicationBufferManager.java,mockito,static org.mockito.Mockito.mock
+hbase,hbase\hbase-server\src\test\java\org\apache\hadoop\hbase\regionserver\regionreplication\TestRegionReplicationBufferManager.java,mockito,static org.mockito.Mockito.times
+hbase,hbase\hbase-server\src\test\java\org\apache\hadoop\hbase\regionserver\regionreplication\TestRegionReplicationBufferManager.java,mockito,static org.mockito.Mockito.verify
+hbase,hbase\hbase-server\src\test\java\org\apache\hadoop\hbase\regionserver\regionreplication\TestRegionReplicationBufferManager.java,mockito,static org.mockito.Mockito.when
+hbase,hbase\hbase-server\src\test\java\org\apache\hadoop\hbase\regionserver\regionreplication\TestRegionReplicationFlushRequester.java,mockito,static org.mockito.Mockito.mock
+hbase,hbase\hbase-server\src\test\java\org\apache\hadoop\hbase\regionserver\regionreplication\TestRegionReplicationFlushRequester.java,mockito,static org.mockito.Mockito.times
+hbase,hbase\hbase-server\src\test\java\org\apache\hadoop\hbase\regionserver\regionreplication\TestRegionReplicationFlushRequester.java,mockito,static org.mockito.Mockito.verify
+hbase,hbase\hbase-server\src\test\java\org\apache\hadoop\hbase\regionserver\regionreplication\TestRegionReplicationSink.java,mockito,static org.mockito.ArgumentMatchers.any
+hbase,hbase\hbase-server\src\test\java\org\apache\hadoop\hbase\regionserver\regionreplication\TestRegionReplicationSink.java,mockito,static org.mockito.ArgumentMatchers.anyInt
+hbase,hbase\hbase-server\src\test\java\org\apache\hadoop\hbase\regionserver\regionreplication\TestRegionReplicationSink.java,mockito,static org.mockito.ArgumentMatchers.anyList
+hbase,hbase\hbase-server\src\test\java\org\apache\hadoop\hbase\regionserver\regionreplication\TestRegionReplicationSink.java,mockito,static org.mockito.ArgumentMatchers.anyLong
+hbase,hbase\hbase-server\src\test\java\org\apache\hadoop\hbase\regionserver\regionreplication\TestRegionReplicationSink.java,mockito,static org.mockito.Mockito.mock
+hbase,hbase\hbase-server\src\test\java\org\apache\hadoop\hbase\regionserver\regionreplication\TestRegionReplicationSink.java,mockito,static org.mockito.Mockito.never
+hbase,hbase\hbase-server\src\test\java\org\apache\hadoop\hbase\regionserver\regionreplication\TestRegionReplicationSink.java,mockito,static org.mockito.Mockito.times
+hbase,hbase\hbase-server\src\test\java\org\apache\hadoop\hbase\regionserver\regionreplication\TestRegionReplicationSink.java,mockito,static org.mockito.Mockito.verify
+hbase,hbase\hbase-server\src\test\java\org\apache\hadoop\hbase\regionserver\regionreplication\TestRegionReplicationSink.java,mockito,static org.mockito.Mockito.when
+hbase,hbase\hbase-server\src\test\java\org\apache\hadoop\hbase\regionserver\storefiletracker\TestStoreFileListFile.java,mockito,static org.mockito.Mockito.mock
+hbase,hbase\hbase-server\src\test\java\org\apache\hadoop\hbase\regionserver\storefiletracker\TestStoreFileListFile.java,mockito,static org.mockito.Mockito.when
 hbase,hbase\hbase-server\src\test\java\org\apache\hadoop\hbase\regionserver\throttle\TestStoreHotnessProtector.java,mockito,static org.mockito.Mockito.mock
 hbase,hbase\hbase-server\src\test\java\org\apache\hadoop\hbase\regionserver\throttle\TestStoreHotnessProtector.java,mockito,static org.mockito.Mockito.when
 hbase,hbase\hbase-server\src\test\java\org\apache\hadoop\hbase\regionserver\wal\AbstractTestFSWAL.java,mockito,static org.mockito.Mockito.mock
@@ -752,12 +778,6 @@ hbase,hbase\hbase-server\src\test\java\org\apache\hadoop\hbase\replication\regio
 hbase,hbase\hbase-server\src\test\java\org\apache\hadoop\hbase\replication\regionserver\TestDumpReplicationQueues.java,mockito,static org.mockito.Mockito.when
 hbase,hbase\hbase-server\src\test\java\org\apache\hadoop\hbase\replication\regionserver\TestHBaseInterClusterReplicationEndpointFilterEdits.java,mockito,static org.mockito.Mockito.mock
 hbase,hbase\hbase-server\src\test\java\org\apache\hadoop\hbase\replication\regionserver\TestHBaseInterClusterReplicationEndpointFilterEdits.java,mockito,static org.mockito.Mockito.when
-hbase,hbase\hbase-server\src\test\java\org\apache\hadoop\hbase\replication\regionserver\TestRegionReplicaReplicationEndpoint.java,mockito,static org.mockito.ArgumentMatchers.eq
-hbase,hbase\hbase-server\src\test\java\org\apache\hadoop\hbase\replication\regionserver\TestRegionReplicaReplicationEndpoint.java,mockito,static org.mockito.Mockito.mock
-hbase,hbase\hbase-server\src\test\java\org\apache\hadoop\hbase\replication\regionserver\TestRegionReplicaReplicationEndpoint.java,mockito,static org.mockito.Mockito.times
-hbase,hbase\hbase-server\src\test\java\org\apache\hadoop\hbase\replication\regionserver\TestRegionReplicaReplicationEndpoint.java,mockito,static org.mockito.Mockito.verify
-hbase,hbase\hbase-server\src\test\java\org\apache\hadoop\hbase\replication\regionserver\TestRegionReplicaReplicationEndpointNoMaster.java,mockito,static org.mockito.Mockito.mock
-hbase,hbase\hbase-server\src\test\java\org\apache\hadoop\hbase\replication\regionserver\TestRegionReplicaReplicationEndpointNoMaster.java,mockito,static org.mockito.Mockito.when
 hbase,hbase\hbase-server\src\test\java\org\apache\hadoop\hbase\replication\regionserver\TestReplicationSource.java,mockito,static org.mockito.Mockito.doNothing
 hbase,hbase\hbase-server\src\test\java\org\apache\hadoop\hbase\replication\regionserver\TestReplicationSource.java,mockito,static org.mockito.Mockito.mock
 hbase,hbase\hbase-server\src\test\java\org\apache\hadoop\hbase\replication\regionserver\TestReplicationSource.java,mockito,static org.mockito.Mockito.when
@@ -806,15 +826,12 @@ hbase,hbase\hbase-server\src\test\java\org\apache\hadoop\hbase\tool\TestCanaryTo
 hbase,hbase\hbase-server\src\test\java\org\apache\hadoop\hbase\tool\coprocessor\CoprocessorValidatorTest.java,mockito,static org.mockito.Mockito.doReturn
 hbase,hbase\hbase-server\src\test\java\org\apache\hadoop\hbase\tool\coprocessor\CoprocessorValidatorTest.java,mockito,static org.mockito.Mockito.mock
 hbase,hbase\hbase-server\src\test\java\org\apache\hadoop\hbase\util\compaction\TestMajorCompactionRequest.java,mockito,static org.mockito.ArgumentMatchers.any
-hbase,hbase\hbase-server\src\test\java\org\apache\hadoop\hbase\util\compaction\TestMajorCompactionRequest.java,mockito,static org.mockito.ArgumentMatchers.eq
 hbase,hbase\hbase-server\src\test\java\org\apache\hadoop\hbase\util\compaction\TestMajorCompactionRequest.java,mockito,static org.mockito.ArgumentMatchers.isA
 hbase,hbase\hbase-server\src\test\java\org\apache\hadoop\hbase\util\compaction\TestMajorCompactionRequest.java,mockito,static org.mockito.Matchers.anyString
 hbase,hbase\hbase-server\src\test\java\org\apache\hadoop\hbase\util\compaction\TestMajorCompactionRequest.java,mockito,static org.mockito.Mockito.doReturn
 hbase,hbase\hbase-server\src\test\java\org\apache\hadoop\hbase\util\compaction\TestMajorCompactionRequest.java,mockito,static org.mockito.Mockito.mock
 hbase,hbase\hbase-server\src\test\java\org\apache\hadoop\hbase\util\compaction\TestMajorCompactionRequest.java,mockito,static org.mockito.Mockito.spy
 hbase,hbase\hbase-server\src\test\java\org\apache\hadoop\hbase\util\compaction\TestMajorCompactionRequest.java,mockito,static org.mockito.Mockito.when
-hbase,hbase\hbase-server\src\test\java\org\apache\hadoop\hbase\util\compaction\TestMajorCompactionTTLRequest.java,mockito,static org.mockito.Matchers.eq
-hbase,hbase\hbase-server\src\test\java\org\apache\hadoop\hbase\util\compaction\TestMajorCompactionTTLRequest.java,mockito,static org.mockito.Matchers.isA
 hbase,hbase\hbase-server\src\test\java\org\apache\hadoop\hbase\util\compaction\TestMajorCompactionTTLRequest.java,mockito,static org.mockito.Mockito.doReturn
 hbase,hbase\hbase-server\src\test\java\org\apache\hadoop\hbase\util\compaction\TestMajorCompactionTTLRequest.java,mockito,static org.mockito.Mockito.mock
 hbase,hbase\hbase-server\src\test\java\org\apache\hadoop\hbase\util\compaction\TestMajorCompactionTTLRequest.java,mockito,static org.mockito.Mockito.spy
@@ -937,6 +954,18 @@ helix,helix\helix-rest\src\test\java\org\apache\helix\rest\client\TestCustomRest
 helix,helix\helix-rest\src\test\java\org\apache\helix\rest\client\TestCustomRestClient.java,mockito,static org.mockito.Matchers.any
 helix,helix\helix-rest\src\test\java\org\apache\helix\rest\client\TestCustomRestClient.java,mockito,static org.mockito.Mockito.mock
 helix,helix\helix-rest\src\test\java\org\apache\helix\rest\client\TestCustomRestClient.java,mockito,static org.mockito.Mockito.when
+helix,helix\helix-rest\src\test\java\org\apache\helix\rest\clusterMaintenanceService\TestMaintenanceManagementService.java,mockito,org.mockito.Mock
+helix,helix\helix-rest\src\test\java\org\apache\helix\rest\clusterMaintenanceService\TestMaintenanceManagementService.java,mockito,org.mockito.MockitoAnnotations
+helix,helix\helix-rest\src\test\java\org\apache\helix\rest\clusterMaintenanceService\TestMaintenanceManagementService.java,mockito,static org.mockito.ArgumentMatchers.nullable
+helix,helix\helix-rest\src\test\java\org\apache\helix\rest\clusterMaintenanceService\TestMaintenanceManagementService.java,mockito,static org.mockito.Matchers.any
+helix,helix\helix-rest\src\test\java\org\apache\helix\rest\clusterMaintenanceService\TestMaintenanceManagementService.java,mockito,static org.mockito.Matchers.anyList
+helix,helix\helix-rest\src\test\java\org\apache\helix\rest\clusterMaintenanceService\TestMaintenanceManagementService.java,mockito,static org.mockito.Matchers.anyMap
+helix,helix\helix-rest\src\test\java\org\apache\helix\rest\clusterMaintenanceService\TestMaintenanceManagementService.java,mockito,static org.mockito.Matchers.anyString
+helix,helix\helix-rest\src\test\java\org\apache\helix\rest\clusterMaintenanceService\TestMaintenanceManagementService.java,mockito,static org.mockito.Mockito.mock
+helix,helix\helix-rest\src\test\java\org\apache\helix\rest\clusterMaintenanceService\TestMaintenanceManagementService.java,mockito,static org.mockito.Mockito.times
+helix,helix\helix-rest\src\test\java\org\apache\helix\rest\clusterMaintenanceService\TestMaintenanceManagementService.java,mockito,static org.mockito.Mockito.verify
+helix,helix\helix-rest\src\test\java\org\apache\helix\rest\clusterMaintenanceService\TestMaintenanceManagementService.java,mockito,static org.mockito.Mockito.verifyZeroInteractions
+helix,helix\helix-rest\src\test\java\org\apache\helix\rest\clusterMaintenanceService\TestMaintenanceManagementService.java,mockito,static org.mockito.Mockito.when
 helix,helix\helix-rest\src\test\java\org\apache\helix\rest\common\TestHelixDataAccessorWrapper.java,mockito,static org.mockito.Matchers.any
 helix,helix\helix-rest\src\test\java\org\apache\helix\rest\common\TestHelixDataAccessorWrapper.java,mockito,static org.mockito.Matchers.anyBoolean
 helix,helix\helix-rest\src\test\java\org\apache\helix\rest\common\TestHelixDataAccessorWrapper.java,mockito,static org.mockito.Matchers.anyList
@@ -953,18 +982,6 @@ helix,helix\helix-rest\src\test\java\org\apache\helix\rest\server\service\TestCl
 helix,helix\helix-rest\src\test\java\org\apache\helix\rest\server\service\TestClusterService.java,mockito,static org.mockito.Mockito.any
 helix,helix\helix-rest\src\test\java\org\apache\helix\rest\server\service\TestClusterService.java,mockito,static org.mockito.Mockito.mock
 helix,helix\helix-rest\src\test\java\org\apache\helix\rest\server\service\TestClusterService.java,mockito,static org.mockito.Mockito.when
-helix,helix\helix-rest\src\test\java\org\apache\helix\rest\server\service\TestInstanceService.java,mockito,org.mockito.Mock
-helix,helix\helix-rest\src\test\java\org\apache\helix\rest\server\service\TestInstanceService.java,mockito,org.mockito.MockitoAnnotations
-helix,helix\helix-rest\src\test\java\org\apache\helix\rest\server\service\TestInstanceService.java,mockito,static org.mockito.ArgumentMatchers.nullable
-helix,helix\helix-rest\src\test\java\org\apache\helix\rest\server\service\TestInstanceService.java,mockito,static org.mockito.Matchers.any
-helix,helix\helix-rest\src\test\java\org\apache\helix\rest\server\service\TestInstanceService.java,mockito,static org.mockito.Matchers.anyList
-helix,helix\helix-rest\src\test\java\org\apache\helix\rest\server\service\TestInstanceService.java,mockito,static org.mockito.Matchers.anyMap
-helix,helix\helix-rest\src\test\java\org\apache\helix\rest\server\service\TestInstanceService.java,mockito,static org.mockito.Matchers.anyString
-helix,helix\helix-rest\src\test\java\org\apache\helix\rest\server\service\TestInstanceService.java,mockito,static org.mockito.Mockito.mock
-helix,helix\helix-rest\src\test\java\org\apache\helix\rest\server\service\TestInstanceService.java,mockito,static org.mockito.Mockito.times
-helix,helix\helix-rest\src\test\java\org\apache\helix\rest\server\service\TestInstanceService.java,mockito,static org.mockito.Mockito.verify
-helix,helix\helix-rest\src\test\java\org\apache\helix\rest\server\service\TestInstanceService.java,mockito,static org.mockito.Mockito.verifyZeroInteractions
-helix,helix\helix-rest\src\test\java\org\apache\helix\rest\server\service\TestInstanceService.java,mockito,static org.mockito.Mockito.when
 helix,helix\helix-rest\src\test\java\org\apache\helix\rest\server\util\TestInstanceValidationUtilInRest.java,mockito,static org.mockito.Mockito.mock
 helix,helix\helix-rest\src\test\java\org\apache\helix\rest\server\util\TestInstanceValidationUtilInRest.java,mockito,static org.mockito.Mockito.when
 helix,helix\zookeeper-api\src\test\java\org\apache\helix\zookeeper\zkclient\TestZkConnection.java,mockito,static org.mockito.Matchers.anyBoolean
@@ -1091,8 +1108,17 @@ hive,hive\itests\hive-unit\src\test\java\org\apache\hadoop\hive\ql\security\auth
 hive,hive\itests\hive-unit\src\test\java\org\apache\hadoop\hive\ql\security\authorization\plugin\TestHiveAuthorizerCheckInvocation.java,mockito,org.mockito.stubbing.Answer
 hive,hive\itests\hive-unit\src\test\java\org\apache\hadoop\hive\ql\security\authorization\plugin\TestHiveAuthorizerShowFilters.java,mockito,static org.mockito.ArgumentMatchers.any
 hive,hive\itests\hive-unit\src\test\java\org\apache\hadoop\hive\ql\security\authorization\plugin\TestHiveAuthorizerShowFilters.java,mockito,org.mockito.Mockito
-hive,hive\itests\hive-unit\src\test\java\org\apache\hadoop\hive\ql\txn\compactor\TestCrudCompactorOnTez.java,mockito,static org.mockito.Mockito.doAnswer
-hive,hive\itests\hive-unit\src\test\java\org\apache\hadoop\hive\ql\txn\compactor\TestCrudCompactorOnTez.java,mockito,static org.mockito.Mockito.mock
+hive,hive\itests\hive-unit\src\test\java\org\apache\hadoop\hive\ql\txn\compactor\TestCompactor.java,mockito,static org.mockito.ArgumentMatchers.any
+hive,hive\itests\hive-unit\src\test\java\org\apache\hadoop\hive\ql\txn\compactor\TestCompactor.java,mockito,static org.mockito.Mockito.doAnswer
+hive,hive\itests\hive-unit\src\test\java\org\apache\hadoop\hive\ql\txn\compactor\TestCompactor.java,mockito,static org.mockito.Mockito.doThrow
+hive,hive\itests\hive-unit\src\test\java\org\apache\hadoop\hive\ql\txn\compactor\TestCompactor.java,mockito,static org.mockito.Mockito.times
+hive,hive\itests\hive-unit\src\test\java\org\apache\hadoop\hive\ql\txn\compactor\TestCompactor.java,mockito,static org.mockito.Mockito.verify
+hive,hive\itests\hive-unit\src\test\java\org\apache\hadoop\hive\ql\txn\compactor\TestCompactor.java,mockito,org.mockito.Mockito
+hive,hive\itests\hive-unit\src\test\java\org\apache\hadoop\hive\ql\txn\compactor\TestCompactor.java,mockito,org.mockito.internal.util.reflection.FieldSetter
+hive,hive\itests\hive-unit\src\test\java\org\apache\hadoop\hive\ql\txn\compactor\TestCrudCompactorOnTez.java,mockito,org.mockito.ArgumentCaptor
+hive,hive\itests\hive-unit\src\test\java\org\apache\hadoop\hive\ql\txn\compactor\TestCrudCompactorOnTez.java,mockito,org.mockito.Mockito
+hive,hive\itests\hive-unit\src\test\java\org\apache\hadoop\hive\ql\txn\compactor\TestCrudCompactorOnTez.java,mockito,org.mockito.internal.util.reflection.FieldSetter
+hive,hive\itests\hive-unit\src\test\java\org\apache\hadoop\hive\ql\txn\compactor\TestCrudCompactorOnTez.java,mockito,static org.mockito.Mockito.*
 hive,hive\itests\hive-unit\src\test\java\org\apache\hadoop\hive\serde2\TestSerdeWithFieldComments.java,mockito,static org.mockito.Mockito.mock
 hive,hive\itests\hive-unit\src\test\java\org\apache\hadoop\hive\serde2\TestSerdeWithFieldComments.java,mockito,static org.mockito.Mockito.when
 hive,hive\itests\hive-unit\src\test\java\org\apache\hive\jdbc\authorization\TestCLIAuthzSessionContext.java,mockito,org.mockito.Mockito
@@ -1352,6 +1378,8 @@ hive,hive\ql\src\test\org\apache\hadoop\hive\ql\exec\tez\TestHostAffinitySplitLo
 hive,hive\ql\src\test\org\apache\hadoop\hive\ql\exec\tez\TestHostAffinitySplitLocationProvider.java,mockito,org.mockito.Mockito
 hive,hive\ql\src\test\org\apache\hadoop\hive\ql\exec\tez\TestHostAffinitySplitLocationProvider.java,mockito,org.mockito.invocation.InvocationOnMock
 hive,hive\ql\src\test\org\apache\hadoop\hive\ql\exec\tez\TestHostAffinitySplitLocationProvider.java,mockito,org.mockito.stubbing.Answer
+hive,hive\ql\src\test\org\apache\hadoop\hive\ql\exec\tez\TestTezProcessor.java,mockito,static org.mockito.Mockito.mock
+hive,hive\ql\src\test\org\apache\hadoop\hive\ql\exec\tez\TestTezProcessor.java,mockito,static org.mockito.Mockito.when
 hive,hive\ql\src\test\org\apache\hadoop\hive\ql\exec\tez\TestTezSessionPool.java,mockito,org.mockito.Mockito
 hive,hive\ql\src\test\org\apache\hadoop\hive\ql\exec\tez\TestTezTask.java,mockito,org.mockito.Mockito
 hive,hive\ql\src\test\org\apache\hadoop\hive\ql\exec\tez\TestTezTask.java,mockito,org.mockito.invocation.InvocationOnMock
@@ -1435,6 +1463,8 @@ hive,hive\ql\src\test\org\apache\hadoop\hive\ql\io\parquet\TestDataWritableWrite
 hive,hive\ql\src\test\org\apache\hadoop\hive\ql\io\parquet\TestDataWritableWriter.java,mockito,static org.mockito.Mockito.*
 hive,hive\ql\src\test\org\apache\hadoop\hive\ql\io\parquet\TestMapredParquetInputFormat.java,mockito,static org.mockito.Mockito.mock
 hive,hive\ql\src\test\org\apache\hadoop\hive\ql\io\parquet\TestMapredParquetOutputFormat.java,mockito,static org.mockito.Mockito.mock
+hive,hive\ql\src\test\org\apache\hadoop\hive\ql\lockmgr\TestDbTxnManager2.java,mockito,org.mockito.Mockito
+hive,hive\ql\src\test\org\apache\hadoop\hive\ql\lockmgr\TestDbTxnManager2.java,mockito,org.mockito.internal.util.reflection.FieldSetter
 hive,hive\ql\src\test\org\apache\hadoop\hive\ql\lockmgr\TestDummyTxnManager.java,mockito,static org.mockito.Mockito.*
 hive,hive\ql\src\test\org\apache\hadoop\hive\ql\lockmgr\TestDummyTxnManager.java,mockito,org.mockito.ArgumentCaptor
 hive,hive\ql\src\test\org\apache\hadoop\hive\ql\lockmgr\TestDummyTxnManager.java,mockito,org.mockito.Mock
@@ -1457,6 +1487,9 @@ hive,hive\ql\src\test\org\apache\hadoop\hive\ql\optimizer\calcite\rules\TestHive
 hive,hive\ql\src\test\org\apache\hadoop\hive\ql\optimizer\calcite\rules\TestHiveReduceExpressionsWithStatsRule.java,mockito,org.mockito.Mock
 hive,hive\ql\src\test\org\apache\hadoop\hive\ql\optimizer\calcite\rules\TestHiveReduceExpressionsWithStatsRule.java,mockito,org.mockito.Mockito
 hive,hive\ql\src\test\org\apache\hadoop\hive\ql\optimizer\calcite\rules\TestHiveReduceExpressionsWithStatsRule.java,mockito,org.mockito.junit.MockitoJUnitRunner
+hive,hive\ql\src\test\org\apache\hadoop\hive\ql\optimizer\calcite\translator\TestRexNodeConverter.java,mockito,org.mockito.Mock
+hive,hive\ql\src\test\org\apache\hadoop\hive\ql\optimizer\calcite\translator\TestRexNodeConverter.java,mockito,org.mockito.junit.MockitoJUnitRunner
+hive,hive\ql\src\test\org\apache\hadoop\hive\ql\optimizer\calcite\translator\TestRexNodeConverter.java,mockito,static org.mockito.Mockito.doReturn
 hive,hive\ql\src\test\org\apache\hadoop\hive\ql\optimizer\physical\TestNullScanTaskDispatcher.java,mockito,static org.mockito.ArgumentMatchers.any
 hive,hive\ql\src\test\org\apache\hadoop\hive\ql\optimizer\physical\TestNullScanTaskDispatcher.java,mockito,static org.mockito.ArgumentMatchers.startsWith
 hive,hive\ql\src\test\org\apache\hadoop\hive\ql\optimizer\physical\TestNullScanTaskDispatcher.java,mockito,static org.mockito.Mockito.doReturn
@@ -1530,12 +1563,11 @@ hive,hive\ql\src\test\org\apache\hadoop\hive\ql\security\authorization\plugin\Te
 hive,hive\ql\src\test\org\apache\hadoop\hive\ql\session\TestAddResource.java,mockito,org.mockito.Mockito
 hive,hive\ql\src\test\org\apache\hadoop\hive\ql\stats\TestBasicStats.java,mockito,static org.mockito.Mockito.doReturn
 hive,hive\ql\src\test\org\apache\hadoop\hive\ql\stats\TestBasicStats.java,mockito,org.mockito.Mockito
-hive,hive\ql\src\test\org\apache\hadoop\hive\ql\txn\compactor\TestDeltaFilesMetrics.java,mockito,static org.mockito.Mockito.mock
-hive,hive\ql\src\test\org\apache\hadoop\hive\ql\txn\compactor\TestDeltaFilesMetrics.java,mockito,static org.mockito.Mockito.when
 hive,hive\ql\src\test\org\apache\hadoop\hive\ql\txn\compactor\TestInitiator.java,mockito,static org.mockito.ArgumentMatchers.any
 hive,hive\ql\src\test\org\apache\hadoop\hive\ql\txn\compactor\TestInitiator.java,mockito,static org.mockito.Mockito.doReturn
 hive,hive\ql\src\test\org\apache\hadoop\hive\ql\txn\compactor\TestInitiator.java,mockito,static org.mockito.Mockito.doThrow
 hive,hive\ql\src\test\org\apache\hadoop\hive\ql\txn\compactor\TestInitiator.java,mockito,org.mockito.Mockito
+hive,hive\ql\src\test\org\apache\hadoop\hive\ql\txn\compactor\TestInitiator.java,mockito,static org.mockito.Mockito.times
 hive,hive\ql\src\test\org\apache\hadoop\hive\ql\txn\compactor\TestWorker.java,mockito,org.mockito.Mockito
 hive,hive\ql\src\test\org\apache\hadoop\hive\ql\txn\compactor\TestWorker.java,mockito,static org.mockito.Mockito.doReturn
 hive,hive\ql\src\test\org\apache\hadoop\hive\ql\udf\generic\TestGenericUDAFEvaluator.java,mockito,org.mockito.Answers
@@ -2349,15 +2381,6 @@ hop,hop\plugins\transforms\setvalueconstant\src\test\java\org\apache\hop\pipelin
 hop,hop\plugins\transforms\sort\src\test\java\org\apache\hop\pipeline\transforms\sort\SortRowsMetaTest.java,mockito,org.mockito.Mockito
 hop,hop\plugins\transforms\splitfieldtorows\src\test\java\org\apache\hop\pipeline\transforms\splitfieldtorows\SplitFieldToRowsTest.java,mockito,static org.mockito.Matchers.any
 hop,hop\plugins\transforms\splitfieldtorows\src\test\java\org\apache\hop\pipeline\transforms\splitfieldtorows\SplitFieldToRowsTest.java,mockito,static org.mockito.Mockito.when
-hop,hop\plugins\transforms\sql\src\test\java\org\apache\hop\pipeline\transforms\sql\ExecSqlMetaInjectionTest.java,mockito,org.mockito.Mockito
-hop,hop\plugins\transforms\ssh\src\test\java\org\apache\hop\pipeline\transforms\ssh\SSHDataTest.java,mockito,org.mockito.Matchers
-hop,hop\plugins\transforms\ssh\src\test\java\org\apache\hop\pipeline\transforms\ssh\SSHDataTest.java,mockito,org.mockito.Mock
-hop,hop\plugins\transforms\ssh\src\test\java\org\apache\hop\pipeline\transforms\ssh\SSHDataTest.java,powermock,org.powermock.api.mockito.PowerMockito
-hop,hop\plugins\transforms\ssh\src\test\java\org\apache\hop\pipeline\transforms\ssh\SSHDataTest.java,powermock,org.powermock.core.classloader.annotations.PrepareForTest
-hop,hop\plugins\transforms\ssh\src\test\java\org\apache\hop\pipeline\transforms\ssh\SSHDataTest.java,powermock,org.powermock.modules.junit4.PowerMockRunner
-hop,hop\plugins\transforms\ssh\src\test\java\org\apache\hop\pipeline\transforms\ssh\SSHDataTest.java,mockito,static org.mockito.Matchers.*
-hop,hop\plugins\transforms\ssh\src\test\java\org\apache\hop\pipeline\transforms\ssh\SSHDataTest.java,mockito,static org.mockito.Mockito.verify
-hop,hop\plugins\transforms\ssh\src\test\java\org\apache\hop\pipeline\transforms\ssh\SSHDataTest.java,mockito,static org.mockito.Mockito.when
 hop,hop\plugins\transforms\streamlookup\src\test\java\org\apache\hop\pipeline\transforms\streamlookup\StreamLookupMetaTest.java,mockito,static org.mockito.Mockito.mock
 hop,hop\plugins\transforms\streamlookup\src\test\java\org\apache\hop\pipeline\transforms\streamlookup\StreamLookupMetaTest.java,mockito,static org.mockito.Mockito.when
 hop,hop\plugins\transforms\streamlookup\src\test\java\org\apache\hop\pipeline\transforms\streamlookup\StreamLookupTest.java,mockito,static org.mockito.Matchers.any
@@ -2450,7 +2473,7 @@ httpcomponents-client,httpcomponents-client\httpclient5-cache\src\test\java\org\
 httpcomponents-client,httpcomponents-client\httpclient5-cache\src\test\java\org\apache\hc\client5\http\impl\cache\TestAbstractSerializingAsyncCacheStorage.java,mockito,org.mockito.ArgumentMatchers
 httpcomponents-client,httpcomponents-client\httpclient5-cache\src\test\java\org\apache\hc\client5\http\impl\cache\TestAbstractSerializingAsyncCacheStorage.java,mockito,org.mockito.Mock
 httpcomponents-client,httpcomponents-client\httpclient5-cache\src\test\java\org\apache\hc\client5\http\impl\cache\TestAbstractSerializingAsyncCacheStorage.java,mockito,org.mockito.Mockito
-httpcomponents-client,httpcomponents-client\httpclient5-cache\src\test\java\org\apache\hc\client5\http\impl\cache\TestAbstractSerializingAsyncCacheStorage.java,mockito,org.mockito.junit.MockitoJUnitRunner
+httpcomponents-client,httpcomponents-client\httpclient5-cache\src\test\java\org\apache\hc\client5\http\impl\cache\TestAbstractSerializingAsyncCacheStorage.java,mockito,org.mockito.MockitoAnnotations
 httpcomponents-client,httpcomponents-client\httpclient5-cache\src\test\java\org\apache\hc\client5\http\impl\cache\TestAbstractSerializingAsyncCacheStorage.java,mockito,org.mockito.stubbing.Answer
 httpcomponents-client,httpcomponents-client\httpclient5-cache\src\test\java\org\apache\hc\client5\http\impl\cache\TestAbstractSerializingCacheStorage.java,mockito,static org.mockito.ArgumentMatchers.eq
 httpcomponents-client,httpcomponents-client\httpclient5-cache\src\test\java\org\apache\hc\client5\http\impl\cache\TestAbstractSerializingCacheStorage.java,mockito,static org.mockito.Mockito.verify
@@ -2468,7 +2491,7 @@ httpcomponents-client,httpcomponents-client\httpclient5-cache\src\test\java\org\
 httpcomponents-client,httpcomponents-client\httpclient5-cache\src\test\java\org\apache\hc\client5\http\impl\cache\TestCacheRevalidatorBase.java,mockito,static org.mockito.Mockito.when
 httpcomponents-client,httpcomponents-client\httpclient5-cache\src\test\java\org\apache\hc\client5\http\impl\cache\TestCacheRevalidatorBase.java,mockito,org.mockito.ArgumentMatchers
 httpcomponents-client,httpcomponents-client\httpclient5-cache\src\test\java\org\apache\hc\client5\http\impl\cache\TestCacheRevalidatorBase.java,mockito,org.mockito.Mock
-httpcomponents-client,httpcomponents-client\httpclient5-cache\src\test\java\org\apache\hc\client5\http\impl\cache\TestCacheRevalidatorBase.java,mockito,org.mockito.junit.MockitoJUnitRunner
+httpcomponents-client,httpcomponents-client\httpclient5-cache\src\test\java\org\apache\hc\client5\http\impl\cache\TestCacheRevalidatorBase.java,mockito,org.mockito.MockitoAnnotations
 httpcomponents-client,httpcomponents-client\httpclient5-cache\src\test\java\org\apache\hc\client5\http\impl\cache\TestCachedHttpResponseGenerator.java,mockito,static org.mockito.ArgumentMatchers.isA
 httpcomponents-client,httpcomponents-client\httpclient5-cache\src\test\java\org\apache\hc\client5\http\impl\cache\TestCachedHttpResponseGenerator.java,mockito,static org.mockito.ArgumentMatchers.same
 httpcomponents-client,httpcomponents-client\httpclient5-cache\src\test\java\org\apache\hc\client5\http\impl\cache\TestCachedHttpResponseGenerator.java,mockito,static org.mockito.Mockito.mock
@@ -2477,8 +2500,8 @@ httpcomponents-client,httpcomponents-client\httpclient5-cache\src\test\java\org\
 httpcomponents-client,httpcomponents-client\httpclient5-cache\src\test\java\org\apache\hc\client5\http\impl\cache\TestCachingExecChain.java,mockito,org.mockito.ArgumentCaptor
 httpcomponents-client,httpcomponents-client\httpclient5-cache\src\test\java\org\apache\hc\client5\http\impl\cache\TestCachingExecChain.java,mockito,org.mockito.Mock
 httpcomponents-client,httpcomponents-client\httpclient5-cache\src\test\java\org\apache\hc\client5\http\impl\cache\TestCachingExecChain.java,mockito,org.mockito.Mockito
+httpcomponents-client,httpcomponents-client\httpclient5-cache\src\test\java\org\apache\hc\client5\http\impl\cache\TestCachingExecChain.java,mockito,org.mockito.MockitoAnnotations
 httpcomponents-client,httpcomponents-client\httpclient5-cache\src\test\java\org\apache\hc\client5\http\impl\cache\TestCachingExecChain.java,mockito,org.mockito.Spy
-httpcomponents-client,httpcomponents-client\httpclient5-cache\src\test\java\org\apache\hc\client5\http\impl\cache\TestCachingExecChain.java,mockito,org.mockito.junit.MockitoJUnitRunner
 httpcomponents-client,httpcomponents-client\httpclient5-cache\src\test\java\org\apache\hc\client5\http\impl\cache\TestCombinedEntity.java,mockito,static org.mockito.Mockito.mock
 httpcomponents-client,httpcomponents-client\httpclient5-cache\src\test\java\org\apache\hc\client5\http\impl\cache\TestCombinedEntity.java,mockito,static org.mockito.Mockito.verify
 httpcomponents-client,httpcomponents-client\httpclient5-cache\src\test\java\org\apache\hc\client5\http\impl\cache\TestCombinedEntity.java,mockito,static org.mockito.Mockito.when
@@ -2488,14 +2511,14 @@ httpcomponents-client,httpcomponents-client\httpclient5-cache\src\test\java\org\
 httpcomponents-client,httpcomponents-client\httpclient5-cache\src\test\java\org\apache\hc\client5\http\impl\cache\TestDefaultAsyncCacheInvalidator.java,mockito,org.mockito.ArgumentMatchers
 httpcomponents-client,httpcomponents-client\httpclient5-cache\src\test\java\org\apache\hc\client5\http\impl\cache\TestDefaultAsyncCacheInvalidator.java,mockito,org.mockito.Mock
 httpcomponents-client,httpcomponents-client\httpclient5-cache\src\test\java\org\apache\hc\client5\http\impl\cache\TestDefaultAsyncCacheInvalidator.java,mockito,org.mockito.Mockito
-httpcomponents-client,httpcomponents-client\httpclient5-cache\src\test\java\org\apache\hc\client5\http\impl\cache\TestDefaultAsyncCacheInvalidator.java,mockito,org.mockito.junit.MockitoJUnitRunner
+httpcomponents-client,httpcomponents-client\httpclient5-cache\src\test\java\org\apache\hc\client5\http\impl\cache\TestDefaultAsyncCacheInvalidator.java,mockito,org.mockito.MockitoAnnotations
 httpcomponents-client,httpcomponents-client\httpclient5-cache\src\test\java\org\apache\hc\client5\http\impl\cache\TestDefaultAsyncCacheInvalidator.java,mockito,org.mockito.stubbing.Answer
 httpcomponents-client,httpcomponents-client\httpclient5-cache\src\test\java\org\apache\hc\client5\http\impl\cache\TestDefaultCacheInvalidator.java,mockito,static org.mockito.Mockito.verify
 httpcomponents-client,httpcomponents-client\httpclient5-cache\src\test\java\org\apache\hc\client5\http\impl\cache\TestDefaultCacheInvalidator.java,mockito,static org.mockito.Mockito.verifyNoMoreInteractions
 httpcomponents-client,httpcomponents-client\httpclient5-cache\src\test\java\org\apache\hc\client5\http\impl\cache\TestDefaultCacheInvalidator.java,mockito,static org.mockito.Mockito.when
 httpcomponents-client,httpcomponents-client\httpclient5-cache\src\test\java\org\apache\hc\client5\http\impl\cache\TestDefaultCacheInvalidator.java,mockito,org.mockito.ArgumentMatchers
 httpcomponents-client,httpcomponents-client\httpclient5-cache\src\test\java\org\apache\hc\client5\http\impl\cache\TestDefaultCacheInvalidator.java,mockito,org.mockito.Mock
-httpcomponents-client,httpcomponents-client\httpclient5-cache\src\test\java\org\apache\hc\client5\http\impl\cache\TestDefaultCacheInvalidator.java,mockito,org.mockito.junit.MockitoJUnitRunner
+httpcomponents-client,httpcomponents-client\httpclient5-cache\src\test\java\org\apache\hc\client5\http\impl\cache\TestDefaultCacheInvalidator.java,mockito,org.mockito.MockitoAnnotations
 httpcomponents-client,httpcomponents-client\httpclient5-cache\src\test\java\org\apache\hc\client5\http\impl\cache\TestDefaultCacheInvalidator.java,mockito,org.mockito.stubbing.Answer
 httpcomponents-client,httpcomponents-client\httpclient5-cache\src\test\java\org\apache\hc\client5\http\impl\cache\TestHttpByteArrayCacheEntrySerializer.java,mockito,org.mockito.Mockito
 httpcomponents-client,httpcomponents-client\httpclient5-cache\src\test\java\org\apache\hc\client5\http\impl\cache\TestHttpCacheJiraNumber1147.java,mockito,static org.mockito.ArgumentMatchers.isA
@@ -2506,21 +2529,21 @@ httpcomponents-client,httpcomponents-client\httpclient5-cache\src\test\java\org\
 httpcomponents-client,httpcomponents-client\httpclient5-cache\src\test\java\org\apache\hc\client5\http\impl\cache\TestHttpCacheJiraNumber1147.java,mockito,org.mockito.Mockito
 httpcomponents-client,httpcomponents-client\httpclient5-cache\src\test\java\org\apache\hc\client5\http\impl\cache\TestProtocolAllowedBehavior.java,mockito,org.mockito.Mock
 httpcomponents-client,httpcomponents-client\httpclient5-cache\src\test\java\org\apache\hc\client5\http\impl\cache\TestProtocolAllowedBehavior.java,mockito,org.mockito.Mockito
-httpcomponents-client,httpcomponents-client\httpclient5-cache\src\test\java\org\apache\hc\client5\http\impl\cache\TestProtocolAllowedBehavior.java,mockito,org.mockito.junit.MockitoJUnitRunner
+httpcomponents-client,httpcomponents-client\httpclient5-cache\src\test\java\org\apache\hc\client5\http\impl\cache\TestProtocolAllowedBehavior.java,mockito,org.mockito.MockitoAnnotations
 httpcomponents-client,httpcomponents-client\httpclient5-cache\src\test\java\org\apache\hc\client5\http\impl\cache\TestProtocolDeviations.java,mockito,org.mockito.Mock
 httpcomponents-client,httpcomponents-client\httpclient5-cache\src\test\java\org\apache\hc\client5\http\impl\cache\TestProtocolDeviations.java,mockito,org.mockito.Mockito
-httpcomponents-client,httpcomponents-client\httpclient5-cache\src\test\java\org\apache\hc\client5\http\impl\cache\TestProtocolDeviations.java,mockito,org.mockito.junit.MockitoJUnitRunner
+httpcomponents-client,httpcomponents-client\httpclient5-cache\src\test\java\org\apache\hc\client5\http\impl\cache\TestProtocolDeviations.java,mockito,org.mockito.MockitoAnnotations
 httpcomponents-client,httpcomponents-client\httpclient5-cache\src\test\java\org\apache\hc\client5\http\impl\cache\TestProtocolRecommendations.java,mockito,org.mockito.ArgumentCaptor
 httpcomponents-client,httpcomponents-client\httpclient5-cache\src\test\java\org\apache\hc\client5\http\impl\cache\TestProtocolRecommendations.java,mockito,org.mockito.Mock
 httpcomponents-client,httpcomponents-client\httpclient5-cache\src\test\java\org\apache\hc\client5\http\impl\cache\TestProtocolRecommendations.java,mockito,org.mockito.Mockito
-httpcomponents-client,httpcomponents-client\httpclient5-cache\src\test\java\org\apache\hc\client5\http\impl\cache\TestProtocolRecommendations.java,mockito,org.mockito.junit.MockitoJUnitRunner
+httpcomponents-client,httpcomponents-client\httpclient5-cache\src\test\java\org\apache\hc\client5\http\impl\cache\TestProtocolRecommendations.java,mockito,org.mockito.MockitoAnnotations
 httpcomponents-client,httpcomponents-client\httpclient5-cache\src\test\java\org\apache\hc\client5\http\impl\cache\TestProtocolRequirements.java,mockito,org.mockito.ArgumentCaptor
 httpcomponents-client,httpcomponents-client\httpclient5-cache\src\test\java\org\apache\hc\client5\http\impl\cache\TestProtocolRequirements.java,mockito,org.mockito.Mock
 httpcomponents-client,httpcomponents-client\httpclient5-cache\src\test\java\org\apache\hc\client5\http\impl\cache\TestProtocolRequirements.java,mockito,org.mockito.Mockito
-httpcomponents-client,httpcomponents-client\httpclient5-cache\src\test\java\org\apache\hc\client5\http\impl\cache\TestProtocolRequirements.java,mockito,org.mockito.junit.MockitoJUnitRunner
+httpcomponents-client,httpcomponents-client\httpclient5-cache\src\test\java\org\apache\hc\client5\http\impl\cache\TestProtocolRequirements.java,mockito,org.mockito.MockitoAnnotations
 httpcomponents-client,httpcomponents-client\httpclient5-cache\src\test\java\org\apache\hc\client5\http\impl\cache\TestRFC5861Compliance.java,mockito,org.mockito.Mock
 httpcomponents-client,httpcomponents-client\httpclient5-cache\src\test\java\org\apache\hc\client5\http\impl\cache\TestRFC5861Compliance.java,mockito,org.mockito.Mockito
-httpcomponents-client,httpcomponents-client\httpclient5-cache\src\test\java\org\apache\hc\client5\http\impl\cache\TestRFC5861Compliance.java,mockito,org.mockito.junit.MockitoJUnitRunner
+httpcomponents-client,httpcomponents-client\httpclient5-cache\src\test\java\org\apache\hc\client5\http\impl\cache\TestRFC5861Compliance.java,mockito,org.mockito.MockitoAnnotations
 httpcomponents-client,httpcomponents-client\httpclient5-testing\src\test\java\org\apache\hc\client5\testing\async\AbstractHttpAsyncClientAuthentication.java,mockito,org.mockito.Mockito
 httpcomponents-client,httpcomponents-client\httpclient5-testing\src\test\java\org\apache\hc\client5\testing\async\TestHttp1ClientAuthentication.java,mockito,org.mockito.Mockito
 httpcomponents-client,httpcomponents-client\httpclient5-testing\src\test\java\org\apache\hc\client5\testing\sync\TestClientAuthentication.java,mockito,org.mockito.Mockito
@@ -2541,67 +2564,70 @@ httpcomponents-client,httpcomponents-client\httpclient5\src\test\java\org\apache
 httpcomponents-client,httpcomponents-client\httpclient5\src\test\java\org\apache\hc\client5\http\impl\classic\TestConnectExec.java,mockito,org.mockito.ArgumentCaptor
 httpcomponents-client,httpcomponents-client\httpclient5\src\test\java\org\apache\hc\client5\http\impl\classic\TestConnectExec.java,mockito,org.mockito.Mock
 httpcomponents-client,httpcomponents-client\httpclient5\src\test\java\org\apache\hc\client5\http\impl\classic\TestConnectExec.java,mockito,org.mockito.Mockito
-httpcomponents-client,httpcomponents-client\httpclient5\src\test\java\org\apache\hc\client5\http\impl\classic\TestConnectExec.java,mockito,org.mockito.junit.MockitoJUnitRunner
+httpcomponents-client,httpcomponents-client\httpclient5\src\test\java\org\apache\hc\client5\http\impl\classic\TestConnectExec.java,mockito,org.mockito.MockitoAnnotations
 httpcomponents-client,httpcomponents-client\httpclient5\src\test\java\org\apache\hc\client5\http\impl\classic\TestConnectExec.java,mockito,org.mockito.stubbing.Answer
 httpcomponents-client,httpcomponents-client\httpclient5\src\test\java\org\apache\hc\client5\http\impl\classic\TestContentCompressionExec.java,mockito,org.mockito.Mock
 httpcomponents-client,httpcomponents-client\httpclient5\src\test\java\org\apache\hc\client5\http\impl\classic\TestContentCompressionExec.java,mockito,org.mockito.Mockito
-httpcomponents-client,httpcomponents-client\httpclient5\src\test\java\org\apache\hc\client5\http\impl\classic\TestContentCompressionExec.java,mockito,org.mockito.junit.MockitoJUnitRunner
+httpcomponents-client,httpcomponents-client\httpclient5\src\test\java\org\apache\hc\client5\http\impl\classic\TestContentCompressionExec.java,mockito,org.mockito.MockitoAnnotations
 httpcomponents-client,httpcomponents-client\httpclient5\src\test\java\org\apache\hc\client5\http\impl\classic\TestHttpRequestRetryExec.java,mockito,org.mockito.Mock
 httpcomponents-client,httpcomponents-client\httpclient5\src\test\java\org\apache\hc\client5\http\impl\classic\TestHttpRequestRetryExec.java,mockito,org.mockito.Mockito
-httpcomponents-client,httpcomponents-client\httpclient5\src\test\java\org\apache\hc\client5\http\impl\classic\TestHttpRequestRetryExec.java,mockito,org.mockito.junit.MockitoJUnitRunner
+httpcomponents-client,httpcomponents-client\httpclient5\src\test\java\org\apache\hc\client5\http\impl\classic\TestHttpRequestRetryExec.java,mockito,org.mockito.MockitoAnnotations
 httpcomponents-client,httpcomponents-client\httpclient5\src\test\java\org\apache\hc\client5\http\impl\classic\TestInternalExecRuntime.java,mockito,org.mockito.Mock
 httpcomponents-client,httpcomponents-client\httpclient5\src\test\java\org\apache\hc\client5\http\impl\classic\TestInternalExecRuntime.java,mockito,org.mockito.Mockito
-httpcomponents-client,httpcomponents-client\httpclient5\src\test\java\org\apache\hc\client5\http\impl\classic\TestInternalExecRuntime.java,mockito,org.mockito.junit.MockitoJUnitRunner
+httpcomponents-client,httpcomponents-client\httpclient5\src\test\java\org\apache\hc\client5\http\impl\classic\TestInternalExecRuntime.java,mockito,org.mockito.MockitoAnnotations
 httpcomponents-client,httpcomponents-client\httpclient5\src\test\java\org\apache\hc\client5\http\impl\classic\TestInternalHttpClient.java,mockito,org.mockito.Mock
 httpcomponents-client,httpcomponents-client\httpclient5\src\test\java\org\apache\hc\client5\http\impl\classic\TestInternalHttpClient.java,mockito,org.mockito.Mockito
-httpcomponents-client,httpcomponents-client\httpclient5\src\test\java\org\apache\hc\client5\http\impl\classic\TestInternalHttpClient.java,mockito,org.mockito.junit.MockitoJUnitRunner
+httpcomponents-client,httpcomponents-client\httpclient5\src\test\java\org\apache\hc\client5\http\impl\classic\TestInternalHttpClient.java,mockito,org.mockito.MockitoAnnotations
 httpcomponents-client,httpcomponents-client\httpclient5\src\test\java\org\apache\hc\client5\http\impl\classic\TestMainClientExec.java,mockito,org.mockito.Mock
 httpcomponents-client,httpcomponents-client\httpclient5\src\test\java\org\apache\hc\client5\http\impl\classic\TestMainClientExec.java,mockito,org.mockito.Mockito
-httpcomponents-client,httpcomponents-client\httpclient5\src\test\java\org\apache\hc\client5\http\impl\classic\TestMainClientExec.java,mockito,org.mockito.junit.MockitoJUnitRunner
+httpcomponents-client,httpcomponents-client\httpclient5\src\test\java\org\apache\hc\client5\http\impl\classic\TestMainClientExec.java,mockito,org.mockito.MockitoAnnotations
 httpcomponents-client,httpcomponents-client\httpclient5\src\test\java\org\apache\hc\client5\http\impl\classic\TestMainClientExec.java,mockito,org.mockito.stubbing.Answer
 httpcomponents-client,httpcomponents-client\httpclient5\src\test\java\org\apache\hc\client5\http\impl\classic\TestProtocolExec.java,mockito,org.mockito.Mock
 httpcomponents-client,httpcomponents-client\httpclient5\src\test\java\org\apache\hc\client5\http\impl\classic\TestProtocolExec.java,mockito,org.mockito.Mockito
-httpcomponents-client,httpcomponents-client\httpclient5\src\test\java\org\apache\hc\client5\http\impl\classic\TestProtocolExec.java,mockito,org.mockito.junit.MockitoJUnitRunner
+httpcomponents-client,httpcomponents-client\httpclient5\src\test\java\org\apache\hc\client5\http\impl\classic\TestProtocolExec.java,mockito,org.mockito.MockitoAnnotations
 httpcomponents-client,httpcomponents-client\httpclient5\src\test\java\org\apache\hc\client5\http\impl\classic\TestProtocolExec.java,mockito,org.mockito.stubbing.Answer
 httpcomponents-client,httpcomponents-client\httpclient5\src\test\java\org\apache\hc\client5\http\impl\classic\TestRedirectExec.java,mockito,org.mockito.ArgumentCaptor
 httpcomponents-client,httpcomponents-client\httpclient5\src\test\java\org\apache\hc\client5\http\impl\classic\TestRedirectExec.java,mockito,org.mockito.ArgumentMatcher
 httpcomponents-client,httpcomponents-client\httpclient5\src\test\java\org\apache\hc\client5\http\impl\classic\TestRedirectExec.java,mockito,org.mockito.ArgumentMatchers
 httpcomponents-client,httpcomponents-client\httpclient5\src\test\java\org\apache\hc\client5\http\impl\classic\TestRedirectExec.java,mockito,org.mockito.Mock
 httpcomponents-client,httpcomponents-client\httpclient5\src\test\java\org\apache\hc\client5\http\impl\classic\TestRedirectExec.java,mockito,org.mockito.Mockito
-httpcomponents-client,httpcomponents-client\httpclient5\src\test\java\org\apache\hc\client5\http\impl\classic\TestRedirectExec.java,mockito,org.mockito.junit.MockitoJUnitRunner
+httpcomponents-client,httpcomponents-client\httpclient5\src\test\java\org\apache\hc\client5\http\impl\classic\TestRedirectExec.java,mockito,org.mockito.MockitoAnnotations
 httpcomponents-client,httpcomponents-client\httpclient5\src\test\java\org\apache\hc\client5\http\impl\classic\TestResponseEntityProxy.java,mockito,org.mockito.ArgumentCaptor
 httpcomponents-client,httpcomponents-client\httpclient5\src\test\java\org\apache\hc\client5\http\impl\classic\TestResponseEntityProxy.java,mockito,org.mockito.Mock
 httpcomponents-client,httpcomponents-client\httpclient5\src\test\java\org\apache\hc\client5\http\impl\classic\TestResponseEntityProxy.java,mockito,org.mockito.Mockito
-httpcomponents-client,httpcomponents-client\httpclient5\src\test\java\org\apache\hc\client5\http\impl\classic\TestResponseEntityProxy.java,mockito,org.mockito.junit.MockitoJUnitRunner
+httpcomponents-client,httpcomponents-client\httpclient5\src\test\java\org\apache\hc\client5\http\impl\classic\TestResponseEntityProxy.java,mockito,org.mockito.MockitoAnnotations
 httpcomponents-client,httpcomponents-client\httpclient5\src\test\java\org\apache\hc\client5\http\impl\classic\TestResponseEntityWrapper.java,mockito,org.mockito.Mockito
 httpcomponents-client,httpcomponents-client\httpclient5\src\test\java\org\apache\hc\client5\http\impl\cookie\TestRFC6265CookieSpec.java,mockito,org.mockito.ArgumentMatchers
 httpcomponents-client,httpcomponents-client\httpclient5\src\test\java\org\apache\hc\client5\http\impl\cookie\TestRFC6265CookieSpec.java,mockito,org.mockito.Mockito
 httpcomponents-client,httpcomponents-client\httpclient5\src\test\java\org\apache\hc\client5\http\impl\io\TestBasicHttpClientConnectionManager.java,mockito,org.mockito.Mock
 httpcomponents-client,httpcomponents-client\httpclient5\src\test\java\org\apache\hc\client5\http\impl\io\TestBasicHttpClientConnectionManager.java,mockito,org.mockito.Mockito
-httpcomponents-client,httpcomponents-client\httpclient5\src\test\java\org\apache\hc\client5\http\impl\io\TestBasicHttpClientConnectionManager.java,mockito,org.mockito.junit.MockitoJUnitRunner
+httpcomponents-client,httpcomponents-client\httpclient5\src\test\java\org\apache\hc\client5\http\impl\io\TestBasicHttpClientConnectionManager.java,mockito,org.mockito.MockitoAnnotations
 httpcomponents-client,httpcomponents-client\httpclient5\src\test\java\org\apache\hc\client5\http\impl\io\TestHttpClientConnectionOperator.java,mockito,org.mockito.Mockito
 httpcomponents-client,httpcomponents-client\httpclient5\src\test\java\org\apache\hc\client5\http\impl\io\TestPoolingHttpClientConnectionManager.java,mockito,org.mockito.Mock
 httpcomponents-client,httpcomponents-client\httpclient5\src\test\java\org\apache\hc\client5\http\impl\io\TestPoolingHttpClientConnectionManager.java,mockito,org.mockito.Mockito
-httpcomponents-client,httpcomponents-client\httpclient5\src\test\java\org\apache\hc\client5\http\impl\io\TestPoolingHttpClientConnectionManager.java,mockito,org.mockito.junit.MockitoJUnitRunner
+httpcomponents-client,httpcomponents-client\httpclient5\src\test\java\org\apache\hc\client5\http\impl\io\TestPoolingHttpClientConnectionManager.java,mockito,org.mockito.MockitoAnnotations
 httpcomponents-client,httpcomponents-client\httpclient5\src\test\java\org\apache\hc\client5\http\impl\routing\TestDefaultProxyRoutePlanner.java,mockito,org.mockito.Mockito
 httpcomponents-client,httpcomponents-client\httpclient5\src\test\java\org\apache\hc\client5\http\impl\routing\TestDefaultRoutePlanner.java,mockito,org.mockito.Mockito
 httpcomponents-client,httpcomponents-client\httpclient5\src\test\java\org\apache\hc\client5\http\impl\routing\TestSystemDefaultRoutePlanner.java,mockito,org.mockito.ArgumentMatchers
 httpcomponents-client,httpcomponents-client\httpclient5\src\test\java\org\apache\hc\client5\http\impl\routing\TestSystemDefaultRoutePlanner.java,mockito,org.mockito.Mockito
 httpcomponents-client,httpcomponents-client\httpclient5\src\test\java\org\apache\hc\client5\http\protocol\TestRequestAddCookies.java,mockito,org.mockito.ArgumentMatchers
 httpcomponents-client,httpcomponents-client\httpclient5\src\test\java\org\apache\hc\client5\http\protocol\TestRequestAddCookies.java,mockito,org.mockito.Mockito
+httpcomponents-core,httpcomponents-core\httpcore5-h2\src\test\java\org\apache\hc\core5\http2\ssl\ConscryptClientTlsStrategyTest.java,mockito,org.mockito.Mock
+httpcomponents-core,httpcomponents-core\httpcore5-h2\src\test\java\org\apache\hc\core5\http2\ssl\ConscryptClientTlsStrategyTest.java,mockito,org.mockito.MockitoAnnotations
 httpcomponents-core,httpcomponents-core\httpcore5-testing\src\test\java\org\apache\hc\core5\testing\framework\TestClassicTestClientTestingAdapter.java,mockito,org.mockito.Mockito
 httpcomponents-core,httpcomponents-core\httpcore5-testing\src\test\java\org\apache\hc\core5\testing\framework\TestTestingFramework.java,mockito,org.mockito.ArgumentMatchers
 httpcomponents-core,httpcomponents-core\httpcore5-testing\src\test\java\org\apache\hc\core5\testing\framework\TestTestingFramework.java,mockito,org.mockito.Mockito
+httpcomponents-core,httpcomponents-core\httpcore5\src\test\java\org\apache\hc\core5\concurrent\TestBasicFuture.java,mockito,org.mockito.Mockito
 httpcomponents-core,httpcomponents-core\httpcore5\src\test\java\org\apache\hc\core5\http\impl\io\TestBHttpConnectionBase.java,mockito,org.mockito.ArgumentMatchers
 httpcomponents-core,httpcomponents-core\httpcore5\src\test\java\org\apache\hc\core5\http\impl\io\TestBHttpConnectionBase.java,mockito,org.mockito.Mock
 httpcomponents-core,httpcomponents-core\httpcore5\src\test\java\org\apache\hc\core5\http\impl\io\TestBHttpConnectionBase.java,mockito,org.mockito.Mockito
-httpcomponents-core,httpcomponents-core\httpcore5\src\test\java\org\apache\hc\core5\http\impl\io\TestBHttpConnectionBase.java,mockito,org.mockito.junit.MockitoJUnitRunner
+httpcomponents-core,httpcomponents-core\httpcore5\src\test\java\org\apache\hc\core5\http\impl\io\TestBHttpConnectionBase.java,mockito,org.mockito.MockitoAnnotations
 httpcomponents-core,httpcomponents-core\httpcore5\src\test\java\org\apache\hc\core5\http\impl\io\TestDefaultBHttpClientConnection.java,mockito,org.mockito.Mock
 httpcomponents-core,httpcomponents-core\httpcore5\src\test\java\org\apache\hc\core5\http\impl\io\TestDefaultBHttpClientConnection.java,mockito,org.mockito.Mockito
-httpcomponents-core,httpcomponents-core\httpcore5\src\test\java\org\apache\hc\core5\http\impl\io\TestDefaultBHttpClientConnection.java,mockito,org.mockito.junit.MockitoJUnitRunner
+httpcomponents-core,httpcomponents-core\httpcore5\src\test\java\org\apache\hc\core5\http\impl\io\TestDefaultBHttpClientConnection.java,mockito,org.mockito.MockitoAnnotations
 httpcomponents-core,httpcomponents-core\httpcore5\src\test\java\org\apache\hc\core5\http\impl\io\TestDefaultBHttpServerConnection.java,mockito,org.mockito.Mock
 httpcomponents-core,httpcomponents-core\httpcore5\src\test\java\org\apache\hc\core5\http\impl\io\TestDefaultBHttpServerConnection.java,mockito,org.mockito.Mockito
-httpcomponents-core,httpcomponents-core\httpcore5\src\test\java\org\apache\hc\core5\http\impl\io\TestDefaultBHttpServerConnection.java,mockito,org.mockito.junit.MockitoJUnitRunner
+httpcomponents-core,httpcomponents-core\httpcore5\src\test\java\org\apache\hc\core5\http\impl\io\TestDefaultBHttpServerConnection.java,mockito,org.mockito.MockitoAnnotations
 httpcomponents-core,httpcomponents-core\httpcore5\src\test\java\org\apache\hc\core5\http\impl\io\TestHttpRequestExecutor.java,mockito,org.mockito.ArgumentCaptor
 httpcomponents-core,httpcomponents-core\httpcore5\src\test\java\org\apache\hc\core5\http\impl\io\TestHttpRequestExecutor.java,mockito,org.mockito.ArgumentMatchers
 httpcomponents-core,httpcomponents-core\httpcore5\src\test\java\org\apache\hc\core5\http\impl\io\TestHttpRequestExecutor.java,mockito,org.mockito.Mockito
@@ -2609,8 +2635,8 @@ httpcomponents-core,httpcomponents-core\httpcore5\src\test\java\org\apache\hc\co
 httpcomponents-core,httpcomponents-core\httpcore5\src\test\java\org\apache\hc\core5\http\impl\io\TestHttpService.java,mockito,org.mockito.ArgumentMatchers
 httpcomponents-core,httpcomponents-core\httpcore5\src\test\java\org\apache\hc\core5\http\impl\io\TestHttpService.java,mockito,org.mockito.Mock
 httpcomponents-core,httpcomponents-core\httpcore5\src\test\java\org\apache\hc\core5\http\impl\io\TestHttpService.java,mockito,org.mockito.Mockito
+httpcomponents-core,httpcomponents-core\httpcore5\src\test\java\org\apache\hc\core5\http\impl\io\TestHttpService.java,mockito,org.mockito.MockitoAnnotations
 httpcomponents-core,httpcomponents-core\httpcore5\src\test\java\org\apache\hc\core5\http\impl\io\TestHttpService.java,mockito,org.mockito.Spy
-httpcomponents-core,httpcomponents-core\httpcore5\src\test\java\org\apache\hc\core5\http\impl\io\TestHttpService.java,mockito,org.mockito.junit.MockitoJUnitRunner
 httpcomponents-core,httpcomponents-core\httpcore5\src\test\java\org\apache\hc\core5\http\impl\io\TestMonitoringResponseOutOfOrderStrategy.java,mockito,org.mockito.ArgumentMatchers
 httpcomponents-core,httpcomponents-core\httpcore5\src\test\java\org\apache\hc\core5\http\impl\io\TestMonitoringResponseOutOfOrderStrategy.java,mockito,org.mockito.Mockito
 httpcomponents-core,httpcomponents-core\httpcore5\src\test\java\org\apache\hc\core5\http\impl\io\TestSessionInOutBuffers.java,mockito,org.mockito.ArgumentMatchers
@@ -2625,6 +2651,13 @@ httpcomponents-core,httpcomponents-core\httpcore5\src\test\java\org\apache\hc\co
 httpcomponents-core,httpcomponents-core\httpcore5\src\test\java\org\apache\hc\core5\http\impl\nio\TestLengthDelimitedEncoder.java,mockito,org.mockito.ArgumentMatchers
 httpcomponents-core,httpcomponents-core\httpcore5\src\test\java\org\apache\hc\core5\http\impl\nio\TestLengthDelimitedEncoder.java,mockito,org.mockito.Mockito
 httpcomponents-core,httpcomponents-core\httpcore5\src\test\java\org\apache\hc\core5\http\io\TestEofSensorInputStream.java,mockito,org.mockito.Mockito
+httpcomponents-core,httpcomponents-core\httpcore5\src\test\java\org\apache\hc\core5\http\io\support\ClassicResponseBuilderTest.java,mockito,org.mockito.Mock
+httpcomponents-core,httpcomponents-core\httpcore5\src\test\java\org\apache\hc\core5\http\io\support\ClassicResponseBuilderTest.java,mockito,org.mockito.Mockito
+httpcomponents-core,httpcomponents-core\httpcore5\src\test\java\org\apache\hc\core5\http\io\support\ClassicResponseBuilderTest.java,mockito,org.mockito.MockitoAnnotations
+httpcomponents-core,httpcomponents-core\httpcore5\src\test\java\org\apache\hc\core5\http\nio\ssl\BasicClientTlsStrategyTest.java,mockito,org.mockito.Mock
+httpcomponents-core,httpcomponents-core\httpcore5\src\test\java\org\apache\hc\core5\http\nio\ssl\BasicClientTlsStrategyTest.java,mockito,org.mockito.MockitoAnnotations
+httpcomponents-core,httpcomponents-core\httpcore5\src\test\java\org\apache\hc\core5\http\nio\ssl\BasicServerTlsStrategyTest.java,mockito,org.mockito.Mock
+httpcomponents-core,httpcomponents-core\httpcore5\src\test\java\org\apache\hc\core5\http\nio\ssl\BasicServerTlsStrategyTest.java,mockito,org.mockito.MockitoAnnotations
 httpcomponents-core,httpcomponents-core\httpcore5\src\test\java\org\apache\hc\core5\http\nio\support\classic\TestSharedInputBuffer.java,mockito,org.mockito.ArgumentMatchers
 httpcomponents-core,httpcomponents-core\httpcore5\src\test\java\org\apache\hc\core5\http\nio\support\classic\TestSharedInputBuffer.java,mockito,org.mockito.Mockito
 httpcomponents-core,httpcomponents-core\httpcore5\src\test\java\org\apache\hc\core5\http\nio\support\classic\TestSharedOutputBuffer.java,mockito,org.mockito.Mockito
@@ -2640,7 +2673,20 @@ httpcomponents-core,httpcomponents-core\httpcore5\src\test\java\org\apache\hc\co
 httpcomponents-core,httpcomponents-core\httpcore5\src\test\java\org\apache\hc\core5\reactor\TestAbstractIOSessionPool.java,mockito,org.mockito.Captor
 httpcomponents-core,httpcomponents-core\httpcore5\src\test\java\org\apache\hc\core5\reactor\TestAbstractIOSessionPool.java,mockito,org.mockito.Mock
 httpcomponents-core,httpcomponents-core\httpcore5\src\test\java\org\apache\hc\core5\reactor\TestAbstractIOSessionPool.java,mockito,org.mockito.Mockito
-httpcomponents-core,httpcomponents-core\httpcore5\src\test\java\org\apache\hc\core5\reactor\TestAbstractIOSessionPool.java,mockito,org.mockito.junit.MockitoJUnitRunner
+httpcomponents-core,httpcomponents-core\httpcore5\src\test\java\org\apache\hc\core5\reactor\TestAbstractIOSessionPool.java,mockito,org.mockito.MockitoAnnotations
+hudi,hudi\hudi-aws\src\test\java\org\apache\hudi\aws\cloudwatch\TestCloudWatchReporter.java,mockito,org.mockito.ArgumentCaptor
+hudi,hudi\hudi-aws\src\test\java\org\apache\hudi\aws\cloudwatch\TestCloudWatchReporter.java,mockito,org.mockito.ArgumentMatchers
+hudi,hudi\hudi-aws\src\test\java\org\apache\hudi\aws\cloudwatch\TestCloudWatchReporter.java,mockito,org.mockito.Captor
+hudi,hudi\hudi-aws\src\test\java\org\apache\hudi\aws\cloudwatch\TestCloudWatchReporter.java,mockito,org.mockito.Mock
+hudi,hudi\hudi-aws\src\test\java\org\apache\hudi\aws\cloudwatch\TestCloudWatchReporter.java,mockito,org.mockito.Mockito
+hudi,hudi\hudi-aws\src\test\java\org\apache\hudi\aws\cloudwatch\TestCloudWatchReporter.java,mockito,org.mockito.junit.jupiter.MockitoExtension
+hudi,hudi\hudi-client\hudi-client-common\src\test\java\org\apache\hudi\async\TestAsyncArchiveService.java,mockito,org.mockito.Mock
+hudi,hudi\hudi-client\hudi-client-common\src\test\java\org\apache\hudi\async\TestAsyncArchiveService.java,mockito,org.mockito.junit.jupiter.MockitoExtension
+hudi,hudi\hudi-client\hudi-client-common\src\test\java\org\apache\hudi\async\TestAsyncArchiveService.java,mockito,static org.mockito.Mockito.verify
+hudi,hudi\hudi-client\hudi-client-common\src\test\java\org\apache\hudi\async\TestAsyncArchiveService.java,mockito,static org.mockito.Mockito.when
+hudi,hudi\hudi-client\hudi-client-common\src\test\java\org\apache\hudi\async\TestHoodieAsyncTableService.java,mockito,org.mockito.Mock
+hudi,hudi\hudi-client\hudi-client-common\src\test\java\org\apache\hudi\async\TestHoodieAsyncTableService.java,mockito,org.mockito.junit.jupiter.MockitoExtension
+hudi,hudi\hudi-client\hudi-client-common\src\test\java\org\apache\hudi\async\TestHoodieAsyncTableService.java,mockito,static org.mockito.Mockito.when
 hudi,hudi\hudi-client\hudi-client-common\src\test\java\org\apache\hudi\callback\http\TestCallbackHttpClient.java,mockito,org.mockito.ArgumentCaptor
 hudi,hudi\hudi-client\hudi-client-common\src\test\java\org\apache\hudi\callback\http\TestCallbackHttpClient.java,mockito,org.mockito.Captor
 hudi,hudi\hudi-client\hudi-client-common\src\test\java\org\apache\hudi\callback\http\TestCallbackHttpClient.java,mockito,org.mockito.Mock
@@ -2650,6 +2696,7 @@ hudi,hudi\hudi-client\hudi-client-common\src\test\java\org\apache\hudi\callback\
 hudi,hudi\hudi-client\hudi-client-common\src\test\java\org\apache\hudi\callback\http\TestCallbackHttpClient.java,mockito,static org.mockito.Mockito.verify
 hudi,hudi\hudi-client\hudi-client-common\src\test\java\org\apache\hudi\callback\http\TestCallbackHttpClient.java,mockito,static org.mockito.Mockito.when
 hudi,hudi\hudi-client\hudi-client-common\src\test\java\org\apache\hudi\io\storage\TestHoodieHFileReaderWriter.java,mockito,org.mockito.Mockito
+hudi,hudi\hudi-client\hudi-client-common\src\test\java\org\apache\hudi\io\storage\TestHoodieHFileReaderWriter.java,mockito,static org.mockito.Mockito.when
 hudi,hudi\hudi-client\hudi-client-common\src\test\java\org\apache\hudi\io\storage\TestHoodieOrcReaderWriter.java,mockito,org.mockito.Mockito
 hudi,hudi\hudi-client\hudi-client-common\src\test\java\org\apache\hudi\metrics\TestHoodieConsoleMetrics.java,mockito,org.mockito.Mock
 hudi,hudi\hudi-client\hudi-client-common\src\test\java\org\apache\hudi\metrics\TestHoodieConsoleMetrics.java,mockito,org.mockito.junit.jupiter.MockitoExtension
@@ -2667,6 +2714,11 @@ hudi,hudi\hudi-client\hudi-client-common\src\test\java\org\apache\hudi\metrics\T
 hudi,hudi\hudi-client\hudi-client-common\src\test\java\org\apache\hudi\metrics\TestMetricsReporterFactory.java,mockito,org.mockito.Mock
 hudi,hudi\hudi-client\hudi-client-common\src\test\java\org\apache\hudi\metrics\TestMetricsReporterFactory.java,mockito,org.mockito.junit.jupiter.MockitoExtension
 hudi,hudi\hudi-client\hudi-client-common\src\test\java\org\apache\hudi\metrics\TestMetricsReporterFactory.java,mockito,static org.mockito.Mockito.when
+hudi,hudi\hudi-client\hudi-client-common\src\test\java\org\apache\hudi\metrics\cloudwatch\TestCloudWatchMetricsReporter.java,mockito,org.mockito.Mock
+hudi,hudi\hudi-client\hudi-client-common\src\test\java\org\apache\hudi\metrics\cloudwatch\TestCloudWatchMetricsReporter.java,mockito,org.mockito.junit.jupiter.MockitoExtension
+hudi,hudi\hudi-client\hudi-client-common\src\test\java\org\apache\hudi\metrics\cloudwatch\TestCloudWatchMetricsReporter.java,mockito,static org.mockito.Mockito.times
+hudi,hudi\hudi-client\hudi-client-common\src\test\java\org\apache\hudi\metrics\cloudwatch\TestCloudWatchMetricsReporter.java,mockito,static org.mockito.Mockito.verify
+hudi,hudi\hudi-client\hudi-client-common\src\test\java\org\apache\hudi\metrics\cloudwatch\TestCloudWatchMetricsReporter.java,mockito,static org.mockito.Mockito.when
 hudi,hudi\hudi-client\hudi-client-common\src\test\java\org\apache\hudi\metrics\datadog\TestDatadogHttpClient.java,mockito,org.mockito.ArgumentCaptor
 hudi,hudi\hudi-client\hudi-client-common\src\test\java\org\apache\hudi\metrics\datadog\TestDatadogHttpClient.java,mockito,org.mockito.Captor
 hudi,hudi\hudi-client\hudi-client-common\src\test\java\org\apache\hudi\metrics\datadog\TestDatadogHttpClient.java,mockito,org.mockito.Mock
@@ -2691,16 +2743,12 @@ hudi,hudi\hudi-client\hudi-client-common\src\test\java\org\apache\hudi\metrics\p
 hudi,hudi\hudi-client\hudi-client-common\src\test\java\org\apache\hudi\metrics\prometheus\TestPushGateWayReporter.java,mockito,org.mockito.Mock
 hudi,hudi\hudi-client\hudi-client-common\src\test\java\org\apache\hudi\metrics\prometheus\TestPushGateWayReporter.java,mockito,org.mockito.junit.jupiter.MockitoExtension
 hudi,hudi\hudi-client\hudi-client-common\src\test\java\org\apache\hudi\metrics\prometheus\TestPushGateWayReporter.java,mockito,static org.mockito.Mockito.when
+hudi,hudi\hudi-client\hudi-client-common\src\test\java\org\apache\hudi\table\action\cluster\strategy\TestPartitionAwareClusteringPlanStrategy.java,mockito,org.mockito.Mock
+hudi,hudi\hudi-client\hudi-client-common\src\test\java\org\apache\hudi\table\marker\TestWriteMarkersFactory.java,mockito,org.mockito.Mockito
+hudi,hudi\hudi-client\hudi-client-common\src\test\java\org\apache\hudi\table\marker\TestWriteMarkersFactory.java,mockito,static org.mockito.ArgumentMatchers.any
 hudi,hudi\hudi-client\hudi-java-client\src\test\java\org\apache\hudi\table\action\commit\TestJavaCopyOnWriteActionExecutor.java,mockito,static org.mockito.Mockito.mock
 hudi,hudi\hudi-client\hudi-java-client\src\test\java\org\apache\hudi\table\action\commit\TestJavaCopyOnWriteActionExecutor.java,mockito,static org.mockito.Mockito.when
 hudi,hudi\hudi-client\hudi-spark-client\src\test\java\org\apache\hudi\client\TestWriteStatus.java,mockito,static org.mockito.Mockito.mock
-hudi,hudi\hudi-client\hudi-spark-client\src\test\java\org\apache\hudi\client\clustering\plan\strategy\TestSparkRecentDaysClusteringPlanStrategy.java,mockito,org.mockito.Mock
-hudi,hudi\hudi-client\hudi-spark-client\src\test\java\org\apache\hudi\client\functional\TestHBaseIndex.java,mockito,static org.mockito.ArgumentMatchers.any
-hudi,hudi\hudi-client\hudi-spark-client\src\test\java\org\apache\hudi\client\functional\TestHBaseIndex.java,mockito,static org.mockito.Mockito.atMost
-hudi,hudi\hudi-client\hudi-spark-client\src\test\java\org\apache\hudi\client\functional\TestHBaseIndex.java,mockito,static org.mockito.Mockito.mock
-hudi,hudi\hudi-client\hudi-spark-client\src\test\java\org\apache\hudi\client\functional\TestHBaseIndex.java,mockito,static org.mockito.Mockito.times
-hudi,hudi\hudi-client\hudi-spark-client\src\test\java\org\apache\hudi\client\functional\TestHBaseIndex.java,mockito,static org.mockito.Mockito.verify
-hudi,hudi\hudi-client\hudi-spark-client\src\test\java\org\apache\hudi\client\functional\TestHBaseIndex.java,mockito,static org.mockito.Mockito.when
 hudi,hudi\hudi-client\hudi-spark-client\src\test\java\org\apache\hudi\client\functional\TestHoodieClientOnCopyOnWriteStorage.java,mockito,static org.mockito.Mockito.mock
 hudi,hudi\hudi-client\hudi-spark-client\src\test\java\org\apache\hudi\client\functional\TestHoodieClientOnCopyOnWriteStorage.java,mockito,static org.mockito.Mockito.when
 hudi,hudi\hudi-client\hudi-spark-client\src\test\java\org\apache\hudi\execution\TestBoundedInMemoryQueue.java,mockito,static org.mockito.Mockito.mock
@@ -2709,6 +2757,13 @@ hudi,hudi\hudi-client\hudi-spark-client\src\test\java\org\apache\hudi\execution\
 hudi,hudi\hudi-client\hudi-spark-client\src\test\java\org\apache\hudi\execution\TestSparkBoundedInMemoryExecutor.java,mockito,static org.mockito.Mockito.when
 hudi,hudi\hudi-client\hudi-spark-client\src\test\java\org\apache\hudi\index\hbase\TestHBaseIndexUsage.java,mockito,org.mockito.junit.jupiter.MockitoExtension
 hudi,hudi\hudi-client\hudi-spark-client\src\test\java\org\apache\hudi\index\hbase\TestHBaseIndexUsage.java,mockito,static org.mockito.Mockito.mock
+hudi,hudi\hudi-client\hudi-spark-client\src\test\java\org\apache\hudi\index\hbase\TestSparkHoodieHBaseIndex.java,mockito,static org.mockito.ArgumentMatchers.any
+hudi,hudi\hudi-client\hudi-spark-client\src\test\java\org\apache\hudi\index\hbase\TestSparkHoodieHBaseIndex.java,mockito,static org.mockito.Mockito.atMost
+hudi,hudi\hudi-client\hudi-spark-client\src\test\java\org\apache\hudi\index\hbase\TestSparkHoodieHBaseIndex.java,mockito,static org.mockito.Mockito.mock
+hudi,hudi\hudi-client\hudi-spark-client\src\test\java\org\apache\hudi\index\hbase\TestSparkHoodieHBaseIndex.java,mockito,static org.mockito.Mockito.times
+hudi,hudi\hudi-client\hudi-spark-client\src\test\java\org\apache\hudi\index\hbase\TestSparkHoodieHBaseIndex.java,mockito,static org.mockito.Mockito.verify
+hudi,hudi\hudi-client\hudi-spark-client\src\test\java\org\apache\hudi\index\hbase\TestSparkHoodieHBaseIndex.java,mockito,static org.mockito.Mockito.when
+hudi,hudi\hudi-client\hudi-spark-client\src\test\java\org\apache\hudi\table\action\cluster\strategy\TestSparkClusteringPlanPartitionFilter.java,mockito,org.mockito.Mock
 hudi,hudi\hudi-client\hudi-spark-client\src\test\java\org\apache\hudi\table\action\commit\TestCopyOnWriteActionExecutor.java,mockito,static org.mockito.Mockito.mock
 hudi,hudi\hudi-client\hudi-spark-client\src\test\java\org\apache\hudi\table\action\commit\TestCopyOnWriteActionExecutor.java,mockito,static org.mockito.Mockito.when
 hudi,hudi\hudi-client\hudi-spark-client\src\test\java\org\apache\hudi\table\action\commit\TestDeleteHelper.java,mockito,org.mockito.Mock
@@ -2778,6 +2833,7 @@ hudi,hudi\hudi-utilities\src\test\java\org\apache\hudi\utilities\schema\TestSche
 hudi,hudi\hudi-utilities\src\test\java\org\apache\hudi\utilities\schema\TestSchemaRegistryProvider.java,mockito,static org.mockito.Mockito.times
 hudi,hudi\hudi-utilities\src\test\java\org\apache\hudi\utilities\schema\TestSchemaRegistryProvider.java,mockito,static org.mockito.Mockito.verify
 hudi,hudi\hudi-utilities\src\test\java\org\apache\hudi\utilities\sources\TestJsonKafkaSource.java,mockito,static org.mockito.Mockito.mock
+hudi,hudi\hudi-utilities\src\test\java\org\apache\hudi\utilities\sources\debezium\TestAbstractDebeziumSource.java,mockito,static org.mockito.Mockito.mock
 hudi,hudi\hudi-utilities\src\test\java\org\apache\hudi\utilities\sources\helpers\TestCloudObjectsSelector.java,mockito,org.mockito.Mock
 hudi,hudi\hudi-utilities\src\test\java\org\apache\hudi\utilities\sources\helpers\TestCloudObjectsSelector.java,mockito,org.mockito.Mockito
 hudi,hudi\hudi-utilities\src\test\java\org\apache\hudi\utilities\sources\helpers\TestCloudObjectsSelector.java,mockito,org.mockito.MockitoAnnotations
@@ -2880,6 +2936,8 @@ ignite,ignite\modules\core\src\test\java\org\apache\ignite\internal\processors\s
 ignite,ignite\modules\core\src\test\java\org\apache\ignite\internal\processors\service\ServiceReassignmentFunctionSelfTest.java,mockito,static org.mockito.Mockito.mock
 ignite,ignite\modules\core\src\test\java\org\apache\ignite\internal\processors\service\ServiceReassignmentFunctionSelfTest.java,mockito,static org.mockito.Mockito.spy
 ignite,ignite\modules\core\src\test\java\org\apache\ignite\internal\processors\service\ServiceReassignmentFunctionSelfTest.java,mockito,static org.mockito.Mockito.when
+ignite,ignite\modules\core\src\test\java\org\apache\ignite\internal\util\nio\GridNioServerTest.java,mockito,org.mockito.Mock
+ignite,ignite\modules\core\src\test\java\org\apache\ignite\internal\util\nio\GridNioServerTest.java,mockito,org.mockito.junit.MockitoJUnitRunner
 ignite,ignite\modules\indexing\src\test\java\org\apache\ignite\internal\processors\cache\ReservationsOnDoneAfterTopologyUnlockFailTest.java,mockito,static org.mockito.Mockito.any
 ignite,ignite\modules\indexing\src\test\java\org\apache\ignite\internal\processors\cache\ReservationsOnDoneAfterTopologyUnlockFailTest.java,mockito,static org.mockito.Mockito.doAnswer
 ignite,ignite\modules\indexing\src\test\java\org\apache\ignite\internal\processors\cache\ReservationsOnDoneAfterTopologyUnlockFailTest.java,mockito,static org.mockito.Mockito.spy
@@ -2975,17 +3033,10 @@ iotdb,iotdb\server\src\test\java\org\apache\iotdb\db\conf\directories\strategy\D
 iotdb,iotdb\server\src\test\java\org\apache\iotdb\db\conf\directories\strategy\DirectoryStrategyTest.java,powermock,org.powermock.core.classloader.annotations.PowerMockIgnore
 iotdb,iotdb\server\src\test\java\org\apache\iotdb\db\conf\directories\strategy\DirectoryStrategyTest.java,powermock,org.powermock.core.classloader.annotations.PrepareForTest
 iotdb,iotdb\server\src\test\java\org\apache\iotdb\db\conf\directories\strategy\DirectoryStrategyTest.java,powermock,org.powermock.modules.junit4.PowerMockRunner
-iotdb,iotdb\server\src\test\java\org\apache\iotdb\db\mqtt\PublishHandlerTest.java,mockito,static org.mockito.ArgumentMatchers.any
-iotdb,iotdb\server\src\test\java\org\apache\iotdb\db\mqtt\PublishHandlerTest.java,mockito,static org.mockito.Mockito.mock
-iotdb,iotdb\server\src\test\java\org\apache\iotdb\db\mqtt\PublishHandlerTest.java,mockito,static org.mockito.Mockito.verify
 isis,isis\api\applib\src\test\java\org\apache\isis\applib\events\InteractionEventTest.java,jmock,org.jmock.integration.junit4.JUnitRuleMockery
 isis,isis\api\applib\src\test\java\org\apache\isis\applib\services\i18n\TranslatableStringTest.java,jmock,org.jmock.Expectations
 isis,isis\api\applib\src\test\java\org\apache\isis\applib\services\i18n\TranslatableStringTest.java,jmock,org.jmock.auto.Mock
 isis,isis\api\applib\src\test\java\org\apache\isis\applib\services\i18n\TranslatableStringTest.java,jmock,org.jmock.integration.junit4.JUnitRuleMockery
-isis,isis\api\applib\src\test\java\org\apache\isis\applib\util\schema\CommonDtoUtils_Test.java,jmock,org.jmock.auto.Mock
-isis,isis\api\applib\src\test\java\org\apache\isis\applib\util\schema\CommonDtoUtils_Test.java,jmock,org.jmock.integration.junit4.JUnitRuleMockery
-isis,isis\api\applib\src\test\java\org\apache\isis\applib\util\schema\CommonDtoUtils_setValueOn_Test.java,jmock,org.jmock.auto.Mock
-isis,isis\api\applib\src\test\java\org\apache\isis\applib\util\schema\CommonDtoUtils_setValueOn_Test.java,jmock,org.jmock.integration.junit4.JUnitRuleMockery
 isis,isis\core\internaltestsupport\src\main\java\org\apache\isis\core\internaltestsupport\jmocking\ImposteriserUsingCodegenPlugin.java,jmock,org.jmock.api.Imposteriser
 isis,isis\core\internaltestsupport\src\main\java\org\apache\isis\core\internaltestsupport\jmocking\ImposteriserUsingCodegenPlugin.java,jmock,org.jmock.api.Invocation
 isis,isis\core\internaltestsupport\src\main\java\org\apache\isis\core\internaltestsupport\jmocking\ImposteriserUsingCodegenPlugin.java,jmock,org.jmock.api.Invokable
@@ -3039,15 +3090,13 @@ isis,isis\core\metamodel\src\test\java\org\apache\isis\core\metamodel\facets\obj
 isis,isis\core\metamodel\src\test\java\org\apache\isis\core\metamodel\facets\object\ident\layout\LayoutFacetMethodTest.java,jmock,org.jmock.Expectations
 isis,isis\core\metamodel\src\test\java\org\apache\isis\core\metamodel\facets\object\ident\layout\LayoutFacetMethodTest.java,jmock,org.jmock.Mockery
 isis,isis\core\metamodel\src\test\java\org\apache\isis\core\metamodel\facets\object\ident\layout\LayoutFacetMethodTest.java,jmock,org.jmock.integration.junit4.JUnit4Mockery
+isis,isis\core\metamodel\src\test\java\org\apache\isis\core\metamodel\facets\object\ident\title\TitleAnnotationFacetFactoryTest.java,jmock,org.jmock.Expectations
+isis,isis\core\metamodel\src\test\java\org\apache\isis\core\metamodel\facets\object\ident\title\TitleAnnotationFacetFactoryTest.java,jmock,org.jmock.auto.Mock
 isis,isis\core\metamodel\src\test\java\org\apache\isis\core\metamodel\facets\object\ident\title\TitleFacetViaMethodTest.java,jmock,org.jmock.Expectations
-isis,isis\core\metamodel\src\test\java\org\apache\isis\core\metamodel\facets\object\ident\title\TitleFacetViaMethodTest.java,jmock,org.jmock.Mockery
-isis,isis\core\metamodel\src\test\java\org\apache\isis\core\metamodel\facets\object\ident\title\TitleFacetViaMethodTest.java,jmock,org.jmock.integration.junit4.JMock
-isis,isis\core\metamodel\src\test\java\org\apache\isis\core\metamodel\facets\object\ident\title\TitleFacetViaMethodTest.java,jmock,org.jmock.integration.junit4.JUnit4Mockery
-isis,isis\core\metamodel\src\test\java\org\apache\isis\core\metamodel\facets\object\ident\title\annotation\TitleAnnotationFacetFactoryTest.java,jmock,org.jmock.Expectations
-isis,isis\core\metamodel\src\test\java\org\apache\isis\core\metamodel\facets\object\ident\title\annotation\TitleAnnotationFacetFactoryTest.java,jmock,org.jmock.auto.Mock
-isis,isis\core\metamodel\src\test\java\org\apache\isis\core\metamodel\facets\object\ident\title\annotation\TitleFacetViaTitleAnnotationTest.java,jmock,org.jmock.Expectations
-isis,isis\core\metamodel\src\test\java\org\apache\isis\core\metamodel\facets\object\ident\title\annotation\TitleFacetViaTitleAnnotationTest.java,jmock,org.jmock.Sequence
-isis,isis\core\metamodel\src\test\java\org\apache\isis\core\metamodel\facets\object\ident\title\annotation\TitleFacetViaTitleAnnotationTest.java,jmock,org.jmock.auto.Mock
+isis,isis\core\metamodel\src\test\java\org\apache\isis\core\metamodel\facets\object\ident\title\TitleFacetViaMethodTest.java,jmock,org.jmock.auto.Mock
+isis,isis\core\metamodel\src\test\java\org\apache\isis\core\metamodel\facets\object\ident\title\TitleFacetViaTitleAnnotationTest.java,jmock,org.jmock.Expectations
+isis,isis\core\metamodel\src\test\java\org\apache\isis\core\metamodel\facets\object\ident\title\TitleFacetViaTitleAnnotationTest.java,jmock,org.jmock.Sequence
+isis,isis\core\metamodel\src\test\java\org\apache\isis\core\metamodel\facets\object\ident\title\TitleFacetViaTitleAnnotationTest.java,jmock,org.jmock.auto.Mock
 isis,isis\core\metamodel\src\test\java\org\apache\isis\core\metamodel\facets\object\navparent\NavigableParentFacetMethodTest.java,jmock,org.jmock.Expectations
 isis,isis\core\metamodel\src\test\java\org\apache\isis\core\metamodel\facets\object\navparent\NavigableParentFacetMethodTest.java,jmock,org.jmock.Mockery
 isis,isis\core\metamodel\src\test\java\org\apache\isis\core\metamodel\facets\object\navparent\NavigableParentFacetMethodTest.java,jmock,org.jmock.integration.junit4.JUnit4Mockery
@@ -3096,9 +3145,6 @@ isis,isis\core\metamodel\src\test\java\org\apache\isis\core\metamodel\specloader
 isis,isis\core\runtimeservices\src\test\java\org\apache\isis\core\runtimeservices\i18n\po\PoReaderTest.java,jmock,org.jmock.Expectations
 isis,isis\core\runtimeservices\src\test\java\org\apache\isis\core\runtimeservices\i18n\po\PoReaderTest.java,jmock,org.jmock.auto.Mock
 isis,isis\core\runtimeservices\src\test\java\org\apache\isis\core\runtimeservices\wrapper\WrapperFactoryDefaultTest.java,jmock,org.jmock.auto.Mock
-isis,isis\core\runtimeservices\target\test-classes\org\apache\isis\core\runtimeservices\i18n\po\PoReaderTest.java,jmock,org.jmock.Expectations
-isis,isis\core\runtimeservices\target\test-classes\org\apache\isis\core\runtimeservices\i18n\po\PoReaderTest.java,jmock,org.jmock.auto.Mock
-isis,isis\core\runtimeservices\target\test-classes\org\apache\isis\core\runtimeservices\wrapper\WrapperFactoryDefaultTest.java,jmock,org.jmock.auto.Mock
 isis,isis\extensions\security\spring-oauth2\src\test\java\org\apache\isis\security\spring\authconverters\AuthenticationConverterOfOAuth2UserPrincipal_Test.java,mockito,org.mockito.Mock
 isis,isis\extensions\security\spring-oauth2\src\test\java\org\apache\isis\security\spring\authconverters\AuthenticationConverterOfOAuth2UserPrincipal_Test.java,mockito,org.mockito.Mockito
 isis,isis\extensions\security\spring-oauth2\src\test\java\org\apache\isis\security\spring\authconverters\AuthenticationConverterOfOAuth2UserPrincipal_Test.java,mockito,org.mockito.junit.jupiter.MockitoExtension
@@ -3136,7 +3182,6 @@ isis,isis\persistence\jdo\spring\src\test\java\org\apache\isis\persistence\jdo\s
 isis,isis\persistence\jdo\spring\src\test\java\org\apache\isis\persistence\jdo\spring\test\support\OpenPersistenceManagerInViewTests.java,mockito,static org.mockito.Mockito.mock
 isis,isis\persistence\jdo\spring\src\test\java\org\apache\isis\persistence\jdo\spring\test\support\OpenPersistenceManagerInViewTests.java,mockito,static org.mockito.Mockito.verify
 isis,isis\regressiontests\incubating\src\test\java\org\apache\isis\testdomain\shiro\ShiroSimpleTest.java,mockito,org.mockito.Mockito
-isis,isis\regressiontests\stable\src\main\java\org\apache\isis\testdomain\conf\Configuration_usingWicket.java,mockito,org.mockito.Mockito
 isis,isis\subdomains\base\applib\src\test\java\org\apache\isis\subdomains\base\applib\with\WithIntervalMutableContractTestAbstract_changeDates.java,jmock,org.jmock.Expectations
 isis,isis\subdomains\base\applib\src\test\java\org\apache\isis\subdomains\base\applib\with\WithIntervalMutableContractTestAbstract_changeDates.java,jmock,org.jmock.auto.Mock
 isis,isis\testing\fakedata\applib\src\test\java\org\apache\isis\testing\fakedata\applib\services\FakeDataServiceTest.java,jmock,org.jmock.Expectations
@@ -3204,22 +3249,6 @@ isis,isis\viewers\restfulobjects\viewer\src\test\java\org\apache\isis\viewer\res
 isis,isis\viewers\restfulobjects\viewer\src\test\java\org\apache\isis\viewer\restfulobjects\viewer\webmodule\IsisRestfulObjectsSessionFilter_lookupPassThru_Test.java,jmock,org.jmock.auto.Mock
 isis,isis\viewers\wicket\model\src\test\java\org\apache\isis\viewer\wicket\model\models\EntityModel_hintsTest.java,jmock,org.jmock.Expectations
 isis,isis\viewers\wicket\model\src\test\java\org\apache\isis\viewer\wicket\model\models\EntityModel_hintsTest.java,jmock,org.jmock.auto.Mock
-isis,isis\viewers\wicket\ui\src\test\java\org\apache\isis\viewer\wicket\ui\components\scalars\jdkdates\DateConverterForJavaSqlDateTest.java,jmock,org.jmock.Expectations
-isis,isis\viewers\wicket\ui\src\test\java\org\apache\isis\viewer\wicket\ui\components\scalars\jdkdates\DateConverterForJavaSqlDateTest.java,jmock,org.jmock.auto.Mock
-isis,isis\viewers\wicket\ui\src\test\java\org\apache\isis\viewer\wicket\ui\components\scalars\jdkdates\DateConverterForJavaUtilDateTest.java,jmock,org.jmock.Expectations
-isis,isis\viewers\wicket\ui\src\test\java\org\apache\isis\viewer\wicket\ui\components\scalars\jdkdates\DateConverterForJavaUtilDateTest.java,jmock,org.jmock.auto.Mock
-isis,isis\viewers\wicket\ui\src\test\java\org\apache\isis\viewer\wicket\ui\components\scalars\jodatime\DateConverterForJodaDateTimeTest.java,jmock,org.jmock.Expectations
-isis,isis\viewers\wicket\ui\src\test\java\org\apache\isis\viewer\wicket\ui\components\scalars\jodatime\DateConverterForJodaDateTimeTest.java,jmock,org.jmock.auto.Mock
-isis,isis\viewers\wicket\ui\src\test\java\org\apache\isis\viewer\wicket\ui\components\scalars\jodatime\DateConverterForJodaLocalDateTest.java,jmock,org.jmock.Expectations
-isis,isis\viewers\wicket\ui\src\test\java\org\apache\isis\viewer\wicket\ui\components\scalars\jodatime\DateConverterForJodaLocalDateTest.java,jmock,org.jmock.auto.Mock
-isis,isis\viewers\wicket\ui\src\test\java\org\apache\isis\viewer\wicket\ui\components\scalars\jodatime\DateConverterForJodaLocalDateTimeTest.java,jmock,org.jmock.Expectations
-isis,isis\viewers\wicket\ui\src\test\java\org\apache\isis\viewer\wicket\ui\components\scalars\jodatime\DateConverterForJodaLocalDateTimeTest.java,jmock,org.jmock.auto.Mock
-isis,isis\viewers\wicket\ui\src\test\java\org\apache\isis\viewer\wicket\ui\components\scalars\jodatime\jdk8time\DateConverterForJdk8LocalDateTest.java,jmock,org.jmock.Expectations
-isis,isis\viewers\wicket\ui\src\test\java\org\apache\isis\viewer\wicket\ui\components\scalars\jodatime\jdk8time\DateConverterForJdk8LocalDateTest.java,jmock,org.jmock.auto.Mock
-isis,isis\viewers\wicket\ui\src\test\java\org\apache\isis\viewer\wicket\ui\components\scalars\jodatime\jdk8time\DateConverterForJdk8LocalDateTimeTest.java,jmock,org.jmock.Expectations
-isis,isis\viewers\wicket\ui\src\test\java\org\apache\isis\viewer\wicket\ui\components\scalars\jodatime\jdk8time\DateConverterForJdk8LocalDateTimeTest.java,jmock,org.jmock.auto.Mock
-isis,isis\viewers\wicket\ui\src\test\java\org\apache\isis\viewer\wicket\ui\components\scalars\jodatime\jdk8time\DateConverterForJdk8OffsetDateTimeTest.java,jmock,org.jmock.Expectations
-isis,isis\viewers\wicket\ui\src\test\java\org\apache\isis\viewer\wicket\ui\components\scalars\jodatime\jdk8time\DateConverterForJdk8OffsetDateTimeTest.java,jmock,org.jmock.auto.Mock
 isis,isis\viewers\wicket\ui\src\test\java\org\apache\isis\viewer\wicket\ui\components\widgets\valuechoices\ObjectAdapterMementoProviderForValueChoicesTest.java,jmock,org.jmock.Expectations
 isis,isis\viewers\wicket\ui\src\test\java\org\apache\isis\viewer\wicket\ui\components\widgets\valuechoices\ObjectAdapterMementoProviderForValueChoicesTest.java,jmock,org.jmock.auto.Mock
 isis,isis\viewers\wicket\ui\src\test\java\org\apache\isis\viewer\wicket\ui\pages\accmngt\SuccessFeedbackCookieUtilTest.java,mockito,static org.mockito.Mockito.mock
@@ -3245,12 +3274,6 @@ jackrabbit,jackrabbit\jackrabbit-jcr-server\src\test\java\org\apache\jackrabbit\
 jackrabbit,jackrabbit\jackrabbit-jcr-server\src\test\java\org\apache\jackrabbit\server\remoting\davex\JsonWriterTest.java,easymock,org.easymock.IAnswer
 jackrabbit,jackrabbit\jackrabbit-jcr-server\src\test\java\org\apache\jackrabbit\server\remoting\davex\JsonWriterTest.java,easymock,static org.easymock.EasyMock.*
 jackrabbit,jackrabbit\jackrabbit-jcr-server\src\test\java\org\apache\jackrabbit\webdav\jcr\observation\InfoMapTest.java,mockito,org.mockito.Mockito
-jakarta-cactus,jakarta-cactus\framework\framework-12-13-14\src\test\java\org\apache\cactus\server\runner\TestServletTestRunner.java,jmock,org.jmock.Mock
-jakarta-cactus,jakarta-cactus\framework\framework-12-13-14\src\test\java\org\apache\cactus\server\runner\TestServletTestRunner.java,jmock,org.jmock.MockObjectTestCase
-jakarta-cactus,jakarta-cactus\framework\framework-13-14\src\test\java\org\apache\cactus\extension\jetty\TestJettyTestSetup.java,jmock,org.jmock.Mock
-jakarta-cactus,jakarta-cactus\framework\framework-13-14\src\test\java\org\apache\cactus\extension\jetty\TestJettyTestSetup.java,jmock,org.jmock.MockObjectTestCase
-jakarta-cactus,jakarta-cactus\integration\ant\src\test\java\org\apache\cactus\integration\ant\deployment\TestEarParser.java,jmock,org.jmock.Mock
-jakarta-cactus,jakarta-cactus\integration\ant\src\test\java\org\apache\cactus\integration\ant\deployment\TestEarParser.java,jmock,org.jmock.MockObjectTestCase
 jclouds,jclouds\apis\atmos\src\test\java\org\jclouds\atmos\filters\SignRequestTest.java,jclouds,org.jclouds.rest.internal.BaseRestApiTest.MockModule
 jclouds,jclouds\apis\atmos\src\test\java\org\jclouds\atmos\handlers\AtmosServerErrorRetryHandlerTest.java,easymock,static org.easymock.EasyMock.createMock
 jclouds,jclouds\apis\atmos\src\test\java\org\jclouds\atmos\handlers\AtmosServerErrorRetryHandlerTest.java,easymock,static org.easymock.EasyMock.expect
@@ -3450,6 +3473,12 @@ jclouds,jclouds\apis\elasticstack\src\test\java\org\jclouds\elasticstack\handler
 jclouds,jclouds\apis\elasticstack\src\test\java\org\jclouds\elasticstack\handlers\ElasticStackErrorHandlerTest.java,easymock,static org.easymock.EasyMock.reportMatcher
 jclouds,jclouds\apis\elasticstack\src\test\java\org\jclouds\elasticstack\handlers\ElasticStackErrorHandlerTest.java,easymock,static org.easymock.EasyMock.verify
 jclouds,jclouds\apis\elasticstack\src\test\java\org\jclouds\elasticstack\handlers\ElasticStackErrorHandlerTest.java,easymock,org.easymock.IArgumentMatcher
+jclouds,jclouds\apis\glacier\src\test\java\org\jclouds\glacier\GlacierClientMockTest.java,mockwebserver,okhttp3.mockwebserver.MockResponse
+jclouds,jclouds\apis\glacier\src\test\java\org\jclouds\glacier\GlacierClientMockTest.java,mockwebserver,okhttp3.mockwebserver.MockWebServer
+jclouds,jclouds\apis\glacier\src\test\java\org\jclouds\glacier\GlacierClientMockTest.java,mockwebserver,okhttp3.mockwebserver.RecordedRequest
+jclouds,jclouds\apis\glacier\src\test\java\org\jclouds\glacier\blobstore\strategy\internal\MultipartUploadStrategyMockTest.java,mockwebserver,okhttp3.mockwebserver.MockResponse
+jclouds,jclouds\apis\glacier\src\test\java\org\jclouds\glacier\blobstore\strategy\internal\MultipartUploadStrategyMockTest.java,mockwebserver,okhttp3.mockwebserver.MockWebServer
+jclouds,jclouds\apis\glacier\src\test\java\org\jclouds\glacier\blobstore\strategy\internal\MultipartUploadStrategyMockTest.java,mockwebserver,okhttp3.mockwebserver.RecordedRequest
 jclouds,jclouds\apis\oauth\src\test\java\org\jclouds\oauth\v2\AuthorizationApiMockTest.java,mockwebserver,okhttp3.mockwebserver.MockResponse
 jclouds,jclouds\apis\oauth\src\test\java\org\jclouds\oauth\v2\AuthorizationApiMockTest.java,mockwebserver,okhttp3.mockwebserver.MockWebServer
 jclouds,jclouds\apis\oauth\src\test\java\org\jclouds\oauth\v2\AuthorizationApiMockTest.java,mockwebserver,okhttp3.mockwebserver.RecordedRequest

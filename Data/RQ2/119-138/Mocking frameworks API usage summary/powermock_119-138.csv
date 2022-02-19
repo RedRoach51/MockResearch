@@ -1,5 +1,5 @@
 method, origin, count
-mockStatic,org.powermock.api.mockito.PowerMockito,36
+mockStatic,org.powermock.api.mockito.PowerMockito,34
 setInternalState,org.powermock.reflect.Whitebox,11
 getInternalState,org.powermock.reflect.Whitebox,1
 doReturn,org.powermock.api.mockito.PowerMockito,2

@@ -5,18 +5,31 @@ Inside classes:
  
 Outside classes: 
  
+org.apache.hc.core5.concurrent.FutureCallback
 org.apache.hc.core5.http.io.HttpClientConnection
 org.apache.hc.core5.http.protocol.HttpProcessor
 org.apache.hc.core5.http.io.HttpResponseInformationCallback
 org.apache.hc.core5.http.HttpEntity
+java.net.Socket
 java.io.OutputStream
 java.io.InputStream
 javax.net.ssl.SSLSession
+org.apache.hc.core5.http.ConnectionReuseStrategy
+org.apache.hc.core5.http.ClassicHttpResponse
+org.apache.hc.core5.http.HttpResponseFactory<org.apache.hc.core5.http.ClassicHttpResponse>
+org.apache.hc.core5.http.HttpRequestMapper<org.apache.hc.core5.http.io.HttpRequestHandler>
+org.apache.hc.core5.http.io.HttpRequestHandler
+org.apache.hc.core5.http.io.HttpServerConnection
+org.apache.hc.core5.reactor.IOSession
 org.apache.hc.core5.http.io.EofSensorWatcher
+org.apache.hc.core5.reactor.ssl.SSLSessionVerifier
 org.apache.hc.core5.http.nio.CapacityChannel
 org.apache.hc.core5.http.nio.DataStreamChannel
 org.apache.hc.core5.http.HttpConnection
 org.apache.hc.core5.reactor.IOEventHandlerFactory
+java.util.concurrent.Future<org.apache.hc.core5.reactor.IOSession>
+org.apache.hc.core5.concurrent.FutureCallback<org.apache.hc.core5.reactor.IOSession>
+org.mockito.ArgumentCaptor<org.apache.hc.core5.concurrent.FutureCallback<org.apache.hc.core5.reactor.IOSession>>
 org.apache.hc.core5.reactor.AbstractIOSessionPool
 org.apache.hc.core5.testing.framework.TestingFrameworkRequestHandler
 org.apache.hc.core5.testing.framework.ClientTestingAdapter

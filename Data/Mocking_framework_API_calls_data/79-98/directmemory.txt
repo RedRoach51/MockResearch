@@ -1,15 +1,5 @@
-	Method name: setContextPath
-	Class origin: org.springframework.mock.web.MockServletContext
-	Count: 1
- 
-	Method name: addHeader
-	Class origin: org.springframework.mock.web.MockHttpServletRequest
-	Count: 6
- 
-	Method name: getStatus
-	Class origin: org.springframework.mock.web.MockHttpServletResponse
-	Count: 10
- 
+/directmemory-server/src/test/java/org/apache/directmemory/server/services/DirectMemoryServletTest.java
+Methods Invoked: 
 	Method name: setContextPath
 	Class origin: org.springframework.mock.web.MockServletContext
 	Count: 1

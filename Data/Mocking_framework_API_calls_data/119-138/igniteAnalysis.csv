@@ -1,34 +1,34 @@
 method, origin, count
-mock,org.mockito.Mockito,170
-thenReturn,org.mockito.stubbing.OngoingStubbing<java.lang.Integer>,34
-when,org.mockito.Mockito,202
-anyString,org.mockito.ArgumentMatchers,10
-spy,org.mockito.Mockito,30
-any,org.mockito.ArgumentMatchers,80
-callRealMethod,org.mockito.invocation.InvocationOnMock,22
-doReturn,org.mockito.Mockito,16
-verify,org.mockito.Mockito,36
-thenAnswer,org.mockito.stubbing.OngoingStubbing<java.lang.management.MemoryUsage>,4
-newSet,org.mockito.internal.util.collections.Sets,8
-doAnswer,org.mockito.Mockito,12
-getArgument,org.mockito.invocation.InvocationOnMock,2
-eq,org.mockito.ArgumentMatchers,4
-anyInt,org.mockito.ArgumentMatchers,2
-anyBoolean,org.mockito.ArgumentMatchers,2
-then,org.mockito.stubbing.OngoingStubbing<java.lang.Integer>,2
-startClientAndServer,org.mockserver.integration.ClientAndServer,4
-stop,org.mockserver.integration.ClientAndServer,4
-getLocalPort,org.mockserver.integration.ClientAndServer,4
-respond,org.mockserver.client.ForwardChainExpectation,6
-withPath,org.mockserver.model.HttpRequest,6
-withMethod,org.mockserver.model.HttpRequest,6
-request,org.mockserver.model.HttpRequest,6
-exactly,org.mockserver.matchers.Times,6
-withStatusCode,org.mockserver.model.HttpResponse,6
-response,org.mockserver.model.HttpResponse,6
-withBody,org.mockserver.model.HttpResponse,2
-times,org.mockito.Mockito,34
+mock,org.mockito.Mockito,85
+thenReturn,org.mockito.stubbing.OngoingStubbing<java.lang.Integer>,17
+when,org.mockito.Mockito,101
+anyString,org.mockito.ArgumentMatchers,5
+spy,org.mockito.Mockito,15
+any,org.mockito.ArgumentMatchers,40
+callRealMethod,org.mockito.invocation.InvocationOnMock,11
+doReturn,org.mockito.Mockito,8
+verify,org.mockito.Mockito,18
+thenAnswer,org.mockito.stubbing.OngoingStubbing<java.lang.management.MemoryUsage>,2
+newSet,org.mockito.internal.util.collections.Sets,4
+doAnswer,org.mockito.Mockito,6
+getArgument,org.mockito.invocation.InvocationOnMock,1
+eq,org.mockito.ArgumentMatchers,2
+anyInt,org.mockito.ArgumentMatchers,1
+anyBoolean,org.mockito.ArgumentMatchers,1
+then,org.mockito.stubbing.OngoingStubbing<java.lang.Integer>,1
+startClientAndServer,org.mockserver.integration.ClientAndServer,2
+stop,org.mockserver.integration.ClientAndServer,2
+getLocalPort,org.mockserver.integration.ClientAndServer,2
+respond,org.mockserver.client.ForwardChainExpectation,3
+withPath,org.mockserver.model.HttpRequest,3
+withMethod,org.mockserver.model.HttpRequest,3
+request,org.mockserver.model.HttpRequest,3
+exactly,org.mockserver.matchers.Times,3
+withStatusCode,org.mockserver.model.HttpResponse,3
+response,org.mockserver.model.HttpResponse,3
+withBody,org.mockserver.model.HttpResponse,1
+times,org.mockito.Mockito,17
 
-MockedObjects: ,170
+MockedObjects: ,85
 
-# of Mocked objects each file:,3|3|12|1|2|3|1|3|7|1|1|4|4|1|1|1|3|1|1|8|1|1|1|1|3|4|4|1|3|1|4|3|3|12|1|2|3|1|3|7|1|1|4|4|1|1|1|3|1|1|8|1|1|1|1|3|4|4|1|3|1|4|
+# of Mocked objects each file:,3|3|12|1|2|3|1|3|7|1|1|4|4|1|1|1|3|1|1|8|1|1|1|1|3|4|4|1|3|1|4|

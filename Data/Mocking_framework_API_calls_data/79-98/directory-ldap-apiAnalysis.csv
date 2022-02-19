@@ -1,5 +1,5 @@
 method, origin, count
-times,org.mockito.Mockito,75
+times,org.mockito.Mockito,25
 
 MockedObjects: ,0
 

@@ -1,12 +1,12 @@
 method, origin, count
-startClientAndServer,org.mockserver.integration.ClientAndServer,4
-stop,org.mockserver.integration.ClientAndServer,4
-getLocalPort,org.mockserver.integration.ClientAndServer,4
-respond,org.mockserver.client.ForwardChainExpectation,6
-withPath,org.mockserver.model.HttpRequest,6
-withMethod,org.mockserver.model.HttpRequest,6
-request,org.mockserver.model.HttpRequest,6
-exactly,org.mockserver.matchers.Times,6
-withStatusCode,org.mockserver.model.HttpResponse,6
-response,org.mockserver.model.HttpResponse,6
-withBody,org.mockserver.model.HttpResponse,2
+startClientAndServer,org.mockserver.integration.ClientAndServer,2
+stop,org.mockserver.integration.ClientAndServer,2
+getLocalPort,org.mockserver.integration.ClientAndServer,2
+respond,org.mockserver.client.ForwardChainExpectation,3
+withPath,org.mockserver.model.HttpRequest,3
+withMethod,org.mockserver.model.HttpRequest,3
+request,org.mockserver.model.HttpRequest,3
+exactly,org.mockserver.matchers.Times,3
+withStatusCode,org.mockserver.model.HttpResponse,3
+response,org.mockserver.model.HttpResponse,3
+withBody,org.mockserver.model.HttpResponse,1

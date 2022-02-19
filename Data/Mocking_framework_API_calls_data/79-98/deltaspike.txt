@@ -1,3 +1,11 @@
+/deltaspike-cdictrl-owb/src/main/java/org/apache/deltaspike/cdise/owb/OwbHelper.java
+Methods Invoked: 
+/deltaspike-cdictrl-owb/src/main/java/org/apache/deltaspike/cdise/owb/MockServletContext.java
+Methods Invoked: 
+/deltaspike-test-control-module-impl/src/main/java/org/apache/deltaspike/testcontrol/impl/jsf/MockedJsf2TestContainer.java
+Methods Invoked: 
+/deltaspike-test-control-module-impl/src/test/java/org/apache/deltaspike/test/testcontrol/mock/uc010/MockedRequestScopedBeanTest.java
+Methods Invoked: 
 	Method name: mock
 	Class origin: org.mockito.Mockito
 	Count: 2
@@ -10,30 +18,8 @@
 	Class origin: org.mockito.Mockito
 	Count: 2
  
-	Method name: mock
-	Class origin: org.mockito.Mockito
-	Count: 2
- 
-	Method name: thenReturn
-	Class origin: org.mockito.stubbing.OngoingStubbing<java.lang.Integer>
-	Count: 2
- 
-	Method name: when
-	Class origin: org.mockito.Mockito
-	Count: 2
- 
-	Method name: mock
-	Class origin: org.mockito.Mockito
-	Count: 2
- 
-	Method name: thenReturn
-	Class origin: org.mockito.stubbing.OngoingStubbing<java.lang.Integer>
-	Count: 2
- 
-	Method name: when
-	Class origin: org.mockito.Mockito
-	Count: 2
- 
+/deltaspike-test-control-module-impl/src/test/java/org/apache/deltaspike/test/testcontrol/mock/uc012/MockedRequestScopedBeanWithInjectionTest.java
+Methods Invoked: 
 	Method name: mock
 	Class origin: org.mockito.Mockito
 	Count: 2

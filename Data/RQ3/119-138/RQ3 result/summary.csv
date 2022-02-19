@@ -1,0 +1,19 @@
+project name, variety of inside mocked classes, variety of outside mocked classes, proportion of mocked classes
+ant-ivyde,0,0,
+ant-ivy,0,0,
+guacamole-client,0,0,
+hama,0,0,
+hbase,169,43,
+helix,46,8,
+hive,184,75,
+hop,175,103,
+httpcomponents-client,0,68,
+httpcomponents-core,0,28,
+hudi,28,21,
+ignite,38,12,
+iotdb,8,2,
+jackrabbit,1,4,
+jclouds,0,0,
+ 
+more inside classes mocked: ,more outside classes mocked: 
+7,3

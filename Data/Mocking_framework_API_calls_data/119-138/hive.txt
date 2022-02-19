@@ -1,3 +1,5 @@
+/hive-accumulo-handler/src/test/org/apache/hadoop/hive/accumulo/TestHiveAccumuloHelper.java
+Methods Invoked: 
 	Method name: mock
 	Class origin: org.mockito.Mockito
 	Count: 23
@@ -6,14 +8,20 @@
 	Class origin: org.mockito.Mockito
 	Count: 36
  
+/hive-accumulo-handler/src/test/org/apache/hadoop/hive/accumulo/TestAccumuloConnectionParameters.java
+Methods Invoked: 
 	Method name: mock
 	Class origin: org.mockito.Mockito
 	Count: 2
  
+/hive-accumulo-handler/src/test/org/apache/hadoop/hive/accumulo/TestAccumuloDefaultIndexScanner.java
+Methods Invoked: 
 	Method name: mock
 	Class origin: org.mockito.Mockito
 	Count: 2
  
+/hive-accumulo-handler/src/test/org/apache/hadoop/hive/accumulo/TestAccumuloStorageHandler.java
+Methods Invoked: 
 	Method name: mock
 	Class origin: org.mockito.Mockito
 	Count: 43
@@ -26,6 +34,8 @@
 	Class origin: org.mockito.Mockito
 	Count: 51
  
+/hive-accumulo-handler/src/test/org/apache/hadoop/hive/accumulo/mr/TestHiveAccumuloTableInputFormat.java
+Methods Invoked: 
 	Method name: mock
 	Class origin: org.mockito.Mockito
 	Count: 15
@@ -38,18 +48,26 @@
 	Class origin: org.mockito.ArgumentMatchers
 	Count: 2
  
+/hive-accumulo-handler/src/test/org/apache/hadoop/hive/accumulo/mr/TestHiveAccumuloTableOutputFormat.java
+Methods Invoked: 
 	Method name: mock
 	Class origin: org.mockito.Mockito
 	Count: 10
  
+/hive-accumulo-handler/src/test/org/apache/hadoop/hive/accumulo/predicate/TestAccumuloPredicateHandler.java
+Methods Invoked: 
 	Method name: mock
 	Class origin: org.mockito.Mockito
 	Count: 8
  
+/hive-accumulo-handler/src/test/org/apache/hadoop/hive/accumulo/serde/TestAccumuloRowSerializer.java
+Methods Invoked: 
 	Method name: mock
 	Class origin: org.mockito.Mockito
 	Count: 3
  
+/hive-beeline/src/test/org/apache/hive/beeline/TestIncrementalRows.java
+Methods Invoked: 
 	Method name: mock
 	Class origin: org.mockito.Mockito
 	Count: 4
@@ -62,10 +80,14 @@
 	Class origin: org.mockito.Mockito
 	Count: 15
  
+/hive-beeline/src/test/org/apache/hive/beeline/TestBufferedRows.java
+Methods Invoked: 
 	Method name: mock
 	Class origin: org.mockito.Mockito
 	Count: 4
  
+/hive-beeline/src/test/org/apache/hive/beeline/TestJSONFileOutputFormat.java
+Methods Invoked: 
 	Method name: spy
 	Class origin: org.mockito.Mockito
 	Count: 1
@@ -94,14 +116,20 @@
 	Class origin: org.mockito.Mockito
 	Count: 2
  
+/hive-beeline/src/test/org/apache/hive/beeline/TestClientCommandHookFactory.java
+Methods Invoked: 
 	Method name: mock
 	Class origin: org.mockito.Mockito
 	Count: 4
  
+/hive-beeline/src/test/org/apache/hive/beeline/TestTableOutputFormat.java
+Methods Invoked: 
 	Method name: mock
 	Class origin: org.mockito.Mockito
 	Count: 2
  
+/hive-beeline/src/test/org/apache/hive/beeline/TestBeeLineOpts.java
+Methods Invoked: 
 	Method name: mock
 	Class origin: org.mockito.Mockito
 	Count: 1
@@ -114,6 +142,8 @@
 	Class origin: org.mockito.Mockito
 	Count: 2
  
+/hive-beeline/src/test/org/apache/hive/beeline/TestJSONOutputFormat.java
+Methods Invoked: 
 	Method name: spy
 	Class origin: org.mockito.Mockito
 	Count: 1
@@ -142,6 +172,8 @@
 	Class origin: org.mockito.Mockito
 	Count: 2
  
+/hive-beeline/src/test/org/apache/hive/beeline/schematool/TestHiveSchemaTool.java
+Methods Invoked: 
 	Method name: mockStatic
 	Class origin: org.powermock.api.mockito.PowerMockito
 	Count: 1
@@ -162,6 +194,8 @@
 	Class origin: org.mockito.ArgumentMatchers
 	Count: 4
  
+/hive-cli/src/test/org/apache/hadoop/hive/cli/TestCliDriverMethods.java
+Methods Invoked: 
 	Method name: mock
 	Class origin: org.mockito.Mockito
 	Count: 7
@@ -178,6 +212,8 @@
 	Class origin: org.mockito.Mockito
 	Count: 1
  
+/hive-common/src/test/org/apache/hadoop/hive/common/TestFileUtils.java
+Methods Invoked: 
 	Method name: mock
 	Class origin: org.mockito.Mockito
 	Count: 4
@@ -190,6 +226,8 @@
 	Class origin: org.mockito.Mockito
 	Count: 7
  
+/hive-common/src/test/org/apache/hadoop/hive/common/TestBlobStorageUtils.java
+Methods Invoked: 
 	Method name: mock
 	Class origin: org.mockito.Mockito
 	Count: 1
@@ -202,6 +240,8 @@
 	Class origin: org.mockito.Mockito
 	Count: 4
  
+/hive-druid-handler/src/test/org/apache/hadoop/hive/druid/TestDruidStorageHandler.java
+Methods Invoked: 
 	Method name: thenReturn
 	Class origin: org.mockito.stubbing.OngoingStubbing<java.util.Map<java.lang.String,java.lang.String>>
 	Count: 1
@@ -214,6 +254,8 @@
 	Class origin: org.mockito.stubbing.OngoingStubbing<java.lang.Integer>
 	Count: 2
  
+/hive-druid-handler/src/test/org/apache/hadoop/hive/druid/serde/TestDruidSerDe.java
+Methods Invoked: 
 	Method name: mock
 	Class origin: org.mockito.Mockito
 	Count: 1
@@ -234,6 +276,8 @@
 	Class origin: org.mockito.ArgumentMatchers
 	Count: 2
  
+/hive-exec/src/test/org/apache/hadoop/hive/ql/TestTxnCommands2.java
+Methods Invoked: 
 	Method name: spy
 	Class origin: org.mockito.Mockito
 	Count: 2
@@ -254,6 +298,8 @@
 	Class origin: org.mockito.ArgumentMatchers
 	Count: 6
  
+/hive-exec/src/test/org/apache/hadoop/hive/ql/TestTxnCommands3.java
+Methods Invoked: 
 	Method name: spy
 	Class origin: org.mockito.Mockito
 	Count: 4
@@ -272,8 +318,10 @@
  
 	Method name: any
 	Class origin: org.mockito.ArgumentMatchers
-	Count: 20
+	Count: 18
  
+/hive-exec/src/test/org/apache/hadoop/hive/ql/TestCompileLock.java
+Methods Invoked: 
 	Method name: spy
 	Class origin: org.mockito.Mockito
 	Count: 1
@@ -290,6 +338,8 @@
 	Class origin: org.mockito.ArgumentMatchers
 	Count: 6
  
+/hive-exec/src/test/org/apache/hadoop/hive/ql/exec/TestContext.java
+Methods Invoked: 
 	Method name: spy
 	Class origin: org.mockito.Mockito
 	Count: 1
@@ -302,6 +352,8 @@
 	Class origin: org.mockito.Mockito
 	Count: 2
  
+/hive-exec/src/test/org/apache/hadoop/hive/ql/exec/TestMsckDropPartitionsInBatches.java
+Methods Invoked: 
 	Method name: spy
 	Class origin: org.mockito.Mockito
 	Count: 1
@@ -314,10 +366,14 @@
 	Class origin: org.mockito.stubbing.BaseStubber
 	Count: 2
  
+/hive-exec/src/test/org/apache/hadoop/hive/ql/exec/TestExplainTask.java
+Methods Invoked: 
 	Method name: mock
 	Class origin: org.mockito.Mockito
 	Count: 17
  
+/hive-exec/src/test/org/apache/hadoop/hive/ql/exec/TestMsckCreatePartitionsInBatches.java
+Methods Invoked: 
 	Method name: spy
 	Class origin: org.mockito.Mockito
 	Count: 8
@@ -326,6 +382,8 @@
 	Class origin: org.mockito.ArgumentCaptor
 	Count: 24
  
+/hive-exec/src/test/org/apache/hadoop/hive/ql/exec/TestUtilities.java
+Methods Invoked: 
 	Method name: mock
 	Class origin: org.mockito.Mockito
 	Count: 29
@@ -338,10 +396,14 @@
 	Class origin: org.mockito.Mockito
 	Count: 27
  
+/hive-exec/src/test/org/apache/hadoop/hive/ql/exec/TestFileSinkOperator.java
+Methods Invoked: 
 	Method name: mock
 	Class origin: org.mockito.Mockito
 	Count: 1
  
+/hive-exec/src/test/org/apache/hadoop/hive/ql/exec/TestOperators.java
+Methods Invoked: 
 	Method name: mock
 	Class origin: org.mockito.Mockito
 	Count: 1
@@ -354,6 +416,8 @@
 	Class origin: org.mockito.Mockito
 	Count: 3
  
+/hive-exec/src/test/org/apache/hadoop/hive/ql/exec/TestGetInputSummary.java
+Methods Invoked: 
 	Method name: mock
 	Class origin: org.mockito.Mockito
 	Count: 6
@@ -370,6 +434,8 @@
 	Class origin: org.mockito.ArgumentMatchers
 	Count: 4
  
+/hive-exec/src/test/org/apache/hadoop/hive/ql/exec/mr/TestMapRedTask.java
+Methods Invoked: 
 	Method name: mock
 	Class origin: org.mockito.Mockito
 	Count: 4
@@ -382,6 +448,8 @@
 	Class origin: org.mockito.Mockito
 	Count: 1
  
+/hive-exec/src/test/org/apache/hadoop/hive/ql/exec/mr/TestMapredLocalTask.java
+Methods Invoked: 
 	Method name: mock
 	Class origin: org.mockito.Mockito
 	Count: 1
@@ -394,6 +462,8 @@
 	Class origin: org.mockito.Mockito
 	Count: 1
  
+/hive-exec/src/test/org/apache/hadoop/hive/ql/exec/repl/TestAtlasDumpTask.java
+Methods Invoked: 
 	Method name: when
 	Class origin: org.mockito.Mockito
 	Count: 10
@@ -402,6 +472,8 @@
 	Class origin: org.mockito.stubbing.OngoingStubbing<java.lang.String>
 	Count: 9
  
+/hive-exec/src/test/org/apache/hadoop/hive/ql/exec/repl/TestReplDumpTask.java
+Methods Invoked: 
 	Method name: mock
 	Class origin: org.mockito.Mockito
 	Count: 3
@@ -430,6 +502,8 @@
 	Class origin: org.mockito.stubbing.OngoingStubbing<java.util.Collection<java.lang.String>>
 	Count: 1
  
+/hive-exec/src/test/org/apache/hadoop/hive/ql/exec/repl/TestRangerLoadTask.java
+Methods Invoked: 
 	Method name: when
 	Class origin: org.mockito.Mockito
 	Count: 29
@@ -442,6 +516,8 @@
 	Class origin: org.mockito.ArgumentMatchers
 	Count: 6
  
+/hive-exec/src/test/org/apache/hadoop/hive/ql/exec/repl/TestRangerDumpTask.java
+Methods Invoked: 
 	Method name: when
 	Class origin: org.mockito.Mockito
 	Count: 28
@@ -454,6 +530,8 @@
 	Class origin: org.mockito.stubbing.OngoingStubbing<java.lang.Boolean>
 	Count: 1
  
+/hive-exec/src/test/org/apache/hadoop/hive/ql/exec/repl/TestAtlasLoadTask.java
+Methods Invoked: 
 	Method name: when
 	Class origin: org.mockito.Mockito
 	Count: 2
@@ -466,6 +544,8 @@
 	Class origin: org.mockito.stubbing.OngoingStubbing<java.lang.Boolean>
 	Count: 1
  
+/hive-exec/src/test/org/apache/hadoop/hive/ql/exec/repl/bootstrap/AddDependencyToLeavesTest.java
+Methods Invoked: 
 	Method name: mock
 	Class origin: org.mockito.Mockito
 	Count: 3
@@ -474,10 +554,14 @@
 	Class origin: org.mockito.Mockito
 	Count: 1
  
+/hive-exec/src/test/org/apache/hadoop/hive/ql/exec/repl/dump/TestUtils.java
+Methods Invoked: 
 	Method name: when
 	Class origin: org.mockito.Mockito
 	Count: 2
  
+/hive-exec/src/test/org/apache/hadoop/hive/ql/exec/repl/ranger/TestRangerRestClient.java
+Methods Invoked: 
 	Method name: mockStatic
 	Class origin: org.powermock.api.mockito.PowerMockito
 	Count: 1
@@ -490,6 +574,8 @@
 	Class origin: org.mockito.stubbing.OngoingStubbing<java.lang.Object>
 	Count: 2
  
+/hive-exec/src/test/org/apache/hadoop/hive/ql/exec/repl/util/TestFileList.java
+Methods Invoked: 
 	Method name: forClass
 	Class origin: org.mockito.ArgumentCaptor
 	Count: 2
@@ -506,10 +592,14 @@
 	Class origin: org.mockito.ArgumentCaptor<java.lang.String>
 	Count: 2
  
+/hive-exec/src/test/org/apache/hadoop/hive/ql/exec/spark/TestSparkUtilities.java
+Methods Invoked: 
 	Method name: mock
 	Class origin: org.mockito.Mockito
 	Count: 7
  
+/hive-exec/src/test/org/apache/hadoop/hive/ql/exec/spark/TestHiveSparkClient.java
+Methods Invoked: 
 	Method name: mock
 	Class origin: org.mockito.Mockito
 	Count: 1
@@ -518,6 +608,8 @@
 	Class origin: org.mockito.Mockito
 	Count: 1
  
+/hive-exec/src/test/org/apache/hadoop/hive/ql/exec/spark/TestSparkTask.java
+Methods Invoked: 
 	Method name: mock
 	Class origin: org.mockito.Mockito
 	Count: 12
@@ -530,6 +622,22 @@
 	Class origin: org.mockito.Mockito
 	Count: 1
  
+/hive-exec/src/test/org/apache/hadoop/hive/ql/exec/tez/TestTezProcessor.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 6
+ 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<java.lang.String>
+	Count: 1
+ 
+/hive-exec/src/test/org/apache/hadoop/hive/ql/exec/tez/TestHostAffinitySplitLocationProvider.java
+Methods Invoked: 
 	Method name: mock
 	Class origin: org.mockito.Mockito
 	Count: 4
@@ -546,10 +654,14 @@
 	Class origin: org.mockito.stubbing.OngoingStubbing<java.lang.String>
 	Count: 1
  
+/hive-exec/src/test/org/apache/hadoop/hive/ql/exec/tez/TestTezTask.java
+Methods Invoked: 
 	Method name: mock
 	Class origin: org.mockito.Mockito
 	Count: 18
  
+/hive-exec/src/test/org/apache/hadoop/hive/ql/exec/tez/TestUtils.java
+Methods Invoked: 
 	Method name: initMocks
 	Class origin: org.mockito.MockitoAnnotations
 	Count: 1
@@ -558,6 +670,8 @@
 	Class origin: org.mockito.Mockito
 	Count: 2
  
+/hive-exec/src/test/org/apache/hadoop/hive/ql/exec/tez/TestCustomPartitionVertex.java
+Methods Invoked: 
 	Method name: mock
 	Class origin: org.mockito.Mockito
 	Count: 1
@@ -566,6 +680,8 @@
 	Class origin: org.mockito.Mockito
 	Count: 1
  
+/hive-exec/src/test/org/apache/hadoop/hive/ql/exec/tez/TestTezSessionPool.java
+Methods Invoked: 
 	Method name: mock
 	Class origin: org.mockito.Mockito
 	Count: 3
@@ -582,6 +698,8 @@
 	Class origin: org.mockito.stubbing.OngoingStubbing<java.lang.Boolean>
 	Count: 3
  
+/hive-exec/src/test/org/apache/hadoop/hive/ql/exec/tez/TestWorkloadManager.java
+Methods Invoked: 
 	Method name: mock
 	Class origin: org.mockito.Mockito
 	Count: 2
@@ -606,14 +724,20 @@
 	Class origin: org.mockito.Mockito
 	Count: 2
  
+/hive-exec/src/test/org/apache/hadoop/hive/ql/exec/tez/TestDagUtils.java
+Methods Invoked: 
 	Method name: mock
 	Class origin: org.mockito.Mockito
 	Count: 2
  
+/hive-exec/src/test/org/apache/hadoop/hive/ql/exec/tez/TestDynamicPartitionPruner.java
+Methods Invoked: 
 	Method name: mock
 	Class origin: org.mockito.Mockito
 	Count: 15
  
+/hive-exec/src/test/org/apache/hadoop/hive/ql/exec/tez/monitoring/TestTezProgressMonitor.java
+Methods Invoked: 
 	Method name: thenReturn
 	Class origin: org.mockito.stubbing.OngoingStubbing<java.lang.Integer>
 	Count: 5
@@ -622,6 +746,8 @@
 	Class origin: org.mockito.Mockito
 	Count: 8
  
+/hive-exec/src/test/org/apache/hadoop/hive/ql/exec/util/TestRetryable.java
+Methods Invoked: 
 	Method name: mockStatic
 	Class origin: org.powermock.api.mockito.PowerMockito
 	Count: 1
@@ -634,6 +760,8 @@
 	Class origin: org.mockito.Mockito
 	Count: 6
  
+/hive-exec/src/test/org/apache/hadoop/hive/ql/exec/util/DAGTraversalTest.java
+Methods Invoked: 
 	Method name: mock
 	Class origin: org.mockito.Mockito
 	Count: 2
@@ -642,6 +770,8 @@
 	Class origin: org.mockito.Mockito
 	Count: 2
  
+/hive-exec/src/test/org/apache/hadoop/hive/ql/exec/vector/TestVectorGroupByOperator.java
+Methods Invoked: 
 	Method name: spy
 	Class origin: org.mockito.Mockito
 	Count: 1
@@ -666,6 +796,8 @@
 	Class origin: org.mockito.Mockito
 	Count: 3
  
+/hive-exec/src/test/org/apache/hadoop/hive/ql/hooks/TestQueryHooks.java
+Methods Invoked: 
 	Method name: mock
 	Class origin: org.mockito.Mockito
 	Count: 5
@@ -678,6 +810,8 @@
 	Class origin: org.mockito.ArgumentMatchers
 	Count: 18
  
+/hive-exec/src/test/org/apache/hadoop/hive/ql/io/TestHiveBinarySearchRecordReader.java
+Methods Invoked: 
 	Method name: mock
 	Class origin: org.mockito.Mockito
 	Count: 1
@@ -694,6 +828,8 @@
 	Class origin: org.mockito.ArgumentMatchers
 	Count: 2
  
+/hive-exec/src/test/org/apache/hadoop/hive/ql/io/TestAcidInputFormat.java
+Methods Invoked: 
 	Method name: thenReturn
 	Class origin: org.mockito.stubbing.OngoingStubbing<java.lang.Long>
 	Count: 3
@@ -706,6 +842,8 @@
 	Class origin: org.mockito.stubbing.OngoingStubbing<java.lang.Integer>
 	Count: 3
  
+/hive-exec/src/test/org/apache/hadoop/hive/ql/io/avro/TestAvroGenericRecordReader.java
+Methods Invoked: 
 	Method name: initMocks
 	Class origin: org.mockito.MockitoAnnotations
 	Count: 1
@@ -718,6 +856,8 @@
 	Class origin: org.mockito.Mockito
 	Count: 1
  
+/hive-exec/src/test/org/apache/hadoop/hive/ql/io/orc/TestOrcRawRecordMerger.java
+Methods Invoked: 
 	Method name: withSettings
 	Class origin: org.mockito.Mockito
 	Count: 1
@@ -726,6 +866,8 @@
 	Class origin: org.mockito.Mockito
 	Count: 6
  
+/hive-exec/src/test/org/apache/hadoop/hive/ql/io/orc/TestOrcRecordUpdater.java
+Methods Invoked: 
 	Method name: mock
 	Class origin: org.mockito.Mockito
 	Count: 1
@@ -742,6 +884,8 @@
 	Class origin: org.mockito.stubbing.OngoingStubbing<java.nio.ByteBuffer>
 	Count: 1
  
+/hive-exec/src/test/org/apache/hadoop/hive/ql/io/orc/TestInputOutputFormat.java
+Methods Invoked: 
 	Method name: mock
 	Class origin: org.mockito.Mockito
 	Count: 1
@@ -750,10 +894,14 @@
 	Class origin: org.mockito.Mockito
 	Count: 7
  
+/hive-exec/src/test/org/apache/hadoop/hive/ql/io/parquet/TestMapredParquetInputFormat.java
+Methods Invoked: 
 	Method name: mock
 	Class origin: org.mockito.Mockito
 	Count: 1
  
+/hive-exec/src/test/org/apache/hadoop/hive/ql/io/parquet/TestDataWritableWriter.java
+Methods Invoked: 
 	Method name: initMocks
 	Class origin: org.mockito.MockitoAnnotations
 	Count: 1
@@ -766,10 +914,20 @@
 	Class origin: org.mockito.InOrder
 	Count: 12
  
+/hive-exec/src/test/org/apache/hadoop/hive/ql/io/parquet/TestMapredParquetOutputFormat.java
+Methods Invoked: 
 	Method name: mock
 	Class origin: org.mockito.Mockito
 	Count: 3
  
+/hive-exec/src/test/org/apache/hadoop/hive/ql/lockmgr/TestDbTxnManager2.java
+Methods Invoked: 
+	Method name: spy
+	Class origin: org.mockito.Mockito
+	Count: 4
+ 
+/hive-exec/src/test/org/apache/hadoop/hive/ql/lockmgr/TestDummyTxnManager.java
+Methods Invoked: 
 	Method name: when
 	Class origin: org.mockito.Mockito
 	Count: 4
@@ -782,6 +940,8 @@
 	Class origin: org.mockito.ArgumentMatchers
 	Count: 6
  
+/hive-exec/src/test/org/apache/hadoop/hive/ql/metadata/TestHiveCopyFiles.java
+Methods Invoked: 
 	Method name: spy
 	Class origin: org.mockito.Mockito
 	Count: 2
@@ -794,6 +954,8 @@
 	Class origin: org.mockito.Mockito
 	Count: 2
  
+/hive-exec/src/test/org/apache/hadoop/hive/ql/optimizer/TestGenMapRedUtilsCreateConditionalTask.java
+Methods Invoked: 
 	Method name: mock
 	Class origin: org.mockito.Mockito
 	Count: 10
@@ -806,10 +968,14 @@
 	Class origin: org.mockito.Mockito
 	Count: 14
  
+/hive-exec/src/test/org/apache/hadoop/hive/ql/optimizer/TestColumnPrunerProcCtx.java
+Methods Invoked: 
 	Method name: mock
 	Class origin: org.mockito.Mockito
 	Count: 4
  
+/hive-exec/src/test/org/apache/hadoop/hive/ql/optimizer/calcite/rules/TestHiveReduceExpressionsWithStatsRule.java
+Methods Invoked: 
 	Method name: when
 	Class origin: org.mockito.stubbing.Stubber
 	Count: 6
@@ -818,6 +984,8 @@
 	Class origin: org.mockito.Mockito
 	Count: 6
  
+/hive-exec/src/test/org/apache/hadoop/hive/ql/optimizer/calcite/rules/TestHivePointLookupOptimizerRule.java
+Methods Invoked: 
 	Method name: when
 	Class origin: org.mockito.stubbing.Stubber
 	Count: 4
@@ -826,6 +994,18 @@
 	Class origin: org.mockito.Mockito
 	Count: 3
  
+/hive-exec/src/test/org/apache/hadoop/hive/ql/optimizer/calcite/translator/TestRexNodeConverter.java
+Methods Invoked: 
+	Method name: when
+	Class origin: org.mockito.stubbing.Stubber
+	Count: 1
+ 
+	Method name: doReturn
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+/hive-exec/src/test/org/apache/hadoop/hive/ql/optimizer/physical/TestNullScanTaskDispatcher.java
+Methods Invoked: 
 	Method name: spy
 	Class origin: org.mockito.Mockito
 	Count: 1
@@ -834,6 +1014,8 @@
 	Class origin: org.mockito.Mockito
 	Count: 10
  
+/hive-exec/src/test/org/apache/hadoop/hive/ql/optimizer/signature/TestOpSigFactory.java
+Methods Invoked: 
 	Method name: rule
 	Class origin: org.mockito.junit.MockitoJUnit
 	Count: 1
@@ -850,6 +1032,8 @@
 	Class origin: org.mockito.ArgumentMatchers
 	Count: 3
  
+/hive-exec/src/test/org/apache/hadoop/hive/ql/optimizer/signature/TestRelSignature.java
+Methods Invoked: 
 	Method name: when
 	Class origin: org.mockito.stubbing.Stubber
 	Count: 4
@@ -862,6 +1046,8 @@
 	Class origin: org.mockito.ArgumentMatchers
 	Count: 2
  
+/hive-exec/src/test/org/apache/hadoop/hive/ql/parse/authorization/TestPrivilegesV2.java
+Methods Invoked: 
 	Method name: mock
 	Class origin: org.mockito.Mockito
 	Count: 1
@@ -870,6 +1056,8 @@
 	Class origin: org.mockito.Mockito
 	Count: 3
  
+/hive-exec/src/test/org/apache/hadoop/hive/ql/parse/authorization/TestPrivilegesV1.java
+Methods Invoked: 
 	Method name: mock
 	Class origin: org.mockito.Mockito
 	Count: 1
@@ -878,6 +1066,8 @@
 	Class origin: org.mockito.Mockito
 	Count: 3
  
+/hive-exec/src/test/org/apache/hadoop/hive/ql/parse/authorization/TestHiveAuthorizationTaskFactory.java
+Methods Invoked: 
 	Method name: mock
 	Class origin: org.mockito.Mockito
 	Count: 1
@@ -886,6 +1076,8 @@
 	Class origin: org.mockito.Mockito
 	Count: 3
  
+/hive-exec/src/test/org/apache/hadoop/hive/ql/parse/authorization/TestSessionUserName.java
+Methods Invoked: 
 	Method name: mock
 	Class origin: org.mockito.Mockito
 	Count: 2
@@ -894,6 +1086,8 @@
 	Class origin: org.mockito.Mockito
 	Count: 2
  
+/hive-exec/src/test/org/apache/hadoop/hive/ql/parse/repl/TestCopyUtils.java
+Methods Invoked: 
 	Method name: mockStatic
 	Class origin: org.powermock.api.mockito.PowerMockito
 	Count: 9
@@ -918,6 +1112,8 @@
 	Class origin: org.mockito.Mockito
 	Count: 2
  
+/hive-exec/src/test/org/apache/hadoop/hive/ql/parse/repl/dump/TestHiveWrapper.java
+Methods Invoked: 
 	Method name: inOrder
 	Class origin: org.mockito.Mockito
 	Count: 1
@@ -926,6 +1122,8 @@
 	Class origin: org.mockito.InOrder
 	Count: 2
  
+/hive-exec/src/test/org/apache/hadoop/hive/ql/parse/repl/load/message/TestPrimaryToReplicaResourceFunction.java
+Methods Invoked: 
 	Method name: thenReturn
 	Class origin: org.mockito.stubbing.OngoingStubbing<java.lang.String>
 	Count: 3
@@ -938,6 +1136,8 @@
 	Class origin: org.powermock.api.mockito.PowerMockito
 	Count: 3
  
+/hive-exec/src/test/org/apache/hadoop/hive/ql/parse/repl/metric/TestReplicationMetricSink.java
+Methods Invoked: 
 	Method name: spy
 	Class origin: org.mockito.Mockito
 	Count: 1
@@ -962,6 +1162,8 @@
 	Class origin: org.mockito.stubbing.OngoingStubbing<java.lang.String>
 	Count: 2
  
+/hive-exec/src/test/org/apache/hadoop/hive/ql/parse/repl/metric/TestReplicationMetricUpdateOnFailure.java
+Methods Invoked: 
 	Method name: mock
 	Class origin: org.mockito.Mockito
 	Count: 12
@@ -970,6 +1172,8 @@
 	Class origin: org.mockito.Mockito
 	Count: 36
  
+/hive-exec/src/test/org/apache/hadoop/hive/ql/parse/repl/metric/TestReplicationMetricCollector.java
+Methods Invoked: 
 	Method name: thenReturn
 	Class origin: org.mockito.stubbing.OngoingStubbing<java.lang.Long>
 	Count: 1
@@ -982,6 +1186,8 @@
 	Class origin: org.mockito.stubbing.OngoingStubbing<java.lang.String>
 	Count: 1
  
+/hive-exec/src/test/org/apache/hadoop/hive/ql/parse/type/TestTypeCheckProcFactory.java
+Methods Invoked: 
 	Method name: initMocks
 	Class origin: org.mockito.MockitoAnnotations
 	Count: 1
@@ -994,6 +1200,8 @@
 	Class origin: org.mockito.Mockito
 	Count: 4
  
+/hive-exec/src/test/org/apache/hadoop/hive/ql/plan/TestTezWork.java
+Methods Invoked: 
 	Method name: mock
 	Class origin: org.mockito.Mockito
 	Count: 4
@@ -1006,10 +1214,14 @@
 	Class origin: org.mockito.Mockito
 	Count: 3
  
+/hive-exec/src/test/org/apache/hadoop/hive/ql/processors/TestResetProcessor.java
+Methods Invoked: 
 	Method name: verify
 	Class origin: org.mockito.Mockito
 	Count: 2
  
+/hive-exec/src/test/org/apache/hadoop/hive/ql/secrets/AWSSecretsManagerSecretSourceTest.java
+Methods Invoked: 
 	Method name: mock
 	Class origin: org.mockito.Mockito
 	Count: 1
@@ -1026,6 +1238,8 @@
 	Class origin: org.mockito.stubbing.OngoingStubbing<java.lang.String>
 	Count: 1
  
+/hive-exec/src/test/org/apache/hadoop/hive/ql/security/authorization/plugin/TestHivePrivilegeObjectOwnerNameAndType.java
+Methods Invoked: 
 	Method name: mock
 	Class origin: org.mockito.Mockito
 	Count: 1
@@ -1034,17 +1248,23 @@
 	Class origin: org.mockito.Mockito
 	Count: 2
  
+/hive-exec/src/test/org/apache/hadoop/hive/ql/session/TestAddResource.java
+Methods Invoked: 
 	Method name: spy
 	Class origin: org.mockito.Mockito
 	Count: 6
  
+/hive-exec/src/test/org/apache/hadoop/hive/ql/stats/TestBasicStats.java
+Methods Invoked: 
 	Method name: mock
 	Class origin: org.mockito.Mockito
 	Count: 2
  
+/hive-exec/src/test/org/apache/hadoop/hive/ql/txn/compactor/TestInitiator.java
+Methods Invoked: 
 	Method name: spy
 	Class origin: org.mockito.Mockito
-	Count: 2
+	Count: 3
  
 	Method name: when
 	Class origin: org.mockito.stubbing.Stubber
@@ -1056,8 +1276,10 @@
  
 	Method name: any
 	Class origin: org.mockito.ArgumentMatchers
-	Count: 1
+	Count: 2
  
+/hive-exec/src/test/org/apache/hadoop/hive/ql/txn/compactor/TestWorker.java
+Methods Invoked: 
 	Method name: spy
 	Class origin: org.mockito.Mockito
 	Count: 1
@@ -1070,22 +1292,14 @@
 	Class origin: org.mockito.Mockito
 	Count: 1
  
-	Method name: mock
-	Class origin: org.mockito.Mockito
-	Count: 1
- 
-	Method name: thenReturn
-	Class origin: org.mockito.stubbing.OngoingStubbing<java.lang.String>
-	Count: 1
- 
-	Method name: when
-	Class origin: org.mockito.Mockito
-	Count: 1
- 
+/hive-exec/src/test/org/apache/hadoop/hive/ql/udf/generic/TestGenericUDFSurrogateKey.java
+Methods Invoked: 
 	Method name: mock
 	Class origin: org.mockito.Mockito
 	Count: 3
  
+/hive-exec/src/test/org/apache/hadoop/hive/ql/udf/generic/TestGenericUDFExtractUnion.java
+Methods Invoked: 
 	Method name: thenReturn
 	Class origin: org.mockito.stubbing.OngoingStubbing<java.lang.Object>
 	Count: 5
@@ -1094,6 +1308,8 @@
 	Class origin: org.mockito.Mockito
 	Count: 17
  
+/hive-exec/src/test/org/apache/hadoop/hive/ql/udf/ptf/TestBoundaryCache.java
+Methods Invoked: 
 	Method name: mock
 	Class origin: org.mockito.Mockito
 	Count: 2
@@ -1114,10 +1330,14 @@
 	Class origin: org.mockito.ArgumentMatchers
 	Count: 7
  
+/hive-hbase-handler/src/test/org/apache/hadoop/hive/hbase/TestHiveHBaseTableOutputFormat.java
+Methods Invoked: 
 	Method name: mock
 	Class origin: org.mockito.Mockito
 	Count: 1
  
+/hive-hbase-handler/src/test/org/apache/hadoop/hive/hbase/TestHBaseStorageHandler.java
+Methods Invoked: 
 	Method name: mock
 	Class origin: org.mockito.Mockito
 	Count: 1
@@ -1130,10 +1350,14 @@
 	Class origin: org.mockito.Mockito
 	Count: 1
  
+/hive-hcatalog-core/src/test/java/org/apache/hive/hcatalog/cli/SemanticAnalysis/TestHCatAuthUtil.java
+Methods Invoked: 
 	Method name: mock
 	Class origin: org.mockito.Mockito
 	Count: 1
  
+/hive-iceberg-catalog/src/test/java/org/apache/iceberg/hive/TestHiveClientPool.java
+Methods Invoked: 
 	Method name: spy
 	Class origin: org.mockito.Mockito
 	Count: 1
@@ -1150,6 +1374,8 @@
 	Class origin: org.mockito.Mockito
 	Count: 3
  
+/hive-iceberg-catalog/src/test/java/org/apache/iceberg/hive/TestHiveCommits.java
+Methods Invoked: 
 	Method name: spy
 	Class origin: org.mockito.Mockito
 	Count: 6
@@ -1174,6 +1400,8 @@
 	Class origin: org.mockito.ArgumentCaptor<java.lang.Long>
 	Count: 1
  
+/hive-iceberg-catalog/src/test/java/org/apache/iceberg/hive/TestClientPoolImpl.java
+Methods Invoked: 
 	Method name: spy
 	Class origin: org.mockito.Mockito
 	Count: 1
@@ -1190,6 +1418,8 @@
 	Class origin: org.mockito.Mockito
 	Count: 3
  
+/hive-iceberg-catalog/src/test/java/org/apache/iceberg/hive/TestHiveCommitLocks.java
+Methods Invoked: 
 	Method name: spy
 	Class origin: org.mockito.Mockito
 	Count: 4
@@ -1198,6 +1428,8 @@
 	Class origin: org.mockito.Mockito
 	Count: 2
  
+/hive-iceberg-handler/src/test/java/org/apache/iceberg/mr/hive/TestHiveIcebergOutputCommitter.java
+Methods Invoked: 
 	Method name: spy
 	Class origin: org.mockito.Mockito
 	Count: 1
@@ -1214,6 +1446,8 @@
 	Class origin: org.mockito.Mockito
 	Count: 1
  
+/hive-iceberg-handler/src/test/java/org/apache/iceberg/mr/hive/TestHiveIcebergMigration.java
+Methods Invoked: 
 	Method name: mockStatic
 	Class origin: org.mockito.Mockito
 	Count: 1
@@ -1226,14 +1460,20 @@
 	Class origin: org.mockito.ArgumentMatchers
 	Count: 2
  
+/hive-it-unit/src/test/java/org/apache/hadoop/hive/io/TestHadoopFileStatus.java
+Methods Invoked: 
 	Method name: mock
 	Class origin: org.mockito.Mockito
 	Count: 3
  
+/hive-it-unit/src/test/java/org/apache/hadoop/hive/ql/security/authorization/plugin/TestHiveAuthorizerCheckInvocation.java
+Methods Invoked: 
 	Method name: mock
 	Class origin: org.mockito.Mockito
 	Count: 3
  
+/hive-it-unit/src/test/java/org/apache/hadoop/hive/ql/security/authorization/plugin/TestHiveAuthorizerShowFilters.java
+Methods Invoked: 
 	Method name: validateMockitoUsage
 	Class origin: org.mockito.Mockito
 	Count: 1
@@ -1258,18 +1498,56 @@
 	Class origin: org.mockito.ArgumentMatchers
 	Count: 2
  
-	Method name: mock
+/hive-it-unit/src/test/java/org/apache/hadoop/hive/ql/txn/compactor/TestCompactor.java
+Methods Invoked: 
+	Method name: spy
 	Class origin: org.mockito.Mockito
 	Count: 2
  
 	Method name: when
 	Class origin: org.mockito.stubbing.Stubber
-	Count: 1
+	Count: 2
  
-	Method name: doAnswer
+	Method name: doThrow
 	Class origin: org.mockito.Mockito
 	Count: 1
  
+	Method name: anyLong
+	Class origin: org.mockito.ArgumentMatchers
+	Count: 1
+ 
+/hive-it-unit/src/test/java/org/apache/hadoop/hive/ql/txn/compactor/TestCrudCompactorOnTez.java
+Methods Invoked: 
+	Method name: spy
+	Class origin: org.mockito.Mockito
+	Count: 2
+ 
+	Method name: when
+	Class origin: org.mockito.stubbing.Stubber
+	Count: 3
+ 
+	Method name: doThrow
+	Class origin: org.mockito.Mockito
+	Count: 2
+ 
+	Method name: nullable
+	Class origin: org.mockito.ArgumentMatchers
+	Count: 2
+ 
+	Method name: setField
+	Class origin: org.mockito.internal.util.reflection.FieldSetter
+	Count: 2
+ 
+	Method name: forClass
+	Class origin: org.mockito.ArgumentCaptor
+	Count: 2
+ 
+	Method name: verify
+	Class origin: org.mockito.Mockito
+	Count: 2
+ 
+/hive-it-unit/src/test/java/org/apache/hadoop/hive/serde2/TestSerdeWithFieldComments.java
+Methods Invoked: 
 	Method name: mock
 	Class origin: org.mockito.Mockito
 	Count: 4
@@ -1282,10 +1560,14 @@
 	Class origin: org.mockito.Mockito
 	Count: 7
  
+/hive-it-unit/src/test/java/org/apache/hive/jdbc/authorization/TestHS2AuthzSessionContext.java
+Methods Invoked: 
 	Method name: mock
 	Class origin: org.mockito.Mockito
 	Count: 1
  
+/hive-it-unit/src/test/java/org/apache/hive/jdbc/authorization/TestHS2AuthzContext.java
+Methods Invoked: 
 	Method name: mock
 	Class origin: org.mockito.Mockito
 	Count: 1
@@ -1306,14 +1588,20 @@
 	Class origin: org.mockito.ArgumentMatchers
 	Count: 1
  
+/hive-it-unit/src/test/java/org/apache/hive/jdbc/authorization/TestCLIAuthzSessionContext.java
+Methods Invoked: 
 	Method name: mock
 	Class origin: org.mockito.Mockito
 	Count: 1
  
+/hive-it-unit/src/test/java/org/apache/hive/service/cli/session/TestHiveSessionImpl.java
+Methods Invoked: 
 	Method name: mock
 	Class origin: org.mockito.Mockito
 	Count: 3
  
+/hive-it-unit/src/test/java/org/apache/hive/service/cli/thrift/TestThriftHttpCLIServiceFeatures.java
+Methods Invoked: 
 	Method name: mock
 	Class origin: org.mockito.Mockito
 	Count: 1
@@ -1334,6 +1622,8 @@
 	Class origin: org.mockito.ArgumentMatchers
 	Count: 2
  
+/hive-jdbc/src/test/org/apache/hive/jdbc/TestHivePreparedStatement.java
+Methods Invoked: 
 	Method name: initMocks
 	Class origin: org.mockito.MockitoAnnotations
 	Count: 1
@@ -1342,10 +1632,14 @@
 	Class origin: org.mockito.Mockito
 	Count: 10
  
+/hive-jdbc/src/test/org/apache/hive/jdbc/TestHiveStatement.java
+Methods Invoked: 
 	Method name: mock
 	Class origin: org.mockito.Mockito
 	Count: 6
  
+/hive-jdbc/src/test/org/apache/hive/jdbc/TestHiveBaseResultSet.java
+Methods Invoked: 
 	Method name: mock
 	Class origin: org.mockito.Mockito
 	Count: 13
@@ -1358,6 +1652,8 @@
 	Class origin: org.mockito.stubbing.OngoingStubbing<java.lang.String>
 	Count: 3
  
+/hive-jdbc-handler/src/test/java/org/apache/hive/storage/jdbc/TestJdbcInputFormat.java
+Methods Invoked: 
 	Method name: mockStatic
 	Class origin: org.powermock.api.mockito.PowerMockito
 	Count: 9
@@ -1378,10 +1674,14 @@
 	Class origin: org.mockito.Mockito
 	Count: 11
  
+/hive-llap-client/src/test/org/apache/hadoop/hive/llap/TestAsyncPbRpcProxy.java
+Methods Invoked: 
 	Method name: mock
 	Class origin: org.mockito.Mockito
 	Count: 4
  
+/hive-llap-client/src/test/org/apache/hadoop/hive/llap/registry/impl/TestLlapZookeeperRegistryImpl.java
+Methods Invoked: 
 	Method name: instanceFields
 	Class origin: org.mockito.internal.util.reflection.Fields.InstanceFields
 	Count: 1
@@ -1410,6 +1710,8 @@
 	Class origin: org.mockito.internal.util.reflection.InstanceField
 	Count: 1
  
+/hive-llap-client/src/test/org/apache/hadoop/hive/registry/impl/TestZookeeperUtils.java
+Methods Invoked: 
 	Method name: mockStatic
 	Class origin: org.powermock.api.mockito.PowerMockito
 	Count: 1
@@ -1434,14 +1736,20 @@
 	Class origin: org.mockito.Mockito
 	Count: 8
  
+/hive-llap-common/src/test/org/apache/hadoop/hive/llap/AsyncResponseHandlerTest.java
+Methods Invoked: 
 	Method name: mock
 	Class origin: org.mockito.Mockito
 	Count: 7
  
+/hive-llap-server/src/test/org/apache/hadoop/hive/llap/cache/TestCacheContentsTracker.java
+Methods Invoked: 
 	Method name: mock
 	Class origin: org.mockito.Mockito
 	Count: 3
  
+/hive-llap-server/src/test/org/apache/hadoop/hive/llap/cache/TestBasicLlapCacheHydration.java
+Methods Invoked: 
 	Method name: mock
 	Class origin: org.mockito.Mockito
 	Count: 1
@@ -1454,6 +1762,8 @@
 	Class origin: org.mockito.Mockito
 	Count: 1
  
+/hive-llap-server/src/test/org/apache/hadoop/hive/llap/cache/TestLowLevelLrfuCachePolicy.java
+Methods Invoked: 
 	Method name: mock
 	Class origin: org.mockito.Mockito
 	Count: 1
@@ -1474,10 +1784,14 @@
 	Class origin: org.mockito.ArgumentMatchers
 	Count: 1
  
+/hive-llap-server/src/test/org/apache/hadoop/hive/llap/cache/TestCacheAllocationsEvictionsCycles.java
+Methods Invoked: 
 	Method name: mock
 	Class origin: org.mockito.Mockito
 	Count: 3
  
+/hive-llap-server/src/test/org/apache/hadoop/hive/llap/daemon/impl/TestLlapDaemon.java
+Methods Invoked: 
 	Method name: initMocks
 	Class origin: org.mockito.MockitoAnnotations
 	Count: 1
@@ -1522,6 +1836,8 @@
 	Class origin: org.mockito.internal.util.reflection.InstanceField
 	Count: 1
  
+/hive-llap-server/src/test/org/apache/hadoop/hive/llap/daemon/impl/TestLlapDaemonProtocolServerImpl.java
+Methods Invoked: 
 	Method name: mock
 	Class origin: org.mockito.Mockito
 	Count: 2
@@ -1530,14 +1846,20 @@
 	Class origin: org.mockito.Mockito
 	Count: 2
  
+/hive-llap-server/src/test/org/apache/hadoop/hive/llap/daemon/impl/TaskExecutorTestHelpers.java
+Methods Invoked: 
 	Method name: mock
 	Class origin: org.mockito.Mockito
 	Count: 6
  
+/hive-llap-server/src/test/org/apache/hadoop/hive/llap/daemon/impl/TestContainerRunnerImpl.java
+Methods Invoked: 
 	Method name: mock
 	Class origin: org.mockito.Mockito
 	Count: 1
  
+/hive-llap-server/src/test/org/apache/hadoop/hive/llap/daemon/impl/TestTaskExecutorService.java
+Methods Invoked: 
 	Method name: initMocks
 	Class origin: org.mockito.MockitoAnnotations
 	Count: 1
@@ -1546,14 +1868,20 @@
 	Class origin: org.mockito.Mockito
 	Count: 4
  
+/hive-llap-server/src/test/org/apache/hadoop/hive/llap/daemon/impl/comparator/TestAMReporter.java
+Methods Invoked: 
 	Method name: mock
 	Class origin: org.mockito.Mockito
 	Count: 6
  
+/hive-llap-server/src/test/org/apache/hadoop/hive/llap/io/encoded/TestVectorDeserializeOrcWriter.java
+Methods Invoked: 
 	Method name: mock
 	Class origin: org.mockito.Mockito
 	Count: 2
  
+/hive-llap-tez/src/test/org/apache/hadoop/hive/llap/tezplugins/TestLlapTaskCommunicator.java
+Methods Invoked: 
 	Method name: mock
 	Class origin: org.mockito.Mockito
 	Count: 7
@@ -1570,6 +1898,8 @@
 	Class origin: org.mockito.ArgumentMatchers
 	Count: 9
  
+/hive-llap-tez/src/test/org/apache/hadoop/hive/llap/tezplugins/TestLlapTaskSchedulerService.java
+Methods Invoked: 
 	Method name: verify
 	Class origin: org.mockito.Mockito
 	Count: 58
@@ -1578,6 +1908,8 @@
 	Class origin: org.mockito.ArgumentMatchers
 	Count: 20
  
+/hive-llap-tez/src/test/org/apache/hadoop/hive/llap/tezplugins/metrics/TestBlacklistingLlapMetricsListener.java
+Methods Invoked: 
 	Method name: initMocks
 	Class origin: org.mockito.MockitoAnnotations
 	Count: 1
@@ -1586,6 +1918,8 @@
 	Class origin: org.mockito.Mockito
 	Count: 8
  
+/hive-llap-tez/src/test/org/apache/hadoop/hive/llap/tezplugins/metrics/TestLlapMetricsCollector.java
+Methods Invoked: 
 	Method name: initMocks
 	Class origin: org.mockito.MockitoAnnotations
 	Count: 1
@@ -1598,6 +1932,8 @@
 	Class origin: org.mockito.Mockito
 	Count: 20
  
+/hive-service/src/test/org/apache/hive/http/TestJdbcJarDownloadServlet.java
+Methods Invoked: 
 	Method name: mock
 	Class origin: org.mockito.Mockito
 	Count: 1
@@ -1610,6 +1946,8 @@
 	Class origin: org.mockito.Mockito
 	Count: 3
  
+/hive-service/src/test/org/apache/hive/service/auth/TestLdapAuthenticationProviderImpl.java
+Methods Invoked: 
 	Method name: when
 	Class origin: org.mockito.Mockito
 	Count: 39
@@ -1622,6 +1960,8 @@
 	Class origin: org.mockito.ArgumentMatchers
 	Count: 13
  
+/hive-service/src/test/org/apache/hive/service/auth/ldap/TestSearchResultHandler.java
+Methods Invoked: 
 	Method name: when
 	Class origin: org.mockito.stubbing.Stubber
 	Count: 1
@@ -1638,6 +1978,8 @@
 	Class origin: org.mockito.Mockito
 	Count: 1
  
+/hive-service/src/test/org/apache/hive/service/auth/ldap/TestLdapSearch.java
+Methods Invoked: 
 	Method name: verify
 	Class origin: org.mockito.Mockito
 	Count: 6
@@ -1662,6 +2004,8 @@
 	Class origin: org.mockito.ArgumentMatchers
 	Count: 29
  
+/hive-service/src/test/org/apache/hive/service/auth/ldap/TestCustomQueryFilter.java
+Methods Invoked: 
 	Method name: thenReturn
 	Class origin: org.mockito.stubbing.OngoingStubbing<java.util.List<java.lang.String>>
 	Count: 2
@@ -1674,6 +2018,8 @@
 	Class origin: org.mockito.ArgumentMatchers
 	Count: 2
  
+/hive-service/src/test/org/apache/hive/service/auth/ldap/TestChainFilter.java
+Methods Invoked: 
 	Method name: when
 	Class origin: org.mockito.Mockito
 	Count: 5
@@ -1682,6 +2028,8 @@
 	Class origin: org.mockito.ArgumentMatchers
 	Count: 5
  
+/hive-service/src/test/org/apache/hive/service/auth/ldap/TestGroupFilter.java
+Methods Invoked: 
 	Method name: thenReturn
 	Class origin: org.mockito.stubbing.OngoingStubbing<java.lang.String>
 	Count: 12
@@ -1694,6 +2042,8 @@
 	Class origin: org.mockito.ArgumentMatchers
 	Count: 14
  
+/hive-service/src/test/org/apache/hive/service/auth/ldap/TestUserSearchFilter.java
+Methods Invoked: 
 	Method name: thenReturn
 	Class origin: org.mockito.stubbing.OngoingStubbing<java.lang.String>
 	Count: 2
@@ -1710,6 +2060,8 @@
 	Class origin: org.mockito.stubbing.OngoingStubbing<java.lang.String>
 	Count: 1
  
+/hive-service/src/test/org/apache/hive/service/auth/ldap/LdapTestUtils.java
+Methods Invoked: 
 	Method name: mock
 	Class origin: org.mockito.Mockito
 	Count: 2
@@ -1722,6 +2074,8 @@
 	Class origin: org.mockito.stubbing.OngoingStubbing<java.lang.Boolean>
 	Count: 2
  
+/hive-service/src/test/org/apache/hive/service/cli/operation/TestSQLOperationMetrics.java
+Methods Invoked: 
 	Method name: mock
 	Class origin: org.mockito.Mockito
 	Count: 2
@@ -1730,6 +2084,8 @@
 	Class origin: org.mockito.Mockito
 	Count: 3
  
+/hive-service/src/test/org/apache/hive/service/cli/operation/TestQueryLifeTimeHooksWithSQLOperation.java
+Methods Invoked: 
 	Method name: mock
 	Class origin: org.mockito.Mockito
 	Count: 1
@@ -1738,10 +2094,14 @@
 	Class origin: org.mockito.Mockito
 	Count: 2
  
+/hive-service/src/test/org/apache/hive/service/cli/session/TestSessionManagerMetrics.java
+Methods Invoked: 
 	Method name: mock
 	Class origin: org.mockito.Mockito
 	Count: 3
  
+/hive-service/src/test/org/apache/hive/service/cli/thrift/ThriftHttpServletTest.java
+Methods Invoked: 
 	Method name: mock
 	Class origin: org.mockito.Mockito
 	Count: 2
@@ -1754,6 +2114,8 @@
 	Class origin: org.mockito.Mockito
 	Count: 2
  
+/hive-shims-0.23/src/main/test/org/apache/hadoop/hive/shims/TestHadoop23Shims.java
+Methods Invoked: 
 	Method name: mock
 	Class origin: org.mockito.Mockito
 	Count: 4
@@ -1774,26 +2136,38 @@
 	Class origin: org.mockito.stubbing.OngoingStubbing<java.util.Map<java.lang.String,byte[]>>
 	Count: 1
  
+/hive-shims-common/src/main/test/org/apache/hadoop/fs/TestProxyFileSystem.java
+Methods Invoked: 
 	Method name: mock
 	Class origin: org.mockito.Mockito
 	Count: 2
  
+/hive-shims-common/src/main/test/org/apache/hadoop/hive/io/TestHdfsUtils.java
+Methods Invoked: 
 	Method name: mock
 	Class origin: org.mockito.Mockito
 	Count: 23
  
+/hive-spark-client/src/test/java/org/apache/hive/spark/client/TestJobHandle.java
+Methods Invoked: 
 	Method name: verify
 	Class origin: org.mockito.Mockito
 	Count: 9
  
+/hive-spark-client/src/test/java/org/apache/hive/spark/client/TestSparkClient.java
+Methods Invoked: 
 	Method name: verify
 	Class origin: org.mockito.Mockito
 	Count: 10
  
+/hive-spark-client/src/test/java/org/apache/hive/spark/client/TestSparkLauncherSparkClient.java
+Methods Invoked: 
 	Method name: mock
 	Class origin: org.mockito.Mockito
 	Count: 2
  
+/hive-standalone-metastore-server/src/test/java/org/apache/hadoop/hive/metastore/TestMetaStoreLdapAuthenticationProviderImpl.java
+Methods Invoked: 
 	Method name: when
 	Class origin: org.mockito.Mockito
 	Count: 39
@@ -1806,6 +2180,8 @@
 	Class origin: org.mockito.ArgumentMatchers
 	Count: 13
  
+/hive-standalone-metastore-server/src/test/java/org/apache/hadoop/hive/metastore/TestHiveAlterHandler.java
+Methods Invoked: 
 	Method name: mock
 	Class origin: org.mockito.Mockito
 	Count: 3
@@ -1818,6 +2194,8 @@
 	Class origin: org.mockito.Mockito
 	Count: 2
  
+/hive-standalone-metastore-server/src/test/java/org/apache/hadoop/hive/metastore/TestHiveMetaStore.java
+Methods Invoked: 
 	Method name: mock
 	Class origin: org.mockito.Mockito
 	Count: 1
@@ -1830,10 +2208,14 @@
 	Class origin: org.mockito.Mockito
 	Count: 3
  
+/hive-standalone-metastore-server/src/test/java/org/apache/hadoop/hive/metastore/TestPartitionProjectionEvaluator.java
+Methods Invoked: 
 	Method name: mock
 	Class origin: org.mockito.Mockito
 	Count: 5
  
+/hive-standalone-metastore-server/src/test/java/org/apache/hadoop/hive/metastore/TestRetriesInRetryingHMSHandler.java
+Methods Invoked: 
 	Method name: mock
 	Class origin: org.mockito.Mockito
 	Count: 4
@@ -1862,6 +2244,8 @@
 	Class origin: org.mockito.Mockito
 	Count: 4
  
+/hive-standalone-metastore-server/src/test/java/org/apache/hadoop/hive/metastore/TestMsckCheckPartitions.java
+Methods Invoked: 
 	Method name: mock
 	Class origin: org.mockito.Mockito
 	Count: 3
@@ -1870,6 +2254,8 @@
 	Class origin: org.mockito.Mockito
 	Count: 10
  
+/hive-standalone-metastore-server/src/test/java/org/apache/hadoop/hive/metastore/TestObjectStore.java
+Methods Invoked: 
 	Method name: spy
 	Class origin: org.mockito.Mockito
 	Count: 1
@@ -1890,6 +2276,8 @@
 	Class origin: org.mockito.ArgumentMatchers
 	Count: 1
  
+/hive-standalone-metastore-server/src/test/java/org/apache/hadoop/hive/metastore/TestTableIterable.java
+Methods Invoked: 
 	Method name: mock
 	Class origin: org.mockito.Mockito
 	Count: 1
@@ -1910,10 +2298,14 @@
 	Class origin: org.mockito.Mockito
 	Count: 2
  
+/hive-standalone-metastore-server/src/test/java/org/apache/hadoop/hive/metastore/client/TestMetastoreScheduledQueries.java
+Methods Invoked: 
 	Method name: contains
 	Class origin: org.mockito.ArgumentMatchers
 	Count: 3
  
+/hive-standalone-metastore-server/src/test/java/org/apache/hadoop/hive/metastore/ldap/TestChainFilter.java
+Methods Invoked: 
 	Method name: when
 	Class origin: org.mockito.Mockito
 	Count: 5
@@ -1922,6 +2314,8 @@
 	Class origin: org.mockito.ArgumentMatchers
 	Count: 5
  
+/hive-standalone-metastore-server/src/test/java/org/apache/hadoop/hive/metastore/ldap/LdapTestUtils.java
+Methods Invoked: 
 	Method name: mock
 	Class origin: org.mockito.Mockito
 	Count: 2
@@ -1934,6 +2328,8 @@
 	Class origin: org.mockito.stubbing.OngoingStubbing<java.lang.Boolean>
 	Count: 2
  
+/hive-standalone-metastore-server/src/test/java/org/apache/hadoop/hive/metastore/ldap/TestCustomQueryFilter.java
+Methods Invoked: 
 	Method name: thenReturn
 	Class origin: org.mockito.stubbing.OngoingStubbing<java.util.List<java.lang.String>>
 	Count: 2
@@ -1946,6 +2342,8 @@
 	Class origin: org.mockito.ArgumentMatchers
 	Count: 2
  
+/hive-standalone-metastore-server/src/test/java/org/apache/hadoop/hive/metastore/ldap/TestUserSearchFilter.java
+Methods Invoked: 
 	Method name: thenReturn
 	Class origin: org.mockito.stubbing.OngoingStubbing<java.lang.String>
 	Count: 2
@@ -1962,6 +2360,8 @@
 	Class origin: org.mockito.stubbing.OngoingStubbing<java.lang.String>
 	Count: 1
  
+/hive-standalone-metastore-server/src/test/java/org/apache/hadoop/hive/metastore/ldap/TestGroupFilter.java
+Methods Invoked: 
 	Method name: thenReturn
 	Class origin: org.mockito.stubbing.OngoingStubbing<java.lang.String>
 	Count: 12
@@ -1974,6 +2374,8 @@
 	Class origin: org.mockito.ArgumentMatchers
 	Count: 14
  
+/hive-standalone-metastore-server/src/test/java/org/apache/hadoop/hive/metastore/ldap/TestSearchResultHandler.java
+Methods Invoked: 
 	Method name: when
 	Class origin: org.mockito.stubbing.Stubber
 	Count: 1
@@ -1990,6 +2392,8 @@
 	Class origin: org.mockito.Mockito
 	Count: 1
  
+/hive-standalone-metastore-server/src/test/java/org/apache/hadoop/hive/metastore/ldap/TestLdapSearch.java
+Methods Invoked: 
 	Method name: verify
 	Class origin: org.mockito.Mockito
 	Count: 6
@@ -2014,6 +2418,8 @@
 	Class origin: org.mockito.ArgumentMatchers
 	Count: 29
  
+/hive-standalone-metastore-server/src/test/java/org/apache/hadoop/hive/metastore/tools/metatool/TestMetaToolTaskListFSRoot.java
+Methods Invoked: 
 	Method name: mock
 	Class origin: org.mockito.Mockito
 	Count: 1
@@ -2026,6 +2432,8 @@
 	Class origin: org.mockito.Mockito
 	Count: 1
  
+/hive-standalone-metastore-server/src/test/java/org/apache/hadoop/hive/metastore/tools/metatool/TestMetaToolTaskUpdateLocation.java
+Methods Invoked: 
 	Method name: mock
 	Class origin: org.mockito.Mockito
 	Count: 1
@@ -2038,6 +2446,8 @@
 	Class origin: org.mockito.ArgumentMatchers
 	Count: 18
  
+/hive-standalone-metastore-server/src/test/java/org/apache/hadoop/hive/metastore/tools/metatool/TestMetaToolTaskExecuteJDOQLQuery.java
+Methods Invoked: 
 	Method name: mock
 	Class origin: org.mockito.Mockito
 	Count: 2
@@ -2054,10 +2464,14 @@
 	Class origin: org.mockito.ArgumentMatchers
 	Count: 1
  
+/hive-standalone-metastore-server/src/test/java/org/apache/hadoop/hive/metastore/tools/schematool/TestSchemaToolTaskDrop.java
+Methods Invoked: 
 	Method name: mock
 	Class origin: org.mockito.Mockito
 	Count: 5
  
+/hive-standalone-metastore-server/src/test/java/org/apache/hadoop/hive/metastore/utils/TestHdfsUtils.java
+Methods Invoked: 
 	Method name: mock
 	Class origin: org.mockito.Mockito
 	Count: 25
@@ -2074,6 +2488,8 @@
 	Class origin: org.mockito.stubbing.OngoingStubbing<java.lang.String[]>
 	Count: 2
  
+/hive-standalone-metastore-server/src/test/java/org/apache/hadoop/hive/metastore/utils/TestMetaStoreServerUtils.java
+Methods Invoked: 
 	Method name: mock
 	Class origin: org.mockito.Mockito
 	Count: 3
@@ -2082,6 +2498,8 @@
 	Class origin: org.mockito.Mockito
 	Count: 4
  
+/hive-webhcat/src/test/java/org/apache/hive/hcatalog/templeton/ConcurrentJobRequestsTestBase.java
+Methods Invoked: 
 	Method name: spy
 	Class origin: org.mockito.Mockito
 	Count: 3
@@ -2098,6 +2516,8 @@
 	Class origin: org.mockito.ArgumentMatchers
 	Count: 15
  
+/hive-webhcat-java-client/src/test/java/org/apache/hive/hcatalog/api/repl/ReplicationV1CompatRule.java
+Methods Invoked: 
 	Method name: mock
 	Class origin: org.mockito.Mockito
 	Count: 1
@@ -2105,4 +2525,32 @@
 	Method name: when
 	Class origin: org.mockito.Mockito
 	Count: 1
+ 
+/kafka-handler/src/test/org/apache/hadoop/hive/kafka/KafkaStorageHandlerTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 3
+ 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<java.util.Properties>
+	Count: 3
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 3
+ 
+/kafka-handler/src/test/org/apache/hadoop/hive/kafka/TransactionalKafkaWriterTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<java.util.Map<java.lang.String,java.lang.String>>
+	Count: 1
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 2
  

@@ -1,0 +1,3 @@
+/api-ldap-client-api/src/test/java/org/apache/directory/ldap/client/api/ValidatingPoolableLdapConnectionFactoryTest.java
+	org.apache.directory.ldap.client.api.LdapConnection
+	org.apache.directory.ldap.client.api.LdapConnectionValidator

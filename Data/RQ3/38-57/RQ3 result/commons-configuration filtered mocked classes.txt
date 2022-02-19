@@ -68,3 +68,7 @@ java.lang.Iterable<>
 org.apache.commons.configuration2.tree.ConfigurationNodeVisitor<org.apache.commons.configuration2.tree.ImmutableNode>
 org.apache.commons.configuration2.tree.xpath.XPathContextFactory
 org.apache.commons.jxpath.JXPathContext
+javax.servlet.ServletConfig
+javax.servlet.FilterConfig
+com.mockobjects.servlet.MockHttpServletRequest
+com.mockobjects.servlet.MockServletContext
