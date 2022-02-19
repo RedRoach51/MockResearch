@@ -33,6 +33,8 @@ java.io.InputStream
 java.nio.channels.ReadableByteChannel
 java.io.OutputStream
 java.nio.channels.WritableByteChannel
+javax.servlet.ServletContext
+javax.servlet.http.HttpServletResponse
 org.apache.jackrabbit.webdav.DavServletRequest
 org.apache.jackrabbit.webdav.DavServletResponse
 java.lang.Object

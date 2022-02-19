@@ -165,7 +165,7 @@ org.osgi.service.startlevel.StartLevel
 org.apache.aries.jmx.Logger
 javax.management.MBeanServer
 javax.management.MBeanServer
-
+org.osgi.service.permissionadmin.PermissionAdmin
 org.osgi.framework.BundleContext
 org.apache.aries.jmx.Logger
 org.osgi.service.provisioning.ProvisioningService
@@ -174,7 +174,7 @@ java.io.InputStream
 org.osgi.service.provisioning.ProvisioningService
 org.osgi.service.provisioning.ProvisioningService
 org.osgi.service.provisioning.ProvisioningService
-
+org.osgi.service.useradmin.UserAdmin
 org.osgi.service.useradmin.User
 org.osgi.service.useradmin.User
 org.osgi.service.useradmin.Group

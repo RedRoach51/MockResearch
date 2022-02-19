@@ -17,3 +17,4 @@
 /dom-testsuite/src/main/java/org/apache/axiom/ts/dom/element/TestSetAttributeNodeNSForeignImplementation.java
 	org.w3c.dom.Attr
 /spring-ws-testsuite/src/main/java/org/apache/axiom/ts/springws/scenario/ScenarioTestCase.java
+	org.springframework.core.env.PropertiesPropertySource

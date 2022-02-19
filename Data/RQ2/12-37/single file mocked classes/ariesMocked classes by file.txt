@@ -184,7 +184,7 @@
 	javax.management.MBeanServer
 	javax.management.MBeanServer
 /org.apache.aries.jmx.core/src/test/java/org/apache/aries/jmx/permissionadmin/PermissionAdminTest.java
-	
+	org.osgi.service.permissionadmin.PermissionAdmin
 /org.apache.aries.jmx.core/src/test/java/org/apache/aries/jmx/provisioning/ProvisioningServiceMBeanHandlerTest.java
 	org.osgi.framework.BundleContext
 	org.apache.aries.jmx.Logger
@@ -196,7 +196,7 @@
 	org.osgi.service.provisioning.ProvisioningService
 	org.osgi.service.provisioning.ProvisioningService
 /org.apache.aries.jmx.core/src/test/java/org/apache/aries/jmx/useradmin/UserAdminTest.java
-	
+	org.osgi.service.useradmin.UserAdmin
 	org.osgi.service.useradmin.User
 	org.osgi.service.useradmin.User
 	org.osgi.service.useradmin.Group

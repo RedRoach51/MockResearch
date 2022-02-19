@@ -9,3 +9,4 @@ Outside classes:
 javax.xml.stream.XMLStreamWriter
 org.w3c.dom.Element
 org.w3c.dom.Attr
+org.springframework.core.env.PropertiesPropertySource

@@ -62,8 +62,8 @@
 /bookkeeper-server/src/test/java/org/apache/bookkeeper/bookie/LedgerDirsManagerTest.java
 	java.util.concurrent.ScheduledExecutorService
 /bookkeeper-server/src/test/java/org/apache/bookkeeper/bookie/GarbageCollectorThreadTest.java
-	
-	
+	org.apache.bookkeeper.bookie.GarbageCollectorThread
+	org.apache.bookkeeper.bookie.GarbageCollectorThread
 	org.apache.bookkeeper.meta.LedgerManager
 	org.apache.bookkeeper.stats.StatsLogger
 	java.util.concurrent.ScheduledExecutorService
@@ -290,7 +290,7 @@
 /bookkeeper-tools-ledger/src/test/java/org/apache/bookkeeper/tools/cli/commands/bookie/ListFilesOnDiscCommandTest.java
 /bookkeeper-tools-ledger/src/test/java/org/apache/bookkeeper/tools/cli/commands/bookie/ReadLogCommandTest.java
 	org.apache.bookkeeper.bookie.ReadOnlyEntryLogger
-	
+	org.apache.bookkeeper.bookie.EntryLogger.EntryLogScanner
 /bookkeeper-tools-ledger/src/test/java/org/apache/bookkeeper/tools/cli/commands/bookie/LastMarkCommandTest.java
 	org.apache.bookkeeper.bookie.LedgerDirsManager
 	org.apache.bookkeeper.bookie.Journal
@@ -345,7 +345,7 @@
 /bookkeeper-tools-ledger/src/test/java/org/apache/bookkeeper/tools/cli/commands/bookies/DecommissionCommandTest.java
 	org.apache.bookkeeper.conf.ClientConfiguration
 	org.apache.bookkeeper.client.BookKeeperAdmin
-	
+	org.apache.bookkeeper.versioning.Versioned<org.apache.bookkeeper.bookie.Cookie>
 	org.apache.bookkeeper.bookie.Cookie
 	org.apache.bookkeeper.versioning.Version
 	org.apache.bookkeeper.discover.RegistrationManager
@@ -357,7 +357,7 @@
 	org.apache.bookkeeper.client.api.LedgerMetadata
 	org.apache.bookkeeper.conf.ServerConfiguration
 	org.apache.bookkeeper.discover.RegistrationManager
-	
+	org.apache.bookkeeper.versioning.Versioned<org.apache.bookkeeper.bookie.Cookie>
 	org.apache.bookkeeper.bookie.Cookie
 	org.apache.bookkeeper.versioning.Version
 /bookkeeper-tools-ledger/src/test/java/org/apache/bookkeeper/tools/cli/commands/bookies/InitCommandTest.java
@@ -365,7 +365,7 @@
 	org.apache.bookkeeper.conf.ClientConfiguration
 	org.apache.bookkeeper.client.BookKeeper
 /bookkeeper-tools-ledger/src/test/java/org/apache/bookkeeper/tools/cli/commands/client/LedgerMetaDataCommandTest.java
-	
+	java.util.concurrent.CompletableFuture<org.apache.bookkeeper.versioning.Versioned<org.apache.bookkeeper.client.api.LedgerMetadata>>
 	org.apache.bookkeeper.meta.LedgerManagerFactory
 	org.apache.bookkeeper.meta.LedgerManager
 	org.apache.bookkeeper.client.api.LedgerMetadata
@@ -380,7 +380,7 @@
 /bookkeeper-tools-ledger/src/test/java/org/apache/bookkeeper/tools/cli/commands/cookie/DeleteCookieCommandTest.java
 /bookkeeper-tools-ledger/src/test/java/org/apache/bookkeeper/tools/cli/commands/cookie/AdminCommandTest.java
 	org.apache.bookkeeper.conf.ServerConfiguration
-	
+	org.apache.bookkeeper.versioning.Versioned<org.apache.bookkeeper.bookie.Cookie>
 	org.apache.bookkeeper.bookie.Cookie
 	org.apache.bookkeeper.discover.RegistrationManager
 	org.apache.bookkeeper.bookie.Cookie.Builder

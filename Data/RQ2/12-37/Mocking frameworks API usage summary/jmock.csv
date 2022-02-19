@@ -1,4 +1,6 @@
 method, origin, count
+mock,org.jmock.Mockery,227
+tick,org.jmock.lib.concurrent.DeterministicScheduler,3
 will,org.jmock.builder.StubBuilder,7
 with,org.jmock.builder.ArgumentsMatchBuilder,11
 method,org.jmock.builder.NameMatchBuilder,12
@@ -7,11 +9,3 @@ once,org.jmock.MockObjectTestCase,9
 same,org.jmock.core.MockObjectSupportTestCase,11
 returnValue,org.jmock.MockObjectTestCase,6
 proxy,org.jmock.Mock,4
-getMock,org.easymock.MockControl,1
-replay,org.easymock.MockControl,1
-createStrictControl,org.easymock.MockControl,1
-verify,org.easymock.MockControl,1
-
-MockedObjects: ,0
-
-# of Mocked objects each file:,

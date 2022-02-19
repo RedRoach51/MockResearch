@@ -979,6 +979,7 @@
 	java.util.concurrent.atomic.AtomicReference
 	org.easymock.EasyMock.anyObject
 	org.easymock.EasyMock.eq
+/archiva-webdav/src/test/java/org/apache/archiva/webdav/ArchivaDavSessionProviderTest.java
 /archiva-webdav/src/test/java/org/apache/archiva/webdav/RepositoryServletNoProxyTest.java
 	com.gargoylesoftware.htmlunit.WebRequest
 	com.gargoylesoftware.htmlunit.WebResponse

@@ -430,6 +430,8 @@ Methods Invoked:
 	Class origin: org.easymock.IMocksControl
 	Count: 2
  
+/archiva-webdav/src/test/java/org/apache/archiva/webdav/ArchivaDavSessionProviderTest.java
+Methods Invoked: 
 /archiva-webdav/src/test/java/org/apache/archiva/webdav/RepositoryServletNoProxyTest.java
 Methods Invoked: 
 	Method name: setRequestURI

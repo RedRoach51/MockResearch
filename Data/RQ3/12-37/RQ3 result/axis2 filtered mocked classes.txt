@@ -7,6 +7,7 @@ org.apache.axis2.deployment.Deployer
 Outside classes: 
  
 java.util.logging.Handler
+javax.servlet.http.HttpServletRequest
 org.apache.axiom.soap.SOAPBody
 javax.jms.Queue
 javax.jms.Session

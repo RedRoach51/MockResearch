@@ -1,1 +1,5 @@
 /chukwa-core/src/test/java/org/apache/hadoop/chukwa/datacollection/agent/rest/TestAdaptorController.java
+	javax.servlet.http.HttpServletRequest
+	javax.servlet.http.HttpServletResponse
+	javax.servlet.http.HttpServletRequest
+	javax.servlet.http.HttpServletResponse

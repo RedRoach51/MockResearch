@@ -1,4 +1,6 @@
 java.util.logging.Handler
+javax.servlet.http.HttpServletRequest
+javax.servlet.http.HttpServletRequest
 org.apache.axiom.soap.SOAPBody
 org.apache.axiom.soap.SOAPBody
 org.apache.axiom.soap.SOAPBody

@@ -11,6 +11,7 @@ org.apache.bookkeeper.tools.cli.commands.bookie.LastMarkCommand
 org.apache.bookkeeper.client.BookKeeperAdmin
 org.apache.bookkeeper.discover.RegistrationManager
 org.apache.bookkeeper.meta.MetadataBookieDriver
+org.apache.bookkeeper.bookie.GarbageCollectorThread
 org.apache.bookkeeper.meta.LedgerManager
 org.apache.bookkeeper.stats.StatsLogger
 org.apache.bookkeeper.bookie.CompactableLedgerStorage
@@ -62,6 +63,7 @@ org.apache.bookkeeper.bookie.InterleavedLedgerStorage
 org.apache.bookkeeper.bookie.LedgerCache.LedgerIndexMetadata
 org.apache.bookkeeper.bookie.LedgerCache.PageEntriesIterable
 org.apache.bookkeeper.bookie.ReadOnlyEntryLogger
+org.apache.bookkeeper.bookie.EntryLogger.EntryLogScanner
 org.apache.bookkeeper.bookie.Journal.LastLogMark
 org.apache.bookkeeper.bookie.LogMark
 org.apache.bookkeeper.client.UpdateLedgerOp
@@ -72,7 +74,9 @@ org.apache.bookkeeper.bookie.Cookie
 org.apache.bookkeeper.bookie.LedgerCache.PageEntries
 org.apache.bookkeeper.bookie.LedgerEntryPage
 org.apache.bookkeeper.client.BookieInfoReader.BookieInfo
+org.apache.bookkeeper.versioning.Versioned<org.apache.bookkeeper.bookie.Cookie>
 org.apache.bookkeeper.client.api.LedgerMetadata
+java.util.concurrent.CompletableFuture<org.apache.bookkeeper.versioning.Versioned<org.apache.bookkeeper.client.api.LedgerMetadata>>
 org.apache.bookkeeper.meta.LedgerMetadataSerDe
 org.apache.bookkeeper.client.api.CreateBuilder
 org.apache.bookkeeper.bookie.Cookie.Builder
@@ -126,7 +130,6 @@ java.util.function.Function
 java.util.concurrent.ScheduledExecutorService
 java.lang.Runnable
 io.netty.buffer.ByteBufAllocator
-
 java.util.concurrent.BlockingQueue
 java.nio.channels.FileChannel
 org.apache.zookeeper.data.Stat

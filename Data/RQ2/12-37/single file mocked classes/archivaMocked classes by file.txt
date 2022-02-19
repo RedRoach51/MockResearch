@@ -84,6 +84,17 @@
 	java.io.OutputStream
 	java.nio.channels.WritableByteChannel
 /archiva-web-common/src/test/java/org/apache/archiva/web/rss/RssFeedServletTest.java
+	javax.servlet.ServletContext
+	javax.servlet.http.HttpServletRequest
+	javax.servlet.http.HttpServletResponse
+	javax.servlet.http.HttpServletRequest
+	javax.servlet.http.HttpServletResponse
+	javax.servlet.http.HttpServletRequest
+	javax.servlet.http.HttpServletResponse
+	javax.servlet.http.HttpServletRequest
+	javax.servlet.http.HttpServletResponse
+	javax.servlet.http.HttpServletRequest
+	javax.servlet.http.HttpServletResponse
 /archiva-webdav/src/test/java/org/apache/archiva/webdav/ArchivaDavResourceFactoryTest.java
 	org.apache.jackrabbit.webdav.DavServletRequest
 	org.apache.jackrabbit.webdav.DavServletResponse
@@ -91,10 +102,32 @@
 	org.apache.archiva.repository.RepositoryContentFactory
 	org.apache.archiva.repository.maven.content.MavenRepositoryRequestInfo
 /archiva-webdav/src/test/java/org/apache/archiva/webdav/AbstractRepositoryServletTestCase.java
+	javax.servlet.ServletContext
+	javax.servlet.http.HttpServletRequest
 /archiva-webdav/src/test/java/org/apache/archiva/webdav/RepositoryServletSecurityTest.java
+	javax.servlet.ServletContext
+	javax.servlet.http.HttpServletRequest
+	javax.servlet.http.HttpServletResponse
+	javax.servlet.http.HttpServletRequest
+	javax.servlet.http.HttpServletResponse
+	javax.servlet.http.HttpServletRequest
+	javax.servlet.http.HttpServletResponse
+	javax.servlet.http.HttpServletRequest
+	javax.servlet.http.HttpServletResponse
+	javax.servlet.http.HttpServletRequest
+	javax.servlet.http.HttpServletResponse
+	javax.servlet.http.HttpServletRequest
+	javax.servlet.http.HttpServletResponse
+	javax.servlet.http.HttpServletRequest
+	javax.servlet.http.HttpServletResponse
+	javax.servlet.http.HttpServletRequest
+	javax.servlet.http.HttpServletResponse
 	org.apache.archiva.security.ServletAuthenticator
 	org.apache.archiva.redback.integration.filter.authentication.HttpAuthenticator
+/archiva-webdav/src/test/java/org/apache/archiva/webdav/ArchivaDavSessionProviderTest.java
+	javax.servlet.http.HttpServletRequest
 /archiva-webdav/src/test/java/org/apache/archiva/webdav/RepositoryServletNoProxyTest.java
+	javax.servlet.http.HttpServletRequest
 /audit/src/test/java/org/apache/archiva/audit/AuditManagerTest.java
 	org.apache.archiva.metadata.repository.MetadataRepository
 	org.apache.archiva.metadata.repository.RepositorySessionFactory

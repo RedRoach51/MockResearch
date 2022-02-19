@@ -10348,6 +10348,7 @@
 	org.junit.Test
 	org.mockito.Mockito
 	com.cloud.utils.SwiftUtil.SwiftClientCfg
+/cloud-utils/src/test/java/com/cloud/utils/HttpUtilsTest.java
 /cloud-utils/src/test/java/com/cloud/utils/ScriptTest.java
 	java.io.BufferedReader
 	java.io.IOException

@@ -1,6 +1,8 @@
 /axis2-adb-tests/src/test/java/org/apache/axis2/schema/axis2_5771/IgnoreUnexpectedTest.java
 	java.util.logging.Handler
 /axis2-integration/test/org/apache/axis2/transport/http/TransportHeadersTest.java
+	javax.servlet.http.HttpServletRequest
+	javax.servlet.http.HttpServletRequest
 /axis2-jaxws/test/org/apache/axis2/datasource/jaxb/JAXBCustomBuilderDisableStreamingTests.java
 	org.apache.axiom.soap.SOAPBody
 	org.apache.axiom.soap.SOAPBody

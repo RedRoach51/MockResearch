@@ -4093,6 +4093,7 @@ com.cloud.utils.SwiftUtil.SwiftClientCfg
 com.cloud.utils.SwiftUtil.SwiftClientCfg
 com.cloud.utils.SwiftUtil.SwiftClientCfg
 com.cloud.utils.SwiftUtil.SwiftClientCfg
+javax.servlet.http.HttpSession
 org.apache.log4j.Logger
 org.apache.log4j.Logger
 org.apache.http.client.methods.CloseableHttpResponse

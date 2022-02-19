@@ -1,0 +1,5 @@
+/cocoon-core/src/test/java/org/apache/cocoon/acting/ResourceExistsActionTestCase.java
+/cocoon-core/src/test/java/org/apache/cocoon/generation/FileGeneratorTestCase.java
+/cocoon-core/src/test/java/org/apache/cocoon/generation/FileGeneratorBeanTestCase.java
+/cocoon-thread-impl/src/test/java/org/apache/cocoon/thread/impl/DefaultThreadPoolTestCase.java
+/cocoon-thread-impl/src/test/java/org/apache/cocoon/thread/impl/AbstractTestCase.java

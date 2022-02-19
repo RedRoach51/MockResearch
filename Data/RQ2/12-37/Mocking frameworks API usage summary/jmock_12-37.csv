@@ -1,3 +1,0 @@
-method, origin, count
-mock,org.jmock.Mockery,227
-tick,org.jmock.lib.concurrent.DeterministicScheduler,3

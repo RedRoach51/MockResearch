@@ -31,8 +31,9 @@ org.osgi.service.packageadmin.ExportedPackage
 org.osgi.service.packageadmin.RequiredBundle
 java.io.InputStream
 javax.management.MBeanServer
-
+org.osgi.service.permissionadmin.PermissionAdmin
 org.osgi.service.provisioning.ProvisioningService
+org.osgi.service.useradmin.UserAdmin
 org.osgi.service.useradmin.User
 org.osgi.service.useradmin.Group
 org.osgi.service.useradmin.Authorization

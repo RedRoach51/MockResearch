@@ -1,7 +1,7 @@
 method, origin, count
 createMock,org.easymock.EasyMock,143
-replay,org.easymock.EasyMock,76
-verify,org.easymock.EasyMock,16
+replay,org.easymock.EasyMock,77
+verify,org.easymock.EasyMock,17
 createControl,org.easymock.EasyMock,30
 reset,org.easymock.IMocksControl,18
 expect,org.easymock.EasyMock,197
@@ -19,3 +19,5 @@ newInstance,org.easymock.Capture,1
 andAnswer,org.easymock.IExpectationSetters<java.lang.Class>,1
 capture,org.easymock.EasyMock,1
 getValue,org.easymock.Capture<java.lang.String>,1
+getMock,org.easymock.MockControl,1
+createStrictControl,org.easymock.MockControl,1
