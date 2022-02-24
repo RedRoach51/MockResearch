@@ -1,6 +1,7 @@
 Inside classes: 
  
 org.apache.falcon.workflow.WorkflowJobEndNotificationService
+org.apache.falcon.security.HostnameFilter
 org.apache.falcon.metrics.MetricNotificationService
 org.apache.falcon.notification.service.impl.AlarmService
 org.apache.falcon.notification.service.impl.DataAvailabilityService
@@ -16,11 +17,16 @@ org.apache.falcon.workflow.engine.OozieDAGEngine
  
 Outside classes: 
  
+org.apache.hadoop.security.UserGroupInformation
 java.lang.Process
 org.apache.hadoop.mapreduce.Job
 org.apache.hadoop.mapreduce.Cluster
-javax.servlet.ServletContext
+javax.servlet.http.HttpServletRequest
 javax.servlet.http.HttpServletResponse
+javax.servlet.FilterChain
+javax.servlet.FilterConfig
+java.security.cert.X509Certificate
+javax.servlet.ServletContext
 javax.servlet.ServletRequest
 javax.servlet.ServletResponse
 com.thinkaurelius.titan.diskstorage.hbase.HBaseTransaction

@@ -1,0 +1,8 @@
+/empire-db-codegen/src/test/java/org/apache/empire/db/codegen/WriterServiceTest.java
+	org.apache.empire.db.DBTableColumn
+	org.apache.empire.db.DBTableColumn
+	org.apache.empire.db.DBTableColumn
+/empire-db-codegen/src/test/java/org/apache/empire/db/codegen/util/DBUtilTest.java
+	org.slf4j.Logger
+	java.sql.ResultSet
+	java.sql.ResultSet

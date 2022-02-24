@@ -1,0 +1,76 @@
+/giraph-core/src/test/java/org/apache/giraph/comm/SaslConnectionTest.java
+	org.apache.hadoop.mapreduce.Mapper.Context
+	org.apache.giraph.comm.netty.handler.SaslServerHandler.Factory
+	org.apache.giraph.comm.netty.handler.SaslServerHandler
+/giraph-core/src/test/java/org/apache/giraph/comm/RequestTest.java
+	org.apache.hadoop.mapreduce.Mapper.Context
+/giraph-core/src/test/java/org/apache/giraph/comm/ConnectionTest.java
+	org.apache.hadoop.mapreduce.Mapper.Context
+	org.apache.hadoop.mapreduce.Mapper.Context
+	org.apache.hadoop.mapreduce.Mapper.Context
+/giraph-core/src/test/java/org/apache/giraph/comm/RequestFailureTest.java
+	org.apache.hadoop.mapreduce.Mapper.Context
+	org.apache.hadoop.mapreduce.Counter
+/giraph-core/src/test/java/org/apache/giraph/comm/messages/TestLongDoublePrimitiveMessageStores.java
+	org.apache.giraph.bsp.CentralizedServiceWorker
+	org.apache.giraph.partition.PartitionStore
+	org.apache.giraph.partition.Partition
+/giraph-core/src/test/java/org/apache/giraph/comm/messages/TestIntFloatPrimitiveMessageStores.java
+	org.apache.giraph.bsp.CentralizedServiceWorker
+	org.apache.giraph.partition.PartitionStore
+	org.apache.giraph.partition.Partition
+/giraph-core/src/test/java/org/apache/giraph/io/TestIdWithValueTextOutputFormat.java
+	org.apache.hadoop.mapreduce.TaskAttemptContext
+	org.apache.giraph.graph.Vertex
+	org.apache.hadoop.mapreduce.RecordWriter
+/giraph-core/src/test/java/org/apache/giraph/io/TestLongDoubleDoubleAdjacencyListVertexInputFormat.java
+	org.apache.hadoop.mapreduce.RecordReader
+	org.apache.hadoop.mapreduce.TaskAttemptContext
+/giraph-core/src/test/java/org/apache/giraph/io/TestAdjacencyListTextVertexOutputFormat.java
+	org.apache.hadoop.mapreduce.TaskAttemptContext
+	org.apache.giraph.graph.Vertex
+	org.apache.hadoop.mapreduce.RecordWriter
+	org.apache.hadoop.mapreduce.TaskAttemptContext
+	org.apache.giraph.graph.Vertex
+	org.apache.hadoop.mapreduce.RecordWriter
+	org.apache.hadoop.mapreduce.TaskAttemptContext
+	org.apache.giraph.graph.Vertex
+	org.apache.hadoop.mapreduce.RecordWriter
+/giraph-core/src/test/java/org/apache/giraph/io/TestTextDoubleDoubleAdjacencyListVertexInputFormat.java
+	org.apache.hadoop.mapreduce.RecordReader
+	org.apache.hadoop.mapreduce.TaskAttemptContext
+/giraph-core/src/test/java/org/apache/giraph/io/TestSrcIdDstIdEdgeValueTextOutputFormat.java
+	org.apache.hadoop.mapreduce.TaskAttemptContext
+	org.apache.giraph.edge.Edge
+	org.apache.hadoop.mapreduce.RecordWriter
+/giraph-core/src/test/java/org/apache/giraph/partition/TestPartitionStores.java
+	org.apache.hadoop.mapreduce.Mapper.Context
+	org.apache.giraph.bsp.CentralizedServiceWorker
+	org.apache.giraph.comm.WorkerServer
+	org.apache.giraph.graph.GraphTaskManager
+	org.apache.giraph.bsp.CentralizedServiceWorker
+	org.apache.giraph.comm.WorkerServer
+	org.apache.giraph.graph.GraphTaskManager
+	org.apache.giraph.bsp.CentralizedServiceWorker
+	org.apache.giraph.comm.WorkerServer
+	org.apache.giraph.graph.GraphTaskManager
+/giraph-core/src/test/java/org/apache/giraph/partition/TestGiraphTransferRegulator.java
+	org.apache.giraph.partition.PartitionOwner
+/giraph-core/src/test/java/org/apache/giraph/utils/MockUtils.java
+	org.apache.giraph.graph.GraphState
+	org.apache.hadoop.mapreduce.Mapper.Context
+	org.apache.hadoop.conf.Configuration
+	org.apache.giraph.comm.WorkerClientRequestProcessor
+	org.apache.giraph.bsp.CentralizedServiceWorker
+	org.apache.giraph.comm.WorkerServer
+/giraph-core/src/test/java/org/apache/giraph/utils/hashing/TestLongWritableFunnel.java
+	com.google.common.hash.PrimitiveSink
+/giraph-core/src/test/java/org/apache/giraph/zk/TestPredicateLock.java
+	org.apache.giraph.time.Time
+	org.apache.giraph.time.Time
+/giraph-examples/src/test/java/org/apache/giraph/TestBspBasic.java
+	org.apache.giraph.worker.WorkerInfo
+	org.apache.hadoop.mapreduce.InputSplit
+	org.apache.hadoop.mapreduce.InputSplit
+	org.apache.hadoop.mapreduce.InputSplit
+/giraph-examples/src/test/java/org/apache/giraph/examples/SimpleShortestPathsComputationTest.java

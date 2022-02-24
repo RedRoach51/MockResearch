@@ -16,6 +16,16 @@ org.apache.flink.client.cli.ProgramOptions
 org.apache.flink.client.program.PackagedProgram
 org.apache.flink.streaming.runtime.operators.CheckpointCommitter
 org.apache.flink.configuration.Configuration
+org.apache.flink.api.common.serialization.DeserializationSchema<java.lang.String>
+org.apache.flink.streaming.connectors.gcp.pubsub.DeserializationSchemaWrapper<java.lang.String>
+org.apache.flink.streaming.connectors.gcp.pubsub.common.PubSubDeserializationSchema<java.lang.String>
+org.apache.flink.streaming.connectors.gcp.pubsub.PubSubSource.AcknowledgeOnCheckpointFactory
+org.apache.flink.streaming.connectors.gcp.pubsub.common.AcknowledgeOnCheckpoint<java.lang.String>
+org.apache.flink.streaming.api.operators.StreamingRuntimeContext
+org.apache.flink.metrics.groups.OperatorMetricGroup
+org.apache.flink.streaming.connectors.gcp.pubsub.common.PubSubSubscriberFactory
+org.apache.flink.streaming.connectors.gcp.pubsub.common.PubSubSubscriber
+org.apache.flink.api.common.io.ratelimiting.FlinkConnectorRateLimiter
 org.apache.flink.streaming.connectors.gcp.pubsub.common.Acknowledger
 org.apache.flink.streaming.connectors.kafka.internals.FlinkKafkaInternalProducer
 org.apache.flink.streaming.api.functions.AssignerWithPeriodicWatermarks
@@ -25,7 +35,6 @@ org.apache.flink.streaming.connectors.kafka.internals.AbstractFetcher
 org.apache.flink.streaming.util.serialization.KeyedDeserializationSchema
 org.apache.flink.streaming.connectors.kafka.KafkaDeserializationSchema
 org.apache.flink.streaming.connectors.kafka.partitioner.FlinkKafkaPartitioner
-org.apache.flink.streaming.api.operators.StreamingRuntimeContext
 org.apache.flink.api.common.state.OperatorStateStore
 org.apache.flink.runtime.state.StateInitializationContext
 org.apache.flink.streaming.connectors.kinesis.internals.KinesisDataFetcher
@@ -39,6 +48,8 @@ org.apache.flink.streaming.connectors.kinesis.proxy.FullJitterBackoff
 org.apache.flink.streaming.connectors.kinesis.proxy.KinesisProxy
 org.apache.flink.streaming.connectors.kinesis.model.StreamShardHandle
 org.apache.flink.streaming.connectors.kinesis.metrics.PollingRecordPublisherMetricsReporter
+org.apache.flink.metrics.MetricGroup
+org.apache.flink.streaming.connectors.kinesis.metrics.ShardConsumerMetricsReporter
 org.apache.flink.streaming.connectors.kinesis.internals.publisher.fanout.StreamConsumerRegistrar
 org.apache.flink.streaming.connectors.rabbitmq.common.RMQConnectionConfig
 org.apache.flink.runtime.state.FunctionInitializationContext
@@ -130,12 +141,12 @@ org.apache.flink.runtime.rpc.RpcService
 org.apache.flink.util.concurrent.ScheduledExecutor
 org.apache.flink.runtime.resourcemanager.JobLeaderIdActions
 org.apache.flink.runtime.webmonitor.RestfulGateway
+org.apache.flink.runtime.rest.handler.legacy.metrics.MetricFetcher
 org.apache.flink.runtime.dispatcher.DispatcherGateway
 org.apache.flink.runtime.webmonitor.retriever.GatewayRetriever
 org.apache.flink.runtime.webmonitor.retriever.MetricQueryServiceRetriever
 org.apache.flink.runtime.rest.handler.legacy.metrics.MetricStore.TaskMetricStore
 org.apache.flink.runtime.rest.handler.legacy.metrics.MetricStore
-org.apache.flink.runtime.rest.handler.legacy.metrics.MetricFetcher
 org.apache.flink.runtime.webmonitor.retriever.LeaderGatewayRetriever
 org.apache.flink.runtime.executiongraph.AccessExecutionJobVertex
 org.apache.flink.runtime.executiongraph.AccessExecutionVertex
@@ -270,3 +281,4 @@ java.lang.Iterable
 java.util.concurrent.RunnableFuture
 org.apache.calcite.schema.Table
 org.apache.calcite.rel.type.RelDataType
+org.apache.hadoop.yarn.api.records.Container

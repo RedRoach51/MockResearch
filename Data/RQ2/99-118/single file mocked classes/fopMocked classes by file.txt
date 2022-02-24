@@ -1,0 +1,357 @@
+/fop-core/src/test/java/org/apache/fop/afp/AFPGraphics2DTestCase.java
+	java.awt.BasicStroke
+	org.apache.fop.afp.modca.GraphicsObject
+	org.apache.fop.afp.AFPPaintingState
+	org.apache.fop.afp.AFPResourceManager
+	org.apache.fop.afp.AFPResourceInfo
+	org.apache.fop.fonts.FontInfo
+/fop-core/src/test/java/org/apache/fop/afp/ptoca/TransparentDataControlSequenceTestCase.java
+	java.io.OutputStream
+	org.apache.fop.afp.fonts.CharactersetEncoder.EncodedChars
+/fop-core/src/test/java/org/apache/fop/afp/util/AFPResourceAccessorTestCase.java
+	org.apache.fop.apps.io.InternalResourceResolver
+	org.apache.fop.apps.io.InternalResourceResolver
+	org.apache.fop.apps.io.InternalResourceResolver
+/fop-core/src/test/java/org/apache/fop/apps/AbstractRendererConfigParserTester.java
+	org.apache.fop.apps.FOUserAgent
+	org.apache.fop.fonts.FontManager
+/fop-core/src/test/java/org/apache/fop/apps/EnvironmentalProfileFactoryTestCase.java
+	org.apache.xmlgraphics.io.ResourceResolver
+/fop-core/src/test/java/org/apache/fop/apps/AbstractRendererConfiguratorTest.java
+	
+/fop-core/src/test/java/org/apache/fop/apps/FopFactoryTestCase.java
+	org.apache.fop.render.RendererConfig.RendererConfigParser
+/fop-core/src/test/java/org/apache/fop/apps/io/ResourceResolverFactoryTestCase.java
+	org.apache.xmlgraphics.io.TempResourceResolver
+	org.apache.xmlgraphics.io.ResourceResolver
+	org.apache.xmlgraphics.io.ResourceResolver
+	org.apache.xmlgraphics.io.ResourceResolver
+/fop-core/src/test/java/org/apache/fop/apps/io/URIResolverWrapperTestCase.java
+	org.apache.xmlgraphics.io.ResourceResolver
+	org.apache.xmlgraphics.io.ResourceResolver
+	org.apache.xmlgraphics.io.ResourceResolver
+/fop-core/src/test/java/org/apache/fop/fo/FONodeMocks.java
+	org.apache.fop.fo.FONode
+	org.apache.fop.fo.FOEventHandler
+	org.apache.fop.apps.FOUserAgent
+	org.apache.fop.events.EventBroadcaster
+	org.apache.xmlgraphics.image.loader.ImageManager
+	org.apache.fop.fo.flow.table.ColumnNumberManager
+/fop-core/src/test/java/org/apache/fop/fo/flow/MarkersTestCase.java
+	org.apache.fop.fo.flow.Marker
+	org.apache.fop.fo.flow.Marker
+	org.apache.fop.fo.flow.Marker
+	org.apache.fop.fo.flow.Marker
+	org.apache.fop.fo.flow.Marker
+	org.apache.fop.fo.flow.Marker
+	org.apache.fop.fo.flow.RetrieveMarker
+	org.apache.fop.fo.flow.RetrieveTableMarker
+/fop-core/src/test/java/org/apache/fop/fo/flow/table/HeaderColumnTestCase.java
+	org.apache.fop.fo.flow.table.Table
+	org.apache.fop.fo.ElementMappingRegistry
+	org.apache.fop.fo.FOValidationEventProducer
+/fop-core/src/test/java/org/apache/fop/fo/pagination/PageSequenceMasterTestCase.java
+	org.apache.fop.fo.pagination.SimplePageMaster
+	org.apache.fop.fo.pagination.SubSequenceSpecifier
+	org.apache.fop.layoutmgr.BlockLevelEventProducer
+	org.apache.fop.fo.pagination.SimplePageMaster
+	org.apache.fop.fo.pagination.Region
+	org.apache.fop.fo.pagination.SinglePageMasterReference
+	org.apache.fop.layoutmgr.BlockLevelEventProducer
+	org.apache.fop.fo.pagination.LayoutMasterSet
+	org.apache.fop.fo.pagination.LayoutMasterSet
+	org.apache.fop.fo.FONode
+	org.apache.fop.fo.pagination.Root
+/fop-core/src/test/java/org/apache/fop/fo/pagination/RepeatablePageMasterAlternativesTestCase.java
+	org.apache.fop.fo.properties.Property
+	org.apache.fop.fo.properties.Property
+	org.apache.fop.fo.expr.NumericProperty
+	org.apache.fop.fo.properties.Property
+	org.apache.fop.fo.properties.Property
+	org.apache.fop.fo.expr.NumericProperty
+	org.apache.fop.fo.pagination.ConditionalPageMasterReference
+	org.apache.fop.fo.pagination.SimplePageMaster
+	org.apache.fop.fo.pagination.Region
+	org.apache.fop.fo.PropertyList
+	org.apache.fop.fo.pagination.PageSequenceMaster
+/fop-core/src/test/java/org/apache/fop/fo/properties/CommonAccessibilityHolderTestCase.java
+	org.apache.fop.fo.properties.Property
+	org.apache.fop.fo.properties.Property
+/fop-core/src/test/java/org/apache/fop/fo/properties/AltTextHolderTestCase.java
+	org.apache.fop.fo.properties.Property
+/fop-core/src/test/java/org/apache/fop/fo/properties/PropertyMocks.java
+	org.apache.fop.fo.properties.Property
+	org.apache.fop.fo.properties.LengthRangeProperty
+	org.apache.fop.fo.properties.Property
+	org.apache.fop.datatypes.Numeric
+	org.apache.fop.fo.properties.Property
+/fop-core/src/test/java/org/apache/fop/fo/properties/PropertyListMocks.java
+	org.apache.fop.fo.PropertyList
+	org.apache.fop.fo.properties.Property
+	org.apache.fop.fo.properties.Property
+	org.apache.fop.fo.properties.CommonBorderPaddingBackground
+/fop-core/src/test/java/org/apache/fop/fonts/CIDFullTestCase.java
+	org.apache.fop.fonts.MultiByteFont
+/fop-core/src/test/java/org/apache/fop/fonts/FontSelectorTestCase.java
+	org.apache.fop.fo.FOText
+	org.apache.fop.datatypes.PercentBaseContext
+	org.apache.fop.fo.FOEventHandler
+	org.apache.fop.fonts.FontInfo
+	org.apache.fop.fonts.Font
+	org.apache.fop.fonts.Font
+	org.apache.fop.fo.PropertyList
+/fop-core/src/test/java/org/apache/fop/fonts/CIDSubsetTestCase.java
+	org.apache.fop.fonts.MultiByteFont
+/fop-core/src/test/java/org/apache/fop/fonts/FontManagerTestCase.java
+	org.apache.fop.apps.io.InternalResourceResolver
+	org.apache.fop.fonts.FontCacheManager
+	org.apache.fop.fonts.FontDetector
+/fop-core/src/test/java/org/apache/fop/fonts/truetype/OTFSubSetFileTestCase.java
+	org.apache.fop.fonts.cff.CFFDataReader
+	org.apache.fop.fonts.cff.CFFDataReader
+	org.apache.fop.fonts.cff.CFFDataReader.FontDict
+/fop-core/src/test/java/org/apache/fop/fonts/type1/Type1SubsetFileTestCase.java
+	org.apache.fop.fonts.SingleByteFont
+/fop-core/src/test/java/org/apache/fop/fonts/type1/CharMetricsHandlerTestCase.java
+	java.util.HashMap
+	org.apache.fop.fonts.type1.AFMParser.ValueHandler
+	org.apache.fop.fonts.type1.AFMParser.ValueHandler
+	org.apache.fop.fonts.type1.AFMParser.ValueHandler
+	org.apache.fop.fonts.type1.AFMParser.ValueHandler
+/fop-core/src/test/java/org/apache/fop/image/loader/batik/Graphics2DImagePainterImplTestCase.java
+	org.apache.batik.gvt.GraphicsNode
+	org.apache.batik.bridge.BridgeContext
+/fop-core/src/test/java/org/apache/fop/layoutmgr/RetrieveTableMarkerLayoutManagerTestCase.java
+	org.apache.fop.fo.flow.table.Table
+	org.apache.fop.fo.flow.RetrieveTableMarker
+	org.apache.fop.layoutmgr.inline.TextLayoutManager
+	org.apache.fop.layoutmgr.LayoutManagerMapping
+	org.apache.fop.layoutmgr.PageSequenceLayoutManager
+	org.apache.fop.layoutmgr.table.TableLayoutManager
+	org.apache.fop.layoutmgr.BlockLayoutManager
+/fop-core/src/test/java/org/apache/fop/layoutmgr/RetrieveTableMarkerLayoutManagerMakerTestCase.java
+	org.apache.fop.fo.FObj.FObjIterator
+	org.apache.fop.fo.flow.RetrieveTableMarker
+/fop-core/src/test/java/org/apache/fop/layoutmgr/PageSequenceLayoutManagerTestCase.java
+	org.apache.fop.fo.pagination.Flow
+	org.apache.fop.fo.pagination.PageSequence
+	org.apache.fop.fo.pagination.Root
+	org.apache.fop.area.AreaTreeHandler
+	org.apache.fop.layoutmgr.Page
+	org.apache.fop.fo.pagination.SimplePageMaster
+	org.apache.fop.area.PageViewport
+	org.apache.fop.fo.pagination.RegionBody
+	org.apache.fop.fo.pagination.PageSequence
+	org.apache.fop.area.AreaTreeHandler
+	org.apache.fop.fo.pagination.Flow
+	org.apache.fop.fo.pagination.Root
+/fop-core/src/test/java/org/apache/fop/layoutmgr/table/TableContentLayoutManagerTestCase.java
+	org.apache.fop.layoutmgr.table.ColumnSetup
+	org.apache.fop.fo.FONode.FONodeIterator
+	org.apache.fop.fo.flow.table.Table
+	org.apache.fop.layoutmgr.table.TableLayoutManager
+	org.apache.fop.layoutmgr.PositionIterator
+/fop-core/src/test/java/org/apache/fop/layoutmgr/table/TableCellLayoutManagerTestCase.java
+	org.apache.fop.fo.properties.CommonBorderPaddingBackground
+	org.apache.fop.fo.properties.CondLengthProperty
+	org.apache.fop.fo.flow.table.TableColumn
+	org.apache.fop.fo.flow.table.Table
+	org.apache.fop.fo.flow.table.TableHeader
+	org.apache.fop.fo.flow.table.TableRow
+	org.apache.fop.fo.flow.table.TableCell
+	org.apache.fop.fo.flow.table.PrimaryGridUnit
+	org.apache.fop.layoutmgr.RetrieveTableMarkerLayoutManager
+	org.apache.fop.layoutmgr.PageSequenceLayoutManager
+	org.apache.fop.layoutmgr.table.TableLayoutManager
+	org.apache.fop.layoutmgr.PositionIterator
+	org.apache.fop.layoutmgr.table.RowPainter
+/fop-core/src/test/java/org/apache/fop/layoutmgr/table/TableLayoutManagerTestCase.java
+	org.apache.fop.fo.flow.table.Table
+	org.apache.fop.layoutmgr.table.TableCellLayoutManager
+	org.apache.fop.layoutmgr.table.TableCellLayoutManager
+	org.apache.fop.fo.flow.table.Table
+	org.apache.fop.fo.flow.Marker
+	org.apache.fop.fo.flow.RetrieveTableMarker
+	org.apache.fop.area.PageViewport
+	org.apache.fop.layoutmgr.Page
+	org.apache.fop.layoutmgr.PageSequenceLayoutManager
+	org.apache.fop.layoutmgr.BlockLayoutManager
+	org.apache.fop.fo.flow.Marker
+/fop-core/src/test/java/org/apache/fop/pdf/PDFParentTreeTestCase.java
+	org.apache.fop.pdf.PDFStructElem
+	org.apache.fop.pdf.PDFStructElem
+/fop-core/src/test/java/org/apache/fop/pdf/PDFPagePieceTestCase.java
+	org.apache.fop.render.pdf.extensions.PDFDictionaryExtension
+	org.apache.fop.render.pdf.extensions.PDFDictionaryExtension
+/fop-core/src/test/java/org/apache/fop/pdf/PDFPageLabelsTestCase.java
+	org.apache.fop.pdf.PDFDocument
+/fop-core/src/test/java/org/apache/fop/pdf/PDFImageXObjectTestCase.java
+	org.apache.xmlgraphics.image.loader.impl.ImageRendered
+	org.apache.xmlgraphics.image.loader.ImageInfo
+	org.apache.xmlgraphics.image.loader.impl.ImageRendered
+	org.apache.xmlgraphics.image.loader.ImageInfo
+/fop-core/src/test/java/org/apache/fop/pdf/TableHeaderScopeTestCase.java
+	org.apache.fop.pdf.VersionController
+	org.apache.fop.pdf.PDFStructElem
+	org.apache.fop.pdf.PDFStructElem
+/fop-core/src/test/java/org/apache/fop/render/AbstractPathOrientedRendererTestCase.java
+	org.apache.fop.apps.FOUserAgent
+/fop-core/src/test/java/org/apache/fop/render/afp/AFPRendererConfiguratorTestCase.java
+/fop-core/src/test/java/org/apache/fop/render/afp/AFPPainterTestCase.java
+	org.apache.fop.afp.AFPPaintingState
+	org.apache.fop.events.EventBroadcaster
+	org.apache.xmlgraphics.image.loader.impl.DefaultImageContext
+	org.apache.xmlgraphics.image.loader.impl.DefaultImageSessionContext
+	org.apache.xmlgraphics.image.loader.impl.ImageBuffered
+	org.apache.xmlgraphics.image.loader.ImageManager
+	org.apache.fop.render.afp.AFPImageHandlerRenderedImage
+	org.apache.fop.render.ImageHandlerRegistry
+	org.apache.fop.apps.FOUserAgent
+	org.apache.fop.afp.AFPEventProducer
+	org.apache.fop.afp.AFPResourceManager
+	org.apache.fop.render.intermediate.IFContext
+	org.apache.fop.render.afp.AFPDocumentHandler
+	org.apache.fop.afp.fonts.CharacterSet
+	org.apache.fop.afp.fonts.CharactersetEncoder.EncodedChars
+/fop-core/src/test/java/org/apache/fop/render/afp/AFPTrueTypeTestCase.java
+	org.apache.fop.render.afp.AFPDocumentHandler
+	org.apache.fop.afp.DataStream
+	org.apache.fop.render.afp.AFPDocumentHandler
+	org.apache.fop.afp.DataStream
+/fop-core/src/test/java/org/apache/fop/render/bitmap/AbstractBitmapRendererConfiguratorTest.java
+/fop-core/src/test/java/org/apache/fop/render/extensions/DocumentNavigationHandlerTestCase.java
+	org.xml.sax.Attributes
+	org.xml.sax.Attributes
+	org.xml.sax.Attributes
+	org.xml.sax.Attributes
+/fop-core/src/test/java/org/apache/fop/render/intermediate/IFSerializerTestCase.java
+	org.apache.xmlgraphics.image.loader.ImageManager
+	org.apache.fop.apps.FOUserAgent
+/fop-core/src/test/java/org/apache/fop/render/intermediate/IFStructureTreeBuilderTestCase.java
+	org.xml.sax.ContentHandler
+	org.xml.sax.ContentHandler
+	org.xml.sax.ContentHandler
+/fop-core/src/test/java/org/apache/fop/render/intermediate/SAXEventRecorderTestCase.java
+	org.xml.sax.ContentHandler
+	org.xml.sax.ContentHandler
+	org.xml.sax.ContentHandler
+	org.xml.sax.ContentHandler
+	org.xml.sax.ContentHandler
+/fop-core/src/test/java/org/apache/fop/render/intermediate/AbstractIFPainterTestCase.java
+	org.apache.fop.render.intermediate.IFDocumentHandler
+	org.apache.fop.fonts.FontInfo
+	org.apache.fop.fonts.FontTriplet
+	org.apache.fop.fonts.FontTriplet
+/fop-core/src/test/java/org/apache/fop/render/intermediate/ArcToBezierCurveTransformerTestCase.java
+	org.apache.fop.render.intermediate.BezierCurvePainter
+/fop-core/src/test/java/org/apache/fop/render/intermediate/BorderPainterTestCase.java
+	org.apache.fop.render.intermediate.GraphicsPainter
+	org.apache.fop.render.intermediate.GraphicsPainter
+	org.apache.fop.render.intermediate.GraphicsPainter
+	org.apache.fop.render.intermediate.GraphicsPainter
+/fop-core/src/test/java/org/apache/fop/render/java2d/Java2DUtilTestCase.java
+	java.awt.Graphics2D
+	java.awt.Font
+	java.awt.Graphics2D
+	java.awt.Font
+	org.apache.fop.fonts.SingleByteFont
+	org.apache.fop.fonts.MultiByteFont
+	org.apache.fop.fonts.FontInfo
+	org.apache.fop.fonts.Font
+/fop-core/src/test/java/org/apache/fop/render/pcl/PCLRendererConfiguratorTestCase.java
+/fop-core/src/test/java/org/apache/fop/render/pcl/fonts/PCLTTFFontReaderTestCase.java
+	org.apache.fop.render.java2d.CustomFontMetricsMapper
+	org.apache.fop.fonts.CustomFont
+	org.apache.fop.fonts.SingleByteFont
+/fop-core/src/test/java/org/apache/fop/render/pcl/fonts/PCLFontReaderFactoryTestCase.java
+	org.apache.fop.fonts.CustomFont
+/fop-core/src/test/java/org/apache/fop/render/pcl/fonts/truetype/PCLTTFCharacterWriterTestCase.java
+	org.apache.fop.render.java2d.CustomFontMetricsMapper
+	org.apache.fop.fonts.CustomFont
+/fop-core/src/test/java/org/apache/fop/render/pdf/ImageRawPNGAdapterTestCase.java
+	java.awt.image.IndexColorModel
+	org.apache.xmlgraphics.image.loader.impl.ImageRawPNG
+	org.apache.fop.pdf.PDFDocument
+	org.apache.fop.pdf.PDFProfile
+	java.awt.image.ComponentColorModel
+	org.apache.xmlgraphics.image.loader.impl.ImageRawPNG
+	org.apache.fop.pdf.PDFDocument
+	org.apache.fop.pdf.PDFProfile
+	java.awt.image.ComponentColorModel
+	org.apache.xmlgraphics.image.loader.impl.ImageRawPNG
+	org.apache.fop.pdf.PDFDocument
+	org.apache.fop.pdf.PDFProfile
+	java.awt.image.ComponentColorModel
+	org.apache.xmlgraphics.image.loader.impl.ImageRawPNG
+	org.apache.fop.pdf.PDFDictionary
+	java.awt.image.ComponentColorModel
+	org.apache.xmlgraphics.image.loader.impl.ImageRawPNG
+	org.apache.fop.pdf.PDFDocument
+	org.apache.fop.pdf.PDFProfile
+	org.apache.fop.pdf.PDFResources
+	org.apache.fop.pdf.PDFICCBasedColorSpace
+	org.apache.fop.pdf.PDFICCStream
+/fop-core/src/test/java/org/apache/fop/render/pdf/PDFGraphicsPainterTestCase.java
+	org.apache.fop.render.pdf.PDFContentGenerator
+/fop-core/src/test/java/org/apache/fop/render/pdf/ImageRenderedAdapterTestCase.java
+	org.apache.xmlgraphics.image.loader.impl.ImageRendered
+	org.apache.xmlgraphics.image.loader.ImageInfo
+	org.apache.xmlgraphics.image.loader.impl.ImageRendered
+	org.apache.xmlgraphics.image.loader.ImageInfo
+	org.apache.xmlgraphics.image.loader.impl.ImageRendered
+	org.apache.xmlgraphics.image.loader.ImageInfo
+	org.apache.fop.pdf.PDFDocument
+	org.apache.fop.pdf.PDFResources
+	org.apache.fop.pdf.PDFProfile
+	org.apache.fop.pdf.PDFFactory
+	org.apache.fop.pdf.PDFICCStream
+	java.awt.color.ICC_Profile
+/fop-core/src/test/java/org/apache/fop/render/pdf/PDFPainterTestCase.java
+	org.apache.fop.render.pdf.PDFLogicalStructureHandler
+	org.apache.fop.apps.FOUserAgent
+	org.apache.fop.render.pdf.PDFContentGenerator
+	org.apache.fop.render.pdf.PDFDocumentHandler
+	org.apache.fop.render.intermediate.IFContext
+	org.apache.fop.pdf.PDFDocument
+/fop-core/src/test/java/org/apache/fop/render/ps/ImageEncoderPNGTestCase.java
+	java.awt.image.ComponentColorModel
+	org.apache.xmlgraphics.image.loader.impl.ImageRawPNG
+	java.awt.image.IndexColorModel
+	org.apache.xmlgraphics.image.loader.impl.ImageRawPNG
+	java.awt.image.IndexColorModel
+	org.apache.xmlgraphics.image.loader.impl.ImageRawPNG
+	java.awt.image.ComponentColorModel
+	org.apache.xmlgraphics.image.loader.impl.ImageRawPNG
+/fop-core/src/test/java/org/apache/fop/render/ps/PSRenderingUtilTestCase.java
+	org.apache.xmlgraphics.ps.PSGenerator
+/fop-core/src/test/java/org/apache/fop/render/ps/PSPainterTestCase.java
+	org.apache.fop.apps.FOUserAgent
+	org.apache.fop.render.intermediate.IFContext
+	org.apache.xmlgraphics.ps.PSGenerator
+	org.apache.xmlgraphics.ps.PSGenerator
+	org.apache.fop.render.ps.PSRenderingUtil
+	org.apache.fop.render.ps.PSDocumentHandler
+	org.apache.xmlgraphics.ps.PSGenerator
+	org.apache.fop.render.ps.PSRenderingUtil
+	org.apache.fop.render.ps.PSDocumentHandler
+	org.apache.fop.fonts.FontInfo
+	org.apache.fop.render.ps.PSFontResource
+	org.apache.fop.fonts.MultiByteFont
+	org.apache.fop.fonts.Font
+/fop-core/src/test/java/org/apache/fop/render/ps/PSRendererConfiguratorTestCase.java
+/fop-core/src/test/java/org/apache/fop/render/ps/fonts/PSTTFGlyphOutputStreamTestCase.java
+	org.apache.fop.render.ps.fonts.PSTTFGenerator
+/fop-core/src/test/java/org/apache/fop/render/ps/fonts/PSTTFTableOutputStreamTestCase.java
+	org.apache.fop.render.ps.fonts.PSTTFGenerator
+/fop-core/src/test/java/org/apache/fop/render/ps/fonts/PSTTFOutputStreamTestCase.java
+	org.apache.xmlgraphics.ps.PSGenerator
+/fop-core/src/test/java/org/apache/fop/svg/font/KerningGlyphLayoutTestCase.java
+	org.apache.fop.fonts.FontMetrics
+	org.apache.fop.fonts.Font
+	org.apache.fop.svg.font.FOPGVTFont
+/fop-core/src/test/java/org/apache/fop/svg/font/FOPGVTFontTestCase.java
+	org.apache.fop.fonts.Font
+/fop-core/src/test/java/org/apache/fop/svg/font/BasicGlyphVectorTestCase.java
+	org.apache.fop.fonts.FontMetrics
+	org.apache.fop.fonts.Font
+	org.apache.fop.svg.font.FOPGVTFont

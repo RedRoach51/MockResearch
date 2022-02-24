@@ -1,0 +1,162 @@
+/flume-dataset-sink/src/test/java/org/apache/flume/sink/kite/TestDatasetSink.java
+	org.apache.flume.Event
+	org.apache.avro.generic.GenericRecord
+	org.apache.flume.sink.kite.parser.EntityParser
+	org.apache.flume.sink.kite.policy.FailurePolicy
+	org.kitesdk.data.DatasetWriter
+	org.apache.flume.Event
+	org.apache.avro.generic.GenericRecord
+	org.apache.flume.sink.kite.parser.EntityParser
+	org.apache.flume.sink.kite.policy.FailurePolicy
+	org.kitesdk.data.DatasetWriter
+/flume-file-channel/src/test/java/org/apache/flume/channel/file/TestLog.java
+	java.io.File
+/flume-file-channel/src/test/java/org/apache/flume/channel/file/TestTransactionEventRecordV3.java
+	org.apache.flume.channel.file.TransactionEventRecord
+/flume-file-channel/src/test/java/org/apache/flume/channel/file/TestTransactionEventRecordV2.java
+	org.apache.flume.channel.file.TransactionEventRecord
+/flume-file-channel/src/test/java/org/apache/flume/channel/file/TestFileChannelErrorMetrics.java
+/flume-hdfs-sink/src/test/java/org/apache/flume/sink/hdfs/TestBucketWriter.java
+/flume-hdfs-sink/src/test/java/org/apache/flume/sink/hdfs/TestHDFSEventSink.java
+	org.apache.flume.Channel
+	org.apache.flume.channel.BasicTransactionSemantics
+/flume-hive-sink/src/test/java/org/apache/flume/sink/hive/TestHiveSink.java
+	org.apache.flume.Channel
+	org.apache.flume.channel.BasicTransactionSemantics
+/flume-http-sink/src/test/java/org/apache/flume/sink/http/TestHttpSink.java
+	org.apache.flume.instrumentation.SinkCounter
+	org.apache.flume.Context
+	org.apache.flume.Channel
+	org.apache.flume.Transaction
+	org.apache.flume.Event
+	java.net.HttpURLConnection
+	java.io.OutputStream
+	java.io.InputStream
+/flume-http-sink/src/test/java/org/apache/flume/sink/http/TestHttpSinkIT.java
+/flume-jms-source/src/test/java/org/apache/flume/source/jms/TestJMSMessageConsumer.java
+	javax.jms.TopicSubscriber
+/flume-jms-source/src/test/java/org/apache/flume/source/jms/TestDefaultJMSMessageConverter.java
+	javax.jms.TextMessage
+	javax.jms.TextMessage
+	javax.jms.BytesMessage
+	javax.jms.ObjectMessage
+/flume-jms-source/src/test/java/org/apache/flume/source/jms/TestIntegrationActiveMQ.java
+	org.apache.flume.channel.ChannelProcessor
+/flume-jms-source/src/test/java/org/apache/flume/source/jms/TestJMSSource.java
+	javax.naming.InitialContext
+	org.apache.flume.channel.ChannelProcessor
+	org.apache.flume.source.jms.InitialContextFactory
+/flume-jms-source/src/test/java/org/apache/flume/source/jms/JMSMessageConsumerTestBase.java
+	javax.jms.ConnectionFactory
+	javax.jms.Connection
+	javax.jms.Session
+	javax.jms.Queue
+	javax.jms.Topic
+	javax.jms.MessageConsumer
+	javax.jms.TextMessage
+/flume-kafka-channel/src/test/java/org/apache/flume/channel/kafka/TestBasicFunctionality.java
+/flume-kafka-source/src/test/java/org/apache/flume/source/kafka/TestKafkaSource.java
+	org.apache.flume.channel.ChannelProcessor
+	org.apache.flume.channel.ChannelProcessor
+	org.apache.flume.channel.ChannelProcessor
+/flume-ng-core/src/test/java/org/apache/flume/channel/TestChannelProcessor.java
+	org.apache.flume.Channel
+	org.apache.flume.Channel
+/flume-ng-core/src/test/java/org/apache/flume/formatter/output/TestBucketPath.java
+	org.apache.flume.Clock
+/flume-ng-core/src/test/java/org/apache/flume/sink/TestAvroSink.java
+	org.apache.flume.Channel
+	org.apache.flume.channel.BasicTransactionSemantics
+/flume-ng-core/src/test/java/org/apache/flume/sink/TestRollingFileSink.java
+	org.apache.flume.Channel
+	org.apache.flume.channel.BasicTransactionSemantics
+/flume-ng-core/src/test/java/org/apache/flume/source/TestThriftSource.java
+	org.apache.flume.channel.ChannelProcessor
+/flume-ng-core/src/test/java/org/apache/flume/source/TestAvroSource.java
+	org.apache.flume.channel.ChannelProcessor
+/flume-ng-core/src/test/java/org/apache/flume/source/TestSyslogTcpSource.java
+	org.apache.flume.channel.ChannelProcessor
+/flume-ng-core/src/test/java/org/apache/flume/source/TestMultiportSyslogTCPSource.java
+	org.apache.mina.transport.socket.nio.NioSession
+	org.apache.mina.transport.socket.nio.NioSession
+	org.apache.flume.channel.ChannelProcessor
+/flume-ng-core/src/test/java/org/apache/flume/source/TestStressSource.java
+	org.apache.flume.channel.ChannelProcessor
+/flume-ng-core/src/test/java/org/apache/flume/source/TestSpoolDirectorySource.java
+	org.apache.flume.channel.ChannelProcessor
+	org.apache.flume.client.avro.ReliableSpoolingFileEventReader
+	org.apache.flume.Event
+	org.apache.flume.channel.ChannelProcessor
+	org.apache.flume.client.avro.ReliableSpoolingFileEventReader
+	org.apache.flume.Event
+/flume-ng-core/src/test/java/org/apache/flume/source/TestAbstractPollableSource.java
+/flume-ng-core/src/test/java/org/apache/flume/source/TestSequenceGeneratorSource.java
+	org.apache.flume.channel.ChannelProcessor
+	org.apache.flume.channel.ChannelProcessor
+	org.apache.flume.channel.ChannelProcessor
+/flume-ng-core/src/test/java/org/apache/flume/source/TestBasicSourceSemantics.java
+	org.apache.flume.channel.ChannelProcessor
+/flume-ng-core/src/test/java/org/apache/flume/source/TestSyslogUdpSource.java
+	org.apache.flume.channel.ChannelProcessor
+	org.apache.flume.channel.ChannelProcessor
+/flume-ng-core/src/test/java/org/apache/flume/source/http/TestHTTPSource.java
+	org.apache.flume.channel.ChannelProcessor
+/flume-ng-core/src/test/java/org/apache/flume/source/http/TestBLOBHandler.java
+	javax.servlet.http.HttpServletRequest
+	org.apache.flume.Context
+	javax.servlet.http.HttpServletRequest
+	org.apache.flume.Context
+	javax.servlet.http.HttpServletRequest
+	org.apache.flume.Context
+/flume-ng-elasticsearch-sink/src/test/java/org/apache/flume/sink/elasticsearch/client/TestElasticSearchTransportClient.java
+	org.apache.flume.sink.elasticsearch.ElasticSearchEventSerializer
+	org.apache.flume.sink.elasticsearch.IndexNameBuilder
+	org.elasticsearch.client.Client
+	org.elasticsearch.action.bulk.BulkRequestBuilder
+	org.elasticsearch.action.index.IndexRequestBuilder
+	org.apache.flume.Event
+	org.elasticsearch.common.bytes.BytesReference
+	org.elasticsearch.common.io.BytesStream
+	org.elasticsearch.action.ListenableActionFuture
+	org.elasticsearch.action.bulk.BulkResponse
+	org.elasticsearch.action.ListenableActionFuture
+	org.elasticsearch.action.bulk.BulkResponse
+/flume-ng-elasticsearch-sink/src/test/java/org/apache/flume/sink/elasticsearch/client/TestElasticSearchClientFactory.java
+	org.apache.flume.sink.elasticsearch.ElasticSearchEventSerializer
+/flume-ng-elasticsearch-sink/src/test/java/org/apache/flume/sink/elasticsearch/client/TestElasticSearchRestClient.java
+	org.apache.flume.sink.elasticsearch.ElasticSearchEventSerializer
+	org.apache.flume.sink.elasticsearch.IndexNameBuilder
+	org.apache.flume.Event
+	org.apache.http.client.HttpClient
+	org.apache.http.HttpResponse
+	org.apache.http.StatusLine
+	org.apache.http.HttpEntity
+	org.elasticsearch.common.bytes.BytesReference
+	org.elasticsearch.common.io.BytesStream
+/flume-ng-embedded-agent/src/test/java/org/apache/flume/agent/embedded/TestEmbeddedAgentEmbeddedSource.java
+	org.apache.flume.SourceRunner
+	org.apache.flume.Channel
+	org.apache.flume.SinkRunner
+	org.apache.flume.agent.embedded.EmbeddedSource
+/flume-ng-hbase-sink/src/test/java/org/apache/flume/sink/hbase/TestHBaseSink.java
+/flume-ng-hbase-sink/src/test/java/org/apache/flume/sink/hbase/TestRegexHbaseEventSerializer.java
+	java.util.Calendar
+/flume-ng-hbase2-sink/src/test/java/org/apache/flume/sink/hbase2/TestHBase2Sink.java
+	org.apache.flume.sink.hbase2.HBase2Sink
+	org.apache.flume.sink.hbase2.HBase2Sink
+/flume-ng-hbase2-sink/src/test/java/org/apache/flume/sink/hbase2/TestRegexHBase2EventSerializer.java
+	java.util.Calendar
+/flume-ng-kafka-sink/src/test/java/org/apache/flume/sink/kafka/TestKafkaSink.java
+/flume-ng-log4jappender/src/test/java/org/apache/flume/clients/log4jappender/TestLog4jAppender.java
+/flume-ng-morphline-solr-sink/src/test/java/org/apache/flume/sink/solr/morphline/TestMorphlineSolrSink.java
+	org.apache.flume.Channel
+	org.apache.flume.channel.BasicTransactionSemantics
+/flume-ng-node/src/test/java/org/apache/flume/node/TestApplication.java
+	T
+	org.apache.flume.node.ConfigurationProvider
+/flume-scribe-source/src/test/java/org/apache/flume/source/scribe/TestScribeSource.java
+	org.apache.flume.channel.ChannelProcessor
+/flume-taildir-source/src/test/java/org/apache/flume/source/taildir/TestTaildirSource.java
+	org.apache.flume.source.taildir.ReliableTaildirEventReader
+	org.apache.flume.source.taildir.ReliableTaildirEventReader
+	org.apache.flume.channel.ChannelProcessor

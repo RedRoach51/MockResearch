@@ -32,10 +32,21 @@ org.apache.flink.configuration.Configuration
 org.elasticsearch.action.bulk.BulkProcessor
 org.elasticsearch.action.DocWriteResponse
 org.elasticsearch.client.Client
+org.apache.flink.api.common.serialization.DeserializationSchema<java.lang.String>
+org.apache.flink.streaming.connectors.gcp.pubsub.DeserializationSchemaWrapper<java.lang.String>
 org.apache.flink.api.common.serialization.DeserializationSchema.InitializationContext
 com.google.auth.Credentials
 com.google.auth.Credentials
 com.google.auth.Credentials
+org.apache.flink.streaming.connectors.gcp.pubsub.common.PubSubDeserializationSchema<java.lang.String>
+org.apache.flink.streaming.connectors.gcp.pubsub.PubSubSource.AcknowledgeOnCheckpointFactory
+org.apache.flink.streaming.connectors.gcp.pubsub.common.AcknowledgeOnCheckpoint<java.lang.String>
+org.apache.flink.streaming.api.operators.StreamingRuntimeContext
+org.apache.flink.metrics.groups.OperatorMetricGroup
+org.apache.flink.streaming.connectors.gcp.pubsub.common.PubSubSubscriberFactory
+com.google.auth.Credentials
+org.apache.flink.streaming.connectors.gcp.pubsub.common.PubSubSubscriber
+org.apache.flink.api.common.io.ratelimiting.FlinkConnectorRateLimiter
 org.apache.flink.streaming.connectors.gcp.pubsub.common.Acknowledger
 org.apache.flink.api.common.functions.RuntimeContext
 org.apache.flink.api.common.ExecutionConfig
@@ -142,6 +153,10 @@ org.apache.flink.streaming.connectors.kinesis.metrics.PollingRecordPublisherMetr
 org.apache.flink.streaming.connectors.kinesis.proxy.KinesisProxyInterface
 org.apache.flink.streaming.connectors.kinesis.metrics.PollingRecordPublisherMetricsReporter
 org.apache.flink.streaming.connectors.kinesis.proxy.KinesisProxyInterface
+org.apache.flink.streaming.connectors.kinesis.metrics.PollingRecordPublisherMetricsReporter
+org.apache.flink.metrics.MetricGroup
+org.apache.flink.streaming.connectors.kinesis.metrics.ShardConsumerMetricsReporter
+org.apache.flink.metrics.MetricGroup
 com.amazonaws.services.kinesis.AmazonKinesisClient
 com.amazonaws.services.kinesis.AmazonKinesis
 com.amazonaws.services.kinesis.AmazonKinesis
@@ -320,6 +335,8 @@ org.apache.flink.streaming.api.transformations.SourceTransformation
 org.apache.flink.streaming.api.transformations.SourceTransformation
 org.apache.flink.streaming.api.transformations.SourceTransformation
 org.apache.flink.streaming.api.transformations.SourceTransformation
+org.apache.flink.api.common.functions.RuntimeContext
+org.apache.flink.metrics.groups.OperatorMetricGroup
 org.apache.flink.api.common.functions.RuntimeContext
 org.apache.flink.runtime.query.TaskKvStateRegistry
 org.apache.flink.queryablestate.network.ClientHandlerCallback
@@ -512,6 +529,8 @@ org.apache.flink.runtime.resourcemanager.JobLeaderIdActions
 org.apache.flink.runtime.webmonitor.RestfulGateway
 org.apache.flink.shaded.netty4.io.netty.channel.Channel
 org.apache.flink.shaded.netty4.io.netty.channel.ChannelHandlerContext
+org.apache.flink.runtime.rest.handler.legacy.metrics.MetricFetcher
+org.apache.flink.runtime.dispatcher.DispatcherGateway
 org.apache.flink.runtime.dispatcher.DispatcherGateway
 org.apache.flink.runtime.webmonitor.retriever.GatewayRetriever
 org.apache.flink.runtime.webmonitor.retriever.MetricQueryServiceRetriever
@@ -523,6 +542,8 @@ java.util.concurrent.Executor
 org.apache.flink.runtime.executiongraph.AccessExecutionJobVertex
 org.apache.flink.runtime.executiongraph.AccessExecutionVertex
 org.apache.flink.runtime.executiongraph.AccessExecutionVertex
+org.apache.flink.runtime.rest.handler.legacy.metrics.MetricFetcher
+org.apache.flink.runtime.dispatcher.DispatcherGateway
 org.apache.flink.runtime.checkpoint.AbstractCheckpointStats
 org.apache.flink.shaded.netty4.io.netty.channel.ChannelPipeline
 org.apache.flink.runtime.query.TaskKvStateRegistry
@@ -572,6 +593,7 @@ org.apache.flink.runtime.filecache.FileCache
 org.slf4j.Logger
 org.apache.flink.runtime.taskmanager.CheckpointResponder
 org.apache.flink.runtime.rpc.RpcGateway
+org.apache.flink.runtime.dispatcher.DispatcherGateway
 org.apache.hadoop.fs.FileSystem
 org.apache.flink.streaming.api.functions.source.SourceFunction
 org.apache.flink.streaming.api.functions.windowing.ProcessWindowFunction
@@ -870,3 +892,4 @@ org.apache.flink.table.runtime.operators.window.assigners.MergingWindowAssigner.
 org.apache.flink.table.runtime.operators.window.assigners.MergingWindowAssigner.MergeCallback
 org.apache.flink.table.runtime.operators.window.assigners.MergingWindowAssigner.MergeCallback
 org.apache.flink.runtime.query.TaskKvStateRegistry
+org.apache.hadoop.yarn.api.records.Container

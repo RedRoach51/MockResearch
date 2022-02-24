@@ -1,0 +1,30 @@
+/groovy-groovydoc/src/test/groovy/org/codehaus/groovy/tools/groovydoc/GroovyDocToolTest.java
+	groovy.test.GroovyTestCase
+	org.codehaus.groovy.groovydoc.GroovyClassDoc
+	org.codehaus.groovy.groovydoc.GroovyMethodDoc
+	org.codehaus.groovy.groovydoc.GroovyRootDoc
+	org.codehaus.groovy.runtime.StringGroovyMethods
+	org.codehaus.groovy.tools.groovydoc.gstringTemplates.GroovyDocTemplateInfo
+	java.nio.charset.Charset
+	java.util.ArrayList
+	java.util.Arrays
+	java.util.List
+	java.util.Properties
+	java.util.regex.Matcher
+	java.util.regex.Pattern
+/groovy-jmx/src/test/java/groovy/jmx/builder/MockManagedObject.java
+	java.util.logging.Level
+	java.util.logging.Logger
+/groovy-servlet/src/test/java/groovy/servlet/GroovyServletTest.java
+	javax.servlet.http.HttpServletRequest
+	org.jmock.Mock
+	org.jmock.MockObjectTestCase
+/groovy-test/src/main/java/groovy/mock/interceptor/MockProxyMetaClass.java
+	groovy.lang.Closure
+	groovy.lang.GroovyObject
+	groovy.lang.GroovySystem
+	groovy.lang.Interceptor
+	groovy.lang.MetaClass
+	groovy.lang.MetaClassRegistry
+	groovy.lang.PropertyAccessInterceptor
+	groovy.lang.ProxyMetaClass

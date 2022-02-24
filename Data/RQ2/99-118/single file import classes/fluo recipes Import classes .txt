@@ -1,0 +1,26 @@
+/fluo-recipes-core/src/test/java/org/apache/fluo/recipes/core/transaction/RecordingTransactionTest.java
+	java.util.Collections
+	java.util.Iterator
+	java.util.List
+	java.util.TreeMap
+	com.google.common.collect.Iterators
+	org.apache.fluo.api.client.Transaction
+	org.apache.fluo.api.client.scanner.CellScanner
+	org.apache.fluo.api.client.scanner.ColumnScanner
+	org.apache.fluo.api.client.scanner.RowScanner
+	org.apache.fluo.api.client.scanner.RowScannerBuilder
+	org.apache.fluo.api.client.scanner.ScannerBuilder
+	org.apache.fluo.api.data.Bytes
+	org.apache.fluo.api.data.Column
+	org.apache.fluo.api.data.ColumnValue
+	org.apache.fluo.api.data.RowColumnValue
+	org.apache.fluo.recipes.core.types.StringEncoder
+	org.apache.fluo.recipes.core.types.TypeLayer
+	org.apache.fluo.recipes.core.types.TypedTransaction
+	org.junit.Assert
+	org.junit.Before
+	org.junit.Test
+	org.easymock.EasyMock.expect
+	org.easymock.EasyMock.mock
+	org.easymock.EasyMock.replay
+	org.easymock.EasyMock.verify
