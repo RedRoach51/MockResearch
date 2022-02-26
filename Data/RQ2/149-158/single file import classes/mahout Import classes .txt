@@ -1,0 +1,20 @@
+/mahout-core/src/test/java/org/apache/mahout/math/VectorBinaryAggregateCostTest.java
+	org.apache.mahout.math.function.Functions
+	org.easymock.EasyMock
+	org.junit.Before
+	org.junit.Test
+	org.junit.runner.RunWith
+	org.junit.runners.JUnit4
+	org.easymock.EasyMock.expect
+	org.easymock.EasyMock.replay
+	org.junit.Assert.assertEquals
+/mahout-core/src/test/java/org/apache/mahout/math/VectorBinaryAssignCostTest.java
+	org.apache.mahout.math.function.Functions
+	org.easymock.EasyMock
+	org.junit.Before
+	org.junit.Test
+	org.junit.runner.RunWith
+	org.junit.runners.JUnit4
+	org.easymock.EasyMock.expect
+	org.easymock.EasyMock.replay
+	org.junit.Assert.assertEquals

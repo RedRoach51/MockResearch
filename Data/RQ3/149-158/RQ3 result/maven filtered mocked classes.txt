@@ -8,11 +8,17 @@ org.apache.maven.execution.BuildResumptionDataRepository
 org.apache.maven.project.ProjectBuildingRequest
 org.apache.maven.project.ProjectBuildingResult
 org.apache.maven.lifecycle.internal.ExecutionEventCatapult
+org.apache.maven.toolchain.DefaultToolchainManagerPrivate
+org.apache.maven.toolchain.ToolchainFactory
 org.apache.maven.toolchain.ToolchainPrivate
+org.apache.maven.toolchain.DefaultToolchainManager
 org.apache.maven.eventspy.internal.EventSpyDispatcher
 org.apache.maven.Maven
 org.apache.maven.execution.ExecutionEvent
 org.apache.maven.project.MavenProject
+org.apache.maven.toolchain.io.DefaultToolchainsReader
+org.apache.maven.toolchain.io.DefaultToolchainsWriter
+org.apache.maven.toolchain.building.DefaultToolchainsBuilder
 org.apache.maven.wrapper.Downloader
 org.apache.maven.wrapper.PathAssembler
 org.apache.maven.wrapper.PathAssembler.LocalDistribution

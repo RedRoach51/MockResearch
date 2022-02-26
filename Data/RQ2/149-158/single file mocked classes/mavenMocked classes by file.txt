@@ -1,0 +1,70 @@
+/maven-compat/src/test/java/org/apache/maven/artifact/deployer/ArtifactDeployerTest.java
+	org.apache.maven.execution.MavenSession
+/maven-compat/src/test/java/org/apache/maven/artifact/installer/ArtifactInstallerTest.java
+	org.apache.maven.execution.MavenSession
+/maven-core/src/test/java/org/apache/maven/artifact/resolver/filter/ExclusionArtifactFilterTest.java
+	org.apache.maven.artifact.Artifact
+/maven-core/src/test/java/org/apache/maven/graph/DefaultGraphBuilderTest.java
+	org.apache.maven.project.ProjectBuilder
+	org.apache.maven.execution.MavenSession
+	org.apache.maven.execution.MavenExecutionRequest
+	org.apache.maven.execution.BuildResumptionDataRepository
+	org.apache.maven.project.ProjectBuildingRequest
+	org.apache.maven.project.ProjectBuildingResult
+/maven-core/src/test/java/org/apache/maven/lifecycle/internal/builder/BuilderCommonTest.java
+	org.slf4j.Logger
+	org.apache.maven.lifecycle.internal.ExecutionEventCatapult
+/maven-core/src/test/java/org/apache/maven/toolchain/DefaultToolchainManagerPrivateTest.java
+	org.slf4j.Logger
+	org.apache.maven.toolchain.DefaultToolchainManagerPrivate
+	org.apache.maven.toolchain.ToolchainFactory
+	org.apache.maven.toolchain.ToolchainFactory
+	org.apache.maven.execution.MavenSession
+	org.apache.maven.toolchain.ToolchainPrivate
+	org.apache.maven.toolchain.ToolchainPrivate
+	org.apache.maven.execution.MavenSession
+	org.apache.maven.toolchain.ToolchainPrivate
+	org.apache.maven.toolchain.ToolchainPrivate
+	org.apache.maven.execution.MavenSession
+	org.apache.maven.execution.MavenSession
+/maven-core/src/test/java/org/apache/maven/toolchain/DefaultToolchainManagerTest.java
+	org.slf4j.Logger
+	org.apache.maven.toolchain.DefaultToolchainManager
+	org.apache.maven.toolchain.ToolchainFactory
+	org.apache.maven.toolchain.ToolchainFactory
+	org.apache.maven.execution.MavenSession
+	org.apache.maven.execution.MavenSession
+	org.apache.maven.execution.MavenSession
+	org.apache.maven.execution.MavenSession
+	org.apache.maven.execution.MavenSession
+	org.apache.maven.toolchain.ToolchainPrivate
+/maven-core/src/test/java/org/apache/maven/toolchain/DefaultToolchainTest.java
+	org.slf4j.Logger
+/maven-embedder/src/test/java/org/apache/maven/cli/MavenCliTest.java
+	org.apache.maven.eventspy.internal.EventSpyDispatcher
+	org.apache.maven.Maven
+/maven-embedder/src/test/java/org/apache/maven/cli/event/ExecutionEventLoggerTest.java
+	org.slf4j.Logger
+	org.apache.maven.execution.ExecutionEvent
+	org.apache.maven.project.MavenProject
+	org.slf4j.Logger
+	org.apache.maven.execution.ExecutionEvent
+	org.apache.maven.project.MavenProject
+	org.slf4j.Logger
+	org.apache.maven.execution.ExecutionEvent
+	org.apache.maven.project.MavenProject
+/maven-model-transform/src/test/java/org/apache/maven/model/transform/sax/CommentRenormalizerTest.java
+	org.xml.sax.ext.LexicalHandler
+/maven-resolver-provider/src/test/java/org/apache/maven/repository/internal/DefaultArtifactDescriptorReaderTest.java
+	org.eclipse.aether.impl.RepositoryEventDispatcher
+/maven-toolchain-builder/src/test/java/org/apache/maven/toolchain/building/DefaultToolchainsBuilderTest.java
+	org.apache.maven.toolchain.io.DefaultToolchainsReader
+	org.apache.maven.toolchain.io.DefaultToolchainsWriter
+	org.apache.maven.toolchain.building.DefaultToolchainsBuilder
+/maven-wrapper/src/test/java/org/apache/maven/wrapper/InstallerTest.java
+	org.apache.maven.wrapper.Downloader
+	org.apache.maven.wrapper.PathAssembler
+	org.apache.maven.wrapper.PathAssembler.LocalDistribution
+/maven-wrapper/src/test/java/org/apache/maven/wrapper/WrapperExecutorTest.java
+	org.apache.maven.wrapper.Installer
+	org.apache.maven.wrapper.BootstrapMainStarter

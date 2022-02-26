@@ -3,8 +3,10 @@ Inside classes:
 org.apache.manifoldcf.crawler.system.SeedingActivity
 org.apache.manifoldcf.crawler.interfaces.IProcessActivity
 org.apache.manifoldcf.crawler.interfaces.IExistingVersions
+org.apache.manifoldcf.crawler.connectors.confluence.client.ConfluenceClient
 org.apache.manifoldcf.crawler.connectors.confluence.model.ConfluenceUser
 org.apache.manifoldcf.crawler.connectors.confluence.model.Page
+org.apache.manifoldcf.crawler.connectors.confluence.v6.client.ConfluenceClient
 org.apache.manifoldcf.crawler.connectors.confluence.v6.model.ConfluenceUser
 org.apache.manifoldcf.crawler.connectors.confluence.v6.model.Page
 org.apache.manifoldcf.crawler.connectors.confluence.v6.model.Restrictions
@@ -18,6 +20,9 @@ org.apache.manifoldcf.crawler.connectors.webcrawler.WebcrawlerConnector.Document
  
 Outside classes: 
  
+com.github.maoo.indexer.client.AlfrescoClient
+org.apache.kafka.clients.producer.KafkaProducer
+org.nuxeo.client.NuxeoClient
 org.nuxeo.client.objects.user.UserManager
 org.nuxeo.client.objects.user.User
 org.nuxeo.client.objects.Document

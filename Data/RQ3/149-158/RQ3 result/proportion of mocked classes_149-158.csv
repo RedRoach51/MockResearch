@@ -1,8 +1,8 @@
 project name, # of total classes created, # of inside classes mocked
 mahout,932,1,
-manifoldcf,1097,13,
-maven,223,18,
-maven,795,18,
+manifoldcf,1097,15,
+maven,223,24,
+maven,795,24,
 metamodel,586,5,
 mina,210,19,
 mrunit,39,0,

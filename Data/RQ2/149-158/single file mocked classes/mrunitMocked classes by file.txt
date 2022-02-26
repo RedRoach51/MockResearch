@@ -1,0 +1,12 @@
+/mrunit/src/main/java/org/apache/hadoop/mrunit/internal/mapreduce/AbstractMockContextWrapper.java
+/mrunit/src/main/java/org/apache/hadoop/mrunit/internal/mapreduce/MockReduceContextWrapper.java
+	org.apache.hadoop.mapreduce.Reducer.Context
+/mrunit/src/main/java/org/apache/hadoop/mrunit/internal/mapreduce/MockMapreduceOutputFormat.java
+/mrunit/src/main/java/org/apache/hadoop/mrunit/internal/mapreduce/MockMapContextWrapper.java
+	org.apache.hadoop.mapreduce.Mapper.Context
+/mrunit/src/main/java/org/apache/hadoop/mrunit/mapreduce/ReduceDriver.java
+/mrunit/src/main/java/org/apache/hadoop/mrunit/mapreduce/MapDriver.java
+/mrunit/src/test/java/org/apache/hadoop/mrunit/internal/util/TestErrors.java
+	org.apache.commons.logging.Log
+/mrunit/src/test/java/org/apache/hadoop/mrunit/mapreduce/TestReduceDriver.java
+/mrunit/src/test/java/org/apache/hadoop/mrunit/mapreduce/TestMapDriver.java

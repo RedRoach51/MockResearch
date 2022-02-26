@@ -1,0 +1,89 @@
+/mcf-alfresco-webscript-connector/connector/src/test/java/org/apache/manifoldcf/crawler/connectors/alfrescowebscript/AlfrescoConnectorTest.java
+	com.github.maoo.indexer.client.AlfrescoClient
+	org.apache.manifoldcf.crawler.system.SeedingActivity
+	org.apache.manifoldcf.crawler.system.SeedingActivity
+	org.apache.manifoldcf.crawler.system.SeedingActivity
+	org.apache.manifoldcf.crawler.interfaces.IProcessActivity
+	org.apache.manifoldcf.crawler.interfaces.IExistingVersions
+	org.apache.manifoldcf.crawler.interfaces.IProcessActivity
+	org.apache.manifoldcf.crawler.interfaces.IExistingVersions
+/mcf-confluence-connector/connector/src/test/java/org/apache/manifoldcf/authorities/confluence/tests/ConfluenceAuthorityTest.java
+	org.apache.manifoldcf.crawler.connectors.confluence.client.ConfluenceClient
+	org.apache.manifoldcf.crawler.connectors.confluence.model.ConfluenceUser
+	org.apache.manifoldcf.crawler.connectors.confluence.model.ConfluenceUser
+/mcf-confluence-connector/connector/src/test/java/org/apache/manifoldcf/crawler/connectors/confluence/tests/ConfluenceConnectorTest.java
+	org.apache.manifoldcf.crawler.connectors.confluence.client.ConfluenceClient
+	org.apache.manifoldcf.crawler.system.SeedingActivity
+	org.apache.manifoldcf.crawler.system.SeedingActivity
+	org.apache.manifoldcf.crawler.connectors.confluence.model.Page
+	org.apache.manifoldcf.crawler.connectors.confluence.model.Page
+	org.apache.manifoldcf.crawler.interfaces.IProcessActivity
+	org.apache.manifoldcf.crawler.interfaces.IExistingVersions
+	org.apache.manifoldcf.crawler.connectors.confluence.model.Page
+	org.apache.manifoldcf.crawler.interfaces.IProcessActivity
+	org.apache.manifoldcf.crawler.interfaces.IExistingVersions
+	org.apache.manifoldcf.crawler.connectors.confluence.model.Page
+	org.apache.manifoldcf.crawler.interfaces.IExistingVersions
+	org.apache.manifoldcf.crawler.interfaces.IProcessActivity
+/mcf-confluence-v6-connector/connector/src/test/java/org/apache/manifoldcf/authorities/confluence/tests/ConfluenceAuthorityTest.java
+	org.apache.manifoldcf.crawler.connectors.confluence.v6.client.ConfluenceClient
+	org.apache.manifoldcf.crawler.connectors.confluence.v6.model.ConfluenceUser
+	org.apache.manifoldcf.crawler.connectors.confluence.v6.model.ConfluenceUser
+/mcf-confluence-v6-connector/connector/src/test/java/org/apache/manifoldcf/crawler/connectors/confluence/tests/ConfluenceConnectorTest.java
+	org.apache.manifoldcf.crawler.connectors.confluence.v6.client.ConfluenceClient
+	org.apache.manifoldcf.crawler.system.SeedingActivity
+	org.apache.manifoldcf.crawler.system.SeedingActivity
+	org.apache.manifoldcf.crawler.connectors.confluence.v6.model.Page
+	org.apache.manifoldcf.crawler.connectors.confluence.v6.model.Page
+	org.apache.manifoldcf.crawler.interfaces.IProcessActivity
+	org.apache.manifoldcf.crawler.interfaces.IExistingVersions
+	org.apache.manifoldcf.crawler.connectors.confluence.v6.model.Restrictions
+	org.apache.manifoldcf.crawler.connectors.confluence.v6.model.Restrictions.ReadRestrictions
+	org.apache.manifoldcf.crawler.connectors.confluence.v6.model.Restrictions
+	org.apache.manifoldcf.crawler.connectors.confluence.v6.model.Restrictions.ReadRestrictions
+	org.apache.manifoldcf.crawler.connectors.confluence.v6.model.Page
+	org.apache.manifoldcf.crawler.interfaces.IProcessActivity
+	org.apache.manifoldcf.crawler.interfaces.IExistingVersions
+/mcf-kafka-connector/connector/src/test/java/org/apache/manifoldcf/agents/output/kafka/KafkaConnectorTest.java
+	org.apache.kafka.clients.producer.KafkaProducer
+	org.apache.manifoldcf.agents.interfaces.IOutputAddActivity
+	org.apache.manifoldcf.core.interfaces.VersionContext
+/mcf-nuxeo-connector/connector/src/test/java/org/apache/manifoldcf/authorities/authorities/nuxeo/NuxeoAuthorityTest.java
+	org.nuxeo.client.NuxeoClient
+	org.nuxeo.client.objects.user.UserManager
+	org.nuxeo.client.objects.user.User
+	org.nuxeo.client.objects.user.UserManager
+	org.nuxeo.client.objects.user.User
+	org.nuxeo.client.objects.user.UserManager
+	org.nuxeo.client.objects.user.User
+/mcf-nuxeo-connector/connector/src/test/java/org/apache/manifoldcf/crawler/connectors/nuxeo/NuxeoConnectorTest.java
+	org.nuxeo.client.NuxeoClient
+	org.nuxeo.client.objects.Document
+	org.nuxeo.client.objects.Repository
+	org.apache.manifoldcf.crawler.system.SeedingActivity
+	org.nuxeo.client.objects.Repository
+	org.nuxeo.client.objects.Document
+	org.nuxeo.client.objects.Documents
+	org.apache.manifoldcf.crawler.system.SeedingActivity
+	org.nuxeo.client.objects.Repository
+	org.nuxeo.client.objects.Documents
+	org.apache.manifoldcf.crawler.connectors.nuxeo.model.NuxeoDocumentHelper
+	org.nuxeo.client.objects.Repository
+	org.nuxeo.client.objects.Document
+	org.apache.manifoldcf.crawler.interfaces.IProcessActivity
+	org.apache.manifoldcf.crawler.interfaces.IExistingVersions
+	org.nuxeo.client.objects.Document
+	org.apache.manifoldcf.crawler.connectors.nuxeo.model.NuxeoDocumentHelper
+	org.nuxeo.client.objects.blob.FileBlob
+	org.apache.manifoldcf.crawler.interfaces.IProcessActivity
+	org.apache.manifoldcf.crawler.interfaces.IExistingVersions
+	org.nuxeo.client.objects.Repository
+	org.nuxeo.client.objects.Document
+	org.nuxeo.client.objects.Repository
+	org.apache.manifoldcf.crawler.interfaces.IProcessActivity
+	org.apache.manifoldcf.crawler.interfaces.IExistingVersions
+/mcf-web-connector/connector/src/test/java/org/apache/manifoldcf/crawler/connectors/webcrawler/ProcessActivityHTMLHandlerTest.java
+	org.apache.manifoldcf.crawler.interfaces.IProcessActivity
+	org.apache.manifoldcf.crawler.connectors.webcrawler.WebcrawlerConnector.DocumentURLFilter
+	org.apache.manifoldcf.crawler.interfaces.IProcessActivity
+	org.apache.manifoldcf.crawler.connectors.webcrawler.WebcrawlerConnector.DocumentURLFilter

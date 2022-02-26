@@ -1,0 +1,37 @@
+/MetaModel-core/src/test/java/org/apache/metamodel/MetaModelTestCase.java
+	T
+/MetaModel-core/src/test/java/org/apache/metamodel/data/DataSetIteratorTest.java
+	org.apache.metamodel.data.DataSet
+	org.apache.metamodel.data.Row
+	org.apache.metamodel.data.DataSet
+/MetaModel-core/src/test/java/org/apache/metamodel/query/builder/GroupedQueryBuilderImplTest.java
+	org.apache.metamodel.DataContext
+/MetaModel-elasticsearch-rest/src/test/java/org/apache/metamodel/elasticsearch/rest/ElasticSearchRestDataSetTest.java
+	org.elasticsearch.client.RestClient
+	org.elasticsearch.client.Response
+	org.apache.http.HttpEntity
+	org.apache.http.Header
+	org.elasticsearch.action.search.SearchResponse
+/MetaModel-excel/src/test/java/org/apache/metamodel/excel/ZeroBasedRowIteratorTest.java
+	org.apache.poi.ss.usermodel.Sheet
+/MetaModel-jdbc/src/test/java/org/apache/metamodel/dialects/HiveQueryRewriterTest.java
+	org.apache.metamodel.jdbc.JdbcDataContext
+	org.apache.metamodel.jdbc.JdbcDataContext
+/MetaModel-jdbc/src/test/java/org/apache/metamodel/dialects/SQLServerQueryRewriterTest.java
+	org.apache.metamodel.jdbc.JdbcDataContext
+/MetaModel-jdbc/src/test/java/org/apache/metamodel/dialects/ImpalaQueryRewriterTest.java
+	org.apache.metamodel.jdbc.JdbcDataContext
+/MetaModel-jdbc/src/test/java/org/apache/metamodel/jdbc/JdbcDataContextTest.java
+	javax.sql.DataSource
+	java.sql.Connection
+	java.sql.Statement
+/MetaModel-jdbc/src/test/java/org/apache/metamodel/jdbc/dialects/OracleQueryRewriterTest.java
+	org.apache.metamodel.jdbc.JdbcDataContext
+/MetaModel-jdbc/src/test/java/org/apache/metamodel/jdbc/dialects/PostgresqlQueryRewriterTest.java
+	java.sql.PreparedStatement
+/MetaModel-kafka/src/test/java/org/apache/metamodel/kafka/KafkaDataContextTest.java
+	org.apache.metamodel.kafka.ConsumerAndProducerFactory
+	org.apache.metamodel.kafka.ConsumerAndProducerFactory
+	org.apache.kafka.clients.consumer.Consumer
+	org.apache.metamodel.kafka.ConsumerAndProducerFactory
+	org.apache.kafka.clients.consumer.Consumer

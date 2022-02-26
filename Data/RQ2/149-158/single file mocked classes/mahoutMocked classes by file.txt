@@ -1,0 +1,8 @@
+/mahout-core/src/test/java/org/apache/mahout/math/VectorBinaryAggregateCostTest.java
+	org.apache.mahout.math.Vector
+	org.apache.mahout.math.Vector
+	org.apache.mahout.math.Vector
+/mahout-core/src/test/java/org/apache/mahout/math/VectorBinaryAssignCostTest.java
+	org.apache.mahout.math.Vector
+	org.apache.mahout.math.Vector
+	org.apache.mahout.math.Vector

@@ -1,0 +1,147 @@
+/myfaces-impl/src/test/java/jakarta/faces/application/StateManagerTest.java
+/myfaces-impl/src/test/java/jakarta/faces/application/ViewHandlerTest.java
+	jakarta.faces.context.ExternalContext
+	java.util.Map
+	java.util.Map
+	java.util.Map
+	jakarta.faces.application.ViewHandler
+	jakarta.faces.application.ViewHandler
+/myfaces-impl/src/test/java/jakarta/faces/component/UIComponentEncodeAllTest.java
+	jakarta.faces.component.UIComponent
+/myfaces-impl/src/test/java/jakarta/faces/component/UIComponentInvokeOnComponentTest.java
+	jakarta.faces.component.UIComponent
+	jakarta.faces.component.ContextCallback
+/myfaces-impl/src/test/java/jakarta/faces/component/UIDataTest.java
+	jakarta.faces.render.Renderer
+	jakarta.faces.event.FacesEvent
+	jakarta.faces.component.visit.VisitContext
+/myfaces-impl/src/test/java/jakarta/faces/component/InvokeOnComponentTest.java
+	jakarta.faces.component.ContextCallback
+/myfaces-impl/src/test/java/jakarta/faces/component/UIViewRootTest.java
+	jakarta.faces.context.ExternalContext
+	jakarta.faces.application.Application
+	jakarta.faces.lifecycle.LifecycleFactory
+	jakarta.faces.lifecycle.Lifecycle
+	jakarta.el.ELContext
+	jakarta.faces.application.ViewHandler
+	jakarta.faces.component.UIViewRoot
+	jakarta.el.MethodExpression
+	jakarta.el.MethodExpression
+	
+	jakarta.faces.component.UIViewRootTest.AnyPhasePhaseListener
+	jakarta.faces.component.UIViewRootTest.RestoreViewPhasePhaseListener
+	jakarta.faces.event.ActionListener
+/myfaces-impl/src/test/java/jakarta/faces/component/UIInputTest.java
+	jakarta.faces.convert.Converter
+	jakarta.faces.validator.Validator
+/myfaces-impl/src/test/java/jakarta/faces/component/UIComponentValueExpressionTest.java
+	jakarta.faces.component.UIComponent
+	jakarta.el.ValueExpression
+	jakarta.el.ELContext
+/myfaces-impl/src/test/java/jakarta/faces/component/UIGraphicTest.java
+	jakarta.el.ValueExpression
+	jakarta.el.ValueExpression
+/myfaces-impl/src/test/java/jakarta/faces/component/UIComponentBaseTest.java
+	jakarta.faces.context.FacesContext
+	jakarta.faces.component.UIComponentBase
+	jakarta.faces.render.Renderer
+	jakarta.faces.event.FacesEvent
+	jakarta.faces.event.FacesListener
+	jakarta.faces.event.FacesListener
+	jakarta.faces.event.FacesEvent
+	jakarta.faces.event.FacesEvent
+	jakarta.faces.component.UIComponent
+	jakarta.faces.component.UIComponentBase
+	jakarta.faces.component.UIComponent
+/myfaces-impl/src/test/java/jakarta/faces/component/UIComponentTest.java
+	jakarta.faces.component.UIComponent
+	jakarta.faces.component.UIComponent
+/myfaces-impl/src/test/java/jakarta/faces/component/AbstractUIComponentBaseTest.java
+	jakarta.faces.context.FacesContext
+	jakarta.faces.component.UIComponentBase
+	jakarta.faces.render.Renderer
+/myfaces-impl/src/test/java/jakarta/faces/component/UIComponentBaseProcessSaveRestoreStateTest.java
+	jakarta.faces.component.UIComponent
+	jakarta.faces.component.UIComponent
+/myfaces-impl/src/test/java/jakarta/faces/component/UIComponentTestBase.java
+	jakarta.faces.context.FacesContext
+/myfaces-impl/src/test/java/jakarta/faces/component/UIComponentBaseFacesListenerTest.java
+	jakarta.faces.event.ActionListener
+	jakarta.faces.event.ValueChangeListener
+/myfaces-impl/src/test/java/jakarta/faces/component/AbstractUIComponentPropertyTest.java
+	jakarta.el.ELContext
+	jakarta.el.ValueExpression
+/myfaces-impl/src/test/java/jakarta/faces/event/MethodExpressionActionListenerTest.java
+	jakarta.el.MethodExpression
+	jakarta.el.MethodExpression
+/myfaces-impl/src/test/java/jakarta/faces/event/MethodExpressionValueChangeListenerTest.java
+	jakarta.el.MethodExpression
+	jakarta.el.MethodExpression
+/myfaces-impl/src/test/java/jakarta/faces/validator/_MessageUtilsTest.java
+	jakarta.faces.application.Application
+	jakarta.faces.application.ViewHandler
+	jakarta.el.ELContext
+	jakarta.faces.context.ExternalContext
+	jakarta.el.ExpressionFactory
+	jakarta.el.ValueExpression
+/myfaces-impl/src/test/java/org/apache/myfaces/application/ApplicationImplJsfTest.java
+	jakarta.faces.view.facelets.FaceletContext
+/myfaces-impl/src/test/java/org/apache/myfaces/application/ApplicationImplTest.java
+	jakarta.el.ValueExpression
+	jakarta.faces.context.FacesContext
+	jakarta.el.ELContext
+	jakarta.el.ValueExpression
+	jakarta.faces.context.FacesContext
+	jakarta.el.ELContext
+/myfaces-impl/src/test/java/org/apache/myfaces/application/ResourceHandlerImplTest.java
+/myfaces-impl/src/test/java/org/apache/myfaces/application/ViewIdSupportMockTest.java
+/myfaces-impl/src/test/java/org/apache/myfaces/el/CompositeELResolverTest.java
+	jakarta.el.ELContext
+	jakarta.el.ELResolver
+	jakarta.el.ELResolver
+/myfaces-impl/src/test/java/org/apache/myfaces/el/ResolverBuilderBaseTest.java
+	org.apache.myfaces.config.RuntimeConfig
+	org.apache.myfaces.config.MyfacesConfig
+	jakarta.el.ELResolver
+	jakarta.el.ELResolver
+/myfaces-impl/src/test/java/org/apache/myfaces/event/PostAddToViewEventTestCase.java
+	org.apache.myfaces.event.PostAddToViewEventTestCase.PostAddToViewEventBean
+	org.apache.myfaces.event.PostAddToViewEventTestCase.PostAddToViewEventBean
+	org.apache.myfaces.event.PostAddToViewEventTestCase.PostAddToViewEventBean
+	org.apache.myfaces.event.PostAddToViewEventTestCase.PostAddToViewEventBean
+	org.apache.myfaces.event.PostAddToViewEventTestCase.PostAddToViewEventBean
+	org.apache.myfaces.event.PostAddToViewEventTestCase.PostAddToViewEventBean
+	org.apache.myfaces.event.PostAddToViewEventTestCase.PostAddToViewEventBean
+	org.apache.myfaces.event.PostAddToViewEventTestCase.PostAddToViewEventBean
+	org.apache.myfaces.event.PostAddToViewEventTestCase.PostAddToViewEventBean
+/myfaces-impl/src/test/java/org/apache/myfaces/lifecycle/RestoreViewExecutorTest.java
+	jakarta.faces.application.ViewHandler
+	org.apache.myfaces.lifecycle.RestoreViewSupport
+	org.apache.myfaces.application.ViewIdSupport
+	jakarta.faces.component.UIViewRoot
+/myfaces-impl/src/test/java/org/apache/myfaces/renderkit/RendererUtilsTest.java
+	jakarta.faces.application.Application
+	jakarta.faces.application.ResourceHandler
+	jakarta.faces.application.Resource
+/myfaces-impl/src/test/java/org/apache/myfaces/renderkit/html/HtmlResponseStateManagerTest.java
+/myfaces-impl/src/test/java/org/apache/myfaces/test/FacesTestCase.java
+	jakarta.faces.context.ExternalContext
+	jakarta.faces.context.FacesContext
+	jakarta.faces.application.Application
+	jakarta.el.ELContext
+/myfaces-impl/src/test/java/org/apache/myfaces/test/mock/MockRunner.java
+/myfaces-impl/src/test/java/org/apache/myfaces/view/facelets/ExceptionTestCase.java
+	org.apache.myfaces.view.facelets.ExceptionTestCase.ExceptionBean
+	org.apache.myfaces.view.facelets.ExceptionTestCase.ExceptionBean
+	org.apache.myfaces.view.facelets.ExceptionTestCase.ExceptionBean
+	org.apache.myfaces.view.facelets.ExceptionTestCase.ExceptionBean
+	org.apache.myfaces.view.facelets.ExceptionTestCase.ExceptionBean
+	org.apache.myfaces.view.facelets.ExceptionTestCase.ExceptionBean
+	org.apache.myfaces.view.facelets.ExceptionTestCase.ExceptionBean
+	org.apache.myfaces.view.facelets.ExceptionTestCase.ExceptionBean
+/myfaces-impl/src/test/java/org/apache/myfaces/view/facelets/component/UIRepeatTest.java
+/myfaces-impl/src/test/java/org/apache/myfaces/webapp/FacesELContextListenerTest.java
+	jakarta.el.ELContext
+	jakarta.faces.application.Application
+	jakarta.el.ELContextEvent
+	jakarta.el.ELContextListener

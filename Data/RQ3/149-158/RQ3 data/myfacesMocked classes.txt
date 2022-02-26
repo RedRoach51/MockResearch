@@ -103,6 +103,9 @@ org.apache.myfaces.view.facelets.ExceptionTestCase.ExceptionBean
 org.apache.myfaces.view.facelets.ExceptionTestCase.ExceptionBean
 org.apache.myfaces.view.facelets.ExceptionTestCase.ExceptionBean
 org.apache.myfaces.view.facelets.ExceptionTestCase.ExceptionBean
+org.apache.myfaces.view.facelets.ExceptionTestCase.ExceptionBean
+org.apache.myfaces.view.facelets.ExceptionTestCase.ExceptionBean
+org.apache.myfaces.view.facelets.ExceptionTestCase.ExceptionBean
 jakarta.el.ELContext
 jakarta.faces.application.Application
 jakarta.el.ELContextEvent
