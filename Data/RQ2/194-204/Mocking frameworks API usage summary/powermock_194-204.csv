@@ -1,0 +1,8 @@
+method, origin, count
+invokeMethod,org.powermock.reflect.Whitebox,1
+getInternalState,org.powermock.reflect.Whitebox,13
+setInternalState,org.powermock.reflect.Whitebox,30
+field,org.powermock.api.support.membermodification.MemberMatcher,15
+doReturn,org.powermock.api.mockito.PowerMockito,6
+mockStatic,org.powermock.api.mockito.PowerMockito,2
+doAnswer,org.powermock.api.mockito.PowerMockito,1

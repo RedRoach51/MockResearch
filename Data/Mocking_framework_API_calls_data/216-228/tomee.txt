@@ -1,8 +1,10 @@
-	Method name: mock
-	Class origin: org.mockito.Mockito
-	Count: 4
+/rest-applicationcomposer-mockito/src/test/java/org/superbiz/composed/rest/GreetingServiceTest.java
+Methods Invoked: 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<java.lang.String>
+	Count: 1
  
-	Method name: mock
-	Class origin: com.agical.rmock.extension.junit.RMockTestCase
-	Count: 3
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 1
  

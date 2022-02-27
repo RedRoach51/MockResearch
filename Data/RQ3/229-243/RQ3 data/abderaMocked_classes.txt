@@ -1,6 +1,0 @@
-org.apache.abdera.model.Feed
-org.apache.abdera.model.Entry
-org.apache.abdera.model.Service
-org.apache.abdera.protocol.server.RequestContext
-org.apache.abdera.protocol.server.RequestContext
-org.apache.abdera.protocol.server.RequestContext

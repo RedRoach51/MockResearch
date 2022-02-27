@@ -1,0 +1,10 @@
+method, origin, count
+mock,org.mockito.Mockito,244
+forClass,org.mockito.ArgumentCaptor,3
+verify,org.mockito.Mockito,4
+eq,org.mockito.Matchers,6
+when,org.mockito.Mockito,23
+thenReturn,org.mockito.stubbing.OngoingStubbing<java.lang.String>,8
+thenAnswer,org.mockito.stubbing.OngoingStubbing<java.lang.String>,2
+anyString,org.mockito.ArgumentMatchers,2
+getArgument,org.mockito.invocation.InvocationOnMock,2

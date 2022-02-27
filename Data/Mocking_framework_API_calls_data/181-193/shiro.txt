@@ -1,3 +1,5 @@
+/core/src/test/java/org/apache/shiro/aop/AnnotationResolverTest.java
+Methods Invoked: 
 	Method name: createMock
 	Class origin: org.easymock.EasyMock
 	Count: 3
@@ -14,6 +16,8 @@
 	Class origin: org.easymock.IExpectationSetters<java.lang.Object>
 	Count: 2
  
+/core/src/test/java/org/apache/shiro/authc/AbstractAuthenticatorTest.java
+Methods Invoked: 
 	Method name: createMock
 	Class origin: org.easymock.EasyMock
 	Count: 2
@@ -26,6 +30,8 @@
 	Class origin: org.easymock.EasyMock
 	Count: 2
  
+/core/src/test/java/org/apache/shiro/authz/aop/RoleAnnotationHandlerTest.java
+Methods Invoked: 
 	Method name: createMock
 	Class origin: org.easymock.EasyMock
 	Count: 1
@@ -38,6 +44,8 @@
 	Class origin: org.easymock.EasyMock
 	Count: 2
  
+/core/src/test/java/org/apache/shiro/concurrent/SubjectAwareExecutorServiceTest.java
+Methods Invoked: 
 	Method name: mock
 	Class origin: org.mockito.Mockito
 	Count: 1
@@ -54,6 +62,8 @@
 	Class origin: org.mockito.Mockito
 	Count: 1
  
+/core/src/test/java/org/apache/shiro/concurrent/SubjectAwareExecutorTest.java
+Methods Invoked: 
 	Method name: mock
 	Class origin: org.mockito.Mockito
 	Count: 1
@@ -66,6 +76,8 @@
 	Class origin: org.mockito.Mockito
 	Count: 1
  
+/core/src/test/java/org/apache/shiro/realm/ldap/DefaultLdapRealmTest.java
+Methods Invoked: 
 	Method name: createMock
 	Class origin: org.easymock.EasyMock
 	Count: 4
@@ -98,10 +110,14 @@
 	Class origin: org.easymock.EasyMock
 	Count: 2
  
+/core/src/test/java/org/apache/shiro/realm/ldap/JndiLdapContextFactoryTest.java
+Methods Invoked: 
 	Method name: createNiceMock
 	Class origin: org.easymock.EasyMock
 	Count: 5
  
+/core/src/test/java/org/apache/shiro/session/mgt/DefaultSessionManagerTest.java
+Methods Invoked: 
 	Method name: createMock
 	Class origin: org.easymock.EasyMock
 	Count: 1
@@ -118,10 +134,14 @@
 	Class origin: org.easymock.EasyMock
 	Count: 4
  
+/core/src/test/java/org/apache/shiro/subject/DelegatingSubjectTest.java
+Methods Invoked: 
 	Method name: createNiceMock
 	Class origin: org.easymock.EasyMock
 	Count: 2
  
+/core/src/test/java/org/apache/shiro/test/ExampleShiroUnitTest.java
+Methods Invoked: 
 	Method name: createNiceMock
 	Class origin: org.easymock.EasyMock
 	Count: 1
@@ -134,18 +154,26 @@
 	Class origin: org.easymock.EasyMock
 	Count: 1
  
+/support_guice/src/test/java/org/apache/shiro/guice/GuiceEnvironmentTest.java
+Methods Invoked: 
 	Method name: createMock
 	Class origin: org.easymock.EasyMock
 	Count: 1
  
+/support_guice/src/test/java/org/apache/shiro/guice/ShiroModuleTest.java
+Methods Invoked: 
 	Method name: createMock
 	Class origin: org.easymock.EasyMock
 	Count: 11
  
+/support_guice/src/test/java/org/apache/shiro/guice/BeanTypeListenerTest.java
+Methods Invoked: 
 	Method name: mock
 	Class origin: org.mockito.Mockito
 	Count: 4
  
+/support_guice/src/test/java/org/apache/shiro/guice/LifecycleTypeListenerTest.java
+Methods Invoked: 
 	Method name: createMock
 	Class origin: org.easymock.EasyMock
 	Count: 2
@@ -162,10 +190,14 @@
 	Class origin: org.easymock.EasyMock
 	Count: 2
  
+/support_guice/src/test/java/org/apache/shiro/guice/ShiroSessionScopeTest.java
+Methods Invoked: 
 	Method name: createMock
 	Class origin: org.easymock.EasyMock
 	Count: 4
  
+/support_guice/src/test/java/org/apache/shiro/guice/ShiroMatchersTest.java
+Methods Invoked: 
 	Method name: createMock
 	Class origin: org.easymock.EasyMock
 	Count: 1
@@ -178,10 +210,14 @@
 	Class origin: org.easymock.EasyMock
 	Count: 2
  
+/support_guice/src/test/java/org/apache/shiro/guice/DestroyableInjectionListenerTest.java
+Methods Invoked: 
 	Method name: createMock
 	Class origin: org.easymock.EasyMock
 	Count: 2
  
+/support_guice/src/test/java/org/apache/shiro/guice/InitializableInjectionListenerTest.java
+Methods Invoked: 
 	Method name: createMock
 	Class origin: org.easymock.EasyMock
 	Count: 1
@@ -194,10 +230,14 @@
 	Class origin: org.easymock.EasyMock
 	Count: 1
  
+/support_guice/src/test/java/org/apache/shiro/guice/aop/AopAllianceMethodInterceptorAdapterTest.java
+Methods Invoked: 
 	Method name: createMock
 	Class origin: org.easymock.EasyMock
 	Count: 2
  
+/support_guice/src/test/java/org/apache/shiro/guice/aop/AopAllianceMethodInvocationAdapterTest.java
+Methods Invoked: 
 	Method name: createMock
 	Class origin: org.easymock.EasyMock
 	Count: 4
@@ -218,14 +258,20 @@
 	Class origin: org.easymock.EasyMock
 	Count: 4
  
+/support_guice/src/test/java/org/apache/shiro/guice/web/ShiroWebModuleTest.java
+Methods Invoked: 
 	Method name: createMock
 	Class origin: org.easymock.EasyMock
 	Count: 21
  
+/support_guice/src/test/java/org/apache/shiro/guice/web/WebGuiceEnvironmentTest.java
+Methods Invoked: 
 	Method name: createMock
 	Class origin: org.easymock.EasyMock
 	Count: 3
  
+/support_guice/src/test/java/org/apache/shiro/guice/web/SimpleFilterChainTest.java
+Methods Invoked: 
 	Method name: createStrictControl
 	Class origin: org.easymock.EasyMock
 	Count: 1
@@ -234,10 +280,14 @@
 	Class origin: org.easymock.IMocksControl
 	Count: 5
  
+/support_guice/src/test/java/org/apache/shiro/guice/web/FilterConfigTest.java
+Methods Invoked: 
 	Method name: createMock
 	Class origin: org.easymock.EasyMock
 	Count: 2
  
+/support_guice/src/test/java/org/apache/shiro/guice/web/PathMatchingFilterProviderTest.java
+Methods Invoked: 
 	Method name: createMock
 	Class origin: org.easymock.EasyMock
 	Count: 1
@@ -250,6 +300,8 @@
 	Class origin: org.easymock.EasyMock
 	Count: 2
  
+/support_guice/src/test/java/org/apache/shiro/guice/web/AbstractInjectionProviderTest.java
+Methods Invoked: 
 	Method name: createMock
 	Class origin: org.easymock.EasyMock
 	Count: 1
@@ -262,6 +314,8 @@
 	Class origin: org.easymock.EasyMock
 	Count: 2
  
+/support_guice/src/test/java/org/apache/shiro/guice/web/SimpleFilterChainResolverTest.java
+Methods Invoked: 
 	Method name: createStrictControl
 	Class origin: org.easymock.EasyMock
 	Count: 1
@@ -270,14 +324,20 @@
 	Class origin: org.easymock.IMocksControl
 	Count: 7
  
+/support_guice/src/test/java/org/apache/shiro/guice/web/FilterChainResolverProviderTest.java
+Methods Invoked: 
 	Method name: createMock
 	Class origin: org.easymock.EasyMock
 	Count: 2
  
+/support_guice/src/test/java/org/apache/shiro/guice/web/GuiceShiroFilterTest.java
+Methods Invoked: 
 	Method name: createMock
 	Class origin: org.easymock.EasyMock
 	Count: 2
  
+/support_spring/src/test/java/org/apache/shiro/spring/remoting/SecureRemoteInvocationFactoryTest.java
+Methods Invoked: 
 	Method name: createMock
 	Class origin: org.easymock.EasyMock
 	Count: 2
@@ -302,14 +362,20 @@
 	Class origin: org.easymock.IExpectationSetters<java.lang.Object[]>
 	Count: 2
  
+/support_spring/src/test/java/org/apache/shiro/spring/web/ShiroFilterFactoryBeanTest.java
+Methods Invoked: 
 	Method name: createNiceMock
 	Class origin: org.easymock.EasyMock
 	Count: 4
  
+/web/src/test/java/org/apache/shiro/web/WebTest.java
+Methods Invoked: 
 	Method name: mock
 	Class origin: org.mockito.Mockito
 	Count: 2
  
+/web/src/test/java/org/apache/shiro/web/env/EnvironmentLoaderServiceTest.java
+Methods Invoked: 
 	Method name: mock
 	Class origin: org.easymock.EasyMock
 	Count: 2
@@ -322,10 +388,14 @@
 	Class origin: org.easymock.EasyMock
 	Count: 5
  
+/web/src/test/java/org/apache/shiro/web/filter/PathMatchingFilterTest.java
+Methods Invoked: 
 	Method name: createNiceMock
 	Class origin: org.easymock.EasyMock
 	Count: 6
  
+/web/src/test/java/org/apache/shiro/web/filter/PathMatchingFilterParameterizedTest.java
+Methods Invoked: 
 	Method name: createNiceMock
 	Class origin: org.easymock.EasyMock
 	Count: 1
@@ -342,6 +412,8 @@
 	Class origin: org.easymock.EasyMock
 	Count: 4
  
+/web/src/test/java/org/apache/shiro/web/filter/authc/BasicHttpFilterAuthenticationTest.java
+Methods Invoked: 
 	Method name: mock
 	Class origin: org.mockito.Mockito
 	Count: 24
@@ -354,6 +426,8 @@
 	Class origin: org.mockito.Mockito
 	Count: 33
  
+/web/src/test/java/org/apache/shiro/web/filter/authz/IpFilterTest.java
+Methods Invoked: 
 	Method name: createNiceMock
 	Class origin: org.easymock.EasyMock
 	Count: 5
@@ -374,14 +448,20 @@
 	Class origin: org.easymock.EasyMock
 	Count: 5
  
+/web/src/test/java/org/apache/shiro/web/filter/authz/AuthorizationFilterTest.java
+Methods Invoked: 
 	Method name: mock
 	Class origin: org.mockito.Mockito
 	Count: 4
  
+/web/src/test/java/org/apache/shiro/web/filter/authz/SslFilterTest.java
+Methods Invoked: 
 	Method name: createNiceMock
 	Class origin: org.easymock.EasyMock
 	Count: 2
  
+/web/src/test/java/org/apache/shiro/web/filter/authz/PortFilterTest.java
+Methods Invoked: 
 	Method name: createNiceMock
 	Class origin: org.easymock.EasyMock
 	Count: 3
@@ -394,14 +474,20 @@
 	Class origin: org.easymock.EasyMock
 	Count: 5
  
+/web/src/test/java/org/apache/shiro/web/filter/mgt/SimpleNamedFilterListTest.java
+Methods Invoked: 
 	Method name: createNiceMock
 	Class origin: org.easymock.EasyMock
 	Count: 2
  
+/web/src/test/java/org/apache/shiro/web/filter/mgt/PathMatchingFilterChainResolverTest.java
+Methods Invoked: 
 	Method name: mock
 	Class origin: org.mockito.Mockito
 	Count: 36
  
+/web/src/test/java/org/apache/shiro/web/mgt/DefaultWebSecurityManagerTest.java
+Methods Invoked: 
 	Method name: mock
 	Class origin: org.mockito.Mockito
 	Count: 11
@@ -418,22 +504,32 @@
 	Class origin: org.mockito.Mockito
 	Count: 1
  
+/web/src/test/java/org/apache/shiro/web/mgt/CookieRememberMeManagerTest.java
+Methods Invoked: 
 	Method name: createNiceMock
 	Class origin: org.easymock.EasyMock
 	Count: 6
  
+/web/src/test/java/org/apache/shiro/web/servlet/ShiroHttpServletRequestTest.java
+Methods Invoked: 
 	Method name: mock
 	Class origin: org.mockito.Mockito
 	Count: 5
  
+/web/src/test/java/org/apache/shiro/web/servlet/SimpleCookieTest.java
+Methods Invoked: 
 	Method name: createMock
 	Class origin: org.easymock.EasyMock
 	Count: 2
  
+/web/src/test/java/org/apache/shiro/web/servlet/OncePerRequestFilterTest.java
+Methods Invoked: 
 	Method name: createNiceMock
 	Class origin: org.easymock.EasyMock
 	Count: 3
  
+/web/src/test/java/org/apache/shiro/web/session/HttpServletSessionTest.java
+Methods Invoked: 
 	Method name: createMock
 	Class origin: org.easymock.EasyMock
 	Count: 1

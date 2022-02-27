@@ -1,5 +1,7 @@
 Inside classes: 
  
+org.apache.struts2.convention.ConventionsService
+org.apache.struts2.convention.ResultMapBuilder
 org.apache.struts2.dispatcher.HostConfig
 org.apache.struts2.action.ServletRequestAware
 org.apache.struts2.action.ServletResponseAware
@@ -13,6 +15,9 @@ org.apache.struts2.action.PrincipalAware
 org.apache.struts2.action.ServletContextAware
 org.apache.struts2.components.template.TemplateEngine
 org.apache.struts2.components.template.Template
+org.apache.struts2.components.UrlRenderer
+org.apache.struts2.osgi.interceptor.BundleContextAware
+org.apache.struts2.osgi.action.BundleContextAware
 org.apache.struts2.portlet.interceptor.PortletRequestAware
 org.apache.struts2.portlet.action.PortletRequestAware
 org.apache.struts2.portlet.action.PortletResponseAware
@@ -21,22 +26,34 @@ org.apache.struts2.portlet.action.PortletResponseAware
  
 Outside classes: 
  
+javax.servlet.http.HttpServletRequest
 javax.servlet.ServletContext
+com.opensymphony.xwork2.inject.Container
+com.opensymphony.xwork2.config.Configuration
+com.opensymphony.xwork2.config.RuntimeConfiguration
 java.util.Iterator<java.lang.String>
 java.util.Set<java.lang.String>
 java.util.Map<java.lang.String,com.opensymphony.xwork2.config.entities.ResultTypeConfig>
+com.opensymphony.xwork2.config.entities.PackageConfig
 java.lang.Object
-com.opensymphony.xwork2.inject.Container
 com.opensymphony.xwork2.ActionInvocation
-javax.servlet.http.HttpServletRequest
-javax.servlet.http.HttpServletResponse
-javax.servlet.http.HttpSession
 com.opensymphony.xwork2.ActionProxy
+com.opensymphony.xwork2.interceptor.ValidationInterceptorPrefixMethodInvocationTest.ValidateAction
+com.opensymphony.xwork2.Action
+com.opensymphony.xwork2.interceptor.ValidationErrorAwareTest.ValidateErrorAction
+javax.servlet.http.HttpServletResponse
+javax.servlet.FilterConfig
+javax.servlet.http.HttpSession
 com.opensymphony.xwork2.util.ValueStack
 freemarker.cache.TemplateLoader
+javax.servlet.ServletConfig
 java.sql.Connection
+javax.servlet.jsp.PageContext
+org.osgi.framework.BundleContext
+org.osgi.framework.ServiceReference
 org.jmock.Mock
 javax.portlet.PortletRequest
 javax.portlet.PortletResponse
-javax.portlet.RenderResponse
+javax.portlet.ActionResponse
 javax.portlet.RenderRequest
+javax.portlet.RenderResponse

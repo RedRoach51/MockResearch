@@ -1,0 +1,194 @@
+/agent-analyzer/src/test/java/org/apache/skywalking/oap/server/analyzer/provider/meter/process/MeterProcessorTest.java
+	org.apache.skywalking.oap.server.library.module.ModuleManager
+	org.apache.skywalking.oap.server.library.module.ModuleProviderHolder
+	org.apache.skywalking.oap.server.library.module.ModuleServiceHolder
+/agent-analyzer/src/test/java/org/apache/skywalking/oap/server/analyzer/provider/trace/UninstrumentedGatewaysConfigTest.java
+/agent-analyzer/src/test/java/org/apache/skywalking/oap/server/analyzer/provider/trace/TraceSamplingPolicyWatcherTest.java
+/cluster-consul-plugin/src/test/java/org/apache/skywalking/oap/server/cluster/plugin/consul/ConsulCoordinatorTest.java
+	com.orbitz.consul.Consul
+	org.apache.skywalking.oap.server.telemetry.api.HealthCheckMetrics
+	com.orbitz.consul.AgentClient
+	org.apache.skywalking.oap.server.library.module.ModuleDefineHolder
+	com.orbitz.consul.model.ConsulResponse
+	com.orbitz.consul.HealthClient
+	com.orbitz.consul.model.health.ServiceHealth
+	com.orbitz.consul.model.health.Service
+	com.orbitz.consul.model.health.ServiceHealth
+	com.orbitz.consul.model.health.Service
+	com.orbitz.consul.model.health.ServiceHealth
+	com.orbitz.consul.model.health.Service
+/cluster-consul-plugin/src/test/java/org/apache/skywalking/oap/server/cluster/plugin/consul/ClusterModuleConsulProviderTest.java
+	org.apache.skywalking.oap.server.library.module.ModuleManager
+	org.apache.skywalking.oap.server.telemetry.none.NoneTelemetryProvider
+	com.orbitz.consul.Consul
+	com.orbitz.consul.Consul.Builder
+	com.orbitz.consul.Consul
+	com.orbitz.consul.Consul.Builder
+/cluster-consul-plugin/src/test/java/org/apache/skywalking/oap/server/cluster/plugin/consul/ITClusterModuleConsulProviderFunctionalTest.java
+	org.apache.skywalking.oap.server.library.module.ModuleManager
+	org.apache.skywalking.oap.server.telemetry.none.NoneTelemetryProvider
+/cluster-etcd-plugin/src/test/java/org/apache/skywalking/oap/server/cluster/plugin/etcd/ITClusterModuleEtcdProviderFunctionalTest.java
+	org.apache.skywalking.oap.server.telemetry.none.NoneTelemetryProvider
+	org.apache.skywalking.oap.server.library.module.ModuleManager
+/cluster-etcd-plugin/src/test/java/org/apache/skywalking/oap/server/cluster/plugin/etcd/ITClusterEtcdPluginTest.java
+	org.apache.skywalking.oap.server.telemetry.api.HealthCheckMetrics
+	org.apache.skywalking.oap.server.library.module.ModuleDefineHolder
+/cluster-kubernetes-plugin/src/test/java/org/apache/skywalking/oap/server/cluster/plugin/kubernetes/ClusterModuleKubernetesProviderTest.java
+	org.apache.skywalking.oap.server.library.module.ModuleManager
+	org.apache.skywalking.oap.server.telemetry.none.NoneTelemetryProvider
+/cluster-kubernetes-plugin/src/test/java/org/apache/skywalking/oap/server/cluster/plugin/kubernetes/KubernetesCoordinatorTest.java
+	org.apache.skywalking.oap.server.telemetry.api.HealthCheckMetrics
+	org.apache.skywalking.oap.server.cluster.plugin.kubernetes.NamespacedPodListInformer
+	org.apache.skywalking.oap.server.core.CoreModuleConfig
+/cluster-nacos-plugin/src/test/java/org/apache/skywalking/oap/server/cluster/plugin/nacos/ITClusterModuleNacosProviderFunctionalTest.java
+	org.apache.skywalking.oap.server.library.module.ModuleManager
+	org.apache.skywalking.oap.server.telemetry.none.NoneTelemetryProvider
+/cluster-nacos-plugin/src/test/java/org/apache/skywalking/oap/server/cluster/plugin/nacos/NacosCoordinatorTest.java
+	com.alibaba.nacos.api.naming.NamingService
+	org.apache.skywalking.oap.server.telemetry.api.HealthCheckMetrics
+	org.apache.skywalking.oap.server.library.module.ModuleDefineHolder
+/cluster-zookeeper-plugin/src/test/java/org/apache/skywalking/oap/server/cluster/plugin/zookeeper/ITClusterModuleZookeeperProviderFunctionalTest.java
+	org.apache.skywalking.oap.server.library.module.ModuleManager
+	org.apache.skywalking.oap.server.telemetry.none.NoneTelemetryProvider
+/cluster-zookeeper-plugin/src/test/java/org/apache/skywalking/oap/server/cluster/plugin/zookeeper/ZookeeperCoordinatorTest.java
+	org.apache.curator.x.discovery.ServiceDiscovery
+	org.apache.curator.x.discovery.ServiceCacheBuilder
+	org.apache.skywalking.oap.server.telemetry.api.HealthCheckMetrics
+	org.apache.curator.x.discovery.ServiceCache
+	org.apache.skywalking.oap.server.library.module.ModuleDefineHolder
+/configuration-api/src/test/java/org/apache/skywalking/oap/server/configuration/api/ConfigWatcherRegisterTest.java
+/configuration-consul/src/test/java/org/apache/skywalking/oap/server/configuration/consul/ConsulConfigurationWatcherRegisterTest.java
+	org.apache.skywalking.oap.server.configuration.consul.ConsulConfigurationWatcherRegister
+	com.orbitz.consul.cache.KVCache
+	com.orbitz.consul.cache.KVCache
+	com.orbitz.consul.cache.KVCache
+	com.orbitz.consul.cache.KVCache
+	com.orbitz.consul.cache.KVCache
+/configuration-discovery-receiver-plugin/src/test/java/org/apache/skywalking/oap/server/recevier/configuration/discovery/AgentConfigurationsWatcherTest.java
+	org.apache.skywalking.oap.server.recevier.configuration.discovery.AgentConfigurationsWatcher
+/configuration-k8s-configmap/src/test/java/org/apache/skywalking/oap/server/configuration/configmap/ConfigmapConfigWatcherRegisterTest.java
+	org.apache.skywalking.oap.server.configuration.configmap.ConfigurationConfigmapInformer
+/configuration-nacos/src/test/java/org/apache/skywalking/oap/server/configuration/nacos/NacosConfigWatcherRegisterTest.java
+	org.apache.skywalking.oap.server.configuration.nacos.NacosServerSettings
+	com.alibaba.nacos.api.config.ConfigService
+/configuration-zookeeper/src/test/java/org/apache/skywalking/oap/server/configuration/zookeeper/ut/ZookeeperConfigWatcherRegisterTestCase.java
+	org.apache.skywalking.oap.server.configuration.zookeeper.ZookeeperServerSettings
+	org.apache.curator.framework.recipes.cache.PathChildrenCache
+/envoy-metrics-receiver-plugin/src/test/java/org/apache/skywalking/oap/server/receiver/envoy/ClusterManagerMetricsAdapterTest.java
+/envoy-metrics-receiver-plugin/src/test/java/org/apache/skywalking/oap/server/receiver/envoy/als/k8s/K8SALSServiceMeshHTTPAnalysisTest.java
+	org.apache.skywalking.oap.server.receiver.envoy.als.k8s.K8SServiceRegistry
+/envoy-metrics-receiver-plugin/src/test/java/org/apache/skywalking/oap/server/receiver/envoy/als/mx/FieldsHelperTest.java
+/exporter/src/test/java/org/apache/skywalking/oap/server/exporter/provider/grpc/GRPCExporterTest.java
+/exporter/src/test/java/org/apache/skywalking/oap/server/exporter/provider/grpc/GRPCExporterProviderTest.java
+	org.apache.skywalking.oap.server.exporter.provider.grpc.GRPCExporter
+	org.apache.skywalking.oap.server.library.module.ModuleManager
+	org.apache.skywalking.oap.server.library.module.ModuleProviderHolder
+	org.apache.skywalking.oap.server.library.module.ModuleServiceHolder
+/grpc-configuration-sync/src/test/java/org/apache/skywalking/oap/server/configuration/grpc/GRPCConfigurationTest.java
+/kafka-fetcher-plugin/src/test/java/org/apache/skywalking/oap/server/analyzer/agent/kafka/provider/handler/LogHandlerTest.java
+	org.apache.skywalking.oap.server.library.module.ModuleManager
+	org.apache.skywalking.oap.log.analyzer.provider.log.ILogAnalyzerService
+	org.apache.skywalking.oap.server.telemetry.api.MetricsCreator
+/library-datacarrier-queue/src/test/java/org/apache/skywalking/oap/server/library/datacarrier/EnvUtilTest.java
+/library-datacarrier-queue/src/test/java/org/apache/skywalking/oap/server/library/datacarrier/DataCarrierTest.java
+/library-datacarrier-queue/src/test/java/org/apache/skywalking/oap/server/library/datacarrier/consumer/ConsumeDriverTest.java
+/library-datacarrier-queue/src/test/java/org/apache/skywalking/oap/server/library/datacarrier/consumer/ConsumerTest.java
+/log-analyzer/src/test/java/org/apache/skywalking/oap/log/analyzer/dsl/DSLSecurityTest.java
+	org.apache.skywalking.oap.server.library.module.ModuleManager
+	org.apache.skywalking.oap.server.library.module.ModuleProviderHolder
+	org.apache.skywalking.oap.server.library.module.ModuleServiceHolder
+	org.apache.skywalking.oap.server.core.source.SourceReceiver
+	org.apache.skywalking.oap.server.core.config.ConfigService
+/log-analyzer/src/test/java/org/apache/skywalking/oap/log/analyzer/dsl/DSLTest.java
+	org.apache.skywalking.oap.server.library.module.ModuleManager
+	org.apache.skywalking.oap.server.library.module.ModuleProviderHolder
+	org.apache.skywalking.oap.server.library.module.ModuleServiceHolder
+	org.apache.skywalking.oap.server.core.source.SourceReceiver
+	org.apache.skywalking.oap.server.core.config.ConfigService
+/meter-analyzer/src/test/java/org/apache/skywalking/oap/meter/analyzer/dsl/K8sTagTest.java
+/meter-analyzer/src/test/java/org/apache/skywalking/oap/meter/analyzer/dsl/AnalyzerTest.java
+	org.apache.skywalking.oap.server.library.module.ModuleManager
+/query-graphql-plugin/src/test/java/org/apache/skywalking/oap/query/graphql/resolver/LogTestQueryTest.java
+	org.apache.skywalking.oap.server.library.module.ModuleManager
+	org.apache.skywalking.oap.query.graphql.GraphQLQueryConfig
+	org.apache.skywalking.oap.server.library.module.ModuleProviderHolder
+	org.apache.skywalking.oap.log.analyzer.provider.LogAnalyzerModuleProvider
+	org.apache.skywalking.oap.log.analyzer.provider.LogAnalyzerModuleConfig
+	org.apache.skywalking.oap.server.library.module.ModuleProviderHolder
+	org.apache.skywalking.oap.server.library.module.ModuleServiceHolder
+	org.apache.skywalking.oap.server.core.config.ConfigService
+	org.apache.skywalking.oap.server.core.config.NamingControl
+/server-alarm-plugin/src/test/java/org/apache/skywalking/oap/server/core/alarm/provider/RunningRuleTest.java
+/server-alarm-plugin/src/test/java/org/apache/skywalking/oap/server/core/alarm/provider/AlarmModuleProviderTest.java
+	org.apache.skywalking.oap.server.core.alarm.provider.NotifyHandler
+/server-alarm-plugin/src/test/java/org/apache/skywalking/oap/server/core/alarm/provider/NotifyHandlerTest.java
+	org.apache.skywalking.oap.server.core.analysis.manual.endpoint.EndpointTraffic
+	org.apache.skywalking.oap.server.core.analysis.metrics.MetricsMetaInfo
+	org.apache.skywalking.oap.server.core.alarm.provider.NotifyHandlerTest.MockMetrics
+	org.apache.skywalking.oap.server.core.analysis.metrics.MetricsMetaInfo
+	org.apache.skywalking.oap.server.core.alarm.provider.NotifyHandlerTest.MockMetrics
+	org.apache.skywalking.oap.server.library.module.ModuleManager
+	org.apache.skywalking.oap.server.library.module.ModuleProviderHolder
+	org.apache.skywalking.oap.server.library.module.ModuleServiceHolder
+	org.apache.skywalking.oap.server.core.alarm.provider.AlarmCore
+	org.apache.skywalking.oap.server.core.alarm.provider.RunningRule
+/server-alarm-plugin/src/test/java/org/apache/skywalking/oap/server/core/alarm/provider/AlarmCoreTest.java
+	org.apache.skywalking.oap.server.core.alarm.provider.RunningRule
+/server-alarm-plugin/src/test/java/org/apache/skywalking/oap/server/core/alarm/provider/EventHookCallbackTest.java
+	org.apache.skywalking.oap.server.library.module.ModuleManager
+	org.apache.skywalking.oap.server.library.module.ModuleProviderHolder
+	org.apache.skywalking.oap.server.library.module.ModuleServiceHolder
+	org.apache.skywalking.oap.server.core.alarm.provider.EventHookCallbackTest.MockEventAnalyzerService
+	org.apache.skywalking.oap.server.analyzer.event.EventAnalyzerServiceImpl
+/server-alarm-plugin/src/test/java/org/apache/skywalking/oap/server/core/alarm/provider/AlarmRulesWatcherTest.java
+	org.apache.skywalking.oap.server.core.alarm.provider.AlarmRulesWatcher
+/server-core/src/test/java/org/apache/skywalking/oap/server/core/analysis/ApdexThresholdConfigTest.java
+	org.apache.skywalking.oap.server.core.CoreModuleProvider
+/server-core/src/test/java/org/apache/skywalking/oap/server/core/analysis/meter/MeterSystemTest.java
+	org.apache.skywalking.oap.server.library.module.ModuleManager
+/server-core/src/test/java/org/apache/skywalking/oap/server/core/analysis/meter/function/avg/AvgLabeledFunctionTest.java
+	org.apache.skywalking.oap.server.core.analysis.meter.function.avg.AvgLabeledFunction
+/server-core/src/test/java/org/apache/skywalking/oap/server/core/analysis/meter/function/latest/LatestFunctionTest.java
+	org.apache.skywalking.oap.server.core.analysis.meter.function.latest.LatestFunction
+/server-core/src/test/java/org/apache/skywalking/oap/server/core/remote/JettyServerTest.java
+/server-core/src/test/java/org/apache/skywalking/oap/server/core/remote/RemoteServiceHandlerTestCase.java
+	org.apache.skywalking.oap.server.telemetry.api.MetricsCreator
+/server-core/src/test/java/org/apache/skywalking/oap/server/core/remote/client/RemoteClientManagerTestCase.java
+	org.apache.skywalking.oap.server.core.cluster.ClusterNodesQuery
+	org.apache.skywalking.oap.server.telemetry.api.MetricsCreator
+/server-core/src/test/java/org/apache/skywalking/oap/server/core/remote/client/GRPCRemoteClientTestCase.java
+	org.apache.skywalking.oap.server.telemetry.api.MetricsCreator
+/server-core/src/test/java/org/apache/skywalking/oap/server/core/remote/client/GRPCRemoteClientRealClient.java
+	org.apache.skywalking.oap.server.telemetry.api.MetricsCreator
+/server-core/src/test/java/org/apache/skywalking/oap/server/core/storage/PersistenceTimerTest.java
+	org.apache.skywalking.oap.server.library.module.ModuleManager
+	org.apache.skywalking.oap.server.library.module.ModuleServiceHolder
+	org.apache.skywalking.oap.server.core.analysis.worker.MetricsPersistentWorker
+	org.apache.skywalking.oap.server.core.analysis.worker.TopNWorker
+/server-core/src/test/java/org/apache/skywalking/oap/server/core/storage/model/StorageModelsTest.java
+/skywalking-browser-receiver-plugin/src/test/java/org/apache/skywalking/oap/server/receiver/browser/provider/handler/rest/BrowserReportServletHandlerTest.java
+	javax.servlet.http.HttpServletRequest
+	org.apache.skywalking.oap.server.library.module.ModuleManager
+	org.apache.skywalking.oap.server.telemetry.none.NoneTelemetryProvider
+/skywalking-trace-receiver-plugin/src/test/java/org/apache/skywalking/oap/server/receiver/trace/provider/handler/v8/rest/TraceSegmentReportServletHandlerTest.java
+	javax.servlet.http.HttpServletRequest
+	org.apache.skywalking.oap.server.library.module.ModuleManager
+	org.apache.skywalking.oap.server.telemetry.none.NoneTelemetryProvider
+	org.apache.skywalking.oap.server.analyzer.provider.AnalyzerModuleProvider
+/skywalking-trace-receiver-plugin/src/test/java/org/apache/skywalking/oap/server/receiver/trace/provider/parser/listener/MultiScopesAnalysisListenerTest.java
+	org.apache.skywalking.oap.server.analyzer.provider.AnalyzerModuleConfig
+	org.apache.skywalking.oap.server.core.cache.NetworkAddressAliasCache
+	org.apache.skywalking.oap.server.core.cache.NetworkAddressAliasCache
+	org.apache.skywalking.oap.server.analyzer.provider.trace.UninstrumentedGatewaysConfig
+/skywalking-zabbix-receiver-plugin/src/test/java/org/apache/skywalking/oap/server/receiver/zabbix/provider/ZabbixBaseTest.java
+	io.netty.channel.ChannelHandlerContext
+	io.netty.buffer.ByteBufAllocator
+/skywalking-zabbix-receiver-plugin/src/test/java/org/apache/skywalking/oap/server/receiver/zabbix/provider/ZabbixMetricsTest.java
+	org.apache.skywalking.oap.server.core.CoreModuleProvider
+	org.apache.skywalking.oap.server.library.module.ModuleManager
+/skywalking-zabbix-receiver-plugin/src/test/java/org/apache/skywalking/oap/server/receiver/zabbix/provider/protocol/ZabbixProtocolHandlerTest.java
+	org.apache.skywalking.oap.server.receiver.zabbix.provider.ZabbixMetrics
+/tool-profile-snapshot-bootstrap/src/test/java/org/apache/skywalking/oap/server/tool/profile/exporter/test/ProfileSnapshotExporterTest.java
+	org.apache.skywalking.oap.server.core.CoreModuleProvider
+	org.apache.skywalking.oap.server.library.module.ModuleManager
+	org.apache.skywalking.oap.server.core.CoreModuleConfig

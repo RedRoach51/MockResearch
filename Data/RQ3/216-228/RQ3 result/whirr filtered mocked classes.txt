@@ -1,7 +1,17 @@
 Inside classes: 
  
+org.apache.whirr.command.Command
+org.apache.whirr.ClusterControllerFactory
+org.apache.whirr.ClusterController
+org.apache.whirr.state.ClusterStateStoreFactory
+org.apache.whirr.Cluster
+org.apache.whirr.service.ClusterActionHandler
+org.apache.whirr.service.ClusterActionHandlerFactory
+org.apache.whirr.Cluster.Instance
+org.apache.whirr.ClusterSpec
  
  
  
 Outside classes: 
  
+com.google.common.base.Function

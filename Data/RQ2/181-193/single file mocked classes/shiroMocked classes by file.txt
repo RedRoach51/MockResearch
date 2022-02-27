@@ -1,0 +1,286 @@
+/core/src/test/java/org/apache/shiro/aop/AnnotationResolverTest.java
+	org.apache.shiro.aop.MethodInvocation
+	org.apache.shiro.aop.MethodInvocation
+	org.apache.shiro.aop.MethodInvocation
+/core/src/test/java/org/apache/shiro/authc/AbstractAuthenticatorTest.java
+	org.apache.shiro.authc.AuthenticationListener
+	org.apache.shiro.authc.AuthenticationListener
+/core/src/test/java/org/apache/shiro/authz/aop/RoleAnnotationHandlerTest.java
+	org.apache.shiro.subject.Subject
+/core/src/test/java/org/apache/shiro/concurrent/SubjectAwareExecutorServiceTest.java
+	java.util.concurrent.ExecutorService
+/core/src/test/java/org/apache/shiro/concurrent/SubjectAwareExecutorTest.java
+	java.util.concurrent.Executor
+/core/src/test/java/org/apache/shiro/realm/ldap/DefaultLdapRealmTest.java
+	org.apache.shiro.realm.ldap.LdapContextFactory
+	javax.naming.ldap.LdapContext
+	org.apache.shiro.realm.ldap.LdapContextFactory
+	org.apache.shiro.realm.ldap.LdapContextFactory
+	org.apache.shiro.realm.ldap.LdapContextFactory
+	javax.naming.ldap.LdapContext
+/core/src/test/java/org/apache/shiro/realm/ldap/JndiLdapContextFactoryTest.java
+	javax.naming.ldap.LdapContext
+	javax.naming.ldap.LdapContext
+	javax.naming.ldap.LdapContext
+	javax.naming.ldap.LdapContext
+	javax.naming.ldap.LdapContext
+/core/src/test/java/org/apache/shiro/session/mgt/DefaultSessionManagerTest.java
+	org.apache.shiro.session.mgt.eis.SessionDAO
+/core/src/test/java/org/apache/shiro/subject/DelegatingSubjectTest.java
+	org.apache.shiro.mgt.SecurityManager
+	org.apache.shiro.mgt.SecurityManager
+/core/src/test/java/org/apache/shiro/test/ExampleShiroUnitTest.java
+	org.apache.shiro.subject.Subject
+/support_guice/src/test/java/org/apache/shiro/guice/GuiceEnvironmentTest.java
+	org.apache.shiro.mgt.SecurityManager
+/support_guice/src/test/java/org/apache/shiro/guice/ShiroModuleTest.java
+	org.apache.shiro.guice.ShiroModuleTest.MockRealm
+	org.apache.shiro.guice.ShiroModuleTest.MockRealm
+	org.apache.shiro.authc.AuthenticationToken
+	org.apache.shiro.guice.ShiroModuleTest.MockRealm
+	org.apache.shiro.guice.ShiroModuleTest.MockRealm
+	org.apache.shiro.guice.ShiroModuleTest.MockRealm
+	org.apache.shiro.guice.ShiroModuleTest.MockRealm
+	org.apache.shiro.guice.ShiroModuleTest.MyDestroyable
+	org.apache.shiro.guice.ShiroModuleTest.MockRealm
+	org.apache.shiro.event.EventBus
+	org.apache.shiro.guice.ShiroModuleTest.MockRealm
+/support_guice/src/test/java/org/apache/shiro/guice/BeanTypeListenerTest.java
+	com.google.inject.spi.TypeEncounter
+	com.google.inject.Provider
+	com.google.inject.Injector
+	java.lang.SecurityManager
+/support_guice/src/test/java/org/apache/shiro/guice/LifecycleTypeListenerTest.java
+	com.google.inject.spi.TypeEncounter
+	com.google.inject.spi.TypeEncounter
+/support_guice/src/test/java/org/apache/shiro/guice/ShiroSessionScopeTest.java
+	org.apache.shiro.subject.Subject
+	com.google.inject.Provider<org.apache.shiro.guice.ShiroSessionScopeTest.SomeClass>
+	org.apache.shiro.session.Session
+	com.google.inject.Provider<org.apache.shiro.guice.ShiroSessionScopeTest.SomeClass>
+/support_guice/src/test/java/org/apache/shiro/guice/ShiroMatchersTest.java
+	com.google.inject.matcher.Matcher<java.lang.Class>
+/support_guice/src/test/java/org/apache/shiro/guice/DestroyableInjectionListenerTest.java
+	org.apache.shiro.guice.DestroyableInjectionListener.DestroyableRegistry
+	org.apache.shiro.lang.util.Destroyable
+/support_guice/src/test/java/org/apache/shiro/guice/InitializableInjectionListenerTest.java
+	org.apache.shiro.lang.util.Initializable
+/support_guice/src/test/java/org/apache/shiro/guice/aop/AopAllianceMethodInterceptorAdapterTest.java
+	org.aopalliance.intercept.MethodInvocation
+	org.apache.shiro.aop.MethodInterceptor
+/support_guice/src/test/java/org/apache/shiro/guice/aop/AopAllianceMethodInvocationAdapterTest.java
+	org.aopalliance.intercept.MethodInvocation
+	org.aopalliance.intercept.MethodInvocation
+	org.aopalliance.intercept.MethodInvocation
+	org.aopalliance.intercept.MethodInvocation
+/support_guice/src/test/java/org/apache/shiro/guice/web/ShiroWebModuleTest.java
+	org.apache.shiro.guice.ShiroModuleTest.MockRealm
+	javax.servlet.ServletContext
+	org.apache.shiro.guice.ShiroModuleTest.MockRealm
+	javax.servlet.ServletContext
+	org.apache.shiro.guice.ShiroModuleTest.MockRealm
+	javax.servlet.ServletContext
+	org.apache.shiro.guice.ShiroModuleTest.MockRealm
+	javax.servlet.ServletContext
+	javax.servlet.http.HttpServletRequest
+	org.apache.shiro.guice.ShiroModuleTest.MockRealm
+	javax.servlet.ServletContext
+	javax.servlet.http.HttpServletRequest
+	org.apache.shiro.guice.ShiroModuleTest.MockRealm
+	javax.servlet.ServletContext
+	javax.servlet.http.HttpServletRequest
+	org.apache.shiro.guice.ShiroModuleTest.MockRealm
+	javax.servlet.ServletContext
+	javax.servlet.http.HttpServletRequest
+	org.apache.shiro.guice.ShiroModuleTest.MockRealm
+	javax.servlet.ServletContext
+	javax.servlet.http.HttpServletRequest
+/support_guice/src/test/java/org/apache/shiro/guice/web/WebGuiceEnvironmentTest.java
+	org.apache.shiro.web.mgt.WebSecurityManager
+	org.apache.shiro.web.filter.mgt.FilterChainResolver
+	javax.servlet.ServletContext
+/support_guice/src/test/java/org/apache/shiro/guice/web/SimpleFilterChainTest.java
+	javax.servlet.FilterChain
+	javax.servlet.Filter
+	javax.servlet.Filter
+	javax.servlet.ServletRequest
+	javax.servlet.ServletResponse
+/support_guice/src/test/java/org/apache/shiro/guice/web/FilterConfigTest.java
+	org.apache.shiro.guice.ShiroModuleTest.MockRealm
+	javax.servlet.ServletContext
+	javax.servlet.http.HttpServletResponse
+	javax.servlet.FilterChain
+	javax.servlet.http.HttpServletResponse
+	javax.servlet.FilterChain
+	javax.servlet.http.HttpServletRequest
+/support_guice/src/test/java/org/apache/shiro/guice/web/PathMatchingFilterProviderTest.java
+	org.apache.shiro.web.filter.PathMatchingFilter
+/support_guice/src/test/java/org/apache/shiro/guice/web/AbstractInjectionProviderTest.java
+	com.google.inject.Injector
+/support_guice/src/test/java/org/apache/shiro/guice/web/SimpleFilterChainResolverTest.java
+	com.google.inject.Injector
+	org.apache.shiro.util.PatternMatcher
+	javax.servlet.ServletRequest
+	javax.servlet.ServletResponse
+	javax.servlet.FilterChain
+	javax.servlet.Filter
+	javax.servlet.Filter
+/support_guice/src/test/java/org/apache/shiro/guice/web/FilterChainResolverProviderTest.java
+	com.google.inject.Injector
+	org.apache.shiro.util.PatternMatcher
+/support_guice/src/test/java/org/apache/shiro/guice/web/GuiceShiroFilterTest.java
+	org.apache.shiro.web.mgt.WebSecurityManager
+	org.apache.shiro.web.filter.mgt.FilterChainResolver
+/support_spring/src/test/java/org/apache/shiro/spring/remoting/SecureRemoteInvocationFactoryTest.java
+	org.aopalliance.intercept.MethodInvocation
+	org.aopalliance.intercept.MethodInvocation
+/support_spring/src/test/java/org/apache/shiro/spring/web/ShiroFilterFactoryBeanTest.java
+	javax.servlet.FilterConfig
+	javax.servlet.ServletContext
+	javax.servlet.http.HttpServletRequest
+	javax.servlet.http.HttpServletResponse
+/web/src/test/java/org/apache/shiro/web/WebTest.java
+	javax.servlet.FilterConfig
+	javax.servlet.ServletContext
+/web/src/test/java/org/apache/shiro/web/env/EnvironmentLoaderServiceTest.java
+	javax.servlet.ServletContext
+	javax.servlet.ServletContext
+	javax.servlet.ServletContext
+/web/src/test/java/org/apache/shiro/web/filter/PathMatchingFilterTest.java
+	javax.servlet.http.HttpServletRequest
+	javax.servlet.ServletResponse
+	javax.servlet.http.HttpServletRequest
+	javax.servlet.ServletResponse
+	javax.servlet.http.HttpServletRequest
+	javax.servlet.ServletResponse
+/web/src/test/java/org/apache/shiro/web/filter/PathMatchingFilterParameterizedTest.java
+	javax.servlet.http.HttpServletRequest
+/web/src/test/java/org/apache/shiro/web/filter/authc/BasicHttpFilterAuthenticationTest.java
+	javax.servlet.http.HttpServletRequest
+	javax.servlet.http.HttpServletResponse
+	javax.servlet.http.HttpServletRequest
+	javax.servlet.http.HttpServletResponse
+	javax.servlet.http.HttpServletRequest
+	javax.servlet.http.HttpServletResponse
+	javax.servlet.http.HttpServletRequest
+	javax.servlet.http.HttpServletResponse
+	javax.servlet.http.HttpServletRequest
+	javax.servlet.http.HttpServletResponse
+	javax.servlet.http.HttpServletRequest
+	javax.servlet.http.HttpServletResponse
+	javax.servlet.http.HttpServletRequest
+	javax.servlet.http.HttpServletResponse
+	javax.servlet.http.HttpServletRequest
+	javax.servlet.http.HttpServletResponse
+	javax.servlet.http.HttpServletRequest
+	javax.servlet.http.HttpServletResponse
+	javax.servlet.http.HttpServletRequest
+	javax.servlet.http.HttpServletResponse
+	javax.servlet.http.HttpServletRequest
+	javax.servlet.http.HttpServletResponse
+	javax.servlet.http.HttpServletRequest
+	javax.servlet.http.HttpServletResponse
+/web/src/test/java/org/apache/shiro/web/filter/authz/IpFilterTest.java
+	javax.servlet.http.HttpServletRequest
+	javax.servlet.http.HttpServletRequest
+	javax.servlet.http.HttpServletRequest
+	javax.servlet.http.HttpServletRequest
+	javax.servlet.http.HttpServletRequest
+/web/src/test/java/org/apache/shiro/web/filter/authz/AuthorizationFilterTest.java
+	javax.servlet.http.HttpServletRequest
+	javax.servlet.http.HttpServletResponse
+	javax.servlet.http.HttpServletRequest
+	javax.servlet.http.HttpServletResponse
+/web/src/test/java/org/apache/shiro/web/filter/authz/SslFilterTest.java
+	javax.servlet.http.HttpServletRequest
+	javax.servlet.http.HttpServletResponse
+/web/src/test/java/org/apache/shiro/web/filter/authz/PortFilterTest.java
+	javax.servlet.http.HttpServletRequest
+	javax.servlet.http.HttpServletResponse
+	javax.servlet.http.HttpServletResponse
+/web/src/test/java/org/apache/shiro/web/filter/mgt/SimpleNamedFilterListTest.java
+	javax.servlet.FilterChain
+	javax.servlet.Filter
+/web/src/test/java/org/apache/shiro/web/filter/mgt/PathMatchingFilterChainResolverTest.java
+	javax.servlet.http.HttpServletRequest
+	javax.servlet.http.HttpServletResponse
+	javax.servlet.FilterChain
+	javax.servlet.http.HttpServletRequest
+	javax.servlet.http.HttpServletResponse
+	javax.servlet.FilterChain
+	javax.servlet.http.HttpServletRequest
+	javax.servlet.http.HttpServletResponse
+	javax.servlet.FilterChain
+	javax.servlet.http.HttpServletRequest
+	javax.servlet.http.HttpServletResponse
+	javax.servlet.FilterChain
+	javax.servlet.http.HttpServletRequest
+	javax.servlet.http.HttpServletResponse
+	javax.servlet.FilterChain
+	javax.servlet.http.HttpServletRequest
+	javax.servlet.http.HttpServletResponse
+	javax.servlet.FilterChain
+	javax.servlet.http.HttpServletRequest
+	javax.servlet.http.HttpServletResponse
+	javax.servlet.FilterChain
+	javax.servlet.http.HttpServletRequest
+	javax.servlet.http.HttpServletResponse
+	javax.servlet.FilterChain
+	javax.servlet.http.HttpServletRequest
+	javax.servlet.http.HttpServletResponse
+	javax.servlet.FilterChain
+	javax.servlet.http.HttpServletRequest
+	javax.servlet.http.HttpServletResponse
+	javax.servlet.FilterChain
+	javax.servlet.http.HttpServletRequest
+	javax.servlet.http.HttpServletResponse
+	javax.servlet.FilterChain
+	javax.servlet.http.HttpServletRequest
+	javax.servlet.http.HttpServletResponse
+	javax.servlet.FilterChain
+/web/src/test/java/org/apache/shiro/web/mgt/DefaultWebSecurityManagerTest.java
+	org.apache.shiro.web.session.mgt.WebSessionManager
+	javax.servlet.http.HttpServletRequest
+	javax.servlet.http.HttpServletResponse
+	javax.servlet.http.HttpServletRequest
+	javax.servlet.http.HttpServletResponse
+	javax.servlet.http.HttpServletRequest
+	javax.servlet.http.HttpServletResponse
+	javax.servlet.http.HttpServletRequest
+	javax.servlet.http.HttpServletResponse
+	javax.servlet.http.HttpServletRequest
+	javax.servlet.http.HttpServletResponse
+/web/src/test/java/org/apache/shiro/web/mgt/CookieRememberMeManagerTest.java
+	javax.servlet.http.HttpServletRequest
+	javax.servlet.http.HttpServletResponse
+	org.apache.shiro.web.subject.WebSubject
+	org.apache.shiro.web.servlet.Cookie
+	javax.servlet.http.HttpServletRequest
+	javax.servlet.http.HttpServletResponse
+	javax.servlet.http.HttpServletRequest
+	javax.servlet.http.HttpServletResponse
+	javax.servlet.http.HttpServletRequest
+	javax.servlet.http.HttpServletResponse
+	javax.servlet.http.HttpServletRequest
+	javax.servlet.http.HttpServletResponse
+	org.apache.shiro.web.servlet.Cookie
+	javax.servlet.http.HttpServletRequest
+	javax.servlet.http.HttpServletResponse
+	org.apache.shiro.web.subject.WebSubject
+	javax.servlet.http.HttpServletRequest
+	javax.servlet.http.HttpServletResponse
+/web/src/test/java/org/apache/shiro/web/servlet/ShiroHttpServletRequestTest.java
+	javax.servlet.http.HttpServletRequest
+	javax.servlet.ServletContext
+	org.apache.shiro.subject.Subject
+	org.apache.shiro.session.Session
+	org.apache.shiro.session.Session
+/web/src/test/java/org/apache/shiro/web/servlet/SimpleCookieTest.java
+	javax.servlet.http.HttpServletRequest
+	javax.servlet.http.HttpServletResponse
+/web/src/test/java/org/apache/shiro/web/servlet/OncePerRequestFilterTest.java
+	javax.servlet.FilterChain
+	javax.servlet.ServletRequest
+	javax.servlet.ServletResponse
+/web/src/test/java/org/apache/shiro/web/session/HttpServletSessionTest.java
+	javax.servlet.http.HttpSession

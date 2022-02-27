@@ -1,0 +1,13 @@
+/audience-annotations/src/test/java/org/apache/yetus/audience/tools/DocletEnvironmentProcessorTest.java
+	jdk.javadoc.doclet.DocletEnvironment
+	org.apache.yetus.audience.InterfaceAudience
+	org.apache.yetus.audience.InterfaceStability
+	org.junit.jupiter.api.BeforeEach
+	org.junit.jupiter.api.Test
+	javax.lang.model.element.Element
+	java.lang.annotation.Annotation
+	org.junit.jupiter.api.Assertions.assertFalse
+	org.junit.jupiter.api.Assertions.assertTrue
+	org.mockito.ArgumentMatchers.any
+	org.mockito.Mockito.mock
+	org.mockito.Mockito.when

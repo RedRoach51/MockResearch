@@ -1,0 +1,2 @@
+method, origin, count
+getInternalState,org.powermock.reflect.Whitebox,4

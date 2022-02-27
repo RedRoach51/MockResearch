@@ -1,7 +1,0 @@
-method, origin, count
-build,com.adobe.testing.s3mock.testsupport.common.S3MockStarter.BaseBuilder<com.adobe.testing.s3mock.junit4.S3MockRule>,4
-withInitialBuckets,com.adobe.testing.s3mock.testsupport.common.S3MockStarter.BaseBuilder<com.adobe.testing.s3mock.junit4.S3MockRule>,4
-silent,com.adobe.testing.s3mock.testsupport.common.S3MockStarter.BaseBuilder<com.adobe.testing.s3mock.junit4.S3MockRule>,4
-builder,com.adobe.testing.s3mock.junit4.S3MockRule,4
-getHttpPort,com.adobe.testing.s3mock.testsupport.common.S3MockStarter,3
-createS3ClientV2,com.adobe.testing.s3mock.testsupport.common.S3MockStarter,3

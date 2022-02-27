@@ -1,15 +1,23 @@
+/vysper-admin-console/src/test/java/org/apache/vysper/console/AdminConsoleControllerTest.java
+Methods Invoked: 
 	Method name: mock
 	Class origin: org.mockito.Mockito
 	Count: 4
  
+/vysper-core/src/test/java/org/apache/vysper/mina/codec/StanzaWriterProtocolEncoderTestCase.java
+Methods Invoked: 
 	Method name: mock
 	Class origin: org.mockito.Mockito
 	Count: 2
  
+/vysper-core/src/test/java/org/apache/vysper/xmpp/delivery/StanzaRelayBrokerTestCase.java
+Methods Invoked: 
 	Method name: mock
 	Class origin: org.mockito.Mockito
 	Count: 5
  
+/vysper-core/src/test/java/org/apache/vysper/xmpp/delivery/failure/ReturnErrorToSenderFailureStrategyTestCase.java
+Methods Invoked: 
 	Method name: mock
 	Class origin: org.mockito.Mockito
 	Count: 1
@@ -26,62 +34,92 @@
 	Class origin: org.mockito.Matchers
 	Count: 6
  
+/vysper-core/src/test/java/org/apache/vysper/xmpp/delivery/inbound/DeliveringInteralInboundStanzaRelayTestCase.java
+Methods Invoked: 
 	Method name: mock
 	Class origin: org.mockito.Mockito
 	Count: 6
  
+/vysper-core/src/test/java/org/apache/vysper/xmpp/delivery/inbound/DeliveringExternalInboundStanzaRelayTestCase.java
+Methods Invoked: 
 	Method name: mock
 	Class origin: org.mockito.Mockito
 	Count: 6
  
+/vysper-core/src/test/java/org/apache/vysper/xmpp/modules/DefaultDiscoAwareModuleTestCase.java
+Methods Invoked: 
 	Method name: mock
 	Class origin: org.mockito.Mockito
 	Count: 10
  
+/vysper-core/src/test/java/org/apache/vysper/xmpp/modules/core/bind/handler/BindIQHandlerTestCase.java
+Methods Invoked: 
 	Method name: mock
 	Class origin: org.mockito.Mockito
 	Count: 2
  
+/vysper-core/src/test/java/org/apache/vysper/xmpp/modules/core/compatibility/jabber_iq_auth/handler/AuthCompatibilityIQHandlerTestCase.java
+Methods Invoked: 
 	Method name: mock
 	Class origin: org.mockito.Mockito
 	Count: 2
  
+/vysper-core/src/test/java/org/apache/vysper/xmpp/modules/core/session/handler/SessionIQHandlerTestCase.java
+Methods Invoked: 
 	Method name: mock
 	Class origin: org.mockito.Mockito
 	Count: 2
  
+/vysper-core/src/test/java/org/apache/vysper/xmpp/modules/extension/xep0049_privatedata/PrivateDataIQHandlerTestCase.java
+Methods Invoked: 
 	Method name: mock
 	Class origin: org.mockito.Mockito
 	Count: 3
  
+/vysper-core/src/test/java/org/apache/vysper/xmpp/modules/extension/xep0054_vcardtemp/VcardTempIQHandlerTestCase.java
+Methods Invoked: 
 	Method name: mock
 	Class origin: org.mockito.Mockito
 	Count: 4
  
+/vysper-core/src/test/java/org/apache/vysper/xmpp/modules/extension/xep007_inbandreg/InBandRegistrationHandlerTestCase.java
+Methods Invoked: 
 	Method name: mock
 	Class origin: org.mockito.Mockito
 	Count: 4
  
+/vysper-core/src/test/java/org/apache/vysper/xmpp/modules/extension/xep0092_software_version/SoftwareVersionIQHandlerTestCase.java
+Methods Invoked: 
 	Method name: mock
 	Class origin: org.mockito.Mockito
 	Count: 2
  
+/vysper-core/src/test/java/org/apache/vysper/xmpp/modules/extension/xep0199_xmppping/XmppPingerTestCase.java
+Methods Invoked: 
 	Method name: mock
 	Class origin: org.mockito.Mockito
 	Count: 3
  
+/vysper-core/src/test/java/org/apache/vysper/xmpp/modules/extension/xep0199_xmppping/XmppPingIQHandlerTestCase.java
+Methods Invoked: 
 	Method name: mock
 	Class origin: org.mockito.Mockito
 	Count: 3
  
+/vysper-core/src/test/java/org/apache/vysper/xmpp/modules/extension/xep0202_entity_time/EntityTimeXEP0090IQHandlerTestCase.java
+Methods Invoked: 
 	Method name: mock
 	Class origin: org.mockito.Mockito
 	Count: 2
  
+/vysper-core/src/test/java/org/apache/vysper/xmpp/modules/extension/xep0202_entity_time/EntityTimeIQHandlerTestCase.java
+Methods Invoked: 
 	Method name: mock
 	Class origin: org.mockito.Mockito
 	Count: 2
  
+/vysper-core/src/test/java/org/apache/vysper/xmpp/modules/extension/xep0220_server_dailback/DbVerifyHandlerTestCase.java
+Methods Invoked: 
 	Method name: mock
 	Class origin: org.mockito.Mockito
 	Count: 1
@@ -90,90 +128,134 @@
 	Class origin: org.mockito.Mockito
 	Count: 1
  
+/vysper-core/src/test/java/org/apache/vysper/xmpp/modules/roster/handler/RosterIQHandlerTestCase.java
+Methods Invoked: 
 	Method name: mock
 	Class origin: org.mockito.Mockito
 	Count: 2
  
+/vysper-core/src/test/java/org/apache/vysper/xmpp/modules/servicediscovery/handler/ExtendedDiscoInfoTestCase.java
+Methods Invoked: 
 	Method name: mock
 	Class origin: org.mockito.Mockito
 	Count: 1
  
+/vysper-core/src/test/java/org/apache/vysper/xmpp/modules/servicediscovery/handler/DiscoInfoIQHandlerTestCase.java
+Methods Invoked: 
 	Method name: mock
 	Class origin: org.mockito.Mockito
 	Count: 5
  
+/vysper-core/src/test/java/org/apache/vysper/xmpp/protocol/SimpleStanzaHandlerInterceptorChainTest.java
+Methods Invoked: 
 	Method name: mock
 	Class origin: org.mockito.Mockito
 	Count: 8
  
+/vysper-core/src/test/java/org/apache/vysper/xmpp/server/DefaultServerRuntimeContextEventListenerTest.java
+Methods Invoked: 
 	Method name: mock
 	Class origin: org.mockito.Mockito
 	Count: 2
  
+/vysper-core/src/test/java/org/apache/vysper/xmpp/server/components/ComponentStanzaProcessorTestCase.java
+Methods Invoked: 
 	Method name: mock
 	Class origin: org.mockito.Mockito
 	Count: 5
  
+/vysper-core/src/test/java/org/apache/vysper/xmpp/server/response/ServerResponsesTestCase.java
+Methods Invoked: 
 	Method name: mock
 	Class origin: org.mockito.Mockito
 	Count: 2
  
+/vysper-core/src/test/java/org/apache/vysper/xmpp/server/s2s/DefaultXMPPServerConnectorRegistryTestCase.java
+Methods Invoked: 
 	Method name: mock
 	Class origin: org.mockito.Mockito
 	Count: 9
  
+/vysper-core/src/test/java/org/apache/vysper/xmpp/server/s2s/TlsProceedHandlerTestCase.java
+Methods Invoked: 
 	Method name: mock
 	Class origin: org.mockito.Mockito
 	Count: 3
  
+/vysper-core/src/test/java/org/apache/vysper/xmpp/server/s2s/FeaturesHandlerTestCase.java
+Methods Invoked: 
 	Method name: mock
 	Class origin: org.mockito.Mockito
 	Count: 3
  
+/vysper-core/src/test/java/org/apache/vysper/xmpp/state/presence/LatestPresenceCacheTestCase.java
+Methods Invoked: 
 	Method name: mock
 	Class origin: org.mockito.Mockito
 	Count: 1
  
+/vysper-websockets/src/test/java/org/apache/vysper/xmpp/extension/websockets/JettyXmppWebSocketServletTest.java
+Methods Invoked: 
 	Method name: mock
 	Class origin: org.mockito.Mockito
 	Count: 6
  
-	Method name: mock
-	Class origin: org.mockito.Mockito
-	Count: 3
- 
-	Method name: mock
-	Class origin: org.mockito.Mockito
-	Count: 3
- 
+/vysper-websockets/src/test/java/org/apache/vysper/xmpp/extension/websockets/TomcatXmppWebSocketServletTest.java
+Methods Invoked: 
 	Method name: mock
 	Class origin: org.mockito.Mockito
 	Count: 6
  
+/vysper-websockets/src/test/java/org/apache/vysper/xmpp/extension/websockets/JettyXmppWebSocketTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 3
+ 
+/vysper-websockets/src/test/java/org/apache/vysper/xmpp/extension/websockets/TomcatXmppWebSocketTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 3
+ 
+/xep0045-muc/src/test/java/org/apache/vysper/xmpp/modules/extension/xep0045_muc/AbstractDiscoTestCase.java
+Methods Invoked: 
 	Method name: mock
 	Class origin: org.mockito.Mockito
 	Count: 1
  
+/xep0065-socks/src/test/java/org/apache/vysper/xmpp/extension/xep0065_socks/Socks5ModuleTest.java
+Methods Invoked: 
 	Method name: mock
 	Class origin: org.mockito.Mockito
 	Count: 2
  
+/xep0065-socks/src/test/java/org/apache/vysper/xmpp/extension/xep0065_socks/Socks5AcceptorHandlerTest.java
+Methods Invoked: 
 	Method name: mock
 	Class origin: org.mockito.Mockito
 	Count: 7
  
+/xep0065-socks/src/test/java/org/apache/vysper/xmpp/extension/xep0065_socks/Socks5IqHandlerTest.java
+Methods Invoked: 
 	Method name: mock
 	Class origin: org.mockito.Mockito
 	Count: 3
  
+/xep0065-socks/src/test/java/org/apache/vysper/xmpp/extension/xep0065_socks/DefaultSocks5ConnectionsRegistryTest.java
+Methods Invoked: 
 	Method name: mock
 	Class origin: org.mockito.Mockito
 	Count: 2
  
+/xep0065-socks/src/test/java/org/apache/vysper/xmpp/extension/xep0065_socks/Socks5PairTest.java
+Methods Invoked: 
 	Method name: mock
 	Class origin: org.mockito.Mockito
 	Count: 3
  
+/xep0124-xep0206-bosh/src/test/java/org/apache/vysper/xmpp/extension/xep0124/BoshDecoderTest.java
+Methods Invoked: 
 	Method name: createStrictControl
 	Class origin: org.easymock.EasyMock
 	Count: 1
@@ -182,6 +264,8 @@
 	Class origin: org.easymock.IMocksControl
 	Count: 2
  
+/xep0124-xep0206-bosh/src/test/java/org/apache/vysper/xmpp/extension/xep0124/BoshHandlerTest.java
+Methods Invoked: 
 	Method name: createControl
 	Class origin: org.easymock.EasyMock
 	Count: 1
@@ -190,6 +274,8 @@
 	Class origin: org.easymock.IMocksControl
 	Count: 5
  
+/xep0124-xep0206-bosh/src/test/java/org/apache/vysper/xmpp/extension/xep0124/BoshBackedSessionContextTest.java
+Methods Invoked: 
 	Method name: createControl
 	Class origin: org.easymock.EasyMock
 	Count: 1
@@ -198,14 +284,20 @@
 	Class origin: org.easymock.IMocksControl
 	Count: 15
  
+/xep0313-mam/src/test/java/org/apache/vysper/xmpp/modules/extension/xep0313_mam/ServerRuntimeContextMock.java
+Methods Invoked: 
 	Method name: mock
 	Class origin: org.mockito.Mockito
 	Count: 1
  
+/xep0313-mam/src/test/java/org/apache/vysper/xmpp/modules/extension/xep0313_mam/in_memory/InMemoryEntityFilterTest.java
+Methods Invoked: 
 	Method name: mock
 	Class origin: org.mockito.Mockito
 	Count: 4
  
+/xep0313-mam/src/test/java/org/apache/vysper/xmpp/modules/extension/xep0313_mam/in_memory/InMemoryPageLimitedArchivedMessagesTest.java
+Methods Invoked: 
 	Method name: mock
 	Class origin: org.mockito.Mockito
 	Count: 3
@@ -218,18 +310,26 @@
 	Class origin: org.mockito.Mockito
 	Count: 3
  
+/xep0313-mam/src/test/java/org/apache/vysper/xmpp/modules/extension/xep0313_mam/interceptor/MAMStanzaHandlerInterceptorTest.java
+Methods Invoked: 
 	Method name: mock
 	Class origin: org.mockito.Mockito
 	Count: 6
  
+/xep0313-mam/src/test/java/org/apache/vysper/xmpp/modules/extension/xep0313_mam/query/MAMIQHandlerTest.java
+Methods Invoked: 
 	Method name: mock
 	Class origin: org.mockito.Mockito
 	Count: 5
  
+/xep0313-mam/src/test/java/org/apache/vysper/xmpp/modules/extension/xep0313_mam/query/ArchiveQueryTest.java
+Methods Invoked: 
 	Method name: mock
 	Class origin: org.mockito.Mockito
 	Count: 6
  
+/xep0313-mam/src/test/java/org/apache/vysper/xmpp/modules/extension/xep0313_mam/user/UserMessageStanzaBrokerTest.java
+Methods Invoked: 
 	Method name: mock
 	Class origin: org.mockito.Mockito
 	Count: 1

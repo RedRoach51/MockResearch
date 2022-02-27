@@ -1,0 +1,348 @@
+/sshd-common/src/test/java/org/apache/sshd/client/config/keys/LazyClientIdentityIteratorTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 2
+ 
+/sshd-common/src/test/java/org/apache/sshd/common/compression/BuiltinCompressionsTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 2
+ 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<java.lang.String>
+	Count: 2
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 2
+ 
+/sshd-common/src/test/java/org/apache/sshd/common/file/util/BasePathTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+/sshd-common/src/test/java/org/apache/sshd/common/future/DefaultSshFutureTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+/sshd-common/src/test/java/org/apache/sshd/common/keyprovider/KeyIdentityProviderResolutionTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<java.lang.String>
+	Count: 1
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+/sshd-common/src/test/java/org/apache/sshd/common/keyprovider/KeyPairProviderTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 2
+ 
+/sshd-common/src/test/java/org/apache/sshd/common/keyprovider/MultiKeyIdentityProviderTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 2
+ 
+/sshd-common/src/test/java/org/apache/sshd/common/mac/BuiltinMacsTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 2
+ 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<java.lang.String>
+	Count: 2
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 2
+ 
+/sshd-common/src/test/java/org/apache/sshd/common/signature/BuiltinSignaturesTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 2
+ 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<java.lang.String>
+	Count: 2
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 2
+ 
+/sshd-contrib/src/test/java/org/apache/sshd/contrib/client/auth/password/InteractivePasswordIdentityProviderTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 4
+ 
+/sshd-core/src/test/java/org/apache/sshd/agent/AgentTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 2
+ 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<java.util.Map<java.lang.String,java.lang.Object>>
+	Count: 1
+ 
+/sshd-core/src/test/java/org/apache/sshd/client/ClientAuthenticationManagerTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 6
+ 
+/sshd-core/src/test/java/org/apache/sshd/client/keyverifier/KnownHostsServerKeyVerifierTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 5
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 9
+ 
+/sshd-core/src/test/java/org/apache/sshd/client/keyverifier/StaticServerKeyVerifierTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 2
+ 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<java.lang.String>
+	Count: 2
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 3
+ 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<byte[]>
+	Count: 1
+ 
+/sshd-core/src/test/java/org/apache/sshd/common/PropertyResolverUtilsTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 2
+ 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<java.util.Map<java.lang.String,java.lang.Object>>
+	Count: 2
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 6
+ 
+/sshd-core/src/test/java/org/apache/sshd/common/AttributeStoreTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 4
+ 
+/sshd-core/src/test/java/org/apache/sshd/common/channel/ChannelPipedOutputStreamTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+	Method name: when
+	Class origin: org.mockito.stubbing.Stubber
+	Count: 2
+ 
+	Method name: doAnswer
+	Class origin: org.mockito.Mockito
+	Count: 2
+ 
+/sshd-core/src/test/java/org/apache/sshd/common/channel/ChannelAsyncOutputStreamTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 4
+ 
+/sshd-core/src/test/java/org/apache/sshd/common/cipher/BuiltinCiphersTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 2
+ 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<java.lang.String>
+	Count: 2
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 2
+ 
+/sshd-core/src/test/java/org/apache/sshd/common/io/DefaultIoServiceFactoryFactoryTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 2
+ 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<java.util.List<java.lang.Runnable>>
+	Count: 1
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 4
+ 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<java.lang.Boolean>
+	Count: 2
+ 
+/sshd-core/src/test/java/org/apache/sshd/common/kex/BuiltinDHFactoriesTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 2
+ 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<java.lang.String>
+	Count: 2
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 2
+ 
+/sshd-core/src/test/java/org/apache/sshd/common/kex/extension/KexExtensionHandlerTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+/sshd-core/src/test/java/org/apache/sshd/server/PublickeyAuthenticatorTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 2
+ 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<java.lang.String>
+	Count: 2
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 5
+ 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<byte[]>
+	Count: 1
+ 
+/sshd-core/src/test/java/org/apache/sshd/server/config/keys/AuthorizedKeysAuthenticatorTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 2
+ 
+/sshd-core/src/test/java/org/apache/sshd/server/config/keys/DefaultAuthorizedKeysAuthenticatorTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+/sshd-core/src/test/java/org/apache/sshd/server/forward/ForwardingFilterTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+/sshd-core/src/test/java/org/apache/sshd/server/shell/InvertedShellWrapperTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 3
+ 
+/sshd-ldap/src/test/java/org/apache/sshd/ldap/LdapPasswordAuthenticatorTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+/sshd-ldap/src/test/java/org/apache/sshd/ldap/LdapPublickeyAuthenticatorTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+/sshd-openpgp/src/test/java/org/apache/sshd/openpgp/PGPUtilsKeyFingerprintTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+/sshd-putty/src/test/java/org/apache/sshd/putty/PuttyKeyUtilsTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+/sshd-scp/src/test/java/org/apache/sshd/scp/server/ScpCommandFactoryTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 2
+ 
+/sshd-sftp/src/test/java/org/apache/sshd/sftp/client/SftpVersionSelectorTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 3
+ 
+/sshd-sftp/src/test/java/org/apache/sshd/sftp/client/DefaultCloseableHandleTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 2
+ 
+	Method name: when
+	Class origin: org.mockito.stubbing.Stubber
+	Count: 2
+ 
+	Method name: doAnswer
+	Class origin: org.mockito.Mockito
+	Count: 2
+ 
+	Method name: getArguments
+	Class origin: org.mockito.invocation.InvocationOnMock
+	Count: 2
+ 
+	Method name: any
+	Class origin: org.mockito.ArgumentMatchers
+	Count: 2
+ 
+	Method name: verify
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+/sshd-sftp/src/test/java/org/apache/sshd/sftp/client/extensions/BuiltinSftpClientExtensionsTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 2
+ 
+/sshd-sftp/src/test/java/org/apache/sshd/sftp/server/SftpSubsystemFactoryTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 

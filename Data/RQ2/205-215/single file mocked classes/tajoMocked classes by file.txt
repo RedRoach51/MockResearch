@@ -1,0 +1,2 @@
+/tajo-common/src/test/java/org/apache/tajo/datum/TestTextDatum.java
+/tajo-core-tests/src/test/java/org/apache/tajo/client/TestTajoClient.java

@@ -1,0 +1,297 @@
+/HelloWorld/src/test/java/org/apache/wink/example/helloworld/HelloWorldTest.java
+	org.springframework.mock.web.MockHttpServletRequest
+/History/src/test/java/org/apache/wink/example/history/HistoryTest.java
+/Jaxb/src/test/java/org/apache/wink/example/jaxb/JaxbTest.java
+/MultiPart/src/test/java/org/apache/wink/example/multipart/MultiPartTest.java
+/Preconditions/src/test/java/org/apache/wink/example/locking/PreconditionsTest.java
+/QADefect/src/test/java/org/apache/wink/example/qadefect/resources/ContentDispositionTest.java
+/wink-abdera-provider/src/test/java/org/apache/wink/providers/abdera/internal/AbderaAtomFeedProviderTest.java
+/wink-abdera-provider/src/test/java/org/apache/wink/providers/abdera/internal/AbderaAtomEntryProviderTest.java
+/wink-client-apache-httpclient/src/test/java/org/apache/wink/client/ApacheClientTest.java
+	org.apache.wink.common.RuntimeContext
+/wink-client-asynchttpclient/src/test/java/org/apache/wink/client/ClientTestSupport.java
+	org.apache.wink.common.RuntimeContext
+/wink-common/src/test/java/org/apache/wink/common/internal/providers/entity/SourceProviderTest.java
+	javax.ws.rs.ext.Providers
+	org.apache.wink.common.RuntimeContext
+	org.apache.wink.common.internal.WinkConfiguration
+/wink-common/src/test/java/org/apache/wink/common/internal/providers/entity/xml/AbstractJAXBProviderTest.java
+	org.apache.wink.common.internal.WinkConfiguration
+	org.apache.wink.common.RuntimeContext
+/wink-common/src/test/java/org/apache/wink/common/internal/providers/jaxb/ProvidersJAXBTest.java
+	javax.ws.rs.ext.Providers
+	org.apache.wink.common.RuntimeContext
+	org.apache.wink.common.internal.WinkConfiguration
+/wink-common/src/test/java/org/apache/wink/common/internal/providers/jaxb/AbstractJAXBCollectionProviderTest.java
+	javax.ws.rs.ext.Providers
+	org.apache.wink.common.RuntimeContext
+	org.apache.wink.common.internal.WinkConfiguration
+/wink-common/src/test/java/org/apache/wink/common/model/wadl/WADLGeneratorTest.java
+	org.apache.wink.common.internal.registry.metadata.ClassMetadata
+	org.apache.wink.common.internal.registry.metadata.ClassMetadata
+	org.apache.wink.common.internal.registry.metadata.MethodMetadata
+	org.apache.wink.common.internal.registry.metadata.MethodMetadata
+	org.apache.wink.common.internal.registry.metadata.ClassMetadata
+	org.apache.wink.common.internal.registry.metadata.MethodMetadata
+	org.apache.wink.common.internal.registry.metadata.ClassMetadata
+/wink-common/src/test/java/org/apache/wink/common/model/wadl/BuildParamTest.java
+	org.apache.wink.common.internal.registry.Injectable
+/wink-common/src/test/java/org/apache/wink/common/model/wadl/BuildResponseTest.java
+	org.apache.wink.common.internal.registry.metadata.MethodMetadata
+/wink-common/src/test/java/org/apache/wink/common/model/wadl/BuildRepresentationTest.java
+	org.apache.wink.common.internal.registry.Injectable
+	org.apache.wink.common.internal.registry.metadata.MethodMetadata
+	org.apache.wink.common.internal.registry.metadata.ClassMetadata
+	org.apache.wink.common.internal.registry.Injectable
+	org.apache.wink.common.internal.registry.Injectable
+	org.apache.wink.common.internal.registry.Injectable
+/wink-component-test-support/src/main/java/org/apache/wink/server/internal/servlet/MockServletInvocationTest.java
+	javax.servlet.ServletConfig
+	javax.servlet.http.HttpServletResponse
+/wink-component-test-support/src/main/java/org/apache/wink/test/mock/SpringMockServletInvocationTest.java
+	javax.servlet.ServletConfig
+	javax.servlet.http.HttpServletResponse
+/wink-component-test-support/src/main/java/org/apache/wink/test/mock/MockHttpServletRequestWrapper.java
+/wink-component-test-support/src/main/java/org/apache/wink/test/mock/SpringAwareTestCase.java
+	javax.servlet.ServletContext
+/wink-component-test-support/src/main/java/org/apache/wink/test/mock/MockRequestConstructor.java
+/wink-component-test-support/src/test/java/org/apache/wink/test/mock/MockHttpServletRequestWrapperTestCase.java
+/wink-jackson-provider/src/test/java/org/apache/wink/providers/jackson/internal/JacksonPOJOTest.java
+/wink-jackson-provider/src/test/java/org/apache/wink/providers/jackson/internal/JacksonSerializationConfiguration1Test.java
+/wink-jackson-provider/src/test/java/org/apache/wink/providers/jackson/internal/JacksonSerializationConfiguration2Test.java
+/wink-jackson-provider/src/test/java/org/apache/wink/providers/jackson/internal/JacksonJSON4JBattleTest.java
+/wink-jackson-provider/src/test/java/org/apache/wink/providers/jackson/internal/JacksonJSON4JInteroperabilityTest.java
+/wink-jackson-provider/src/test/java/org/apache/wink/providers/jackson/internal/JAXBCollectionJSONTest.java
+/wink-jackson-provider/src/test/java/org/apache/wink/providers/jackson/internal/JacksonDeserializationConfiguration2Test.java
+/wink-jackson-provider/src/test/java/org/apache/wink/providers/jackson/internal/JacksonDeserializationConfigurationTest.java
+/wink-jackson-provider/src/test/java/org/apache/wink/providers/jackson/internal/JacksonDeserializationConfiguration3Test.java
+/wink-jackson-provider/src/test/java/org/apache/wink/providers/jackson/internal/JacksonJAXBTest.java
+/wink-jackson-provider/src/test/java/org/apache/wink/providers/jackson/internal/PolymorphicTest.java
+/wink-jettison-provider/src/test/java/org/apache/wink/providers/jettison/internal/JettisonJAXBContextResolverTest.java
+/wink-jettison-provider/src/test/java/org/apache/wink/providers/jettison/internal/JettisonJAXBMappedTest.java
+/wink-jettison-provider/src/test/java/org/apache/wink/providers/jettison/internal/JettisonJAXBBadgerFishTest.java
+/wink-json-provider/src/test/java/org/apache/wink/providers/json/internal/JsonProviderTest.java
+/wink-json4j-provider/src/test/java/org/apache/wink/providers/json/internal/Json4JProviderTest.java
+/wink-protobuf-provider/src/test/java/org/apache/wink/providers/protobuf/ProtobufTest.java
+/wink-server/src/test/java/org/apache/wink/server/DispatchErrorTest.java
+/wink-server/src/test/java/org/apache/wink/server/QueryTest.java
+/wink-server/src/test/java/org/apache/wink/server/AbstractResourceBeanTest.java
+/wink-server/src/test/java/org/apache/wink/server/AbstractResourceWithDuplicateWorkspaceTest.java
+/wink-server/src/test/java/org/apache/wink/server/JAXRSContextTest.java
+/wink-server/src/test/java/org/apache/wink/server/AbstractResourceWithEmptyPathTest.java
+/wink-server/src/test/java/org/apache/wink/server/categories/CollectionCategoriesTest.java
+/wink-server/src/test/java/org/apache/wink/server/integration/ServletFilterTest.java
+/wink-server/src/test/java/org/apache/wink/server/internal/SlashEndingUriTest.java
+/wink-server/src/test/java/org/apache/wink/server/internal/BaseUriDetectionTest.java
+/wink-server/src/test/java/org/apache/wink/server/internal/DispatchIPv6Test.java
+/wink-server/src/test/java/org/apache/wink/server/internal/OptionsMethodTest.java
+	org.springframework.mock.web.MockHttpServletRequest
+/wink-server/src/test/java/org/apache/wink/server/internal/CommonAcceptHeaderTest.java
+/wink-server/src/test/java/org/apache/wink/server/internal/WebSphereParametersTest.java
+	javax.servlet.http.HttpServletRequest
+	javax.servlet.http.HttpServletResponse
+	javax.servlet.FilterChain
+	javax.servlet.http.HttpServletRequest
+	javax.servlet.http.HttpServletResponse
+	javax.servlet.FilterChain
+/wink-server/src/test/java/org/apache/wink/server/internal/MethodOverrideTest.java
+	javax.servlet.http.HttpServletRequest
+	javax.servlet.http.HttpServletResponse
+	javax.servlet.http.HttpServletRequest
+	javax.servlet.http.HttpServletResponse
+	javax.servlet.http.HttpServletRequest
+	javax.servlet.http.HttpServletResponse
+	javax.servlet.http.HttpServletRequest
+	javax.servlet.http.HttpServletResponse
+/wink-server/src/test/java/org/apache/wink/server/internal/UnknownMimeTypeTest.java
+/wink-server/src/test/java/org/apache/wink/server/internal/ParameterConversionTest.java
+/wink-server/src/test/java/org/apache/wink/server/internal/ResponseTest.java
+/wink-server/src/test/java/org/apache/wink/server/internal/CustomLocationHeaderConfigurationTest.java
+/wink-server/src/test/java/org/apache/wink/server/internal/RequestsTest.java
+/wink-server/src/test/java/org/apache/wink/server/internal/ErrorResponseTest.java
+/wink-server/src/test/java/org/apache/wink/server/internal/HeadTest.java
+/wink-server/src/test/java/org/apache/wink/server/internal/PreconditionsTest.java
+/wink-server/src/test/java/org/apache/wink/server/internal/StreamResponseTest.java
+/wink-server/src/test/java/org/apache/wink/server/internal/BaseUriConfigurationTest.java
+/wink-server/src/test/java/org/apache/wink/server/internal/DefaultLocationHeaderConfigurationTest.java
+/wink-server/src/test/java/org/apache/wink/server/internal/DifferentCaptureVariablesTest.java
+/wink-server/src/test/java/org/apache/wink/server/internal/EmptyPathAnnotationTest.java
+/wink-server/src/test/java/org/apache/wink/server/internal/NoContentTypePostTest.java
+/wink-server/src/test/java/org/apache/wink/server/internal/EmptyPathParamTest.java
+/wink-server/src/test/java/org/apache/wink/server/internal/activation/ActivationDataContentHandlerTest.java
+/wink-server/src/test/java/org/apache/wink/server/internal/application/ApplicationLifecycleManagamentTest.java
+	org.apache.wink.common.internal.lifecycle.ObjectFactory
+	org.apache.wink.common.internal.lifecycle.LifecycleManager
+/wink-server/src/test/java/org/apache/wink/server/internal/application/ApplicationLifecycleManagement2Test.java
+	org.apache.wink.common.internal.lifecycle.ObjectFactory
+	org.apache.wink.common.internal.lifecycle.LifecycleManager
+/wink-server/src/test/java/org/apache/wink/server/internal/contexts/HttpHeadersImplTest.java
+	javax.servlet.http.HttpServletRequest
+	javax.servlet.http.HttpServletResponse
+	javax.servlet.http.HttpServletRequest
+	javax.servlet.http.HttpServletResponse
+	javax.servlet.http.HttpServletRequest
+	javax.servlet.http.HttpServletResponse
+	javax.servlet.http.HttpServletRequest
+	javax.servlet.http.HttpServletResponse
+/wink-server/src/test/java/org/apache/wink/server/internal/contexts/ServerMediaTypeCharsetAdjusterTest.java
+	org.apache.wink.common.RuntimeContext
+	javax.ws.rs.core.MultivaluedMap
+	javax.ws.rs.core.HttpHeaders
+	javax.ws.rs.core.HttpHeaders
+	javax.ws.rs.core.HttpHeaders
+	javax.ws.rs.core.HttpHeaders
+/wink-server/src/test/java/org/apache/wink/server/internal/factory/InjectFieldsTest.java
+/wink-server/src/test/java/org/apache/wink/server/internal/handlers/MediaTypeMappingTest.java
+/wink-server/src/test/java/org/apache/wink/server/internal/handlers/MediaTypeMapping2Test.java
+/wink-server/src/test/java/org/apache/wink/server/internal/handlers/ServerMessageContextTest.java
+	javax.servlet.http.HttpServletRequest
+	javax.servlet.http.HttpServletResponse
+/wink-server/src/test/java/org/apache/wink/server/internal/handlers/UserHandlersTest.java
+/wink-server/src/test/java/org/apache/wink/server/internal/jaxrs/HttpHeadersImplTest.java
+/wink-server/src/test/java/org/apache/wink/server/internal/jaxrs/ApplicationInjectionTest.java
+/wink-server/src/test/java/org/apache/wink/server/internal/jaxrs/UriInfoImplTest.java
+/wink-server/src/test/java/org/apache/wink/server/internal/lifecycle/ResourceLifecycle1Test.java
+	org.apache.wink.common.internal.lifecycle.LifecycleManager
+	org.apache.wink.common.internal.lifecycle.ObjectFactory
+	org.apache.wink.common.internal.lifecycle.ObjectFactory
+	org.apache.wink.common.internal.lifecycle.ObjectFactory
+/wink-server/src/test/java/org/apache/wink/server/internal/lifecycle/ResourceLifecycle2Test.java
+	org.apache.wink.common.internal.lifecycle.LifecycleManager
+	org.apache.wink.common.internal.lifecycle.ObjectFactory
+	org.apache.wink.common.internal.lifecycle.ObjectFactory
+	org.apache.wink.common.internal.lifecycle.ObjectFactory
+/wink-server/src/test/java/org/apache/wink/server/internal/lifecycle/ProvidersLifecycle1Test.java
+	org.apache.wink.common.internal.lifecycle.LifecycleManager
+	org.apache.wink.common.internal.lifecycle.ObjectFactory
+	org.apache.wink.common.internal.lifecycle.ObjectFactory
+	org.apache.wink.common.internal.lifecycle.ObjectFactory
+/wink-server/src/test/java/org/apache/wink/server/internal/lifecycle/ProvidersLifecycle2Test.java
+	org.apache.wink.common.internal.lifecycle.LifecycleManager
+	org.apache.wink.common.internal.lifecycle.ObjectFactory
+	org.apache.wink.common.internal.lifecycle.ObjectFactory
+	org.apache.wink.common.internal.lifecycle.ObjectFactory
+/wink-server/src/test/java/org/apache/wink/server/internal/lifecycle/ResourceLifecycle7Test.java
+	org.apache.wink.common.internal.lifecycle.LifecycleManager
+	org.apache.wink.common.internal.lifecycle.ObjectFactory
+	org.apache.wink.common.internal.lifecycle.ObjectFactory
+	org.apache.wink.common.internal.lifecycle.ObjectFactory
+	org.apache.wink.common.internal.lifecycle.ObjectFactory
+	javax.ws.rs.ext.ExceptionMapper
+/wink-server/src/test/java/org/apache/wink/server/internal/lifecycle/ResourceLifecycle5Test.java
+	org.apache.wink.common.internal.lifecycle.LifecycleManager
+	org.apache.wink.common.internal.lifecycle.ObjectFactory
+	org.apache.wink.common.internal.lifecycle.ObjectFactory
+	org.apache.wink.common.internal.lifecycle.ObjectFactory
+	org.apache.wink.common.internal.lifecycle.ObjectFactory
+	javax.ws.rs.ext.ExceptionMapper
+/wink-server/src/test/java/org/apache/wink/server/internal/lifecycle/ResourceLifecycle6Test.java
+	org.apache.wink.common.internal.lifecycle.LifecycleManager
+	org.apache.wink.common.internal.lifecycle.ObjectFactory
+	org.apache.wink.common.internal.lifecycle.ObjectFactory
+	org.apache.wink.common.internal.lifecycle.ObjectFactory
+	org.apache.wink.common.internal.lifecycle.ObjectFactory
+	javax.ws.rs.ext.ExceptionMapper
+/wink-server/src/test/java/org/apache/wink/server/internal/lifecycle/ResourceLifecycle4Test.java
+	org.apache.wink.common.internal.lifecycle.LifecycleManager
+	org.apache.wink.common.internal.lifecycle.ObjectFactory
+	org.apache.wink.common.internal.lifecycle.ObjectFactory
+	org.apache.wink.common.internal.lifecycle.ObjectFactory
+/wink-server/src/test/java/org/apache/wink/server/internal/lifecycle/ResourceLifecycle3Test.java
+	org.apache.wink.common.internal.lifecycle.LifecycleManager
+	org.apache.wink.common.internal.lifecycle.ObjectFactory
+	org.apache.wink.common.internal.lifecycle.ObjectFactory
+	org.apache.wink.common.internal.lifecycle.ObjectFactory
+/wink-server/src/test/java/org/apache/wink/server/internal/log/RequestsTest.java
+	java.util.Properties
+	org.apache.wink.server.handlers.MessageContext
+	org.apache.wink.server.handlers.MessageContext
+	org.apache.wink.server.handlers.HandlersChain
+	org.apache.wink.server.handlers.MessageContext
+	org.apache.wink.server.handlers.MessageContext
+	javax.servlet.http.HttpServletRequestWrapper
+	javax.ws.rs.core.UriInfo
+	javax.ws.rs.core.HttpHeaders
+	org.apache.wink.server.handlers.MessageContext
+	org.apache.wink.server.handlers.HandlersChain
+	javax.servlet.http.HttpServletRequestWrapper
+	org.apache.wink.server.internal.log.Requests.RequestWrapper
+	org.apache.wink.server.internal.log.Requests.LoggedServletInputStream
+	javax.ws.rs.core.UriInfo
+	javax.ws.rs.core.HttpHeaders
+	javax.servlet.http.HttpServletRequest
+	javax.servlet.http.HttpServletRequest
+	javax.servlet.ServletInputStream
+/wink-server/src/test/java/org/apache/wink/server/internal/properties/WinkSystemProperties3Test.java
+/wink-server/src/test/java/org/apache/wink/server/internal/properties/WinkSystemProperties2Test.java
+/wink-server/src/test/java/org/apache/wink/server/internal/properties/WinkSystemPropertiesTest.java
+/wink-server/src/test/java/org/apache/wink/server/internal/providers/entity/AtomEntryInResponseProviderTest.java
+/wink-server/src/test/java/org/apache/wink/server/internal/providers/entity/StreamingOutputProviderTest.java
+/wink-server/src/test/java/org/apache/wink/server/internal/providers/entity/SyndFeedLocatorProviderTest.java
+/wink-server/src/test/java/org/apache/wink/server/internal/providers/entity/HeadersOnlyProviderTest.java
+/wink-server/src/test/java/org/apache/wink/server/internal/providers/entity/CategoriesDocumentProviderTest.java
+/wink-server/src/test/java/org/apache/wink/server/internal/providers/entity/InheritedProviderAnnTest.java
+/wink-server/src/test/java/org/apache/wink/server/internal/providers/entity/JAXBProvidersWithXmlElementAnnoTest.java
+/wink-server/src/test/java/org/apache/wink/server/internal/providers/entity/SyndEntryLocatorProviderTest.java
+/wink-server/src/test/java/org/apache/wink/server/internal/providers/entity/JAXBNoEntityLogTest.java
+/wink-server/src/test/java/org/apache/wink/server/internal/providers/entity/UserProvidersOverBuiltinProviderTest.java
+/wink-server/src/test/java/org/apache/wink/server/internal/providers/entity/JAXBElementProviderTest.java
+/wink-server/src/test/java/org/apache/wink/server/internal/providers/entity/JAXBProvidersWithXmlAdapterTest.java
+/wink-server/src/test/java/org/apache/wink/server/internal/providers/entity/AtomFeedProviderTest.java
+/wink-server/src/test/java/org/apache/wink/server/internal/providers/entity/JAXBElementProviderCustomNSTest.java
+/wink-server/src/test/java/org/apache/wink/server/internal/providers/entity/EntityLocatorProviderTest.java
+/wink-server/src/test/java/org/apache/wink/server/internal/providers/entity/MultiTableCsvDescriptorTest.java
+/wink-server/src/test/java/org/apache/wink/server/internal/providers/entity/JAXBUnmarshalOptionsTest.java
+/wink-server/src/test/java/org/apache/wink/server/internal/providers/entity/SourceProviderDTDSupportedTest.java
+	org.apache.wink.common.RuntimeContext
+/wink-server/src/test/java/org/apache/wink/server/internal/providers/entity/FormMultivaluedMapProviderTest.java
+/wink-server/src/test/java/org/apache/wink/server/internal/providers/entity/JAXBCollectionXMLProviderTest.java
+/wink-server/src/test/java/org/apache/wink/server/internal/providers/entity/JAXBUnmarshalNoOptionsTest.java
+/wink-server/src/test/java/org/apache/wink/server/internal/providers/entity/JAXBCustomContextResolverCacheTest.java
+/wink-server/src/test/java/org/apache/wink/server/internal/providers/entity/JAXBProviderInheritanceTest.java
+/wink-server/src/test/java/org/apache/wink/server/internal/providers/entity/SourceProviderTest.java
+	org.apache.wink.common.RuntimeContext
+/wink-server/src/test/java/org/apache/wink/server/internal/providers/entity/AtomEntryProviderTest.java
+/wink-server/src/test/java/org/apache/wink/server/internal/providers/entity/MessageBodyWriterProviderCorrectParametersTest.java
+/wink-server/src/test/java/org/apache/wink/server/internal/providers/entity/ProvidersParametersOnErrorPathTest.java
+/wink-server/src/test/java/org/apache/wink/server/internal/providers/entity/AssetProviderTest.java
+/wink-server/src/test/java/org/apache/wink/server/internal/providers/entity/AppCategoriesDocumentProviderTest.java
+/wink-server/src/test/java/org/apache/wink/server/internal/providers/entity/html/HtmlRepresentationServiceDocumentTest.java
+/wink-server/src/test/java/org/apache/wink/server/internal/providers/entity/html/HtmlRepresentationCollectionCustomizedTest.java
+/wink-server/src/test/java/org/apache/wink/server/internal/providers/entity/html/HtmlMockServletInvocationTest.java
+/wink-server/src/test/java/org/apache/wink/server/internal/providers/entity/html/HtmlRepresentationCollectionDefaultTest.java
+/wink-server/src/test/java/org/apache/wink/server/internal/providers/entity/html/HtmlRepresentationEntryDefaultTest.java
+/wink-server/src/test/java/org/apache/wink/server/internal/providers/entity/html/HtmlRepresentationEntryCustomizedTest.java
+/wink-server/src/test/java/org/apache/wink/server/internal/registry/ResponseDispatchTest.java
+/wink-server/src/test/java/org/apache/wink/server/internal/registry/ValueConvertorTest.java
+/wink-server/src/test/java/org/apache/wink/server/internal/registry/FindResourceMethod3Test.java
+/wink-server/src/test/java/org/apache/wink/server/internal/registry/StrictConsumesProducesInheritanceTrueTest.java
+/wink-server/src/test/java/org/apache/wink/server/internal/registry/FindResourceMethod1Test.java
+/wink-server/src/test/java/org/apache/wink/server/internal/registry/InjectableDataTest.java
+/wink-server/src/test/java/org/apache/wink/server/internal/registry/FindResourceMethodTest.java
+/wink-server/src/test/java/org/apache/wink/server/internal/registry/StrictConsumesProducesInheritanceDefaultTest.java
+/wink-server/src/test/java/org/apache/wink/server/internal/registry/DefaultValueTest.java
+/wink-server/src/test/java/org/apache/wink/server/internal/registry/EncodedTest.java
+/wink-server/src/test/java/org/apache/wink/server/internal/registry/StrictConsumesProducesInheritanceFalseTest.java
+/wink-server/src/test/java/org/apache/wink/server/internal/registry/FindResourceMethod4Test.java
+/wink-server/src/test/java/org/apache/wink/server/internal/registry/ProvidersRegistrySystemTest.java
+/wink-server/src/test/java/org/apache/wink/server/internal/registry/HeaderTest.java
+/wink-server/src/test/java/org/apache/wink/server/internal/registry/InvalidContextMethodTest.java
+/wink-server/src/test/java/org/apache/wink/server/internal/servlet/RestServletTest.java
+	javax.servlet.ServletContext
+	javax.servlet.ServletConfig
+/wink-server/src/test/java/org/apache/wink/server/serviceability/DebugNoMessageBodyWriter406Test.java
+/wink-server/src/test/java/org/apache/wink/server/serviceability/ServiceabilityTest.java
+/wink-server/src/test/java/org/apache/wink/server/serviceability/DebugSimpleResponseTest.java
+/wink-server/src/test/java/org/apache/wink/server/serviceability/DebugSimpleRequestTest.java
+/wink-server/src/test/java/org/apache/wink/server/serviceability/InfoNoMessageBodyWriter406Test.java
+/wink-server/src/test/java/org/apache/wink/server/utils/SubresourceSamePathParamTest.java
+/wink-server/src/test/java/org/apache/wink/server/utils/LinksBuilderTest.java
+/wink-server/src/test/java/org/apache/wink/server/utils/SubResourceSamePathParamSegmentTest.java
+/wink-spring-support/src/test/java/org/apache/wink/spring/RegistrarTest.java
+/wink-thrift-provider/src/test/java/org/apache/wink/providers/thrift/ThriftTest.java
+/wink-webdav/src/test/java/org/apache/wink/webdav/server/WebDAVDocumentResourceTest.java
+/wink-webdav/src/test/java/org/apache/wink/webdav/server/AbstractWebDAVResourcesTest.java
+	org.springframework.mock.web.MockHttpServletRequest
+	org.springframework.mock.web.MockHttpServletRequest
+	org.springframework.mock.web.MockHttpServletRequest

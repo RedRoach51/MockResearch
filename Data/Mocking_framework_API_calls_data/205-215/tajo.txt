@@ -1,0 +1,12 @@
+/tajo-common/src/test/java/org/apache/tajo/datum/TestTextDatum.java
+Methods Invoked: 
+	Method name: setInternalState
+	Class origin: org.powermock.reflect.Whitebox
+	Count: 2
+ 
+/tajo-core-tests/src/test/java/org/apache/tajo/client/TestTajoClient.java
+Methods Invoked: 
+	Method name: getInternalState
+	Class origin: org.powermock.reflect.Whitebox
+	Count: 2
+ 

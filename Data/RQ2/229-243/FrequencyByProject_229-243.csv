@@ -1,13 +1,8 @@
 Framework, count
-Mocking Framework,1
 mockito,4
 jmock,1
 springframework,1
 scomp,1
-mockwebserver,1
-mockrunner,1
-powermock,1
-fabric8,1
 mockit,1
 
-project with multiple frameworks: ,3
+project with multiple frameworks: ,2

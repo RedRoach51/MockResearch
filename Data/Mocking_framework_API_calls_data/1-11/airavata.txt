@@ -1,0 +1,16 @@
+/services-security/src/test/java/org/apache/airavata/service/security/KeyCloakSecurityManagerTest.java
+Methods Invoked: 
+	Method name: withSuffix
+	Class origin: mockit.Invocations
+	Count: 1
+ 
+/services-security/src/test/java/org/apache/airavata/service/security/GatewayGroupsInitializerTest.java
+Methods Invoked: 
+	Method name: withCapture
+	Class origin: mockit.Verifications
+	Count: 1
+ 
+	Method name: withCapture
+	Class origin: mockit.Invocations
+	Count: 1
+ 

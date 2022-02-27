@@ -1,11 +1,27 @@
 method, origin, count
-setImposteriser,org.jmock.Mockery,1
-mock,org.jmock.Mockery,1
-checking,org.jmock.Mockery,1
+thenReturn,org.mockito.stubbing.OngoingStubbing<java.lang.String>,14
+when,org.mockito.Mockito,56
+mock,org.mockito.Mockito,64
+setImposteriser,org.jmock.Mockery,5
+checking,org.jmock.Mockery,2
 of,org.jmock.syntax.ReceiverClause,1
 exactly,org.jmock.Expectations,1
 assertIsSatisfied,org.jmock.Mockery,1
+spy,org.mockito.Mockito,1
+doNothing,org.mockito.Mockito,1
+anyString,org.mockito.ArgumentMatchers,1
+anyBoolean,org.mockito.ArgumentMatchers,1
+getArgument,org.mockito.invocation.InvocationOnMock,2
+mockStatic,org.mockito.Mockito,1
+isA,org.easymock.EasyMock,23
+replay,org.easymock.IMocksControl,4
+verify,org.easymock.IMocksControl,8
+any,org.mockito.ArgumentMatchers,5
+verifyNoMoreInteractions,org.mockito.Mockito,4
+allowing,org.jmock.Expectations,22
+will,org.jmock.Expectations,3
+returnValue,org.jmock.Expectations,1
 
-MockedObjects: ,1
+MockedObjects: ,64
 
-# of Mocked objects each file:,1|
+# of Mocked objects each file:,2|1|9|5|4|24|1|8|3|6|1|

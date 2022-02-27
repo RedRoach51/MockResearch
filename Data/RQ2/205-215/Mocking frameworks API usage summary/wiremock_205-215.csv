@@ -1,0 +1,8 @@
+method, origin, count
+stubFor,com.github.tomakehurst.wiremock.client.WireMock,21
+willReturn,com.github.tomakehurst.wiremock.client.MappingBuilder,21
+get,com.github.tomakehurst.wiremock.client.WireMock,20
+urlEqualTo,com.github.tomakehurst.wiremock.client.WireMock,23
+aResponse,com.github.tomakehurst.wiremock.client.WireMock,21
+withHeader,com.github.tomakehurst.wiremock.matching.RequestPatternBuilder,1
+getRequestedFor,com.github.tomakehurst.wiremock.client.WireMock,1

@@ -1,0 +1,4 @@
+method, origin, count
+remove,java.lang.ThreadLocal<org.easymock.IMocksControl>,1
+get,java.lang.ThreadLocal<org.easymock.IMocksControl>,1
+add,java.util.List<TestCSVPipesIterator.MockFetcher>,1

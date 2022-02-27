@@ -1,0 +1,368 @@
+/common/src/test/java/org/apache/shindig/common/EasyMockTestCase.java
+	T
+	T
+	T
+	T
+/common/src/test/java/org/apache/shindig/common/cache/ehcache/EhCacheCacheProviderTest.java
+/common/src/test/java/org/apache/shindig/common/servlet/HttpServletUserAgentProviderTest.java
+/common/src/test/java/org/apache/shindig/common/servlet/HttpUtilTest.java
+	javax.servlet.http.HttpServletResponse
+/common/src/test/java/org/apache/shindig/common/uri/UriBuilderTest.java
+	javax.servlet.http.HttpServletRequest
+	javax.servlet.http.HttpServletRequest
+	javax.servlet.http.HttpServletRequest
+	javax.servlet.http.HttpServletRequest
+/common/src/test/java/org/apache/shindig/config/BasicContainerConfigTest.java
+	org.apache.shindig.config.ContainerConfig.ConfigObserver
+	org.apache.shindig.config.ContainerConfig.ConfigObserver
+	org.apache.shindig.config.ContainerConfig.ConfigObserver
+	org.apache.shindig.config.ContainerConfig.ConfigObserver
+	org.apache.shindig.config.ContainerConfig.ConfigObserver
+	org.apache.shindig.config.ContainerConfig.ConfigObserver
+/common/src/test/java/org/apache/shindig/protocol/JsonRpcServletTest.java
+	javax.servlet.http.HttpServletRequest
+	javax.servlet.http.HttpServletResponse
+	org.apache.shindig.config.ContainerConfig
+	org.apache.shindig.protocol.multipart.MultipartFormParser
+	org.apache.shindig.protocol.multipart.FormDataItem
+/common/src/test/java/org/apache/shindig/protocol/DataServiceServletTest.java
+	javax.servlet.http.HttpServletRequest
+	javax.servlet.http.HttpServletResponse
+	org.apache.shindig.protocol.conversion.BeanJsonConverter
+	org.apache.shindig.protocol.conversion.BeanConverter
+	org.apache.shindig.protocol.conversion.BeanConverter
+	org.apache.shindig.config.ContainerConfig
+	java.io.PrintWriter
+/gadgets/src/test/java/org/apache/shindig/gadgets/DefaultGadgetSpecFactoryTest.java
+	org.apache.shindig.gadgets.http.RequestPipeline
+/gadgets/src/test/java/org/apache/shindig/gadgets/GadgetTest.java
+/gadgets/src/test/java/org/apache/shindig/gadgets/DefaultMessageBundleFactoryTest.java
+	org.apache.shindig.gadgets.http.RequestPipeline
+/gadgets/src/test/java/org/apache/shindig/gadgets/HashLockedDomainServiceTest.java
+/gadgets/src/test/java/org/apache/shindig/gadgets/admin/BasicGadgetAdminStoreTest.java
+/gadgets/src/test/java/org/apache/shindig/gadgets/config/DefaultConfigProcessorTest.java
+	org.apache.shindig.gadgets.config.ConfigContributor
+	org.apache.shindig.gadgets.config.ConfigContributor
+	org.apache.shindig.gadgets.config.ConfigContributor
+	org.apache.shindig.gadgets.config.ConfigContributor
+/gadgets/src/test/java/org/apache/shindig/gadgets/encoding/EncodingDetectorTest.java
+	org.apache.shindig.gadgets.encoding.EncodingDetector.FallbackEncodingDetector
+/gadgets/src/test/java/org/apache/shindig/gadgets/features/FeatureResourceLoaderTest.java
+	org.apache.shindig.gadgets.http.HttpFetcher
+/gadgets/src/test/java/org/apache/shindig/gadgets/http/MultipleResourceHttpFetcherTest.java
+/gadgets/src/test/java/org/apache/shindig/gadgets/http/BasicHttpFetcherTest.java
+	java.io.InputStream
+	org.apache.http.HttpEntity
+/gadgets/src/test/java/org/apache/shindig/gadgets/http/AbstractHttpCacheTest.java
+	org.apache.shindig.gadgets.http.HttpRequest
+	org.apache.shindig.gadgets.spec.RequestAuthenticationInfo
+/gadgets/src/test/java/org/apache/shindig/gadgets/http/InvalidationHandlerTest.java
+/gadgets/src/test/java/org/apache/shindig/gadgets/js/DeferJsProcessorTest.java
+	org.apache.shindig.gadgets.features.FeatureRegistry
+	org.apache.shindig.gadgets.uri.JsUriManager.JsUri
+	org.apache.shindig.gadgets.features.FeatureRegistry.LookupResult
+	org.apache.shindig.gadgets.features.FeatureResource
+	org.apache.shindig.gadgets.features.FeatureRegistry.FeatureBundle
+	org.apache.shindig.gadgets.features.FeatureRegistry.FeatureBundle
+	org.apache.shindig.gadgets.features.ApiDirective
+/gadgets/src/test/java/org/apache/shindig/gadgets/js/GetJsContentProcessorTest.java
+	org.apache.shindig.gadgets.features.FeatureRegistry
+	org.apache.shindig.gadgets.rewrite.js.JsCompiler
+	org.apache.shindig.gadgets.uri.JsUriManager.JsUri
+	org.apache.shindig.gadgets.js.JsRequest
+	org.apache.shindig.gadgets.features.FeatureRegistry.LookupResult
+	org.apache.shindig.gadgets.features.FeatureResource
+	org.apache.shindig.gadgets.features.FeatureRegistry.FeatureBundle
+/gadgets/src/test/java/org/apache/shindig/gadgets/js/CompilationProcessorTest.java
+	org.apache.shindig.gadgets.rewrite.js.JsCompiler
+	org.apache.shindig.gadgets.uri.JsUriManager.JsUri
+	org.apache.shindig.gadgets.js.JsRequest
+	org.apache.shindig.gadgets.uri.JsUriManager.JsUri
+	org.apache.shindig.gadgets.js.JsRequest
+	org.apache.shindig.gadgets.features.FeatureRegistry.FeatureBundle
+/gadgets/src/test/java/org/apache/shindig/gadgets/js/ConfigInjectionProcessorTest.java
+	org.apache.shindig.gadgets.uri.JsUriManager.JsUri
+	org.apache.shindig.gadgets.js.JsRequest
+	org.apache.shindig.gadgets.features.FeatureRegistry
+	org.apache.shindig.gadgets.config.ConfigContributor
+	org.apache.shindig.gadgets.config.ConfigContributor
+/gadgets/src/test/java/org/apache/shindig/gadgets/js/ExportJsProcessorTest.java
+	org.apache.shindig.gadgets.features.FeatureRegistry
+	org.apache.shindig.gadgets.uri.JsUriManager.JsUri
+	org.apache.shindig.gadgets.features.FeatureRegistry.LookupResult
+	org.apache.shindig.gadgets.features.FeatureResource
+	org.apache.shindig.gadgets.features.FeatureRegistry.FeatureBundle
+	org.apache.shindig.gadgets.features.FeatureRegistry.FeatureBundle
+	org.apache.shindig.gadgets.features.ApiDirective
+/gadgets/src/test/java/org/apache/shindig/gadgets/js/AnonFuncWrappingProcessorTest.java
+	org.apache.shindig.gadgets.js.JsRequest
+	org.apache.shindig.gadgets.uri.JsUriManager.JsUri
+/gadgets/src/test/java/org/apache/shindig/gadgets/js/AddOnloadFunctionProcessorTest.java
+	org.apache.shindig.gadgets.uri.JsUriManager.JsUri
+	org.apache.shindig.gadgets.js.JsRequest
+	org.apache.shindig.gadgets.js.JsResponseBuilder
+/gadgets/src/test/java/org/apache/shindig/gadgets/js/DefaultJsServingPipelineTest.java
+	org.apache.shindig.gadgets.js.JsRequest
+	org.apache.shindig.gadgets.js.JsProcessorRegistry
+/gadgets/src/test/java/org/apache/shindig/gadgets/js/JsRequestBuilderTest.java
+	org.apache.shindig.gadgets.uri.JsUriManager
+	org.apache.shindig.gadgets.uri.JsUriManager.JsUri
+	javax.servlet.http.HttpServletRequest
+	org.apache.shindig.gadgets.features.FeatureRegistry
+/gadgets/src/test/java/org/apache/shindig/gadgets/js/SeparatorCommentingProcessorTest.java
+	org.apache.shindig.gadgets.features.FeatureRegistry.FeatureBundle
+/gadgets/src/test/java/org/apache/shindig/gadgets/js/AddJslLoadedVariableProcessorTest.java
+	org.apache.shindig.gadgets.features.FeatureRegistryProvider
+	org.apache.shindig.gadgets.features.FeatureRegistry
+	org.apache.shindig.gadgets.js.JsRequest
+/gadgets/src/test/java/org/apache/shindig/gadgets/js/AddJslInfoVariableProcessorTest.java
+	org.apache.shindig.gadgets.features.FeatureRegistryProvider
+	org.apache.shindig.gadgets.features.FeatureRegistry
+	org.apache.shindig.gadgets.js.JsRequest
+/gadgets/src/test/java/org/apache/shindig/gadgets/js/DefaultJsProcessorRegistryTest.java
+	org.apache.shindig.gadgets.js.JsRequest
+	org.apache.shindig.gadgets.js.JsProcessor
+	org.apache.shindig.gadgets.js.JsProcessor
+	org.apache.shindig.gadgets.js.JsProcessor
+	org.apache.shindig.gadgets.js.JsProcessor
+/gadgets/src/test/java/org/apache/shindig/gadgets/js/JsLoadProcessorTest.java
+	org.apache.shindig.gadgets.js.JsRequest
+	org.apache.shindig.gadgets.uri.JsUriManager
+	org.apache.shindig.gadgets.uri.JsUriManager.JsUri
+	org.apache.shindig.gadgets.js.JsResponseBuilder
+/gadgets/src/test/java/org/apache/shindig/gadgets/js/CajaJsSubtractingProcessorTest.java
+	org.apache.shindig.gadgets.features.FeatureResource
+	org.apache.shindig.gadgets.uri.JsUriManager.JsUri
+	org.apache.shindig.gadgets.js.JsRequest
+/gadgets/src/test/java/org/apache/shindig/gadgets/js/IfModifiedSinceProcessorTest.java
+	org.apache.shindig.gadgets.uri.JsUriManager.JsUri
+	org.apache.shindig.gadgets.js.JsRequest
+/gadgets/src/test/java/org/apache/shindig/gadgets/oauth/OAuthResponseParamsTest.java
+/gadgets/src/test/java/org/apache/shindig/gadgets/oauth/GadgetOAuthCallbackGeneratorTest.java
+	org.apache.shindig.gadgets.process.Processor
+	org.apache.shindig.gadgets.LockedDomainService
+	org.apache.shindig.gadgets.uri.OAuthUriManager
+	org.apache.shindig.gadgets.Gadget
+/gadgets/src/test/java/org/apache/shindig/gadgets/oauth2/OAuth2ArgumentsTest.java
+	javax.servlet.http.HttpServletRequest
+	javax.servlet.http.HttpServletRequest
+	org.apache.shindig.gadgets.spec.RequestAuthenticationInfo
+	javax.servlet.http.HttpServletRequest
+/gadgets/src/test/java/org/apache/shindig/gadgets/oauth2/OAuth2FetcherConfigTest.java
+	org.apache.shindig.gadgets.oauth2.OAuth2Store
+	org.apache.shindig.gadgets.GadgetSpecFactory
+	org.apache.shindig.gadgets.oauth2.OAuth2Store
+	org.apache.shindig.gadgets.GadgetSpecFactory
+	org.apache.shindig.gadgets.oauth2.OAuth2Store
+	org.apache.shindig.gadgets.GadgetSpecFactory
+	org.apache.shindig.gadgets.oauth2.OAuth2Store
+	org.apache.shindig.gadgets.GadgetSpecFactory
+	org.apache.shindig.gadgets.oauth2.OAuth2Store
+	org.apache.shindig.gadgets.GadgetSpecFactory
+/gadgets/src/test/java/org/apache/shindig/gadgets/oauth2/BasicOAuth2StoreTest.java
+/gadgets/src/test/java/org/apache/shindig/gadgets/oauth2/handler/OAuth2HandlerModuleTest.java
+	com.google.inject.Provider
+	java.util.List
+	java.util.List
+	org.apache.shindig.gadgets.http.HttpFetcher
+	com.google.inject.Provider
+	org.apache.shindig.gadgets.oauth2.OAuth2Store
+	java.util.List
+	com.google.inject.Provider
+	org.apache.shindig.gadgets.oauth2.OAuth2Store
+/gadgets/src/test/java/org/apache/shindig/gadgets/oauth2/handler/CodeAuthorizationResponseHandlerTest.java
+	com.google.inject.Provider
+	java.util.List
+	java.util.List
+	org.apache.shindig.gadgets.http.HttpFetcher
+/gadgets/src/test/java/org/apache/shindig/gadgets/preload/PipelinedDataPreloaderTest.java
+/gadgets/src/test/java/org/apache/shindig/gadgets/preload/PipelineExecutorTest.java
+	org.apache.shindig.gadgets.preload.PipelinedDataPreloader
+	org.apache.shindig.gadgets.preload.PreloadedData
+/gadgets/src/test/java/org/apache/shindig/gadgets/process/ProcessorTest.java
+/gadgets/src/test/java/org/apache/shindig/gadgets/render/DefaultServiceFetcherTest.java
+/gadgets/src/test/java/org/apache/shindig/gadgets/render/SanitizingProxyUriManagerTest.java
+	org.apache.shindig.gadgets.uri.ProxyUriManager
+	org.apache.shindig.gadgets.uri.ProxyUriManager.ProxyUri
+	org.apache.shindig.gadgets.uri.ProxyUriManager.ProxyUri
+/gadgets/src/test/java/org/apache/shindig/gadgets/render/SanitizingResponseRewriterTest.java
+/gadgets/src/test/java/org/apache/shindig/gadgets/render/CajaResponseRewriterTest.java
+/gadgets/src/test/java/org/apache/shindig/gadgets/render/RenderingGadgetRewriterTest.java
+	org.apache.shindig.gadgets.features.FeatureRegistry
+	org.apache.shindig.gadgets.js.JsServingPipeline
+	org.apache.shindig.gadgets.features.FeatureRegistry.LookupResult
+	org.apache.shindig.gadgets.features.FeatureRegistry.LookupResult
+	org.apache.shindig.gadgets.features.FeatureRegistry.LookupResult
+	org.apache.shindig.gadgets.features.FeatureRegistry.LookupResult
+	org.apache.shindig.gadgets.features.FeatureRegistry.LookupResult
+	org.apache.shindig.gadgets.features.FeatureRegistry.LookupResult
+	org.apache.shindig.gadgets.features.FeatureRegistry.LookupResult
+/gadgets/src/test/java/org/apache/shindig/gadgets/rewrite/ImageAttributeRewriterTest.java
+	org.apache.shindig.gadgets.http.RequestPipeline
+/gadgets/src/test/java/org/apache/shindig/gadgets/rewrite/RewriterTestBase.java
+	org.apache.shindig.gadgets.Gadget
+	org.apache.shindig.gadgets.GadgetContext
+	org.apache.shindig.gadgets.spec.GadgetSpec
+	org.apache.shindig.gadgets.spec.ModulePrefs
+/gadgets/src/test/java/org/apache/shindig/gadgets/rewrite/DefaultContentRewriterRegistryTest.java
+	org.apache.shindig.gadgets.http.HttpRequest
+/gadgets/src/test/java/org/apache/shindig/gadgets/rewrite/BaseRewriterTestCase.java
+/gadgets/src/test/java/org/apache/shindig/gadgets/rewrite/DomWalkerTest.java
+	org.apache.shindig.gadgets.rewrite.DomWalker.Visitor
+	org.apache.shindig.gadgets.rewrite.DomWalker.Visitor
+	org.apache.shindig.gadgets.rewrite.DomWalker.Visitor
+	org.apache.shindig.gadgets.rewrite.DomWalker.Visitor
+	org.apache.shindig.gadgets.rewrite.DomWalker.Visitor
+	org.apache.shindig.gadgets.rewrite.DomWalker.Visitor
+	org.apache.shindig.gadgets.rewrite.DomWalker.Visitor
+	org.apache.shindig.gadgets.rewrite.DomWalker.Visitor
+	org.apache.shindig.gadgets.rewrite.DomWalker.Visitor
+	org.apache.shindig.gadgets.rewrite.MutableContent
+	org.apache.shindig.gadgets.rewrite.MutableContent
+/gadgets/src/test/java/org/apache/shindig/gadgets/rewrite/PipelineDataGadgetRewriterTest.java
+	org.apache.shindig.gadgets.preload.PipelinedDataPreloader
+/gadgets/src/test/java/org/apache/shindig/gadgets/rewrite/StyleTagProxyEmbeddedUrlsVisitorTest.java
+/gadgets/src/test/java/org/apache/shindig/gadgets/rewrite/OsTemplateXmlLoaderRewriterTest.java
+	org.apache.shindig.gadgets.Gadget
+	org.apache.shindig.gadgets.rewrite.OsTemplateXmlLoaderRewriter.Converter
+	org.apache.shindig.gadgets.rewrite.MutableContent
+/gadgets/src/test/java/org/apache/shindig/gadgets/rewrite/CacheEnforcementVisitorTest.java
+	org.apache.shindig.gadgets.Gadget
+	org.apache.shindig.gadgets.spec.GadgetSpec
+	org.apache.shindig.gadgets.GadgetContext
+	org.apache.shindig.gadgets.http.RequestPipeline
+	org.apache.shindig.gadgets.rewrite.ContentRewriterFeature.Config
+/gadgets/src/test/java/org/apache/shindig/gadgets/rewrite/ProxyingVisitorTest.java
+	org.apache.shindig.gadgets.rewrite.ContentRewriterFeature.Config
+	org.apache.shindig.gadgets.rewrite.ContentRewriterFeature.Config
+	org.apache.shindig.gadgets.uri.ProxyUriManager
+	org.apache.shindig.gadgets.rewrite.ContentRewriterFeature.Config
+/gadgets/src/test/java/org/apache/shindig/gadgets/rewrite/BaseTagRemoverRewriterTest.java
+/gadgets/src/test/java/org/apache/shindig/gadgets/rewrite/CssResponseRewriterTest.java
+	org.apache.shindig.gadgets.http.HttpRequest
+/gadgets/src/test/java/org/apache/shindig/gadgets/rewrite/DomWalkerTestBase.java
+	org.apache.shindig.gadgets.spec.GadgetSpec
+	org.apache.shindig.gadgets.Gadget
+	org.apache.shindig.gadgets.GadgetContext
+	org.apache.shindig.gadgets.spec.View
+/gadgets/src/test/java/org/apache/shindig/gadgets/rewrite/ContextAwareRegistryTest.java
+/gadgets/src/test/java/org/apache/shindig/gadgets/rewrite/StyleTagExtractorVisitorTest.java
+	org.apache.shindig.gadgets.rewrite.CssResponseRewriter
+	org.apache.shindig.gadgets.rewrite.CssResponseRewriter
+	org.apache.shindig.gadgets.rewrite.CssResponseRewriter
+	org.apache.shindig.gadgets.rewrite.CssResponseRewriter
+	org.apache.shindig.gadgets.rewrite.ContentRewriterFeature.Config
+/gadgets/src/test/java/org/apache/shindig/gadgets/rewrite/ImageResizeRewriterTest.java
+	org.apache.shindig.gadgets.rewrite.ContentRewriterFeature.Factory
+	org.apache.shindig.gadgets.rewrite.ContentRewriterFeature.Config
+/gadgets/src/test/java/org/apache/shindig/gadgets/rewrite/image/ImageRewriterTest.java
+	org.apache.shindig.gadgets.http.HttpRequest
+/gadgets/src/test/java/org/apache/shindig/gadgets/rewrite/js/DefaultJsCompilerTest.java
+	org.apache.shindig.gadgets.uri.JsUriManager.JsUri
+	org.apache.shindig.gadgets.features.FeatureRegistry.FeatureBundle
+	org.apache.shindig.gadgets.features.FeatureResource
+/gadgets/src/test/java/org/apache/shindig/gadgets/rewrite/js/ClosureJsCompilerTest.java
+	java.util.concurrent.ExecutorService
+	java.util.concurrent.Future
+	org.apache.shindig.gadgets.js.JsResponse
+	org.apache.shindig.gadgets.rewrite.js.DefaultJsCompiler
+	com.google.javascript.jscomp.Result
+	com.google.javascript.jscomp.Compiler
+	com.google.javascript.jscomp.CompilerOptions
+	org.apache.shindig.gadgets.uri.JsUriManager.JsUri
+	org.apache.shindig.gadgets.features.FeatureRegistry.FeatureBundle
+/gadgets/src/test/java/org/apache/shindig/gadgets/servlet/OAuthCallbackServletTest.java
+/gadgets/src/test/java/org/apache/shindig/gadgets/servlet/ProxyServletTest.java
+/gadgets/src/test/java/org/apache/shindig/gadgets/servlet/ConcatProxyServletTest.java
+/gadgets/src/test/java/org/apache/shindig/gadgets/servlet/GadgetsHandlerTest.java
+	org.apache.shindig.gadgets.features.FeatureRegistry.FeatureBundle
+	org.apache.shindig.gadgets.features.FeatureRegistry.LookupResult
+/gadgets/src/test/java/org/apache/shindig/gadgets/servlet/HtmlAccelServletTest.java
+/gadgets/src/test/java/org/apache/shindig/gadgets/servlet/JsServletTest.java
+/gadgets/src/test/java/org/apache/shindig/gadgets/servlet/GadgetRenderingServletTest.java
+	javax.servlet.http.HttpServletResponse
+	org.apache.shindig.gadgets.render.Renderer
+	org.apache.shindig.gadgets.uri.IframeUriManager
+	javax.servlet.http.HttpServletRequest
+/gadgets/src/test/java/org/apache/shindig/gadgets/servlet/ETagFilterTest.java
+	javax.servlet.http.HttpServletRequest
+	javax.servlet.http.HttpServletResponse
+/gadgets/src/test/java/org/apache/shindig/gadgets/servlet/ETaggingHttpResponseTest.java
+	javax.servlet.http.HttpServletRequest
+	javax.servlet.http.HttpServletResponse
+/gadgets/src/test/java/org/apache/shindig/gadgets/servlet/GadgetsHandlerServiceTest.java
+	org.apache.shindig.gadgets.features.FeatureRegistry.FeatureBundle
+	org.apache.shindig.gadgets.features.FeatureRegistry.LookupResult
+/gadgets/src/test/java/org/apache/shindig/gadgets/servlet/HttpRequestHandlerTest.java
+/gadgets/src/test/java/org/apache/shindig/gadgets/servlet/ProxyHandlerTest.java
+/gadgets/src/test/java/org/apache/shindig/gadgets/servlet/RpcServletTest.java
+	org.apache.shindig.gadgets.servlet.JsonRpcHandler
+	javax.servlet.http.HttpServletRequest
+	javax.servlet.http.HttpServletResponse
+	java.io.PrintWriter
+/gadgets/src/test/java/org/apache/shindig/gadgets/servlet/MakeRequestHandlerTest.java
+/gadgets/src/test/java/org/apache/shindig/gadgets/servlet/MakeRequestServletTest.java
+/gadgets/src/test/java/org/apache/shindig/gadgets/servlet/ServletUtilTest.java
+	javax.servlet.http.HttpServletRequest
+	javax.servlet.http.HttpServletResponse
+	javax.servlet.http.HttpServletResponse
+	javax.servlet.http.HttpServletResponse
+	javax.servlet.http.HttpServletResponse
+/gadgets/src/test/java/org/apache/shindig/gadgets/servlet/CajaContentRewriterTest.java
+	org.apache.shindig.gadgets.http.RequestPipeline
+	org.apache.shindig.gadgets.uri.ProxyUriManager
+	org.apache.shindig.gadgets.Gadget
+	org.apache.shindig.gadgets.GadgetContext
+/gadgets/src/test/java/org/apache/shindig/gadgets/servlet/HttpGadgetContextTest.java
+/gadgets/src/test/java/org/apache/shindig/gadgets/templates/tags/IfTagHandlerTest.java
+	org.apache.shindig.gadgets.templates.FakeTemplateProcessor
+/gadgets/src/test/java/org/apache/shindig/gadgets/templates/tags/AbstractTagHandlerTest.java
+	org.apache.shindig.gadgets.templates.TemplateProcessor
+/gadgets/src/test/java/org/apache/shindig/gadgets/templates/tags/RepeatTagHandlerTest.java
+	org.apache.shindig.gadgets.templates.FakeTemplateProcessor
+/gadgets/src/test/java/org/apache/shindig/gadgets/templates/tags/FlashTagHandlerTest.java
+	org.apache.shindig.gadgets.features.FeatureRegistry.LookupResult
+/gadgets/src/test/java/org/apache/shindig/gadgets/uri/DefaultProxyUriManagerTest.java
+	org.apache.shindig.gadgets.uri.ProxyUriManager.Versioner
+/gadgets/src/test/java/org/apache/shindig/gadgets/uri/DefaultConcatUriManagerTest.java
+	org.apache.shindig.gadgets.uri.ConcatUriManager.Versioner
+/gadgets/src/test/java/org/apache/shindig/gadgets/uri/DefaultJsVersionerTest.java
+	org.apache.shindig.gadgets.features.FeatureRegistry
+	org.apache.shindig.gadgets.features.FeatureRegistry.LookupResult
+/gadgets/src/test/java/org/apache/shindig/gadgets/uri/UriManagerTestBase.java
+	org.apache.shindig.gadgets.spec.View
+	org.apache.shindig.gadgets.spec.View
+	org.apache.shindig.gadgets.spec.ModulePrefs
+	org.apache.shindig.gadgets.spec.GadgetSpec
+	org.apache.shindig.gadgets.GadgetContext
+	org.apache.shindig.gadgets.Gadget
+	org.apache.shindig.gadgets.spec.UserPref
+/gadgets/src/test/java/org/apache/shindig/gadgets/uri/AllJsIframeVersionerTest.java
+	org.apache.shindig.gadgets.features.FeatureRegistry
+	org.apache.shindig.gadgets.features.FeatureRegistry.LookupResult
+/gadgets/src/test/java/org/apache/shindig/gadgets/uri/DefaultIframeUriManagerTest.java
+	org.apache.shindig.gadgets.uri.IframeUriManager.Versioner
+/gadgets/src/test/java/org/apache/shindig/gadgets/uri/DefaultJsUriManagerTest.java
+	org.apache.shindig.gadgets.uri.JsUriManager.Versioner
+	org.apache.shindig.gadgets.uri.JsUriManager.JsUri
+/gadgets/src/test/java/org/apache/shindig/gadgets/uri/DefaultOAuthUriManagerTest.java
+/social-api/src/test/java/org/apache/shindig/social/core/config/SocialApiGuiceModuleTest.java
+	org.apache.shindig.social.opensocial.oauth.OAuthDataStore
+	org.apache.shindig.social.core.oauth2.OAuth2ServiceImpl
+/social-api/src/test/java/org/apache/shindig/social/core/oauth/OAuth2ImplicitFlowTest.java
+/social-api/src/test/java/org/apache/shindig/social/core/oauth/OAuth2ClientCredentialFlowTest.java
+/social-api/src/test/java/org/apache/shindig/social/core/oauth/OAuthAuthenticationHanderTest.java
+/social-api/src/test/java/org/apache/shindig/social/core/oauth/OAuth2AuthCodeFlowTest.java
+/social-api/src/test/java/org/apache/shindig/social/core/oauth2/OAuth2ServiceImplTest.java
+	org.apache.shindig.social.core.oauth2.OAuth2DataService
+/social-api/src/test/java/org/apache/shindig/social/dataservice/integration/AbstractLargeRestfulTests.java
+	org.apache.shindig.config.ContainerConfig
+	javax.servlet.http.HttpServletResponse
+/social-api/src/test/java/org/apache/shindig/social/opensocial/service/ActivityHandlerTest.java
+/social-api/src/test/java/org/apache/shindig/social/opensocial/service/ActivityStreamHandlerTest.java
+/social-api/src/test/java/org/apache/shindig/social/opensocial/service/PersonHandlerTest.java
+/social-api/src/test/java/org/apache/shindig/social/opensocial/service/AppDataHandlerTest.java
+/social-api/src/test/java/org/apache/shindig/social/opensocial/service/MessageHandlerTest.java
+	org.apache.shindig.social.opensocial.spi.MessageService
+	org.apache.shindig.social.opensocial.spi.MessageService
+	org.apache.shindig.protocol.conversion.BeanJsonConverter

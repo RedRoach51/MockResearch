@@ -1,1 +1,0 @@
-org.apache.activemq.store.kahadb.disk.journal.Journal

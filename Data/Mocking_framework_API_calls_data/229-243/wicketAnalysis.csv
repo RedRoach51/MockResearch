@@ -1,0 +1,8 @@
+method, origin, count
+when,org.mockito.Mockito,6
+verify,org.mockito.Mockito,2
+times,org.mockito.Mockito,1
+
+MockedObjects: ,0
+
+# of Mocked objects each file:,

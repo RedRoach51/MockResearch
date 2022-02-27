@@ -1,0 +1,8 @@
+Inside classes: 
+ 
+ 
+ 
+ 
+Outside classes: 
+ 
+jdk.javadoc.doclet.DocletEnvironment

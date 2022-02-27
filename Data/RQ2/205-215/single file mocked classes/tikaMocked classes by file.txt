@@ -1,0 +1,19 @@
+/tika-age-recogniser/src/test/java/org/apache/tika/parser/recognition/AgeRecogniserTest.java
+	edu.usc.irds.agepredictor.authorage.AgePredicterLocal
+/tika-parser-image-module/src/test/java/org/apache/tika/parser/image/ImageMetadataExtractorTest.java
+	org.apache.tika.metadata.Metadata
+	org.apache.tika.parser.image.ImageMetadataExtractor.DirectoryHandler
+	java.util.Iterator
+	com.drew.metadata.exif.ExifSubIFDDirectory
+	com.drew.metadata.exif.ExifIFD0Directory
+	com.drew.metadata.exif.ExifIFD0Directory
+	com.drew.metadata.Directory
+	com.drew.metadata.Tag
+	com.drew.metadata.Tag
+	com.drew.metadata.Tag
+/tika-parser-mail-module/src/test/java/org/apache/tika/parser/mail/RFC822ParserTest.java
+	org.xml.sax.helpers.DefaultHandler
+	org.apache.tika.sax.XHTMLContentHandler
+	org.xml.sax.helpers.DefaultHandler
+	org.xml.sax.helpers.DefaultHandler
+/tika-pipes-iterator-csv/src/test/java/TestCSVPipesIterator.java

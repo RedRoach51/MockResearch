@@ -1,0 +1,7 @@
+method, origin, count
+withSuffix,mockit.Invocations,1
+withCapture,mockit.Verifications,2
+
+MockedObjects: ,0
+
+# of Mocked objects each file:,

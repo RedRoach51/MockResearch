@@ -1,7 +1,11 @@
+/core/src/test/java/org/apache/abdera/util/MimeTypeHelperTest.java
+Methods Invoked: 
 	Method name: createMock
 	Class origin: org.easymock.EasyMock
 	Count: 3
  
+/opensearch/src/test/java/org/apache/abdera/test/ext/opensearch/server/impl/SimpleOpenSearchInfoTest.java
+Methods Invoked: 
 	Method name: createMock
 	Class origin: org.easymock.EasyMock
 	Count: 1
@@ -10,14 +14,20 @@
 	Class origin: org.easymock.EasyMock
 	Count: 2
  
+/server/src/test/java/org/apache/abdera/protocol/server/processors/EntryRequestProcessorTest.java
+Methods Invoked: 
 	Method name: createStrictMock
 	Class origin: org.easymock.EasyMock
 	Count: 3
  
+/server/src/test/java/org/apache/abdera/protocol/server/processors/MediaRequestProcessorTest.java
+Methods Invoked: 
 	Method name: createStrictMock
 	Class origin: org.easymock.EasyMock
 	Count: 3
  
+/server/src/test/java/org/apache/abdera/protocol/server/test/route/RouteTest.java
+Methods Invoked: 
 	Method name: createMock
 	Class origin: org.easymock.EasyMock
 	Count: 2

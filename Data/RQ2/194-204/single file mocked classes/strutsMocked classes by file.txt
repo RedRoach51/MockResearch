@@ -1,0 +1,739 @@
+/async/src/test/java/org/apache/struts2/async/DefaultAsyncManagerTest.java
+	javax.servlet.http.HttpServletRequest
+	javax.servlet.http.HttpServletRequest
+/cdi/src/test/java/org/apache/struts2/cdi/CdiObjectFactoryTest.java
+/convention/src/test/java/org/apache/struts2/convention/DefaultResultMapBuilderTest.java
+	javax.servlet.ServletContext
+	javax.servlet.ServletContext
+	javax.servlet.ServletContext
+	javax.servlet.ServletContext
+	javax.servlet.ServletContext
+	javax.servlet.ServletContext
+	javax.servlet.ServletContext
+	javax.servlet.ServletContext
+	javax.servlet.ServletContext
+	javax.servlet.ServletContext
+	javax.servlet.ServletContext
+	javax.servlet.ServletContext
+	javax.servlet.ServletContext
+	javax.servlet.ServletContext
+	javax.servlet.ServletContext
+	javax.servlet.ServletContext
+	javax.servlet.ServletContext
+	com.opensymphony.xwork2.inject.Container
+/convention/src/test/java/org/apache/struts2/convention/ConventionUnknownHandlerTest.java
+	javax.servlet.ServletContext
+	javax.servlet.ServletContext
+	javax.servlet.ServletContext
+	javax.servlet.ServletContext
+	com.opensymphony.xwork2.config.Configuration
+	com.opensymphony.xwork2.config.RuntimeConfiguration
+	com.opensymphony.xwork2.inject.Container
+	org.apache.struts2.convention.ConventionsService
+	java.util.Iterator<java.lang.String>
+	java.util.Set<java.lang.String>
+	java.util.Map<java.lang.String,com.opensymphony.xwork2.config.entities.ResultTypeConfig>
+	com.opensymphony.xwork2.config.entities.PackageConfig
+/convention/src/test/java/org/apache/struts2/convention/PackageBasedActionConfigBuilderTest.java
+	org.apache.struts2.convention.ResultMapBuilder
+	javax.servlet.ServletContext
+/core/src/main/java/com/opensymphony/xwork2/TestNGXWorkTestCase.java
+/core/src/main/java/com/opensymphony/xwork2/mock/MockObjectTypeDeterminer.java
+/core/src/test/java/com/opensymphony/xwork2/ActionInvocationTest.java
+/core/src/test/java/com/opensymphony/xwork2/ObjectFactoryTest.java
+/core/src/test/java/com/opensymphony/xwork2/DefaultActionInvocationTest.java
+/core/src/test/java/com/opensymphony/xwork2/ChainResultTest.java
+/core/src/test/java/com/opensymphony/xwork2/ActionNestingTest.java
+/core/src/test/java/com/opensymphony/xwork2/config/ConfigurationTest.java
+/core/src/test/java/com/opensymphony/xwork2/config/ConfigurationManagerTest.java
+/core/src/test/java/com/opensymphony/xwork2/config/providers/XmlConfigurationProviderResultTypesTest.java
+/core/src/test/java/com/opensymphony/xwork2/config/providers/XmlConfigurationProviderTest.java
+/core/src/test/java/com/opensymphony/xwork2/config/providers/MockConfigurationProvider.java
+/core/src/test/java/com/opensymphony/xwork2/config/providers/XmlConfigurationProviderExceptionMappingsTest.java
+/core/src/test/java/com/opensymphony/xwork2/config/providers/ConfigurationTestBase.java
+/core/src/test/java/com/opensymphony/xwork2/config/providers/XmlHelperTest.java
+	java.lang.Object
+	java.lang.Object
+	java.lang.Object
+	java.lang.Object
+	java.lang.Object
+	java.lang.Object
+	java.lang.Object
+	java.lang.Object
+	java.lang.Object
+	java.lang.Object
+	java.lang.Object
+	java.lang.Object
+	java.lang.Object
+	java.lang.Object
+	java.lang.Object
+	java.lang.Object
+	java.lang.Object
+	java.lang.Object
+	java.lang.Object
+/core/src/test/java/com/opensymphony/xwork2/config/providers/XmlConfigurationProviderInterceptorsTest.java
+/core/src/test/java/com/opensymphony/xwork2/config/providers/InterceptorBuilderTest.java
+/core/src/test/java/com/opensymphony/xwork2/config/providers/XmlConfigurationProviderResultsTest.java
+/core/src/test/java/com/opensymphony/xwork2/config/providers/XmlConfigurationProviderActionsTest.java
+/core/src/test/java/com/opensymphony/xwork2/conversion/impl/XWorkBasicConverterTest.java
+	com.opensymphony.xwork2.inject.Container
+/core/src/test/java/com/opensymphony/xwork2/interceptor/StaticParametersInterceptorTest.java
+/core/src/test/java/com/opensymphony/xwork2/interceptor/ValidationInterceptorPrefixMethodInvocationTest.java
+	com.opensymphony.xwork2.ActionInvocation
+	com.opensymphony.xwork2.ActionProxy
+	com.opensymphony.xwork2.interceptor.ValidationInterceptorPrefixMethodInvocationTest.ValidateAction
+/core/src/test/java/com/opensymphony/xwork2/interceptor/ParametersInterceptorTest.java
+/core/src/test/java/com/opensymphony/xwork2/interceptor/ChainingInterceptorTest.java
+/core/src/test/java/com/opensymphony/xwork2/interceptor/ParameterFilterInterceptorTest.java
+/core/src/test/java/com/opensymphony/xwork2/interceptor/PreResultListenerTest.java
+/core/src/test/java/com/opensymphony/xwork2/interceptor/ExceptionMappingInterceptorTest.java
+/core/src/test/java/com/opensymphony/xwork2/interceptor/ModelDrivenInterceptorTest.java
+/core/src/test/java/com/opensymphony/xwork2/interceptor/DefaultWorkflowInterceptorTest.java
+	com.opensymphony.xwork2.Action
+	com.opensymphony.xwork2.ActionInvocation
+	com.opensymphony.xwork2.ActionProxy
+/core/src/test/java/com/opensymphony/xwork2/interceptor/ParameterRemoverInterceptorTest.java
+	com.opensymphony.xwork2.ActionInvocation
+/core/src/test/java/com/opensymphony/xwork2/interceptor/ConversionErrorInterceptorTest.java
+/core/src/test/java/com/opensymphony/xwork2/interceptor/PrepareInterceptorTest.java
+	java.lang.Object
+	java.lang.Object
+	java.lang.Object
+	java.lang.Object
+	java.lang.Object
+/core/src/test/java/com/opensymphony/xwork2/interceptor/PrefixMethodInvocationUtilTest.java
+	java.lang.Object
+	java.lang.Object
+	java.lang.Object
+	java.lang.Object
+	java.lang.Object
+	java.lang.Object
+	java.lang.Object
+	java.lang.Object
+	java.lang.Object
+	java.lang.Object
+/core/src/test/java/com/opensymphony/xwork2/interceptor/ValidationErrorAwareTest.java
+	com.opensymphony.xwork2.interceptor.ValidationErrorAwareTest.ValidateErrorAction
+	com.opensymphony.xwork2.ActionInvocation
+	com.opensymphony.xwork2.ActionProxy
+/core/src/test/java/com/opensymphony/xwork2/interceptor/AliasInterceptorTest.java
+/core/src/test/java/com/opensymphony/xwork2/interceptor/ScopedModelDrivenInterceptorTest.java
+/core/src/test/java/com/opensymphony/xwork2/interceptor/annotations/AnnotationWorkflowInterceptorTest.java
+/core/src/test/java/com/opensymphony/xwork2/interceptor/annotations/AnnotationParameterFilterInterceptorTest.java
+/core/src/test/java/com/opensymphony/xwork2/ognl/SetPropertiesTest.java
+/core/src/test/java/com/opensymphony/xwork2/util/StrutsLocalizedTextProviderTest.java
+/core/src/test/java/com/opensymphony/xwork2/util/UnknownHandlerManagerTest.java
+/core/src/test/java/com/opensymphony/xwork2/validator/StringValidatorTest.java
+	com.opensymphony.xwork2.ActionInvocation
+	com.opensymphony.xwork2.ActionProxy
+/core/src/test/java/com/opensymphony/xwork2/validator/VisitorFieldValidatorTest.java
+	com.opensymphony.xwork2.ActionInvocation
+	com.opensymphony.xwork2.ActionProxy
+/core/src/test/java/com/opensymphony/xwork2/validator/AnnotationActionValidatorManagerTest.java
+	com.opensymphony.xwork2.ActionInvocation
+	com.opensymphony.xwork2.ActionProxy
+/core/src/test/java/com/opensymphony/xwork2/validator/DefaultValidatorFactoryTest.java
+/core/src/test/java/com/opensymphony/xwork2/validator/ExpressionValidatorTest.java
+	com.opensymphony.xwork2.ActionInvocation
+	com.opensymphony.xwork2.ActionProxy
+/core/src/test/java/com/opensymphony/xwork2/validator/VisitorFieldValidatorModelTest.java
+	com.opensymphony.xwork2.ActionInvocation
+	com.opensymphony.xwork2.ActionProxy
+/core/src/test/java/com/opensymphony/xwork2/validator/RepopulateConversionErrorFieldValidatorSupportTest.java
+/core/src/test/java/com/opensymphony/xwork2/validator/DefaultActionValidatorManagerTest.java
+/core/src/test/java/com/opensymphony/xwork2/validator/DefaultValidatorFileParserTest.java
+/core/src/test/java/org/apache/struts2/RequestUtilsTest.java
+	java.lang.Object
+/core/src/test/java/org/apache/struts2/TestConfigurationProvider.java
+/core/src/test/java/org/apache/struts2/action/CspReportActionTest.java
+	javax.servlet.http.HttpServletRequest
+	javax.servlet.http.HttpServletRequest
+	javax.servlet.http.HttpServletRequest
+	javax.servlet.http.HttpServletRequest
+	javax.servlet.http.HttpServletResponse
+/core/src/test/java/org/apache/struts2/components/UIBeanTest.java
+	javax.servlet.http.HttpServletRequest
+	javax.servlet.http.HttpServletResponse
+	javax.servlet.http.HttpServletRequest
+	javax.servlet.http.HttpServletResponse
+	javax.servlet.http.HttpServletRequest
+	javax.servlet.http.HttpServletResponse
+	javax.servlet.http.HttpServletRequest
+	javax.servlet.http.HttpServletResponse
+	javax.servlet.http.HttpServletRequest
+	javax.servlet.http.HttpServletResponse
+	javax.servlet.http.HttpServletRequest
+	javax.servlet.http.HttpServletResponse
+	javax.servlet.http.HttpServletRequest
+	javax.servlet.http.HttpServletResponse
+	javax.servlet.http.HttpServletRequest
+	javax.servlet.http.HttpServletResponse
+	javax.servlet.http.HttpServletRequest
+	javax.servlet.http.HttpServletResponse
+	javax.servlet.http.HttpServletRequest
+	javax.servlet.http.HttpServletResponse
+	javax.servlet.http.HttpServletRequest
+	javax.servlet.http.HttpServletResponse
+	javax.servlet.http.HttpServletRequest
+	javax.servlet.http.HttpServletResponse
+	javax.servlet.http.HttpServletRequest
+	javax.servlet.http.HttpServletResponse
+	javax.servlet.http.HttpServletRequest
+	javax.servlet.http.HttpServletResponse
+	javax.servlet.http.HttpServletRequest
+	javax.servlet.http.HttpServletResponse
+	javax.servlet.http.HttpServletRequest
+	javax.servlet.http.HttpServletResponse
+	javax.servlet.http.HttpServletRequest
+	javax.servlet.http.HttpServletResponse
+	javax.servlet.http.HttpServletRequest
+	javax.servlet.http.HttpServletResponse
+	javax.servlet.http.HttpServletRequest
+	javax.servlet.http.HttpServletResponse
+	javax.servlet.http.HttpServletRequest
+	javax.servlet.http.HttpServletResponse
+	javax.servlet.http.HttpServletRequest
+	javax.servlet.http.HttpServletResponse
+	javax.servlet.http.HttpServletRequest
+	javax.servlet.http.HttpServletResponse
+	javax.servlet.http.HttpServletRequest
+	javax.servlet.http.HttpServletResponse
+	javax.servlet.http.HttpServletRequest
+	javax.servlet.http.HttpServletResponse
+/core/src/test/java/org/apache/struts2/components/FormTest.java
+	com.opensymphony.xwork2.ActionInvocation
+	com.opensymphony.xwork2.ActionProxy
+/core/src/test/java/org/apache/struts2/components/ActionComponentTest.java
+	javax.servlet.http.HttpServletRequest
+	javax.servlet.http.HttpServletResponse
+/core/src/test/java/org/apache/struts2/components/ComponentTest.java
+/core/src/test/java/org/apache/struts2/components/AnotherActionComponentTest.java
+/core/src/test/java/org/apache/struts2/components/UIComponentTest.java
+/core/src/test/java/org/apache/struts2/components/FormButtonTest.java
+	javax.servlet.http.HttpServletRequest
+	javax.servlet.http.HttpServletResponse
+	javax.servlet.http.HttpServletRequest
+	javax.servlet.http.HttpServletResponse
+	javax.servlet.http.HttpServletRequest
+	javax.servlet.http.HttpServletResponse
+	javax.servlet.http.HttpServletRequest
+	javax.servlet.http.HttpServletResponse
+	javax.servlet.http.HttpServletRequest
+	javax.servlet.http.HttpServletResponse
+	javax.servlet.http.HttpServletRequest
+	javax.servlet.http.HttpServletResponse
+/core/src/test/java/org/apache/struts2/dispatcher/TwoFilterIntegrationTest.java
+	javax.servlet.http.HttpServletRequest
+	javax.servlet.http.HttpServletResponse
+	javax.servlet.FilterConfig
+/core/src/test/java/org/apache/struts2/dispatcher/DispatcherTest.java
+	javax.servlet.http.HttpServletRequest
+	javax.servlet.http.HttpServletResponse
+	javax.servlet.http.HttpServletRequest
+	javax.servlet.http.HttpServletResponse
+	javax.servlet.http.HttpServletResponse
+	javax.servlet.http.HttpServletRequest
+	javax.servlet.http.HttpServletResponse
+	javax.servlet.http.HttpServletRequest
+	javax.servlet.http.HttpServletResponse
+	javax.servlet.http.HttpServletRequest
+	javax.servlet.http.HttpServletResponse
+	javax.servlet.http.HttpServletRequest
+	javax.servlet.http.HttpServletResponse
+	javax.servlet.ServletContext
+	javax.servlet.ServletContext
+	javax.servlet.ServletContext
+	javax.servlet.ServletContext
+	javax.servlet.http.HttpServletRequest
+	javax.servlet.http.HttpServletResponse
+	javax.servlet.http.HttpServletRequest
+	javax.servlet.http.HttpServletResponse
+	javax.servlet.http.HttpServletRequest
+	javax.servlet.http.HttpSession
+	javax.servlet.http.HttpServletResponse
+	javax.servlet.http.HttpSession
+	javax.servlet.http.HttpServletResponse
+	javax.servlet.http.HttpSession
+	javax.servlet.http.HttpServletResponse
+	javax.servlet.http.HttpSession
+	javax.servlet.http.HttpServletResponse
+	javax.servlet.http.HttpSession
+	javax.servlet.http.HttpServletResponse
+	javax.servlet.http.HttpSession
+	javax.servlet.http.HttpServletResponse
+/core/src/test/java/org/apache/struts2/dispatcher/PrepareOperationsTest.java
+	javax.servlet.http.HttpServletRequest
+/core/src/test/java/org/apache/struts2/dispatcher/StrutsPrepareAndExecuteFilterIntegrationTest.java
+	javax.servlet.http.HttpServletRequest
+	javax.servlet.http.HttpServletResponse
+	javax.servlet.FilterConfig
+	javax.servlet.http.HttpServletRequest
+	javax.servlet.http.HttpServletResponse
+	javax.servlet.FilterConfig
+	javax.servlet.http.HttpServletRequest
+	javax.servlet.http.HttpServletResponse
+	javax.servlet.FilterConfig
+	javax.servlet.http.HttpServletRequest
+	javax.servlet.http.HttpServletResponse
+	javax.servlet.FilterConfig
+	javax.servlet.http.HttpServletRequest
+	javax.servlet.http.HttpServletResponse
+	javax.servlet.FilterConfig
+	javax.servlet.http.HttpServletRequest
+	javax.servlet.http.HttpServletResponse
+	javax.servlet.FilterConfig
+	javax.servlet.FilterConfig
+/core/src/test/java/org/apache/struts2/dispatcher/SessionMapTest.java
+	javax.servlet.http.HttpServletRequest
+	javax.servlet.http.HttpServletRequest
+/core/src/test/java/org/apache/struts2/dispatcher/StaticContentLoaderTest.java
+	javax.servlet.ServletContext
+	javax.servlet.http.HttpServletRequest
+	javax.servlet.http.HttpServletResponse
+/core/src/test/java/org/apache/struts2/dispatcher/DefaultStaticContentLoaderTest.java
+	javax.servlet.http.HttpServletRequest
+	javax.servlet.http.HttpServletResponse
+	org.apache.struts2.dispatcher.HostConfig
+/core/src/test/java/org/apache/struts2/dispatcher/DefaultDispatcherErrorHandlerTest.java
+	java.lang.Object
+	java.lang.Object
+/core/src/test/java/org/apache/struts2/dispatcher/mapper/RestfulActionMapperTest.java
+/core/src/test/java/org/apache/struts2/dispatcher/mapper/Restful2ActionMapperTest.java
+/core/src/test/java/org/apache/struts2/dispatcher/mapper/DefaultActionMapperTest.java
+/core/src/test/java/org/apache/struts2/dispatcher/mapper/CompositeActionMapperTest.java
+	javax.servlet.http.HttpServletRequest
+	javax.servlet.http.HttpServletRequest
+/core/src/test/java/org/apache/struts2/dispatcher/multipart/JakartaStreamMultiPartRequestTest.java
+	javax.servlet.http.HttpServletRequest
+/core/src/test/java/org/apache/struts2/interceptor/CoopInterceptorTest.java
+	javax.servlet.http.HttpServletRequest
+	javax.servlet.http.HttpServletResponse
+/core/src/test/java/org/apache/struts2/interceptor/TokenInterceptorTest.java
+/core/src/test/java/org/apache/struts2/interceptor/CheckboxInterceptorTest.java
+/core/src/test/java/org/apache/struts2/interceptor/BackgroundProcessTest.java
+/core/src/test/java/org/apache/struts2/interceptor/StrutsConversionErrorInterceptorTest.java
+/core/src/test/java/org/apache/struts2/interceptor/CspInterceptorTest.java
+	javax.servlet.http.HttpServletRequest
+	javax.servlet.http.HttpServletResponse
+/core/src/test/java/org/apache/struts2/interceptor/ExecuteAndWaitInterceptorTest.java
+/core/src/test/java/org/apache/struts2/interceptor/ClearSessionInterceptorTest.java
+/core/src/test/java/org/apache/struts2/interceptor/CookieInterceptorTest.java
+	javax.servlet.http.HttpServletRequest
+	javax.servlet.http.HttpServletRequest
+	javax.servlet.http.HttpServletRequest
+	javax.servlet.http.HttpServletRequest
+	javax.servlet.http.HttpServletRequest
+	javax.servlet.http.HttpServletRequest
+	javax.servlet.http.HttpServletRequest
+	javax.servlet.http.HttpServletRequest
+	javax.servlet.http.HttpServletRequest
+	javax.servlet.http.HttpServletRequest
+	java.lang.Object
+	java.lang.Object
+	java.lang.Object
+	java.lang.Object
+	java.lang.Object
+	java.lang.Object
+	java.lang.Object
+/core/src/test/java/org/apache/struts2/interceptor/CookieProviderInterceptorTest.java
+	com.opensymphony.xwork2.ActionInvocation
+	javax.servlet.http.HttpServletResponse
+/core/src/test/java/org/apache/struts2/interceptor/DateTextFieldInterceptorTest.java
+/core/src/test/java/org/apache/struts2/interceptor/FileUploadInterceptorTest.java
+	javax.servlet.http.HttpServletRequest
+	javax.servlet.http.HttpServletRequest
+	javax.servlet.http.HttpServletRequest
+	javax.servlet.http.HttpServletRequest
+	javax.servlet.http.HttpServletRequest
+/core/src/test/java/org/apache/struts2/interceptor/FetchMetadataInterceptorTest.java
+	javax.servlet.http.HttpServletRequest
+	javax.servlet.http.HttpServletResponse
+/core/src/test/java/org/apache/struts2/interceptor/MessageStoreInterceptorTest.java
+	javax.servlet.http.HttpServletResponse
+	javax.servlet.http.HttpSession
+	javax.servlet.http.HttpServletRequest
+	com.opensymphony.xwork2.ActionInvocation
+	com.opensymphony.xwork2.ActionInvocation
+	javax.servlet.http.HttpSession
+	javax.servlet.http.HttpServletRequest
+	javax.servlet.http.HttpSession
+	javax.servlet.http.HttpServletRequest
+	com.opensymphony.xwork2.ActionInvocation
+	com.opensymphony.xwork2.ActionInvocation
+	com.opensymphony.xwork2.ActionInvocation
+	com.opensymphony.xwork2.ActionInvocation
+/core/src/test/java/org/apache/struts2/interceptor/MultiselectInterceptorTest.java
+/core/src/test/java/org/apache/struts2/interceptor/CreateSessionInterceptorTest.java
+/core/src/test/java/org/apache/struts2/interceptor/ServletConfigInterceptorTest.java
+	javax.servlet.http.HttpServletRequest
+	javax.servlet.http.HttpServletRequest
+	javax.servlet.http.HttpServletResponse
+	javax.servlet.http.HttpServletResponse
+	javax.servlet.http.HttpServletRequest
+	javax.servlet.ServletContext
+	javax.servlet.http.HttpServletRequest
+	javax.servlet.ServletContext
+	javax.servlet.http.HttpServletRequest
+	javax.servlet.http.HttpServletRequest
+	javax.servlet.ServletContext
+	javax.servlet.ServletContext
+	java.lang.Object
+	org.apache.struts2.action.ServletRequestAware
+	java.lang.Object
+	org.apache.struts2.action.ServletResponseAware
+	org.apache.struts2.interceptor.ParameterAware
+	org.apache.struts2.interceptor.HttpParametersAware
+	org.apache.struts2.action.ParametersAware
+	java.lang.Object
+	org.apache.struts2.action.SessionAware
+	org.apache.struts2.interceptor.ApplicationAware
+	org.apache.struts2.action.ApplicationAware
+	java.lang.Object
+	org.apache.struts2.action.PrincipalAware
+	java.lang.Object
+	org.apache.struts2.action.ServletContextAware
+/core/src/test/java/org/apache/struts2/interceptor/I18nInterceptorTest.java
+	javax.servlet.http.HttpServletRequest
+	javax.servlet.http.HttpSession
+	javax.servlet.http.HttpServletResponse
+/core/src/test/java/org/apache/struts2/interceptor/RolesInterceptorTest.java
+/core/src/test/java/org/apache/struts2/interceptor/CoepInterceptorTest.java
+	javax.servlet.http.HttpServletRequest
+	javax.servlet.http.HttpServletResponse
+/core/src/test/java/org/apache/struts2/interceptor/MessageStorePreResultListenerTest.java
+	com.opensymphony.xwork2.ActionInvocation
+	javax.servlet.http.HttpServletRequest
+	javax.servlet.http.HttpServletResponse
+	com.opensymphony.xwork2.ActionInvocation
+	javax.servlet.http.HttpServletResponse
+	javax.servlet.http.HttpSession
+	javax.servlet.http.HttpServletRequest
+	javax.servlet.http.HttpServletResponse
+	com.opensymphony.xwork2.ActionInvocation
+	javax.servlet.http.HttpSession
+	javax.servlet.http.HttpServletRequest
+	javax.servlet.http.HttpServletResponse
+	com.opensymphony.xwork2.ActionInvocation
+/core/src/test/java/org/apache/struts2/interceptor/validation/AnnotationValidationInterceptorTest.java
+/core/src/test/java/org/apache/struts2/result/PostbackResultTest.java
+	javax.servlet.http.HttpServletRequest
+	javax.servlet.http.HttpServletResponse
+	javax.servlet.http.HttpServletRequest
+	javax.servlet.http.HttpServletResponse
+	javax.servlet.http.HttpServletRequest
+	javax.servlet.http.HttpServletResponse
+	javax.servlet.http.HttpServletRequest
+	javax.servlet.http.HttpServletResponse
+	com.opensymphony.xwork2.ActionProxy
+	com.opensymphony.xwork2.ActionInvocation
+	com.opensymphony.xwork2.ActionInvocation
+	com.opensymphony.xwork2.ActionInvocation
+/core/src/test/java/org/apache/struts2/result/StrutsResultSupportTest.java
+	com.opensymphony.xwork2.ActionInvocation
+	com.opensymphony.xwork2.ActionInvocation
+	com.opensymphony.xwork2.ActionInvocation
+	com.opensymphony.xwork2.ActionInvocation
+	com.opensymphony.xwork2.ActionInvocation
+/core/src/test/java/org/apache/struts2/result/PlainResultTest.java
+	javax.servlet.http.HttpServletResponse
+/core/src/test/java/org/apache/struts2/result/ServletRedirectResultTest.java
+	javax.servlet.http.HttpServletRequest
+	javax.servlet.http.HttpServletResponse
+	javax.servlet.http.HttpServletRequest
+	javax.servlet.http.HttpServletResponse
+	com.opensymphony.xwork2.ActionProxy
+	com.opensymphony.xwork2.ActionInvocation
+	com.opensymphony.xwork2.ActionProxy
+	com.opensymphony.xwork2.ActionInvocation
+	com.opensymphony.xwork2.util.ValueStack
+	javax.servlet.http.HttpServletResponse
+	javax.servlet.http.HttpServletResponse
+	javax.servlet.http.HttpServletResponse
+	javax.servlet.http.HttpServletResponse
+	com.opensymphony.xwork2.ActionProxy
+/core/src/test/java/org/apache/struts2/result/PlainTextResultTest.java
+/core/src/test/java/org/apache/struts2/result/HttpHeaderResultTest.java
+/core/src/test/java/org/apache/struts2/result/ServletActionRedirectResultTest.java
+	javax.servlet.http.HttpServletRequest
+	javax.servlet.http.HttpServletResponse
+	javax.servlet.http.HttpServletRequest
+	javax.servlet.http.HttpServletResponse
+	javax.servlet.http.HttpServletRequest
+	javax.servlet.http.HttpServletResponse
+	javax.servlet.http.HttpServletRequest
+	javax.servlet.http.HttpServletResponse
+	javax.servlet.http.HttpServletRequest
+	javax.servlet.http.HttpServletResponse
+	com.opensymphony.xwork2.ActionProxy
+	com.opensymphony.xwork2.ActionInvocation
+	com.opensymphony.xwork2.ActionProxy
+	com.opensymphony.xwork2.ActionInvocation
+	com.opensymphony.xwork2.ActionProxy
+	com.opensymphony.xwork2.ActionInvocation
+	com.opensymphony.xwork2.ActionProxy
+	com.opensymphony.xwork2.ActionInvocation
+/core/src/test/java/org/apache/struts2/result/ServletDispatcherResultTest.java
+/core/src/test/java/org/apache/struts2/result/StreamResultTest.java
+	javax.servlet.http.HttpServletResponse
+/core/src/test/java/org/apache/struts2/util/InvocationSessionStoreTest.java
+/core/src/test/java/org/apache/struts2/util/StrutsUtilTest.java
+	javax.servlet.http.HttpServletResponse
+/core/src/test/java/org/apache/struts2/views/TemplateEngineManagerTest.java
+/core/src/test/java/org/apache/struts2/views/freemarker/FreemarkerThemeTemplateLoaderTest.java
+	org.apache.struts2.components.template.TemplateEngine
+	freemarker.cache.TemplateLoader
+	org.apache.struts2.components.template.TemplateEngine
+	freemarker.cache.TemplateLoader
+/core/src/test/java/org/apache/struts2/views/freemarker/FreemarkerResultMockedTest.java
+	javax.servlet.http.HttpServletRequest
+	javax.servlet.ServletContext
+/core/src/test/java/org/apache/struts2/views/freemarker/FreeMarkerResultTest.java
+	javax.servlet.http.HttpServletRequest
+/core/src/test/java/org/apache/struts2/views/freemarker/tags/TagModelTest.java
+	javax.servlet.http.HttpServletRequest
+	javax.servlet.http.HttpServletResponse
+	javax.servlet.http.HttpServletRequest
+	javax.servlet.http.HttpServletResponse
+/core/src/test/java/org/apache/struts2/views/jsp/ElseTagTest.java
+/core/src/test/java/org/apache/struts2/views/jsp/AnchorTagTest.java
+/core/src/test/java/org/apache/struts2/views/jsp/I18nTagTest.java
+/core/src/test/java/org/apache/struts2/views/jsp/BeanTagTest.java
+/core/src/test/java/org/apache/struts2/views/jsp/IfTagTest.java
+/core/src/test/java/org/apache/struts2/views/jsp/AbstractTagTest.java
+/core/src/test/java/org/apache/struts2/views/jsp/PropertyTagTest.java
+/core/src/test/java/org/apache/struts2/views/jsp/AbstractUITagTest.java
+/core/src/test/java/org/apache/struts2/views/jsp/StrutsMockPageContext.java
+/core/src/test/java/org/apache/struts2/views/jsp/IteratorTagTest.java
+/core/src/test/java/org/apache/struts2/views/jsp/URLTagTest.java
+/core/src/test/java/org/apache/struts2/views/jsp/StrutsMockHttpServletRequest.java
+/core/src/test/java/org/apache/struts2/views/jsp/ActionTagTest.java
+/core/src/test/java/org/apache/struts2/views/jsp/IncludeTagTest.java
+	java.lang.Object
+/core/src/test/java/org/apache/struts2/views/jsp/ElseIfTagTest.java
+/core/src/test/java/org/apache/struts2/views/jsp/ui/FormTagTest.java
+	com.opensymphony.xwork2.ActionInvocation
+	com.opensymphony.xwork2.ActionProxy
+/core/src/test/java/org/apache/struts2/views/jsp/ui/HiddenTest.java
+/core/src/test/java/org/apache/struts2/views/jsp/ui/JspTemplateTest.java
+/core/src/test/java/org/apache/struts2/views/util/ResourceUtilTest.java
+	java.lang.Object
+/core/src/test/java/org/apache/struts2/views/util/DefaultUrlHelperTest.java
+/core/src/test/java/org/apache/struts2/views/xslt/XSLTResultTest.java
+	javax.servlet.http.HttpServletRequest
+	javax.servlet.http.HttpServletResponse
+	javax.servlet.ServletContext
+/embeddedjsp/src/test/java/org/apache/struts2/EmbeddedJSPResultTest.java
+	javax.servlet.http.HttpServletRequest
+	javax.servlet.http.HttpServletResponse
+	javax.servlet.ServletContext
+	javax.servlet.ServletConfig
+	javax.servlet.http.HttpServletRequest
+	javax.servlet.http.HttpSession
+	com.opensymphony.xwork2.util.ValueStack
+	com.opensymphony.xwork2.inject.Container
+/jasperreports/src/test/java/org/apache/struts2/views/jasperreports/JasperReportsResultTest.java
+	java.sql.Connection
+/javatemplates/src/test/java/org/apache/struts2/views/java/simple/AbstractTest.java
+	org.apache.struts2.components.template.Template
+	com.opensymphony.xwork2.util.ValueStack
+	javax.servlet.http.HttpServletRequest
+	javax.servlet.http.HttpServletResponse
+	com.opensymphony.xwork2.inject.Container
+/javatemplates/src/test/java/org/apache/struts2/views/java/simple/FormTest.java
+	org.apache.struts2.components.UrlRenderer
+/jfreechart/src/test/java/org/apache/struts2/dispatcher/ChartResultTest.java
+	com.opensymphony.xwork2.ActionProxy
+	com.opensymphony.xwork2.ActionInvocation
+	javax.servlet.http.HttpServletResponse
+/json/src/test/java/org/apache/struts2/json/StrutsMockHttpServletRequest.java
+/json/src/test/java/org/apache/struts2/json/JSONResultTest.java
+	javax.servlet.http.HttpServletResponse
+	javax.servlet.http.HttpServletRequest
+	javax.servlet.ServletContext
+/json/src/test/java/org/apache/struts2/json/JSONActionRedirectResultTest.java
+	javax.servlet.http.HttpServletResponse
+	javax.servlet.http.HttpServletRequest
+	javax.servlet.ServletContext
+/json/src/test/java/org/apache/struts2/json/JSONValidationInterceptorTest.java
+/json/src/test/java/org/apache/struts2/json/JSONInterceptorTest.java
+	javax.servlet.http.HttpServletRequest
+	javax.servlet.http.HttpServletResponse
+	javax.servlet.ServletContext
+/junit/src/main/java/org/apache/struts2/StrutsTestCase.java
+	javax.servlet.http.HttpSession
+	javax.servlet.http.HttpServletRequest
+	javax.servlet.ServletContext
+	javax.servlet.http.HttpServletResponse
+	javax.servlet.http.HttpServletRequest
+	javax.servlet.jsp.PageContext
+/junit/src/main/java/org/apache/struts2/StrutsSpringJUnit4TestCase.java
+/junit/src/main/java/org/apache/struts2/StrutsJUnit4TestCase.java
+	javax.servlet.http.HttpSession
+	javax.servlet.http.HttpServletRequest
+	javax.servlet.ServletContext
+	javax.servlet.http.HttpServletResponse
+	javax.servlet.http.HttpServletRequest
+	javax.servlet.jsp.PageContext
+	javax.servlet.http.HttpServletRequest
+	javax.servlet.http.HttpServletResponse
+	javax.servlet.jsp.PageContext
+/junit/src/main/java/org/apache/struts2/StrutsRestTestCase.java
+	javax.servlet.ServletContext
+	javax.servlet.http.HttpServletResponse
+	javax.servlet.http.HttpServletRequest
+	javax.servlet.jsp.PageContext
+/junit/src/main/java/org/apache/struts2/StrutsSpringTestCase.java
+/junit/src/test/java/org/apache/struts2/StrutsSpringJUnit4TestCaseTest.java
+/junit/src/test/java/org/apache/struts2/StrutsTestCaseTest.java
+/osgi/src/test/java/org/apache/struts2/osgi/host/FelixOsgiHostTest.java
+	javax.servlet.ServletContext
+/osgi/src/test/java/org/apache/struts2/osgi/interceptor/OsgiInterceptorTest.java
+	javax.servlet.ServletContext
+	org.osgi.framework.BundleContext
+	com.opensymphony.xwork2.ActionInvocation
+	org.apache.struts2.osgi.interceptor.BundleContextAware
+	javax.servlet.ServletContext
+	org.osgi.framework.BundleContext
+	com.opensymphony.xwork2.ActionInvocation
+	org.apache.struts2.osgi.action.BundleContextAware
+	javax.servlet.ServletContext
+	com.opensymphony.xwork2.ActionInvocation
+	org.apache.struts2.osgi.interceptor.BundleContextAware
+	javax.servlet.ServletContext
+	com.opensymphony.xwork2.ActionInvocation
+	org.apache.struts2.osgi.action.BundleContextAware
+	javax.servlet.ServletContext
+	org.osgi.framework.BundleContext
+	com.opensymphony.xwork2.ActionInvocation
+	org.osgi.framework.ServiceReference
+	javax.servlet.ServletContext
+	org.osgi.framework.BundleContext
+	com.opensymphony.xwork2.ActionInvocation
+	org.osgi.framework.ServiceReference
+/portlet/src/test/java/org/apache/struts2/StrutsTestCasePortletTests.java
+	javax.servlet.http.HttpSession
+	javax.servlet.http.HttpServletRequest
+	javax.servlet.ServletContext
+	javax.servlet.http.HttpServletResponse
+	javax.servlet.http.HttpServletRequest
+	javax.servlet.jsp.PageContext
+/portlet/src/test/java/org/apache/struts2/portlet/PortletApplicationMapTest.java
+	org.jmock.Mock
+/portlet/src/test/java/org/apache/struts2/portlet/context/PortletActionContextTest.java
+	org.jmock.Mock
+	org.jmock.Mock
+	org.jmock.Mock
+	org.jmock.Mock
+	org.jmock.Mock
+/portlet/src/test/java/org/apache/struts2/portlet/dispatcher/Jsr286DispatcherTest.java
+	org.jmock.Mock
+	com.opensymphony.xwork2.util.ValueStack
+	org.jmock.Mock
+	com.opensymphony.xwork2.util.ValueStack
+	org.jmock.Mock
+	com.opensymphony.xwork2.util.ValueStack
+	org.jmock.Mock
+	org.jmock.Mock
+	org.jmock.Mock
+	org.jmock.Mock
+	org.jmock.Mock
+	org.jmock.Mock
+	org.jmock.Mock
+	org.jmock.Mock
+	org.jmock.Mock
+/portlet/src/test/java/org/apache/struts2/portlet/dispatcher/Jsr168DispatcherTest.java
+	org.jmock.Mock
+	org.jmock.Mock
+	org.jmock.Mock
+	org.jmock.Mock
+	org.jmock.Mock
+	org.jmock.Mock
+	org.jmock.Mock
+	com.opensymphony.xwork2.util.ValueStack
+	org.jmock.Mock
+	com.opensymphony.xwork2.util.ValueStack
+	org.jmock.Mock
+	org.jmock.Mock
+	org.jmock.Mock
+	org.jmock.Mock
+	com.opensymphony.xwork2.util.ValueStack
+/portlet/src/test/java/org/apache/struts2/portlet/interceptor/PortletAwareInterceptorTest.java
+	javax.portlet.PortletRequest
+	org.apache.struts2.portlet.interceptor.PortletRequestAware
+	com.opensymphony.xwork2.ActionInvocation
+	javax.portlet.PortletRequest
+	org.apache.struts2.portlet.action.PortletRequestAware
+	com.opensymphony.xwork2.ActionInvocation
+	javax.portlet.PortletResponse
+	org.apache.struts2.portlet.action.PortletResponseAware
+	com.opensymphony.xwork2.ActionInvocation
+/portlet/src/test/java/org/apache/struts2/portlet/interceptor/PortletStateInterceptorTest.java
+	javax.portlet.ActionResponse
+	com.opensymphony.xwork2.ActionInvocation
+	javax.portlet.RenderRequest
+	com.opensymphony.xwork2.ActionInvocation
+	javax.portlet.RenderRequest
+	com.opensymphony.xwork2.ActionInvocation
+/portlet/src/test/java/org/apache/struts2/portlet/result/PortletResultTest.java
+	org.jmock.Mock
+	org.jmock.Mock
+	org.jmock.Mock
+	org.jmock.Mock
+	org.jmock.Mock
+	org.jmock.Mock
+	org.jmock.Mock
+	org.jmock.Mock
+	org.jmock.Mock
+	org.jmock.Mock
+	org.jmock.Mock
+	org.jmock.Mock
+	org.jmock.Mock
+	org.jmock.Mock
+	org.jmock.Mock
+/portlet/src/test/java/org/apache/struts2/portlet/util/PortletUrlHelperTest.java
+	javax.portlet.RenderResponse
+	javax.portlet.RenderRequest
+/portlet/src/test/java/org/apache/struts2/views/jsp/PortletUrlTagTest.java
+	javax.servlet.ServletContext
+	org.jmock.Mock
+	org.jmock.Mock
+	org.jmock.Mock
+	org.jmock.Mock
+	org.jmock.Mock
+	org.jmock.Mock
+	org.jmock.Mock
+	org.jmock.Mock
+	org.jmock.Mock
+/portlet-mocks/src/main/java/org/apache/struts2/mock/web/portlet/MockPortletSession.java
+	javax.servlet.http.HttpSession
+/portlet-mocks/src/test/java/org/apache/struts2/StrutsSpringPortletMockObjectsTest.java
+	javax.servlet.ServletContext
+/rest/src/test/java/org/apache/struts2/rest/RestWorkflowInterceptorTest.java
+/rest/src/test/java/org/apache/struts2/rest/ContentTypeHandlerManagerTest.java
+	javax.servlet.http.HttpServletResponse
+	javax.servlet.http.HttpServletRequest
+/rest/src/test/java/org/apache/struts2/rest/DefaultContentTypeHandlerManagerTest.java
+	javax.servlet.http.HttpServletRequest
+	javax.servlet.http.HttpServletRequest
+	javax.servlet.http.HttpServletRequest
+	javax.servlet.http.HttpServletRequest
+	javax.servlet.http.HttpServletRequest
+	javax.servlet.http.HttpServletResponse
+/rest/src/test/java/org/apache/struts2/rest/DefaultHttpHeadersTest.java
+	javax.servlet.http.HttpServletResponse
+	javax.servlet.http.HttpServletRequest
+/rest/src/test/java/org/apache/struts2/rest/RestActionMapperTest.java
+	javax.servlet.http.HttpServletRequest
+/rest/src/test/java/org/apache/struts2/rest/RestActionInvocationTest.java
+	javax.servlet.http.HttpServletRequest
+	javax.servlet.http.HttpServletResponse
+/rest/src/test/java/org/apache/struts2/rest/handler/JuneauXmlHandlerTest.java
+/spring/src/test/java/org/apache/struts2/spring/StrutsSpringObjectFactoryTest.java
+	javax.servlet.ServletContext
+	javax.servlet.ServletContext
+	com.opensymphony.xwork2.inject.Container
+	com.opensymphony.xwork2.inject.Container
+/testng/src/main/java/org/apache/struts2/StrutsTestCase.java
+	javax.servlet.ServletContext
+/velocity/src/test/java/org/apache/struts2/views/velocity/result/VelocityResultTest.java
+/velocity/src/test/java/org/apache/struts2/views/velocity/template/VelocityTemplateEngineTest.java

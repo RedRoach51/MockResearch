@@ -6,6 +6,5 @@ tomee,mockito,5
 tomee,agical,1
 tomee,opentracing,2
 tomee,easymock,1
-turbine-core,mockito,19
-tuscany-sca-2.x,itest,1
+turbine-core,mockito,20
 whirr,mockito,11

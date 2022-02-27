@@ -1,0 +1,10 @@
+Project Name,Mocking Framework,Used in # of Files
+syncope,mockito,32
+syncope,springframework,2
+syncope,wiremock,2
+tajo,powermock,2
+tapestry-5,easymock,25
+tez,mockito,104
+thrift,mockito,3
+tika,mockito,3
+tiles,easymock,67

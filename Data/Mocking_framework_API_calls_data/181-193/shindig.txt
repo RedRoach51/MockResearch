@@ -1,3 +1,5 @@
+/common/src/test/java/org/apache/shindig/common/EasyMockTestCase.java
+Methods Invoked: 
 	Method name: createMock
 	Class origin: org.easymock.EasyMock
 	Count: 1
@@ -26,6 +28,14 @@
 	Class origin: org.easymock.EasyMock
 	Count: 2
  
+/common/src/test/java/org/apache/shindig/common/cache/ehcache/EhCacheCacheProviderTest.java
+Methods Invoked: 
+	Method name: getInternalState
+	Class origin: org.powermock.reflect.Whitebox
+	Count: 4
+ 
+/common/src/test/java/org/apache/shindig/common/servlet/HttpServletUserAgentProviderTest.java
+Methods Invoked: 
 	Method name: once
 	Class origin: org.easymock.IExpectationSetters<java.lang.String>
 	Count: 2
@@ -38,10 +48,14 @@
 	Class origin: org.easymock.EasyMock
 	Count: 2
  
+/common/src/test/java/org/apache/shindig/common/servlet/HttpUtilTest.java
+Methods Invoked: 
 	Method name: createMock
 	Class origin: org.easymock.EasyMock
 	Count: 1
  
+/common/src/test/java/org/apache/shindig/common/uri/UriBuilderTest.java
+Methods Invoked: 
 	Method name: createMock
 	Class origin: org.easymock.EasyMock
 	Count: 4
@@ -58,6 +72,8 @@
 	Class origin: org.easymock.EasyMock
 	Count: 20
  
+/common/src/test/java/org/apache/shindig/config/BasicContainerConfigTest.java
+Methods Invoked: 
 	Method name: createMock
 	Class origin: org.easymock.EasyMock
 	Count: 6
@@ -70,6 +86,8 @@
 	Class origin: org.easymock.EasyMock
 	Count: 12
  
+/common/src/test/java/org/apache/shindig/protocol/JsonRpcServletTest.java
+Methods Invoked: 
 	Method name: createNiceControl
 	Class origin: org.easymock.EasyMock
 	Count: 1
@@ -78,6 +96,8 @@
 	Class origin: org.easymock.IMocksControl
 	Count: 5
  
+/common/src/test/java/org/apache/shindig/protocol/DataServiceServletTest.java
+Methods Invoked: 
 	Method name: createNiceControl
 	Class origin: org.easymock.EasyMock
 	Count: 1
@@ -86,6 +106,8 @@
 	Class origin: org.easymock.IMocksControl
 	Count: 6
  
+/gadgets/src/test/java/org/apache/shindig/gadgets/DefaultGadgetSpecFactoryTest.java
+Methods Invoked: 
 	Method name: createNiceMock
 	Class origin: org.easymock.EasyMock
 	Count: 1
@@ -98,6 +120,8 @@
 	Class origin: org.easymock.EasyMock
 	Count: 14
  
+/gadgets/src/test/java/org/apache/shindig/gadgets/GadgetTest.java
+Methods Invoked: 
 	Method name: anyTimes
 	Class origin: org.easymock.IExpectationSetters<java.util.List<java.lang.String>>
 	Count: 3
@@ -114,6 +138,8 @@
 	Class origin: org.easymock.EasyMock
 	Count: 3
  
+/gadgets/src/test/java/org/apache/shindig/gadgets/DefaultMessageBundleFactoryTest.java
+Methods Invoked: 
 	Method name: createNiceMock
 	Class origin: org.easymock.EasyMock
 	Count: 1
@@ -130,6 +156,8 @@
 	Class origin: org.easymock.EasyMock
 	Count: 8
  
+/gadgets/src/test/java/org/apache/shindig/gadgets/HashLockedDomainServiceTest.java
+Methods Invoked: 
 	Method name: anyTimes
 	Class origin: org.easymock.IExpectationSetters<java.util.List<java.lang.String>>
 	Count: 1
@@ -146,10 +174,14 @@
 	Class origin: org.easymock.EasyMock
 	Count: 1
  
+/gadgets/src/test/java/org/apache/shindig/gadgets/admin/BasicGadgetAdminStoreTest.java
+Methods Invoked: 
 	Method name: expect
 	Class origin: org.easymock.EasyMock
 	Count: 11
  
+/gadgets/src/test/java/org/apache/shindig/gadgets/config/DefaultConfigProcessorTest.java
+Methods Invoked: 
 	Method name: expect
 	Class origin: org.easymock.EasyMock
 	Count: 1
@@ -162,6 +194,8 @@
 	Class origin: org.easymock.EasyMock
 	Count: 3
  
+/gadgets/src/test/java/org/apache/shindig/gadgets/encoding/EncodingDetectorTest.java
+Methods Invoked: 
 	Method name: createNiceMock
 	Class origin: org.easymock.EasyMock
 	Count: 1
@@ -186,6 +220,8 @@
 	Class origin: org.easymock.EasyMock
 	Count: 1
  
+/gadgets/src/test/java/org/apache/shindig/gadgets/features/FeatureResourceLoaderTest.java
+Methods Invoked: 
 	Method name: createMock
 	Class origin: org.easymock.EasyMock
 	Count: 1
@@ -202,6 +238,8 @@
 	Class origin: org.easymock.EasyMock
 	Count: 2
  
+/gadgets/src/test/java/org/apache/shindig/gadgets/http/MultipleResourceHttpFetcherTest.java
+Methods Invoked: 
 	Method name: expect
 	Class origin: org.easymock.EasyMock
 	Count: 5
@@ -210,6 +248,8 @@
 	Class origin: org.easymock.EasyMock
 	Count: 5
  
+/gadgets/src/test/java/org/apache/shindig/gadgets/http/BasicHttpFetcherTest.java
+Methods Invoked: 
 	Method name: createMock
 	Class origin: org.easymock.EasyMock
 	Count: 2
@@ -222,6 +262,8 @@
 	Class origin: org.easymock.EasyMock
 	Count: 9
  
+/gadgets/src/test/java/org/apache/shindig/gadgets/http/AbstractHttpCacheTest.java
+Methods Invoked: 
 	Method name: createMock
 	Class origin: org.easymock.EasyMock
 	Count: 1
@@ -230,10 +272,14 @@
 	Class origin: org.easymock.EasyMock
 	Count: 14
  
+/gadgets/src/test/java/org/apache/shindig/gadgets/http/InvalidationHandlerTest.java
+Methods Invoked: 
 	Method name: eq
 	Class origin: org.easymock.EasyMock
 	Count: 4
  
+/gadgets/src/test/java/org/apache/shindig/gadgets/js/DeferJsProcessorTest.java
+Methods Invoked: 
 	Method name: createMock
 	Class origin: org.easymock.EasyMock
 	Count: 7
@@ -246,6 +292,8 @@
 	Class origin: org.easymock.EasyMock
 	Count: 4
  
+/gadgets/src/test/java/org/apache/shindig/gadgets/js/GetJsContentProcessorTest.java
+Methods Invoked: 
 	Method name: createControl
 	Class origin: org.easymock.EasyMock
 	Count: 1
@@ -254,6 +302,8 @@
 	Class origin: org.easymock.IMocksControl
 	Count: 7
  
+/gadgets/src/test/java/org/apache/shindig/gadgets/js/CompilationProcessorTest.java
+Methods Invoked: 
 	Method name: createControl
 	Class origin: org.easymock.EasyMock
 	Count: 1
@@ -262,6 +312,8 @@
 	Class origin: org.easymock.IMocksControl
 	Count: 5
  
+/gadgets/src/test/java/org/apache/shindig/gadgets/js/ConfigInjectionProcessorTest.java
+Methods Invoked: 
 	Method name: createControl
 	Class origin: org.easymock.EasyMock
 	Count: 1
@@ -270,6 +322,8 @@
 	Class origin: org.easymock.IMocksControl
 	Count: 5
  
+/gadgets/src/test/java/org/apache/shindig/gadgets/js/ExportJsProcessorTest.java
+Methods Invoked: 
 	Method name: createMock
 	Class origin: org.easymock.EasyMock
 	Count: 7
@@ -282,6 +336,8 @@
 	Class origin: org.easymock.EasyMock
 	Count: 2
  
+/gadgets/src/test/java/org/apache/shindig/gadgets/js/AnonFuncWrappingProcessorTest.java
+Methods Invoked: 
 	Method name: createControl
 	Class origin: org.easymock.EasyMock
 	Count: 1
@@ -290,6 +346,8 @@
 	Class origin: org.easymock.IMocksControl
 	Count: 2
  
+/gadgets/src/test/java/org/apache/shindig/gadgets/js/AddOnloadFunctionProcessorTest.java
+Methods Invoked: 
 	Method name: createControl
 	Class origin: org.easymock.EasyMock
 	Count: 1
@@ -298,6 +356,8 @@
 	Class origin: org.easymock.IMocksControl
 	Count: 3
  
+/gadgets/src/test/java/org/apache/shindig/gadgets/js/DefaultJsServingPipelineTest.java
+Methods Invoked: 
 	Method name: createControl
 	Class origin: org.easymock.EasyMock
 	Count: 1
@@ -306,6 +366,8 @@
 	Class origin: org.easymock.IMocksControl
 	Count: 2
  
+/gadgets/src/test/java/org/apache/shindig/gadgets/js/JsRequestBuilderTest.java
+Methods Invoked: 
 	Method name: createControl
 	Class origin: org.easymock.EasyMock
 	Count: 1
@@ -314,6 +376,8 @@
 	Class origin: org.easymock.IMocksControl
 	Count: 4
  
+/gadgets/src/test/java/org/apache/shindig/gadgets/js/SeparatorCommentingProcessorTest.java
+Methods Invoked: 
 	Method name: createControl
 	Class origin: org.easymock.EasyMock
 	Count: 1
@@ -326,14 +390,20 @@
 	Class origin: org.easymock.IMocksControl
 	Count: 6
  
+/gadgets/src/test/java/org/apache/shindig/gadgets/js/AddJslLoadedVariableProcessorTest.java
+Methods Invoked: 
 	Method name: createMock
 	Class origin: org.easymock.EasyMock
 	Count: 2
  
+/gadgets/src/test/java/org/apache/shindig/gadgets/js/AddJslInfoVariableProcessorTest.java
+Methods Invoked: 
 	Method name: createMock
 	Class origin: org.easymock.EasyMock
 	Count: 2
  
+/gadgets/src/test/java/org/apache/shindig/gadgets/js/DefaultJsProcessorRegistryTest.java
+Methods Invoked: 
 	Method name: createControl
 	Class origin: org.easymock.EasyMock
 	Count: 1
@@ -342,6 +412,8 @@
 	Class origin: org.easymock.IMocksControl
 	Count: 5
  
+/gadgets/src/test/java/org/apache/shindig/gadgets/js/JsLoadProcessorTest.java
+Methods Invoked: 
 	Method name: createControl
 	Class origin: org.easymock.EasyMock
 	Count: 1
@@ -350,6 +422,8 @@
 	Class origin: org.easymock.IMocksControl
 	Count: 4
  
+/gadgets/src/test/java/org/apache/shindig/gadgets/js/CajaJsSubtractingProcessorTest.java
+Methods Invoked: 
 	Method name: createControl
 	Class origin: org.easymock.EasyMock
 	Count: 1
@@ -362,6 +436,8 @@
 	Class origin: org.easymock.IMocksControl
 	Count: 2
  
+/gadgets/src/test/java/org/apache/shindig/gadgets/js/IfModifiedSinceProcessorTest.java
+Methods Invoked: 
 	Method name: createControl
 	Class origin: org.easymock.EasyMock
 	Count: 1
@@ -370,6 +446,8 @@
 	Class origin: org.easymock.IMocksControl
 	Count: 2
  
+/gadgets/src/test/java/org/apache/shindig/gadgets/oauth/OAuthResponseParamsTest.java
+Methods Invoked: 
 	Method name: expect
 	Class origin: org.easymock.EasyMock
 	Count: 1
@@ -378,6 +456,8 @@
 	Class origin: org.easymock.EasyMock
 	Count: 1
  
+/gadgets/src/test/java/org/apache/shindig/gadgets/oauth/GadgetOAuthCallbackGeneratorTest.java
+Methods Invoked: 
 	Method name: createNiceControl
 	Class origin: org.easymock.EasyMock
 	Count: 1
@@ -386,6 +466,8 @@
 	Class origin: org.easymock.IMocksControl
 	Count: 4
  
+/gadgets/src/test/java/org/apache/shindig/gadgets/oauth2/OAuth2ArgumentsTest.java
+Methods Invoked: 
 	Method name: createNiceMock
 	Class origin: org.easymock.EasyMock
 	Count: 4
@@ -402,10 +484,14 @@
 	Class origin: org.easymock.IExpectationSetters<java.util.Map>
 	Count: 3
  
+/gadgets/src/test/java/org/apache/shindig/gadgets/oauth2/OAuth2FetcherConfigTest.java
+Methods Invoked: 
 	Method name: createNiceMock
 	Class origin: org.easymock.EasyMock
 	Count: 10
  
+/gadgets/src/test/java/org/apache/shindig/gadgets/oauth2/BasicOAuth2StoreTest.java
+Methods Invoked: 
 	Method name: createMockBuilder
 	Class origin: org.easymock.EasyMock
 	Count: 1
@@ -418,14 +504,20 @@
 	Class origin: org.easymock.EasyMock
 	Count: 7
  
+/gadgets/src/test/java/org/apache/shindig/gadgets/oauth2/handler/OAuth2HandlerModuleTest.java
+Methods Invoked: 
 	Method name: createNiceMock
 	Class origin: org.easymock.EasyMock
 	Count: 9
  
+/gadgets/src/test/java/org/apache/shindig/gadgets/oauth2/handler/CodeAuthorizationResponseHandlerTest.java
+Methods Invoked: 
 	Method name: createMock
 	Class origin: org.easymock.EasyMock
 	Count: 4
  
+/gadgets/src/test/java/org/apache/shindig/gadgets/preload/PipelinedDataPreloaderTest.java
+Methods Invoked: 
 	Method name: expect
 	Class origin: org.easymock.EasyMock
 	Count: 1
@@ -434,6 +526,8 @@
 	Class origin: org.easymock.EasyMock
 	Count: 1
  
+/gadgets/src/test/java/org/apache/shindig/gadgets/preload/PipelineExecutorTest.java
+Methods Invoked: 
 	Method name: createStrictControl
 	Class origin: org.easymock.EasyMock
 	Count: 1
@@ -466,6 +560,8 @@
 	Class origin: org.easymock.IMocksControl
 	Count: 5
  
+/gadgets/src/test/java/org/apache/shindig/gadgets/process/ProcessorTest.java
+Methods Invoked: 
 	Method name: andReturn
 	Class origin: org.easymock.IExpectationSetters<java.lang.Boolean>
 	Count: 8
@@ -478,6 +574,8 @@
 	Class origin: org.easymock.EasyMock
 	Count: 16
  
+/gadgets/src/test/java/org/apache/shindig/gadgets/render/DefaultServiceFetcherTest.java
+Methods Invoked: 
 	Method name: expect
 	Class origin: org.easymock.EasyMock
 	Count: 4
@@ -486,22 +584,32 @@
 	Class origin: org.easymock.EasyMock
 	Count: 4
  
+/gadgets/src/test/java/org/apache/shindig/gadgets/render/SanitizingProxyUriManagerTest.java
+Methods Invoked: 
 	Method name: createMock
 	Class origin: org.easymock.EasyMock
 	Count: 3
  
+/gadgets/src/test/java/org/apache/shindig/gadgets/render/SanitizingResponseRewriterTest.java
+Methods Invoked: 
 	Method name: replay
 	Class origin: org.easymock.IMocksControl
 	Count: 7
  
+/gadgets/src/test/java/org/apache/shindig/gadgets/render/CajaResponseRewriterTest.java
+Methods Invoked: 
 	Method name: replay
 	Class origin: org.easymock.IMocksControl
 	Count: 3
  
+/gadgets/src/test/java/org/apache/shindig/gadgets/render/RenderingGadgetRewriterTest.java
+Methods Invoked: 
 	Method name: createMock
 	Class origin: org.easymock.EasyMock
 	Count: 9
  
+/gadgets/src/test/java/org/apache/shindig/gadgets/rewrite/ImageAttributeRewriterTest.java
+Methods Invoked: 
 	Method name: createControl
 	Class origin: org.easymock.EasyMock
 	Count: 1
@@ -518,6 +626,8 @@
 	Class origin: org.easymock.EasyMock
 	Count: 2
  
+/gadgets/src/test/java/org/apache/shindig/gadgets/rewrite/RewriterTestBase.java
+Methods Invoked: 
 	Method name: createControl
 	Class origin: org.easymock.EasyMock
 	Count: 1
@@ -530,6 +640,8 @@
 	Class origin: org.easymock.EasyMock
 	Count: 6
  
+/gadgets/src/test/java/org/apache/shindig/gadgets/rewrite/DefaultContentRewriterRegistryTest.java
+Methods Invoked: 
 	Method name: createMock
 	Class origin: org.easymock.IMocksControl
 	Count: 1
@@ -550,10 +662,14 @@
 	Class origin: org.easymock.IMocksControl
 	Count: 1
  
+/gadgets/src/test/java/org/apache/shindig/gadgets/rewrite/BaseRewriterTestCase.java
+Methods Invoked: 
 	Method name: createControl
 	Class origin: org.easymock.EasyMock
 	Count: 1
  
+/gadgets/src/test/java/org/apache/shindig/gadgets/rewrite/DomWalkerTest.java
+Methods Invoked: 
 	Method name: createMock
 	Class origin: org.easymock.EasyMock
 	Count: 11
@@ -562,6 +678,8 @@
 	Class origin: org.easymock.EasyMock
 	Count: 38
  
+/gadgets/src/test/java/org/apache/shindig/gadgets/rewrite/PipelineDataGadgetRewriterTest.java
+Methods Invoked: 
 	Method name: createStrictControl
 	Class origin: org.easymock.EasyMock
 	Count: 1
@@ -594,18 +712,26 @@
 	Class origin: org.easymock.IMocksControl
 	Count: 4
  
+/gadgets/src/test/java/org/apache/shindig/gadgets/rewrite/StyleTagProxyEmbeddedUrlsVisitorTest.java
+Methods Invoked: 
 	Method name: replay
 	Class origin: org.easymock.EasyMock
 	Count: 2
  
+/gadgets/src/test/java/org/apache/shindig/gadgets/rewrite/OsTemplateXmlLoaderRewriterTest.java
+Methods Invoked: 
 	Method name: verify
 	Class origin: org.easymock.EasyMock
 	Count: 6
  
+/gadgets/src/test/java/org/apache/shindig/gadgets/rewrite/CacheEnforcementVisitorTest.java
+Methods Invoked: 
 	Method name: createMock
 	Class origin: org.easymock.EasyMock
 	Count: 4
  
+/gadgets/src/test/java/org/apache/shindig/gadgets/rewrite/ProxyingVisitorTest.java
+Methods Invoked: 
 	Method name: createMock
 	Class origin: org.easymock.EasyMock
 	Count: 4
@@ -622,14 +748,20 @@
 	Class origin: org.easymock.EasyMock
 	Count: 7
  
+/gadgets/src/test/java/org/apache/shindig/gadgets/rewrite/BaseTagRemoverRewriterTest.java
+Methods Invoked: 
 	Method name: replay
 	Class origin: org.easymock.IMocksControl
 	Count: 4
  
+/gadgets/src/test/java/org/apache/shindig/gadgets/rewrite/CssResponseRewriterTest.java
+Methods Invoked: 
 	Method name: replay
 	Class origin: org.easymock.IMocksControl
 	Count: 6
  
+/gadgets/src/test/java/org/apache/shindig/gadgets/rewrite/DomWalkerTestBase.java
+Methods Invoked: 
 	Method name: createMock
 	Class origin: org.easymock.EasyMock
 	Count: 4
@@ -638,10 +770,14 @@
 	Class origin: org.easymock.EasyMock
 	Count: 9
  
+/gadgets/src/test/java/org/apache/shindig/gadgets/rewrite/ContextAwareRegistryTest.java
+Methods Invoked: 
 	Method name: replay
 	Class origin: org.easymock.IMocksControl
 	Count: 1
  
+/gadgets/src/test/java/org/apache/shindig/gadgets/rewrite/StyleTagExtractorVisitorTest.java
+Methods Invoked: 
 	Method name: createMock
 	Class origin: org.easymock.EasyMock
 	Count: 5
@@ -654,10 +790,14 @@
 	Class origin: org.easymock.EasyMock
 	Count: 4
  
+/gadgets/src/test/java/org/apache/shindig/gadgets/rewrite/ImageResizeRewriterTest.java
+Methods Invoked: 
 	Method name: createMock
 	Class origin: org.easymock.EasyMock
 	Count: 2
  
+/gadgets/src/test/java/org/apache/shindig/gadgets/rewrite/image/ImageRewriterTest.java
+Methods Invoked: 
 	Method name: createControl
 	Class origin: org.easymock.EasyMock
 	Count: 1
@@ -686,6 +826,8 @@
 	Class origin: org.easymock.IExpectationSetters<java.lang.Integer>
 	Count: 3
  
+/gadgets/src/test/java/org/apache/shindig/gadgets/rewrite/js/DefaultJsCompilerTest.java
+Methods Invoked: 
 	Method name: createMock
 	Class origin: org.easymock.EasyMock
 	Count: 3
@@ -706,14 +848,18 @@
 	Class origin: org.easymock.EasyMock
 	Count: 3
  
+/gadgets/src/test/java/org/apache/shindig/gadgets/rewrite/js/ClosureJsCompilerTest.java
+Methods Invoked: 
 	Method name: createMock
 	Class origin: org.easymock.EasyMock
-	Count: 7
+	Count: 9
  
 	Method name: makeThreadSafe
 	Class origin: org.easymock.EasyMock
 	Count: 1
  
+/gadgets/src/test/java/org/apache/shindig/gadgets/servlet/OAuthCallbackServletTest.java
+Methods Invoked: 
 	Method name: andReturn
 	Class origin: org.easymock.IExpectationSetters<java.lang.String>
 	Count: 4
@@ -722,6 +868,8 @@
 	Class origin: org.easymock.EasyMock
 	Count: 4
  
+/gadgets/src/test/java/org/apache/shindig/gadgets/servlet/ProxyServletTest.java
+Methods Invoked: 
 	Method name: andReturn
 	Class origin: org.easymock.IExpectationSetters<java.lang.String>
 	Count: 21
@@ -730,6 +878,8 @@
 	Class origin: org.easymock.EasyMock
 	Count: 43
  
+/gadgets/src/test/java/org/apache/shindig/gadgets/servlet/ConcatProxyServletTest.java
+Methods Invoked: 
 	Method name: anyTimes
 	Class origin: org.easymock.IExpectationSetters<java.lang.String>
 	Count: 5
@@ -750,6 +900,8 @@
 	Class origin: org.easymock.IExpectationSetters<java.lang.Boolean>
 	Count: 1
  
+/gadgets/src/test/java/org/apache/shindig/gadgets/servlet/GadgetsHandlerTest.java
+Methods Invoked: 
 	Method name: anyTimes
 	Class origin: org.easymock.IExpectationSetters<java.util.List<java.lang.String>>
 	Count: 2
@@ -766,6 +918,8 @@
 	Class origin: org.easymock.EasyMock
 	Count: 7
  
+/gadgets/src/test/java/org/apache/shindig/gadgets/servlet/HtmlAccelServletTest.java
+Methods Invoked: 
 	Method name: anyTimes
 	Class origin: org.easymock.IExpectationSetters<java.lang.String>
 	Count: 12
@@ -778,6 +932,8 @@
 	Class origin: org.easymock.EasyMock
 	Count: 32
  
+/gadgets/src/test/java/org/apache/shindig/gadgets/servlet/JsServletTest.java
+Methods Invoked: 
 	Method name: andReturn
 	Class origin: org.easymock.IExpectationSetters<java.lang.String>
 	Count: 9
@@ -790,6 +946,8 @@
 	Class origin: org.easymock.IExpectationSetters<java.lang.Integer>
 	Count: 2
  
+/gadgets/src/test/java/org/apache/shindig/gadgets/servlet/GadgetRenderingServletTest.java
+Methods Invoked: 
 	Method name: createNiceControl
 	Class origin: org.easymock.EasyMock
 	Count: 1
@@ -798,6 +956,8 @@
 	Class origin: org.easymock.IMocksControl
 	Count: 4
  
+/gadgets/src/test/java/org/apache/shindig/gadgets/servlet/ETagFilterTest.java
+Methods Invoked: 
 	Method name: createControl
 	Class origin: org.easymock.EasyMock
 	Count: 1
@@ -806,6 +966,8 @@
 	Class origin: org.easymock.IMocksControl
 	Count: 2
  
+/gadgets/src/test/java/org/apache/shindig/gadgets/servlet/ETaggingHttpResponseTest.java
+Methods Invoked: 
 	Method name: createControl
 	Class origin: org.easymock.EasyMock
 	Count: 1
@@ -814,6 +976,8 @@
 	Class origin: org.easymock.IMocksControl
 	Count: 2
  
+/gadgets/src/test/java/org/apache/shindig/gadgets/servlet/GadgetsHandlerServiceTest.java
+Methods Invoked: 
 	Method name: anyTimes
 	Class origin: org.easymock.IExpectationSetters<java.lang.Boolean>
 	Count: 1
@@ -834,21 +998,35 @@
 	Class origin: org.easymock.IExpectationSetters<java.util.Set<java.lang.String>>
 	Count: 1
  
+/gadgets/src/test/java/org/apache/shindig/gadgets/servlet/HttpRequestHandlerTest.java
+Methods Invoked: 
 	Method name: expect
 	Class origin: org.easymock.EasyMock
 	Count: 28
  
+/gadgets/src/test/java/org/apache/shindig/gadgets/servlet/ProxyHandlerTest.java
+Methods Invoked: 
 	Method name: expect
 	Class origin: org.easymock.EasyMock
 	Count: 15
  
+/gadgets/src/test/java/org/apache/shindig/gadgets/servlet/RpcServletTest.java
+Methods Invoked: 
 	Method name: createMock
 	Class origin: org.easymock.EasyMock
 	Count: 4
  
+	Method name: andReturn
+	Class origin: org.easymock.IExpectationSetters<org.json.JSONObject>
+	Count: 2
+ 
 	Method name: expect
 	Class origin: org.easymock.EasyMock
 	Count: 9
+ 
+	Method name: isA
+	Class origin: org.easymock.EasyMock
+	Count: 4
  
 	Method name: replay
 	Class origin: org.easymock.EasyMock
@@ -858,10 +1036,14 @@
 	Class origin: org.easymock.EasyMock
 	Count: 7
  
+/gadgets/src/test/java/org/apache/shindig/gadgets/servlet/MakeRequestHandlerTest.java
+Methods Invoked: 
 	Method name: expect
 	Class origin: org.easymock.EasyMock
 	Count: 68
  
+/gadgets/src/test/java/org/apache/shindig/gadgets/servlet/MakeRequestServletTest.java
+Methods Invoked: 
 	Method name: expect
 	Class origin: org.easymock.EasyMock
 	Count: 14
@@ -878,6 +1060,8 @@
 	Class origin: org.easymock.IExpectationSetters<java.util.Enumeration>
 	Count: 1
  
+/gadgets/src/test/java/org/apache/shindig/gadgets/servlet/ServletUtilTest.java
+Methods Invoked: 
 	Method name: createMock
 	Class origin: org.easymock.EasyMock
 	Count: 5
@@ -890,10 +1074,14 @@
 	Class origin: org.easymock.EasyMock
 	Count: 11
  
+/gadgets/src/test/java/org/apache/shindig/gadgets/servlet/CajaContentRewriterTest.java
+Methods Invoked: 
 	Method name: createNiceMock
 	Class origin: org.easymock.EasyMock
 	Count: 4
  
+/gadgets/src/test/java/org/apache/shindig/gadgets/servlet/HttpGadgetContextTest.java
+Methods Invoked: 
 	Method name: andReturn
 	Class origin: org.easymock.IExpectationSetters<java.lang.String>
 	Count: 8
@@ -902,6 +1090,8 @@
 	Class origin: org.easymock.EasyMock
 	Count: 9
  
+/gadgets/src/test/java/org/apache/shindig/gadgets/templates/tags/IfTagHandlerTest.java
+Methods Invoked: 
 	Method name: createMock
 	Class origin: org.easymock.EasyMock
 	Count: 1
@@ -922,6 +1112,8 @@
 	Class origin: org.easymock.EasyMock
 	Count: 1
  
+/gadgets/src/test/java/org/apache/shindig/gadgets/templates/tags/AbstractTagHandlerTest.java
+Methods Invoked: 
 	Method name: createMock
 	Class origin: org.easymock.EasyMock
 	Count: 1
@@ -938,6 +1130,8 @@
 	Class origin: org.easymock.EasyMock
 	Count: 2
  
+/gadgets/src/test/java/org/apache/shindig/gadgets/templates/tags/RepeatTagHandlerTest.java
+Methods Invoked: 
 	Method name: createMock
 	Class origin: org.easymock.EasyMock
 	Count: 1
@@ -958,6 +1152,8 @@
 	Class origin: org.easymock.EasyMock
 	Count: 3
  
+/gadgets/src/test/java/org/apache/shindig/gadgets/templates/tags/FlashTagHandlerTest.java
+Methods Invoked: 
 	Method name: expect
 	Class origin: org.easymock.EasyMock
 	Count: 7
@@ -966,14 +1162,20 @@
 	Class origin: org.easymock.EasyMock
 	Count: 1
  
+/gadgets/src/test/java/org/apache/shindig/gadgets/uri/DefaultProxyUriManagerTest.java
+Methods Invoked: 
 	Method name: expect
 	Class origin: org.easymock.EasyMock
 	Count: 5
  
+/gadgets/src/test/java/org/apache/shindig/gadgets/uri/DefaultConcatUriManagerTest.java
+Methods Invoked: 
 	Method name: expect
 	Class origin: org.easymock.EasyMock
 	Count: 5
  
+/gadgets/src/test/java/org/apache/shindig/gadgets/uri/DefaultJsVersionerTest.java
+Methods Invoked: 
 	Method name: createMock
 	Class origin: org.easymock.EasyMock
 	Count: 2
@@ -986,14 +1188,20 @@
 	Class origin: org.easymock.EasyMock
 	Count: 6
  
+/gadgets/src/test/java/org/apache/shindig/gadgets/uri/UriManagerTestBase.java
+Methods Invoked: 
 	Method name: createMock
 	Class origin: org.easymock.EasyMock
 	Count: 7
  
+/gadgets/src/test/java/org/apache/shindig/gadgets/uri/AllJsIframeVersionerTest.java
+Methods Invoked: 
 	Method name: createMock
 	Class origin: org.easymock.EasyMock
 	Count: 2
  
+/gadgets/src/test/java/org/apache/shindig/gadgets/uri/DefaultIframeUriManagerTest.java
+Methods Invoked: 
 	Method name: createMock
 	Class origin: org.easymock.EasyMock
 	Count: 1
@@ -1006,18 +1214,26 @@
 	Class origin: org.easymock.EasyMock
 	Count: 3
  
+/gadgets/src/test/java/org/apache/shindig/gadgets/uri/DefaultJsUriManagerTest.java
+Methods Invoked: 
 	Method name: expect
 	Class origin: org.easymock.EasyMock
 	Count: 25
  
+/gadgets/src/test/java/org/apache/shindig/gadgets/uri/DefaultOAuthUriManagerTest.java
+Methods Invoked: 
 	Method name: verify
 	Class origin: org.easymock.EasyMock
 	Count: 3
  
+/social-api/src/test/java/org/apache/shindig/social/core/config/SocialApiGuiceModuleTest.java
+Methods Invoked: 
 	Method name: createMock
 	Class origin: org.easymock.EasyMock
 	Count: 2
  
+/social-api/src/test/java/org/apache/shindig/social/core/oauth/OAuth2ImplicitFlowTest.java
+Methods Invoked: 
 	Method name: eq
 	Class origin: org.easymock.EasyMock
 	Count: 4
@@ -1046,6 +1262,8 @@
 	Class origin: org.easymock.IExpectationSetters<java.io.PrintWriter>
 	Count: 4
  
+/social-api/src/test/java/org/apache/shindig/social/core/oauth/OAuth2ClientCredentialFlowTest.java
+Methods Invoked: 
 	Method name: eq
 	Class origin: org.easymock.EasyMock
 	Count: 2
@@ -1070,6 +1288,8 @@
 	Class origin: org.easymock.IExpectationSetters<java.io.PrintWriter>
 	Count: 4
  
+/social-api/src/test/java/org/apache/shindig/social/core/oauth/OAuthAuthenticationHanderTest.java
+Methods Invoked: 
 	Method name: expect
 	Class origin: org.easymock.EasyMock
 	Count: 3
@@ -1086,6 +1306,8 @@
 	Class origin: org.easymock.IExpectationSetters<net.oauth.OAuthConsumer>
 	Count: 1
  
+/social-api/src/test/java/org/apache/shindig/social/core/oauth/OAuth2AuthCodeFlowTest.java
+Methods Invoked: 
 	Method name: anyTimes
 	Class origin: org.easymock.IExpectationSetters<javax.servlet.ServletOutputStream>
 	Count: 18
@@ -1106,10 +1328,14 @@
 	Class origin: org.easymock.IExpectationSetters<java.io.PrintWriter>
 	Count: 18
  
+/social-api/src/test/java/org/apache/shindig/social/core/oauth2/OAuth2ServiceImplTest.java
+Methods Invoked: 
 	Method name: createMock
 	Class origin: org.easymock.EasyMock
 	Count: 1
  
+/social-api/src/test/java/org/apache/shindig/social/dataservice/integration/AbstractLargeRestfulTests.java
+Methods Invoked: 
 	Method name: createMock
 	Class origin: org.easymock.EasyMock
 	Count: 2
@@ -1130,6 +1356,8 @@
 	Class origin: org.easymock.EasyMock
 	Count: 2
  
+/social-api/src/test/java/org/apache/shindig/social/opensocial/service/ActivityHandlerTest.java
+Methods Invoked: 
 	Method name: expect
 	Class origin: org.easymock.EasyMock
 	Count: 6
@@ -1138,6 +1366,8 @@
 	Class origin: org.easymock.EasyMock
 	Count: 28
  
+/social-api/src/test/java/org/apache/shindig/social/opensocial/service/ActivityStreamHandlerTest.java
+Methods Invoked: 
 	Method name: expect
 	Class origin: org.easymock.EasyMock
 	Count: 10
@@ -1146,6 +1376,8 @@
 	Class origin: org.easymock.EasyMock
 	Count: 45
  
+/social-api/src/test/java/org/apache/shindig/social/opensocial/service/PersonHandlerTest.java
+Methods Invoked: 
 	Method name: expect
 	Class origin: org.easymock.EasyMock
 	Count: 9
@@ -1154,6 +1386,8 @@
 	Class origin: org.easymock.EasyMock
 	Count: 36
  
+/social-api/src/test/java/org/apache/shindig/social/opensocial/service/AppDataHandlerTest.java
+Methods Invoked: 
 	Method name: expect
 	Class origin: org.easymock.EasyMock
 	Count: 8
@@ -1162,6 +1396,8 @@
 	Class origin: org.easymock.EasyMock
 	Count: 32
  
+/social-api/src/test/java/org/apache/shindig/social/opensocial/service/MessageHandlerTest.java
+Methods Invoked: 
 	Method name: createMock
 	Class origin: org.easymock.EasyMock
 	Count: 3

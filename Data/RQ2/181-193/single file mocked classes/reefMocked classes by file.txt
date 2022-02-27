@@ -1,0 +1,19 @@
+/reef-common/src/test/java/org/apache/reef/runtime/common/driver/EvaluatorRequestorImplTest.java
+	org.apache.reef.driver.catalog.ResourceCatalog
+/reef-io/src/test/java/org/apache/reef/io/network/group/impl/utils/ScatterCodecTest.java
+	org.apache.reef.io.network.group.api.task.CommunicationGroupServiceClient
+/reef-runtime-azbatch/src/test/java/org/apache/reef/runtime/azbatch/CommandBuilderTests.java
+	org.apache.reef.runtime.common.files.RuntimeClasspathProvider
+	org.apache.reef.runtime.common.client.api.JobSubmissionEvent
+	org.apache.reef.runtime.common.client.api.JobSubmissionEvent
+/reef-runtime-local/src/test/java/org/apache/reef/runtime/local/driver/ResourceManagerTest.java
+	org.apache.reef.wake.EventHandler
+	org.apache.reef.wake.EventHandler
+	org.apache.reef.wake.EventHandler
+	org.apache.reef.wake.EventHandler
+/reef-runtime-yarn/src/test/java/org/apache/reef/runtime/yarn/driver/YarnResourceRequestHandlerTest.java
+	org.apache.reef.driver.catalog.ResourceCatalog
+/reef-vortex/src/test/java/org/apache/reef/vortex/driver/TestUtil.java
+	org.apache.reef.vortex.driver.VortexMaster
+	org.apache.reef.driver.task.RunningTask
+	org.apache.reef.vortex.driver.VortexRequestor

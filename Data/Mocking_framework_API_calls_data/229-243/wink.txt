@@ -1,0 +1,1824 @@
+/HelloWorld/src/test/java/org/apache/wink/example/helloworld/HelloWorldTest.java
+Methods Invoked: 
+	Method name: getStatus
+	Class origin: org.springframework.mock.web.MockHttpServletResponse
+	Count: 1
+ 
+	Method name: getContentType
+	Class origin: org.springframework.mock.web.MockHttpServletResponse
+	Count: 1
+ 
+	Method name: setCharacterEncoding
+	Class origin: org.springframework.mock.web.MockHttpServletResponse
+	Count: 1
+ 
+	Method name: getContentAsString
+	Class origin: org.springframework.mock.web.MockHttpServletResponse
+	Count: 1
+ 
+	Method name: setMethod
+	Class origin: org.springframework.mock.web.MockHttpServletRequest
+	Count: 1
+ 
+	Method name: setRequestURI
+	Class origin: org.springframework.mock.web.MockHttpServletRequest
+	Count: 1
+ 
+	Method name: addHeader
+	Class origin: org.springframework.mock.web.MockHttpServletRequest
+	Count: 1
+ 
+/History/src/test/java/org/apache/wink/example/history/HistoryTest.java
+Methods Invoked: 
+	Method name: getStatus
+	Class origin: org.springframework.mock.web.MockHttpServletResponse
+	Count: 14
+ 
+	Method name: getContentAsString
+	Class origin: org.springframework.mock.web.MockHttpServletResponse
+	Count: 10
+ 
+/Jaxb/src/test/java/org/apache/wink/example/jaxb/JaxbTest.java
+Methods Invoked: 
+	Method name: getStatus
+	Class origin: org.springframework.mock.web.MockHttpServletResponse
+	Count: 15
+ 
+	Method name: getContentAsString
+	Class origin: org.springframework.mock.web.MockHttpServletResponse
+	Count: 12
+ 
+/MultiPart/src/test/java/org/apache/wink/example/multipart/MultiPartTest.java
+Methods Invoked: 
+	Method name: getContentType
+	Class origin: org.springframework.mock.web.MockHttpServletResponse
+	Count: 1
+ 
+	Method name: getContentAsString
+	Class origin: org.springframework.mock.web.MockHttpServletResponse
+	Count: 2
+ 
+	Method name: getStatus
+	Class origin: org.springframework.mock.web.MockHttpServletResponse
+	Count: 2
+ 
+/Preconditions/src/test/java/org/apache/wink/example/locking/PreconditionsTest.java
+Methods Invoked: 
+	Method name: getStatus
+	Class origin: org.springframework.mock.web.MockHttpServletResponse
+	Count: 12
+ 
+	Method name: getContentAsString
+	Class origin: org.springframework.mock.web.MockHttpServletResponse
+	Count: 1
+ 
+	Method name: getHeader
+	Class origin: org.springframework.mock.web.MockHttpServletResponse
+	Count: 3
+ 
+/QADefect/src/test/java/org/apache/wink/example/qadefect/resources/ContentDispositionTest.java
+Methods Invoked: 
+	Method name: getStatus
+	Class origin: org.springframework.mock.web.MockHttpServletResponse
+	Count: 1
+ 
+	Method name: getHeader
+	Class origin: org.springframework.mock.web.MockHttpServletResponse
+	Count: 1
+ 
+/wink-abdera-provider/src/test/java/org/apache/wink/providers/abdera/internal/AbderaAtomFeedProviderTest.java
+Methods Invoked: 
+	Method name: getStatus
+	Class origin: org.springframework.mock.web.MockHttpServletResponse
+	Count: 3
+ 
+	Method name: getContentAsByteArray
+	Class origin: org.springframework.mock.web.MockHttpServletResponse
+	Count: 2
+ 
+/wink-abdera-provider/src/test/java/org/apache/wink/providers/abdera/internal/AbderaAtomEntryProviderTest.java
+Methods Invoked: 
+	Method name: getStatus
+	Class origin: org.springframework.mock.web.MockHttpServletResponse
+	Count: 3
+ 
+	Method name: getContentAsByteArray
+	Class origin: org.springframework.mock.web.MockHttpServletResponse
+	Count: 2
+ 
+/wink-client-apache-httpclient/src/test/java/org/apache/wink/client/ApacheClientTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.jmock.Mockery
+	Count: 1
+ 
+	Method name: checking
+	Class origin: org.jmock.Mockery
+	Count: 1
+ 
+	Method name: allowing
+	Class origin: org.jmock.Expectations
+	Count: 1
+ 
+	Method name: will
+	Class origin: org.jmock.Expectations
+	Count: 1
+ 
+	Method name: returnValue
+	Class origin: org.jmock.Expectations
+	Count: 1
+ 
+/wink-client-asynchttpclient/src/test/java/org/apache/wink/client/ClientTestSupport.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.jmock.Mockery
+	Count: 1
+ 
+	Method name: checking
+	Class origin: org.jmock.Mockery
+	Count: 1
+ 
+	Method name: allowing
+	Class origin: org.jmock.Expectations
+	Count: 1
+ 
+	Method name: will
+	Class origin: org.jmock.Expectations
+	Count: 1
+ 
+	Method name: returnValue
+	Class origin: org.jmock.Expectations
+	Count: 1
+ 
+/wink-common/src/test/java/org/apache/wink/common/internal/providers/entity/SourceProviderTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.jmock.integration.junit3.MockObjectTestCase
+	Count: 3
+ 
+/wink-common/src/test/java/org/apache/wink/common/internal/providers/entity/xml/AbstractJAXBProviderTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.jmock.integration.junit3.MockObjectTestCase
+	Count: 2
+ 
+/wink-common/src/test/java/org/apache/wink/common/internal/providers/jaxb/ProvidersJAXBTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.jmock.integration.junit3.MockObjectTestCase
+	Count: 3
+ 
+/wink-common/src/test/java/org/apache/wink/common/internal/providers/jaxb/AbstractJAXBCollectionProviderTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.jmock.integration.junit3.MockObjectTestCase
+	Count: 3
+ 
+/wink-common/src/test/java/org/apache/wink/common/model/wadl/WADLGeneratorTest.java
+Methods Invoked: 
+	Method name: setImposteriser
+	Class origin: org.jmock.Mockery
+	Count: 4
+ 
+	Method name: mock
+	Class origin: org.jmock.Mockery
+	Count: 7
+ 
+	Method name: checking
+	Class origin: org.jmock.Mockery
+	Count: 4
+ 
+	Method name: oneOf
+	Class origin: org.jmock.Expectations
+	Count: 20
+ 
+	Method name: will
+	Class origin: org.jmock.Expectations
+	Count: 22
+ 
+	Method name: returnValue
+	Class origin: org.jmock.Expectations
+	Count: 22
+ 
+/wink-common/src/test/java/org/apache/wink/common/model/wadl/BuildParamTest.java
+Methods Invoked: 
+	Method name: setImposteriser
+	Class origin: org.jmock.Mockery
+	Count: 1
+ 
+	Method name: mock
+	Class origin: org.jmock.Mockery
+	Count: 1
+ 
+	Method name: checking
+	Class origin: org.jmock.Mockery
+	Count: 18
+ 
+	Method name: oneOf
+	Class origin: org.jmock.Expectations
+	Count: 54
+ 
+	Method name: will
+	Class origin: org.jmock.Expectations
+	Count: 54
+ 
+	Method name: returnValue
+	Class origin: org.jmock.Expectations
+	Count: 54
+ 
+/wink-common/src/test/java/org/apache/wink/common/model/wadl/BuildResponseTest.java
+Methods Invoked: 
+	Method name: setImposteriser
+	Class origin: org.jmock.Mockery
+	Count: 1
+ 
+	Method name: mock
+	Class origin: org.jmock.Mockery
+	Count: 1
+ 
+	Method name: checking
+	Class origin: org.jmock.Mockery
+	Count: 2
+ 
+	Method name: assertIsSatisfied
+	Class origin: org.jmock.Mockery
+	Count: 2
+ 
+/wink-common/src/test/java/org/apache/wink/common/model/wadl/BuildRepresentationTest.java
+Methods Invoked: 
+	Method name: setImposteriser
+	Class origin: org.jmock.Mockery
+	Count: 1
+ 
+	Method name: mock
+	Class origin: org.jmock.Mockery
+	Count: 6
+ 
+/wink-component-test-support/src/main/java/org/apache/wink/server/internal/servlet/MockServletInvocationTest.java
+Methods Invoked: 
+	Method name: addInitParameter
+	Class origin: org.springframework.mock.web.MockServletConfig
+	Count: 3
+ 
+/wink-component-test-support/src/main/java/org/apache/wink/test/mock/SpringMockServletInvocationTest.java
+Methods Invoked: 
+/wink-component-test-support/src/main/java/org/apache/wink/test/mock/MockHttpServletRequestWrapper.java
+Methods Invoked: 
+	Method name: getCharacterEncoding
+	Class origin: org.springframework.mock.web.MockHttpServletRequest
+	Count: 3
+ 
+/wink-component-test-support/src/main/java/org/apache/wink/test/mock/SpringAwareTestCase.java
+Methods Invoked: 
+	Method name: addInitParameter
+	Class origin: org.springframework.mock.web.MockServletContext
+	Count: 1
+ 
+/wink-component-test-support/src/main/java/org/apache/wink/test/mock/MockRequestConstructor.java
+Methods Invoked: 
+	Method name: setMethod
+	Class origin: org.springframework.mock.web.MockHttpServletRequest
+	Count: 1
+ 
+	Method name: setRequestURI
+	Class origin: org.springframework.mock.web.MockHttpServletRequest
+	Count: 1
+ 
+	Method name: addHeader
+	Class origin: org.springframework.mock.web.MockHttpServletRequest
+	Count: 1
+ 
+	Method name: setContentType
+	Class origin: org.springframework.mock.web.MockHttpServletRequest
+	Count: 1
+ 
+	Method name: setContent
+	Class origin: org.springframework.mock.web.MockHttpServletRequest
+	Count: 1
+ 
+	Method name: setAttribute
+	Class origin: org.springframework.mock.web.MockHttpServletRequest
+	Count: 1
+ 
+	Method name: setParameters
+	Class origin: org.springframework.mock.web.MockHttpServletRequest
+	Count: 1
+ 
+/wink-component-test-support/src/test/java/org/apache/wink/test/mock/MockHttpServletRequestWrapperTestCase.java
+Methods Invoked: 
+	Method name: setQueryString
+	Class origin: org.springframework.mock.web.MockHttpServletRequest
+	Count: 1
+ 
+	Method name: getParameter
+	Class origin: org.springframework.mock.web.MockHttpServletRequest
+	Count: 4
+ 
+/wink-jackson-provider/src/test/java/org/apache/wink/providers/jackson/internal/JacksonPOJOTest.java
+Methods Invoked: 
+	Method name: getStatus
+	Class origin: org.springframework.mock.web.MockHttpServletResponse
+	Count: 10
+ 
+	Method name: getContentAsString
+	Class origin: org.springframework.mock.web.MockHttpServletResponse
+	Count: 10
+ 
+	Method name: setContentType
+	Class origin: org.springframework.mock.web.MockHttpServletRequest
+	Count: 5
+ 
+	Method name: setContent
+	Class origin: org.springframework.mock.web.MockHttpServletRequest
+	Count: 5
+ 
+/wink-jackson-provider/src/test/java/org/apache/wink/providers/jackson/internal/JacksonSerializationConfiguration1Test.java
+Methods Invoked: 
+	Method name: getStatus
+	Class origin: org.springframework.mock.web.MockHttpServletResponse
+	Count: 1
+ 
+	Method name: getContentAsString
+	Class origin: org.springframework.mock.web.MockHttpServletResponse
+	Count: 1
+ 
+/wink-jackson-provider/src/test/java/org/apache/wink/providers/jackson/internal/JacksonSerializationConfiguration2Test.java
+Methods Invoked: 
+	Method name: setQueryString
+	Class origin: org.springframework.mock.web.MockHttpServletRequest
+	Count: 1
+ 
+	Method name: getStatus
+	Class origin: org.springframework.mock.web.MockHttpServletResponse
+	Count: 1
+ 
+	Method name: getContentAsString
+	Class origin: org.springframework.mock.web.MockHttpServletResponse
+	Count: 2
+ 
+/wink-jackson-provider/src/test/java/org/apache/wink/providers/jackson/internal/JacksonJSON4JBattleTest.java
+Methods Invoked: 
+	Method name: getStatus
+	Class origin: org.springframework.mock.web.MockHttpServletResponse
+	Count: 1
+ 
+	Method name: getContentAsString
+	Class origin: org.springframework.mock.web.MockHttpServletResponse
+	Count: 1
+ 
+/wink-jackson-provider/src/test/java/org/apache/wink/providers/jackson/internal/JacksonJSON4JInteroperabilityTest.java
+Methods Invoked: 
+	Method name: getStatus
+	Class origin: org.springframework.mock.web.MockHttpServletResponse
+	Count: 1
+ 
+	Method name: getContentAsString
+	Class origin: org.springframework.mock.web.MockHttpServletResponse
+	Count: 1
+ 
+	Method name: getContentAsByteArray
+	Class origin: org.springframework.mock.web.MockHttpServletResponse
+	Count: 1
+ 
+/wink-jackson-provider/src/test/java/org/apache/wink/providers/jackson/internal/JAXBCollectionJSONTest.java
+Methods Invoked: 
+	Method name: getStatus
+	Class origin: org.springframework.mock.web.MockHttpServletResponse
+	Count: 8
+ 
+	Method name: getContentAsString
+	Class origin: org.springframework.mock.web.MockHttpServletResponse
+	Count: 8
+ 
+/wink-jackson-provider/src/test/java/org/apache/wink/providers/jackson/internal/JacksonDeserializationConfiguration2Test.java
+Methods Invoked: 
+	Method name: setContentType
+	Class origin: org.springframework.mock.web.MockHttpServletRequest
+	Count: 2
+ 
+	Method name: setContent
+	Class origin: org.springframework.mock.web.MockHttpServletRequest
+	Count: 2
+ 
+	Method name: getStatus
+	Class origin: org.springframework.mock.web.MockHttpServletResponse
+	Count: 2
+ 
+/wink-jackson-provider/src/test/java/org/apache/wink/providers/jackson/internal/JacksonDeserializationConfigurationTest.java
+Methods Invoked: 
+	Method name: setContentType
+	Class origin: org.springframework.mock.web.MockHttpServletRequest
+	Count: 2
+ 
+	Method name: setContent
+	Class origin: org.springframework.mock.web.MockHttpServletRequest
+	Count: 2
+ 
+/wink-jackson-provider/src/test/java/org/apache/wink/providers/jackson/internal/JacksonDeserializationConfiguration3Test.java
+Methods Invoked: 
+	Method name: setContentType
+	Class origin: org.springframework.mock.web.MockHttpServletRequest
+	Count: 1
+ 
+	Method name: setContent
+	Class origin: org.springframework.mock.web.MockHttpServletRequest
+	Count: 1
+ 
+	Method name: getStatus
+	Class origin: org.springframework.mock.web.MockHttpServletResponse
+	Count: 1
+ 
+	Method name: getContentAsString
+	Class origin: org.springframework.mock.web.MockHttpServletResponse
+	Count: 2
+ 
+/wink-jackson-provider/src/test/java/org/apache/wink/providers/jackson/internal/JacksonJAXBTest.java
+Methods Invoked: 
+	Method name: getStatus
+	Class origin: org.springframework.mock.web.MockHttpServletResponse
+	Count: 5
+ 
+	Method name: getContentAsString
+	Class origin: org.springframework.mock.web.MockHttpServletResponse
+	Count: 6
+ 
+	Method name: setContentType
+	Class origin: org.springframework.mock.web.MockHttpServletRequest
+	Count: 2
+ 
+	Method name: setContent
+	Class origin: org.springframework.mock.web.MockHttpServletRequest
+	Count: 2
+ 
+/wink-jackson-provider/src/test/java/org/apache/wink/providers/jackson/internal/PolymorphicTest.java
+Methods Invoked: 
+	Method name: getStatus
+	Class origin: org.springframework.mock.web.MockHttpServletResponse
+	Count: 3
+ 
+	Method name: getContentAsString
+	Class origin: org.springframework.mock.web.MockHttpServletResponse
+	Count: 5
+ 
+/wink-jettison-provider/src/test/java/org/apache/wink/providers/jettison/internal/JettisonJAXBContextResolverTest.java
+Methods Invoked: 
+	Method name: setContentType
+	Class origin: org.springframework.mock.web.MockHttpServletRequest
+	Count: 1
+ 
+	Method name: setContent
+	Class origin: org.springframework.mock.web.MockHttpServletRequest
+	Count: 1
+ 
+	Method name: getStatus
+	Class origin: org.springframework.mock.web.MockHttpServletResponse
+	Count: 1
+ 
+	Method name: getContentAsString
+	Class origin: org.springframework.mock.web.MockHttpServletResponse
+	Count: 1
+ 
+/wink-jettison-provider/src/test/java/org/apache/wink/providers/jettison/internal/JettisonJAXBMappedTest.java
+Methods Invoked: 
+	Method name: getStatus
+	Class origin: org.springframework.mock.web.MockHttpServletResponse
+	Count: 6
+ 
+	Method name: getContentAsString
+	Class origin: org.springframework.mock.web.MockHttpServletResponse
+	Count: 6
+ 
+	Method name: setContentType
+	Class origin: org.springframework.mock.web.MockHttpServletRequest
+	Count: 3
+ 
+	Method name: setContent
+	Class origin: org.springframework.mock.web.MockHttpServletRequest
+	Count: 3
+ 
+/wink-jettison-provider/src/test/java/org/apache/wink/providers/jettison/internal/JettisonJAXBBadgerFishTest.java
+Methods Invoked: 
+	Method name: getStatus
+	Class origin: org.springframework.mock.web.MockHttpServletResponse
+	Count: 8
+ 
+	Method name: getContentAsString
+	Class origin: org.springframework.mock.web.MockHttpServletResponse
+	Count: 16
+ 
+	Method name: setContentType
+	Class origin: org.springframework.mock.web.MockHttpServletRequest
+	Count: 5
+ 
+	Method name: setContent
+	Class origin: org.springframework.mock.web.MockHttpServletRequest
+	Count: 5
+ 
+/wink-json-provider/src/test/java/org/apache/wink/providers/json/internal/JsonProviderTest.java
+Methods Invoked: 
+	Method name: getStatus
+	Class origin: org.springframework.mock.web.MockHttpServletResponse
+	Count: 12
+ 
+	Method name: getContentAsString
+	Class origin: org.springframework.mock.web.MockHttpServletResponse
+	Count: 12
+ 
+/wink-json4j-provider/src/test/java/org/apache/wink/providers/json/internal/Json4JProviderTest.java
+Methods Invoked: 
+	Method name: getStatus
+	Class origin: org.springframework.mock.web.MockHttpServletResponse
+	Count: 4
+ 
+	Method name: getContentAsString
+	Class origin: org.springframework.mock.web.MockHttpServletResponse
+	Count: 4
+ 
+/wink-protobuf-provider/src/test/java/org/apache/wink/providers/protobuf/ProtobufTest.java
+Methods Invoked: 
+	Method name: getStatus
+	Class origin: org.springframework.mock.web.MockHttpServletResponse
+	Count: 2
+ 
+	Method name: getContentAsByteArray
+	Class origin: org.springframework.mock.web.MockHttpServletResponse
+	Count: 2
+ 
+	Method name: setContentType
+	Class origin: org.springframework.mock.web.MockHttpServletRequest
+	Count: 1
+ 
+	Method name: setContent
+	Class origin: org.springframework.mock.web.MockHttpServletRequest
+	Count: 1
+ 
+/wink-server/src/test/java/org/apache/wink/server/DispatchErrorTest.java
+Methods Invoked: 
+	Method name: getStatus
+	Class origin: org.springframework.mock.web.MockHttpServletResponse
+	Count: 4
+ 
+/wink-server/src/test/java/org/apache/wink/server/QueryTest.java
+Methods Invoked: 
+	Method name: getContentAsString
+	Class origin: org.springframework.mock.web.MockHttpServletResponse
+	Count: 4
+ 
+	Method name: setQueryString
+	Class origin: org.springframework.mock.web.MockHttpServletRequest
+	Count: 3
+ 
+/wink-server/src/test/java/org/apache/wink/server/AbstractResourceBeanTest.java
+Methods Invoked: 
+	Method name: getContentAsString
+	Class origin: org.springframework.mock.web.MockHttpServletResponse
+	Count: 10
+ 
+/wink-server/src/test/java/org/apache/wink/server/AbstractResourceWithDuplicateWorkspaceTest.java
+Methods Invoked: 
+	Method name: getContentAsString
+	Class origin: org.springframework.mock.web.MockHttpServletResponse
+	Count: 1
+ 
+/wink-server/src/test/java/org/apache/wink/server/JAXRSContextTest.java
+Methods Invoked: 
+	Method name: getContentAsString
+	Class origin: org.springframework.mock.web.MockHttpServletResponse
+	Count: 5
+ 
+	Method name: addHeader
+	Class origin: org.springframework.mock.web.MockHttpServletRequest
+	Count: 1
+ 
+/wink-server/src/test/java/org/apache/wink/server/AbstractResourceWithEmptyPathTest.java
+Methods Invoked: 
+	Method name: getContentAsString
+	Class origin: org.springframework.mock.web.MockHttpServletResponse
+	Count: 2
+ 
+/wink-server/src/test/java/org/apache/wink/server/categories/CollectionCategoriesTest.java
+Methods Invoked: 
+	Method name: getContentAsString
+	Class origin: org.springframework.mock.web.MockHttpServletResponse
+	Count: 1
+ 
+/wink-server/src/test/java/org/apache/wink/server/integration/ServletFilterTest.java
+Methods Invoked: 
+	Method name: addHeader
+	Class origin: org.springframework.mock.web.MockHttpServletRequest
+	Count: 1
+ 
+	Method name: setContent
+	Class origin: org.springframework.mock.web.MockHttpServletRequest
+	Count: 1
+ 
+	Method name: setContentType
+	Class origin: org.springframework.mock.web.MockHttpServletRequest
+	Count: 1
+ 
+	Method name: setParameter
+	Class origin: org.springframework.mock.web.MockHttpServletRequest
+	Count: 2
+ 
+/wink-server/src/test/java/org/apache/wink/server/internal/SlashEndingUriTest.java
+Methods Invoked: 
+	Method name: getContentAsString
+	Class origin: org.springframework.mock.web.MockHttpServletResponse
+	Count: 10
+ 
+/wink-server/src/test/java/org/apache/wink/server/internal/BaseUriDetectionTest.java
+Methods Invoked: 
+	Method name: setScheme
+	Class origin: org.springframework.mock.web.MockHttpServletRequest
+	Count: 2
+ 
+	Method name: setServerName
+	Class origin: org.springframework.mock.web.MockHttpServletRequest
+	Count: 2
+ 
+	Method name: setContextPath
+	Class origin: org.springframework.mock.web.MockHttpServletRequest
+	Count: 2
+ 
+	Method name: setServerPort
+	Class origin: org.springframework.mock.web.MockHttpServletRequest
+	Count: 2
+ 
+	Method name: getContentAsString
+	Class origin: org.springframework.mock.web.MockHttpServletResponse
+	Count: 2
+ 
+/wink-server/src/test/java/org/apache/wink/server/internal/DispatchIPv6Test.java
+Methods Invoked: 
+	Method name: getStatus
+	Class origin: org.springframework.mock.web.MockHttpServletResponse
+	Count: 6
+ 
+	Method name: getContentAsString
+	Class origin: org.springframework.mock.web.MockHttpServletResponse
+	Count: 6
+ 
+	Method name: setSecure
+	Class origin: org.springframework.mock.web.MockHttpServletRequest
+	Count: 3
+ 
+/wink-server/src/test/java/org/apache/wink/server/internal/OptionsMethodTest.java
+Methods Invoked: 
+	Method name: setMethod
+	Class origin: org.springframework.mock.web.MockHttpServletRequest
+	Count: 1
+ 
+	Method name: setRequestURI
+	Class origin: org.springframework.mock.web.MockHttpServletRequest
+	Count: 1
+ 
+	Method name: getStatus
+	Class origin: org.springframework.mock.web.MockHttpServletResponse
+	Count: 1
+ 
+	Method name: getHeader
+	Class origin: org.springframework.mock.web.MockHttpServletResponse
+	Count: 3
+ 
+/wink-server/src/test/java/org/apache/wink/server/internal/CommonAcceptHeaderTest.java
+Methods Invoked: 
+	Method name: getStatus
+	Class origin: org.springframework.mock.web.MockHttpServletResponse
+	Count: 15
+ 
+	Method name: getContentAsString
+	Class origin: org.springframework.mock.web.MockHttpServletResponse
+	Count: 10
+ 
+/wink-server/src/test/java/org/apache/wink/server/internal/WebSphereParametersTest.java
+Methods Invoked: 
+	Method name: setMethod
+	Class origin: org.springframework.mock.web.MockHttpServletRequest
+	Count: 2
+ 
+	Method name: setQueryString
+	Class origin: org.springframework.mock.web.MockHttpServletRequest
+	Count: 2
+ 
+	Method name: getParameterMap
+	Class origin: org.springframework.mock.web.MockHttpServletRequest
+	Count: 2
+ 
+	Method name: getRequest
+	Class origin: org.springframework.mock.web.MockFilterChain
+	Count: 5
+ 
+/wink-server/src/test/java/org/apache/wink/server/internal/MethodOverrideTest.java
+Methods Invoked: 
+	Method name: setMethod
+	Class origin: org.springframework.mock.web.MockHttpServletRequest
+	Count: 4
+ 
+	Method name: addHeader
+	Class origin: org.springframework.mock.web.MockHttpServletRequest
+	Count: 4
+ 
+/wink-server/src/test/java/org/apache/wink/server/internal/UnknownMimeTypeTest.java
+Methods Invoked: 
+	Method name: getStatus
+	Class origin: org.springframework.mock.web.MockHttpServletResponse
+	Count: 6
+ 
+	Method name: getContentAsString
+	Class origin: org.springframework.mock.web.MockHttpServletResponse
+	Count: 1
+ 
+/wink-server/src/test/java/org/apache/wink/server/internal/ParameterConversionTest.java
+Methods Invoked: 
+	Method name: getStatus
+	Class origin: org.springframework.mock.web.MockHttpServletResponse
+	Count: 1
+ 
+	Method name: getContentAsString
+	Class origin: org.springframework.mock.web.MockHttpServletResponse
+	Count: 1
+ 
+	Method name: setQueryString
+	Class origin: org.springframework.mock.web.MockHttpServletRequest
+	Count: 1
+ 
+/wink-server/src/test/java/org/apache/wink/server/internal/ResponseTest.java
+Methods Invoked: 
+	Method name: getHeader
+	Class origin: org.springframework.mock.web.MockHttpServletResponse
+	Count: 6
+ 
+/wink-server/src/test/java/org/apache/wink/server/internal/CustomLocationHeaderConfigurationTest.java
+Methods Invoked: 
+	Method name: setSecure
+	Class origin: org.springframework.mock.web.MockHttpServletRequest
+	Count: 2
+ 
+	Method name: setServerPort
+	Class origin: org.springframework.mock.web.MockHttpServletRequest
+	Count: 2
+ 
+/wink-server/src/test/java/org/apache/wink/server/internal/RequestsTest.java
+Methods Invoked: 
+	Method name: getStatus
+	Class origin: org.springframework.mock.web.MockHttpServletResponse
+	Count: 37
+ 
+	Method name: getContentType
+	Class origin: org.springframework.mock.web.MockHttpServletResponse
+	Count: 35
+ 
+	Method name: getHeader
+	Class origin: org.springframework.mock.web.MockHttpServletResponse
+	Count: 73
+ 
+/wink-server/src/test/java/org/apache/wink/server/internal/ErrorResponseTest.java
+Methods Invoked: 
+	Method name: getContentAsString
+	Class origin: org.springframework.mock.web.MockHttpServletResponse
+	Count: 7
+ 
+	Method name: setQueryString
+	Class origin: org.springframework.mock.web.MockHttpServletRequest
+	Count: 2
+ 
+/wink-server/src/test/java/org/apache/wink/server/internal/HeadTest.java
+Methods Invoked: 
+	Method name: getStatus
+	Class origin: org.springframework.mock.web.MockHttpServletResponse
+	Count: 2
+ 
+	Method name: getContentAsString
+	Class origin: org.springframework.mock.web.MockHttpServletResponse
+	Count: 2
+ 
+/wink-server/src/test/java/org/apache/wink/server/internal/PreconditionsTest.java
+Methods Invoked: 
+	Method name: getStatus
+	Class origin: org.springframework.mock.web.MockHttpServletResponse
+	Count: 36
+ 
+	Method name: getContentAsString
+	Class origin: org.springframework.mock.web.MockHttpServletResponse
+	Count: 6
+ 
+	Method name: addHeader
+	Class origin: org.springframework.mock.web.MockHttpServletRequest
+	Count: 36
+ 
+/wink-server/src/test/java/org/apache/wink/server/internal/StreamResponseTest.java
+Methods Invoked: 
+	Method name: getContentAsByteArray
+	Class origin: org.springframework.mock.web.MockHttpServletResponse
+	Count: 1
+ 
+	Method name: getContentAsString
+	Class origin: org.springframework.mock.web.MockHttpServletResponse
+	Count: 1
+ 
+/wink-server/src/test/java/org/apache/wink/server/internal/BaseUriConfigurationTest.java
+Methods Invoked: 
+	Method name: setSecure
+	Class origin: org.springframework.mock.web.MockHttpServletRequest
+	Count: 2
+ 
+	Method name: setScheme
+	Class origin: org.springframework.mock.web.MockHttpServletRequest
+	Count: 2
+ 
+	Method name: setServerName
+	Class origin: org.springframework.mock.web.MockHttpServletRequest
+	Count: 2
+ 
+	Method name: setContextPath
+	Class origin: org.springframework.mock.web.MockHttpServletRequest
+	Count: 2
+ 
+	Method name: setServletPath
+	Class origin: org.springframework.mock.web.MockHttpServletRequest
+	Count: 2
+ 
+	Method name: setServerPort
+	Class origin: org.springframework.mock.web.MockHttpServletRequest
+	Count: 2
+ 
+	Method name: getContentAsString
+	Class origin: org.springframework.mock.web.MockHttpServletResponse
+	Count: 2
+ 
+/wink-server/src/test/java/org/apache/wink/server/internal/DefaultLocationHeaderConfigurationTest.java
+Methods Invoked: 
+	Method name: setSecure
+	Class origin: org.springframework.mock.web.MockHttpServletRequest
+	Count: 2
+ 
+	Method name: setServerPort
+	Class origin: org.springframework.mock.web.MockHttpServletRequest
+	Count: 2
+ 
+	Method name: getStatus
+	Class origin: org.springframework.mock.web.MockHttpServletResponse
+	Count: 2
+ 
+	Method name: getHeader
+	Class origin: org.springframework.mock.web.MockHttpServletResponse
+	Count: 2
+ 
+/wink-server/src/test/java/org/apache/wink/server/internal/DifferentCaptureVariablesTest.java
+Methods Invoked: 
+	Method name: getContentAsString
+	Class origin: org.springframework.mock.web.MockHttpServletResponse
+	Count: 5
+ 
+/wink-server/src/test/java/org/apache/wink/server/internal/EmptyPathAnnotationTest.java
+Methods Invoked: 
+	Method name: getStatus
+	Class origin: org.springframework.mock.web.MockHttpServletResponse
+	Count: 5
+ 
+/wink-server/src/test/java/org/apache/wink/server/internal/NoContentTypePostTest.java
+Methods Invoked: 
+	Method name: getStatus
+	Class origin: org.springframework.mock.web.MockHttpServletResponse
+	Count: 1
+ 
+/wink-server/src/test/java/org/apache/wink/server/internal/EmptyPathParamTest.java
+Methods Invoked: 
+	Method name: getStatus
+	Class origin: org.springframework.mock.web.MockHttpServletResponse
+	Count: 17
+ 
+	Method name: getContentAsString
+	Class origin: org.springframework.mock.web.MockHttpServletResponse
+	Count: 17
+ 
+/wink-server/src/test/java/org/apache/wink/server/internal/activation/ActivationDataContentHandlerTest.java
+Methods Invoked: 
+	Method name: getContentAsString
+	Class origin: org.springframework.mock.web.MockHttpServletResponse
+	Count: 1
+ 
+	Method name: getStatus
+	Class origin: org.springframework.mock.web.MockHttpServletResponse
+	Count: 1
+ 
+/wink-server/src/test/java/org/apache/wink/server/internal/application/ApplicationLifecycleManagamentTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.jmock.Mockery
+	Count: 2
+ 
+/wink-server/src/test/java/org/apache/wink/server/internal/application/ApplicationLifecycleManagement2Test.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.jmock.Mockery
+	Count: 2
+ 
+/wink-server/src/test/java/org/apache/wink/server/internal/contexts/HttpHeadersImplTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.jmock.Mockery
+	Count: 8
+ 
+/wink-server/src/test/java/org/apache/wink/server/internal/contexts/ServerMediaTypeCharsetAdjusterTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.jmock.integration.junit3.MockObjectTestCase
+	Count: 6
+ 
+/wink-server/src/test/java/org/apache/wink/server/internal/factory/InjectFieldsTest.java
+Methods Invoked: 
+	Method name: setQueryString
+	Class origin: org.springframework.mock.web.MockHttpServletRequest
+	Count: 1
+ 
+	Method name: getStatus
+	Class origin: org.springframework.mock.web.MockHttpServletResponse
+	Count: 1
+ 
+	Method name: getContentAsString
+	Class origin: org.springframework.mock.web.MockHttpServletResponse
+	Count: 1
+ 
+/wink-server/src/test/java/org/apache/wink/server/internal/handlers/MediaTypeMappingTest.java
+Methods Invoked: 
+	Method name: getStatus
+	Class origin: org.springframework.mock.web.MockHttpServletResponse
+	Count: 3
+ 
+	Method name: getContentAsString
+	Class origin: org.springframework.mock.web.MockHttpServletResponse
+	Count: 3
+ 
+	Method name: getContentType
+	Class origin: org.springframework.mock.web.MockHttpServletResponse
+	Count: 3
+ 
+	Method name: addHeader
+	Class origin: org.springframework.mock.web.MockHttpServletRequest
+	Count: 2
+ 
+/wink-server/src/test/java/org/apache/wink/server/internal/handlers/MediaTypeMapping2Test.java
+Methods Invoked: 
+	Method name: getStatus
+	Class origin: org.springframework.mock.web.MockHttpServletResponse
+	Count: 3
+ 
+	Method name: getContentAsString
+	Class origin: org.springframework.mock.web.MockHttpServletResponse
+	Count: 3
+ 
+	Method name: getContentType
+	Class origin: org.springframework.mock.web.MockHttpServletResponse
+	Count: 3
+ 
+	Method name: addHeader
+	Class origin: org.springframework.mock.web.MockHttpServletRequest
+	Count: 2
+ 
+/wink-server/src/test/java/org/apache/wink/server/internal/handlers/ServerMessageContextTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.jmock.Mockery
+	Count: 2
+ 
+/wink-server/src/test/java/org/apache/wink/server/internal/handlers/UserHandlersTest.java
+Methods Invoked: 
+	Method name: getStatus
+	Class origin: org.springframework.mock.web.MockHttpServletResponse
+	Count: 2
+ 
+/wink-server/src/test/java/org/apache/wink/server/internal/jaxrs/HttpHeadersImplTest.java
+Methods Invoked: 
+	Method name: addHeader
+	Class origin: org.springframework.mock.web.MockHttpServletRequest
+	Count: 15
+ 
+/wink-server/src/test/java/org/apache/wink/server/internal/jaxrs/ApplicationInjectionTest.java
+Methods Invoked: 
+	Method name: getStatus
+	Class origin: org.springframework.mock.web.MockHttpServletResponse
+	Count: 1
+ 
+	Method name: getContentAsString
+	Class origin: org.springframework.mock.web.MockHttpServletResponse
+	Count: 1
+ 
+/wink-server/src/test/java/org/apache/wink/server/internal/jaxrs/UriInfoImplTest.java
+Methods Invoked: 
+	Method name: setQueryString
+	Class origin: org.springframework.mock.web.MockHttpServletRequest
+	Count: 1
+ 
+	Method name: getStatus
+	Class origin: org.springframework.mock.web.MockHttpServletResponse
+	Count: 1
+ 
+	Method name: getContentAsString
+	Class origin: org.springframework.mock.web.MockHttpServletResponse
+	Count: 1
+ 
+/wink-server/src/test/java/org/apache/wink/server/internal/lifecycle/ResourceLifecycle1Test.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.jmock.Mockery
+	Count: 4
+ 
+/wink-server/src/test/java/org/apache/wink/server/internal/lifecycle/ResourceLifecycle2Test.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.jmock.Mockery
+	Count: 4
+ 
+/wink-server/src/test/java/org/apache/wink/server/internal/lifecycle/ProvidersLifecycle1Test.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.jmock.Mockery
+	Count: 4
+ 
+/wink-server/src/test/java/org/apache/wink/server/internal/lifecycle/ProvidersLifecycle2Test.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.jmock.Mockery
+	Count: 4
+ 
+/wink-server/src/test/java/org/apache/wink/server/internal/lifecycle/ResourceLifecycle7Test.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.jmock.Mockery
+	Count: 6
+ 
+/wink-server/src/test/java/org/apache/wink/server/internal/lifecycle/ResourceLifecycle5Test.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.jmock.Mockery
+	Count: 6
+ 
+/wink-server/src/test/java/org/apache/wink/server/internal/lifecycle/ResourceLifecycle6Test.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.jmock.Mockery
+	Count: 6
+ 
+/wink-server/src/test/java/org/apache/wink/server/internal/lifecycle/ResourceLifecycle4Test.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.jmock.Mockery
+	Count: 4
+ 
+/wink-server/src/test/java/org/apache/wink/server/internal/lifecycle/ResourceLifecycle3Test.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.jmock.Mockery
+	Count: 4
+ 
+/wink-server/src/test/java/org/apache/wink/server/internal/log/RequestsTest.java
+Methods Invoked: 
+	Method name: setImposteriser
+	Class origin: org.jmock.Mockery
+	Count: 1
+ 
+	Method name: assertIsSatisfied
+	Class origin: org.jmock.Mockery
+	Count: 9
+ 
+	Method name: mock
+	Class origin: org.jmock.Mockery
+	Count: 19
+ 
+/wink-server/src/test/java/org/apache/wink/server/internal/properties/WinkSystemProperties3Test.java
+Methods Invoked: 
+	Method name: getStatus
+	Class origin: org.springframework.mock.web.MockHttpServletResponse
+	Count: 1
+ 
+	Method name: getContentAsString
+	Class origin: org.springframework.mock.web.MockHttpServletResponse
+	Count: 1
+ 
+/wink-server/src/test/java/org/apache/wink/server/internal/properties/WinkSystemProperties2Test.java
+Methods Invoked: 
+	Method name: getStatus
+	Class origin: org.springframework.mock.web.MockHttpServletResponse
+	Count: 1
+ 
+	Method name: getContentAsString
+	Class origin: org.springframework.mock.web.MockHttpServletResponse
+	Count: 1
+ 
+/wink-server/src/test/java/org/apache/wink/server/internal/properties/WinkSystemPropertiesTest.java
+Methods Invoked: 
+	Method name: getStatus
+	Class origin: org.springframework.mock.web.MockHttpServletResponse
+	Count: 1
+ 
+	Method name: getContentAsString
+	Class origin: org.springframework.mock.web.MockHttpServletResponse
+	Count: 1
+ 
+/wink-server/src/test/java/org/apache/wink/server/internal/providers/entity/AtomEntryInResponseProviderTest.java
+Methods Invoked: 
+	Method name: getStatus
+	Class origin: org.springframework.mock.web.MockHttpServletResponse
+	Count: 6
+ 
+	Method name: getContentAsString
+	Class origin: org.springframework.mock.web.MockHttpServletResponse
+	Count: 6
+ 
+/wink-server/src/test/java/org/apache/wink/server/internal/providers/entity/StreamingOutputProviderTest.java
+Methods Invoked: 
+	Method name: getStatus
+	Class origin: org.springframework.mock.web.MockHttpServletResponse
+	Count: 1
+ 
+	Method name: getContentAsString
+	Class origin: org.springframework.mock.web.MockHttpServletResponse
+	Count: 1
+ 
+/wink-server/src/test/java/org/apache/wink/server/internal/providers/entity/SyndFeedLocatorProviderTest.java
+Methods Invoked: 
+	Method name: getStatus
+	Class origin: org.springframework.mock.web.MockHttpServletResponse
+	Count: 2
+ 
+	Method name: getContentAsString
+	Class origin: org.springframework.mock.web.MockHttpServletResponse
+	Count: 2
+ 
+	Method name: setContentType
+	Class origin: org.springframework.mock.web.MockHttpServletRequest
+	Count: 1
+ 
+	Method name: setContent
+	Class origin: org.springframework.mock.web.MockHttpServletRequest
+	Count: 1
+ 
+/wink-server/src/test/java/org/apache/wink/server/internal/providers/entity/HeadersOnlyProviderTest.java
+Methods Invoked: 
+	Method name: getContentAsString
+	Class origin: org.springframework.mock.web.MockHttpServletResponse
+	Count: 1
+ 
+	Method name: getHeader
+	Class origin: org.springframework.mock.web.MockHttpServletResponse
+	Count: 1
+ 
+/wink-server/src/test/java/org/apache/wink/server/internal/providers/entity/CategoriesDocumentProviderTest.java
+Methods Invoked: 
+	Method name: getContentAsString
+	Class origin: org.springframework.mock.web.MockHttpServletResponse
+	Count: 1
+ 
+/wink-server/src/test/java/org/apache/wink/server/internal/providers/entity/InheritedProviderAnnTest.java
+Methods Invoked: 
+	Method name: getStatus
+	Class origin: org.springframework.mock.web.MockHttpServletResponse
+	Count: 2
+ 
+	Method name: getContentAsString
+	Class origin: org.springframework.mock.web.MockHttpServletResponse
+	Count: 2
+ 
+/wink-server/src/test/java/org/apache/wink/server/internal/providers/entity/JAXBProvidersWithXmlElementAnnoTest.java
+Methods Invoked: 
+	Method name: getStatus
+	Class origin: org.springframework.mock.web.MockHttpServletResponse
+	Count: 1
+ 
+	Method name: getContentAsByteArray
+	Class origin: org.springframework.mock.web.MockHttpServletResponse
+	Count: 1
+ 
+/wink-server/src/test/java/org/apache/wink/server/internal/providers/entity/SyndEntryLocatorProviderTest.java
+Methods Invoked: 
+	Method name: getStatus
+	Class origin: org.springframework.mock.web.MockHttpServletResponse
+	Count: 2
+ 
+	Method name: getContentAsString
+	Class origin: org.springframework.mock.web.MockHttpServletResponse
+	Count: 2
+ 
+	Method name: setContentType
+	Class origin: org.springframework.mock.web.MockHttpServletRequest
+	Count: 1
+ 
+	Method name: setContent
+	Class origin: org.springframework.mock.web.MockHttpServletRequest
+	Count: 1
+ 
+/wink-server/src/test/java/org/apache/wink/server/internal/providers/entity/JAXBNoEntityLogTest.java
+Methods Invoked: 
+	Method name: getStatus
+	Class origin: org.springframework.mock.web.MockHttpServletResponse
+	Count: 1
+ 
+/wink-server/src/test/java/org/apache/wink/server/internal/providers/entity/UserProvidersOverBuiltinProviderTest.java
+Methods Invoked: 
+	Method name: getContentAsString
+	Class origin: org.springframework.mock.web.MockHttpServletResponse
+	Count: 1
+ 
+/wink-server/src/test/java/org/apache/wink/server/internal/providers/entity/JAXBElementProviderTest.java
+Methods Invoked: 
+	Method name: getStatus
+	Class origin: org.springframework.mock.web.MockHttpServletResponse
+	Count: 9
+ 
+	Method name: getContentAsByteArray
+	Class origin: org.springframework.mock.web.MockHttpServletResponse
+	Count: 2
+ 
+/wink-server/src/test/java/org/apache/wink/server/internal/providers/entity/JAXBProvidersWithXmlAdapterTest.java
+Methods Invoked: 
+	Method name: getStatus
+	Class origin: org.springframework.mock.web.MockHttpServletResponse
+	Count: 4
+ 
+	Method name: getContentAsByteArray
+	Class origin: org.springframework.mock.web.MockHttpServletResponse
+	Count: 2
+ 
+/wink-server/src/test/java/org/apache/wink/server/internal/providers/entity/AtomFeedProviderTest.java
+Methods Invoked: 
+	Method name: getStatus
+	Class origin: org.springframework.mock.web.MockHttpServletResponse
+	Count: 6
+ 
+	Method name: getContentAsString
+	Class origin: org.springframework.mock.web.MockHttpServletResponse
+	Count: 6
+ 
+/wink-server/src/test/java/org/apache/wink/server/internal/providers/entity/JAXBElementProviderCustomNSTest.java
+Methods Invoked: 
+	Method name: getStatus
+	Class origin: org.springframework.mock.web.MockHttpServletResponse
+	Count: 3
+ 
+	Method name: getContentAsString
+	Class origin: org.springframework.mock.web.MockHttpServletResponse
+	Count: 3
+ 
+/wink-server/src/test/java/org/apache/wink/server/internal/providers/entity/EntityLocatorProviderTest.java
+Methods Invoked: 
+	Method name: getStatus
+	Class origin: org.springframework.mock.web.MockHttpServletResponse
+	Count: 2
+ 
+	Method name: getContentAsString
+	Class origin: org.springframework.mock.web.MockHttpServletResponse
+	Count: 2
+ 
+	Method name: setContentType
+	Class origin: org.springframework.mock.web.MockHttpServletRequest
+	Count: 1
+ 
+	Method name: setContent
+	Class origin: org.springframework.mock.web.MockHttpServletRequest
+	Count: 1
+ 
+/wink-server/src/test/java/org/apache/wink/server/internal/providers/entity/MultiTableCsvDescriptorTest.java
+Methods Invoked: 
+	Method name: getStatus
+	Class origin: org.springframework.mock.web.MockHttpServletResponse
+	Count: 4
+ 
+	Method name: getContentAsString
+	Class origin: org.springframework.mock.web.MockHttpServletResponse
+	Count: 4
+ 
+/wink-server/src/test/java/org/apache/wink/server/internal/providers/entity/JAXBUnmarshalOptionsTest.java
+Methods Invoked: 
+	Method name: getStatus
+	Class origin: org.springframework.mock.web.MockHttpServletResponse
+	Count: 1
+ 
+	Method name: getContentAsString
+	Class origin: org.springframework.mock.web.MockHttpServletResponse
+	Count: 1
+ 
+/wink-server/src/test/java/org/apache/wink/server/internal/providers/entity/SourceProviderDTDSupportedTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.jmock.Mockery
+	Count: 1
+ 
+	Method name: checking
+	Class origin: org.jmock.Mockery
+	Count: 1
+ 
+	Method name: allowing
+	Class origin: org.jmock.Expectations
+	Count: 1
+ 
+	Method name: will
+	Class origin: org.jmock.Expectations
+	Count: 1
+ 
+	Method name: returnValue
+	Class origin: org.jmock.Expectations
+	Count: 1
+ 
+	Method name: getStatus
+	Class origin: org.springframework.mock.web.MockHttpServletResponse
+	Count: 1
+ 
+	Method name: getContentAsString
+	Class origin: org.springframework.mock.web.MockHttpServletResponse
+	Count: 1
+ 
+/wink-server/src/test/java/org/apache/wink/server/internal/providers/entity/FormMultivaluedMapProviderTest.java
+Methods Invoked: 
+	Method name: getStatus
+	Class origin: org.springframework.mock.web.MockHttpServletResponse
+	Count: 1
+ 
+	Method name: getContentAsString
+	Class origin: org.springframework.mock.web.MockHttpServletResponse
+	Count: 1
+ 
+/wink-server/src/test/java/org/apache/wink/server/internal/providers/entity/JAXBCollectionXMLProviderTest.java
+Methods Invoked: 
+	Method name: getStatus
+	Class origin: org.springframework.mock.web.MockHttpServletResponse
+	Count: 9
+ 
+	Method name: getContentAsString
+	Class origin: org.springframework.mock.web.MockHttpServletResponse
+	Count: 13
+ 
+/wink-server/src/test/java/org/apache/wink/server/internal/providers/entity/JAXBUnmarshalNoOptionsTest.java
+Methods Invoked: 
+	Method name: getStatus
+	Class origin: org.springframework.mock.web.MockHttpServletResponse
+	Count: 1
+ 
+	Method name: getContentAsString
+	Class origin: org.springframework.mock.web.MockHttpServletResponse
+	Count: 1
+ 
+/wink-server/src/test/java/org/apache/wink/server/internal/providers/entity/JAXBCustomContextResolverCacheTest.java
+Methods Invoked: 
+	Method name: getStatus
+	Class origin: org.springframework.mock.web.MockHttpServletResponse
+	Count: 2
+ 
+	Method name: getContentAsString
+	Class origin: org.springframework.mock.web.MockHttpServletResponse
+	Count: 2
+ 
+/wink-server/src/test/java/org/apache/wink/server/internal/providers/entity/JAXBProviderInheritanceTest.java
+Methods Invoked: 
+	Method name: getStatus
+	Class origin: org.springframework.mock.web.MockHttpServletResponse
+	Count: 4
+ 
+	Method name: getContentAsString
+	Class origin: org.springframework.mock.web.MockHttpServletResponse
+	Count: 2
+ 
+/wink-server/src/test/java/org/apache/wink/server/internal/providers/entity/SourceProviderTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.jmock.Mockery
+	Count: 1
+ 
+	Method name: checking
+	Class origin: org.jmock.Mockery
+	Count: 1
+ 
+	Method name: allowing
+	Class origin: org.jmock.Expectations
+	Count: 1
+ 
+	Method name: will
+	Class origin: org.jmock.Expectations
+	Count: 1
+ 
+	Method name: returnValue
+	Class origin: org.jmock.Expectations
+	Count: 1
+ 
+	Method name: getStatus
+	Class origin: org.springframework.mock.web.MockHttpServletResponse
+	Count: 10
+ 
+	Method name: getContentAsString
+	Class origin: org.springframework.mock.web.MockHttpServletResponse
+	Count: 8
+ 
+/wink-server/src/test/java/org/apache/wink/server/internal/providers/entity/AtomEntryProviderTest.java
+Methods Invoked: 
+	Method name: getStatus
+	Class origin: org.springframework.mock.web.MockHttpServletResponse
+	Count: 6
+ 
+	Method name: getContentAsString
+	Class origin: org.springframework.mock.web.MockHttpServletResponse
+	Count: 6
+ 
+/wink-server/src/test/java/org/apache/wink/server/internal/providers/entity/MessageBodyWriterProviderCorrectParametersTest.java
+Methods Invoked: 
+	Method name: getContentAsString
+	Class origin: org.springframework.mock.web.MockHttpServletResponse
+	Count: 1
+ 
+/wink-server/src/test/java/org/apache/wink/server/internal/providers/entity/ProvidersParametersOnErrorPathTest.java
+Methods Invoked: 
+	Method name: getStatus
+	Class origin: org.springframework.mock.web.MockHttpServletResponse
+	Count: 2
+ 
+	Method name: getContentAsString
+	Class origin: org.springframework.mock.web.MockHttpServletResponse
+	Count: 2
+ 
+/wink-server/src/test/java/org/apache/wink/server/internal/providers/entity/AssetProviderTest.java
+Methods Invoked: 
+	Method name: getStatus
+	Class origin: org.springframework.mock.web.MockHttpServletResponse
+	Count: 6
+ 
+	Method name: getContentAsString
+	Class origin: org.springframework.mock.web.MockHttpServletResponse
+	Count: 6
+ 
+/wink-server/src/test/java/org/apache/wink/server/internal/providers/entity/AppCategoriesDocumentProviderTest.java
+Methods Invoked: 
+	Method name: getContentAsString
+	Class origin: org.springframework.mock.web.MockHttpServletResponse
+	Count: 1
+ 
+/wink-server/src/test/java/org/apache/wink/server/internal/providers/entity/html/HtmlRepresentationServiceDocumentTest.java
+Methods Invoked: 
+	Method name: getStatus
+	Class origin: org.springframework.mock.web.MockHttpServletResponse
+	Count: 1
+ 
+	Method name: getContentAsString
+	Class origin: org.springframework.mock.web.MockHttpServletResponse
+	Count: 1
+ 
+/wink-server/src/test/java/org/apache/wink/server/internal/providers/entity/html/HtmlRepresentationCollectionCustomizedTest.java
+Methods Invoked: 
+	Method name: getStatus
+	Class origin: org.springframework.mock.web.MockHttpServletResponse
+	Count: 1
+ 
+	Method name: getContentAsString
+	Class origin: org.springframework.mock.web.MockHttpServletResponse
+	Count: 1
+ 
+/wink-server/src/test/java/org/apache/wink/server/internal/providers/entity/html/HtmlMockServletInvocationTest.java
+Methods Invoked: 
+	Method name: setMethod
+	Class origin: org.springframework.mock.web.MockHttpServletRequest
+	Count: 1
+ 
+	Method name: setRequestURI
+	Class origin: org.springframework.mock.web.MockHttpServletRequest
+	Count: 1
+ 
+	Method name: addHeader
+	Class origin: org.springframework.mock.web.MockHttpServletRequest
+	Count: 1
+ 
+/wink-server/src/test/java/org/apache/wink/server/internal/providers/entity/html/HtmlRepresentationCollectionDefaultTest.java
+Methods Invoked: 
+	Method name: getStatus
+	Class origin: org.springframework.mock.web.MockHttpServletResponse
+	Count: 1
+ 
+	Method name: getContentAsString
+	Class origin: org.springframework.mock.web.MockHttpServletResponse
+	Count: 1
+ 
+/wink-server/src/test/java/org/apache/wink/server/internal/providers/entity/html/HtmlRepresentationEntryDefaultTest.java
+Methods Invoked: 
+	Method name: getStatus
+	Class origin: org.springframework.mock.web.MockHttpServletResponse
+	Count: 1
+ 
+	Method name: getContentAsString
+	Class origin: org.springframework.mock.web.MockHttpServletResponse
+	Count: 1
+ 
+/wink-server/src/test/java/org/apache/wink/server/internal/providers/entity/html/HtmlRepresentationEntryCustomizedTest.java
+Methods Invoked: 
+	Method name: getStatus
+	Class origin: org.springframework.mock.web.MockHttpServletResponse
+	Count: 1
+ 
+	Method name: getContentAsString
+	Class origin: org.springframework.mock.web.MockHttpServletResponse
+	Count: 1
+ 
+/wink-server/src/test/java/org/apache/wink/server/internal/registry/ResponseDispatchTest.java
+Methods Invoked: 
+	Method name: setContentType
+	Class origin: org.springframework.mock.web.MockHttpServletRequest
+	Count: 1
+ 
+	Method name: getStatus
+	Class origin: org.springframework.mock.web.MockHttpServletResponse
+	Count: 1
+ 
+	Method name: getContentAsString
+	Class origin: org.springframework.mock.web.MockHttpServletResponse
+	Count: 1
+ 
+/wink-server/src/test/java/org/apache/wink/server/internal/registry/ValueConvertorTest.java
+Methods Invoked: 
+	Method name: getStatus
+	Class origin: org.springframework.mock.web.MockHttpServletResponse
+	Count: 2
+ 
+/wink-server/src/test/java/org/apache/wink/server/internal/registry/FindResourceMethod3Test.java
+Methods Invoked: 
+	Method name: getStatus
+	Class origin: org.springframework.mock.web.MockHttpServletResponse
+	Count: 2
+ 
+	Method name: getContentType
+	Class origin: org.springframework.mock.web.MockHttpServletResponse
+	Count: 1
+ 
+	Method name: setCharacterEncoding
+	Class origin: org.springframework.mock.web.MockHttpServletResponse
+	Count: 1
+ 
+	Method name: getContentAsString
+	Class origin: org.springframework.mock.web.MockHttpServletResponse
+	Count: 1
+ 
+/wink-server/src/test/java/org/apache/wink/server/internal/registry/StrictConsumesProducesInheritanceTrueTest.java
+Methods Invoked: 
+	Method name: getStatus
+	Class origin: org.springframework.mock.web.MockHttpServletResponse
+	Count: 2
+ 
+/wink-server/src/test/java/org/apache/wink/server/internal/registry/FindResourceMethod1Test.java
+Methods Invoked: 
+	Method name: getStatus
+	Class origin: org.springframework.mock.web.MockHttpServletResponse
+	Count: 4
+ 
+/wink-server/src/test/java/org/apache/wink/server/internal/registry/InjectableDataTest.java
+Methods Invoked: 
+	Method name: setQueryString
+	Class origin: org.springframework.mock.web.MockHttpServletRequest
+	Count: 1
+ 
+	Method name: setContent
+	Class origin: org.springframework.mock.web.MockHttpServletRequest
+	Count: 1
+ 
+	Method name: setContentType
+	Class origin: org.springframework.mock.web.MockHttpServletRequest
+	Count: 1
+ 
+	Method name: addHeader
+	Class origin: org.springframework.mock.web.MockHttpServletRequest
+	Count: 1
+ 
+	Method name: getStatus
+	Class origin: org.springframework.mock.web.MockHttpServletResponse
+	Count: 1
+ 
+/wink-server/src/test/java/org/apache/wink/server/internal/registry/FindResourceMethodTest.java
+Methods Invoked: 
+	Method name: getStatus
+	Class origin: org.springframework.mock.web.MockHttpServletResponse
+	Count: 12
+ 
+/wink-server/src/test/java/org/apache/wink/server/internal/registry/StrictConsumesProducesInheritanceDefaultTest.java
+Methods Invoked: 
+	Method name: getStatus
+	Class origin: org.springframework.mock.web.MockHttpServletResponse
+	Count: 2
+ 
+/wink-server/src/test/java/org/apache/wink/server/internal/registry/DefaultValueTest.java
+Methods Invoked: 
+	Method name: getStatus
+	Class origin: org.springframework.mock.web.MockHttpServletResponse
+	Count: 2
+ 
+	Method name: getContentAsString
+	Class origin: org.springframework.mock.web.MockHttpServletResponse
+	Count: 2
+ 
+/wink-server/src/test/java/org/apache/wink/server/internal/registry/EncodedTest.java
+Methods Invoked: 
+	Method name: setQueryString
+	Class origin: org.springframework.mock.web.MockHttpServletRequest
+	Count: 5
+ 
+	Method name: getStatus
+	Class origin: org.springframework.mock.web.MockHttpServletResponse
+	Count: 5
+ 
+	Method name: getContentAsString
+	Class origin: org.springframework.mock.web.MockHttpServletResponse
+	Count: 5
+ 
+/wink-server/src/test/java/org/apache/wink/server/internal/registry/StrictConsumesProducesInheritanceFalseTest.java
+Methods Invoked: 
+	Method name: getStatus
+	Class origin: org.springframework.mock.web.MockHttpServletResponse
+	Count: 2
+ 
+/wink-server/src/test/java/org/apache/wink/server/internal/registry/FindResourceMethod4Test.java
+Methods Invoked: 
+	Method name: getStatus
+	Class origin: org.springframework.mock.web.MockHttpServletResponse
+	Count: 3
+ 
+	Method name: getContentAsString
+	Class origin: org.springframework.mock.web.MockHttpServletResponse
+	Count: 3
+ 
+/wink-server/src/test/java/org/apache/wink/server/internal/registry/ProvidersRegistrySystemTest.java
+Methods Invoked: 
+	Method name: getStatus
+	Class origin: org.springframework.mock.web.MockHttpServletResponse
+	Count: 1
+ 
+	Method name: getContentAsString
+	Class origin: org.springframework.mock.web.MockHttpServletResponse
+	Count: 1
+ 
+/wink-server/src/test/java/org/apache/wink/server/internal/registry/HeaderTest.java
+Methods Invoked: 
+	Method name: addHeader
+	Class origin: org.springframework.mock.web.MockHttpServletRequest
+	Count: 1
+ 
+	Method name: getStatus
+	Class origin: org.springframework.mock.web.MockHttpServletResponse
+	Count: 1
+ 
+	Method name: getContentAsString
+	Class origin: org.springframework.mock.web.MockHttpServletResponse
+	Count: 1
+ 
+/wink-server/src/test/java/org/apache/wink/server/internal/registry/InvalidContextMethodTest.java
+Methods Invoked: 
+	Method name: getContentAsString
+	Class origin: org.springframework.mock.web.MockHttpServletResponse
+	Count: 1
+ 
+	Method name: getStatus
+	Class origin: org.springframework.mock.web.MockHttpServletResponse
+	Count: 1
+ 
+/wink-server/src/test/java/org/apache/wink/server/internal/servlet/RestServletTest.java
+Methods Invoked: 
+	Method name: setAttribute
+	Class origin: org.springframework.mock.web.MockServletContext
+	Count: 1
+ 
+	Method name: addInitParameter
+	Class origin: org.springframework.mock.web.MockServletConfig
+	Count: 3
+ 
+/wink-server/src/test/java/org/apache/wink/server/serviceability/DebugNoMessageBodyWriter406Test.java
+Methods Invoked: 
+	Method name: getStatus
+	Class origin: org.springframework.mock.web.MockHttpServletResponse
+	Count: 1
+ 
+	Method name: getContentAsString
+	Class origin: org.springframework.mock.web.MockHttpServletResponse
+	Count: 1
+ 
+/wink-server/src/test/java/org/apache/wink/server/serviceability/ServiceabilityTest.java
+Methods Invoked: 
+	Method name: getStatus
+	Class origin: org.springframework.mock.web.MockHttpServletResponse
+	Count: 6
+ 
+	Method name: getContentAsString
+	Class origin: org.springframework.mock.web.MockHttpServletResponse
+	Count: 4
+ 
+/wink-server/src/test/java/org/apache/wink/server/serviceability/DebugSimpleResponseTest.java
+Methods Invoked: 
+	Method name: getStatus
+	Class origin: org.springframework.mock.web.MockHttpServletResponse
+	Count: 6
+ 
+/wink-server/src/test/java/org/apache/wink/server/serviceability/DebugSimpleRequestTest.java
+Methods Invoked: 
+	Method name: getStatus
+	Class origin: org.springframework.mock.web.MockHttpServletResponse
+	Count: 6
+ 
+	Method name: getContentAsString
+	Class origin: org.springframework.mock.web.MockHttpServletResponse
+	Count: 6
+ 
+/wink-server/src/test/java/org/apache/wink/server/serviceability/InfoNoMessageBodyWriter406Test.java
+Methods Invoked: 
+	Method name: getStatus
+	Class origin: org.springframework.mock.web.MockHttpServletResponse
+	Count: 2
+ 
+	Method name: getContentAsString
+	Class origin: org.springframework.mock.web.MockHttpServletResponse
+	Count: 2
+ 
+/wink-server/src/test/java/org/apache/wink/server/utils/SubresourceSamePathParamTest.java
+Methods Invoked: 
+	Method name: getStatus
+	Class origin: org.springframework.mock.web.MockHttpServletResponse
+	Count: 1
+ 
+	Method name: getContentAsString
+	Class origin: org.springframework.mock.web.MockHttpServletResponse
+	Count: 1
+ 
+/wink-server/src/test/java/org/apache/wink/server/utils/LinksBuilderTest.java
+Methods Invoked: 
+	Method name: getStatus
+	Class origin: org.springframework.mock.web.MockHttpServletResponse
+	Count: 28
+ 
+/wink-server/src/test/java/org/apache/wink/server/utils/SubResourceSamePathParamSegmentTest.java
+Methods Invoked: 
+	Method name: getStatus
+	Class origin: org.springframework.mock.web.MockHttpServletResponse
+	Count: 1
+ 
+	Method name: getContentAsString
+	Class origin: org.springframework.mock.web.MockHttpServletResponse
+	Count: 1
+ 
+/wink-spring-support/src/test/java/org/apache/wink/spring/RegistrarTest.java
+Methods Invoked: 
+	Method name: getStatus
+	Class origin: org.springframework.mock.web.MockHttpServletResponse
+	Count: 2
+ 
+	Method name: getContentAsString
+	Class origin: org.springframework.mock.web.MockHttpServletResponse
+	Count: 2
+ 
+/wink-thrift-provider/src/test/java/org/apache/wink/providers/thrift/ThriftTest.java
+Methods Invoked: 
+	Method name: getStatus
+	Class origin: org.springframework.mock.web.MockHttpServletResponse
+	Count: 2
+ 
+	Method name: getContentAsByteArray
+	Class origin: org.springframework.mock.web.MockHttpServletResponse
+	Count: 2
+ 
+	Method name: setContentType
+	Class origin: org.springframework.mock.web.MockHttpServletRequest
+	Count: 1
+ 
+	Method name: setContent
+	Class origin: org.springframework.mock.web.MockHttpServletRequest
+	Count: 1
+ 
+/wink-webdav/src/test/java/org/apache/wink/webdav/server/WebDAVDocumentResourceTest.java
+Methods Invoked: 
+	Method name: getStatus
+	Class origin: org.springframework.mock.web.MockHttpServletResponse
+	Count: 1
+ 
+/wink-webdav/src/test/java/org/apache/wink/webdav/server/AbstractWebDAVResourcesTest.java
+Methods Invoked: 
+	Method name: setMethod
+	Class origin: org.springframework.mock.web.MockHttpServletRequest
+	Count: 4
+ 
+	Method name: setRequestURI
+	Class origin: org.springframework.mock.web.MockHttpServletRequest
+	Count: 4
+ 
+	Method name: setContentType
+	Class origin: org.springframework.mock.web.MockHttpServletRequest
+	Count: 2
+ 
+	Method name: addHeader
+	Class origin: org.springframework.mock.web.MockHttpServletRequest
+	Count: 1
+ 
+	Method name: setContent
+	Class origin: org.springframework.mock.web.MockHttpServletRequest
+	Count: 2
+ 
+	Method name: getStatus
+	Class origin: org.springframework.mock.web.MockHttpServletResponse
+	Count: 4
+ 
+	Method name: getContentType
+	Class origin: org.springframework.mock.web.MockHttpServletResponse
+	Count: 2
+ 
+	Method name: getContentAsString
+	Class origin: org.springframework.mock.web.MockHttpServletResponse
+	Count: 2
+ 

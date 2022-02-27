@@ -1,0 +1,10 @@
+/thrift-maven-plugin/src/test/java/org/apache/thrift/maven/TestAbstractThriftMojo.java
+	com.google.common.collect.Lists
+	com.google.common.collect.Sets
+	org.apache.maven.artifact.repository.ArtifactRepository
+	org.junit.Before
+	org.junit.Test
+	org.mockito.Mockito
+	java.io.File
+	java.util.Set
+	junit.framework.TestCase.assertEquals

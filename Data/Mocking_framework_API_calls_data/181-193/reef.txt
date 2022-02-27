@@ -1,7 +1,11 @@
+/reef-common/src/test/java/org/apache/reef/runtime/common/driver/EvaluatorRequestorImplTest.java
+Methods Invoked: 
 	Method name: mock
 	Class origin: org.mockito.Mockito
 	Count: 1
  
+/reef-io/src/test/java/org/apache/reef/io/network/group/impl/utils/ScatterCodecTest.java
+Methods Invoked: 
 	Method name: mock
 	Class origin: org.mockito.Mockito
 	Count: 1
@@ -10,6 +14,8 @@
 	Class origin: org.mockito.Mockito
 	Count: 1
  
+/reef-runtime-azbatch/src/test/java/org/apache/reef/runtime/azbatch/CommandBuilderTests.java
+Methods Invoked: 
 	Method name: mock
 	Class origin: org.mockito.Mockito
 	Count: 3
@@ -22,14 +28,20 @@
 	Class origin: org.mockito.Mockito
 	Count: 6
  
+/reef-runtime-local/src/test/java/org/apache/reef/runtime/local/driver/ResourceManagerTest.java
+Methods Invoked: 
 	Method name: mock
 	Class origin: org.mockito.Mockito
 	Count: 4
  
+/reef-runtime-yarn/src/test/java/org/apache/reef/runtime/yarn/driver/YarnResourceRequestHandlerTest.java
+Methods Invoked: 
 	Method name: mock
 	Class origin: org.mockito.Mockito
 	Count: 1
  
+/reef-vortex/src/test/java/org/apache/reef/vortex/driver/TestUtil.java
+Methods Invoked: 
 	Method name: mock
 	Class origin: org.mockito.Mockito
 	Count: 3

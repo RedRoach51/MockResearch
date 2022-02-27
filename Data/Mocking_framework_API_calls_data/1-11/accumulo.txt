@@ -1,3 +1,5 @@
+/base/src/test/java/org/apache/accumulo/server/ServerContextTest.java
+Methods Invoked: 
 	Method name: createMock
 	Class origin: org.easymock.EasyMock
 	Count: 2
@@ -10,6 +12,8 @@
 	Class origin: org.easymock.EasyMock
 	Count: 8
  
+/base/src/test/java/org/apache/accumulo/server/MockServerContext.java
+Methods Invoked: 
 	Method name: createMock
 	Class origin: org.easymock.EasyMock
 	Count: 1
@@ -18,18 +22,26 @@
 	Class origin: org.easymock.EasyMock
 	Count: 7
  
+/base/src/test/java/org/apache/accumulo/server/ServiceEnvironmentImplTest.java
+Methods Invoked: 
 	Method name: createMock
 	Class origin: org.easymock.EasyMock
 	Count: 2
  
+/base/src/test/java/org/apache/accumulo/server/client/BulkImporterTest.java
+Methods Invoked: 
 	Method name: replay
 	Class origin: org.easymock.EasyMock
 	Count: 1
  
+/base/src/test/java/org/apache/accumulo/server/conf/ServerConfigurationFactoryTest.java
+Methods Invoked: 
 	Method name: createMock
 	Class origin: org.easymock.EasyMock
 	Count: 2
  
+/base/src/test/java/org/apache/accumulo/server/conf/ZooCachePropertyAccessorTest.java
+Methods Invoked: 
 	Method name: createMock
 	Class origin: org.easymock.EasyMock
 	Count: 13
@@ -46,6 +58,8 @@
 	Class origin: org.easymock.EasyMock
 	Count: 19
  
+/base/src/test/java/org/apache/accumulo/server/conf/NamespaceConfigurationTest.java
+Methods Invoked: 
 	Method name: createMock
 	Class origin: org.easymock.EasyMock
 	Count: 3
@@ -54,10 +68,14 @@
 	Class origin: org.easymock.EasyMock
 	Count: 9
  
+/base/src/test/java/org/apache/accumulo/server/conf/ZooConfigurationFactoryTest.java
+Methods Invoked: 
 	Method name: createMock
 	Class origin: org.easymock.EasyMock
 	Count: 3
  
+/base/src/test/java/org/apache/accumulo/server/conf/TableConfigurationTest.java
+Methods Invoked: 
 	Method name: replay
 	Class origin: org.easymock.EasyMock
 	Count: 8
@@ -66,14 +84,20 @@
 	Class origin: org.easymock.EasyMock
 	Count: 3
  
+/base/src/test/java/org/apache/accumulo/server/constraints/MetadataConstraintsTest.java
+Methods Invoked: 
 	Method name: createMock
 	Class origin: org.easymock.EasyMock
 	Count: 2
  
+/base/src/test/java/org/apache/accumulo/server/init/InitializeTest.java
+Methods Invoked: 
 	Method name: createMock
 	Class origin: org.easymock.EasyMock
 	Count: 3
  
+/base/src/test/java/org/apache/accumulo/server/iterators/MetadataBulkLoadFilterTest.java
+Methods Invoked: 
 	Method name: createMock
 	Class origin: org.easymock.EasyMock
 	Count: 1
@@ -86,10 +110,14 @@
 	Class origin: org.easymock.IExpectationSetters<java.lang.Boolean>
 	Count: 1
  
+/base/src/test/java/org/apache/accumulo/server/manager/LiveTServerSetTest.java
+Methods Invoked: 
 	Method name: createMock
 	Class origin: org.easymock.EasyMock
 	Count: 3
  
+/base/src/test/java/org/apache/accumulo/server/manager/state/MergeInfoTest.java
+Methods Invoked: 
 	Method name: createMock
 	Class origin: org.easymock.EasyMock
 	Count: 7
@@ -102,10 +130,14 @@
 	Class origin: org.easymock.EasyMock
 	Count: 11
  
+/base/src/test/java/org/apache/accumulo/server/manager/state/TabletLocationStateTest.java
+Methods Invoked: 
 	Method name: createMock
 	Class origin: org.easymock.EasyMock
 	Count: 4
  
+/base/src/test/java/org/apache/accumulo/server/master/balancer/BaseHostRegexTableLoadBalancerTest.java
+Methods Invoked: 
 	Method name: createMock
 	Class origin: org.easymock.EasyMock
 	Count: 2
@@ -124,12 +156,14 @@
  
 	Method name: anyTimes
 	Class origin: org.easymock.IExpectationSetters<java.lang.String>
-	Count: 4
+	Count: 3
  
 	Method name: andReturn
 	Class origin: org.easymock.IExpectationSetters<java.lang.String>
-	Count: 4
+	Count: 3
  
+/base/src/test/java/org/apache/accumulo/server/master/balancer/HostRegexTableLoadBalancerReconfigurationTest.java
+Methods Invoked: 
 	Method name: replay
 	Class origin: org.easymock.EasyMock
 	Count: 2
@@ -138,6 +172,8 @@
 	Class origin: org.easymock.EasyMock
 	Count: 4
  
+/base/src/test/java/org/apache/accumulo/server/master/balancer/HostRegexTableLoadBalancerTest.java
+Methods Invoked: 
 	Method name: replay
 	Class origin: org.easymock.EasyMock
 	Count: 4
@@ -146,6 +182,8 @@
 	Class origin: org.easymock.EasyMock
 	Count: 4
  
+/base/src/test/java/org/apache/accumulo/server/master/balancer/TableLoadBalancerTest.java
+Methods Invoked: 
 	Method name: createMock
 	Class origin: org.easymock.EasyMock
 	Count: 2
@@ -166,6 +204,8 @@
 	Class origin: org.easymock.EasyMock
 	Count: 2
  
+/base/src/test/java/org/apache/accumulo/server/problems/ProblemReportTest.java
+Methods Invoked: 
 	Method name: createMock
 	Class origin: org.easymock.EasyMock
 	Count: 1
@@ -178,14 +218,20 @@
 	Class origin: org.easymock.EasyMock
 	Count: 4
  
+/base/src/test/java/org/apache/accumulo/server/problems/ProblemReportingIteratorTest.java
+Methods Invoked: 
 	Method name: createMock
 	Class origin: org.easymock.EasyMock
 	Count: 4
  
+/base/src/test/java/org/apache/accumulo/server/replication/ReplicationUtilTest.java
+Methods Invoked: 
 	Method name: createMock
 	Class origin: org.easymock.EasyMock
 	Count: 4
  
+/base/src/test/java/org/apache/accumulo/server/security/delegation/ZooAuthenticationKeyWatcherTest.java
+Methods Invoked: 
 	Method name: createMock
 	Class origin: org.easymock.EasyMock
 	Count: 1
@@ -206,6 +252,8 @@
 	Class origin: org.easymock.EasyMock
 	Count: 13
  
+/base/src/test/java/org/apache/accumulo/server/security/delegation/ZooAuthenticationKeyDistributorTest.java
+Methods Invoked: 
 	Method name: createMock
 	Class origin: org.easymock.EasyMock
 	Count: 1
@@ -222,6 +270,8 @@
 	Class origin: org.easymock.IExpectationSetters<java.lang.Boolean>
 	Count: 1
  
+/base/src/test/java/org/apache/accumulo/server/security/delegation/AuthenticationTokenSecretManagerTest.java
+Methods Invoked: 
 	Method name: createMock
 	Class origin: org.easymock.EasyMock
 	Count: 1
@@ -242,10 +292,14 @@
 	Class origin: org.easymock.EasyMock
 	Count: 1
  
+/base/src/test/java/org/apache/accumulo/server/security/delegation/AuthenticationTokenKeyManagerTest.java
+Methods Invoked: 
 	Method name: createMock
 	Class origin: org.easymock.EasyMock
 	Count: 2
  
+/base/src/test/java/org/apache/accumulo/server/security/handler/ZKAuthenticatorTest.java
+Methods Invoked: 
 	Method name: createMock
 	Class origin: org.easymock.EasyMock
 	Count: 4
@@ -254,10 +308,14 @@
 	Class origin: org.easymock.EasyMock
 	Count: 11
  
+/base/src/test/java/org/apache/accumulo/server/tablets/LogicalTimeTest.java
+Methods Invoked: 
 	Method name: createMock
 	Class origin: org.easymock.EasyMock
 	Count: 2
  
+/base/src/test/java/org/apache/accumulo/server/tablets/TabletTimeTest.java
+Methods Invoked: 
 	Method name: createMock
 	Class origin: org.easymock.EasyMock
 	Count: 1
@@ -270,6 +328,8 @@
 	Class origin: org.easymock.EasyMock
 	Count: 1
  
+/base/src/test/java/org/apache/accumulo/server/tablets/MillisTimeTest.java
+Methods Invoked: 
 	Method name: createMock
 	Class origin: org.easymock.EasyMock
 	Count: 1
@@ -286,6 +346,8 @@
 	Class origin: org.easymock.EasyMock
 	Count: 1
  
+/base/src/test/java/org/apache/accumulo/server/util/ReplicationTableUtilTest.java
+Methods Invoked: 
 	Method name: createNiceMock
 	Class origin: org.easymock.EasyMock
 	Count: 1
@@ -318,6 +380,8 @@
 	Class origin: org.easymock.EasyMock
 	Count: 4
  
+/base/src/test/java/org/apache/accumulo/server/util/AdminTest.java
+Methods Invoked: 
 	Method name: createMock
 	Class origin: org.easymock.EasyMock
 	Count: 3
@@ -338,26 +402,26 @@
 	Class origin: org.easymock.EasyMock
 	Count: 3
  
+/base/src/test/java/org/apache/accumulo/server/util/TServerUtilsTest.java
+Methods Invoked: 
 	Method name: createMock
 	Class origin: org.easymock.EasyMock
-	Count: 2
- 
-	Method name: andReturn
-	Class origin: org.easymock.IExpectationSetters<java.util.List<java.lang.Runnable>>
 	Count: 1
  
 	Method name: expect
 	Class origin: org.easymock.EasyMock
-	Count: 12
+	Count: 11
  
-	Method name: replay
-	Class origin: org.easymock.EasyMock
-	Count: 4
+	Method name: anyTimes
+	Class origin: org.easymock.IExpectationSetters<java.util.Properties>
+	Count: 1
  
-	Method name: createNiceMock
-	Class origin: org.easymock.EasyMock
-	Count: 2
+	Method name: andReturn
+	Class origin: org.easymock.IExpectationSetters<java.util.Properties>
+	Count: 1
  
+/compaction-coordinator/src/test/java/org/apache/accumulo/coordinator/CompactionCoordinatorTest.java
+Methods Invoked: 
 	Method name: resetAll
 	Class origin: org.powermock.api.easymock.PowerMock
 	Count: 6
@@ -370,6 +434,8 @@
 	Class origin: org.powermock.api.support.membermodification.MemberMatcher
 	Count: 6
  
+/compactor/src/test/java/org/apache/accumulo/compactor/CompactorTest.java
+Methods Invoked: 
 	Method name: newInstance
 	Class origin: org.powermock.reflect.Whitebox
 	Count: 1
@@ -380,12 +446,14 @@
  
 	Method name: suppress
 	Class origin: org.powermock.api.support.membermodification.MemberModifier
-	Count: 9
+	Count: 6
  
 	Method name: methods
 	Class origin: org.powermock.api.support.membermodification.MemberMatcher
-	Count: 6
+	Count: 3
  
+/core/src/test/java/org/apache/accumulo/core/client/ZooKeeperInstanceTest.java
+Methods Invoked: 
 	Method name: andReturn
 	Class origin: org.easymock.IExpectationSetters<java.lang.String>
 	Count: 13
@@ -394,6 +462,8 @@
 	Class origin: org.easymock.EasyMock
 	Count: 30
  
+/core/src/test/java/org/apache/accumulo/core/clientImpl/ScannerBaseTest.java
+Methods Invoked: 
 	Method name: createMock
 	Class origin: org.easymock.IMockBuilder<java.lang.Object>
 	Count: 1
@@ -418,26 +488,32 @@
 	Class origin: org.easymock.EasyMock
 	Count: 1
  
+/core/src/test/java/org/apache/accumulo/core/clientImpl/TabletLocatorImplTest.java
+Methods Invoked: 
 	Method name: createMock
 	Class origin: org.easymock.EasyMock
 	Count: 2
  
 	Method name: anyTimes
 	Class origin: org.easymock.IExpectationSetters<java.lang.String>
-	Count: 4
+	Count: 2
  
 	Method name: andReturn
 	Class origin: org.easymock.IExpectationSetters<java.lang.String>
-	Count: 4
+	Count: 2
  
 	Method name: expect
 	Class origin: org.easymock.EasyMock
 	Count: 4
  
+/core/src/test/java/org/apache/accumulo/core/clientImpl/TabletServerBatchReaderTest.java
+Methods Invoked: 
 	Method name: createMock
 	Class origin: org.easymock.EasyMock
 	Count: 1
  
+/core/src/test/java/org/apache/accumulo/core/clientImpl/ZookeeperLockCheckerTest.java
+Methods Invoked: 
 	Method name: createMock
 	Class origin: org.easymock.EasyMock
 	Count: 2
@@ -454,6 +530,8 @@
 	Class origin: org.easymock.EasyMock
 	Count: 2
  
+/core/src/test/java/org/apache/accumulo/core/clientImpl/RootTabletLocatorTest.java
+Methods Invoked: 
 	Method name: createMock
 	Class origin: org.easymock.EasyMock
 	Count: 3
@@ -470,14 +548,20 @@
 	Class origin: org.easymock.EasyMock
 	Count: 2
  
+/core/src/test/java/org/apache/accumulo/core/clientImpl/ThriftTransportKeyTest.java
+Methods Invoked: 
 	Method name: createMock
 	Class origin: org.easymock.EasyMock
 	Count: 6
  
+/core/src/test/java/org/apache/accumulo/core/clientImpl/ScannerImplTest.java
+Methods Invoked: 
 	Method name: createMock
 	Class origin: org.easymock.EasyMock
 	Count: 1
  
+/core/src/test/java/org/apache/accumulo/core/constraints/VisibilityConstraintTest.java
+Methods Invoked: 
 	Method name: createNiceMock
 	Class origin: org.easymock.EasyMock
 	Count: 1
@@ -498,6 +582,8 @@
 	Class origin: org.easymock.EasyMock
 	Count: 1
  
+/core/src/test/java/org/apache/accumulo/core/data/ValueTest.java
+Methods Invoked: 
 	Method name: createMock
 	Class origin: org.easymock.EasyMock
 	Count: 1
@@ -514,6 +600,8 @@
 	Class origin: org.easymock.IExpectationSetters<java.lang.Integer>
 	Count: 1
  
+/core/src/test/java/org/apache/accumulo/core/data/constraints/VisibilityConstraintTest.java
+Methods Invoked: 
 	Method name: createNiceMock
 	Class origin: org.easymock.EasyMock
 	Count: 1
@@ -534,6 +622,8 @@
 	Class origin: org.easymock.EasyMock
 	Count: 1
  
+/core/src/test/java/org/apache/accumulo/core/file/streams/RateLimitedOutputStreamTest.java
+Methods Invoked: 
 	Method name: niceMock
 	Class origin: org.easymock.EasyMock
 	Count: 1
@@ -562,6 +652,8 @@
 	Class origin: org.easymock.EasyMock
 	Count: 1
  
+/core/src/test/java/org/apache/accumulo/core/file/streams/RateLimitedInputStreamTest.java
+Methods Invoked: 
 	Method name: niceMock
 	Class origin: org.easymock.EasyMock
 	Count: 1
@@ -590,6 +682,8 @@
 	Class origin: org.easymock.EasyMock
 	Count: 1
  
+/core/src/test/java/org/apache/accumulo/core/iterators/user/TransformingIteratorTest.java
+Methods Invoked: 
 	Method name: createMock
 	Class origin: org.easymock.EasyMock
 	Count: 1
@@ -602,14 +696,20 @@
 	Class origin: org.easymock.EasyMock
 	Count: 1
  
+/core/src/test/java/org/apache/accumulo/core/metadata/MetadataServicerTest.java
+Methods Invoked: 
 	Method name: createMock
 	Class origin: org.easymock.EasyMock
 	Count: 2
  
+/core/src/test/java/org/apache/accumulo/core/rpc/SaslConnectionParamsTest.java
+Methods Invoked: 
 	Method name: createMock
 	Class origin: org.easymock.EasyMock
 	Count: 3
  
+/core/src/test/java/org/apache/accumulo/core/rpc/TTimeoutTransportTest.java
+Methods Invoked: 
 	Method name: once
 	Class origin: org.easymock.IExpectationSetters<java.lang.Object>
 	Count: 4
@@ -618,6 +718,8 @@
 	Class origin: org.easymock.EasyMock
 	Count: 5
  
+/core/src/test/java/org/apache/accumulo/core/spi/balancer/TableLoadBalancerTest.java
+Methods Invoked: 
 	Method name: createMock
 	Class origin: org.easymock.EasyMock
 	Count: 1
@@ -634,6 +736,8 @@
 	Class origin: org.easymock.IExpectationSetters<java.lang.Boolean>
 	Count: 1
  
+/core/src/test/java/org/apache/accumulo/core/spi/balancer/HostRegexTableLoadBalancerTest.java
+Methods Invoked: 
 	Method name: createMock
 	Class origin: org.easymock.EasyMock
 	Count: 1
@@ -642,6 +746,8 @@
 	Class origin: org.easymock.EasyMock
 	Count: 3
  
+/core/src/test/java/org/apache/accumulo/core/spi/balancer/HostRegexTableLoadBalancerReconfigurationTest.java
+Methods Invoked: 
 	Method name: createMock
 	Class origin: org.easymock.EasyMock
 	Count: 1
@@ -650,6 +756,8 @@
 	Class origin: org.easymock.EasyMock
 	Count: 3
  
+/core/src/test/java/org/apache/accumulo/core/spi/compaction/DefaultCompactionPlannerTest.java
+Methods Invoked: 
 	Method name: createMock
 	Class origin: org.easymock.EasyMock
 	Count: 12
@@ -670,26 +778,38 @@
 	Class origin: org.easymock.EasyMock
 	Count: 6
  
+/core/src/test/java/org/apache/accumulo/core/spi/fs/PreferredVolumeChooserTest.java
+Methods Invoked: 
 	Method name: createStrictMock
 	Class origin: org.easymock.EasyMock
 	Count: 3
  
+/core/src/test/java/org/apache/accumulo/core/spi/fs/SpaceAwareVolumeChooserTest.java
+Methods Invoked: 
 	Method name: createMock
 	Class origin: org.easymock.EasyMock
 	Count: 3
  
+/core/src/test/java/org/apache/accumulo/core/spi/fs/PerTableVolumeChooserTest.java
+Methods Invoked: 
 	Method name: createStrictMock
 	Class origin: org.easymock.EasyMock
 	Count: 3
  
+/core/src/test/java/org/apache/accumulo/core/util/MonitorUtilTest.java
+Methods Invoked: 
 	Method name: mock
 	Class origin: org.easymock.EasyMock
 	Count: 2
  
+/core/src/test/java/org/apache/accumulo/core/volume/VolumeImplTest.java
+Methods Invoked: 
 	Method name: createMock
 	Class origin: org.easymock.EasyMock
 	Count: 8
  
+/core/src/test/java/org/apache/accumulo/fate/ReadOnlyStoreTest.java
+Methods Invoked: 
 	Method name: createMock
 	Class origin: org.easymock.EasyMock
 	Count: 1
@@ -706,6 +826,8 @@
 	Class origin: org.easymock.IExpectationSetters<java.lang.Long>
 	Count: 2
  
+/core/src/test/java/org/apache/accumulo/fate/util/RetryTest.java
+Methods Invoked: 
 	Method name: createStrictMock
 	Class origin: org.easymock.IMockBuilder<java.lang.Object>
 	Count: 3
@@ -730,6 +852,8 @@
 	Class origin: org.easymock.EasyMock
 	Count: 4
  
+/core/src/test/java/org/apache/accumulo/fate/zookeeper/ZooCacheTest.java
+Methods Invoked: 
 	Method name: createMock
 	Class origin: org.easymock.EasyMock
 	Count: 1
@@ -754,6 +878,8 @@
 	Class origin: org.easymock.EasyMock
 	Count: 11
  
+/core/src/test/java/org/apache/accumulo/fate/zookeeper/ZooReaderWriterTest.java
+Methods Invoked: 
 	Method name: createMock
 	Class origin: org.easymock.EasyMock
 	Count: 3
@@ -770,46 +896,68 @@
 	Class origin: org.easymock.EasyMock
 	Count: 3
  
+/core/src/test/java/org/apache/accumulo/fate/zookeeper/ZooCacheFactoryTest.java
+Methods Invoked: 
 	Method name: createMock
 	Class origin: org.easymock.EasyMock
 	Count: 1
  
+/gc/src/test/java/org/apache/accumulo/gc/SimpleGarbageCollectorTest.java
+Methods Invoked: 
 	Method name: createMock
 	Class origin: org.easymock.EasyMock
 	Count: 8
  
+/gc/src/test/java/org/apache/accumulo/gc/GarbageCollectWriteAheadLogsTest.java
+Methods Invoked: 
 	Method name: createMock
 	Class origin: org.easymock.EasyMock
 	Count: 26
  
+/manager/src/test/java/org/apache/accumulo/manager/metrics/ReplicationMetricsTest.java
+Methods Invoked: 
 	Method name: createMock
 	Class origin: org.easymock.EasyMock
 	Count: 6
  
+/manager/src/test/java/org/apache/accumulo/manager/replication/UnorderedWorkAssignerTest.java
+Methods Invoked: 
 	Method name: createMock
 	Class origin: org.easymock.EasyMock
 	Count: 6
  
+/manager/src/test/java/org/apache/accumulo/manager/replication/ManagerReplicationCoordinatorTest.java
+Methods Invoked: 
 	Method name: createMock
 	Class origin: org.easymock.EasyMock
 	Count: 9
  
+/manager/src/test/java/org/apache/accumulo/manager/replication/SequentialWorkAssignerTest.java
+Methods Invoked: 
 	Method name: createMock
 	Class origin: org.easymock.EasyMock
 	Count: 5
  
+/manager/src/test/java/org/apache/accumulo/manager/tableOps/ShutdownTServerTest.java
+Methods Invoked: 
 	Method name: createMock
 	Class origin: org.easymock.EasyMock
 	Count: 2
  
+/manager/src/test/java/org/apache/accumulo/manager/tableOps/compact/CompactionDriverTest.java
+Methods Invoked: 
 	Method name: createNiceMock
 	Class origin: org.easymock.EasyMock
 	Count: 6
  
+/manager/src/test/java/org/apache/accumulo/manager/tableOps/tableImport/ImportTableTest.java
+Methods Invoked: 
 	Method name: createMock
 	Class origin: org.easymock.EasyMock
 	Count: 4
  
+/manager/src/test/java/org/apache/accumulo/manager/upgrade/Upgrader9to10Test.java
+Methods Invoked: 
 	Method name: createMock
 	Class origin: org.easymock.EasyMock
 	Count: 17
@@ -818,10 +966,14 @@
 	Class origin: org.easymock.EasyMock
 	Count: 24
  
+/manager/src/test/java/org/apache/accumulo/manager/upgrade/AccumuloTest.java
+Methods Invoked: 
 	Method name: createMock
 	Class origin: org.easymock.EasyMock
 	Count: 11
  
+/minicluster/src/test/java/org/apache/accumulo/cluster/standalone/StandaloneAccumuloClusterTest.java
+Methods Invoked: 
 	Method name: createMock
 	Class origin: org.easymock.IMockBuilder<java.lang.Object>
 	Count: 1
@@ -858,10 +1010,14 @@
 	Class origin: org.easymock.EasyMock
 	Count: 1
  
+/minicluster/src/test/java/org/apache/accumulo/miniclusterImpl/CleanShutdownMacTest.java
+Methods Invoked: 
 	Method name: createMock
 	Class origin: org.easymock.EasyMock
 	Count: 2
  
+/monitor/src/test/java/org/apache/accumulo/monitor/it/WebViewsIT.java
+Methods Invoked: 
 	Method name: createMock
 	Class origin: org.easymock.EasyMock
 	Count: 2
@@ -870,26 +1026,26 @@
 	Class origin: org.easymock.EasyMock
 	Count: 6
  
-	Method name: atLeastOnce
-	Class origin: org.easymock.IExpectationSetters<java.lang.String>
-	Count: 1
- 
-	Method name: andReturn
-	Class origin: org.easymock.IExpectationSetters<java.lang.String>
-	Count: 4
- 
+/monitor/src/test/java/org/apache/accumulo/monitor/rest/tservers/TabletServerInformationTest.java
+Methods Invoked: 
 	Method name: createMock
 	Class origin: org.easymock.EasyMock
 	Count: 1
  
+/shell/src/test/java/org/apache/accumulo/shell/commands/ImportDirectoryCommandTest.java
+Methods Invoked: 
 	Method name: createMock
 	Class origin: org.easymock.EasyMock
 	Count: 5
  
+/shell/src/test/java/org/apache/accumulo/shell/commands/DropUserCommandTest.java
+Methods Invoked: 
 	Method name: createMock
 	Class origin: org.easymock.EasyMock
 	Count: 6
  
+/shell/src/test/java/org/apache/accumulo/shell/commands/HistoryCommandTest.java
+Methods Invoked: 
 	Method name: createMock
 	Class origin: org.easymock.EasyMock
 	Count: 1
@@ -902,18 +1058,26 @@
 	Class origin: org.easymock.EasyMock
 	Count: 2
  
+/shell/src/test/java/org/apache/accumulo/shell/commands/SetIterCommandTest.java
+Methods Invoked: 
 	Method name: createMock
 	Class origin: org.easymock.EasyMock
 	Count: 6
  
+/shell/src/test/java/org/apache/accumulo/shell/commands/DeleteAuthsCommandTest.java
+Methods Invoked: 
 	Method name: createMock
 	Class origin: org.easymock.EasyMock
 	Count: 15
  
+/shell/src/test/java/org/apache/accumulo/shell/commands/ListTabletsCommandTest.java
+Methods Invoked: 
 	Method name: createMock
 	Class origin: org.easymock.EasyMock
 	Count: 5
  
+/shell/src/test/java/org/apache/accumulo/shell/format/DeleterFormatterTest.java
+Methods Invoked: 
 	Method name: createMock
 	Class origin: org.easymock.EasyMock
 	Count: 1
@@ -922,10 +1086,14 @@
 	Class origin: org.easymock.EasyMock
 	Count: 3
  
+/start/src/test/java/org/apache/accumulo/start/classloader/vfs/AccumuloVFSClassLoaderTest.java
+Methods Invoked: 
 	Method name: setInternalState
 	Class origin: org.powermock.reflect.Whitebox
 	Count: 18
  
+/test/src/main/java/org/apache/accumulo/test/InMemoryMapIT.java
+Methods Invoked: 
 	Method name: createMock
 	Class origin: org.easymock.EasyMock
 	Count: 1
@@ -938,13 +1106,21 @@
 	Class origin: org.easymock.EasyMock
 	Count: 1
  
+/test/src/main/java/org/apache/accumulo/test/fate/zookeeper/FateIT.java
+Methods Invoked: 
+	Method name: createMock
+	Class origin: org.easymock.EasyMock
+	Count: 2
+ 
+/test/src/main/java/org/apache/accumulo/test/gc/replication/CloseWriteAheadLogReferencesIT.java
+Methods Invoked: 
 	Method name: createMock
 	Class origin: org.easymock.EasyMock
 	Count: 2
  
 	Method name: anyTimes
 	Class origin: org.easymock.IExpectationSetters<java.lang.String>
-	Count: 5
+	Count: 4
  
 	Method name: andAnswer
 	Class origin: org.easymock.IExpectationSetters<java.lang.String>
@@ -970,6 +1146,8 @@
 	Class origin: org.easymock.IExpectationSetters<java.lang.Boolean>
 	Count: 1
  
+/test/src/main/java/org/apache/accumulo/test/replication/ReplicationOperationsImplIT.java
+Methods Invoked: 
 	Method name: createMock
 	Class origin: org.easymock.EasyMock
 	Count: 1
@@ -982,6 +1160,8 @@
 	Class origin: org.easymock.EasyMock
 	Count: 1
  
+/test/src/main/java/org/apache/accumulo/test/replication/UnorderedWorkAssignerIT.java
+Methods Invoked: 
 	Method name: createMock
 	Class origin: org.easymock.EasyMock
 	Count: 3
@@ -994,10 +1174,14 @@
 	Class origin: org.easymock.EasyMock
 	Count: 2
  
+/test/src/main/java/org/apache/accumulo/test/replication/StatusMakerIT.java
+Methods Invoked: 
 	Method name: mock
 	Class origin: org.easymock.EasyMock
 	Count: 2
  
+/test/src/main/java/org/apache/accumulo/test/replication/SequentialWorkAssignerIT.java
+Methods Invoked: 
 	Method name: createMock
 	Class origin: org.easymock.EasyMock
 	Count: 4
@@ -1018,6 +1202,8 @@
 	Class origin: org.easymock.EasyMock
 	Count: 4
  
+/test/src/main/java/org/apache/accumulo/test/replication/RemoveCompleteReplicationRecordsIT.java
+Methods Invoked: 
 	Method name: createMock
 	Class origin: org.easymock.EasyMock
 	Count: 2
@@ -1026,6 +1212,8 @@
 	Class origin: org.easymock.EasyMock
 	Count: 2
  
+/tserver/src/test/java/org/apache/accumulo/tserver/BusiestTrackerTest.java
+Methods Invoked: 
 	Method name: createMock
 	Class origin: org.easymock.EasyMock
 	Count: 1
@@ -1042,6 +1230,8 @@
 	Class origin: org.easymock.IExpectationSetters<java.lang.Long>
 	Count: 1
  
+/tserver/src/test/java/org/apache/accumulo/tserver/AssignmentWatcherTest.java
+Methods Invoked: 
 	Method name: createMock
 	Class origin: org.easymock.EasyMock
 	Count: 2
@@ -1050,14 +1240,20 @@
 	Class origin: org.easymock.EasyMock
 	Count: 1
  
+/tserver/src/test/java/org/apache/accumulo/tserver/TabletResourceManagerTest.java
+Methods Invoked: 
 	Method name: createMock
 	Class origin: org.easymock.EasyMock
 	Count: 3
  
+/tserver/src/test/java/org/apache/accumulo/tserver/TservConstraintEnvTest.java
+Methods Invoked: 
 	Method name: createMock
 	Class origin: org.easymock.EasyMock
 	Count: 3
  
+/tserver/src/test/java/org/apache/accumulo/tserver/InMemoryMapTest.java
+Methods Invoked: 
 	Method name: createMock
 	Class origin: org.easymock.EasyMock
 	Count: 1
@@ -1066,6 +1262,8 @@
 	Class origin: org.easymock.EasyMock
 	Count: 3
  
+/tserver/src/test/java/org/apache/accumulo/tserver/compaction/DefaultCompactionStrategyTest.java
+Methods Invoked: 
 	Method name: createMock
 	Class origin: org.easymock.EasyMock
 	Count: 1
@@ -1078,6 +1276,8 @@
 	Class origin: org.easymock.EasyMock
 	Count: 1
  
+/tserver/src/test/java/org/apache/accumulo/tserver/constraints/ConstraintCheckerTest.java
+Methods Invoked: 
 	Method name: createMock
 	Class origin: org.easymock.IMockBuilder<java.lang.Object>
 	Count: 1
@@ -1098,6 +1298,8 @@
 	Class origin: org.easymock.EasyMock
 	Count: 7
  
+/tserver/src/test/java/org/apache/accumulo/tserver/log/SortedLogRecoveryTest.java
+Methods Invoked: 
 	Method name: createMock
 	Class origin: org.easymock.EasyMock
 	Count: 1
@@ -1106,6 +1308,8 @@
 	Class origin: org.easymock.EasyMock
 	Count: 6
  
+/tserver/src/test/java/org/apache/accumulo/tserver/log/TestUpgradePathForWALogs.java
+Methods Invoked: 
 	Method name: createMock
 	Class origin: org.easymock.EasyMock
 	Count: 1
@@ -1114,6 +1318,8 @@
 	Class origin: org.easymock.EasyMock
 	Count: 2
  
+/tserver/src/test/java/org/apache/accumulo/tserver/log/RecoveryLogsIteratorTest.java
+Methods Invoked: 
 	Method name: createMock
 	Class origin: org.easymock.EasyMock
 	Count: 1
@@ -1122,14 +1328,20 @@
 	Class origin: org.easymock.EasyMock
 	Count: 3
  
+/tserver/src/test/java/org/apache/accumulo/tserver/log/DfsLoggerTest.java
+Methods Invoked: 
 	Method name: createMock
 	Class origin: org.easymock.EasyMock
 	Count: 1
  
+/tserver/src/test/java/org/apache/accumulo/tserver/memory/LargestFirstMemoryManagerTest.java
+Methods Invoked: 
 	Method name: createMock
 	Class origin: org.easymock.EasyMock
 	Count: 2
  
+/tserver/src/test/java/org/apache/accumulo/tserver/replication/ReplicationProcessorTest.java
+Methods Invoked: 
 	Method name: createMock
 	Class origin: org.easymock.EasyMock
 	Count: 4
@@ -1146,18 +1358,26 @@
 	Class origin: org.easymock.EasyMock
 	Count: 3
  
+/tserver/src/test/java/org/apache/accumulo/tserver/replication/BatchWriterReplicationReplayerTest.java
+Methods Invoked: 
 	Method name: createMock
 	Class origin: org.easymock.EasyMock
 	Count: 3
  
+/tserver/src/test/java/org/apache/accumulo/tserver/replication/AccumuloReplicaSystemTest.java
+Methods Invoked: 
 	Method name: createMock
 	Class origin: org.easymock.EasyMock
 	Count: 4
  
+/tserver/src/test/java/org/apache/accumulo/tserver/tablet/TabletTest.java
+Methods Invoked: 
 	Method name: createMock
 	Class origin: org.easymock.EasyMock
 	Count: 2
  
+/tserver/src/test/java/org/apache/accumulo/tserver/tablet/TabletMutationPrepAttemptTest.java
+Methods Invoked: 
 	Method name: mock
 	Class origin: org.easymock.EasyMock
 	Count: 1

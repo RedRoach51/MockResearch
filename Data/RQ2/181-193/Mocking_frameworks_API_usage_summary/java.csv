@@ -1,6 +1,0 @@
-method, origin, count
-removeIf,java.util.Collection<io.opentracing.mock.MockSpan>,2
-size,java.util.List<io.opentracing.mock.MockSpan>,2
-get,java.util.List<io.opentracing.mock.MockSpan>,15
-accept,java.util.function.Consumer<org.mockito.ArgumentCaptor<T>>,1
-getName,java.lang.Class<com.opensymphony.xwork2.mock.MockResult>,27

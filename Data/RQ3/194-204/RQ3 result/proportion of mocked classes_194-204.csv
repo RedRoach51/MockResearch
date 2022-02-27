@@ -1,0 +1,10 @@
+project name, # of total classes created, # of inside classes mocked
+mina-sshd,995,0,
+sis,2014,0,
+skywalking,1232,43,
+spark,795,20,
+sqoop,351,0,
+stanbol,1402,0,
+storm,1968,86,
+stratos,1298,0,
+struts,1384,21,

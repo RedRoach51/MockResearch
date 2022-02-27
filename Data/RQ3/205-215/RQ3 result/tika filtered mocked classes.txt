@@ -1,0 +1,17 @@
+Inside classes: 
+ 
+org.apache.tika.metadata.Metadata
+org.apache.tika.parser.image.ImageMetadataExtractor.DirectoryHandler
+org.apache.tika.sax.XHTMLContentHandler
+ 
+ 
+ 
+Outside classes: 
+ 
+edu.usc.irds.agepredictor.authorage.AgePredicterLocal
+java.util.Iterator
+com.drew.metadata.exif.ExifSubIFDDirectory
+com.drew.metadata.exif.ExifIFD0Directory
+com.drew.metadata.Directory
+com.drew.metadata.Tag
+org.xml.sax.helpers.DefaultHandler

@@ -1,0 +1,13 @@
+project name, variety of inside mocked classes, variety of outside mocked classes, proportion of mocked classes
+mina-sshd,0,30,
+sis,0,0,
+skywalking,43,17,
+spark,20,5,
+sqoop,0,0,
+stanbol,0,0,
+storm,86,25,
+stratos,0,0,
+struts,21,31,
+ 
+more inside classes mocked: ,more outside classes mocked: 
+3,2

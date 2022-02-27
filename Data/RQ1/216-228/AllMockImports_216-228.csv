@@ -138,6 +138,7 @@ turbine-core,turbine-core\src\test\org\apache\turbine\pipeline\DetermineTargetVa
 turbine-core,turbine-core\src\test\org\apache\turbine\pipeline\ExecutePageValveTest.java,mockito,static org.mockito.Mockito.mock
 turbine-core,turbine-core\src\test\org\apache\turbine\pipeline\ExecutePageValveTest.java,mockito,static org.mockito.Mockito.when
 turbine-core,turbine-core\src\test\org\apache\turbine\services\intake\IntakeToolTest.java,mockito,static org.mockito.Mockito.mock
+turbine-core,turbine-core\src\test\org\apache\turbine\services\localization\DateTimeFormatterServiceTest.java,mockito,static org.mockito.Mockito.mock
 turbine-core,turbine-core\src\test\org\apache\turbine\services\localization\LocalizationToolTest.java,mockito,static org.mockito.Mockito.mock
 turbine-core,turbine-core\src\test\org\apache\turbine\services\urlmapper\TurbineURLMapperJSONServiceTest.java,mockito,static org.mockito.Mockito.mock
 turbine-core,turbine-core\src\test\org\apache\turbine\services\urlmapper\TurbineURLMapperJSONServiceTest.java,mockito,org.mockito.Mockito
@@ -151,7 +152,6 @@ turbine-core,turbine-core\src\test\org\apache\turbine\test\BaseTestCase.java,moc
 turbine-core,turbine-core\src\test\org\apache\turbine\test\BaseTestCase.java,mockito,static org.mockito.Mockito.mock
 turbine-core,turbine-core\src\test\org\apache\turbine\test\BaseTestCase.java,mockito,static org.mockito.Mockito.when
 turbine-core,turbine-core\src\test\org\apache\turbine\util\uri\TurbineURITest.java,mockito,org.mockito.Mockito
-tuscany-sca-2.x,tuscany-sca-2.x\testing\itest\jms\ttl\src\test\java\org\apache\tuscany\sca\binding\jms\TTLTestCase.java,itest,itest.MockInitialContextFactory
 whirr,whirr\cli\src\test\java\org\apache\whirr\cli\MainTest.java,mockito,static org.mockito.Mockito.mock
 whirr,whirr\cli\src\test\java\org\apache\whirr\cli\MainTest.java,mockito,static org.mockito.Mockito.verify
 whirr,whirr\cli\src\test\java\org\apache\whirr\cli\MainTest.java,mockito,static org.mockito.Mockito.when

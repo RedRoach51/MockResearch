@@ -1,0 +1,45 @@
+/cli/src/test/java/org/apache/whirr/cli/MainTest.java
+	org.apache.whirr.command.Command
+/cli/src/test/java/org/apache/whirr/cli/command/DestroyInstanceCommandTest.java
+	org.apache.whirr.ClusterControllerFactory
+	org.apache.whirr.ClusterController
+/cli/src/test/java/org/apache/whirr/cli/command/ListClusterCommandTest.java
+	org.apache.whirr.ClusterControllerFactory
+	org.apache.whirr.ClusterController
+	org.apache.whirr.state.ClusterStateStoreFactory
+/cli/src/test/java/org/apache/whirr/cli/command/LaunchClusterCommandTest.java
+	org.apache.whirr.ClusterControllerFactory
+	org.apache.whirr.ClusterController
+	org.apache.whirr.Cluster
+	org.apache.whirr.ClusterControllerFactory
+	org.apache.whirr.ClusterController
+	org.apache.whirr.Cluster
+/cli/src/test/java/org/apache/whirr/cli/command/DestroyClusterCommandTest.java
+	org.apache.whirr.ClusterControllerFactory
+	org.apache.whirr.ClusterController
+/cli/src/test/java/org/apache/whirr/cli/command/RunScriptCommandTest.java
+	org.apache.whirr.ClusterControllerFactory
+	org.apache.whirr.ClusterController
+	org.apache.whirr.ClusterControllerFactory
+	org.apache.whirr.ClusterController
+	org.apache.whirr.state.ClusterStateStoreFactory
+/core/src/test/java/org/apache/whirr/actions/BootstrapClusterActionTest.java
+	org.apache.whirr.service.ClusterActionHandler
+	com.google.common.base.Function
+	org.apache.whirr.service.ClusterActionHandler
+	com.google.common.base.Function
+	org.apache.whirr.service.ClusterActionHandlerFactory
+	org.apache.whirr.service.ClusterActionHandler
+	com.google.common.base.Function
+	org.apache.whirr.service.ClusterActionHandlerFactory
+	org.apache.whirr.service.ClusterActionHandler
+	com.google.common.base.Function
+/core/src/test/java/org/apache/whirr/compute/BootstrapTemplateTest.java
+/core/src/test/java/org/apache/whirr/util/UtilsTest.java
+	org.apache.whirr.Cluster.Instance
+	org.apache.whirr.Cluster
+	org.apache.whirr.ClusterSpec
+/elasticsearch/src/test/java/org/apache/whirr/service/elasticsearch/ElasticSearchConfigurationBuilderTest.java
+	org.apache.whirr.Cluster
+	org.apache.whirr.Cluster.Instance
+/hadoop/src/test/java/org/apache/whirr/service/hadoop/HadoopConfigurationBuilderTest.java

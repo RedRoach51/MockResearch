@@ -1,3 +1,43 @@
+/activemq-amqp/src/test/java/org/apache/activemq/transport/amqp/message/JMSMappingOutboundTransformerTest.java
+Methods Invoked: 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<java.lang.String>
+	Count: 6
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 21
+ 
+/activemq-http/src/test/java/org/apache/activemq/transport/util/HttpTransportUtilsTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 2
+ 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<java.lang.String>
+	Count: 4
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 6
+ 
+/activemq-jdbc-store/src/test/java/org/apache/activemq/store/jdbc/adapter/DefaultJDBCAdapterDoCreateTablesTest.java
+Methods Invoked: 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<java.lang.String[]>
+	Count: 1
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 11
+ 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<java.sql.Connection>
+	Count: 1
+ 
+/activemq-kahadb-store/src/test/java/org/apache/activemq/store/kahadb/disk/journal/DataFileAccessorPoolTest.java
+Methods Invoked: 
 	Method name: setImposteriser
 	Class origin: org.jmock.Mockery
 	Count: 1
@@ -21,4 +61,164 @@
 	Method name: assertIsSatisfied
 	Class origin: org.jmock.Mockery
 	Count: 1
+ 
+/activemq-maven-plugin/src/test/java/org/apache/activemq/maven/StartBrokerMojoTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 9
+ 
+/activemq-mqtt/src/test/java/org/apache/activemq/transport/mqtt/MQTTPingReqTest.java
+Methods Invoked: 
+	Method name: spy
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+	Method name: when
+	Class origin: org.mockito.stubbing.Stubber
+	Count: 1
+ 
+	Method name: doNothing
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+/activemq-mqtt/src/test/java/org/apache/activemq/transport/mqtt/MQTTProtocolConverterTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 5
+ 
+/activemq-ra/src/test/java/org/apache/activemq/ra/MessageEndpointProxyTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.jmock.Mockery
+	Count: 4
+ 
+/activemq-ra/src/test/java/org/apache/activemq/ra/ServerSessionImplTest.java
+Methods Invoked: 
+	Method name: setImposteriser
+	Class origin: org.jmock.Mockery
+	Count: 1
+ 
+	Method name: mock
+	Class origin: org.jmock.Mockery
+	Count: 24
+ 
+/activemq-stomp/src/test/java/org/apache/activemq/transport/stomp/LegacyFrameTranslatorTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+	Method name: anyString
+	Class origin: org.mockito.ArgumentMatchers
+	Count: 1
+ 
+	Method name: anyBoolean
+	Class origin: org.mockito.ArgumentMatchers
+	Count: 1
+ 
+	Method name: getArgument
+	Class origin: org.mockito.invocation.InvocationOnMock
+	Count: 2
+ 
+/activemq-unit-tests/src/test/java/org/apache/activemq/broker/BrokerServiceTest.java
+Methods Invoked: 
+	Method name: mockStatic
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<java.lang.Object>
+	Count: 2
+ 
+/activemq-unit-tests/src/test/java/org/apache/activemq/config/ConfigTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.jmock.Mockery
+	Count: 8
+ 
+/activemq-unit-tests/src/test/java/org/apache/activemq/network/NetworkRouteTest.java
+Methods Invoked: 
+	Method name: isA
+	Class origin: org.easymock.EasyMock
+	Count: 23
+ 
+	Method name: replay
+	Class origin: org.easymock.IMocksControl
+	Count: 4
+ 
+	Method name: verify
+	Class origin: org.easymock.IMocksControl
+	Count: 4
+ 
+/activemq-unit-tests/src/test/java/org/apache/activemq/network/CustomBridgeFactoryTest.java
+Methods Invoked: 
+	Method name: verify
+	Class origin: org.mockito.Mockito
+	Count: 4
+ 
+	Method name: any
+	Class origin: org.mockito.ArgumentMatchers
+	Count: 5
+ 
+	Method name: verifyNoMoreInteractions
+	Class origin: org.mockito.Mockito
+	Count: 4
+ 
+/activemq-unit-tests/src/test/java/org/apache/activemq/store/jdbc/JDBCIOExceptionHandlerMockeryTest.java
+Methods Invoked: 
+	Method name: setImposteriser
+	Class origin: org.jmock.Mockery
+	Count: 1
+ 
+	Method name: mock
+	Class origin: org.jmock.Mockery
+	Count: 3
+ 
+/activemq-unit-tests/src/test/java/org/apache/activemq/store/jdbc/LeaseDatabaseLockerTest.java
+Methods Invoked: 
+	Method name: setImposteriser
+	Class origin: org.jmock.Mockery
+	Count: 1
+ 
+	Method name: mock
+	Class origin: org.jmock.Mockery
+	Count: 6
+ 
+/activemq-unit-tests/src/test/java/org/apache/activemq/transport/discovery/DiscoveryNetworkReconnectTest.java
+Methods Invoked: 
+	Method name: setImposteriser
+	Class origin: org.jmock.Mockery
+	Count: 1
+ 
+	Method name: mock
+	Class origin: org.jmock.Mockery
+	Count: 1
+ 
+	Method name: checking
+	Class origin: org.jmock.Mockery
+	Count: 1
+ 
+	Method name: allowing
+	Class origin: org.jmock.Expectations
+	Count: 22
+ 
+	Method name: will
+	Class origin: org.jmock.Expectations
+	Count: 3
+ 
+	Method name: returnValue
+	Class origin: org.jmock.Expectations
+	Count: 1
+ 
+/activemq-web/src/test/java/org/apache/activemq/web/LocalBrokerFacadeTest.java
+Methods Invoked: 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 16
  

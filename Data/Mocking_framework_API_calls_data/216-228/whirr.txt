@@ -1,0 +1,90 @@
+/cli/src/test/java/org/apache/whirr/cli/MainTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<java.lang.String>
+	Count: 1
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+	Method name: verify
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+/cli/src/test/java/org/apache/whirr/cli/command/DestroyInstanceCommandTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 2
+ 
+/cli/src/test/java/org/apache/whirr/cli/command/ListClusterCommandTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 3
+ 
+/cli/src/test/java/org/apache/whirr/cli/command/LaunchClusterCommandTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 6
+ 
+/cli/src/test/java/org/apache/whirr/cli/command/DestroyClusterCommandTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 2
+ 
+/cli/src/test/java/org/apache/whirr/cli/command/RunScriptCommandTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 5
+ 
+/core/src/test/java/org/apache/whirr/actions/BootstrapClusterActionTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 10
+ 
+/core/src/test/java/org/apache/whirr/compute/BootstrapTemplateTest.java
+Methods Invoked: 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 9
+ 
+/core/src/test/java/org/apache/whirr/util/UtilsTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 3
+ 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<java.lang.String>
+	Count: 2
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 5
+ 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<java.util.Set<java.lang.String>>
+	Count: 1
+ 
+/elasticsearch/src/test/java/org/apache/whirr/service/elasticsearch/ElasticSearchConfigurationBuilderTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 2
+ 
+/hadoop/src/test/java/org/apache/whirr/service/hadoop/HadoopConfigurationBuilderTest.java
+Methods Invoked: 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 

@@ -1,0 +1,27 @@
+method, origin, count
+matchAndReturn,com.mockobjects.dynamic.Mock,51
+expectAndReturn,com.mockobjects.dynamic.Mock,199
+isA,com.mockobjects.dynamic.C,6
+proxy,com.mockobjects.dynamic.Mock,57
+verify,com.mockobjects.dynamic.Mock,125
+args,com.mockobjects.dynamic.C,48
+eq,com.mockobjects.dynamic.C,80
+expectAndThrow,com.mockobjects.dynamic.Mock,12
+setupGetServletPath,com.mockobjects.servlet.MockHttpServletRequest,73
+setupGetParameterMap,com.mockobjects.servlet.MockHttpServletRequest,8
+setupGetContextPath,com.mockobjects.servlet.MockHttpServletRequest,2
+setupGetRequestURI,com.mockobjects.servlet.MockHttpServletRequest,23
+setupGetAttribute,com.mockobjects.servlet.MockHttpServletRequest,24
+addExpectedGetAttributeName,com.mockobjects.servlet.MockHttpServletRequest,24
+setupGetMethod,com.mockobjects.servlet.MockHttpServletRequest,10
+setSession,com.mockobjects.servlet.MockHttpServletRequest,10
+setExpectedError,com.mockobjects.servlet.MockHttpServletResponse,1
+setExpectedContentType,com.mockobjects.servlet.MockHttpServletResponse,3
+setExpectedHeader,com.mockobjects.servlet.MockHttpServletResponse,3
+setRequest,com.mockobjects.servlet.MockPageContext,31
+setServletContext,com.mockobjects.servlet.MockPageContext,5
+setJspWriter,com.mockobjects.servlet.MockPageContext,37
+getServletContext,com.mockobjects.servlet.MockPageContext,5
+setExpectedData,com.mockobjects.servlet.MockJspWriter,22
+getRequest,com.mockobjects.servlet.MockPageContext,1
+setupGetEnclosingWriter,com.mockobjects.servlet.MockBodyContent,1

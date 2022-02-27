@@ -1,0 +1,7 @@
+method, origin, count
+setInternalState,org.powermock.reflect.Whitebox,2
+getInternalState,org.powermock.reflect.Whitebox,2
+
+MockedObjects: ,0
+
+# of Mocked objects each file:,

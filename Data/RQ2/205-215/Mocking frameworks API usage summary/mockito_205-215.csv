@@ -1,0 +1,27 @@
+method, origin, count
+mock,org.mockito.Mockito,1084
+thenReturn,org.mockito.stubbing.OngoingStubbing<java.lang.String>,147
+when,org.mockito.Mockito,963
+lenient,org.mockito.Mockito,20
+any,org.mockito.ArgumentMatchers,79
+getArgument,org.mockito.invocation.InvocationOnMock,7
+thenAnswer,org.mockito.stubbing.OngoingStubbing<java.lang.reflect.Field>,1
+verify,org.mockito.Mockito,381
+openMocks,org.mockito.MockitoAnnotations,2
+anyInt,org.mockito.ArgumentMatchers,24
+times,org.mockito.Mockito,89
+eq,org.mockito.ArgumentMatchers,38
+anyString,org.mockito.ArgumentMatchers,7
+doNothing,org.mockito.Mockito,2
+spy,org.mockito.Mockito,59
+doReturn,org.mockito.Mockito,317
+initMocks,org.mockito.MockitoAnnotations,6
+forClass,org.mockito.ArgumentCaptor,10
+reset,org.mockito.Mockito,18
+doAnswer,org.mockito.Mockito,1
+getArguments,org.mockito.invocation.InvocationOnMock,1
+newSet,org.mockito.internal.util.collections.Sets,1
+anyListOf,org.mockito.Matchers,3
+atLeast,org.mockito.Mockito,1
+capture,org.mockito.ArgumentCaptor<java.util.List>,1
+getValue,org.mockito.ArgumentCaptor<java.util.List>,1

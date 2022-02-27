@@ -1,0 +1,23 @@
+Project Name,Mocking Framework,Used in # of Files
+mina-sshd,mockito,36
+skywalking,mockito,43
+skywalking,powermock,44
+solr,mockito,42
+solr,opentracing,1
+solr,no,1
+solr,mockwebserver,1
+solr,adobe,4
+spark,mockito,23
+sqoop,mockito,28
+storm,mockito,95
+storm,jmock,1
+storm,kafka,1
+stratos,jclouds,6
+stratos,squareup,5
+stratos,easymock,5
+struts,opensymphony,76
+struts,mockobjects,61
+struts,easymock,45
+struts,mockito,3
+struts,springframework,51
+struts,jmock,8

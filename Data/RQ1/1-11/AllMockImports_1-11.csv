@@ -224,8 +224,6 @@ accumulo,accumulo\server\base\src\test\java\org\apache\accumulo\server\util\Repl
 accumulo,accumulo\server\base\src\test\java\org\apache\accumulo\server\util\ReplicationTableUtilTest.java,easymock,static org.easymock.EasyMock.replay
 accumulo,accumulo\server\base\src\test\java\org\apache\accumulo\server\util\ReplicationTableUtilTest.java,easymock,static org.easymock.EasyMock.verify
 accumulo,accumulo\server\base\src\test\java\org\apache\accumulo\server\util\ReplicationTableUtilTest.java,easymock,org.easymock.EasyMock
-accumulo,accumulo\server\base\src\test\java\org\apache\accumulo\server\util\TServerUtilsTest.java,easymock,static org.easymock.EasyMock.createMock
-accumulo,accumulo\server\base\src\test\java\org\apache\accumulo\server\util\TServerUtilsTest.java,easymock,static org.easymock.EasyMock.createNiceMock
 accumulo,accumulo\server\base\src\test\java\org\apache\accumulo\server\util\TServerUtilsTest.java,easymock,static org.easymock.EasyMock.expect
 accumulo,accumulo\server\base\src\test\java\org\apache\accumulo\server\util\TServerUtilsTest.java,easymock,static org.easymock.EasyMock.replay
 accumulo,accumulo\server\base\src\test\java\org\apache\accumulo\server\util\TServerUtilsTest.java,easymock,static org.easymock.EasyMock.verify
@@ -351,6 +349,9 @@ accumulo,accumulo\start\src\test\java\org\apache\accumulo\start\classloader\vfs\
 accumulo,accumulo\start\src\test\java\org\apache\accumulo\start\classloader\vfs\AccumuloVFSClassLoaderTest.java,powermock,org.powermock.modules.junit4.PowerMockRunner
 accumulo,accumulo\start\src\test\java\org\apache\accumulo\start\classloader\vfs\AccumuloVFSClassLoaderTest.java,powermock,org.powermock.reflect.Whitebox
 accumulo,accumulo\test\src\main\java\org\apache\accumulo\test\InMemoryMapIT.java,easymock,org.easymock.EasyMock
+accumulo,accumulo\test\src\main\java\org\apache\accumulo\test\fate\zookeeper\FateIT.java,easymock,static org.easymock.EasyMock.createMock
+accumulo,accumulo\test\src\main\java\org\apache\accumulo\test\fate\zookeeper\FateIT.java,easymock,static org.easymock.EasyMock.expect
+accumulo,accumulo\test\src\main\java\org\apache\accumulo\test\fate\zookeeper\FateIT.java,easymock,static org.easymock.EasyMock.replay
 accumulo,accumulo\test\src\main\java\org\apache\accumulo\test\gc\replication\CloseWriteAheadLogReferencesIT.java,easymock,static org.easymock.EasyMock.createMock
 accumulo,accumulo\test\src\main\java\org\apache\accumulo\test\gc\replication\CloseWriteAheadLogReferencesIT.java,easymock,static org.easymock.EasyMock.expect
 accumulo,accumulo\test\src\main\java\org\apache\accumulo\test\gc\replication\CloseWriteAheadLogReferencesIT.java,easymock,static org.easymock.EasyMock.replay
@@ -458,7 +459,6 @@ activemq,activemq\activemq-stomp\src\test\java\org\apache\activemq\transport\sto
 activemq,activemq\activemq-stomp\src\test\java\org\apache\activemq\transport\stomp\LegacyFrameTranslatorTest.java,mockito,org.mockito.invocation.InvocationOnMock
 activemq,activemq\activemq-stomp\src\test\java\org\apache\activemq\transport\stomp\LegacyFrameTranslatorTest.java,mockito,org.mockito.stubbing.Answer
 activemq,activemq\activemq-tooling\activemq-maven-plugin\src\test\java\org\apache\activemq\maven\StartBrokerMojoTest.java,mockito,org.mockito.Mockito
-activemq,activemq\activemq-unit-tests\src\test\java\org\apache\activemq\blob\FTPTestSupport.java,jmock,org.jmock.Mockery
 activemq,activemq\activemq-unit-tests\src\test\java\org\apache\activemq\broker\BrokerServiceTest.java,mockito,org.mockito.MockedStatic
 activemq,activemq\activemq-unit-tests\src\test\java\org\apache\activemq\broker\BrokerServiceTest.java,mockito,org.mockito.Mockito
 activemq,activemq\activemq-unit-tests\src\test\java\org\apache\activemq\broker\BrokerServiceTest.java,mockito,static org.mockito.ArgumentMatchers.any

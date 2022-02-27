@@ -1,0 +1,76 @@
+/wicket-core/src/main/java/org/apache/wicket/core/util/string/ComponentRenderer.java
+Methods Invoked: 
+/wicket-core/src/main/java/org/apache/wicket/util/tester/BaseWicketTester.java
+Methods Invoked: 
+/wicket-core/src/test/java/org/apache/wicket/ApplicationSettingsTest.java
+Methods Invoked: 
+/wicket-core/src/test/java/org/apache/wicket/core/request/cycle/RequestCycleListenerTest.java
+Methods Invoked: 
+/wicket-core/src/test/java/org/apache/wicket/core/request/mapper/TestMapperContext.java
+Methods Invoked: 
+/wicket-core/src/test/java/org/apache/wicket/core/request/resource/MetaInfStaticResourceReferenceTest.java
+Methods Invoked: 
+/wicket-core/src/test/java/org/apache/wicket/page/PersistentPageManagerTest.java
+Methods Invoked: 
+/wicket-core/src/test/java/org/apache/wicket/page/AsyncPageStoreManagerTest.java
+Methods Invoked: 
+/wicket-core/src/test/java/org/apache/wicket/pageStore/AbstractPageStoreTest.java
+Methods Invoked: 
+/wicket-core/src/test/java/org/apache/wicket/pageStore/SerializingPageStoreTest.java
+Methods Invoked: 
+/wicket-core/src/test/java/org/apache/wicket/pageStore/CryptingPageStoreTest.java
+Methods Invoked: 
+/wicket-core/src/test/java/org/apache/wicket/pageStore/GroupingPageStoreTest.java
+Methods Invoked: 
+/wicket-core/src/test/java/org/apache/wicket/pageStore/AsynchronousPageStoreTest.java
+Methods Invoked: 
+/wicket-core/src/test/java/org/apache/wicket/pageStore/AbstractConcurrentPageStoreTest.java
+Methods Invoked: 
+/wicket-core/src/test/java/org/apache/wicket/pageStore/RequestPageStoreTest.java
+Methods Invoked: 
+/wicket-core/src/test/java/org/apache/wicket/pageStore/AsynchronousDataStoreTest.java
+Methods Invoked: 
+/wicket-core/src/test/java/org/apache/wicket/protocol/http/WebApplicationTest.java
+Methods Invoked: 
+/wicket-core/src/test/java/org/apache/wicket/protocol/http/RequestUtilsTest.java
+Methods Invoked: 
+/wicket-core/src/test/java/org/apache/wicket/protocol/http/WicketFilterTest.java
+Methods Invoked: 
+/wicket-core/src/test/java/org/apache/wicket/protocol/http/mock/MockServletContextTest.java
+Methods Invoked: 
+/wicket-core/src/test/java/org/apache/wicket/protocol/http/mock/MockHttpServletRequestTest.java
+Methods Invoked: 
+/wicket-core/src/test/java/org/apache/wicket/protocol/http/mock/MockHttpServletResponseTest.java
+Methods Invoked: 
+/wicket-core/src/test/java/org/apache/wicket/protocol/http/servlet/ServletWebResponseTest.java
+Methods Invoked: 
+/wicket-core/src/test/java/org/apache/wicket/protocol/http/servlet/ServletWebRequestTest.java
+Methods Invoked: 
+/wicket-guice/src/test/java/org/apache/wicket/guice/GuiceWebApplicationFactoryTest.java
+Methods Invoked: 
+/wicket-guice/src/test/java/org/apache/wicket/guice/AbstractInjectorTest.java
+Methods Invoked: 
+/wicket-ioc/src/test/java/org/apache/wicket/injection/CompoundFieldValueFactoryTest.java
+Methods Invoked: 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 2
+ 
+	Method name: verify
+	Class origin: org.mockito.Mockito
+	Count: 2
+ 
+	Method name: times
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+/wicket-native-websocket-core/src/main/java/org/apache/wicket/protocol/ws/util/tester/TestWebSocketProcessor.java
+Methods Invoked: 
+/wicket-request/src/test/java/org/apache/wicket/request/http/handler/RedirectRequestHandlerTest.java
+Methods Invoked: 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 4
+ 
+/wicket-spring/src/test/java/org/apache/wicket/spring/SpringWebApplicationFactoryTest.java
+Methods Invoked: 

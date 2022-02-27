@@ -1,13 +1,15 @@
 Inside classes: 
  
+org.apache.skywalking.oap.server.library.module.ModuleManager
 org.apache.skywalking.oap.server.library.module.ModuleProviderHolder
 org.apache.skywalking.oap.server.library.module.ModuleServiceHolder
 org.apache.skywalking.oap.server.telemetry.api.HealthCheckMetrics
 org.apache.skywalking.oap.server.library.module.ModuleDefineHolder
 org.apache.skywalking.oap.server.telemetry.none.NoneTelemetryProvider
-org.apache.skywalking.oap.server.library.module.ModuleManager
 org.apache.skywalking.oap.server.cluster.plugin.kubernetes.NamespacedPodListInformer
 org.apache.skywalking.oap.server.core.CoreModuleConfig
+org.apache.skywalking.oap.server.configuration.consul.ConsulConfigurationWatcherRegister
+org.apache.skywalking.oap.server.recevier.configuration.discovery.AgentConfigurationsWatcher
 org.apache.skywalking.oap.server.configuration.configmap.ConfigurationConfigmapInformer
 org.apache.skywalking.oap.server.configuration.nacos.NacosServerSettings
 org.apache.skywalking.oap.server.configuration.zookeeper.ZookeeperServerSettings
@@ -17,6 +19,9 @@ org.apache.skywalking.oap.log.analyzer.provider.log.ILogAnalyzerService
 org.apache.skywalking.oap.server.telemetry.api.MetricsCreator
 org.apache.skywalking.oap.server.core.source.SourceReceiver
 org.apache.skywalking.oap.server.core.config.ConfigService
+org.apache.skywalking.oap.query.graphql.GraphQLQueryConfig
+org.apache.skywalking.oap.log.analyzer.provider.LogAnalyzerModuleProvider
+org.apache.skywalking.oap.log.analyzer.provider.LogAnalyzerModuleConfig
 org.apache.skywalking.oap.server.core.config.NamingControl
 org.apache.skywalking.oap.server.core.alarm.provider.NotifyHandler
 org.apache.skywalking.oap.server.core.analysis.manual.endpoint.EndpointTraffic
@@ -26,11 +31,17 @@ org.apache.skywalking.oap.server.core.alarm.provider.AlarmCore
 org.apache.skywalking.oap.server.core.alarm.provider.RunningRule
 org.apache.skywalking.oap.server.core.alarm.provider.EventHookCallbackTest.MockEventAnalyzerService
 org.apache.skywalking.oap.server.analyzer.event.EventAnalyzerServiceImpl
+org.apache.skywalking.oap.server.core.alarm.provider.AlarmRulesWatcher
+org.apache.skywalking.oap.server.core.CoreModuleProvider
+org.apache.skywalking.oap.server.core.analysis.meter.function.avg.AvgLabeledFunction
+org.apache.skywalking.oap.server.core.analysis.meter.function.latest.LatestFunction
 org.apache.skywalking.oap.server.core.cluster.ClusterNodesQuery
 org.apache.skywalking.oap.server.core.analysis.worker.MetricsPersistentWorker
 org.apache.skywalking.oap.server.core.analysis.worker.TopNWorker
+org.apache.skywalking.oap.server.analyzer.provider.AnalyzerModuleProvider
+org.apache.skywalking.oap.server.analyzer.provider.AnalyzerModuleConfig
+org.apache.skywalking.oap.server.core.cache.NetworkAddressAliasCache
 org.apache.skywalking.oap.server.analyzer.provider.trace.UninstrumentedGatewaysConfig
-org.apache.skywalking.oap.server.core.CoreModuleProvider
 org.apache.skywalking.oap.server.receiver.zabbix.provider.ZabbixMetrics
  
  
@@ -51,4 +62,6 @@ org.apache.curator.x.discovery.ServiceCache
 com.orbitz.consul.cache.KVCache
 com.alibaba.nacos.api.config.ConfigService
 org.apache.curator.framework.recipes.cache.PathChildrenCache
+javax.servlet.http.HttpServletRequest
+io.netty.channel.ChannelHandlerContext
 io.netty.buffer.ByteBufAllocator

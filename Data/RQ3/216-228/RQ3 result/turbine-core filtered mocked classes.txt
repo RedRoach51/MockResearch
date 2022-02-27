@@ -5,12 +5,3 @@ Inside classes:
  
 Outside classes: 
  
-javax.servlet.http.HttpServletResponse
-org.apache.turbine.util.RunData
-org.apache.fulcrum.security.model.turbine.TurbineAccessControlList
-org.apache.fulcrum.security.entity.Role
-javax.servlet.ServletConfig
-javax.servlet.ServletOutputStream
-javax.servlet.http.HttpServletRequest
-javax.servlet.http.HttpSession
-javax.servlet.http.Part

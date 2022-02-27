@@ -1,0 +1,2 @@
+/rest-applicationcomposer-mockito/src/test/java/org/superbiz/composed/rest/GreetingServiceTest.java
+	org.superbiz.composed.rest.Messager

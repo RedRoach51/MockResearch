@@ -440,201 +440,13 @@ xmlgraphics-commons,xmlgraphics-commons\src\test\java\org\apache\xmlgraphics\jav
 xmlgraphics-commons,xmlgraphics-commons\src\test\java\org\apache\xmlgraphics\java2d\ps\PSGraphics2DTestCase.java,mockito,static org.mockito.Mockito.when
 xmlgraphics-commons,xmlgraphics-commons\src\test\java\org\apache\xmlgraphics\ps\ImageEncodingHelperTestCase.java,mockito,org.mockito.invocation.InvocationOnMock
 xmlgraphics-commons,xmlgraphics-commons\src\test\java\org\apache\xmlgraphics\ps\ImageEncodingHelperTestCase.java,mockito,org.mockito.stubbing.Answer
-xmlgraphics-commons,xmlgraphics-commons\src\test\java\org\apache\xmlgraphics\ps\ImageEncodingHelperTestCase.java,mockito,static org.mockito.Matchers.anyInt
-xmlgraphics-commons,xmlgraphics-commons\src\test\java\org\apache\xmlgraphics\ps\ImageEncodingHelperTestCase.java,mockito,static org.mockito.Matchers.anyObject
+xmlgraphics-commons,xmlgraphics-commons\src\test\java\org\apache\xmlgraphics\ps\ImageEncodingHelperTestCase.java,mockito,static org.mockito.ArgumentMatchers.any
+xmlgraphics-commons,xmlgraphics-commons\src\test\java\org\apache\xmlgraphics\ps\ImageEncodingHelperTestCase.java,mockito,static org.mockito.ArgumentMatchers.anyInt
 xmlgraphics-commons,xmlgraphics-commons\src\test\java\org\apache\xmlgraphics\ps\ImageEncodingHelperTestCase.java,mockito,static org.mockito.Mockito.mock
 xmlgraphics-commons,xmlgraphics-commons\src\test\java\org\apache\xmlgraphics\ps\ImageEncodingHelperTestCase.java,mockito,static org.mockito.Mockito.when
-zeppelin,zeppelin\cassandra\src\test\java\org\apache\zeppelin\cassandra\InterpreterLogicTest.java,mockito,static org.mockito.Mockito.eq
-zeppelin,zeppelin\cassandra\src\test\java\org\apache\zeppelin\cassandra\InterpreterLogicTest.java,mockito,static org.mockito.Mockito.mock
-zeppelin,zeppelin\cassandra\src\test\java\org\apache\zeppelin\cassandra\InterpreterLogicTest.java,mockito,static org.mockito.Mockito.never
-zeppelin,zeppelin\cassandra\src\test\java\org\apache\zeppelin\cassandra\InterpreterLogicTest.java,mockito,static org.mockito.Mockito.verify
-zeppelin,zeppelin\cassandra\src\test\java\org\apache\zeppelin\cassandra\InterpreterLogicTest.java,mockito,static org.mockito.Mockito.verifyZeroInteractions
-zeppelin,zeppelin\cassandra\src\test\java\org\apache\zeppelin\cassandra\InterpreterLogicTest.java,mockito,static org.mockito.Mockito.when
-zeppelin,zeppelin\cassandra\src\test\java\org\apache\zeppelin\cassandra\InterpreterLogicTest.java,mockito,org.mockito.Answers
-zeppelin,zeppelin\cassandra\src\test\java\org\apache\zeppelin\cassandra\InterpreterLogicTest.java,mockito,org.mockito.ArgumentCaptor
-zeppelin,zeppelin\cassandra\src\test\java\org\apache\zeppelin\cassandra\InterpreterLogicTest.java,mockito,org.mockito.Captor
-zeppelin,zeppelin\cassandra\src\test\java\org\apache\zeppelin\cassandra\InterpreterLogicTest.java,mockito,org.mockito.Mock
-zeppelin,zeppelin\cassandra\src\test\java\org\apache\zeppelin\cassandra\InterpreterLogicTest.java,mockito,org.mockito.runners.MockitoJUnitRunner
-zeppelin,zeppelin\flink\flink-scala-parent\src\test\java\org\apache\zeppelin\flink\FlinkInterpreterTest.java,mockito,static org.mockito.Mockito.mock
-zeppelin,zeppelin\flink\flink-scala-parent\src\test\java\org\apache\zeppelin\flink\IPyFlinkInterpreterTest.java,mockito,static org.mockito.Mockito.mock
-zeppelin,zeppelin\flink\flink-scala-parent\src\test\java\org\apache\zeppelin\flink\PyFlinkInterpreterTest.java,mockito,static org.mockito.Mockito.mock
-zeppelin,zeppelin\flink\flink-scala-parent\src\test\java\org\apache\zeppelin\flink\SqlInterpreterTest.java,mockito,static org.mockito.Mockito.mock
-zeppelin,zeppelin\geode\src\test\java\org\apache\zeppelin\geode\GeodeOqlInterpreterTest.java,mockito,static org.mockito.Matchers.eq
-zeppelin,zeppelin\geode\src\test\java\org\apache\zeppelin\geode\GeodeOqlInterpreterTest.java,mockito,static org.mockito.Mockito.RETURNS_DEEP_STUBS
-zeppelin,zeppelin\geode\src\test\java\org\apache\zeppelin\geode\GeodeOqlInterpreterTest.java,mockito,static org.mockito.Mockito.mock
-zeppelin,zeppelin\geode\src\test\java\org\apache\zeppelin\geode\GeodeOqlInterpreterTest.java,mockito,static org.mockito.Mockito.spy
-zeppelin,zeppelin\geode\src\test\java\org\apache\zeppelin\geode\GeodeOqlInterpreterTest.java,mockito,static org.mockito.Mockito.times
-zeppelin,zeppelin\geode\src\test\java\org\apache\zeppelin\geode\GeodeOqlInterpreterTest.java,mockito,static org.mockito.Mockito.verify
-zeppelin,zeppelin\geode\src\test\java\org\apache\zeppelin\geode\GeodeOqlInterpreterTest.java,mockito,static org.mockito.Mockito.when
-zeppelin,zeppelin\influxdb\src\test\java\org\apache\zeppelin\influxdb\InfluxDBInterpeterTest.java,mockwebserver,okhttp3.mockwebserver.MockResponse
-zeppelin,zeppelin\influxdb\src\test\java\org\apache\zeppelin\influxdb\InfluxDBInterpeterTest.java,mockwebserver,okhttp3.mockwebserver.MockWebServer
-zeppelin,zeppelin\jdbc\src\test\java\org\apache\zeppelin\jdbc\JDBCInterpreterInterpolationTest.java,mockrunner,com.mockrunner.jdbc.BasicJDBCTestCaseAdapter
-zeppelin,zeppelin\jdbc\src\test\java\org\apache\zeppelin\jdbc\JDBCInterpreterTest.java,mockrunner,com.mockrunner.jdbc.BasicJDBCTestCaseAdapter
-zeppelin,zeppelin\ksql\src\test\java\org\apache\zeppelin\ksql\KSQLInterpreterTest.java,mockito,org.mockito.Mockito
-zeppelin,zeppelin\ksql\src\test\java\org\apache\zeppelin\ksql\KSQLInterpreterTest.java,mockito,org.mockito.stubbing.Stubber
-zeppelin,zeppelin\livy\src\test\java\org\apache\zeppelin\livy\LivyInterpreterIT.java,mockito,static org.mockito.Mockito.mock
-zeppelin,zeppelin\python\src\test\java\org\apache\zeppelin\python\BasePythonInterpreterTest.java,mockito,static org.mockito.Mockito.mock
-zeppelin,zeppelin\python\src\test\java\org\apache\zeppelin\python\PythonCondaInterpreterTest.java,mockito,static org.mockito.Mockito.doReturn
-zeppelin,zeppelin\python\src\test\java\org\apache\zeppelin\python\PythonCondaInterpreterTest.java,mockito,static org.mockito.Mockito.mock
-zeppelin,zeppelin\python\src\test\java\org\apache\zeppelin\python\PythonCondaInterpreterTest.java,mockito,static org.mockito.Mockito.spy
-zeppelin,zeppelin\python\src\test\java\org\apache\zeppelin\python\PythonCondaInterpreterTest.java,mockito,static org.mockito.Mockito.when
-zeppelin,zeppelin\python\src\test\java\org\apache\zeppelin\python\PythonCondaInterpreterTest.java,mockito,static org.mockito.Mockito.times
-zeppelin,zeppelin\python\src\test\java\org\apache\zeppelin\python\PythonCondaInterpreterTest.java,mockito,static org.mockito.Mockito.verify
-zeppelin,zeppelin\python\src\test\java\org\apache\zeppelin\python\PythonDockerInterpreterTest.java,mockito,org.mockito.Mockito
-zeppelin,zeppelin\python\src\test\java\org\apache\zeppelin\python\PythonDockerInterpreterTest.java,mockito,static org.mockito.Matchers.any
-zeppelin,zeppelin\python\src\test\java\org\apache\zeppelin\python\PythonDockerInterpreterTest.java,mockito,static org.mockito.Matchers.anyString
-zeppelin,zeppelin\python\src\test\java\org\apache\zeppelin\python\PythonDockerInterpreterTest.java,mockito,static org.mockito.Mockito.doReturn
-zeppelin,zeppelin\python\src\test\java\org\apache\zeppelin\python\PythonDockerInterpreterTest.java,mockito,static org.mockito.Mockito.mock
-zeppelin,zeppelin\python\src\test\java\org\apache\zeppelin\python\PythonDockerInterpreterTest.java,mockito,static org.mockito.Mockito.spy
-zeppelin,zeppelin\python\src\test\java\org\apache\zeppelin\python\PythonDockerInterpreterTest.java,mockito,static org.mockito.Mockito.times
-zeppelin,zeppelin\python\src\test\java\org\apache\zeppelin\python\PythonDockerInterpreterTest.java,mockito,static org.mockito.Mockito.verify
-zeppelin,zeppelin\python\src\test\java\org\apache\zeppelin\python\PythonInterpreterPandasSqlTest.java,mockito,static org.mockito.Mockito.mock
-zeppelin,zeppelin\rlang\src\test\java\org\apache\zeppelin\r\ShinyInterpreterTest.java,mockito,static org.mockito.Mockito.mock
-zeppelin,zeppelin\sap\src\test\java\org\apache\zeppelin\sap\universe\UniverseCompleterTest.java,mockito,static org.mockito.Matchers.anyString
-zeppelin,zeppelin\sap\src\test\java\org\apache\zeppelin\sap\universe\UniverseCompleterTest.java,mockito,static org.mockito.Mockito.mock
-zeppelin,zeppelin\sap\src\test\java\org\apache\zeppelin\sap\universe\UniverseCompleterTest.java,mockito,static org.mockito.Mockito.when
-zeppelin,zeppelin\sap\src\test\java\org\apache\zeppelin\sap\universe\UniverseUtilTest.java,mockito,static org.mockito.Matchers.anyString
-zeppelin,zeppelin\sap\src\test\java\org\apache\zeppelin\sap\universe\UniverseUtilTest.java,mockito,static org.mockito.Mockito.mock
-zeppelin,zeppelin\sap\src\test\java\org\apache\zeppelin\sap\universe\UniverseUtilTest.java,mockito,static org.mockito.Mockito.when
-zeppelin,zeppelin\shell\src\test\java\org\apache\zeppelin\shell\BaseInterpreterTest.java,mockito,static org.mockito.Mockito.mock
-zeppelin,zeppelin\spark\interpreter\src\test\java\org\apache\zeppelin\spark\IPySparkInterpreterTest.java,mockito,static org.mockito.Matchers.any
-zeppelin,zeppelin\spark\interpreter\src\test\java\org\apache\zeppelin\spark\IPySparkInterpreterTest.java,mockito,static org.mockito.Mockito.mock
-zeppelin,zeppelin\spark\interpreter\src\test\java\org\apache\zeppelin\spark\IPySparkInterpreterTest.java,mockito,static org.mockito.Mockito.reset
-zeppelin,zeppelin\spark\interpreter\src\test\java\org\apache\zeppelin\spark\IPySparkInterpreterTest.java,mockito,static org.mockito.Mockito.verify
-zeppelin,zeppelin\spark\interpreter\src\test\java\org\apache\zeppelin\spark\KotlinSparkInterpreterTest.java,mockito,static org.mockito.Mockito.mock
-zeppelin,zeppelin\spark\interpreter\src\test\java\org\apache\zeppelin\spark\PySparkInterpreterMatplotlibTest.java,mockito,static org.mockito.Mockito.mock
-zeppelin,zeppelin\spark\interpreter\src\test\java\org\apache\zeppelin\spark\PySparkInterpreterTest.java,mockito,static org.mockito.Mockito.mock
-zeppelin,zeppelin\spark\interpreter\src\test\java\org\apache\zeppelin\spark\SparkIRInterpreterTest.java,mockito,static org.mockito.Matchers.any
-zeppelin,zeppelin\spark\interpreter\src\test\java\org\apache\zeppelin\spark\SparkIRInterpreterTest.java,mockito,static org.mockito.Mockito.atLeastOnce
-zeppelin,zeppelin\spark\interpreter\src\test\java\org\apache\zeppelin\spark\SparkIRInterpreterTest.java,mockito,static org.mockito.Mockito.mock
-zeppelin,zeppelin\spark\interpreter\src\test\java\org\apache\zeppelin\spark\SparkIRInterpreterTest.java,mockito,static org.mockito.Mockito.verify
-zeppelin,zeppelin\spark\interpreter\src\test\java\org\apache\zeppelin\spark\SparkInterpreterTest.java,mockito,org.mockito.ArgumentCaptor
-zeppelin,zeppelin\spark\interpreter\src\test\java\org\apache\zeppelin\spark\SparkInterpreterTest.java,mockito,static org.mockito.Matchers.any
-zeppelin,zeppelin\spark\interpreter\src\test\java\org\apache\zeppelin\spark\SparkInterpreterTest.java,mockito,static org.mockito.Mockito.mock
-zeppelin,zeppelin\spark\interpreter\src\test\java\org\apache\zeppelin\spark\SparkInterpreterTest.java,mockito,static org.mockito.Mockito.never
-zeppelin,zeppelin\spark\interpreter\src\test\java\org\apache\zeppelin\spark\SparkInterpreterTest.java,mockito,static org.mockito.Mockito.reset
-zeppelin,zeppelin\spark\interpreter\src\test\java\org\apache\zeppelin\spark\SparkInterpreterTest.java,mockito,static org.mockito.Mockito.verify
-zeppelin,zeppelin\spark\interpreter\src\test\java\org\apache\zeppelin\spark\SparkRInterpreterTest.java,mockito,static org.mockito.Matchers.any
-zeppelin,zeppelin\spark\interpreter\src\test\java\org\apache\zeppelin\spark\SparkRInterpreterTest.java,mockito,static org.mockito.Mockito.atLeastOnce
-zeppelin,zeppelin\spark\interpreter\src\test\java\org\apache\zeppelin\spark\SparkRInterpreterTest.java,mockito,static org.mockito.Mockito.mock
-zeppelin,zeppelin\spark\interpreter\src\test\java\org\apache\zeppelin\spark\SparkRInterpreterTest.java,mockito,static org.mockito.Mockito.verify
-zeppelin,zeppelin\spark\interpreter\src\test\java\org\apache\zeppelin\spark\SparkShimsTest.java,mockito,static org.mockito.Mockito.doNothing
-zeppelin,zeppelin\spark\interpreter\src\test\java\org\apache\zeppelin\spark\SparkShimsTest.java,mockito,static org.mockito.Mockito.mock
-zeppelin,zeppelin\spark\interpreter\src\test\java\org\apache\zeppelin\spark\SparkShimsTest.java,mockito,static org.mockito.Mockito.when
-zeppelin,zeppelin\spark\interpreter\src\test\java\org\apache\zeppelin\spark\SparkShimsTest.java,mockito,org.mockito.ArgumentCaptor
-zeppelin,zeppelin\spark\interpreter\src\test\java\org\apache\zeppelin\spark\SparkShimsTest.java,mockito,org.mockito.Captor
-zeppelin,zeppelin\spark\interpreter\src\test\java\org\apache\zeppelin\spark\SparkShimsTest.java,powermock,org.powermock.core.classloader.annotations.PowerMockIgnore
-zeppelin,zeppelin\spark\interpreter\src\test\java\org\apache\zeppelin\spark\SparkShimsTest.java,powermock,org.powermock.core.classloader.annotations.PrepareForTest
-zeppelin,zeppelin\spark\interpreter\src\test\java\org\apache\zeppelin\spark\SparkShimsTest.java,powermock,org.powermock.modules.junit4.PowerMockRunner
-zeppelin,zeppelin\spark\interpreter\src\test\java\org\apache\zeppelin\spark\SparkSqlInterpreterTest.java,mockito,static org.mockito.Mockito.mock
-zeppelin,zeppelin\submarine\src\test\java\org\apache\zeppelin\submarine\BaseInterpreterTest.java,mockito,static org.mockito.Mockito.mock
-zeppelin,zeppelin\zeppelin-interpreter-integration\src\test\java\org\apache\zeppelin\integration\MiniZeppelin.java,mockito,static org.mockito.Mockito.mock
-zeppelin,zeppelin\zeppelin-interpreter\src\test\java\org\apache\zeppelin\interpreter\LazyOpenInterpreterTest.java,mockito,static org.mockito.Matchers.any
-zeppelin,zeppelin\zeppelin-interpreter\src\test\java\org\apache\zeppelin\interpreter\LazyOpenInterpreterTest.java,mockito,static org.mockito.Mockito.mock
-zeppelin,zeppelin\zeppelin-interpreter\src\test\java\org\apache\zeppelin\interpreter\LazyOpenInterpreterTest.java,mockito,static org.mockito.Mockito.when
-zeppelin,zeppelin\zeppelin-interpreter\src\test\java\org\apache\zeppelin\interpreter\remote\RemoteInterpreterServerTest.java,mockito,static org.mockito.Mockito.mock
-zeppelin,zeppelin\zeppelin-interpreter\src\test\java\org\apache\zeppelin\scheduler\JobTest.java,mockito,org.mockito.Mock
-zeppelin,zeppelin\zeppelin-interpreter\src\test\java\org\apache\zeppelin\scheduler\JobTest.java,mockito,org.mockito.runners.MockitoJUnitRunner
-zeppelin,zeppelin\zeppelin-interpreter\src\test\java\org\apache\zeppelin\scheduler\JobTest.java,mockito,static org.mockito.Mockito.doReturn
-zeppelin,zeppelin\zeppelin-interpreter\src\test\java\org\apache\zeppelin\scheduler\JobTest.java,mockito,static org.mockito.Mockito.doThrow
-zeppelin,zeppelin\zeppelin-interpreter\src\test\java\org\apache\zeppelin\scheduler\JobTest.java,mockito,static org.mockito.Mockito.spy
-zeppelin,zeppelin\zeppelin-jupyter-interpreter\src\test\java\org\apache\zeppelin\jupyter\IPythonKernelTest.java,mockito,static org.mockito.Mockito.mock
-zeppelin,zeppelin\zeppelin-plugins\launcher\docker\src\test\java\org\apache\zeppelin\interpreter\launcher\DockerInterpreterProcessTest.java,powermock,org.powermock.api.mockito.PowerMockito
-zeppelin,zeppelin\zeppelin-plugins\launcher\docker\src\test\java\org\apache\zeppelin\interpreter\launcher\DockerInterpreterProcessTest.java,powermock,org.powermock.core.classloader.annotations.PowerMockIgnore
-zeppelin,zeppelin\zeppelin-plugins\launcher\docker\src\test\java\org\apache\zeppelin\interpreter\launcher\DockerInterpreterProcessTest.java,powermock,org.powermock.core.classloader.annotations.PrepareForTest
-zeppelin,zeppelin\zeppelin-plugins\launcher\docker\src\test\java\org\apache\zeppelin\interpreter\launcher\DockerInterpreterProcessTest.java,powermock,org.powermock.modules.junit4.PowerMockRunner
-zeppelin,zeppelin\zeppelin-plugins\launcher\k8s-standard\src\test\java\org\apache\zeppelin\interpreter\launcher\K8sRemoteInterpreterProcessTest.java,fabric8,io.fabric8.kubernetes.client.server.mock.KubernetesServer
-zeppelin,zeppelin\zeppelin-plugins\launcher\k8s-standard\src\test\java\org\apache\zeppelin\interpreter\launcher\PodPhaseWatcherTest.java,fabric8,io.fabric8.kubernetes.client.server.mock.KubernetesServer
-zeppelin,zeppelin\zeppelin-plugins\notebookrepo\github\src\test\java\org\apache\zeppelin\notebook\repo\GitHubNotebookRepoTest.java,mockito,static org.mockito.Mockito.mock
-zeppelin,zeppelin\zeppelin-server\src\test\java\org\apache\zeppelin\cluster\ClusterEventTest.java,mockito,static org.mockito.Mockito.mock
-zeppelin,zeppelin\zeppelin-server\src\test\java\org\apache\zeppelin\cluster\ClusterEventTest.java,mockito,static org.mockito.Mockito.spy
-zeppelin,zeppelin\zeppelin-server\src\test\java\org\apache\zeppelin\cluster\ClusterEventTest.java,mockito,static org.mockito.Mockito.when
-zeppelin,zeppelin\zeppelin-server\src\test\java\org\apache\zeppelin\realm\LdapRealmTest.java,mockito,static org.mockito.Matchers.any
-zeppelin,zeppelin\zeppelin-server\src\test\java\org\apache\zeppelin\realm\LdapRealmTest.java,mockito,static org.mockito.Mockito.mock
-zeppelin,zeppelin\zeppelin-server\src\test\java\org\apache\zeppelin\realm\LdapRealmTest.java,mockito,static org.mockito.Mockito.verify
-zeppelin,zeppelin\zeppelin-server\src\test\java\org\apache\zeppelin\realm\LdapRealmTest.java,mockito,static org.mockito.Mockito.when
-zeppelin,zeppelin\zeppelin-server\src\test\java\org\apache\zeppelin\realm\PamRealmTest.java,mockito,static org.mockito.Mockito.mock
-zeppelin,zeppelin\zeppelin-server\src\test\java\org\apache\zeppelin\realm\PamRealmTest.java,mockito,static org.mockito.Mockito.when
-zeppelin,zeppelin\zeppelin-server\src\test\java\org\apache\zeppelin\server\CorsFilterTest.java,mockito,static org.mockito.Matchers.anyString
-zeppelin,zeppelin\zeppelin-server\src\test\java\org\apache\zeppelin\server\CorsFilterTest.java,mockito,static org.mockito.Mockito.doAnswer
-zeppelin,zeppelin\zeppelin-server\src\test\java\org\apache\zeppelin\server\CorsFilterTest.java,mockito,static org.mockito.Mockito.mock
-zeppelin,zeppelin\zeppelin-server\src\test\java\org\apache\zeppelin\server\CorsFilterTest.java,mockito,static org.mockito.Mockito.when
-zeppelin,zeppelin\zeppelin-server\src\test\java\org\apache\zeppelin\server\CorsFilterTest.java,mockito,org.mockito.invocation.InvocationOnMock
-zeppelin,zeppelin\zeppelin-server\src\test\java\org\apache\zeppelin\server\CorsFilterTest.java,mockito,org.mockito.stubbing.Answer
-zeppelin,zeppelin\zeppelin-server\src\test\java\org\apache\zeppelin\service\ConfigurationServiceTest.java,mockito,static org.mockito.Mockito.mock
-zeppelin,zeppelin\zeppelin-server\src\test\java\org\apache\zeppelin\service\ConfigurationServiceTest.java,mockito,static org.mockito.Mockito.reset
-zeppelin,zeppelin\zeppelin-server\src\test\java\org\apache\zeppelin\service\ConfigurationServiceTest.java,mockito,static org.mockito.Mockito.verify
-zeppelin,zeppelin\zeppelin-server\src\test\java\org\apache\zeppelin\service\InterpreterServiceTest.java,mockito,static org.mockito.Mockito.doNothing
-zeppelin,zeppelin\zeppelin-server\src\test\java\org\apache\zeppelin\service\InterpreterServiceTest.java,mockito,static org.mockito.Mockito.times
-zeppelin,zeppelin\zeppelin-server\src\test\java\org\apache\zeppelin\service\InterpreterServiceTest.java,mockito,static org.mockito.Mockito.verify
-zeppelin,zeppelin\zeppelin-server\src\test\java\org\apache\zeppelin\service\InterpreterServiceTest.java,mockito,static org.mockito.Mockito.when
-zeppelin,zeppelin\zeppelin-server\src\test\java\org\apache\zeppelin\service\InterpreterServiceTest.java,mockito,org.mockito.Mock
-zeppelin,zeppelin\zeppelin-server\src\test\java\org\apache\zeppelin\service\InterpreterServiceTest.java,mockito,org.mockito.runners.MockitoJUnitRunner
-zeppelin,zeppelin\zeppelin-server\src\test\java\org\apache\zeppelin\service\NotebookServiceTest.java,mockito,static org.mockito.Matchers.any
-zeppelin,zeppelin\zeppelin-server\src\test\java\org\apache\zeppelin\service\NotebookServiceTest.java,mockito,static org.mockito.Matchers.eq
-zeppelin,zeppelin\zeppelin-server\src\test\java\org\apache\zeppelin\service\NotebookServiceTest.java,mockito,static org.mockito.Mockito.doCallRealMethod
-zeppelin,zeppelin\zeppelin-server\src\test\java\org\apache\zeppelin\service\NotebookServiceTest.java,mockito,static org.mockito.Mockito.mock
-zeppelin,zeppelin\zeppelin-server\src\test\java\org\apache\zeppelin\service\NotebookServiceTest.java,mockito,static org.mockito.Mockito.never
-zeppelin,zeppelin\zeppelin-server\src\test\java\org\apache\zeppelin\service\NotebookServiceTest.java,mockito,static org.mockito.Mockito.reset
-zeppelin,zeppelin\zeppelin-server\src\test\java\org\apache\zeppelin\service\NotebookServiceTest.java,mockito,static org.mockito.Mockito.verify
-zeppelin,zeppelin\zeppelin-server\src\test\java\org\apache\zeppelin\service\NotebookServiceTest.java,mockito,static org.mockito.Mockito.when
-zeppelin,zeppelin\zeppelin-server\src\test\java\org\apache\zeppelin\service\NotebookServiceTest.java,mockito,org.mockito.ArgumentCaptor
-zeppelin,zeppelin\zeppelin-server\src\test\java\org\apache\zeppelin\service\ShiroAuthenticationServiceTest.java,mockito,static org.mockito.Mockito.when
-zeppelin,zeppelin\zeppelin-server\src\test\java\org\apache\zeppelin\service\ShiroAuthenticationServiceTest.java,mockito,static org.mockito.Mockito.spy
-zeppelin,zeppelin\zeppelin-server\src\test\java\org\apache\zeppelin\service\ShiroAuthenticationServiceTest.java,mockito,org.mockito.Mock
-zeppelin,zeppelin\zeppelin-server\src\test\java\org\apache\zeppelin\service\ShiroAuthenticationServiceTest.java,mockito,org.mockito.Mockito
-zeppelin,zeppelin\zeppelin-server\src\test\java\org\apache\zeppelin\service\ShiroAuthenticationServiceTest.java,powermock,org.powermock.api.mockito.PowerMockito
-zeppelin,zeppelin\zeppelin-server\src\test\java\org\apache\zeppelin\service\ShiroAuthenticationServiceTest.java,powermock,org.powermock.core.classloader.annotations.PrepareForTest
-zeppelin,zeppelin\zeppelin-server\src\test\java\org\apache\zeppelin\service\ShiroAuthenticationServiceTest.java,powermock,org.powermock.modules.junit4.PowerMockRunner
-zeppelin,zeppelin\zeppelin-server\src\test\java\org\apache\zeppelin\socket\NotebookServerTest.java,mockito,static org.mockito.Mockito.RETURNS_DEEP_STUBS
-zeppelin,zeppelin\zeppelin-server\src\test\java\org\apache\zeppelin\socket\NotebookServerTest.java,mockito,static org.mockito.Mockito.anyString
-zeppelin,zeppelin\zeppelin-server\src\test\java\org\apache\zeppelin\socket\NotebookServerTest.java,mockito,static org.mockito.Mockito.mock
-zeppelin,zeppelin\zeppelin-server\src\test\java\org\apache\zeppelin\socket\NotebookServerTest.java,mockito,static org.mockito.Mockito.never
-zeppelin,zeppelin\zeppelin-server\src\test\java\org\apache\zeppelin\socket\NotebookServerTest.java,mockito,static org.mockito.Mockito.reset
-zeppelin,zeppelin\zeppelin-server\src\test\java\org\apache\zeppelin\socket\NotebookServerTest.java,mockito,static org.mockito.Mockito.spy
-zeppelin,zeppelin\zeppelin-server\src\test\java\org\apache\zeppelin\socket\NotebookServerTest.java,mockito,static org.mockito.Mockito.times
-zeppelin,zeppelin\zeppelin-server\src\test\java\org\apache\zeppelin\socket\NotebookServerTest.java,mockito,static org.mockito.Mockito.verify
-zeppelin,zeppelin\zeppelin-server\src\test\java\org\apache\zeppelin\socket\NotebookServerTest.java,mockito,static org.mockito.Mockito.when
-zeppelin,zeppelin\zeppelin-zengine\src\test\java\org\apache\zeppelin\helium\HeliumApplicationFactoryTest.java,mockito,static org.mockito.Mockito.mock
-zeppelin,zeppelin\zeppelin-zengine\src\test\java\org\apache\zeppelin\interpreter\AbstractInterpreterTest.java,mockito,static org.mockito.Mockito.mock
-zeppelin,zeppelin\zeppelin-zengine\src\test\java\org\apache\zeppelin\interpreter\AbstractInterpreterTest.java,mockito,static org.mockito.Mockito.when
-zeppelin,zeppelin\zeppelin-zengine\src\test\java\org\apache\zeppelin\interpreter\InterpreterSettingManagerTest.java,mockito,static org.mockito.Mockito.mock
-zeppelin,zeppelin\zeppelin-zengine\src\test\java\org\apache\zeppelin\interpreter\InterpreterSettingManagerTest.java,mockito,static org.mockito.Mockito.when
-zeppelin,zeppelin\zeppelin-zengine\src\test\java\org\apache\zeppelin\interpreter\InterpreterSettingTest.java,mockito,static org.mockito.Mockito.mock
-zeppelin,zeppelin\zeppelin-zengine\src\test\java\org\apache\zeppelin\interpreter\InterpreterSettingTest.java,mockito,static org.mockito.Mockito.when
-zeppelin,zeppelin\zeppelin-zengine\src\test\java\org\apache\zeppelin\interpreter\SessionConfInterpreterTest.java,mockito,static org.mockito.Mockito.mock
-zeppelin,zeppelin\zeppelin-zengine\src\test\java\org\apache\zeppelin\interpreter\SessionConfInterpreterTest.java,mockito,static org.mockito.Mockito.when
-zeppelin,zeppelin\zeppelin-zengine\src\test\java\org\apache\zeppelin\interpreter\recovery\FileSystemRecoveryStorageTest.java,mockito,static org.mockito.Mockito.when
-zeppelin,zeppelin\zeppelin-zengine\src\test\java\org\apache\zeppelin\interpreter\recovery\LocalRecoveryStorageTest.java,mockito,static org.mockito.Mockito.when
-zeppelin,zeppelin\zeppelin-zengine\src\test\java\org\apache\zeppelin\interpreter\remote\AppendOutputRunnerTest.java,mockito,org.mockito.invocation.InvocationOnMock
-zeppelin,zeppelin\zeppelin-zengine\src\test\java\org\apache\zeppelin\interpreter\remote\AppendOutputRunnerTest.java,mockito,org.mockito.stubbing.Answer
-zeppelin,zeppelin\zeppelin-zengine\src\test\java\org\apache\zeppelin\interpreter\remote\AppendOutputRunnerTest.java,mockito,static org.mockito.Matchers.any
-zeppelin,zeppelin\zeppelin-zengine\src\test\java\org\apache\zeppelin\interpreter\remote\AppendOutputRunnerTest.java,mockito,static org.mockito.Matchers.anyInt
-zeppelin,zeppelin\zeppelin-zengine\src\test\java\org\apache\zeppelin\interpreter\remote\AppendOutputRunnerTest.java,mockito,static org.mockito.Mockito.*
-zeppelin,zeppelin\zeppelin-zengine\src\test\java\org\apache\zeppelin\interpreter\remote\RemoteAngularObjectTest.java,mockito,static org.mockito.Mockito.when
-zeppelin,zeppelin\zeppelin-zengine\src\test\java\org\apache\zeppelin\interpreter\remote\RemoteInterpreterTest.java,mockito,static org.mockito.Mockito.when
-zeppelin,zeppelin\zeppelin-zengine\src\test\java\org\apache\zeppelin\notebook\CredentialInjectorTest.java,mockito,static org.mockito.Mockito.mock
-zeppelin,zeppelin\zeppelin-zengine\src\test\java\org\apache\zeppelin\notebook\CredentialInjectorTest.java,mockito,static org.mockito.Mockito.when
-zeppelin,zeppelin\zeppelin-zengine\src\test\java\org\apache\zeppelin\notebook\NoteTest.java,mockito,org.mockito.ArgumentCaptor
-zeppelin,zeppelin\zeppelin-zengine\src\test\java\org\apache\zeppelin\notebook\NoteTest.java,mockito,org.mockito.Mock
-zeppelin,zeppelin\zeppelin-zengine\src\test\java\org\apache\zeppelin\notebook\NoteTest.java,mockito,org.mockito.runners.MockitoJUnitRunner
-zeppelin,zeppelin\zeppelin-zengine\src\test\java\org\apache\zeppelin\notebook\NoteTest.java,mockito,static org.mockito.Mockito.*
-zeppelin,zeppelin\zeppelin-zengine\src\test\java\org\apache\zeppelin\notebook\NotebookTest.java,mockito,static org.mockito.Mockito.mock
-zeppelin,zeppelin\zeppelin-zengine\src\test\java\org\apache\zeppelin\notebook\ParagraphTest.java,mockito,static org.mockito.Matchers.any
-zeppelin,zeppelin\zeppelin-zengine\src\test\java\org\apache\zeppelin\notebook\ParagraphTest.java,mockito,static org.mockito.Matchers.anyString
-zeppelin,zeppelin\zeppelin-zengine\src\test\java\org\apache\zeppelin\notebook\ParagraphTest.java,mockito,static org.mockito.Matchers.eq
-zeppelin,zeppelin\zeppelin-zengine\src\test\java\org\apache\zeppelin\notebook\ParagraphTest.java,mockito,static org.mockito.Mockito.doReturn
-zeppelin,zeppelin\zeppelin-zengine\src\test\java\org\apache\zeppelin\notebook\ParagraphTest.java,mockito,static org.mockito.Mockito.mock
-zeppelin,zeppelin\zeppelin-zengine\src\test\java\org\apache\zeppelin\notebook\ParagraphTest.java,mockito,static org.mockito.Mockito.spy
-zeppelin,zeppelin\zeppelin-zengine\src\test\java\org\apache\zeppelin\notebook\ParagraphTest.java,mockito,static org.mockito.Mockito.verify
-zeppelin,zeppelin\zeppelin-zengine\src\test\java\org\apache\zeppelin\notebook\ParagraphTest.java,mockito,static org.mockito.Mockito.when
-zeppelin,zeppelin\zeppelin-zengine\src\test\java\org\apache\zeppelin\notebook\ParagraphTest.java,mockito,org.mockito.Mockito
-zeppelin,zeppelin\zeppelin-zengine\src\test\java\org\apache\zeppelin\notebook\repo\GitNotebookRepoTest.java,mockito,static org.mockito.Mockito.mock
-zeppelin,zeppelin\zeppelin-zengine\src\test\java\org\apache\zeppelin\notebook\repo\NotebookRepoSyncTest.java,mockito,static org.mockito.Mockito.mock
-zeppelin,zeppelin\zeppelin-zengine\src\test\java\org\apache\zeppelin\resource\DistributedResourcePoolTest.java,mockito,static org.mockito.Mockito.when
-zeppelin,zeppelin\zeppelin-zengine\src\test\java\org\apache\zeppelin\scheduler\RemoteSchedulerTest.java,mockito,static org.mockito.Mockito.when
-zeppelin,zeppelin\zeppelin-zengine\src\test\java\org\apache\zeppelin\search\LuceneSearchTest.java,mockito,static org.mockito.Mockito.mock
-zeppelin,zeppelin\zeppelin-zengine\src\test\java\org\apache\zeppelin\search\LuceneSearchTest.java,mockito,static org.mockito.Mockito.when
+yetus,yetus\audience-annotations-component\audience-annotations\src\test\java\org\apache\yetus\audience\tools\DocletEnvironmentProcessorTest.java,mockito,static org.mockito.ArgumentMatchers.any
+yetus,yetus\audience-annotations-component\audience-annotations\src\test\java\org\apache\yetus\audience\tools\DocletEnvironmentProcessorTest.java,mockito,static org.mockito.Mockito.mock
+yetus,yetus\audience-annotations-component\audience-annotations\src\test\java\org\apache\yetus\audience\tools\DocletEnvironmentProcessorTest.java,mockito,static org.mockito.Mockito.when
 zookeeper,zookeeper\zookeeper-contrib\zookeeper-contrib-loggraph\src\test\java\org\apache\zookeeper\graph\servlets\FileLoaderTest.java,mockito,static org.mockito.Mockito.mock
 zookeeper,zookeeper\zookeeper-contrib\zookeeper-contrib-loggraph\src\test\java\org\apache\zookeeper\graph\servlets\FileLoaderTest.java,mockito,static org.mockito.Mockito.when
 zookeeper,zookeeper\zookeeper-contrib\zookeeper-contrib-loggraph\src\test\java\org\apache\zookeeper\graph\servlets\FsTest.java,mockito,static org.mockito.Mockito.mock
@@ -670,6 +482,7 @@ zookeeper,zookeeper\zookeeper-server\src\test\java\org\apache\zookeeper\server\F
 zookeeper,zookeeper\zookeeper-server\src\test\java\org\apache\zookeeper\server\FinalRequestProcessorTest.java,mockito,org.mockito.stubbing.Answer
 zookeeper,zookeeper\zookeeper-server\src\test\java\org\apache\zookeeper\server\NettyServerCnxnTest.java,mockito,static org.mockito.Mockito.doNothing
 zookeeper,zookeeper\zookeeper-server\src\test\java\org\apache\zookeeper\server\NettyServerCnxnTest.java,mockito,static org.mockito.Mockito.mock
+zookeeper,zookeeper\zookeeper-server\src\test\java\org\apache\zookeeper\server\NettyServerCnxnTest.java,mockito,static org.mockito.Mockito.times
 zookeeper,zookeeper\zookeeper-server\src\test\java\org\apache\zookeeper\server\NettyServerCnxnTest.java,mockito,static org.mockito.Mockito.when
 zookeeper,zookeeper\zookeeper-server\src\test\java\org\apache\zookeeper\server\NettyServerCnxnTest.java,mockito,org.mockito.Mockito
 zookeeper,zookeeper\zookeeper-server\src\test\java\org\apache\zookeeper\server\PrepRequestProcessorMetricsTest.java,mockito,static org.mockito.ArgumentMatchers.any
@@ -683,6 +496,12 @@ zookeeper,zookeeper\zookeeper-server\src\test\java\org\apache\zookeeper\server\P
 zookeeper,zookeeper\zookeeper-server\src\test\java\org\apache\zookeeper\server\PrepRequestProcessorTest.java,mockito,static org.mockito.Mockito.when
 zookeeper,zookeeper\zookeeper-server\src\test\java\org\apache\zookeeper\server\ServerStatsTest.java,mockito,static org.mockito.Mockito.mock
 zookeeper,zookeeper\zookeeper-server\src\test\java\org\apache\zookeeper\server\SnapshotDigestTest.java,mockito,org.mockito.Mockito
+zookeeper,zookeeper\zookeeper-server\src\test\java\org\apache\zookeeper\server\TxnLogCountTest.java,mockito,static org.mockito.ArgumentMatchers.any
+zookeeper,zookeeper\zookeeper-server\src\test\java\org\apache\zookeeper\server\TxnLogCountTest.java,mockito,static org.mockito.ArgumentMatchers.anyString
+zookeeper,zookeeper\zookeeper-server\src\test\java\org\apache\zookeeper\server\TxnLogCountTest.java,mockito,static org.mockito.Mockito.doAnswer
+zookeeper,zookeeper\zookeeper-server\src\test\java\org\apache\zookeeper\server\TxnLogCountTest.java,mockito,static org.mockito.Mockito.mock
+zookeeper,zookeeper\zookeeper-server\src\test\java\org\apache\zookeeper\server\TxnLogCountTest.java,mockito,org.mockito.invocation.InvocationOnMock
+zookeeper,zookeeper\zookeeper-server\src\test\java\org\apache\zookeeper\server\TxnLogCountTest.java,mockito,org.mockito.stubbing.Answer
 zookeeper,zookeeper\zookeeper-server\src\test\java\org\apache\zookeeper\server\TxnLogDigestTest.java,mockit,mockit.Invocation
 zookeeper,zookeeper\zookeeper-server\src\test\java\org\apache\zookeeper\server\TxnLogDigestTest.java,mockit,mockit.Mock
 zookeeper,zookeeper\zookeeper-server\src\test\java\org\apache\zookeeper\server\TxnLogDigestTest.java,mockit,mockit.MockUp

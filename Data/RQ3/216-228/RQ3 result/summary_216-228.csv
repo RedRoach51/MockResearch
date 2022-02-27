@@ -2,13 +2,13 @@ project name, variety of inside mocked classes, variety of outside mocked classe
 ant-antlibs-vss,0,0,
 mina-vysper,0,54,
 tomcat,0,0,
-tomee,0,5,
-turbine-core,0,9,
+tomee,0,1,
+turbine-core,0,0,
 tuscany-sca-2.x,0,0,
 uima-uimaj,0,0,
 velocity-engine,0,0,
 vxquery,0,0,
-whirr,0,0,
+whirr,9,1,
  
 more inside classes mocked: ,more outside classes mocked: 
-0,3
+1,2

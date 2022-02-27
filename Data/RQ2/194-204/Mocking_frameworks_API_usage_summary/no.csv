@@ -1,6 +1,0 @@
-method, origin, count
-start,no.nav.security.mock.oauth2.MockOAuth2Server,1
-issueToken,no.nav.security.mock.oauth2.MockOAuth2Server,1
-shutdown,no.nav.security.mock.oauth2.MockOAuth2Server,1
-wellKnownUrl,no.nav.security.mock.oauth2.MockOAuth2Server,1
-getMockWebServer,no.nav.security.mock.oauth2.http.MockWebServerWrapper,1

@@ -1,0 +1,16 @@
+/rest-applicationcomposer-mockito/src/test/java/org/superbiz/composed/rest/GreetingServiceTest.java
+	org.apache.openejb.OpenEjbContainer
+	org.apache.openejb.junit.ApplicationComposer
+	org.apache.openejb.loader.IO
+	org.apache.openejb.mockito.MockitoInjector
+	org.apache.openejb.testing.Configuration
+	org.apache.openejb.testing.MockInjector
+	org.apache.openejb.testing.Module
+	org.junit.Test
+	org.junit.runner.RunWith
+	org.mockito.Mock
+	java.io.IOException
+	java.net.URL
+	java.util.Properties
+	org.junit.Assert.assertEquals
+	org.mockito.Mockito.when

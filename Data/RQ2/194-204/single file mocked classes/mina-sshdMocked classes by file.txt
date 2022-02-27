@@ -1,0 +1,110 @@
+/sshd-common/src/test/java/org/apache/sshd/client/config/keys/LazyClientIdentityIteratorTest.java
+	java.security.PublicKey
+	java.security.PrivateKey
+/sshd-common/src/test/java/org/apache/sshd/common/compression/BuiltinCompressionsTest.java
+	org.apache.sshd.common.compression.CompressionFactory
+	org.apache.sshd.common.compression.CompressionFactory
+/sshd-common/src/test/java/org/apache/sshd/common/file/util/BasePathTest.java
+	java.nio.file.spi.FileSystemProvider
+/sshd-common/src/test/java/org/apache/sshd/common/future/DefaultSshFutureTest.java
+	org.apache.sshd.common.future.SshFutureListener
+/sshd-common/src/test/java/org/apache/sshd/common/keyprovider/KeyIdentityProviderResolutionTest.java
+	org.apache.sshd.common.keyprovider.KeyIdentityProvider
+/sshd-common/src/test/java/org/apache/sshd/common/keyprovider/KeyPairProviderTest.java
+	java.security.PublicKey
+	java.security.PrivateKey
+/sshd-common/src/test/java/org/apache/sshd/common/keyprovider/MultiKeyIdentityProviderTest.java
+	java.security.PublicKey
+	java.security.PrivateKey
+/sshd-common/src/test/java/org/apache/sshd/common/mac/BuiltinMacsTest.java
+	org.apache.sshd.common.mac.MacFactory
+	org.apache.sshd.common.mac.MacFactory
+/sshd-common/src/test/java/org/apache/sshd/common/signature/BuiltinSignaturesTest.java
+	org.apache.sshd.common.signature.SignatureFactory
+	org.apache.sshd.common.signature.SignatureFactory
+/sshd-contrib/src/test/java/org/apache/sshd/contrib/client/auth/password/InteractivePasswordIdentityProviderTest.java
+	org.apache.sshd.client.session.ClientSession
+	org.apache.sshd.client.auth.keyboard.UserInteraction
+	org.apache.sshd.client.session.ClientSession
+	org.apache.sshd.client.auth.keyboard.UserInteraction
+/sshd-core/src/test/java/org/apache/sshd/agent/AgentTest.java
+	org.apache.sshd.common.FactoryManager
+/sshd-core/src/test/java/org/apache/sshd/client/ClientAuthenticationManagerTest.java
+	
+	
+	java.security.PublicKey
+	java.security.PrivateKey
+	org.apache.sshd.client.ClientFactoryManager
+	org.apache.sshd.common.io.IoSession
+/sshd-core/src/test/java/org/apache/sshd/client/keyverifier/KnownHostsServerKeyVerifierTest.java
+	org.apache.sshd.client.ClientFactoryManager
+	org.apache.sshd.client.session.ClientSession
+	org.apache.sshd.client.ClientFactoryManager
+	org.apache.sshd.client.session.ClientSession
+	org.apache.sshd.client.session.ClientSession
+/sshd-core/src/test/java/org/apache/sshd/client/keyverifier/StaticServerKeyVerifierTest.java
+	java.security.PublicKey
+	org.apache.sshd.client.session.ClientSession
+/sshd-core/src/test/java/org/apache/sshd/common/PropertyResolverUtilsTest.java
+	org.apache.sshd.common.FactoryManager
+	org.apache.sshd.common.session.Session
+/sshd-core/src/test/java/org/apache/sshd/common/AttributeStoreTest.java
+	org.apache.sshd.common.FactoryManager
+	org.apache.sshd.common.session.Session
+	org.apache.sshd.common.session.Session
+	org.apache.sshd.common.channel.Channel
+/sshd-core/src/test/java/org/apache/sshd/common/channel/ChannelPipedOutputStreamTest.java
+	org.apache.sshd.common.channel.ChannelPipedSink
+/sshd-core/src/test/java/org/apache/sshd/common/channel/ChannelAsyncOutputStreamTest.java
+	org.apache.sshd.common.channel.AbstractChannel
+	org.apache.sshd.common.channel.throttle.ChannelStreamWriter
+	org.apache.sshd.common.io.IoWriteFuture
+	org.apache.sshd.common.session.Session
+/sshd-core/src/test/java/org/apache/sshd/common/cipher/BuiltinCiphersTest.java
+	org.apache.sshd.common.cipher.CipherFactory
+	org.apache.sshd.common.cipher.CipherFactory
+/sshd-core/src/test/java/org/apache/sshd/common/io/DefaultIoServiceFactoryFactoryTest.java
+	org.apache.sshd.common.util.threads.CloseableExecutorService
+	org.apache.sshd.common.FactoryManager
+/sshd-core/src/test/java/org/apache/sshd/common/kex/BuiltinDHFactoriesTest.java
+	org.apache.sshd.common.kex.DHFactory
+	org.apache.sshd.common.kex.DHFactory
+/sshd-core/src/test/java/org/apache/sshd/common/kex/extension/KexExtensionHandlerTest.java
+	org.apache.sshd.common.session.Session
+/sshd-core/src/test/java/org/apache/sshd/server/PublickeyAuthenticatorTest.java
+	java.security.interfaces.RSAPublicKey
+	org.apache.sshd.server.session.ServerSession
+/sshd-core/src/test/java/org/apache/sshd/server/config/keys/AuthorizedKeysAuthenticatorTest.java
+	java.security.PublicKey
+	java.security.PublicKey
+/sshd-core/src/test/java/org/apache/sshd/server/config/keys/DefaultAuthorizedKeysAuthenticatorTest.java
+	org.apache.sshd.server.session.ServerSession
+/sshd-core/src/test/java/org/apache/sshd/server/forward/ForwardingFilterTest.java
+	org.apache.sshd.common.session.Session
+/sshd-core/src/test/java/org/apache/sshd/server/shell/InvertedShellWrapperTest.java
+	org.apache.sshd.server.channel.ChannelSession
+	org.apache.sshd.server.channel.ChannelSession
+	org.apache.sshd.server.channel.ChannelSession
+/sshd-ldap/src/test/java/org/apache/sshd/ldap/LdapPasswordAuthenticatorTest.java
+	org.apache.sshd.server.session.ServerSession
+/sshd-ldap/src/test/java/org/apache/sshd/ldap/LdapPublickeyAuthenticatorTest.java
+	org.apache.sshd.server.session.ServerSession
+/sshd-openpgp/src/test/java/org/apache/sshd/openpgp/PGPUtilsKeyFingerprintTest.java
+	org.apache.sshd.common.session.SessionContext
+/sshd-putty/src/test/java/org/apache/sshd/putty/PuttyKeyUtilsTest.java
+	org.apache.sshd.common.session.SessionContext
+/sshd-scp/src/test/java/org/apache/sshd/scp/server/ScpCommandFactoryTest.java
+	org.apache.sshd.common.util.threads.CloseableExecutorService
+	org.apache.sshd.server.command.CommandFactory
+/sshd-sftp/src/test/java/org/apache/sshd/sftp/client/SftpVersionSelectorTest.java
+	org.apache.sshd.client.session.ClientSession
+	org.apache.sshd.client.session.ClientSession
+	org.apache.sshd.client.session.ClientSession
+/sshd-sftp/src/test/java/org/apache/sshd/sftp/client/DefaultCloseableHandleTest.java
+	org.apache.sshd.sftp.client.SftpClient
+	org.apache.sshd.sftp.client.SftpClient
+/sshd-sftp/src/test/java/org/apache/sshd/sftp/client/extensions/BuiltinSftpClientExtensionsTest.java
+	org.apache.sshd.sftp.client.SftpClient
+	org.apache.sshd.sftp.client.RawSftpClient
+/sshd-sftp/src/test/java/org/apache/sshd/sftp/server/SftpSubsystemFactoryTest.java
+	org.apache.sshd.common.util.threads.CloseableExecutorService

@@ -1,0 +1,88 @@
+/genericsresolver-guava/src/test/java/org/apache/tapestry5/genericsresolverguava/internal/AbstractBeanModelSourceImplTest.java
+/tapestry-core/src/main/java/org/apache/tapestry5/test/TapestryTestCase.java
+/tapestry-core/src/test/java/org/apache/tapestry5/corelib/base/AbstractLinkTest.java
+/tapestry-core/src/test/java/org/apache/tapestry5/corelib/base/AbstractPropertyOutputTest.java
+/tapestry-core/src/test/java/org/apache/tapestry5/corelib/components/BeanEditorTest.java
+	org.apache.tapestry5.services.Environment
+	org.apache.tapestry5.services.Environment
+/tapestry-core/src/test/java/org/apache/tapestry5/corelib/components/SubmitTest.java
+/tapestry-core/src/test/java/org/apache/tapestry5/corelib/components/SelectTest.java
+/tapestry-core/src/test/java/org/apache/tapestry5/corelib/components/AnyTest.java
+/tapestry-core/src/test/java/org/apache/tapestry5/corelib/components/LoopTest.java
+/tapestry-core/src/test/java/org/apache/tapestry5/corelib/components/PropertyEditorTest.java
+/tapestry-core/src/test/java/org/apache/tapestry5/corelib/internal/FormSupportImplTest.java
+/tapestry-core/src/test/java/org/apache/tapestry5/internal/ServletContextSymbolProviderTest.java
+/tapestry-core/src/test/java/org/apache/tapestry5/internal/ContextResourceSymbolProviderTest.java
+/tapestry-core/src/test/java/org/apache/tapestry5/internal/TapestryInternalUtilsTest.java
+/tapestry-core/src/test/java/org/apache/tapestry5/internal/beaneditor/ValidateAnnotationConstraintGeneratorTest.java
+/tapestry-core/src/test/java/org/apache/tapestry5/internal/beaneditor/BeanModelUtilsTest.java
+/tapestry-core/src/test/java/org/apache/tapestry5/internal/services/LinkImplTest.java
+/tapestry-core/src/test/java/org/apache/tapestry5/internal/services/DefaultRequestExceptionHandlerTest.java
+/tapestry-core/src/test/java/org/apache/tapestry5/internal/services/LinkSourceImplTest.java
+/tapestry-core/src/test/java/org/apache/tapestry5/internal/services/PageActivationContextCollectorImplTest.java
+/tapestry-core/src/test/java/org/apache/tapestry5/internal/services/FieldTranslatorSourceImplTest.java
+/tapestry-core/src/test/java/org/apache/tapestry5/internal/services/AbstractBeanModelSourceImplTest.java
+/tapestry-core/src/test/java/org/apache/tapestry5/internal/services/SessionImplTest.java
+/tapestry-core/src/test/java/org/apache/tapestry5/internal/services/PersistentFieldManagerImplTest.java
+/tapestry-core/src/test/java/org/apache/tapestry5/internal/services/FieldValidationSupportImplTest.java
+/tapestry-core/src/test/java/org/apache/tapestry5/internal/services/RestSupportImplTest.java
+	javax.servlet.http.HttpServletRequest
+/tapestry-core/src/test/java/org/apache/tapestry5/internal/services/StaticFilesFilterTest.java
+/tapestry-core/src/test/java/org/apache/tapestry5/internal/services/FieldValidatorDefaultSourceImplTest.java
+/tapestry-core/src/test/java/org/apache/tapestry5/internal/services/ComponentEventImplTest.java
+/tapestry-core/src/test/java/org/apache/tapestry5/internal/services/PageRenderRequestHandlerImplTest.java
+/tapestry-core/src/test/java/org/apache/tapestry5/internal/services/JSONCollectionEventResultProcessorTest.java
+/tapestry-core/src/test/java/org/apache/tapestry5/internal/services/ComponentSourceImplTest.java
+/tapestry-core/src/test/java/org/apache/tapestry5/internal/services/ContextImplTest.java
+/tapestry-core/src/test/java/org/apache/tapestry5/internal/services/RequestSecurityManagerImplTest.java
+/tapestry-core/src/test/java/org/apache/tapestry5/internal/services/BeanBlockSourceImplTest.java
+/tapestry-core/src/test/java/org/apache/tapestry5/internal/services/ComponentEventDispatcherTest.java
+/tapestry-core/src/test/java/org/apache/tapestry5/internal/services/RenderQueueImplTest.java
+/tapestry-core/src/test/java/org/apache/tapestry5/internal/services/ComponentTemplateSourceImplTest.java
+/tapestry-core/src/test/java/org/apache/tapestry5/internal/services/RequestImplTest.java
+/tapestry-core/src/test/java/org/apache/tapestry5/internal/services/ServiceAnnotationObjectProviderTest.java
+/tapestry-core/src/test/java/org/apache/tapestry5/internal/services/EnvironmentalShadowBuilderImplTest.java
+/tapestry-core/src/test/java/org/apache/tapestry5/internal/services/ClasspathAssetAliasManagerImplTest.java
+/tapestry-core/src/test/java/org/apache/tapestry5/internal/services/ApplicationStateManagerImplTest.java
+/tapestry-core/src/test/java/org/apache/tapestry5/internal/services/ContextResourceTest.java
+/tapestry-core/src/test/java/org/apache/tapestry5/internal/services/AnnotationDataTypeAnalyzerTest.java
+/tapestry-core/src/test/java/org/apache/tapestry5/internal/services/BaseURLSourceImplTest.java
+/tapestry-core/src/test/java/org/apache/tapestry5/internal/services/ClientPersistentFieldStorageImplTest.java
+/tapestry-core/src/test/java/org/apache/tapestry5/internal/services/ComponentInstantiatorSourceImplTest.java
+/tapestry-core/src/test/java/org/apache/tapestry5/internal/services/FieldValidatorSourceImplTest.java
+/tapestry-core/src/test/java/org/apache/tapestry5/internal/services/ComponentEventLinkEncoderImplTest.java
+/tapestry-core/src/test/java/org/apache/tapestry5/internal/services/meta/MetaWorkerTest.java
+/tapestry-core/src/test/java/org/apache/tapestry5/internal/structure/InternalComponentResourcesImplTest.java
+/tapestry-core/src/test/java/org/apache/tapestry5/internal/structure/PageImplTest.java
+/tapestry-core/src/test/java/org/apache/tapestry5/internal/structure/BlockImplTest.java
+/tapestry-core/src/test/java/org/apache/tapestry5/internal/test/InternalBaseTestCase.java
+/tapestry-core/src/test/java/org/apache/tapestry5/internal/transform/HeartbeatDeferredWorkerTest.java
+/tapestry-core/src/test/java/org/apache/tapestry5/internal/transform/MixinAfterWorkerTest.java
+/tapestry-core/src/test/java/org/apache/tapestry5/internal/transform/SupportsInformalParametersWorkerTest.java
+/tapestry-core/src/test/java/org/apache/tapestry5/root/ValidationTrackerImplTest.java
+/tapestry-core/src/test/java/org/apache/tapestry5/services/HttpStatusTest.java
+	org.apache.tapestry5.http.Link
+/tapestry-hibernate/src/test/java/org/apache/tapestry5/hibernate/web/internal/EntityPersistentFieldStrategyTest.java
+/tapestry-hibernate-core/src/test/java/org/apache/tapestry5/internal/hibernate/HibernateSessionSourceImplTest.java
+/tapestry-hibernate-core/src/test/java/org/apache/tapestry5/internal/hibernate/DefaultHibernateConfigurerFilterTest.java
+/tapestry-ioc/src/main/java/org/apache/tapestry5/ioc/test/IOCTestCase.java
+/tapestry-jpa/src/test/java/org/apache/tapestry5/internal/jpa/JpaTransactionAdvisorImplTest.java
+/tapestry-spring/src/test/java/org/apache/tapestry5/internal/spring/SpringModuleDefTest.java
+/tapestry-spring/src/test/java/org/apache/tapestry5/spring/SpringTestCase.java
+/tapestry-test/src/main/java/org/apache/tapestry5/test/ioc/TestBase.java
+/tapestry-test/src/main/java/org/apache/tapestry5/test/ioc/MockTester.java
+	T
+/tapestry-upload/src/test/java/org/apache/tapestry5/upload/components/UploadTest.java
+/tapestry-upload/src/test/java/org/apache/tapestry5/upload/internal/services/MultipartServletRequestFilterTest.java
+/tapestry-upload/src/test/java/org/apache/tapestry5/upload/internal/services/ParametersServletRequestWrapperTest.java
+	javax.servlet.http.HttpServletRequest
+	javax.servlet.http.HttpServletRequest
+	javax.servlet.http.HttpServletRequest
+	javax.servlet.http.HttpServletRequest
+	javax.servlet.http.HttpServletRequest
+	javax.servlet.http.HttpServletRequest
+	javax.servlet.http.HttpServletRequest
+	javax.servlet.http.HttpServletRequest
+	javax.servlet.http.HttpServletRequest
+/tapestry-upload/src/test/java/org/apache/tapestry5/upload/internal/services/UploadedFileItemTest.java
+/tapestry-upload/src/test/java/org/apache/tapestry5/upload/internal/services/MultipartDecoderImplTest.java

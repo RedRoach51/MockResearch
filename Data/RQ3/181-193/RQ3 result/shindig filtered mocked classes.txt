@@ -77,4 +77,6 @@ com.google.inject.Provider
 java.util.List
 java.util.concurrent.ExecutorService
 java.util.concurrent.Future
-java.lang.Compiler
+com.google.javascript.jscomp.Result
+com.google.javascript.jscomp.Compiler
+com.google.javascript.jscomp.CompilerOptions

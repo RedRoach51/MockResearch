@@ -1,0 +1,33 @@
+/xmlgraphics-commons/src/test/java/org/apache/xmlgraphics/image/codec/tiff/ImageTypeTestCase.java
+	java.awt.color.ColorSpace
+	org.apache.xmlgraphics.image.codec.tiff.TIFFEncodeParam
+/xmlgraphics-commons/src/test/java/org/apache/xmlgraphics/image/codec/tiff/ImageInfoTestCase.java
+	java.awt.color.ColorSpace
+	java.awt.image.RenderedImage
+	org.apache.xmlgraphics.image.codec.tiff.TIFFEncodeParam
+	org.apache.xmlgraphics.image.codec.tiff.TIFFEncodeParam
+/xmlgraphics-commons/src/test/java/org/apache/xmlgraphics/image/loader/impl/PreloaderJPEGTestCase.java
+	org.apache.xmlgraphics.image.loader.ImageSource
+	org.apache.xmlgraphics.image.loader.ImageContext
+/xmlgraphics-commons/src/test/java/org/apache/xmlgraphics/io/XmlSourceUtilTestCase.java
+	java.io.InputStream
+	java.io.Reader
+	javax.xml.transform.stream.StreamSource
+	javax.xml.transform.sax.SAXSource
+	org.xml.sax.InputSource
+	org.apache.xmlgraphics.image.loader.ImageSource
+	javax.imageio.stream.ImageInputStream
+	javax.xml.transform.Source
+	javax.xml.transform.Source
+	javax.xml.transform.stream.StreamSource
+	javax.xml.transform.sax.SAXSource
+	org.apache.xmlgraphics.image.loader.ImageSource
+	javax.xml.transform.stream.StreamSource
+	javax.xml.transform.sax.SAXSource
+	javax.xml.transform.stream.StreamSource
+/xmlgraphics-commons/src/test/java/org/apache/xmlgraphics/java2d/ps/PSGraphics2DTestCase.java
+	org.apache.xmlgraphics.ps.PSGenerator
+/xmlgraphics-commons/src/test/java/org/apache/xmlgraphics/ps/ImageEncodingHelperTestCase.java
+	java.awt.image.BufferedImage
+	java.awt.image.WritableRaster
+	java.awt.image.DataBuffer

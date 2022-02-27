@@ -1,0 +1,2 @@
+/thrift-maven-plugin/src/test/java/org/apache/thrift/maven/TestAbstractThriftMojo.java
+	org.apache.maven.artifact.repository.ArtifactRepository

@@ -1,0 +1,56 @@
+/xmlgraphics-commons/src/test/java/org/apache/xmlgraphics/image/codec/tiff/ImageTypeTestCase.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 2
+ 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<java.lang.Integer>
+	Count: 1
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 2
+ 
+/xmlgraphics-commons/src/test/java/org/apache/xmlgraphics/image/codec/tiff/ImageInfoTestCase.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 4
+ 
+/xmlgraphics-commons/src/test/java/org/apache/xmlgraphics/image/loader/impl/PreloaderJPEGTestCase.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 2
+ 
+/xmlgraphics-commons/src/test/java/org/apache/xmlgraphics/io/XmlSourceUtilTestCase.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 15
+ 
+/xmlgraphics-commons/src/test/java/org/apache/xmlgraphics/java2d/ps/PSGraphics2DTestCase.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+	Method name: verify
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+	Method name: times
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+/xmlgraphics-commons/src/test/java/org/apache/xmlgraphics/ps/ImageEncodingHelperTestCase.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 3
+ 
