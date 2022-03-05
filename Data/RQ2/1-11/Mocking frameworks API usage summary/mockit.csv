@@ -1,0 +1,3 @@
+method, origin, count
+withSuffix,mockit.Invocations,1
+withCapture,mockit.Verifications,2

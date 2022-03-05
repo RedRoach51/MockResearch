@@ -1,0 +1,54 @@
+/core/src/test/java/org/apache/abdera/util/MimeTypeHelperTest.java
+	org.junit.Assert.assertEquals
+	org.junit.Assert.assertFalse
+	org.junit.Assert.assertTrue
+	org.junit.Assert.assertNull
+	javax.activation.MimeType
+	org.apache.abdera.model.Entry
+	org.apache.abdera.model.Feed
+	org.apache.abdera.model.Service
+	org.easymock.EasyMock
+	org.junit.Test
+/opensearch/src/test/java/org/apache/abdera/test/ext/opensearch/server/impl/SimpleOpenSearchInfoTest.java
+	java.io.StringWriter
+	org.apache.abdera.Abdera
+	org.apache.abdera.ext.opensearch.model.OpenSearchDescription
+	org.apache.abdera.ext.opensearch.model.Query
+	org.apache.abdera.ext.opensearch.server.OpenSearchInfo
+	org.apache.abdera.i18n.iri.IRI
+	org.apache.abdera.protocol.server.RequestContext
+	org.apache.abdera.test.ext.opensearch.server.AbstractOpenSearchServerTest
+	org.junit.Before
+	org.junit.Test
+	org.easymock.EasyMock
+/server/src/test/java/org/apache/abdera/protocol/server/processors/EntryRequestProcessorTest.java
+	org.junit.Assert
+	org.apache.abdera.protocol.server.CollectionAdapter
+	org.apache.abdera.protocol.server.RequestContext
+	org.apache.abdera.protocol.server.ResponseContext
+	org.easymock.EasyMock
+	org.junit
+/server/src/test/java/org/apache/abdera/protocol/server/processors/MediaRequestProcessorTest.java
+	org.junit.Assert
+	org.apache.abdera.protocol.server.MediaCollectionAdapter
+	org.apache.abdera.protocol.server.RequestContext
+	org.apache.abdera.protocol.server.ResponseContext
+	org.easymock.EasyMock
+	org.junit
+/server/src/test/java/org/apache/abdera/protocol/server/test/route/RouteTest.java
+	org.easymock.EasyMock.createMock
+	org.easymock.EasyMock.expect
+	org.easymock.EasyMock.replay
+	org.junit.Assert.assertEquals
+	org.junit.Assert.assertFalse
+	org.junit.Assert.assertNull
+	org.junit.Assert.assertTrue
+	java.util.HashMap
+	java.util.Map
+	org.apache.abdera.i18n.templates.HashMapContext
+	org.apache.abdera.i18n.templates.Route
+	org.apache.abdera.protocol.server.RequestContext
+	org.apache.abdera.protocol.server.TargetType
+	org.apache.abdera.protocol.server.impl.RouteManager
+	org.apache.abdera.protocol.server.impl.RouteManager.RouteTarget
+	org.junit.Test

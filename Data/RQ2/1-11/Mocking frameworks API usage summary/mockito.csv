@@ -1,0 +1,12 @@
+method, origin, count
+thenReturn,org.mockito.stubbing.OngoingStubbing<java.lang.String>,14
+when,org.mockito.Mockito,56
+mock,org.mockito.Mockito,64
+spy,org.mockito.Mockito,1
+doNothing,org.mockito.Mockito,1
+anyString,org.mockito.ArgumentMatchers,1
+anyBoolean,org.mockito.ArgumentMatchers,1
+getArgument,org.mockito.invocation.InvocationOnMock,2
+mockStatic,org.mockito.Mockito,1
+any,org.mockito.ArgumentMatchers,5
+verifyNoMoreInteractions,org.mockito.Mockito,4

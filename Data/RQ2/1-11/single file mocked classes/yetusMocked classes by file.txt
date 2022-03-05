@@ -1,2 +1,0 @@
-/audience-annotations/src/test/java/org/apache/yetus/audience/tools/DocletEnvironmentProcessorTest.java
-	jdk.javadoc.doclet.DocletEnvironment

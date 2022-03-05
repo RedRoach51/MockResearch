@@ -1,0 +1,589 @@
+/base/src/test/java/org/apache/accumulo/server/ServerContextTest.java
+	org.apache.accumulo.core.conf.SiteConfiguration
+	org.apache.accumulo.server.conf.ServerConfigurationFactory
+	org.apache.accumulo.server.ServerContext
+/base/src/test/java/org/apache/accumulo/server/MockServerContext.java
+	org.apache.accumulo.server.ServerContext
+/base/src/test/java/org/apache/accumulo/server/ServiceEnvironmentImplTest.java
+	org.apache.accumulo.server.ServerContext
+	org.apache.accumulo.core.conf.AccumuloConfiguration
+/base/src/test/java/org/apache/accumulo/server/client/BulkImporterTest.java
+/base/src/test/java/org/apache/accumulo/server/conf/ServerConfigurationFactoryTest.java
+	org.apache.accumulo.fate.zookeeper.ZooCacheFactory
+	org.apache.accumulo.fate.zookeeper.ZooCache
+/base/src/test/java/org/apache/accumulo/server/conf/ZooCachePropertyAccessorTest.java
+	org.apache.accumulo.fate.zookeeper.ZooCache
+	org.apache.accumulo.core.conf.AccumuloConfiguration
+	org.apache.accumulo.core.conf.AccumuloConfiguration
+	org.apache.accumulo.core.conf.AccumuloConfiguration
+	org.apache.accumulo.core.conf.AccumuloConfiguration
+	java.util.function.Predicate<java.lang.String>
+	org.apache.accumulo.core.conf.AccumuloConfiguration
+	java.util.function.Predicate<java.lang.String>
+	org.apache.accumulo.core.conf.AccumuloConfiguration
+	java.util.function.Predicate<java.lang.String>
+	org.apache.accumulo.core.conf.AccumuloConfiguration
+	java.util.function.Predicate<java.lang.String>
+	java.util.function.Predicate<java.lang.String>
+/base/src/test/java/org/apache/accumulo/server/conf/NamespaceConfigurationTest.java
+	org.apache.accumulo.core.conf.AccumuloConfiguration
+	org.apache.accumulo.fate.zookeeper.ZooCacheFactory
+	org.apache.accumulo.fate.zookeeper.ZooCache
+/base/src/test/java/org/apache/accumulo/server/conf/ZooConfigurationFactoryTest.java
+	org.apache.accumulo.fate.zookeeper.ZooCacheFactory
+	org.apache.accumulo.fate.zookeeper.ZooCache
+	org.apache.accumulo.core.conf.AccumuloConfiguration
+/base/src/test/java/org/apache/accumulo/server/conf/TableConfigurationTest.java
+	org.apache.accumulo.server.conf.NamespaceConfiguration
+	org.apache.accumulo.fate.zookeeper.ZooCacheFactory
+	org.apache.accumulo.fate.zookeeper.ZooCache
+/base/src/test/java/org/apache/accumulo/server/constraints/MetadataConstraintsTest.java
+	org.apache.accumulo.server.constraints.SystemEnvironment
+	org.apache.accumulo.server.ServerContext
+/base/src/test/java/org/apache/accumulo/server/init/InitializeTest.java
+	org.apache.accumulo.server.fs.VolumeManager
+	org.apache.accumulo.core.conf.SiteConfiguration
+	org.apache.accumulo.fate.zookeeper.ZooReaderWriter
+/base/src/test/java/org/apache/accumulo/server/iterators/MetadataBulkLoadFilterTest.java
+	org.apache.accumulo.server.iterators.SystemIteratorEnvironment
+/base/src/test/java/org/apache/accumulo/server/manager/LiveTServerSetTest.java
+	org.apache.accumulo.server.manager.LiveTServerSet.TServerConnection
+	org.apache.accumulo.server.ServerContext
+	org.apache.accumulo.server.manager.LiveTServerSet.Listener
+/base/src/test/java/org/apache/accumulo/server/manager/state/MergeInfoTest.java
+	org.apache.accumulo.core.dataImpl.KeyExtent
+	org.apache.accumulo.core.dataImpl.KeyExtent
+	org.apache.accumulo.core.dataImpl.KeyExtent
+	org.apache.accumulo.core.dataImpl.KeyExtent
+	org.apache.accumulo.core.dataImpl.KeyExtent
+	org.apache.accumulo.core.dataImpl.KeyExtent
+	org.apache.accumulo.core.dataImpl.KeyExtent
+/base/src/test/java/org/apache/accumulo/server/manager/state/TabletLocationStateTest.java
+	org.apache.accumulo.core.dataImpl.KeyExtent
+	org.apache.accumulo.core.metadata.TServerInstance
+	org.apache.accumulo.core.metadata.TServerInstance
+	org.apache.accumulo.core.metadata.TServerInstance
+/base/src/test/java/org/apache/accumulo/server/master/balancer/BaseHostRegexTableLoadBalancerTest.java
+	org.apache.accumulo.server.ServerContext
+	org.apache.accumulo.core.clientImpl.ClientContext
+/base/src/test/java/org/apache/accumulo/server/master/balancer/HostRegexTableLoadBalancerReconfigurationTest.java
+/base/src/test/java/org/apache/accumulo/server/master/balancer/HostRegexTableLoadBalancerTest.java
+/base/src/test/java/org/apache/accumulo/server/master/balancer/TableLoadBalancerTest.java
+	org.apache.accumulo.core.client.admin.TableOperations
+	org.apache.accumulo.server.conf.TableConfiguration
+/base/src/test/java/org/apache/accumulo/server/problems/ProblemReportTest.java
+	org.apache.accumulo.fate.zookeeper.ZooReaderWriter
+/base/src/test/java/org/apache/accumulo/server/problems/ProblemReportingIteratorTest.java
+	org.apache.accumulo.core.iteratorsImpl.system.InterruptibleIterator
+	org.apache.accumulo.core.data.Key
+	org.apache.accumulo.core.data.Value
+	org.apache.accumulo.core.data.Range
+/base/src/test/java/org/apache/accumulo/server/replication/ReplicationUtilTest.java
+	org.apache.accumulo.server.ServerContext
+	org.apache.accumulo.core.conf.AccumuloConfiguration
+	org.apache.accumulo.server.replication.ReplicaSystem
+	org.apache.accumulo.server.replication.ReplicaSystem
+/base/src/test/java/org/apache/accumulo/server/security/delegation/ZooAuthenticationKeyWatcherTest.java
+	org.apache.accumulo.fate.zookeeper.ZooReader
+/base/src/test/java/org/apache/accumulo/server/security/delegation/ZooAuthenticationKeyDistributorTest.java
+	org.apache.accumulo.fate.zookeeper.ZooReaderWriter
+/base/src/test/java/org/apache/accumulo/server/security/delegation/AuthenticationTokenSecretManagerTest.java
+	org.apache.accumulo.server.security.delegation.ZooAuthenticationKeyDistributor
+/base/src/test/java/org/apache/accumulo/server/security/delegation/AuthenticationTokenKeyManagerTest.java
+	org.apache.accumulo.server.security.delegation.AuthenticationTokenSecretManager
+	org.apache.accumulo.server.security.delegation.ZooAuthenticationKeyDistributor
+	org.apache.accumulo.server.security.delegation.AuthenticationTokenKeyManagerTest.MockManager
+/base/src/test/java/org/apache/accumulo/server/security/handler/ZKAuthenticatorTest.java
+	org.apache.accumulo.fate.zookeeper.ZooReaderWriter
+	org.apache.zookeeper.ZooKeeper
+	org.apache.accumulo.fate.zookeeper.ZooReaderWriter
+	org.apache.zookeeper.ZooKeeper
+/base/src/test/java/org/apache/accumulo/server/tablets/LogicalTimeTest.java
+	org.apache.accumulo.server.data.ServerMutation
+	org.apache.accumulo.server.data.ServerMutation
+/base/src/test/java/org/apache/accumulo/server/tablets/TabletTimeTest.java
+	org.apache.accumulo.server.data.ServerMutation
+/base/src/test/java/org/apache/accumulo/server/tablets/MillisTimeTest.java
+	org.apache.accumulo.server.data.ServerMutation
+/base/src/test/java/org/apache/accumulo/server/util/ReplicationTableUtilTest.java
+	org.apache.accumulo.core.clientImpl.Writer
+	org.apache.accumulo.core.clientImpl.ClientContext
+	org.apache.accumulo.core.client.AccumuloClient
+	org.apache.accumulo.core.client.admin.TableOperations
+/base/src/test/java/org/apache/accumulo/server/util/AdminTest.java
+	org.apache.accumulo.core.clientImpl.ClientContext
+	org.apache.accumulo.fate.zookeeper.ZooCache
+	org.apache.accumulo.fate.zookeeper.ZooCache
+/base/src/test/java/org/apache/accumulo/server/util/TServerUtilsTest.java
+	org.apache.accumulo.server.ServerContext
+/compaction-coordinator/src/test/java/org/apache/accumulo/coordinator/CompactionCoordinatorTest.java
+	org.apache.accumulo.core.conf.AccumuloConfiguration
+	org.apache.accumulo.server.ServerContext
+	org.apache.accumulo.coordinator.CompactionFinalizer
+	org.apache.accumulo.server.manager.LiveTServerSet
+	org.apache.accumulo.server.rpc.ServerAddress
+	org.apache.accumulo.core.metadata.TServerInstance
+	org.apache.accumulo.core.tabletserver.thrift.TabletClientService.Client
+	org.apache.accumulo.server.security.AuditedSecurityOperation
+	org.apache.accumulo.core.conf.AccumuloConfiguration
+	org.apache.accumulo.server.ServerContext
+	org.apache.accumulo.core.securityImpl.thrift.TCredentials
+	org.apache.accumulo.coordinator.CompactionFinalizer
+	org.apache.accumulo.server.manager.LiveTServerSet
+	org.apache.accumulo.core.metadata.TServerInstance
+	org.apache.accumulo.server.rpc.ServerAddress
+	org.apache.accumulo.core.metadata.TServerInstance
+	org.apache.accumulo.core.tabletserver.thrift.TabletClientService.Client
+	org.apache.accumulo.core.tabletserver.thrift.TCompactionQueueSummary
+	org.apache.accumulo.server.security.AuditedSecurityOperation
+	org.apache.accumulo.core.conf.AccumuloConfiguration
+	org.apache.accumulo.server.ServerContext
+	org.apache.accumulo.core.securityImpl.thrift.TCredentials
+	org.apache.accumulo.coordinator.CompactionFinalizer
+	org.apache.accumulo.server.manager.LiveTServerSet
+	org.apache.accumulo.core.metadata.TServerInstance
+	org.apache.accumulo.server.rpc.ServerAddress
+	org.apache.accumulo.core.tabletserver.thrift.TabletClientService.Client
+	org.apache.accumulo.core.tabletserver.thrift.TCompactionQueueSummary
+	org.apache.accumulo.server.security.AuditedSecurityOperation
+	org.apache.accumulo.core.conf.AccumuloConfiguration
+	org.apache.accumulo.server.ServerContext
+	org.apache.accumulo.core.securityImpl.thrift.TCredentials
+	org.apache.accumulo.coordinator.CompactionFinalizer
+	org.apache.accumulo.server.manager.LiveTServerSet
+	org.apache.accumulo.core.metadata.TServerInstance
+	org.apache.accumulo.core.tabletserver.thrift.TExternalCompactionJob
+	org.apache.accumulo.server.rpc.ServerAddress
+	org.apache.accumulo.core.tabletserver.thrift.TabletClientService.Client
+	org.apache.accumulo.core.tabletserver.thrift.TCompactionQueueSummary
+	org.apache.accumulo.server.security.AuditedSecurityOperation
+	org.apache.accumulo.core.conf.AccumuloConfiguration
+	org.apache.accumulo.server.ServerContext
+	org.apache.accumulo.core.securityImpl.thrift.TCredentials
+	org.apache.accumulo.coordinator.CompactionFinalizer
+	org.apache.accumulo.server.manager.LiveTServerSet
+	org.apache.accumulo.core.metadata.TServerInstance
+	org.apache.accumulo.server.rpc.ServerAddress
+	org.apache.accumulo.core.metadata.TServerInstance
+	org.apache.accumulo.core.tabletserver.thrift.TabletClientService.Client
+	org.apache.accumulo.core.tabletserver.thrift.TCompactionQueueSummary
+	org.apache.accumulo.core.tabletserver.thrift.TExternalCompactionJob
+	org.apache.accumulo.server.security.AuditedSecurityOperation
+	org.apache.accumulo.core.conf.AccumuloConfiguration
+	org.apache.accumulo.server.ServerContext
+	org.apache.accumulo.core.securityImpl.thrift.TCredentials
+	org.apache.accumulo.coordinator.CompactionFinalizer
+	org.apache.accumulo.server.manager.LiveTServerSet
+	org.apache.accumulo.server.rpc.ServerAddress
+	org.apache.accumulo.core.tabletserver.thrift.TabletClientService.Client
+	org.apache.accumulo.server.security.AuditedSecurityOperation
+/compactor/src/test/java/org/apache/accumulo/compactor/CompactorTest.java
+	org.apache.accumulo.server.rpc.ServerAddress
+	org.apache.accumulo.core.tabletserver.thrift.TExternalCompactionJob
+	org.apache.accumulo.core.dataImpl.thrift.TKeyExtent
+	org.apache.accumulo.core.conf.AccumuloConfiguration
+	org.apache.accumulo.server.ServerContext
+	org.apache.accumulo.fate.zookeeper.ZooReaderWriter
+	org.apache.zookeeper.ZooKeeper
+	org.apache.accumulo.server.fs.VolumeManagerImpl
+	org.apache.accumulo.server.rpc.ServerAddress
+	org.apache.accumulo.core.tabletserver.thrift.TExternalCompactionJob
+	org.apache.accumulo.core.dataImpl.thrift.TKeyExtent
+	org.apache.accumulo.core.conf.AccumuloConfiguration
+	org.apache.accumulo.server.ServerContext
+	org.apache.accumulo.fate.zookeeper.ZooReaderWriter
+	org.apache.zookeeper.ZooKeeper
+	org.apache.accumulo.server.fs.VolumeManagerImpl
+	org.apache.accumulo.server.rpc.ServerAddress
+	org.apache.accumulo.core.tabletserver.thrift.TExternalCompactionJob
+	org.apache.accumulo.core.dataImpl.thrift.TKeyExtent
+	org.apache.accumulo.core.conf.AccumuloConfiguration
+	org.apache.accumulo.server.ServerContext
+	org.apache.accumulo.fate.zookeeper.ZooReaderWriter
+	org.apache.zookeeper.ZooKeeper
+	org.apache.accumulo.server.fs.VolumeManagerImpl
+/core/src/test/java/org/apache/accumulo/core/client/ZooKeeperInstanceTest.java
+	org.apache.accumulo.core.client.ClientConfiguration
+	org.apache.accumulo.fate.zookeeper.ZooCacheFactory
+	org.apache.accumulo.fate.zookeeper.ZooCache
+	org.apache.accumulo.core.client.ClientConfiguration
+	org.apache.accumulo.core.client.ClientConfiguration
+	org.apache.accumulo.core.client.ClientConfiguration
+	org.apache.accumulo.core.client.ClientConfiguration
+	org.apache.accumulo.core.client.ClientConfiguration
+	org.apache.accumulo.core.client.ClientConfiguration
+	org.apache.accumulo.fate.zookeeper.ZooCacheFactory
+/core/src/test/java/org/apache/accumulo/core/clientImpl/ScannerBaseTest.java
+	org.apache.accumulo.core.client.ScannerBase
+/core/src/test/java/org/apache/accumulo/core/clientImpl/TabletLocatorImplTest.java
+	org.apache.accumulo.core.clientImpl.ClientContext
+	org.apache.accumulo.core.clientImpl.ClientContext
+/core/src/test/java/org/apache/accumulo/core/clientImpl/TabletServerBatchReaderTest.java
+	org.apache.accumulo.core.clientImpl.ClientContext
+/core/src/test/java/org/apache/accumulo/core/clientImpl/ZookeeperLockCheckerTest.java
+	org.apache.accumulo.core.clientImpl.ClientContext
+	org.apache.accumulo.fate.zookeeper.ZooCache
+/core/src/test/java/org/apache/accumulo/core/clientImpl/RootTabletLocatorTest.java
+	org.apache.accumulo.core.clientImpl.ClientContext
+	org.apache.accumulo.fate.zookeeper.ZooCache
+	org.apache.accumulo.core.clientImpl.TabletLocatorImpl.TabletServerLockChecker
+/core/src/test/java/org/apache/accumulo/core/clientImpl/ThriftTransportKeyTest.java
+	org.apache.accumulo.core.clientImpl.ClientContext
+	org.apache.accumulo.core.rpc.SslConnectionParams
+	org.apache.accumulo.core.rpc.SaslConnectionParams
+	org.apache.accumulo.core.client.security.tokens.KerberosToken
+	org.apache.accumulo.core.client.security.tokens.KerberosToken
+	org.apache.accumulo.core.clientImpl.ClientContext
+/core/src/test/java/org/apache/accumulo/core/clientImpl/ScannerImplTest.java
+	org.apache.accumulo.core.clientImpl.ClientContext
+/core/src/test/java/org/apache/accumulo/core/constraints/VisibilityConstraintTest.java
+	org.apache.accumulo.core.security.AuthorizationContainer
+	org.apache.accumulo.core.constraints.Constraint.Environment
+/core/src/test/java/org/apache/accumulo/core/data/ValueTest.java
+	org.apache.accumulo.core.data.Value
+/core/src/test/java/org/apache/accumulo/core/data/constraints/VisibilityConstraintTest.java
+	org.apache.accumulo.core.security.AuthorizationContainer
+	org.apache.accumulo.core.data.constraints.Constraint.Environment
+/core/src/test/java/org/apache/accumulo/core/file/streams/RateLimitedOutputStreamTest.java
+	org.apache.accumulo.core.util.ratelimit.RateLimiter
+/core/src/test/java/org/apache/accumulo/core/file/streams/RateLimitedInputStreamTest.java
+	org.apache.accumulo.core.util.ratelimit.RateLimiter
+/core/src/test/java/org/apache/accumulo/core/iterators/user/TransformingIteratorTest.java
+	org.apache.accumulo.core.iterators.IteratorEnvironment
+/core/src/test/java/org/apache/accumulo/core/metadata/MetadataServicerTest.java
+	org.apache.accumulo.core.clientImpl.ClientContext
+	org.apache.accumulo.core.client.admin.TableOperations
+/core/src/test/java/org/apache/accumulo/core/rpc/SaslConnectionParamsTest.java
+	org.apache.accumulo.core.client.security.tokens.KerberosToken
+	org.apache.accumulo.core.client.security.tokens.KerberosToken
+	org.apache.accumulo.core.client.security.tokens.KerberosToken
+/core/src/test/java/org/apache/accumulo/core/rpc/TTimeoutTransportTest.java
+	java.net.SocketAddress
+	java.net.Socket
+	org.apache.accumulo.core.rpc.TTimeoutTransport
+	java.net.SocketAddress
+	java.net.Socket
+	org.apache.accumulo.core.rpc.TTimeoutTransport
+	java.net.SocketAddress
+	java.net.Socket
+	java.io.InputStream
+	org.apache.accumulo.core.rpc.TTimeoutTransport
+/core/src/test/java/org/apache/accumulo/core/spi/balancer/TableLoadBalancerTest.java
+	org.apache.accumulo.core.spi.balancer.BalancerEnvironment
+/core/src/test/java/org/apache/accumulo/core/spi/balancer/HostRegexTableLoadBalancerTest.java
+	org.apache.accumulo.core.spi.balancer.BalancerEnvironment
+/core/src/test/java/org/apache/accumulo/core/spi/balancer/HostRegexTableLoadBalancerReconfigurationTest.java
+	org.apache.accumulo.core.spi.balancer.BalancerEnvironment
+/core/src/test/java/org/apache/accumulo/core/spi/compaction/DefaultCompactionPlannerTest.java
+	org.apache.accumulo.core.spi.common.ServiceEnvironment.Configuration
+	org.apache.accumulo.core.spi.common.ServiceEnvironment
+	org.apache.accumulo.core.spi.common.ServiceEnvironment.Configuration
+	org.apache.accumulo.core.spi.common.ServiceEnvironment
+	org.apache.accumulo.core.spi.common.ServiceEnvironment.Configuration
+	org.apache.accumulo.core.spi.common.ServiceEnvironment
+	org.apache.accumulo.core.spi.common.ServiceEnvironment.Configuration
+	org.apache.accumulo.core.spi.common.ServiceEnvironment
+	org.apache.accumulo.core.spi.common.ServiceEnvironment.Configuration
+	org.apache.accumulo.core.spi.common.ServiceEnvironment
+	org.apache.accumulo.core.spi.common.ServiceEnvironment.Configuration
+	org.apache.accumulo.core.spi.common.ServiceEnvironment
+/core/src/test/java/org/apache/accumulo/core/spi/fs/PreferredVolumeChooserTest.java
+	org.apache.accumulo.core.spi.common.ServiceEnvironment
+	org.apache.accumulo.core.spi.common.ServiceEnvironment.Configuration
+	org.apache.accumulo.core.spi.common.ServiceEnvironment.Configuration
+/core/src/test/java/org/apache/accumulo/core/spi/fs/SpaceAwareVolumeChooserTest.java
+	org.apache.accumulo.core.spi.common.ServiceEnvironment
+	org.apache.accumulo.core.spi.common.ServiceEnvironment.Configuration
+	org.apache.accumulo.core.spi.fs.VolumeChooserEnvironment
+/core/src/test/java/org/apache/accumulo/core/spi/fs/PerTableVolumeChooserTest.java
+	org.apache.accumulo.core.spi.common.ServiceEnvironment
+	org.apache.accumulo.core.spi.common.ServiceEnvironment.Configuration
+	org.apache.accumulo.core.spi.common.ServiceEnvironment.Configuration
+/core/src/test/java/org/apache/accumulo/core/util/MonitorUtilTest.java
+	org.apache.accumulo.fate.zookeeper.ZooReader
+	org.apache.accumulo.core.clientImpl.ClientContext
+/core/src/test/java/org/apache/accumulo/core/volume/VolumeImplTest.java
+	org.apache.hadoop.conf.Configuration
+	org.apache.hadoop.fs.FileSystem
+	org.apache.hadoop.fs.FileSystem
+	org.apache.hadoop.conf.Configuration
+	org.apache.hadoop.fs.FileSystem
+	org.apache.hadoop.fs.FileSystem
+	org.apache.hadoop.fs.FileSystem
+	org.apache.hadoop.fs.FileSystem
+/core/src/test/java/org/apache/accumulo/fate/ReadOnlyStoreTest.java
+	org.apache.accumulo.fate.Repo<java.lang.String>
+	org.apache.accumulo.fate.ZooStore<java.lang.String>
+/core/src/test/java/org/apache/accumulo/fate/util/RetryTest.java
+	org.apache.accumulo.fate.util.Retry
+	org.apache.accumulo.fate.util.Retry
+	org.apache.accumulo.fate.util.Retry
+	org.slf4j.Logger
+/core/src/test/java/org/apache/accumulo/fate/zookeeper/ZooCacheTest.java
+	org.apache.accumulo.fate.zookeeper.ZooReader
+	org.apache.zookeeper.ZooKeeper
+/core/src/test/java/org/apache/accumulo/fate/zookeeper/ZooReaderWriterTest.java
+	org.apache.zookeeper.ZooKeeper
+	org.apache.accumulo.fate.zookeeper.ZooReaderWriter
+	org.apache.accumulo.fate.util.Retry.RetryFactory
+	org.apache.accumulo.fate.util.Retry
+	org.apache.accumulo.fate.zookeeper.ZooReaderWriter
+	org.apache.accumulo.fate.zookeeper.ZooReaderWriter
+/core/src/test/java/org/apache/accumulo/fate/zookeeper/ZooCacheFactoryTest.java
+	org.apache.zookeeper.Watcher
+/gc/src/test/java/org/apache/accumulo/gc/SimpleGarbageCollectorTest.java
+	org.apache.accumulo.server.fs.VolumeManager
+	org.apache.accumulo.server.ServerContext
+	org.apache.accumulo.gc.SimpleGarbageCollector
+	org.apache.hadoop.fs.Path
+	org.apache.hadoop.fs.Path
+	org.apache.hadoop.fs.Path
+	org.apache.accumulo.core.volume.Volume
+	org.apache.accumulo.core.volume.Volume
+	org.apache.accumulo.server.fs.VolumeManager
+/gc/src/test/java/org/apache/accumulo/gc/GarbageCollectWriteAheadLogsTest.java
+	org.apache.accumulo.server.ServerContext
+	org.apache.accumulo.server.fs.VolumeManager
+	org.apache.accumulo.server.log.WalStateManager
+	org.apache.accumulo.server.manager.LiveTServerSet
+	org.apache.accumulo.server.ServerContext
+	org.apache.accumulo.server.fs.VolumeManager
+	org.apache.accumulo.server.log.WalStateManager
+	org.apache.accumulo.server.manager.LiveTServerSet
+	org.apache.accumulo.server.ServerContext
+	org.apache.accumulo.server.fs.VolumeManager
+	org.apache.accumulo.server.log.WalStateManager
+	org.apache.accumulo.server.manager.LiveTServerSet
+	org.apache.accumulo.core.client.Scanner
+	org.apache.accumulo.core.client.Scanner
+	org.apache.accumulo.server.ServerContext
+	org.apache.accumulo.server.fs.VolumeManager
+	org.apache.accumulo.server.log.WalStateManager
+	org.apache.accumulo.server.manager.LiveTServerSet
+	org.apache.accumulo.core.client.Scanner
+	org.apache.accumulo.core.client.Scanner
+	org.apache.accumulo.server.ServerContext
+	org.apache.accumulo.server.fs.VolumeManager
+	org.apache.accumulo.server.log.WalStateManager
+	org.apache.accumulo.server.manager.LiveTServerSet
+	org.apache.accumulo.core.client.Scanner
+	org.apache.accumulo.core.client.Scanner
+/manager/src/test/java/org/apache/accumulo/manager/metrics/ReplicationMetricsTest.java
+	org.apache.accumulo.manager.Manager
+	org.apache.accumulo.server.ServerContext
+	org.apache.accumulo.server.fs.VolumeManager
+	org.apache.accumulo.server.replication.ReplicationUtil
+	io.micrometer.core.instrument.MeterRegistry
+	io.micrometer.core.instrument.Timer
+/manager/src/test/java/org/apache/accumulo/manager/replication/UnorderedWorkAssignerTest.java
+	org.apache.accumulo.core.conf.AccumuloConfiguration
+	org.apache.accumulo.core.client.AccumuloClient
+	org.apache.accumulo.server.zookeeper.DistributedWorkQueue
+	org.apache.accumulo.server.zookeeper.DistributedWorkQueue
+	org.apache.accumulo.fate.zookeeper.ZooCache
+	org.apache.accumulo.core.client.admin.InstanceOperations
+/manager/src/test/java/org/apache/accumulo/manager/replication/ManagerReplicationCoordinatorTest.java
+	org.apache.accumulo.manager.Manager
+	org.apache.accumulo.fate.zookeeper.ZooReader
+	org.apache.accumulo.server.ServerContext
+	org.apache.accumulo.manager.Manager
+	org.apache.accumulo.server.ServerContext
+	org.apache.accumulo.fate.zookeeper.ZooReader
+	org.apache.accumulo.manager.Manager
+	org.apache.accumulo.fate.zookeeper.ZooReader
+	org.apache.accumulo.server.ServerContext
+/manager/src/test/java/org/apache/accumulo/manager/replication/SequentialWorkAssignerTest.java
+	org.apache.accumulo.core.conf.AccumuloConfiguration
+	org.apache.accumulo.core.client.AccumuloClient
+	org.apache.accumulo.server.zookeeper.DistributedWorkQueue
+	org.apache.accumulo.fate.zookeeper.ZooCache
+	org.apache.accumulo.core.client.admin.InstanceOperations
+/manager/src/test/java/org/apache/accumulo/manager/tableOps/ShutdownTServerTest.java
+	org.apache.accumulo.manager.Manager
+	org.apache.accumulo.server.manager.LiveTServerSet.TServerConnection
+/manager/src/test/java/org/apache/accumulo/manager/tableOps/compact/CompactionDriverTest.java
+	org.apache.accumulo.manager.Manager
+	org.apache.accumulo.server.ServerContext
+	org.apache.accumulo.fate.zookeeper.ZooReaderWriter
+	org.apache.accumulo.manager.Manager
+	org.apache.accumulo.server.ServerContext
+	org.apache.accumulo.fate.zookeeper.ZooReaderWriter
+/manager/src/test/java/org/apache/accumulo/manager/tableOps/tableImport/ImportTableTest.java
+	org.apache.accumulo.manager.Manager
+	org.apache.accumulo.server.ServerContext
+	org.apache.accumulo.server.fs.VolumeManager
+	org.apache.accumulo.server.tablets.UniqueNameAllocator
+/manager/src/test/java/org/apache/accumulo/manager/upgrade/Upgrader9to10Test.java
+	org.apache.accumulo.core.client.Scanner
+	org.apache.accumulo.server.fs.VolumeManager
+	org.apache.accumulo.core.client.AccumuloClient
+	org.apache.accumulo.core.client.AccumuloClient
+	org.apache.accumulo.server.fs.VolumeManager
+	org.apache.accumulo.core.client.AccumuloClient
+	org.apache.accumulo.server.fs.VolumeManager
+	org.apache.accumulo.core.client.AccumuloClient
+	org.apache.accumulo.server.fs.VolumeManager
+	org.apache.accumulo.core.client.AccumuloClient
+	org.apache.accumulo.server.fs.VolumeManager
+	org.apache.accumulo.server.ServerContext
+	org.apache.accumulo.server.fs.VolumeManager
+	org.apache.hadoop.fs.FileStatus
+	org.apache.hadoop.fs.FileStatus
+	org.apache.hadoop.fs.FileStatus
+	org.apache.hadoop.fs.FileStatus
+/manager/src/test/java/org/apache/accumulo/manager/upgrade/AccumuloTest.java
+	org.apache.hadoop.fs.FileSystem
+	org.apache.hadoop.fs.Path
+	org.apache.hadoop.fs.FileStatus
+	org.apache.hadoop.fs.Path
+	org.apache.accumulo.core.volume.Volume
+	org.apache.hadoop.fs.FileSystem
+	org.apache.hadoop.fs.FSDataOutputStream
+	org.apache.accumulo.core.volume.Volume
+	org.apache.hadoop.fs.FileSystem
+	org.apache.hadoop.fs.FSDataOutputStream
+	org.apache.accumulo.server.fs.VolumeManager
+/minicluster/src/test/java/org/apache/accumulo/cluster/standalone/StandaloneAccumuloClusterTest.java
+	org.apache.accumulo.cluster.standalone.StandaloneAccumuloCluster
+	org.apache.accumulo.cluster.standalone.StandaloneClusterControl
+/minicluster/src/test/java/org/apache/accumulo/miniclusterImpl/CleanShutdownMacTest.java
+	java.util.concurrent.ExecutorService
+	java.util.concurrent.Future<java.lang.Integer>
+/monitor/src/test/java/org/apache/accumulo/monitor/it/WebViewsIT.java
+	org.apache.accumulo.server.ServerContext
+	org.apache.accumulo.monitor.Monitor
+/monitor/src/test/java/org/apache/accumulo/monitor/rest/tservers/TabletServerInformationTest.java
+	org.apache.accumulo.monitor.Monitor
+/shell/src/test/java/org/apache/accumulo/shell/commands/ImportDirectoryCommandTest.java
+	org.apache.accumulo.core.client.AccumuloClient
+	org.apache.commons.cli.CommandLine
+	org.apache.accumulo.shell.Shell
+	org.apache.accumulo.core.client.admin.TableOperations
+	org.apache.accumulo.core.clientImpl.bulk.BulkImport
+/shell/src/test/java/org/apache/accumulo/shell/commands/DropUserCommandTest.java
+	org.apache.accumulo.core.client.AccumuloClient
+	org.apache.commons.cli.CommandLine
+	org.apache.accumulo.shell.Shell
+	org.jline.reader.LineReader
+	java.io.PrintWriter
+	org.apache.accumulo.core.client.admin.SecurityOperations
+/shell/src/test/java/org/apache/accumulo/shell/commands/HistoryCommandTest.java
+	org.apache.commons.cli.CommandLine
+/shell/src/test/java/org/apache/accumulo/shell/commands/SetIterCommandTest.java
+	org.apache.accumulo.core.client.AccumuloClient
+	org.apache.commons.cli.CommandLine
+	org.apache.accumulo.shell.Shell
+	org.jline.reader.LineReader
+	java.io.PrintWriter
+	org.apache.accumulo.core.client.admin.TableOperations
+/shell/src/test/java/org/apache/accumulo/shell/commands/DeleteAuthsCommandTest.java
+	org.apache.accumulo.core.client.AccumuloClient
+	org.apache.commons.cli.CommandLine
+	org.apache.accumulo.shell.Shell
+	org.jline.reader.LineReader
+	org.apache.accumulo.core.client.admin.SecurityOperations
+	org.apache.accumulo.core.client.AccumuloClient
+	org.apache.commons.cli.CommandLine
+	org.apache.accumulo.shell.Shell
+	org.jline.reader.LineReader
+	org.apache.accumulo.core.client.admin.SecurityOperations
+	org.apache.accumulo.core.client.AccumuloClient
+	org.apache.commons.cli.CommandLine
+	org.apache.accumulo.shell.Shell
+	org.jline.reader.LineReader
+	org.apache.accumulo.core.client.admin.SecurityOperations
+/shell/src/test/java/org/apache/accumulo/shell/commands/ListTabletsCommandTest.java
+	org.apache.accumulo.core.client.AccumuloClient
+	org.apache.accumulo.core.clientImpl.ClientContext
+	org.apache.accumulo.core.client.admin.TableOperations
+	org.apache.accumulo.core.client.admin.InstanceOperations
+	org.apache.accumulo.shell.Shell
+/shell/src/test/java/org/apache/accumulo/shell/format/DeleterFormatterTest.java
+	org.apache.accumulo.core.client.MutationsRejectedException
+	org.apache.accumulo.core.client.BatchWriter
+	org.apache.accumulo.core.client.BatchWriter
+	org.apache.accumulo.shell.Shell
+/start/src/test/java/org/apache/accumulo/start/classloader/vfs/AccumuloVFSClassLoaderTest.java
+/test/src/main/java/org/apache/accumulo/test/InMemoryMapIT.java
+	org.apache.accumulo.server.ServerContext
+/test/src/main/java/org/apache/accumulo/test/fate/zookeeper/FateIT.java
+	org.apache.accumulo.manager.Manager
+	org.apache.accumulo.server.ServerContext
+/test/src/main/java/org/apache/accumulo/test/gc/replication/CloseWriteAheadLogReferencesIT.java
+	org.apache.accumulo.core.conf.SiteConfiguration
+	org.apache.accumulo.server.ServerContext
+/test/src/main/java/org/apache/accumulo/test/replication/ReplicationOperationsImplIT.java
+	org.apache.accumulo.manager.Manager
+/test/src/main/java/org/apache/accumulo/test/replication/UnorderedWorkAssignerIT.java
+	org.apache.accumulo.server.zookeeper.DistributedWorkQueue
+	org.apache.accumulo.server.zookeeper.DistributedWorkQueue
+	org.apache.accumulo.server.zookeeper.DistributedWorkQueue
+/test/src/main/java/org/apache/accumulo/test/replication/StatusMakerIT.java
+	org.apache.accumulo.server.fs.VolumeManager
+	org.apache.hadoop.fs.FileStatus
+/test/src/main/java/org/apache/accumulo/test/replication/SequentialWorkAssignerIT.java
+	org.apache.accumulo.server.zookeeper.DistributedWorkQueue
+	org.apache.accumulo.server.zookeeper.DistributedWorkQueue
+	org.apache.accumulo.server.zookeeper.DistributedWorkQueue
+	org.apache.accumulo.server.zookeeper.DistributedWorkQueue
+/test/src/main/java/org/apache/accumulo/test/replication/RemoveCompleteReplicationRecordsIT.java
+	org.apache.accumulo.core.client.BatchWriter
+	org.apache.accumulo.core.client.BatchWriter
+/tserver/src/test/java/org/apache/accumulo/tserver/BusiestTrackerTest.java
+	org.apache.accumulo.tserver.tablet.Tablet
+/tserver/src/test/java/org/apache/accumulo/tserver/AssignmentWatcherTest.java
+	org.apache.accumulo.server.ServerContext
+	org.apache.accumulo.core.conf.AccumuloConfiguration
+	org.apache.accumulo.tserver.ActiveAssignmentRunnable
+/tserver/src/test/java/org/apache/accumulo/tserver/TabletResourceManagerTest.java
+	org.apache.accumulo.tserver.TabletServerResourceManager
+	org.apache.accumulo.core.dataImpl.KeyExtent
+	org.apache.accumulo.server.conf.TableConfiguration
+/tserver/src/test/java/org/apache/accumulo/tserver/TservConstraintEnvTest.java
+	org.apache.accumulo.server.security.SecurityOperation
+	org.apache.accumulo.core.securityImpl.thrift.TCredentials
+	org.apache.accumulo.core.securityImpl.thrift.TCredentials
+/tserver/src/test/java/org/apache/accumulo/tserver/InMemoryMapTest.java
+	org.apache.accumulo.server.ServerContext
+/tserver/src/test/java/org/apache/accumulo/tserver/compaction/DefaultCompactionStrategyTest.java
+	org.apache.accumulo.server.ServerContext
+/tserver/src/test/java/org/apache/accumulo/tserver/constraints/ConstraintCheckerTest.java
+	org.apache.accumulo.tserver.constraints.ConstraintChecker
+	org.apache.accumulo.core.data.constraints.Constraint.Environment
+	org.apache.accumulo.core.data.TabletId
+	org.apache.accumulo.core.data.Mutation
+	org.apache.accumulo.core.data.Mutation
+	org.apache.accumulo.core.data.constraints.Constraint
+	org.apache.accumulo.core.data.constraints.Constraint
+	org.apache.accumulo.core.data.constraints.Constraint
+/tserver/src/test/java/org/apache/accumulo/tserver/log/SortedLogRecoveryTest.java
+	org.apache.accumulo.server.ServerContext
+/tserver/src/test/java/org/apache/accumulo/tserver/log/TestUpgradePathForWALogs.java
+	org.apache.accumulo.server.ServerContext
+/tserver/src/test/java/org/apache/accumulo/tserver/log/RecoveryLogsIteratorTest.java
+	org.apache.accumulo.server.ServerContext
+/tserver/src/test/java/org/apache/accumulo/tserver/log/DfsLoggerTest.java
+	org.apache.accumulo.tserver.tablet.CommitSession
+/tserver/src/test/java/org/apache/accumulo/tserver/memory/LargestFirstMemoryManagerTest.java
+	org.apache.accumulo.server.ServerContext
+	org.apache.accumulo.core.conf.AccumuloConfiguration
+/tserver/src/test/java/org/apache/accumulo/tserver/replication/ReplicationProcessorTest.java
+	org.apache.accumulo.server.ServerContext
+	org.apache.accumulo.server.ServerContext
+	org.apache.accumulo.server.replication.ReplicaSystem
+	org.apache.accumulo.server.replication.ReplicaSystemHelper
+	org.apache.accumulo.tserver.replication.ReplicationProcessor
+/tserver/src/test/java/org/apache/accumulo/tserver/replication/BatchWriterReplicationReplayerTest.java
+	org.apache.accumulo.core.conf.AccumuloConfiguration
+	org.apache.accumulo.core.client.BatchWriter
+	org.apache.accumulo.core.clientImpl.ClientContext
+/tserver/src/test/java/org/apache/accumulo/tserver/replication/AccumuloReplicaSystemTest.java
+	org.apache.accumulo.core.replication.thrift.ReplicationServicer.Client
+	org.apache.accumulo.tserver.replication.AccumuloReplicaSystem
+	org.apache.accumulo.core.replication.thrift.ReplicationServicer.Client
+	org.apache.accumulo.tserver.replication.AccumuloReplicaSystem
+/tserver/src/test/java/org/apache/accumulo/tserver/tablet/TabletTest.java
+	org.apache.accumulo.tserver.compaction.CompactionPlan
+	org.apache.accumulo.tserver.compaction.WriteParameters
+/tserver/src/test/java/org/apache/accumulo/tserver/tablet/TabletMutationPrepAttemptTest.java
+	org.apache.accumulo.tserver.tablet.CommitSession

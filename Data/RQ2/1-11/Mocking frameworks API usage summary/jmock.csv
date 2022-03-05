@@ -1,0 +1,9 @@
+method, origin, count
+setImposteriser,org.jmock.Mockery,5
+checking,org.jmock.Mockery,2
+of,org.jmock.syntax.ReceiverClause,1
+exactly,org.jmock.Expectations,1
+assertIsSatisfied,org.jmock.Mockery,1
+allowing,org.jmock.Expectations,22
+will,org.jmock.Expectations,3
+returnValue,org.jmock.Expectations,1

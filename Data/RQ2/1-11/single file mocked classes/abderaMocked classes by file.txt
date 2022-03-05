@@ -1,0 +1,17 @@
+/core/src/test/java/org/apache/abdera/util/MimeTypeHelperTest.java
+	org.apache.abdera.model.Feed
+	org.apache.abdera.model.Entry
+	org.apache.abdera.model.Service
+/opensearch/src/test/java/org/apache/abdera/test/ext/opensearch/server/impl/SimpleOpenSearchInfoTest.java
+	org.apache.abdera.protocol.server.RequestContext
+/server/src/test/java/org/apache/abdera/protocol/server/processors/EntryRequestProcessorTest.java
+	org.apache.abdera.protocol.server.CollectionAdapter
+	org.apache.abdera.protocol.server.RequestContext
+	org.apache.abdera.protocol.server.ResponseContext
+/server/src/test/java/org/apache/abdera/protocol/server/processors/MediaRequestProcessorTest.java
+	org.apache.abdera.protocol.server.MediaCollectionAdapter
+	org.apache.abdera.protocol.server.RequestContext
+	org.apache.abdera.protocol.server.ResponseContext
+/server/src/test/java/org/apache/abdera/protocol/server/test/route/RouteTest.java
+	org.apache.abdera.protocol.server.RequestContext
+	org.apache.abdera.protocol.server.RequestContext

@@ -1,0 +1,7 @@
+method, origin, count
+resetAll,org.powermock.api.easymock.PowerMock,9
+suppress,org.powermock.api.support.membermodification.MemberModifier,22
+constructor,org.powermock.api.support.membermodification.MemberMatcher,6
+newInstance,org.powermock.reflect.Whitebox,1
+methods,org.powermock.api.support.membermodification.MemberMatcher,3
+setInternalState,org.powermock.reflect.Whitebox,18

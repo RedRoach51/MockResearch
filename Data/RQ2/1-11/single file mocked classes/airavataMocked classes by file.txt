@@ -1,0 +1,13 @@
+/services-security/src/test/java/org/apache/airavata/service/security/KeyCloakSecurityManagerTest.java
+	org.apache.airavata.security.util.TrustStoreManager
+	org.apache.airavata.common.utils.ServerSettings
+	org.apache.airavata.registry.api.client.RegistryServiceClientFactory
+	org.apache.airavata.registry.api.RegistryService.Client
+	org.apache.airavata.sharing.registry.client.SharingRegistryServiceClientFactory
+	org.apache.airavata.sharing.registry.service.cpi.SharingRegistryService.Client
+	org.apache.airavata.service.security.authzcache.AuthzCacheManagerFactory
+	org.apache.airavata.service.security.authzcache.AuthzCacheManager
+/services-security/src/test/java/org/apache/airavata/service/security/GatewayGroupsInitializerTest.java
+	org.apache.airavata.registry.api.RegistryService.Client
+	org.apache.airavata.sharing.registry.service.cpi.SharingRegistryService.Client
+	org.apache.airavata.credential.store.cpi.CredentialStoreService.Client

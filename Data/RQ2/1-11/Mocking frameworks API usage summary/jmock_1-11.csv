@@ -1,9 +1,0 @@
-method, origin, count
-mock,org.jmock.Mockery,111
-checking,org.jmock.Mockery,28
-allowing,org.jmock.Expectations,4
-will,org.jmock.Expectations,80
-returnValue,org.jmock.Expectations,80
-setImposteriser,org.jmock.Mockery,8
-oneOf,org.jmock.Expectations,74
-assertIsSatisfied,org.jmock.Mockery,11

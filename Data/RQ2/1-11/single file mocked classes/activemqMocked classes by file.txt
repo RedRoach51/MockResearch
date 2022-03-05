@@ -1,0 +1,109 @@
+/activemq-amqp/src/test/java/org/apache/activemq/transport/amqp/message/JMSMappingOutboundTransformerTest.java
+	org.apache.activemq.command.ActiveMQTextMessage
+	org.apache.activemq.command.ActiveMQQueue
+	org.apache.activemq.command.ActiveMQTopic
+	org.apache.activemq.command.ActiveMQTempQueue
+	org.apache.activemq.command.ActiveMQTempTopic
+	org.apache.activemq.ActiveMQConnection
+	org.apache.activemq.ActiveMQConnection
+	org.apache.activemq.ActiveMQConnection
+	org.apache.activemq.ActiveMQConnection
+	org.apache.activemq.ActiveMQConnection
+/activemq-http/src/test/java/org/apache/activemq/transport/util/HttpTransportUtilsTest.java
+	javax.servlet.http.HttpServletRequest
+	javax.servlet.http.HttpServletRequest
+/activemq-jdbc-store/src/test/java/org/apache/activemq/store/jdbc/adapter/DefaultJDBCAdapterDoCreateTablesTest.java
+	org.apache.activemq.store.jdbc.TransactionContext
+	java.sql.Connection
+	org.apache.activemq.store.jdbc.Statements
+	java.sql.ResultSet
+	java.sql.Statement
+/activemq-kahadb-store/src/test/java/org/apache/activemq/store/kahadb/disk/journal/DataFileAccessorPoolTest.java
+	org.apache.activemq.store.kahadb.disk.journal.Journal
+/activemq-maven-plugin/src/test/java/org/apache/activemq/maven/StartBrokerMojoTest.java
+	org.apache.maven.project.MavenProject
+	org.apache.maven.model.Build
+	java.util.Properties
+	org.apache.activemq.maven.MavenBrokerManager
+	org.apache.activemq.maven.XBeanFileResolver
+	org.apache.activemq.broker.BrokerService
+	org.apache.maven.plugin.logging.Log
+	org.apache.activemq.broker.TransportConnector
+	org.apache.activemq.broker.TransportConnector
+/activemq-mqtt/src/test/java/org/apache/activemq/transport/mqtt/MQTTPingReqTest.java
+/activemq-mqtt/src/test/java/org/apache/activemq/transport/mqtt/MQTTProtocolConverterTest.java
+	org.apache.activemq.transport.mqtt.MQTTTransport
+	org.apache.activemq.broker.BrokerService
+	org.fusesource.mqtt.codec.CONNECT
+	org.apache.activemq.transport.mqtt.strategy.MQTTSubscriptionStrategy
+	org.fusesource.mqtt.codec.CONNECT
+/activemq-ra/src/test/java/org/apache/activemq/ra/MessageEndpointProxyTest.java
+	javax.resource.spi.endpoint.MessageEndpoint
+	javax.jms.MessageListener
+	org.apache.activemq.ra.MessageEndpointProxyTest.EndpointAndListener
+	javax.jms.Message
+/activemq-ra/src/test/java/org/apache/activemq/ra/ServerSessionImplTest.java
+	org.apache.activemq.ra.ServerSessionPoolImpl
+	javax.resource.spi.work.WorkManager
+	org.apache.activemq.ra.MessageEndpointProxy
+	javax.resource.spi.endpoint.MessageEndpointFactory
+	org.apache.activemq.ra.MessageResourceAdapter
+	org.apache.activemq.ra.ActiveMQEndpointActivationKey
+	org.apache.activemq.ra.MessageEndpointProxy
+	javax.resource.spi.work.WorkManager
+	org.apache.activemq.ra.MessageActivationSpec
+	javax.resource.spi.BootstrapContext
+	javax.resource.spi.endpoint.MessageEndpointFactory
+	org.apache.activemq.ra.MessageResourceAdapter
+	org.apache.activemq.ra.ActiveMQEndpointActivationKey
+	org.apache.activemq.ra.MessageEndpointProxy
+	javax.resource.spi.work.WorkManager
+	org.apache.activemq.ra.MessageActivationSpec
+	javax.resource.spi.BootstrapContext
+	javax.resource.spi.endpoint.MessageEndpointFactory
+	org.apache.activemq.ra.MessageResourceAdapter
+	org.apache.activemq.ra.ActiveMQEndpointActivationKey
+	org.apache.activemq.ra.MessageEndpointProxy
+	javax.resource.spi.work.WorkManager
+	org.apache.activemq.ra.MessageActivationSpec
+	javax.resource.spi.BootstrapContext
+/activemq-stomp/src/test/java/org/apache/activemq/transport/stomp/LegacyFrameTranslatorTest.java
+	org.apache.activemq.transport.stomp.ProtocolConverter
+/activemq-unit-tests/src/test/java/org/apache/activemq/broker/BrokerServiceTest.java
+/activemq-unit-tests/src/test/java/org/apache/activemq/config/ConfigTest.java
+	javax.sql.DataSource
+	java.sql.Connection
+	java.sql.DatabaseMetaData
+	java.sql.ResultSet
+	javax.sql.DataSource
+	java.sql.Connection
+	java.sql.DatabaseMetaData
+	java.sql.ResultSet
+/activemq-unit-tests/src/test/java/org/apache/activemq/network/NetworkRouteTest.java
+	org.apache.activemq.transport.Transport
+	org.apache.activemq.transport.Transport
+/activemq-unit-tests/src/test/java/org/apache/activemq/network/CustomBridgeFactoryTest.java
+	org.apache.activemq.network.NetworkBridgeListener
+/activemq-unit-tests/src/test/java/org/apache/activemq/store/jdbc/JDBCIOExceptionHandlerMockeryTest.java
+	org.apache.activemq.broker.BrokerService
+	org.apache.activemq.store.jdbc.JDBCPersistenceAdapter
+	org.apache.activemq.broker.Locker
+/activemq-unit-tests/src/test/java/org/apache/activemq/store/jdbc/LeaseDatabaseLockerTest.java
+	org.apache.activemq.store.jdbc.Statements
+	org.apache.activemq.store.jdbc.JDBCPersistenceAdapter
+	java.sql.Connection
+	java.sql.PreparedStatement
+	java.sql.ResultSet
+	java.sql.Timestamp
+/activemq-unit-tests/src/test/java/org/apache/activemq/transport/discovery/DiscoveryNetworkReconnectTest.java
+	org.apache.activemq.broker.jmx.ManagementContext
+/activemq-web/src/test/java/org/apache/activemq/web/LocalBrokerFacadeTest.java
+	org.apache.activemq.broker.BrokerService
+	org.apache.activemq.broker.jmx.BrokerView
+	org.apache.activemq.broker.region.Queue
+	org.apache.activemq.broker.region.Queue
+	org.apache.activemq.broker.jmx.ManagedRegionBroker
+	org.apache.activemq.broker.region.Region
+	org.apache.activemq.command.ActiveMQDestination
+	org.apache.activemq.broker.region.Queue
+	org.apache.activemq.broker.region.Queue
