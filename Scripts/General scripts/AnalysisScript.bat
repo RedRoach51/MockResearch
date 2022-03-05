@@ -23,7 +23,7 @@ for /D %%X in ("*") DO (
 	)
 	if !validProject!==true (
 		echo Found Project:  %%X
-		call GitRepoUpdater.bat %%X
+::		call GitRepoUpdater.bat %%X
 		if not exist UndProjects\%%X.und (
 			echo No previous Understand project created for %%X, initializing...
 			und create -languages java UndProjects\%%X.und 
