@@ -1,11 +1,11 @@
 method, origin, count
-setSession,net.sourceforge.stripes.mock.MockHttpServletRequest,2
-addLocale,net.sourceforge.stripes.mock.MockHttpServletRequest,2
-getSession,net.sourceforge.stripes.mock.MockHttpServletRequest,4
-setServletContext,net.sourceforge.stripes.mock.MockBaseConfig,4
-getForwardUrl,net.sourceforge.stripes.mock.MockHttpServletRequest,4
-setUserPrincipal,net.sourceforge.stripes.mock.MockHttpServletRequest,16
-setCookies,net.sourceforge.stripes.mock.MockHttpServletRequest,6
-getLocale,net.sourceforge.stripes.mock.MockHttpServletRequest,2
-getParameterMap,net.sourceforge.stripes.mock.MockHttpServletRequest,10
-setContextPath,net.sourceforge.stripes.mock.MockHttpServletRequest,2
+setSession,net.sourceforge.stripes.mock.MockHttpServletRequest,1
+addLocale,net.sourceforge.stripes.mock.MockHttpServletRequest,1
+getSession,net.sourceforge.stripes.mock.MockHttpServletRequest,2
+setServletContext,net.sourceforge.stripes.mock.MockBaseConfig,2
+getForwardUrl,net.sourceforge.stripes.mock.MockHttpServletRequest,2
+setUserPrincipal,net.sourceforge.stripes.mock.MockHttpServletRequest,8
+setCookies,net.sourceforge.stripes.mock.MockHttpServletRequest,3
+getLocale,net.sourceforge.stripes.mock.MockHttpServletRequest,1
+getParameterMap,net.sourceforge.stripes.mock.MockHttpServletRequest,5
+setContextPath,net.sourceforge.stripes.mock.MockHttpServletRequest,1

@@ -1,14 +1,10 @@
 Project Name,Mocking Framework,Used in # of Files
 directory-kerby,mockito,1
 jena,mockito,4
-jmeter,wiremock,7
 jspwiki,mockito,3
 jspwiki,sourceforge,10
-karaf,easymock,8
-knox,easymock,145
-lens,mockito,24
-lens,powermock,3
-lenya,springframework,2
+karaf,easymock,40
+knox,easymock,146
+logging-log4j2,mockito,26
 logging-log4j2,wiremock,2
 logging-log4j2,springframework,13
-logging-log4j2,mockito,27

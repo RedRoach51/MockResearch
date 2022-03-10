@@ -1,0 +1,38 @@
+method, origin, count
+withBody,com.github.tomakehurst.wiremock.client.ResponseDefinitionBuilder,2
+withHeader,com.github.tomakehurst.wiremock.client.ResponseDefinitionBuilder,6
+withStatus,com.github.tomakehurst.wiremock.client.ResponseDefinitionBuilder,2
+aResponse,com.github.tomakehurst.wiremock.client.WireMock,2
+should,org.mockito.BDDMockito.Then<java.io.PrintStream>,44
+then,org.mockito.BDDMockito,46
+atLeastOnce,org.mockito.Mockito,2
+any,org.mockito.ArgumentMatchers,1
+anyInt,org.mockito.ArgumentMatchers,2
+spy,org.mockito.Mockito,1
+mock,org.mockito.Mockito,50
+willReturn,org.mockito.BDDMockito.BDDMyOngoingStubbing<java.lang.Boolean>,121
+given,org.mockito.BDDMockito,199
+willAnswer,org.mockito.BDDMockito.BDDMyOngoingStubbing<java.sql.Connection>,2
+thenReturn,org.mockito.stubbing.OngoingStubbing<java.lang.Long>,1
+when,org.mockito.Mockito,2
+keystoreType,com.github.tomakehurst.wiremock.core.WireMockConfiguration,1
+keystorePassword,com.github.tomakehurst.wiremock.core.WireMockConfiguration,1
+keystorePath,com.github.tomakehurst.wiremock.core.WireMockConfiguration,1
+dynamicHttpsPort,com.github.tomakehurst.wiremock.core.WireMockConfiguration,1
+dynamicPort,com.github.tomakehurst.wiremock.core.WireMockConfiguration,1
+wireMockConfig,com.github.tomakehurst.wiremock.core.WireMockConfiguration,1
+port,com.github.tomakehurst.wiremock.WireMockServer,2
+stubFor,com.github.tomakehurst.wiremock.client.WireMock,2
+get,com.github.tomakehurst.wiremock.client.WireMock,2
+urlPathEqualTo,com.github.tomakehurst.wiremock.client.WireMock,2
+emptyActivatedContextBuilder,org.springframework.mock.jndi.SimpleNamingContextBuilder,1
+bind,org.springframework.mock.jndi.SimpleNamingContextBuilder,1
+eq,org.mockito.ArgumentMatchers,94
+setProperty,org.springframework.mock.env.MockEnvironment,2
+setAttribute,org.springframework.mock.web.MockPageContext,7
+getAttribute,org.springframework.mock.web.MockPageContext,6
+setContextPath,org.springframework.mock.web.MockServletContext,2
+
+MockedObjects: ,50
+
+# of Mocked objects each file:,23|3|1|1|4|3|10|1|2|1|1|

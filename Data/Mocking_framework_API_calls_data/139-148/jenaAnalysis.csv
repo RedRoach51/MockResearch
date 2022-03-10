@@ -1,5 +1,7 @@
 method, origin, count
+mock,org.mockito.Mockito,14
+when,org.mockito.Mockito,2
 
-MockedObjects: ,0
+MockedObjects: ,14
 
-# of Mocked objects each file:,
+# of Mocked objects each file:,3|7|2|2|

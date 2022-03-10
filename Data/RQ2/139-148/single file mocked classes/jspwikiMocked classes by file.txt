@@ -1,0 +1,14 @@
+/jspwiki-api/src/test/java/org/apache/wiki/api/spi/WikiTest.java
+	javax.servlet.ServletContext
+	javax.servlet.ServletConfig
+/jspwiki-kendra-searchprovider/src/test/java/org/apache/wiki/search/kendra/KendraSearchProviderTest.java
+	com.amazonaws.services.kendra.AWSkendra
+/jspwiki-main/src/test/java/org/apache/wiki/TestEngine.java
+/jspwiki-main/src/test/java/org/apache/wiki/WikiServletTest.java
+/jspwiki-main/src/test/java/org/apache/wiki/WikiSessionTest.java
+/jspwiki-main/src/test/java/org/apache/wiki/auth/login/WebContainerLoginModuleTest.java
+/jspwiki-main/src/test/java/org/apache/wiki/auth/login/CookieAssertionLoginModuleTest.java
+/jspwiki-main/src/test/java/org/apache/wiki/plugin/ReferringPagesPluginTest.java
+/jspwiki-main/src/test/java/org/apache/wiki/search/SearchManagerTest.java
+/jspwiki-main/src/test/java/org/apache/wiki/ui/CommandResolverTest.java
+/jspwiki-util/src/test/java/org/apache/wiki/util/HttpUtilTest.java

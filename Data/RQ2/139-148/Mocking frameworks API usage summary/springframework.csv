@@ -1,0 +1,7 @@
+method, origin, count
+emptyActivatedContextBuilder,org.springframework.mock.jndi.SimpleNamingContextBuilder,1
+bind,org.springframework.mock.jndi.SimpleNamingContextBuilder,1
+setProperty,org.springframework.mock.env.MockEnvironment,2
+setAttribute,org.springframework.mock.web.MockPageContext,7
+getAttribute,org.springframework.mock.web.MockPageContext,6
+setContextPath,org.springframework.mock.web.MockServletContext,2

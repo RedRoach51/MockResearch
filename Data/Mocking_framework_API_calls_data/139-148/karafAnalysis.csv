@@ -1,5 +1,26 @@
 method, origin, count
+mock,org.easymock.EasyMockSupport,26
+replay,org.easymock.EasyMock,166
+verify,org.easymock.EasyMock,30
+createMock,org.easymock.EasyMock,178
+anyTimes,org.easymock.IExpectationSetters<java.lang.Object>,32
+andReturn,org.easymock.IExpectationSetters<java.lang.Object>,110
+expect,org.easymock.EasyMock,344
+eq,org.easymock.EasyMock,8
+reset,org.easymock.EasyMock,12
+newCapture,org.easymock.EasyMock,3
+capture,org.easymock.EasyMock,3
+expectLastCall,org.easymock.EasyMock,71
+getValue,org.easymock.Capture<org.osgi.service.event.Event>,1
+createControl,org.easymock.EasyMock,9
+createNiceMock,org.easymock.EasyMock,26
+anyObject,org.easymock.EasyMock,1
+niceMock,org.easymock.EasyMock,16
+anyString,org.easymock.EasyMock,5
+anyBoolean,org.easymock.EasyMock,5
+newInstance,org.easymock.Capture,1
+createStrictMock,org.easymock.EasyMock,2
 
-MockedObjects: ,0
+MockedObjects: ,230
 
-# of Mocked objects each file:,
+# of Mocked objects each file:,20|4|3|2|4|1|1|1|1|6|2|1|1|4|1|2|21|9|2|2|1|4|45|21|3|32|16|3|3|2|3|3|3|1|2|

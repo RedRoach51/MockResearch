@@ -1,0 +1,3 @@
+javax.servlet.ServletContext
+javax.servlet.ServletConfig
+com.amazonaws.services.kendra.AWSkendra

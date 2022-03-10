@@ -1,0 +1,442 @@
+/log4j-core/src/test/java/org/apache/logging/log4j/core/appender/HttpAppenderTest.java
+Methods Invoked: 
+	Method name: withBody
+	Class origin: com.github.tomakehurst.wiremock.client.ResponseDefinitionBuilder
+	Count: 2
+ 
+	Method name: withHeader
+	Class origin: com.github.tomakehurst.wiremock.client.ResponseDefinitionBuilder
+	Count: 2
+ 
+	Method name: withStatus
+	Class origin: com.github.tomakehurst.wiremock.client.ResponseDefinitionBuilder
+	Count: 2
+ 
+	Method name: aResponse
+	Class origin: com.github.tomakehurst.wiremock.client.WireMock
+	Count: 2
+ 
+/log4j-core/src/test/java/org/apache/logging/log4j/core/appender/ConsoleAppenderTest.java
+Methods Invoked: 
+	Method name: should
+	Class origin: org.mockito.BDDMockito.Then<java.io.PrintStream>
+	Count: 2
+ 
+	Method name: then
+	Class origin: org.mockito.BDDMockito
+	Count: 2
+ 
+	Method name: atLeastOnce
+	Class origin: org.mockito.Mockito
+	Count: 2
+ 
+	Method name: any
+	Class origin: org.mockito.ArgumentMatchers
+	Count: 1
+ 
+	Method name: anyInt
+	Class origin: org.mockito.ArgumentMatchers
+	Count: 2
+ 
+/log4j-core/src/test/java/org/apache/logging/log4j/core/appender/db/AbstractDatabaseManagerTest.java
+Methods Invoked: 
+	Method name: spy
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 23
+ 
+/log4j-core/src/test/java/org/apache/logging/log4j/core/appender/db/AbstractDatabaseAppenderTest.java
+Methods Invoked: 
+	Method name: willReturn
+	Class origin: org.mockito.BDDMockito.BDDMyOngoingStubbing<java.lang.Boolean>
+	Count: 1
+ 
+	Method name: given
+	Class origin: org.mockito.BDDMockito
+	Count: 1
+ 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 3
+ 
+/log4j-core/src/test/java/org/apache/logging/log4j/core/appender/db/jdbc/AbstractJdbcAppenderDataSourceTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+	Method name: willAnswer
+	Class origin: org.mockito.BDDMockito.BDDMyOngoingStubbing<java.sql.Connection>
+	Count: 1
+ 
+	Method name: given
+	Class origin: org.mockito.BDDMockito
+	Count: 1
+ 
+/log4j-core/src/test/java/org/apache/logging/log4j/core/appender/db/jdbc/JdbcAppenderMapMessageDataSourceTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+	Method name: willAnswer
+	Class origin: org.mockito.BDDMockito.BDDMyOngoingStubbing<java.sql.Connection>
+	Count: 1
+ 
+	Method name: given
+	Class origin: org.mockito.BDDMockito
+	Count: 1
+ 
+/log4j-core/src/test/java/org/apache/logging/log4j/core/appender/db/jdbc/FactoryMethodConnectionSourceTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 4
+ 
+/log4j-core/src/test/java/org/apache/logging/log4j/core/appender/db/jdbc/DataSourceConnectionSourceTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 3
+ 
+/log4j-core/src/test/java/org/apache/logging/log4j/core/appender/mom/JmsAppenderTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 10
+ 
+/log4j-core/src/test/java/org/apache/logging/log4j/core/appender/nosql/NoSqlDatabaseManagerTest.java
+Methods Invoked: 
+	Method name: given
+	Class origin: org.mockito.BDDMockito
+	Count: 10
+ 
+/log4j-core/src/test/java/org/apache/logging/log4j/core/lookup/DateLookupTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<java.lang.Long>
+	Count: 1
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+/log4j-core/src/test/java/org/apache/logging/log4j/core/lookup/Log4jLookupTest.java
+Methods Invoked: 
+	Method name: given
+	Class origin: org.mockito.BDDMockito
+	Count: 2
+ 
+	Method name: willReturn
+	Class origin: org.mockito.BDDMockito.BDDMyOngoingStubbing<java.io.File>
+	Count: 1
+ 
+/log4j-core/src/test/java/org/apache/logging/log4j/core/lookup/StructuredDataLookupTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 2
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+/log4j-core/src/test/java/org/apache/logging/log4j/core/lookup/Log4jLookupWithSpacesTest.java
+Methods Invoked: 
+	Method name: given
+	Class origin: org.mockito.BDDMockito
+	Count: 2
+ 
+	Method name: willReturn
+	Class origin: org.mockito.BDDMockito.BDDMyOngoingStubbing<java.io.File>
+	Count: 1
+ 
+/log4j-core/src/test/java/org/apache/logging/log4j/core/util/WatchHttpTest.java
+Methods Invoked: 
+	Method name: keystoreType
+	Class origin: com.github.tomakehurst.wiremock.core.WireMockConfiguration
+	Count: 1
+ 
+	Method name: keystorePassword
+	Class origin: com.github.tomakehurst.wiremock.core.WireMockConfiguration
+	Count: 1
+ 
+	Method name: keystorePath
+	Class origin: com.github.tomakehurst.wiremock.core.WireMockConfiguration
+	Count: 1
+ 
+	Method name: dynamicHttpsPort
+	Class origin: com.github.tomakehurst.wiremock.core.WireMockConfiguration
+	Count: 1
+ 
+	Method name: dynamicPort
+	Class origin: com.github.tomakehurst.wiremock.core.WireMockConfiguration
+	Count: 1
+ 
+	Method name: wireMockConfig
+	Class origin: com.github.tomakehurst.wiremock.core.WireMockConfiguration
+	Count: 1
+ 
+	Method name: port
+	Class origin: com.github.tomakehurst.wiremock.WireMockServer
+	Count: 2
+ 
+	Method name: stubFor
+	Class origin: com.github.tomakehurst.wiremock.client.WireMock
+	Count: 2
+ 
+	Method name: willReturn
+	Class origin: com.github.tomakehurst.wiremock.client.MappingBuilder
+	Count: 2
+ 
+	Method name: get
+	Class origin: com.github.tomakehurst.wiremock.client.WireMock
+	Count: 2
+ 
+	Method name: urlPathEqualTo
+	Class origin: com.github.tomakehurst.wiremock.client.WireMock
+	Count: 2
+ 
+	Method name: withHeader
+	Class origin: com.github.tomakehurst.wiremock.client.ResponseDefinitionBuilder
+	Count: 4
+ 
+/log4j-core/src/test/java/org/apache/logging/log4j/junit/JndiRule.java
+Methods Invoked: 
+	Method name: emptyActivatedContextBuilder
+	Class origin: org.springframework.mock.jndi.SimpleNamingContextBuilder
+	Count: 1
+ 
+	Method name: bind
+	Class origin: org.springframework.mock.jndi.SimpleNamingContextBuilder
+	Count: 1
+ 
+/log4j-iostreams/src/test/java/org/apache/logging/log4j/io/AbstractLoggerOutputStreamTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+	Method name: should
+	Class origin: org.mockito.BDDMockito.Then<java.io.OutputStream>
+	Count: 2
+ 
+	Method name: then
+	Class origin: org.mockito.BDDMockito
+	Count: 3
+ 
+/log4j-iostreams/src/test/java/org/apache/logging/log4j/io/AbstractLoggerWriterTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+	Method name: should
+	Class origin: org.mockito.BDDMockito.Then<java.io.OutputStream>
+	Count: 2
+ 
+	Method name: then
+	Class origin: org.mockito.BDDMockito
+	Count: 3
+ 
+/log4j-jakarta-web/src/test/java/org/apache/logging/log4j/web/Log4jServletContainerInitializerTest.java
+Methods Invoked: 
+	Method name: willReturn
+	Class origin: org.mockito.BDDMockito.BDDMyOngoingStubbing<java.lang.Integer>
+	Count: 15
+ 
+	Method name: given
+	Class origin: org.mockito.BDDMockito
+	Count: 29
+ 
+/log4j-jakarta-web/src/test/java/org/apache/logging/log4j/web/Log4jServletContextListenerTest.java
+Methods Invoked: 
+	Method name: willReturn
+	Class origin: org.mockito.BDDMockito.BDDMyOngoingStubbing<jakarta.servlet.ServletContext>
+	Count: 1
+ 
+	Method name: given
+	Class origin: org.mockito.BDDMockito
+	Count: 4
+ 
+	Method name: willReturn
+	Class origin: org.mockito.BDDMockito.BDDMyOngoingStubbing<java.lang.Object>
+	Count: 1
+ 
+/log4j-jakarta-web/src/test/java/org/apache/logging/log4j/web/Log4jServletFilterTest.java
+Methods Invoked: 
+	Method name: willReturn
+	Class origin: org.mockito.BDDMockito.BDDMyOngoingStubbing<jakarta.servlet.ServletContext>
+	Count: 1
+ 
+	Method name: given
+	Class origin: org.mockito.BDDMockito
+	Count: 4
+ 
+	Method name: willReturn
+	Class origin: org.mockito.BDDMockito.BDDMyOngoingStubbing<java.lang.Object>
+	Count: 3
+ 
+/log4j-jakarta-web/src/test/java/org/apache/logging/log4j/web/Log4jShutdownOnContextDestroyedListenerTest.java
+Methods Invoked: 
+	Method name: willReturn
+	Class origin: org.mockito.BDDMockito.BDDMyOngoingStubbing<jakarta.servlet.ServletContext>
+	Count: 1
+ 
+	Method name: given
+	Class origin: org.mockito.BDDMockito
+	Count: 2
+ 
+	Method name: willReturn
+	Class origin: org.mockito.BDDMockito.BDDMyOngoingStubbing<java.lang.Object>
+	Count: 1
+ 
+/log4j-jakarta-web/src/test/java/org/apache/logging/log4j/web/Log4jWebInitializerImplTest.java
+Methods Invoked: 
+	Method name: willReturn
+	Class origin: org.mockito.BDDMockito.BDDMyOngoingStubbing<java.lang.Object>
+	Count: 1
+ 
+	Method name: given
+	Class origin: org.mockito.BDDMockito
+	Count: 52
+ 
+	Method name: should
+	Class origin: org.mockito.BDDMockito.Then<jakarta.servlet.ServletContext>
+	Count: 19
+ 
+	Method name: then
+	Class origin: org.mockito.BDDMockito
+	Count: 19
+ 
+	Method name: eq
+	Class origin: org.mockito.ArgumentMatchers
+	Count: 47
+ 
+	Method name: willReturn
+	Class origin: org.mockito.BDDMockito.BDDMyOngoingStubbing<java.lang.String>
+	Count: 34
+ 
+/log4j-spring-boot/src/test/java/org/apache/logging/log4j/spring/boot/SpringLookupTest.java
+Methods Invoked: 
+	Method name: setProperty
+	Class origin: org.springframework.mock.env.MockEnvironment
+	Count: 2
+ 
+/log4j-spring-boot/src/test/java/org/apache/logging/log4j/spring/boot/SpringProfileTest.java
+Methods Invoked: 
+/log4j-taglib/src/test/java/org/apache/logging/log4j/taglib/EnterTagTest.java
+Methods Invoked: 
+/log4j-taglib/src/test/java/org/apache/logging/log4j/taglib/DumpTagTest.java
+Methods Invoked: 
+	Method name: setAttribute
+	Class origin: org.springframework.mock.web.MockPageContext
+	Count: 7
+ 
+/log4j-taglib/src/test/java/org/apache/logging/log4j/taglib/IfEnabledTagTest.java
+Methods Invoked: 
+/log4j-taglib/src/test/java/org/apache/logging/log4j/taglib/SetLoggerTagTest.java
+Methods Invoked: 
+	Method name: getAttribute
+	Class origin: org.springframework.mock.web.MockPageContext
+	Count: 6
+ 
+/log4j-taglib/src/test/java/org/apache/logging/log4j/taglib/ExitTagTest.java
+Methods Invoked: 
+/log4j-taglib/src/test/java/org/apache/logging/log4j/taglib/CatchingTagTest.java
+Methods Invoked: 
+/log4j-taglib/src/test/java/org/apache/logging/log4j/taglib/LoggingMessageTagSupportTest.java
+Methods Invoked: 
+/log4j-web/src/test/java/org/apache/logging/log4j/web/ServletAppenderTest.java
+Methods Invoked: 
+/log4j-web/src/test/java/org/apache/logging/log4j/web/Log4jServletContextListenerTest.java
+Methods Invoked: 
+	Method name: willReturn
+	Class origin: org.mockito.BDDMockito.BDDMyOngoingStubbing<javax.servlet.ServletContext>
+	Count: 1
+ 
+	Method name: given
+	Class origin: org.mockito.BDDMockito
+	Count: 4
+ 
+	Method name: willReturn
+	Class origin: org.mockito.BDDMockito.BDDMyOngoingStubbing<java.lang.Object>
+	Count: 1
+ 
+/log4j-web/src/test/java/org/apache/logging/log4j/web/Log4jServletFilterTest.java
+Methods Invoked: 
+	Method name: willReturn
+	Class origin: org.mockito.BDDMockito.BDDMyOngoingStubbing<javax.servlet.ServletContext>
+	Count: 1
+ 
+	Method name: given
+	Class origin: org.mockito.BDDMockito
+	Count: 4
+ 
+	Method name: willReturn
+	Class origin: org.mockito.BDDMockito.BDDMyOngoingStubbing<java.lang.Object>
+	Count: 3
+ 
+/log4j-web/src/test/java/org/apache/logging/log4j/web/Log4jServletContainerInitializerTest.java
+Methods Invoked: 
+	Method name: willReturn
+	Class origin: org.mockito.BDDMockito.BDDMyOngoingStubbing<java.lang.Integer>
+	Count: 15
+ 
+	Method name: given
+	Class origin: org.mockito.BDDMockito
+	Count: 29
+ 
+/log4j-web/src/test/java/org/apache/logging/log4j/web/Log4jShutdownOnContextDestroyedListenerTest.java
+Methods Invoked: 
+	Method name: willReturn
+	Class origin: org.mockito.BDDMockito.BDDMyOngoingStubbing<javax.servlet.ServletContext>
+	Count: 1
+ 
+	Method name: given
+	Class origin: org.mockito.BDDMockito
+	Count: 2
+ 
+	Method name: willReturn
+	Class origin: org.mockito.BDDMockito.BDDMyOngoingStubbing<java.lang.Object>
+	Count: 1
+ 
+/log4j-web/src/test/java/org/apache/logging/log4j/web/Log4jWebInitializerImplTest.java
+Methods Invoked: 
+	Method name: willReturn
+	Class origin: org.mockito.BDDMockito.BDDMyOngoingStubbing<java.lang.Object>
+	Count: 1
+ 
+	Method name: given
+	Class origin: org.mockito.BDDMockito
+	Count: 52
+ 
+	Method name: should
+	Class origin: org.mockito.BDDMockito.Then<javax.servlet.ServletContext>
+	Count: 19
+ 
+	Method name: then
+	Class origin: org.mockito.BDDMockito
+	Count: 19
+ 
+	Method name: eq
+	Class origin: org.mockito.ArgumentMatchers
+	Count: 47
+ 
+	Method name: willReturn
+	Class origin: org.mockito.BDDMockito.BDDMyOngoingStubbing<java.lang.String>
+	Count: 34
+ 
+/log4j-web/src/test/java/org/apache/logging/log4j/web/WebLookupTest.java
+Methods Invoked: 
+	Method name: setContextPath
+	Class origin: org.springframework.mock.web.MockServletContext
+	Count: 2
+ 

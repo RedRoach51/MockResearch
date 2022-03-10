@@ -1,0 +1,14 @@
+org.apache.jena.graph.Graph
+org.apache.jena.graph.Graph
+org.apache.jena.graph.Graph
+org.apache.jena.mem.TripleBunch
+org.apache.jena.mem.TripleBunch
+org.apache.jena.mem.TripleBunch
+org.apache.jena.mem.TripleBunch
+org.apache.jena.mem.TripleBunch
+org.apache.jena.mem.TripleBunch
+org.apache.jena.mem.TripleBunch
+org.apache.jena.permissions.SecurityEvaluator
+org.apache.jena.permissions.impl.ItemHolder
+org.apache.jena.arq.querybuilder.clauses.WhereClause
+org.apache.jena.arq.querybuilder.clauses.WhereClause

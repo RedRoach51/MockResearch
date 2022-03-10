@@ -1,0 +1,52 @@
+Inside classes: 
+ 
+org.apache.logging.log4j.core.LogEvent
+org.apache.logging.log4j.core.appender.db.AbstractDatabaseAppenderTest.LocalAbstractDatabaseManager
+org.apache.logging.log4j.core.appender.nosql.NoSqlConnection<java.util.Map<java.lang.String,java.lang.Object>,org.apache.logging.log4j.core.appender.nosql.DefaultNoSqlObject>
+org.apache.logging.log4j.core.appender.nosql.NoSqlProvider<org.apache.logging.log4j.core.appender.nosql.NoSqlConnection<java.util.Map<java.lang.String,java.lang.Object>,org.apache.logging.log4j.core.appender.nosql.DefaultNoSqlObject>>
+org.apache.logging.log4j.message.Message
+org.mockito.ArgumentCaptor<org.apache.logging.log4j.core.appender.nosql.NoSqlObject<java.util.Map<java.lang.String,java.lang.Object>>>
+org.apache.logging.log4j.core.LoggerContext
+org.apache.logging.log4j.core.config.Configuration
+org.apache.logging.log4j.core.config.ConfigurationSource
+org.apache.logging.log4j.web.Log4jWebLifeCycle
+org.mockito.ArgumentCaptor<org.apache.logging.log4j.web.Log4jWebLifeCycle>
+org.mockito.ArgumentCaptor<org.apache.logging.log4j.core.LoggerContext>
+ 
+ 
+ 
+Outside classes: 
+ 
+java.io.PrintStream
+javax.sql.DataSource
+java.sql.Connection
+javax.jms.ConnectionFactory
+javax.jms.Connection
+javax.jms.Session
+javax.jms.Destination
+javax.jms.MessageProducer
+javax.jms.TextMessage
+javax.jms.ObjectMessage
+javax.jms.MapMessage
+java.io.OutputStream
+jakarta.servlet.ServletContext
+org.mockito.ArgumentCaptor<java.lang.Class<? extends jakarta.servlet.Filter>>
+org.mockito.ArgumentCaptor<java.util.EventListener>
+jakarta.servlet.FilterRegistration.Dynamic
+jakarta.servlet.ServletContextEvent
+jakarta.servlet.FilterConfig
+jakarta.servlet.ServletRequest
+jakarta.servlet.ServletResponse
+jakarta.servlet.FilterChain
+org.springframework.core.env.AbstractEnvironment
+javax.servlet.jsp.PageContext
+javax.servlet.jsp.JspWriter
+javax.servlet.jsp.tagext.BodyContent
+javax.servlet.ServletContext
+javax.servlet.ServletContextEvent
+javax.servlet.FilterConfig
+javax.servlet.ServletRequest
+javax.servlet.ServletResponse
+javax.servlet.FilterChain
+org.mockito.ArgumentCaptor<java.lang.Class<? extends javax.servlet.Filter>>
+javax.servlet.FilterRegistration.Dynamic

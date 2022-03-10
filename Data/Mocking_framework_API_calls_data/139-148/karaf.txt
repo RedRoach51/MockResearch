@@ -1,0 +1,712 @@
+/karaf-maven-plugin/src/test/java/org/apache/karaf/tooling/RunMojoTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.easymock.EasyMockSupport
+	Count: 20
+ 
+	Method name: replay
+	Class origin: org.easymock.EasyMock
+	Count: 33
+ 
+	Method name: verify
+	Class origin: org.easymock.EasyMock
+	Count: 8
+ 
+/org.apache.karaf.bundle.core/src/test/java/org/apache/karaf/bundle/command/TestBundleFactory.java
+Methods Invoked: 
+	Method name: createMock
+	Class origin: org.easymock.EasyMock
+	Count: 4
+ 
+	Method name: anyTimes
+	Class origin: org.easymock.IExpectationSetters<java.lang.Object>
+	Count: 1
+ 
+	Method name: andReturn
+	Class origin: org.easymock.IExpectationSetters<java.lang.Object>
+	Count: 1
+ 
+	Method name: expect
+	Class origin: org.easymock.EasyMock
+	Count: 20
+ 
+	Method name: anyTimes
+	Class origin: org.easymock.IExpectationSetters<java.lang.String[]>
+	Count: 1
+ 
+	Method name: andReturn
+	Class origin: org.easymock.IExpectationSetters<java.lang.String[]>
+	Count: 1
+ 
+/org.apache.karaf.config.core/src/test/java/org/apache/karaf/config/command/EditCommandTest.java
+Methods Invoked: 
+	Method name: createMock
+	Class origin: org.easymock.EasyMock
+	Count: 3
+ 
+/org.apache.karaf.config.core/src/test/java/org/apache/karaf/config/command/UpdateCommandTest.java
+Methods Invoked: 
+	Method name: createMock
+	Class origin: org.easymock.EasyMock
+	Count: 2
+ 
+	Method name: eq
+	Class origin: org.easymock.EasyMock
+	Count: 7
+ 
+/org.apache.karaf.config.core/src/test/java/org/apache/karaf/config/core/impl/JsonConfigInstallerTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.easymock.EasyMock
+	Count: 4
+ 
+	Method name: andReturn
+	Class origin: org.easymock.IExpectationSetters<java.lang.String>
+	Count: 2
+ 
+	Method name: expect
+	Class origin: org.easymock.EasyMock
+	Count: 8
+ 
+	Method name: andReturn
+	Class origin: org.easymock.IExpectationSetters<java.util.Dictionary<java.lang.String,java.lang.Object>>
+	Count: 2
+ 
+/org.apache.karaf.deployer.kar/src/test/java/org/apache/karaf/deployer/kar/KarArtifactInstallerTest.java
+Methods Invoked: 
+	Method name: createMock
+	Class origin: org.easymock.EasyMock
+	Count: 1
+ 
+	Method name: replay
+	Class origin: org.easymock.EasyMock
+	Count: 2
+ 
+	Method name: verify
+	Class origin: org.easymock.EasyMock
+	Count: 2
+ 
+	Method name: reset
+	Class origin: org.easymock.EasyMock
+	Count: 1
+ 
+/org.apache.karaf.event/src/test/java/org/apache/karaf/event/command/EventSendCommandTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.easymock.EasyMock
+	Count: 1
+ 
+	Method name: newCapture
+	Class origin: org.easymock.EasyMock
+	Count: 1
+ 
+	Method name: capture
+	Class origin: org.easymock.EasyMock
+	Count: 1
+ 
+	Method name: expectLastCall
+	Class origin: org.easymock.EasyMock
+	Count: 1
+ 
+	Method name: replay
+	Class origin: org.easymock.EasyMock
+	Count: 1
+ 
+	Method name: verify
+	Class origin: org.easymock.EasyMock
+	Count: 1
+ 
+	Method name: getValue
+	Class origin: org.easymock.Capture<org.osgi.service.event.Event>
+	Count: 1
+ 
+/org.apache.karaf.event/src/test/java/org/apache/karaf/event/command/EventDisplayCommandTest.java
+Methods Invoked: 
+	Method name: createControl
+	Class origin: org.easymock.EasyMock
+	Count: 1
+ 
+	Method name: createMock
+	Class origin: org.easymock.IMocksControl
+	Count: 1
+ 
+	Method name: andReturn
+	Class origin: org.easymock.IExpectationSetters<java.io.PrintStream>
+	Count: 1
+ 
+	Method name: expect
+	Class origin: org.easymock.EasyMock
+	Count: 1
+ 
+	Method name: replay
+	Class origin: org.easymock.IMocksControl
+	Count: 1
+ 
+	Method name: verify
+	Class origin: org.easymock.IMocksControl
+	Count: 1
+ 
+/org.apache.karaf.event/src/test/java/org/apache/karaf/event/command/EventTailCommandTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.easymock.EasyMock
+	Count: 1
+ 
+	Method name: andReturn
+	Class origin: org.easymock.IExpectationSetters<java.io.PrintStream>
+	Count: 1
+ 
+	Method name: expect
+	Class origin: org.easymock.EasyMock
+	Count: 1
+ 
+	Method name: replay
+	Class origin: org.easymock.EasyMock
+	Count: 1
+ 
+	Method name: verify
+	Class origin: org.easymock.EasyMock
+	Count: 1
+ 
+/org.apache.karaf.features.command/src/test/java/org/apache/karaf/features/command/ListFeaturesCommandTest.java
+Methods Invoked: 
+	Method name: createMock
+	Class origin: org.easymock.EasyMock
+	Count: 6
+ 
+/org.apache.karaf.features.core/src/test/java/org/apache/karaf/features/AppendTest.java
+Methods Invoked: 
+	Method name: createControl
+	Class origin: org.easymock.EasyMock
+	Count: 1
+ 
+	Method name: createMock
+	Class origin: org.easymock.IMocksControl
+	Count: 2
+ 
+	Method name: replay
+	Class origin: org.easymock.IMocksControl
+	Count: 2
+ 
+	Method name: verify
+	Class origin: org.easymock.IMocksControl
+	Count: 2
+ 
+	Method name: newCapture
+	Class origin: org.easymock.EasyMock
+	Count: 1
+ 
+	Method name: capture
+	Class origin: org.easymock.EasyMock
+	Count: 1
+ 
+	Method name: expectLastCall
+	Class origin: org.easymock.EasyMock
+	Count: 1
+ 
+/org.apache.karaf.features.core/src/test/java/org/apache/karaf/features/TestBase.java
+Methods Invoked: 
+	Method name: createNiceMock
+	Class origin: org.easymock.EasyMock
+	Count: 1
+ 
+	Method name: anyTimes
+	Class origin: org.easymock.IExpectationSetters<java.lang.Integer>
+	Count: 1
+ 
+	Method name: andReturn
+	Class origin: org.easymock.IExpectationSetters<java.lang.Integer>
+	Count: 1
+ 
+	Method name: expect
+	Class origin: org.easymock.EasyMock
+	Count: 6
+ 
+	Method name: anyObject
+	Class origin: org.easymock.EasyMock
+	Count: 1
+ 
+	Method name: anyTimes
+	Class origin: org.easymock.IExpectationSetters<java.lang.Long>
+	Count: 1
+ 
+	Method name: andReturn
+	Class origin: org.easymock.IExpectationSetters<java.lang.Long>
+	Count: 1
+ 
+/org.apache.karaf.features.core/src/test/java/org/apache/karaf/features/FeaturesServiceTest.java
+Methods Invoked: 
+	Method name: niceMock
+	Class origin: org.easymock.EasyMock
+	Count: 5
+ 
+	Method name: replay
+	Class origin: org.easymock.EasyMock
+	Count: 5
+ 
+/org.apache.karaf.features.core/src/test/java/org/apache/karaf/features/internal/osgi/ActivatorTest.java
+Methods Invoked: 
+	Method name: niceMock
+	Class origin: org.easymock.EasyMock
+	Count: 4
+ 
+/org.apache.karaf.features.core/src/test/java/org/apache/karaf/features/internal/service/BootFeaturesInstallerTest.java
+Methods Invoked: 
+	Method name: createMock
+	Class origin: org.easymock.EasyMock
+	Count: 1
+ 
+	Method name: newCapture
+	Class origin: org.easymock.EasyMock
+	Count: 1
+ 
+	Method name: capture
+	Class origin: org.easymock.EasyMock
+	Count: 1
+ 
+	Method name: eq
+	Class origin: org.easymock.EasyMock
+	Count: 1
+ 
+	Method name: expectLastCall
+	Class origin: org.easymock.EasyMock
+	Count: 7
+ 
+/org.apache.karaf.features.core/src/test/java/org/apache/karaf/features/internal/service/DeployerTest.java
+Methods Invoked: 
+	Method name: createControl
+	Class origin: org.easymock.EasyMock
+	Count: 5
+ 
+	Method name: createMock
+	Class origin: org.easymock.IMocksControl
+	Count: 4
+ 
+	Method name: anyString
+	Class origin: org.easymock.EasyMock
+	Count: 5
+ 
+	Method name: anyBoolean
+	Class origin: org.easymock.EasyMock
+	Count: 5
+ 
+	Method name: anyTimes
+	Class origin: org.easymock.IExpectationSetters<java.lang.Object>
+	Count: 5
+ 
+	Method name: expectLastCall
+	Class origin: org.easymock.EasyMock
+	Count: 61
+ 
+/org.apache.karaf.features.core/src/test/java/org/apache/karaf/features/internal/service/FeaturesServiceImplTest.java
+Methods Invoked: 
+	Method name: niceMock
+	Class origin: org.easymock.EasyMock
+	Count: 7
+ 
+	Method name: replay
+	Class origin: org.easymock.EasyMock
+	Count: 5
+ 
+	Method name: newInstance
+	Class origin: org.easymock.Capture
+	Count: 1
+ 
+/org.apache.karaf.features.extension/src/test/java/org/apache/karaf/features/extension/StoredWiringResolverTest.java
+Methods Invoked: 
+	Method name: createControl
+	Class origin: org.easymock.EasyMock
+	Count: 1
+ 
+	Method name: replay
+	Class origin: org.easymock.IMocksControl
+	Count: 6
+ 
+	Method name: verify
+	Class origin: org.easymock.IMocksControl
+	Count: 6
+ 
+/org.apache.karaf.features.extension/src/test/java/org/apache/karaf/features/extension/BundleWiresTest.java
+Methods Invoked: 
+	Method name: createControl
+	Class origin: org.easymock.EasyMock
+	Count: 1
+ 
+	Method name: replay
+	Class origin: org.easymock.IMocksControl
+	Count: 4
+ 
+	Method name: verify
+	Class origin: org.easymock.IMocksControl
+	Count: 4
+ 
+/org.apache.karaf.instance.core/src/test/java/org/apache/karaf/instance/command/CreateCommandTest.java
+Methods Invoked: 
+	Method name: createMock
+	Class origin: org.easymock.EasyMock
+	Count: 1
+ 
+	Method name: replay
+	Class origin: org.easymock.EasyMock
+	Count: 2
+ 
+	Method name: verify
+	Class origin: org.easymock.EasyMock
+	Count: 2
+ 
+	Method name: reset
+	Class origin: org.easymock.EasyMock
+	Count: 1
+ 
+	Method name: expect
+	Class origin: org.easymock.EasyMock
+	Count: 1
+ 
+/org.apache.karaf.instance.core/src/test/java/org/apache/karaf/instance/core/management/internal/InstanceToTableMapperTest.java
+Methods Invoked: 
+	Method name: createMock
+	Class origin: org.easymock.EasyMock
+	Count: 2
+ 
+	Method name: andReturn
+	Class origin: org.easymock.IExpectationSetters<java.lang.Integer>
+	Count: 8
+ 
+	Method name: expect
+	Class origin: org.easymock.EasyMock
+	Count: 24
+ 
+	Method name: andReturn
+	Class origin: org.easymock.IExpectationSetters<java.lang.String>
+	Count: 13
+ 
+/org.apache.karaf.instance.core/src/test/java/org/apache/karaf/instance/core/management/internal/InstanceServiceMBeanImplTest.java
+Methods Invoked: 
+	Method name: createMock
+	Class origin: org.easymock.EasyMock
+	Count: 21
+ 
+	Method name: andReturn
+	Class origin: org.easymock.IExpectationSetters<java.lang.Integer>
+	Count: 5
+ 
+	Method name: expect
+	Class origin: org.easymock.EasyMock
+	Count: 25
+ 
+	Method name: replay
+	Class origin: org.easymock.EasyMock
+	Count: 22
+ 
+/org.apache.karaf.jaas.command/src/test/java/org/apache/karaf/jaas/command/ManageRealmCommandTest.java
+Methods Invoked: 
+	Method name: createMock
+	Class origin: org.easymock.EasyMock
+	Count: 9
+ 
+/org.apache.karaf.jaas.modules/src/test/java/org/apache/karaf/jaas/modules/jdbc/JdbcLoginModuleTest.java
+Methods Invoked: 
+	Method name: createMock
+	Class origin: org.easymock.EasyMock
+	Count: 2
+ 
+/org.apache.karaf.log.core/src/test/java/org/apache/karaf/log/core/internal/SetLogLevelTest.java
+Methods Invoked: 
+	Method name: createMock
+	Class origin: org.easymock.EasyMock
+	Count: 2
+ 
+	Method name: andReturn
+	Class origin: org.easymock.IExpectationSetters<java.util.Dictionary<java.lang.String,java.lang.Object>>
+	Count: 1
+ 
+	Method name: expect
+	Class origin: org.easymock.EasyMock
+	Count: 2
+ 
+/org.apache.karaf.main/src/test/java/org/apache/karaf/main/lock/BaseJDBCLockTest.java
+Methods Invoked: 
+	Method name: createNiceMock
+	Class origin: org.easymock.EasyMock
+	Count: 1
+ 
+	Method name: createMock
+	Class origin: org.easymock.EasyMock
+	Count: 4
+ 
+/org.apache.karaf.main/src/test/java/org/apache/karaf/main/lock/OracleJDBCLockTest.java
+Methods Invoked: 
+	Method name: reset
+	Class origin: org.easymock.EasyMock
+	Count: 6
+ 
+	Method name: andReturn
+	Class origin: org.easymock.IExpectationSetters<java.lang.Boolean>
+	Count: 17
+ 
+	Method name: expect
+	Class origin: org.easymock.EasyMock
+	Count: 35
+ 
+	Method name: andReturn
+	Class origin: org.easymock.IExpectationSetters<java.sql.PreparedStatement>
+	Count: 9
+ 
+/org.apache.karaf.main/src/test/java/org/apache/karaf/main/lock/PostgreSQLJDBCLockTest.java
+Methods Invoked: 
+	Method name: reset
+	Class origin: org.easymock.EasyMock
+	Count: 4
+ 
+	Method name: andReturn
+	Class origin: org.easymock.IExpectationSetters<java.lang.Boolean>
+	Count: 12
+ 
+	Method name: expect
+	Class origin: org.easymock.EasyMock
+	Count: 24
+ 
+	Method name: andReturn
+	Class origin: org.easymock.IExpectationSetters<java.sql.PreparedStatement>
+	Count: 8
+ 
+/org.apache.karaf.management.server/src/test/java/org/apache/karaf/management/KarafMBeanServerGuardTest.java
+Methods Invoked: 
+	Method name: createMock
+	Class origin: org.easymock.EasyMock
+	Count: 45
+ 
+	Method name: anyTimes
+	Class origin: org.easymock.IExpectationSetters<java.lang.String>
+	Count: 1
+ 
+	Method name: andReturn
+	Class origin: org.easymock.IExpectationSetters<java.lang.String>
+	Count: 1
+ 
+	Method name: expect
+	Class origin: org.easymock.EasyMock
+	Count: 65
+ 
+	Method name: anyTimes
+	Class origin: org.easymock.IExpectationSetters<java.util.Dictionary<java.lang.String,java.lang.Object>>
+	Count: 1
+ 
+	Method name: andReturn
+	Class origin: org.easymock.IExpectationSetters<java.util.Dictionary<java.lang.String,java.lang.Object>>
+	Count: 1
+ 
+/org.apache.karaf.management.server/src/test/java/org/apache/karaf/management/internal/JMXSecurityMBeanImplTestCase.java
+Methods Invoked: 
+	Method name: createMock
+	Class origin: org.easymock.EasyMock
+	Count: 21
+ 
+	Method name: replay
+	Class origin: org.easymock.EasyMock
+	Count: 21
+ 
+/org.apache.karaf.service.core/src/test/java/org/apache/karaf/service/command/TestBundleFactory.java
+Methods Invoked: 
+	Method name: createMock
+	Class origin: org.easymock.EasyMock
+	Count: 3
+ 
+	Method name: anyTimes
+	Class origin: org.easymock.IExpectationSetters<java.lang.Object>
+	Count: 1
+ 
+	Method name: andReturn
+	Class origin: org.easymock.IExpectationSetters<java.lang.Object>
+	Count: 1
+ 
+	Method name: expect
+	Class origin: org.easymock.EasyMock
+	Count: 16
+ 
+	Method name: anyTimes
+	Class origin: org.easymock.IExpectationSetters<java.lang.String[]>
+	Count: 1
+ 
+	Method name: andReturn
+	Class origin: org.easymock.IExpectationSetters<java.lang.String[]>
+	Count: 1
+ 
+/org.apache.karaf.service.guard/src/test/java/org/apache/karaf/service/guard/impl/GuardProxyCatalogTest.java
+Methods Invoked: 
+	Method name: createMock
+	Class origin: org.easymock.EasyMock
+	Count: 32
+ 
+	Method name: anyTimes
+	Class origin: org.easymock.IExpectationSetters<java.lang.Long>
+	Count: 6
+ 
+	Method name: andReturn
+	Class origin: org.easymock.IExpectationSetters<java.lang.Long>
+	Count: 6
+ 
+	Method name: expect
+	Class origin: org.easymock.EasyMock
+	Count: 72
+ 
+	Method name: replay
+	Class origin: org.easymock.EasyMock
+	Count: 51
+ 
+	Method name: createNiceMock
+	Class origin: org.easymock.EasyMock
+	Count: 16
+ 
+	Method name: anyTimes
+	Class origin: org.easymock.IExpectationSetters<org.osgi.framework.Bundle>
+	Count: 6
+ 
+	Method name: andReturn
+	Class origin: org.easymock.IExpectationSetters<org.osgi.framework.Bundle>
+	Count: 6
+ 
+/org.apache.karaf.service.guard/src/test/java/org/apache/karaf/service/guard/impl/GuardingEventHookTest.java
+Methods Invoked: 
+	Method name: createNiceMock
+	Class origin: org.easymock.EasyMock
+	Count: 3
+ 
+	Method name: anyTimes
+	Class origin: org.easymock.IExpectationSetters<java.lang.Long>
+	Count: 3
+ 
+	Method name: andReturn
+	Class origin: org.easymock.IExpectationSetters<java.lang.Long>
+	Count: 3
+ 
+	Method name: expect
+	Class origin: org.easymock.EasyMock
+	Count: 17
+ 
+/org.apache.karaf.service.guard/src/test/java/org/apache/karaf/service/guard/impl/ActivatorTest.java
+Methods Invoked: 
+	Method name: createMock
+	Class origin: org.easymock.EasyMock
+	Count: 3
+ 
+	Method name: anyTimes
+	Class origin: org.easymock.IExpectationSetters<java.lang.Long>
+	Count: 1
+ 
+	Method name: andReturn
+	Class origin: org.easymock.IExpectationSetters<java.lang.Long>
+	Count: 1
+ 
+	Method name: expect
+	Class origin: org.easymock.EasyMock
+	Count: 5
+ 
+	Method name: replay
+	Class origin: org.easymock.EasyMock
+	Count: 4
+ 
+	Method name: createNiceMock
+	Class origin: org.easymock.EasyMock
+	Count: 2
+ 
+	Method name: anyTimes
+	Class origin: org.easymock.IExpectationSetters<org.osgi.framework.Bundle>
+	Count: 1
+ 
+	Method name: andReturn
+	Class origin: org.easymock.IExpectationSetters<org.osgi.framework.Bundle>
+	Count: 1
+ 
+/org.apache.karaf.service.guard/src/test/java/org/apache/karaf/service/guard/impl/GuardingFindHookTest.java
+Methods Invoked: 
+	Method name: createNiceMock
+	Class origin: org.easymock.EasyMock
+	Count: 3
+ 
+	Method name: anyTimes
+	Class origin: org.easymock.IExpectationSetters<java.lang.Long>
+	Count: 2
+ 
+	Method name: andReturn
+	Class origin: org.easymock.IExpectationSetters<java.lang.Long>
+	Count: 2
+ 
+	Method name: expect
+	Class origin: org.easymock.EasyMock
+	Count: 14
+ 
+/org.apache.karaf.shell.core/src/test/java/org/apache/karaf/shell/impl/console/commands/help/wikidoc/WikiParserTest.java
+Methods Invoked: 
+	Method name: createStrictMock
+	Class origin: org.easymock.EasyMock
+	Count: 2
+ 
+	Method name: replay
+	Class origin: org.easymock.EasyMock
+	Count: 2
+ 
+	Method name: verify
+	Class origin: org.easymock.EasyMock
+	Count: 2
+ 
+/org.apache.karaf.shell.core/src/test/java/org/apache/karaf/shell/impl/console/session/SessionFactoryImplTest.java
+Methods Invoked: 
+	Method name: createMock
+	Class origin: org.easymock.EasyMock
+	Count: 3
+ 
+/org.apache.karaf.shell.ssh/src/test/java/org/apache/karaf/shell/ssh/ServerKeyVerifierImplTest.java
+Methods Invoked: 
+	Method name: createMock
+	Class origin: org.easymock.EasyMock
+	Count: 3
+ 
+	Method name: andReturn
+	Class origin: org.easymock.IExpectationSetters<java.security.PublicKey>
+	Count: 3
+ 
+	Method name: expect
+	Class origin: org.easymock.EasyMock
+	Count: 3
+ 
+	Method name: expectLastCall
+	Class origin: org.easymock.EasyMock
+	Count: 1
+ 
+	Method name: replay
+	Class origin: org.easymock.EasyMock
+	Count: 3
+ 
+/org.apache.karaf.system.core/src/test/java/org/apache/karaf/system/internal/SystemServiceImplTest.java
+Methods Invoked: 
+	Method name: createMock
+	Class origin: org.easymock.EasyMock
+	Count: 1
+ 
+	Method name: andReturn
+	Class origin: org.easymock.IExpectationSetters<java.lang.String>
+	Count: 1
+ 
+	Method name: expect
+	Class origin: org.easymock.EasyMock
+	Count: 1
+ 
+	Method name: replay
+	Class origin: org.easymock.EasyMock
+	Count: 1
+ 
+	Method name: verify
+	Class origin: org.easymock.EasyMock
+	Count: 1
+ 
+/org.apache.karaf.webconsole.instance/src/test/java/org/apache/karaf/webconsole/instance/InstancePluginTest.java
+Methods Invoked: 
+	Method name: createMock
+	Class origin: org.easymock.EasyMock
+	Count: 2
+ 
+	Method name: expect
+	Class origin: org.easymock.EasyMock
+	Count: 4
+ 

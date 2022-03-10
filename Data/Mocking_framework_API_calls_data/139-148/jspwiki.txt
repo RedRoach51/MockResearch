@@ -1,3 +1,5 @@
+/jspwiki-api/src/test/java/org/apache/wiki/api/spi/WikiTest.java
+Methods Invoked: 
 	Method name: when
 	Class origin: org.mockito.stubbing.Stubber
 	Count: 1
@@ -6,6 +8,8 @@
 	Class origin: org.mockito.Mockito
 	Count: 1
  
+/jspwiki-kendra-searchprovider/src/test/java/org/apache/wiki/search/kendra/KendraSearchProviderTest.java
+Methods Invoked: 
 	Method name: then
 	Class origin: org.mockito.stubbing.OngoingStubbing<com.amazonaws.services.kendra.model.ListIndicesResult>
 	Count: 1
@@ -30,6 +34,8 @@
 	Class origin: org.mockito.Mockito
 	Count: 4
  
+/jspwiki-main/src/test/java/org/apache/wiki/TestEngine.java
+Methods Invoked: 
 	Method name: setSession
 	Class origin: net.sourceforge.stripes.mock.MockHttpServletRequest
 	Count: 1
@@ -42,6 +48,8 @@
 	Class origin: net.sourceforge.stripes.mock.MockHttpServletRequest
 	Count: 2
  
+/jspwiki-main/src/test/java/org/apache/wiki/WikiServletTest.java
+Methods Invoked: 
 	Method name: setServletContext
 	Class origin: net.sourceforge.stripes.mock.MockBaseConfig
 	Count: 2
@@ -50,26 +58,38 @@
 	Class origin: net.sourceforge.stripes.mock.MockHttpServletRequest
 	Count: 2
  
+/jspwiki-main/src/test/java/org/apache/wiki/WikiSessionTest.java
+Methods Invoked: 
 	Method name: setUserPrincipal
 	Class origin: net.sourceforge.stripes.mock.MockHttpServletRequest
 	Count: 6
  
+/jspwiki-main/src/test/java/org/apache/wiki/auth/login/WebContainerLoginModuleTest.java
+Methods Invoked: 
 	Method name: setUserPrincipal
 	Class origin: net.sourceforge.stripes.mock.MockHttpServletRequest
 	Count: 2
  
+/jspwiki-main/src/test/java/org/apache/wiki/auth/login/CookieAssertionLoginModuleTest.java
+Methods Invoked: 
 	Method name: setCookies
 	Class origin: net.sourceforge.stripes.mock.MockHttpServletRequest
 	Count: 2
  
+/jspwiki-main/src/test/java/org/apache/wiki/plugin/ReferringPagesPluginTest.java
+Methods Invoked: 
 	Method name: getLocale
 	Class origin: net.sourceforge.stripes.mock.MockHttpServletRequest
 	Count: 1
  
+/jspwiki-main/src/test/java/org/apache/wiki/search/SearchManagerTest.java
+Methods Invoked: 
 	Method name: getParameterMap
 	Class origin: net.sourceforge.stripes.mock.MockHttpServletRequest
 	Count: 2
  
+/jspwiki-main/src/test/java/org/apache/wiki/ui/CommandResolverTest.java
+Methods Invoked: 
 	Method name: getParameterMap
 	Class origin: net.sourceforge.stripes.mock.MockHttpServletRequest
 	Count: 3
@@ -78,90 +98,8 @@
 	Class origin: net.sourceforge.stripes.mock.MockHttpServletRequest
 	Count: 1
  
-	Method name: setCookies
-	Class origin: net.sourceforge.stripes.mock.MockHttpServletRequest
-	Count: 1
- 
-	Method name: when
-	Class origin: org.mockito.stubbing.Stubber
-	Count: 1
- 
-	Method name: doReturn
-	Class origin: org.mockito.Mockito
-	Count: 1
- 
-	Method name: then
-	Class origin: org.mockito.stubbing.OngoingStubbing<com.amazonaws.services.kendra.model.ListIndicesResult>
-	Count: 1
- 
-	Method name: when
-	Class origin: org.mockito.Mockito
-	Count: 2
- 
-	Method name: any
-	Class origin: org.mockito.ArgumentMatchers
-	Count: 6
- 
-	Method name: then
-	Class origin: org.mockito.stubbing.OngoingStubbing<com.amazonaws.services.kendra.model.ListDataSourcesResult>
-	Count: 1
- 
-	Method name: when
-	Class origin: org.mockito.stubbing.LenientStubber
-	Count: 4
- 
-	Method name: lenient
-	Class origin: org.mockito.Mockito
-	Count: 4
- 
-	Method name: setSession
-	Class origin: net.sourceforge.stripes.mock.MockHttpServletRequest
-	Count: 1
- 
-	Method name: addLocale
-	Class origin: net.sourceforge.stripes.mock.MockHttpServletRequest
-	Count: 1
- 
-	Method name: getSession
-	Class origin: net.sourceforge.stripes.mock.MockHttpServletRequest
-	Count: 2
- 
-	Method name: setServletContext
-	Class origin: net.sourceforge.stripes.mock.MockBaseConfig
-	Count: 2
- 
-	Method name: getForwardUrl
-	Class origin: net.sourceforge.stripes.mock.MockHttpServletRequest
-	Count: 2
- 
-	Method name: setUserPrincipal
-	Class origin: net.sourceforge.stripes.mock.MockHttpServletRequest
-	Count: 6
- 
-	Method name: setUserPrincipal
-	Class origin: net.sourceforge.stripes.mock.MockHttpServletRequest
-	Count: 2
- 
-	Method name: setCookies
-	Class origin: net.sourceforge.stripes.mock.MockHttpServletRequest
-	Count: 2
- 
-	Method name: getLocale
-	Class origin: net.sourceforge.stripes.mock.MockHttpServletRequest
-	Count: 1
- 
-	Method name: getParameterMap
-	Class origin: net.sourceforge.stripes.mock.MockHttpServletRequest
-	Count: 2
- 
-	Method name: getParameterMap
-	Class origin: net.sourceforge.stripes.mock.MockHttpServletRequest
-	Count: 3
- 
-	Method name: setContextPath
-	Class origin: net.sourceforge.stripes.mock.MockHttpServletRequest
-	Count: 1
- 
+/jspwiki-util/src/test/java/org/apache/wiki/util/HttpUtilTest.java
+Methods Invoked: 
 	Method name: setCookies
 	Class origin: net.sourceforge.stripes.mock.MockHttpServletRequest
 	Count: 1

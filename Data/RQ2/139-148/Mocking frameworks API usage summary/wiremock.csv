@@ -1,0 +1,15 @@
+method, origin, count
+withBody,com.github.tomakehurst.wiremock.client.ResponseDefinitionBuilder,2
+withHeader,com.github.tomakehurst.wiremock.client.ResponseDefinitionBuilder,6
+withStatus,com.github.tomakehurst.wiremock.client.ResponseDefinitionBuilder,2
+aResponse,com.github.tomakehurst.wiremock.client.WireMock,2
+keystoreType,com.github.tomakehurst.wiremock.core.WireMockConfiguration,1
+keystorePassword,com.github.tomakehurst.wiremock.core.WireMockConfiguration,1
+keystorePath,com.github.tomakehurst.wiremock.core.WireMockConfiguration,1
+dynamicHttpsPort,com.github.tomakehurst.wiremock.core.WireMockConfiguration,1
+dynamicPort,com.github.tomakehurst.wiremock.core.WireMockConfiguration,1
+wireMockConfig,com.github.tomakehurst.wiremock.core.WireMockConfiguration,1
+port,com.github.tomakehurst.wiremock.WireMockServer,2
+stubFor,com.github.tomakehurst.wiremock.client.WireMock,2
+get,com.github.tomakehurst.wiremock.client.WireMock,2
+urlPathEqualTo,com.github.tomakehurst.wiremock.client.WireMock,2

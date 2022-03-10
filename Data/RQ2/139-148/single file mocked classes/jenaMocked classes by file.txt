@@ -1,0 +1,18 @@
+/jena-core/src/test/java/org/apache/jena/graph/GraphEventManagerContractTest.java
+	org.apache.jena.graph.Graph
+	org.apache.jena.graph.Graph
+	org.apache.jena.graph.Graph
+/jena-core/src/test/java/org/apache/jena/mem/BunchMapContractTest.java
+	org.apache.jena.mem.TripleBunch
+	org.apache.jena.mem.TripleBunch
+	org.apache.jena.mem.TripleBunch
+	org.apache.jena.mem.TripleBunch
+	org.apache.jena.mem.TripleBunch
+	org.apache.jena.mem.TripleBunch
+	org.apache.jena.mem.TripleBunch
+/jena-permissions/src/test/java/org/apache/jena/permissions/impl/SecuredItemImplTest.java
+	org.apache.jena.permissions.SecurityEvaluator
+	org.apache.jena.permissions.impl.ItemHolder
+/jena-querybuilder/src/test/java/org/apache/jena/arq/querybuilder/ExprFactoryTest.java
+	org.apache.jena.arq.querybuilder.clauses.WhereClause
+	org.apache.jena.arq.querybuilder.clauses.WhereClause

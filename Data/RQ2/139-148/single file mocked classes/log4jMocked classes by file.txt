@@ -1,0 +1,162 @@
+/log4j-core/src/test/java/org/apache/logging/log4j/core/appender/HttpAppenderTest.java
+/log4j-core/src/test/java/org/apache/logging/log4j/core/appender/ConsoleAppenderTest.java
+	java.io.PrintStream
+/log4j-core/src/test/java/org/apache/logging/log4j/core/appender/db/AbstractDatabaseManagerTest.java
+	org.apache.logging.log4j.core.LogEvent
+	org.apache.logging.log4j.core.LogEvent
+	org.apache.logging.log4j.core.LogEvent
+	org.apache.logging.log4j.core.LogEvent
+	org.apache.logging.log4j.core.LogEvent
+	org.apache.logging.log4j.core.LogEvent
+	org.apache.logging.log4j.core.LogEvent
+	org.apache.logging.log4j.core.LogEvent
+	org.apache.logging.log4j.core.LogEvent
+	org.apache.logging.log4j.core.LogEvent
+	org.apache.logging.log4j.core.LogEvent
+	org.apache.logging.log4j.core.LogEvent
+	org.apache.logging.log4j.core.LogEvent
+	org.apache.logging.log4j.core.LogEvent
+	org.apache.logging.log4j.core.LogEvent
+	org.apache.logging.log4j.core.LogEvent
+	org.apache.logging.log4j.core.LogEvent
+	org.apache.logging.log4j.core.LogEvent
+	org.apache.logging.log4j.core.LogEvent
+	org.apache.logging.log4j.core.LogEvent
+	org.apache.logging.log4j.core.LogEvent
+	org.apache.logging.log4j.core.LogEvent
+	org.apache.logging.log4j.core.LogEvent
+/log4j-core/src/test/java/org/apache/logging/log4j/core/appender/db/AbstractDatabaseAppenderTest.java
+	org.apache.logging.log4j.core.appender.db.AbstractDatabaseAppenderTest.LocalAbstractDatabaseManager
+	org.apache.logging.log4j.core.LogEvent
+	org.apache.logging.log4j.core.LogEvent
+	org.apache.logging.log4j.core.appender.db.AbstractDatabaseAppenderTest.LocalAbstractDatabaseManager
+/log4j-core/src/test/java/org/apache/logging/log4j/core/appender/db/jdbc/AbstractJdbcAppenderDataSourceTest.java
+	javax.sql.DataSource
+/log4j-core/src/test/java/org/apache/logging/log4j/core/appender/db/jdbc/JdbcAppenderMapMessageDataSourceTest.java
+	javax.sql.DataSource
+/log4j-core/src/test/java/org/apache/logging/log4j/core/appender/db/jdbc/FactoryMethodConnectionSourceTest.java
+	javax.sql.DataSource
+	java.sql.Connection
+	java.sql.Connection
+	java.sql.Connection
+/log4j-core/src/test/java/org/apache/logging/log4j/core/appender/db/jdbc/DataSourceConnectionSourceTest.java
+	javax.sql.DataSource
+	java.sql.Connection
+	java.sql.Connection
+/log4j-core/src/test/java/org/apache/logging/log4j/core/appender/mom/JmsAppenderTest.java
+	javax.jms.ConnectionFactory
+	javax.jms.Connection
+	javax.jms.Session
+	javax.jms.Destination
+	javax.jms.Destination
+	javax.jms.MessageProducer
+	javax.jms.MessageProducer
+	javax.jms.TextMessage
+	javax.jms.ObjectMessage
+	javax.jms.MapMessage
+/log4j-core/src/test/java/org/apache/logging/log4j/core/appender/nosql/NoSqlDatabaseManagerTest.java
+	org.apache.logging.log4j.core.appender.nosql.NoSqlConnection<java.util.Map<java.lang.String,java.lang.Object>,org.apache.logging.log4j.core.appender.nosql.DefaultNoSqlObject>
+	org.apache.logging.log4j.core.appender.nosql.NoSqlProvider<org.apache.logging.log4j.core.appender.nosql.NoSqlConnection<java.util.Map<java.lang.String,java.lang.Object>,org.apache.logging.log4j.core.appender.nosql.DefaultNoSqlObject>>
+	org.apache.logging.log4j.message.Message
+	org.mockito.ArgumentCaptor<org.apache.logging.log4j.core.appender.nosql.NoSqlObject<java.util.Map<java.lang.String,java.lang.Object>>>
+	org.apache.logging.log4j.core.LogEvent
+	org.apache.logging.log4j.core.LogEvent
+/log4j-core/src/test/java/org/apache/logging/log4j/core/lookup/DateLookupTest.java
+	org.apache.logging.log4j.core.LogEvent
+/log4j-core/src/test/java/org/apache/logging/log4j/core/lookup/Log4jLookupTest.java
+	org.apache.logging.log4j.core.LoggerContext
+	org.apache.logging.log4j.core.config.Configuration
+	org.apache.logging.log4j.core.config.ConfigurationSource
+/log4j-core/src/test/java/org/apache/logging/log4j/core/lookup/StructuredDataLookupTest.java
+	org.apache.logging.log4j.core.LogEvent
+	org.apache.logging.log4j.message.Message
+/log4j-core/src/test/java/org/apache/logging/log4j/core/lookup/Log4jLookupWithSpacesTest.java
+	org.apache.logging.log4j.core.LoggerContext
+	org.apache.logging.log4j.core.config.Configuration
+	org.apache.logging.log4j.core.config.ConfigurationSource
+/log4j-core/src/test/java/org/apache/logging/log4j/core/util/WatchHttpTest.java
+/log4j-core/src/test/java/org/apache/logging/log4j/junit/JndiRule.java
+/log4j-iostreams/src/test/java/org/apache/logging/log4j/io/AbstractLoggerOutputStreamTest.java
+	java.io.OutputStream
+/log4j-iostreams/src/test/java/org/apache/logging/log4j/io/AbstractLoggerWriterTest.java
+	java.io.OutputStream
+/log4j-jakarta-web/src/test/java/org/apache/logging/log4j/web/Log4jServletContainerInitializerTest.java
+	jakarta.servlet.ServletContext
+	org.apache.logging.log4j.web.Log4jWebLifeCycle
+	org.mockito.ArgumentCaptor<java.lang.Class<? extends jakarta.servlet.Filter>>
+	org.mockito.ArgumentCaptor<java.util.EventListener>
+	jakarta.servlet.FilterRegistration.Dynamic
+	jakarta.servlet.FilterRegistration.Dynamic
+	jakarta.servlet.FilterRegistration.Dynamic
+/log4j-jakarta-web/src/test/java/org/apache/logging/log4j/web/Log4jServletContextListenerTest.java
+	jakarta.servlet.ServletContextEvent
+	jakarta.servlet.ServletContext
+	org.apache.logging.log4j.web.Log4jWebLifeCycle
+/log4j-jakarta-web/src/test/java/org/apache/logging/log4j/web/Log4jServletFilterTest.java
+	jakarta.servlet.FilterConfig
+	jakarta.servlet.ServletContext
+	org.apache.logging.log4j.web.Log4jWebLifeCycle
+	jakarta.servlet.ServletRequest
+	jakarta.servlet.ServletResponse
+	jakarta.servlet.FilterChain
+/log4j-jakarta-web/src/test/java/org/apache/logging/log4j/web/Log4jShutdownOnContextDestroyedListenerTest.java
+	jakarta.servlet.ServletContextEvent
+	jakarta.servlet.ServletContext
+	org.apache.logging.log4j.web.Log4jWebLifeCycle
+/log4j-jakarta-web/src/test/java/org/apache/logging/log4j/web/Log4jWebInitializerImplTest.java
+	jakarta.servlet.ServletContext
+	org.mockito.ArgumentCaptor<org.apache.logging.log4j.web.Log4jWebLifeCycle>
+	org.mockito.ArgumentCaptor<org.apache.logging.log4j.core.LoggerContext>
+/log4j-spring-boot/src/test/java/org/apache/logging/log4j/spring/boot/SpringLookupTest.java
+	org.springframework.core.env.AbstractEnvironment
+	org.springframework.core.env.AbstractEnvironment
+/log4j-spring-boot/src/test/java/org/apache/logging/log4j/spring/boot/SpringProfileTest.java
+	org.springframework.core.env.AbstractEnvironment
+/log4j-taglib/src/test/java/org/apache/logging/log4j/taglib/EnterTagTest.java
+	javax.servlet.jsp.PageContext
+/log4j-taglib/src/test/java/org/apache/logging/log4j/taglib/DumpTagTest.java
+	javax.servlet.jsp.JspWriter
+/log4j-taglib/src/test/java/org/apache/logging/log4j/taglib/IfEnabledTagTest.java
+	javax.servlet.jsp.PageContext
+/log4j-taglib/src/test/java/org/apache/logging/log4j/taglib/SetLoggerTagTest.java
+	javax.servlet.jsp.PageContext
+/log4j-taglib/src/test/java/org/apache/logging/log4j/taglib/ExitTagTest.java
+	javax.servlet.jsp.PageContext
+/log4j-taglib/src/test/java/org/apache/logging/log4j/taglib/CatchingTagTest.java
+	javax.servlet.jsp.PageContext
+/log4j-taglib/src/test/java/org/apache/logging/log4j/taglib/LoggingMessageTagSupportTest.java
+	javax.servlet.jsp.PageContext
+	javax.servlet.jsp.tagext.BodyContent
+	javax.servlet.jsp.tagext.BodyContent
+/log4j-web/src/test/java/org/apache/logging/log4j/web/ServletAppenderTest.java
+	javax.servlet.ServletContext
+/log4j-web/src/test/java/org/apache/logging/log4j/web/Log4jServletContextListenerTest.java
+	javax.servlet.ServletContextEvent
+	javax.servlet.ServletContext
+	org.apache.logging.log4j.web.Log4jWebLifeCycle
+/log4j-web/src/test/java/org/apache/logging/log4j/web/Log4jServletFilterTest.java
+	javax.servlet.FilterConfig
+	javax.servlet.ServletContext
+	org.apache.logging.log4j.web.Log4jWebLifeCycle
+	javax.servlet.ServletRequest
+	javax.servlet.ServletResponse
+	javax.servlet.FilterChain
+/log4j-web/src/test/java/org/apache/logging/log4j/web/Log4jServletContainerInitializerTest.java
+	javax.servlet.ServletContext
+	org.apache.logging.log4j.web.Log4jWebLifeCycle
+	org.mockito.ArgumentCaptor<java.lang.Class<? extends javax.servlet.Filter>>
+	org.mockito.ArgumentCaptor<java.util.EventListener>
+	javax.servlet.FilterRegistration.Dynamic
+	javax.servlet.FilterRegistration.Dynamic
+	javax.servlet.FilterRegistration.Dynamic
+/log4j-web/src/test/java/org/apache/logging/log4j/web/Log4jShutdownOnContextDestroyedListenerTest.java
+	javax.servlet.ServletContextEvent
+	javax.servlet.ServletContext
+	org.apache.logging.log4j.web.Log4jWebLifeCycle
+/log4j-web/src/test/java/org/apache/logging/log4j/web/Log4jWebInitializerImplTest.java
+	javax.servlet.ServletContext
+	org.mockito.ArgumentCaptor<org.apache.logging.log4j.web.Log4jWebLifeCycle>
+	org.mockito.ArgumentCaptor<org.apache.logging.log4j.core.LoggerContext>
+/log4j-web/src/test/java/org/apache/logging/log4j/web/WebLookupTest.java
+	javax.servlet.ServletContext
+	javax.servlet.ServletContext

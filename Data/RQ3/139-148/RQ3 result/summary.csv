@@ -1,13 +1,10 @@
 project name, variety of inside mocked classes, variety of outside mocked classes, proportion of mocked classes
-jena,0,0,
-jmeter,0,0,
-jspwiki,0,0,
-karaf,0,0,
 kerby,0,0,
+karaf,16,30,
+jena,5,0,
+jspwiki,0,3,
 knox,63,47,
-lens,14,1,
-lenya,0,0,
-logging-log4j2,0,0,
+log4j,12,33,
  
 more inside classes mocked: ,more outside classes mocked: 
-2,0
+2,3

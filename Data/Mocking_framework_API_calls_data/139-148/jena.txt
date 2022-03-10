@@ -1,0 +1,28 @@
+/jena-core/src/test/java/org/apache/jena/graph/GraphEventManagerContractTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 3
+ 
+/jena-core/src/test/java/org/apache/jena/mem/BunchMapContractTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 7
+ 
+/jena-permissions/src/test/java/org/apache/jena/permissions/impl/SecuredItemImplTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 2
+ 
+/jena-querybuilder/src/test/java/org/apache/jena/arq/querybuilder/ExprFactoryTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 2
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 2
+ 

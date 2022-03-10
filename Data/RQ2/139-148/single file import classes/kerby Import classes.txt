@@ -1,0 +1,13 @@
+/kerb-util/src/test/java/org/apache/kerby/kerberos/kerb/keytab/KeytabEntryTest.java
+	org.apache.kerby.kerberos.kerb.type.KerberosTime
+	org.junit.Test
+	org.junit.runner.RunWith
+	org.mockito.ArgumentMatchers
+	org.mockito.invocation.InvocationOnMock
+	org.mockito.junit.MockitoJUnitRunner
+	org.mockito.stubbing.Answer
+	java.io.ByteArrayInputStream
+	java.io.IOException
+	org.mockito.Mockito.doAnswer
+	org.mockito.Mockito.doReturn
+	org.mockito.Mockito.spy
