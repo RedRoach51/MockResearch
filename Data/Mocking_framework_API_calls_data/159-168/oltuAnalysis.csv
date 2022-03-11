@@ -1,14 +1,15 @@
 method, origin, count
 createMock,org.easymock.EasyMock,47
-andStubReturn,org.easymock.IExpectationSetters<java.lang.String>,142
-expect,org.easymock.EasyMock,164
-replay,org.easymock.EasyMock,64
-verify,org.easymock.EasyMock,41
-createStrictMock,org.easymock.EasyMock,12
-reset,org.easymock.EasyMock,3
+andStubReturn,org.easymock.IExpectationSetters<java.lang.String>,155
+expect,org.easymock.EasyMock,179
+replay,org.easymock.EasyMock,76
+verify,org.easymock.EasyMock,51
+createStrictMock,org.easymock.EasyMock,17
+reset,org.easymock.EasyMock,10
+andReturn,org.easymock.IExpectationSetters<java.util.Map>,2
 setContentType,org.springframework.mock.web.MockHttpServletRequest,4
 setContent,org.springframework.mock.web.MockHttpServletRequest,2
 
 MockedObjects: ,47
 
-# of Mocked objects each file:,1|4|3|23|7|5|4|
+# of Mocked objects each file:,1|4|3|23|4|5|7|

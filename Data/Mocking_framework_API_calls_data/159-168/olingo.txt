@@ -1,0 +1,686 @@
+/odata-client-core/src/test/java/org/apache/olingo/client/core/ErrorTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 4
+ 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<java.lang.Integer>
+	Count: 4
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 9
+ 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<java.lang.String>
+	Count: 5
+ 
+/odata-client-core/src/test/java/org/apache/olingo/client/core/ODataClientBuilderTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+/odata-client-core/src/test/java/org/apache/olingo/client/core/communication/request/AsyncRequestWrapperTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 16
+ 
+/odata-commons-core/src/test/java/org/apache/olingo/commons/core/edm/EdmImplCallCreateTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 12
+ 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<java.lang.String>
+	Count: 21
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 22
+ 
+/odata-commons-core/src/test/java/org/apache/olingo/commons/core/edm/EdmImplCachingTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 20
+ 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<java.lang.String>
+	Count: 35
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 36
+ 
+/odata-commons-core/src/test/java/org/apache/olingo/commons/core/edm/annotations/EdmIsOfImplTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 2
+ 
+/odata-commons-core/src/test/java/org/apache/olingo/commons/core/edm/annotations/EdmLogicalOrComparisonImplTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 2
+ 
+/odata-commons-core/src/test/java/org/apache/olingo/commons/core/edm/annotations/EdmPropertyPathImplTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 2
+ 
+/odata-commons-core/src/test/java/org/apache/olingo/commons/core/edm/annotations/EdmUrlRefImplTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 4
+ 
+/odata-commons-core/src/test/java/org/apache/olingo/commons/core/edm/annotations/EdmIfImplTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 2
+ 
+/odata-commons-core/src/test/java/org/apache/olingo/commons/core/edm/annotations/EdmCollectionImplTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 2
+ 
+/odata-commons-core/src/test/java/org/apache/olingo/commons/core/edm/annotations/EdmPathImplTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 2
+ 
+/odata-commons-core/src/test/java/org/apache/olingo/commons/core/edm/annotations/EdmPropertyValueImplTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 2
+ 
+/odata-commons-core/src/test/java/org/apache/olingo/commons/core/edm/annotations/EdmCastImplTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 2
+ 
+/odata-commons-core/src/test/java/org/apache/olingo/commons/core/edm/annotations/EdmLabeledElementImplTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 2
+ 
+/odata-commons-core/src/test/java/org/apache/olingo/commons/core/edm/annotations/EdmAnnotationPathTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 2
+ 
+/odata-commons-core/src/test/java/org/apache/olingo/commons/core/edm/annotations/EdmNavigationPropertyPathImpTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 2
+ 
+/odata-commons-core/src/test/java/org/apache/olingo/commons/core/edm/annotations/EdmApplyImplTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 3
+ 
+/odata-commons-core/src/test/java/org/apache/olingo/commons/core/edm/annotations/EdmConstantExpressionImplTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 12
+ 
+/odata-commons-core/src/test/java/org/apache/olingo/commons/core/edm/annotations/EdmRecordImplTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 8
+ 
+/odata-commons-core/src/test/java/org/apache/olingo/commons/core/edm/annotations/EdmLabledElementReferenceImplTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 2
+ 
+/odata-commons-core/src/test/java/org/apache/olingo/server/core/edm/provider/EdmParameterImplTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 8
+ 
+/odata-commons-core/src/test/java/org/apache/olingo/server/core/edm/provider/EdmEnumTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 2
+ 
+/odata-commons-core/src/test/java/org/apache/olingo/server/core/edm/provider/EdmPropertyImplTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 8
+ 
+/odata-commons-core/src/test/java/org/apache/olingo/server/core/edm/provider/EdmFunctionImportImplTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 3
+ 
+/odata-commons-core/src/test/java/org/apache/olingo/server/core/edm/provider/EdmActionImplTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 7
+ 
+/odata-commons-core/src/test/java/org/apache/olingo/server/core/edm/provider/EdmActionImportImplTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 6
+ 
+/odata-commons-core/src/test/java/org/apache/olingo/server/core/edm/provider/EdmProviderImplTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 4
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 19
+ 
+/odata-commons-core/src/test/java/org/apache/olingo/server/core/edm/provider/EdmSchemaImplTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 2
+ 
+/odata-commons-core/src/test/java/org/apache/olingo/server/core/edm/provider/EdmTermImplTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 12
+ 
+/odata-commons-core/src/test/java/org/apache/olingo/server/core/edm/provider/EdmComplexTypeImplTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 3
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 3
+ 
+/odata-commons-core/src/test/java/org/apache/olingo/server/core/edm/provider/EdmMemberImplTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+/odata-commons-core/src/test/java/org/apache/olingo/server/core/edm/provider/EdmReferentialConstraintTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 2
+ 
+/odata-commons-core/src/test/java/org/apache/olingo/server/core/edm/provider/EdmReturnTypeImplTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 13
+ 
+/odata-commons-core/src/test/java/org/apache/olingo/server/core/edm/provider/EdmAnnotationImplTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 4
+ 
+/odata-commons-core/src/test/java/org/apache/olingo/server/core/edm/provider/EdmFunctionImplTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+/odata-commons-core/src/test/java/org/apache/olingo/server/core/edm/provider/EdmAnnotationsImplTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+/odata-commons-core/src/test/java/org/apache/olingo/server/core/edm/provider/EdmKeyPropertyRefImplTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 23
+ 
+/odata-commons-core/src/test/java/org/apache/olingo/server/core/edm/provider/EdmEntityContainerImplTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 4
+ 
+/odata-commons-core/src/test/java/org/apache/olingo/server/core/edm/provider/EdmSingletonImplTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 4
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 6
+ 
+/odata-commons-core/src/test/java/org/apache/olingo/server/core/edm/provider/AbstractEdmAnnotatableTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 2
+ 
+/odata-commons-core/src/test/java/org/apache/olingo/server/core/edm/provider/EdmProviderImplOverloadingTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 5
+ 
+/odata-commons-core/src/test/java/org/apache/olingo/server/core/edm/provider/EdmEntityTypeImplTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 7
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 11
+ 
+/odata-commons-core/src/test/java/org/apache/olingo/server/core/edm/provider/EdmTypeDefinitionImplTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 3
+ 
+/odata-commons-core/src/test/java/org/apache/olingo/server/core/edm/provider/EdmEntitySetImplTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 2
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 5
+ 
+/odata-commons-core/src/test/java/org/apache/olingo/server/core/edm/provider/EdmNavigationPropertyImplTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 5
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 4
+ 
+/odata-server-core/src/test/java/org/apache/olingo/netty/server/core/ODataNettyHandlerImplTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 7
+ 
+/odata-server-core/src/test/java/org/apache/olingo/server/core/ODataHttpHandlerImplTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 4
+ 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<java.lang.String>
+	Count: 14
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 17
+ 
+/odata-server-core/src/test/java/org/apache/olingo/server/core/ODataImplTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+/odata-server-core/src/test/java/org/apache/olingo/server/core/ContentNegotiatorTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 2
+ 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<java.lang.String>
+	Count: 1
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 2
+ 
+/odata-server-core/src/test/java/org/apache/olingo/server/core/batchhandler/MockedBatchHandlerTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+	Method name: getArguments
+	Class origin: org.mockito.invocation.InvocationOnMock
+	Count: 1
+ 
+/odata-server-core/src/test/java/org/apache/olingo/server/core/debug/ServerCoreDebuggerTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 8
+ 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<java.lang.Boolean>
+	Count: 2
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 9
+ 
+/odata-server-core/src/test/java/org/apache/olingo/server/core/debug/DebugTabUriTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 10
+ 
+/odata-server-core/src/test/java/org/apache/olingo/server/core/deserializer/FixedFormatDeserializerTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 2
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 6
+ 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<java.lang.Boolean>
+	Count: 3
+ 
+/odata-server-core/src/test/java/org/apache/olingo/server/core/serializer/BatchResponseSerializerTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 6
+ 
+/odata-server-core/src/test/java/org/apache/olingo/server/core/serializer/json/MetadataDocumentJsonSerializerTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 22
+ 
+/odata-server-core/src/test/java/org/apache/olingo/server/core/serializer/utils/ContextURLBuilderTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 16
+ 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<java.lang.String>
+	Count: 10
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 16
+ 
+/odata-server-core/src/test/java/org/apache/olingo/server/core/serializer/xml/MetadataDocumentXmlSerializerTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 21
+ 
+/odata-server-core/src/test/java/org/apache/olingo/server/core/serializer/xml/ServiceDocumentXmlSerializerTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 3
+ 
+/odata-server-core/src/test/java/org/apache/olingo/server/core/uri/UriInfoImplTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+/odata-server-core/src/test/java/org/apache/olingo/server/core/uri/parser/ExpressionParserTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 18
+ 
+/odata-server-core/src/test/java/org/apache/olingo/server/core/uri/parser/search/SearchParserTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 4
+ 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<java.lang.String>
+	Count: 3
+ 
+/odata-server-core-ext/src/test/java/org/apache/olingo/netty/server/core/NettyServiceDispatcherTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 5
+ 
+/odata-server-core-ext/src/test/java/org/apache/olingo/server/core/ServiceDispatcherTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 16
+ 
+	Method name: forClass
+	Class origin: org.mockito.ArgumentCaptor
+	Count: 37
+ 
+/odata-server-tecsvc/src/test/java/org/apache/olingo/server/tecsvc/data/DataProviderTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<java.lang.String>
+	Count: 2
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 2
+ 
+/odata-server-test/src/test/java/org/apache/olingo/netty/server/core/ODataNettyHandlerImplTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 12
+ 
+/odata-server-test/src/test/java/org/apache/olingo/server/core/PreconditionsValidatorTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 2
+ 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<java.lang.Boolean>
+	Count: 2
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 4
+ 
+	Method name: any
+	Class origin: org.mockito.Matchers
+	Count: 4
+ 
+/odata-server-test/src/test/java/org/apache/olingo/server/core/ODataHandlerImplTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 62
+ 
+	Method name: when
+	Class origin: org.mockito.stubbing.Stubber
+	Count: 6
+ 
+	Method name: doThrow
+	Class origin: org.mockito.Mockito
+	Count: 6
+ 
+	Method name: any
+	Class origin: org.mockito.Matchers
+	Count: 399
+ 
+/odata-server-test/src/test/java/org/apache/olingo/server/core/deserializer/json/ODataJsonDeserializerEntityTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 5
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 14
+ 
+/odata-server-test/src/test/java/org/apache/olingo/server/core/serializer/ExpandSelectMock.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 34
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 39
+ 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<java.lang.String>
+	Count: 2
+ 
+/odata-server-test/src/test/java/org/apache/olingo/server/core/serializer/json/ODataJsonSerializerv01Test.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 19
+ 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<java.lang.Boolean>
+	Count: 19
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 46
+ 
+/odata-server-test/src/test/java/org/apache/olingo/server/core/serializer/json/JsonDeltaSerializerTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<java.lang.Boolean>
+	Count: 1
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+/odata-server-test/src/test/java/org/apache/olingo/server/core/serializer/json/ODataJsonSerializerTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 19
+ 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<java.lang.Boolean>
+	Count: 19
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 46
+ 
+/odata-server-test/src/test/java/org/apache/olingo/server/core/serializer/json/JsonDeltaSerializerWithNavigationsTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<java.lang.Boolean>
+	Count: 1
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 2
+ 
+/odata-server-test/src/test/java/org/apache/olingo/server/core/serializer/utils/ContextURLHelperTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 12
+ 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<java.lang.Boolean>
+	Count: 4
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 30
+ 
+/odata-server-test/src/test/java/org/apache/olingo/server/core/serializer/xml/ODataXmlSerializerTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 6
+ 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<java.lang.Boolean>
+	Count: 6
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 12
+ 
+/odata-server-test/src/test/java/org/apache/olingo/server/core/uri/parser/ParserTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 33
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 59
+ 

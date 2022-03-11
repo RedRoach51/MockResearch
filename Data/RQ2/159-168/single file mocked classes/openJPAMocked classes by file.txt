@@ -1,0 +1,30 @@
+/openjpa-jdbc/src/test/java/org/apache/openjpa/jdbc/kernel/TableJDBCSeqTest.java
+	java.sql.Connection
+	java.sql.DatabaseMetaData
+/openjpa-jdbc/src/test/java/org/apache/openjpa/jdbc/sql/TestDB2Dictionary.java
+	org.apache.openjpa.jdbc.conf.JDBCConfiguration
+	java.sql.Statement
+	java.sql.Connection
+	java.sql.ResultSet
+	javax.sql.DataSource
+	java.sql.DatabaseMetaData
+/openjpa-jdbc/src/test/java/org/apache/openjpa/jdbc/sql/TestDBDictionaryGeneratedSQL.java
+	org.apache.openjpa.jdbc.conf.JDBCConfiguration
+	org.apache.openjpa.jdbc.conf.JDBCConfiguration
+	org.apache.openjpa.jdbc.conf.JDBCConfiguration
+	org.apache.openjpa.jdbc.conf.JDBCConfiguration
+	org.apache.openjpa.jdbc.conf.JDBCConfiguration
+	org.apache.openjpa.jdbc.conf.JDBCConfiguration
+/openjpa-jdbc/src/test/java/org/apache/openjpa/jdbc/sql/TestHerdDBDictionary.java
+	java.sql.Statement
+	java.sql.Connection
+	java.sql.ResultSet
+	javax.sql.DataSource
+	java.sql.DatabaseMetaData
+/openjpa-jdbc/src/test/java/org/apache/openjpa/jdbc/sql/TestMySQLDictionary.java
+	java.sql.PreparedStatement
+	java.sql.Connection
+	java.sql.CallableStatement
+	java.sql.Connection
+/openjpa-kubernetes/src/test/java/org/apache/openjpa/event/kubernetes/KubernetesTCPRemoteCommitProviderTest.java
+	org.apache.openjpa.lib.conf.Configuration

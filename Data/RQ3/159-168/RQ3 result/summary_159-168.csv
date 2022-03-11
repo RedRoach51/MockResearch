@@ -1,0 +1,14 @@
+project name, variety of inside mocked classes, variety of outside mocked classes, proportion of mocked classes
+ode,0,0,
+ofbiz,12,10,
+olingo,74,10,
+oltu,0,1,
+OODT,0,19,
+oozie,45,36,
+openJPA,0,9,
+openMeetings,0,22,
+openNLP,0,1,
+openwebbeans,0,0,
+ 
+more inside classes mocked: ,more outside classes mocked: 
+3,5

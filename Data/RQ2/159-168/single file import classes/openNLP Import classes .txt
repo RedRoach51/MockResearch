@@ -1,0 +1,18 @@
+/opennlp-tools/src/test/java/opennlp/tools/ml/TrainerFactoryTest.java
+	org.junit.Assert
+	org.junit.Before
+	org.junit.Test
+	opennlp.tools.ml.TrainerFactory.TrainerType
+	opennlp.tools.ml.maxent.GISTrainer
+	opennlp.tools.ml.perceptron.SimplePerceptronSequenceTrainer
+	opennlp.tools.util.TrainingParameters
+/opennlp-tools/src/test/java/opennlp/tools/namefind/TokenNameFinderEvaluatorTest.java
+	java.io.ByteArrayOutputStream
+	java.io.OutputStream
+	org.junit.Assert
+	org.junit.Test
+	opennlp.tools.cmdline.namefind.NameEvaluationErrorListener
+	opennlp.tools.util.Span
+	org.mockito.Mockito.any
+	org.mockito.Mockito.mock
+	org.mockito.Mockito.when

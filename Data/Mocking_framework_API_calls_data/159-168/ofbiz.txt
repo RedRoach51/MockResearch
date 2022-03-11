@@ -1,0 +1,116 @@
+/ofbiz/framework/testtools/src/main/java/org/apache/ofbiz/testtools/SimpleMethodTest.java
+Methods Invoked: 
+	Method name: setAttribute
+	Class origin: org.springframework.mock.web.MockHttpServletRequest
+	Count: 4
+ 
+/ofbiz/framework/base/src/test/java/org/apache/ofbiz/base/util/UtilHttpTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 1
+ 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<java.util.Map<java.lang.String,java.lang.String[]>>
+	Count: 11
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 19
+ 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<java.lang.String>
+	Count: 8
+ 
+/ofbiz/framework/entity/src/test/java/org/apache/ofbiz/entity/util/EntitySaxReaderTests.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 6
+ 
+	Method name: verify
+	Class origin: org.mockito.Mockito
+	Count: 3
+ 
+	Method name: verifyNoMoreInteractions
+	Class origin: org.mockito.Mockito
+	Count: 2
+ 
+/ofbiz/framework/security/src/test/java/org/apache/ofbiz/security/CsrfUtilTests.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 9
+ 
+/ofbiz/framework/webapp/src/test/java/org/apache/ofbiz/webapp/control/ExternalLoginKeysManagerTests.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 7
+ 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<java.lang.Object>
+	Count: 3
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 7
+ 
+/ofbiz/framework/webapp/src/test/java/org/apache/ofbiz/webapp/control/RequestHandlerTests.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 5
+ 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<java.lang.String>
+	Count: 26
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 32
+ 
+/ofbiz/framework/webapp/src/test/java/org/apache/ofbiz/webapp/control/ControlFilterTests.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 5
+ 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<java.lang.String>
+	Count: 34
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 38
+ 
+	Method name: anyString
+	Class origin: org.mockito.ArgumentMatchers
+	Count: 2
+ 
+/ofbiz/framework/widget/src/test/java/org/apache/ofbiz/widget/model/ModelFormFieldTest.java
+Methods Invoked: 
+	Method name: mock
+	Class origin: org.mockito.Mockito
+	Count: 3
+ 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<java.lang.String>
+	Count: 12
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 12
+ 
+/ofbiz/framework/widget/src/test/java/org/apache/ofbiz/widget/renderer/macro/MacroFormRendererTest.java
+Methods Invoked: 
+	Method name: withNotNull
+	Class origin: mockit.Invocations
+	Count: 65
+ 
+/ofbiz/framework/widget/src/test/java/org/apache/ofbiz/widget/renderer/macro/RenderableFtlFormElementsBuilderTest.java
+Methods Invoked: 
+	Method name: withNotNull
+	Class origin: mockit.Invocations
+	Count: 10
+ 

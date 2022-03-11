@@ -1,0 +1,654 @@
+/odata-client-core/src/test/java/org/apache/olingo/client/core/ErrorTest.java
+	org.apache.http.StatusLine
+	org.apache.http.StatusLine
+	org.apache.http.StatusLine
+	org.apache.http.StatusLine
+/odata-client-core/src/test/java/org/apache/olingo/client/core/ODataClientBuilderTest.java
+	org.apache.olingo.commons.api.edm.Edm
+/odata-client-core/src/test/java/org/apache/olingo/client/core/communication/request/AsyncRequestWrapperTest.java
+	org.apache.http.client.HttpClient
+	org.apache.olingo.client.api.ODataClient
+	org.apache.olingo.client.api.Configuration
+	org.apache.olingo.client.api.http.HttpClientFactory
+	org.apache.olingo.client.api.http.HttpUriRequestFactory
+	org.apache.http.client.methods.HttpUriRequest
+	org.apache.olingo.client.core.communication.request.AbstractODataRequest
+	org.apache.olingo.client.api.communication.response.ODataResponse
+	org.apache.http.client.HttpClient
+	org.apache.olingo.client.api.ODataClient
+	org.apache.olingo.client.api.Configuration
+	org.apache.olingo.client.api.http.HttpClientFactory
+	org.apache.olingo.client.api.http.HttpUriRequestFactory
+	org.apache.http.client.methods.HttpUriRequest
+	org.apache.olingo.client.api.communication.response.ODataResponse
+	org.apache.olingo.client.core.communication.request.AbstractODataRequest
+/odata-commons-core/src/test/java/org/apache/olingo/commons/core/edm/EdmImplCallCreateTest.java
+	org.apache.olingo.commons.api.edm.EdmEntityContainer
+	org.apache.olingo.commons.api.edm.EdmEnumType
+	org.apache.olingo.commons.api.edm.EdmTypeDefinition
+	org.apache.olingo.commons.api.edm.EdmEntityType
+	org.apache.olingo.commons.api.edm.EdmComplexType
+	org.apache.olingo.commons.api.edm.EdmAction
+	org.apache.olingo.commons.api.edm.EdmFunction
+	org.apache.olingo.commons.api.edm.EdmAction
+	org.apache.olingo.commons.api.edm.EdmFunction
+	org.apache.olingo.commons.api.edm.EdmFunction
+	org.apache.olingo.commons.api.edm.EdmTerm
+	org.apache.olingo.commons.api.edm.EdmAnnotations
+/odata-commons-core/src/test/java/org/apache/olingo/commons/core/edm/EdmImplCachingTest.java
+	org.apache.olingo.commons.api.edm.EdmEntityContainer
+	org.apache.olingo.commons.api.edm.EdmEntityContainer
+	org.apache.olingo.commons.api.edm.EdmEnumType
+	org.apache.olingo.commons.api.edm.EdmTypeDefinition
+	org.apache.olingo.commons.api.edm.EdmEntityType
+	org.apache.olingo.commons.api.edm.EdmComplexType
+	org.apache.olingo.commons.api.edm.EdmAction
+	org.apache.olingo.commons.api.edm.EdmAction
+	org.apache.olingo.commons.api.edm.EdmFunction
+	org.apache.olingo.commons.api.edm.EdmFunction
+	org.apache.olingo.commons.api.edm.EdmAction
+	org.apache.olingo.commons.api.edm.EdmAction
+	org.apache.olingo.commons.api.edm.EdmFunction
+	org.apache.olingo.commons.api.edm.EdmFunction
+	org.apache.olingo.commons.api.edm.EdmFunction
+	org.apache.olingo.commons.api.edm.EdmFunction
+	org.apache.olingo.commons.api.edm.EdmSchema
+	org.apache.olingo.commons.api.edm.EdmTerm
+	org.apache.olingo.commons.api.edm.EdmAnnotations
+	org.apache.olingo.commons.api.edm.EdmAnnotations
+/odata-commons-core/src/test/java/org/apache/olingo/commons/core/edm/annotations/EdmIsOfImplTest.java
+	org.apache.olingo.commons.api.edm.Edm
+	org.apache.olingo.commons.api.edm.Edm
+/odata-commons-core/src/test/java/org/apache/olingo/commons/core/edm/annotations/EdmLogicalOrComparisonImplTest.java
+	org.apache.olingo.commons.api.edm.Edm
+	org.apache.olingo.commons.api.edm.Edm
+/odata-commons-core/src/test/java/org/apache/olingo/commons/core/edm/annotations/EdmPropertyPathImplTest.java
+	org.apache.olingo.commons.api.edm.Edm
+	org.apache.olingo.commons.api.edm.Edm
+/odata-commons-core/src/test/java/org/apache/olingo/commons/core/edm/annotations/EdmUrlRefImplTest.java
+	org.apache.olingo.commons.api.edm.Edm
+	org.apache.olingo.commons.api.edm.Edm
+	org.apache.olingo.commons.api.edm.Edm
+	org.apache.olingo.commons.api.edm.Edm
+/odata-commons-core/src/test/java/org/apache/olingo/commons/core/edm/annotations/EdmIfImplTest.java
+	org.apache.olingo.commons.api.edm.Edm
+	org.apache.olingo.commons.api.edm.Edm
+/odata-commons-core/src/test/java/org/apache/olingo/commons/core/edm/annotations/EdmCollectionImplTest.java
+	org.apache.olingo.commons.api.edm.Edm
+	org.apache.olingo.commons.api.edm.Edm
+/odata-commons-core/src/test/java/org/apache/olingo/commons/core/edm/annotations/EdmPathImplTest.java
+	org.apache.olingo.commons.api.edm.Edm
+	org.apache.olingo.commons.api.edm.Edm
+/odata-commons-core/src/test/java/org/apache/olingo/commons/core/edm/annotations/EdmPropertyValueImplTest.java
+	org.apache.olingo.commons.api.edm.Edm
+	org.apache.olingo.commons.api.edm.Edm
+/odata-commons-core/src/test/java/org/apache/olingo/commons/core/edm/annotations/EdmCastImplTest.java
+	org.apache.olingo.commons.api.edm.Edm
+	org.apache.olingo.commons.api.edm.Edm
+/odata-commons-core/src/test/java/org/apache/olingo/commons/core/edm/annotations/EdmLabeledElementImplTest.java
+	org.apache.olingo.commons.api.edm.Edm
+	org.apache.olingo.commons.api.edm.Edm
+/odata-commons-core/src/test/java/org/apache/olingo/commons/core/edm/annotations/EdmAnnotationPathTest.java
+	org.apache.olingo.commons.api.edm.Edm
+	org.apache.olingo.commons.api.edm.Edm
+/odata-commons-core/src/test/java/org/apache/olingo/commons/core/edm/annotations/EdmNavigationPropertyPathImpTest.java
+	org.apache.olingo.commons.api.edm.Edm
+	org.apache.olingo.commons.api.edm.Edm
+/odata-commons-core/src/test/java/org/apache/olingo/commons/core/edm/annotations/EdmApplyImplTest.java
+	org.apache.olingo.commons.api.edm.Edm
+	org.apache.olingo.commons.api.edm.Edm
+	org.apache.olingo.commons.api.edm.Edm
+/odata-commons-core/src/test/java/org/apache/olingo/commons/core/edm/annotations/EdmConstantExpressionImplTest.java
+	org.apache.olingo.commons.api.edm.Edm
+	org.apache.olingo.commons.api.edm.Edm
+	org.apache.olingo.commons.api.edm.Edm
+	org.apache.olingo.commons.api.edm.Edm
+	org.apache.olingo.commons.api.edm.Edm
+	org.apache.olingo.commons.api.edm.Edm
+	org.apache.olingo.commons.api.edm.Edm
+	org.apache.olingo.commons.api.edm.Edm
+	org.apache.olingo.commons.api.edm.Edm
+	org.apache.olingo.commons.api.edm.Edm
+	org.apache.olingo.commons.api.edm.Edm
+	org.apache.olingo.commons.api.edm.Edm
+/odata-commons-core/src/test/java/org/apache/olingo/commons/core/edm/annotations/EdmRecordImplTest.java
+	org.apache.olingo.commons.api.edm.Edm
+	org.apache.olingo.commons.api.edm.Edm
+	org.apache.olingo.commons.api.edm.EdmEntityType
+	org.apache.olingo.commons.api.edm.Edm
+	org.apache.olingo.commons.api.edm.EdmComplexType
+	org.apache.olingo.commons.api.edm.Edm
+	org.apache.olingo.commons.api.edm.EdmEnumType
+	org.apache.olingo.commons.api.edm.EdmTypeDefinition
+/odata-commons-core/src/test/java/org/apache/olingo/commons/core/edm/annotations/EdmLabledElementReferenceImplTest.java
+	org.apache.olingo.commons.api.edm.Edm
+	org.apache.olingo.commons.api.edm.Edm
+/odata-commons-core/src/test/java/org/apache/olingo/server/core/edm/provider/EdmParameterImplTest.java
+	org.apache.olingo.commons.api.edm.Edm
+	org.apache.olingo.commons.api.edm.provider.CsdlEdmProvider
+	org.apache.olingo.commons.api.edm.provider.CsdlEdmProvider
+	org.apache.olingo.commons.api.edm.provider.CsdlEdmProvider
+	org.apache.olingo.commons.api.edm.provider.CsdlEdmProvider
+	org.apache.olingo.commons.api.edm.provider.CsdlEdmProvider
+	org.apache.olingo.commons.api.edm.provider.CsdlEdmProvider
+	org.apache.olingo.commons.api.edm.provider.CsdlEdmProvider
+/odata-commons-core/src/test/java/org/apache/olingo/server/core/edm/provider/EdmEnumTest.java
+	org.apache.olingo.commons.api.edm.Edm
+/odata-commons-core/src/test/java/org/apache/olingo/server/core/edm/provider/EdmPropertyImplTest.java
+	org.apache.olingo.commons.api.edm.Edm
+	org.apache.olingo.commons.api.edm.provider.CsdlEdmProvider
+	org.apache.olingo.commons.api.edm.provider.CsdlEdmProvider
+	org.apache.olingo.commons.api.edm.provider.CsdlEdmProvider
+	org.apache.olingo.commons.api.edm.provider.CsdlEdmProvider
+	org.apache.olingo.commons.api.edm.provider.CsdlEdmProvider
+	org.apache.olingo.commons.api.edm.provider.CsdlEdmProvider
+	org.apache.olingo.commons.api.edm.provider.CsdlEdmProvider
+/odata-commons-core/src/test/java/org/apache/olingo/server/core/edm/provider/EdmFunctionImportImplTest.java
+	org.apache.olingo.commons.api.edm.provider.CsdlEdmProvider
+/odata-commons-core/src/test/java/org/apache/olingo/server/core/edm/provider/EdmActionImplTest.java
+	org.apache.olingo.commons.core.edm.EdmProviderImpl
+	org.apache.olingo.commons.api.edm.EdmEntitySet
+	org.apache.olingo.commons.api.edm.EdmEntitySet
+	org.apache.olingo.commons.api.edm.EdmEntitySet
+	org.apache.olingo.commons.api.edm.EdmEntitySet
+	org.apache.olingo.commons.api.edm.EdmSingleton
+	org.apache.olingo.commons.api.edm.EdmEntitySet
+/odata-commons-core/src/test/java/org/apache/olingo/server/core/edm/provider/EdmActionImportImplTest.java
+	org.apache.olingo.commons.core.edm.EdmProviderImpl
+	org.apache.olingo.commons.api.edm.EdmEntityContainer
+	org.apache.olingo.commons.api.edm.EdmAction
+	org.apache.olingo.commons.api.edm.EdmEntitySet
+	org.apache.olingo.commons.core.edm.EdmProviderImpl
+	org.apache.olingo.commons.core.edm.EdmProviderImpl
+/odata-commons-core/src/test/java/org/apache/olingo/server/core/edm/provider/EdmProviderImplTest.java
+	org.apache.olingo.commons.api.edm.provider.CsdlEdmProvider
+	org.apache.olingo.commons.api.edm.provider.CsdlEdmProvider
+	org.apache.olingo.commons.api.edm.provider.CsdlEdmProvider
+	org.apache.olingo.commons.api.edm.provider.CsdlEdmProvider
+/odata-commons-core/src/test/java/org/apache/olingo/server/core/edm/provider/EdmSchemaImplTest.java
+	org.apache.olingo.commons.api.edm.provider.CsdlEdmProvider
+	org.apache.olingo.commons.api.edm.provider.CsdlEdmProvider
+/odata-commons-core/src/test/java/org/apache/olingo/server/core/edm/provider/EdmTermImplTest.java
+	org.apache.olingo.commons.api.edm.Edm
+	org.apache.olingo.commons.api.edm.provider.CsdlEdmProvider
+	org.apache.olingo.commons.api.edm.Edm
+	org.apache.olingo.commons.api.edm.EdmTypeDefinition
+	org.apache.olingo.commons.api.edm.Edm
+	org.apache.olingo.commons.api.edm.EdmEnumType
+	org.apache.olingo.commons.api.edm.Edm
+	org.apache.olingo.commons.api.edm.EdmComplexType
+	org.apache.olingo.commons.api.edm.Edm
+	org.apache.olingo.commons.api.edm.EdmEntityType
+	org.apache.olingo.commons.api.edm.Edm
+	org.apache.olingo.commons.api.edm.Edm
+/odata-commons-core/src/test/java/org/apache/olingo/server/core/edm/provider/EdmComplexTypeImplTest.java
+	org.apache.olingo.commons.api.edm.provider.CsdlEdmProvider
+	org.apache.olingo.commons.core.edm.EdmProviderImpl
+	org.apache.olingo.commons.api.edm.provider.CsdlEdmProvider
+/odata-commons-core/src/test/java/org/apache/olingo/server/core/edm/provider/EdmMemberImplTest.java
+	org.apache.olingo.commons.core.edm.EdmProviderImpl
+/odata-commons-core/src/test/java/org/apache/olingo/server/core/edm/provider/EdmReferentialConstraintTest.java
+	org.apache.olingo.commons.api.edm.Edm
+	org.apache.olingo.commons.api.edm.Edm
+/odata-commons-core/src/test/java/org/apache/olingo/server/core/edm/provider/EdmReturnTypeImplTest.java
+	org.apache.olingo.commons.api.edm.Edm
+	org.apache.olingo.commons.core.edm.EdmProviderImpl
+	org.apache.olingo.commons.core.edm.EdmProviderImpl
+	org.apache.olingo.commons.core.edm.EdmProviderImpl
+	org.apache.olingo.commons.core.edm.EdmProviderImpl
+	org.apache.olingo.commons.api.edm.EdmComplexType
+	org.apache.olingo.commons.core.edm.EdmProviderImpl
+	org.apache.olingo.commons.api.edm.EdmEntityType
+	org.apache.olingo.commons.core.edm.EdmProviderImpl
+	org.apache.olingo.commons.api.edm.EdmEnumType
+	org.apache.olingo.commons.core.edm.EdmProviderImpl
+	org.apache.olingo.commons.api.edm.EdmTypeDefinition
+	org.apache.olingo.commons.core.edm.EdmProviderImpl
+/odata-commons-core/src/test/java/org/apache/olingo/server/core/edm/provider/EdmAnnotationImplTest.java
+	org.apache.olingo.commons.api.edm.Edm
+	org.apache.olingo.commons.api.edm.Edm
+	org.apache.olingo.commons.api.edm.EdmTerm
+	org.apache.olingo.commons.api.edm.Edm
+/odata-commons-core/src/test/java/org/apache/olingo/server/core/edm/provider/EdmFunctionImplTest.java
+	org.apache.olingo.commons.core.edm.EdmProviderImpl
+/odata-commons-core/src/test/java/org/apache/olingo/server/core/edm/provider/EdmAnnotationsImplTest.java
+	org.apache.olingo.commons.api.edm.Edm
+/odata-commons-core/src/test/java/org/apache/olingo/server/core/edm/provider/EdmKeyPropertyRefImplTest.java
+	org.apache.olingo.commons.api.edm.EdmEntityType
+	org.apache.olingo.commons.api.edm.EdmProperty
+	org.apache.olingo.commons.api.edm.EdmEntityType
+	org.apache.olingo.commons.api.edm.EdmProperty
+	org.apache.olingo.commons.api.edm.EdmProperty
+	org.apache.olingo.commons.api.edm.EdmComplexType
+	org.apache.olingo.commons.api.edm.EdmEntityType
+	org.apache.olingo.commons.api.edm.EdmProperty
+	org.apache.olingo.commons.api.edm.EdmProperty
+	org.apache.olingo.commons.api.edm.EdmComplexType
+	org.apache.olingo.commons.api.edm.EdmEntityType
+	org.apache.olingo.commons.api.edm.EdmProperty
+	org.apache.olingo.commons.api.edm.EdmProperty
+	org.apache.olingo.commons.api.edm.EdmComplexType
+	org.apache.olingo.commons.api.edm.EdmEntityType
+	org.apache.olingo.commons.api.edm.EdmProperty
+	org.apache.olingo.commons.api.edm.EdmProperty
+	org.apache.olingo.commons.api.edm.EdmComplexType
+	org.apache.olingo.commons.api.edm.EdmProperty
+	org.apache.olingo.commons.api.edm.EdmComplexType
+	org.apache.olingo.commons.api.edm.EdmEntityType
+	org.apache.olingo.commons.api.edm.EdmEntityType
+	org.apache.olingo.commons.api.edm.EdmEntityType
+/odata-commons-core/src/test/java/org/apache/olingo/server/core/edm/provider/EdmEntityContainerImplTest.java
+	org.apache.olingo.commons.api.edm.provider.CsdlEdmProvider
+/odata-commons-core/src/test/java/org/apache/olingo/server/core/edm/provider/EdmSingletonImplTest.java
+	org.apache.olingo.commons.api.edm.provider.CsdlEdmProvider
+	org.apache.olingo.commons.api.edm.provider.CsdlEdmProvider
+	org.apache.olingo.commons.api.edm.provider.CsdlEdmProvider
+	org.apache.olingo.commons.api.edm.provider.CsdlEdmProvider
+/odata-commons-core/src/test/java/org/apache/olingo/server/core/edm/provider/AbstractEdmAnnotatableTest.java
+	org.apache.olingo.commons.api.edm.Edm
+	org.apache.olingo.commons.api.edm.EdmTerm
+/odata-commons-core/src/test/java/org/apache/olingo/server/core/edm/provider/EdmProviderImplOverloadingTest.java
+	org.apache.olingo.commons.api.edm.provider.CsdlEdmProvider
+/odata-commons-core/src/test/java/org/apache/olingo/server/core/edm/provider/EdmEntityTypeImplTest.java
+	org.apache.olingo.commons.api.edm.provider.CsdlEdmProvider
+	org.apache.olingo.commons.api.edm.provider.CsdlEdmProvider
+	org.apache.olingo.commons.api.edm.provider.CsdlEdmProvider
+	org.apache.olingo.commons.api.edm.provider.CsdlEdmProvider
+	org.apache.olingo.commons.core.edm.EdmProviderImpl
+	org.apache.olingo.commons.core.edm.EdmProviderImpl
+	org.apache.olingo.commons.api.edm.provider.CsdlEdmProvider
+/odata-commons-core/src/test/java/org/apache/olingo/server/core/edm/provider/EdmTypeDefinitionImplTest.java
+	org.apache.olingo.commons.core.edm.EdmProviderImpl
+	org.apache.olingo.commons.core.edm.EdmProviderImpl
+	org.apache.olingo.commons.core.edm.EdmProviderImpl
+/odata-commons-core/src/test/java/org/apache/olingo/server/core/edm/provider/EdmEntitySetImplTest.java
+	org.apache.olingo.commons.api.edm.provider.CsdlEdmProvider
+	org.apache.olingo.commons.api.edm.provider.CsdlEdmProvider
+/odata-commons-core/src/test/java/org/apache/olingo/server/core/edm/provider/EdmNavigationPropertyImplTest.java
+	org.apache.olingo.commons.api.edm.provider.CsdlEdmProvider
+	org.apache.olingo.commons.api.edm.provider.CsdlEdmProvider
+	org.apache.olingo.commons.api.edm.provider.CsdlEdmProvider
+	org.apache.olingo.commons.api.edm.provider.CsdlEdmProvider
+	org.apache.olingo.commons.core.edm.EdmProviderImpl
+/odata-server-core/src/test/java/org/apache/olingo/netty/server/core/ODataNettyHandlerImplTest.java
+	io.netty.handler.codec.http.HttpRequest
+	io.netty.handler.codec.http.HttpMethod
+	io.netty.handler.codec.http.HttpHeaders
+	io.netty.handler.codec.http.HttpRequest
+	io.netty.handler.codec.http.HttpMethod
+	io.netty.handler.codec.http.HttpHeaders
+	io.netty.handler.codec.http.HttpRequest
+/odata-server-core/src/test/java/org/apache/olingo/server/core/ODataHttpHandlerImplTest.java
+	javax.servlet.http.HttpServletRequest
+	javax.servlet.http.HttpServletRequest
+	javax.servlet.http.HttpServletRequest
+	javax.servlet.http.HttpServletRequest
+/odata-server-core/src/test/java/org/apache/olingo/server/core/ODataImplTest.java
+	org.apache.olingo.server.api.ServiceMetadata
+/odata-server-core/src/test/java/org/apache/olingo/server/core/ContentNegotiatorTest.java
+	org.apache.olingo.server.api.uri.queryoption.FormatOption
+	org.apache.olingo.server.api.serializer.CustomContentTypeSupport
+/odata-server-core/src/test/java/org/apache/olingo/server/core/batchhandler/MockedBatchHandlerTest.java
+	org.apache.olingo.server.core.ODataHandlerImpl
+/odata-server-core/src/test/java/org/apache/olingo/server/core/debug/ServerCoreDebuggerTest.java
+	org.apache.olingo.server.api.debug.DebugSupport
+	javax.servlet.http.HttpServletRequest
+	javax.servlet.http.HttpServletRequest
+	javax.servlet.http.HttpServletRequest
+	org.apache.olingo.server.api.debug.DebugSupport
+	javax.servlet.http.HttpServletRequest
+	javax.servlet.http.HttpServletRequest
+	javax.servlet.http.HttpServletRequest
+/odata-server-core/src/test/java/org/apache/olingo/server/core/debug/DebugTabUriTest.java
+	org.apache.olingo.commons.api.edm.EdmEntitySet
+	org.apache.olingo.commons.api.edm.EdmReturnType
+	org.apache.olingo.commons.api.edm.EdmFunction
+	org.apache.olingo.commons.api.edm.EdmFunctionImport
+	org.apache.olingo.commons.api.edm.EdmEntityType
+	org.apache.olingo.commons.api.edm.EdmProperty
+	org.apache.olingo.commons.api.edm.EdmNavigationProperty
+	org.apache.olingo.commons.api.edm.EdmEntityType
+	org.apache.olingo.commons.api.edm.EdmProperty
+	org.apache.olingo.commons.api.edm.EdmProperty
+/odata-server-core/src/test/java/org/apache/olingo/server/core/deserializer/FixedFormatDeserializerTest.java
+	org.apache.olingo.commons.api.edm.EdmProperty
+	org.apache.olingo.commons.api.edm.EdmProperty
+/odata-server-core/src/test/java/org/apache/olingo/server/core/serializer/BatchResponseSerializerTest.java
+	org.apache.olingo.server.api.ServiceMetadata
+	org.apache.olingo.commons.api.edm.EdmEntityType
+	org.apache.olingo.server.api.ServiceMetadata
+	org.apache.olingo.commons.api.edm.EdmEntityType
+	org.apache.olingo.server.api.ServiceMetadata
+	org.apache.olingo.commons.api.edm.EdmEntityType
+/odata-server-core/src/test/java/org/apache/olingo/server/core/serializer/json/MetadataDocumentJsonSerializerTest.java
+	org.apache.olingo.commons.api.edm.Edm
+	org.apache.olingo.server.api.ServiceMetadata
+	org.apache.olingo.server.api.ServiceMetadata
+	org.apache.olingo.commons.api.edm.Edm
+	org.apache.olingo.commons.api.edm.EdmSchema
+	org.apache.olingo.commons.api.edm.Edm
+	org.apache.olingo.server.api.ServiceMetadata
+	org.apache.olingo.commons.api.edm.EdmEnumType
+	org.apache.olingo.commons.api.edm.EdmMember
+	org.apache.olingo.commons.api.edm.EdmAnnotation
+	org.apache.olingo.commons.api.edm.annotation.EdmConstantExpression
+	org.apache.olingo.commons.api.edm.EdmSchema
+	org.apache.olingo.commons.api.edm.Edm
+	org.apache.olingo.server.api.ServiceMetadata
+	org.apache.olingo.server.api.ServiceMetadata
+	org.apache.olingo.commons.api.edm.EdmSchema
+	org.apache.olingo.commons.api.edm.Edm
+	org.apache.olingo.commons.api.edm.EdmTypeDefinition
+	org.apache.olingo.commons.api.edm.EdmAnnotation
+	org.apache.olingo.commons.api.edm.EdmTerm
+	org.apache.olingo.commons.api.edm.annotation.EdmConstantExpression
+	org.apache.olingo.server.api.ServiceMetadata
+/odata-server-core/src/test/java/org/apache/olingo/server/core/serializer/utils/ContextURLBuilderTest.java
+	org.apache.olingo.commons.api.edm.EdmEntitySet
+	org.apache.olingo.commons.api.edm.EdmEntitySet
+	org.apache.olingo.commons.api.edm.EdmEntityType
+	org.apache.olingo.commons.api.edm.EdmEntitySet
+	org.apache.olingo.commons.api.edm.EdmEntityType
+	org.apache.olingo.commons.api.edm.EdmEntityType
+	org.apache.olingo.commons.api.edm.EdmEntitySet
+	org.apache.olingo.commons.api.edm.EdmEntityType
+	org.apache.olingo.commons.api.edm.EdmEntitySet
+	org.apache.olingo.commons.api.edm.EdmComplexType
+	org.apache.olingo.commons.api.edm.EdmEntitySet
+	org.apache.olingo.commons.api.edm.EdmEntitySet
+	org.apache.olingo.commons.api.edm.EdmEntityType
+	org.apache.olingo.commons.api.edm.EdmEntitySet
+	org.apache.olingo.commons.api.edm.EdmEntitySet
+	org.apache.olingo.commons.api.edm.EdmEntitySet
+/odata-server-core/src/test/java/org/apache/olingo/server/core/serializer/xml/MetadataDocumentXmlSerializerTest.java
+	org.apache.olingo.commons.api.edm.Edm
+	org.apache.olingo.server.api.ServiceMetadata
+	org.apache.olingo.commons.api.edm.EdmSchema
+	org.apache.olingo.commons.api.edm.Edm
+	org.apache.olingo.server.api.ServiceMetadata
+	org.apache.olingo.commons.api.edm.EdmSchema
+	org.apache.olingo.commons.api.edm.Edm
+	org.apache.olingo.server.api.ServiceMetadata
+	org.apache.olingo.commons.api.edm.EdmEnumType
+	org.apache.olingo.commons.api.edm.EdmMember
+	org.apache.olingo.commons.api.edm.EdmAnnotation
+	org.apache.olingo.commons.api.edm.annotation.EdmConstantExpression
+	org.apache.olingo.server.api.ServiceMetadata
+	org.apache.olingo.commons.api.edm.Edm
+	org.apache.olingo.commons.api.edm.EdmSchema
+	org.apache.olingo.commons.api.edm.Edm
+	org.apache.olingo.server.api.ServiceMetadata
+	org.apache.olingo.commons.api.edm.EdmComplexType
+	org.apache.olingo.commons.api.edm.EdmProperty
+	org.apache.olingo.commons.api.edm.EdmProperty
+	org.apache.olingo.commons.api.edm.EdmComplexType
+/odata-server-core/src/test/java/org/apache/olingo/server/core/serializer/xml/ServiceDocumentXmlSerializerTest.java
+	org.apache.olingo.commons.api.edm.Edm
+	org.apache.olingo.commons.api.edm.EdmEntityContainer
+	org.apache.olingo.server.api.ServiceMetadata
+/odata-server-core/src/test/java/org/apache/olingo/server/core/uri/UriInfoImplTest.java
+	org.apache.olingo.commons.api.edm.EdmEntityType
+/odata-server-core/src/test/java/org/apache/olingo/server/core/uri/parser/ExpressionParserTest.java
+	org.apache.olingo.commons.api.edm.Edm
+	org.apache.olingo.commons.api.edm.Edm
+	org.apache.olingo.commons.api.edm.Edm
+	org.apache.olingo.commons.api.edm.Edm
+	org.apache.olingo.commons.api.edm.EdmEntityType
+	org.apache.olingo.commons.api.edm.EdmKeyPropertyRef
+	org.apache.olingo.commons.api.edm.EdmProperty
+	org.apache.olingo.commons.api.edm.Edm
+	org.apache.olingo.commons.api.edm.Edm
+	org.apache.olingo.commons.api.edm.EdmEntityContainer
+	org.apache.olingo.commons.api.edm.EdmEntitySet
+	org.apache.olingo.commons.api.edm.Edm
+	org.apache.olingo.commons.api.edm.EdmComplexType
+	org.apache.olingo.commons.api.edm.EdmComplexType
+	org.apache.olingo.commons.api.edm.Edm
+	org.apache.olingo.commons.api.edm.Edm
+	org.apache.olingo.commons.api.edm.EdmNavigationProperty
+	org.apache.olingo.commons.api.edm.Edm
+/odata-server-core/src/test/java/org/apache/olingo/server/core/uri/parser/search/SearchParserTest.java
+	org.apache.olingo.server.core.uri.parser.search.SearchQueryToken
+/odata-server-core-ext/src/test/java/org/apache/olingo/netty/server/core/NettyServiceDispatcherTest.java
+	io.netty.handler.codec.http.DefaultFullHttpRequest
+	io.netty.handler.codec.http.HttpMethod
+	io.netty.handler.codec.http.HttpVersion
+	io.netty.handler.codec.http.HttpHeaders
+	io.netty.handler.codec.http.DefaultFullHttpResponse
+/odata-server-core-ext/src/test/java/org/apache/olingo/server/core/ServiceDispatcherTest.java
+	org.apache.olingo.server.core.ServiceHandler
+	org.apache.olingo.server.core.ServiceHandler
+	org.apache.olingo.server.core.ServiceHandler
+	org.apache.olingo.server.core.ServiceHandler
+	org.apache.olingo.server.core.ServiceHandler
+	org.apache.olingo.server.core.ServiceHandler
+	org.apache.olingo.server.core.ServiceHandler
+	org.apache.olingo.server.core.ServiceHandler
+	org.apache.olingo.server.core.ServiceHandler
+	org.apache.olingo.server.core.ServiceHandler
+	org.apache.olingo.server.core.ServiceHandler
+	org.apache.olingo.server.core.ServiceHandler
+	org.apache.olingo.server.core.ServiceHandler
+	org.apache.olingo.server.core.ServiceHandler
+	org.apache.olingo.server.core.ServiceHandler
+	org.apache.olingo.server.core.ServiceHandler
+/odata-server-tecsvc/src/test/java/org/apache/olingo/server/tecsvc/data/DataProviderTest.java
+	org.apache.olingo.server.api.uri.UriParameter
+/odata-server-test/src/test/java/org/apache/olingo/netty/server/core/ODataNettyHandlerImplTest.java
+	org.apache.olingo.server.api.processor.MetadataProcessor
+	io.netty.handler.codec.http.DefaultFullHttpRequest
+	io.netty.handler.codec.http.HttpMethod
+	io.netty.handler.codec.http.HttpVersion
+	io.netty.handler.codec.http.HttpHeaders
+	io.netty.handler.codec.http.DefaultFullHttpResponse
+	org.apache.olingo.server.api.processor.EntityProcessor
+	io.netty.handler.codec.http.DefaultFullHttpRequest
+	io.netty.handler.codec.http.HttpMethod
+	io.netty.handler.codec.http.HttpVersion
+	io.netty.handler.codec.http.HttpHeaders
+	io.netty.handler.codec.http.DefaultFullHttpResponse
+/odata-server-test/src/test/java/org/apache/olingo/server/core/PreconditionsValidatorTest.java
+	org.apache.olingo.server.api.etag.CustomETagSupport
+	org.apache.olingo.server.api.etag.CustomETagSupport
+/odata-server-test/src/test/java/org/apache/olingo/server/core/ODataHandlerImplTest.java
+	org.apache.olingo.server.api.processor.ServiceDocumentProcessor
+	org.apache.olingo.server.api.processor.ServiceDocumentProcessor
+	org.apache.olingo.server.api.processor.MetadataProcessor
+	org.apache.olingo.server.api.processor.MetadataProcessor
+	org.apache.olingo.server.api.processor.MetadataProcessor
+	org.apache.olingo.server.api.processor.MetadataProcessor
+	org.apache.olingo.server.api.processor.BatchProcessor
+	org.apache.olingo.server.api.processor.EntityCollectionProcessor
+	org.apache.olingo.server.api.processor.CountEntityCollectionProcessor
+	org.apache.olingo.server.api.processor.CountEntityCollectionProcessor
+	org.apache.olingo.server.api.processor.EntityProcessor
+	org.apache.olingo.server.api.processor.EntityCollectionProcessor
+	org.apache.olingo.server.api.processor.CountEntityCollectionProcessor
+	org.apache.olingo.server.api.processor.PrimitiveProcessor
+	org.apache.olingo.server.api.processor.PrimitiveValueProcessor
+	org.apache.olingo.server.api.processor.PrimitiveCollectionProcessor
+	org.apache.olingo.server.api.processor.CountPrimitiveCollectionProcessor
+	org.apache.olingo.server.api.processor.ComplexProcessor
+	org.apache.olingo.server.api.processor.ComplexCollectionProcessor
+	org.apache.olingo.server.api.processor.CountComplexCollectionProcessor
+	org.apache.olingo.server.api.processor.MediaEntityProcessor
+	org.apache.olingo.server.api.processor.ActionPrimitiveProcessor
+	org.apache.olingo.server.api.processor.ActionPrimitiveCollectionProcessor
+	org.apache.olingo.server.api.processor.ActionComplexProcessor
+	org.apache.olingo.server.api.processor.ActionComplexCollectionProcessor
+	org.apache.olingo.server.api.processor.ActionEntityProcessor
+	org.apache.olingo.server.api.processor.ActionEntityCollectionProcessor
+	org.apache.olingo.server.api.processor.ActionEntityProcessor
+	org.apache.olingo.server.api.processor.ActionEntityCollectionProcessor
+	org.apache.olingo.server.api.processor.ActionVoidProcessor
+	org.apache.olingo.server.api.processor.EntityProcessor
+	org.apache.olingo.server.api.processor.EntityProcessor
+	org.apache.olingo.server.api.processor.MediaEntityProcessor
+	org.apache.olingo.server.api.processor.EntityProcessor
+	org.apache.olingo.server.api.processor.EntityCollectionProcessor
+	org.apache.olingo.server.api.processor.MediaEntityProcessor
+	org.apache.olingo.server.api.processor.MediaEntityProcessor
+	org.apache.olingo.server.api.processor.MediaEntityProcessor
+	org.apache.olingo.server.api.processor.MediaEntityProcessor
+	org.apache.olingo.server.api.processor.PrimitiveProcessor
+	org.apache.olingo.server.api.processor.PrimitiveValueProcessor
+	org.apache.olingo.server.api.processor.PrimitiveCollectionProcessor
+	org.apache.olingo.server.api.processor.CountPrimitiveCollectionProcessor
+	org.apache.olingo.server.api.processor.ComplexProcessor
+	org.apache.olingo.server.api.processor.ComplexCollectionProcessor
+	org.apache.olingo.server.api.processor.CountComplexCollectionProcessor
+	org.apache.olingo.server.api.processor.ReferenceProcessor
+	org.apache.olingo.server.api.processor.ReferenceCollectionProcessor
+	org.apache.olingo.server.api.processor.EntityProcessor
+	org.apache.olingo.server.api.processor.EntityProcessor
+	org.apache.olingo.server.api.processor.EntityProcessor
+	org.apache.olingo.server.api.processor.ErrorProcessor
+	org.apache.olingo.server.api.processor.EntityCollectionProcessor
+	org.apache.olingo.server.api.processor.EntityProcessor
+	org.apache.olingo.server.api.processor.EntityProcessor
+	org.apache.olingo.server.api.processor.EntityProcessor
+	org.apache.olingo.server.api.processor.EntityProcessor
+	org.apache.olingo.server.api.processor.EntityProcessor
+	org.apache.olingo.server.api.processor.EntityProcessor
+	org.apache.olingo.server.api.processor.EntityProcessor
+	org.apache.olingo.server.api.processor.EntityProcessor
+	org.apache.olingo.server.api.processor.EntityProcessor
+/odata-server-test/src/test/java/org/apache/olingo/server/core/deserializer/json/ODataJsonDeserializerEntityTest.java
+	org.apache.olingo.commons.api.edm.EdmProperty
+	org.apache.olingo.commons.api.edm.EdmEntityType
+	org.apache.olingo.commons.api.edm.EdmEntityType
+	org.apache.olingo.commons.api.edm.EdmProperty
+	org.apache.olingo.commons.api.edm.EdmProperty
+/odata-server-test/src/test/java/org/apache/olingo/server/core/serializer/ExpandSelectMock.java
+	org.apache.olingo.server.api.uri.UriResourceNavigation
+	org.apache.olingo.server.api.uri.UriResourceProperty
+	org.apache.olingo.server.api.uri.UriInfoResource
+	org.apache.olingo.server.api.uri.UriInfoResource
+	org.apache.olingo.server.api.uri.UriResourceComplexProperty
+	org.apache.olingo.server.api.uri.UriInfoResource
+	org.apache.olingo.server.api.uri.queryoption.SelectItem
+	org.apache.olingo.server.api.uri.queryoption.SelectItem
+	org.apache.olingo.server.api.uri.UriResourceAction
+	org.apache.olingo.server.api.uri.UriInfoResource
+	org.apache.olingo.server.api.uri.UriResourceFunction
+	org.apache.olingo.server.api.uri.UriInfoResource
+	org.apache.olingo.server.api.uri.UriResourceNavigation
+	org.apache.olingo.server.api.uri.UriResourceNavigation
+	org.apache.olingo.server.api.uri.UriResourceProperty
+	org.apache.olingo.server.api.uri.UriInfoResource
+	org.apache.olingo.server.api.uri.UriResourceNavigation
+	org.apache.olingo.server.api.uri.UriInfoResource
+	org.apache.olingo.server.api.uri.UriResourceComplexProperty
+	org.apache.olingo.server.api.uri.UriResourceComplexProperty
+	org.apache.olingo.server.api.uri.UriInfoResource
+	org.apache.olingo.server.api.uri.UriResourceProperty
+	org.apache.olingo.server.api.uri.queryoption.SelectItem
+	org.apache.olingo.server.api.uri.queryoption.SelectItem
+	org.apache.olingo.server.api.uri.queryoption.SelectItem
+	org.apache.olingo.server.api.uri.queryoption.SelectItem
+	org.apache.olingo.server.api.uri.queryoption.SelectItem
+	org.apache.olingo.server.api.uri.queryoption.SelectItem
+	org.apache.olingo.server.api.uri.queryoption.SelectOption
+	org.apache.olingo.server.api.uri.queryoption.ExpandItem
+	org.apache.olingo.server.api.uri.queryoption.ExpandOption
+	org.apache.olingo.server.api.uri.queryoption.SelectItem
+	org.apache.olingo.server.api.uri.UriInfoResource
+	org.apache.olingo.server.api.uri.UriResourceProperty
+/odata-server-test/src/test/java/org/apache/olingo/server/core/serializer/json/ODataJsonSerializerv01Test.java
+	org.apache.olingo.server.api.uri.queryoption.CountOption
+	org.apache.olingo.server.api.uri.queryoption.CountOption
+	org.apache.olingo.server.api.uri.queryoption.CountOption
+	org.apache.olingo.server.api.uri.queryoption.SelectItem
+	org.apache.olingo.server.api.uri.queryoption.ExpandItem
+	org.apache.olingo.server.api.uri.queryoption.ExpandItem
+	org.apache.olingo.server.api.uri.queryoption.ExpandItem
+	org.apache.olingo.server.api.uri.queryoption.ExpandItem
+	org.apache.olingo.server.api.uri.queryoption.LevelsExpandOption
+	org.apache.olingo.server.api.uri.queryoption.CountOption
+	org.apache.olingo.server.api.uri.queryoption.CountOption
+	org.apache.olingo.commons.api.edm.EdmProperty
+	org.apache.olingo.commons.api.edm.EdmEntityType
+	org.apache.olingo.server.api.uri.queryoption.LevelsExpandOption
+	org.apache.olingo.server.api.uri.queryoption.LevelsExpandOption
+	org.apache.olingo.commons.api.edm.EdmProperty
+	org.apache.olingo.commons.api.edm.EdmProperty
+	org.apache.olingo.commons.api.edm.EdmProperty
+	org.apache.olingo.commons.api.edm.EdmComplexType
+/odata-server-test/src/test/java/org/apache/olingo/server/core/serializer/json/JsonDeltaSerializerTest.java
+	org.apache.olingo.server.api.uri.queryoption.CountOption
+/odata-server-test/src/test/java/org/apache/olingo/server/core/serializer/json/ODataJsonSerializerTest.java
+	org.apache.olingo.server.api.uri.queryoption.CountOption
+	org.apache.olingo.server.api.uri.queryoption.CountOption
+	org.apache.olingo.server.api.uri.queryoption.CountOption
+	org.apache.olingo.server.api.uri.queryoption.SelectItem
+	org.apache.olingo.server.api.uri.queryoption.ExpandItem
+	org.apache.olingo.server.api.uri.queryoption.ExpandItem
+	org.apache.olingo.server.api.uri.queryoption.ExpandItem
+	org.apache.olingo.server.api.uri.queryoption.ExpandItem
+	org.apache.olingo.server.api.uri.queryoption.LevelsExpandOption
+	org.apache.olingo.server.api.uri.queryoption.CountOption
+	org.apache.olingo.server.api.uri.queryoption.CountOption
+	org.apache.olingo.commons.api.edm.EdmProperty
+	org.apache.olingo.commons.api.edm.EdmEntityType
+	org.apache.olingo.server.api.uri.queryoption.LevelsExpandOption
+	org.apache.olingo.server.api.uri.queryoption.LevelsExpandOption
+	org.apache.olingo.commons.api.edm.EdmProperty
+	org.apache.olingo.commons.api.edm.EdmProperty
+	org.apache.olingo.commons.api.edm.EdmProperty
+	org.apache.olingo.commons.api.edm.EdmComplexType
+/odata-server-test/src/test/java/org/apache/olingo/server/core/serializer/json/JsonDeltaSerializerWithNavigationsTest.java
+	org.apache.olingo.server.api.uri.queryoption.CountOption
+/odata-server-test/src/test/java/org/apache/olingo/server/core/serializer/utils/ContextURLHelperTest.java
+	org.apache.olingo.server.api.uri.queryoption.SelectItem
+	org.apache.olingo.server.api.uri.queryoption.ExpandItem
+	org.apache.olingo.server.api.uri.queryoption.ExpandItem
+	org.apache.olingo.server.api.uri.queryoption.SelectItem
+	org.apache.olingo.server.api.uri.UriParameter
+	org.apache.olingo.server.api.uri.UriParameter
+	org.apache.olingo.server.api.uri.UriParameter
+	org.apache.olingo.server.api.uri.UriParameter
+	org.apache.olingo.server.api.uri.UriParameter
+	org.apache.olingo.server.api.uri.UriParameter
+	org.apache.olingo.server.api.uri.UriParameter
+	org.apache.olingo.server.api.uri.queryoption.SelectItem
+/odata-server-test/src/test/java/org/apache/olingo/server/core/serializer/xml/ODataXmlSerializerTest.java
+	org.apache.olingo.server.api.uri.queryoption.CountOption
+	org.apache.olingo.server.api.uri.queryoption.ExpandItem
+	org.apache.olingo.server.api.uri.queryoption.ExpandItem
+	org.apache.olingo.server.api.uri.queryoption.ExpandItem
+	org.apache.olingo.server.api.uri.queryoption.LevelsExpandOption
+	org.apache.olingo.server.api.uri.queryoption.LevelsExpandOption
+/odata-server-test/src/test/java/org/apache/olingo/server/core/uri/parser/ParserTest.java
+	org.apache.olingo.commons.api.edm.EdmProperty
+	org.apache.olingo.commons.api.edm.EdmKeyPropertyRef
+	org.apache.olingo.commons.api.edm.EdmEntityType
+	org.apache.olingo.commons.api.edm.EdmEntitySet
+	org.apache.olingo.commons.api.edm.EdmEntityContainer
+	org.apache.olingo.commons.api.edm.Edm
+	org.apache.olingo.commons.api.edm.EdmProperty
+	org.apache.olingo.commons.api.edm.EdmKeyPropertyRef
+	org.apache.olingo.commons.api.edm.EdmEntityType
+	org.apache.olingo.commons.api.edm.EdmEntitySet
+	org.apache.olingo.commons.api.edm.EdmEntityContainer
+	org.apache.olingo.commons.api.edm.Edm
+	org.apache.olingo.commons.api.edm.EdmProperty
+	org.apache.olingo.commons.api.edm.EdmKeyPropertyRef
+	org.apache.olingo.commons.api.edm.EdmNavigationProperty
+	org.apache.olingo.commons.api.edm.EdmEntityType
+	org.apache.olingo.commons.api.edm.EdmEntitySet
+	org.apache.olingo.commons.api.edm.EdmEntityContainer
+	org.apache.olingo.commons.api.edm.Edm
+	org.apache.olingo.commons.api.edm.Edm
+	org.apache.olingo.commons.api.edm.EdmEntitySet
+	org.apache.olingo.commons.api.edm.EdmEntitySet
+	org.apache.olingo.commons.api.edm.EdmEntityType
+	org.apache.olingo.commons.api.edm.EdmEntityContainer
+	org.apache.olingo.commons.api.edm.EdmNavigationProperty
+	org.apache.olingo.commons.api.edm.EdmEntityType
+	org.apache.olingo.commons.api.edm.Edm
+	org.apache.olingo.commons.api.edm.EdmEntitySet
+	org.apache.olingo.commons.api.edm.EdmEntitySet
+	org.apache.olingo.commons.api.edm.EdmEntityType
+	org.apache.olingo.commons.api.edm.EdmEntityContainer
+	org.apache.olingo.commons.api.edm.EdmNavigationProperty
+	org.apache.olingo.commons.api.edm.EdmEntityType

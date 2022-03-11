@@ -1,0 +1,4 @@
+/ode-bpel-runtime/src/test/java/org/apache/ode/bpel/runtime/MockBpelServer.java
+/ode-bpel-store/src/test/java/org/apache/ode/store/hib/DaoTest.java
+/ode-bpel-test/src/main/java/org/apache/ode/test/BPELTestAbstract.java
+/ode-dao-hibernate/src/test/java/org/apache/ode/daohib/bpel/BaseTestDAO.java

@@ -1,3 +1,5 @@
+/openmeetings-core/src/test/java/org/apache/openmeetings/core/remote/TestRecordingFlowMocked.java
+Methods Invoked: 
 	Method name: when
 	Class origin: org.mockito.stubbing.Stubber
 	Count: 7
@@ -6,6 +8,8 @@
 	Class origin: org.mockito.Mockito
 	Count: 6
  
+/openmeetings-core/src/test/java/org/apache/openmeetings/core/remote/BaseMockedTest.java
+Methods Invoked: 
 	Method name: reset
 	Class origin: org.mockito.Mockito
 	Count: 1
@@ -22,6 +26,8 @@
 	Class origin: org.mockito.Mockito
 	Count: 2
  
+/openmeetings-core/src/test/java/org/apache/openmeetings/core/remote/TestSetupFlowMocked.java
+Methods Invoked: 
 	Method name: when
 	Class origin: org.mockito.stubbing.Stubber
 	Count: 2
@@ -30,6 +36,8 @@
 	Class origin: org.mockito.Mockito
 	Count: 2
  
+/openmeetings-core/src/test/java/org/apache/openmeetings/core/remote/TestRoomFlowMocked.java
+Methods Invoked: 
 	Method name: when
 	Class origin: org.mockito.stubbing.Stubber
 	Count: 6
@@ -50,6 +58,8 @@
 	Class origin: org.mockito.ArgumentMatchers
 	Count: 2
  
+/openmeetings-core/src/test/java/org/apache/openmeetings/core/util/TestStrongPasswordValidator.java
+Methods Invoked: 
 	Method name: mockStatic
 	Class origin: org.mockito.Mockito
 	Count: 1
@@ -62,6 +72,8 @@
 	Class origin: org.mockito.ArgumentMatchers
 	Count: 2
  
+/openmeetings-db/src/test/java/org/apache/openmeetings/db/entity/file/FileItemTest.java
+Methods Invoked: 
 	Method name: mockStatic
 	Class origin: org.mockito.Mockito
 	Count: 1
@@ -70,6 +82,8 @@
 	Class origin: org.mockito.stubbing.OngoingStubbing<java.lang.Object>
 	Count: 1
  
+/openmeetings-web/src/test/java/org/apache/openmeetings/service/scheduler/TestJob.java
+Methods Invoked: 
 	Method name: verify
 	Class origin: org.mockito.Mockito
 	Count: 3
@@ -82,6 +96,8 @@
 	Class origin: org.mockito.ArgumentMatchers
 	Count: 12
  
+/openmeetings-web/src/test/java/org/apache/openmeetings/web/app/TestUserManagerMocked.java
+Methods Invoked: 
 	Method name: spy
 	Class origin: org.mockito.Mockito
 	Count: 1

@@ -1,0 +1,2 @@
+method, origin, count
+getClient,io.fabric8.kubernetes.client.server.mock.KubernetesServer,2

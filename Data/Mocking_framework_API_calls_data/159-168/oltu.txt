@@ -1,3 +1,5 @@
+/org.apache.oltu.oauth2.authzserver/src/test/java/org/apache/oltu/oauth2/as/OauthMockRequestBuilder.java
+Methods Invoked: 
 	Method name: createMock
 	Class origin: org.easymock.EasyMock
 	Count: 1
@@ -10,10 +12,8 @@
 	Class origin: org.easymock.EasyMock
 	Count: 14
  
-	Method name: replay
-	Class origin: org.easymock.EasyMock
-	Count: 16
- 
+/org.apache.oltu.oauth2.authzserver/src/test/java/org/apache/oltu/oauth2/as/OAuthRequestTest.java
+Methods Invoked: 
 	Method name: replay
 	Class origin: org.easymock.EasyMock
 	Count: 26
@@ -22,10 +22,20 @@
 	Class origin: org.easymock.EasyMock
 	Count: 19
  
+/org.apache.oltu.oauth2.authzserver/src/test/java/org/apache/oltu/oauth2/as/OAuthUnauthenticatedRequestTest.java
+Methods Invoked: 
+	Method name: replay
+	Class origin: org.easymock.EasyMock
+	Count: 16
+ 
+/org.apache.oltu.oauth2.authzserver/src/test/java/org/apache/oltu/oauth2/as/response/OAuthASResponseTest.java
+Methods Invoked: 
 	Method name: createMock
 	Class origin: org.easymock.EasyMock
 	Count: 4
  
+/org.apache.oltu.oauth2.authzserver/src/test/java/org/apache/oltu/oauth2/as/validator/TokenValidatorTest.java
+Methods Invoked: 
 	Method name: createStrictMock
 	Class origin: org.easymock.EasyMock
 	Count: 4
@@ -50,6 +60,48 @@
 	Class origin: org.easymock.EasyMock
 	Count: 2
  
+/org.apache.oltu.oauth2.client/src/test/java/org/apache/oltu/oauth2/client/response/OAuthAuthorizationResponseImplTest.java
+Methods Invoked: 
+	Method name: createStrictMock
+	Class origin: org.easymock.EasyMock
+	Count: 5
+ 
+	Method name: andStubReturn
+	Class origin: org.easymock.IExpectationSetters<java.util.Map>
+	Count: 10
+ 
+	Method name: expect
+	Class origin: org.easymock.EasyMock
+	Count: 12
+ 
+	Method name: replay
+	Class origin: org.easymock.EasyMock
+	Count: 12
+ 
+	Method name: verify
+	Class origin: org.easymock.EasyMock
+	Count: 10
+ 
+	Method name: reset
+	Class origin: org.easymock.EasyMock
+	Count: 7
+ 
+	Method name: andReturn
+	Class origin: org.easymock.IExpectationSetters<java.util.Map>
+	Count: 2
+ 
+/org.apache.oltu.oauth2.client/src/test/java/org/apache/oltu/oauth2/client/utils/TestUtils.java
+Methods Invoked: 
+	Method name: andStubReturn
+	Class origin: org.easymock.IExpectationSetters<java.lang.String>
+	Count: 3
+ 
+	Method name: expect
+	Class origin: org.easymock.EasyMock
+	Count: 3
+ 
+/org.apache.oltu.oauth2.common/src/test/java/org/apache/oltu/oauth2/common/utils/OAuthUtilsTest.java
+Methods Invoked: 
 	Method name: createMock
 	Class origin: org.easymock.EasyMock
 	Count: 3
@@ -62,6 +114,8 @@
 	Class origin: org.easymock.EasyMock
 	Count: 6
  
+/org.apache.oltu.oauth2.common/src/test/java/org/apache/oltu/oauth2/common/validators/AbstractValidatorTest.java
+Methods Invoked: 
 	Method name: createStrictMock
 	Class origin: org.easymock.EasyMock
 	Count: 2
@@ -86,6 +140,8 @@
 	Class origin: org.easymock.EasyMock
 	Count: 1
  
+/org.apache.oltu.oauth2.dynamicreg.server/src/test/java/org/apache/oltu/oauth2/ext/dynamicreg/server/request/OAuthServerRegistrationRequestTest.java
+Methods Invoked: 
 	Method name: setContentType
 	Class origin: org.springframework.mock.web.MockHttpServletRequest
 	Count: 4
@@ -94,6 +150,8 @@
 	Class origin: org.springframework.mock.web.MockHttpServletRequest
 	Count: 2
  
+/org.apache.oltu.oauth2.resourceserver/src/test/java/org/apache/oltu/oauth2/rs/OAuthAccessResourceRequestTest.java
+Methods Invoked: 
 	Method name: createMock
 	Class origin: org.easymock.EasyMock
 	Count: 23
@@ -106,46 +164,8 @@
 	Class origin: org.easymock.EasyMock
 	Count: 94
  
-	Method name: createStrictMock
-	Class origin: org.easymock.EasyMock
-	Count: 2
- 
-	Method name: andStubReturn
-	Class origin: org.easymock.IExpectationSetters<java.lang.String>
-	Count: 2
- 
-	Method name: expect
-	Class origin: org.easymock.EasyMock
-	Count: 2
- 
-	Method name: replay
-	Class origin: org.easymock.EasyMock
-	Count: 2
- 
-	Method name: verify
-	Class origin: org.easymock.EasyMock
-	Count: 2
- 
-	Method name: createStrictMock
-	Class origin: org.easymock.EasyMock
-	Count: 2
- 
-	Method name: andStubReturn
-	Class origin: org.easymock.IExpectationSetters<java.lang.String>
-	Count: 2
- 
-	Method name: expect
-	Class origin: org.easymock.EasyMock
-	Count: 2
- 
-	Method name: replay
-	Class origin: org.easymock.EasyMock
-	Count: 2
- 
-	Method name: verify
-	Class origin: org.easymock.EasyMock
-	Count: 2
- 
+/org.apache.oltu.oauth2.resourceserver/src/test/java/org/apache/oltu/oauth2/rs/extractor/BodyTokenExtractorTest.java
+Methods Invoked: 
 	Method name: createStrictMock
 	Class origin: org.easymock.EasyMock
 	Count: 2
@@ -166,6 +186,96 @@
 	Class origin: org.easymock.EasyMock
 	Count: 2
  
+/org.apache.oltu.oauth2.resourceserver/src/test/java/org/apache/oltu/oauth2/rs/extractor/QueryTokenExtractorTest.java
+Methods Invoked: 
+	Method name: createStrictMock
+	Class origin: org.easymock.EasyMock
+	Count: 2
+ 
+	Method name: andStubReturn
+	Class origin: org.easymock.IExpectationSetters<java.lang.String>
+	Count: 2
+ 
+	Method name: expect
+	Class origin: org.easymock.EasyMock
+	Count: 2
+ 
+	Method name: replay
+	Class origin: org.easymock.EasyMock
+	Count: 2
+ 
+	Method name: verify
+	Class origin: org.easymock.EasyMock
+	Count: 2
+ 
+/org.apache.oltu.oauth2.resourceserver/src/test/java/org/apache/oltu/oauth2/rs/extractor/HeaderTokenExtractorTest.java
+Methods Invoked: 
+	Method name: createStrictMock
+	Class origin: org.easymock.EasyMock
+	Count: 2
+ 
+	Method name: andStubReturn
+	Class origin: org.easymock.IExpectationSetters<java.lang.String>
+	Count: 2
+ 
+	Method name: expect
+	Class origin: org.easymock.EasyMock
+	Count: 2
+ 
+	Method name: replay
+	Class origin: org.easymock.EasyMock
+	Count: 2
+ 
+	Method name: verify
+	Class origin: org.easymock.EasyMock
+	Count: 2
+ 
+/org.apache.oltu.oauth2.resourceserver/src/test/java/org/apache/oltu/oauth2/rs/validator/QueryOAuthValidatorTest.java
+Methods Invoked: 
+	Method name: createMock
+	Class origin: org.easymock.EasyMock
+	Count: 4
+ 
+	Method name: andStubReturn
+	Class origin: org.easymock.IExpectationSetters<java.lang.String>
+	Count: 4
+ 
+	Method name: expect
+	Class origin: org.easymock.EasyMock
+	Count: 4
+ 
+	Method name: replay
+	Class origin: org.easymock.EasyMock
+	Count: 4
+ 
+	Method name: verify
+	Class origin: org.easymock.EasyMock
+	Count: 4
+ 
+/org.apache.oltu.oauth2.resourceserver/src/test/java/org/apache/oltu/oauth2/rs/validator/HeaderOAuthValidatorTest.java
+Methods Invoked: 
+	Method name: createMock
+	Class origin: org.easymock.EasyMock
+	Count: 5
+ 
+	Method name: andStubReturn
+	Class origin: org.easymock.IExpectationSetters<java.lang.String>
+	Count: 5
+ 
+	Method name: expect
+	Class origin: org.easymock.EasyMock
+	Count: 5
+ 
+	Method name: replay
+	Class origin: org.easymock.EasyMock
+	Count: 5
+ 
+	Method name: verify
+	Class origin: org.easymock.EasyMock
+	Count: 5
+ 
+/org.apache.oltu.oauth2.resourceserver/src/test/java/org/apache/oltu/oauth2/rs/validator/BodyOAuthValidatorTest.java
+Methods Invoked: 
 	Method name: createMock
 	Class origin: org.easymock.EasyMock
 	Count: 7
@@ -177,44 +287,4 @@
 	Method name: expect
 	Class origin: org.easymock.EasyMock
 	Count: 23
- 
-	Method name: createMock
-	Class origin: org.easymock.EasyMock
-	Count: 5
- 
-	Method name: andStubReturn
-	Class origin: org.easymock.IExpectationSetters<java.lang.String>
-	Count: 5
- 
-	Method name: expect
-	Class origin: org.easymock.EasyMock
-	Count: 5
- 
-	Method name: replay
-	Class origin: org.easymock.EasyMock
-	Count: 5
- 
-	Method name: verify
-	Class origin: org.easymock.EasyMock
-	Count: 5
- 
-	Method name: createMock
-	Class origin: org.easymock.EasyMock
-	Count: 4
- 
-	Method name: andStubReturn
-	Class origin: org.easymock.IExpectationSetters<java.lang.String>
-	Count: 4
- 
-	Method name: expect
-	Class origin: org.easymock.EasyMock
-	Count: 4
- 
-	Method name: replay
-	Class origin: org.easymock.EasyMock
-	Count: 4
- 
-	Method name: verify
-	Class origin: org.easymock.EasyMock
-	Count: 4
  

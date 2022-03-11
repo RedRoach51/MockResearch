@@ -1,3 +1,5 @@
+/ode-bpel-runtime/src/test/java/org/apache/ode/bpel/runtime/MockBpelServer.java
+Methods Invoked: 
 	Method name: bind
 	Class origin: org.springframework.mock.jndi.SimpleNamingContextBuilder
 	Count: 1
@@ -6,6 +8,8 @@
 	Class origin: org.springframework.mock.jndi.SimpleNamingContextBuilder
 	Count: 1
  
+/ode-bpel-store/src/test/java/org/apache/ode/store/hib/DaoTest.java
+Methods Invoked: 
 	Method name: bind
 	Class origin: org.springframework.mock.jndi.SimpleNamingContextBuilder
 	Count: 1
@@ -14,6 +18,8 @@
 	Class origin: org.springframework.mock.jndi.SimpleNamingContextBuilder
 	Count: 1
  
+/ode-bpel-test/src/main/java/org/apache/ode/test/BPELTestAbstract.java
+Methods Invoked: 
 	Method name: bind
 	Class origin: org.springframework.mock.jndi.SimpleNamingContextBuilder
 	Count: 1
@@ -22,6 +28,8 @@
 	Class origin: org.springframework.mock.jndi.SimpleNamingContextBuilder
 	Count: 1
  
+/ode-dao-hibernate/src/test/java/org/apache/ode/daohib/bpel/BaseTestDAO.java
+Methods Invoked: 
 	Method name: bind
 	Class origin: org.springframework.mock.jndi.SimpleNamingContextBuilder
 	Count: 1

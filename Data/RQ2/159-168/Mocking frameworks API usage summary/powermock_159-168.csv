@@ -1,0 +1,4 @@
+method, origin, count
+whenNew,org.powermock.api.mockito.PowerMockito,3
+doAnswer,org.powermock.api.mockito.PowerMockito,3
+mockStatic,org.powermock.api.mockito.PowerMockito,1

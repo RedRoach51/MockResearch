@@ -1,0 +1,3 @@
+/opennlp-tools/src/test/java/opennlp/tools/ml/TrainerFactoryTest.java
+/opennlp-tools/src/test/java/opennlp/tools/namefind/TokenNameFinderEvaluatorTest.java
+	opennlp.tools.namefind.TokenNameFinder

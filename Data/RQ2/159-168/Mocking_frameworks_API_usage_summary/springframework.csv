@@ -1,6 +1,0 @@
-method, origin, count
-bind,org.springframework.mock.jndi.SimpleNamingContextBuilder,4
-emptyActivatedContextBuilder,org.springframework.mock.jndi.SimpleNamingContextBuilder,4
-setAttribute,org.springframework.mock.web.MockHttpServletRequest,4
-setContentType,org.springframework.mock.web.MockHttpServletRequest,4
-setContent,org.springframework.mock.web.MockHttpServletRequest,2

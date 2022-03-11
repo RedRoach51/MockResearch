@@ -1,0 +1,85 @@
+/org.apache.oltu.oauth2.authzserver/src/test/java/org/apache/oltu/oauth2/as/OauthMockRequestBuilder.java
+	javax.servlet.http.HttpServletRequest
+/org.apache.oltu.oauth2.authzserver/src/test/java/org/apache/oltu/oauth2/as/OAuthRequestTest.java
+/org.apache.oltu.oauth2.authzserver/src/test/java/org/apache/oltu/oauth2/as/OAuthUnauthenticatedRequestTest.java
+/org.apache.oltu.oauth2.authzserver/src/test/java/org/apache/oltu/oauth2/as/response/OAuthASResponseTest.java
+	javax.servlet.http.HttpServletRequest
+	javax.servlet.http.HttpServletRequest
+	javax.servlet.http.HttpServletRequest
+	javax.servlet.http.HttpServletRequest
+/org.apache.oltu.oauth2.authzserver/src/test/java/org/apache/oltu/oauth2/as/validator/TokenValidatorTest.java
+	javax.servlet.http.HttpServletRequest
+	javax.servlet.http.HttpServletRequest
+	javax.servlet.http.HttpServletRequest
+	javax.servlet.http.HttpServletRequest
+/org.apache.oltu.oauth2.client/src/test/java/org/apache/oltu/oauth2/client/response/OAuthAuthorizationResponseImplTest.java
+	javax.servlet.http.HttpServletRequest
+	javax.servlet.http.HttpServletRequest
+	javax.servlet.http.HttpServletRequest
+	javax.servlet.http.HttpServletRequest
+	javax.servlet.http.HttpServletRequest
+/org.apache.oltu.oauth2.client/src/test/java/org/apache/oltu/oauth2/client/utils/TestUtils.java
+/org.apache.oltu.oauth2.common/src/test/java/org/apache/oltu/oauth2/common/utils/OAuthUtilsTest.java
+	javax.servlet.http.HttpServletRequest
+	javax.servlet.http.HttpServletRequest
+	javax.servlet.http.HttpServletRequest
+/org.apache.oltu.oauth2.common/src/test/java/org/apache/oltu/oauth2/common/validators/AbstractValidatorTest.java
+	javax.servlet.http.HttpServletRequest
+	javax.servlet.http.HttpServletRequest
+/org.apache.oltu.oauth2.dynamicreg.server/src/test/java/org/apache/oltu/oauth2/ext/dynamicreg/server/request/OAuthServerRegistrationRequestTest.java
+	javax.servlet.http.HttpServletRequest
+	javax.servlet.http.HttpServletRequest
+	javax.servlet.http.HttpServletRequest
+	javax.servlet.http.HttpServletRequest
+/org.apache.oltu.oauth2.resourceserver/src/test/java/org/apache/oltu/oauth2/rs/OAuthAccessResourceRequestTest.java
+	javax.servlet.http.HttpServletRequest
+	javax.servlet.http.HttpServletRequest
+	javax.servlet.http.HttpServletRequest
+	javax.servlet.http.HttpServletRequest
+	javax.servlet.http.HttpServletRequest
+	javax.servlet.http.HttpServletRequest
+	javax.servlet.http.HttpServletRequest
+	javax.servlet.http.HttpServletRequest
+	javax.servlet.http.HttpServletRequest
+	javax.servlet.http.HttpServletRequest
+	javax.servlet.http.HttpServletRequest
+	javax.servlet.http.HttpServletRequest
+	javax.servlet.http.HttpServletRequest
+	javax.servlet.http.HttpServletRequest
+	javax.servlet.http.HttpServletRequest
+	javax.servlet.http.HttpServletRequest
+	javax.servlet.http.HttpServletRequest
+	javax.servlet.http.HttpServletRequest
+	javax.servlet.http.HttpServletRequest
+	javax.servlet.http.HttpServletRequest
+	javax.servlet.http.HttpServletRequest
+	javax.servlet.http.HttpServletRequest
+	javax.servlet.http.HttpServletRequest
+/org.apache.oltu.oauth2.resourceserver/src/test/java/org/apache/oltu/oauth2/rs/extractor/BodyTokenExtractorTest.java
+	javax.servlet.http.HttpServletRequest
+	javax.servlet.http.HttpServletRequest
+/org.apache.oltu.oauth2.resourceserver/src/test/java/org/apache/oltu/oauth2/rs/extractor/QueryTokenExtractorTest.java
+	javax.servlet.http.HttpServletRequest
+	javax.servlet.http.HttpServletRequest
+/org.apache.oltu.oauth2.resourceserver/src/test/java/org/apache/oltu/oauth2/rs/extractor/HeaderTokenExtractorTest.java
+	javax.servlet.http.HttpServletRequest
+	javax.servlet.http.HttpServletRequest
+/org.apache.oltu.oauth2.resourceserver/src/test/java/org/apache/oltu/oauth2/rs/validator/QueryOAuthValidatorTest.java
+	javax.servlet.http.HttpServletRequest
+	javax.servlet.http.HttpServletRequest
+	javax.servlet.http.HttpServletRequest
+	javax.servlet.http.HttpServletRequest
+/org.apache.oltu.oauth2.resourceserver/src/test/java/org/apache/oltu/oauth2/rs/validator/HeaderOAuthValidatorTest.java
+	javax.servlet.http.HttpServletRequest
+	javax.servlet.http.HttpServletRequest
+	javax.servlet.http.HttpServletRequest
+	javax.servlet.http.HttpServletRequest
+	javax.servlet.http.HttpServletRequest
+/org.apache.oltu.oauth2.resourceserver/src/test/java/org/apache/oltu/oauth2/rs/validator/BodyOAuthValidatorTest.java
+	javax.servlet.http.HttpServletRequest
+	javax.servlet.http.HttpServletRequest
+	javax.servlet.http.HttpServletRequest
+	javax.servlet.http.HttpServletRequest
+	javax.servlet.http.HttpServletRequest
+	javax.servlet.http.HttpServletRequest
+	javax.servlet.http.HttpServletRequest

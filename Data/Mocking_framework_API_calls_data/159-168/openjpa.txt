@@ -1,11 +1,17 @@
+/openjpa-jdbc/src/test/java/org/apache/openjpa/jdbc/kernel/TableJDBCSeqTest.java
+Methods Invoked: 
 	Method name: mock
 	Class origin: org.jmock.Mockery
 	Count: 2
  
+/openjpa-jdbc/src/test/java/org/apache/openjpa/jdbc/sql/TestDB2Dictionary.java
+Methods Invoked: 
 	Method name: mock
 	Class origin: org.jmock.Mockery
 	Count: 6
  
+/openjpa-jdbc/src/test/java/org/apache/openjpa/jdbc/sql/TestDBDictionaryGeneratedSQL.java
+Methods Invoked: 
 	Method name: mock
 	Class origin: org.jmock.Mockery
 	Count: 6
@@ -26,14 +32,20 @@
 	Class origin: org.jmock.AbstractExpectations
 	Count: 6
  
+/openjpa-jdbc/src/test/java/org/apache/openjpa/jdbc/sql/TestHerdDBDictionary.java
+Methods Invoked: 
 	Method name: mock
 	Class origin: org.jmock.Mockery
 	Count: 5
  
+/openjpa-jdbc/src/test/java/org/apache/openjpa/jdbc/sql/TestMySQLDictionary.java
+Methods Invoked: 
 	Method name: mock
 	Class origin: org.jmock.Mockery
 	Count: 4
  
+/openjpa-kubernetes/src/test/java/org/apache/openjpa/event/kubernetes/KubernetesTCPRemoteCommitProviderTest.java
+Methods Invoked: 
 	Method name: getClient
 	Class origin: io.fabric8.kubernetes.client.server.mock.KubernetesServer
 	Count: 2

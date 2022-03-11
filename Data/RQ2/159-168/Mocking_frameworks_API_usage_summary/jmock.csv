@@ -1,6 +1,0 @@
-method, origin, count
-mock,org.jmock.Mockery,23
-checking,org.jmock.Mockery,6
-allowing,org.jmock.AbstractExpectations,12
-will,org.jmock.AbstractExpectations,6
-returnValue,org.jmock.AbstractExpectations,6

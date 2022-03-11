@@ -1,0 +1,169 @@
+/org.apache.oltu.oauth2.authzserver/src/test/java/org/apache/oltu/oauth2/as/OauthMockRequestBuilder.java
+	javax.servlet.http.HttpServletRequest
+	org.apache.oltu.oauth2.common.OAuth
+	org.easymock.EasyMock.createMock
+	org.easymock.EasyMock.expect
+/org.apache.oltu.oauth2.authzserver/src/test/java/org/apache/oltu/oauth2/as/OAuthRequestTest.java
+	org.apache.commons.codec.binary.Base64
+	org.apache.oltu.oauth2.as.request.OAuthAuthzRequest
+	org.apache.oltu.oauth2.as.request.OAuthRequest
+	org.apache.oltu.oauth2.as.request.OAuthTokenRequest
+	org.apache.oltu.oauth2.common.OAuth
+	org.apache.oltu.oauth2.common.error.OAuthError
+	org.apache.oltu.oauth2.common.exception.OAuthProblemException
+	org.apache.oltu.oauth2.common.exception.OAuthSystemException
+	org.apache.oltu.oauth2.common.message.types.GrantType
+	org.apache.oltu.oauth2.common.message.types.ResponseType
+	org.apache.oltu.oauth2.common.utils.OAuthUtils
+	org.junit.Test
+	javax.servlet.http.HttpServletRequest
+	java.util.Set
+	org.easymock.EasyMock.replay
+	org.easymock.EasyMock.verify
+	org.junit.Assert
+/org.apache.oltu.oauth2.authzserver/src/test/java/org/apache/oltu/oauth2/as/OAuthUnauthenticatedRequestTest.java
+	javax.servlet.http.HttpServletRequest
+	org.apache.oltu.oauth2.as.request.OAuthUnauthenticatedTokenRequest
+	org.apache.oltu.oauth2.common.OAuth
+	org.apache.oltu.oauth2.common.error.OAuthError
+	org.apache.oltu.oauth2.common.exception.OAuthProblemException
+	org.apache.oltu.oauth2.common.exception.OAuthSystemException
+	org.apache.oltu.oauth2.common.message.types.GrantType
+	org.junit.Test
+	org.easymock.EasyMock.replay
+	org.easymock.EasyMock.verify
+	org.junit.Assert.assertEquals
+	org.junit.Assert.fail
+/org.apache.oltu.oauth2.authzserver/src/test/java/org/apache/oltu/oauth2/as/response/OAuthASResponseTest.java
+	org.easymock.EasyMock.createMock
+	org.easymock.EasyMock.expect
+	org.easymock.EasyMock.replay
+	org.junit.Assert.assertEquals
+	javax.servlet.http.HttpServletRequest
+	org.apache.oltu.oauth2.common.OAuth
+	org.apache.oltu.oauth2.common.error.OAuthError
+	org.apache.oltu.oauth2.common.exception.OAuthProblemException
+	org.apache.oltu.oauth2.common.message.OAuthResponse
+	org.junit.Test
+/org.apache.oltu.oauth2.authzserver/src/test/java/org/apache/oltu/oauth2/as/validator/TokenValidatorTest.java
+	javax.servlet.http.HttpServletRequest
+	org.apache.oltu.oauth2.as.validator.TokenValidator
+	org.apache.oltu.oauth2.common.OAuth
+	org.apache.oltu.oauth2.common.exception.OAuthProblemException
+	org.junit.Assert
+	org.junit.Test
+	org.easymock.EasyMock.createStrictMock
+	org.easymock.EasyMock.expect
+	org.easymock.EasyMock.replay
+	org.easymock.EasyMock.reset
+	org.easymock.EasyMock.verify
+/org.apache.oltu.oauth2.client/src/test/java/org/apache/oltu/oauth2/client/response/OAuthAuthorizationResponseImplTest.java
+	java.util.HashMap
+	java.util.Map
+	javax.servlet.http.HttpServletRequest
+	org.junit.Assert
+	org.junit.Test
+	org.apache.oltu.oauth2.client.response.OAuthAuthzResponse
+	org.apache.oltu.oauth2.client.utils.TestUtils
+	org.apache.oltu.oauth2.common.OAuth
+	org.apache.oltu.oauth2.common.error.OAuthError
+	org.apache.oltu.oauth2.common.exception.OAuthProblemException
+	org.easymock.EasyMock.createStrictMock
+	org.easymock.EasyMock.expect
+	org.easymock.EasyMock.replay
+	org.easymock.EasyMock.reset
+	org.easymock.EasyMock.verify
+	org.junit.Assert.fail
+/org.apache.oltu.oauth2.client/src/test/java/org/apache/oltu/oauth2/client/utils/TestUtils.java
+	org.easymock.EasyMock.expect
+	javax.servlet.http.HttpServletRequest
+	org.apache.oltu.oauth2.common.error.OAuthError
+/org.apache.oltu.oauth2.common/src/test/java/org/apache/oltu/oauth2/common/utils/OAuthUtilsTest.java
+	org.apache.commons.codec.binary.Base64
+	org.apache.oltu.oauth2.common.OAuth
+	org.apache.oltu.oauth2.common.error.OAuthError
+	org.apache.oltu.oauth2.common.exception.OAuthProblemException
+	org.junit.Ignore
+	org.junit.Test
+	javax.servlet.http.HttpServletRequest
+	java.io.ByteArrayInputStream
+	java.io.InputStream
+	java.util
+	org.easymock.EasyMock
+	org.junit.Assert
+/org.apache.oltu.oauth2.common/src/test/java/org/apache/oltu/oauth2/common/validators/AbstractValidatorTest.java
+	javax.servlet.http.HttpServletRequest
+	org.apache.oltu.oauth2.common.OAuth
+	org.apache.oltu.oauth2.common.exception.OAuthProblemException
+	org.apache.oltu.oauth2.common.validators.AbstractValidator
+	org.junit.Test
+	org.easymock.EasyMock.createStrictMock
+	org.easymock.EasyMock.expect
+	org.easymock.EasyMock.replay
+	org.easymock.EasyMock.reset
+	org.easymock.EasyMock.verify
+/org.apache.oltu.oauth2.dynamicreg.server/src/test/java/org/apache/oltu/oauth2/ext/dynamicreg/server/request/OAuthServerRegistrationRequestTest.java
+	org.junit.Assert.assertEquals
+	org.apache.oltu.oauth2.common.OAuth
+	org.apache.oltu.oauth2.common.exception.OAuthProblemException
+	org.apache.oltu.oauth2.utils.test.FileUtils
+	org.junit.Test
+	org.springframework.mock.web.MockHttpServletRequest
+/org.apache.oltu.oauth2.resourceserver/src/test/java/org/apache/oltu/oauth2/rs/OAuthAccessResourceRequestTest.java
+	org.easymock.EasyMock
+	org.junit.Assert.fail
+	javax.servlet.http.HttpServletRequest
+	org.apache.oltu.oauth2.common.OAuth
+	org.apache.oltu.oauth2.common.error.OAuthError
+	org.apache.oltu.oauth2.common.exception.OAuthProblemException
+	org.apache.oltu.oauth2.common.message.types.ParameterStyle
+	org.apache.oltu.oauth2.rs.request.OAuthAccessResourceRequest
+	org.junit.Assert
+	org.junit.Test
+/org.apache.oltu.oauth2.resourceserver/src/test/java/org/apache/oltu/oauth2/rs/extractor/BodyTokenExtractorTest.java
+	org.apache.oltu.oauth2.common.OAuth
+	org.junit.Test
+	javax.servlet.http.HttpServletRequest
+	org.easymock.EasyMock
+	org.junit.Assert.assertEquals
+	org.junit.Assert.assertNull
+/org.apache.oltu.oauth2.resourceserver/src/test/java/org/apache/oltu/oauth2/rs/extractor/QueryTokenExtractorTest.java
+	org.junit.Test
+	javax.servlet.http.HttpServletRequest
+	org.easymock.EasyMock
+	org.junit.Assert.assertEquals
+	org.junit.Assert.assertNull
+/org.apache.oltu.oauth2.resourceserver/src/test/java/org/apache/oltu/oauth2/rs/extractor/HeaderTokenExtractorTest.java
+	org.apache.oltu.oauth2.common.OAuth
+	org.junit.Test
+	javax.servlet.http.HttpServletRequest
+	org.easymock.EasyMock
+	org.junit.Assert.assertEquals
+	org.junit.Assert.assertNull
+/org.apache.oltu.oauth2.resourceserver/src/test/java/org/apache/oltu/oauth2/rs/validator/QueryOAuthValidatorTest.java
+	org.apache.oltu.oauth2.common.OAuth
+	org.apache.oltu.oauth2.common.error.OAuthError
+	org.apache.oltu.oauth2.common.exception.OAuthProblemException
+	org.apache.oltu.oauth2.common.utils.OAuthUtils
+	org.junit.Test
+	javax.servlet.http.HttpServletRequest
+	org.easymock.EasyMock
+	org.junit.Assert
+/org.apache.oltu.oauth2.resourceserver/src/test/java/org/apache/oltu/oauth2/rs/validator/HeaderOAuthValidatorTest.java
+	org.apache.oltu.oauth2.common.OAuth
+	org.apache.oltu.oauth2.common.error.OAuthError
+	org.apache.oltu.oauth2.common.exception.OAuthProblemException
+	org.apache.oltu.oauth2.common.utils.OAuthUtils
+	org.junit.Test
+	javax.servlet.http.HttpServletRequest
+	org.easymock.EasyMock
+	org.junit.Assert
+/org.apache.oltu.oauth2.resourceserver/src/test/java/org/apache/oltu/oauth2/rs/validator/BodyOAuthValidatorTest.java
+	org.apache.oltu.oauth2.common.OAuth
+	org.apache.oltu.oauth2.common.error.OAuthError
+	org.apache.oltu.oauth2.common.exception.OAuthProblemException
+	org.junit.Test
+	javax.servlet.http.HttpServletRequest
+	org.easymock.EasyMock
+	org.junit.Assert.assertEquals
+	org.junit.Assert.fail

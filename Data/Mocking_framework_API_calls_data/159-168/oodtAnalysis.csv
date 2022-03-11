@@ -1,8 +1,8 @@
 method, origin, count
 createMock,org.easymock.EasyMock,33
-initMocks,org.mockito.MockitoAnnotations,2
-thenReturn,org.mockito.stubbing.OngoingStubbing<java.lang.String>,10
-when,org.mockito.Mockito,28
+initMocks,org.mockito.MockitoAnnotations,3
+thenReturn,org.mockito.stubbing.OngoingStubbing<java.lang.String>,12
+when,org.mockito.Mockito,38
 andReturn,org.easymock.IExpectationSetters<java.lang.Boolean>,5
 expect,org.easymock.EasyMock,11
 replay,org.easymock.EasyMock,14

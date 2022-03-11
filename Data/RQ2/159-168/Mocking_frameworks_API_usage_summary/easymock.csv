@@ -1,9 +1,0 @@
-method, origin, count
-createMock,org.easymock.EasyMock,80
-andStubReturn,org.easymock.IExpectationSetters<java.lang.String>,142
-expect,org.easymock.EasyMock,175
-replay,org.easymock.EasyMock,78
-verify,org.easymock.EasyMock,44
-createStrictMock,org.easymock.EasyMock,15
-reset,org.easymock.EasyMock,3
-andReturn,org.easymock.IExpectationSetters<java.lang.Boolean>,5

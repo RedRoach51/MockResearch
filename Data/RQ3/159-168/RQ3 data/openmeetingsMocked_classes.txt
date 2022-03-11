@@ -1,7 +1,0 @@
-org.kurento.client.WebRtcEndpoint
-org.kurento.client.RecorderEndpoint
-org.kurento.client.PlayerEndpoint
-org.apache.openmeetings.IApplication
-org.apache.wicket.injection.Injector
-org.kurento.client.MediaPipeline
-org.kurento.client.MediaPipeline

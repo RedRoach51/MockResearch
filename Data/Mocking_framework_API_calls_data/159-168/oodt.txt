@@ -1,7 +1,11 @@
+/cas-crawler/src/test/java/org/apache/oodt/cas/crawl/TestProductCrawler.java
+Methods Invoked: 
 	Method name: createMock
 	Class origin: org.easymock.EasyMock
 	Count: 22
  
+/cas-filemgr/src/test/java/org/apache/oodt/cas/filemgr/datatransfer/TestS3DataTransferer.java
+Methods Invoked: 
 	Method name: initMocks
 	Class origin: org.mockito.MockitoAnnotations
 	Count: 1
@@ -14,6 +18,8 @@
 	Class origin: org.mockito.Mockito
 	Count: 6
  
+/cas-filemgr/src/test/java/org/apache/oodt/cas/filemgr/metadata/extractors/examples/TestDateTimeExpandMetExtractor.java
+Methods Invoked: 
 	Method name: initMocks
 	Class origin: org.mockito.MockitoAnnotations
 	Count: 1
@@ -26,6 +32,26 @@
 	Class origin: org.mockito.Mockito
 	Count: 22
  
+/cas-metadata/src/test/java/org/apache/oodt/cas/metadata/extractors/TestDataSourceMetExtractor.java
+Methods Invoked: 
+	Method name: initMocks
+	Class origin: org.mockito.MockitoAnnotations
+	Count: 1
+ 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<java.sql.Connection>
+	Count: 1
+ 
+	Method name: when
+	Class origin: org.mockito.Mockito
+	Count: 10
+ 
+	Method name: thenReturn
+	Class origin: org.mockito.stubbing.OngoingStubbing<java.sql.Statement>
+	Count: 1
+ 
+/cas-pge/src/test/java/org/apache/oodt/cas/pge/TestPGETaskInstance.java
+Methods Invoked: 
 	Method name: createMock
 	Class origin: org.easymock.EasyMock
 	Count: 11
@@ -42,6 +68,8 @@
 	Class origin: org.easymock.EasyMock
 	Count: 11
  
+/cas-pge/src/test/java/org/apache/oodt/cas/pge/staging/TestFileStager.java
+Methods Invoked: 
 	Method name: createStrictMock
 	Class origin: org.easymock.EasyMock
 	Count: 3

@@ -1,0 +1,71 @@
+/ofbiz/framework/testtools/src/main/java/org/apache/ofbiz/testtools/SimpleMethodTest.java
+	javax.servlet.http.HttpServletRequest
+	javax.servlet.http.HttpServletResponse
+	javax.servlet.ServletContext
+/ofbiz/framework/base/src/test/java/org/apache/ofbiz/base/util/UtilHttpTest.java
+	javax.servlet.http.HttpServletRequest
+/ofbiz/framework/entity/src/test/java/org/apache/ofbiz/entity/util/EntitySaxReaderTests.java
+	org.apache.ofbiz.entity.Delegator
+	org.apache.ofbiz.entity.Delegator
+	org.apache.ofbiz.entity.Delegator
+	org.apache.ofbiz.entity.Delegator
+	org.apache.ofbiz.entity.GenericValue
+	org.apache.ofbiz.entity.model.ModelEntity
+/ofbiz/framework/security/src/test/java/org/apache/ofbiz/security/CsrfUtilTests.java
+	javax.servlet.http.HttpServletRequest
+	javax.servlet.http.HttpSession
+	org.apache.ofbiz.entity.GenericValue
+	javax.servlet.http.HttpServletRequest
+	javax.servlet.http.HttpSession
+	org.apache.ofbiz.entity.GenericValue
+	javax.servlet.http.HttpServletRequest
+	javax.servlet.http.HttpSession
+	javax.servlet.http.HttpSession
+/ofbiz/framework/webapp/src/test/java/org/apache/ofbiz/webapp/control/ExternalLoginKeysManagerTests.java
+	javax.servlet.http.HttpServletRequest
+	javax.servlet.http.HttpServletRequest
+	javax.servlet.http.HttpSession
+	javax.servlet.http.HttpServletRequest
+	javax.servlet.http.HttpSession
+	javax.servlet.http.HttpServletRequest
+	javax.servlet.http.HttpSession
+/ofbiz/framework/webapp/src/test/java/org/apache/ofbiz/webapp/control/RequestHandlerTests.java
+	org.apache.ofbiz.webapp.control.ConfigXMLReader.ControllerConfig
+	javax.servlet.http.HttpServletRequest
+	org.w3c.dom.Element
+	org.w3c.dom.Element
+	javax.servlet.http.HttpServletRequest
+/ofbiz/framework/webapp/src/test/java/org/apache/ofbiz/webapp/control/ControlFilterTests.java
+	javax.servlet.FilterConfig
+	javax.servlet.http.HttpSession
+	javax.servlet.http.HttpServletRequest
+	javax.servlet.http.HttpServletResponse
+	javax.servlet.FilterChain
+/ofbiz/framework/widget/src/test/java/org/apache/ofbiz/widget/model/ModelFormFieldTest.java
+	org.w3c.dom.Element
+	org.w3c.dom.Element
+	org.w3c.dom.Element
+/ofbiz/framework/widget/src/test/java/org/apache/ofbiz/widget/renderer/macro/MacroFormRendererTest.java
+	javax.servlet.http.HttpServletRequest
+	javax.servlet.http.HttpServletResponse
+	org.apache.ofbiz.widget.renderer.macro.FtlWriter
+	org.apache.ofbiz.widget.renderer.macro.RenderableFtlFormElementsBuilder
+	javax.servlet.http.HttpSession
+	freemarker.template.Template
+	freemarker.core.Environment
+	org.apache.ofbiz.widget.renderer.VisualTheme
+	org.apache.ofbiz.webapp.control.RequestHandler
+	org.apache.ofbiz.widget.model.ModelFormField.ContainerField
+	org.apache.ofbiz.widget.model.ModelFormField
+	java.lang.String
+	org.apache.ofbiz.widget.renderer.macro.MacroFormRenderer
+/ofbiz/framework/widget/src/test/java/org/apache/ofbiz/widget/renderer/macro/RenderableFtlFormElementsBuilderTest.java
+	org.apache.ofbiz.widget.renderer.VisualTheme
+	org.apache.ofbiz.webapp.control.RequestHandler
+	javax.servlet.http.HttpServletRequest
+	javax.servlet.http.HttpServletResponse
+	javax.servlet.http.HttpSession
+	org.apache.ofbiz.widget.model.ModelTheme
+	org.apache.ofbiz.widget.model.ModelFormField.ContainerField
+	org.apache.ofbiz.widget.model.ModelFormField
+	org.apache.ofbiz.widget.renderer.macro.RenderableFtlFormElementsBuilder

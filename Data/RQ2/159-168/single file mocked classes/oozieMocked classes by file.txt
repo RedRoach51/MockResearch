@@ -1,0 +1,192 @@
+/oozie-client/src/test/java/org/apache/oozie/cli/TestOozieCLIMethods.java
+	org.apache.oozie.client.BundleJob
+	org.apache.oozie.client.CoordinatorJob
+	org.apache.oozie.client.WorkflowJob
+	org.apache.oozie.client.CoordinatorAction
+	org.apache.oozie.client.WorkflowAction
+	org.apache.oozie.client.BulkResponse
+/oozie-core/src/test/java/org/apache/oozie/action/hadoop/TestYarnACLHandler.java
+	org.apache.hadoop.yarn.api.records.ContainerLaunchContext
+	org.mockito.ArgumentCaptor<java.util.Map<org.apache.hadoop.yarn.api.records.ApplicationAccessType,java.lang.String>>
+/oozie-core/src/test/java/org/apache/oozie/action/hadoop/TestHCatCredentials.java
+	org.apache.oozie.action.hadoop.HCatCredentialHelper
+	org.apache.oozie.action.hadoop.HCatCredentialHelper
+	org.apache.oozie.action.hadoop.HCatCredentialHelper
+/oozie-core/src/test/java/org/apache/oozie/action/hadoop/TestScriptLanguageActionExecutor.java
+	org.apache.oozie.action.ActionExecutor.Context
+	org.jdom2.Element
+	org.jdom2.Element
+	org.apache.hadoop.fs.Path
+	org.apache.hadoop.conf.Configuration
+	org.apache.hadoop.fs.FSDataOutputStream
+	org.apache.hadoop.fs.FileSystem
+	org.apache.hadoop.conf.Configuration
+	org.apache.oozie.service.Services
+/oozie-core/src/test/java/org/apache/oozie/action/hadoop/TestLauncherAMCallbackNotifier.java
+/oozie-core/src/test/java/org/apache/oozie/action/hadoop/TestCredentials.java
+	org.apache.oozie.action.hadoop.ActionExecutorTestCase.Context
+	org.apache.oozie.WorkflowJobBean
+/oozie-core/src/test/java/org/apache/oozie/action/hadoop/TestYarnApplicationIdFinder.java
+	org.apache.oozie.action.hadoop.MapReduceActionExecutor.HadoopJobIdFinder
+	org.apache.oozie.action.hadoop.MapReduceActionExecutor.YarnApplicationReportReader
+	org.apache.oozie.WorkflowActionBean
+	org.apache.hadoop.yarn.api.records.ApplicationReport
+	org.apache.hadoop.yarn.api.records.ApplicationId
+	org.apache.hadoop.yarn.api.records.ApplicationReport
+	org.apache.hadoop.yarn.api.records.ApplicationReport
+	org.apache.hadoop.yarn.api.records.ApplicationId
+	org.apache.hadoop.yarn.api.records.ApplicationReport
+	org.apache.hadoop.yarn.api.records.ApplicationReport
+	org.apache.hadoop.yarn.api.records.ApplicationId
+	org.apache.hadoop.yarn.api.records.ApplicationReport
+	org.apache.hadoop.yarn.api.records.ApplicationId
+	org.apache.hadoop.yarn.api.records.ApplicationReport
+	org.apache.hadoop.yarn.api.records.ApplicationId
+/oozie-core/src/test/java/org/apache/oozie/action/ssh/TestSshActionExecutor.java
+	org.apache.oozie.action.ssh.TestSshActionExecutor.Context
+/oozie-core/src/test/java/org/apache/oozie/client/TestWorkflowClient.java
+	java.net.HttpURLConnection
+/oozie-core/src/test/java/org/apache/oozie/client/TestOozieClientWithFakeServlet.java
+	java.net.HttpURLConnection
+/oozie-core/src/test/java/org/apache/oozie/command/coord/TestCoordActionNotificationXCommand.java
+	org.apache.oozie.CoordinatorActionBean
+/oozie-core/src/test/java/org/apache/oozie/command/wf/TestWorkflowNotificationXCommand.java
+	org.apache.oozie.workflow.WorkflowInstance
+	org.apache.oozie.WorkflowJobBean
+	org.apache.oozie.workflow.WorkflowInstance
+	org.apache.oozie.WorkflowJobBean
+/oozie-core/src/test/java/org/apache/oozie/service/TestZKLocksService.java
+	org.apache.curator.framework.recipes.locks.InterProcessReadWriteLock
+	org.apache.curator.framework.recipes.locks.InterProcessMutex
+/oozie-core/src/test/java/org/apache/oozie/service/TestLiteWorkflowStoreService.java
+	org.apache.oozie.workflow.lite.NodeHandler.Context
+	org.apache.oozie.workflow.lite.NodeDef
+/oozie-core/src/test/java/org/apache/oozie/service/TestAsyncXCommandExecutor.java
+	java.util.concurrent.ThreadPoolExecutor
+	java.util.concurrent.ScheduledThreadPoolExecutor
+	org.apache.oozie.service.CallableQueueService.CallableWrapper<?>
+	org.apache.oozie.service.CallableQueueService
+	org.apache.oozie.service.CallableQueueService.CallableWrapper
+	org.apache.oozie.util.XCallable
+	org.apache.oozie.service.CallableQueueService.CallableWrapper
+	org.apache.oozie.service.CallableQueueService.CallableWrapper
+	org.apache.oozie.util.XCallable
+	org.apache.oozie.util.XCallable
+	org.apache.oozie.util.XCallable
+	org.apache.oozie.service.CallableQueueService.CallableWrapper
+	org.apache.oozie.util.XCallable
+	org.apache.oozie.util.XCallable
+	org.apache.oozie.service.CallableQueueService.CallableWrapper
+	org.apache.oozie.service.CallableQueueService.CallableWrapper
+	org.apache.oozie.service.AsyncXCommandExecutor.ScheduledXCallable
+	org.apache.oozie.service.AsyncXCommandExecutor.AccessibleRunnableScheduledFuture
+	org.apache.oozie.service.CallableQueueService.CallableWrapper
+/oozie-core/src/test/java/org/apache/oozie/service/TestShareLibService.java
+	org.apache.hadoop.fs.Path
+	org.apache.hadoop.fs.FileSystem
+	org.apache.hadoop.fs.Path
+	org.apache.hadoop.fs.FileSystem
+	org.apache.hadoop.fs.Path
+	org.apache.hadoop.fs.FileStatus
+/oozie-core/src/test/java/org/apache/oozie/servlet/TestHostnameFilter.java
+	javax.servlet.ServletRequest
+	javax.servlet.ServletResponse
+	javax.servlet.ServletRequest
+	javax.servlet.ServletResponse
+/oozie-core/src/test/java/org/apache/oozie/servlet/TestHttpResponseHeaderFilter.java
+	javax.servlet.ServletRequest
+	javax.servlet.http.HttpServletResponse
+/oozie-core/src/test/java/org/apache/oozie/servlet/TestErrorServlet.java
+	javax.servlet.http.HttpServletRequest
+	javax.servlet.http.HttpServletResponse
+/oozie-core/src/test/java/org/apache/oozie/util/TestBufferDrainer.java
+	java.lang.Process
+/oozie-core/src/test/java/org/apache/oozie/util/db/TestOperationRetryHandler.java
+	java.util.concurrent.Callable
+	java.util.concurrent.Callable
+	java.util.concurrent.Callable
+	java.util.concurrent.Callable
+	java.util.concurrent.Callable
+	java.util.concurrent.Callable
+	java.util.concurrent.Callable
+/oozie-fluent-job-api/src/test/java/org/apache/oozie/fluentjob/api/action/TestNodeBuilderBaseImpl.java
+/oozie-server/src/test/java/org/apache/oozie/server/TestEmbeddedOozieServer.java
+	org.apache.oozie.server.JspHandler
+	org.apache.oozie.service.Services
+	org.apache.oozie.server.SSLServerConnectorFactory
+	org.eclipse.jetty.server.Server
+	org.eclipse.jetty.server.ServerConnector
+	org.apache.oozie.service.ConfigurationService
+	org.apache.hadoop.conf.Configuration
+	org.eclipse.jetty.rewrite.handler.RewriteHandler
+	org.eclipse.jetty.webapp.WebAppContext
+	org.apache.oozie.server.ServletMapper
+	org.apache.oozie.server.FilterMapper
+	org.eclipse.jetty.security.ConstraintSecurityHandler
+/oozie-server/src/test/java/org/apache/oozie/server/TestJspHandler.java
+	java.io.File
+	org.eclipse.jetty.webapp.WebAppContext
+	org.apache.oozie.server.WebRootResourceLocator
+/oozie-server/src/test/java/org/apache/oozie/server/TestSSLServerConnectorFactory.java
+	org.eclipse.jetty.util.ssl.SslContextFactory.Server
+	org.apache.oozie.server.SSLServerConnectorFactory
+	org.eclipse.jetty.server.Server
+	org.eclipse.jetty.server.ServerConnector
+/oozie-server/src/test/java/org/apache/oozie/server/guice/TestConstraintSecurityHandlerProvider.java
+	org.apache.oozie.service.Services
+	org.apache.oozie.service.ConfigurationService
+	org.apache.hadoop.conf.Configuration
+/oozie-sharelib-oozie/src/test/java/org/apache/oozie/action/hadoop/TestHdfsOperations.java
+	org.apache.oozie.action.hadoop.SequenceFileWriterFactory
+	org.apache.hadoop.io.SequenceFile.Writer
+	org.apache.hadoop.conf.Configuration
+	org.apache.oozie.action.hadoop.HdfsOperations
+/oozie-sharelib-oozie/src/test/java/org/apache/oozie/action/hadoop/TestPrepareActionsHandler.java
+	org.apache.oozie.action.hadoop.LauncherURIHandlerFactory
+	org.apache.oozie.action.hadoop.LauncherURIHandler
+/oozie-sharelib-oozie/src/test/java/org/apache/oozie/action/hadoop/TestLocalFsOperations.java
+/oozie-sharelib-oozie/src/test/java/org/apache/oozie/action/hadoop/TestLauncherAMUtils.java
+	org.apache.hadoop.conf.Configuration
+/oozie-sharelib-oozie/src/test/java/org/apache/oozie/action/hadoop/TestLauncherAM.java
+	org.apache.oozie.action.hadoop.AMRMClientAsyncFactory
+	org.apache.hadoop.yarn.client.api.async.AMRMClientAsync<?>
+	org.apache.oozie.action.hadoop.AMRMCallBackHandler
+	org.apache.oozie.action.hadoop.HdfsOperations
+	org.apache.oozie.action.hadoop.LocalFsOperations
+	org.apache.oozie.action.hadoop.PrepareActionsHandler
+	org.apache.oozie.action.hadoop.LauncherAMCallbackNotifierFactory
+	org.apache.oozie.action.hadoop.LauncherAMCallbackNotifier
+	org.apache.oozie.action.hadoop.security.LauncherSecurityManager
+/oozie-sharelib-oozie/src/test/java/org/apache/oozie/action/hadoop/TestLauncherMain.java
+	org.apache.hadoop.yarn.client.api.YarnClient
+	org.apache.hadoop.yarn.api.records.ApplicationReport
+/oozie-tools/src/test/java/org/apache/oozie/tools/TestECPolicyDisabler.java
+	org.apache.hadoop.fs.FileSystem
+	org.apache.oozie.tools.TestECPolicyDisabler.MockDistributedFileSystem
+	org.apache.oozie.tools.TestECPolicyDisabler.MockDistributedFileSystem
+	org.apache.oozie.tools.TestECPolicyDisabler.MockDistributedFileSystem
+	org.apache.oozie.tools.TestECPolicyDisabler.MockDistributedFileSystem
+	org.apache.hadoop.fs.Path
+	org.apache.oozie.tools.TestECPolicyDisabler.MockDistributedFileSystem
+	org.apache.hadoop.hdfs.protocol.SystemErasureCodingPolicies.ReplicationPolicy
+	org.apache.oozie.tools.TestECPolicyDisabler.MockDistributedFileSystem
+	org.apache.oozie.tools.TestECPolicyDisabler.MockDistributedFileSystem
+/oozie-tools/src/test/java/org/apache/oozie/tools/FakeConnection.java
+	java.sql.Statement
+	java.sql.ResultSet
+	java.sql.DatabaseMetaData
+/oozie-tools/src/test/java/org/apache/oozie/tools/TestOozieSharelibCLI.java
+	org.apache.hadoop.fs.FileSystem
+/oozie-tools/src/test/java/org/apache/oozie/tools/diag/TestServerInfoCollector.java
+	org.apache.oozie.tools.diag.DiagOozieClient
+/oozie-tools/src/test/java/org/apache/oozie/tools/diag/TestMetricsCollector.java
+	org.apache.oozie.client.OozieClient
+/oozie-tools/src/test/java/org/apache/oozie/tools/diag/TestAppInfoCollector.java
+	org.apache.oozie.tools.diag.DiagOozieClient
+	org.apache.oozie.client.WorkflowJob
+	org.apache.oozie.client.WorkflowAction
+	org.apache.oozie.client.CoordinatorJob
+	org.apache.oozie.client.CoordinatorAction
+	org.apache.oozie.client.BundleJob
+/oozie-tools/src/test/java/org/apache/oozie/tools/diag/TestArgParser.java
+	org.apache.commons.cli.CommandLine

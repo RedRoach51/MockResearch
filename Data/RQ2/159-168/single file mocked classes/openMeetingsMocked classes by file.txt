@@ -1,0 +1,43 @@
+/openmeetings-core/src/test/java/org/apache/openmeetings/core/remote/TestRecordingFlowMocked.java
+	org.apache.openmeetings.db.dao.user.UserDao
+	org.apache.openmeetings.db.dao.room.RoomDao
+	org.apache.openmeetings.db.dao.record.RecordingDao
+	org.apache.openmeetings.db.manager.IClientManager
+	org.apache.openmeetings.IApplication
+/openmeetings-core/src/test/java/org/apache/openmeetings/core/remote/BaseMockedTest.java
+	org.kurento.client.internal.client.RomManager
+	org.kurento.client.ServerManager
+	org.apache.openmeetings.core.remote.StreamProcessorActions
+	org.apache.openmeetings.core.remote.StreamProcessorActions
+	org.kurento.client.KurentoClient
+	org.apache.openmeetings.core.remote.StreamProcessor
+	org.apache.openmeetings.core.remote.StreamProcessor
+	org.apache.openmeetings.core.remote.TestStreamProcessor
+	org.apache.openmeetings.core.remote.TestStreamProcessor
+	org.apache.openmeetings.core.remote.KurentoHandler
+	org.apache.openmeetings.core.remote.KurentoHandler
+	org.kurento.client.WebRtcEndpoint
+	org.kurento.client.RecorderEndpoint
+	org.kurento.client.PlayerEndpoint
+	org.apache.openmeetings.IApplication
+	org.apache.wicket.injection.Injector
+/openmeetings-core/src/test/java/org/apache/openmeetings/core/remote/TestSetupFlowMocked.java
+	org.kurento.client.MediaPipeline
+/openmeetings-core/src/test/java/org/apache/openmeetings/core/remote/TestRoomFlowMocked.java
+	org.apache.openmeetings.db.dao.user.UserDao
+	org.apache.openmeetings.db.dao.room.RoomDao
+	org.apache.openmeetings.db.dao.record.RecordingDao
+	org.apache.openmeetings.db.manager.IClientManager
+	org.apache.openmeetings.IApplication
+	org.kurento.client.MediaPipeline
+/openmeetings-core/src/test/java/org/apache/openmeetings/core/util/TestStrongPasswordValidator.java
+/openmeetings-db/src/test/java/org/apache/openmeetings/db/entity/file/FileItemTest.java
+/openmeetings-web/src/test/java/org/apache/openmeetings/service/scheduler/TestJob.java
+	org.apache.openmeetings.core.mail.MailHandler
+	org.apache.openmeetings.service.scheduler.ReminderJob
+/openmeetings-web/src/test/java/org/apache/openmeetings/web/app/TestUserManagerMocked.java
+	org.apache.openmeetings.db.dao.user.GroupDao
+	org.apache.openmeetings.db.dao.user.UserDao
+	org.apache.openmeetings.service.mail.EmailManager
+	org.apache.openmeetings.db.manager.IClientManager
+	org.apache.openmeetings.web.app.UserManager

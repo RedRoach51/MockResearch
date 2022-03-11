@@ -1,0 +1,18 @@
+Project Name,Mocking Framework,Used in # of Files
+ode,jmock,3
+ofbiz-framework,mockito,7
+ofbiz-framework,springframework,1
+ofbiz-framework,mockit,3
+olingo-odata4,mockito,77
+oltu,easymock,16
+oltu,springframework,1
+oodt,easymock,3
+oodt,mockito,3
+oozie,mockito,39
+oozie,powermock,2
+openjpa,jmock,6
+openjpa,fabric8,1
+openmeetings,mockito,8
+opennlp,opennlp,8
+opennlp,mockito,1
+orc,mockito,7

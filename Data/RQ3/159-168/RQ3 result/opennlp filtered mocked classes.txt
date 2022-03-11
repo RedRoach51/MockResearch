@@ -1,8 +1,8 @@
 Inside classes: 
  
-opennlp.tools.namefind.TokenNameFinder
  
  
  
 Outside classes: 
  
+opennlp.tools.namefind.TokenNameFinder
