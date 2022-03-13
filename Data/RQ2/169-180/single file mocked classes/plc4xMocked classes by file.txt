@@ -1,0 +1,99 @@
+/apache-camel/src/test/java/org/apache/plc4x/camel/MockDriver.java
+	org.apache.plc4x.java.api.PlcConnection
+	org.apache.plc4x.java.api.messages.PlcReadRequest.Builder
+	org.apache.plc4x.java.api.messages.PlcWriteRequest.Builder
+	org.apache.plc4x.java.api.messages.PlcSubscriptionRequest.Builder
+	org.apache.plc4x.java.api.messages.PlcUnsubscriptionRequest.Builder
+	org.apache.plc4x.java.spi.messages.PlcSubscriber
+	org.apache.plc4x.java.api.messages.PlcSubscriptionRequest
+/apache-camel/src/test/java/org/apache/plc4x/camel/Plc4XProducerTest.java
+	org.apache.plc4x.camel.Plc4XEndpoint
+	org.apache.plc4x.java.api.PlcConnection
+	org.apache.plc4x.java.api.messages.PlcWriteRequest.Builder
+	org.apache.camel.Exchange
+	org.apache.plc4x.java.api.PlcConnection
+/apache-camel/src/test/java/org/apache/plc4x/camel/Plc4XEndpointTest.java
+	org.apache.camel.Component
+	org.apache.camel.Processor
+/api/src/test/java/org/apache/plc4x/java/mock/ApiMockDriver.java
+	org.apache.plc4x.java.mock.MockPlcConnection
+	org.apache.plc4x.java.mock.MockPlcConnection
+/connection-cache/src/test/java/org/apache/plc4x/java/utils/connectionpool2/CachedDriverManagerIT.java
+	org.apache.plc4x.java.utils.connectionpool2.PlcConnectionFactory
+	org.apache.plc4x.java.mock.connection.MockConnection
+/connection-cache/src/test/java/org/apache/plc4x/java/utils/connectionpool2/CachedPlcConnectionTest.java
+	org.apache.plc4x.java.utils.connectionpool2.CachedDriverManager
+	org.apache.plc4x.java.api.PlcConnection
+	org.apache.plc4x.java.utils.connectionpool2.CachedDriverManager
+	org.apache.plc4x.java.api.PlcConnection
+/connection-cache/src/test/java/org/apache/plc4x/java/utils/connectionpool2/CachedDriverManagerTest.java
+	org.apache.plc4x.java.utils.connectionpool2.PlcConnectionFactory
+	org.apache.plc4x.java.utils.connectionpool2.PlcConnectionFactory
+	org.apache.plc4x.java.utils.connectionpool2.PlcConnectionFactory
+	org.apache.plc4x.java.utils.connectionpool2.PlcConnectionFactory
+	org.apache.plc4x.java.utils.connectionpool2.PlcConnectionFactory
+	org.apache.plc4x.java.utils.connectionpool2.PlcConnectionFactory
+	org.apache.plc4x.java.mock.connection.MockConnection
+	org.apache.plc4x.java.api.messages.PlcReadRequest.Builder
+	org.apache.plc4x.java.utils.connectionpool2.PlcConnectionFactory
+	org.apache.plc4x.java.mock.connection.MockConnection
+	org.apache.plc4x.java.api.messages.PlcReadRequest.Builder
+	org.apache.plc4x.java.utils.connectionpool2.PlcConnectionFactory
+	org.apache.plc4x.java.mock.connection.MockConnection
+	org.apache.plc4x.java.utils.connectionpool2.PlcConnectionFactory
+	org.apache.plc4x.java.mock.connection.MockConnection
+	org.apache.plc4x.java.api.messages.PlcReadRequest.Builder
+	org.apache.plc4x.java.utils.connectionpool2.PlcConnectionFactory
+	org.apache.plc4x.java.mock.connection.MockConnection
+	org.apache.plc4x.java.api.messages.PlcReadRequest.Builder
+	org.apache.plc4x.java.utils.connectionpool2.PlcConnectionFactory
+	org.apache.plc4x.java.mock.connection.MockConnection
+	org.apache.plc4x.java.api.messages.PlcReadRequest.Builder
+/connection-cache/src/test/java/org/apache/plc4x/java/utils/connectionpool2/PooledDriverManagerTest.java
+	org.apache.plc4x.java.utils.connectionpool2.CachedDriverManager
+/connection-pool/src/test/java/org/apache/plc4x/java/utils/connectionpool/PooledDummyDriver.java
+	org.apache.plc4x.java.api.PlcDriver
+/connection-pool/src/test/java/org/apache/plc4x/java/utils/connectionpool/PooledPlcDriverManagerTest.java
+	org.apache.plc4x.java.api.PlcDriver
+/drivers_simulated/src/test/java/org/apache/plc4x/java/simulated/connection/SimulatedConnectionTest.java
+	org.apache.plc4x.java.simulated.connection.SimulatedDevice
+	org.apache.plc4x.java.api.model.PlcSubscriptionHandle
+	java.util.function.Consumer
+	org.apache.plc4x.java.api.model.PlcConsumerRegistration
+/opm/src/test/java/org/apache/plc4x/java/opm/ConnectedEntityTest.java
+	org.apache.plc4x.java.mock.connection.MockDevice
+/opm/src/test/java/org/apache/plc4x/java/opm/PlcEntityManagerComplexTest.java
+	org.apache.plc4x.java.PlcDriverManager
+	org.apache.plc4x.java.api.PlcConnection
+/opm/src/test/java/org/apache/plc4x/java/opm/PlcEntityInterceptorTest.java
+	org.apache.plc4x.java.mock.connection.MockDevice
+	java.util.concurrent.Callable
+	org.apache.plc4x.java.PlcDriverManager
+	org.apache.plc4x.java.api.messages.PlcReadRequest
+	org.apache.plc4x.java.api.messages.PlcReadRequest
+	java.util.concurrent.CompletableFuture
+/opm/src/test/java/org/apache/plc4x/java/opm/PlcEntityManagerTest.java
+	org.apache.plc4x.java.PlcDriverManager
+	org.apache.plc4x.java.mock.connection.MockDevice
+	org.apache.plc4x.java.mock.connection.MockDevice
+	org.apache.plc4x.java.mock.connection.MockDevice
+	org.apache.plc4x.java.mock.connection.MockDevice
+	org.apache.plc4x.java.mock.connection.MockDevice
+/scraper/src/test/java/org/apache/plc4x/java/scraper/ScraperTaskTest.java
+	org.apache.plc4x.java.mock.connection.MockDevice
+	org.apache.plc4x.java.PlcDriverManager
+/scraper/src/test/java/org/apache/plc4x/java/scraper/ScraperTest.java
+	org.apache.plc4x.java.mock.connection.MockDevice
+/scraper/src/test/java/org/apache/plc4x/java/scraper/triggeredscraper/TriggeredScraperImplTest.java
+	org.apache.plc4x.java.mock.connection.MockDevice
+	org.apache.plc4x.java.mock.connection.MockDevice
+/scraper/src/test/java/org/apache/plc4x/java/scraper/triggeredscraper/triggerhandler/TriggerConfigurationTest.java
+	org.apache.plc4x.java.scraper.triggeredscraper.TriggeredScrapeJobImpl
+/spi/src/test/java/org/apache/plc4x/java/spi/Plc4xNettyWrapperTest.java
+	org.apache.plc4x.java.spi.Plc4xProtocolBase<java.util.Date>
+	io.netty.channel.ChannelPipeline
+	io.netty.channel.ChannelHandlerContext
+	io.netty.channel.Channel
+/spi/src/test/java/org/apache/plc4x/java/spi/internal/DefaultSendRequestContextTest.java
+	java.util.function.Consumer<org.apache.plc4x.java.spi.internal.HandlerRegistration>
+	org.apache.plc4x.java.spi.Plc4xNettyWrapper.DefaultConversationContext

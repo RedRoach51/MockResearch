@@ -1,14 +1,14 @@
 project name, variety of inside mocked classes, variety of outside mocked classes, proportion of mocked classes
 ant-antlibs-props,0,0,
-orc,5,4,
+orc,5,5,
 parquet-mr,0,5,
-pdfbox,0,0,
-phoenix,34,22,
+pdfbox,0,2,
+phoenix,0,0,
 pig,0,0,
 pivot,0,0,
-plc4x,19,5,
-poi,2,0,
+plc4x,23,9,
+poi,0,0,
 polygene-java,0,0,
  
 more inside classes mocked: ,more outside classes mocked: 
-4,1
+1,2

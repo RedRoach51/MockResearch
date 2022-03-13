@@ -1,0 +1,43 @@
+/parquet-column/src/test/java/org/apache/parquet/column/values/dictionary/TestDictionary.java
+	org.apache.parquet.io.api.Binary
+/parquet-hadoop/src/test/java/org/apache/parquet/filter2/dictionarylevel/DictionaryFilterTest.java
+	org.apache.parquet.column.page.DictionaryPageReadStore
+	org.apache.parquet.column.page.DictionaryPageReadStore
+/parquet-hadoop/src/test/java/org/apache/parquet/hadoop/TestColumnChunkPageWriteStore.java
+	org.apache.parquet.hadoop.ParquetFileWriter
+/parquet-hadoop/src/test/java/org/apache/parquet/hadoop/TestInputFormat.java
+	org.apache.parquet.hadoop.metadata.ParquetMetadata
+/parquet-hadoop/src/test/java/org/apache/parquet/hadoop/TestParquetFileWriter.java
+	org.apache.parquet.hadoop.metadata.ParquetMetadata
+/parquet-protobuf/src/test/java/org/apache/parquet/proto/ProtoWriteSupportTest.java
+	org.apache.parquet.io.api.RecordConsumer
+	org.apache.parquet.io.api.RecordConsumer
+	org.apache.parquet.io.api.RecordConsumer
+	org.apache.parquet.io.api.RecordConsumer
+	org.apache.parquet.io.api.RecordConsumer
+	org.apache.parquet.io.api.RecordConsumer
+	org.apache.parquet.io.api.RecordConsumer
+	org.apache.parquet.io.api.RecordConsumer
+	org.apache.parquet.io.api.RecordConsumer
+	org.apache.parquet.io.api.RecordConsumer
+	org.apache.parquet.io.api.RecordConsumer
+	org.apache.parquet.io.api.RecordConsumer
+	org.apache.parquet.io.api.RecordConsumer
+	org.apache.parquet.io.api.RecordConsumer
+	org.apache.parquet.io.api.RecordConsumer
+	org.apache.parquet.io.api.RecordConsumer
+	org.apache.parquet.io.api.RecordConsumer
+	org.apache.parquet.io.api.RecordConsumer
+	org.apache.parquet.io.api.RecordConsumer
+	org.apache.parquet.io.api.RecordConsumer
+	org.apache.parquet.io.api.RecordConsumer
+	org.apache.parquet.io.api.RecordConsumer
+	org.apache.parquet.io.api.RecordConsumer
+	org.apache.parquet.io.api.RecordConsumer
+	org.apache.parquet.io.api.RecordConsumer
+	org.apache.parquet.io.api.RecordConsumer
+	org.apache.parquet.io.api.RecordConsumer
+	org.apache.parquet.io.api.RecordConsumer
+	org.apache.parquet.io.api.RecordConsumer
+	org.apache.parquet.io.api.RecordConsumer
+/parquet-thrift/src/test/java/org/apache/parquet/thrift/projection/TestStrictFieldProjectionFilter.java

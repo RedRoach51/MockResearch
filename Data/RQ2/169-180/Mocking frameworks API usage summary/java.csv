@@ -1,6 +1,2 @@
 method, origin, count
 getName,java.lang.Class<TestPigServerLocal.MockTrackingStorage>,1
-
-MockedObjects: ,0
-
-# of Mocked objects each file:,

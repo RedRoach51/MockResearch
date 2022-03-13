@@ -247,6 +247,8 @@ plc4x,plc4x\plc4j\tools\scraper\src\test\java\org\apache\plc4x\java\scraper\Scra
 plc4x,plc4x\plc4j\tools\scraper\src\test\java\org\apache\plc4x\java\scraper\triggeredscraper\TriggeredScraperImplTest.java,mockito,org.mockito.Mockito
 plc4x,plc4x\plc4j\tools\scraper\src\test\java\org\apache\plc4x\java\scraper\triggeredscraper\TriggeredScraperImplTest.java,mockito,static org.mockito.Mockito.when
 plc4x,plc4x\plc4j\tools\scraper\src\test\java\org\apache\plc4x\java\scraper\triggeredscraper\triggerhandler\TriggerConfigurationTest.java,mockito,org.mockito.Mockito
+poi,poi\poi-ooxml\src\test\java\org\apache\poi\xdgf\usermodel\section\geometry\TestArcTo.java,mockito,static org.mockito.Mockito.mock
+poi,poi\poi-ooxml\src\test\java\org\apache\poi\xdgf\usermodel\section\geometry\TestArcTo.java,mockito,static org.mockito.Mockito.when
 poi,poi\poi-ooxml\src\test\java\org\apache\poi\xslf\usermodel\TestPPTX2PNG.java,mockito,org.mockito.internal.util.io.IOUtil
 poi,poi\poi-ooxml\src\test\java\org\apache\poi\xssf\streaming\TestSXSSFCell.java,mockito,static org.mockito.Mockito.spy
 poi,poi\poi\src\test\java\org\apache\poi\ss\usermodel\BaseTestCell.java,mockito,static org.mockito.Mockito.doCallRealMethod

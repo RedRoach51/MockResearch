@@ -1,0 +1,3 @@
+/pdfbox_pdfbox/src/test/java/org/apache/pdfbox/pdmodel/font/TestFontEmbedding.java
+	org.apache.fontbox.ttf.TrueTypeFont
+	org.apache.fontbox.ttf.OS2WindowsMetricsTable

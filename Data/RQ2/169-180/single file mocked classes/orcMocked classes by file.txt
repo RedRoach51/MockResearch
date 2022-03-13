@@ -1,0 +1,24 @@
+/core/src/test/org/apache/orc/TestVectorOrcFile.java
+	org.apache.orc.Reader
+	org.apache.orc.Reader
+	org.apache.orc.Reader
+/core/src/test/org/apache/orc/impl/TestOutStream.java
+	org.apache.orc.PhysicalWriter.OutputReceiver
+/core/src/test/org/apache/orc/impl/TestDataReaderProperties.java
+	java.util.function.Supplier
+	org.apache.hadoop.fs.Path
+/core/src/test/org/apache/orc/impl/TestMemoryManager.java
+	org.apache.orc.MemoryManager.Callback
+/core/src/test/org/apache/orc/impl/TestRecordReaderImpl.java
+	org.apache.hadoop.fs.FileSystem
+	org.apache.orc.DataReader
+	org.apache.orc.DataReader
+	org.apache.orc.DataReader
+	org.apache.orc.DataReader
+	org.apache.orc.DataReader
+	org.apache.orc.DataReader
+/core/src/test/org/apache/orc/impl/TestOrcLargeStripe.java
+	org.apache.hadoop.fs.FSDataInputStream
+	org.apache.orc.impl.HadoopShims.ZeroCopyReaderShim
+/mapreduce/src/test/org/apache/orc/mapred/TestOrcFileEvolution.java
+	org.apache.hadoop.mapred.Reporter

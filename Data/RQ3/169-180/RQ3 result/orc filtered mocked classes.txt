@@ -13,4 +13,5 @@ Outside classes:
 java.util.function.Supplier
 org.apache.hadoop.fs.Path
 org.apache.hadoop.fs.FileSystem
+org.apache.hadoop.fs.FSDataInputStream
 org.apache.hadoop.mapred.Reporter

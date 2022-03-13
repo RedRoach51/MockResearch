@@ -1,0 +1,2 @@
+org.apache.fontbox.ttf.TrueTypeFont
+org.apache.fontbox.ttf.OS2WindowsMetricsTable

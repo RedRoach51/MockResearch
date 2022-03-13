@@ -1,18 +1,18 @@
 method, origin, count
-mock,org.mockito.Mockito,114
-thenReturn,org.mockito.stubbing.OngoingStubbing<java.lang.Boolean>,16
-when,org.mockito.Mockito,96
-verify,org.mockito.Mockito,18
-never,org.mockito.Mockito,2
-times,org.mockito.Mockito,12
-anyString,org.mockito.ArgumentMatchers,12
-getArgument,org.mockito.invocation.InvocationOnMock,10
-any,org.mockito.ArgumentMatchers,44
-timeout,org.mockito.Mockito,6
-then,org.mockito.stubbing.OngoingStubbing<java.lang.Object>,4
-forClass,org.mockito.ArgumentCaptor,2
-doNothing,org.mockito.Mockito,2
+mock,org.mockito.Mockito,57
+thenReturn,org.mockito.stubbing.OngoingStubbing<java.lang.Boolean>,8
+when,org.mockito.Mockito,48
+verify,org.mockito.Mockito,9
+never,org.mockito.Mockito,1
+times,org.mockito.Mockito,6
+anyString,org.mockito.ArgumentMatchers,6
+getArgument,org.mockito.invocation.InvocationOnMock,5
+any,org.mockito.ArgumentMatchers,22
+timeout,org.mockito.Mockito,3
+then,org.mockito.stubbing.OngoingStubbing<java.lang.Object>,2
+forClass,org.mockito.ArgumentCaptor,1
+doNothing,org.mockito.Mockito,1
 
-MockedObjects: ,114
+MockedObjects: ,57
 
-# of Mocked objects each file:,7|5|2|2|2|4|22|1|1|3|2|3|2|1|7|5|2|2|2|4|22|1|1|3|2|3|2|1|
+# of Mocked objects each file:,7|5|2|2|2|4|22|1|1|3|2|3|2|1|

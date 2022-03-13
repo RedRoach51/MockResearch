@@ -1,3 +1,5 @@
+/parquet-column/src/test/java/org/apache/parquet/column/values/dictionary/TestDictionary.java
+Methods Invoked: 
 	Method name: mock
 	Class origin: org.mockito.Mockito
 	Count: 1
@@ -10,6 +12,8 @@
 	Class origin: org.mockito.Mockito
 	Count: 2
  
+/parquet-hadoop/src/test/java/org/apache/parquet/filter2/dictionarylevel/DictionaryFilterTest.java
+Methods Invoked: 
 	Method name: mock
 	Class origin: org.mockito.Mockito
 	Count: 2
@@ -18,6 +22,8 @@
 	Class origin: org.mockito.Mockito
 	Count: 2
  
+/parquet-hadoop/src/test/java/org/apache/parquet/hadoop/TestColumnChunkPageWriteStore.java
+Methods Invoked: 
 	Method name: mock
 	Class origin: org.mockito.Mockito
 	Count: 1
@@ -34,10 +40,14 @@
 	Class origin: org.mockito.Matchers
 	Count: 6
  
+/parquet-hadoop/src/test/java/org/apache/parquet/hadoop/TestInputFormat.java
+Methods Invoked: 
 	Method name: mock
 	Class origin: org.mockito.Mockito
 	Count: 1
  
+/parquet-hadoop/src/test/java/org/apache/parquet/hadoop/TestParquetFileWriter.java
+Methods Invoked: 
 	Method name: mock
 	Class origin: org.mockito.Mockito
 	Count: 1
@@ -46,6 +56,8 @@
 	Class origin: org.mockito.Mockito
 	Count: 1
  
+/parquet-protobuf/src/test/java/org/apache/parquet/proto/ProtoWriteSupportTest.java
+Methods Invoked: 
 	Method name: mock
 	Class origin: org.mockito.Mockito
 	Count: 30
@@ -58,6 +70,8 @@
 	Class origin: org.mockito.InOrder
 	Count: 371
  
+/parquet-thrift/src/test/java/org/apache/parquet/thrift/projection/TestStrictFieldProjectionFilter.java
+Methods Invoked: 
 	Method name: createMockBuilder
 	Class origin: org.easymock.EasyMock
 	Count: 1

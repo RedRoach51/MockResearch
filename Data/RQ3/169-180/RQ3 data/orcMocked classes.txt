@@ -1,0 +1,17 @@
+org.apache.orc.Reader
+org.apache.orc.Reader
+org.apache.orc.Reader
+org.apache.orc.PhysicalWriter.OutputReceiver
+java.util.function.Supplier
+org.apache.hadoop.fs.Path
+org.apache.orc.MemoryManager.Callback
+org.apache.hadoop.fs.FileSystem
+org.apache.orc.DataReader
+org.apache.orc.DataReader
+org.apache.orc.DataReader
+org.apache.orc.DataReader
+org.apache.orc.DataReader
+org.apache.orc.DataReader
+org.apache.hadoop.fs.FSDataInputStream
+org.apache.orc.impl.HadoopShims.ZeroCopyReaderShim
+org.apache.hadoop.mapred.Reporter

@@ -13,12 +13,16 @@ org.apache.plc4x.java.utils.connectionpool2.PlcConnectionFactory
 org.apache.plc4x.java.mock.connection.MockConnection
 org.apache.plc4x.java.utils.connectionpool2.CachedDriverManager
 org.apache.plc4x.java.api.PlcDriver
+org.apache.plc4x.java.simulated.connection.SimulatedDevice
 org.apache.plc4x.java.api.model.PlcSubscriptionHandle
 org.apache.plc4x.java.api.model.PlcConsumerRegistration
+org.apache.plc4x.java.mock.connection.MockDevice
 org.apache.plc4x.java.PlcDriverManager
 org.apache.plc4x.java.api.messages.PlcReadRequest
-org.apache.plc4x.java.mock.connection.MockDevice
 org.apache.plc4x.java.scraper.triggeredscraper.TriggeredScrapeJobImpl
+org.apache.plc4x.java.spi.Plc4xProtocolBase<java.util.Date>
+java.util.function.Consumer<org.apache.plc4x.java.spi.internal.HandlerRegistration>
+org.apache.plc4x.java.spi.Plc4xNettyWrapper.DefaultConversationContext
  
  
  
@@ -28,4 +32,8 @@ org.apache.camel.Exchange
 org.apache.camel.Component
 org.apache.camel.Processor
 java.util.function.Consumer
+java.util.concurrent.Callable
 java.util.concurrent.CompletableFuture
+io.netty.channel.ChannelPipeline
+io.netty.channel.ChannelHandlerContext
+io.netty.channel.Channel

@@ -1,3 +1,5 @@
+/core/src/test/org/apache/orc/TestVectorOrcFile.java
+Methods Invoked: 
 	Method name: mock
 	Class origin: org.mockito.Mockito
 	Count: 3
@@ -6,6 +8,8 @@
 	Class origin: org.mockito.Mockito
 	Count: 6
  
+/core/src/test/org/apache/orc/impl/TestOutStream.java
+Methods Invoked: 
 	Method name: mock
 	Class origin: org.mockito.Mockito
 	Count: 1
@@ -18,10 +22,14 @@
 	Class origin: org.mockito.ArgumentMatchers
 	Count: 1
  
+/core/src/test/org/apache/orc/impl/TestDataReaderProperties.java
+Methods Invoked: 
 	Method name: mock
 	Class origin: org.mockito.Mockito
 	Count: 2
  
+/core/src/test/org/apache/orc/impl/TestMemoryManager.java
+Methods Invoked: 
 	Method name: mock
 	Class origin: org.mockito.Mockito
 	Count: 1
@@ -34,6 +42,8 @@
 	Class origin: org.mockito.ArgumentMatchers
 	Count: 1
  
+/core/src/test/org/apache/orc/impl/TestRecordReaderImpl.java
+Methods Invoked: 
 	Method name: mock
 	Class origin: org.mockito.Mockito
 	Count: 7
@@ -46,6 +56,8 @@
 	Class origin: org.mockito.ArgumentMatchers
 	Count: 2
  
+/core/src/test/org/apache/orc/impl/TestOrcLargeStripe.java
+Methods Invoked: 
 	Method name: mock
 	Class origin: org.mockito.Mockito
 	Count: 1
@@ -70,6 +82,8 @@
 	Class origin: org.mockito.Mockito
 	Count: 9
  
+/mapreduce/src/test/org/apache/orc/mapred/TestOrcFileEvolution.java
+Methods Invoked: 
 	Method name: mock
 	Class origin: org.mockito.Mockito
 	Count: 1
