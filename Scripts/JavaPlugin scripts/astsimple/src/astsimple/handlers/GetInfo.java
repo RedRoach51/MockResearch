@@ -225,6 +225,33 @@ public class GetInfo extends AbstractHandler{
             			file_stated = true;
             		}
         			
+
+					if(import_calculated == false) {
+            			//make sure this only executes once inside the for loop
+                		ImportVisitor imports = new ImportVisitor();
+                        parse.accept(imports);
+                        
+                        for(ImportDeclaration x: imports.getImportDeclarations()) {
+                        	All_imports_in_one_file.add(x);
+                        }
+                        
+                        for(String y : imports.getAnnotationMocks()) {//From importVisitor.java, it only contains annotations that are use to create mock.
+                        	
+                        	mocked_classes.add("	" + y);
+                        	mocked_classes_2.add(y);
+                        }
+                        
+                        for(ImportDeclaration imports2 : All_imports_in_one_file) {
+//                    		for(ImportDeclaration imports2 : imports.getImportDeclarations()) {
+                        		all_imports.add("	" + imports2.getName().getFullyQualifiedName());
+//                        		System.out.println(unit.getPath().toString());
+//                        		System.out.println(imports2.getName().getFullyQualifiedName()+ "3333333333333333333333333333333333333333333");
+                        		
+                        }
+                        
+                        
+                        import_calculated = true;
+            		}
         			
         			
         			
