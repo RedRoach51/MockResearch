@@ -464,7 +464,28 @@
 	org.junit.Assert.assertNotNull
 	org.junit.Assert.assertNull
 /log4j-spring-boot/src/test/java/org/apache/logging/log4j/spring/boot/SpringProfileTest.java
+	java.io.File
+	org.apache.logging.log4j.LogManager
+	org.apache.logging.log4j.core.Appender
+	org.apache.logging.log4j.core.LoggerContext
+	org.apache.logging.log4j.core.appender.ConsoleAppender
+	org.apache.logging.log4j.test.appender.ListAppender
+	org.junit.BeforeClass
+	org.junit.Test
+	org.springframework.mock.env.MockEnvironment
+	org.junit.jupiter.api.Assertions.assertNotNull
+	org.junit.jupiter.api.Assertions.assertTrue
 /log4j-taglib/src/test/java/org/apache/logging/log4j/taglib/EnterTagTest.java
+	java.util.List
+	javax.servlet.jsp.tagext.Tag
+	org.apache.logging.log4j.Logger
+	org.apache.logging.log4j.junit.LoggerContextRule
+	org.apache.logging.log4j.test.appender.ListAppender
+	org.junit.Before
+	org.junit.ClassRule
+	org.junit.Test
+	org.springframework.mock.web.MockPageContext
+	org.junit.Assert
 /log4j-taglib/src/test/java/org/apache/logging/log4j/taglib/DumpTagTest.java
 	java.io.ByteArrayOutputStream
 	java.io.OutputStreamWriter
@@ -480,6 +501,16 @@
 	org.springframework.mock.web.MockPageContext
 	org.junit.Assert
 /log4j-taglib/src/test/java/org/apache/logging/log4j/taglib/IfEnabledTagTest.java
+	javax.servlet.jsp.tagext.Tag
+	org.apache.logging.log4j.Level
+	org.apache.logging.log4j.Logger
+	org.apache.logging.log4j.MarkerManager
+	org.apache.logging.log4j.junit.LoggerContextRule
+	org.junit.Before
+	org.junit.ClassRule
+	org.junit.Test
+	org.springframework.mock.web.MockPageContext
+	org.junit.Assert
 /log4j-taglib/src/test/java/org/apache/logging/log4j/taglib/SetLoggerTagTest.java
 	javax.servlet.jsp.PageContext
 	javax.servlet.jsp.tagext.Tag
@@ -494,9 +525,55 @@
 	org.springframework.mock.web.MockPageContext
 	org.junit.Assert
 /log4j-taglib/src/test/java/org/apache/logging/log4j/taglib/ExitTagTest.java
+	java.util.List
+	javax.servlet.jsp.tagext.Tag
+	org.apache.logging.log4j.Logger
+	org.apache.logging.log4j.junit.LoggerContextRule
+	org.apache.logging.log4j.test.appender.ListAppender
+	org.junit.Before
+	org.junit.ClassRule
+	org.junit.Test
+	org.springframework.mock.web.MockPageContext
+	org.junit.Assert
 /log4j-taglib/src/test/java/org/apache/logging/log4j/taglib/CatchingTagTest.java
+	java.util.List
+	javax.servlet.jsp.tagext.Tag
+	org.apache.logging.log4j.Level
+	org.apache.logging.log4j.Logger
+	org.apache.logging.log4j.junit.LoggerContextRule
+	org.apache.logging.log4j.test.appender.ListAppender
+	org.junit.Before
+	org.junit.ClassRule
+	org.junit.Test
+	org.springframework.mock.web.MockPageContext
+	org.junit.Assert
 /log4j-taglib/src/test/java/org/apache/logging/log4j/taglib/LoggingMessageTagSupportTest.java
+	java.io.Writer
+	java.util.List
+	java.util.concurrent.TimeUnit
+	javax.servlet.jsp.tagext.BodyTag
+	javax.servlet.jsp.tagext.Tag
+	org.apache.logging.log4j.Level
+	org.apache.logging.log4j.Logger
+	org.apache.logging.log4j.MarkerManager
+	org.apache.logging.log4j.junit.LoggerContextRule
+	org.apache.logging.log4j.test.appender.ListAppender
+	org.junit.ClassRule
+	org.junit.Test
+	org.springframework.mock.web.MockBodyContent
+	org.springframework.mock.web.MockPageContext
+	org.junit.Assert
 /log4j-web/src/test/java/org/apache/logging/log4j/web/ServletAppenderTest.java
+	javax.servlet.ServletContext
+	org.apache.logging.log4j.LogManager
+	org.apache.logging.log4j.Logger
+	org.apache.logging.log4j.core.Appender
+	org.apache.logging.log4j.core.LoggerContext
+	org.apache.logging.log4j.core.config.Configuration
+	org.apache.logging.log4j.core.impl.ContextAnchor
+	org.junit.jupiter.api.Test
+	org.springframework.mock.web.MockServletContext
+	org.junit.jupiter.api.Assertions
 /log4j-web/src/test/java/org/apache/logging/log4j/web/Log4jServletContextListenerTest.java
 	javax.servlet.ServletContext
 	javax.servlet.ServletContextEvent
