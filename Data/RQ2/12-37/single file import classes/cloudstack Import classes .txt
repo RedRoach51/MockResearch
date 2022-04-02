@@ -10349,6 +10349,16 @@
 	org.mockito.Mockito
 	com.cloud.utils.SwiftUtil.SwiftClientCfg
 /cloud-utils/src/test/java/com/cloud/utils/HttpUtilsTest.java
+	org.junit.Test
+	org.springframework.mock.web.MockHttpSession
+	javax.servlet.http.Cookie
+	javax.servlet.http.HttpSession
+	java.util.HashMap
+	java.util.Map
+	org.junit.Assert.assertFalse
+	org.junit.Assert.assertNotNull
+	org.junit.Assert.assertNull
+	org.junit.Assert.assertTrue
 /cloud-utils/src/test/java/com/cloud/utils/ScriptTest.java
 	java.io.BufferedReader
 	java.io.IOException

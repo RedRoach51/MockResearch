@@ -980,6 +980,30 @@
 	org.easymock.EasyMock.anyObject
 	org.easymock.EasyMock.eq
 /archiva-webdav/src/test/java/org/apache/archiva/webdav/ArchivaDavSessionProviderTest.java
+	junit.framework.TestCase
+	org.apache.archiva.redback.authentication.AuthenticationDataSource
+	org.apache.archiva.redback.authentication.AuthenticationException
+	org.apache.archiva.redback.authentication.AuthenticationResult
+	org.apache.archiva.redback.authorization.AuthorizationException
+	org.apache.archiva.redback.authorization.UnauthorizedException
+	org.apache.archiva.redback.integration.filter.authentication.HttpAuthenticator
+	org.apache.archiva.redback.policy.AccountLockedException
+	org.apache.archiva.redback.policy.MustChangePasswordException
+	org.apache.archiva.redback.system.SecuritySession
+	org.apache.archiva.redback.users.User
+	org.apache.archiva.security.ServletAuthenticator
+	org.apache.archiva.test.utils.ArchivaBlockJUnit4ClassRunner
+	org.apache.jackrabbit.webdav.DavSessionProvider
+	org.apache.jackrabbit.webdav.WebdavRequest
+	org.apache.jackrabbit.webdav.WebdavRequestImpl
+	org.junit.Before
+	org.junit.Test
+	org.junit.runner.RunWith
+	org.springframework.mock.web.MockHttpServletRequest
+	javax.servlet.http.HttpServletRequest
+	javax.servlet.http.HttpServletResponse
+	javax.servlet.http.HttpSession
+	java.io.IOException
 /archiva-webdav/src/test/java/org/apache/archiva/webdav/RepositoryServletNoProxyTest.java
 	com.gargoylesoftware.htmlunit.WebRequest
 	com.gargoylesoftware.htmlunit.WebResponse
