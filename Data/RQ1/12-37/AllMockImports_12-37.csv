@@ -4824,6 +4824,8 @@ chemistry-opencmis,chemistry-opencmis\chemistry-opencmis-server\chemistry-opencm
 chemistry-opencmis,chemistry-opencmis\chemistry-opencmis-server\chemistry-opencmis-server-bindings\src\test\java\org\apache\chemistry\opencmis\server\impl\ProxyRequestTest.java,mockito,static org.mockito.Mockito.when
 chemistry-opencmis,chemistry-opencmis\chemistry-opencmis-server\chemistry-opencmis-server-bindings\src\test\java\org\apache\chemistry\opencmis\server\impl\ProxyRequestTest.java,mockito,org.mockito.Mock
 chemistry-opencmis,chemistry-opencmis\chemistry-opencmis-server\chemistry-opencmis-server-bindings\src\test\java\org\apache\chemistry\opencmis\server\impl\ProxyRequestTest.java,mockito,org.mockito.MockitoAnnotations
+chukwa,chukwa\core\\src\test\java\org\apache\hadoop\chukwa\datacollection\agent\rest\TestAdaptorController.java,springframework,org.springframework.mock.web.MockHttpServletRequest
+chukwa,chukwa\core\\src\test\java\org\apache\hadoop\chukwa\datacollection\agent\rest\TestAdaptorController.java,springframework,org.springframework.mock.web.MockHttpServletResponse
 clerezza,clerezza\dataset\src\test\java\org\apache\clerezza\dataset\TcManagerTest.java,mockito,org.mockito.Mockito
 cloudstack,cloudstack\agent\src\test\java\com\cloud\agent\properties\AgentPropertiesFileHandlerTest.java,mockito,org.mockito.Mock
 cloudstack,cloudstack\agent\src\test\java\com\cloud\agent\properties\AgentPropertiesFileHandlerTest.java,mockito,org.mockito.Mockito

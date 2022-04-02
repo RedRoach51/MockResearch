@@ -42,6 +42,7 @@ cayenne,mockito,104
 cayenne,mockrunner,18
 cayenne,springframework,1
 chemistry-opencmis,mockito,4
+chukwa,springframework,1
 clerezza,mockito,1
 cloudstack,mockito,343
 cloudstack,powermock,67
