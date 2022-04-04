@@ -1,13 +1,3 @@
-/deltaspike-cdictrl-owb/src/main/java/org/apache/deltaspike/cdise/owb/OwbHelper.java
-	javax.servlet.http.HttpSession
-/deltaspike-cdictrl-owb/src/main/java/org/apache/deltaspike/cdise/owb/MockServletContext.java
-	javax.servlet.ServletContext
-/deltaspike-test-control-module-impl/src/main/java/org/apache/deltaspike/testcontrol/impl/jsf/MockedJsf2TestContainer.java
-	javax.servlet.ServletContext
-	javax.servlet.ServletConfig
-	javax.servlet.http.HttpServletRequest
-	javax.servlet.http.HttpServletResponse
-	javax.servlet.http.HttpSession
 /deltaspike-test-control-module-impl/src/test/java/org/apache/deltaspike/test/testcontrol/mock/uc010/MockedRequestScopedBeanTest.java
 	org.apache.deltaspike.test.testcontrol.mock.shared.RequestScopedBean
 	org.apache.deltaspike.test.testcontrol.mock.shared.RequestScopedBean

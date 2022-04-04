@@ -15,8 +15,3 @@
 	org.mockito.Matchers.anyString
 	org.mockito.Mockito.verify
 	org.mockito.Mockito.when
-/commons-chain2-web/src/test/java/org/apache/commons/chain2/web/servlet/ServletGetLocaleCommandTestCase.java
-/commons-chain2-web/src/test/java/org/apache/commons/chain2/web/servlet/ServletSetLocaleCommandTestCase.java
-/commons-chain2-web/src/test/java/org/apache/commons/chain2/web/servlet/ServletWebContextBaseTestCase.java
-/commons-chain2-web/src/test/java/org/apache/commons/chain2/web/servlet/MockServletConfig.java
-/commons-chain2-web/src/test/java/org/apache/commons/chain2/web/servlet/ChainProcessorTestCase.java

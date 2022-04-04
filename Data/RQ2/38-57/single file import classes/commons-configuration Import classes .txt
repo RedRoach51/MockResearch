@@ -1151,8 +1151,6 @@
 	org.apache.commons.configuration2.convert.DefaultListDelimiterHandler
 	org.junit.Test
 	com.mockobjects.servlet.MockServletConfig
-/commons-configuration2/src/test/java/org/apache/commons/configuration2/web/TestServletFilterConfiguration.java
-/commons-configuration2/src/test/java/org/apache/commons/configuration2/web/TestServletRequestConfiguration.java
 /commons-configuration2/src/test/java/org/apache/commons/configuration2/web/TestServletContextConfiguration.java
 	java.util.Enumeration
 	java.util.Properties

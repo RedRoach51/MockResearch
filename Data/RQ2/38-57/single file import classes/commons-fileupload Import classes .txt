@@ -1,6 +1,0 @@
-/commons-fileupload2/src/test/java/org/apache/commons/fileupload2/Util.java
-/commons-fileupload2/src/test/java/org/apache/commons/fileupload2/HttpServletRequestFactory.java
-/commons-fileupload2/src/test/java/org/apache/commons/fileupload2/SizesTest.java
-/commons-fileupload2/src/test/java/org/apache/commons/fileupload2/StreamingTest.java
-/commons-fileupload2/src/test/java/org/apache/commons/fileupload2/ProgressListenerTest.java
-/commons-fileupload2/src/test/java/org/apache/commons/fileupload2/servlet/ServletFileUploadTest.java

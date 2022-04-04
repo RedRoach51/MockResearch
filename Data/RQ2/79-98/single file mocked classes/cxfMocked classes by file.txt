@@ -603,7 +603,6 @@
 /cxf-rt-rs-sse/src/test/java/org/apache/cxf/jaxrs/sse/SseEventSinkContextProviderTest.java
 	javax.servlet.http.HttpServletResponse
 	javax.servlet.http.HttpServletRequest
-	org.springframework.mock.web.MockAsyncContext
 	org.apache.cxf.message.Exchange
 	org.apache.cxf.endpoint.Endpoint
 	org.apache.cxf.continuations.ContinuationProvider

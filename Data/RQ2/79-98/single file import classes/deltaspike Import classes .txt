@@ -1,6 +1,3 @@
-/deltaspike-cdictrl-owb/src/main/java/org/apache/deltaspike/cdise/owb/OwbHelper.java
-/deltaspike-cdictrl-owb/src/main/java/org/apache/deltaspike/cdise/owb/MockServletContext.java
-/deltaspike-test-control-module-impl/src/main/java/org/apache/deltaspike/testcontrol/impl/jsf/MockedJsf2TestContainer.java
 /deltaspike-test-control-module-impl/src/test/java/org/apache/deltaspike/test/testcontrol/mock/uc010/MockedRequestScopedBeanTest.java
 	org.apache.deltaspike.test.category.SeCategory
 	org.apache.deltaspike.test.testcontrol.mock.shared.RequestScopedBean

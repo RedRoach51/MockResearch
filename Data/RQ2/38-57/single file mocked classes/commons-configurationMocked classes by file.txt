@@ -301,15 +301,4 @@
 	org.apache.commons.jxpath.JXPathContext
 	org.apache.commons.configuration2.tree.xpath.XPathContextFactory
 /commons-configuration2/src/test/java/org/apache/commons/configuration2/web/TestServletConfiguration.java
-	javax.servlet.ServletConfig
-	javax.servlet.ServletConfig
-/commons-configuration2/src/test/java/org/apache/commons/configuration2/web/TestServletFilterConfiguration.java
-	javax.servlet.FilterConfig
-	javax.servlet.FilterConfig
-/commons-configuration2/src/test/java/org/apache/commons/configuration2/web/TestServletRequestConfiguration.java
-	com.mockobjects.servlet.MockHttpServletRequest
-	com.mockobjects.servlet.MockHttpServletRequest
 /commons-configuration2/src/test/java/org/apache/commons/configuration2/web/TestServletContextConfiguration.java
-	com.mockobjects.servlet.MockServletContext
-	javax.servlet.ServletConfig
-	com.mockobjects.servlet.MockServletContext

@@ -4601,6 +4601,36 @@
 	org.junit.Assert
 	org.junit.Test
 /cxf-spring-boot-autoconfigure/src/test/java/org/apache/cxf/spring/boot/autoconfigure/CxfAutoConfigurationTest.java
+	java.util.Map
+	org.apache.cxf.endpoint.Server
+	org.apache.cxf.endpoint.ServerImpl
+	org.apache.cxf.helpers.CastUtils
+	org.apache.cxf.spring.boot.jaxrs.CustomJaxRSServer
+	org.hamcrest.Matcher
+	org.springframework.beans.factory.UnsatisfiedDependencyException
+	org.springframework.boot.context.properties.ConfigurationPropertiesBindException
+	org.springframework.boot.context.properties.bind.BindException
+	org.springframework.boot.context.properties.bind.validation.BindValidationException
+	org.springframework.boot.test.util.TestPropertyValues
+	org.springframework.boot.web.servlet.ServletRegistrationBean
+	org.springframework.mock.web.MockServletContext
+	org.springframework.test.util.ReflectionTestUtils
+	org.springframework.web.context.support.AnnotationConfigWebApplicationContext
+	org.junit.After
+	org.junit.Rule
+	org.junit.Test
+	org.junit.rules.ExpectedException
+	org.hamcrest.MatcherAssert.assertThat
+	org.hamcrest.Matchers.allOf
+	org.hamcrest.Matchers.containsString
+	org.hamcrest.Matchers.equalTo
+	org.hamcrest.Matchers.hasEntry
+	org.hamcrest.Matchers.hasItem
+	org.hamcrest.Matchers.hasProperty
+	org.hamcrest.Matchers.instanceOf
+	org.hamcrest.collection.IsEmptyCollection.empty
+	org.junit.Assert.assertFalse
+	org.junit.Assert.assertTrue
 /cxf-spring-boot-autoconfigure/src/test/java/org/apache/cxf/spring/boot/autoconfigure/micrometer/provider/SpringBasedTimedAnnotationProviderTest.java
 	java.lang.reflect.Method
 	java.util.Set
